@@ -1,0 +1,64 @@
+{% extends "base.njk" %}
+
+{% block title %}All Shows{% endblock %}
+
+{% block content %}
+<p>Total shows: {{ shows | length }}</p>
+<h1>All Shows</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Artist</th>
+      <th>Date</th>
+      <th>Location</th>
+      <th>Length</th>
+      <th>Format</th>
+      <th>Type</th>
+      <th>Source</th>
+      <th>Taper(s)</th>
+      <th>Images</th>
+      <th>Page</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for show in shows | sort(attribute='startDateUnix') | reverse %}
+    <tr>
+      <td>{{ show.bands | join(", ") }}</td>
+      <td>{{ show.startDateUnix | date("yyyy-MM-dd") }}</td>
+      <td>
+        {{ show.location.city }}{% if show.location.state %}, {{ show.location.state }}{% endif %}, {{ show.location.country }}<br>
+        {{ show.location.venue }}
+      </td>
+      <td>
+        {% if show.specs.length %}
+			{{ show.specs.length | formatTime }}
+        {% else %}
+          —
+        {% endif %}
+      </td>
+      <td>{{ show.specs.sourceDetail.fileFormat or "—" }}</td>
+      <td>{{ show.specs.sourceDetail.recordingType or "—" }}</td>
+      <td>{{ show.source or "—" }}</td>
+      <td>
+        {% if show.tapers.length %}
+          {{ show.tapers | join(", ") }}
+        {% else %}
+          —
+        {% endif %}
+      </td>
+      <td>
+        {% for img in show.images | slice(0, 4) %}
+          <img src="https://drive.google.com/thumbnail?id={{ img.externalId }}&sz=w40" alt="thumb" width="40" height="auto" style="margin-right: 2px;">
+        {% endfor %}
+      </td>
+      <td>
+        <a href="/shows/{{ show.fileSlug }}/" title="View">
+          🔗
+        </a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
