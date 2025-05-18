@@ -1,39 +1,22 @@
-const fs = require("fs");
-const path = require("path");
 const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
-  // ✅ Date formatter
+  // ✅ Format UNIX timestamp (seconds) into human-readable date
   eleventyConfig.addFilter("date", (timestamp, format = "yyyy-MM-dd") => {
+    if (!timestamp) return "—";
     return DateTime.fromSeconds(timestamp).toFormat(format);
   });
 
-  // ✅ Duration formatter
+  // ✅ Format seconds into HH:MM:SS
   eleventyConfig.addFilter("formatTime", (seconds) => {
+    if (!seconds || typeof seconds !== "number") return "—";
     const h = Math.floor(seconds / 3600).toString().padStart(2, "0");
     const m = Math.floor((seconds % 3600) / 60).toString().padStart(2, "0");
     const s = (seconds % 60).toString().padStart(2, "0");
     return `${h}:${m}:${s}`;
   });
 
-  // ✅ Ignore raw JSON from being compiled
-  eleventyConfig.ignores.add("src/data/*.json");
-
-  // ✅ Load all JSON as global `shows`
-  eleventyConfig.addGlobalData("shows", () => {
-    const dataDir = "./src/data";
-    const files = fs.readdirSync(dataDir).filter(f => f.endsWith(".json") && f !== "shows.json");
-
-    return files.map(file => {
-      const json = JSON.parse(fs.readFileSync(`${dataDir}/${file}`, "utf-8"));
-      return {
-        ...json,
-        fileSlug: file.replace(/\.json$/, ""),
-        permalink: `/shows/${file.replace(/\.json$/, "")}/index.html`
-      };
-    });
-  });
-
+  // ✅ Directories and formats
   return {
     dir: {
       input: "src",
