@@ -1,0 +1,37 @@
+{% extends "base.njk" %}
+
+{% block title %}
+  {% if bands %}
+    {{ bands | join(", ") }}
+  {% else %}
+    Unknown Show
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+  <h1>
+    {% if bands %}
+      {{ bands | join(", ") }}
+    {% else %}
+      Unknown Band
+    {% endif %}
+  </h1>
+
+  {% if startDate and startDate.day and startDate.month and startDate.year %}
+    <p><strong>Date:</strong> {{ startDate.day }}.{{ startDate.month }}.{{ startDate.year }}</p>
+  {% else %}
+    <p><strong>Date:</strong> —</p>
+  {% endif %}
+
+  {% if location %}
+    <p><strong>Location:</strong>
+      {{ location.city or "" }}{% if location.state %}, {{ location.state }}{% endif %}, {{ location.country or "" }}
+    </p>
+    <p><strong>Venue:</strong> {{ location.venue or "—" }}</p>
+    <p><strong>Event:</strong> {{ location.event or "—" }}</p>
+  {% else %}
+    <p><strong>Location:</strong> —</p>
+    <p><strong>Venue:</strong> —</p>
+    <p><strong>Event:</strong> —</p>
+  {% endif %}
+{% endblock %}

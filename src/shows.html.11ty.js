@@ -11,15 +11,10 @@ exports.data = () => {
 
     return {
       data: {
-        layout: "templates/show.njk",
-        permalink: `/shows/${filename.replace(/\.json$/, "")}/index.html`
-      },
-      ...show,
-      fileSlug: filename.replace(/\.json$/, "")
+        layout: "templates/shows.njk",  // ✅ match the layout path
+        permalink: `/shows/${filename.replace(/\.json$/, "")}/index.html`,
+        ...show                          // ✅ this makes data available in layout
+      }
     };
   });
-};
-
-exports.render = function (data) {
-  return data;
 };

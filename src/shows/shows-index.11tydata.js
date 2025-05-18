@@ -1,8 +1,8 @@
-module.exports = () => {
-  const fs = require("fs");
-  const path = require("path");
+const fs = require("fs");
+const path = require("path");
 
-  const dataDir = path.join(__dirname, "data");
+module.exports = () => {
+  const dataDir = path.join(__dirname, "..", "data"); // Go up one level to src/data
   const files = fs.readdirSync(dataDir).filter(f => f.endsWith(".json"));
 
   const shows = files.map(file => {
@@ -15,10 +15,8 @@ module.exports = () => {
   });
 
   return {
-    data: {
-      layout: "base.njk",
-      permalink: "/shows/index.html",
-      shows // ✅ now it's under `data`, available to .njk
-    }
+    layout: "base.njk",
+    shows,
+    permalink: "/shows/index.html"
   };
 };
