@@ -3,15 +3,14 @@
 {% block title %}All Shows{% endblock %}
 
 {% block content %}
-<p>Total shows: {{ shows | length }}</p>
-<h1>All Shows</h1>
 <div class="table-wrapper">
-<table>
+<table id="shows-table">
   <thead>
     <tr>
       <th>Artist</th>
       <th>Date</th>
       <th>Location</th>
+	  <th>Venue</th>
       <th>Length</th>
       <th>Format</th>
       <th>Type</th>
@@ -22,8 +21,8 @@
     </tr>
   </thead>
   <tbody>
-    {% for show in shows | sort(attribute='startDateUnix') | reverse %}
-    <tr>
+    {% for show in shows | sort(attribute='startDateUnix') %}
+    <tr data-band="{{ show.bands[0] | lower }}">
       <td>
         {% if show.bands %}
           {{ show.bands | join(", ") }}
@@ -38,14 +37,16 @@
           —
         {% endif %}
       </td>
-      <td>
-        {% if show.location %}
-          {{ show.location.city or "" }}{% if show.location.state %}, {{ show.location.state }}{% endif %}, {{ show.location.country or "" }}<br>
-          {{ show.location.venue or "" }}
-        {% else %}
-          —
-        {% endif %}
-      </td>
+	  <td>
+	    {% if show.location %}
+	    	{{ show.location.city or "" }}{% if show.location.state %}, {{ show.location.state }}{% endif %}, {{ show.location.country or "" }}
+	    {% else %}
+	    	—
+	    {% endif %}
+	  </td>
+	  <td>
+	    {{ show.location.venue or "—" }}
+	  </td>
       <td>
         {% if show.specs and show.specs.length %}
           {{ show.specs.length | formatTime }}
@@ -75,15 +76,21 @@
           —
         {% endif %}
       </td>
-      <td>
-        {% if show.images %}
-          {% for img in show.images | slice(0, 4) %}
-            <img src="https://drive.google.com/thumbnail?id={{ img.externalId }}&sz=w40" alt="thumb" width="40" height="auto" style="margin-right: 2px;">
-          {% endfor %}
-        {% else %}
-          —
-        {% endif %}
-      </td>
+	  <td>
+	  {% if show.images %}
+		{% for img in show.images.slice(0, 4) %}
+		<img src="https://drive.google.com/thumbnail?id={{ img.externalId }}&sz=w40"
+			alt="thumb"
+			width="40"
+			height="auto"
+			style="margin-right: 2px; cursor: pointer;"
+			onclick='openModal("{{ img.externalId }}", {{ show.images | dump | safe }})'>
+		{% endfor %}
+	  {% else %}
+	  	—
+	  {% endif %}
+	  </td>
+
       <td>
         <a href="/shows/{{ show.fileSlug }}/" title="View">🔗</a>
       </td>
@@ -91,5 +98,108 @@
     {% endfor %}
   </tbody>
 </table>
+<div id="letter-bar" style="margin-top: 20px; font-size: 14px;"></div>
+
+<script>
+  const tableRows = [...document.querySelectorAll('#shows-table tbody tr')];
+  const letterBar = document.getElementById('letter-bar');
+
+  // Extract first letters
+  const letters = new Set();
+  tableRows.forEach(row => {
+    const band = row.dataset.band || '';
+    const first = band[0]?.toUpperCase();
+    if (first) letters.add(/^[A-Z]$/.test(first) ? first : '#');
+  });
+
+  const sorted = Array.from(letters).sort();
+  const barHTML = ['<strong>Filter:</strong> <a href="#" data-letter="all">ALL</a>']
+    .concat(sorted.map(l => `<a href="#" data-letter="${l}">${l}</a>`))
+    .join(' | ');
+
+  letterBar.innerHTML = barHTML;
+
+  letterBar.addEventListener('click', e => {
+    if (e.target.tagName !== 'A') return;
+    e.preventDefault();
+    const selected = e.target.dataset.letter;
+
+    tableRows.forEach(row => {
+      const band = row.dataset.band || '';
+      const first = band[0]?.toUpperCase();
+      const isNumber = !/^[A-Z]$/.test(first);
+      const match = selected === 'all' ||
+                    (selected === '#' && isNumber) ||
+                    (first === selected);
+      row.style.display = match ? '' : 'none';
+    });
+  });
+</script>
+
+<!-- Modal for image preview -->
+<div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background-color:rgba(0,0,0,0.7); z-index:1000; align-items:center; justify-content:center;">
+  <div style="position:relative; width:90%; height:90%;">
+    <span onclick="closeModal()" style="position:absolute; top:11px; right:60px; font-size:2rem; color:white; background-color:rgba(0,0,0,0.6); padding:1px 10px; border-radius:4px; cursor:pointer;">×</span>
+	<button id="modalPrev" style="position:absolute; left:10px; top:50%; transform:translateY(-50%); font-size:2rem; background:rgba(0,0,0,0.6); color:white; border:none; padding:8px 12px; cursor:pointer;">←</button>
+	<button id="modalNext" style="position:absolute; right:10px; top:50%; transform:translateY(-50%); font-size:2rem; background:rgba(0,0,0,0.6); color:white; border:none; padding:8px 12px; cursor:pointer;">→</button>
+    <iframe id="modalImage" style="width:100%; height:100%; border:none; border-radius:0px;"></iframe>
+  </div>
 </div>
+
+<script>
+  let currentImages = [];
+  let currentIndex = 0;
+
+  function openModal(id, images = []) {
+    currentImages = images;
+    currentIndex = images.findIndex(img => img.externalId === id);
+    showImageAt(currentIndex);
+    document.getElementById('imageModal').style.display = 'flex';
+  }
+
+  function showImageAt(index) {
+  const img = currentImages[index];
+  if (!img) return;
+  
+  const iframe = document.getElementById('modalImage');
+  iframe.src = `https://drive.google.com/file/d/${img.externalId}/preview`;
+  
+  // Show/hide arrows
+  document.getElementById('modalPrev').style.display = index > 0 ? 'block' : 'none';
+  document.getElementById('modalNext').style.display = index < currentImages.length - 1 ? 'block' : 'none';
+  }
+
+  function closeModal() {
+    document.getElementById('imageModal').style.display = 'none';
+    document.getElementById('modalImage').src = '';
+    currentImages = [];
+    currentIndex = 0;
+  }
+
+  function nextImage() {
+    if (currentIndex < currentImages.length - 1) {
+      currentIndex++;
+      showImageAt(currentIndex);
+    }
+  }
+
+  function prevImage() {
+    if (currentIndex > 0) {
+      currentIndex--;
+      showImageAt(currentIndex);
+    }
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeModal();
+    if (e.key === 'ArrowRight') nextImage();
+    if (e.key === 'ArrowLeft') prevImage();
+  });
+
+  document.getElementById('modalNext').onclick = nextImage;
+  document.getElementById('modalPrev').onclick = prevImage;
+</script>
+
+</div>
+<p>Total shows: {{ shows | length }}</p>
 {% endblock %}

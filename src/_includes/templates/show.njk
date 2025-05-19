@@ -3,7 +3,7 @@
 {% block title %}{{ show.bands | join(", ") }}{% endblock %}
 
 {% block content %}
-<h1>{{ show.bands | join(", ") }}</h1>
+<h3>{{ show.bands | join(", ") }}</h3>
 <p>{{ show.startDate.day }}.{{ show.startDate.month }}.{{ show.startDate.year }}</p>
 <p><strong>Venue:</strong> {{ show.location.venue }}</p>
 <p><strong>Event:</strong> {{ show.location.event }}</p>
