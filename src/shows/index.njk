@@ -4,9 +4,9 @@
 
 {% block content %}
 <div class="table-wrapper">
-<div id="letter-bar" style="margin-top: 20px; font-size: 14px;"></div>
+<div id="letter-bar" style="margin-top: -10px; font-size: 14px;"></div>
 <div id="band-dropdown-wrapper" style="margin-top: 10px; margin-bottom: 20px; display: none; font-size: 14px;">
-  <label for="band-dropdown" style="margin-right: 8px;">Filter by band:</label>
+  <label for="band-dropdown" style="margin-right: 8px;"><strong>Filter by band:</strong></label>
   <select id="band-dropdown">...</select>
 </div>
 <table id="shows-table">
@@ -26,193 +26,247 @@
     </tr>
   </thead>
   <tbody>
+    {% set currentGroup = null %}
     {% for show in shows | sort(attribute='startDateUnix') %}
-    <tr data-band="{{ show.bands[0] }}">
-      <td>
-        {% if show.bands %}
-          {{ show.bands | join(", ") }}
+      {% if show.public %}
+        {% if selectedBand %}
+          {% set groupKey = show.startDateUnix | date("yyyy") %}
         {% else %}
-          —
+          {% set groupKey = show.bands[0] %}
         {% endif %}
-      </td>
-      <td>
-        {% if show.startDateUnix %}
-          {{ show.startDateUnix | date("yyyy-MM-dd") }}
-        {% else %}
-          —
-        {% endif %}
-      </td>
-	  <td>
-	    {% if show.location %}
-	    	{{ show.location.city or "" }}{% if show.location.state %}, {{ show.location.state }}{% endif %}, {{ show.location.country or "" }}
-	    {% else %}
-	    	—
-	    {% endif %}
-	  </td>
-	  <td>
-	    {{ show.location.venue or "—" }}
-	  </td>
-      <td>
-        {% if show.specs and show.specs.length %}
-          {{ show.specs.length | formatTime }}
-        {% else %}
-          —
-        {% endif %}
-      </td>
-      <td>
-        {% if show.specs and show.specs.sourceDetail %}
-          {{ show.specs.sourceDetail.fileFormat or "—" }}
-        {% else %}
-          —
-        {% endif %}
-      </td>
-      <td>
-        {% if show.specs and show.specs.sourceDetail %}
-          {{ show.specs.sourceDetail.recordingType or "—" }}
-        {% else %}
-          —
-        {% endif %}
-      </td>
-      <td>
-        <div class="source-wrapper">
-          {{ show.source or "—" }}
-          {% if show.fileSlug and show.fileSlug.includes('show_1') %}
-            <span class="show-label label-show1">Show 1</span>
-          {% elif show.fileSlug and show.fileSlug.includes('show_2') %}
-            <span class="show-label label-show2">Show 2</span>
+  
+        {% if groupKey != currentGroup %}
+          {% set currentGroup = groupKey %}
+  
+          {% if selectedBand %}
+            <tr class="year-label-row" data-label="true">
+              <td colspan="11" class="year-label">📅 {{ groupKey }}</td>
+            </tr>
+          {% else %}
+            <tr class="band-label-row" data-label="true">
+              <td colspan="11" class="band-label">🎸 {{ groupKey }}</td>
+            </tr>
           {% endif %}
-        </div>
-      </td>
-      <td>
-        {% if show.tapers %}
-          {{ show.tapers | join(", ") }}
-        {% else %}
-          —
         {% endif %}
-      </td>
-	  <td>
-	  {% if show.images %}
-		{% for img in show.images.slice(0, 4) %}
-		<img src="https://drive.google.com/thumbnail?id={{ img.externalId }}&sz=w32"
-			alt="thumb"
-			width="32"
-			height="auto"
-			style="margin-right: 4px; cursor: pointer; border-radius: 4px;"
-			onclick='openModal("{{ img.externalId }}", {{ show.images | dump | safe }})'>
-		{% endfor %}
-	  {% else %}
-	  	—
-	  {% endif %}
-	  </td>
-
-      <td>
-        <a href="/shows/{{ show.fileSlug }}/" title="View">🔗</a>
-      </td>
-    </tr>
+  
+        <tr data-band="{{ show.bands[0] }}">
+          <td>
+            {% if show.bands %}
+              {{ show.bands | join(", ") }}
+            {% else %}
+              —
+            {% endif %}
+          </td>
+          <td>
+            {% if show.startDateUnix %}
+              {{ show.startDateUnix | date("yyyy-MM-dd") }}
+            {% else %}
+              —
+            {% endif %}
+          </td>
+          <td>
+            {% if show.location %}
+              {{ show.location.city or "" }}{% if show.location.state %}, {{ show.location.state }}{% endif %}, {{ show.location.country or "" }}
+            {% else %}
+              —
+            {% endif %}
+          </td>
+          <td>
+            {{ show.location.venue or "—" }}
+          </td>
+          <td>
+            {% if show.specs and show.specs.length %}
+              {{ show.specs.length | formatTime }}
+            {% else %}
+              —
+            {% endif %}
+          </td>
+          <td>
+            {% if show.specs and show.specs.sourceDetail %}
+              {{ show.specs.sourceDetail.fileFormat or "—" }}
+            {% else %}
+              —
+            {% endif %}
+          </td>
+          <td class="type-cell">
+            {% if show.specs and show.specs.sourceDetail %}
+              {{ show.specs.sourceDetail.recordingType or "—" }}
+              {% if show.category == "audio" %}
+                <span class="type-label audio-label">audio</span>
+              {% elif "misc" in show.category %}
+                <span class="type-label misc-label">misc</span>
+              {% endif %}
+            {% else %}
+              —
+            {% endif %}
+          </td>
+          <td>
+            <div class="source-wrapper">
+              {{ show.source or "—" }}
+              {% if show.fileSlug and show.fileSlug.includes('show_1') %}
+                <span class="show-label label-show1">Show 1</span>
+              {% elif show.fileSlug and show.fileSlug.includes('show_2') %}
+                <span class="show-label label-show2">Show 2</span>
+              {% endif %}
+            </div>
+          </td>
+          <td style="position: relative;">
+            {% if show.tapers %}
+              {{ show.tapers | join(", ") }}
+            {% else %}
+              — 
+            {% endif %}
+  
+            {% if show.tradeLabel == 'RT' %}
+              <span class="trade-label red">RT</span>
+            {% elif show.tradeLabel == 'NT' %}
+              <span class="trade-label blue">NT</span>
+            {% endif %}
+  
+            {% if show.master == true or (show.tapers and show.tapers.length == 1 and show.tapers[0] == "Vortex") %}
+              <span class="trade-label master">master</span>
+            {% endif %}
+          </td>
+          <td>
+            {% if show.images %}
+              {% for img in show.images.slice(0, 4) %}
+                <img src="https://drive.google.com/thumbnail?id={{ img.externalId }}&sz=w32"
+                     alt="thumb"
+                     width="32"
+                     height="22"
+                     style="margin-right: 4px; cursor: pointer; border-radius: 4px;"
+                     onclick='openModal("{{ img.externalId }}", {{ show.images | dump | safe }})'>
+              {% endfor %}
+            {% else %}
+              —
+            {% endif %}
+          </td>
+          <td>
+            <a href="/shows/{{ show.fileSlug }}/" title="View">🔗</a>
+          </td>
+        </tr>
+      {% endif %}
     {% endfor %}
-  </tbody>
-</table>
-
+	
 <script>
   let currentLetter = 'all';
-  const tableRows = [...document.querySelectorAll('#shows-table tbody tr')];
-  const letterBar = document.getElementById('letter-bar');
-
-  // Extract first letters
-  const letters = new Set();
-  tableRows.forEach(row => {
-    const band = row.dataset.band || '';
-    const first = band[0]?.toUpperCase();
-    if (first) letters.add(/^[A-Z]$/.test(first) ? first : '#');
-  });
-
-  const sorted = Array.from(letters).sort();
-  const barHTML = ['<strong>Filter:</strong> <a href="#" data-letter="all">ALL</a>']
-    .concat(sorted.map(l => `<a href="#" data-letter="${l}">${l}</a>`))
-    .join(' | ');
-
-  letterBar.innerHTML = barHTML;
-
-  letterBar.addEventListener('click', e => {
-    if (e.target.tagName !== 'A') return;
-    e.preventDefault();
+  let tableRows = [];
   
-    const selected = e.target.dataset.letter;
-	currentLetter = selected;
-    updateDropdown(selected);
+  function updateShowCount() {
+    const allRows = [...document.querySelectorAll('#shows-table tbody tr')];
   
-    dropdown.selectedIndex = 0; // Reset to "— Select band —"
-  
-    // Filter by letter only
-    tableRows.forEach(row => {
-      const band = row.dataset.band || '';
-      const first = band[0]?.toUpperCase();
-      const isNumber = !/^[A-Z]/.test(first);
-      const match = selected === 'all' ||
-                    (selected === '#' && isNumber) ||
-                    (first === selected);
-      row.style.display = match ? '' : 'none';
+    allRows.forEach((row, i) => {
+      const label = row.hasAttribute('data-label') ? '[LABEL]' : '[SHOW]';
+      const visible = row.style.display !== 'none';
+      const classes = row.className;
+      console.log(`${i}: ${label} visible=${visible} class=${classes}`);
     });
   
-    updateShowCount();
-  });
-
-  const dropdownWrapper = document.getElementById("band-dropdown-wrapper");
-  const dropdown = document.getElementById("band-dropdown");
-  
-  function updateDropdown(letter) {
-    const bandMap = new Map();
-  
-    tableRows.forEach(row => {
-      const band = row.dataset.band || '';
-      const first = band[0]?.toUpperCase();
-      const cell = row.querySelector('td');
-      const display = cell ? cell.innerText.trim() : '';
-  
-      if (
-        (letter === 'all') ||
-        (letter === '#' && !/^[A-Z]/.test(first)) ||
-        (first === letter)
-      ) {
-        if (band && display) bandMap.set(band, display);
-      }
-    });
-  
-    const sortedBands = Array.from(bandMap.entries()).sort((a, b) =>
-      a[1].localeCompare(b[1])
+    const visibleShows = allRows.filter(row =>
+      row.style.display !== 'none' &&
+      !row.hasAttribute('data-label')
     );
-  
-	dropdown.innerHTML =
-	`<option value="" disabled selected>— Select band —</option>` +
-	sortedBands.map(([key, label]) =>
-		`<option value="${label}">${label}</option>`
-	).join('');
-  
-    dropdownWrapper.style.display = sortedBands.length ? 'block' : 'none';
+    document.getElementById('show-count').textContent = `Shows: ${visibleShows.length}`;
   }
-  dropdown.addEventListener("change", () => {
-    const selectedBand = dropdown.value;
-    if (!selectedBand) return;
-  
+
+  document.addEventListener('DOMContentLoaded', () => {
+    tableRows = [...document.querySelectorAll('#shows-table tbody tr')];
+    const letterBar = document.getElementById('letter-bar');
+    const dropdownWrapper = document.getElementById("band-dropdown-wrapper");
+    const dropdown = document.getElementById("band-dropdown");
+
+    // --- Build letter filter ---
+    const letters = new Set();
     tableRows.forEach(row => {
       const band = row.dataset.band || '';
       const first = band[0]?.toUpperCase();
-      const isNumber = !/^[A-Z]/.test(first);
-  
-      const matchLetter =
-        currentLetter === 'all' ||
-        (currentLetter === '#' && isNumber) ||
-        first === currentLetter;
-  
-      const matchBand = band.toLowerCase() === selectedBand.toLowerCase();
-  
-      row.style.display = matchLetter && matchBand ? '' : 'none';
+      if (first) letters.add(/^[A-Z]$/.test(first) ? first : '#');
     });
-  
+
+    const sorted = Array.from(letters).sort();
+    const barHTML = ['<strong>Filter:</strong> <a href="#" data-letter="all">ALL</a>']
+      .concat(sorted.map(l => `<a href="#" data-letter="${l}">${l}</a>`))
+      .join(' | ');
+    letterBar.innerHTML = barHTML;
+
+    // --- Letter click filter ---
+    letterBar.addEventListener('click', e => {
+      if (e.target.tagName !== 'A') return;
+      e.preventDefault();
+      const selected = e.target.dataset.letter;
+      currentLetter = selected;
+      updateDropdown(selected);
+      dropdown.selectedIndex = 0;
+
+      // Filter rows by letter
+      tableRows.forEach(row => {
+        const band = row.dataset.band || '';
+        const first = band[0]?.toUpperCase();
+        const isNumber = !/^[A-Z]/.test(first);
+        const match = selected === 'all' ||
+                      (selected === '#' && isNumber) ||
+                      (first === selected);
+        row.style.display = match ? '' : 'none';
+      });
+
+      updateShowCount();
+    });
+
+    // --- Band dropdown logic ---
+    function updateDropdown(letter) {
+      const bandMap = new Map();
+      tableRows.forEach(row => {
+        const band = row.dataset.band || '';
+        const first = band[0]?.toUpperCase();
+        const cell = row.querySelector('td');
+        const display = cell ? cell.innerText.trim() : '';
+
+        if (
+          (letter === 'all') ||
+          (letter === '#' && !/^[A-Z]/.test(first)) ||
+          (first === letter)
+        ) {
+          if (band && display) bandMap.set(band, display);
+        }
+      });
+
+      const sortedBands = Array.from(bandMap.entries()).sort((a, b) =>
+        a[1].localeCompare(b[1])
+      );
+
+      dropdown.innerHTML =
+        `<option value="" disabled selected>— Select band —</option>` +
+        sortedBands.map(([key, label]) =>
+          `<option value="${label}">${label}</option>`
+        ).join('');
+
+      dropdownWrapper.style.display = sortedBands.length ? 'block' : 'none';
+    }
+
+    dropdown.addEventListener("change", () => {
+      const selectedBand = dropdown.value;
+      if (!selectedBand) return;
+
+      tableRows.forEach(row => {
+        const band = row.dataset.band || '';
+        const first = band[0]?.toUpperCase();
+        const isNumber = !/^[A-Z]/.test(first);
+        const matchLetter =
+          currentLetter === 'all' ||
+          (currentLetter === '#' && isNumber) ||
+          first === currentLetter;
+        const matchBand = band.toLowerCase() === selectedBand.toLowerCase();
+        row.style.display = matchLetter && matchBand ? '' : 'none';
+      });
+
+      updateShowCount();
+    });
     updateShowCount();
   });
-
 </script>
+  </tbody>
+
+</table>
 
 <!-- Modal for image preview -->
 <div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background-color:rgba(0,0,0,0.7); z-index:1000; align-items:center; justify-content:center;">
@@ -269,8 +323,9 @@
   }
 
   function updateShowCount() {
-    const visible = tableRows.filter(row => row.style.display !== 'none');
-    document.getElementById('show-count').textContent = `Shows: ${visible.length}`;
+    const allRows = [...document.querySelectorAll('#shows-table tbody tr')];
+    const visibleShows = allRows.filter(row => row.style.display !== 'none' && !row.classList.contains('year-label-row') && !row.classList.contains('band-label-row'));
+    document.getElementById('show-count').textContent = `Shows: ${visibleShows.length}`;
   }
 
   document.addEventListener('keydown', (e) => {
@@ -281,8 +336,10 @@
 
   document.getElementById('modalNext').onclick = nextImage;
   document.getElementById('modalPrev').onclick = prevImage;
+  document.addEventListener('DOMContentLoaded', () => {
+});
 </script>
 
 </div>
-<p id="show-count" style="font-size: 14px;">Shows: {{ shows | length }}</p>
+<p id="show-count" style="font-size: 14px;">Shows: {{ publicShows | length }}</p>
 {% endblock %}
