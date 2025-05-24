@@ -1,0 +1,203 @@
+/* global.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f9ff; /* soft sky blue background */
+  color: #222;
+}
+
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0eaf3;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+
+.navbar a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #0366d6;
+  font-weight: 500;
+}
+
+main {
+  padding: 2rem;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+  background-color: #fff;
+  border: 1px solid #d6e4f0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+}
+
+th, td {
+  border: 1px solid #d6e4f0;
+  padding: 10px;
+  font-size: 13px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #eaf4ff;
+  font-weight: 600;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #f6fbff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  color: #aaa;
+  background-color: #f4f9ff;
+}
+
+.type-cell {
+  position: relative;
+}
+
+.type-label {
+  padding: 1px 6px;
+  font-size: 8px;
+  font-weight: bold;
+  border-radius: 6px;
+  color: 000;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+
+.audio-label {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  background-color: #4CAF50;
+}
+
+.misc-label {
+  position: absolute;
+  top: 0px;
+  right: 13px;
+  background-color: #4CAF50;
+}
+
+.source-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.show-label {
+  position: absolute;
+  top: -15px;
+  right: 13px;
+  font-size: 8px;
+  padding: 1px 6px;
+  font-weight: bold;
+  border-radius: 6px;
+  color: #000;
+  white-space: nowrap;
+}
+
+.label-show1 {
+  background-color: #42A5F5;
+}
+
+.label-show2 {
+  background-color: #42A5F5;
+}
+
+.trade-label {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 8px;
+  padding: 1px 6px;
+  font-weight: bold;
+  border-radius: 6px;
+  color: #000;
+  white-space: nowrap;
+}
+.trade-label.red {
+  background-color: #CD5C5C;
+}
+.trade-label.blue {
+  background-color: #42A5F5;
+}
+
+.trade-label.master {
+  position: absolute;
+  top: 0px;
+  right: 26px;
+  font-size: 8px;
+  padding: 1px 6px;
+  background-color: #CE93D8;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.rules-block {
+  background-color: #f6f8fa;
+  border: 0px solid #d0d7de;
+  border-top: 2px solid #d0d7de;
+  border-bottom: 1px solid #d0d7de;
+  border-left: 20px solid #d0d7de;
+  border-right: 2px solid #d0d7de;
+  padding: 3px;
+  line-height: 0.95;
+  white-space: pre-line;
+  border-radius: 10px;
+  max-width: 740px;
+  margin: 0px 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.25px;
+}
+
+.year-label-row td.year-label,
+.band-label-row td.band-label {
+  background-color: #7F7D9C;
+  color: #eee;
+  font-weight: bold;
+  padding: 6px 10px;
+  font-size: 13px;
+  text-align: left;
+  border-top: 2px solid #444;
+}
+
+.created-label-row td.created-label {
+  background-color: #7F7D9C;
+  color: #eee;
+  font-weight: bold;
+  padding: 6px 10px;
+  font-size: 13px;
+  text-align: left;
+  border-top: 2px solid #444;
+}
+
+.category-label {
+  background-color: #e4e4e4;
+  color: #333;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 6px 10px;
+  text-align: left;
+}
