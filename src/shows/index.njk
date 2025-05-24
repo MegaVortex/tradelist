@@ -7,7 +7,9 @@
 <div id="letter-bar" style="margin-top: -10px; font-size: 14px;"></div>
 <div id="band-dropdown-wrapper" style="margin-top: 10px; margin-bottom: 20px; display: none; font-size: 14px;">
   <label for="band-dropdown" style="margin-right: 8px;"><strong>Filter by band:</strong></label>
-  <select id="band-dropdown">...</select>
+  <select id="band-dropdown">
+     <option value="" disabled selected>— Select band —</option>
+  </select>
 </div>
 <table id="shows-table">
   <thead>
@@ -29,27 +31,16 @@
     {% set currentGroup = null %}
     {% for show in shows | sort(attribute='startDateUnix') %}
       {% if show.public %}
-        {% if selectedBand %}
-          {% set groupKey = show.startDateUnix | date("yyyy") %}
-        {% else %}
-          {% set groupKey = show.bands[0] %}
-        {% endif %}
+		{% set groupKey = show.bands[0] %}
   
         {% if groupKey != currentGroup %}
-          {% set currentGroup = groupKey %}
+		{% set currentGroup = groupKey %}
+		<tr class="band-label-row" data-label="true">
+			<td colspan="11" class="band-label">🎸 {{ groupKey }}</td>
+		</tr>
+		{% endif %}
   
-          {% if selectedBand %}
-            <tr class="year-label-row" data-label="true">
-              <td colspan="11" class="year-label">📅 {{ groupKey }}</td>
-            </tr>
-          {% else %}
-            <tr class="band-label-row" data-label="true">
-              <td colspan="11" class="band-label">🎸 {{ groupKey }}</td>
-            </tr>
-          {% endif %}
-        {% endif %}
-  
-        <tr data-band="{{ show.bands[0] }}">
+        <tr data-band="{{ show.bands[0] }}" data-json="{{ show | dump | urlencode }}">
           <td>
             {% if show.bands %}
               {{ show.bands | join(", ") }}
@@ -142,7 +133,7 @@
             {% endif %}
           </td>
           <td>
-            <a href="/shows/{{ show.fileSlug }}/" title="View">🔗</a>
+            <a href="/shows/{{ show.fileSlug }}/" title="View" style="font-size: 1.20em;">📝</a>
           </td>
         </tr>
       {% endif %}
@@ -170,7 +161,38 @@
   }
 
   document.addEventListener('DOMContentLoaded', () => {
-    tableRows = [...document.querySelectorAll('#shows-table tbody tr')];
+    window.selectedBand = null;
+    const tbody = document.querySelector('#shows-table tbody');
+tableRows = [...tbody.querySelectorAll('tr')];
+
+// Filter only data rows (not label rows)
+const showRows = tableRows.filter(r => !r.hasAttribute('data-label'));
+
+// Sort by band, then date
+showRows.sort((a, b) => {
+  const bandA = (a.dataset.band || '').toLowerCase();
+  const bandB = (b.dataset.band || '').toLowerCase();
+  if (bandA < bandB) return -1;
+  if (bandA > bandB) return 1;
+
+  const dateA = a.querySelector('td:nth-child(2)')?.innerText || '';
+  const dateB = b.querySelector('td:nth-child(2)')?.innerText || '';
+  return dateA.localeCompare(dateB);
+});
+
+// Re-append sorted rows to DOM
+showRows.forEach(row => tbody.appendChild(row));
+
+	tableRows.sort((a, b) => {
+      const bandA = (a.dataset.band || '').toLowerCase();
+      const bandB = (b.dataset.band || '').toLowerCase();
+      if (bandA < bandB) return -1;
+      if (bandA > bandB) return 1;
+    
+      const dateA = a.querySelector('td:nth-child(2)')?.innerText || '';
+      const dateB = b.querySelector('td:nth-child(2)')?.innerText || '';
+      return dateA.localeCompare(dateB);
+    });
     const letterBar = document.getElementById('letter-bar');
     const dropdownWrapper = document.getElementById("band-dropdown-wrapper");
     const dropdown = document.getElementById("band-dropdown");
@@ -193,6 +215,7 @@
     letterBar.addEventListener('click', e => {
       if (e.target.tagName !== 'A') return;
       e.preventDefault();
+	  window.selectedBand = null;
       const selected = e.target.dataset.letter;
       currentLetter = selected;
       updateDropdown(selected);
@@ -208,8 +231,29 @@
                       (first === selected);
         row.style.display = match ? '' : 'none';
       });
+      const tbody = document.querySelector('#shows-table tbody');
+	  tableRows = [...tbody.querySelectorAll('tr')];
+	  
+	  // Filter only data rows (not label rows)
+	  const showRows = tableRows.filter(r => !r.hasAttribute('data-label'));
+	  
+	  // Sort by band, then date
+	  showRows.sort((a, b) => {
+	  const bandA = (a.dataset.band || '').toLowerCase();
+	  const bandB = (b.dataset.band || '').toLowerCase();
+	  if (bandA < bandB) return -1;
+	  if (bandA > bandB) return 1;
+	  
+	  const dateA = a.querySelector('td:nth-child(2)')?.innerText || '';
+	  const dateB = b.querySelector('td:nth-child(2)')?.innerText || '';
+	  return dateA.localeCompare(dateB);
+	  });
+	  
+	  // Re-append sorted rows to DOM
+	  showRows.forEach(row => tbody.appendChild(row));
 
       updateShowCount();
+	  insertGroupLabels();
     });
 
     // --- Band dropdown logic ---
@@ -246,6 +290,7 @@
     dropdown.addEventListener("change", () => {
       const selectedBand = dropdown.value;
       if (!selectedBand) return;
+	  window.selectedBand = selectedBand;
 
       tableRows.forEach(row => {
         const band = row.dataset.band || '';
@@ -260,8 +305,10 @@
       });
 
       updateShowCount();
+	  insertGroupLabels();
     });
     updateShowCount();
+	insertGroupLabels();
   });
 </script>
   </tbody>
@@ -321,12 +368,134 @@
       showImageAt(currentIndex);
     }
   }
-
+  
   function updateShowCount() {
     const allRows = [...document.querySelectorAll('#shows-table tbody tr')];
-    const visibleShows = allRows.filter(row => row.style.display !== 'none' && !row.classList.contains('year-label-row') && !row.classList.contains('band-label-row'));
+    const visibleShows = allRows.filter(row =>
+      row.style.display !== 'none' &&
+      !row.classList.contains('year-label-row') &&
+      !row.classList.contains('band-label-row') &&
+      !row.classList.contains('category-label-row')
+    );
     document.getElementById('show-count').textContent = `Shows: ${visibleShows.length}`;
   }
+  
+function insertGroupLabels() {
+  const tbody = document.querySelector('#shows-table tbody');
+  const rows = [...tbody.querySelectorAll('tr')];
+  const visible = rows.filter(r => r.style.display !== 'none' && !r.hasAttribute('data-label'));
+
+  // Remove existing label rows
+  rows.forEach(r => r.hasAttribute('data-label') && r.remove());
+
+  if (!selectedBand) {
+    // Group by band (default)
+    let currentBand = null;
+    for (const row of visible) {
+      const band = row.dataset.band || '—';
+      if (band !== currentBand) {
+        currentBand = band;
+        const label = document.createElement('tr');
+        label.className = 'band-label-row';
+        label.setAttribute('data-label', 'true');
+        label.innerHTML = `<td colspan="11" class="band-label">🎸 ${band}</td>`;
+        tbody.insertBefore(label, row);
+      }
+    }
+    return;
+  }
+
+  // When band is selected
+  const CATEGORY_ORDER = {
+    'video': 1,
+    'video_misc': 2,
+    'video_compilation': 3,
+    'audio': 4,
+    'audio_misc': 5
+  };
+
+  const groups = {};  // { 'video': { year: [rows] } }
+
+  for (const row of visible) {
+    const raw = row.dataset.json;
+    if (!raw) continue;
+
+    let show;
+    try {
+      show = JSON.parse(decodeURIComponent(raw));
+    } catch (e) {
+      continue;
+    }
+
+  const catArr = show.category || [];
+  let catKey = '';
+  
+  if (Array.isArray(catArr)) {
+    const set = new Set(catArr);
+  
+    if (set.has('video') && set.size === 1) {
+      catKey = 'video';
+    } else if ((set.has('video') && set.has('misc')) || (set.has('misc') && set.size === 1)) {
+      catKey = 'video_misc';
+    } else if ((set.has('video') && set.has('compilation')) || (set.has('compilation') && set.size === 1)) {
+      catKey = 'video_compilation';
+    } else if (set.has('audio') && set.size === 1) {
+      catKey = 'audio';
+    } else if (set.has('audio') && set.has('misc')) {
+      catKey = 'audio_misc';
+    } else {
+      catKey = 'other';
+    }
+  }
+
+    const year = show.startDateUnix
+      ? new Date(show.startDateUnix * 1000).getFullYear().toString()
+      : '—';
+
+    if (!groups[catKey]) groups[catKey] = {};
+    if (!groups[catKey][year]) groups[catKey][year] = [];
+    groups[catKey][year].push(row);
+  }
+
+  const emojiFor = {
+    video: '🎥 Video',
+    video_misc: '🎥 Misc',
+    video_compilation: '🎥 Compilation',
+    audio: '🔊 Audio',
+    audio_misc: '🔊 Audio Misc',
+    other: '❓ Other'
+  };
+
+  const orderedKeys = Object.keys(CATEGORY_ORDER)
+    .concat('other')
+    .filter(k => groups[k]);
+
+  for (const key of orderedKeys) {
+    const catGroup = groups[key];
+    if (!catGroup) continue;
+
+    const catLabelRow = document.createElement('tr');
+    catLabelRow.setAttribute('data-label', 'true');
+	catLabelRow.className = 'category-label-row';
+	catLabelRow.innerHTML = `<td colspan="11" class="category-label">${emojiFor[key]}</td>`;
+    tbody.appendChild(catLabelRow);
+
+    const sortedYears = Object.keys(catGroup).sort((a, b) => a.localeCompare(b));
+
+    for (const year of sortedYears) {
+      const yearLabelRow = document.createElement('tr');
+      yearLabelRow.setAttribute('data-label', 'true');
+      yearLabelRow.className = 'year-label-row';
+      yearLabelRow.innerHTML = `<td colspan="11" class="year-label">📅 ${year}</td>`;
+      tbody.appendChild(yearLabelRow);
+
+      for (const row of catGroup[year]) {
+        tbody.appendChild(row);
+      }
+    }
+  }
+}
+
 
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') closeModal();
