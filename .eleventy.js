@@ -29,7 +29,7 @@ module.exports = function (eleventyConfig) {
       return {
         ...json,
         fileSlug: file.replace(/\.json$/, ""),
-        permalink: `/shows/${file.replace(/\.json$/, "")}/index.html`
+        permalink: `/tradelist/shows/${file.replace(/\.json$/, "")}/index.html`
       };
     });
   });
