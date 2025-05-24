@@ -133,7 +133,7 @@
             {% endif %}
           </td>
           <td>
-            <a href="/shows/{{ show.fileSlug }}/" title="View" style="font-size: 1.20em;">📝</a>
+            <a href="{{ show.permalink | url }}" title="View" style="font-size: 1.20em;">📝</a>
           </td>
         </tr>
       {% endif %}
