@@ -1,219 +1,146 @@
 {% extends "base.njk" %}
 {% block title %}Recently Added{% endblock %}
-
 {% block content %}
 <section style="margin-top: -30px;">
 <h3>Recently Added</h3>
 <div class="table-wrapper">
-  <table id="shows-table">
-    <thead>
-      <tr>
-        <th>Artist</th>
-        <th>Date</th>
-        <th>Location</th>
-        <th>Venue</th>
-        <th>Length</th>
-        <th>Size</th>
-        <th>Format</th>
-        <th>Type</th>
-        <th>Source</th>
-        <th>Taper(s)</th>
-        <th>Images</th>
-        <th>Page</th>
-      </tr>
-    </thead>
-<tbody>
-  {% set uniqueDates = [] %}
-  {% for show in shows %}
-    {% set dateStr = show.created | date("yyyy-MM-dd") %}
-    {% if uniqueDates.indexOf(dateStr) == -1 %}
-      {% set uniqueDates = (uniqueDates.push(dateStr), uniqueDates) %}
-    {% endif %}
-  {% endfor %}
-
-  {% set uniqueDates = uniqueDates | sort(false) %}
-  {% set uniqueDates = uniqueDates | reverse %}
-
-  {% for date in uniqueDates %}
-    <tr class="created-label-row" data-label="true">
-      <td colspan="12" class="created-label">📅 {{ date }}</td>
-    </tr>
-
-    {% set groupShows = [] %}
-    {% for show in shows %}
-      {% if show.created | date("yyyy-MM-dd") == date %}
-        {% set groupShows = (groupShows.push({ name: show.bands[0], rec: show }), groupShows) %}
-      {% endif %}
-    {% endfor %}
-    {% set groupShows = groupShows | sort(false, false, "name") %}
-
-    {% for item in groupShows %}
-      {% set show = item.rec %}
-      <tr data-band="{{ show.bands[0] }}">
-        <td>{{ show.bands | join(", ") if show.bands else "—" }}</td>
-        <td>{{ show.startDateUnix | date("yyyy-MM-dd") if show.startDateUnix else "—" }}</td>
-        <td>
-          {% if show.location %}
-            {{ show.location.city or "" }}{% if show.location.state %}, {{ show.location.state }}{% endif %}, {{ show.location.country or "" }}
-          {% else %}
-            —
-          {% endif %}
-        </td>
-        <td>{{ show.location.venue or "—" }}</td>
-        <td>{{ show.specs.length | formatTime if show.specs and show.specs.length else "—" }}</td>
-          <td>
-            {% if show.specs and show.specs.media and show.specs.media.length %}
-              {% set media = show.specs.media %}
-              <div class="media-wrapper">
-                {% set main = media[0] %}
-                <span>{{ main.size | smartSize }}{{ main.unit }}</span>
-          
-                {% if media.length > 1 %}
+   <table id="shows-table">
+      <thead>
+         <tr>
+            <th>Artist</th>
+            <th>Date</th>
+            <th>Location</th>
+            <th>Venue</th>
+            <th>Length</th>
+            <th>Size</th>
+            <th>Format</th>
+            <th>Type</th>
+            <th>Source</th>
+            <th>Taper(s)</th>
+            <th>Images</th>
+            <th>Page</th>
+         </tr>
+      </thead>
+      <tbody>
+         {% set uniqueDates = [] %}
+         {% for show in shows %}
+         {% set dateStr = show.created | date("yyyy-MM-dd") %}
+         {% if uniqueDates.indexOf(dateStr) == -1 %}
+         {% set uniqueDates = (uniqueDates.push(dateStr), uniqueDates) %}
+         {% endif %}
+         {% endfor %}
+         {% set uniqueDates = uniqueDates | sort(false) %}
+         {% set uniqueDates = uniqueDates | reverse %}
+         {% for date in uniqueDates %}
+         <tr class="created-label-row" data-label="true">
+            <td colspan="12" class="created-label">📅 {{ date }}</td>
+         </tr>
+         {% set groupShows = [] %}
+         {% for show in shows %}
+         {% if show.created | date("yyyy-MM-dd") == date %}
+         {% set groupShows = (groupShows.push({ name: show.bands[0], rec: show }), groupShows) %}
+         {% endif %}
+         {% endfor %}
+         {% set groupShows = groupShows | sort(false, false, "name") %}
+         {% for item in groupShows %}
+         {% set show = item.rec %}
+         <tr data-band="{{ show.bands[0] }}">
+            <td>{{ show.bands | join(", ") if show.bands else "—" }}</td>
+            <td>{{ show.startDateUnix | date("yyyy-MM-dd") if show.startDateUnix else "—" }}</td>
+            <td>
+               {% if show.location %}
+               {{ show.location.city or "" }}{% if show.location.state %}, {{ show.location.state }}{% endif %}, {{ show.location.country or "" }}
+               {% else %}
+               —
+               {% endif %}
+            </td>
+            <td>{{ show.location.venue or "—" }}</td>
+            <td>{{ show.specs.length | formatTime if show.specs and show.specs.length else "—" }}</td>
+            <td>
+               {% if show.specs and show.specs.media and show.specs.media.length %}
+               {% set media = show.specs.media %}
+               <div class="media-wrapper">
+                  {% set main = media[0] %}
+                  <span>{{ main.size | smartSize }}{{ main.unit }}</span>
+                  {% if media.length > 1 %}
                   <a href="#" class="toggle-media" data-target="media-{{ loop.index0 }}">
-                    ▾ +{{ media.length - 1 }}
+                  ▾ +{{ media.length - 1 }}
                   </a>
-                {% endif %}
-              </div>
-          
-              {% if media.length > 1 %}
-                <div id="media-{{ loop.index0 }}" class="extra-media">
+                  {% endif %}
+               </div>
+               {% if media.length > 1 %}
+               <div id="media-{{ loop.index0 }}" class="extra-media">
                   {% for medium in media.slice(1) %}
-                    <div>{{ medium.size | smartSize }}{{ medium.unit }}</div>
+                  <div>{{ medium.size | smartSize }}{{ medium.unit }}</div>
                   {% endfor %}
-                </div>
-              {% endif %}
-            {% else %}
-              —
-            {% endif %}
-          </td>
-		</td>
-        <td>{{ show.specs.sourceDetail.fileFormat if show.specs and show.specs.sourceDetail else "—" }}</td>
-        <td class="type-cell">
-          {{ show.specs.sourceDetail.recordingType if show.specs and show.specs.sourceDetail else "—" }}
-          {% if show.category == "audio" %}
-            <span class="type-label audio-label">audio</span>
-          {% elif "misc" in show.category %}
-            <span class="type-label misc-label">misc</span>
-          {% endif %}
-        </td>
-        <td>
-          <div class="source-wrapper">
-            {{ show.source or "—" }}
-            {% if show.fileSlug and show.fileSlug.includes('show_1') %}
-              <span class="show-label label-show1">Show 1</span>
-            {% elif show.fileSlug and show.fileSlug.includes('show_2') %}
-              <span class="show-label label-show2">Show 2</span>
-            {% endif %}
-          </div>
-        </td>
-        <td style="position: relative;">
-          {{ show.tapers | join(", ") if show.tapers else "—" }}
-          {% if show.tradeLabel == 'RT' %}
-            <span class="trade-label red">RT</span>
-          {% elif show.tradeLabel == 'NT' %}
-            <span class="trade-label blue">NT</span>
-          {% endif %}
-          {% if show.master == true or (show.tapers and show.tapers.length == 1 and show.tapers[0] == "Vortex") %}
-            <span class="trade-label master">master</span>
-          {% endif %}
-        </td>
-        <td>
-          {% if show.images %}
-            {% for img in show.images.slice(0, 4) %}
-              <img src="https://drive.google.com/thumbnail?id={{ img.externalId }}&sz=w32"
-                   alt="thumb"
-                   width="32"
-                   height="22"
-                   style="margin-right: 4px; cursor: pointer; border-radius: 4px;"
-                   onclick='openModal("{{ img.externalId }}", {{ show.images | dump | safe }})'>
-            {% endfor %}
-          {% else %}
-            —
-          {% endif %}
-        </td>
-        <td>
-          <a href="{{ show.permalink | url }}" title="View" style="font-size: 1.20em;">📝</a>
-        </td>
-      </tr>
-    {% endfor %}
-  {% endfor %}
-</tbody>
-
-  </table>
-
-  <!-- Modal for image preview -->
-  <div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background-color:rgba(0,0,0,0.7); z-index:1000; align-items:center; justify-content:center;">
-    <div style="position:relative; width:90%; height:90%;">
-      <span onclick="closeModal()" style="position:absolute; top:11px; right:60px; font-size:2rem; color:white; background-color:rgba(0,0,0,0.6); padding:1px 10px; border-radius:4px; cursor:pointer;">×</span>
-      <button id="modalPrev" style="position:absolute; left:10px; top:50%; transform:translateY(-50%); font-size:2rem; background:rgba(0,0,0,0.6); color:white; border:none; padding:8px 12px; cursor:pointer;">←</button>
-      <button id="modalNext" style="position:absolute; right:10px; top:50%; transform:translateY(-50%); font-size:2rem; background:rgba(0,0,0,0.6); color:white; border:none; padding:8px 12px; cursor:pointer;">→</button>
-      <iframe id="modalImage" style="width:100%; height:100%; border:none; border-radius:0px;"></iframe>
-    </div>
-  </div>
-
-  <script>
-    let currentImages = [];
-    let currentIndex = 0;
-
-    function openModal(id, images = []) {
-      currentImages = images;
-      currentIndex = images.findIndex(img => img.externalId === id);
-      showImageAt(currentIndex);
-      document.getElementById('imageModal').style.display = 'flex';
-    }
-
-    function showImageAt(index) {
-      const img = currentImages[index];
-      if (!img) return;
-      document.getElementById('modalImage').src = `https://drive.google.com/file/d/${img.externalId}/preview`;
-      document.getElementById('modalPrev').style.display = index > 0 ? 'block' : 'none';
-      document.getElementById('modalNext').style.display = index < currentImages.length - 1 ? 'block' : 'none';
-    }
-
-    function closeModal() {
-      document.getElementById('imageModal').style.display = 'none';
-      document.getElementById('modalImage').src = '';
-      currentImages = [];
-      currentIndex = 0;
-    }
-
-    function nextImage() {
-      if (currentIndex < currentImages.length - 1) {
-        currentIndex++;
-        showImageAt(currentIndex);
-      }
-    }
-
-    function prevImage() {
-      if (currentIndex > 0) {
-        currentIndex--;
-        showImageAt(currentIndex);
-      }
-    }
-
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') closeModal();
-      if (e.key === 'ArrowRight') nextImage();
-      if (e.key === 'ArrowLeft') prevImage();
-    });
-
-    document.getElementById('modalNext').onclick = nextImage;
-    document.getElementById('modalPrev').onclick = prevImage;
-	
-	document.addEventListener("click", function (e) {
-      if (e.target.matches(".toggle-media")) {
-        e.preventDefault();
-        const targetId = e.target.dataset.target;
-        const block = document.getElementById(targetId);
-        if (!block) return;
-    
-        const isVisible = block.style.display === "block";
-        block.style.display = isVisible ? "none" : "block";
-        e.target.innerHTML = isVisible
-          ? `▾ +${block.children.length}`
-          : `▴`;
-      }
-    });
-  </script>
+               </div>
+               {% endif %}
+               {% else %}
+               —
+               {% endif %}
+            </td>
+            </td>
+            <td>{{ show.specs.sourceDetail.fileFormat if show.specs and show.specs.sourceDetail else "—" }}</td>
+            <td class="type-cell">
+               {{ show.specs.sourceDetail.recordingType if show.specs and show.specs.sourceDetail else "—" }}
+               {% if show.category == "audio" %}
+               <span class="type-label audio-label">audio</span>
+               {% elif "misc" in show.category %}
+               <span class="type-label misc-label">misc</span>
+               {% endif %}
+            </td>
+            <td>
+               <div class="source-wrapper">
+                  {{ show.source or "—" }}
+                  {% if show.fileSlug and show.fileSlug.includes('show_1') %}
+                  <span class="show-label label-show1">Show 1</span>
+                  {% elif show.fileSlug and show.fileSlug.includes('show_2') %}
+                  <span class="show-label label-show2">Show 2</span>
+                  {% endif %}
+               </div>
+            </td>
+            <td style="position: relative;">
+               {{ show.tapers | join(", ") if show.tapers else "—" }}
+               {% if show.tradeLabel == 'RT' %}
+               <span class="trade-label red">RT</span>
+               {% elif show.tradeLabel == 'NT' %}
+               <span class="trade-label blue">NT</span>
+               {% endif %}
+               {% if show.master == true or (show.tapers and show.tapers.length == 1 and show.tapers[0] == "Vortex") %}
+               <span class="trade-label master">master</span>
+               {% endif %}
+            </td>
+            <td>
+               {% if show.images %}
+               {% for img in show.images.slice(0, 4) %}
+               <img src="https://drive.google.com/thumbnail?id={{ img.externalId }}&sz=w32"
+                  alt="thumb"
+                  width="32"
+                  height="22"
+                  style="margin-right: 4px; cursor: pointer; border-radius: 4px;"
+                  onclick='openModal("{{ img.externalId }}", {{ show.images | dump | safe }})'>
+               {% endfor %}
+               {% else %}
+               —
+               {% endif %}
+            </td>
+            <td>
+               <a href="{{ show.permalink | url }}" title="View" style="font-size: 1.20em;">📝</a>
+            </td>
+         </tr>
+         {% endfor %}
+         {% endfor %}
+      </tbody>
+   </table>
+   <!-- Modal for image preview -->
+   <div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background-color:rgba(0,0,0,0.7); z-index:1000; align-items:center; justify-content:center;">
+      <div style="position:relative; width:90%; height:90%;">
+         <span onclick="closeModal()" style="position:absolute; top:11px; right:60px; font-size:2rem; color:white; background-color:rgba(0,0,0,0.6); padding:1px 10px; border-radius:4px; cursor:pointer;">×</span>
+         <button id="modalPrev" style="position:absolute; left:10px; top:50%; transform:translateY(-50%); font-size:2rem; background:rgba(0,0,0,0.6); color:white; border:none; padding:8px 12px; cursor:pointer;">←</button>
+         <button id="modalNext" style="position:absolute; right:10px; top:50%; transform:translateY(-50%); font-size:2rem; background:rgba(0,0,0,0.6); color:white; border:none; padding:8px 12px; cursor:pointer;">→</button>
+         <iframe id="modalImage" style="width:100%; height:100%; border:none; border-radius:0px;"></iframe>
+      </div>
+   </div>
+   <script src="/scripts/shows-table.js"></script>
 </div>
 {% endblock %}
