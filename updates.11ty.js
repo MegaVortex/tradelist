@@ -23,7 +23,7 @@ module.exports = {
       grouped[dateStr].sort((a, b) => a.artist.localeCompare(b.artist));
     }
 
-    const groupedSorted = Object.entries(grouped).sort((a, b) => b[0].localeCompare(a[0])); // Descending date
+    const groupedSorted = Object.entries(grouped).sort((a, b) => b[0].localeCompare(a[0]));
 
     return { showsGroupedByDate: groupedSorted };
   }

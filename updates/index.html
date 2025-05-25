@@ -29,6 +29,7 @@
         <th>Location</th>
         <th>Venue</th>
         <th>Length</th>
+        <th>Size</th>
         <th>Format</th>
         <th>Type</th>
         <th>Source</th>
@@ -137,6 +138,20 @@
         </td>
         <td>Hauptstrasse</td>
         <td>00:58:10</td>
+          <td>
+            
+              
+              <div class="media-wrapper">
+                
+                <span>2.22Gb</span>
+          
+                
+              </div>
+          
+              
+            
+          </td>
+		</td>
         <td>DVD</td>
         <td class="type-cell">
           PRO
@@ -202,6 +217,20 @@
         </td>
         <td>Ruissalo</td>
         <td>00:45:51</td>
+          <td>
+            
+              
+              <div class="media-wrapper">
+                
+                <span>1.33Gb</span>
+          
+                
+              </div>
+          
+              
+            
+          </td>
+		</td>
         <td>DVD</td>
         <td class="type-cell">
           PRO
@@ -269,6 +298,20 @@
         </td>
         <td>Ed Sullivan Theatre</td>
         <td>00:04:25</td>
+          <td>
+            
+              
+              <div class="media-wrapper">
+                
+                <span>136Mb</span>
+          
+                
+              </div>
+          
+              
+            
+          </td>
+		</td>
         <td>DVD</td>
         <td class="type-cell">
           PRO
@@ -334,6 +377,20 @@
         </td>
         <td>Festhalle</td>
         <td>02:13:49</td>
+          <td>
+            
+              
+              <div class="media-wrapper">
+                
+                <span>2.30Gb</span>
+          
+                
+              </div>
+          
+              
+            
+          </td>
+		</td>
         <td>DVD</td>
         <td class="type-cell">
           AMT
@@ -399,6 +456,20 @@
         </td>
         <td>Hammersmith Odeon</td>
         <td>01:04:09</td>
+          <td>
+            
+              
+              <div class="media-wrapper">
+                
+                <span>2.92Gb</span>
+          
+                
+              </div>
+          
+              
+            
+          </td>
+		</td>
         <td>DVD</td>
         <td class="type-cell">
           AMT
@@ -464,6 +535,20 @@
         </td>
         <td>SC Olimpiyskiy</td>
         <td>02:05:27</td>
+          <td>
+            
+              
+              <div class="media-wrapper">
+                
+                <span>6.00Gb</span>
+          
+                
+              </div>
+          
+              
+            
+          </td>
+		</td>
         <td>DVD</td>
         <td class="type-cell">
           AMT
@@ -529,6 +614,20 @@
         </td>
         <td>Stadio Brianteo</td>
         <td>00:17:28</td>
+          <td>
+            
+              
+              <div class="media-wrapper">
+                
+                <span>891Mb</span>
+          
+                
+              </div>
+          
+              
+            
+          </td>
+		</td>
         <td>DVD</td>
         <td class="type-cell">
           PRO
@@ -598,6 +697,32 @@
         </td>
         <td>Arena Treptow</td>
         <td>00:11:37</td>
+          <td>
+            
+              
+              <div class="media-wrapper">
+                
+                <span>809Mb</span>
+          
+                
+                  <a href="#" class="toggle-media" data-target="media-7">
+                    ▾ +2
+                  </a>
+                
+              </div>
+          
+              
+                <div id="media-7" class="extra-media">
+                  
+                    <div>2.40Gb</div>
+                  
+                    <div>6.00Gb</div>
+                  
+                </div>
+              
+            
+          </td>
+		</td>
         <td>DVD</td>
         <td class="type-cell">
           AMT
@@ -665,6 +790,20 @@
         </td>
         <td>Arena Treptow</td>
         <td>00:36:42</td>
+          <td>
+            
+              
+              <div class="media-wrapper">
+                
+                <span>2.06Gb</span>
+          
+                
+              </div>
+          
+              
+            
+          </td>
+		</td>
         <td>DVD</td>
         <td class="type-cell">
           AMT
@@ -770,6 +909,20 @@
         </td>
         <td>Megaland</td>
         <td>00:59:34</td>
+          <td>
+            
+              
+              <div class="media-wrapper">
+                
+                <span>3.20Gb</span>
+          
+                
+              </div>
+          
+              
+            
+          </td>
+		</td>
         <td>DVD</td>
         <td class="type-cell">
           PRO
@@ -887,6 +1040,21 @@
 
     document.getElementById('modalNext').onclick = nextImage;
     document.getElementById('modalPrev').onclick = prevImage;
+	
+	document.addEventListener("click", function (e) {
+      if (e.target.matches(".toggle-media")) {
+        e.preventDefault();
+        const targetId = e.target.dataset.target;
+        const block = document.getElementById(targetId);
+        if (!block) return;
+    
+        const isVisible = block.style.display === "block";
+        block.style.display = isVisible ? "none" : "block";
+        e.target.innerHTML = isVisible
+          ? `▾ +${block.children.length}`
+          : `▴`;
+      }
+    });
   </script>
 </div>
 
