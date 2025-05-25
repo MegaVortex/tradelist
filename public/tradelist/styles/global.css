@@ -201,3 +201,31 @@ h1, h2, h3 {
   padding: 6px 10px;
   text-align: left;
 }
+
+/* For the main wrapper */
+.media-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+}
+
+/* Toggle link */
+.toggle-media {
+  font-size: 0.9em;
+  color: #0077cc;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Hidden state */
+.extra-media {
+  display: none;
+  margin-top: 2px;
+}
+
+/* Shown state (added dynamically via JS) */
+.extra-media.visible {
+  display: block;
+}

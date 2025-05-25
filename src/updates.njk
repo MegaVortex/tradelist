@@ -13,6 +13,7 @@
         <th>Location</th>
         <th>Venue</th>
         <th>Length</th>
+        <th>Size</th>
         <th>Format</th>
         <th>Type</th>
         <th>Source</th>
@@ -60,6 +61,32 @@
         </td>
         <td>{{ show.location.venue or "—" }}</td>
         <td>{{ show.specs.length | formatTime if show.specs and show.specs.length else "—" }}</td>
+          <td>
+            {% if show.specs and show.specs.media and show.specs.media.length %}
+              {% set media = show.specs.media %}
+              <div class="media-wrapper">
+                {% set main = media[0] %}
+                <span>{{ main.size | smartSize }}{{ main.unit }}</span>
+          
+                {% if media.length > 1 %}
+                  <a href="#" class="toggle-media" data-target="media-{{ loop.index0 }}">
+                    ▾ +{{ media.length - 1 }}
+                  </a>
+                {% endif %}
+              </div>
+          
+              {% if media.length > 1 %}
+                <div id="media-{{ loop.index0 }}" class="extra-media">
+                  {% for medium in media.slice(1) %}
+                    <div>{{ medium.size | smartSize }}{{ medium.unit }}</div>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            {% else %}
+              —
+            {% endif %}
+          </td>
+		</td>
         <td>{{ show.specs.sourceDetail.fileFormat if show.specs and show.specs.sourceDetail else "—" }}</td>
         <td class="type-cell">
           {{ show.specs.sourceDetail.recordingType if show.specs and show.specs.sourceDetail else "—" }}
@@ -172,6 +199,21 @@
 
     document.getElementById('modalNext').onclick = nextImage;
     document.getElementById('modalPrev').onclick = prevImage;
+	
+	document.addEventListener("click", function (e) {
+      if (e.target.matches(".toggle-media")) {
+        e.preventDefault();
+        const targetId = e.target.dataset.target;
+        const block = document.getElementById(targetId);
+        if (!block) return;
+    
+        const isVisible = block.style.display === "block";
+        block.style.display = isVisible ? "none" : "block";
+        e.target.innerHTML = isVisible
+          ? `▾ +${block.children.length}`
+          : `▴`;
+      }
+    });
   </script>
 </div>
 {% endblock %}

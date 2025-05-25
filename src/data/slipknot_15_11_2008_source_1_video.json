@@ -46,6 +46,16 @@
         "type": "DVD-5",
         "size": 809,
         "unit": "Mb"
+      },
+	  {
+        "type": "DVD-5",
+        "size": 2.4,
+        "unit": "Gb"
+      },
+	  {
+        "type": "DVD-5",
+        "size": 6,
+        "unit": "Gb"
       }
     ],
     "chapters": false,

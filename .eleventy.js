@@ -18,6 +18,17 @@ module.exports = function (eleventyConfig) {
     const s = (seconds % 60).toString().padStart(2, "0");
     return `${h}:${m}:${s}`;
   });
+  
+eleventyConfig.addFilter("smartSize", function(num) {
+  if (typeof num !== "number") num = parseFloat(num);
+  if (isNaN(num)) return "—";
+
+  const str = String(num);
+
+  if (/^\d{3,}$/.test(str)) return str;
+
+  return num.toFixed(2);
+});
 
   // ✅ Load all JSON files into global `shows`
   eleventyConfig.addGlobalData("shows", () => {
