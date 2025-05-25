@@ -22,20 +22,20 @@
     "state": "",
     "country": "Russia",
     "venue": "SC Olimpiyskiy",
-    "event": ""
+    "event": "Test Event"
   },
-  "tvChannel": "",
-  "showName": "",
+  "tvChannel": "CNBC",
+  "showName": "Test Show",
   "source": "Source 2",
   "category": [
     "video"
   ],
-  "master": false,
+  "master": true,
   "public": true,
   "ownIdentifier": "HDD#D",
-  "tradeLabel": "",
-  "authoredBy": "",
-  "transferredBy": "",
+  "tradeLabel": "RT",
+  "authoredBy": "Vortex",
+  "transferredBy": "Dude123",
   "notes": "",
   "tapers": [
     "FLAME-XIII"
@@ -58,29 +58,29 @@
         "resolution": "720x576",
         "bitrateType": "VBR",
         "bitrateKbps": null,
-        "fps": "",
-        "standard": "",
-        "codec": "",
+        "fps": "25",
+        "standard": "MPEG",
+        "codec": "MP2",
         "letterboxed": false
       }
     ],
     "audio": [
       {
-        "language": "",
+        "language": "en",
         "codec": "AC3",
-        "rateHz": null,
-        "bitrateKbps": null,
+        "rateHz": 44000,
+        "bitrateKbps": 1200,
         "channels": 2
       }
     ],
     "sourceDetail": {
       "recordingType": "AMT",
-      "sourceMediaType": "",
-      "finalMediaType": "",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "VOB",
       "fileFormat": "DVD"
     }
   },
-  "relatedShows": [],
+  "relatedShows": ["slipknot_15_11_2008_source_1_video"],
   "childOf": "",
   "images": [
     {
