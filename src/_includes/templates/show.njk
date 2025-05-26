@@ -1,145 +1,297 @@
 {% extends "base.njk" %}
+
+{% block head %}
+  <link rel="stylesheet" href="/styles/show.css">
+{% endblock %}
+
 {% block content %}
 <div class="table-wrapper" style="margin-top: 5px;">
-   <table>
-      <thead>
-         <tr>
-            <th>Band</th>
-            <th>Date</th>
-            <th>City</th>
-            <th>State</th>
-            <th>Country</th>
-            <th>Event</th>
-            <th>Show</th>
-         </tr>
-      </thead>
-      <tbody>
-         <tr>
-            <td>
-               {% if show.bands and show.bands.length %}
-               {{ show.bands | join(", ") }}
-               {% else %}
-               —
-               {% endif %}
-            </td>
-            <td>
-               {% if show.startDateUnix %}
-               {{ show.startDateUnix | date("yyyy-MM-dd") }}
-               {% elif show.startDate %}
-               {% set sd = show.startDate %}
-               {% if sd.day and sd.month and sd.year %}
-               {{ sd.year }}-{{ sd.month }}-{{ sd.day }}
-               {% elif sd.month and sd.year %}
-               {{ sd.year }}-{{ sd.month }}
-               {% elif sd.year %}
-               {{ sd.year }}
-               {% else %}
-               —
-               {% endif %}
-               {% else %}
-               —
-               {% endif %}
-            </td>
-            <td>{{ show.location.city or "—" }}</td>
-            <td>{{ show.location.state or "—" }}</td>
-            <td>{{ show.location.country or "—" }}</td>
-            <td>{{ show.location.event or "—" }}</td>
-            <td>{{ show.showName or "—" }}</td>
-         </tr>
-      </tbody>
-   </table>
+  <table>
+    <thead>
+      <tr>
+        <th>Band</th>
+        <th>Date</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Country</th>
+		<th>Venue</th>
+        <th>Event</th>
+		<th>Source</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          {% if show.bands and show.bands.length %}
+            {{ show.bands | join(", ") }}
+          {% else %}
+            —
+          {% endif %}
+        </td>
+        <td>
+          {% if show.startDateUnix %}
+            {{ show.startDateUnix | date("yyyy-MM-dd") }}
+          {% elif show.startDate %}
+            {% set sd = show.startDate %}
+            {% if sd.day and sd.month and sd.year %}
+              {{ sd.year }}-{{ sd.month }}-{{ sd.day }}
+            {% elif sd.month and sd.year %}
+              {{ sd.year }}-{{ sd.month }}
+            {% elif sd.year %}
+              {{ sd.year }}
+            {% else %}
+              —
+            {% endif %}
+          {% else %}
+            —
+          {% endif %}
+        </td>
+        <td>{{ show.location.city or "—" }}</td>
+        <td>{{ show.location.state or "—" }}</td>
+        <td>{{ show.location.country or "—" }}</td>
+		<td>{{ show.location.venue or "—" }}</td>
+        <td>
+          {% if show.location.event and show.showName %}
+            {{ show.location.event }}<br>{{ show.showName }}
+          {% elif show.location.event %}
+            {{ show.location.event }}
+          {% elif show.showName %}
+            {{ show.showName }}
+          {% else %}
+            —
+          {% endif %}
+        </td>
+		<td>{{ show.source or "—" }}</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 <div class="table-wrapper" style="margin-top: 10px;">
-<table>
-   <thead>
+  <table>
+    <thead>
       <tr>
-         <th>Details</th>
-         <th>Images</th>
-         <th>Setlist</th>
+        <th>Details</th>
+        <th>Images</th>
+        <th>Setlist</th>
+		<th>Credits</th>
       </tr>
-   </thead>
-   <tbody>
+    </thead>
+    <tbody>
       <tr>
-         <td>
-            <!-- DETAILS -->
-            <div style="display: table-cell; padding: 10px;">
-               <p><strong>TV Channel:</strong> {{ show.tvChannel }}</p>
-               <p><strong>Source:</strong> {{ show.source }}</p>
-               <p><strong>Length:</strong> {{ show.specs.length | formatTime }}</p>
-               <p><strong>Media:</strong>
-                  {% for m in show.specs.media %}
-                  {{ m.type }} ({{ m.size }}{{ m.unit }}){% if not loop.last %}, {% endif %}
-                  {% endfor %}
-               </p>
-               <p><strong>Video:</strong>
-                  {% if show.specs.video and show.specs.video.length %}
-                  {% set v = show.specs.video[0] %}
-                  {{ v.standard }} {{ v.resolution }} {{ v.ratio }} {{ v.tvFormat }}, {{ v.fps }}fps
-                  {% endif %}
-               </p>
-               <p><strong>Audio:</strong>
-                  {% if show.specs.audio and show.specs.audio.length %}
-                  {% set a = show.specs.audio[0] %}
-                  {{ a.codec }} {{ a.channels }}ch @ {{ a.rateHz }}Hz
-                  {% endif %}
-               </p>
-               <p><strong>Recording Type:</strong> {{ show.specs.sourceDetail.recordingType }}</p>
-               <p><strong>Source Media:</strong> {{ show.specs.sourceDetail.sourceMediaType }}</p>
-               <p><strong>Final Format:</strong> {{ show.specs.sourceDetail.finalMediaType }}</p>
-               <p><strong>File Format:</strong> {{ show.specs.sourceDetail.fileFormat }}</p>
-               <p><strong>Taper(s):</strong> {{ show.tapers | join(", ") }}</p>
-               <p><strong>Trade Label:</strong> {{ show.tradeLabel }}</p>
-               <p><strong>Master Copy:</strong>
-                  {% if show.master %}Yes{% else %}No{% endif %}
-               </p>
-               <p><strong>Authored By:</strong> {{ show.authoredBy }}</p>
-               <p><strong>Transferred By:</strong> {{ show.transferredBy }}</p>
-         </td>
-         <!-- IMAGES -->
-         <td>
-         {% if show.images %}
-         {% for img in show.images.slice(0, 4) %}
-         <img src="https://drive.google.com/thumbnail?id={{ img.externalId }}&sz=w192"
-            alt="thumb"
-            width="192"
-            height="132"
-            style="display: flex; flex-direction: column; gap: 10px;"
-            onclick='openModal("{{ img.externalId }}", {{ show.images | dump | safe }})'>
-         {% endfor %}
-         {% else %}
-         —
-         {% endif %}
-         </td>
-         <!-- SETLIST -->
-         <td>
-         {% if show.setlist and show.setlist.length %}
-         <ol>
-         {% for item in show.setlist %}
-         <li>
-         {{ item.song }}
-         {% if item.feat %}<em> feat. {{ item.feat }}</em>{% endif %}
-         {% if item.coverOf %} (cover of {{ item.coverOf }}){% endif %}
-         {% if item.note %} — <small>{{ item.note }}</small>{% endif %}
-         </li>
-         {% endfor %}
-         </ol>
-         {% else %}
-         <p>No setlist available.</p>
-         {% endif %}
-         </td>
+      <td style="vertical-align: top; text-align: left;">
+      <!-- DETAILS -->
+      <div style="display: table-cell; padding: 10px;">
+        <p><strong>TV Channel:</strong> {{ show.tvChannel }}</p>
+        <p><strong>Length:</strong> {{ show.specs.length | formatTime }}</p>
+        <p><strong>Media:</strong>
+          {% for m in show.specs.media %}
+            {{ m.type }} ({{ m.size }}{{ m.unit }}){% if not loop.last %}, {% endif %}
+          {% endfor %}
+        </p>
+        <p><strong>Video:</strong>
+          {% if show.specs.video and show.specs.video.length %}
+            {% set v = show.specs.video[0] %}
+            {{ v.standard }} {{ v.resolution }} {{ v.ratio }} {{ v.tvFormat }}, {{ v.fps }}fps
+          {% endif %}
+        </p>
+        <p><strong>Audio:</strong>
+          {% if show.specs.audio and show.specs.audio.length %}
+            {% set a = show.specs.audio[0] %}
+            {{ a.codec }} {{ a.channels }}ch @ {{ a.rateHz }}Hz
+          {% endif %}
+        </p>
+        <p><strong>Recording Type:</strong> {{ show.specs.sourceDetail.recordingType }}</p>
+        <p><strong>Source Media:</strong> {{ show.specs.sourceDetail.sourceMediaType }}</p>
+        <p><strong>Final Format:</strong> {{ show.specs.sourceDetail.finalMediaType }}</p>
+        <p><strong>File Format:</strong> {{ show.specs.sourceDetail.fileFormat }}</p>
+        <p><strong>Trade Label:</strong> {{ show.tradeLabel }}</p>
+      </td>
+
+      <!-- IMAGES -->
+      <td style="vertical-align: top; text-align: left; width: 515px;">
+        {% if show.images %}
+          <div style="display: inline-block; border: 1px solid #ccc;">
+            <div style="display: flex;">
+              {% for i in [0, 1] %}
+                {% if show.images[i] %}
+                  <img
+                    src="https://drive.google.com/thumbnail?id={{ show.images[i].externalId }}&sz=w256"
+                    width="256"
+                    height="128"
+                    style="display: block; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; object-fit: cover; cursor: pointer;"
+                    onclick='openModal("{{ show.images[i].externalId }}", {{ show.images | dump | safe }})'>
+                {% endif %}
+              {% endfor %}
+            </div>
+            <div style="display: flex;">
+              {% for i in [2, 3] %}
+                {% if show.images[i] %}
+                  <img
+                    src="https://drive.google.com/thumbnail?id={{ show.images[i].externalId }}&sz=w256"
+                    width="256"
+                    height="128"
+                    style="display: block; border-right: 1px solid #ccc; object-fit: cover; cursor: pointer;"
+                    onclick='openModal("{{ show.images[i].externalId }}", {{ show.images | dump | safe }})'>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        {% else %}
+          —
+        {% endif %}
+      </td>
+      <!-- SETLIST -->
+      <td style="vertical-align: top; text-align: left;">
+        {% if show.setlist and show.setlist.length %}
+          <ol>
+            {% for item in show.setlist %}
+              <li>
+                {{ item.song }}
+                {% if item.feat %}<em> feat. {{ item.feat }}</em>{% endif %}
+                {% if item.coverOf %} (cover of {{ item.coverOf }}){% endif %}
+                {% if item.note %} — <small>{{ item.note }}</small>{% endif %}
+              </li>
+            {% endfor %}
+          </ol>
+        {% else %}
+          <p>No setlist available.</p>
+        {% endif %}
+      </td>
+      <!-- CREDITS -->
+	  <td style="vertical-align: top; text-align: left;">
+        <p><strong>TV Channel:</strong> {{ show.tvChannel }}</p>
+        <p><strong>Taper(s):</strong> {{ show.tapers | join(", ") }}</p>
+        <p><strong>Trade Label:</strong> {{ show.tradeLabel }}</p>
+        <p><strong>Master Copy:</strong>
+          {% if show.master %}Yes{% else %}No{% endif %}
+        </p>
+        <p><strong>Authored By:</strong> {{ show.authoredBy }}</p>
+        <p><strong>Transferred By:</strong> {{ show.transferredBy }}</p>
+      </td>
       </tr>
-   </tbody>
-</table>
+    </tbody>
+  </table>
 </div>
-<script src="../scripts/image-modal-viewer.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var thumbs = document.querySelectorAll('.image-thumb');
+  var modal = document.getElementById('imageModal');
+  var modalIframe = document.getElementById('driveViewer');
+  var captionText = document.getElementById('caption');
+  var closeBtn = document.querySelector('#imageModal .close');
+  var nextBtn = document.querySelector('#imageModal .next');
+  var prevBtn = document.querySelector('#imageModal .prev');
+  var currentIndex = 0;
+
+  thumbs.forEach(function(thumb, idx) {
+    thumb.addEventListener('click', function(e) {
+      e.preventDefault();
+      currentIndex = idx;
+      var id = thumb.getAttribute('data-drive-id');
+      modal.style.display = 'flex';
+      modalIframe.src = 'https://drive.google.com/file/d/' + id + '/preview';
+      captionText.textContent = thumb.querySelector('img').alt || '';
+    });
+  });
+
+  closeBtn.addEventListener('click', function() {
+    modal.style.display = 'none';
+    modalIframe.src = '';
+  });
+
+  nextBtn.addEventListener('click', function() {
+    currentIndex = (currentIndex + 1) % thumbs.length;
+    thumbs[currentIndex].click();
+  });
+
+  prevBtn.addEventListener('click', function() {
+    currentIndex = (currentIndex - 1 + thumbs.length) % thumbs.length;
+    thumbs[currentIndex].click();
+  });
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      modal.style.display = 'none';
+      modalIframe.src = '';
+    }
+  });
+});
+</script>
 <!-- Modal for image preview -->
 <div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background-color:rgba(0,0,0,0.7); z-index:1000; align-items:center; justify-content:center;">
-   <div style="position:relative; width:90%; height:90%;">
-      <span onclick="closeModal()" style="position:absolute; top:11px; right:60px; font-size:2rem; color:white; background-color:rgba(0,0,0,0.6); padding:1px 10px; border-radius:4px; cursor:pointer;">×</span>
-      <button id="modalPrev" style="position:absolute; left:10px; top:50%; transform:translateY(-50%); font-size:2rem; background:rgba(0,0,0,0.6); color:white; border:none; padding:8px 12px; cursor:pointer;">←</button>
-      <button id="modalNext" style="position:absolute; right:10px; top:50%; transform:translateY(-50%); font-size:2rem; background:rgba(0,0,0,0.6); color:white; border:none; padding:8px 12px; cursor:pointer;">→</button>
-      <iframe id="modalImage" style="width:100%; height:100%; border:none; border-radius:0px;"></iframe>
-   </div>
+  <div style="position:relative; width:90%; height:90%;">
+    <span onclick="closeModal()" style="position:absolute; top:11px; right:60px; font-size:2rem; color:white; background-color:rgba(0,0,0,0.6); padding:1px 10px; border-radius:4px; cursor:pointer;">×</span>
+	<button id="modalPrev" style="position:absolute; left:10px; top:50%; transform:translateY(-50%); font-size:2rem; background:rgba(0,0,0,0.6); color:white; border:none; padding:8px 12px; cursor:pointer;">←</button>
+	<button id="modalNext" style="position:absolute; right:10px; top:50%; transform:translateY(-50%); font-size:2rem; background:rgba(0,0,0,0.6); color:white; border:none; padding:8px 12px; cursor:pointer;">→</button>
+    <iframe id="modalImage" style="width:100%; height:100%; border:none; border-radius:0px;"></iframe>
+  </div>
 </div>
-<script src="../scripts/shows-table.js"></script>
+
+<script>
+let currentImages = [];
+let currentIndex = 0;
+
+function openModal(id, images = []) {
+  currentImages = images;
+  currentIndex = images.findIndex(img => img.externalId === id);
+  showImageAt(currentIndex);
+  const modal = document.getElementById('imageModal');
+  if (modal) modal.style.display = 'flex';
+}
+
+function showImageAt(index) {
+  const img = currentImages[index];
+  if (!img) return;
+
+  const iframe = document.getElementById('modalImage');
+  if (iframe) iframe.src = `https://drive.google.com/file/d/${img.externalId}/preview`;
+
+  const prevBtn = document.getElementById('modalPrev');
+  const nextBtn = document.getElementById('modalNext');
+
+  if (prevBtn) prevBtn.style.display = index > 0 ? 'block' : 'none';
+  if (nextBtn) nextBtn.style.display = index < currentImages.length - 1 ? 'block' : 'none';
+}
+
+function closeModal() {
+  const modal = document.getElementById('imageModal');
+  const iframe = document.getElementById('modalImage');
+  if (modal) modal.style.display = 'none';
+  if (iframe) iframe.src = '';
+  currentImages = [];
+  currentIndex = 0;
+}
+
+function nextImage() {
+  if (currentIndex < currentImages.length - 1) {
+    currentIndex++;
+    showImageAt(currentIndex);
+  }
+}
+
+function prevImage() {
+  if (currentIndex > 0) {
+    currentIndex--;
+    showImageAt(currentIndex);
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const nextBtn = document.getElementById('modalNext');
+  const prevBtn = document.getElementById('modalPrev');
+  const closeBtn = document.querySelector('#imageModal .close');
+
+  if (nextBtn) nextBtn.onclick = nextImage;
+  if (prevBtn) prevBtn.onclick = prevImage;
+  if (closeBtn) closeBtn.onclick = closeModal;
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeModal();
+    if (e.key === 'ArrowRight') nextImage();
+    if (e.key === 'ArrowLeft') prevImage();
+  });
+});
+</script>
 {% endblock %}

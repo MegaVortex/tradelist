@@ -1,0 +1,51 @@
+/* src/styles/show.css */
+.show-label-page {
+  position: absolute;
+  top: -15px;
+  right: 13px;
+  font-size: 8px;
+  padding: 1px 6px;
+  font-weight: bold;
+  border-radius: 6px;
+  color: #000;
+  white-space: nowrap;
+}
+
+.label-show1-page {
+  background-color: #42A5F5;
+}
+
+.label-show2-page {
+  background-color: #42A5F5;
+}
+
+.trade-label-page {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 8px;
+  padding: 1px 6px;
+  font-weight: bold;
+  border-radius: 6px;
+  color: #000;
+  white-space: nowrap;
+}
+.trade-label.red-page {
+  background-color: #CD5C5C;
+}
+.trade-label.blue-page {
+  background-color: #42A5F5;
+}
+
+.trade-label.master-page {
+  position: absolute;
+  top: 0px;
+  right: 26px;
+  font-size: 8px;
+  padding: 1px 6px;
+  background-color: #CE93D8;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  white-space: nowrap;
+}

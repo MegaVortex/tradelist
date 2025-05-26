@@ -1,11 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     var thumbs = document.querySelectorAll('.image-thumb');
     var modal = document.getElementById('imageModal');
-    var modalIframe = document.getElementById('driveViewer');
-    var captionText = document.getElementById('caption');
-    var closeBtn = document.querySelector('#imageModal .close');
-    var nextBtn = document.querySelector('#imageModal .next');
-    var prevBtn = document.querySelector('#imageModal .prev');
+    var modalIframe = document.getElementById('modalImage');
+    var closeBtn = document.querySelector('#imageModal span');
+    var nextBtn = document.getElementById('modalNext');
+    var prevBtn = document.getElementById('modalPrev');
     var currentIndex = 0;
 
     thumbs.forEach(function(thumb, idx) {
@@ -15,7 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
             var id = thumb.getAttribute('data-drive-id');
             modal.style.display = 'flex';
             modalIframe.src = 'https://drive.google.com/file/d/' + id + '/preview';
-            captionText.textContent = thumb.querySelector('img').alt || '';
         });
     });
 
