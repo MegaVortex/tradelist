@@ -1,0 +1,187 @@
+{
+  "originalTitle": "Jimi Hendrix - [1967-1972] - French TV Archives [Compilation]",
+  "created": 1746964495,
+  "lastUpdated": 1746964495,
+  "bands": [
+    "Jimi Hendrix"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1967"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1972"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Jimi Hendrix",
+    "state": "",
+    "country": "- French TV Archives",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.86,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2884,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "79792578.jpg",
+      "externalId": "1FFhEYanEYj4Hpb_0xMfuhvddemxSIsNH"
+    },
+    {
+      "folder": "73",
+      "filename": "03274274.jpg",
+      "externalId": "1AmlJd-ASqe5U4ethUUzNi_-SZ2F6msqZ"
+    },
+    {
+      "folder": "73",
+      "filename": "47985623.jpg",
+      "externalId": "1hdDJos7_KeEYsRja--SwBTzDpBsuES_W"
+    },
+    {
+      "folder": "73",
+      "filename": "55018507.jpg",
+      "externalId": "1-u6t_MBoi6ZfA9xGqIcYhBaJCk85Ys2o"
+    }
+  ],
+  "parentOf": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "21.05.1967 - Paris - France - Bouton Rouge",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "01.04.1967 - Ipswich - England - Gaumont Theatre",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "11.05.1967 - Paris - France - Theatre A Issy Les Moulineaux",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "10.10.1967 - Paris - France - Dim Dam Dom Varitas",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "11.10.1967 - Paris - France - Montparnasse",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "12.10.1967 - Paris - France - Discorama",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "21.10.1967 - Paris - France - Un Portrait De Marie Laforet",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "31.12.1969 - New York - NY - USA - Fillmore East",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "04.07.1970 - Byron - GA - USA - Middle Georgia Raceway",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "30.08.1970 - Isle Of Wight - England - East Afton Farm",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "29.06.1972 - Paris - France - Vivre Au Present",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

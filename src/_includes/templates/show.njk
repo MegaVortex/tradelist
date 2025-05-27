@@ -1,10 +1,23 @@
 {% extends "base.njk" %}
 
 {% block head %}
-  <link rel="stylesheet" href="/styles/show.css">
+  <link rel="stylesheet" href="../../../styles/show.css">
 {% endblock %}
 
 {% block content %}
+
+<div style="position: relative;">
+  {% if show.tradeLabel == 'RT' %}
+  <span class="trade-label-page red-page">RT</span>
+  {% elif show.tradeLabel == 'NT' %}
+  <span class="trade-label-page blue-page">NT</span>
+  {% endif %}
+
+  {% if show.master == true or (show.tapers and show.tapers.length == 1 and show.tapers[0] == "Vortex") %}
+  <span class="trade-label-page master-page">MASTER</span>
+  {% endif %}
+</div>
+
 <div class="table-wrapper" style="margin-top: 5px;">
   <table>
     <thead>
@@ -17,6 +30,7 @@
 		<th>Venue</th>
         <th>Event</th>
 		<th>Source</th>
+		<th>Credits</th>
       </tr>
     </thead>
     <tbody>
@@ -62,11 +76,17 @@
           {% endif %}
         </td>
 		<td>{{ show.source or "—" }}</td>
+		<!-- CREDITS -->
+	    <td style="vertical-align: top; text-align: left;">
+          <p><strong>TV Channel:</strong> {{ show.tvChannel }}</p>
+          <p><strong>Taper(s):</strong> {{ show.tapers | join(", ") }}</p>
+          <p><strong>Authored By:</strong> {{ show.authoredBy }}</p>
+          <p><strong>Transferred By:</strong> {{ show.transferredBy }}</p>
+        </td>
       </tr>
     </tbody>
   </table>
 </div>
-
 <div class="table-wrapper" style="margin-top: 10px;">
   <table>
     <thead>
@@ -74,38 +94,49 @@
         <th>Details</th>
         <th>Images</th>
         <th>Setlist</th>
-		<th>Credits</th>
       </tr>
     </thead>
     <tbody>
       <tr>
       <td style="vertical-align: top; text-align: left;">
       <!-- DETAILS -->
-      <div style="display: table-cell; padding: 10px;">
-        <p><strong>TV Channel:</strong> {{ show.tvChannel }}</p>
-        <p><strong>Length:</strong> {{ show.specs.length | formatTime }}</p>
-        <p><strong>Media:</strong>
-          {% for m in show.specs.media %}
-            {{ m.type }} ({{ m.size }}{{ m.unit }}){% if not loop.last %}, {% endif %}
-          {% endfor %}
-        </p>
-        <p><strong>Video:</strong>
+      <div>
+        <strong>Size:</strong>
+        {% if show.specs and show.specs.media and show.specs.media.length %}
+          {% set media = show.specs.media %}
+          {% set main = media[0] %}
+          <span>{{ main.size | smartSize }}{{ main.unit }}</span>
+          {% if media.length > 1 %}
+            <a href="#" class="toggle-media" data-target="media-{{ loop.index0 }}">
+              ▾ +{{ media.length - 1 }}
+            </a>
+          {% endif %}
+        {% else %}
+          —
+        {% endif %}
+      </div>
+      {% if media.length > 1 %}
+      <div id="media-{{ loop.index0 }}" class="extra-media">
+        {% for medium in media.slice(1) %}
+          <div>{{ medium.size | smartSize }}{{ medium.unit }}</div>
+        {% endfor %}
+      </div>
+      {% endif %}
+        <strong>Length:</strong> {{ show.specs.length | formatTime }}<br>
+        <strong>Video:</strong>
           {% if show.specs.video and show.specs.video.length %}
             {% set v = show.specs.video[0] %}
             {{ v.standard }} {{ v.resolution }} {{ v.ratio }} {{ v.tvFormat }}, {{ v.fps }}fps
-          {% endif %}
-        </p>
-        <p><strong>Audio:</strong>
+          {% endif %}<br>
+        <strong>Audio:</strong>
           {% if show.specs.audio and show.specs.audio.length %}
             {% set a = show.specs.audio[0] %}
             {{ a.codec }} {{ a.channels }}ch @ {{ a.rateHz }}Hz
-          {% endif %}
-        </p>
-        <p><strong>Recording Type:</strong> {{ show.specs.sourceDetail.recordingType }}</p>
-        <p><strong>Source Media:</strong> {{ show.specs.sourceDetail.sourceMediaType }}</p>
-        <p><strong>Final Format:</strong> {{ show.specs.sourceDetail.finalMediaType }}</p>
-        <p><strong>File Format:</strong> {{ show.specs.sourceDetail.fileFormat }}</p>
-        <p><strong>Trade Label:</strong> {{ show.tradeLabel }}</p>
+          {% endif %}<br>
+        <strong>Recording Type:</strong> {{ show.specs.sourceDetail.recordingType }}<br>
+        <strong>Source Media:</strong> {{ show.specs.sourceDetail.sourceMediaType }}<br>
+        <strong>Final Format:</strong> {{ show.specs.sourceDetail.finalMediaType }}<br>
+        <strong>File Format:</strong> {{ show.specs.sourceDetail.fileFormat }}<br>
       </td>
 
       <!-- IMAGES -->
@@ -144,7 +175,7 @@
       <!-- SETLIST -->
       <td style="vertical-align: top; text-align: left;">
         {% if show.setlist and show.setlist.length %}
-          <ol>
+          <ol style="margin-top: 0;">
             {% for item in show.setlist %}
               <li>
                 {{ item.song }}
@@ -155,19 +186,8 @@
             {% endfor %}
           </ol>
         {% else %}
-          <p>No setlist available.</p>
+          No setlist available.
         {% endif %}
-      </td>
-      <!-- CREDITS -->
-	  <td style="vertical-align: top; text-align: left;">
-        <p><strong>TV Channel:</strong> {{ show.tvChannel }}</p>
-        <p><strong>Taper(s):</strong> {{ show.tapers | join(", ") }}</p>
-        <p><strong>Trade Label:</strong> {{ show.tradeLabel }}</p>
-        <p><strong>Master Copy:</strong>
-          {% if show.master %}Yes{% else %}No{% endif %}
-        </p>
-        <p><strong>Authored By:</strong> {{ show.authoredBy }}</p>
-        <p><strong>Transferred By:</strong> {{ show.transferredBy }}</p>
       </td>
       </tr>
     </tbody>
@@ -291,6 +311,21 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.key === 'Escape') closeModal();
     if (e.key === 'ArrowRight') nextImage();
     if (e.key === 'ArrowLeft') prevImage();
+  });
+
+  document.addEventListener("click", function(e) {
+      if (e.target.matches(".toggle-media")) {
+          e.preventDefault();
+          const targetId = e.target.dataset.target;
+          const block = document.getElementById(targetId);
+          if (!block) return;
+
+          const isVisible = block.style.display === "block";
+          block.style.display = isVisible ? "none" : "block";
+          e.target.innerHTML = isVisible ?
+              `▾ +${block.children.length}` :
+              `▴`;
+      }
   });
 });
 </script>

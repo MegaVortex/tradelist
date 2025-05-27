@@ -1,0 +1,138 @@
+{
+  "originalTitle": "Jimi Hendrix - xx.xx.xxxx - Southbank TV Special [Compilation]",
+  "created": 1746964495,
+  "lastUpdated": 1746964495,
+  "bands": [
+    "Jimi Hendrix"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Jimi Hendrix",
+    "state": "",
+    "country": "xx.xx.xxxx",
+    "venue": "Southbank TV Special",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.98,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4695,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS/8mm",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "47726765.jpg",
+      "externalId": "1CpY_nXDTWkN3DcE8oHFb4uB2_42cX-4Y"
+    },
+    {
+      "folder": "73",
+      "filename": "54720353.jpg",
+      "externalId": "1s1IHpBVBT11OjSXimYda-T1L_Xrg_SUl"
+    },
+    {
+      "folder": "73",
+      "filename": "65884571.jpg",
+      "externalId": "1K5l0klg3l8WPL4pXiDJd1gHSaE_OELN_"
+    },
+    {
+      "folder": "73",
+      "filename": "45217920.jpg",
+      "externalId": "1KV2aGUksd-SYZyx19uVgOtoMiXBbLuCW"
+    }
+  ],
+  "parentOf": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "ITV's Southbank TV Special 1986",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "10.11.1967 - Bussum - VPRO Vitus Studio - &quot;Hoepla&quot; (documentary)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Pass It On (rare amateur footage video compilation):",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "12.11.2005 - Veronika Hjort Photo Exhibition (Swedish TV program &quot;Landet Rundt&quot;)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}
