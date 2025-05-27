@@ -3,6 +3,7 @@
 <head>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="/tradelist/styles/global.css">
+	<link rel="stylesheet" href="/tradelist/styles/show.css">
     <meta charset="UTF-8">
     <title>Untitled</title>
 </head>
@@ -18,6 +19,17 @@
 
   <main>
     
+
+<div style="position: relative;">
+  
+  <span class="trade-label-page blue-page">NT</span>
+  
+
+  
+  <span class="trade-label-page master-page">MASTER</span>
+  
+</div>
+
 <div class="table-wrapper" style="margin-top: 5px;">
   <table>
     <thead>
@@ -30,6 +42,7 @@
 		<th>Venue</th>
         <th>Event</th>
 		<th>Source</th>
+		<th>Credits</th>
       </tr>
     </thead>
     <tbody>
@@ -54,11 +67,17 @@
           
         </td>
 		<td>Source 2</td>
+		<!-- CREDITS -->
+	    <td style="vertical-align: top; text-align: left;">
+          <p><strong>TV Channel:</strong> </p>
+          <p><strong>Taper(s):</strong> Vortex</p>
+          <p><strong>Authored By:</strong> </p>
+          <p><strong>Transferred By:</strong> </p>
+        </td>
       </tr>
     </tbody>
   </table>
 </div>
-
 <div class="table-wrapper" style="margin-top: 10px;">
   <table>
     <thead>
@@ -66,38 +85,37 @@
         <th>Details</th>
         <th>Images</th>
         <th>Setlist</th>
-		<th>Credits</th>
       </tr>
     </thead>
     <tbody>
       <tr>
       <td style="vertical-align: top; text-align: left;">
       <!-- DETAILS -->
-      <div style="display: table-cell; padding: 10px;">
-        <p><strong>TV Channel:</strong> </p>
-        <p><strong>Length:</strong> 00:36:42</p>
-        <p><strong>Media:</strong>
+      <div>
+        <strong>Size:</strong>
+        
           
-            DVD-5 (2.06Gb)
           
-        </p>
-        <p><strong>Video:</strong>
+          <span>2.06Gb</span>
+          
+        
+      </div>
+      
+        <strong>Length:</strong> 00:36:42<br>
+        <strong>Video:</strong>
           
             
              720x576 4:3 PAL, fps
-          
-        </p>
-        <p><strong>Audio:</strong>
+          <br>
+        <strong>Audio:</strong>
           
             
             MPEG1 2ch @ Hz
-          
-        </p>
-        <p><strong>Recording Type:</strong> AMT</p>
-        <p><strong>Source Media:</strong> Digicam</p>
-        <p><strong>Final Format:</strong> </p>
-        <p><strong>File Format:</strong> DVD</p>
-        <p><strong>Trade Label:</strong> NT</p>
+          <br>
+        <strong>Recording Type:</strong> AMT<br>
+        <strong>Source Media:</strong> Digicam<br>
+        <strong>Final Format:</strong> <br>
+        <strong>File Format:</strong> DVD<br>
       </td>
 
       <!-- IMAGES -->
@@ -152,7 +170,7 @@
       <!-- SETLIST -->
       <td style="vertical-align: top; text-align: left;">
         
-          <ol>
+          <ol style="margin-top: 0;">
             
               <li>
                 Iowa (Intro)
@@ -226,17 +244,6 @@
             
           </ol>
         
-      </td>
-      <!-- CREDITS -->
-	  <td style="vertical-align: top; text-align: left;">
-        <p><strong>TV Channel:</strong> </p>
-        <p><strong>Taper(s):</strong> Vortex</p>
-        <p><strong>Trade Label:</strong> NT</p>
-        <p><strong>Master Copy:</strong>
-          No
-        </p>
-        <p><strong>Authored By:</strong> </p>
-        <p><strong>Transferred By:</strong> </p>
       </td>
       </tr>
     </tbody>
@@ -360,6 +367,21 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.key === 'Escape') closeModal();
     if (e.key === 'ArrowRight') nextImage();
     if (e.key === 'ArrowLeft') prevImage();
+  });
+
+  document.addEventListener("click", function(e) {
+      if (e.target.matches(".toggle-media")) {
+          e.preventDefault();
+          const targetId = e.target.dataset.target;
+          const block = document.getElementById(targetId);
+          if (!block) return;
+
+          const isVisible = block.style.display === "block";
+          block.style.display = isVisible ? "none" : "block";
+          e.target.innerHTML = isVisible ?
+              `▾ +${block.children.length}` :
+              `▴`;
+      }
   });
 });
 </script>

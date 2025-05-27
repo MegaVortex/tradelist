@@ -21,31 +21,37 @@
 
 .trade-label-page {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  font-size: 8px;
+  font-size: 11px;
   padding: 1px 6px;
   font-weight: bold;
   border-radius: 6px;
   color: #000;
   white-space: nowrap;
 }
-.trade-label.red-page {
+
+.red-page {
+  top: -5px;
+  left: 0px;
   background-color: #CD5C5C;
 }
-.trade-label.blue-page {
+
+.blue-page {
+  top: -5px;
+  left: 0px;
   background-color: #42A5F5;
 }
 
-.trade-label.master-page {
-  position: absolute;
-  top: 0px;
-  right: 26px;
-  font-size: 8px;
-  padding: 1px 6px;
+.master-page {
+  top: -23px;
+  left: 0px;
   background-color: #CE93D8;
-  color: #000;
-  font-weight: bold;
   text-transform: uppercase;
-  white-space: nowrap;
+}
+
+/* For the main wrapper */
+.media-wrapper-page {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: left;
 }
