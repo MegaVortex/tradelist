@@ -56,6 +56,11 @@
         "type": "DVD-5",
         "size": 6,
         "unit": "Gb"
+      },
+	  {
+        "type": "DVD-5",
+        "size": 4.1,
+        "unit": "Gb"
       }
     ],
     "chapters": false,
@@ -64,6 +69,28 @@
     "video": [
       {
         "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      },
+	  {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      },
+	  {
+        "tvFormat": "NTSC",
         "ratio": "4:3",
         "resolution": "720x576",
         "bitrateType": "VBR",

@@ -8,9 +8,12 @@
 
 <div style="position: relative;">
   {% if show.tradeLabel == 'RT' %}
-  <span class="trade-label-page red-page">RT</span>
+    <span class="trade-label-page red-page">RT</span>
   {% elif show.tradeLabel == 'NT' %}
-  <span class="trade-label-page blue-page">NT</span>
+    <span class="trade-label-page blue-page">NT</span>
+  {% endif %}
+  {% if show.ownIdentifier and show.ownIdentifier | trim != '' %}
+    <span class="trade-label-page hdd-page">{{ show.ownIdentifier }}</span>
   {% endif %}
 
   {% if show.master == true or (show.tapers and show.tapers.length == 1 and show.tapers[0] == "Vortex") %}
@@ -100,34 +103,69 @@
       <tr>
       <td style="vertical-align: top; text-align: left;">
       <!-- DETAILS -->
-      <div>
-        <strong>Size:</strong>
-        {% if show.specs and show.specs.media and show.specs.media.length %}
-          {% set media = show.specs.media %}
-          {% set main = media[0] %}
-          <span>{{ main.size | smartSize }}{{ main.unit }}</span>
-          {% if media.length > 1 %}
-            <a href="#" class="toggle-media" data-target="media-{{ loop.index0 }}">
-              ▾ +{{ media.length - 1 }}
-            </a>
-          {% endif %}
-        {% else %}
-          —
-        {% endif %}
-      </div>
-      {% if media.length > 1 %}
-      <div id="media-{{ loop.index0 }}" class="extra-media">
-        {% for medium in media.slice(1) %}
-          <div>{{ medium.size | smartSize }}{{ medium.unit }}</div>
-        {% endfor %}
-      </div>
-      {% endif %}
+<div>
+  <strong>Size:</strong>
+  {% if show.specs and show.specs.media and show.specs.media.length %}
+    {% set media = show.specs.media %}
+    {% set main = media[0] %}
+    <span>{{ main.size | smartSize }}{{ main.unit }}</span>
+    {% if media.length > 1 %}
+      <a href="#" class="toggle-media" data-target="media-toggle">▾ +{{ media.length - 1 }}</a>
+    {% endif %}
+  {% else %}
+    —
+  {% endif %}
+</div>
+
+{% if show.specs and show.specs.media and show.specs.media.length > 1 %}
+<div id="media-toggle" class="extra-media indent-block-size" style="display: none;">
+  {% for medium in show.specs.media.slice(1) %}
+    <div>{{ medium.size | smartSize }}{{ medium.unit }}</div>
+  {% endfor %}
+</div>
+{% endif %}
+
         <strong>Length:</strong> {{ show.specs.length | formatTime }}<br>
-        <strong>Video:</strong>
-          {% if show.specs.video and show.specs.video.length %}
-            {% set v = show.specs.video[0] %}
-            {{ v.standard }} {{ v.resolution }} {{ v.ratio }} {{ v.tvFormat }}, {{ v.fps }}fps
-          {% endif %}<br>
+<!-- VIDEO -->
+<div>
+  <strong>Video:</strong>
+  {% if show.specs.video and show.specs.video.length %}
+    {% set videos = show.specs.video %}
+    {% set v = videos[0] %}
+    {{ v.tvFormat }}
+    {% if v.ratio %} ({{ v.ratio }}){% endif %}
+    {{ v.standard }}
+    {% if v.codec %} ({{ v.codec }}){% endif %}
+    {{ v.resolution }}
+    {% if v.fps %} {{ v.fps }}fps{% endif %}
+    {% if v.bitrateType %} {{ v.bitrateType }}{% endif %}
+    {% if v.bitrateKbps %} {{ v.bitrateKbps }}kbps{% endif %}
+    {% if v.letterboxed %} {{ v.letterboxed }}{% endif %}
+    {% if videos.length > 1 %}
+      <a href="#" class="toggle-media" data-target="video-toggle">▾ +{{ videos.length - 1 }}</a>
+    {% endif %}
+  {% else %}
+    —
+  {% endif %}
+</div>
+
+{% if show.specs.video and show.specs.video.length > 1 %}
+<div id="video-toggle" class="extra-media indent-block-video" style="display: none;">
+  {% for vid in show.specs.video.slice(1) %}
+    <div>
+      {{ vid.tvFormat }}
+      {% if vid.ratio %} ({{ vid.ratio }}){% endif %}
+      {{ vid.standard }}
+      {% if vid.codec %} ({{ vid.codec }}){% endif %}
+      {{ vid.resolution }}
+      {% if vid.fps %} {{ vid.fps }}fps{% endif %}
+      {% if vid.bitrateType %} {{ vid.bitrateType }}{% endif %}
+      {% if vid.bitrateKbps %} {{ vid.bitrateKbps }}kbps{% endif %}
+      {% if vid.letterboxed %} {{ vid.letterboxed }}{% endif %}
+    </div>
+  {% endfor %}
+</div>
+{% endif %}
         <strong>Audio:</strong>
           {% if show.specs.audio and show.specs.audio.length %}
             {% set a = show.specs.audio[0] %}

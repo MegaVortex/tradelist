@@ -44,7 +44,12 @@
         "type": "CD",
         "size": 136,
         "unit": "Mb"
-      }
+      },
+	  {
+		          "type": "DVD-5",
+        "size": 2.1,
+        "unit": "Gb"
+	  }
     ],
     "chapters": false,
     "menu": false,
