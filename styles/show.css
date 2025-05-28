@@ -48,10 +48,25 @@
   text-transform: uppercase;
 }
 
+.hdd-page {
+  top: -5px;
+  right: 0px;
+  background-color: #E8A317;
+  text-transform: uppercase;
+}
+
 /* For the main wrapper */
 .media-wrapper-page {
   display: flex;
   flex-direction: column;
   gap: 6px;
   align-items: left;
+}
+
+.indent-block-size {
+  margin-left: 35px;
+}
+
+.indent-block-video {
+  margin-left: 45px;
 }
