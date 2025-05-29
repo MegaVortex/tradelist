@@ -3,8 +3,14 @@ const path = require("path");
 const {
     DateTime
 } = require("luxon");
+const ISO6391 = require("iso-639-1");
 
 module.exports = function(eleventyConfig) {
+	eleventyConfig.addFilter("langName", function(code) {
+      if (!code || typeof code !== "string") return "";
+      return ISO6391.getName(code) || code;
+    });
+	
     eleventyConfig.addPassthroughCopy({
       "src/styles": "styles",
       "src/scripts": "scripts"

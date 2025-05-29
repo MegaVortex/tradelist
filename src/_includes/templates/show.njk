@@ -152,6 +152,8 @@
 
         <strong>Length:</strong> {{ show.specs.length | formatTime }}<br>
 <!-- VIDEO -->
+{% if 'audio' not in show.category %}
+<!-- VIDEO -->
 <div>
   <strong>Video:</strong>
   {% if show.specs.video and show.specs.video.length %}
@@ -191,11 +193,18 @@
   {% endfor %}
 </div>
 {% endif %}
-        <strong>Audio:</strong>
-          {% if show.specs.audio and show.specs.audio.length %}
-            {% set a = show.specs.audio[0] %}
-            {{ a.codec }} {{ a.channels }}ch @ {{ a.rateHz }}Hz
-          {% endif %}<br>
+{% endif %}
+<strong>Audio:</strong>
+{% if show.specs.audio and show.specs.audio.length %}
+  {% set a = show.specs.audio[0] %}
+  {% if a.language %}{{ a.language | langName }}{% endif %}
+  {% if a.codec %} {{ a.codec }}{% endif %}
+  {% if a.rateHz %} {{ a.rateHz }}Hz{% endif %}
+  {% if a.channels %} {{ a.channels }}ch{% endif %}
+  {% if a.bitrateKbps %} {{ a.bitrateKbps }}kbps{% endif %}
+{% else %}
+  —
+{% endif %}<br>
         <strong>Recording Type:</strong> {{ show.specs.sourceDetail.recordingType }}<br>
         <strong>Source Media:</strong> {{ show.specs.sourceDetail.sourceMediaType }}<br>
         <strong>Final Format:</strong> {{ show.specs.sourceDetail.finalMediaType }}<br>
