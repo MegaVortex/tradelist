@@ -126,7 +126,7 @@
     </thead>
     <tbody>
       <tr>
-      <td style="vertical-align: top; text-align: left;">
+	  <td style="vertical-align: top; text-align: left; width: 315px;">
       <!-- DETAILS -->
 <div>
   <strong>Size:</strong>
@@ -194,21 +194,74 @@
 </div>
 {% endif %}
 {% endif %}
-<strong>Audio:</strong>
-{% if show.specs.audio and show.specs.audio.length %}
-  {% set a = show.specs.audio[0] %}
-  {% if a.language %}{{ a.language | langName }}{% endif %}
-  {% if a.codec %} {{ a.codec }}{% endif %}
-  {% if a.rateHz %} {{ a.rateHz }}Hz{% endif %}
-  {% if a.channels %} {{ a.channels }}ch{% endif %}
-  {% if a.bitrateKbps %} {{ a.bitrateKbps }}kbps{% endif %}
-{% else %}
-  —
-{% endif %}<br>
-        <strong>Recording Type:</strong> {{ show.specs.sourceDetail.recordingType }}<br>
-        <strong>Source Media:</strong> {{ show.specs.sourceDetail.sourceMediaType }}<br>
-        <strong>Final Format:</strong> {{ show.specs.sourceDetail.finalMediaType }}<br>
-        <strong>File Format:</strong> {{ show.specs.sourceDetail.fileFormat }}<br>
+<!-- AUDIO -->
+<div>
+  <strong>Audio:</strong>
+  {% if show.specs.audio and show.specs.audio.length %}
+    {% set audios = show.specs.audio %}
+    {% set a = audios[0] %}
+    {% if a.language %}{{ a.language | langName }}{% endif %}
+    {% if a.codec %} {{ a.codec }}{% endif %}
+    {% if a.rateHz %} {{ a.rateHz }}Hz{% endif %}
+    {% if a.channels %} {{ a.channels }}ch{% endif %}
+    {% if a.bitrateKbps %} {{ a.bitrateKbps }}kbps{% endif %}
+
+    {% if audios.length > 1 %}
+      <a href="#" class="toggle-media" data-target="audio-toggle">▾ +{{ audios.length - 1 }}</a>
+    {% endif %}
+  {% else %}
+    —
+  {% endif %}
+</div>
+
+{% if show.specs.audio and show.specs.audio.length > 1 %}
+  <div id="audio-toggle" class="extra-media indent-block-audio" style="display: none;">
+    {% for a in show.specs.audio.slice(1) %}
+      <div>
+        {% if a.language %}{{ a.language | langName }}{% endif %}
+        {% if a.codec %} {{ a.codec }}{% endif %}
+        {% if a.rateHz %} {{ a.rateHz }}Hz{% endif %}
+        {% if a.channels %} {{ a.channels }}ch{% endif %}
+        {% if a.bitrateKbps %} {{ a.bitrateKbps }}kbps{% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+        <strong>Type:</strong>
+        <span
+          {% if show.specs.sourceDetail.recordingType == "AMT" %}
+            title="Amateur"
+          {% elif show.specs.sourceDetail.recordingType == "PRO" %}
+            title="Professional"
+          {% endif %}
+        >
+          {{ show.specs.sourceDetail.recordingType }}
+        </span><br>
+        {% if show.specs.sourceDetail.sourceMediaType %}
+          <strong>Source Media:</strong> {{ show.specs.sourceDetail.sourceMediaType }}<br>
+        {% endif %}
+{% set final = show.specs.sourceDetail.finalMediaType %}
+{% set file = show.specs.sourceDetail.fileFormat %}
+{% set hasFormat = final == 'DVD' or final == 'BD' or file == 'DVD' or file == 'BD' %}
+
+{% if final or file %}
+  <strong>File Format:</strong>
+  {% if final and file %}
+    {{ final }} ({{ file }})
+  {% else %}
+    {{ final or file }}
+  {% endif %}<br>
+{% endif %}
+
+{% if hasFormat %}
+  {% if show.specs.menu != null %}
+    <strong>Menu:</strong> {% if show.specs.menu %}Yes{% else %}No{% endif %}<br>
+  {% endif %}
+  {% if show.specs.chapters != null %}
+    <strong>Chapters:</strong> {% if show.specs.chapters %}Yes{% else %}No{% endif %}<br>
+  {% endif %}
+{% endif %}
+		
       </td>
 
       <!-- IMAGES -->
@@ -245,15 +298,17 @@
         {% endif %}
       </td>
       <!-- SETLIST -->
-      <td style="vertical-align: top; text-align: left;">
+	  <td style="vertical-align: top; text-align: left; width: 515px;">
         {% if show.setlist and show.setlist.length %}
           <ol style="margin-top: 0;">
             {% for item in show.setlist %}
               <li>
                 {{ item.song }}
+                {% if item.note %}
+                  <span class="setlist-note-label">{{ item.note }}</span>
+                {% endif %}
                 {% if item.feat %}<em> feat. {{ item.feat }}</em>{% endif %}
                 {% if item.coverOf %} (cover of {{ item.coverOf }}){% endif %}
-                {% if item.note %} — <small>{{ item.note }}</small>{% endif %}
               </li>
             {% endfor %}
           </ol>

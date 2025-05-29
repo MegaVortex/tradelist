@@ -74,6 +74,13 @@
         "rateHz": 48000,
         "bitrateKbps": 256,
         "channels": 2
+      },
+	  {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 128,
+        "channels": 1
       }
     ],
     "sourceDetail": {
