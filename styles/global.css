@@ -28,10 +28,12 @@ main {
   padding: 2rem;
 }
 
-/* Table styling */
 table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
   margin-top: 1em;
   background-color: #fff;
   border: 1px solid #d6e4f0;

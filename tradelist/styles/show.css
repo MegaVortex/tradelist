@@ -71,6 +71,10 @@
   margin-left: 45px;
 }
 
+.indent-block-audio {
+  margin-left: 45px;
+}
+
 .type-cell-page {
   position: relative;
 }
@@ -153,4 +157,18 @@
   box-shadow: 0 0 4px rgba(0,0,0,0.1);
   max-width: calc(100% - 150px);
   width: 100%;
+}
+
+.setlist-note-label {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 4px;
+  font-size: 11px;
+  font-weight: 600;
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 4px;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
 }
