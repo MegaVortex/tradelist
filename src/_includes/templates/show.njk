@@ -149,11 +149,9 @@
   {% endfor %}
 </div>
 {% endif %}
-
-        <strong>Length:</strong> {{ show.specs.length | formatTime }}<br>
+<strong>Length:</strong> {{ show.specs.length | formatTime }}<br>
 <!-- VIDEO -->
 {% if 'audio' not in show.category %}
-<!-- VIDEO -->
 <div>
   <strong>Video:</strong>
   {% if show.specs.video and show.specs.video.length %}
@@ -167,7 +165,7 @@
     {% if v.fps %} {{ v.fps }}fps{% endif %}
     {% if v.bitrateType %} {{ v.bitrateType }}{% endif %}
     {% if v.bitrateKbps %} {{ v.bitrateKbps }}kbps{% endif %}
-    {% if v.letterboxed %} {{ v.letterboxed }}{% endif %}
+    {% if v.letterboxed == true %} Letterboxed{% endif %}
     {% if videos.length > 1 %}
       <a href="#" class="toggle-media" data-target="video-toggle">▾ +{{ videos.length - 1 }}</a>
     {% endif %}
@@ -188,7 +186,7 @@
       {% if vid.fps %} {{ vid.fps }}fps{% endif %}
       {% if vid.bitrateType %} {{ vid.bitrateType }}{% endif %}
       {% if vid.bitrateKbps %} {{ vid.bitrateKbps }}kbps{% endif %}
-      {% if vid.letterboxed %} {{ vid.letterboxed }}{% endif %}
+      {% if vid.letterboxed == true %} Letterboxed{% endif %}
     </div>
   {% endfor %}
 </div>
@@ -298,7 +296,7 @@
         {% endif %}
       </td>
       <!-- SETLIST -->
-	  <td style="vertical-align: top; text-align: left; width: 515px;">
+	  <td style="vertical-align: top; text-align: left; width: 315px;">
         {% if show.setlist and show.setlist.length %}
           <ol style="margin-top: 0;">
             {% for item in show.setlist %}
