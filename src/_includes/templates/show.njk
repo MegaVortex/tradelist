@@ -6,21 +6,54 @@
 
 {% block content %}
 
+<div class="type-cell-page">
+  {% if show.category == "audio" %}
+    <span class="type-label-page audio-label-page">audio</span>
+  {% elif "misc" in show.category %}
+    <span class="type-label-page misc-label-page">misc</span>
+  {% endif %}
+  
+  {% if show.notes and show.notes | trim != '' %}
+    <span class="note-block" onclick="this.classList.toggle('expanded')">
+      <strong>Note:</strong> {{ show.notes }}
+    </span>
+  {% endif %}
+
+  {% if show.ownIdentifier and show.ownIdentifier | trim != '' %}
+    <span class="type-label-page hdd-page">{{ show.ownIdentifier }}</span>
+  {% endif %}
+</div>
+
+{% if show.tvChannel or (show.tapers and show.tapers | join("") | trim != '') or show.authoredBy or show.transferredBy %}
+<div class="type-cell-page">
+  <span class="credits-block" title="Credits" onclick="this.classList.toggle('expanded')">
+    {% if show.tapers and show.tapers.length > 0 and show.tapers | join("") | trim != '' %}
+      <strong>{% if show.tapers.length == 1 %}Taper:{% else %}Tapers:{% endif %}</strong> {{ show.tapers | join(", ") }}
+    {% endif %}
+    {% if show.authoredBy %}
+      <strong>Authored By:</strong> {{ show.authoredBy }}
+    {% endif %}
+    {% if show.transferredBy %}
+      <strong>Transferred By:</strong> {{ show.transferredBy }}
+    {% endif %}
+    {% if show.tvChannel %}
+      <strong>TV Channel:</strong> {{ show.tvChannel }}
+    {% endif %}
+  </span>
+</div>
+{% endif %}
+
 <div style="position: relative;">
   {% if show.tradeLabel == 'RT' %}
     <span class="trade-label-page red-page">RT</span>
   {% elif show.tradeLabel == 'NT' %}
     <span class="trade-label-page blue-page">NT</span>
   {% endif %}
-  {% if show.ownIdentifier and show.ownIdentifier | trim != '' %}
-    <span class="trade-label-page hdd-page">{{ show.ownIdentifier }}</span>
-  {% endif %}
 
   {% if show.master == true or (show.tapers and show.tapers.length == 1 and show.tapers[0] == "Vortex") %}
   <span class="trade-label-page master-page">MASTER</span>
   {% endif %}
 </div>
-
 <div class="table-wrapper" style="margin-top: 5px;">
   <table>
     <thead>
@@ -33,7 +66,6 @@
 		<th>Venue</th>
         <th>Event</th>
 		<th>Source</th>
-		<th>Credits</th>
       </tr>
     </thead>
     <tbody>
@@ -79,13 +111,6 @@
           {% endif %}
         </td>
 		<td>{{ show.source or "—" }}</td>
-		<!-- CREDITS -->
-	    <td style="vertical-align: top; text-align: left;">
-          <p><strong>TV Channel:</strong> {{ show.tvChannel }}</p>
-          <p><strong>Taper(s):</strong> {{ show.tapers | join(", ") }}</p>
-          <p><strong>Authored By:</strong> {{ show.authoredBy }}</p>
-          <p><strong>Transferred By:</strong> {{ show.transferredBy }}</p>
-        </td>
       </tr>
     </tbody>
   </table>
