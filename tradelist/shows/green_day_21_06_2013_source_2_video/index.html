@@ -109,7 +109,7 @@
     </thead>
     <tbody>
       <tr>
-	  <td style="vertical-align: top; text-align: left; width: 315px;">
+	  <td style="vertical-align: top; text-align: left; width: 352px; table-layout: fixed;">
       <!-- DETAILS -->
 <div>
   <strong>Size:</strong>
@@ -192,11 +192,9 @@
     <strong>Chapters:</strong> Yes<br>
   
 
-		
-      </td>
-
+</td>
       <!-- IMAGES -->
-      <td style="vertical-align: top; text-align: left; width: 515px;">
+      <td style="vertical-align: top; text-align: left; width: 515px; table-layout: fixed;">
         
           <div style="display: inline-block; border: 1px solid #ccc;">
             <div style="display: flex;">
@@ -245,9 +243,9 @@
         
       </td>
       <!-- SETLIST -->
-	  <td style="vertical-align: top; text-align: left; width: 315px;">
+	  <td style="vertical-align: top; text-align: left; width: 352px; table-layout: fixed;">
         
-          <ol style="margin-top: 0;">
+          <ol style="margin-top: 0; margin-left: -1.5em;">
             
               <li>
                 Blitzkrieg Bop
@@ -620,6 +618,14 @@ document.addEventListener('DOMContentLoaded', () => {
       }
   });
 });
+</script>
+<script>
+function toggleFeatInfo(el) {
+  const popup = el.nextElementSibling;
+  if (popup) {
+    popup.style.display = popup.style.display === 'inline' ? 'none' : 'inline';
+  }
+}
 </script>
 
   </main>

@@ -172,3 +172,16 @@
   position: relative;
   top: -1px;
 }
+
+.info-icon {
+  margin-left: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+  color: #0077cc;
+}
+
+.feat-popup {
+  margin-left: 5px;
+  font-size: 0.9em;
+  color: #444;
+}
