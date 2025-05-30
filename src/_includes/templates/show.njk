@@ -126,7 +126,7 @@
     </thead>
     <tbody>
       <tr>
-	  <td style="vertical-align: top; text-align: left; width: 315px;">
+	  <td style="vertical-align: top; text-align: left; width: 352px; table-layout: fixed;">
       <!-- DETAILS -->
 <div>
   <strong>Size:</strong>
@@ -259,11 +259,9 @@
     <strong>Chapters:</strong> {% if show.specs.chapters %}Yes{% else %}No{% endif %}<br>
   {% endif %}
 {% endif %}
-		
-      </td>
-
+</td>
       <!-- IMAGES -->
-      <td style="vertical-align: top; text-align: left; width: 515px;">
+      <td style="vertical-align: top; text-align: left; width: 515px; table-layout: fixed;">
         {% if show.images %}
           <div style="display: inline-block; border: 1px solid #ccc;">
             <div style="display: flex;">
@@ -296,16 +294,19 @@
         {% endif %}
       </td>
       <!-- SETLIST -->
-	  <td style="vertical-align: top; text-align: left; width: 315px;">
+	  <td style="vertical-align: top; text-align: left; width: 352px; table-layout: fixed;">
         {% if show.setlist and show.setlist.length %}
-          <ol style="margin-top: 0;">
+          <ol style="margin-top: 0; margin-left: -1.5em;">
             {% for item in show.setlist %}
               <li>
                 {{ item.song }}
                 {% if item.note %}
                   <span class="setlist-note-label">{{ item.note }}</span>
                 {% endif %}
-                {% if item.feat %}<em> feat. {{ item.feat }}</em>{% endif %}
+                {% if item.feat %}
+                  <span class="info-icon" onclick="toggleFeatInfo(this)" title="Click for guest info">ℹ️</span>
+                  <span class="feat-popup" style="display: none;"><em>feat. {{ item.feat }}</em></span>
+                {% endif %}
                 {% if item.coverOf %} (cover of {{ item.coverOf }}){% endif %}
               </li>
             {% endfor %}
@@ -453,5 +454,13 @@ document.addEventListener('DOMContentLoaded', () => {
       }
   });
 });
+</script>
+<script>
+function toggleFeatInfo(el) {
+  const popup = el.nextElementSibling;
+  if (popup) {
+    popup.style.display = popup.style.display === 'inline' ? 'none' : 'inline';
+  }
+}
 </script>
 {% endblock %}
