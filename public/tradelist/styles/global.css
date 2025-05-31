@@ -1,5 +1,11 @@
 /* global.css */
 
+/* Footer */
+footer {
+  color: #aaa;
+  background-color: #f4f9ff;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -62,15 +68,14 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Footer */
-footer {
-  color: #aaa;
-  background-color: #f4f9ff;
+.type-cell {
+  position: relative;
 }
 
-
-
 .type-label {
+  position: absolute;
+  top: 0px;
+  right: 0px;
   padding: 1px 6px;
   font-size: 8px;
   font-weight: bold;
@@ -81,46 +86,18 @@ footer {
 }
 
 .audio-label {
-  position: absolute;
-  top: 0px;
-  right: 10px;
   background-color: #4CAF50;
 }
 
 .misc-label {
-  position: absolute;
-  top: 0px;
-  right: 13px;
   background-color: #4CAF50;
 }
 
-.source-wrapper {
-  position: relative;
-  display: inline-block;
-  width: 100%;
+.video-label {
+  background-color: #E2A76F;
 }
 
 .show-label {
-  position: absolute;
-  top: -15px;
-  right: 13px;
-  font-size: 8px;
-  padding: 1px 6px;
-  font-weight: bold;
-  border-radius: 6px;
-  color: #000;
-  white-space: nowrap;
-}
-
-.label-show1 {
-  background-color: #42A5F5;
-}
-
-.label-show2 {
-  background-color: #42A5F5;
-}
-
-.trade-label {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -130,25 +107,33 @@ footer {
   border-radius: 6px;
   color: #000;
   white-space: nowrap;
-}
-.trade-label.red {
-  background-color: #CD5C5C;
-}
-.trade-label.blue {
   background-color: #42A5F5;
 }
 
-.trade-label.master {
+.trade-label {
   position: absolute;
-  top: 0px;
-  right: 26px;
   font-size: 8px;
   padding: 1px 6px;
-  background-color: #CE93D8;
-  color: #000;
   font-weight: bold;
-  text-transform: uppercase;
+  border-radius: 6px;
+  color: #000;
   white-space: nowrap;
+}
+.trade-label.red {
+  background-color: #CD5C5C;
+  top: 0px;
+  right: 0px;
+}
+.trade-label.blue {
+  background-color: #42A5F5;
+  top: 0px;
+  right: 0px;
+}
+
+.trade-label.master {
+  background-color: #CE93D8;
+  top: 0px;
+  right: 0px;
 }
 
 .rules-block {

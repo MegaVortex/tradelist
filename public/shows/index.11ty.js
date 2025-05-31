@@ -31,7 +31,7 @@ module.exports = class {
       selectedBand,
       pagination: {
         data: "shows",
-        size: 10000,
+        size: 20000,
         alias: "show"
       },
       permalink: "/shows/index.html"

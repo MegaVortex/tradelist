@@ -11,6 +11,8 @@
     <span class="type-label-page audio-label-page">audio</span>
   {% elif "misc" in show.category %}
     <span class="type-label-page misc-label-page">misc</span>
+  {% elif "video" in show.category %}
+    <span class="type-label-page video-label-page">video</span>
   {% endif %}
   
   {% if show.notes and show.notes | trim != '' %}
@@ -294,7 +296,7 @@
         {% endif %}
       </td>
       <!-- SETLIST -->
-	  <td style="vertical-align: top; text-align: left; width: 352px; table-layout: fixed;">
+      <td style="vertical-align: top; text-align: left; width: 352px; table-layout: fixed;">
         {% if show.setlist and show.setlist.length %}
           <ol style="margin-top: 0; margin-left: -1.5em;">
             {% for item in show.setlist %}
@@ -303,11 +305,21 @@
                 {% if item.note %}
                   <span class="setlist-note-label">{{ item.note }}</span>
                 {% endif %}
+      
+                {% if item.coverOf %}
+                  <span class="info-icon" onclick="toggleFeatInfo(this)" title="Cover">🎵</span>
+                  <span class="feat-popup" style="display: none;"><em>{{ item.coverOf }} cover</em></span>
+                {% endif %}
+      
                 {% if item.feat %}
-                  <span class="info-icon" onclick="toggleFeatInfo(this)" title="Click for guest info">ℹ️</span>
+                  <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
                   <span class="feat-popup" style="display: none;"><em>feat. {{ item.feat }}</em></span>
                 {% endif %}
-                {% if item.coverOf %} (cover of {{ item.coverOf }}){% endif %}
+				
+                {% if item.comment %}
+                  <span class="info-icon" onclick="toggleFeatInfo(this)" title="Comment">💬</span>
+                  <span class="feat-popup" style="display: none;"><em>{{ item.comment }}</em></span>
+                {% endif %}
               </li>
             {% endfor %}
           </ol>

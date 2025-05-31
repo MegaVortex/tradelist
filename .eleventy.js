@@ -30,15 +30,18 @@ module.exports = function(eleventyConfig) {
         return `${h}:${m}:${s}`;
     });
 
-    eleventyConfig.addFilter("smartSize", function(num) {
-        if (typeof num !== "number") num = parseFloat(num);
-        if (isNaN(num)) return "—";
-
-        const str = String(num);
-
-        if (/^\d{3,}$/.test(str)) return str;
-
-        return num.toFixed(2);
+    eleventyConfig.addFilter("smartSize", function (num) {
+      if (typeof num !== "number") num = parseFloat(num);
+      if (isNaN(num)) return "—";
+    
+      // If it's 3+ digit integer (before decimal), return as is
+      if (num >= 100) return String(Math.round(num));
+    
+      // If < 10, show 2 decimal places: 4 → 4.00, 4.1 → 4.10, 4.12 → 4.12
+      if (num < 10) return num.toFixed(2);
+    
+      // If 10–99.9 range, show 1 decimal place: 11 → 11.0, 11.12 → 11.1
+      return (Math.round(num * 10) / 10).toFixed(1);
     });
 
     // ✅ Load all JSON files into global `shows`

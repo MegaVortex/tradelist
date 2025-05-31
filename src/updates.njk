@@ -82,22 +82,29 @@
             </td>
             <td>{{ show.specs.sourceDetail.fileFormat if show.specs and show.specs.sourceDetail else "—" }}</td>
             <td class="type-cell">
-               {{ show.specs.sourceDetail.recordingType if show.specs and show.specs.sourceDetail else "—" }}
+               {% if show.specs and show.specs.sourceDetail %}
+               {{ show.specs.sourceDetail.recordingType or "—" }}
                {% if show.category == "audio" %}
                <span class="type-label audio-label">audio</span>
                {% elif "misc" in show.category %}
                <span class="type-label misc-label">misc</span>
+               {% elif "video" in show.category %}
+               <span class="type-label video-label">video</span>
+               {% endif %}
+               {% else %}
+               —
                {% endif %}
             </td>
-            <td>
-               <div class="source-wrapper">
-                  {{ show.source or "—" }}
-                  {% if show.fileSlug and show.fileSlug.includes('show_1') %}
-                  <span class="show-label label-show1">Show 1</span>
-                  {% elif show.fileSlug and show.fileSlug.includes('show_2') %}
-                  <span class="show-label label-show2">Show 2</span>
-                  {% endif %}
-               </div>
+            <td class="type-cell">
+               {{ show.source or "—" }}
+               {% if show.fileSlug and 'show_1' in show.fileSlug %}
+                 <span class="show-label">Show 1</span>
+               {% elif show.fileSlug and 'show_2' in show.fileSlug %}
+                 <span class="show-label">Show 2</span>
+               {% endif %}
+               {% if show.master == true or (show.tapers and show.tapers.length == 1 and show.tapers[0] == "Vortex") %}
+               <span class="trade-label master">MASTER</span>
+               {% endif %}
             </td>
             <td style="position: relative;">
                {{ show.tapers | join(", ") if show.tapers else "—" }}
@@ -105,9 +112,6 @@
                <span class="trade-label red">RT</span>
                {% elif show.tradeLabel == 'NT' %}
                <span class="trade-label blue">NT</span>
-               {% endif %}
-               {% if show.master == true or (show.tapers and show.tapers.length == 1 and show.tapers[0] == "Vortex") %}
-               <span class="trade-label master">master</span>
                {% endif %}
             </td>
             <td>

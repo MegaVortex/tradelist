@@ -45,7 +45,6 @@
   top: -23px;
   right: 0px;
   background-color: #CE93D8;
-  text-transform: uppercase;
 }
 
 .hdd-page {
@@ -93,6 +92,13 @@
   top: -5px;
   left: 0px;
   background-color: #4CAF50;
+  text-transform: uppercase;
+}
+
+.video-label-page {
+  top: -5px;
+  left: 0px;
+  background-color: #E2A76F;
   text-transform: uppercase;
 }
 
