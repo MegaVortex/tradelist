@@ -506,18 +506,18 @@ document.addEventListener('DOMContentLoaded', () => {
               `▴`;
       }
   });
-  const modal = document.getElementById("imageModal");
-
-  if (modal && typeof Hammer !== "undefined") {
-    const hammer = new Hammer(modal);
-
+  const modalWrapper = document.querySelector('#imageModal > div');
+  
+  if (modalWrapper && typeof Hammer !== "undefined") {
+    const hammer = new Hammer(modalWrapper);
+  
     hammer.get('swipe').set({ direction: Hammer.DIRECTION_HORIZONTAL });
-
-    hammer.on("swipeleft", function() {
+  
+    hammer.on("swipeleft", () => {
       nextImage();
     });
-
-    hammer.on("swiperight", function() {
+  
+    hammer.on("swiperight", () => {
       prevImage();
     });
   }
