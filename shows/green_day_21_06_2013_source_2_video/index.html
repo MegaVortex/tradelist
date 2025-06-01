@@ -668,6 +668,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	<button id="modalPrev" style="position:absolute; left:10px; top:50%; transform:translateY(-50%); font-size:2rem; background:rgba(0,0,0,0.6); color:white; border:none; padding:8px 12px; cursor:pointer;">←</button>
 	<button id="modalNext" style="position:absolute; right:10px; top:50%; transform:translateY(-50%); font-size:2rem; background:rgba(0,0,0,0.6); color:white; border:none; padding:8px 12px; cursor:pointer;">→</button>
     <iframe id="modalImage" style="width:100%; height:100%; border:none; border-radius:0px;"></iframe>
+    <div id="gestureOverlay" style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:10;"></div>
   </div>
 </div>
 
@@ -749,20 +750,15 @@ document.addEventListener('DOMContentLoaded', () => {
               `▴`;
       }
   });
-  const modalWrapper = document.querySelector('#imageModal > div');
+  const gestureArea = document.getElementById("gestureOverlay");
   
-  if (modalWrapper && typeof Hammer !== "undefined") {
-    const hammer = new Hammer(modalWrapper);
+  if (gestureArea && typeof Hammer !== "undefined") {
+    const hammer = new Hammer(gestureArea);
   
     hammer.get('swipe').set({ direction: Hammer.DIRECTION_HORIZONTAL });
   
-    hammer.on("swipeleft", () => {
-      nextImage();
-    });
-  
-    hammer.on("swiperight", () => {
-      prevImage();
-    });
+    hammer.on("swipeleft", () => nextImage());
+    hammer.on("swiperight", () => prevImage());
   }
 });
 </script>
