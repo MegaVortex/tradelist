@@ -490,6 +490,7 @@ function openModal(id, images = []) {
   showImageAt(currentIndex);
   const modal = document.getElementById('imageModal');
   if (modal) modal.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
 
   // ✅ Inject viewport tag ONLY when modal is shown
   if (!document.querySelector('meta[name="viewport"]')) {
@@ -522,9 +523,14 @@ function closeModal() {
   currentImages = [];
   currentIndex = 0;
 
-  // ✅ Remove injected viewport meta tag (if any)
+  // Remove the injected viewport tag
   const existing = document.querySelector('meta[name="viewport"]');
   if (existing) existing.remove();
+
+  // Remove modal param and reload clean
+  const url = new URL(window.location.href);
+  url.searchParams.delete('modal');
+  window.location.href = url.toString();
 }
 
 function nextImage() {
