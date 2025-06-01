@@ -13,7 +13,8 @@ module.exports = function(eleventyConfig) {
 	
     eleventyConfig.addPassthroughCopy({
       "src/styles": "styles",
-      "src/scripts": "scripts"
+      "src/scripts": "scripts",
+	  "src/assets/images": "assets/images"
     });
 
     // ✅ Date formatter
