@@ -22,7 +22,10 @@
 
 <div class="type-cell-page">
   
+
+  
     <span class="type-label-page video-label-page">video</span>
+
   
   
   
@@ -269,7 +272,7 @@
     </tbody>
   </table>
 </div>
-
+<script src="../../scripts/hammer.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   var thumbs = document.querySelectorAll('.image-thumb');
@@ -403,6 +406,21 @@ document.addEventListener('DOMContentLoaded', () => {
               `▴`;
       }
   });
+  const modal = document.getElementById("imageModal");
+
+  if (modal && typeof Hammer !== "undefined") {
+    const hammer = new Hammer(modal);
+
+    hammer.get('swipe').set({ direction: Hammer.DIRECTION_HORIZONTAL });
+
+    hammer.on("swipeleft", function() {
+      nextImage();
+    });
+
+    hammer.on("swiperight", function() {
+      prevImage();
+    });
+  }
 });
 </script>
 <script>
