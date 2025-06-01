@@ -263,6 +263,19 @@ h1, h2, h3 {
   padding: 1px 10px;
   border-radius: 4px;
   cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+#imageModal:hover .modal-controls {
+  opacity: 1;
+}
+
+#modalCaption {
+  margin-top: 10px;
+  color: #eee;
+  text-align: center;
+  font-size: 0.9rem;
 }
 
 #modalPrev,

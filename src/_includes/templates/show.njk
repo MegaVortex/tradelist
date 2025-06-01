@@ -7,12 +7,22 @@
 {% block content %}
 
 <div class="type-cell-page">
-  {% if show.category == "audio" %}
+  {% set cat = show.category or '' %}
+
+  {% if "audio" in cat and "misc" not in cat and "video" not in cat %}
     <span class="type-label-page audio-label-page">audio</span>
-  {% elif "misc" in show.category %}
-    <span class="type-label-page misc-label-page">misc</span>
-  {% elif "video" in show.category %}
+
+  {% elif "video" in cat and "misc" not in cat and "audio" not in cat %}
     <span class="type-label-page video-label-page">video</span>
+
+  {% elif "audio" in cat and "misc" in cat %}
+    <span class="type-label-page audio-label-page">audio</span>
+    <span class="type-label-page audio-misc-label-page">misc</span>
+
+  {% elif "video" in cat and "misc" in cat %}
+    <span class="type-label-page video-label-page">video</span>
+    <span class="type-label-page video-misc-label-page">misc</span>
+
   {% endif %}
   
   {% if show.notes and show.notes | trim != '' %}
@@ -331,7 +341,7 @@
     </tbody>
   </table>
 </div>
-
+<script src="../../scripts/hammer.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   var thumbs = document.querySelectorAll('.image-thumb');
@@ -465,6 +475,21 @@ document.addEventListener('DOMContentLoaded', () => {
               `▴`;
       }
   });
+  const modal = document.getElementById("imageModal");
+
+  if (modal && typeof Hammer !== "undefined") {
+    const hammer = new Hammer(modal);
+
+    hammer.get('swipe').set({ direction: Hammer.DIRECTION_HORIZONTAL });
+
+    hammer.on("swipeleft", function() {
+      nextImage();
+    });
+
+    hammer.on("swiperight", function() {
+      prevImage();
+    });
+  }
 });
 </script>
 <script>
