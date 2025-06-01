@@ -375,60 +375,24 @@
   </table>
 </div>
 <script src="../../scripts/hammer.min.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  var thumbs = document.querySelectorAll('.image-thumb');
-  var modal = document.getElementById('imageModal');
-  var modalIframe = document.getElementById('driveViewer');
-  var captionText = document.getElementById('caption');
-  var closeBtn = document.querySelector('#imageModal .close');
-  var nextBtn = document.querySelector('#imageModal .next');
-  var prevBtn = document.querySelector('#imageModal .prev');
-  var currentIndex = 0;
-
-  thumbs.forEach(function(thumb, idx) {
-    thumb.addEventListener('click', function(e) {
-      e.preventDefault();
-      currentIndex = idx;
-      var id = thumb.getAttribute('data-drive-id');
-      modal.style.display = 'flex';
-      modalIframe.src = 'https://drive.google.com/file/d/' + id + '/preview';
-      captionText.textContent = thumb.querySelector('img').alt || '';
-    });
-  });
-
-  closeBtn.addEventListener('click', function() {
-    modal.style.display = 'none';
-    modalIframe.src = '';
-  });
-
-  nextBtn.addEventListener('click', function() {
-    currentIndex = (currentIndex + 1) % thumbs.length;
-    thumbs[currentIndex].click();
-  });
-
-  prevBtn.addEventListener('click', function() {
-    currentIndex = (currentIndex - 1 + thumbs.length) % thumbs.length;
-    thumbs[currentIndex].click();
-  });
-
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-      modal.style.display = 'none';
-      modalIframe.src = '';
-    }
-  });
-});
-</script>
 <!-- Modal for image preview -->
 <div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background-color:rgba(0,0,0,0.7); z-index:1000; align-items:center; justify-content:center;">
   <div style="position:relative; width:90%; height:90%;">
-    <span onclick="closeModal()" style="position:absolute; top:11px; right:60px; font-size:2rem; color:white; background-color:rgba(0,0,0,0.6); padding:1px 10px; border-radius:4px; cursor:pointer;">×</span>
-	<button id="modalPrev" style="position:absolute; left:10px; top:50%; transform:translateY(-50%); font-size:2rem; background:rgba(0,0,0,0.6); color:white; border:none; padding:8px 12px; cursor:pointer;">←</button>
-	<button id="modalNext" style="position:absolute; right:10px; top:50%; transform:translateY(-50%); font-size:2rem; background:rgba(0,0,0,0.6); color:white; border:none; padding:8px 12px; cursor:pointer;">→</button>
+    <!-- Close -->
+    <span onclick="closeModal()" class="close-btn">×</span>
+
+    <!-- Arrows (always rendered) -->
+    <button id="modalPrev" class="nav-arrow" aria-label="Previous">←</button>
+    <button id="modalNext" class="nav-arrow" aria-label="Next">→</button>
+
+    <!-- Image frame -->
     <iframe id="modalImage" style="width:100%; height:100%; border:none; border-radius:0px;"></iframe>
+
+    <!-- Swipe overlay -->
+    <div id="gestureOverlay" style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:10;"></div>
   </div>
 </div>
+
 
 <script>
 let currentImages = [];
@@ -508,20 +472,17 @@ document.addEventListener('DOMContentLoaded', () => {
               `▴`;
       }
   });
-  const modalWrapper = document.querySelector('#imageModal > div');
   
-  if (modalWrapper && typeof Hammer !== "undefined") {
-    const hammer = new Hammer(modalWrapper);
+  const gestureArea = document.getElementById("gestureOverlay");
+  if (gestureArea && typeof Hammer !== "undefined") {
+    const hammer = new Hammer(gestureArea);
   
-    hammer.get('swipe').set({ direction: Hammer.DIRECTION_HORIZONTAL });
+    hammer.get('swipe').set({ direction: Hammer.DIRECTION_ALL });
   
-    hammer.on("swipeleft", () => {
-      nextImage();
-    });
-  
-    hammer.on("swiperight", () => {
-      prevImage();
-    });
+    hammer.on("swipeleft", () => nextImage());
+    hammer.on("swiperight", () => prevImage());
+	hammer.on('swipeup', closeModal);
+	hammer.on('swipedown', closeModal);
   }
 });
 </script>
