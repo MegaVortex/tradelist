@@ -309,3 +309,10 @@ h1, h2, h3 {
 img.clickable-thumb {
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  #modalPrev,
+  #modalNext {
+    display: none !important;
+  }
+}
