@@ -1,478 +1,338 @@
 {% extends "base.njk" %}
-
 {% block head %}
-  <link rel="stylesheet" href="../../../styles/show.css">
+<link rel="stylesheet" href="../../../styles/show.css">
 {% endblock %}
-
 {% block content %}
-
 <div class="type-cell-page">
-  {% set cat = show.category or '' %}
-
-  {% if "audio" in cat and "misc" not in cat and "video" not in cat %}
-    <span class="type-label-page audio-label-page">audio</span>
-
-  {% elif "video" in cat and "misc" not in cat and "audio" not in cat %}
-    <span class="type-label-page video-label-page">video</span>
-
-  {% elif "audio" in cat and "misc" in cat %}
-    <span class="type-label-page audio-label-page">audio</span>
-    <span class="type-label-page audio-misc-label-page">misc</span>
-
-  {% elif "video" in cat and "misc" in cat %}
-    <span class="type-label-page video-label-page">video</span>
-    <span class="type-label-page video-misc-label-page">misc</span>
-
-  {% endif %}
-  
-  {% if show.notes and show.notes | trim != '' %}
-    <span class="note-block" onclick="this.classList.toggle('expanded')">
-      <strong>Note:</strong> {{ show.notes }}
-    </span>
-  {% endif %}
-
-  {% if show.ownIdentifier and show.ownIdentifier | trim != '' %}
-    <span class="type-label-page hdd-page">{{ show.ownIdentifier }}</span>
-  {% endif %}
+   {% set cat = show.category or '' %}
+   {% if "audio" in cat and "misc" not in cat and "video" not in cat %}
+   <span class="type-label-page audio-label-page">audio</span>
+   {% elif "video" in cat and "misc" not in cat and "audio" not in cat %}
+   <span class="type-label-page video-label-page">video</span>
+   {% elif "audio" in cat and "misc" in cat %}
+   <span class="type-label-page audio-label-page">audio</span>
+   <span class="type-label-page audio-misc-label-page">misc</span>
+   {% elif "video" in cat and "misc" in cat %}
+   <span class="type-label-page video-label-page">video</span>
+   <span class="type-label-page video-misc-label-page">misc</span>
+   {% endif %}
+   {% if show.notes and show.notes | trim != '' %}
+   <span class="note-block" onclick="this.classList.toggle('expanded')">
+   <strong>Note:</strong> {{ show.notes }}
+   </span>
+   {% endif %}
+   {% if show.ownIdentifier and show.ownIdentifier | trim != '' %}
+   <span class="type-label-page hdd-page">{{ show.ownIdentifier }}</span>
+   {% endif %}
 </div>
-
 {% if show.tvChannel or (show.tapers and show.tapers | join("") | trim != '') or show.authoredBy or show.transferredBy %}
 <div class="type-cell-page">
-  <span class="credits-block" title="Credits" onclick="this.classList.toggle('expanded')">
-    {% if show.tapers and show.tapers.length > 0 and show.tapers | join("") | trim != '' %}
-      <strong>{% if show.tapers.length == 1 %}Taper:{% else %}Tapers:{% endif %}</strong> {{ show.tapers | join(", ") }}
-    {% endif %}
-    {% if show.authoredBy %}
-      <strong>Authored By:</strong> {{ show.authoredBy }}
-    {% endif %}
-    {% if show.transferredBy %}
-      <strong>Transferred By:</strong> {{ show.transferredBy }}
-    {% endif %}
-    {% if show.tvChannel %}
-      <strong>TV Channel:</strong> {{ show.tvChannel }}
-    {% endif %}
-  </span>
+   <span class="credits-block" title="Credits" onclick="this.classList.toggle('expanded')">
+   {% if show.tapers and show.tapers.length > 0 and show.tapers | join("") | trim != '' %}
+   <strong>{% if show.tapers.length == 1 %}Taper:{% else %}Tapers:{% endif %}</strong> {{ show.tapers | join(", ") }}
+   {% endif %}
+   {% if show.authoredBy %}
+   <strong>Authored By:</strong> {{ show.authoredBy }}
+   {% endif %}
+   {% if show.transferredBy %}
+   <strong>Transferred By:</strong> {{ show.transferredBy }}
+   {% endif %}
+   {% if show.tvChannel %}
+   <strong>TV Channel:</strong> {{ show.tvChannel }}
+   {% endif %}
+   </span>
 </div>
 {% endif %}
-
 <div style="position: relative;">
-  {% if show.tradeLabel == 'RT' %}
-    <span class="trade-label-page red-page">RT</span>
-  {% elif show.tradeLabel == 'NT' %}
-    <span class="trade-label-page blue-page">NT</span>
-  {% endif %}
-
-  {% if show.master == true or (show.tapers and show.tapers.length == 1 and show.tapers[0] == "Vortex") %}
-  <span class="trade-label-page master-page">MASTER</span>
-  {% endif %}
+   {% if show.tradeLabel == 'RT' %}
+   <span class="trade-label-page red-page">RT</span>
+   {% elif show.tradeLabel == 'NT' %}
+   <span class="trade-label-page blue-page">NT</span>
+   {% endif %}
+   {% if show.master == true or (show.tapers and show.tapers.length == 1 and show.tapers[0] == "Vortex") %}
+   <span class="trade-label-page master-page">MASTER</span>
+   {% endif %}
 </div>
 <div class="table-wrapper" style="margin-top: 5px;">
-  <table>
-    <thead>
-      <tr>
-        <th>Band</th>
-        <th>Date</th>
-        <th>City</th>
-        <th>State</th>
-        <th>Country</th>
-		<th>Venue</th>
-        <th>Event</th>
-		<th>Source</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          {% if show.bands and show.bands.length %}
-            {{ show.bands | join(", ") }}
-          {% else %}
-            —
-          {% endif %}
-        </td>
-        <td>
-          {% if show.startDateUnix %}
-            {{ show.startDateUnix | date("yyyy-MM-dd") }}
-          {% elif show.startDate %}
-            {% set sd = show.startDate %}
-            {% if sd.day and sd.month and sd.year %}
-              {{ sd.year }}-{{ sd.month }}-{{ sd.day }}
-            {% elif sd.month and sd.year %}
-              {{ sd.year }}-{{ sd.month }}
-            {% elif sd.year %}
-              {{ sd.year }}
-            {% else %}
-              —
-            {% endif %}
-          {% else %}
-            —
-          {% endif %}
-        </td>
-        <td>{{ show.location.city or "—" }}</td>
-        <td>{{ show.location.state or "—" }}</td>
-        <td>{{ show.location.country or "—" }}</td>
-		<td>{{ show.location.venue or "—" }}</td>
-        <td>
-          {% if show.location.event and show.showName %}
-            {{ show.location.event }}<br>{{ show.showName }}
-          {% elif show.location.event %}
-            {{ show.location.event }}
-          {% elif show.showName %}
-            {{ show.showName }}
-          {% else %}
-            —
-          {% endif %}
-        </td>
-		<td>{{ show.source or "—" }}</td>
-      </tr>
-    </tbody>
-  </table>
+   <table>
+      <thead>
+         <tr>
+            <th>Band</th>
+            <th>Date</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Country</th>
+            <th>Venue</th>
+            <th>Event</th>
+            <th>Source</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>
+               {% if show.bands and show.bands.length %}
+               {{ show.bands | join(", ") }}
+               {% else %}
+               —
+               {% endif %}
+            </td>
+            <td>
+               {% if show.startDateUnix %}
+               {{ show.startDateUnix | date("yyyy-MM-dd") }}
+               {% elif show.startDate %}
+               {% set sd = show.startDate %}
+               {% if sd.day and sd.month and sd.year %}
+               {{ sd.year }}-{{ sd.month }}-{{ sd.day }}
+               {% elif sd.month and sd.year %}
+               {{ sd.year }}-{{ sd.month }}
+               {% elif sd.year %}
+               {{ sd.year }}
+               {% else %}
+               —
+               {% endif %}
+               {% else %}
+               —
+               {% endif %}
+            </td>
+            <td>{{ show.location.city or "—" }}</td>
+            <td>{{ show.location.state or "—" }}</td>
+            <td>{{ show.location.country or "—" }}</td>
+            <td>{{ show.location.venue or "—" }}</td>
+            <td>
+               {% if show.location.event and show.showName %}
+               {{ show.location.event }}<br>{{ show.showName }}
+               {% elif show.location.event %}
+               {{ show.location.event }}
+               {% elif show.showName %}
+               {{ show.showName }}
+               {% else %}
+               —
+               {% endif %}
+            </td>
+            <td>{{ show.source or "—" }}</td>
+         </tr>
+      </tbody>
+   </table>
 </div>
 <div class="table-wrapper" style="margin-top: 10px;">
-  <table>
-    <thead>
-      <tr>
-        <th>Details</th>
-        <th>Images</th>
-        <th>Setlist</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-	  <td style="vertical-align: top; text-align: left; width: 352px; table-layout: fixed;">
-      <!-- DETAILS -->
-<div>
-  <strong>Size:</strong>
-  {% if show.specs and show.specs.media and show.specs.media.length %}
-    {% set media = show.specs.media %}
-    {% set main = media[0] %}
-    <span>{{ main.size | smartSize }}{{ main.unit }}</span>
-    {% if media.length > 1 %}
-      <a href="#" class="toggle-media" data-target="media-toggle">▾ +{{ media.length - 1 }}</a>
-    {% endif %}
-  {% else %}
-    —
-  {% endif %}
-</div>
-
-{% if show.specs and show.specs.media and show.specs.media.length > 1 %}
-<div id="media-toggle" class="extra-media indent-block-size" style="display: none;">
-  {% for medium in show.specs.media.slice(1) %}
-    <div>{{ medium.size | smartSize }}{{ medium.unit }}</div>
-  {% endfor %}
-</div>
-{% endif %}
-<strong>Length:</strong> {{ show.specs.length | formatTime }}<br>
-<!-- VIDEO -->
-{% if 'audio' not in show.category %}
-<div>
-  <strong>Video:</strong>
-  {% if show.specs.video and show.specs.video.length %}
-    {% set videos = show.specs.video %}
-    {% set v = videos[0] %}
-    {{ v.tvFormat }}
-    {% if v.ratio %} ({{ v.ratio }}){% endif %}
-    {{ v.standard }}
-    {% if v.codec %} ({{ v.codec }}){% endif %}
-    {{ v.resolution }}
-    {% if v.fps %} {{ v.fps }}fps{% endif %}
-    {% if v.bitrateType %} {{ v.bitrateType }}{% endif %}
-    {% if v.bitrateKbps %} {{ v.bitrateKbps }}kbps{% endif %}
-    {% if v.letterboxed == true %} Letterboxed{% endif %}
-    {% if videos.length > 1 %}
-      <a href="#" class="toggle-media" data-target="video-toggle">▾ +{{ videos.length - 1 }}</a>
-    {% endif %}
-  {% else %}
-    —
-  {% endif %}
-</div>
-
-{% if show.specs.video and show.specs.video.length > 1 %}
-<div id="video-toggle" class="extra-media indent-block-video" style="display: none;">
-  {% for vid in show.specs.video.slice(1) %}
-    <div>
-      {{ vid.tvFormat }}
-      {% if vid.ratio %} ({{ vid.ratio }}){% endif %}
-      {{ vid.standard }}
-      {% if vid.codec %} ({{ vid.codec }}){% endif %}
-      {{ vid.resolution }}
-      {% if vid.fps %} {{ vid.fps }}fps{% endif %}
-      {% if vid.bitrateType %} {{ vid.bitrateType }}{% endif %}
-      {% if vid.bitrateKbps %} {{ vid.bitrateKbps }}kbps{% endif %}
-      {% if vid.letterboxed == true %} Letterboxed{% endif %}
-    </div>
-  {% endfor %}
-</div>
-{% endif %}
-{% endif %}
-<!-- AUDIO -->
-<div>
-  <strong>Audio:</strong>
-  {% if show.specs.audio and show.specs.audio.length %}
-    {% set audios = show.specs.audio %}
-    {% set a = audios[0] %}
-    {% if a.language %}{{ a.language | langName }}{% endif %}
-    {% if a.codec %} {{ a.codec }}{% endif %}
-    {% if a.rateHz %} {{ a.rateHz }}Hz{% endif %}
-    {% if a.channels %} {{ a.channels }}ch{% endif %}
-    {% if a.bitrateKbps %} {{ a.bitrateKbps }}kbps{% endif %}
-
-    {% if audios.length > 1 %}
-      <a href="#" class="toggle-media" data-target="audio-toggle">▾ +{{ audios.length - 1 }}</a>
-    {% endif %}
-  {% else %}
-    —
-  {% endif %}
-</div>
-
-{% if show.specs.audio and show.specs.audio.length > 1 %}
-  <div id="audio-toggle" class="extra-media indent-block-audio" style="display: none;">
-    {% for a in show.specs.audio.slice(1) %}
-      <div>
-        {% if a.language %}{{ a.language | langName }}{% endif %}
-        {% if a.codec %} {{ a.codec }}{% endif %}
-        {% if a.rateHz %} {{ a.rateHz }}Hz{% endif %}
-        {% if a.channels %} {{ a.channels }}ch{% endif %}
-        {% if a.bitrateKbps %} {{ a.bitrateKbps }}kbps{% endif %}
-      </div>
-    {% endfor %}
-  </div>
-{% endif %}
-        <strong>Type:</strong>
-        <span
-          {% if show.specs.sourceDetail.recordingType == "AMT" %}
-            title="Amateur"
-          {% elif show.specs.sourceDetail.recordingType == "PRO" %}
-            title="Professional"
-          {% endif %}
-        >
-          {{ show.specs.sourceDetail.recordingType }}
-        </span><br>
-        {% if show.specs.sourceDetail.sourceMediaType %}
-          <strong>Source Media:</strong> {{ show.specs.sourceDetail.sourceMediaType }}<br>
-        {% endif %}
-{% set final = show.specs.sourceDetail.finalMediaType %}
-{% set file = show.specs.sourceDetail.fileFormat %}
-{% set hasFormat = final == 'DVD' or final == 'BD' or file == 'DVD' or file == 'BD' %}
-
-{% if final or file %}
-  <strong>File Format:</strong>
-  {% if final and file %}
-    {{ final }} ({{ file }})
-  {% else %}
-    {{ final or file }}
-  {% endif %}<br>
-{% endif %}
-
-{% if hasFormat %}
-  {% if show.specs.menu != null %}
-    <strong>Menu:</strong> {% if show.specs.menu %}Yes{% else %}No{% endif %}<br>
-  {% endif %}
-  {% if show.specs.chapters != null %}
-    <strong>Chapters:</strong> {% if show.specs.chapters %}Yes{% else %}No{% endif %}<br>
-  {% endif %}
-{% endif %}
-</td>
-      <!-- IMAGES -->
-      <td style="vertical-align: top; text-align: left; width: 515px; table-layout: fixed;">
-        {% if show.images %}
-          <div style="display: inline-block; border: 1px solid #ccc;">
-            <div style="display: flex;">
-              {% for i in [0, 1] %}
-                {% if show.images[i] %}
-                  <img
-                    src="https://drive.google.com/thumbnail?id={{ show.images[i].externalId }}&sz=w256"
-                    width="256"
-                    height="128"
-                    style="display: block; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; object-fit: cover; cursor: pointer;"
-                    onclick='openModal("{{ show.images[i].externalId }}", {{ show.images | dump | safe }})'>
-                {% endif %}
-              {% endfor %}
-            </div>
-            <div style="display: flex;">
-              {% for i in [2, 3] %}
-                {% if show.images[i] %}
-                  <img
-                    src="https://drive.google.com/thumbnail?id={{ show.images[i].externalId }}&sz=w256"
-                    width="256"
-                    height="128"
-                    style="display: block; border-right: 1px solid #ccc; object-fit: cover; cursor: pointer;"
-                    onclick='openModal("{{ show.images[i].externalId }}", {{ show.images | dump | safe }})'>
-                {% endif %}
-              {% endfor %}
-            </div>
-          </div>
-        {% else %}
-          —
-        {% endif %}
-      </td>
-      <!-- SETLIST -->
-      <td style="vertical-align: top; text-align: left; width: 352px; table-layout: fixed;">
-        {% if show.setlist and show.setlist.length %}
-          <ol style="margin-top: 0; margin-left: -1.5em;">
-            {% for item in show.setlist %}
-              <li>
-                {{ item.song }}
-                {% if item.note %}
-                  <span class="setlist-note-label">{{ item.note }}</span>
-                {% endif %}
-      
-                {% if item.coverOf %}
-                  <span class="info-icon" onclick="toggleFeatInfo(this)" title="Cover">🎵</span>
-                  <span class="feat-popup" style="display: none;"><em>{{ item.coverOf }} cover</em></span>
-                {% endif %}
-      
-                {% if item.feat %}
-                  <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                  <span class="feat-popup" style="display: none;"><em>feat. {{ item.feat }}</em></span>
-                {% endif %}
-				
-                {% if item.comment %}
-                  <span class="info-icon" onclick="toggleFeatInfo(this)" title="Comment">💬</span>
-                  <span class="feat-popup" style="display: none;"><em>{{ item.comment }}</em></span>
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ol>
-        {% else %}
-          No setlist available.
-        {% endif %}
-      </td>
-      </tr>
-    </tbody>
-  </table>
+   <table>
+      <thead>
+         <tr>
+            <th>Details</th>
+            <th>Images</th>
+            <th>Setlist</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td style="vertical-align: top; text-align: left; width: 352px; table-layout: fixed;">
+               <!-- DETAILS -->
+               <div>
+                  <strong>Size:</strong>
+                  {% if show.specs and show.specs.media and show.specs.media.length %}
+                  {% set media = show.specs.media %}
+                  {% set main = media[0] %}
+                  <span>{{ main.size | smartSize }}{{ main.unit }}</span>
+                  {% if media.length > 1 %}
+                  <a href="#" class="toggle-media" data-target="media-toggle">▾ +{{ media.length - 1 }}</a>
+                  {% endif %}
+                  {% else %}
+                  —
+                  {% endif %}
+               </div>
+               {% if show.specs and show.specs.media and show.specs.media.length > 1 %}
+               <div id="media-toggle" class="extra-media indent-block-size" style="display: none;">
+                  {% for medium in show.specs.media.slice(1) %}
+                  <div>{{ medium.size | smartSize }}{{ medium.unit }}</div>
+                  {% endfor %}
+               </div>
+               {% endif %}
+               <strong>Length:</strong> {{ show.specs.length | formatTime }}<br>
+               <!-- VIDEO -->
+               {% if 'audio' not in show.category %}
+               <div>
+                  <strong>Video:</strong>
+                  {% if show.specs.video and show.specs.video.length %}
+                  {% set videos = show.specs.video %}
+                  {% set v = videos[0] %}
+                  {{ v.tvFormat }}
+                  {% if v.ratio %} ({{ v.ratio }}){% endif %}
+                  {{ v.standard }}
+                  {% if v.codec %} ({{ v.codec }}){% endif %}
+                  {{ v.resolution }}
+                  {% if v.fps %} {{ v.fps }}fps{% endif %}
+                  {% if v.bitrateType %} {{ v.bitrateType }}{% endif %}
+                  {% if v.bitrateKbps %} {{ v.bitrateKbps }}kbps{% endif %}
+                  {% if v.letterboxed == true %} Letterboxed{% endif %}
+                  {% if videos.length > 1 %}
+                  <a href="#" class="toggle-media" data-target="video-toggle">▾ +{{ videos.length - 1 }}</a>
+                  {% endif %}
+                  {% else %}
+                  —
+                  {% endif %}
+               </div>
+               {% if show.specs.video and show.specs.video.length > 1 %}
+               <div id="video-toggle" class="extra-media indent-block-video" style="display: none;">
+                  {% for vid in show.specs.video.slice(1) %}
+                  <div>
+                     {{ vid.tvFormat }}
+                     {% if vid.ratio %} ({{ vid.ratio }}){% endif %}
+                     {{ vid.standard }}
+                     {% if vid.codec %} ({{ vid.codec }}){% endif %}
+                     {{ vid.resolution }}
+                     {% if vid.fps %} {{ vid.fps }}fps{% endif %}
+                     {% if vid.bitrateType %} {{ vid.bitrateType }}{% endif %}
+                     {% if vid.bitrateKbps %} {{ vid.bitrateKbps }}kbps{% endif %}
+                     {% if vid.letterboxed == true %} Letterboxed{% endif %}
+                  </div>
+                  {% endfor %}
+               </div>
+               {% endif %}
+               {% endif %}
+               <!-- AUDIO -->
+               <div>
+                  <strong>Audio:</strong>
+                  {% if show.specs.audio and show.specs.audio.length %}
+                  {% set audios = show.specs.audio %}
+                  {% set a = audios[0] %}
+                  {% if a.language %}{{ a.language | langName }}{% endif %}
+                  {% if a.codec %} {{ a.codec }}{% endif %}
+                  {% if a.rateHz %} {{ a.rateHz }}Hz{% endif %}
+                  {% if a.channels %} {{ a.channels }}ch{% endif %}
+                  {% if a.bitrateKbps %} {{ a.bitrateKbps }}kbps{% endif %}
+                  {% if audios.length > 1 %}
+                  <a href="#" class="toggle-media" data-target="audio-toggle">▾ +{{ audios.length - 1 }}</a>
+                  {% endif %}
+                  {% else %}
+                  —
+                  {% endif %}
+               </div>
+               {% if show.specs.audio and show.specs.audio.length > 1 %}
+               <div id="audio-toggle" class="extra-media indent-block-audio" style="display: none;">
+                  {% for a in show.specs.audio.slice(1) %}
+                  <div>
+                     {% if a.language %}{{ a.language | langName }}{% endif %}
+                     {% if a.codec %} {{ a.codec }}{% endif %}
+                     {% if a.rateHz %} {{ a.rateHz }}Hz{% endif %}
+                     {% if a.channels %} {{ a.channels }}ch{% endif %}
+                     {% if a.bitrateKbps %} {{ a.bitrateKbps }}kbps{% endif %}
+                  </div>
+                  {% endfor %}
+               </div>
+               {% endif %}
+               <strong>Type:</strong>
+               <span
+               {% if show.specs.sourceDetail.recordingType == "AMT" %}
+               title="Amateur"
+               {% elif show.specs.sourceDetail.recordingType == "PRO" %}
+               title="Professional"
+               {% endif %}
+               >
+               {{ show.specs.sourceDetail.recordingType }}
+               </span><br>
+               {% if show.specs.sourceDetail.sourceMediaType %}
+               <strong>Source Media:</strong> {{ show.specs.sourceDetail.sourceMediaType }}<br>
+               {% endif %}
+               {% set final = show.specs.sourceDetail.finalMediaType %}
+               {% set file = show.specs.sourceDetail.fileFormat %}
+               {% set hasFormat = final == 'DVD' or final == 'BD' or file == 'DVD' or file == 'BD' %}
+               {% if final or file %}
+               <strong>File Format:</strong>
+               {% if final and file %}
+               {{ final }} ({{ file }})
+               {% else %}
+               {{ final or file }}
+               {% endif %}<br>
+               {% endif %}
+               {% if hasFormat %}
+               {% if show.specs.menu != null %}
+               <strong>Menu:</strong> {% if show.specs.menu %}Yes{% else %}No{% endif %}<br>
+               {% endif %}
+               {% if show.specs.chapters != null %}
+               <strong>Chapters:</strong> {% if show.specs.chapters %}Yes{% else %}No{% endif %}<br>
+               {% endif %}
+               {% endif %}
+            </td>
+            <!-- IMAGES -->
+            <td style="vertical-align: top; text-align: left; width: 515px; table-layout: fixed;">
+               {% if show.images %}
+               <div style="display: inline-block; border: 1px solid #ccc;">
+                  <div style="display: flex;">
+                     {% for i in [0, 1] %}
+                     {% if show.images[i] %}
+                     <img
+                        src="https://drive.google.com/thumbnail?id={{ show.images[i].externalId }}&sz=w256"
+                        width="256"
+                        height="128"
+                        style="display: block; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; object-fit: cover; cursor: pointer;"
+                        onclick='openModal("{{ show.images[i].externalId }}", {{ show.images | dump | safe }})'>
+                     {% endif %}
+                     {% endfor %}
+                  </div>
+                  <div style="display: flex;">
+                     {% for i in [2, 3] %}
+                     {% if show.images[i] %}
+                     <img
+                        src="https://drive.google.com/thumbnail?id={{ show.images[i].externalId }}&sz=w256"
+                        width="256"
+                        height="128"
+                        style="display: block; border-right: 1px solid #ccc; object-fit: cover; cursor: pointer;"
+                        onclick='openModal("{{ show.images[i].externalId }}", {{ show.images | dump | safe }})'>
+                     {% endif %}
+                     {% endfor %}
+                  </div>
+               </div>
+               {% else %}
+               —
+               {% endif %}
+            </td>
+            <!-- SETLIST -->
+            <td style="vertical-align: top; text-align: left; width: 352px; table-layout: fixed;">
+               {% if show.setlist and show.setlist.length %}
+               <ol style="margin-top: 0; margin-left: -1.5em;">
+                  {% for item in show.setlist %}
+                  <li>
+                     {{ item.song }}
+                     {% if item.note %}
+                     <span class="setlist-note-label">{{ item.note }}</span>
+                     {% endif %}
+                     {% if item.coverOf %}
+                     <span class="info-icon" onclick="toggleFeatInfo(this)" title="Cover">🎵</span>
+                     <span class="feat-popup" style="display: none;"><em>{{ item.coverOf }} cover</em></span>
+                     {% endif %}
+                     {% if item.feat %}
+                     <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                     <span class="feat-popup" style="display: none;"><em>feat. {{ item.feat }}</em></span>
+                     {% endif %}
+                     {% if item.comment %}
+                     <span class="info-icon" onclick="toggleFeatInfo(this)" title="Comment">💬</span>
+                     <span class="feat-popup" style="display: none;"><em>{{ item.comment }}</em></span>
+                     {% endif %}
+                  </li>
+                  {% endfor %}
+               </ol>
+               {% else %}
+               No setlist available.
+               {% endif %}
+            </td>
+         </tr>
+      </tbody>
+   </table>
 </div>
 <script src="{{ '/scripts/hammer.min.js' | url }}"></script>
 <!-- Modal for image preview -->
-<div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background-color:rgba(0,0,0,0.7); z-index:1000; align-items:center; justify-content:center;">
-  <div class="modal-inner">
-    <img id="modalClose" class="close-btn" src="{{ '/assets/images/icon_close.png' | url }}" alt="Close" onclick="closeModal()" />
-    <img id="modalPrev" class="nav-arrow" src="{{ '/assets/images/icon_prev.png' | url }}" alt="Previous" onclick="prevImage()" />
-    <img id="modalNext" class="nav-arrow" src="{{ '/assets/images/icon_next.png' | url }}" alt="Next" onclick="nextImage()" />
-    <!-- Image frame -->
-    <iframe id="modalImage" style="width:100%; height:100%; border:none; border-radius:0px;"></iframe>
-
-    <!-- Swipe overlay -->
-    <div id="gestureOverlay" style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:10;"></div>
-  </div>
+<div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:1000; align-items:center; justify-content:center;">
+   <div class="modal-inner">
+      <img id="modalClose" class="close-btn" src="{{ '/assets/images/icon_close.png' | url }}" alt="Close" onclick="closeModal()" />
+      <img id="modalPrev" class="nav-arrow" src="{{ '/assets/images/icon_prev.png' | url }}" alt="Previous" onclick="prevImage()" />
+      <img id="modalNext" class="nav-arrow" src="{{ '/assets/images/icon_next.png' | url }}" alt="Next" onclick="nextImage()" />
+      <!-- Image frame -->
+      <iframe id="modalImage" style="width:100%; height:100%; border:none; border-radius:0px;"></iframe>
+      <!-- Swipe overlay -->
+      <div id="gestureOverlay" style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:10;"></div>
+      <div id="imageCounter" style="position: absolute; top: 14px; left: 20px; font-size: 13px; background-color: rgba(0, 0, 0, 0.5); color: #fff; padding: 3px 8px; border-radius: 6px; z-index: 30; font-family: sans-serif;"></div>
+   </div>
 </div>
-
-
-<script>
-let currentImages = [];
-let currentIndex = 0;
-
-function openModal(id, images = []) {
-  currentImages = images;
-  currentIndex = images.findIndex(img => img.externalId === id);
-  showImageAt(currentIndex);
-  const modal = document.getElementById('imageModal');
-  if (modal) modal.style.display = 'flex';
-  document.body.style.overflow = 'hidden';
-
-  // ✅ Inject viewport tag ONLY when modal is shown
-  if (!document.querySelector('meta[name="viewport"]')) {
-    const meta = document.createElement('meta');
-    meta.name = "viewport";
-    meta.content = "width=device-width, initial-scale=1";
-    document.head.appendChild(meta);
-  }
-}
-
-function showImageAt(index) {
-  const img = currentImages[index];
-  if (!img) return;
-
-  const iframe = document.getElementById('modalImage');
-  if (iframe) iframe.src = `https://drive.google.com/file/d/${img.externalId}/preview`;
-
-  const prevBtn = document.getElementById('modalPrev');
-  const nextBtn = document.getElementById('modalNext');
-
-  if (prevBtn) prevBtn.style.display = index > 0 ? 'block' : 'none';
-  if (nextBtn) nextBtn.style.display = index < currentImages.length - 1 ? 'block' : 'none';
-}
-
-function closeModal() {
-  const modal = document.getElementById('imageModal');
-  const iframe = document.getElementById('modalImage');
-  if (modal) modal.style.display = 'none';
-  if (iframe) iframe.src = '';
-  currentImages = [];
-  currentIndex = 0;
-
-  // Remove the injected viewport tag
-  const existing = document.querySelector('meta[name="viewport"]');
-  if (existing) existing.remove();
-
-  // Remove modal param and reload clean
-  const url = new URL(window.location.href);
-  url.searchParams.delete('modal');
-  window.location.href = url.toString();
-}
-
-function nextImage() {
-  if (currentIndex < currentImages.length - 1) {
-    currentIndex++;
-    showImageAt(currentIndex);
-  }
-}
-
-function prevImage() {
-  if (currentIndex > 0) {
-    currentIndex--;
-    showImageAt(currentIndex);
-  }
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-  const nextBtn = document.getElementById('modalNext');
-  const prevBtn = document.getElementById('modalPrev');
-  const closeBtn = document.querySelector('#imageModal .close');
-
-  if (nextBtn) nextBtn.onclick = nextImage;
-  if (prevBtn) prevBtn.onclick = prevImage;
-  if (closeBtn) closeBtn.onclick = closeModal;
-
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closeModal();
-    if (e.key === 'ArrowRight') nextImage();
-    if (e.key === 'ArrowLeft') prevImage();
-  });
-
-  document.addEventListener("click", function(e) {
-      if (e.target.matches(".toggle-media")) {
-          e.preventDefault();
-          const targetId = e.target.dataset.target;
-          const block = document.getElementById(targetId);
-          if (!block) return;
-
-          const isVisible = block.style.display === "block";
-          block.style.display = isVisible ? "none" : "block";
-          e.target.innerHTML = isVisible ?
-              `▾ +${block.children.length}` :
-              `▴`;
-      }
-  });
-  
-  const gestureArea = document.getElementById("gestureOverlay");
-  if (gestureArea && typeof Hammer !== "undefined") {
-    const hammer = new Hammer(gestureArea);
-  
-    hammer.get('swipe').set({ direction: Hammer.DIRECTION_ALL });
-  
-    hammer.on("swipeleft", () => nextImage());
-    hammer.on("swiperight", () => prevImage());
-	hammer.on('swipeup', closeModal);
-	hammer.on('swipedown', closeModal);
-  }
-});
-</script>
-<script>
-function toggleFeatInfo(el) {
-  const popup = el.nextElementSibling;
-  if (popup) {
-    popup.style.display = popup.style.display === 'inline' ? 'none' : 'inline';
-  }
-}
-</script>
+<script src="{{ '/scripts/image-modal-viewer.js' | url }}"></script>
+<script src="{{ '/scripts/setlist-toggle.js' | url }}"></script>
 {% endblock %}

@@ -299,7 +299,7 @@ img.clickable-thumb {
   max-width: 960px;
   height: 80%;
   max-height: 90vh;
-  background-color: #111;
+  background-color: #2a2a2a;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0,0,0,0.6);
@@ -356,6 +356,7 @@ img.clickable-thumb {
   height: 100%;
   border: none;
   border-radius: 12px;
+  background-color: #1f1f1f;
 }
 
 @media only screen and (max-width: 768px) {

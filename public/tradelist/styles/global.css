@@ -16,10 +16,6 @@ body {
   color: #222;
 }
 
-.table-wrapper {
-  overflow-x: auto;
-}
-
 .navbar {
   background-color: #ffffff;
   border-bottom: 1px solid #e0eaf3;
