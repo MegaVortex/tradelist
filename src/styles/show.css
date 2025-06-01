@@ -80,14 +80,6 @@ table {
   text-transform: uppercase;
 }
 
-/* For the main wrapper */
-.media-wrapper-page {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  align-items: left;
-}
-
 .indent-block-size {
   margin-left: 35px;
 }
@@ -303,20 +295,6 @@ img.clickable-thumb {
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0,0,0,0.6);
-}
-
-#imageModal .close {
-  position: absolute;
-  top: 11px;
-  right: 60px;
-  font-size: 2rem;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 1px 10px;
-  border-radius: 4px;
-  cursor: pointer;
-  opacity: 0;
-  transition: opacity 0.2s ease;
 }
 
 #imageModal:hover .modal-controls {
