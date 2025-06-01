@@ -61,6 +61,7 @@ module.exports = function(eleventyConfig) {
     });
 
     return {
+		pathPrefix: "/tradelist",
         dir: {
             input: "src",
             output: "public",
