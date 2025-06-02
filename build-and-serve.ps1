@@ -15,7 +15,7 @@ if (Test-Path .\public\) {
 }
 
 Write-Host "Building Eleventy output..."
-npx eleventy --output public/tradelist
+npx eleventy
 if ($LASTEXITCODE -ne 0) {
     Write-Error "Eleventy build failed"
     exit 1

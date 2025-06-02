@@ -55,12 +55,13 @@ module.exports = function(eleventyConfig) {
             return {
                 ...json,
                 fileSlug: file.replace(/\.json$/, ""),
-                permalink: `/tradelist/shows/${file.replace(/\.json$/, "")}/index.html`
+                permalink: `/shows/${file.replace(/\.json$/, "")}/index.html`
             };
         });
     });
 
     return {
+		pathPrefix: "/tradelist",
         dir: {
             input: "src",
             output: "public",
