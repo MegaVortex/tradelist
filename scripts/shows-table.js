@@ -1,46 +1,3 @@
-  let currentImages = [];
-  let currentIndex = 0;
-
-  function openModal(id, images = []) {
-      currentImages = images;
-      currentIndex = images.findIndex(img => img.externalId === id);
-      showImageAt(currentIndex);
-      document.getElementById('imageModal').style.display = 'flex';
-  }
-
-  function showImageAt(index) {
-      const img = currentImages[index];
-      if (!img) return;
-
-      const iframe = document.getElementById('modalImage');
-      iframe.src = `https://drive.google.com/file/d/${img.externalId}/preview`;
-
-      // Show/hide arrows
-      document.getElementById('modalPrev').style.display = index > 0 ? 'block' : 'none';
-      document.getElementById('modalNext').style.display = index < currentImages.length - 1 ? 'block' : 'none';
-  }
-
-  function closeModal() {
-      document.getElementById('imageModal').style.display = 'none';
-      document.getElementById('modalImage').src = '';
-      currentImages = [];
-      currentIndex = 0;
-  }
-
-  function nextImage() {
-      if (currentIndex < currentImages.length - 1) {
-          currentIndex++;
-          showImageAt(currentIndex);
-      }
-  }
-
-  function prevImage() {
-      if (currentIndex > 0) {
-          currentIndex--;
-          showImageAt(currentIndex);
-      }
-  }
-
   function updateShowCount() {
       const allRows = [...document.querySelectorAll('#shows-table tbody tr')];
       const visibleShows = allRows.filter(row =>
@@ -167,27 +124,3 @@
           }
       }
   }
-
-  document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') closeModal();
-      if (e.key === 'ArrowRight') nextImage();
-      if (e.key === 'ArrowLeft') prevImage();
-  });
-
-  document.getElementById('modalNext').onclick = nextImage;
-  document.getElementById('modalPrev').onclick = prevImage;
-  document.addEventListener('DOMContentLoaded', () => {});
-  document.addEventListener("click", function(e) {
-      if (e.target.matches(".toggle-media")) {
-          e.preventDefault();
-          const targetId = e.target.dataset.target;
-          const block = document.getElementById(targetId);
-          if (!block) return;
-
-          const isVisible = block.style.display === "block";
-          block.style.display = isVisible ? "none" : "block";
-          e.target.innerHTML = isVisible ?
-              `▾ +${block.children.length}` :
-              `▴`;
-      }
-  });
