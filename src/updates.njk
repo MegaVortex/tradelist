@@ -98,9 +98,9 @@
             <td class="type-cell">
                {{ show.source or "—" }}
                {% if show.fileSlug and 'show_1' in show.fileSlug %}
-                 <span class="show-label">Show 1</span>
+               <span class="show-label">Show 1</span>
                {% elif show.fileSlug and 'show_2' in show.fileSlug %}
-                 <span class="show-label">Show 2</span>
+               <span class="show-label">Show 2</span>
                {% endif %}
                {% if show.master == true or (show.tapers and show.tapers.length == 1 and show.tapers[0] == "Vortex") %}
                <span class="trade-label master">MASTER</span>
@@ -136,15 +136,20 @@
          {% endfor %}
       </tbody>
    </table>
+   <script src="{{ '/scripts/hammer.min.js' | url }}"></script>
    <!-- Modal for image preview -->
-   <div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background-color:rgba(0,0,0,0.7); z-index:1000; align-items:center; justify-content:center;">
-      <div style="position:relative; width:90%; height:90%;">
-         <span onclick="closeModal()" style="position:absolute; top:11px; right:60px; font-size:2rem; color:white; background-color:rgba(0,0,0,0.6); padding:1px 10px; border-radius:4px; cursor:pointer;">×</span>
-         <button id="modalPrev" style="position:absolute; left:10px; top:50%; transform:translateY(-50%); font-size:2rem; background:rgba(0,0,0,0.6); color:white; border:none; padding:8px 12px; cursor:pointer;">←</button>
-         <button id="modalNext" style="position:absolute; right:10px; top:50%; transform:translateY(-50%); font-size:2rem; background:rgba(0,0,0,0.6); color:white; border:none; padding:8px 12px; cursor:pointer;">→</button>
-         <iframe id="modalImage" style="width:100%; height:100%; border:none; border-radius:0px;"></iframe>
+   <div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:1000; align-items:center; justify-content:center;">
+      <div class="modal-inner">
+         <img id="modalClose" class="close-btn" src="{{ '/assets/images/icon_close.png' | url }}" alt="Close" onclick="closeModal()" />
+         <img id="modalPrev" class="nav-arrow" src="{{ '/assets/images/icon_prev.png' | url }}" alt="Previous" onclick="prevImage()" />
+         <img id="modalNext" class="nav-arrow" src="{{ '/assets/images/icon_next.png' | url }}" alt="Next" onclick="nextImage()" />
+         <!-- Image frame -->
+         <img id="modalImage" style="width:100%; height:100%; border:none; border-radius:0px;"></img>
+         <!-- Swipe overlay -->
+         <div id="gestureOverlay" style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:10;"></div>
+         <div id="imageCounter" style="position: absolute; top: 14px; left: 20px; font-size: 13px; background-color: rgba(0, 0, 0, 0.5); color: #fff; padding: 3px 8px; border-radius: 6px; z-index: 30; font-family: sans-serif;"></div>
       </div>
    </div>
-   <script src="{{ '/scripts/shows-table.js' | url }}"></script>
+   <script src="{{ '/scripts/image-modal-viewer.js' | url }}"></script>
 </div>
 {% endblock %}

@@ -1,4 +1,14 @@
 {% extends "base.njk" %}
+{% block title %}
+  {% if show.bands and show.bands.length %}
+    {{ show.bands | join(', ') }} - 
+  {% endif %}
+  {% if show.startDateUnix %}
+    {{ show.startDateUnix | date("yyyy-MM-dd") }}
+  {% elif show.startDate and show.startDate.year %}
+    {{ show.startDate.year }}
+  {% endif %}
+{% endblock %}
 {% block head %}
 <link rel="stylesheet" href="../../../styles/show.css">
 {% endblock %}

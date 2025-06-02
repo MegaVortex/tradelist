@@ -34,7 +34,8 @@ module.exports = class {
       pagination: {
         data: "shows",
         size: 20000,
-        alias: "show"
+        alias: "show",
+		filter: (show) => show.public !== false
       },
       permalink: "/shows/index.html"
     };
