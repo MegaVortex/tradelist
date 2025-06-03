@@ -16,6 +16,13 @@ function openModal(id, images = []) {
         meta.content = "width=device-width, initial-scale=1";
         document.head.appendChild(meta);
     }
+	
+    // ✅ Fullscreen request on mobile
+    if (window.innerWidth <= 768 && modal.requestFullscreen) {
+        modal.requestFullscreen().catch(err => {
+            console.warn("Fullscreen failed:", err);
+        });
+    }
 }
 
 function showImageAt(index) {
@@ -67,6 +74,13 @@ function closeModal() {
         // Desktop: just update URL without reload
         history.replaceState({}, '', url.toString());
         document.body.style.overflow = ''; // restore scroll
+    }
+	
+    // ✅ Exit fullscreen if active
+    if (document.fullscreenElement) {
+        document.exitFullscreen().catch(err => {
+            console.warn("Failed to exit fullscreen:", err);
+        });
     }
 }
 
