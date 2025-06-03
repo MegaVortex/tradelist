@@ -27,8 +27,8 @@
    <span class="type-label-page video-misc-label-page">misc</span>
    {% endif %}
    {% if show.notes and show.notes | trim != '' %}
-   <span class="note-block" onclick="this.classList.toggle('expanded')">
-   <strong>Note:</strong> {{ show.notes }}
+   <span class="note-block" onclick="maybeExpand(this)">
+     <strong>Note:</strong> {{ show.notes }}
    </span>
    {% endif %}
    {% if show.ownIdentifier and show.ownIdentifier | trim != '' %}
@@ -37,7 +37,7 @@
 </div>
 {% if show.tvChannel or (show.tapers and show.tapers | join("") | trim != '') or show.authoredBy or show.transferredBy %}
 <div class="type-cell-page">
-   <span class="credits-block" title="Credits" onclick="this.classList.toggle('expanded')">
+   <span class="credits-block" title="Credits" onclick="maybeExpand(this)">
    {% if show.tapers and show.tapers.length > 0 and show.tapers | join("") | trim != '' %}
    <strong>{% if show.tapers.length == 1 %}Taper:{% else %}Tapers:{% endif %}</strong> {{ show.tapers | join(", ") }}
    {% endif %}
@@ -343,6 +343,7 @@
       <div id="imageCounter" style="position: absolute; top: 14px; left: 20px; font-size: 13px; background-color: rgba(0, 0, 0, 0.5); color: #fff; padding: 3px 8px; border-radius: 6px; z-index: 30; font-family: sans-serif;"></div>
    </div>
 </div>
+<script src="{{ '/scripts/notes-credts-expand.js' | url }}"></script>
 <script src="{{ '/scripts/image-modal-viewer.js' | url }}"></script>
 <script src="{{ '/scripts/setlist-toggle.js' | url }}"></script>
 {% endblock %}

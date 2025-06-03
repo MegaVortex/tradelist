@@ -167,6 +167,8 @@ table {
   box-shadow: 0 0 4px rgba(0,0,0,0.1);
   max-width: calc(100% - 150px);
   width: 100%;
+  overflow: visible;
+  text-overflow: unset;
 }
 
 .credits-block {
@@ -195,6 +197,7 @@ table {
   box-shadow: 0 0 4px rgba(0,0,0,0.1);
   max-width: calc(100% - 150px);
   width: 100%;
+  overflow: visible;
 }
 
 .setlist-note-label {
@@ -285,6 +288,7 @@ img.clickable-thumb {
   pointer-events: none;
 }
 
+/* Default (desktop) modal style */
 #imageModal .modal-inner {
   position: relative;
   background-color: #2a2a2a;
@@ -294,6 +298,23 @@ img.clickable-thumb {
   display: inline-block;
   max-width: 100vw;
   max-height: 100vh;
+}
+
+/* Mobile fullscreen override */
+@media (max-width: 768px) {
+  #imageModal .modal-inner {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    border-radius: 0;
+  }
+
+  #modalImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 }
 
 #imageModal:hover .modal-controls {
