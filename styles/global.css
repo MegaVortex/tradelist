@@ -6,6 +6,29 @@ footer {
   background-color: #f4f9ff;
 }
 
+/* Tighter pill layout for letter bar */
+.letter-bar {
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#letter-bar .nav {
+  gap: 3px;
+}
+
+#letter-bar .nav-link {
+  padding: 3px 10px;
+  font-size: 13px;
+  line-height: 1.2;
+  border-radius: 999px;
+}
+
+#letter-bar {
+  display: flex;
+  justify-content: center;
+}
+
 body {
   max-width: 100vw;
   overflow-x: hidden;
@@ -32,6 +55,12 @@ body {
   font-weight: 500;
 }
 
+.navbar a.active {
+  border: 1px solid #0366d6;  /* Same as link color for consistency */
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+
 main {
   padding: 2rem;
 }
@@ -46,6 +75,10 @@ table {
   background-color: #fff;
   border: 1px solid #d6e4f0;
   box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+}
+
+#shows-table {
+  margin-top: 0;
 }
 
 th, td {
@@ -157,6 +190,52 @@ h1, h2, h3 {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   letter-spacing: -0.25px;
+}
+
+.band-pill {
+  font-size: 12px;
+  font-weight: normal;
+  background-color: transparent;
+  color: #1a73e8; /* Bootstrap link blue */
+  padding: 4px 8px;
+  border-radius: 13px;
+  border: 1px solid #1a73e8;
+  cursor: pointer;
+  user-select: none;
+  margin: 0.5px;
+  transition: all 0.2s ease;
+}
+
+.band-pill.bg-primary {
+  background-color: #7F7D9C !important;
+  color: white !important;
+  border-color: #7F7D9C !important;
+}
+
+.band-pill.bg-secondary {
+  background-color: #7F7D9C !important;
+  color: #fff !important;
+}
+
+#band-pills {
+  gap: 2px !important;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.show-counter {
+  display: inline-block;
+  font-size: 11px;
+  padding: 4px 8px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #f8f9fa; /* Bootstrap light */
+  color: #212529; /* Bootstrap dark text */
+}
+
+#show-count-number {
+  font-weight: 600;
+  display: inline;
 }
 
 .year-label-row td.year-label,

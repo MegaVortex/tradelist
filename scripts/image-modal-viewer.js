@@ -16,13 +16,6 @@ function openModal(id, images = []) {
         meta.content = "width=device-width, initial-scale=1";
         document.head.appendChild(meta);
     }
-	
-    // ✅ Fullscreen request on mobile
-    if (window.innerWidth <= 768 && modal.requestFullscreen) {
-        modal.requestFullscreen().catch(err => {
-            console.warn("Fullscreen failed:", err);
-        });
-    }
 }
 
 function showImageAt(index) {
@@ -75,13 +68,6 @@ function closeModal() {
         history.replaceState({}, '', url.toString());
         document.body.style.overflow = ''; // restore scroll
     }
-	
-    // ✅ Exit fullscreen if active
-    if (document.fullscreenElement) {
-        document.exitFullscreen().catch(err => {
-            console.warn("Failed to exit fullscreen:", err);
-        });
-    }
 }
 
 function nextImage() {
@@ -114,18 +100,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.addEventListener("click", function(e) {
-        if (e.target.matches(".toggle-media")) {
-            e.preventDefault();
-            const targetId = e.target.dataset.target;
-            const block = document.getElementById(targetId);
-            if (!block) return;
-
-            const isVisible = block.style.display === "block";
-            block.style.display = isVisible ? "none" : "block";
-            e.target.innerHTML = isVisible ?
-                `▾ +${block.children.length}` :
-                `▴`;
-        }
+      if (e.target.matches(".toggle-media")) {
+        e.preventDefault(); // ✅ Prevents redirect to "#"
+    
+        const targetId = e.target.dataset.target;
+        const block = document.getElementById(targetId);
+        if (!block) return;
+    
+        const isVisible = block.style.display === "block";
+        block.style.display = isVisible ? "none" : "block";
+    
+        e.target.innerHTML = isVisible
+          ? `▾ +${block.children.length}`
+          : `▴`;
+      }
     });
 
     const gestureArea = document.getElementById("gestureOverlay");
