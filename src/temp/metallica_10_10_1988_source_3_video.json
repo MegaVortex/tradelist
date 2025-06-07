@@ -1,0 +1,179 @@
+{
+  "originalTitle": "Metallica - 10.10.1988 - London - England - Hammersmith Odeon (Source 3)",
+  "created": 1748629086,
+  "lastUpdated": 1748629086,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "10",
+    "year": "1988"
+  },
+  "startDateUnix": 592444800,
+  "endDate": {
+    "day": "10",
+    "month": "10",
+    "year": "1988"
+  },
+  "endDateUnix": 592444800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Hammersmith Odeon",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.01,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 3.96,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1989,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_04_04_1993_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "46",
+      "filename": "81522055.jpg",
+      "externalId": "1aaUZwdBdymSyuUTAFWg0bQCG9MmHpwPP"
+    },
+    {
+      "folder": "46",
+      "filename": "39574349.jpg",
+      "externalId": "19A79i4BIws0Uc5gctXOtmjbdCbnA4L9Z"
+    },
+    {
+      "folder": "46",
+      "filename": "96285879.jpg",
+      "externalId": "1nfjvGrKfCcsYq-XNIRblOT-4C4zi5Zaq"
+    },
+    {
+      "folder": "46",
+      "filename": "98732053.jpg",
+      "externalId": "1UNc9rlJhRMfMa_yM0hB6HIgcUbzZvQ8C"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Sanitarium",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "Lars",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Seek And Destroy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Interview",
+      "feat": "Lars",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "And Justice For All",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Interview",
+      "feat": "Lars",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

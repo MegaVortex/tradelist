@@ -33,7 +33,7 @@ module.exports = class {
       selectedBand,
       pagination: {
         data: "shows",
-        size: 20000,
+        size: 25,
         alias: "show",
 		filter: (show) => show.public !== false
       },

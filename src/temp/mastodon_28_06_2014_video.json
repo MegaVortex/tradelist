@@ -1,0 +1,198 @@
+{
+  "originalTitle": "Mastodon - 28.06.2014 - Dessel - Belgium - Boeretang - Graspop Metal Meeting",
+  "created": 1748629086,
+  "lastUpdated": 1748629086,
+  "bands": [
+    "Mastodon"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "06",
+    "year": "2014"
+  },
+  "startDateUnix": 1403913600,
+  "endDate": {
+    "day": "28",
+    "month": "06",
+    "year": "2014"
+  },
+  "endDateUnix": 1403913600,
+  "location": {
+    "city": "Dessel",
+    "state": "",
+    "country": "Belgium",
+    "venue": "Boeretang",
+    "event": "Graspop Metal Meeting"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Good show. Some obstructions and a bit shaky from time to time. Video looks a bit soft.",
+  "tapers": [
+    "Ansem"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 7.71,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2730,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "53",
+      "filename": "48718851.jpg",
+      "externalId": "1LJAyUwqBkHVbjYuXj6wgoBFxNj11ZWI9"
+    },
+    {
+      "folder": "53",
+      "filename": "54687218.jpg",
+      "externalId": "1Bt-7PCsPokcO1fcu22JF9K53c_aR-KLj"
+    },
+    {
+      "folder": "53",
+      "filename": "55613902.jpg",
+      "externalId": "1-NOGP5FDCjQ13iGrD6K57egq6039H3fl"
+    },
+    {
+      "folder": "53",
+      "filename": "34329990.jpg",
+      "externalId": "1g6RBs5FT8gjE5F3FSWR00ghUw-IgF7qv"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Black Tongue",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Divinations",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Bladecatcher",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Crystal Skull",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Megalodon",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Motherload",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Blasteroid",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Chimes At Midnight",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "High Road",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Bedazzled Fingernails",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Aqua Dementia",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

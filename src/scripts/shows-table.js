@@ -1,14 +1,3 @@
-  function updateShowCount() {
-      const allRows = [...document.querySelectorAll('#shows-table tbody tr')];
-      const visibleShows = allRows.filter(row =>
-          row.style.display !== 'none' &&
-          !row.classList.contains('year-label-row') &&
-          !row.classList.contains('band-label-row') &&
-          !row.classList.contains('category-label-row')
-      );
-      document.getElementById('show-count').textContent = `Shows: ${visibleShows.length}`;
-  }
-
   function insertGroupLabels() {
       const tbody = document.querySelector('#shows-table tbody');
       const rows = [...tbody.querySelectorAll('tr')];

@@ -2,13 +2,14 @@
 {% block title %}All Shows{% endblock %}
 {% block content %}
 <div class="table-wrapper">
-   <div id="letter-bar" style="margin-top: 0px; font-size: 14px;"></div>
-   <div id="band-dropdown-wrapper" style="margin-top: 10px; margin-bottom: 20px; display: none; font-size: 14px;">
-      <label for="band-dropdown" style="margin-right: 8px;"><strong>Filter by band:</strong></label>
-      <select id="band-dropdown">
-         <option value="" disabled selected>— Select band —</option>
-      </select>
-   </div>
+   <div id="letter-bar" class="letter-bar"></div>
+<div id="band-pills" class="d-flex flex-wrap gap-2 justify-content-center my-2" style="display:none;"></div>
+
+  <!-- Pills will be injected here -->
+</div>
+<p id="show-count" class="show-counter">
+  🎫 Shows: <span id="show-count-number">{{ publicShows | length }}</span>
+</p>
    <table id="shows-table">
       <thead>
          <tr>
@@ -37,7 +38,7 @@
             <td colspan="12" class="band-label">🎸 {{ groupKey }}</td>
          </tr>
          {% endif %}
-         <tr data-band="{{ show.bands[0] }}" data-json="{{ show | dump | urlencode }}">
+         <tr class="paginated-show" data-band="{{ show.bands[0] }}" data-json="{{ show | dump | urlencode }}">
             <td>
                {% if show.bands %}
                {{ show.bands | join(", ") }}
@@ -125,33 +126,48 @@
                {% endif %}
             </td>
             <td class="type-cell">
-               {% if show.tapers %}
-               {{ show.tapers | join(", ") }}
-               {% else %}
-               — 
+               {% if show.tapers and show.tapers.length %}
+               {% set tapers = show.tapers %}
+               <div class="media-wrapper">
+                  <span>{{ tapers[0] }}</span>
+                  {% if tapers.length > 1 %}
+                  <a href="#" class="toggle-media" data-target="media-{{ loop.index0 }}">
+                  ▾ +{{ tapers.length - 1 }}
+                  </a>
+                  {% endif %}
+               </div>
+               {% if tapers.length > 1 %}
+               <div id="media-{{ loop.index0 }}" class="extra-media">
+                  {% for taper in tapers.slice(1) %}
+                  <div>{{ taper }}</div>
+                  {% endfor %}
+               </div>
                {% endif %}
-               {% if show.tradeLabel == 'RT' %}
-               <span class="trade-label red">RT</span>
-               {% elif show.tradeLabel == 'NT' %}
-               <span class="trade-label blue">NT</span>
-               {% endif %}
-            </td>
-            <td>
-               {% if show.images %}
-               {% for img in show.images.slice(0, 4) %}
-               <img src="https://drive.google.com/thumbnail?id={{ img.externalId }}&sz=w32"
-                  alt="thumb"
-                  width="32"
-                  height="22"
-                  style="margin-right: 4px; cursor: pointer; border-radius: 4px;"
-                  onclick='openModal("{{ img.externalId }}", {{ show.images | dump | safe }})'>
-               {% endfor %}
                {% else %}
                —
                {% endif %}
+            
+               {% if show.tradeLabel == 'RT' %}
+                 <span class="trade-label red">RT</span>
+               {% elif show.tradeLabel == 'NT' %}
+                 <span class="trade-label blue">NT</span>
+               {% endif %}
             </td>
             <td>
-               <a href="{{ show.permalink | url }}" title="View" style="font-size: 1.20em;">📝</a>
+              {% if show.images and show.images.length %}
+                {% set firstImg = show.images[0] %}
+                <span
+                  role="button"
+                  title="View images"
+                  style="cursor: pointer; font-size: 18px;"
+                  onclick='openModal("{{ firstImg.externalId }}", {{ show.images | dump | safe }})'
+                >📸</span>
+              {% else %}
+                —
+              {% endif %}
+            </td>
+            <td>
+               <a href="{{ show.permalink | url }}" title="View info" style="font-size: 1.20em;">🎫</a>
             </td>
          </tr>
          {% endif %}
@@ -159,6 +175,7 @@
          <script src="{{ '/scripts/shows-filter.js' | url }}"></script>
       </tbody>
    </table>
+   <div id="pagination-controls" class="my-3"></div>
    <script src="{{ '/scripts/hammer.min.js' | url }}"></script>
    <!-- Modal for image preview -->
    <div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:1000; align-items:center; justify-content:center;">
@@ -176,5 +193,4 @@
    <script src="{{ '/scripts/shows-table.js' | url }}"></script>
    <script src="{{ '/scripts/image-modal-viewer.js' | url }}"></script>
 </div>
-<p id="show-count" style="font-size: 14px;">Shows: {{ publicShows | length }}</p>
 {% endblock %}

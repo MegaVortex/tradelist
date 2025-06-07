@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Limp Bizkit - 09.08.2003 - Los Angeles - CA - USA - Memorial Coliseum [AUDIO]",
+  "created": 1748629086,
+  "lastUpdated": 1748629086,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "08",
+    "year": "2003"
+  },
+  "startDateUnix": 1060387200,
+  "endDate": {
+    "day": "09",
+    "month": "08",
+    "year": "2003"
+  },
+  "endDateUnix": 1060387200,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Memorial Coliseum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "audio"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "AUD#1. AT831c &gt; BB95 &gt; Sharp MD-MT770.",
+  "tapers": [
+    "Stealth Master Schwilly"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 399,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3470,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "FLAC",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Hot Dog",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "My Generation",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Break Stuff",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "My Way",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Thieves",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Ministry"
+    },
+    {
+      "order": 6,
+      "song": "Welcome Home (Sanitarium) (Metallica cover)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Nookie",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Behind Blue Eyes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "The Who"
+    },
+    {
+      "order": 9,
+      "song": "Take A Look Around",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Full Nelson",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Faith",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "George Michael"
+    }
+  ],
+  "extras": []
+}
