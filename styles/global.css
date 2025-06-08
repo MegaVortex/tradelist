@@ -394,3 +394,65 @@ h1, h2, h3 {
 img.clickable-thumb {
   cursor: pointer;
 }
+
+#cartModal td {
+  position: relative;
+}
+
+.cart-cell-label-wrap {
+  display: inline-block;
+  margin-left: 4px;
+}
+
+.cart-cell-label-wrap .show-label,
+.cart-cell-label-wrap .trade-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.75em;
+  background-color: #eee;
+  border-radius: 4px;
+  padding: 1px 4px;
+  margin-left: 6px;
+  white-space: nowrap;
+}
+
+.cart-cell-label-wrap .show-label {
+  font-size: 8px;
+  padding: 1px 6px;
+  font-weight: bold;
+  border-radius: 6px;
+  color: #000;
+  white-space: nowrap;
+  background-color: #42A5F5;
+}
+
+.cart-cell-label-wrap .trade-label.red {
+  font-size: 8px;
+  padding: 1px 6px;
+  font-weight: bold;
+  border-radius: 6px;
+  color: #000;
+  white-space: nowrap;
+  background-color: #CD5C5C;
+}
+
+.cart-cell-label-wrap .trade-label.blue {
+  font-size: 8px;
+  padding: 1px 6px;
+  font-weight: bold;
+  border-radius: 6px;
+  color: #000;
+  white-space: nowrap;
+  background-color: #42A5F5;
+}
+
+.cart-cell-label-wrap .trade-label.master {
+  font-size: 8px;
+  padding: 1px 6px;
+  font-weight: bold;
+  border-radius: 6px;
+  color: #000;
+  white-space: nowrap;
+  background-color: #CE93D8;
+}

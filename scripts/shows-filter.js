@@ -14,6 +14,19 @@ function updateShowCount() {
   countSpan.textContent = visibleShows.length;
 }
 
+function markAlreadyAdded() {
+  const cart = JSON.parse(localStorage.getItem('cart') || '{}');
+  document.querySelectorAll('.add-to-cart').forEach(btn => {
+    const id = btn.dataset.id;
+    if (cart[id]) {
+      btn.innerHTML = '✅';
+      btn.classList.remove('btn-outline-success');
+      btn.classList.add('btn-success');
+    }
+  });
+}
+markAlreadyAdded();
+
   document.addEventListener('DOMContentLoaded', () => {
       window.selectedBand = null;
       const tbody = document.querySelector('#shows-table tbody');
