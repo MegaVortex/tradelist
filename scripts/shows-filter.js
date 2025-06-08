@@ -53,9 +53,19 @@ function updateShowCount() {
               pill.addEventListener("click", e => {
                   pill.classList.toggle("bg-primary");
                   pill.classList.toggle("bg-secondary");
-
+				
                   const activeBands = [...document.querySelectorAll(".band-pill.bg-primary")]
                       .map(p => p.dataset.band.toLowerCase());
+				  window.selectedBand = activeBands.length === 1 ? activeBands[0] : null;
+				  
+				  const hintBox = document.getElementById("grouping-hint");
+                  if (activeBands.length !== 1) {
+                      hintBox.textContent = "ℹ️ Grouping by category and year is only available when one band is selected.";
+                      hintBox.style.display = 'block';
+                  } else {
+					  hintBox.textContent = '';
+                      hintBox.style.display = 'none';
+                  }
 
                   tableRows.forEach(row => {
                       const band = (row.dataset.band || "").toLowerCase();
@@ -124,11 +134,18 @@ function updateShowCount() {
       letterBar.addEventListener('click', e => {
           if (e.target.tagName !== 'A') return;
           e.preventDefault();
+		  
+		  // 🔧 Clear the band grouping hint on letter change
+          const hintBox = document.getElementById("grouping-hint");
+          if (hintBox) {
+            hintBox.textContent = '';
+            hintBox.style.display = 'none';
+          }
+		  
           window.selectedBand = null;
           const selected = e.target.dataset.letter;
           currentLetter = selected;
           buildBandPillsForLetter(currentLetter);
-          window.selectedBand = null;
           paginateShows();
 
           // Filter rows by letter
