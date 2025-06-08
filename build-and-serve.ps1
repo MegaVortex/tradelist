@@ -1,5 +1,3 @@
-# build-and-serve.ps1
-
 Write-Host "Removing old output..."
 
 if (Test-Path .\public\) {
@@ -21,5 +19,15 @@ if ($LASTEXITCODE -ne 0) {
     exit 1
 }
 
-Write-Host "Starting Eleventy server..."
-npx eleventy --serve
+Write-Host "Starting Eleventy dev server and backend..."
+
+# Start Eleventy in background
+Start-Process -NoNewWindow -FilePath "cmd.exe" -ArgumentList "/c", "npx eleventy --serve"
+
+# Wait briefly to make sure Eleventy starts first
+Start-Sleep -Seconds 2
+
+# Start Node.js mailer backend
+Start-Process -NoNewWindow -FilePath "cmd.exe" -ArgumentList "/c", "node server.js"
+
+Write-Host "Both Eleventy and backend server started."
