@@ -134,14 +134,6 @@ function updateShowCount() {
       letterBar.addEventListener('click', e => {
           if (e.target.tagName !== 'A') return;
           e.preventDefault();
-		  
-		  // 🔧 Clear the band grouping hint on letter change
-          const hintBox = document.getElementById("grouping-hint");
-          if (hintBox) {
-            hintBox.textContent = '';
-            hintBox.style.display = 'none';
-          }
-		  
           window.selectedBand = null;
           const selected = e.target.dataset.letter;
           currentLetter = selected;
