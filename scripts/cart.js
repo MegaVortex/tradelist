@@ -62,6 +62,7 @@ function updateCartCount() {
 document.addEventListener('click', function(e) {
     const btn = e.target.closest('.add-to-cart');
     if (!btn) return;
+	btn.blur();
 
     const fileSlug = btn.dataset.id;
     const showRow = btn.closest('tr');
@@ -71,7 +72,7 @@ document.addEventListener('click', function(e) {
         date: showRow.querySelector('td:nth-child(2)')?.innerText,
         location: showRow.querySelector('td:nth-child(3)')?.innerText,
         sourceHtml: (() => {
-            const base = showRow.querySelector('td:nth-child(9)');
+            const base = showRow.querySelector('td:nth-child(8)');
             if (!base) return '—';
             let labelHtml = '';
 
@@ -88,7 +89,7 @@ document.addEventListener('click', function(e) {
         })(),
 
         tapersHtml: (() => {
-            const base = showRow.querySelector('td:nth-child(10)');
+            const base = showRow.querySelector('td:nth-child(9)');
             if (!base) return '—';
             let labelHtml = '';
 
