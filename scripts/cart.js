@@ -62,7 +62,6 @@ function updateCartCount() {
 document.addEventListener('click', function(e) {
     const btn = e.target.closest('.add-to-cart');
     if (!btn) return;
-	btn.blur();
 
     const fileSlug = btn.dataset.id;
     const showRow = btn.closest('tr');
