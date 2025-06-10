@@ -17,7 +17,7 @@
             <th>Type</th>
             <th>Source</th>
             <th>Taper(s)</th>
-            <th>Images</th>
+            <th>Pics</th>
             <th>Page</th>
          </tr>
       </thead>
@@ -115,18 +115,17 @@
                {% endif %}
             </td>
             <td>
-               {% if show.images %}
-               {% for img in show.images.slice(0, 4) %}
-               <img src="https://drive.google.com/thumbnail?id={{ img.externalId }}&sz=w32"
-                  alt="thumb"
-                  width="32"
-                  height="22"
-                  style="margin-right: 4px; cursor: pointer; border-radius: 4px;"
-                  onclick='openModal("{{ img.externalId }}", {{ show.images | dump | safe }})'>
-               {% endfor %}
-               {% else %}
-               —
-               {% endif %}
+              {% if show.images and show.images.length %}
+                {% set firstImg = show.images[0] %}
+                <span
+                  role="button"
+                  title="View images"
+                  style="cursor: pointer; font-size: 18px;"
+                  onclick='openModal("{{ firstImg.externalId }}", {{ show.images | dump | safe }})'
+                >📷</span>
+              {% else %}
+                —
+              {% endif %}
             </td>
             <td>
                <a href="{{ show.permalink | url }}" title="View" style="font-size: 1.20em;">📝</a>

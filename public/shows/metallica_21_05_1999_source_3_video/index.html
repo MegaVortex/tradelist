@@ -18,16 +18,23 @@
 </title>
 </head>
 <body>
-  <header class="navbar">
-    <div><strong>Vortex Trade List</strong></div>
-    <nav>
-	  <a href="/tradelist/">Home</a>
-	  <a href="/tradelist/shows/">Browse Shows</a>
-	  <a href="/tradelist/updates/">Updates</a>
-	  <button class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#cartModal">🛒 Cart</button>
-    </nav>
-  </header>
+<header class="navbar custom-navbar">
+  <div class="navbar-left">
+    <span class="site-title">Vortex Trade List</span>
+  </div>
 
+  <div class="navbar-center">
+<nav id="main-nav" class="nav nav-pills justify-content-center">
+  <a class="nav-link" href="/tradelist/">Home</a>
+  <a class="nav-link" href="/tradelist/shows/">Browse Shows</a>
+  <a class="nav-link" href="/tradelist/updates/">Updates</a>
+</nav>
+  </div>
+
+  <div class="navbar-right">
+    <button class="btn btn-sm btn-cart" data-bs-toggle="modal" data-bs-target="#cartModal">🛒 Cart</button>
+  </div>
+</header>
   <main>
     
 <div class="type-cell-page">
@@ -271,7 +278,7 @@
 
   </main>
 
-  <footer style="padding: 2rem; text-align: center; font-size: 0.7rem; color: #888; font-weight: bold;">
+  <footer style="padding: 2rem; text-align: center; font-size: 0.75rem; color: #888;">
    Vortex © 2025
   </footer>
 </body>

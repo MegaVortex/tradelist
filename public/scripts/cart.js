@@ -62,7 +62,6 @@ function updateCartCount() {
 document.addEventListener('click', function(e) {
     const btn = e.target.closest('.add-to-cart');
     if (!btn) return;
-	btn.blur();
 
     const fileSlug = btn.dataset.id;
     const showRow = btn.closest('tr');
@@ -120,12 +119,6 @@ document.addEventListener('click', function(e) {
         btn.classList.remove('btn-outline-success');
         btn.classList.add('btn-outline-secondary');
     }
-	
-	  setTimeout(() => {
-    btn.blur();
-    btn.classList.remove('focus');
-    btn.classList.remove('active');
-  }, 50);
 
     setCart(cart);
     updateCartCount();
