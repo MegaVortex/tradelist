@@ -519,3 +519,156 @@ body {
   outline: none;
   text-decoration: none; /* This will also remove the underline on hover if you don't want it */
 }
+
+/* Cart Button */
+.btn-cart {
+  /* Permanent border */
+  border: 1px solid #0366d6; /* Use the same blue as your nav links */
+  border-radius: 6px; /* Match your active nav link border-radius */
+  padding: 4px 8px; /* Match your active nav link padding */
+  background-color: transparent; /* No background by default */
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #0366d6; /* Text color to match the border */
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease; /* Smooth transition for visual feedback */
+}
+
+/* Background color on click (active state) and focus */
+.btn-cart:active,
+.btn-cart:focus {
+  background-color: #d6e4f0; /* Same as #main-nav .nav-link.active background */
+  color: #0366d6; /* Keep text color same as default nav links */
+  outline: none; /* Remove default focus outline */
+}
+
+/* Cart Modal Styling */
+#cartModal .modal-content {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  font-family: 'Inter', sans-serif; /* Ensure consistent font */
+}
+
+#cartModal .modal-header {
+  border-bottom: 1px solid #e0eaf3;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#cartModal .modal-title {
+  font-size: 1rem; /* Larger title */
+  font-weight: 600;
+  color: #222;
+}
+
+#cartModal .modal-description {
+  font-size: 0.75rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+#cartModal .modal-body {
+  padding: 1.5rem;
+}
+
+#cartModal .modal-body h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Form field styling */
+#cartModal .form-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+#cartModal .form-control {
+  font-family: 'Inter', sans-serif; /* Ensure form fields use Inter */
+  font-size: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #d6e4f0;
+  color: #222;
+  padding: 0.35rem 0.8rem;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+}
+
+#cartModal .form-control:focus {
+  border-color: #0366d6;
+  box-shadow: 0 0 0 0.25rem rgba(3, 102, 214, 0.25); /* Bootstrap-like focus glow */
+}
+
+#cartModal .modal-footer {
+  border-top: 1px solid #e0eaf3;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+}
+
+#cartModal .btn-primary {
+  background-color: #0366d6; /* Use your brand blue */
+  border-color: #0366d6;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+}
+
+#cartModal .btn-primary:hover {
+  background-color: #0259b3; /* Slightly darker blue on hover */
+  border-color: #0259b3;
+}
+
+#cartModal .btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+}
+#cartModal .btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #5a6268;
+}
+
+/* Table styling for cart (ensure it uses Bootstrap classes) */
+#cart-table {
+    margin-top: 1rem; /* Add some space above the table */
+}
+
+/* To improve existing table styles based on your global.css */
+#cart-table thead th {
+  background-color: #eaf4ff;
+  font-weight: 600;
+  color: #333;
+}
+
+#cart-table th, #cart-table td {
+  border: 1px solid #d6e4f0;
+  padding: 10px;
+  font-size: 13px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#cart-table tr:nth-child(even) {
+  background-color: #f6fbff;
+}
+
+/* Update Info Box */
+.info-box {
+  font-size: 11px; /* Slightly larger than grouping-hint for better readability */
+  color: #555; /* Similar to grouping-hint color */
+  margin-top: 10px;
+  margin-bottom: 10px; /* Space below the box */
+  text-align: left; /* Center the text */
+}

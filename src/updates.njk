@@ -2,7 +2,7 @@
 {% block title %}Recently Added{% endblock %}
 {% block content %}
 <section style="margin-top: -30px;">
-<h5>Recently Added</h5>
+<p id="update-info-box" class="info-box">ℹ️ Latest bootleg additions from the past 180 days.</p>
 <div class="table-wrapper">
    <table id="shows-table">
       <thead>
@@ -128,7 +128,7 @@
               {% endif %}
             </td>
             <td>
-               <a href="{{ show.permalink | url }}" title="View" style="font-size: 1.20em;">📝</a>
+               <a href="{{ show.permalink | url }}" title="View" style="font-size: 1.20em;">🎫</a>
             </td>
          </tr>
          {% endfor %}
