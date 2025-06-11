@@ -129,32 +129,77 @@ document.getElementById('send-cart').addEventListener('click', async () => {
     const form = document.getElementById('cart-form');
     const formData = new FormData(form);
     const cart = getCart();
-    if (!cart.length) return alert('No shows selected.');
+
+    // 1. Check if cart is empty
+    if (!cart.length) {
+        alert('Please add some shows to your cart before sending a request.');
+        return;
+    }
+
+    // 2. Client-side validation for mandatory fields
+    const name = formData.get('name')?.trim(); // Use optional chaining and trim
+    const email = formData.get('email')?.trim();
+
+    if (!name || name === '') {
+        alert('Your Name is required.');
+        document.getElementById('name').focus();
+        return;
+    }
+    if (!email || email === '') {
+        alert('Your Email is required.');
+        document.getElementById('email').focus();
+        return;
+    }
+    // Basic email format validation (optional, can be more robust)
+    if (!/\S+@\S+\.\S+/.test(email)) {
+        alert('Please enter a valid email address.');
+        document.getElementById('email').focus();
+        return;
+    }
+
+    // Disable the send button to prevent multiple submissions
+    const sendButton = document.getElementById('send-cart');
+    sendButton.disabled = true;
+    sendButton.textContent = 'Sending...';
 
     const body = {
-        name: formData.get('name'),
-        website: formData.get('website'),
-        email: formData.get('email'),
-        comments: formData.get('comments'),
-        cart
+        name: name,
+        website: formData.get('website')?.trim() || '', // Ensure website is trimmed, default to empty string
+        email: email,
+        comments: formData.get('comments')?.trim() || '', // Ensure comments are trimmed, default to empty string
+        cart: cart
     };
 
-    const res = await fetch('/send-cart', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(body)
-    });
+    try {
+        const res = await fetch('/send-cart', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(body)
+        });
 
-    if (res.ok) {
-        localStorage.removeItem(cartKey);
-        alert('📩 Trade request sent!');
-        renderCartTable();
-        document.getElementById('cart-form').reset();
-        updateCartCount();
-    } else {
-        alert('❌ Failed to send.');
+        if (res.ok) {
+            localStorage.removeItem(cartKey);
+            alert('✅ Your trade request has been sent successfully!'); // More positive message
+            renderCartTable();
+            document.getElementById('cart-form').reset(); // Reset form fields
+            updateCartCount();
+            // Close the modal after successful submission
+            // Ensure Bootstrap's JS is loaded and accessible (e.g., <script src=".../bootstrap.bundle.min.js"></script>)
+            const cartModal = bootstrap.Modal.getInstance(document.getElementById('cartModal'));
+            if (cartModal) cartModal.hide();
+        } else {
+            // Attempt to get more specific error from server
+            const errorText = await res.text();
+            alert(`❌ Failed to send trade request. Server responded with: ${res.status} - ${errorText || 'Unknown error'}`);
+        }
+    } catch (error) {
+        console.error('Error sending cart:', error);
+        alert('❌ An error occurred while sending your request. Please try again.');
+    } finally {
+        sendButton.disabled = false; // Re-enable button
+        sendButton.textContent = 'Send Trade Request'; // Restore button text
     }
 });
 

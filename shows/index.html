@@ -3922,44 +3922,60 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
    <!-- Modal for cart -->
    <div class="modal fade" id="cartModal" tabindex="-1" aria-hidden="true">
-     <div class="modal-dialog modal-lg modal-dialog-scrollable">
-       <div class="modal-content">
-         <div class="modal-header">
-           <h5 class="modal-title">Your Trade Cart</h5>
-           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-         </div>
-         <div class="modal-body">
-           <table class="table" id="cart-table">
-<thead>
-  <tr>
-    <th>Band</th>
-    <th>Date</th>
-    <th>Location</th>
-    <th>Source</th>
-    <th>Taper(s)</th>
-    <th>🛒</th>
-  </tr>
-</thead>
-             <tbody></tbody>
-           </table>
-           <form id="cart-form">
-             <div class="mb-2"><label>Name/Nickname</label><input class="form-control" name="name" required></div>
-             <div class="mb-2">
-               <label>Website or upload a list</label>
-               <input class="form-control" name="website">
-               <input type="file" name="file" class="form-control mt-1">
-             </div>
-             <div class="mb-2"><label>Email</label><input class="form-control" name="email" required></div>
-             <div class="mb-2"><label>Comments</label><textarea class="form-control" name="comments" rows="3"></textarea></div>
-           </form>
-         </div>
-         <div class="modal-footer">
-           <button class="btn btn-secondary" data-bs-dismiss="modal">Continue Browsing</button>
-           <button class="btn btn-primary" id="send-cart">Send Request</button>
-         </div>
-       </div>
-     </div>
-   </div>
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="modal-title">Trade Request</span>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-description">ℹ️ Please provide your contact details. All fields marked with <span class="text-danger">*</span> are required.</p>
+
+        <span style="font-size: 0.85rem; color: #222; font-weight: 600;">Selected Shows</span>
+        <div class="table-responsive">
+          <table id="cart-table" class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>Artist</th>
+                <th>Date</th>
+                <th>Location</th>
+                <th>Source</th>
+                <th>Tapers</th>
+                <th>Remove</th>
+              </tr>
+            </thead>
+            <tbody>
+              </tbody>
+          </table>
+        </div>
+
+        <span style="font-size: 0.85rem; color: #222; font-weight: 600;">Your Contact Information</span><p>
+        <form id="cart-form">
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name <span class="text-danger">*</span></label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email <span class="text-danger">*</span></label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="website" class="form-label">Your Website</label>
+            <input type="url" class="form-control" id="website" name="website">
+          </div>
+          <div class="mb-3">
+            <label for="comments" class="form-label">Comments / Additional Info</label>
+            <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="send-cart">Send Trade Request</button>
+      </div>
+    </div>
+  </div>
+</div>
    <script src="/tradelist/scripts/cart.js"></script>
    <script src="/tradelist/scripts/shows-table.js"></script>
    <script src="/tradelist/scripts/image-modal-viewer.js"></script>
