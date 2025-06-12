@@ -17,14 +17,22 @@
   </div>
 
   <div class="navbar-center">
-<nav id="main-nav" class="nav nav-pills justify-content-center">
-  <a class="nav-link{% if page.url == '/' %} active{% endif %}" href="{{ '/' | url }}">Home</a>
-  <a class="nav-link{% if page.url == '/shows/' %} active{% endif %}" href="{{ '/shows/' | url }}">Browse Shows</a>
-  <a class="nav-link{% if page.url == '/updates/' %} active{% endif %}" href="{{ '/updates/' | url }}">Updates</a>
-</nav>
+	<nav id="main-nav" class="nav nav-pills justify-content-center">
+	<a class="nav-link{% if page.url == '/' %} active{% endif %}" href="{{ '/' | url }}">Home</a>
+	<a class="nav-link{% if page.url == '/shows/' %} active{% endif %}" href="{{ '/shows/' | url }}">Browse Shows</a>
+	<a class="nav-link{% if page.url == '/updates/' %} active{% endif %}" href="{{ '/updates/' | url }}">Updates</a>
+	</nav>
   </div>
 
   <div class="navbar-right">
+    {% if currentShow %}
+    <button
+        class="btn btn-outline-success add-to-cart me-2"
+        data-id="{{ currentShow.fileSlug }}"
+        data-json="{{ currentShow | dump | urlencode }}"
+        title="Add this show to your trade cart"
+    >➕</button>
+    {% endif %}
     <button class="btn btn-sm btn-cart" data-bs-toggle="modal" data-bs-target="#cartModal">🛒 Cart</button>
   </div>
 </header>

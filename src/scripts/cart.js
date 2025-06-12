@@ -22,187 +22,131 @@ function removeFromCart(fileSlug) {
     renderCartTable();
 }
 
+// Helper function to format date from Unix timestamp or object
+function formatDate(dateInput) {
+    if (!dateInput) return '—';
+
+    if (typeof dateInput === 'number') { // Unix timestamp
+        const date = new Date(dateInput * 1000); // Convert to milliseconds
+        return date.toISOString().split('T')[0]; // Format as YYYY-MM-DD
+    } else if (typeof dateInput === 'object') { // Date object { year, month, day }
+        const { year, month, day } = dateInput;
+        if (year && month && day) {
+            return `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+        } else if (year && month) {
+            return `${year}-${String(month).padStart(2, '0')}`;
+        } else if (year) {
+            return `${year}`;
+        }
+    }
+    return '—';
+}
+
 function renderCartTable() {
     const tbody = document.querySelector('#cart-table tbody');
     const cart = getCart();
     tbody.innerHTML = cart.map(show => `
     <tr>
-      <td>${show.artist || '—'}</td>
-      <td>${show.date || '—'}</td>
-      <td>${show.location || '—'}</td>
-      <td>${show.sourceHtml || '—'}</td>
-      <td>${show.tapersHtml || '—'}</td>
+      <td>${show.bands && show.bands.length ? show.bands.join(', ') : '—'}</td>
+      <td>${formatDate(show.startDateUnix || show.startDate)}</td>
+      <td>${show.location && show.location.city ? show.location.city : '—'}</td>
+      <td>${show.source || '—'}</td>
+      <td>${show.tapers && show.tapers.length ? show.tapers.join(', ') : '—'}</td>
       <td><button class="btn btn-sm btn-danger" style="font-size: 0.75rem; padding: 2px 6px;" onclick="removeFromCart('${show.fileSlug}')">✖</button></td>
     </tr>
   `).join('');
     document.querySelectorAll('.add-to-cart').forEach(btn => {
-        const id = btn.dataset.id;
-        const isInCart = cart.some(s => s.fileSlug === id);
-
-        if (isInCart) {
+        const fileSlug = btn.dataset.id;
+        const exists = cart.some(s => s.fileSlug === fileSlug);
+        if (exists) {
             btn.innerHTML = '❌';
             btn.classList.remove('btn-outline-success');
-            btn.classList.add('btn-outline-danger');
+            btn.classList.add('btn-outline-secondary');
         } else {
             btn.innerHTML = '➕';
-            btn.classList.remove('btn-outline-danger');
+            btn.classList.remove('btn-outline-secondary');
             btn.classList.add('btn-outline-success');
         }
-
     });
+
+    updateCartCount();
 }
+
 
 function updateCartCount() {
     const cart = getCart();
-    const countSpan = document.getElementById('cart-count');
-    if (countSpan) countSpan.textContent = cart.length;
+    const cartCountElement = document.getElementById('cart-count');
+    if (cartCountElement) {
+        cartCountElement.textContent = cart.length;
+    }
 }
 
-// ✅ Main event listener for Add/Remove toggle
-document.addEventListener('click', function(e) {
-    const btn = e.target.closest('.add-to-cart');
-    if (!btn) return;
-
-    const fileSlug = btn.dataset.id;
-    const showRow = btn.closest('tr');
-    const show = {
-        fileSlug,
-        artist: showRow.querySelector('td:nth-child(1)')?.innerText,
-        date: showRow.querySelector('td:nth-child(2)')?.innerText,
-        location: showRow.querySelector('td:nth-child(3)')?.innerText,
-        sourceHtml: (() => {
-            const base = showRow.querySelector('td:nth-child(8)');
-            if (!base) return '—';
-            let labelHtml = '';
-
-            if (base.querySelector('.show-label')) {
-                labelHtml += `<span class="show-label">${base.querySelector('.show-label').innerText}</span>`;
-            }
-            if (base.querySelector('.trade-label.master')) {
-                labelHtml += `<span class="trade-label master">MASTER</span>`;
-            }
-
-            const baseText = base.childNodes[0]?.textContent?.trim() || '—';
-
-            return `<div class="cart-cell-label-wrap">${baseText}${labelHtml}</div>`;
-        })(),
-
-        tapersHtml: (() => {
-            const base = showRow.querySelector('td:nth-child(9)');
-            if (!base) return '—';
-            let labelHtml = '';
-
-            if (base.querySelector('.trade-label.red')) {
-                labelHtml += `<span class="trade-label red">RT</span>`;
-            }
-            if (base.querySelector('.trade-label.blue')) {
-                labelHtml += `<span class="trade-label blue">NT</span>`;
-            }
-
-            const baseText = base.childNodes[0]?.textContent?.trim() || '—';
-
-            return `<div class="cart-cell-label-wrap">${baseText}${labelHtml}</div>`;
-        })()
-    };
-
-    let cart = getCart();
-    const exists = cart.find(s => s.fileSlug === fileSlug);
-
-    if (exists) {
-        cart = cart.filter(s => s.fileSlug !== fileSlug);
-        btn.innerHTML = '➕';
-        btn.classList.remove('btn-outline-secondary');
-        btn.classList.add('btn-outline-success');
-    } else {
-        cart.push(show);
-        btn.innerHTML = '❌';
-        btn.classList.remove('btn-outline-success');
-        btn.classList.add('btn-outline-secondary');
-    }
-
-    setCart(cart);
-    updateCartCount();
+// Initial render when the page loads
+document.addEventListener('DOMContentLoaded', () => {
     renderCartTable();
+    updateCartCount();
+});
+
+
+document.querySelectorAll('.add-to-cart').forEach(btn => {
+    btn.addEventListener('click', function() {
+        const showData = decodeURIComponent(this.dataset.json);
+        const show = JSON.parse(showData);
+        const fileSlug = show.fileSlug;
+
+        let cart = getCart();
+        const exists = cart.some(s => s.fileSlug === fileSlug);
+
+        if (exists) {
+            cart = cart.filter(s => s.fileSlug !== fileSlug);
+            btn.innerHTML = '➕';
+            btn.classList.remove('btn-outline-secondary');
+            btn.classList.add('btn-outline-success');
+        } else {
+            cart.push(show);
+            btn.innerHTML = '❌';
+            btn.classList.remove('btn-outline-success');
+            btn.classList.add('btn-outline-secondary');
+        }
+
+        setCart(cart);
+        updateCartCount();
+        renderCartTable();
+    });
 });
 
 document.getElementById('send-cart').addEventListener('click', async () => {
     const form = document.getElementById('cart-form');
     const formData = new FormData(form);
     const cart = getCart();
-
-    // 1. Check if cart is empty
-    if (!cart.length) {
-        alert('Please add some shows to your cart before sending a request.');
-        return;
-    }
-
-    // 2. Client-side validation for mandatory fields
-    const name = formData.get('name')?.trim(); // Use optional chaining and trim
-    const email = formData.get('email')?.trim();
-
-    if (!name || name === '') {
-        alert('Your Name is required.');
-        document.getElementById('name').focus();
-        return;
-    }
-    if (!email || email === '') {
-        alert('Your Email is required.');
-        document.getElementById('email').focus();
-        return;
-    }
-    // Basic email format validation (optional, can be more robust)
-    if (!/\S+@\S+\.\S+/.test(email)) {
-        alert('Please enter a valid email address.');
-        document.getElementById('email').focus();
-        return;
-    }
-
-    // Disable the send button to prevent multiple submissions
-    const sendButton = document.getElementById('send-cart');
-    sendButton.disabled = true;
-    sendButton.textContent = 'Sending...';
+    if (!cart.length) return alert('No shows selected.');
 
     const body = {
-        name: name,
-        website: formData.get('website')?.trim() || '', // Ensure website is trimmed, default to empty string
-        email: email,
-        comments: formData.get('comments')?.trim() || '', // Ensure comments are trimmed, default to empty string
-        cart: cart
+        name: formData.get('name'),
+        website: formData.get('website'),
+        email: formData.get('email'),
+        comments: formData.get('comments'),
+        cart
     };
 
-    try {
-        const res = await fetch('/send-cart', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(body)
-        });
+    const res = await fetch('/send-cart', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(body)
+    });
 
-        if (res.ok) {
-            localStorage.removeItem(cartKey);
-            alert('✅ Your trade request has been sent successfully!'); // More positive message
-            renderCartTable();
-            document.getElementById('cart-form').reset(); // Reset form fields
-            updateCartCount();
-            // Close the modal after successful submission
-            // Ensure Bootstrap's JS is loaded and accessible (e.g., <script src=".../bootstrap.bundle.min.js"></script>)
-            const cartModal = bootstrap.Modal.getInstance(document.getElementById('cartModal'));
-            if (cartModal) cartModal.hide();
-        } else {
-            // Attempt to get more specific error from server
-            const errorText = await res.text();
-            alert(`❌ Failed to send trade request. Server responded with: ${res.status} - ${errorText || 'Unknown error'}`);
+    if (res.ok) {
+        localStorage.removeItem(cartKey);
+        alert('📩 Trade request sent successfully! The cart has been cleared.');
+        renderCartTable(); // Clear the table and update button states
+        updateCartCount();
+        const cartModal = bootstrap.Modal.getInstance(document.getElementById('cartModal'));
+        if (cartModal) {
+            cartModal.hide();
         }
-    } catch (error) {
-        console.error('Error sending cart:', error);
-        alert('❌ An error occurred while sending your request. Please try again.');
-    } finally {
-        sendButton.disabled = false; // Re-enable button
-        sendButton.textContent = 'Send Trade Request'; // Restore button text
+    } else {
+        alert('Failed to send trade request.');
     }
 });
-
-// Run once on page load
-updateCartCount();
-renderCartTable();

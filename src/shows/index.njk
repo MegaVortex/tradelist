@@ -4,8 +4,7 @@
 <div class="table-wrapper">
    <div id="letter-bar" class="letter-bar"></div>
 <div id="band-pills" class="d-flex flex-wrap gap-2 justify-content-center my-2" style="display:none;"></div>
-
-  <!-- Pills will be injected here -->
+<!-- Pills will be injected here -->
 </div>
 <p id="show-count" class="show-counter">
   🎫 Shows: <span id="show-count-number">{{ publicShows | length }}</span>
@@ -167,15 +166,15 @@
             <td>
                <a href="{{ show.permalink | url }}" title="View info" style="font-size: 1.20em;">🎫</a>
             </td>
-<td>
-<button
-  class="btn btn-sm btn-outline-success add-to-cart"
-  style="font-size: 0.75rem; padding: 2px 6px;"
-  data-id="{{ show.fileSlug }}"
-  data-json="{{ show | dump | urlencode }}"
-  title="Add to trade cart"
->➕ Add</button>
-</td>
+            <td>
+            <button
+              class="btn btn-sm btn-outline-success add-to-cart"
+              style="font-size: 0.75rem; padding: 2px 6px;"
+              data-id="{{ show.fileSlug }}"
+              data-json="{{ show | dump | urlencode }}"
+              title="Add to trade cart"
+            >➕</button>
+            </td>
          </tr>
          {% endif %}
          {% endfor %}
@@ -184,76 +183,9 @@
    </table>
    <div id="pagination-controls" class="my-3"></div>
    <script src="{{ '/scripts/hammer.min.js' | url }}"></script>
-   <!-- Modal for image preview -->
-   <div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:1000; align-items:center; justify-content:center;">
-      <div class="modal-inner">
-         <img id="modalClose" class="close-btn" src="{{ '/assets/images/icon_close.png' | url }}" alt="Close" onclick="closeModal()" />
-         <img id="modalPrev" class="nav-arrow" src="{{ '/assets/images/icon_prev.png' | url }}" alt="Previous" onclick="prevImage()" />
-         <img id="modalNext" class="nav-arrow" src="{{ '/assets/images/icon_next.png' | url }}" alt="Next" onclick="nextImage()" />
-         <!-- Image frame -->
-         <img id="modalImage" style="width:100%; height:100%; border:none; border-radius:0px;"></img>
-         <!-- Swipe overlay -->
-         <div id="gestureOverlay" style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:10;"></div>
-         <div id="imageCounter" style="position: absolute; top: 14px; left: 20px; font-size: 13px; background-color: rgba(0, 0, 0, 0.5); color: #fff; padding: 3px 8px; border-radius: 6px; z-index: 30; font-family: sans-serif;"></div>
-      </div>
-   </div>
+   {% include "modals/cart-modal.njk" %}
+   {% include "modals/image-modal.njk" %}
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-   <!-- Modal for cart -->
-   <div class="modal fade" id="cartModal" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog modal-lg modal-dialog-scrollable">
-    <div class="modal-content">
-      <div class="modal-header">
-        <span class="modal-title">Trade Request</span>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p class="modal-description">ℹ️ Please provide your contact details. All fields marked with <span class="text-danger">*</span> are required.</p>
-
-        <span style="font-size: 0.85rem; color: #222; font-weight: 600;">Selected Shows</span>
-        <div class="table-responsive">
-          <table id="cart-table" class="table table-bordered table-striped">
-            <thead>
-              <tr>
-                <th>Artist</th>
-                <th>Date</th>
-                <th>Location</th>
-                <th>Source</th>
-                <th>Tapers</th>
-                <th>Remove</th>
-              </tr>
-            </thead>
-            <tbody>
-              </tbody>
-          </table>
-        </div>
-
-        <span style="font-size: 0.85rem; color: #222; font-weight: 600;">Your Contact Information</span><p>
-        <form id="cart-form">
-          <div class="mb-3">
-            <label for="name" class="form-label">Your Name <span class="text-danger">*</span></label>
-            <input type="text" class="form-control" id="name" name="name" required>
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Your Email <span class="text-danger">*</span></label>
-            <input type="email" class="form-control" id="email" name="email" required>
-          </div>
-          <div class="mb-3">
-            <label for="website" class="form-label">Your Website</label>
-            <input type="url" class="form-control" id="website" name="website">
-          </div>
-          <div class="mb-3">
-            <label for="comments" class="form-label">Comments / Additional Info</label>
-            <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" id="send-cart">Send Trade Request</button>
-      </div>
-    </div>
-  </div>
-</div>
    <script src="{{ '/scripts/cart.js' | url }}"></script>
    <script src="{{ '/scripts/shows-table.js' | url }}"></script>
    <script src="{{ '/scripts/image-modal-viewer.js' | url }}"></script>
