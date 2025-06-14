@@ -325,6 +325,37 @@
                {% else %}
                No setlist available.
                {% endif %}
+               {% if show.extras and show.extras.length %}
+               <div class="extras-card"> {# This div provides the border and overall container #}
+                   <div class="extras-header">
+                       <span>Extras</span>
+                       <a href="#" class="toggle-media" data-target="extras-list-content">▾ +{{ show.extras.length }}</a>
+                   </div>
+                   {# The ordered list with extras content, initially hidden #}
+                   <ol id="extras-list-content" style="margin-top: 5px; margin-left: -1.3em; display: none;">
+                       {% for item in show.extras %}
+                       <li>
+                           {{ item.song }}
+                           {% if item.note %}
+                           <span class="setlist-note-label">{{ item.note }}</span>
+                           {% endif %}
+                           {% if item.coverOf %}
+                           <span class="info-icon" onclick="toggleFeatInfo(this)" title="Cover">🎵</span>
+                           <span class="feat-popup" style="display: none;"><em>{{ item.coverOf }} cover</em></span>
+                           {% endif %}
+                           {% if item.feat %}
+                           <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                           <span class="feat-popup" style="display: none;"><em>feat. {{ item.feat }}</em></span>
+                           {% endif %}
+                           {% if item.comment %}
+                           <span class="info-icon" onclick="toggleFeatInfo(this)" title="Comment">💬</span>
+                           <span class="feat-popup" style="display: none;"><em>{{ item.comment }}</em></span>
+                           {% endif %}
+                       </li>
+                       {% endfor %}
+                   </ol>
+               </div>
+               {% endif %}
             </td>
          </tr>
       </tbody>
@@ -333,9 +364,9 @@
 <script src="{{ '/scripts/hammer.min.js' | url }}"></script>
 {% include "modals/cart-modal.njk" %}
 {% include "modals/image-modal.njk" %}
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="{{ '/scripts/cart.js' | url }}"></script>
 <script src="{{ '/scripts/notes-credts-expand.js' | url }}"></script>
 <script src="{{ '/scripts/image-modal-viewer.js' | url }}"></script>
 <script src="{{ '/scripts/setlist-toggle.js' | url }}"></script>
+<script src="{{ '/scripts/media-extras-toggle.js' | url }}"></script>
 {% endblock %}

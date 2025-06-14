@@ -27,7 +27,4 @@ Start-Process -NoNewWindow -FilePath "cmd.exe" -ArgumentList "/c", "npx eleventy
 # Wait briefly to make sure Eleventy starts first
 Start-Sleep -Seconds 2
 
-# Start Node.js mailer backend
-Start-Process -NoNewWindow -FilePath "cmd.exe" -ArgumentList "/c", "node server.js"
-
-Write-Host "Both Eleventy and backend server started."
+Write-Host "Eleventy started."

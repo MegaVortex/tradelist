@@ -16,6 +16,14 @@ module.exports = function(eleventyConfig) {
       "src/scripts": "scripts",
 	  "src/assets/images": "assets/images"
     });
+	
+    eleventyConfig.addPassthroughCopy({
+      'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js': 'scripts/bootstrap.bundle.min.js'
+    });
+    
+    eleventyConfig.addPassthroughCopy({
+      'node_modules/bootstrap/dist/css/bootstrap.min.css': 'styles/bootstrap.min.css'
+    });
 
     // ✅ Date formatter
     eleventyConfig.addFilter("date", (timestamp, format = "yyyy-MM-dd") => {

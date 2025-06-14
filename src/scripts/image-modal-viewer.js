@@ -99,23 +99,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.key === 'ArrowLeft') prevImage();
     });
 
-    document.addEventListener("click", function(e) {
-      if (e.target.matches(".toggle-media")) {
-        e.preventDefault(); // ✅ Prevents redirect to "#"
-    
-        const targetId = e.target.dataset.target;
-        const block = document.getElementById(targetId);
-        if (!block) return;
-    
-        const isVisible = block.style.display === "block";
-        block.style.display = isVisible ? "none" : "block";
-    
-        e.target.innerHTML = isVisible
-          ? `▾ +${block.children.length}`
-          : `▴`;
-      }
-    });
-
     const gestureArea = document.getElementById("gestureOverlay");
     if (gestureArea && typeof Hammer !== "undefined") {
         const hammer = new Hammer(gestureArea);
