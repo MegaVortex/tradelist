@@ -1,5 +1,5 @@
 {% extends "base.njk" %}
-{% block title %}Recently Added{% endblock %}
+{% block title %}Updates{% endblock %}
 {% block content %}
 <section style="margin-top: -30px;">
 <p id="update-info-box" class="info-box">ℹ️ Latest bootleg additions from the past 180 days.</p>
@@ -18,12 +18,12 @@
             <th>Taper(s)</th>
             <th>Pics</th>
             <th>Page</th>
-			<th>🛒</th>
+            <th>🛒</th>
          </tr>
       </thead>
       <tbody>
          {% set uniqueDates = [] %}
-         {% for show in shows %}
+         {% for show in allShowData.singleArtistShows %}
          {% set dateStr = show.created | date("yyyy-MM-dd") %}
          {% if uniqueDates.indexOf(dateStr) == -1 %}
          {% set uniqueDates = (uniqueDates.push(dateStr), uniqueDates) %}
@@ -36,7 +36,7 @@
             <td colspan="12" class="created-label">📅 {{ date }}</td>
          </tr>
          {% set groupShows = [] %}
-         {% for show in shows %}
+         {% for show in allShowData.singleArtistShows %}
          {% if show.created | date("yyyy-MM-dd") == date %}
          {% set groupShows = (groupShows.push({ name: show.bands[0], rec: show }), groupShows) %}
          {% endif %}
@@ -46,10 +46,38 @@
          {% set show = item.rec %}
          <tr data-band="{{ show.bands[0] }}">
             <td>{{ show.bands | join(", ") if show.bands else "—" }}</td>
-            <td>{{ show.startDateUnix | date("yyyy-MM-dd") if show.startDateUnix else "—" }}</td>
+            <td>
+               {% if show.startDateUnix %}
+               {{ show.startDateUnix | date("yyyy-MM-dd") }}
+               {% elif show.startDate %}
+               {% set sd = show.startDate %}
+               {% set day = sd.day | toInt %}
+               {% set month = sd.month | toInt %}
+               {% set year = sd.year | toInt %}
+               {% if day and month and year %}
+               {{ day | padStart(2) }}.{{ month | padStart(2) }}.{{ year }}
+               {% elif month and year %}
+               {{ month | padStart(2) }}.{{ year }}
+               {% elif year %}
+               {{ year }}
+               {% else %}
+               —
+               {% endif %}
+               {% else %}
+               —
+               {% endif %}
+            </td>
             <td>
                {% if show.location %}
-               {{ show.location.city or "" }}{% if show.location.state %}, {{ show.location.state }}{% endif %}, {{ show.location.country or "" }}
+               {% set locationParts = [] %}
+               {% if show.location.city %}{% set locationParts = locationParts.concat([show.location.city]) %}{% endif %}
+               {% if show.location.state %}{% set locationParts = locationParts.concat([show.location.state]) %}{% endif %}
+               {% if show.location.country %}{% set locationParts = locationParts.concat([show.location.country]) %}{% endif %}
+               {% if locationParts.length > 0 %}
+               {{ locationParts | join(', ') }}
+               {% else %}
+               —
+               {% endif %}
                {% else %}
                —
                {% endif %}
@@ -114,29 +142,29 @@
                {% endif %}
             </td>
             <td>
-              {% if show.images and show.images.length %}
-                {% set firstImg = show.images[0] %}
-                <span
+               {% if show.images and show.images.length %}
+               {% set firstImg = show.images[0] %}
+               <span
                   role="button"
                   title="View images"
                   style="cursor: pointer; font-size: 18px;"
                   onclick='openModal("{{ firstImg.externalId }}", {{ show.images | dump | safe }})'
-                >📷</span>
-              {% else %}
-                —
-              {% endif %}
+                  >📷</span>
+               {% else %}
+               —
+               {% endif %}
             </td>
             <td>
                <a href="{{ show.permalink | url }}" title="View" style="font-size: 1.20em;">🎫</a>
             </td>
             <td>
-            <button
-              class="btn btn-sm btn-outline-success add-to-cart"
-              style="font-size: 0.75rem; padding: 2px 6px;"
-              data-id="{{ show.fileSlug }}"
-              data-json="{{ show | dump | urlencode }}"
-              title="Add to trade cart"
-            >➕</button>
+               <button
+                  class="btn btn-sm btn-outline-success add-to-cart"
+                  style="font-size: 0.75rem; padding: 2px 6px;"
+                  data-id="{{ show.fileSlug }}"
+                  data-json="{{ show | dump | urlencode }}"
+                  title="Add to trade cart"
+                  >➕</button>
             </td>
          </tr>
          {% endfor %}

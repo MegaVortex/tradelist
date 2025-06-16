@@ -1,14 +1,14 @@
 {% extends "base.njk" %}
 {% set currentShow = show %}
 {% block title %}
-  {% if show.bands and show.bands.length %}
-    {{ show.bands | join(', ') }} - 
-  {% endif %}
-  {% if show.startDateUnix %}
-    {{ show.startDateUnix | date("yyyy-MM-dd") }}
-  {% elif show.startDate and show.startDate.year %}
-    {{ show.startDate.year }}
-  {% endif %}
+{% if show.bands and show.bands.length %}
+{{ show.bands | join(', ') }} - 
+{% endif %}
+{% if show.startDateUnix %}
+{{ show.startDateUnix | date("yyyy-MM-dd") }}
+{% elif show.startDate and show.startDate.year %}
+{{ show.startDate.year }}
+{% endif %}
 {% endblock %}
 {% block head %}
 <link rel="stylesheet" href="../../../styles/show.css">
@@ -29,7 +29,7 @@
    {% endif %}
    {% if show.notes and show.notes | trim != '' %}
    <span class="note-block" onclick="maybeExpand(this)">
-     <strong>Note:</strong> {{ show.notes }}
+   <strong>Note:</strong> {{ show.notes }}
    </span>
    {% endif %}
    {% if show.ownIdentifier and show.ownIdentifier | trim != '' %}
@@ -68,7 +68,7 @@
    <table>
       <thead>
          <tr>
-            <th>Band</th>
+            <th>Artist</th>
             <th>Date</th>
             <th>City</th>
             <th>State</th>
@@ -82,7 +82,23 @@
          <tr>
             <td>
                {% if show.bands and show.bands.length %}
-               {{ show.bands | join(", ") }}
+               {% set bands = show.bands %}
+               <div class="media-wrapper">
+                  {% set main = bands[0] %}
+                  <span>{{ bands[0] }}</span>
+                  {% if bands.length > 1 %}
+                  <a href="#" class="toggle-media" data-target="bands-{{ loop.index0 }}">
+                  ▾ +{{ bands.length - 1 }}
+                  </a>
+                  {% endif %}
+               </div>
+               {% if bands.length > 1 %}
+               <div id="bands-{{ loop.index0 }}" class="extra-media">
+                  {% for medium in bands.slice(1) %}
+                  <div>{{ medium }}</div>
+                  {% endfor %}
+               </div>
+               {% endif %}
                {% else %}
                —
                {% endif %}
@@ -92,12 +108,15 @@
                {{ show.startDateUnix | date("yyyy-MM-dd") }}
                {% elif show.startDate %}
                {% set sd = show.startDate %}
-               {% if sd.day and sd.month and sd.year %}
-               {{ sd.year }}-{{ sd.month }}-{{ sd.day }}
-               {% elif sd.month and sd.year %}
-               {{ sd.year }}-{{ sd.month }}
-               {% elif sd.year %}
-               {{ sd.year }}
+               {% set day = sd.day | toInt %}
+               {% set month = sd.month | toInt %}
+               {% set year = sd.year | toInt %}
+               {% if day and month and year %}
+               {{ day | padStart(2) }}.{{ month | padStart(2) }}.{{ year }}
+               {% elif month and year %}
+               {{ month | padStart(2) }}.{{ year }}
+               {% elif year %}
+               {{ year }}
                {% else %}
                —
                {% endif %}
@@ -326,34 +345,35 @@
                No setlist available.
                {% endif %}
                {% if show.extras and show.extras.length %}
-               <div class="extras-card"> {# This div provides the border and overall container #}
-                   <div class="extras-header">
-                       <span>Extras</span>
-                       <a href="#" class="toggle-media" data-target="extras-list-content">▾ +{{ show.extras.length }}</a>
-                   </div>
-                   {# The ordered list with extras content, initially hidden #}
-                   <ol id="extras-list-content" style="margin-top: 5px; margin-left: -1.3em; display: none;">
-                       {% for item in show.extras %}
-                       <li>
-                           {{ item.song }}
-                           {% if item.note %}
-                           <span class="setlist-note-label">{{ item.note }}</span>
-                           {% endif %}
-                           {% if item.coverOf %}
-                           <span class="info-icon" onclick="toggleFeatInfo(this)" title="Cover">🎵</span>
-                           <span class="feat-popup" style="display: none;"><em>{{ item.coverOf }} cover</em></span>
-                           {% endif %}
-                           {% if item.feat %}
-                           <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                           <span class="feat-popup" style="display: none;"><em>feat. {{ item.feat }}</em></span>
-                           {% endif %}
-                           {% if item.comment %}
-                           <span class="info-icon" onclick="toggleFeatInfo(this)" title="Comment">💬</span>
-                           <span class="feat-popup" style="display: none;"><em>{{ item.comment }}</em></span>
-                           {% endif %}
-                       </li>
-                       {% endfor %}
-                   </ol>
+               <div class="extras-card">
+                  {# This div provides the border and overall container #}
+                  <div class="extras-header">
+                     <span>Extras</span>
+                     <a href="#" class="toggle-media" data-target="extras-list-content">▾ +{{ show.extras.length }}</a>
+                  </div>
+                  {# The ordered list with extras content, initially hidden #}
+                  <ol id="extras-list-content" style="margin-top: 5px; margin-left: -1.3em; display: none;">
+                     {% for item in show.extras %}
+                     <li>
+                        {{ item.song }}
+                        {% if item.note %}
+                        <span class="setlist-note-label">{{ item.note }}</span>
+                        {% endif %}
+                        {% if item.coverOf %}
+                        <span class="info-icon" onclick="toggleFeatInfo(this)" title="Cover">🎵</span>
+                        <span class="feat-popup" style="display: none;"><em>{{ item.coverOf }} cover</em></span>
+                        {% endif %}
+                        {% if item.feat %}
+                        <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                        <span class="feat-popup" style="display: none;"><em>feat. {{ item.feat }}</em></span>
+                        {% endif %}
+                        {% if item.comment %}
+                        <span class="info-icon" onclick="toggleFeatInfo(this)" title="Comment">💬</span>
+                        <span class="feat-popup" style="display: none;"><em>{{ item.comment }}</em></span>
+                        {% endif %}
+                     </li>
+                     {% endfor %}
+                  </ol>
                </div>
                {% endif %}
             </td>
