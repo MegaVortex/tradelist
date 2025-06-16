@@ -28,25 +28,26 @@ function removeFromCart(fileSlug) {
 }
 
 // Helper function to format date from Unix timestamp or object (remains unchanged)
-function formatDate(dateInput) {
-    if (!dateInput) return '—';
+function formatDate(dateInput, dateObject) { // NOTE: Added 'dateObject' as a second parameter
+    if (!dateInput && !dateObject) return '—';
 
-    // If dateInput is already a string (e.g., "1995-10-26"), return it directly
-    if (typeof dateInput === 'string') {
-        return dateInput;
-    }
+    // Prioritize Unix timestamp if available and valid
+    if (typeof dateInput === 'number' && dateInput !== null) {
+        const date = new Date(dateInput * 1000); // Convert seconds to milliseconds
+        // Basic check if the date conversion resulted in a valid date
+        if (isNaN(date.getTime())) return '—';
+        return date.toISOString().split('T')[0]; // Format as YYYY-MM-DD
+    } else if (dateObject) { // Now explicitly check the 'dateObject' parameter
+        const year = parseInt(dateObject.year, 10) || 0;
+        const month = parseInt(dateObject.month, 10) || 0;
+        const day = parseInt(dateObject.day, 10) || 0;
 
-    if (typeof dateInput === 'number') { // Unix timestamp
-        const date = new Date(dateInput * 1000); // Convert to milliseconds
-        return date.toISOString().split('T')[0]; // Format asYYYY-MM-DD
-    } else if (typeof dateInput === 'object') { // Date object { year, month, day }
-        const { year, month, day } = dateInput;
-        if (year && month && day) {
-            return `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
-        } else if (year && month) {
-            return `${year}-${String(month).padStart(2, '0')}`;
+        if (day && month && year) {
+            return `${String(day).padStart(2, '0')}.${String(month).padStart(2, '0')}.${year}`; // DD.MM.YYYY
+        } else if (month && year) {
+            return `${String(month).padStart(2, '0')}.${year}`; // MM.YYYY
         } else if (year) {
-            return `${year}`;
+            return `${year}`; // YYYY
         }
     }
     return '—';
@@ -56,7 +57,90 @@ function formatDate(dateInput) {
 function renderCartTable() {
     const tbody = document.querySelector('#cart-table tbody');
     const cart = getCart();
-    tbody.innerHTML = cart.map(show => {
+
+    // Helper function for time formatting (remains as it's general utility)
+    function formatTimeJs(seconds) {
+        if (!seconds) return "—";
+        const h = Math.floor(seconds / 3600).toString().padStart(2, "0");
+        const m = Math.floor((seconds % 3600) / 60).toString().padStart(2, "0");
+        const s = (seconds % 60).toString().padStart(2, "0");
+        return `${h}:${m}:${s}`;
+    }
+
+    // Helper function for smartSize (remains as it's general utility)
+    function smartSizeJs(num) {
+        if (typeof num !== "number") num = parseFloat(num);
+        if (isNaN(num)) return "—";
+        if (num >= 100) return String(Math.round(num));
+        if (num < 10) return num.toFixed(2);
+        return (Math.round(num * 10) / 10).toFixed(1);
+    }
+
+
+    tbody.innerHTML = cart.map((show, index) => { // Added 'index' to map callback for unique IDs
+        // --- Inline Date Formatting for StartDate ---
+        const formattedStartDate = (() => {
+            if (typeof show.startDateUnix === 'number' && show.startDateUnix !== null) {
+                const date = new Date(show.startDateUnix * 1000);
+                return date.toISOString().split('T')[0]; // YYYY-MM-DD
+            } else if (show.startDate) {
+                const day = parseInt(show.startDate.day, 10) || 0;
+                const month = parseInt(show.startDate.month, 10) || 0;
+                const year = parseInt(show.startDate.year, 10) || 0;
+
+                if (day && month && year) {
+                    return `${String(day).padStart(2, '0')}.${String(month).padStart(2, '0')}.${year}`;
+                } else if (month && year) {
+                    return `${String(month).padStart(2, '0')}.${year}`;
+                } else if (year) {
+                    return `${year}`;
+                }
+            }
+            return '—';
+        })();
+
+        // --- Inline Location Formatting ---
+        const formattedLocation = (() => {
+            if (show.location) {
+                const parts = [];
+                if (show.location.city && show.location.city.trim() !== '') parts.push(show.location.city.trim());
+                if (show.location.state && show.location.state.trim() !== '') parts.push(show.location.state.trim());
+                if (show.location.country && show.location.country.trim() !== '') parts.push(show.location.country.trim());
+                return parts.length > 0 ? parts.join(', ') : '—';
+            }
+            return '—';
+        })();
+
+        // --- Inline Artists Formatting with toggle ---
+        const formattedArtists = (() => {
+            if (show.bands && show.bands.length) {
+                const firstBand = show.bands[0];
+                let toggleHtml = '';
+                let extraBandsHtml = '';
+
+                // Ensure unique IDs for the toggle, using fileSlug is often better than just index
+                const uniqueId = `bands-cart-${show.fileSlug}`; // Using fileSlug for uniqueness
+
+                if (show.bands.length > 1) {
+                    toggleHtml = `<a href="#" class="toggle-media" data-target="${uniqueId}">▾ +${show.bands.length - 1}</a>`;
+                    extraBandsHtml = `
+                        <div id="${uniqueId}" class="extra-media" style="display: none;">
+                            ${show.bands.slice(1).map(band => `<div>${band}</div>`).join('')}
+                        </div>
+                    `;
+                }
+                return `
+                    <div class="media-wrapper">
+                        <span>${firstBand}</span>
+                        ${toggleHtml}
+                    </div>
+                    ${extraBandsHtml}
+                `;
+            }
+            return '—';
+        })();
+
+
         // --- Generate content for the Source cell (including labels) ---
         let sourceCellContent = show.source || '—';
         if (show.fileSlug) {
@@ -72,8 +156,6 @@ function renderCartTable() {
 
         // --- Generate content for the Tapers cell (including labels) ---
         let tapersCellContent = show.tapers && show.tapers.length ? show.tapers.join(', ') : '—';
-        // Simplified tapers display for cart (no toggle for multiple tapers in cart summary)
-
         if (show.tradeLabel === 'RT') {
             tapersCellContent += `<span class="cart-cell-label-wrap"><span class="trade-label red">RT</span></span>`;
         } else if (show.tradeLabel === 'NT') {
@@ -82,32 +164,32 @@ function renderCartTable() {
 
         return `
             <tr>
-              <td>${show.bands && show.bands.length ? show.bands.join(', ') : '—'}</td>
-              <td>${formatDate(show.startDateUnix || show.startDate)}</td>
-              <td>${show.location && show.location.city ? show.location.city : '—'}</td>
+              <td>${formattedArtists}</td>
+              <td>${formattedStartDate}</td>
+              <td>${formattedLocation}</td>
               <td>${sourceCellContent}</td>
               <td>${tapersCellContent}</td>
               <td><button class="btn btn-sm btn-danger" style="font-size: 0.75rem; padding: 2px 6px;" onclick="removeFromCart('${show.fileSlug}')">✖</button></td>
             </tr>
         `;
     }).join('');
+
     document.querySelectorAll('.add-to-cart').forEach(btn => {
         const fileSlug = btn.dataset.id;
         const exists = cart.some(s => s.fileSlug === fileSlug);
         if (exists) {
             btn.innerHTML = '❌';
             btn.classList.remove('btn-outline-success');
-            btn.classList.add('btn-outline-danger'); // Corrected class
+            btn.classList.add('btn-outline-danger');
         } else {
             btn.innerHTML = '➕';
-            btn.classList.remove('btn-outline-danger'); // Corrected class
+            btn.classList.remove('btn-outline-danger');
             btn.classList.add('btn-outline-success');
         }
     });
 
     updateCartCount();
 }
-
 
 function updateCartCount() {
     const cart = getCart();
@@ -233,8 +315,7 @@ document.getElementById('send-cart').addEventListener('click', async () => {
 
         // Combine all parts into a single plain text line
         return `${artist} | ${date} | ${location} | ${source} | ${tapers} | ${link}`;
-    }).join('\n'); // Join each show line with a newline character
-    // --- End: Generate the PLAIN TEXT urls string ---
+    }).join('\n');
 
 
     const body = {
@@ -245,7 +326,7 @@ document.getElementById('send-cart').addEventListener('click', async () => {
         urls: urlsContent
     };
 
-    const getformEndpoint = 'https://getform.io/f/allzgkra'; // Your Getform endpoint
+    const getformEndpoint = 'https://getform.io/f/allzgkra';
 
     try {
         const res = await fetch(getformEndpoint, {
