@@ -1,0 +1,111 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - [09.06.2007 -- 10.06.2007] - Newport - Wales - Seaclose Park - Isle Of Wight Festival",
+  "created": 1749977449,
+  "lastUpdated": 1749977449,
+  "bands": [
+    "Muse",
+    "The Rolling Stones"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "06",
+    "year": "2007"
+  },
+  "startDateUnix": 1181347200,
+  "endDate": {
+    "day": "10",
+    "month": "06",
+    "year": "2007"
+  },
+  "endDateUnix": 1181433600,
+  "location": {
+    "city": "Newport",
+    "state": "",
+    "country": "Wales",
+    "venue": "Seaclose Park",
+    "event": "Isle Of Wight Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Arte HD broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.93,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3093,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1440x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "72733183.jpg",
+      "externalId": "1EOCTZSEdJaCSSgf18HetZAtZNn4YJeFr"
+    },
+    {
+      "folder": "60",
+      "filename": "49757181.jpg",
+      "externalId": "1ADAhaLWJfRNnGw6Kg1WmBLRu_Q0YibRW"
+    },
+    {
+      "folder": "60",
+      "filename": "37062419.jpg",
+      "externalId": "1I-2oCC08V7FA7Oj5NSFjr8uSXjRVYdR3"
+    },
+    {
+      "folder": "60",
+      "filename": "48194948.jpg",
+      "externalId": "1oGDZXnJYYBYbnGdt8JEJOuWlf6F2Gy9S"
+    }
+  ],
+  "parentOf": [
+    "muse_09_06_2007_video",
+    "the_rolling_stones_10_06_2007_video"
+  ]
+}

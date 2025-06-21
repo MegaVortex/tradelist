@@ -34,22 +34,17 @@ module.exports = function(eleventyConfig) {
         return DateTime.fromSeconds(timestamp).toFormat(format);
     });
 
-    // 🌟🌟🌟 HELPER FILTERS (already good) 🌟🌟🌟
-
     // NEW HELPER FILTER: Safely converts a value to an integer, defaults to 0 if invalid
     eleventyConfig.addFilter("toInt", (value) => {
         const num = parseInt(value, 10);
-        return isNaN(num) ? 0 : num; // Returns 0 for empty strings or non-numeric values
+        return isNaN(num) ? 0 : num;
     });
 
     // NEW HELPER FILTER: Pads a string with a leading character (default '0') to a specified length
     eleventyConfig.addFilter("padStart", (value, length, padChar = '0') => {
-        if (value === null || typeof value === 'undefined') return ''; // Handle null/undefined values
+        if (value === null || typeof value === 'undefined') return '';
         return String(value).padStart(length, padChar);
     });
-
-    // 🌟🌟🌟 END OF HELPER FILTERS 🌟🌟🌟
-
 
     // Duration formatter
     eleventyConfig.addFilter("formatTime", (seconds) => {
@@ -76,90 +71,112 @@ module.exports = function(eleventyConfig) {
 
     // Load all JSON files and filter them into categories
     eleventyConfig.addGlobalData("allShowData", () => {
-        const dataDir = "./src/data";
-        if (!fs.existsSync(dataDir)) {
-            console.warn(`Data directory not found: ${dataDir}`);
-            return {
-                allShows: [],
-                publicShows: [],
-                singleArtistShows: [],
-                variousArtistShows: []
-            };
-        }
-
-        const files = fs.readdirSync(dataDir).filter(f => f.endsWith(".json"));
-        const allShows = files.map(file => {
-            const json = JSON.parse(fs.readFileSync(`${dataDir}/${file}`, "utf-8"));
-            return {
-                ...json,
-                fileSlug: file.replace(/\.json$/, ""),
-                permalink: `/shows/${file.replace(/\.json$/, "")}/index.html`
-            };
-        }).sort((a, b) => {
-            // Priority 1: Sort by startDateUnix (ascending). Items without Unix date go to the beginning.
+        const regularDataDir = "./src/data";
+        const vaDataDir = "./src/data-va";
+    
+        const readShowsFromDir = (dir, isVA = false) => {
+            if (!fs.existsSync(dir)) {
+                console.warn(`Data directory not found: ${dir}`);
+                return [];
+            }
+            const files = fs.readdirSync(dir).filter(f => f.endsWith(".json"));
+            return files.map(file => {
+                const json = JSON.parse(fs.readFileSync(`${dir}/${file}`, "utf-8"));
+                const fileSlug = file.replace(/\.json$/, "");
+    
+                // --- THIS IS THE KEY ---
+                // We explicitly define the correct permalink based on the folder
+                // and add it directly to the show object.
+                const permalink = isVA
+                    ? `/va-shows/${fileSlug}/`
+                    : `/shows/${fileSlug}/`;
+    
+                return {
+                    ...json,
+                    fileSlug: fileSlug,
+                    isVA: isVA,
+                    permalink: permalink // The permalink is now part of the data
+                };
+            });
+        };
+    
+        // Read shows from both directories
+        const regularShows = readShowsFromDir(regularDataDir, false);
+        const vaShows = readShowsFromDir(vaDataDir, true);
+    
+        // Combine all shows into a single array and sort them
+        const allShows = [...regularShows, ...vaShows].sort((a, b) => {
+            // The sorting logic you had is preserved exactly.
             const unixA = a.startDateUnix;
             const unixB = b.startDateUnix;
-
-            // If both have valid unix dates
-            if (typeof unixA === 'number' && typeof unixB === 'number') {
-                return unixA - unixB;
-            }
-
-            else if (typeof unixA === 'number') {
-                return 1;
-            }
-            // If only B has a valid unix date, A comes before B (B is "older")
-            else if (typeof unixB === 'number') {
-                return -1;
-            }
-
-            // Priority 2: If both startDateUnix are null/undefined, sort by startDate.year, month, day (ascending)
+            if (typeof unixA === 'number' && typeof unixB === 'number') return unixA - unixB;
+            if (typeof unixA === 'number') return 1;
+            if (typeof unixB === 'number') return -1;
+    
             const sdA = a.startDate || {};
             const sdB = b.startDate || {};
-
             const yearA = parseInt(sdA.year, 10) || 0;
             const yearB = parseInt(sdB.year, 10) || 0;
-            if (yearA !== yearB) {
-                return yearA - yearB; // <--- CHANGE THIS LINE (was yearB - yearA)
-            }
-
+            if (yearA !== yearB) return yearA - yearB;
+    
             const monthA = parseInt(sdA.month, 10) || 0;
             const monthB = parseInt(sdB.month, 10) || 0;
-            if (monthA !== monthB) {
-                return monthA - monthB; // <--- CHANGE THIS LINE (was monthB - monthA)
-            }
-
+            if (monthA !== monthB) return monthA - monthB;
+    
             const dayA = parseInt(sdA.day, 10) || 0;
             const dayB = parseInt(sdB.day, 10) || 0;
-            if (dayA !== dayB) {
-                return dayA - dayB; // <--- CHANGE THIS LINE (was dayB - dayA)
-            }
-
-            // Priority 3: Fallback to sorting by primary artist name (ascending, alphabetical)
-            // This logic naturally sorts alphabetically (ascending)
+            if (dayA !== dayB) return dayA - dayB;
+    
             const bandA = (a.bands && a.bands[0]) ? String(a.bands[0]).toLowerCase() : '';
             const bandB = (b.bands && b.bands[0]) ? String(b.bands[0]).toLowerCase() : '';
             if (bandA < bandB) return -1;
             if (bandA > bandB) return 1;
-
+    
             return 0;
         });
+    
+        const publicShows = allShows.filter(show => show.public !== false);
+    
+        // Create separate arrays for public regular and VA shows
+        const publicRegularShows = publicShows.filter(show => !show.isVA);
+        const publicVaShows = publicShows.filter(show => show.isVA);
+    
+        // --- Logic for Updates Page ---
+        const now = Math.floor(Date.now() / 1000);
+        const cutoff = now - 180 * 86400;
+        const recentShows = publicShows.filter(s => s.created && s.created >= cutoff);
+        const groupedByDate = {};
+        for (const show of recentShows) {
+          const dateStr = new Date(show.created * 1000).toISOString().slice(0, 10);
+          if (!groupedByDate[dateStr]) groupedByDate[dateStr] = [];
+          groupedByDate[dateStr].push(show);
+        }
 
-        const publicShows = allShows.filter(show => show.public);
+        for (const dateStr in groupedByDate) {
+          groupedByDate[dateStr].sort((a, b) => {
+            const bandA = (a.bands && a.bands[0]) ? String(a.bands[0]).toLowerCase() : '';
+            const bandB = (b.bands && b.bands[0]) ? String(b.bands[0]).toLowerCase() : '';
+            return bandA.localeCompare(bandB);
+          });
+        }
 
-        // singleArtistShows and variousArtistShows will now inherit the new sorting order
-        const singleArtistShows = publicShows.filter(show => show.bands && show.bands.length === 1);
-        const variousArtistShows = publicShows.filter(show => show.bands && show.bands.length > 1);
+        const updatesPageData = Object.entries(groupedByDate).sort((a, b) => b[0].localeCompare(a[0]));
+
+        const showsBySlug = {};
+        for (const show of publicShows) {
+          showsBySlug[show.fileSlug] = show;
+        }
 
         return {
             allShows,
             publicShows,
-            singleArtistShows,
-            variousArtistShows
+            publicRegularShows,
+            publicVaShows,
+            updatesPageData,
+            showsBySlug
         };
     });
 
-    // Return the Eleventy configuration object
     return {
         pathPrefix: "/tradelist",
         dir: {

@@ -7,7 +7,7 @@
    <!-- Pills will be injected here -->
 </div>
 <p id="show-count" class="show-counter">
-   🎫 Shows: <span id="show-count-number">{{ allShowData.singleArtistShows | length }}</span>
+   🎫 Shows: <span id="show-count-number">{{ allShowData.publicRegularShows | length }}</span>
 </p>
 <div id="grouping-hint" style="display:none; font-size: 11px; color: #555; margin-bottom: 10px;"></div>
 <table id="shows-table">
@@ -29,7 +29,7 @@
    </thead>
    <tbody>
       {% set currentGroup = null %}
-      {% for show in allShowData.singleArtistShows %}
+      {% for show in allShowData.publicRegularShows %}
       {% if show.public %}
       {% set groupKey = show.bands[0] %}
       {% if groupKey != currentGroup %}
@@ -47,6 +47,27 @@
             {% endif %}
          </td>
          <td>
+            {% if show.startDateUnix %}
+            {{ show.startDateUnix | date("yyyy-MM-dd") }}
+            {% elif show.startDate %}
+            {% set sd = show.startDate %}
+            {% set day = sd.day | toInt %}
+            {% set month = sd.month | toInt %}
+            {% set year = sd.year | toInt %}
+            {% if day and month and year %}
+            {{ day | padStart(2) }}.{{ month | padStart(2) }}.{{ year }}
+            {% elif month and year %}
+            {{ month | padStart(2) }}.{{ year }}
+            {% elif year %}
+            {{ year }}
+            {% else %}
+            —
+            {% endif %}
+            {% else %}
+            —
+            {% endif %}
+         </td>
+         <td>
             {% if show.location %}
             {% set locationParts = [] %}
             {% if show.location.city %}{% set locationParts = locationParts.concat([show.location.city]) %}{% endif %}
@@ -57,13 +78,6 @@
             {% else %}
             —
             {% endif %}
-            {% else %}
-            —
-            {% endif %}
-         </td>
-         <td>
-            {% if show.location %}
-            {{ show.location.city or "" }}{% if show.location.state %}, {{ show.location.state }}{% endif %}, {{ show.location.country or "" }}
             {% else %}
             —
             {% endif %}

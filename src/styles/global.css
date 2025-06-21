@@ -499,14 +499,12 @@ img.clickable-thumb {
   color: #0366d6;
   border-radius: 999px;
   transition: background-color 0.2s ease;
-  /* Add a transparent border to the default state */
   border: 1px solid transparent;
 }
 
 #main-nav .nav-link.active {
   background-color: #d6e4f0;
   color: #0366d6;
-  /* The border is already here, so no layout shift will occur */
 }
 
 body {

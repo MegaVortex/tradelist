@@ -23,7 +23,7 @@
       </thead>
       <tbody>
          {% set uniqueDates = [] %}
-         {% for show in allShowData.singleArtistShows %}
+         {% for show in allShowData.publicRegularShows %}
          {% set dateStr = show.created | date("yyyy-MM-dd") %}
          {% if uniqueDates.indexOf(dateStr) == -1 %}
          {% set uniqueDates = (uniqueDates.push(dateStr), uniqueDates) %}
@@ -36,7 +36,7 @@
             <td colspan="12" class="created-label">📅 {{ date }}</td>
          </tr>
          {% set groupShows = [] %}
-         {% for show in allShowData.singleArtistShows %}
+         {% for show in allShowData.publicRegularShows %}
          {% if show.created | date("yyyy-MM-dd") == date %}
          {% set groupShows = (groupShows.push({ name: show.bands[0], rec: show }), groupShows) %}
          {% endif %}

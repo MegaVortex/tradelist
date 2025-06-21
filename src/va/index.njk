@@ -28,7 +28,7 @@ permalink: "/va/"
       </tr>
    </thead>
    <tbody>
-      {% for show in allShowData.variousArtistShows %}
+      {% for show in allShowData.publicVaShows %}
       <tr class="paginated-show" data-band="{{ show.bands | join(', ') }}" data-json="{{ show | dump | urlencode }}">
          <td>
             {% if show.bands and show.bands.length %}
@@ -74,7 +74,6 @@ permalink: "/va/"
             —
             {% endif %}
          </td>
-                     
          <td>
             {% if show.endDateUnix %}
             {{ show.endDateUnix | date("yyyy-MM-dd") }}

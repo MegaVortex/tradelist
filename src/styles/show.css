@@ -372,3 +372,24 @@ img.clickable-thumb {
     line-height: 1.5;
     border-radius: 0.2rem;
 }
+
+.child-shows-table th {
+  background-color: #e4cae4;
+  border: 1px solid #ddbbdd;
+  font-weight: 600;
+  color: #333;
+}
+
+.child-shows-table td {
+  border: 1px solid #ddbbdd;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.child-shows-table {
+  margin-top: -12px;
+}
+
+.child-shows-table .table {
+  padding-top: -12px;
+}
