@@ -280,6 +280,81 @@
                {% endif %}
                {% if show.specs.chapters != null %}
                <strong>Chapters:</strong> {% if show.specs.chapters %}Yes{% else %}No{% endif %}<br>
+			   <br>
+               {% endif %}
+               {% endif %}
+               {% if show.childOf and show.childOf != "" %}
+               {% set parentShow = allShowData.showsBySlug[show.childOf] %}
+               {% if parentShow %}
+               <div class="parent-compilation-notice" style="position: relative;">
+					<span class="group-label-page">compilation</span>
+<div class="notice-header" data-target="parent-compilation-content">
+<div class="title-and-icon-row">
+    <span class="notice-title">
+        [VARIOUS ARTISTS]
+        {%- set startYear = parentShow.startDateUnix | date("yyyy") if parentShow.startDateUnix else (parentShow.startDate.year if parentShow.startDate and parentShow.startDate.year) -%}
+        {%- set endYear = parentShow.endDateUnix | date("yyyy") if parentShow.endDateUnix else (parentShow.endDate.year if parentShow.endDate and parentShow.endDate.year) -%}
+
+        {%- if startYear or endYear -%}
+            {%- if startYear and endYear and startYear != endYear -%}
+                {{- " " + startYear + "-" + endYear -}}
+            {%- elif startYear -%}
+                {{- " " + startYear -}}
+            {%- endif -%}
+        {%- endif -%}
+
+        {%- set locationParts = [] -%}
+        {%- set eventOrLocation = '' -%}
+        {%- if locationParts | length > 0 -%}
+            {%- set eventOrLocation = locationParts | join(', ') -%}
+        {%- elif parentShow.location.event -%}
+            {%- set eventOrLocation = parentShow.location.event -%}
+        {%- elif parentShow.showName -%}
+            {%- set eventOrLocation = parentShow.showName -%}
+        {%- endif -%}
+
+        {%- if eventOrLocation -%}
+            {{- " | " + eventOrLocation -}}
+        {%- endif -%}
+    </span>
+    <a href="{{ parentShow.permalink | url }}" class="notice-icon-link" title="View compilation: {{ parentShow.originalTitle }}">🎫</a>
+</div>
+                {% if show.relatedShows and show.relatedShows.length %}
+                    <span class="toggle-arrow">🔼</span>
+                {% endif %}
+            </div>
+                  <div id="parent-compilation-content" class="notice-content" style="display: none;">
+                     {% if show.relatedShows and show.relatedShows.length %}
+                     <div class="table-responsive child-shows-table" style="margin-top: 8px;">
+                        <table class="table table-sm table-bordered" style="margin-bottom: 0;">
+                           <thead>
+                              <tr>
+                                 <th>Artist</th>
+                                 <th>Date</th>
+                                 <th>Source</th>
+                                 <th>Link</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              {% for relatedSlug in show.relatedShows %}
+                              {% set relatedShow = allShowData.showsBySlug[relatedSlug] %}
+                              {% if relatedShow %}
+                              <tr>
+                                 <td>{{ relatedShow.bands[0] if relatedShow.bands else '—' }}</td>
+                                 <td>{% if relatedShow.startDateUnix %}{{ relatedShow.startDateUnix | date("yyyy-MM-dd") }}{% elif relatedShow.startDate and relatedShow.startDate.year %}{{ relatedShow.startDate.year }}{% else %}—{% endif %}</td>
+                                 <td>{{ relatedShow.source or '—' }}</td>
+                                 <td><a href="{{ relatedShow.permalink | url }}">🎫</a></td>
+                              </tr>
+                              {% endif %}
+                              {% endfor %}
+                           </tbody>
+                        </table>
+                     </div>
+                     {% else %}
+                     No related shows for this performance.
+                     {% endif %}
+                  </div>
+               </div>
                {% endif %}
                {% endif %}
             </td>
@@ -389,4 +464,5 @@
 <script src="{{ '/scripts/image-modal-viewer.js' | url }}"></script>
 <script src="{{ '/scripts/setlist-toggle.js' | url }}"></script>
 <script src="{{ '/scripts/media-extras-toggle.js' | url }}"></script>
+<script src="{{ '/scripts/expandable-notice.js' | url }}"></script>
 {% endblock %}
