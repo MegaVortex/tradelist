@@ -1,0 +1,146 @@
+{
+  "originalTitle": "Korn - 10.06.2016 - Castle Donington - England - Donington Park - Download Festival",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "06",
+    "year": "2016"
+  },
+  "startDateUnix": 1465516800,
+  "endDate": {
+    "day": "10",
+    "month": "06",
+    "year": "2016"
+  },
+  "endDateUnix": 1465516800,
+  "location": {
+    "city": "Castle Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": "Download Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 24.2,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 16514,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 479,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [
+    "rammstein_10_06_2016_video",
+    "deftones_11_06_2016_video",
+    "skillet_10_06_2016_video",
+    "alien_ant_farm_10_06_2016_video",
+    "killswitch_engage_10_06_2016_video",
+    "nofx_11_06_2016_video",
+    "rival_sons_11_06_2016_video",
+    "iron_maiden_12_06_2016_video",
+    "skindred_11_06_2016_video",
+    "billy_talent_12_06_2016_video",
+    "disturbed_12_06_2016_video",
+    "nightwish_12_06_2016_video",
+    "halestorm_12_06_2016_video"
+  ],
+  "childOf": "[VARIOUS ARTISTS] - [10.06.2016 -- 12.06.2016] - Castle Donington - England - Donington Park - Download Festival",
+  "images": [
+    {
+      "folder": "67",
+      "filename": "98769213.jpg",
+      "externalId": "1ZIb1aWrXznADsXmMDBAkeJhnToaoJVMG"
+    },
+    {
+      "folder": "67",
+      "filename": "26446676.jpg",
+      "externalId": "1pUYX3a40Tv6M0zCZr6X_37tE2zU1-o89"
+    },
+    {
+      "folder": "67",
+      "filename": "54776819.jpg",
+      "externalId": "1F2Wl6hBKwRMccU--0Obua4tB8qdY6M9T"
+    },
+    {
+      "folder": "67",
+      "filename": "25193457.jpg",
+      "externalId": "1MWfLbaber1dxtvsC3ng5mnumKSZ90bT6"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Shoots And Ladders",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Falling Away From Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Freak On A Leash",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

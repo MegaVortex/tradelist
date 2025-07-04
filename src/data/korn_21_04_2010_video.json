@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Korn - 21.04.2010 - Sao Paulo - Brazil - Credicard Hall",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "04",
+    "year": "2010"
+  },
+  "startDateUnix": 1271808000,
+  "endDate": {
+    "day": "21",
+    "month": "04",
+    "year": "2010"
+  },
+  "endDateUnix": 1271808000,
+  "location": {
+    "city": "Sao Paulo",
+    "state": "",
+    "country": "Brazil",
+    "venue": "Credicard Hall",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Highly incomplete.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.21,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2263,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "65",
+      "filename": "49950090.jpg",
+      "externalId": "1rd23mKQW70oZLIgrbLOxVI9fWHqsXHuT"
+    },
+    {
+      "folder": "65",
+      "filename": "45651086.jpg",
+      "externalId": "1it0UkPaE8GyP1LHt1tXGKpbXieYRoFmv"
+    },
+    {
+      "folder": "65",
+      "filename": "71905306.jpg",
+      "externalId": "1Y1Wafydx4v7jCjM09wlzXk6eovbyejr4"
+    },
+    {
+      "folder": "65",
+      "filename": "32161303.jpg",
+      "externalId": "14vn46iR3ispaPVUedQuzUz4FT80dYWLo"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "4U",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Dead Bodies Everywhere",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Need To",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Coming Undone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Oildale (Leave Me Alone)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Somebody Someone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Shoots And Ladders",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Clown",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Got The Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

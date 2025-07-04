@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Korn - 19.11.2005 - New York - NY - USA - NBC Studios - Saturday Night Live (Source 2)",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "11",
+    "year": "2005"
+  },
+  "startDateUnix": 1132358400,
+  "endDate": {
+    "day": "19",
+    "month": "11",
+    "year": "2005"
+  },
+  "endDateUnix": 1132358400,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": "Saturday Night Live"
+  },
+  "tvChannel": "NBC",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Re-",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 594,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 480,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "34665918.jpg",
+      "externalId": "1PhW4td0dPl1Q8E5eY2AmzaAUFXWGrp0q"
+    },
+    {
+      "folder": "14",
+      "filename": "02053504.jpg",
+      "externalId": "1fhO8-JfTQrBG0ljGRED_ICmIP-_3ZHZS"
+    },
+    {
+      "folder": "14",
+      "filename": "39054995.jpg",
+      "externalId": "12amxaCDHDlfthcXQWXsCGDED8ekMWyZl"
+    },
+    {
+      "folder": "14",
+      "filename": "32127019.jpg",
+      "externalId": "1r5K90bit5i1uJEy2jW_1jnREOnH6i9Oh"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Twisted Transistor",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Freak On A Leash",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

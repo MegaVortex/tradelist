@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener("click", function(e) {
         if (e.target.matches(".toggle-media")) {
-            e.preventDefault(); // Prevents redirect to "#"
+            e.preventDefault();
            
             const targetId = e.target.dataset.target;
             const block = document.getElementById(targetId);

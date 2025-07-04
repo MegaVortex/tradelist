@@ -1,0 +1,206 @@
+{
+  "originalTitle": "Korn - 11.07.2010 - Mountain View - CA - USA - Shoreline Amphitheatre (Source 1)",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "07",
+    "year": "2010"
+  },
+  "startDateUnix": 1278806400,
+  "endDate": {
+    "day": "11",
+    "month": "07",
+    "year": "2010"
+  },
+  "endDateUnix": 1278806400,
+  "location": {
+    "city": "Mountain View",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Shoreline Amphitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#С",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Trunksten15"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.64,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3610,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "9",
+      "filename": "75466486.jpg",
+      "externalId": "1FVBTNFLQBQx_NidiVK5JyTSyVqVMuP1g"
+    },
+    {
+      "folder": "9",
+      "filename": "13198291.jpg",
+      "externalId": "1suPDl9pWpUbFxlQthZlNK1GqQ5-bI85l"
+    },
+    {
+      "folder": "9",
+      "filename": "90887153.jpg",
+      "externalId": "1emw59ZdS5w-WcyW07byowIY9MzR_0Mi0"
+    },
+    {
+      "folder": "9",
+      "filename": "32997250.jpg",
+      "externalId": "11nAfx9T9W-ZvTLcyYM1OoJ-rKfA5IBOG"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Here To Stay",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Right Now",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Did My Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Somebody Someone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Oildale",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Let the Guilt Go",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Falling Away From Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Freak On A Leash",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Blind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Shoots And Ladders",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Clown",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Got the Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

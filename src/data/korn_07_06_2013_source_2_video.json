@@ -1,0 +1,160 @@
+{
+  "originalTitle": "Korn - 07.06.2013 - Nuerburg - Germany - Nuerburgring - Rock Am Ring (Source 2)",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "06",
+    "year": "2013"
+  },
+  "startDateUnix": 1370563200,
+  "endDate": {
+    "day": "07",
+    "month": "06",
+    "year": "2013"
+  },
+  "endDateUnix": 1370563200,
+  "location": {
+    "city": "Nuerburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Nuerburgring",
+    "event": "Rock Am Ring"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.79,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1858,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": {
+      "language": "",
+      "codec": "",
+      "bitrateKbps": null,
+      "channels": null
+    },
+    "sourceDetail": {
+      "type": "",
+      "extra": "",
+      "medium": ""
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "49",
+      "filename": "24306107.jpg",
+      "externalId": "1DmEBRDlhMrWQH10U9-_xFIh66zssVY2h"
+    },
+    {
+      "folder": "49",
+      "filename": "38306330.jpg",
+      "externalId": "1BiHrAGcGBhY7IZy8Z8PDcCE3vppHYlDn"
+    },
+    {
+      "folder": "49",
+      "filename": "44136083.jpg",
+      "externalId": "1nG77ncdElaYqi15IE7B9c8cZsUAedFDq"
+    },
+    {
+      "folder": "49",
+      "filename": "75650649.jpg",
+      "externalId": "1rIk6YZ4YQJKwWU5xv-wGjwPpaqH6hol_"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Falling Away From Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Narcissistic Cannibal",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Coming Undone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Did My Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Shoots And Ladders / Somebody Someone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Here To Stay",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Freak On A Leash",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

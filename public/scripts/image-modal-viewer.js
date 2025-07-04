@@ -9,7 +9,6 @@ function openModal(id, images = []) {
     if (modal) modal.style.display = 'flex';
     document.body.style.overflow = 'hidden';
 
-    // ✅ Inject viewport tag ONLY when modal is shown
     if (!document.querySelector('meta[name="viewport"]')) {
         const meta = document.createElement('meta');
         meta.name = "viewport";
@@ -19,32 +18,29 @@ function openModal(id, images = []) {
 }
 
 function showImageAt(index) {
-  const imgData = currentImages[index];
-  if (!imgData) return;
+    const imgData = currentImages[index];
+    if (!imgData) return;
 
-  const modalImg = document.getElementById('modalImage');
-  const modalInner = document.querySelector('#imageModal .modal-inner');
-  if (!modalImg || !modalInner) return;
+    const modalImg = document.getElementById('modalImage');
+    const modalInner = document.querySelector('#imageModal .modal-inner');
+    if (!modalImg || !modalInner) return;
 
-  // Hide while loading
-  modalImg.style.visibility = 'hidden';
+    modalImg.style.visibility = 'hidden';
+    modalImg.onload = () => {
+        modalInner.style.width = modalImg.naturalWidth + 'px';
+        modalInner.style.height = modalImg.naturalHeight + 'px';
+        modalImg.style.visibility = 'visible';
+    };
 
-  modalImg.onload = () => {
-    // Auto-size modal based on image
-    modalInner.style.width = modalImg.naturalWidth + 'px';
-    modalInner.style.height = modalImg.naturalHeight + 'px';
-    modalImg.style.visibility = 'visible';
-  };
+    modalImg.src = `https://lh3.googleusercontent.com/d/${imgData.externalId}`;
 
-  modalImg.src = `https://lh3.googleusercontent.com/d/${imgData.externalId}`;
+    const prevBtn = document.getElementById('modalPrev');
+    const nextBtn = document.getElementById('modalNext');
+    if (prevBtn) prevBtn.style.display = index > 0 ? 'block' : 'none';
+    if (nextBtn) nextBtn.style.display = index < currentImages.length - 1 ? 'block' : 'none';
 
-  const prevBtn = document.getElementById('modalPrev');
-  const nextBtn = document.getElementById('modalNext');
-  if (prevBtn) prevBtn.style.display = index > 0 ? 'block' : 'none';
-  if (nextBtn) nextBtn.style.display = index < currentImages.length - 1 ? 'block' : 'none';
-
-  const counter = document.getElementById('imageCounter');
-  if (counter) counter.textContent = `${index + 1} / ${currentImages.length}`;
+    const counter = document.getElementById('imageCounter');
+    if (counter) counter.textContent = `${index + 1} / ${currentImages.length}`;
 }
 
 function closeModal() {
@@ -55,12 +51,11 @@ function closeModal() {
     currentImages = [];
     currentIndex = 0;
 
-    // Remove the injected viewport tag
     const existing = document.querySelector('meta[name="viewport"]');
     if (existing) existing.remove();
 
-    // 🔁 Only reload on mobile (<= 768px)
-	const url = new URL(window.location.href);
+    // Only reload on mobile (<= 768px)
+    const url = new URL(window.location.href);
     if (window.innerWidth <= 768) {
         window.location.href = url.toString();
     } else {

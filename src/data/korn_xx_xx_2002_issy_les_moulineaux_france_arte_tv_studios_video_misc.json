@@ -1,0 +1,133 @@
+{
+  "originalTitle": "Korn - xx.xx.2002 - Issy-les-Moulineaux - France - Arte TV Studios [MISC]",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2002"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2002"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Issy-les-Moulineaux",
+    "state": "",
+    "country": "France",
+    "venue": "Arte TV Studios",
+    "event": ""
+  },
+  "tvChannel": "Arte TV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 328,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 320,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_21_02_1997_video",
+    "korn_14_03_2002_video",
+    "korn_01_09_2002_video",
+    "korn_23_10_2003_video",
+    "korn_12_06_2004_video",
+    "korn_25_05_2006_video",
+    "korn_22_09_2005_video"
+  ],
+  "childOf": "Korn - [MISC 1 - Compilation]",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "97165843.jpg",
+      "externalId": "1n7PiGX_6KAALKmBHu38vzZc2BvTIv-YF"
+    },
+    {
+      "folder": "14",
+      "filename": "04110153.jpg",
+      "externalId": "1evVGvgFFkO0OmUGh8FUS3Mqf2a8kf202"
+    },
+    {
+      "folder": "14",
+      "filename": "07553032.jpg",
+      "externalId": "153zFcjzF2vco4wwrk9VfugrY4xAwHn5t"
+    },
+    {
+      "folder": "14",
+      "filename": "80115166.jpg",
+      "externalId": "1ZHaSbUfzrxMgLvtlG8OsaEMB_sJ8L7M8"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Munky",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Live Footage (mix)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

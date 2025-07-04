@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy"
+    "build": "eleventy",
+    "build:dev": "cross-env ELEVENTY_ENV=dev eleventy",
+    "serve:dev": "cross-env ELEVENTY_ENV=dev eleventy --serve"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.0"
+    "@11ty/eleventy": "^3.1.0",
+    "cross-env": "^7.0.3"
   },
   "dependencies": {
     "bootstrap": "^5.3.6",

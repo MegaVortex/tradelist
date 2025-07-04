@@ -36,8 +36,10 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "",
-  "tapers": [],
+  "notes": "test",
+  "tapers": [
+    "test test test"
+  ],
   "specs": {
     "media": [
       {
@@ -45,11 +47,11 @@
         "size": 136,
         "unit": "Mb"
       },
-	  {
-		          "type": "DVD-5",
+      {
+        "type": "DVD-5",
         "size": 2.1,
         "unit": "Gb"
-	  }
+      }
     ],
     "chapters": false,
     "menu": false,
@@ -75,7 +77,7 @@
         "bitrateKbps": 256,
         "channels": 2
       },
-	  {
+      {
         "language": "",
         "codec": "",
         "rateHz": 44100,
@@ -90,7 +92,9 @@
       "fileFormat": "DVD"
     }
   },
-  "relatedShows": [],
+  "relatedShows": [
+    "chris_cornell_30_05_2009_video"
+  ],
   "childOf": "",
   "images": [
     {
@@ -123,5 +127,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "chris_cornell_16_12_2013_video",
+  "isRegular": true,
+  "permalink": "/shows/chris_cornell_16_12_2013_video/"
 }

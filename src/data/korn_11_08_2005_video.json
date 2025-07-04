@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Korn - 11.08.2005 - Barcelona - Spain - Razzmatazz 1",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "08",
+    "year": "2005"
+  },
+  "startDateUnix": 1123718400,
+  "endDate": {
+    "day": "11",
+    "month": "08",
+    "year": "2005"
+  },
+  "endDateUnix": 1123718400,
+  "location": {
+    "city": "Barcelona",
+    "state": "",
+    "country": "Spain",
+    "venue": "Razzmatazz 1",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Digicam shot from the pit. Horrible sound!",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.02,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1009,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "36127038.jpg",
+      "externalId": "12H9y6KyltYUMwThL7HNbyOxIU5Imr1w8"
+    },
+    {
+      "folder": "14",
+      "filename": "98626572.jpg",
+      "externalId": "1J8cn0QXsrZeg359Bs8oQcnPDRGrScQqE"
+    },
+    {
+      "folder": "14",
+      "filename": "85356911.jpg",
+      "externalId": "1QMtAyxigNCckof1iJHd_UCA6A3VFlEBF"
+    },
+    {
+      "folder": "14",
+      "filename": "78050785.jpg",
+      "externalId": "1VYNLcKdQEDN0WrxWdS7zFNF0f7I06UQM"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Did My Time",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Shoots And Ladders / One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Metallica"
+    },
+    {
+      "order": 3,
+      "song": "Freak On A Leash",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Faget",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Another Brick In The Wall  (cut)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Pink Floyd"
+    },
+    {
+      "order": 6,
+      "song": "Blind",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

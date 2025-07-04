@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Korn - 21.09.2005 - Moscow - Russia - Red Square - Vasiljevskiy Spusk - MTV Russia Music Awards",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "09",
+    "year": "2005"
+  },
+  "startDateUnix": 1127260800,
+  "endDate": {
+    "day": "21",
+    "month": "09",
+    "year": "2005"
+  },
+  "endDateUnix": 1127260800,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Red Square",
+    "event": "Vasiljevskiy Spusk - MTV Russia Music Awards"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 184,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 342,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "37",
+      "filename": "25135234.jpg",
+      "externalId": "1WGZvOeppgZC_aQj6c9OTuVtuZ7PvOEbL"
+    },
+    {
+      "folder": "37",
+      "filename": "46632905.jpg",
+      "externalId": "1gjYQ1NVDjoKGHf_wg56F13Zx19JtqT-7"
+    },
+    {
+      "folder": "37",
+      "filename": "01209923.jpg",
+      "externalId": "1sqsSWo6OxzD6WpAn0RQ20of1FjA9m7_v"
+    },
+    {
+      "folder": "37",
+      "filename": "07534638.jpg",
+      "externalId": "10rc3xH0HDjl_LvQJ8qyJm5IzNQ1sr7O4"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Another Brick In The Wall",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Pink Floyd"
+    }
+  ],
+  "extras": []
+}

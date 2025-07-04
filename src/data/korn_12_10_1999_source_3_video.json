@@ -1,0 +1,178 @@
+{
+  "originalTitle": "Korn - 12.10.1999 - Kansas City - MO - USA - Kemper Arena (Source 3)",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "10",
+    "year": "1999"
+  },
+  "startDateUnix": 939686400,
+  "endDate": {
+    "day": "12",
+    "month": "10",
+    "year": "1999"
+  },
+  "endDateUnix": 939686400,
+  "location": {
+    "city": "Kansas City",
+    "state": "MO",
+    "country": "USA",
+    "venue": "Kemper Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.24,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1153,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_xx_xx_1998_los_angeles_ca_usa_mtv_fanatic_show_video_misc",
+    "korn_xx_07_1997_video",
+    "korn_xx_xx_1995_usa_interview_with_rick_davis_video_misc",
+    "korn_15_06_1996_video_misc",
+    "korn_24_07_1999_video_misc"
+  ],
+  "childOf": "Korn - [MISC 5 - Compilation]",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "53114289.jpg",
+      "externalId": "1NVmSVDtOc5oTwbpDKfNiHVYkarjO1NwR"
+    },
+    {
+      "folder": "15",
+      "filename": "21561072.jpg",
+      "externalId": "1GxZrVPItM9zzSculLWICzYL55H_ou0Dh"
+    },
+    {
+      "folder": "15",
+      "filename": "47895966.jpg",
+      "externalId": "1aWJ0RbVZnzZgjwRhyzvikSQaHB2ipeGU"
+    },
+    {
+      "folder": "15",
+      "filename": "45555496.jpg",
+      "externalId": "13cstQ2t6S8nIOgxVScjLoHVWySkFA3eI"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Short Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Got The Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "A.D.I.D.A.S.",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Good God",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Short Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Freak On A Leash",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Short Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Falling Away From Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

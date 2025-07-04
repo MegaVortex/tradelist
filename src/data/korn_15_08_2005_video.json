@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Korn - 15.08.2005 - Colmar - France - Avenue De La Foire Aux Vins - Wine Festival",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "08",
+    "year": "2005"
+  },
+  "startDateUnix": 1124064000,
+  "endDate": {
+    "day": "15",
+    "month": "08",
+    "year": "2005"
+  },
+  "endDateUnix": 1124064000,
+  "location": {
+    "city": "Colmar",
+    "state": "",
+    "country": "France",
+    "venue": "Avenue De La Foire Aux Vins",
+    "event": "Wine Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Highly incomplete. Horrible sound, low picture quality.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1400,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "07145119.jpg",
+      "externalId": "1gN5N6dfgKoh3mCnMFRoykjp6CIEhySX3"
+    },
+    {
+      "folder": "14",
+      "filename": "53001566.jpg",
+      "externalId": "1sqwVMfg8BNBJwnqbbxFYzfElcVouckyz"
+    },
+    {
+      "folder": "14",
+      "filename": "23845109.jpg",
+      "externalId": "1fapGVenYJiW0ztuakL2HuCOk022Jygfq"
+    },
+    {
+      "folder": "14",
+      "filename": "69597643.jpg",
+      "externalId": "1SPQONsUA83Mwr1jX0vTZm8Kpb-caOCKM"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Shoots And Ladders (Intro) / One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Freak On A Leash",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Blind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Somebody Someone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Y'all Want A Single",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

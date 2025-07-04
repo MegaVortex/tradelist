@@ -1,0 +1,119 @@
+{
+  "originalTitle": "Korn - xx.xx.2000 - MuchMusic TV - Egos & Icons [MISC]",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2000"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2000"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "MuchMusic TV",
+    "state": "",
+    "country": "Egos & Icons",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "MuchMusic",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.38,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2978,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_xx_xx_1999_korn_unleashed_video_misc"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "13595776.jpg",
+      "externalId": "1JZyFR2Cj0RT0RA4UOagwejGwrfNWCqm7"
+    },
+    {
+      "folder": "14",
+      "filename": "39593487.jpg",
+      "externalId": "1iG8kAqrhbttocFjckDQSUCWB1jWG8Kvb"
+    },
+    {
+      "folder": "14",
+      "filename": "13355583.jpg",
+      "externalId": "1i1K_t498MmwIUl9INdP1iftTCG8xsZhp"
+    },
+    {
+      "folder": "14",
+      "filename": "16922452.jpg",
+      "externalId": "1IXB0QvRBP22t9-inpD7IhZiFJ-qOOzfm"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interviews + TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Korn - 13.02.2008 - Warsaw - Poland - VH1 Rock Show [MISC]",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "02",
+    "year": "2008"
+  },
+  "startDateUnix": 1202860800,
+  "endDate": {
+    "day": "13",
+    "month": "02",
+    "year": "2008"
+  },
+  "endDateUnix": 1202860800,
+  "location": {
+    "city": "Warsaw",
+    "state": "",
+    "country": "Poland",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "VH1 Rock Show",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.6,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1623,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "pl",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "16015207.jpg",
+      "externalId": "1eQGimUi-92ir3hrQMBGfpEqBqxEIsUyD"
+    },
+    {
+      "folder": "14",
+      "filename": "65052000.jpg",
+      "externalId": "16TcbKOFsUhlXE-5OJEB2d9X_UkOQR1KV"
+    },
+    {
+      "folder": "14",
+      "filename": "11556049.jpg",
+      "externalId": "1KeS7AAyHMLTKV5WdbTkPBNszzfpXwn8m"
+    },
+    {
+      "folder": "14",
+      "filename": "42364332.jpg",
+      "externalId": "1Y6lk3v-Dv1Fm_nrsQeJDDUYRzgLmbTaF"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Jonathan Davis",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -18,7 +18,7 @@
   },
   "endDateUnix": 1243641600,
   "location": {
-    "city": "Landgraaf",
+    "city": "Eindhoven",
     "state": "",
     "country": "Netherlands",
     "venue": "Megaland",
@@ -26,18 +26,20 @@
   },
   "tvChannel": "",
   "showName": "",
-  "source": "",
+  "source": "test",
   "category": [
     "video"
   ],
-  "master": false,
-  "public": false,
+  "master": true,
+  "public": true,
   "ownIdentifier": "HDD#D",
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "",
-  "tapers": [],
+  "notes": "test",
+  "tapers": [
+    "test"
+  ],
   "specs": {
     "media": [
       {
@@ -58,7 +60,7 @@
         "bitrateKbps": null,
         "fps": "",
         "standard": "",
-        "codec": "",
+        "codec": "test",
         "letterboxed": true
       }
     ],
@@ -85,7 +87,9 @@
       "fileFormat": "DVD"
     }
   },
-  "relatedShows": [],
+  "relatedShows": [
+    "chris_cornell_16_12_2013_video"
+  ],
   "childOf": "",
   "images": [
     {
@@ -202,5 +206,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "chris_cornell_30_05_2009_video",
+  "isRegular": true,
+  "permalink": "/shows/chris_cornell_30_05_2009_video/"
 }

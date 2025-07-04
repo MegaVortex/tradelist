@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Korn - 23.10.2003 - Miami - FL - USA - MTV Studios - MTV Video Music Awards Latin America (Source 1)",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "10",
+    "year": "2003"
+  },
+  "startDateUnix": 1066867200,
+  "endDate": {
+    "day": "23",
+    "month": "10",
+    "year": "2003"
+  },
+  "endDateUnix": 1066867200,
+  "location": {
+    "city": "Miami",
+    "state": "FL",
+    "country": "USA",
+    "venue": "MTV Studios",
+    "event": "MTV Video Music Awards Latin America"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 215,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 191,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "46676468.jpg",
+      "externalId": "1sFVk4nKPtg7N-uPOvojLsfq9BUNay0pv"
+    },
+    {
+      "folder": "14",
+      "filename": "56865026.jpg",
+      "externalId": "16NFAossO-zQtZ73VpKAguwQ8aSHx__gs"
+    },
+    {
+      "folder": "14",
+      "filename": "10980675.jpg",
+      "externalId": "1VTtIhIdnQ9WYPPsWD3bxP3Fg1qropV9F"
+    },
+    {
+      "folder": "14",
+      "filename": "69316069.jpg",
+      "externalId": "1gVWojMMeV0Ch1_cOOInlXCM8c7brJCGO"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Right Now",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

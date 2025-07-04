@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Korn - 01.07.2004 - Roskilde - Denmark - Roskilde Dyrskueplads - Roskilde Festival (Source 2)",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "07",
+    "year": "2004"
+  },
+  "startDateUnix": 1088640000,
+  "endDate": {
+    "day": "01",
+    "month": "07",
+    "year": "2004"
+  },
+  "endDateUnix": 1088640000,
+  "location": {
+    "city": "Roskilde",
+    "state": "",
+    "country": "Denmark",
+    "venue": "Roskilde Dyrskueplads",
+    "event": "Roskilde Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 133,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 121,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_xx_xx_2001_usa_mtv_studios_family_values_tour_video_misc",
+    "korn_xx_xx_1999_usa_mtv_studios_video_misc",
+    "korn_xx_xx_2004_mtv_news_video_misc",
+    "korn_xx_xx_2002_new_york_ny_usa_mtv_studios_trl_show_video_misc",
+    "korn_12_06_2002_video_misc",
+    "korn_xx_xx_2002_usa_mtv_story_behind_untouchables_video_misc",
+    "korn_xx_xx_1999_usa_mtv_korn_day_show_video_misc"
+  ],
+  "childOf": "korn_xx_xx_xxxx_misc_6_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "17",
+      "filename": "62244997.jpg",
+      "externalId": "1uEYbAPxAXRIX9BbX-W9HB8u-mhuipkrM"
+    },
+    {
+      "folder": "17",
+      "filename": "77907146.jpg",
+      "externalId": "1lrhVFUs6S_Yv4tvyN8pO9NyW0XHcqBi-"
+    },
+    {
+      "folder": "17",
+      "filename": "92849637.jpg",
+      "externalId": "18K8HqUAVIM1FrwpvX0lqZ_X_nRL58eUJ"
+    },
+    {
+      "folder": "17",
+      "filename": "72530055.jpg",
+      "externalId": "1tiJ3OrzUSLaqyGegMERHYU-uCTJToYJ9"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Jonathan Davis",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Another Brick In The Wall",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

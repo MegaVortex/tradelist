@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Korn - 10.02.1995 - Mesa - AZ - USA - Nile Theater",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "02",
+    "year": "1995"
+  },
+  "startDateUnix": 792374400,
+  "endDate": {
+    "day": "10",
+    "month": "02",
+    "year": "1995"
+  },
+  "endDateUnix": 792374400,
+  "location": {
+    "city": "Mesa",
+    "state": "AZ",
+    "country": "USA",
+    "venue": "Nile Theater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Upgrade.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.1,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2411,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "13",
+      "filename": "96771477.jpg",
+      "externalId": "1z2pcFrVokNT7bpLmLhudUKTFEaqhe5ll"
+    },
+    {
+      "folder": "13",
+      "filename": "71866523.jpg",
+      "externalId": "1hQr0DU5URmy9QZ92DayEx9nujRIolz9i"
+    },
+    {
+      "folder": "13",
+      "filename": "50355023.jpg",
+      "externalId": "1cZsarwgYcaan7P8foYSv7ndNldObf-FL"
+    },
+    {
+      "folder": "13",
+      "filename": "85973113.jpg",
+      "externalId": "1BojBe2QGIS0zU3s1L7or4iHczt_gWDtJ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Clown",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Divine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Need To",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Lies",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Shoots And Ladders",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "You Mean Im Not",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Blind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Ball Tongue",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Faget",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

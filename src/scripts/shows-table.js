@@ -3,11 +3,9 @@ function insertGroupLabels() {
     const rows = [...tbody.querySelectorAll('tr')];
     const visible = rows.filter(r => r.style.display !== 'none' && !r.hasAttribute('data-label'));
 
-    // Remove existing label rows
     rows.forEach(r => r.hasAttribute('data-label') && r.remove());
 
     if (!selectedBand) {
-        // Group by band (default)
         let currentBand = null;
         for (const row of visible) {
             const band = row.dataset.band || '—';
@@ -23,7 +21,6 @@ function insertGroupLabels() {
         return;
     }
 
-    // When band is selected
     const CATEGORY_ORDER = {
         'video': 1,
         'video_misc': 2,
@@ -32,7 +29,7 @@ function insertGroupLabels() {
         'audio_misc': 5
     };
 
-    const groups = {}; // { 'video': { year: [rows] } }
+    const groups = {};
 
     for (const row of visible) {
         const raw = row.dataset.json;
@@ -66,9 +63,14 @@ function insertGroupLabels() {
             }
         }
 
-        const year = show.startDateUnix ?
-            new Date(show.startDateUnix * 1000).getFullYear().toString() :
-            '—';
+        let year;
+        if (show.startDateUnix) {
+            year = new Date(show.startDateUnix * 1000).getFullYear().toString();
+        } else if (show.startDate && show.startDate.year) {
+            year = show.startDate.year.toString();
+        } else {
+            year = '—';
+        }
 
         if (!groups[catKey]) groups[catKey] = {};
         if (!groups[catKey][year]) groups[catKey][year] = [];

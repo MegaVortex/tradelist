@@ -1,0 +1,244 @@
+{
+  "originalTitle": "Korn - 15.08.2006 - Greenwood Village - CO - USA - Coors Amphitheatre (Source 1)",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "08",
+    "year": "2006"
+  },
+  "startDateUnix": 1155600000,
+  "endDate": {
+    "day": "15",
+    "month": "08",
+    "year": "2006"
+  },
+  "endDateUnix": 1155600000,
+  "location": {
+    "city": "Greenwood Village",
+    "state": "CO",
+    "country": "USA",
+    "venue": "Coors Amphitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Digicam shitshot. Very shaky.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.74,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4627,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "21233270.jpg",
+      "externalId": "1HjScrUuc4Auz4CK24Zf3N5WYZsABlhvg"
+    },
+    {
+      "folder": "14",
+      "filename": "84259612.jpg",
+      "externalId": "1yCF2oZtie-S8_iPCdjtdunjaT2CGozvL"
+    },
+    {
+      "folder": "14",
+      "filename": "15787241.jpg",
+      "externalId": "1OIQXvRwsFKHYb1tqq0uagxUCQgcsj7FC"
+    },
+    {
+      "folder": "14",
+      "filename": "33295966.jpg",
+      "externalId": "140d1YfcdzW7JFaa5M6s3ozToxd2VwQEk"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Right Now",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Twist",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Love Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "A.D.I.D.A.S.",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Thoughtless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Falling Away From Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Coming Undone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Got The Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Throw Me Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Shoots And Ladders",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Wicked  (with Chino Moreno)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Ice Cube"
+    },
+    {
+      "order": 12,
+      "song": "Politics",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Here To Stay",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Freak On A Leash",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Twisted Transistor",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "Y'All Want A Single",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 17,
+      "song": "Blind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

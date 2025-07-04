@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Korn - 03.05.2003 - Universal City - CA - USA - 100 Universal City Plaza - MTV Icon Metallica (Source 1)",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "05",
+    "year": "2003"
+  },
+  "startDateUnix": 1051920000,
+  "endDate": {
+    "day": "03",
+    "month": "05",
+    "year": "2003"
+  },
+  "endDateUnix": 1051920000,
+  "location": {
+    "city": "Universal City",
+    "state": "CA",
+    "country": "USA",
+    "venue": "100 Universal City Plaza",
+    "event": "MTV Icon Metallica"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 266,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 241,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "20513716.jpg",
+      "externalId": "1rccy6qyKtkos5eTzsP-jlxtbsRaksLtp"
+    },
+    {
+      "folder": "14",
+      "filename": "05083311.jpg",
+      "externalId": "16DnybRy-y4U5rJ26EAtLlOw6hDij6bR3"
+    },
+    {
+      "folder": "14",
+      "filename": "81551390.jpg",
+      "externalId": "1TKBXi849zy2l434q_H_6WsHN29Mh9EiA"
+    },
+    {
+      "folder": "14",
+      "filename": "13041135.jpg",
+      "externalId": "1GJ5MI314i_5MWM7XcRMABnjV7c0dAuKJ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

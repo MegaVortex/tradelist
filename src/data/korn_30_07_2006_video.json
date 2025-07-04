@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Korn - 30.07.2006 - Atlanta - GA - USA - HiFi Buys Amphitheatre",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "07",
+    "year": "2006"
+  },
+  "startDateUnix": 1154217600,
+  "endDate": {
+    "day": "30",
+    "month": "07",
+    "year": "2006"
+  },
+  "endDateUnix": 1154217600,
+  "location": {
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "venue": "HiFi Buys Amphitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Highly incomplete digicam shot with no zoom.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 481,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 633,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "84942700.jpg",
+      "externalId": "1pVP5yTNlhfY72SStiHd8HwE-UJXvDVij"
+    },
+    {
+      "folder": "14",
+      "filename": "20677030.jpg",
+      "externalId": "1mFfxvVU5iQ_0__qoNMQMe5crPwC7hiPC"
+    },
+    {
+      "folder": "14",
+      "filename": "22150170.jpg",
+      "externalId": "1N2upQ4tKskRhiiA73jGzUYeTPW0xDpVS"
+    },
+    {
+      "folder": "14",
+      "filename": "11766155.jpg",
+      "externalId": "17Kj93SOXp6OttFK8obPcOz3syWZGmzqV"
+    }
+  ],
+  "setlist": []
+}

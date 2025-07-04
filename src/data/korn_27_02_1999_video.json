@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Korn - 27.02.1999 - Albuquerque - NM - USA - Tingley Coliseum",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "02",
+    "year": "1999"
+  },
+  "startDateUnix": 920073600,
+  "endDate": {
+    "day": "27",
+    "month": "02",
+    "year": "1999"
+  },
+  "endDateUnix": 920073600,
+  "location": {
+    "city": "Albuquerque",
+    "state": "NM",
+    "country": "USA",
+    "venue": "Tingley Coliseum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Highly incomplete. Lots of interviews in there.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 911,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1217,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "13",
+      "filename": "39551150.jpg",
+      "externalId": "1C-fGDf-KS6i9T6f8HDWVrqGy54GAkqa6"
+    },
+    {
+      "folder": "13",
+      "filename": "78689373.jpg",
+      "externalId": "1yOrSTXu-HK65vMQwHrFzAH4s7aNjv911"
+    },
+    {
+      "folder": "13",
+      "filename": "36199826.jpg",
+      "externalId": "192trqkvFtWc55rYDC8OTj0eh-1MWUNJ5"
+    },
+    {
+      "folder": "13",
+      "filename": "64538272.jpg",
+      "externalId": "1XlE6zVfr3CUQaFtQMYC6iiaqfCMCKVAs"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Blind",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interviews",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Chi",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Interview",
+      "feat": "Rob Zombie",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Faget",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Interviews",
+      "feat": "Fans",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Got The Life",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Earache My Eye  (cut - small part)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Cheech & Chong"
+    },
+    {
+      "order": 9,
+      "song": "Blind",
+      "feat": "titles",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

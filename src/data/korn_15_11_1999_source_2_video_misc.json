@@ -1,0 +1,130 @@
+{
+  "originalTitle": "Korn - 15.11.1999 - New York - NY - USA - Apollo Theater - MTV News Coverage (Source 2) [MISC]",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "11",
+    "year": "1999"
+  },
+  "startDateUnix": 942624000,
+  "endDate": {
+    "day": "15",
+    "month": "11",
+    "year": "1999"
+  },
+  "endDateUnix": 942624000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Apollo Theater",
+    "event": "MTV News Coverage"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 113,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 220,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_18_11_1999_video_misc",
+    "korn_05_11_1999_video_misc",
+    "korn_15_11_1999_video",
+    "korn_xx_xx_1999_video"
+  ],
+  "childOf": "Korn - [1999] - TV Appearances [Compilation]",
+  "images": [
+    {
+      "folder": "65",
+      "filename": "25663737.jpg",
+      "externalId": "1j-zAHbR_BVeQya56RfmUW1VsN0_oc6Bq"
+    },
+    {
+      "folder": "65",
+      "filename": "97768885.jpg",
+      "externalId": "1bSYtzqCxPxe5AnOXTLZ2KpGm1XdXQqPi"
+    },
+    {
+      "folder": "65",
+      "filename": "99137581.jpg",
+      "externalId": "1_RTG34AMB-I_b-XLKSyJn_7d4LXB4s9c"
+    },
+    {
+      "folder": "65",
+      "filename": "33053995.jpg",
+      "externalId": "1tddvGn-sxP1R70dTNTj5ZbY03rYlcIxi"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

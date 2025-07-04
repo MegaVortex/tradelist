@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+      <link href="https://cdn.jsdelivr.net/npm/jsoneditor@9.10.0/dist/jsoneditor.min.css" rel="stylesheet" type="text/css">
+      <script src="https://cdn.jsdelivr.net/npm/jsoneditor@9.10.0/dist/jsoneditor.min.js"></script>
       <base href="{{ pathPrefix or '/' }}">
       <link href="{{ '/styles/bootstrap.min.css' | url }}" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
@@ -8,7 +10,9 @@
       <link rel="stylesheet" href="/tradelist/styles/global.css">
       <link rel="stylesheet" href="/tradelist/styles/show.css">
       <meta charset="UTF-8">
-      <title>{% block title %}Vortex Trade List{% endblock %}</title>
+      <title>
+         {% block title %}Vortex Trade List{% endblock %}
+      </title>
    </head>
    <body>
       <header class="navbar custom-navbar">
@@ -20,17 +24,17 @@
                <a class="nav-link{% if page.url == '/' %} active{% endif %}" href="{{ '/' | url }}">Home</a>
                <a class="nav-link{% if page.url == '/shows/' %} active{% endif %}" href="{{ '/shows/' | url }}">Browse Shows</a>
                <a class="nav-link{% if page.url == '/va/' %} active{% endif %}" href="{{ '/va/' | url }}">Various Artists</a>
+               <a class="nav-link{% if page.url == '/comp/' %} active{% endif %}" href="{{ '/comp/' | url }}">Compilations</a>
                <a class="nav-link{% if page.url == '/updates/' %} active{% endif %}" href="{{ '/updates/' | url }}">Updates</a>
             </nav>
          </div>
          <div class="navbar-right">
-            {% if currentShow %}
-            <button
-               class="btn btn-outline-success add-to-cart me-2"
-               data-id="{{ currentShow.fileSlug }}"
-               data-json="{{ currentShow | dump | urlencode }}"
-               title="Add this show to your trade cart"
-               >➕</button>
+            {% if currentShow and currentShow.tradeLabel is defined %}
+               {% if currentShow.tradeLabel == 'NT' %}
+                  <button class="btn btn-sm btn-outline-secondary disabled me-2" style="font-size: 0.75rem; padding: 2px 6px;" disabled="disabled" title="Not available for trade">➕</button>
+               {% else %}
+                  <button class="btn btn-outline-success add-to-cart me-2" style="font-size: 0.75rem; padding: 2px 6px;" data-id="{{ currentShow.fileSlug }}" data-json="{{ currentShow | dump | urlencode }}" title="Add this show to your trade cart">➕</button>
+               {% endif %}
             {% endif %}
             <button class="btn btn-sm btn-cart" data-bs-toggle="modal" data-bs-target="#cartModal">🛒 Cart</button>
          </div>

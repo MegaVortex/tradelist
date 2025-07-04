@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Korn - [MISC 8 - Compilation]",
+  "created": 1751198695,
+  "lastUpdated": 1751198695,
+  "bands": [
+    "Korn",
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Korn",
+    "state": "",
+    "country": "[MISC 8",
+    "venue": "Compilation]",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1269,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "44155580.jpg",
+      "externalId": "1F6zjtvrESwKXc3dLpxbTY2s87b6fLrbE"
+    },
+    {
+      "folder": "60",
+      "filename": "94000529.jpg",
+      "externalId": "1hmzzQJ1z0XE3rQAOgGxxeMz2B0h7aygj"
+    },
+    {
+      "folder": "60",
+      "filename": "41391060.jpg",
+      "externalId": "1uSzcDzc0q473fI4mgDvl8fEiL4g19slq"
+    },
+    {
+      "folder": "60",
+      "filename": "40316637.jpg",
+      "externalId": "1fkEYHMrlcRSwiVPFe_E7kbMUTeXLmzQZ"
+    }
+  ],
+  "parentOf": [
+    "korn_xx_xx_1995_los_angeles_ca_usa_muchmusic_tv_misc_video_misc",
+    "korn_05_09_1995_video_misc",
+    "korn_xx_05_1997_australia_australian_tv_misc_video_misc",
+    "korn_28_02_1996_source_2_video",
+    "limp_bizkit_09_10_2001_source_1_video_misc",
+    "limp_bizkit_09_10_2001_source_2_video_misc"
+  ],
+  "setlist": []
+}

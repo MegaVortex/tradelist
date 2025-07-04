@@ -1,0 +1,126 @@
+{
+  "originalTitle": "Korn - 01.09.2006 - Holmdel - NJ - USA - PNC Bank Arts Center",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "09",
+    "year": "2006"
+  },
+  "startDateUnix": 1157068800,
+  "endDate": {
+    "day": "01",
+    "month": "09",
+    "year": "2006"
+  },
+  "endDateUnix": 1157068800,
+  "location": {
+    "city": "Holmdel",
+    "state": "NJ",
+    "country": "USA",
+    "venue": "PNC Bank Arts Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Highly incomplete.",
+  "tapers": [
+    "fattylumpkin"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 276,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 437,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "38531426.jpg",
+      "externalId": "14p770pAHizVy1HpFalHjgMERCUxks8Wr"
+    },
+    {
+      "folder": "14",
+      "filename": "29857682.jpg",
+      "externalId": "1GgyrLJf_QPfpOVRJjay1htR8AgSCasOq"
+    },
+    {
+      "folder": "14",
+      "filename": "01795556.jpg",
+      "externalId": "1TK3u1cjZj978-hdROMBbO6xTw4QWP52s"
+    },
+    {
+      "folder": "14",
+      "filename": "92648216.jpg",
+      "externalId": "1AquZbFIlWgOtRiWGrU8Mef3mRj_DZjx1"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Love Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Hollowlife",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

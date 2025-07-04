@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Korn - 19.12.1996 - Fresno - CA - USA - Selland Arena",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "12",
+    "year": "1996"
+  },
+  "startDateUnix": 850953600,
+  "endDate": {
+    "day": "19",
+    "month": "12",
+    "year": "1996"
+  },
+  "endDateUnix": 850953600,
+  "location": {
+    "city": "Fresno",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Selland Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.32,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2204,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "21",
+      "filename": "22205248.jpg",
+      "externalId": "10-RzJYSW2pdER3VvqviEdTl81pP30PkK"
+    },
+    {
+      "folder": "21",
+      "filename": "29866567.jpg",
+      "externalId": "1E0kfQdUS2BJoIFrn-MDnJf7w0fjEglSX"
+    },
+    {
+      "folder": "21",
+      "filename": "81280541.jpg",
+      "externalId": "1-XhyPbckSi7n8wdFnt7kXSk3x0KBy_us"
+    },
+    {
+      "folder": "21",
+      "filename": "44260994.jpg",
+      "externalId": "13oJHTA0DxZujdxivzOZO5FeFeSgkW6-3"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Twist",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Blind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Chi",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Divine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "No Place To Hide",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "A.D.I.D.A.S.",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Lowrider",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Shoots And Ladders",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Good God",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Faget",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

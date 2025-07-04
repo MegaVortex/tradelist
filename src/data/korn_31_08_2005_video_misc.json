@@ -1,0 +1,120 @@
+{
+  "originalTitle": "Korn - 31.08.2005 - Katowice - Poland [MISC]",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "08",
+    "year": "2005"
+  },
+  "startDateUnix": 1125446400,
+  "endDate": {
+    "day": "31",
+    "month": "08",
+    "year": "2005"
+  },
+  "endDateUnix": 1125446400,
+  "location": {
+    "city": "Katowice",
+    "state": "",
+    "country": "Poland",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 799,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 800,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_13_08_2005_video",
+    "korn_xx_08_2002_germany_viva_fast_forward_video_misc"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "66446554.jpg",
+      "externalId": "1r2mFlOa__c1G8MdxeRW--C0caPLtnFQW"
+    },
+    {
+      "folder": "14",
+      "filename": "98727385.jpg",
+      "externalId": "1jEB8CjyqAe7SzoZ30K4zEgs3hZplhNTk"
+    },
+    {
+      "folder": "14",
+      "filename": "06403233.jpg",
+      "externalId": "1ntfy7K2I6KBuvDMNsN6AaiA1EHVpRFoZ"
+    },
+    {
+      "folder": "14",
+      "filename": "57726640.jpg",
+      "externalId": "1At1GS66dz_xl3rEgOiJfRzbsFpphxPr1"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Jonathan Davis",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

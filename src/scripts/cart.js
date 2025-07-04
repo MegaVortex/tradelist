@@ -10,10 +10,9 @@ function setCart(cart) {
 
 function addToCart(show) {
     const cart = getCart();
-    // NEW: Check if cart already has 5 items
     if (cart.length >= 5) {
         alert('You can only select up to 5 shows for a trade request.');
-        return; // Prevent adding more
+        return;
     }
     if (!cart.find(s => s.fileSlug === show.fileSlug)) {
         cart.push(show);
@@ -27,38 +26,33 @@ function removeFromCart(fileSlug) {
     renderCartTable();
 }
 
-// Helper function to format date from Unix timestamp or object (remains unchanged)
-function formatDate(dateInput, dateObject) { // NOTE: Added 'dateObject' as a second parameter
+function formatDate(dateInput, dateObject) {
     if (!dateInput && !dateObject) return '—';
 
-    // Prioritize Unix timestamp if available and valid
     if (typeof dateInput === 'number' && dateInput !== null) {
-        const date = new Date(dateInput * 1000); // Convert seconds to milliseconds
-        // Basic check if the date conversion resulted in a valid date
+        const date = new Date(dateInput * 1000);
         if (isNaN(date.getTime())) return '—';
-        return date.toISOString().split('T')[0]; // Format as YYYY-MM-DD
-    } else if (dateObject) { // Now explicitly check the 'dateObject' parameter
+        return date.toISOString().split('T')[0];
+    } else if (dateObject) {
         const year = parseInt(dateObject.year, 10) || 0;
         const month = parseInt(dateObject.month, 10) || 0;
         const day = parseInt(dateObject.day, 10) || 0;
 
         if (day && month && year) {
-            return `${String(day).padStart(2, '0')}.${String(month).padStart(2, '0')}.${year}`; // DD.MM.YYYY
+            return `${String(day).padStart(2, '0')}.${String(month).padStart(2, '0')}.${year}`;
         } else if (month && year) {
-            return `${String(month).padStart(2, '0')}.${year}`; // MM.YYYY
+            return `${String(month).padStart(2, '0')}.${year}`;
         } else if (year) {
-            return `${year}`; // YYYY
+            return `${year}`;
         }
     }
     return '—';
 }
 
-
 function renderCartTable() {
     const tbody = document.querySelector('#cart-table tbody');
     const cart = getCart();
 
-    // Helper function for time formatting (remains as it's general utility)
     function formatTimeJs(seconds) {
         if (!seconds) return "—";
         const h = Math.floor(seconds / 3600).toString().padStart(2, "0");
@@ -67,7 +61,6 @@ function renderCartTable() {
         return `${h}:${m}:${s}`;
     }
 
-    // Helper function for smartSize (remains as it's general utility)
     function smartSizeJs(num) {
         if (typeof num !== "number") num = parseFloat(num);
         if (isNaN(num)) return "—";
@@ -77,12 +70,11 @@ function renderCartTable() {
     }
 
 
-    tbody.innerHTML = cart.map((show, index) => { // Added 'index' to map callback for unique IDs
-        // --- Inline Date Formatting for StartDate ---
+    tbody.innerHTML = cart.map((show, index) => {
         const formattedStartDate = (() => {
             if (typeof show.startDateUnix === 'number' && show.startDateUnix !== null) {
                 const date = new Date(show.startDateUnix * 1000);
-                return date.toISOString().split('T')[0]; // YYYY-MM-DD
+                return date.toISOString().split('T')[0];
             } else if (show.startDate) {
                 const day = parseInt(show.startDate.day, 10) || 0;
                 const month = parseInt(show.startDate.month, 10) || 0;
@@ -99,7 +91,6 @@ function renderCartTable() {
             return '—';
         })();
 
-        // --- Inline Location Formatting ---
         const formattedLocation = (() => {
             if (show.location) {
                 const parts = [];
@@ -111,15 +102,13 @@ function renderCartTable() {
             return '—';
         })();
 
-        // --- Inline Artists Formatting with toggle ---
         const formattedArtists = (() => {
             if (show.bands && show.bands.length) {
                 const firstBand = show.bands[0];
                 let toggleHtml = '';
                 let extraBandsHtml = '';
 
-                // Ensure unique IDs for the toggle, using fileSlug is often better than just index
-                const uniqueId = `bands-cart-${show.fileSlug}`; // Using fileSlug for uniqueness
+                const uniqueId = `bands-cart-${show.fileSlug}`;
 
                 if (show.bands.length > 1) {
                     toggleHtml = `<a href="#" class="toggle-media" data-target="${uniqueId}">▾ +${show.bands.length - 1}</a>`;
@@ -140,8 +129,6 @@ function renderCartTable() {
             return '—';
         })();
 
-
-        // --- Generate content for the Source cell (including labels) ---
         let sourceCellContent = show.source || '—';
         if (show.fileSlug) {
             if (show.fileSlug.includes('show_1')) {
@@ -154,7 +141,6 @@ function renderCartTable() {
             sourceCellContent += `<span class="cart-cell-label-wrap"><span class="trade-label master">MASTER</span></span>`;
         }
 
-        // --- Generate content for the Tapers cell (including labels) ---
         let tapersCellContent = show.tapers && show.tapers.length ? show.tapers.join(', ') : '—';
         if (show.tradeLabel === 'RT') {
             tapersCellContent += `<span class="cart-cell-label-wrap"><span class="trade-label red">RT</span></span>`;
@@ -199,15 +185,13 @@ function updateCartCount() {
     }
 }
 
-// Initial render when the page loads
 document.addEventListener('DOMContentLoaded', () => {
     renderCartTable();
     updateCartCount();
 });
 
-
 document.querySelectorAll('.add-to-cart').forEach(btn => {
-    btn.addEventListener('click', function() {
+    btn.addEventListener('click', function () {
         const showData = decodeURIComponent(this.dataset.json);
         const show = JSON.parse(showData);
         const fileSlug = show.fileSlug;
@@ -215,10 +199,9 @@ document.querySelectorAll('.add-to-cart').forEach(btn => {
         let cart = getCart();
         const exists = cart.some(s => s.fileSlug === fileSlug);
 
-        // NEW: Check if cart already has 5 items BEFORE adding a new one
         if (!exists && cart.length >= 5) {
             alert('You can only select up to 5 shows for a trade request.');
-            return; // Stop execution if limit reached
+            return;
         }
 
         if (exists) {
@@ -239,16 +222,13 @@ document.querySelectorAll('.add-to-cart').forEach(btn => {
     });
 });
 
-// ✅ THIS IS THE UPDATED BLOCK FOR SENDING CART - NOW GENERATES PLAIN TEXT URLS
 document.getElementById('send-cart').addEventListener('click', async () => {
     const form = document.getElementById('cart-form');
     const formData = new FormData(form);
     const cart = getCart();
-
-    // Mandatory Field Validation (re-added as frontend check)
     const name = formData.get('name');
     const email = formData.get('email');
-	const website = formData.get('website');
+    const website = formData.get('website');
 
     if (!name || name.trim() === '') {
         alert('Please enter your Name.');
@@ -262,37 +242,29 @@ document.getElementById('send-cart').addEventListener('click', async () => {
         alert('Please enter your Website.');
         return;
     }
-    // Basic email format validation
+
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
         alert('Please enter a valid Email address.');
         return;
     }
 
-    // Cart validation
     if (!cart.length) {
         alert('No shows selected. Please add at least one show to your cart.');
         return;
     }
-    // New: Check for max shows on submission (redundant if addToCart works, but good safeguard)
+
     if (cart.length > 5) {
         alert('You have more than 5 shows in your cart. Please remove some.');
         return;
     }
 
-    // --- Start: Generate the PLAIN TEXT urls string here ---
     const urlsContent = cart.map(show => {
-        // --- Format Artist (plain text) ---
         const artist = show.bands && show.bands.length ? show.bands.join(', ') : '—';
-
-        // --- Format Date (plain text) ---
         const date = formatDate(show.startDateUnix || show.startDate);
-
-        // --- Format Location (plain text) ---
         const location = show.location && show.location.city ? show.location.city : '—';
 
-        // --- Format Source (plain text) ---
         let source = show.source || '—';
-        if (show.fileSlug) { // Add "Show 1/2" if relevant
+        if (show.fileSlug) {
             if (show.fileSlug.includes('show_1')) {
                 source += ' Show 1';
             } else if (show.fileSlug.includes('show_2')) {
@@ -303,17 +275,13 @@ document.getElementById('send-cart').addEventListener('click', async () => {
             source += ' MASTER';
         }
 
-        // --- Format Tapers (plain text) ---
         let tapers = show.tapers && show.tapers.length ? show.tapers.join(', ') : '—';
-        if (show.tradeLabel) { // Add trade label (RT/NT) if relevant
+        if (show.tradeLabel) {
             tapers += ` ${show.tradeLabel}`;
         }
 
-        // --- Construct the plain text link ---
-        // IMPORTANT: Adjust this base URL if your site is in a subdirectory on GitHub Pages
         const link = `https://megavortex.github.io/tradelist/shows/${show.fileSlug}/index.html`;
 
-        // Combine all parts into a single plain text line
         return `${artist} | ${date} | ${location} | ${source} | ${tapers} | ${link}`;
     }).join('\n');
 
@@ -359,7 +327,6 @@ document.getElementById('send-cart').addEventListener('click', async () => {
     }
 });
 
-// Run once on page load (remain unchanged)
 document.addEventListener('DOMContentLoaded', () => {
     renderCartTable();
     updateCartCount();

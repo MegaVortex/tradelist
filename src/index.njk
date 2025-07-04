@@ -4,7 +4,7 @@
 
 {% block content %}
   <section style="margin-top: -30px;">
-    <h3>Rules</h3>
+	<p id="update-info-box" class="info-box">ℹ️ Kindly make sure to read the trading rules before reaching out.</p>
     <div class="rules-block">
 	  🚫 Bootlegs are fan-made for trading only - <strong>nothing on this website is for sale or download</strong>!<br>
       🎵 Support the band by buying official releases.<br>
@@ -16,4 +16,8 @@
       ⚠️ If you <strong>bad-trade</strong> me, your name will go straight to my Bad Traders list.<br>
     </div>
   </section>
+<div id="pagination-controls" class="my-3"></div>
+{% include "modals/cart-modal.njk" %}
+<script src="{{ '/scripts/cart.js' | url }}"></script>
+</div>
 {% endblock %}

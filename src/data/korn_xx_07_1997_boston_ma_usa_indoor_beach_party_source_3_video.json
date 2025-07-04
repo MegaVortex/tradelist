@@ -1,0 +1,130 @@
+{
+  "originalTitle": "Korn - xx.07.1997 - Boston - MA - USA - Indoor Beach Party - WAAF TV Real Rock (Source 3)",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "07",
+    "year": "1997"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "07",
+    "year": "1997"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Indoor Beach Party",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "WAAF TV Real Rock",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 276,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 328,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_xx_xx_1996_usa_lollapalooza_muchmusic_tv_video_misc",
+    "korn_xx_09_1998_boston_ma_usa_usa_waaf_tv_real_rock_korn_kampaign_video_misc",
+    "korn_28_08_1998_video_misc",
+    "korn_xx_09_1996_boston_ma_usa_usa_waaf_tv_real_rock_video_misc",
+    "korn_xx_xx_1998_usa_making_of_freak_on_a_leash_video_misc"
+  ],
+  "childOf": "Korn - [MISC 7 - Compilation]",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "29064331.jpg",
+      "externalId": "15RselSuzH8r3u6m9LEFYtOxWm-YNc-zQ"
+    },
+    {
+      "folder": "15",
+      "filename": "15601623.jpg",
+      "externalId": "1qfz2_k0XcrJj4VRQA1DcHBLyQa8sEBJp"
+    },
+    {
+      "folder": "15",
+      "filename": "57620692.jpg",
+      "externalId": "1iHFETriD9ZzxJ3q4n-KUZjod7PqsA_S5"
+    },
+    {
+      "folder": "15",
+      "filename": "32070048.jpg",
+      "externalId": "1g5EoDlTc2sbWpsxT7r-5oCgUglrX6cWY"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "David and Fieldy",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "No Place To Hide",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

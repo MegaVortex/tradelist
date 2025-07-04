@@ -1,0 +1,174 @@
+{
+  "originalTitle": "Korn - 20.09.2010 - Paris - France - Palais Omnisports De Paris-Bercy",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "09",
+    "year": "2010"
+  },
+  "startDateUnix": 1284940800,
+  "endDate": {
+    "day": "20",
+    "month": "09",
+    "year": "2010"
+  },
+  "endDateUnix": 1284940800,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "Palais Omnisports De Paris-Bercy",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Jotunify"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 5.18,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1845,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "40",
+      "filename": "20597716.jpg",
+      "externalId": "1cQFkjhLB1AEpUJyfqDK3n2xa6fePMwWT"
+    },
+    {
+      "folder": "40",
+      "filename": "72644112.jpg",
+      "externalId": "10EMAwVAcEvaGCmb_AyO-wuA4gxPjGj4s"
+    },
+    {
+      "folder": "40",
+      "filename": "97695059.jpg",
+      "externalId": "1TLLzAb4e53jfKn-Ghw-o5sdDFCN3SBbn"
+    },
+    {
+      "folder": "40",
+      "filename": "47895495.jpg",
+      "externalId": "1jYhzRKa6R_bJ6nCiU66UKE9pKuCEMmJ0"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "4U (intro)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Right Now",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Here To Stay",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Oildale (Leave Me Alone)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Falling Away From Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Freak On A Leash",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Blind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Got The Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

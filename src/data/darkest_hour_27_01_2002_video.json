@@ -33,7 +33,7 @@
   "master": false,
   "public": true,
   "ownIdentifier": "HDD#O",
-  "tradeLabel": "",
+  "tradeLabel": "NT",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "",
@@ -56,10 +56,10 @@
         "resolution": "704x576",
         "bitrateType": "VBR",
         "bitrateKbps": null,
-        "fps": "",
-        "standard": "",
-        "codec": "",
-        "letterboxed": false
+        "fps": "23",
+        "standard": "APL",
+        "codec": "AAC",
+        "letterboxed": true
       }
     ],
     "audio": [
@@ -105,5 +105,8 @@
       "externalId": "1JtvYnMmRG_mxwwC1_dNG3crDZyN38uUQ"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "darkest_hour_27_01_2002_video",
+  "isRegular": true,
+  "permalink": "/shows/darkest_hour_27_01_2002_video/"
 }

@@ -6,6 +6,8 @@ const {
 const ISO6391 = require("iso-639-1");
 
 module.exports = function(eleventyConfig) {
+	eleventyConfig.addGlobalData("environment", process.env.ELEVENTY_ENV || "prod");
+	
     // Existing filter for language names
     eleventyConfig.addFilter("langName", function(code) {
         if (!code || typeof code !== "string") return "";
@@ -73,8 +75,9 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addGlobalData("allShowData", () => {
         const regularDataDir = "./src/data";
         const vaDataDir = "./src/data-va";
-    
-        const readShowsFromDir = (dir, isVA = false) => {
+        const compilationDataDir = "./src/data-comp";
+
+        const readShowsFromDir = (dir, type) => {
             if (!fs.existsSync(dir)) {
                 console.warn(`Data directory not found: ${dir}`);
                 return [];
@@ -83,88 +86,102 @@ module.exports = function(eleventyConfig) {
             return files.map(file => {
                 const json = JSON.parse(fs.readFileSync(`${dir}/${file}`, "utf-8"));
                 const fileSlug = file.replace(/\.json$/, "");
-    
-                // --- THIS IS THE KEY ---
-                // We explicitly define the correct permalink based on the folder
-                // and add it directly to the show object.
-                const permalink = isVA
-                    ? `/va-shows/${fileSlug}/`
-                    : `/shows/${fileSlug}/`;
-    
+
+                let permalink;
+                let specificTypeFlag;
+
+                switch (type) {
+                    case 'va':
+                        permalink = `/va-shows/${fileSlug}/`;
+                        specificTypeFlag = { isVA: true };
+                        break;
+                    case 'compilation':
+                        permalink = `/compilations/${fileSlug}/`;
+                        specificTypeFlag = { isCompilation: true };
+                        break;
+                    default:
+                        permalink = `/shows/${fileSlug}/`;
+                        specificTypeFlag = { isRegular: true };
+                        break;
+                }
+
                 return {
                     ...json,
                     fileSlug: fileSlug,
-                    isVA: isVA,
-                    permalink: permalink // The permalink is now part of the data
+                    ...specificTypeFlag,
+                    permalink: permalink
                 };
             });
         };
-    
-        // Read shows from both directories
-        const regularShows = readShowsFromDir(regularDataDir, false);
-        const vaShows = readShowsFromDir(vaDataDir, true);
-    
+
+        // Read shows from all directories
+        const regularShows = readShowsFromDir(regularDataDir, 'regular');
+        const vaShows = readShowsFromDir(vaDataDir, 'va');
+        const compilationShows = readShowsFromDir(compilationDataDir, 'compilation');
+
         // Combine all shows into a single array and sort them
-        const allShows = [...regularShows, ...vaShows].sort((a, b) => {
-            // The sorting logic you had is preserved exactly.
+        const allShows = [...regularShows, ...vaShows, ...compilationShows].sort((a, b) => {
             const unixA = a.startDateUnix;
             const unixB = b.startDateUnix;
             if (typeof unixA === 'number' && typeof unixB === 'number') return unixA - unixB;
             if (typeof unixA === 'number') return 1;
             if (typeof unixB === 'number') return -1;
-    
+
             const sdA = a.startDate || {};
             const sdB = b.startDate || {};
             const yearA = parseInt(sdA.year, 10) || 0;
             const yearB = parseInt(sdB.year, 10) || 0;
             if (yearA !== yearB) return yearA - yearB;
-    
+
             const monthA = parseInt(sdA.month, 10) || 0;
             const monthB = parseInt(sdB.month, 10) || 0;
             if (monthA !== monthB) return monthA - monthB;
-    
+
             const dayA = parseInt(sdA.day, 10) || 0;
             const dayB = parseInt(sdB.day, 10) || 0;
             if (dayA !== dayB) return dayA - dayB;
-    
+
             const bandA = (a.bands && a.bands[0]) ? String(a.bands[0]).toLowerCase() : '';
             const bandB = (b.bands && b.bands[0]) ? String(b.bands[0]).toLowerCase() : '';
             if (bandA < bandB) return -1;
             if (bandA > bandB) return 1;
-    
+
             return 0;
         });
-    
+
         const publicShows = allShows.filter(show => show.public !== false);
-    
-        // Create separate arrays for public regular and VA shows
-        const publicRegularShows = publicShows.filter(show => !show.isVA);
+
+        // Create separate arrays for public regular, VA, and Compilation shows
+        const publicRegularShows = publicShows.filter(show => !show.isVA && !show.isCompilation);
         const publicVaShows = publicShows.filter(show => show.isVA);
-    
-        // --- Logic for Updates Page ---
+        const publicCompilationShows = publicShows.filter(show => show.isCompilation);
+
+        // --- Logic for Updates Page --- (keep existing)
         const now = Math.floor(Date.now() / 1000);
-        const cutoff = now - 180 * 86400;
-        const recentShows = publicShows.filter(s => s.created && s.created >= cutoff);
+        const cutoff = now - 180 * 86400; // 180 days ago in seconds
+        
+        const recentShows = publicRegularShows.filter(s => s.created && s.created >= cutoff);
+        
         const groupedByDate = {};
         for (const show of recentShows) {
-          const dateStr = new Date(show.created * 1000).toISOString().slice(0, 10);
-          if (!groupedByDate[dateStr]) groupedByDate[dateStr] = [];
-          groupedByDate[dateStr].push(show);
+            const dateStr = new Date(show.created * 1000).toISOString().slice(0, 10);
+            if (!groupedByDate[dateStr]) groupedByDate[dateStr] = [];
+            groupedByDate[dateStr].push(show);
         }
-
+        
         for (const dateStr in groupedByDate) {
-          groupedByDate[dateStr].sort((a, b) => {
-            const bandA = (a.bands && a.bands[0]) ? String(a.bands[0]).toLowerCase() : '';
-            const bandB = (b.bands && b.bands[0]) ? String(b.bands[0]).toLowerCase() : '';
-            return bandA.localeCompare(bandB);
-          });
+            groupedByDate[dateStr].sort((a, b) => {
+                const bandA = (a.bands && a.bands[0]) ? String(a.bands[0]).toLowerCase() : '';
+                const bandB = (b.bands && b.bands[0]) ? String(b.bands[0]).toLowerCase() : '';
+                return bandA.localeCompare(bandB);
+            });
         }
 
         const updatesPageData = Object.entries(groupedByDate).sort((a, b) => b[0].localeCompare(a[0]));
 
         const showsBySlug = {};
         for (const show of publicShows) {
-          showsBySlug[show.fileSlug] = show;
+            showsBySlug[show.fileSlug] = show;
         }
 
         return {
@@ -172,6 +189,7 @@ module.exports = function(eleventyConfig) {
             publicShows,
             publicRegularShows,
             publicVaShows,
+            publicCompilationShows,
             updatesPageData,
             showsBySlug
         };

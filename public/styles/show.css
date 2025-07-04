@@ -106,6 +106,19 @@ table {
   white-space: nowrap;
 }
 
+.type-label-comp {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 0px 2px;
+  font-size: 5.5px;
+  font-weight: bold;
+  border-radius: 2px;
+  color: 000;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+
 .audio-label-page {
   top: -1px;
   left: 0px;
@@ -360,17 +373,9 @@ img.clickable-thumb {
 }
 
 @media only screen and (max-width: 768px) {
-  /* Hide modal arrows and close button on mobile */
   #modalPrev, #modalNext, .close-btn {
     display: none !important;
   }
-}
-
-.add-to-cart {
-    padding: 0.25rem 0.5rem;
-    font-size: 0.875rem;
-    line-height: 1.5;
-    border-radius: 0.2rem;
 }
 
 .child-shows-table th {
@@ -378,12 +383,14 @@ img.clickable-thumb {
   border: 1px solid #ddbbdd;
   font-weight: 600;
   color: #333;
+  font-size: 0.85em;
 }
 
 .child-shows-table td {
   border: 1px solid #ddbbdd;
   text-align: center;
   vertical-align: middle;
+  font-size: 0.85em;
 }
 
 .child-shows-table {
@@ -396,7 +403,7 @@ img.clickable-thumb {
 
 /* Styles for the parent compilation notice */
 .parent-compilation-notice {
-    margin-top: -15px;
+    margin-bottom: 0px;
     border: 1px solid #ccc;
     border-radius: 6px;
     overflow: hidden;
@@ -446,7 +453,6 @@ img.clickable-thumb {
     margin-top: 5px; /* Add space between the title/icon row and the arrow */
     font-size: 1.2em;
     transition: transform 0.3s ease;
-    /* No need for margin-left, as align-items: center on parent handles horizontal centering */
 }
 
 /* Style for the expandable content area */

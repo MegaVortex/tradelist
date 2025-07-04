@@ -1,0 +1,125 @@
+{
+  "originalTitle": "Korn - xx.09.2002 - MTV Spin [MISC]",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "09",
+    "year": "2002"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "09",
+    "year": "2002"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "MTV Spin",
+    "state": "",
+    "country": "",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 625,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 627,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "77571590.jpg",
+      "externalId": "1asd34lCULrUxFPLrEZgdNnzdzfu48Ats"
+    },
+    {
+      "folder": "14",
+      "filename": "06955792.jpg",
+      "externalId": "1pKoHJlvHaPPPLVTPDl9MOlJGj5fSyDDc"
+    },
+    {
+      "folder": "14",
+      "filename": "32334948.jpg",
+      "externalId": "1zJBebCHBQvEV63VVT3wQtaRxa3VXSPIN"
+    },
+    {
+      "folder": "14",
+      "filename": "11106211.jpg",
+      "externalId": "1_Bl-zz3fwWBCDkAEInFsZZhNupgANG91"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "David",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "Jonathan Davis",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

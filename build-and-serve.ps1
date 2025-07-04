@@ -12,19 +12,18 @@ if (Test-Path .\public\) {
     Write-Host "No 'public' directory to remove."
 }
 
-Write-Host "Building Eleventy output..."
-npx eleventy
+Write-Host "Building Eleventy for development..."
+
+# This command will now succeed because "build:dev" exists in your website's package.json
+npm run build:dev
 if ($LASTEXITCODE -ne 0) {
     Write-Error "Eleventy build failed"
     exit 1
 }
 
-Write-Host "Starting Eleventy dev server and backend..."
+Write-Host "Starting Eleventy dev server in the background..."
 
-# Start Eleventy in background
-Start-Process -NoNewWindow -FilePath "cmd.exe" -ArgumentList "/c", "npx eleventy --serve"
+$arguments = "/c", "npm run serve:dev"
+Start-Process -FilePath "cmd.exe" -ArgumentList $arguments -NoNewWindow
 
-# Wait briefly to make sure Eleventy starts first
-Start-Sleep -Seconds 2
-
-Write-Host "Eleventy started."
+Write-Host "Eleventy should be running. Check the console for the local URL."

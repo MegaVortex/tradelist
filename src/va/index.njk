@@ -25,11 +25,14 @@ permalink: "/va/"
          <th>Pics</th>
          <th>Page</th>
          <th>🛒</th>
+         {% if environment == "dev" %}
+            <th>Edit</th>
+         {% endif %}
       </tr>
    </thead>
    <tbody>
       {% for show in allShowData.publicVaShows %}
-      <tr class="paginated-show" data-band="{{ show.bands | join(', ') }}" data-json="{{ show | dump | urlencode }}">
+      <tr class="paginated-show" data-band="{{ show.bands | join('|||') }}">
          <td>
             {% if show.bands and show.bands.length %}
             {% set bands = show.bands %}
@@ -62,9 +65,9 @@ permalink: "/va/"
             {% set month = sd.month | toInt %}
             {% set year = sd.year | toInt %}
             {% if day and month and year %}
-            {{ day | padStart(2) }}.{{ month | padStart(2) }}.{{ year }}
+            {{ year }}-{{ month | padStart(2) }}-{{ day | padStart(2) }}
             {% elif month and year %}
-            {{ month | padStart(2) }}.{{ year }}
+            {{ year }}-{{ month | padStart(2) }}
             {% elif year %}
             {{ year }}
             {% else %}
@@ -83,9 +86,9 @@ permalink: "/va/"
             {% set month = ed.month | toInt %}
             {% set year = ed.year | toInt %}
             {% if day and month and year %}
-            {{ day | padStart(2) }}.{{ month | padStart(2) }}.{{ year }}
+            {{ year }}-{{ month | padStart(2) }}-{{ day | padStart(2) }}
             {% elif month and year %}
-            {{ month | padStart(2) }}.{{ year }}
+            {{ year }}-{{ month | padStart(2) }}
             {% elif year %}
             {{ year }}
             {% else %}
@@ -215,19 +218,36 @@ permalink: "/va/"
          <td>
             <a href="{{ show.permalink | url }}" title="View info" style="font-size: 1.20em;">🎫</a>
          </td>
-         <td>
-            <button
-               class="btn btn-sm btn-outline-success add-to-cart"
-               style="font-size: 0.75rem; padding: 2px 6px;"
-               data-id="{{ show.fileSlug }}"
-               data-json="{{ show | dump | urlencode }}"
-               title="Add to trade cart"
-               >➕</button>
-         </td>
+			<td>
+				{% if show.tradeLabel == 'NT' %}
+					<button
+						class="btn btn-sm btn-outline-secondary disabled"
+						style="font-size: 0.75rem; padding: 2px 6px;"
+						disabled
+						title="Not available for trade"
+						>➕</button>
+				{% else %}
+					<button
+						class="btn btn-sm btn-outline-success add-to-cart"
+						style="font-size: 0.75rem; padding: 2px 6px;"
+						data-id="{{ show.fileSlug }}"
+						data-json="{{ show | dump | urlencode }}"
+						title="Add to trade cart"
+						>➕</button>
+				{% endif %}
+			</td>
+            {% if environment == "dev" %}
+               <td>
+                  <button onclick="openJsonEditor('{{ show.fileSlug }}', 'va')">✏️</button>
+               </td>
+            {% endif %}
       </tr>
       {% endfor %}
+      <script src="{{ '/scripts/va-shows-filter.js' | url }}"></script>
    </tbody>
 </table>
+{% include "modals/json-editor-modal.njk" %}
+<script src="{{ '/scripts/json-editor.js' | url }}"></script>
 <div id="pagination-controls" class="my-3"></div>
 <script src="{{ '/scripts/hammer.min.js' | url }}"></script>
 {% include "modals/cart-modal.njk" %}
@@ -235,5 +255,8 @@ permalink: "/va/"
 <script src="{{ '/scripts/cart.js' | url }}"></script>
 <script src="{{ '/scripts/image-modal-viewer.js' | url }}"></script>
 <script src="{{ '/scripts/media-extras-toggle.js' | url }}"></script>
+<script>
+   window.allShowsData = {{ allShowData.publicVaShows | dump | safe }};
+</script>
 </div>
 {% endblock %}

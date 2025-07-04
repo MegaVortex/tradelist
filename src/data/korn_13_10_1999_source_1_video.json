@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Korn - 13.10.1999 - Minneapolis - MN - USA - Target Center (Source 1)",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "10",
+    "year": "1999"
+  },
+  "startDateUnix": 939772800,
+  "endDate": {
+    "day": "13",
+    "month": "10",
+    "year": "1999"
+  },
+  "endDateUnix": 939772800,
+  "location": {
+    "city": "Minneapolis",
+    "state": "MN",
+    "country": "USA",
+    "venue": "Target Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "3 cam mix. Great show! On the same disc - Korn - 07.11.1998 - Lowell - MA - USA - Tsongas Arena.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.97,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2292,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "13",
+      "filename": "09097880.jpg",
+      "externalId": "1Ppw_ortt2eg3CNdGd4lZtNBZPi4OSCI4"
+    },
+    {
+      "folder": "13",
+      "filename": "76676835.jpg",
+      "externalId": "13MZHHW8jfQthuM6964HnaYuNnuEKzTOr"
+    },
+    {
+      "folder": "13",
+      "filename": "50660896.jpg",
+      "externalId": "1QvUJO2CBrpU-1frb8abyqOaguL1RTS6M"
+    },
+    {
+      "folder": "13",
+      "filename": "80198106.jpg",
+      "externalId": "19zvhhWvMmuCeP29IqfoieGqKri72WSep"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Dead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Blind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Got The Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Beg For Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "A.D.I.D.A.S / Good God",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Freak On A Leash",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Faget",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Falling Away From Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

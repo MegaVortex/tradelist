@@ -1,0 +1,153 @@
+{
+  "originalTitle": "Korn - 04.07.2000 - Baltimore - MD - USA - PSINet Stadium (Source 3)",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "07",
+    "year": "2000"
+  },
+  "startDateUnix": 962668800,
+  "endDate": {
+    "day": "04",
+    "month": "07",
+    "year": "2000"
+  },
+  "endDateUnix": 962668800,
+  "location": {
+    "city": "Baltimore",
+    "state": "MD",
+    "country": "USA",
+    "venue": "PSINet Stadium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MTV Special.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 9.72,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 5064,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [
+    "metallica_04_07_2000_video",
+    "system_of_a_down_04_07_2000_video",
+    "kid_rock_04_07_2000_video",
+    "powerman_5000_04_07_2000_video"
+  ],
+  "childOf": "[VARIOUS ARTISTS] - 04.07.2000 - Baltimore - MD - USA - PSINet Stadium",
+  "images": [
+    {
+      "folder": "74",
+      "filename": "40460640.jpg",
+      "externalId": "1EcPlV-zLcblpilPx6XR3TtVVJk5hv4IC"
+    },
+    {
+      "folder": "74",
+      "filename": "75853606.jpg",
+      "externalId": "1NM6vIxuvZKjBsy4ah4PZY2-5WnhVgavB"
+    },
+    {
+      "folder": "74",
+      "filename": "28758300.jpg",
+      "externalId": "1wGruTMKA4Qvu1bWjNJQhRrD17iZkiaD2"
+    },
+    {
+      "folder": "74",
+      "filename": "55370284.jpg",
+      "externalId": "1JExh3tVXxWeq5BG3FPS1LJ7HQ4rP29eY"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Got The Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Blind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Somebody Someone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

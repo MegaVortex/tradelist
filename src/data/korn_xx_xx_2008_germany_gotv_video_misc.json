@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Korn - xx.xx.2008 - Germany - GoTV [MISC]",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2008"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2008"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Germany",
+    "state": "",
+    "country": "GoTV",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "German subtitles. Hosted by Korn.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.04,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3672,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "13507943.jpg",
+      "externalId": "1UIl4UpgKuONPr0D3f7y0zsPIEYjQxagn"
+    },
+    {
+      "folder": "14",
+      "filename": "82700105.jpg",
+      "externalId": "1so3BSLmq1o1yKGi2I5-1Z8_s7VjgXAZs"
+    },
+    {
+      "folder": "14",
+      "filename": "94758367.jpg",
+      "externalId": "1VRvJ-fZzAieS5XLIwSqC39gvA5_U-qLx"
+    },
+    {
+      "folder": "14",
+      "filename": "83356897.jpg",
+      "externalId": "1CLRv0lglsWXSq_UO8WsZljDwlWHH79V8"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Jonathan Davis",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

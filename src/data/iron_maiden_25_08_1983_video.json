@@ -24,7 +24,7 @@
     "venue": "Nassau Veterans Memorial Coliseum",
     "event": ""
   },
-  "tvChannel": "",
+  "tvChannel": "TEST",
   "showName": "",
   "source": "",
   "category": [
@@ -216,5 +216,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "iron_maiden_25_08_1983_video",
+  "isRegular": true,
+  "permalink": "/shows/iron_maiden_25_08_1983_video/"
 }

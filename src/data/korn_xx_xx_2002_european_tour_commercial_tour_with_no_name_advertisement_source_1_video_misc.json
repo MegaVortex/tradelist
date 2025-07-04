@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Korn - xx.xx.2002 - European Tour Commercial - Tour With No Name Advertisement (Source 1) [MISC]",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2002"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2002"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "European Tour Commercial",
+    "state": "",
+    "country": "Tour With No Name Advertisement",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 30.72,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 29,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "55565889.jpg",
+      "externalId": "1pHaz0TQSBlVmgkgZfFsdncZuIkG43zYA"
+    },
+    {
+      "folder": "14",
+      "filename": "53374410.jpg",
+      "externalId": "1C7fhtmmPqTYXytnEZ9x733CAIipTLWtC"
+    },
+    {
+      "folder": "14",
+      "filename": "47089216.jpg",
+      "externalId": "18gj69O80qIOIWUcx2PE50biSlH-ivmkF"
+    },
+    {
+      "folder": "14",
+      "filename": "91097625.jpg",
+      "externalId": "1IMp5tAJN7G4zn19aH8bZAVI8obSxc3G8"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Tour With No Name Advertisement",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

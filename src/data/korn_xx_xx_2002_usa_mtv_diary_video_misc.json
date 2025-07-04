@@ -1,0 +1,122 @@
+{
+  "originalTitle": "Korn - xx.xx.2002 - USA - MTV Diary [MISC]",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2002"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2002"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "MTV Diary",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 963,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1280,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_xx_xx_2000_usa_mtv_diary_video_misc",
+    "korn_xx_xx_1999_usa_mtv_news_1515_rock_is_dead_tv_special_video_misc",
+    "korn_11_06_2002_video",
+    "korn_xx_xx_2002_muchmusic_tv_spotlight_show_video_misc"
+  ],
+  "childOf": "Korn - [MISC 9 - Compilation]",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "79258763.jpg",
+      "externalId": "10P6qcM5foOR_vE95Boc6eBqOtyKJ0PsW"
+    },
+    {
+      "folder": "18",
+      "filename": "88599333.jpg",
+      "externalId": "19-lOJBU5K38VQ5qfhz4ZSl0nomcX_lop"
+    },
+    {
+      "folder": "18",
+      "filename": "92846570.jpg",
+      "externalId": "1W6YJaHFfjkf0PEvWcnu3txSuAp29uRCm"
+    },
+    {
+      "folder": "18",
+      "filename": "04209410.jpg",
+      "externalId": "1s__Ya4c9gGBFKxb71jmNIqcGP_HUI-Zv"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview + TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

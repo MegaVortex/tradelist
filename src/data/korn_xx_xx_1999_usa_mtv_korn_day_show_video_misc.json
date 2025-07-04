@@ -1,0 +1,125 @@
+{
+  "originalTitle": "Korn - xx.xx.1999 - USA - MTV - Korn Day Show [MISC]",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1999"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1999"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "MTV",
+    "country": "Korn Day Show",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.04,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 1918,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_xx_xx_2001_usa_mtv_studios_family_values_tour_video_misc",
+    "korn_01_07_2004_video",
+    "korn_xx_xx_2004_mtv_news_video_misc",
+    "korn_xx_xx_2002_new_york_ny_usa_mtv_studios_trl_show_video_misc",
+    "korn_12_06_2002_video_misc",
+    "korn_xx_xx_2002_usa_mtv_story_behind_untouchables_video_misc",
+    "korn_xx_xx_1999_usa_mtv_studios_video_misc"
+  ],
+  "childOf": "Korn - [MISC 6 - Compilation]",
+  "images": [
+    {
+      "folder": "17",
+      "filename": "85974580.jpg",
+      "externalId": "1kzvex7sEUiVvjVRQ4cGxDZhrCXpl5Uw_"
+    },
+    {
+      "folder": "17",
+      "filename": "55969811.jpg",
+      "externalId": "1KF2D29P242IkQdArvpOX2vYzWiK_2nc-"
+    },
+    {
+      "folder": "17",
+      "filename": "33700597.jpg",
+      "externalId": "1bVDot1aqHQhth-OLx2_Cfz1BKdiW2_LD"
+    },
+    {
+      "folder": "17",
+      "filename": "29390518.jpg",
+      "externalId": "1IDXKxPen31-3wcpRMOBPD0bTPxsyW0NL"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview + TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

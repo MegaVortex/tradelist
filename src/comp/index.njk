@@ -1,0 +1,246 @@
+---
+permalink: "/comp/"
+---
+{% extends "base.njk" %}
+{% block title %}Compilations{% endblock %}
+{% block content %}
+<div class="table-wrapper">
+   <div id="letter-bar" class="letter-bar"></div>
+   <div id="band-pills" class="d-flex flex-wrap gap-2 justify-content-center my-2" style="display:none;"></div>
+</div>
+<p id="show-count" class="show-counter">🎫 Shows: <span id="show-count-number">{{ allShowData.publicCompilationShows | length }}</span></p>
+<table id="shows-table">
+   <thead>
+      <tr>
+         <th>Artists</th>
+         <th>Start Date</th>
+         <th>End Date</th>
+         <th>Title</th>
+         <th>Length</th>
+         <th>Size</th>
+         <th>Format</th>
+         <th>Type</th>
+         <th>Source</th>
+         <th>Taper(s)</th>
+         <th>Pics</th>
+         <th>Page</th>
+         <th>🛒</th>
+      </tr>
+   </thead>
+   <tbody>
+      {% for show in allShowData.publicCompilationShows %}
+      <tr class="paginated-show" data-band="{{ show.bands | join('|||') }}" data-json="{{ show | dump | urlencode }}">
+         <td>
+            {% if show.bands and show.bands.length %}
+            {% set bands = show.bands %}
+            <div class="media-wrapper">
+               {% set main = bands[0] %}
+               <span>{{ bands[0] }}</span>
+               {% if bands.length > 1 %}
+               <a href="#" class="toggle-media" data-target="bands-{{ loop.index0 }}">
+               ▾ +{{ bands.length - 1 }}
+               </a>
+               {% endif %}
+            </div>
+            {% if bands.length > 1 %}
+            <div id="bands-{{ loop.index0 }}" class="extra-media">
+               {% for medium in bands.slice(1) %}
+               <div>{{ medium }}</div>
+               {% endfor %}
+            </div>
+            {% endif %}
+            {% else %}
+            —
+            {% endif %}
+         </td>
+         <td>
+            {% if show.startDateUnix %}
+            {{ show.startDateUnix | date("yyyy-MM-dd") }}
+            {% elif show.startDate %}
+            {% set sd = show.startDate %}
+            {% set day = sd.day | toInt %}
+            {% set month = sd.month | toInt %}
+            {% set year = sd.year | toInt %}
+            {% if day and month and year %}
+            {{ year }}-{{ month | padStart(2) }}-{{ day | padStart(2) }}
+            {% elif month and year %}
+            {{ year }}-{{ month | padStart(2) }}
+            {% elif year %}
+            {{ year }}
+            {% else %}
+            —
+            {% endif %}
+            {% else %}
+            —
+            {% endif %}
+         </td>
+         <td>
+            {% if show.endDateUnix %}
+            {{ show.endDateUnix | date("yyyy-MM-dd") }}
+            {% elif show.endDate %}
+            {% set ed = show.endDate %}
+            {% set day = ed.day | toInt %}
+            {% set month = ed.month | toInt %}
+            {% set year = ed.year | toInt %}
+            {% if day and month and year %}
+            {{ year }}-{{ month | padStart(2) }}-{{ day | padStart(2) }}
+            {% elif month and year %}
+            {{ year }}-{{ month | padStart(2) }}
+            {% elif year %}
+            {{ year }}
+            {% else %}
+            —
+            {% endif %}
+            {% else %}
+            —
+            {% endif %}
+         </td>
+         <td>
+            {% if show.location.event and show.showName %}
+            {{ show.location.event }}<br>{{ show.showName }}
+            {% elif show.location.event %}
+            {{ show.location.event }}
+            {% elif show.showName %}
+            {{ show.showName }}
+            {% else %}
+            —
+            {% endif %}
+         </td>
+         <td>
+            {% if show.specs and show.specs.length %}
+            {{ show.specs.length | formatTime }}
+            {% else %}
+            —
+            {% endif %}
+         </td>
+         <td>
+            {% if show.specs and show.specs.media and show.specs.media.length %}
+            {% set media = show.specs.media %}
+            <div class="media-wrapper">
+               {% set main = media[0] %}
+               <span>{{ main.size | smartSize }}{{ main.unit }}</span>
+               {% if media.length > 1 %}
+               <a href="#" class="toggle-media" data-target="media-{{ loop.index0 }}">
+               ▾ +{{ media.length - 1 }}
+               </a>
+               {% endif %}
+            </div>
+            {% if media.length > 1 %}
+            <div id="media-{{ loop.index0 }}" class="extra-media">
+               {% for medium in media.slice(1) %}
+               <div>{{ medium.size | smartSize }}{{ medium.unit }}</div>
+               {% endfor %}
+            </div>
+            {% endif %}
+            {% else %}
+            —
+            {% endif %}
+         </td>
+         <td>
+            {% if show.specs and show.specs.sourceDetail %}
+            {{ show.specs.sourceDetail.fileFormat or "—" }}
+            {% else %}
+            —
+            {% endif %}
+         </td>
+         <td class="type-cell">
+            {% if show.specs and show.specs.sourceDetail %}
+            {{ show.specs.sourceDetail.recordingType or "—" }}
+            {% if show.category == "audio" %}
+            <span class="type-label audio-label">audio</span>
+            {% elif "misc" in show.category %}
+            <span class="type-label misc-label">misc</span>
+            {% elif "video" in show.category %}
+            <span class="type-label video-label">video</span>
+            {% endif %}
+            {% else %}
+            —
+            {% endif %}
+         </td>
+         <td class="type-cell">
+            {{ show.source or "—" }}
+            {% if show.fileSlug and 'show_1' in show.fileSlug %}
+            <span class="show-label">Show 1</span>
+            {% elif show.fileSlug and 'show_2' in show.fileSlug %}
+            <span class="show-label">Show 2</span>
+            {% endif %}
+            {% if show.master == true or (show.tapers and show.tapers.length == 1 and show.tapers[0] == "Vortex") %}
+            <span class="trade-label master">MASTER</span>
+            {% endif %}
+         </td>
+         <td class="type-cell">
+            {% if show.tapers and show.tapers.length %}
+            {% set tapers = show.tapers %}
+            <div class="media-wrapper">
+               <span>{{ tapers[0] }}</span>
+               {% if tapers.length > 1 %}
+               <a href="#" class="toggle-media" data-target="media-{{ loop.index0 }}">
+               ▾ +{{ tapers.length - 1 }}
+               </a>
+               {% endif %}
+            </div>
+            {% if tapers.length > 1 %}
+            <div id="media-{{ loop.index0 }}" class="extra-media">
+               {% for taper in tapers.slice(1) %}
+               <div>{{ taper }}</div>
+               {% endfor %}
+            </div>
+            {% endif %}
+            {% else %}
+            —
+            {% endif %}
+            {% if show.tradeLabel == 'RT' %}
+            <span class="trade-label red">RT</span>
+            {% elif show.tradeLabel == 'NT' %}
+            <span class="trade-label blue">NT</span>
+            {% endif %}
+         </td>
+         <td>
+            {% if show.images and show.images.length %}
+            {% set firstImg = show.images[0] %}
+            <span
+               role="button"
+               title="View images"
+               style="cursor: pointer; font-size: 18px;"
+               onclick='openModal("{{ firstImg.externalId }}", {{ show.images | dump | safe }})'
+               >📷</span>
+            {% else %}
+            —
+            {% endif %}
+         </td>
+         <td>
+            <a href="{{ show.permalink | url }}" title="View info" style="font-size: 1.20em;">🎫</a>
+         </td>
+			<td>
+				{% if show.tradeLabel == 'NT' %}
+					<button
+						class="btn btn-sm btn-outline-secondary disabled"
+						style="font-size: 0.75rem; padding: 2px 6px;"
+						disabled
+						title="Not available for trade"
+						>➕</button>
+				{% else %}
+					<button
+						class="btn btn-sm btn-outline-success add-to-cart"
+						style="font-size: 0.75rem; padding: 2px 6px;"
+						data-id="{{ show.fileSlug }}"
+						data-json="{{ show | dump | urlencode }}"
+						title="Add to trade cart"
+						>➕</button>
+				{% endif %}
+			</td>
+      </tr>
+      {% endfor %}
+	  <script src="{{ '/scripts/va-shows-filter.js' | url }}"></script>
+   </tbody>
+</table>
+<div id="pagination-controls" class="my-3"></div>
+<script src="{{ '/scripts/hammer.min.js' | url }}"></script>
+{% include "modals/cart-modal.njk" %}
+{% include "modals/image-modal.njk" %}
+<script src="{{ '/scripts/shows-table.js' | url }}"></script>
+<script src="{{ '/scripts/cart.js' | url }}"></script>
+<script src="{{ '/scripts/image-modal-viewer.js' | url }}"></script>
+<script src="{{ '/scripts/media-extras-toggle.js' | url }}"></script>
+</div>
+{% endblock %}

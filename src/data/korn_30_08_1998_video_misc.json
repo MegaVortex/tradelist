@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Korn - 30.08.1998 - Atlanta - GA - USA - Korn Kampaign [MISC]",
+  "created": 1751198280,
+  "lastUpdated": 1751198280,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "08",
+    "year": "1998"
+  },
+  "startDateUnix": 904435200,
+  "endDate": {
+    "day": "30",
+    "month": "08",
+    "year": "1998"
+  },
+  "endDateUnix": 904435200,
+  "location": {
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "venue": "Korn Kampaign",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.66,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1558,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "33187496.jpg",
+      "externalId": "1RxYwa3Qarduo37Vds2uzjheC9Ehc1WG5"
+    },
+    {
+      "folder": "14",
+      "filename": "84151724.jpg",
+      "externalId": "1ktaN0DjNBgYLWKyKovvzetrjo-vq1pIc"
+    },
+    {
+      "folder": "14",
+      "filename": "34574440.jpg",
+      "externalId": "1hdFUzirNHL0cffwCPmENX9-ORkPFocRC"
+    },
+    {
+      "folder": "14",
+      "filename": "34211024.jpg",
+      "externalId": "1oSecCFTWPbeANqSib9IYyyKbNgmuZs6l"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}
