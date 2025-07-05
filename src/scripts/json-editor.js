@@ -5,18 +5,23 @@ let currentlyEditing = {
   type: null,
 };
 
-function openJsonEditor(fileSlug, showType) {
-  // Store the slug and type for later when we save
-  currentlyEditing = { slug: fileSlug, type: showType };
+function openJsonEditor(dataOrSlug, showType) {
+  let showData;
 
-  const showData = window.allShowsData.find(
-    (show) => show.fileSlug === fileSlug
-  );
+  if (typeof dataOrSlug === "object") {
+    showData = dataOrSlug;
+  } else {
+    showData = window.allShowsData?.find(
+      (show) => show.fileSlug === dataOrSlug
+    );
+  }
 
   if (!showData) {
-    alert("Error: Could not find data for slug: " + fileSlug);
+    alert("Error: Could not find show data.");
     return;
   }
+
+  currentlyEditing = { slug: showData.fileSlug, type: showType };
 
   try {
     const container = document.getElementById("json-editor");

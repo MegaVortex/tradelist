@@ -238,7 +238,11 @@ permalink: "/va/"
 			</td>
             {% if environment == "dev" %}
                <td>
-                  <button onclick="openJsonEditor('{{ show.fileSlug }}', 'va')">✏️</button>
+                  <button
+				  onclick="openJsonEditor('{{ show.fileSlug }}', 'va')"
+				  class="btn btn-sm btn-outline-secondary"
+				  style="font-size: 0.75rem; padding: 2px 6px;"
+				  >✏️</button>
                </td>
             {% endif %}
       </tr>

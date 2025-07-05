@@ -1,0 +1,115 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - 25.09.2011 - Rio De Janeiro - Brazil - Cidade Do Rock - Rock In Rio",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Slipknot",
+    "Coheed And Cambria",
+    "Metallica",
+    "Motorhead"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "09",
+    "year": "2011"
+  },
+  "startDateUnix": 1316908800,
+  "endDate": {
+    "day": "25",
+    "month": "09",
+    "year": "2011"
+  },
+  "endDateUnix": 1316908800,
+  "location": {
+    "city": "25.09.2011",
+    "state": "",
+    "country": "Rio De Janeiro",
+    "venue": "Brazil",
+    "event": "Cidade Do Rock - Rock In Rio"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 7.93,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 14857,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "63",
+      "filename": "34980758.jpg",
+      "externalId": "1CJvVZfwa2RI6iP2JyfmISK2Hev5_OppG"
+    },
+    {
+      "folder": "63",
+      "filename": "50115511.jpg",
+      "externalId": "1YntFHTVzWBB06pYlmWXHLtrdN_RohmX2"
+    },
+    {
+      "folder": "63",
+      "filename": "98515670.jpg",
+      "externalId": "1KnI4qkzfJsQUJ6fMxcj5roZWsxGTIYeS"
+    },
+    {
+      "folder": "63",
+      "filename": "60780291.jpg",
+      "externalId": "1suYTFwMqmhQupF6qyvJqV_EdmVSSHBDp"
+    }
+  ],
+  "parentOf": [
+    "slipknot_25_09_2011_source_1_video",
+    "coheed_and_cambria_25_09_2011_video",
+    "metallica_25_09_2011_source_1_video",
+    "motorhead_25_09_2011_video"
+  ]
+}

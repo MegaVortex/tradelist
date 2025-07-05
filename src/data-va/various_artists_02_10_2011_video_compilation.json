@@ -1,0 +1,113 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - 02.10.2011 - Rio De Janeiro - Brazil - Cidade Do Rock - Rock In Rio",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "System Of A Down",
+    "Evanescence",
+    "Guns N Roses"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "10",
+    "year": "2011"
+  },
+  "startDateUnix": 1317513600,
+  "endDate": {
+    "day": "02",
+    "month": "10",
+    "year": "2011"
+  },
+  "endDateUnix": 1317513600,
+  "location": {
+    "city": "02.10.2011",
+    "state": "",
+    "country": "Rio De Janeiro",
+    "venue": "Brazil",
+    "event": "Cidade Do Rock - Rock In Rio"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 8.62,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 17519,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "63",
+      "filename": "43230051.jpg",
+      "externalId": "1UVRJjCgh4WVDhdsI1t94owpmoa05m43t"
+    },
+    {
+      "folder": "63",
+      "filename": "48618152.jpg",
+      "externalId": "1SgbHoA7YbEWnitf2hLJd7YvXlUazjNA_"
+    },
+    {
+      "folder": "63",
+      "filename": "73374415.jpg",
+      "externalId": "15peQQcO-_41d_Z-Q4zFMBzPMBaDKyb-X"
+    },
+    {
+      "folder": "63",
+      "filename": "58646841.jpg",
+      "externalId": "1XfShGna2I4l9TdJpRKTYC_cksVKDlqFx"
+    }
+  ],
+  "parentOf": [
+    "system_of_a_down_02_10_2011_source_1_video",
+    "evanescence_02_10_2011_source_1_video",
+    "guns_n_roses_02_10_2011_source_2_video"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - 16.04.2009 - Tempe - AZ - USA - The Marquee Theater",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Intronaut",
+    "Kylesa",
+    "Via Vengeance"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "04",
+    "year": "2009"
+  },
+  "startDateUnix": 1239840000,
+  "endDate": {
+    "day": "16",
+    "month": "04",
+    "year": "2009"
+  },
+  "endDateUnix": 1239840000,
+  "location": {
+    "city": "16.04.2009",
+    "state": "",
+    "country": "Tempe",
+    "venue": "AZ",
+    "event": "USA - The Marquee Theater"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.64,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4859,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "75870380.jpg",
+      "externalId": "1KnBCQkGMerN7qcjhkXqiDAOwLM-yG8kU"
+    },
+    {
+      "folder": "60",
+      "filename": "92260456.jpg",
+      "externalId": "132UQteOj2xhHVB6GKHylEmICNDQ0z32k"
+    },
+    {
+      "folder": "60",
+      "filename": "72362472.jpg",
+      "externalId": "1r15dCQ93sx7wJ-bBsV-um4lUNhEUBWy0"
+    },
+    {
+      "folder": "60",
+      "filename": "19119855.jpg",
+      "externalId": "1sIAjeB-d4E0qfTOXpleyHYAaQvS2f8tL"
+    }
+  ],
+  "parentOf": [
+    "intronaut_16_04_2009_video",
+    "kylesa_16_04_2009_video",
+    "via_vengeance_16_04_2009_video"
+  ]
+}

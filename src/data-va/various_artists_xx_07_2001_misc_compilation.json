@@ -1,0 +1,115 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - xx.07.2001 - FL - USA - MTV News - Total Request Live [MISC]",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Slipknot",
+    "Papa Roach",
+    "Disturbed",
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "07",
+    "year": "2001"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "07",
+    "year": "2001"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "xx.07.2001",
+    "state": "FL",
+    "country": "USA",
+    "venue": "MTV News",
+    "event": "Total Request Live"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "misc",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Very short funny interviews with russian translation.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 17.7,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 110,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "352x288",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG1",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "VCD",
+      "fileFormat": "MPG"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "82",
+      "filename": "44544367.jpg",
+      "externalId": "1aK8vghSYIFbXJs3F8n3ShvrAcNwbbLJS"
+    },
+    {
+      "folder": "82",
+      "filename": "89047723.jpg",
+      "externalId": "1Jm4cv76jCIzgWv-LFN-FvFudBD_yizC-"
+    },
+    {
+      "folder": "82",
+      "filename": "75853071.jpg",
+      "externalId": "1nd2Hg56iN6wpHNh6vyXAe9fQYGHFDP4y"
+    },
+    {
+      "folder": "82",
+      "filename": "69955728.jpg",
+      "externalId": "1H8xLGIdYVuB_xXWFsbCSLTqe4CfMH3UC"
+    }
+  ],
+  "parentOf": [
+    "slipknot_xx_07_2001_fl_usa_mtv_news_total_request_live_misc_video_misc",
+    "papa_roach_xx_07_2001_fl_usa_mtv_news_total_request_live_misc_video_misc",
+    "disturbed_xx_07_2001_fl_usa_mtv_news_total_request_live_misc_video_misc",
+    "marilyn_manson_xx_07_2001_fl_usa_mtv_news_total_request_live_misc_video_misc"
+  ]
+}

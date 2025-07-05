@@ -1,0 +1,124 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - 16.07.2010 - Phoenix - AZ - USA - Cricket Pavilion - Mayhem Festival",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Shadows Fall",
+    "Rob Zombie",
+    "Norma Jean",
+    "Lamb Of God",
+    "Hatebreed",
+    "Chimaira",
+    "Atreyu"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "07",
+    "year": "2010"
+  },
+  "startDateUnix": 1279238400,
+  "endDate": {
+    "day": "16",
+    "month": "07",
+    "year": "2010"
+  },
+  "endDateUnix": 1279238400,
+  "location": {
+    "city": "16.07.2010",
+    "state": "",
+    "country": "Phoenix",
+    "venue": "AZ",
+    "event": "USA - Cricket Pavilion - Mayhem Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "2 cam mix, such a great shot!",
+  "tapers": [
+    "Kelly O&#39;Brien",
+    "Derrell Stanfield"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 5.57,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 7575,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "64",
+      "filename": "03428205.jpg",
+      "externalId": "1dNVTPRmAOtkDUym7jMNNA3KlSPI9Q6wx"
+    },
+    {
+      "folder": "64",
+      "filename": "28424222.jpg",
+      "externalId": "1CEK1b9IXdAPqSscsmETP81FTzKYrsgSI"
+    },
+    {
+      "folder": "64",
+      "filename": "09960176.jpg",
+      "externalId": "1qlj5GR0KrjJdFKMLWOERV8EuPiqYHfAG"
+    },
+    {
+      "folder": "64",
+      "filename": "34814541.jpg",
+      "externalId": "1qcGAIsqgH4NiPFrWQIMfgQVWySTnl_at"
+    }
+  ],
+  "parentOf": [
+    "shadows_fall_16_07_2010_video",
+    "rob_zombie_16_07_2010_video",
+    "norma_jean_16_07_2010_video",
+    "lamb_of_god_16_07_2010_video",
+    "hatebreed_16_07_2010_video",
+    "chimaira_16_07_2010_video",
+    "atreyu_16_07_2010_video"
+  ]
+}

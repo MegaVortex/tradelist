@@ -1,0 +1,147 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - [14.06.2019 -- 16.06.2019] - Donington - England - Donington Park - Download Festival",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Halestorm",
+    "Lamb Of God",
+    "Whitesnake",
+    "Three Days Grace",
+    "Slash",
+    "Skid Row",
+    "Skindred",
+    "Smashing Pumpkins",
+    "Eagles Of Death Metal",
+    "Underoath",
+    "Slipknot",
+    "Trivium",
+    "Slayer",
+    "Anthrax",
+    "Godsmack",
+    "Stone Temple Pilots",
+    "Behemoth",
+    "Rob Zombie",
+    "Def Leppard",
+    "Opeth"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "06",
+    "year": "2019"
+  },
+  "startDateUnix": 1560470400,
+  "endDate": {
+    "day": "16",
+    "month": "06",
+    "year": "2019"
+  },
+  "endDateUnix": 1560643200,
+  "location": {
+    "city": "Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": "Download Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-50",
+        "size": 25.4,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 17372,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 209,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "19499474.jpg",
+      "externalId": "1-g-YkneW7zLlgkfi-KCdIPsvw0VB_WGz"
+    },
+    {
+      "folder": "73",
+      "filename": "21197816.jpg",
+      "externalId": "14NZeTDhHgOQvLU-k2qqJ_iVA8E8U-Adw"
+    },
+    {
+      "folder": "73",
+      "filename": "53567866.jpg",
+      "externalId": "1h1mkZVNCXBiHcV6X_JFSu0BqNdcZeWBg"
+    },
+    {
+      "folder": "73",
+      "filename": "12246322.jpg",
+      "externalId": "1VRa2uIHUSibDy6DmqgzV1hsMAX5P82fy"
+    }
+  ],
+  "parentOf": [
+    "halestorm_14_06_2019_video",
+    "lamb_of_god_16_06_2019_video",
+    "whitesnake_14_06_2019_video",
+    "three_days_grace_14_06_2019_video",
+    "slash_14_06_2019_video",
+    "skid_row_14_06_2019_video",
+    "skindred_15_06_2019_video",
+    "smashing_pumpkins_16_06_2019_video",
+    "eagles_of_death_metal_14_06_2019_video",
+    "underoath_16_06_2019_video",
+    "slipknot_15_06_2019_source_2_video",
+    "trivium_15_06_2019_video",
+    "slayer_16_06_2019_video",
+    "anthrax_16_06_2019_video",
+    "godsmack_16_06_2019_video",
+    "stone_temple_pilots_15_06_2019_video",
+    "behemoth_15_06_2019_video",
+    "rob_zombie_14_06_2019_video",
+    "def_leppard_14_06_2019_video",
+    "opeth_14_06_2019_video"
+  ]
+}

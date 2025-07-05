@@ -1,0 +1,113 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - 02.07.2010 - Moscow - Russia - Aktoviy Zal (Source 1)",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Hombre Malo",
+    "Argument 5.45",
+    "Reka"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "07",
+    "year": "2010"
+  },
+  "startDateUnix": 1278028800,
+  "endDate": {
+    "day": "02",
+    "month": "07",
+    "year": "2010"
+  },
+  "endDateUnix": 1278028800,
+  "location": {
+    "city": "02.07.2010",
+    "state": "",
+    "country": "Moscow",
+    "venue": "Russia",
+    "event": "Aktoviy Zal"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.29,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5663,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "00945594.jpg",
+      "externalId": "1aj4_l7V1GTr43KAALDVYCmPoMCEiRrqL"
+    },
+    {
+      "folder": "69",
+      "filename": "79529198.jpg",
+      "externalId": "1H9y7yarn5MjQZvIcHBwg2VTncib_sXlX"
+    },
+    {
+      "folder": "69",
+      "filename": "54452763.jpg",
+      "externalId": "1IbYPovAxZDlA8sIm1Z9NhHCdr35ndVFr"
+    },
+    {
+      "folder": "69",
+      "filename": "84845323.jpg",
+      "externalId": "13sQzAwH8cRV_lLv4w9x9jMxaXVLl0XJD"
+    }
+  ],
+  "parentOf": [
+    "hombre_malo_02_07_2010_source_2_video",
+    "argument_5_45_02_07_2010_video",
+    "reka_02_07_2010_video"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - 12.11.2021 - Daytona Beach - FL - USA - Daytona International Speedway - Welcome To Rockville",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Pennywise",
+    "Butcher Babies"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "11",
+    "year": "2021"
+  },
+  "startDateUnix": 1636675200,
+  "endDate": {
+    "day": "12",
+    "month": "11",
+    "year": "2021"
+  },
+  "endDateUnix": 1636675200,
+  "location": {
+    "city": "12.11.2021",
+    "state": "",
+    "country": "Daytona Beach",
+    "venue": "FL",
+    "event": "USA - Daytona International Speedway - Welcome To Rockville"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 18.4,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 29731,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "23.976",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 194,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "HD",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "82",
+      "filename": "84126398.jpg",
+      "externalId": "1ORNRsucFgMsyMl3PNNEsxD4pvm8TI_IV"
+    },
+    {
+      "folder": "82",
+      "filename": "98267443.jpg",
+      "externalId": "1d8Va3DVksUOPg5gdvo8yXkyURGNBmF17"
+    },
+    {
+      "folder": "82",
+      "filename": "95092280.jpg",
+      "externalId": "1hGKcXE2TTZWq5jHFy1xiR0vlJ2dRXABQ"
+    },
+    {
+      "folder": "82",
+      "filename": "11918362.jpg",
+      "externalId": "1Cx9cjzFx9UK-931yD8robXGXuK5Ur7nz"
+    }
+  ],
+  "parentOf": [
+    "pennywise_12_11_2021_video",
+    "butcher_babies_12_11_2021_video"
+  ]
+}

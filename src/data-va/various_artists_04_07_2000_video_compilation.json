@@ -1,0 +1,117 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - 04.07.2000 - Baltimore - MD - USA - PSINet Stadium",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Metallica",
+    "Korn",
+    "System Of A Down",
+    "Kid Rock",
+    "Powerman 5000"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "07",
+    "year": "2000"
+  },
+  "startDateUnix": 962668800,
+  "endDate": {
+    "day": "04",
+    "month": "07",
+    "year": "2000"
+  },
+  "endDateUnix": 962668800,
+  "location": {
+    "city": "04.07.2000",
+    "state": "",
+    "country": "Baltimore",
+    "venue": "MD",
+    "event": "USA - PSINet Stadium"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MTV Special.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 9.72,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 5064,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "74",
+      "filename": "30301318.jpg",
+      "externalId": "1GaPB-UUnSxTG-svDAzZRRQiL9wsyKtGm"
+    },
+    {
+      "folder": "74",
+      "filename": "81498222.jpg",
+      "externalId": "1VWcdhiUPMa3dhqnTuOCLurQrRoiXTDRo"
+    },
+    {
+      "folder": "74",
+      "filename": "81477885.jpg",
+      "externalId": "1AH0AydEof8IzuLjJE4b8K8vXQ4x7tfJq"
+    },
+    {
+      "folder": "74",
+      "filename": "49815497.jpg",
+      "externalId": "1671BC2EyMPUFK824ZLVLJW0rYdXRdsDK"
+    }
+  ],
+  "parentOf": [
+    "metallica_04_07_2000_source_3_video",
+    "korn_04_07_2000_source_3_video",
+    "system_of_a_down_04_07_2000_source_2_video",
+    "kid_rock_04_07_2000_video",
+    "powerman_5000_04_07_2000_video"
+  ]
+}

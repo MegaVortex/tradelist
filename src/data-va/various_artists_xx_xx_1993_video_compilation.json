@@ -1,0 +1,115 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - [1993] - BBC2 TV - The Late Show - No Nirvana",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Pearl Jam",
+    "Sonic Youth",
+    "R.E.M.",
+    "Smashing Pumpkins"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1993"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1993"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "BBC2 TV",
+    "state": "",
+    "country": "- No Nirvana",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "BBC2 TV",
+  "showName": "The Late Show",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.66,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2451,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "48250949.jpg",
+      "externalId": "1VMSwdzA2BP6Y2ZpwgtmmY8WBzOWFU80k"
+    },
+    {
+      "folder": "80",
+      "filename": "99049306.jpg",
+      "externalId": "1CjPr-KtT880xVbGf_zAbFYHIb2O0pXSQ"
+    },
+    {
+      "folder": "80",
+      "filename": "13399741.jpg",
+      "externalId": "1pvJZLGxzH7BH9ap4jpsy0yVnkiAGp0oq"
+    },
+    {
+      "folder": "80",
+      "filename": "97594556.jpg",
+      "externalId": "1PRJrnJcFlnv5EIVNS48VegdLh05a8-8N"
+    }
+  ],
+  "parentOf": [
+    "pearl_jam_xx_xx_1993_bbc2_tv_the_late_show_no_nirvana_video",
+    "sonic_youth_xx_xx_1993_bbc2_tv_the_late_show_no_nirvana_video",
+    "r_e_m_xx_xx_1993_bbc2_tv_the_late_show_no_nirvana_video",
+    "smashing_pumpkins_xx_xx_1993_bbc2_tv_the_late_show_no_nirvana_video"
+  ]
+}

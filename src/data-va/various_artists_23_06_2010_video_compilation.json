@@ -1,0 +1,113 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - 23.06.2010 - Moscow - Russia - Aktoviy Zal",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Dottie Danger",
+    "Argument 5.45",
+    "Prea Hrada"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "06",
+    "year": "2010"
+  },
+  "startDateUnix": 1277251200,
+  "endDate": {
+    "day": "23",
+    "month": "06",
+    "year": "2010"
+  },
+  "endDateUnix": 1277251200,
+  "location": {
+    "city": "23.06.2010",
+    "state": "",
+    "country": "Moscow",
+    "venue": "Russia",
+    "event": "Aktoviy Zal"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.32,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 6139,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "20227803.jpg",
+      "externalId": "1QhJLVVpXCnoMKIthK1n1OMFU0UrtxNAP"
+    },
+    {
+      "folder": "69",
+      "filename": "50074578.jpg",
+      "externalId": "1wLyX7DmuGnZjKhVkEhvo0gYXZSWV6jd6"
+    },
+    {
+      "folder": "69",
+      "filename": "43556828.jpg",
+      "externalId": "1OtW9oI2LnnrymRow1Qcup6JvCtlDKgMa"
+    },
+    {
+      "folder": "69",
+      "filename": "29794652.jpg",
+      "externalId": "1bK3lxp3Nt7Tdwje2FwiLNc6Vg_RscKcR"
+    }
+  ],
+  "parentOf": [
+    "dottie_danger_23_06_2010_video",
+    "argument_5_45_23_06_2010_video",
+    "prea_hrada_23_06_2010_video"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - 22.06.2010 - Sofia - Bulgaria - Vasil Levski Stadium - Sonisphere Festival - The Big Four",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Anthrax",
+    "Megadeth",
+    "Slayer",
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "06",
+    "year": "2010"
+  },
+  "startDateUnix": 1277164800,
+  "endDate": {
+    "day": "22",
+    "month": "06",
+    "year": "2010"
+  },
+  "endDateUnix": 1277164800,
+  "location": {
+    "city": "22.06.2010",
+    "state": "",
+    "country": "Sofia",
+    "venue": "Bulgaria",
+    "event": "Vasil Levski Stadium - Sonisphere Festival - The Big Four"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Official HD release - NT.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-50",
+        "size": 25.4,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 13797,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MP4"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "42651322.jpg",
+      "externalId": "1aaE1tSkwaZOSVfJ57RzvCU9KB5vcb8Vh"
+    },
+    {
+      "folder": "69",
+      "filename": "33141005.jpg",
+      "externalId": "1wsvWjGwCF9FAN0a9HCe3-2BRH9u9P9ju"
+    },
+    {
+      "folder": "69",
+      "filename": "20516297.jpg",
+      "externalId": "1j_ZMzhRAElv6aZVPRsAhcq0vKL5zuZum"
+    },
+    {
+      "folder": "69",
+      "filename": "17149473.jpg",
+      "externalId": "163YHYJmsNhojO9B0tFUQ9CYa0f8LKtBi"
+    }
+  ],
+  "parentOf": [
+    "anthrax_22_06_2010_video",
+    "megadeth_22_06_2010_video",
+    "slayer_22_06_2010_video",
+    "metallica_22_06_2010_video"
+  ]
+}

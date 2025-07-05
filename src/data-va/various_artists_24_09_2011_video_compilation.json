@@ -1,0 +1,113 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - 24.09.2011 - Rio De Janeiro - Brazil - Cidade Do Rock - Rock In Rio",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Red Hot Chili Peppers",
+    "Snow Patrol",
+    "Stone Sour"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "09",
+    "year": "2011"
+  },
+  "startDateUnix": 1316822400,
+  "endDate": {
+    "day": "24",
+    "month": "09",
+    "year": "2011"
+  },
+  "endDateUnix": 1316822400,
+  "location": {
+    "city": "24.09.2011",
+    "state": "",
+    "country": "Rio De Janeiro",
+    "venue": "Brazil",
+    "event": "Cidade Do Rock - Rock In Rio"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 7.22,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 13519,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "63",
+      "filename": "52018304.jpg",
+      "externalId": "1597U6u8qIeBB2D7n16hcx-rEbbVuHXbJ"
+    },
+    {
+      "folder": "63",
+      "filename": "25089495.jpg",
+      "externalId": "1i8JRkoss--SHBuWDF750cmWYhyqD5BgL"
+    },
+    {
+      "folder": "63",
+      "filename": "98699581.jpg",
+      "externalId": "1Fg42QgOjbELPCDIHhZtD7qy6pyAN3riP"
+    },
+    {
+      "folder": "63",
+      "filename": "38818395.jpg",
+      "externalId": "1OthjunGHHS-HCslz_GPYFyEVUl8Qdt6o"
+    }
+  ],
+  "parentOf": [
+    "red_hot_chili_peppers_24_09_2011_source_1_video",
+    "snow_patrol_24_09_2011_video",
+    "stone_sour_24_09_2011_video"
+  ]
+}

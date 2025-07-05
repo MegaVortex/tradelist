@@ -29,6 +29,15 @@
             </nav>
          </div>
          <div class="navbar-right">
+{% if currentShow and environment == "dev" %}
+  <button
+    class="btn btn-sm btn-outline-secondary"
+    style="font-size: 0.75rem; padding: 2px 6px;"
+    onclick='openJsonEditor({{ currentShow | dump | safe }}, "{{ currentShow.type or "regular" }}")'
+    title="Edit this show"
+  >✏️</button>
+{% endif %}
+
             {% if currentShow and currentShow.tradeLabel is defined %}
                {% if currentShow.tradeLabel == 'NT' %}
                   <button class="btn btn-sm btn-outline-secondary disabled me-2" style="font-size: 0.75rem; padding: 2px 6px;" disabled="disabled" title="Not available for trade">➕</button>

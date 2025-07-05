@@ -1,0 +1,113 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - 24.10.2010 - Moscow - Russia - Aktoviy Zal",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Nonna Mordukova",
+    "Argument 5.45",
+    "Записки Неизвестного"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "10",
+    "year": "2010"
+  },
+  "startDateUnix": 1287878400,
+  "endDate": {
+    "day": "24",
+    "month": "10",
+    "year": "2010"
+  },
+  "endDateUnix": 1287878400,
+  "location": {
+    "city": "24.10.2010",
+    "state": "",
+    "country": "Moscow",
+    "venue": "Russia",
+    "event": "Aktoviy Zal"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.19,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 4694,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "35007774.jpg",
+      "externalId": "17C9V5SrSJYzDf_sjCuMgjWZDTPiZC8ZC"
+    },
+    {
+      "folder": "69",
+      "filename": "08230617.jpg",
+      "externalId": "16M0MuSzDT8snPJ3KNkFqMY-nqDHeReA4"
+    },
+    {
+      "folder": "69",
+      "filename": "84852672.jpg",
+      "externalId": "1liNjt-pT7rwxG5LwJRFA5_52l9GIFU-I"
+    },
+    {
+      "folder": "69",
+      "filename": "28102812.jpg",
+      "externalId": "1-6BswgevdYUpD0dcL06Q8eA895_05tm1"
+    }
+  ],
+  "parentOf": [
+    "nonna_mordukova_24_10_2010_video",
+    "argument_5_45_24_10_2010_video",
+    "zapiski_neizvestnogo_24_10_2010_video"
+  ]
+}

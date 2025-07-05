@@ -1,0 +1,113 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - 02.07.2010 - Moscow - Russia - Aktoviy Zal (Source 2)",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Hombre Malo",
+    "Lopatka",
+    "Cikuta"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "07",
+    "year": "2010"
+  },
+  "startDateUnix": 1278028800,
+  "endDate": {
+    "day": "02",
+    "month": "07",
+    "year": "2010"
+  },
+  "endDateUnix": 1278028800,
+  "location": {
+    "city": "02.07.2010",
+    "state": "",
+    "country": "Moscow",
+    "venue": "Russia",
+    "event": "Aktoviy Zal"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.1,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5423,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "12366237.jpg",
+      "externalId": "1eSRDPfWYBgY0ECpm8AmIhgQxxtzPAN7p"
+    },
+    {
+      "folder": "69",
+      "filename": "13535398.jpg",
+      "externalId": "1jr3AghtbnYTWHCTviF5Ptw7qmdyuoXTJ"
+    },
+    {
+      "folder": "69",
+      "filename": "38484375.jpg",
+      "externalId": "18RT5mmy3OOpLElyZX7KYjAFf2n-rFnwQ"
+    },
+    {
+      "folder": "69",
+      "filename": "43782829.jpg",
+      "externalId": "1_kggaKtuFPrpsWT524beP8QoKjBr1brF"
+    }
+  ],
+  "parentOf": [
+    "hombre_malo_02_07_2010_source_1_video",
+    "lopatka_02_07_2010_video",
+    "cikuta_02_07_2010_video"
+  ]
+}

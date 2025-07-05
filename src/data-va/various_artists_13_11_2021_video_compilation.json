@@ -1,0 +1,115 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - 13.11.2021 - Daytona Beach - FL - USA - Daytona International Speedway - Welcome To Rockville",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Atreyu",
+    "Asking Alexandria",
+    "Lamb Of God",
+    "Staind"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "11",
+    "year": "2021"
+  },
+  "startDateUnix": 1636761600,
+  "endDate": {
+    "day": "13",
+    "month": "11",
+    "year": "2021"
+  },
+  "endDateUnix": 1636761600,
+  "location": {
+    "city": "13.11.2021",
+    "state": "",
+    "country": "Daytona Beach",
+    "venue": "FL",
+    "event": "USA - Daytona International Speedway - Welcome To Rockville"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 20.3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 33151,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "23.976",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 194,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "HD",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "82",
+      "filename": "70529980.jpg",
+      "externalId": "1t6KXcDc2MiZGnddoOsUQhfXPSY4pnrBM"
+    },
+    {
+      "folder": "82",
+      "filename": "02120740.jpg",
+      "externalId": "1uAwzRp_TH0dP0b15VH0xkwglpMwNlPm6"
+    },
+    {
+      "folder": "82",
+      "filename": "17210014.jpg",
+      "externalId": "1XkMtirGYY7qGxzkA9Wd3vnG1OJ_apheG"
+    },
+    {
+      "folder": "82",
+      "filename": "47994485.jpg",
+      "externalId": "1Vs3Q9_K_qn2eHR1rXd7XR_JmZQ4K7sJK"
+    }
+  ],
+  "parentOf": [
+    "atreyu_13_11_2021_video",
+    "asking_alexandria_13_11_2021_video",
+    "lamb_of_god_13_11_2021_video",
+    "staind_13_11_2021_video"
+  ]
+}

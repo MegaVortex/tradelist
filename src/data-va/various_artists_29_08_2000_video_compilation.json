@@ -1,0 +1,111 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - 29.08.2000 - New York - NY - USA - CBGB",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Cephalic Carnage",
+    "Burnt By The Sun"
+  ],
+  "startDate": {
+    "day": "29",
+    "month": "08",
+    "year": "2000"
+  },
+  "startDateUnix": 967507200,
+  "endDate": {
+    "day": "29",
+    "month": "08",
+    "year": "2000"
+  },
+  "endDateUnix": 967507200,
+  "location": {
+    "city": "29.08.2000",
+    "state": "",
+    "country": "New York",
+    "venue": "NY",
+    "event": "USA - CBGB"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.13,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 7282,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "68",
+      "filename": "07324323.jpg",
+      "externalId": "12c83RMJdRr5a2gN8wdb8-5tdFiAASzgu"
+    },
+    {
+      "folder": "68",
+      "filename": "99331070.jpg",
+      "externalId": "1d4Xj6_LcM5WZ9KYPsMx8jh8bTqBa-37S"
+    },
+    {
+      "folder": "68",
+      "filename": "39794897.jpg",
+      "externalId": "1JO3ZZFTeBUHbgDLIp2YJwo8o3flho16f"
+    },
+    {
+      "folder": "68",
+      "filename": "26634070.jpg",
+      "externalId": "1Mw-emfN3z0DgVs5uRzlCeSItjJWbddsd"
+    }
+  ],
+  "parentOf": [
+    "cephalic_carnage_29_08_2000_video",
+    "burnt_by_the_sun_29_08_2000_video"
+  ]
+}

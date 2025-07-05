@@ -1,0 +1,113 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - 05.06.2010 - Moscow - Russia - You Too",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Homepage",
+    "Equal Minds Theory",
+    "Фиолетовый Пёс"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "06",
+    "year": "2010"
+  },
+  "startDateUnix": 1275696000,
+  "endDate": {
+    "day": "05",
+    "month": "06",
+    "year": "2010"
+  },
+  "endDateUnix": 1275696000,
+  "location": {
+    "city": "05.06.2010",
+    "state": "",
+    "country": "Moscow",
+    "venue": "Russia",
+    "event": "You Too"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.36,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4880,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "68641481.jpg",
+      "externalId": "1SPj6UoZ1TTYgHJn7HXRApNvnRsLtospA"
+    },
+    {
+      "folder": "60",
+      "filename": "58543768.jpg",
+      "externalId": "1DH7c1qy8UIc3DeGuPB3dW0DPjz-CRCEW"
+    },
+    {
+      "folder": "60",
+      "filename": "24073037.jpg",
+      "externalId": "1mkfuAPt3Joen1b-ao_ZN5Iu1xzoypijc"
+    },
+    {
+      "folder": "60",
+      "filename": "44186529.jpg",
+      "externalId": "1l8kGTjEwMpP-GBmwR_Ds7kvJbbHJUTzc"
+    }
+  ],
+  "parentOf": [
+    "homepage_05_06_2010_video",
+    "equal_minds_theory_05_06_2010_video",
+    "fioletovyy_pes_05_06_2010_video"
+  ]
+}

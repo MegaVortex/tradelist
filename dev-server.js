@@ -25,10 +25,11 @@ app.post("/api/save-json", (req, res) => {
     return res.status(400).json({ error: "Missing slug or data" });
   }
 
-  // This logic will now work correctly
   const baseDir =
-    type === "va"
-      ? path.join(__dirname, "src", "data-va")
+  type === "va"
+    ? path.join(__dirname, "src", "data-va")
+    : type === "compilation"
+      ? path.join(__dirname, "src", "data-comp")
       : path.join(__dirname, "src", "data");
 
   const filePath = path.join(baseDir, `${slug}.json`);

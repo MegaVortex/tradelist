@@ -1,0 +1,115 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - [09.10.2010 -- 11.10.2010] - Itu - Sao Paulo - Brazil - Fazenda Maeda - SWU Festival",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Rage Against The Machine",
+    "Linkin Park",
+    "Pixies",
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "10",
+    "year": "2010"
+  },
+  "startDateUnix": 1286582400,
+  "endDate": {
+    "day": "11",
+    "month": "10",
+    "year": "2010"
+  },
+  "endDateUnix": 1286755200,
+  "location": {
+    "city": "Itu",
+    "state": "",
+    "country": "Sao Paulo",
+    "venue": "Brazil",
+    "event": "Fazenda Maeda - SWU Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.55,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2619,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "65",
+      "filename": "80801342.jpg",
+      "externalId": "1kDvAYwXWlyIQWZEqO4aCwwIbW3T1P7gp"
+    },
+    {
+      "folder": "65",
+      "filename": "37408198.jpg",
+      "externalId": "1LCI25-yhH-RI60eh8yNGU0EseQr_NVlJ"
+    },
+    {
+      "folder": "65",
+      "filename": "88748046.jpg",
+      "externalId": "1M9ygfmmDNJyhlhtbf0oiroEUXqGBFhrT"
+    },
+    {
+      "folder": "65",
+      "filename": "55131903.jpg",
+      "externalId": "1DKmtbaURawmooOseHC3327cOZ9H7nMxc"
+    }
+  ],
+  "parentOf": [
+    "rage_against_the_machine_09_10_2010_source_2_video",
+    "linkin_park_11_10_2010_source_1_video",
+    "pixies_11_10_2010_video",
+    "queens_of_the_stone_age_11_10_2010_video"
+  ]
+}

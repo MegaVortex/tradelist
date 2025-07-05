@@ -197,9 +197,13 @@
                      {% endif %}
                   </td>
                   {% if environment == "dev" %}
-                     <td>
-                        <button onclick="openJsonEditor('{{ show.fileSlug }}', 'regular')">✏️</button>
-                     </td>
+               <td>
+                  <button
+				  onclick="openJsonEditor('{{ show.fileSlug }}', 'regular')"
+				  class="btn btn-sm btn-outline-secondary"
+				  style="font-size: 0.75rem; padding: 2px 6px;"
+				  >✏️</button>
+               </td>
                   {% endif %}
                </tr>
             {% endif %}

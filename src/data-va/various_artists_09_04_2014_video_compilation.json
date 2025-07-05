@@ -1,0 +1,121 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - 09.04.2014 - Moscow - Russia - Stadium Live - Metal All Stars",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Kobra Paige",
+    "Brian Fair",
+    "Udo Dirkschneider",
+    "Max Cavalera",
+    "Joey Belladonna",
+    "Zakk Wylde"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "04",
+    "year": "2014"
+  },
+  "startDateUnix": 1397001600,
+  "endDate": {
+    "day": "09",
+    "month": "04",
+    "year": "2014"
+  },
+  "endDateUnix": 1397001600,
+  "location": {
+    "city": "09.04.2014",
+    "state": "",
+    "country": "Moscow",
+    "venue": "Russia",
+    "event": "Stadium Live - Metal All Stars"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": true,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Good recording!",
+  "tapers": [
+    "Vortex"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 17,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 8689,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "55",
+      "filename": "60104313.jpg",
+      "externalId": "1Ztc_rEEd05s6ilZO9ayhObxlg6rhNSNk"
+    },
+    {
+      "folder": "55",
+      "filename": "31653020.jpg",
+      "externalId": "1JExcBZJbBvomi4WjfeNi30uD-bTR_FY8"
+    },
+    {
+      "folder": "55",
+      "filename": "61509060.jpg",
+      "externalId": "1MjS9VrxC2HsTJiMlmDXlEuwWF_652fka"
+    },
+    {
+      "folder": "55",
+      "filename": "03721720.jpg",
+      "externalId": "19whc9GPSvaNRBuIhPc80yfbBh9UYFSQV"
+    }
+  ],
+  "parentOf": [
+    "kobra_paige_09_04_2014_video",
+    "brian_fair_09_04_2014_video",
+    "udo_dirkschneider_09_04_2014_video",
+    "max_cavalera_09_04_2014_video",
+    "joey_belladonna_09_04_2014_video",
+    "zakk_wylde_09_04_2014_video"
+  ]
+}
