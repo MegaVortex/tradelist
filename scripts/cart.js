@@ -207,13 +207,13 @@ document.querySelectorAll('.add-to-cart').forEach(btn => {
         if (exists) {
             cart = cart.filter(s => s.fileSlug !== fileSlug);
             btn.innerHTML = '➕';
-            btn.classList.remove('btn-outline-danger'); // Corrected class
+            btn.classList.remove('btn-outline-danger');
             btn.classList.add('btn-outline-success');
         } else {
             cart.push(show);
             btn.innerHTML = '❌';
             btn.classList.remove('btn-outline-success');
-            btn.classList.add('btn-outline-danger'); // Corrected class
+            btn.classList.add('btn-outline-danger');
         }
 
         setCart(cart);
@@ -271,7 +271,7 @@ document.getElementById('send-cart').addEventListener('click', async () => {
                 source += ' Show 2';
             }
         }
-        if (show.master === true || (show.tapers && show.tapers.length === 1 && show.tapers[0] === "Vortex")) { // Add "MASTER" if relevant
+        if (show.master === true || (show.tapers && show.tapers.length === 1 && show.tapers[0] === "Vortex")) {
             source += ' MASTER';
         }
 
@@ -287,6 +287,7 @@ document.getElementById('send-cart').addEventListener('click', async () => {
 
 
     const body = {
+		access_key: "5031a4e3-3ff8-42ff-9a6d-1d0770b7690d",
         name: formData.get('name'),
         website: formData.get('website'),
         email: formData.get('email'),
@@ -294,7 +295,7 @@ document.getElementById('send-cart').addEventListener('click', async () => {
         urls: urlsContent
     };
 
-    const getformEndpoint = 'https://getform.io/f/allzgkra';
+    const getformEndpoint = 'https://api.web3forms.com/submit';
 
     try {
         const res = await fetch(getformEndpoint, {
@@ -309,7 +310,7 @@ document.getElementById('send-cart').addEventListener('click', async () => {
         if (res.ok) {
             localStorage.removeItem(cartKey);
             alert('📩 Trade request sent successfully! The cart has been cleared.');
-            document.getElementById('cart-form').reset(); // Clear form fields
+            document.getElementById('cart-form').reset();
             renderCartTable();
             updateCartCount();
             const cartModal = bootstrap.Modal.getInstance(document.getElementById('cartModal'));
