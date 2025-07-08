@@ -1,0 +1,115 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - [1998-1999] - USA Live Performances [Compilation]",
+  "created": 1751750099,
+  "lastUpdated": 1751750099,
+  "bands": [
+    "...And You Will Know Us By The Trail Of Dead",
+    "At The Drive-In"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1998"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1999"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "",
+    "state": "",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Live Performances",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.42,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 6233,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "53253768.jpg",
+      "externalId": "1AwDsJE4qfcGRQk98nKc3uTxV9_arlkkY"
+    },
+    {
+      "folder": "60",
+      "filename": "39503121.jpg",
+      "externalId": "1dKRmexDZ2PO9OXbHEsrLaAvtbLdyw6og"
+    },
+    {
+      "folder": "60",
+      "filename": "74821635.jpg",
+      "externalId": "1dgHjosAII9ychEcqKBCGNxALnsTlgd-8"
+    },
+    {
+      "folder": "60",
+      "filename": "87302439.jpg",
+      "externalId": "1cLQyetFojDA3avNUGfs_dCsyI_SmdE48"
+    }
+  ],
+  "parentOf": [
+    "and_you_will_know_us_by_the_trail_of_dead_12_02_1999_video",
+    "and_you_will_know_us_by_the_trail_of_dead_03_09_1999_video",
+    "at_the_drive_in_12_10_1998_video"
+  ],
+  "fileSlug": "various_artists_xx_xx_1998_xx_xx_1999_video_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_xx_xx_1998_xx_xx_1999_video_compilation/"
+}

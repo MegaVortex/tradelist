@@ -1,0 +1,115 @@
+{
+  "originalTitle": "Metallica - [2003] - TV Appearances [Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2003"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2003"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Metallica",
+    "state": "",
+    "country": "-",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "TV Appearances",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.89,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3786,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "56",
+      "filename": "30538319.jpg",
+      "externalId": "1xZw94qKJ0btdngANy3a1kiupwZbqXVi-"
+    },
+    {
+      "folder": "56",
+      "filename": "04947918.jpg",
+      "externalId": "1VVXARIUpCohGnKqf-YYCH9-Xw2qwSbzf"
+    },
+    {
+      "folder": "56",
+      "filename": "34874664.jpg",
+      "externalId": "1DpvxxXf-gHrwy0B0rL5El6szoWBm0JcP"
+    },
+    {
+      "folder": "56",
+      "filename": "62324705.jpg",
+      "externalId": "1MtxxlLQyuTVYIZPFh-amIb9A6Qvu26Qr"
+    }
+  ],
+  "parentOf": [
+    "metallica_31_05_2003_source_2_video",
+    "metallica_29_05_2003_video",
+    "metallica_28_08_2003_video",
+    "metallica_06_11_2003_video",
+    "metallica_16_11_2003_video",
+    "metallica_31_12_2003_video"
+  ],
+  "setlist": []
+}

@@ -1,0 +1,113 @@
+{
+  "originalTitle": "Blur - [1999-2003] - Live Performances [Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Blur"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1999"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2003"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Blur",
+    "state": "",
+    "country": "-",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Live Performances",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.37,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6554,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "11423896.jpg",
+      "externalId": "1PyemBHx2FFfGhFOOTqJR_BHZXLxT3f28"
+    },
+    {
+      "folder": "60",
+      "filename": "39661429.jpg",
+      "externalId": "11Aw7ae7dm_IRGNxJzpjp4j-4hIN-tyq_"
+    },
+    {
+      "folder": "60",
+      "filename": "64656060.jpg",
+      "externalId": "1mrxQ9LxEsXAtnVzGnbDonnTrohZXLjXN"
+    },
+    {
+      "folder": "60",
+      "filename": "51710924.jpg",
+      "externalId": "1-9dHXHmJB_mvQdja63kLHTMIVxIUdSKg"
+    }
+  ],
+  "parentOf": [
+    "blur_19_06_1999_source_2_video",
+    "blur_06_03_2003_video",
+    "blur_28_06_2003_video",
+    "blur_20_10_2003_video"
+  ],
+  "setlist": []
+}

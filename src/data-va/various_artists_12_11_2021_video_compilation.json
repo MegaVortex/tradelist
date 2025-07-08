@@ -19,11 +19,11 @@
   },
   "endDateUnix": 1636675200,
   "location": {
-    "city": "12.11.2021",
-    "state": "",
-    "country": "Daytona Beach",
-    "venue": "FL",
-    "event": "USA - Daytona International Speedway - Welcome To Rockville"
+    "city": "Daytona Beach",
+    "state": "FL",
+    "country": "USA",
+    "venue": "Daytona International Speedway",
+    "event": "Welcome To Rockville"
   },
   "tvChannel": "",
   "showName": "",
@@ -32,14 +32,16 @@
     "video",
     "compilation"
   ],
-  "master": false,
+  "master": true,
   "public": true,
   "ownIdentifier": "HDD#B",
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "",
-  "tapers": [],
+  "tapers": [
+    "Vortex"
+  ],
   "specs": {
     "media": [
       {
@@ -107,5 +109,8 @@
   "parentOf": [
     "pennywise_12_11_2021_video",
     "butcher_babies_12_11_2021_video"
-  ]
+  ],
+  "fileSlug": "various_artists_12_11_2021_video_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_12_11_2021_video_compilation/"
 }

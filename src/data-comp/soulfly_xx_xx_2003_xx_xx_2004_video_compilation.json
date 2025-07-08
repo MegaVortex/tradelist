@@ -1,0 +1,113 @@
+{
+  "originalTitle": "Soulfly - [2003-2004] - Live Performances [Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Soulfly"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2003"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2004"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Soulfly",
+    "state": "",
+    "country": "-",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Live Performances",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.95,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3200,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "68",
+      "filename": "63884029.jpg",
+      "externalId": "1iktcVu3E91BKjhSrV1TlVa-KRjbpXa6j"
+    },
+    {
+      "folder": "68",
+      "filename": "57783366.jpg",
+      "externalId": "1Pwm2D1Wd95645JQCjpaxzQT5erJu3dWK"
+    },
+    {
+      "folder": "68",
+      "filename": "39353752.jpg",
+      "externalId": "10f_KbQb2xG_KvUyuxYALjrX5CKlUZxP_"
+    },
+    {
+      "folder": "68",
+      "filename": "61873059.jpg",
+      "externalId": "1elVNSsF8Lv2EiHulB0aIopIu_acpHKQ_"
+    }
+  ],
+  "parentOf": [
+    "soulfly_23_02_2003_video",
+    "soulfly_23_02_2003_video_misc",
+    "soulfly_07_11_2003_video_misc",
+    "soulfly_02_07_2004_video"
+  ],
+  "setlist": []
+}

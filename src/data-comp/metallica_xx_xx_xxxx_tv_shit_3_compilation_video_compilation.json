@@ -1,0 +1,119 @@
+{
+  "originalTitle": "Metallica - [TV Shit 3 - Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "",
+    "state": "",
+    "country": "",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "TV Shit 3",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.23,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3788,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "77",
+      "filename": "52035127.jpg",
+      "externalId": "11U9jCaXT_V4UWBEGXziZO4uo6FzorE7P"
+    },
+    {
+      "folder": "77",
+      "filename": "93796871.jpg",
+      "externalId": "1d0Sewuz8yFZplsgNxvfJaBRtB0yFFdrO"
+    },
+    {
+      "folder": "77",
+      "filename": "39185672.jpg",
+      "externalId": "1GPEtbbPvVkeXS7sa_OHym0zvKbVRkXCB"
+    },
+    {
+      "folder": "77",
+      "filename": "86081936.jpg",
+      "externalId": "1hlto5GJVjjG42NBykloA4NwADqezptlw"
+    }
+  ],
+  "parentOf": [
+    "metallica_04_09_1996_source_1_video",
+    "metallica_25_01_1993_source_2_video",
+    "metallica_xx_xx_1993_usa_mtv_studios_binge_and_purge_special_misc_video_misc",
+    "metallica_26_08_1995_source_4_video",
+    "metallica_xx_xx_1993_usa_mtv_studios_headbangers_ball_misc_video_misc",
+    "metallica_xx_xx_1996_usa_mtv_rockumentary_misc_video_misc",
+    "metallica_xx_xx_1996_usa_motherload_mtv_news_report_misc_video_misc"
+  ],
+  "setlist": [],
+  "fileSlug": "metallica_xx_xx_xxxx_tv_shit_3_compilation_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/metallica_xx_xx_xxxx_tv_shit_3_compilation_video_compilation/"
+}

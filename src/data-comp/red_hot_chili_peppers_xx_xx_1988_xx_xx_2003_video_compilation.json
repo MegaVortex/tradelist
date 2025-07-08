@@ -1,0 +1,119 @@
+{
+  "originalTitle": "Red Hot Chili Peppers - [1988-2003] - TV Appearances [Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Red Hot Chili Peppers"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1988"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2003"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Red Hot Chili Peppers",
+    "state": "",
+    "country": "-",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "TV Appearances",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.62,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5000,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "81952811.jpg",
+      "externalId": "1e4p59w861M5KKPOON5oo1H4-pYOyYekd"
+    },
+    {
+      "folder": "60",
+      "filename": "70968266.jpg",
+      "externalId": "1VoNZnC_QmtnybHRLGx3msudAJpzVRANz"
+    },
+    {
+      "folder": "60",
+      "filename": "16334071.jpg",
+      "externalId": "1a7upy6l1yUbh9NnWjCk4FxHfuham-vAi"
+    },
+    {
+      "folder": "60",
+      "filename": "47562823.jpg",
+      "externalId": "1VlSNf-wIjJXQzzatwiwnk01s6Vu40V_8"
+    }
+  ],
+  "parentOf": [
+    "red_hot_chili_peppers_xx_12_1988_usa_2hip4tv_show_video",
+    "red_hot_chili_peppers_13_02_1996_video",
+    "red_hot_chili_peppers_24_09_1999_video",
+    "red_hot_chili_peppers_08_12_1999_video",
+    "red_hot_chili_peppers_30_11_2000_video",
+    "red_hot_chili_peppers_01_08_2001_video",
+    "red_hot_chili_peppers_06_06_2002_video",
+    "red_hot_chili_peppers_05_07_2002_video",
+    "red_hot_chili_peppers_20_12_2002_video",
+    "red_hot_chili_peppers_15_02_2003_video"
+  ],
+  "setlist": []
+}

@@ -21,11 +21,11 @@
   },
   "endDateUnix": 1009411200,
   "location": {
-    "city": "27.12.2001",
-    "state": "",
-    "country": "Clifton Park",
-    "venue": "NY",
-    "event": "USA - Northern Lights"
+    "city": "Clifton Park",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Northern Lights",
+    "event": ""
   },
   "tvChannel": "",
   "showName": "",
@@ -111,5 +111,8 @@
     "converge_27_12_2001_source_2_video",
     "shadows_fall_27_12_2001_video",
     "hatebreed_27_12_2001_video"
-  ]
+  ],
+  "fileSlug": "various_artists_27_12_2001_video_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_27_12_2001_video_compilation/"
 }

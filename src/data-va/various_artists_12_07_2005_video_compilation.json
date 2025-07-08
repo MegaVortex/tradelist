@@ -22,11 +22,11 @@
   },
   "endDateUnix": 1121126400,
   "location": {
-    "city": "12.07.2005",
-    "state": "",
-    "country": "Montreal",
-    "venue": "QC",
-    "event": "Canada - El Salon"
+    "city": "Montreal",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "El Salon",
+    "event": ""
   },
   "tvChannel": "",
   "showName": "",
@@ -127,5 +127,8 @@
     "most_precious_blood_12_07_2005_video",
     "bury_your_dead_12_07_2005_video",
     "a_23_07_2005_video"
-  ]
+  ],
+  "fileSlug": "various_artists_12_07_2005_video_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_12_07_2005_video_compilation/"
 }

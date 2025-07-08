@@ -21,11 +21,11 @@
   },
   "endDateUnix": 1086307200,
   "location": {
-    "city": "04.06.2004",
+    "city": "Lisbon",
     "state": "",
-    "country": "Lisbon",
-    "venue": "Portugal",
-    "event": "Parque Da Bella Vista - Rock In Rio"
+    "country": "Portugal",
+    "venue": "Parque Da Bella Vista",
+    "event": "Rock In Rio"
   },
   "tvChannel": "",
   "showName": "",
@@ -111,5 +111,8 @@
     "sepultura_04_06_2004_video",
     "slipknot_04_06_2004_source_1_video",
     "metallica_04_06_2004_source_2_video"
-  ]
+  ],
+  "fileSlug": "various_artists_04_06_2004_video_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_04_06_2004_video_compilation/"
 }

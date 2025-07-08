@@ -1,0 +1,114 @@
+{
+  "originalTitle": "Rammstein - [1997-2005] - TV Appearances [Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1997"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2005"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Rammstein",
+    "state": "",
+    "country": "-",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "TV Appearances",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.66,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3291,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "47515943.jpg",
+      "externalId": "1-XmRJ3cCBNLVZ7sDR1wP8IgTtm9huE8F"
+    },
+    {
+      "folder": "60",
+      "filename": "41890060.jpg",
+      "externalId": "10lq53j0eMTBJaantMgXWnbJSKmFhv-TK"
+    },
+    {
+      "folder": "60",
+      "filename": "52414573.jpg",
+      "externalId": "1-LmXiclZcJvGcsrvtq5Zvv0hYoXT7Ihg"
+    },
+    {
+      "folder": "60",
+      "filename": "37084495.jpg",
+      "externalId": "102ovKwD6xNd-la9h8a8FW18qTlCudl62"
+    }
+  ],
+  "parentOf": [
+    "rammstein_15_05_1997_video",
+    "rammstein_05_07_1997_video",
+    "rammstein_23_10_1997_video",
+    "rammstein_29_05_1998_video",
+    "rammstein_10_06_2005_video"
+  ],
+  "setlist": []
+}

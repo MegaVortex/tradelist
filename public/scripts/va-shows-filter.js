@@ -184,70 +184,79 @@ document.addEventListener('DOMContentLoaded', () => {
         paginateShows();
     });
 
+function paginateShows() {
+    // 1. Get the list of all shows that are currently visible based on the active filters.
+    const rows = [...document.querySelectorAll('.paginated-show')].filter(row => row.style.display !== 'none');
+    const perPage = 100;
+    const controls = document.getElementById('pagination-controls');
 
-    function paginateShows() {
-        const rows = [...document.querySelectorAll('.paginated-show')].filter(row => row.style.display !== 'none');
-        const perPage = 25;
-        const controls = document.getElementById('pagination-controls');
+    // If there are not enough rows to need pagination, hide the controls and exit.
+    if (rows.length <= perPage) {
+        if (controls) controls.innerHTML = '';
+        // Make sure all rows in this small set are visible.
+        rows.forEach(r => r.style.display = '');
+        return;
+    }
 
-        if (rows.length <= perPage) {
-            if (controls) controls.innerHTML = '';
-            rows.forEach(r => r.style.display = ''); // Ensure they are visible if not paginated
+    let currentPage = 1;
+    const totalPages = Math.ceil(rows.length / perPage);
+
+    function showPage(page) {
+        currentPage = page;
+
+        // This is the core fix:
+        // Iterate over the filtered list and decide visibility based only on the current page number.
+        // This is much simpler and avoids the previous conflict.
+        rows.forEach((row, index) => {
+            const isVisible = (index >= (page - 1) * perPage && index < page * perPage);
+            row.style.display = isVisible ? '' : 'none';
+        });
+
+        renderPaginationControls();
+        updateShowCount(); // It's better to update the count after showing the page.
+    }
+
+    function renderPaginationControls() {
+        if (totalPages <= 1) {
+            controls.innerHTML = '';
             return;
         }
 
-        let currentPage = 1;
-        let totalPages = Math.ceil(rows.length / perPage);
+        let html = '<nav><ul class="pagination justify-content-center">';
 
-        function showPage(page) {
-            currentPage = page;
-            rows.forEach((row, i) => {
-                const isVisible = (i >= (page - 1) * perPage && i < page * perPage);
-                // Important: Only change display for paginated rows that are meant to be visible from letter filter
-                if (row.style.display !== 'none') {
-                    row.style.display = isVisible ? '' : 'none';
-                }
-            });
-            renderPaginationControls();
-            updateShowCount();
+        // "Previous" arrow
+        if (currentPage > 1) {
+            html += `<li class="page-item"><a class="page-link" href="#" data-page="${currentPage - 1}">←</a></li>`;
         }
 
-        function renderPaginationControls() {
-            if (totalPages <= 1) {
-                controls.innerHTML = '';
-                return;
-            }
-
-            let html = '<nav><ul class="pagination justify-content-center">';
-
-            if (currentPage > 1) {
-                html += `<li class="page-item"><a class="page-link" href="#" data-page="${currentPage - 1}">←</a></li>`;
-            }
-
-            // Simplified pagination display logic for brevity
-            for (let i = 1; i <= totalPages; i++) {
-                html += `<li class="page-item${i === currentPage ? ' active' : ''}">
-                    <a class="page-link" href="#" data-page="${i}">${i}</a>
-                </li>`;
-            }
-
-            if (currentPage < totalPages) {
-                html += `<li class="page-item"><a class="page-link" href="#" data-page="${currentPage + 1}">→</a></li>`;
-            }
-
-            html += '</ul></nav>';
-            controls.innerHTML = html;
-
-            controls.querySelectorAll('[data-page]').forEach(btn => {
-                btn.addEventListener('click', e => {
-                    e.preventDefault();
-                    const page = parseInt(btn.dataset.page);
-                    showPage(page);
-                });
-            });
+        // Page numbers
+        for (let i = 1; i <= totalPages; i++) {
+            html += `<li class="page-item ${i === currentPage ? 'active' : ''}">
+                <a class="page-link" href="#" data-page="${i}">${i}</a>
+            </li>`;
         }
-        showPage(1);
+
+        // "Next" arrow
+        if (currentPage < totalPages) {
+            html += `<li class="page-item"><a class="page-link" href="#" data-page="${currentPage + 1}">→</a></li>`;
+        }
+
+        html += '</ul></nav>';
+        controls.innerHTML = html;
+
+        // Re-attach event listeners for the new pagination links
+        controls.querySelectorAll('[data-page]').forEach(btn => {
+            btn.addEventListener('click', e => {
+                e.preventDefault();
+                const page = parseInt(btn.dataset.page, 10);
+                showPage(page);
+            });
+        });
     }
+
+    // Initially, show the first page.
+    showPage(1);
+}
     updateShowCount();
     if (!window.selectedBand) {
         paginateShows();

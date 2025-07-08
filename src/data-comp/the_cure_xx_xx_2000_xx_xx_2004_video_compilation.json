@@ -1,0 +1,113 @@
+{
+  "originalTitle": "The Cure - [2000-2004] - TV Appearances [Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "The Cure"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2000"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2004"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "The Cure",
+    "state": "",
+    "country": "-",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "TV Appearances",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.84,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2629,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "47741637.jpg",
+      "externalId": "18YJ3xXTYPtooU7QEQiePK1xR8yjkZhlL"
+    },
+    {
+      "folder": "60",
+      "filename": "39362904.jpg",
+      "externalId": "1yDCPO4HplP-heyYG60-zS23SZQKKpi0D"
+    },
+    {
+      "folder": "60",
+      "filename": "41759463.jpg",
+      "externalId": "1WYXDpNJ8pUnbAIa7VzfS0SRbTPRsOCEC"
+    },
+    {
+      "folder": "60",
+      "filename": "35095145.jpg",
+      "externalId": "1BCmdCOTGVpnwmPFa-NUy5c_agpbzTP0E"
+    }
+  ],
+  "parentOf": [
+    "the_cure_26_02_2000_video",
+    "the_cure_19_09_2003_video",
+    "the_cure_30_04_2004_video",
+    "the_cure_22_05_2004_video"
+  ],
+  "setlist": []
+}

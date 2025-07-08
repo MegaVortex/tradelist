@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
         const rows = [...document.querySelectorAll('.paginated-show')].filter(row => row.style.display !== 'none');
-        const perPage = 25;
+        const perPage = 100;
         if (rows.length <= perPage) {
             const controls = document.getElementById('pagination-controls');
             if (controls) controls.innerHTML = '';

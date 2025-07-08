@@ -1,0 +1,114 @@
+{
+  "originalTitle": "Metallica - [1997] - Re-Load Day In Paris [Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1997"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1997"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Metallica",
+    "state": "",
+    "country": "- Re-Load Day In Paris",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.7,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6419,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO/AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "42768034.jpg",
+      "externalId": "1JJSr2yURxEwKEcOiDwtgDoI-4hCVKlcu"
+    },
+    {
+      "folder": "69",
+      "filename": "38397006.jpg",
+      "externalId": "1ixHhheCdvdhBc2hVcj1XWLbn8l-czZua"
+    },
+    {
+      "folder": "69",
+      "filename": "99420595.jpg",
+      "externalId": "1aDCSn_b0-rnHcj67Z9kFk6ERVKVA815M"
+    },
+    {
+      "folder": "69",
+      "filename": "02951426.jpg",
+      "externalId": "1qynHLTikPuLI3lPBKHxyfDHHyRislWhf"
+    }
+  ],
+  "parentOf": [
+    "metallica_18_11_1997_video_misc",
+    "metallica_18_11_1997_video",
+    "metallica_18_11_1997_video",
+    "metallica_19_11_1997_video_misc",
+    "metallica_xx_11_1997_re_load_promo_tour_misc_video_misc"
+  ],
+  "setlist": []
+}

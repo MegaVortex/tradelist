@@ -21,14 +21,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "xx.07.2001",
+    "city": "",
     "state": "FL",
     "country": "USA",
-    "venue": "MTV News",
-    "event": "Total Request Live"
+    "venue": "",
+    "event": "MTV News"
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "Total Request Live",
   "source": "",
   "category": [
     "misc",
@@ -111,5 +111,8 @@
     "papa_roach_xx_07_2001_fl_usa_mtv_news_total_request_live_misc_video_misc",
     "disturbed_xx_07_2001_fl_usa_mtv_news_total_request_live_misc_video_misc",
     "marilyn_manson_xx_07_2001_fl_usa_mtv_news_total_request_live_misc_video_misc"
-  ]
+  ],
+  "fileSlug": "various_artists_xx_07_2001_misc_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_xx_07_2001_misc_compilation/"
 }

@@ -1,0 +1,187 @@
+{
+  "originalTitle": "Pink Floyd - xx.xx.xxxx - [1967-2005] - TV MISC [Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Pink Floyd"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Pink Floyd",
+    "state": "",
+    "country": "xx.xx.xxxx",
+    "venue": "[1967-2005]",
+    "event": "TV MISC"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.12,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3546,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "97452442.jpg",
+      "externalId": "1K9vnC9PCKfEncKbYeCY0NAPubRG3Thqc"
+    },
+    {
+      "folder": "29",
+      "filename": "01096795.jpg",
+      "externalId": "1Zn24K9kSIK7UQIWmIvZZY-LHtLL8tjXw"
+    },
+    {
+      "folder": "29",
+      "filename": "39894527.jpg",
+      "externalId": "1I33N1yM5vrJ8IPU_g0gx5J022rlKGmeN"
+    },
+    {
+      "folder": "29",
+      "filename": "74763846.jpg",
+      "externalId": "1avQsyGqq-7fClJElrbUVFXjWinG2TIum"
+    }
+  ],
+  "parentOf": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Arnold Layne (1967 promo)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Point Me At The Sky (1968 promo)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Cymbaline (1970 KQED TV show)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Grantchester Meadows (1970 KQED TV show)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "One Of These Days (1972 Ian Emes animation)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Money (1975 backdrop film)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Another Brick In The Wall Part 2 (1979 promo)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "The Fletcher Memorial Home (1983 promo)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Learning To Fly (1987 promo)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "High Hopes (1994 promo)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Comfortably Numb (2005 Live8)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

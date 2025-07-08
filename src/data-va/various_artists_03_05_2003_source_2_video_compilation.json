@@ -24,11 +24,11 @@
   },
   "endDateUnix": 1051920000,
   "location": {
-    "city": "03.05.2003",
-    "state": "",
-    "country": "Universal City",
-    "venue": "CA",
-    "event": "USA - 100 Universal City Plaza - MTV Icon Metallica"
+    "city": "Universal City",
+    "state": "CA",
+    "country": "USA",
+    "venue": "100 Universal City Plaza",
+    "event": "MTV Icon"
   },
   "tvChannel": "MTV",
   "showName": "",
@@ -117,5 +117,8 @@
     "snoop_dogg_03_05_2003_source_2_video",
     "staind_03_05_2003_source_2_video",
     "sum_41_03_05_2003_source_2_video"
-  ]
+  ],
+  "fileSlug": "various_artists_03_05_2003_source_2_video_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_03_05_2003_source_2_video_compilation/"
 }

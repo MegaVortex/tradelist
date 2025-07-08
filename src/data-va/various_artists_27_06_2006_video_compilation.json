@@ -20,11 +20,11 @@
   },
   "endDateUnix": 1151366400,
   "location": {
-    "city": "27.06.2006",
-    "state": "",
-    "country": "Tempe",
-    "venue": "AZ",
-    "event": "USA - The Clubhouse"
+    "city": "Tempe",
+    "state": "AZ",
+    "country": "USA",
+    "venue": "The Clubhouse",
+    "event": ""
   },
   "tvChannel": "",
   "showName": "",
@@ -112,5 +112,8 @@
     "darkest_hour_27_06_2006_video",
     "zao_27_06_2006_video",
     "bleeding_through_27_06_2006_video"
-  ]
+  ],
+  "fileSlug": "various_artists_27_06_2006_video_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_27_06_2006_video_compilation/"
 }

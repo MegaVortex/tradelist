@@ -39,11 +39,11 @@
   },
   "endDateUnix": 1367452800,
   "location": {
-    "city": "02.05.2013",
-    "state": "",
-    "country": "Los Angeles",
-    "venue": "CA",
-    "event": "USA - Club Nokia - Revolver Golden Gods Awards"
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Club Nokia",
+    "event": "Revolver Golden Gods Awards"
   },
   "tvChannel": "",
   "showName": "",
@@ -147,5 +147,8 @@
     "deftones_02_05_2013_video_misc",
     "metallica_02_05_2013_video",
     "heavens_basement_02_05_2013_video_misc"
-  ]
+  ],
+  "fileSlug": "various_artists_02_05_2013_video_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_02_05_2013_video_compilation/"
 }

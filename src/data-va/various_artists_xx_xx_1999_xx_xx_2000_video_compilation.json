@@ -23,7 +23,7 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "[Philadelphia-Fallsington]",
+    "city": "",
     "state": "PA",
     "country": "USA",
     "venue": "",
@@ -42,7 +42,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "",
+  "notes": "Philadelphia, Fallsington.",
   "tapers": [],
   "specs": {
     "media": [
@@ -115,5 +115,8 @@
     "orchid_16_01_2000_video",
     "joshua_fit_for_battle_04_02_2000_video",
     "a_life_once_lost_04_02_2000_video"
-  ]
+  ],
+  "fileSlug": "various_artists_xx_xx_1999_xx_xx_2000_video_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_xx_xx_1999_xx_xx_2000_video_compilation/"
 }

@@ -24,11 +24,11 @@
   },
   "endDateUnix": 1018742400,
   "location": {
-    "city": "14.04.2002",
-    "state": "",
-    "country": "Los Angeles",
-    "venue": "CA",
-    "event": "USA - Culver City Studios - MTV Icon"
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Culver City Studios",
+    "event": "MTV Icon"
   },
   "tvChannel": "MTV",
   "showName": "",
@@ -117,5 +117,8 @@
     "shakira_14_04_2002_video",
     "p_nk_14_04_2002_video",
     "aerosmith_14_04_2002_video"
-  ]
+  ],
+  "fileSlug": "various_artists_14_04_2002_video_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_14_04_2002_video_compilation/"
 }

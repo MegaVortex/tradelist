@@ -1,0 +1,119 @@
+{
+  "originalTitle": "Nirvana - [1994] - 94 PROject [Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1994"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1994"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Nirvana",
+    "state": "",
+    "country": "- 94 PROject",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "Martin Behling",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.83,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3479,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "de",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "14483888.jpg",
+      "externalId": "1E6drWeHnRaTHohL2_tkSZCt0w9eCxids"
+    },
+    {
+      "folder": "80",
+      "filename": "53175127.jpg",
+      "externalId": "1aWZrGyKI2I5ViOFbLKSl-aXEuApfxHx4"
+    },
+    {
+      "folder": "80",
+      "filename": "32789728.jpg",
+      "externalId": "1BE0cxfjZYupY6JPGg4O-goT_fdGC7049"
+    },
+    {
+      "folder": "80",
+      "filename": "80830103.jpg",
+      "externalId": "1gY8jncb5R2jQUA2cxIo_QSa8Yg_LI-GM"
+    }
+  ],
+  "parentOf": [
+    "nirvana_08_01_1994_video",
+    "nirvana_02_04_1994_source_4_video",
+    "nirvana_02_04_1994_source_5_video",
+    "nirvana_06_02_1994_source_5_video",
+    "nirvana_06_02_1994_source_6_video",
+    "nirvana_14_02_1994_source_2_video",
+    "nirvana_22_02_1994_source_2_video",
+    "nirvana_23_02_1994_source_2_video",
+    "nirvana_27_02_1994_source_3_video",
+    "nirvana_01_03_1994_source_4_video"
+  ],
+  "setlist": []
+}

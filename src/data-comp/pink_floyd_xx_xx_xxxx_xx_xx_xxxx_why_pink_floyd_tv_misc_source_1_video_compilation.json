@@ -1,0 +1,222 @@
+{
+  "originalTitle": "Pink Floyd - xx.xx.xxxx - Why Pink Floyd - TV MISC [Compilation] (Source 1)",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Pink Floyd"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Pink Floyd",
+    "state": "",
+    "country": "xx.xx.xxxx",
+    "venue": "Why Pink Floyd",
+    "event": "TV MISC"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.4,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3737,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "38",
+      "filename": "04199645.jpg",
+      "externalId": "1xG4pqYZxLuumW0cApvC-7QNuS8c-J8M9"
+    },
+    {
+      "folder": "38",
+      "filename": "54953466.jpg",
+      "externalId": "1_bta3xrhqFK3o5Fv7gV9gv-pui3FSdL6"
+    },
+    {
+      "folder": "38",
+      "filename": "80685143.jpg",
+      "externalId": "10u7D1RxuB1z2cYncHblMB7dkmL_cESLX"
+    },
+    {
+      "folder": "38",
+      "filename": "39216850.jpg",
+      "externalId": "1crBmHOxQ79AvkiMi8P6X8wIs0PI9R5fW"
+    }
+  ],
+  "parentOf": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Why Pink Floyd? (EPK)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Dark Side Of The Moon (AD1)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Dark Side Of The Moon ('Walk Through')",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Wish You Were Here (official trailer)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Wish You Were Here (AD USA version)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Wish You Were Here (AD French version)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Wish You Were Here (AD UK version)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "The Wall (immersion trailer)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "The Wall (immersion AD UK version)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "The Wall (immersion AD French version)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "A Foot In The Door (AD UK TV)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Breaking News (AD)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Battersea Recreation",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Alternate TV (AD)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "UK Full (AD)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "Q&A - 11.05.2011 - Capitol Studios",
+      "feat": "Nick Mason",
+      "note": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Metallica - [1986-1995] - Early Years Miscellaneous Videos [Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1986"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1995"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Metallica",
+    "state": "",
+    "country": "- Early Years Miscellaneous Videos",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.98,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6893,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "82630988.jpg",
+      "externalId": "1nrHcdQeekuYDDapOBFDLJdev6fH2Xo-Y"
+    },
+    {
+      "folder": "69",
+      "filename": "98034567.jpg",
+      "externalId": "1SHoQn1WDsXMT-5ElUHERb9kkI-EkxNq6"
+    },
+    {
+      "folder": "69",
+      "filename": "14305623.jpg",
+      "externalId": "13SUalB_KrnBCs4YQtUPVuC-Cyi3AOB8C"
+    },
+    {
+      "folder": "69",
+      "filename": "46197374.jpg",
+      "externalId": "1CfsS75w5hIZzwnLOzJnW6Pt3v5FQgrZB"
+    }
+  ],
+  "parentOf": [
+    "metallica_10_10_1988_source_2_video",
+    "metallica_xx_xx_1988_pure_rock_show_japanese_tv_misc_video_misc",
+    "metallica_13_03_1989_video_misc",
+    "metallica_15_06_1986_video_misc",
+    "metallica_xx_xx_1986_music_tomato_show_japanese_tv_misc_video_misc",
+    "metallica_26_08_1995_source_2_video",
+    "metallica_01_06_1989_video_misc"
+  ],
+  "setlist": []
+}

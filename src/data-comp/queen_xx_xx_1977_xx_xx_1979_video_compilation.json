@@ -1,0 +1,122 @@
+{
+  "originalTitle": "Queen - [1977-1979] - Live Performances [Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Queen"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1977"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1979"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Queen",
+    "state": "",
+    "country": "-",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Live Performances",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.67,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5346,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      },
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "8mm",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "61",
+      "filename": "84500055.jpg",
+      "externalId": "1CvR_i2aZzFV9zrfWLFmlBJZpb0Kj50Cs"
+    },
+    {
+      "folder": "61",
+      "filename": "27509215.jpg",
+      "externalId": "1EJck1DrjCDTsJzTIym-YbE7Du56VGsPx"
+    },
+    {
+      "folder": "61",
+      "filename": "72876561.jpg",
+      "externalId": "17JqWNKMQLN-DsmFCtne3oTwDPoPS8Rkk"
+    },
+    {
+      "folder": "61",
+      "filename": "19107997.jpg",
+      "externalId": "1ja0XMmfRaLCfOJ8_8i9cvDg7sQrVNya-"
+    }
+  ],
+  "parentOf": [
+    "queen_26_01_1977_video",
+    "queen_06_02_1977_video",
+    "queen_09_02_1977_video",
+    "queen_28_11_1978_video",
+    "queen_29_01_1979_video",
+    "queen_11_02_1979_video"
+  ],
+  "setlist": []
+}

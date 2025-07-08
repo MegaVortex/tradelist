@@ -24,11 +24,11 @@
   },
   "endDateUnix": 1279238400,
   "location": {
-    "city": "16.07.2010",
-    "state": "",
-    "country": "Phoenix",
-    "venue": "AZ",
-    "event": "USA - Cricket Pavilion - Mayhem Festival"
+    "city": "Phoenix",
+    "state": "AZ",
+    "country": "USA",
+    "venue": "Cricket Pavilion",
+    "event": "Mayhem Festival"
   },
   "tvChannel": "",
   "showName": "",
@@ -45,8 +45,8 @@
   "transferredBy": "",
   "notes": "2 cam mix, such a great shot!",
   "tapers": [
-    "Kelly O&#39;Brien",
-    "Derrell Stanfield"
+    "Kelly",
+    "Derrell"
   ],
   "specs": {
     "media": [
@@ -120,5 +120,8 @@
     "hatebreed_16_07_2010_video",
     "chimaira_16_07_2010_video",
     "atreyu_16_07_2010_video"
-  ]
+  ],
+  "fileSlug": "various_artists_16_07_2010_video_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_16_07_2010_video_compilation/"
 }

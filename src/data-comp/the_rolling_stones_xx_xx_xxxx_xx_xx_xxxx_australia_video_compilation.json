@@ -1,0 +1,145 @@
+{
+  "originalTitle": "The Rolling Stones - xx.xx.xxxx - Australia [Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "The Rolling Stones"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "The Rolling Stones",
+    "state": "",
+    "country": "xx.xx.xxxx",
+    "venue": "Australia",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "This is a compilation of a various TV reports and interviews.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.24,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5947,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "8mm",
+      "finalMediaType": "VHS",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "69591556.jpg",
+      "externalId": "1pGxXZ1VpcKdczvK93udO5lv7gmCFGO5a"
+    },
+    {
+      "folder": "24",
+      "filename": "98532066.jpg",
+      "externalId": "1DZ5Jd9DBWKMPjxAARMWxQH8buXUfP5Ji"
+    },
+    {
+      "folder": "24",
+      "filename": "03072898.jpg",
+      "externalId": "1qt1g19jTFH2tyHgvktHvztN-M3pEXdsI"
+    },
+    {
+      "folder": "24",
+      "filename": "34386294.jpg",
+      "externalId": "1Ahqpn0UxxHimdkVG2CqKltcAx0k3y25K"
+    }
+  ],
+  "parentOf": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "TV Report (xx.xx.1965 - Australia - Big Beat TV)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "TV Report (xx.xx.1969 - Australia)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "TV Report (xx.xx.1973 - Australia)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "TV Report (xx.xx.1995 - Australia)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "TV Report (xx.xx.2003 - Australia)",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

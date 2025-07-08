@@ -23,11 +23,11 @@
   },
   "endDateUnix": 1397001600,
   "location": {
-    "city": "09.04.2014",
+    "city": "Moscow",
     "state": "",
-    "country": "Moscow",
-    "venue": "Russia",
-    "event": "Stadium Live - Metal All Stars"
+    "country": "Russia",
+    "venue": "Stadium Live",
+    "event": "Metal All Stars"
   },
   "tvChannel": "",
   "showName": "",
@@ -39,7 +39,7 @@
   "master": true,
   "public": true,
   "ownIdentifier": "HDD#J",
-  "tradeLabel": "",
+  "tradeLabel": "RT",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "Good recording!",
@@ -117,5 +117,8 @@
     "max_cavalera_09_04_2014_video",
     "joey_belladonna_09_04_2014_video",
     "zakk_wylde_09_04_2014_video"
-  ]
+  ],
+  "fileSlug": "various_artists_09_04_2014_video_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_09_04_2014_video_compilation/"
 }

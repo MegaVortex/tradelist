@@ -20,13 +20,13 @@
   },
   "endDateUnix": 1338768000,
   "location": {
-    "city": "04.06.2012",
+    "city": "London",
     "state": "",
-    "country": "London",
-    "venue": "England",
-    "event": "Buckingham Palace - The Queens Diamond Jubilee Celebration"
+    "country": "England",
+    "venue": "Buckingham Palace",
+    "event": "The Queens Diamond Jubilee Celebration"
   },
-  "tvChannel": "",
+  "tvChannel": "BBC",
   "showName": "",
   "source": "",
   "category": [
@@ -39,7 +39,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "BBC broadcast.",
+  "notes": "",
   "tapers": [],
   "specs": {
     "media": [
@@ -119,5 +119,8 @@
     "elton_john_04_06_2012_source_2_video",
     "stevie_wonder_04_06_2012_source_2_video",
     "paul_mccartney_04_06_2012_source_2_video"
-  ]
+  ],
+  "fileSlug": "various_artists_04_06_2012_video_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_04_06_2012_video_compilation/"
 }

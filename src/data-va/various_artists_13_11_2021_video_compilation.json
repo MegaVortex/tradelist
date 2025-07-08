@@ -21,11 +21,11 @@
   },
   "endDateUnix": 1636761600,
   "location": {
-    "city": "13.11.2021",
-    "state": "",
-    "country": "Daytona Beach",
-    "venue": "FL",
-    "event": "USA - Daytona International Speedway - Welcome To Rockville"
+    "city": "Daytona Beach",
+    "state": "FL",
+    "country": "USA",
+    "venue": "Daytona International Speedway",
+    "event": "Welcome To Rockville"
   },
   "tvChannel": "",
   "showName": "",
@@ -34,14 +34,16 @@
     "video",
     "compilation"
   ],
-  "master": false,
+  "master": true,
   "public": true,
   "ownIdentifier": "HDD#B",
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "",
-  "tapers": [],
+  "tapers": [
+    "Vortex"
+  ],
   "specs": {
     "media": [
       {
@@ -111,5 +113,8 @@
     "asking_alexandria_13_11_2021_video",
     "lamb_of_god_13_11_2021_video",
     "staind_13_11_2021_video"
-  ]
+  ],
+  "fileSlug": "various_artists_13_11_2021_video_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_13_11_2021_video_compilation/"
 }

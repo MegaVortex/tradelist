@@ -1,0 +1,137 @@
+{
+  "originalTitle": "Slade - xx.xx.1971 - Alive [Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Slade"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1971"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1971"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Slade",
+    "state": "",
+    "country": "xx.xx.1971",
+    "venue": "Alive",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 410,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 568,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "8mm",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "slade_04_08_1975_san_francisco_ca_usa_winterland_video",
+    "slade_21_07_1975_new_york_ny_usa_central_park_wollman_skating_rink_schaeffer_festival_video",
+    "slade_xx_12_1971_brussells_belgium_pop_deux_studios_pop_shop_video",
+    "slade_28_01_1973_sydney_australia_randwick_racecourse_video",
+    "slade_28_11_1974_munich_germany_circus_krone_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "87041779.jpg",
+      "externalId": "1HUdvf0SdUEjmBTcpNIRjXUyymkOaAMLn"
+    },
+    {
+      "folder": "19",
+      "filename": "71103579.jpg",
+      "externalId": "1QOa_YIqb6aOQ6nrfpRPHcXE9X0tcr5WL"
+    },
+    {
+      "folder": "19",
+      "filename": "66328282.jpg",
+      "externalId": "1NGkZv1Kq0EfrVkOV-7IgbkEeoZomDKQ1"
+    },
+    {
+      "folder": "19",
+      "filename": "88148266.jpg",
+      "externalId": "1duzKmsB3L3Kp7VBMUMpQYsbR4jz74iwr"
+    }
+  ],
+  "parentOf": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Live Footage",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Sweet Little Rock 'N' Roller",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Sweet Box",
+      "feat": "",
+      "note": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

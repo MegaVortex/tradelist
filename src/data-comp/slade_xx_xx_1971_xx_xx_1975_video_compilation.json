@@ -1,0 +1,115 @@
+{
+  "originalTitle": "Slade - [1971-1975] - Live Performances [Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Slade"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1971"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1975"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Slade",
+    "state": "",
+    "country": "-",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Live Performances",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.17,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 7396,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "8mm",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "61",
+      "filename": "81713609.jpg",
+      "externalId": "1F7-04Kd8L0FpkEtZyfl2qxGnjSLzMw3B"
+    },
+    {
+      "folder": "61",
+      "filename": "96978062.jpg",
+      "externalId": "1dCM12ONKQc8ERuDAF_Ghy981WrpRLtNC"
+    },
+    {
+      "folder": "61",
+      "filename": "40084980.jpg",
+      "externalId": "1xXM8gTQPVvows7Xh7YLb6fUFKc9tpXV1"
+    },
+    {
+      "folder": "61",
+      "filename": "28742775.jpg",
+      "externalId": "1uNxBc1j69QLW4vV1DcccsWFc4lGTzJQy"
+    }
+  ],
+  "parentOf": [
+    "slade_28_11_1974_video",
+    "slade_04_08_1975_video",
+    "slade_21_07_1975_video",
+    "slade_xx_12_1971_brussells_belgium_pop_deux_studios_pop_shop_source_1_video",
+    "slade_28_01_1973_video",
+    "slade_xx_xx_1971_alive_compilation_video_compilation"
+  ],
+  "setlist": []
+}

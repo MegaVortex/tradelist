@@ -1,0 +1,118 @@
+{
+  "originalTitle": "Queens Of The Stone Age - [2001-2003] - TV Appearances [Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2001"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2003"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Queens Of The Stone Age",
+    "state": "",
+    "country": "-",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "TV Appearances",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.88,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6979,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "34185348.jpg",
+      "externalId": "1XFUBcSUa8aSX-3KzSutss6AVAx7CWOg-"
+    },
+    {
+      "folder": "70",
+      "filename": "09565826.jpg",
+      "externalId": "1i1c5nEg6tvDoc9zMJapUj7eWygqiZqpC"
+    },
+    {
+      "folder": "70",
+      "filename": "81816840.jpg",
+      "externalId": "1Bx2_x63FJSfFH1rJsRAMN6lI4s28Vsrm"
+    },
+    {
+      "folder": "70",
+      "filename": "86300975.jpg",
+      "externalId": "19iVOlcIWFseBs6djXdNqGT0N7nhZQaur"
+    }
+  ],
+  "parentOf": [
+    "queens_of_the_stone_age_26_01_2001_source_2_video",
+    "queens_of_the_stone_age_27_10_2002_video",
+    "queens_of_the_stone_age_04_10_2002_source_2_video",
+    "queens_of_the_stone_age_20_01_2003_video_misc",
+    "queens_of_the_stone_age_23_01_2003_video",
+    "queens_of_the_stone_age_19_01_2003_video_misc",
+    "queens_of_the_stone_age_19_01_2003_source_2_video",
+    "queens_of_the_stone_age_26_08_2001_video",
+    "queens_of_the_stone_age_25_08_2001_video"
+  ],
+  "setlist": []
+}

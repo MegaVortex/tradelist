@@ -1,0 +1,114 @@
+{
+  "originalTitle": "Pink Floyd - [1969-1972] - TV Appearances [Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Pink Floyd"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1969"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1972"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Pink Floyd",
+    "state": "",
+    "country": "-",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "TV Appearances",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.35,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4593,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "8mm",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "76682142.jpg",
+      "externalId": "1mFAnYbImUST1cC6y9-0FSoYnZ2xCfiJ7"
+    },
+    {
+      "folder": "60",
+      "filename": "43455186.jpg",
+      "externalId": "176QHq-0ijHIxKQbyUO8INAL9jzJ86dW5"
+    },
+    {
+      "folder": "60",
+      "filename": "03871257.jpg",
+      "externalId": "1CW_nWl1idPhfBC0bpmQwIXsW1dzryKo0"
+    },
+    {
+      "folder": "60",
+      "filename": "27580488.jpg",
+      "externalId": "1JnD6RVFVMvs6NDDdjL1ozafLnotz7BC7"
+    }
+  ],
+  "parentOf": [
+    "pink_floyd_25_10_1969_video",
+    "pink_floyd_28_06_1970_video",
+    "pink_floyd_15_06_1971_source_2_video",
+    "pink_floyd_28_06_1972_video",
+    "pink_floyd_29_06_1972_video"
+  ],
+  "setlist": []
+}

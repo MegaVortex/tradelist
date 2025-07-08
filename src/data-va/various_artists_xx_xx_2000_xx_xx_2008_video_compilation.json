@@ -19,7 +19,7 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "[Compilation]",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
@@ -121,5 +121,8 @@
     "audioslave_22_11_2005_video",
     "chris_cornell_08_08_2008_video",
     "chris_cornell_20_11_2008_video"
-  ]
+  ],
+  "fileSlug": "various_artists_xx_xx_2000_xx_xx_2008_video_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_xx_xx_2000_xx_xx_2008_video_compilation/"
 }

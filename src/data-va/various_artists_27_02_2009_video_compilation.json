@@ -20,11 +20,11 @@
   },
   "endDateUnix": 1235692800,
   "location": {
-    "city": "27.02.2009",
-    "state": "",
-    "country": "Atlanta",
-    "venue": "GA",
-    "event": "USA - Criminal Records"
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "venue": "Criminal Records",
+    "event": ""
   },
   "tvChannel": "",
   "showName": "",
@@ -112,5 +112,8 @@
     "kylesa_27_02_2009_video",
     "skeletonwitch_27_02_2009_video",
     "withered_27_02_2009_video"
-  ]
+  ],
+  "fileSlug": "various_artists_27_02_2009_video_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_27_02_2009_video_compilation/"
 }

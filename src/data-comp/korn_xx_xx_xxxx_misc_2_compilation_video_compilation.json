@@ -1,0 +1,123 @@
+{
+  "originalTitle": "Korn - [MISC 2 - Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": 1995
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": 2007
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "",
+    "state": "",
+    "country": "",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "MISC 2",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.88,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5224,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "49319305.jpg",
+      "externalId": "1nr8JFo0XyJm6_U3OU8R69cTBzwTsFVFg"
+    },
+    {
+      "folder": "60",
+      "filename": "83345406.jpg",
+      "externalId": "1RnTaVlp24aF8D-ID-lvRpXBA6kD_lC6a"
+    },
+    {
+      "folder": "60",
+      "filename": "37564175.jpg",
+      "externalId": "1kjkTaaz7FEnkrzk1r4Kk3De0nAb53ZBE"
+    },
+    {
+      "folder": "60",
+      "filename": "96853241.jpg",
+      "externalId": "1gCxgOYLN5Sv1t8Pm-RmMqHW9-kdDbsGe"
+    }
+  ],
+  "parentOf": [
+    "korn_xx_xx_1995_carbondale_il_usa_mtv_studios_mtv_latin_spc_tv_misc_video_misc",
+    "korn_28_02_1996_source_1_video",
+    "korn_14_11_1998_video",
+    "korn_14_03_1999_video_misc",
+    "korn_xx_xx_2000_loud_times_misc_video_misc",
+    "korn_09_08_2003_video_misc",
+    "korn_31_01_2004_source_2_video",
+    "korn_20_04_2006_video",
+    "korn_xx_02_2007_usa_tv_guide_misc_video_misc",
+    "korn_01_03_2007_source_2_video",
+    "korn_30_03_2007_source_1_video"
+  ],
+  "setlist": [],
+  "fileSlug": "korn_xx_xx_xxxx_misc_2_compilation_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/korn_xx_xx_xxxx_misc_2_compilation_video_compilation/"
+}

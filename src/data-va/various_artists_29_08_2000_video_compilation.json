@@ -19,11 +19,11 @@
   },
   "endDateUnix": 967507200,
   "location": {
-    "city": "29.08.2000",
-    "state": "",
-    "country": "New York",
-    "venue": "NY",
-    "event": "USA - CBGB"
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "CBGB",
+    "event": ""
   },
   "tvChannel": "",
   "showName": "",
@@ -107,5 +107,8 @@
   "parentOf": [
     "cephalic_carnage_29_08_2000_video",
     "burnt_by_the_sun_29_08_2000_video"
-  ]
+  ],
+  "fileSlug": "various_artists_29_08_2000_video_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_29_08_2000_video_compilation/"
 }

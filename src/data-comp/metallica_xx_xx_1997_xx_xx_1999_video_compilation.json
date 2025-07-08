@@ -1,0 +1,120 @@
+{
+  "originalTitle": "Metallica - [1997-1999] - TV Appearances [Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1997"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1999"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Metallica",
+    "state": "",
+    "country": "-",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "TV Appearances",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.13,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4108,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "59",
+      "filename": "89182312.jpg",
+      "externalId": "1C6AS5ja3XjpaP_7qx3L_1qr0yXzEYXUG"
+    },
+    {
+      "folder": "59",
+      "filename": "45702759.jpg",
+      "externalId": "1uVQCT1Vqiq1sMLIf6iilA5sRw6OvQy9C"
+    },
+    {
+      "folder": "59",
+      "filename": "33741067.jpg",
+      "externalId": "1Fw0qe0PslBAIwBy3RYqhIAg6Xb2IJwiF"
+    },
+    {
+      "folder": "59",
+      "filename": "36965623.jpg",
+      "externalId": "1P8WSm_E5dO8L-A7rXcrt4ipMBb1pYACx"
+    }
+  ],
+  "parentOf": [
+    "metallica_27_01_1997_video",
+    "metallica_06_12_1997_source_4_video",
+    "metallica_21_05_1999_source_2_video",
+    "metallica_27_01_1997_video"
+  ],
+  "setlist": []
+}

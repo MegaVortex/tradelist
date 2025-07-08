@@ -21,14 +21,14 @@
   },
   "endDateUnix": 1309651200,
   "location": {
-    "city": "03.07.2011",
+    "city": "Goteborg",
     "state": "",
-    "country": "Goteborg",
-    "venue": "Sweden",
-    "event": "Ullevi - The Big Four"
+    "country": "Sweden",
+    "venue": "Ullevi",
+    "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "The Big Four",
   "source": "",
   "category": [
     "video",
@@ -111,5 +111,8 @@
     "megadeth_03_07_2011_video",
     "slayer_03_07_2011_video",
     "metallica_03_07_2011_source_1_video"
-  ]
+  ],
+  "fileSlug": "various_artists_03_07_2011_video_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_03_07_2011_video_compilation/"
 }

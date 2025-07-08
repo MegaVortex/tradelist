@@ -32,7 +32,7 @@ permalink: "/comp/"
    </thead>
    <tbody>
       {% for show in allShowData.publicCompilationShows %}
-      <tr class="paginated-show" data-band="{{ show.bands | join('|||') }}">
+      <tr class="paginated-show" data-band="{{ show.bands | join('|||') }}" data-title="{{ show.showName | escape }}">
          <td>
             {% if show.bands and show.bands.length %}
             {% set bands = show.bands %}
@@ -243,7 +243,7 @@ permalink: "/comp/"
             {% endif %}
       </tr>
       {% endfor %}
-	  <script src="{{ '/scripts/va-shows-filter.js' | url }}"></script>
+	  <script src="{{ '/scripts/comp-shows-filter.js' | url }}"></script>
    </tbody>
 </table>
 {% include "modals/json-editor-modal.njk" %}
@@ -252,7 +252,7 @@ permalink: "/comp/"
 <script src="{{ '/scripts/hammer.min.js' | url }}"></script>
 {% include "modals/cart-modal.njk" %}
 {% include "modals/image-modal.njk" %}
-<script src="{{ '/scripts/shows-table.js' | url }}"></script>
+<script src="{{ '/scripts/comp-shows-table.js' | url }}"></script>
 <script src="{{ '/scripts/cart.js' | url }}"></script>
 <script src="{{ '/scripts/image-modal-viewer.js' | url }}"></script>
 <script src="{{ '/scripts/media-extras-toggle.js' | url }}"></script>

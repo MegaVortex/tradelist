@@ -20,11 +20,11 @@
   },
   "endDateUnix": 1081036800,
   "location": {
-    "city": "04.04.2004",
-    "state": "",
-    "country": "Charlotte",
-    "venue": "NC",
-    "event": "USA - Tremont Music Hall"
+    "city": "Charlotte",
+    "state": "NC",
+    "country": "USA",
+    "venue": "Tremont Music Hall",
+    "event": ""
   },
   "tvChannel": "",
   "showName": "",
@@ -109,5 +109,8 @@
     "as_i_lay_dying_04_04_2004_video",
     "every_time_i_die_04_04_2004_video",
     "the_black_dahlia_murder_04_04_2004_video"
-  ]
+  ],
+  "fileSlug": "various_artists_04_04_2004_video_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_04_04_2004_video_compilation/"
 }
