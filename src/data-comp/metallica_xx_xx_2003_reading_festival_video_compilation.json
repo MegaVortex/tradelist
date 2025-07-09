@@ -18,11 +18,11 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Metallica",
+    "city": "",
     "state": "",
-    "country": "- Reading Festival &",
+    "country": "",
     "venue": "",
-    "event": ""
+    "event": "Reading Festival"
   },
   "tvChannel": "",
   "showName": "TV Appearances",
@@ -121,5 +121,8 @@
     "metallica_16_06_2003_source_2_video",
     "metallica_28_06_2003_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "metallica_xx_xx_2003_reading_festival_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/metallica_xx_xx_2003_reading_festival_video_compilation/"
 }

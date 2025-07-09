@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Sweet",
+    "city": "",
     "state": "",
-    "country": "xx.xx.xxxx",
-    "venue": "The Rock Years Vol 2",
+    "country": "",
+    "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "The Rock Years Vol 2",
   "source": "",
   "category": [
     "video",
@@ -142,9 +142,9 @@
     },
     {
       "order": 6,
-      "song": "Someone Else Will (private film)",
+      "song": "Someone Else Will",
       "feat": "",
-      "note": "",
+      "note": "private film",
       "coverOf": ""
     },
     {
@@ -179,17 +179,20 @@
   "extras": [
     {
       "order": 1,
-      "song": "Teenage Rampage (Crackerjack)",
+      "song": "Teenage Rampage",
       "feat": "",
-      "note": "",
+      "note": "Crackerjack",
       "coverOf": ""
     },
     {
       "order": 2,
-      "song": "The Sixteens (Lift Off)",
+      "song": "The Sixteens",
       "feat": "",
-      "note": "",
+      "note": "Lift Off",
       "coverOf": ""
     }
-  ]
+  ],
+  "fileSlug": "sweet_xx_xx_xxxx_xx_xx_xxxx_the_rock_years_vol_2_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/sweet_xx_xx_xxxx_xx_xx_xxxx_the_rock_years_vol_2_video_compilation/"
 }

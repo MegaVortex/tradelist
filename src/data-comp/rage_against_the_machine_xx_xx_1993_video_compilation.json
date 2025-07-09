@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Rage Against The Machine",
+    "city": "",
     "state": "",
-    "country": "-",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -109,5 +109,8 @@
     "rage_against_the_machine_xx_xx_1993_mtv_news_rave_on_misc_video_misc",
     "rage_against_the_machine_04_06_1993_source_1_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "rage_against_the_machine_xx_xx_1993_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/rage_against_the_machine_xx_xx_1993_video_compilation/"
 }

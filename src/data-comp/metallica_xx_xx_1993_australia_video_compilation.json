@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Metallica",
+    "city": "",
     "state": "",
-    "country": "- Australia",
+    "country": "Australia",
     "venue": "",
     "event": ""
   },
@@ -73,7 +73,7 @@
       }
     ],
     "sourceDetail": {
-      "recordingType": "AMT/PRO",
+      "recordingType": "PRO",
       "sourceMediaType": "VHS",
       "finalMediaType": "",
       "fileFormat": "DVD"
@@ -108,5 +108,8 @@
     "metallica_xx_xx_1993_rage_tv_special_misc_video_misc",
     "metallica_xx_xx_1993_australia_mollys_melodrama_misc_video_misc"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "metallica_xx_xx_1993_australia_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/metallica_xx_xx_1993_australia_video_compilation/"
 }

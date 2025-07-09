@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Metallica",
+    "city": "",
     "state": "",
-    "country": "-",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -116,5 +116,8 @@
     "metallica_21_05_1999_source_2_video",
     "metallica_27_01_1997_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "metallica_xx_xx_1997_xx_xx_1999_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/metallica_xx_xx_1997_xx_xx_1999_video_compilation/"
 }

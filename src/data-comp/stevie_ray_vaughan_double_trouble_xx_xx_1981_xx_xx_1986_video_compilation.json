@@ -19,9 +19,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Stevie Ray Vaughan & Double Trouble",
+    "city": "",
     "state": "",
-    "country": "-",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -119,5 +119,8 @@
     "stevie_ray_vaughan_double_trouble_16_03_1986_video",
     "stevie_ray_vaughan_xx_xx_1985_mtv_rock_influences_misc_video_misc"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "stevie_ray_vaughan_double_trouble_xx_xx_1981_xx_xx_1986_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/stevie_ray_vaughan_double_trouble_xx_xx_1981_xx_xx_1986_video_compilation/"
 }

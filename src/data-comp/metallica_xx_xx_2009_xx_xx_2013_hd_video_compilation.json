@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Metallica",
+    "city": "",
     "state": "",
-    "country": "- HD",
+    "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "TV Appearances",
+  "showName": "HD TV Appearances",
   "source": "",
   "category": [
     "video",
@@ -113,5 +113,8 @@
     "metallica_02_08_2009_source_2_video",
     "metallica_04_04_2009_source_3_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "metallica_xx_xx_2009_xx_xx_2013_hd_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/metallica_xx_xx_2009_xx_xx_2013_hd_video_compilation/"
 }

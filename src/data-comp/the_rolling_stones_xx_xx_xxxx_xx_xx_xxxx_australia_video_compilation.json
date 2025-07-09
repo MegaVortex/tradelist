@@ -8,20 +8,20 @@
   "startDate": {
     "day": "",
     "month": "",
-    "year": ""
+    "year": 1965
   },
   "startDateUnix": null,
   "endDate": {
     "day": "",
     "month": "",
-    "year": ""
+    "year": 2003
   },
   "endDateUnix": null,
   "location": {
-    "city": "The Rolling Stones",
+    "city": "",
     "state": "",
-    "country": "xx.xx.xxxx",
-    "venue": "Australia",
+    "country": "Australia",
+    "venue": "",
     "event": ""
   },
   "tvChannel": "",
@@ -107,39 +107,42 @@
   "setlist": [
     {
       "order": 1,
-      "song": "TV Report (xx.xx.1965 - Australia - Big Beat TV)",
+      "song": "TV Report",
       "feat": "",
-      "note": "",
+      "note": "1965 - Australia - Big Beat TV",
       "coverOf": ""
     },
     {
       "order": 2,
-      "song": "TV Report (xx.xx.1969 - Australia)",
+      "song": "TV Report",
       "feat": "",
-      "note": "",
+      "note": "1969 - Australia",
       "coverOf": ""
     },
     {
       "order": 3,
-      "song": "TV Report (xx.xx.1973 - Australia)",
+      "song": "TV Report",
       "feat": "",
-      "note": "",
+      "note": "1973 - Australia",
       "coverOf": ""
     },
     {
       "order": 4,
-      "song": "TV Report (xx.xx.1995 - Australia)",
+      "song": "TV Report",
       "feat": "",
-      "note": "",
+      "note": "1995 - Australia",
       "coverOf": ""
     },
     {
       "order": 5,
-      "song": "TV Report (xx.xx.2003 - Australia)",
+      "song": "TV Report",
       "feat": "",
-      "note": "",
+      "note": "2003 - Australia",
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "the_rolling_stones_xx_xx_xxxx_xx_xx_xxxx_australia_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/the_rolling_stones_xx_xx_xxxx_xx_xx_xxxx_australia_video_compilation/"
 }

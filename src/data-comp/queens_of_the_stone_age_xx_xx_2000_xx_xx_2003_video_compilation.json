@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Queens Of The Stone Age",
+    "city": "",
     "state": "",
-    "country": "-",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -112,5 +112,8 @@
     "queens_of_the_stone_age_23_04_2003_video",
     "queens_of_the_stone_age_22_05_2003_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "queens_of_the_stone_age_xx_xx_2000_xx_xx_2003_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/queens_of_the_stone_age_xx_xx_2000_xx_xx_2003_video_compilation/"
 }

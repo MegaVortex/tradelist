@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Pantera",
+    "city": "",
     "state": "",
-    "country": "- Official 5 Live",
+    "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Official 5 Live",
   "source": "",
   "category": [
     "video",
@@ -110,5 +110,8 @@
     "pantera_12_09_1992_source_2_video",
     "pantera_02_09_2000_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "pantera_xx_xx_1992_xx_xx_2000_official_5_live_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/pantera_xx_xx_1992_xx_xx_2000_official_5_live_video_compilation/"
 }

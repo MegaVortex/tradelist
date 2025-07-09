@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Sweet",
+    "city": "",
     "state": "",
-    "country": "xx.xx.1993",
-    "venue": "Gold",
-    "event": "12 Super Hits And More"
+    "country": "",
+    "venue": "",
+    "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "12 Super Hits And More",
   "source": "",
   "category": [
     "video",
@@ -37,7 +37,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "",
+  "notes": "Gold.",
   "tapers": [],
   "specs": {
     "media": [
@@ -114,86 +114,86 @@
     },
     {
       "order": 2,
-      "song": "Blockbuster (Top Of The Pops)",
+      "song": "Blockbuster",
       "feat": "",
-      "note": "",
+      "note": "Top Of The Pops",
       "coverOf": ""
     },
     {
       "order": 3,
-      "song": "Co-Co (Top Of The Pops)",
+      "song": "Co-Co",
       "feat": "",
-      "note": "",
+      "note": "Top Of The Pops",
       "coverOf": ""
     },
     {
       "order": 4,
-      "song": "Lies In Your Eyes (Supersonic)",
+      "song": "Lies In Your Eyes",
       "feat": "",
-      "note": "",
+      "note": "Supersonic",
       "coverOf": ""
     },
     {
       "order": 5,
-      "song": "Hell Raiser (21.12.1973 - Rainbow Theatre)",
+      "song": "Hell Raiser",
       "feat": "",
-      "note": "",
+      "note": "1973-12-21 - Rainbow Theatre",
       "coverOf": ""
     },
     {
       "order": 6,
-      "song": "Fox On The Run (Top Of The Pops)",
+      "song": "Fox On The Run",
       "feat": "",
-      "note": "",
+      "note": "Top Of The Pops",
       "coverOf": ""
     },
     {
       "order": 7,
-      "song": "Burn On The Flame (Supersonic)",
+      "song": "Burn On The Flame",
       "feat": "",
-      "note": "",
+      "note": "Supersonic",
       "coverOf": ""
     },
     {
       "order": 8,
-      "song": "Love Is Like Oxygen (Top Of The Pops)",
+      "song": "Love Is Like Oxygen",
       "feat": "",
-      "note": "",
+      "note": "Top Of The Pops",
       "coverOf": ""
     },
     {
       "order": 9,
-      "song": "The Six Teens (England - Granada TV)",
+      "song": "The Six Teens",
       "feat": "",
-      "note": "",
+      "note": "England - Granada TV",
       "coverOf": ""
     },
     {
       "order": 10,
-      "song": "You're Not Wrong For Loving Me (England - Granada TV)",
+      "song": "You're Not Wrong For Loving Me",
       "feat": "",
-      "note": "",
+      "note": "England - Granada TV",
       "coverOf": ""
     },
     {
       "order": 11,
-      "song": "Lady Starlight (England - Granada TV)",
+      "song": "Lady Starlight",
       "feat": "",
-      "note": "",
+      "note": "England - Granada TV",
       "coverOf": ""
     },
     {
       "order": 12,
-      "song": "Tennage Rampage (promo - version 2)",
+      "song": "Tennage Rampage",
       "feat": "",
-      "note": "",
+      "note": "promo - version 2",
       "coverOf": ""
     },
     {
       "order": 13,
-      "song": "Action (Supersonic)",
+      "song": "Action",
       "feat": "",
-      "note": "",
+      "note": "Supersonic",
       "coverOf": ""
     },
     {
@@ -204,5 +204,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "sweet_xx_xx_1993_xx_xx_1993_gold_12_super_hits_and_more_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/sweet_xx_xx_1993_xx_xx_1993_gold_12_super_hits_and_more_video_compilation/"
 }

@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Slade",
+    "city": "",
     "state": "",
-    "country": "-",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -111,5 +111,8 @@
     "slade_28_01_1973_video",
     "slade_xx_xx_1971_alive_compilation_video_compilation"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "slade_xx_xx_1971_xx_xx_1975_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/slade_xx_xx_1971_xx_xx_1975_video_compilation/"
 }

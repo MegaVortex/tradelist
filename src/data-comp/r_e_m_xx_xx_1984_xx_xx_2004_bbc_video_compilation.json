@@ -18,13 +18,13 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "R.E.M.",
+    "city": "",
     "state": "",
-    "country": "- BBC",
+    "country": "",
     "venue": "",
     "event": ""
   },
-  "tvChannel": "",
+  "tvChannel": "BBC",
   "showName": "TV Appearances",
   "source": "",
   "category": [
@@ -117,5 +117,8 @@
     "r_e_m_14_10_2003_video",
     "r_e_m_23_09_2004_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "r_e_m_xx_xx_1984_xx_xx_2004_bbc_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/r_e_m_xx_xx_1984_xx_xx_2004_bbc_video_compilation/"
 }

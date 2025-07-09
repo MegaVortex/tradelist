@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Queen",
+    "city": "",
     "state": "",
-    "country": "-",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -118,5 +118,8 @@
     "queen_29_01_1979_video",
     "queen_11_02_1979_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "queen_xx_xx_1977_xx_xx_1979_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/queen_xx_xx_1977_xx_xx_1979_video_compilation/"
 }

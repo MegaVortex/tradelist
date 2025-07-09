@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Slade",
+    "city": "",
     "state": "",
-    "country": "xx.xx.xxxx",
-    "venue": "One More Time Live Antholgy",
+    "country": "",
+    "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "One More Time Live Antholgy",
   "source": "",
   "category": [
     "video",
@@ -110,9 +110,9 @@
   "setlist": [
     {
       "order": 1,
-      "song": "Martha My Dear (04.11.1969)",
+      "song": "Martha My Dear",
       "feat": "",
-      "note": "",
+      "note": "1969-11-04",
       "coverOf": ""
     },
     {
@@ -131,9 +131,9 @@
     },
     {
       "order": 4,
-      "song": "Everyday (1974)",
+      "song": "Everyday",
       "feat": "",
-      "note": "",
+      "note": 1974,
       "coverOf": ""
     },
     {
@@ -145,16 +145,16 @@
     },
     {
       "order": 6,
-      "song": "Burning In The Heat Of Love (video clip)",
+      "song": "Burning In The Heat Of Love",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
       "order": 7,
-      "song": "I'm A Rocker (Studio)",
+      "song": "I'm A Rocker",
       "feat": "",
-      "note": "",
+      "note": "Studio",
       "coverOf": ""
     },
     {
@@ -166,18 +166,21 @@
     },
     {
       "order": 9,
-      "song": "Little Sheila (video clip)",
+      "song": "Little Sheila",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
       "order": 10,
-      "song": "Wall Of Sound (video clip)",
+      "song": "Wall Of Sound",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slade_xx_xx_xxxx_xx_xx_xxxx_one_more_time_live_antholgy_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/slade_xx_xx_xxxx_xx_xx_xxxx_one_more_time_live_antholgy_video_compilation/"
 }

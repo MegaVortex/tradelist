@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "The Dillinger Escape Plan",
+    "city": "",
     "state": "",
-    "country": "-  [Part 1",
-    "venue": "Compilation]",
+    "country": "",
+    "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "Live Performances",
+  "showName": "Live Performances Part 1",
   "source": "",
   "category": [
     "video",
@@ -109,5 +109,8 @@
     "the_dillinger_escape_plan_20_09_1999_video",
     "the_dillinger_escape_plan_08_04_2000_source_2_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "the_dillinger_escape_plan_xx_xx_1999_xx_xx_2000_part_1_compilation_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/the_dillinger_escape_plan_xx_xx_1999_xx_xx_2000_part_1_compilation_video_compilation/"
 }

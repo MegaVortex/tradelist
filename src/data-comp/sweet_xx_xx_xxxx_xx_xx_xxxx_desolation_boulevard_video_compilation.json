@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Sweet",
+    "city": "",
     "state": "",
-    "country": "xx.xx.xxxx",
-    "venue": "Desolation Boulevard",
+    "country": "",
+    "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Desolation Boulevard",
   "source": "",
   "category": [
     "video",
@@ -107,95 +107,98 @@
   "setlist": [
     {
       "order": 1,
-      "song": "Fox On The Run (TV Rock on 45)",
+      "song": "Fox On The Run",
       "feat": "",
-      "note": "",
+      "note": "TV Rock on 45",
       "coverOf": ""
     },
     {
       "order": 2,
-      "song": "The Sixteens (promo film)",
+      "song": "The Sixteens",
       "feat": "",
-      "note": "",
+      "note": "promo film",
       "coverOf": ""
     },
     {
       "order": 3,
-      "song": "Lady Starlight (TV Supersonic)",
+      "song": "Lady Starlight",
       "feat": "",
-      "note": "",
+      "note": "TV Supersonic",
       "coverOf": ""
     },
     {
       "order": 4,
-      "song": "Breakdown (TV Geordie scene)",
+      "song": "Breakdown",
       "feat": "",
-      "note": "",
+      "note": "TV Geordie scene",
       "coverOf": ""
     },
     {
       "order": 5,
-      "song": "Solid Gold Brass (TV Geordie scene)",
+      "song": "Solid Gold Brass",
       "feat": "",
-      "note": "",
+      "note": "TV Geordie scene",
       "coverOf": ""
     },
     {
       "order": 6,
-      "song": "Turn It Down (TV Geordie scene)",
+      "song": "Turn It Down",
       "feat": "",
-      "note": "",
+      "note": "TV Geordie scene",
       "coverOf": ""
     },
     {
       "order": 7,
-      "song": "Fox On The Run (promo film)",
+      "song": "Fox On The Run",
       "feat": "",
-      "note": "",
+      "note": "promo film",
       "coverOf": ""
     },
     {
       "order": 8,
-      "song": "Turn It Down (promo film)",
+      "song": "Turn It Down",
       "feat": "",
-      "note": "",
+      "note": "promo film",
       "coverOf": ""
     },
     {
       "order": 9,
-      "song": "Lady Starlight (promo film)",
+      "song": "Lady Starlight",
       "feat": "",
-      "note": "",
+      "note": "promo film",
       "coverOf": ""
     },
     {
       "order": 10,
-      "song": "The Sixteens (TV Rock on 45)",
+      "song": "The Sixteens",
       "feat": "",
-      "note": "",
+      "note": "TV Rock on 45",
       "coverOf": ""
     },
     {
       "order": 11,
-      "song": "Your Not Wrong For Loving Me (TV Rock on 45)",
+      "song": "Your Not Wrong For Loving Me",
       "feat": "",
-      "note": "",
+      "note": "TV Rock on 45",
       "coverOf": ""
     },
     {
       "order": 12,
-      "song": "Lady Starlight (TV Rock on 45, complete clip)",
+      "song": "Lady Starlight",
       "feat": "",
-      "note": "",
+      "note": "TV Rock on 45, complete clip",
       "coverOf": ""
     },
     {
       "order": 13,
-      "song": "Turn It Down (musicladen)",
+      "song": "Turn It Down",
       "feat": "",
-      "note": "",
+      "note": "musicladen",
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "sweet_xx_xx_xxxx_xx_xx_xxxx_desolation_boulevard_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/sweet_xx_xx_xxxx_xx_xx_xxxx_desolation_boulevard_video_compilation/"
 }

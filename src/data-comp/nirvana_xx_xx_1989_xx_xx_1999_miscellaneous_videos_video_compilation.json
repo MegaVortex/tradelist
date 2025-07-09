@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Nirvana",
+    "city": "",
     "state": "",
-    "country": "- Miscellaneous Videos",
+    "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Misc Videos",
   "source": "",
   "category": [
     "video",
@@ -112,5 +112,8 @@
     "nirvana_xx_xx_1997_mtv_news_report_misc_video_misc",
     "nirvana_xx_xx_1999_bravo_tv_special_misc_video_misc"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "nirvana_xx_xx_1989_xx_xx_1999_miscellaneous_videos_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/nirvana_xx_xx_1989_xx_xx_1999_miscellaneous_videos_video_compilation/"
 }

@@ -18,13 +18,13 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Metallica",
+    "city": "",
     "state": "",
-    "country": "-",
+    "country": "",
     "venue": "",
     "event": ""
   },
-  "tvChannel": "",
+  "tvChannel": "MTV",
   "showName": "Live Performances",
   "source": "",
   "category": [
@@ -110,5 +110,8 @@
     "metallica_23_08_1995_source_4_video",
     "metallica_06_09_1996_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "metallica_xx_xx_1992_xx_xx_1996_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/metallica_xx_xx_1992_xx_xx_1996_video_compilation/"
 }

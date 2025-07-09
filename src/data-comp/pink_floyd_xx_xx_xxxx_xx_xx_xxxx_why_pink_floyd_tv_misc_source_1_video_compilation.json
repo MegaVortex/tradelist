@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Pink Floyd",
+    "city": "",
     "state": "",
-    "country": "xx.xx.xxxx",
-    "venue": "Why Pink Floyd",
-    "event": "TV MISC"
+    "country": "",
+    "venue": "",
+    "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Why Pink Floyd",
   "source": "Source 1",
   "category": [
     "video",
@@ -37,7 +37,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "",
+  "notes": "TV MISC.",
   "tapers": [],
   "specs": {
     "media": [
@@ -107,86 +107,86 @@
   "setlist": [
     {
       "order": 1,
-      "song": "Why Pink Floyd? (EPK)",
+      "song": "Why Pink Floyd?",
       "feat": "",
-      "note": "",
+      "note": "EPK",
       "coverOf": ""
     },
     {
       "order": 2,
-      "song": "The Dark Side Of The Moon (AD1)",
+      "song": "The Dark Side Of The Moon",
       "feat": "",
-      "note": "",
+      "note": "AD1",
       "coverOf": ""
     },
     {
       "order": 3,
-      "song": "The Dark Side Of The Moon ('Walk Through')",
+      "song": "The Dark Side Of The Moon",
       "feat": "",
-      "note": "",
+      "note": "Walk Through",
       "coverOf": ""
     },
     {
       "order": 4,
-      "song": "Wish You Were Here (official trailer)",
+      "song": "Wish You Were Here",
       "feat": "",
-      "note": "",
+      "note": "official trailer",
       "coverOf": ""
     },
     {
       "order": 5,
-      "song": "Wish You Were Here (AD USA version)",
+      "song": "Wish You Were Here",
       "feat": "",
-      "note": "",
+      "note": "AD USA version",
       "coverOf": ""
     },
     {
       "order": 6,
-      "song": "Wish You Were Here (AD French version)",
+      "song": "Wish You Were Here",
       "feat": "",
-      "note": "",
+      "note": "AD French version",
       "coverOf": ""
     },
     {
       "order": 7,
-      "song": "Wish You Were Here (AD UK version)",
+      "song": "Wish You Were Here",
       "feat": "",
-      "note": "",
+      "note": "AD UK version",
       "coverOf": ""
     },
     {
       "order": 8,
-      "song": "The Wall (immersion trailer)",
+      "song": "The Wall",
       "feat": "",
-      "note": "",
+      "note": "immersion trailer",
       "coverOf": ""
     },
     {
       "order": 9,
-      "song": "The Wall (immersion AD UK version)",
+      "song": "The Wall",
       "feat": "",
-      "note": "",
+      "note": "immersion AD UK version",
       "coverOf": ""
     },
     {
       "order": 10,
-      "song": "The Wall (immersion AD French version)",
+      "song": "The Wall",
       "feat": "",
-      "note": "",
+      "note": "immersion AD UK version",
       "coverOf": ""
     },
     {
       "order": 11,
-      "song": "A Foot In The Door (AD UK TV)",
+      "song": "A Foot In The Door",
       "feat": "",
-      "note": "",
+      "note": "AD UK TV",
       "coverOf": ""
     },
     {
       "order": 12,
-      "song": "Breaking News (AD)",
+      "song": "Breaking News",
       "feat": "",
-      "note": "",
+      "note": "AD",
       "coverOf": ""
     },
     {
@@ -198,25 +198,28 @@
     },
     {
       "order": 14,
-      "song": "Alternate TV (AD)",
+      "song": "Alternate TV",
       "feat": "",
-      "note": "",
+      "note": "AD",
       "coverOf": ""
     },
     {
       "order": 15,
-      "song": "UK Full (AD)",
+      "song": "UK Full",
       "feat": "",
-      "note": "",
+      "note": "AD",
       "coverOf": ""
     },
     {
       "order": 16,
-      "song": "Q&A - 11.05.2011 - Capitol Studios",
+      "song": "Q&A - 2011-05-11 - Capitol Studios",
       "feat": "Nick Mason",
       "note": "",
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "pink_floyd_xx_xx_xxxx_xx_xx_xxxx_why_pink_floyd_tv_misc_source_1_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/pink_floyd_xx_xx_xxxx_xx_xx_xxxx_why_pink_floyd_tv_misc_source_1_video_compilation/"
 }

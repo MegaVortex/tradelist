@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Rammstein",
+    "city": "",
     "state": "",
-    "country": "-",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -110,5 +110,8 @@
     "rammstein_29_05_1998_video",
     "rammstein_10_06_2005_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "rammstein_xx_xx_1997_xx_xx_2005_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/rammstein_xx_xx_1997_xx_xx_2005_video_compilation/"
 }

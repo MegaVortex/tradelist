@@ -20,9 +20,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Sparta",
+    "city": "",
     "state": "",
-    "country": "-",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -155,5 +155,8 @@
     "at_the_drive_xx_xx_xxxx_in_mtv_news_the_wrad_misc_video_misc",
     "the_mars_volta_xx_xx_xxxx_mtv_news_the_wrad_misc_video_misc"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "sparta_xx_xx_2003_xx_xx_2005_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/sparta_xx_xx_2003_xx_xx_2005_video_compilation/"
 }

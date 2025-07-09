@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Pixies",
+    "city": "",
     "state": "",
-    "country": "-",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -112,5 +112,8 @@
     "pixies_xx_xx_1991_los_angeles_ca_usa_hollywood_center_studios_dennis_miller_show_video",
     "pixies_05_02_1992_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "pixies_xx_xx_1989_xx_xx_1992_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/pixies_xx_xx_1989_xx_xx_1992_video_compilation/"
 }

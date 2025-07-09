@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "System Of A Down",
+    "city": "",
     "state": "",
-    "country": "-",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -110,5 +110,8 @@
     "system_of_a_down_26_06_2005_video",
     "system_of_a_down_03_11_2005_source_3_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "system_of_a_down_xx_xx_2005_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/system_of_a_down_xx_xx_2005_video_compilation/"
 }

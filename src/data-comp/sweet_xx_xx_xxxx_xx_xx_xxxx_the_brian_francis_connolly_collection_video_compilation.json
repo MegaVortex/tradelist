@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Sweet",
+    "city": "",
     "state": "",
-    "country": "xx.xx.xxxx",
-    "venue": "The Brian Francis Connolly Collection",
+    "country": "",
+    "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "The Brian Francis Connolly Collection",
   "source": "",
   "category": [
     "video",
@@ -107,23 +107,23 @@
   "setlist": [
     {
       "order": 1,
-      "song": "My Generation (8mm audience)",
+      "song": "My Generation",
       "feat": "",
-      "note": "",
+      "note": "8mm audience",
       "coverOf": ""
     },
     {
       "order": 2,
-      "song": "Fox On The Run (TV show)",
+      "song": "Fox On The Run",
       "feat": "",
-      "note": "",
+      "note": "TV Show",
       "coverOf": ""
     },
     {
       "order": 3,
-      "song": "Blockbuster (TV show)",
+      "song": "Blockbuster",
       "feat": "",
-      "note": "",
+      "note": "TV Show",
       "coverOf": ""
     },
     {
@@ -142,23 +142,23 @@
     },
     {
       "order": 6,
-      "song": "Blockbuster (TV show)",
+      "song": "Blockbuster",
       "feat": "",
-      "note": "",
+      "note": "TV Show",
       "coverOf": ""
     },
     {
       "order": 7,
-      "song": "Heartbreak Today (8mm audience)",
+      "song": "Heartbreak Today",
       "feat": "",
-      "note": "",
+      "note": "8mm audience",
       "coverOf": ""
     },
     {
       "order": 8,
-      "song": "TV Report (1975 - Bravo TV - Pop History)",
+      "song": "TV Report",
       "feat": "",
-      "note": "",
+      "note": "1975 - Bravo TV - Pop History",
       "coverOf": ""
     },
     {
@@ -170,11 +170,14 @@
     },
     {
       "order": 10,
-      "song": "Press Conference (8mm audience)",
+      "song": "Press Conference",
       "feat": "",
-      "note": "",
+      "note": "8mm audience",
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "sweet_xx_xx_xxxx_xx_xx_xxxx_the_brian_francis_connolly_collection_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/sweet_xx_xx_xxxx_xx_xx_xxxx_the_brian_francis_connolly_collection_video_compilation/"
 }

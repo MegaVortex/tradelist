@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Nirvana",
+    "city": "",
     "state": "",
-    "country": "- 94 PROject",
+    "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "94 PROject",
   "source": "",
   "category": [
     "video",
@@ -115,5 +115,8 @@
     "nirvana_27_02_1994_source_3_video",
     "nirvana_01_03_1994_source_4_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "nirvana_xx_xx_1994_94_project_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/nirvana_xx_xx_1994_94_project_video_compilation/"
 }

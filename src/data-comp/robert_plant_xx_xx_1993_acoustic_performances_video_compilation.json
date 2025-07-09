@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Robert Plant",
+    "city": "",
     "state": "",
-    "country": "- Acoustic Performances",
+    "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Acoustic Performances",
   "source": "",
   "category": [
     "video",
@@ -73,7 +73,7 @@
       }
     ],
     "sourceDetail": {
-      "recordingType": "PRO/AMT",
+      "recordingType": "PRO",
       "sourceMediaType": "VHS",
       "finalMediaType": "",
       "fileFormat": "DVD"
@@ -112,5 +112,8 @@
     "robert_plant_07_09_1993_video",
     "robert_plant_11_11_1993_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "robert_plant_xx_xx_1993_acoustic_performances_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/robert_plant_xx_xx_1993_acoustic_performances_video_compilation/"
 }

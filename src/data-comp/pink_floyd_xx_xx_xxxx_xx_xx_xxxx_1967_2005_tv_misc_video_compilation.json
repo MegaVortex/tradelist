@@ -8,24 +8,24 @@
   "startDate": {
     "day": "",
     "month": "",
-    "year": ""
+    "year": 1967
   },
   "startDateUnix": null,
   "endDate": {
     "day": "",
     "month": "",
-    "year": ""
+    "year": 2005
   },
   "endDateUnix": null,
   "location": {
-    "city": "Pink Floyd",
+    "city": "",
     "state": "",
-    "country": "xx.xx.xxxx",
-    "venue": "[1967-2005]",
-    "event": "TV MISC"
+    "country": "",
+    "venue": "",
+    "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "TV MISC",
   "source": "",
   "category": [
     "video",
@@ -107,81 +107,84 @@
   "setlist": [
     {
       "order": 1,
-      "song": "Arnold Layne (1967 promo)",
+      "song": "Arnold Layne",
       "feat": "",
-      "note": "",
+      "note": "1967 promo",
       "coverOf": ""
     },
     {
       "order": 2,
-      "song": "Point Me At The Sky (1968 promo)",
+      "song": "Point Me At The Sky",
       "feat": "",
-      "note": "",
+      "note": "1968 promo",
       "coverOf": ""
     },
     {
       "order": 3,
-      "song": "Cymbaline (1970 KQED TV show)",
+      "song": "Cymbaline",
       "feat": "",
-      "note": "",
+      "note": "1970 KQED TV show",
       "coverOf": ""
     },
     {
       "order": 4,
-      "song": "Grantchester Meadows (1970 KQED TV show)",
+      "song": "Grantchester Meadows",
       "feat": "",
-      "note": "",
+      "note": "1970 KQED TV show",
       "coverOf": ""
     },
     {
       "order": 5,
-      "song": "One Of These Days (1972 Ian Emes animation)",
+      "song": "One Of These Days",
       "feat": "",
-      "note": "",
+      "note": "1972 Ian Emes animation",
       "coverOf": ""
     },
     {
       "order": 6,
-      "song": "Money (1975 backdrop film)",
+      "song": "Money",
       "feat": "",
-      "note": "",
+      "note": "1975 backdrop film",
       "coverOf": ""
     },
     {
       "order": 7,
-      "song": "Another Brick In The Wall Part 2 (1979 promo)",
+      "song": "Another Brick In The Wall Part 2",
       "feat": "",
-      "note": "",
+      "note": "1979 promo",
       "coverOf": ""
     },
     {
       "order": 8,
-      "song": "The Fletcher Memorial Home (1983 promo)",
+      "song": "The Fletcher Memorial Home",
       "feat": "",
-      "note": "",
+      "note": "1983 promo",
       "coverOf": ""
     },
     {
       "order": 9,
-      "song": "Learning To Fly (1987 promo)",
+      "song": "Learning To Fly",
       "feat": "",
-      "note": "",
+      "note": "1987 promo",
       "coverOf": ""
     },
     {
       "order": 10,
-      "song": "High Hopes (1994 promo)",
+      "song": "High Hopes",
       "feat": "",
-      "note": "",
+      "note": "1994 promo",
       "coverOf": ""
     },
     {
       "order": 11,
-      "song": "Comfortably Numb (2005 Live8)",
+      "song": "Comfortably Numb",
       "feat": "",
-      "note": "",
+      "note": "2005 Live8",
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "pink_floyd_xx_xx_xxxx_xx_xx_xxxx_1967_2005_tv_misc_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/pink_floyd_xx_xx_xxxx_xx_xx_xxxx_1967_2005_tv_misc_video_compilation/"
 }

@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Morphine",
+    "city": "",
     "state": "",
-    "country": "-",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -111,5 +111,8 @@
     "morphine_xx_xx_1997_120_minutes_misc_video_misc",
     "morphine_23_05_1994_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "morphine_xx_xx_1994_xx_xx_1997_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/morphine_xx_xx_1994_xx_xx_1997_video_compilation/"
 }

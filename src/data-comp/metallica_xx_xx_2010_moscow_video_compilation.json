@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Metallica",
+    "city": "Moscow",
     "state": "",
-    "country": "- Moscow",
+    "country": "Russia",
     "venue": "",
     "event": ""
   },
@@ -126,5 +126,8 @@
     "metallica_25_04_2010_source_5_video",
     "metallica_25_04_2010_source_6_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "metallica_xx_xx_2010_moscow_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/metallica_xx_xx_2010_moscow_video_compilation/"
 }

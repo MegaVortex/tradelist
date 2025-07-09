@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Soulfly",
+    "city": "",
     "state": "",
-    "country": "-",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -109,5 +109,8 @@
     "soulfly_07_11_2003_video_misc",
     "soulfly_02_07_2004_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "soulfly_xx_xx_2003_xx_xx_2004_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/soulfly_xx_xx_2003_xx_xx_2004_video_compilation/"
 }

@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Metallica",
+    "city": "",
     "state": "",
-    "country": "- Japan & England",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -37,7 +37,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "",
+  "notes": "Japan & England.",
   "tapers": [],
   "specs": {
     "media": [
@@ -73,7 +73,7 @@
       }
     ],
     "sourceDetail": {
-      "recordingType": "AMT/PRO",
+      "recordingType": "AMT",
       "sourceMediaType": "VHS",
       "finalMediaType": "",
       "fileFormat": "DVD"
@@ -110,5 +110,8 @@
     "metallica_xx_xx_1993_japan_source_2_misc_video_misc",
     "metallica_20_04_1992_source_4_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "metallica_xx_xx_1992_xx_xx_1993_japan_england_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/metallica_xx_xx_1992_xx_xx_1993_japan_england_video_compilation/"
 }

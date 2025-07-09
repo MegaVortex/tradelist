@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Red Hot Chili Peppers",
+    "city": "",
     "state": "",
-    "country": "- Interviews",
+    "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Interviews",
   "source": "",
   "category": [
     "video",
@@ -109,5 +109,8 @@
     "red_hot_chili_peppers_xx_xx_1992_laurel_canyon_ca_usa_muchmusic_spotlight_source_2_misc_video_misc",
     "red_hot_chili_peppers_xx_xx_1992_barrie_on_canada_molson_park_lollapalooza_festival_misc_video_misc"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "red_hot_chili_peppers_xx_xx_1992_interviews_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/red_hot_chili_peppers_xx_xx_1992_interviews_video_compilation/"
 }

@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Pink Floyd",
+    "city": "",
     "state": "",
-    "country": "-",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -110,5 +110,8 @@
     "pink_floyd_28_06_1972_video",
     "pink_floyd_29_06_1972_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "pink_floyd_xx_xx_1969_xx_xx_1972_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/pink_floyd_xx_xx_1969_xx_xx_1972_video_compilation/"
 }

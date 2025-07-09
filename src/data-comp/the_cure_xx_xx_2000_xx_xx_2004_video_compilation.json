@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "The Cure",
+    "city": "",
     "state": "",
-    "country": "-",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -109,5 +109,8 @@
     "the_cure_30_04_2004_video",
     "the_cure_22_05_2004_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "the_cure_xx_xx_2000_xx_xx_2004_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/the_cure_xx_xx_2000_xx_xx_2004_video_compilation/"
 }

@@ -20,7 +20,7 @@
   "location": {
     "city": "Slash",
     "state": "",
-    "country": "-",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -109,5 +109,8 @@
     "slash_21_05_2012_video",
     "slash_08_03_2012_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "slash_xx_xx_2011_xx_xx_2012_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/slash_xx_xx_2011_xx_xx_2012_video_compilation/"
 }

@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Slade",
+    "city": "",
     "state": "",
-    "country": "xx.xx.1971",
-    "venue": "Alive",
+    "country": "",
+    "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Alive",
   "source": "",
   "category": [
     "video",
@@ -133,5 +133,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slade_xx_xx_1971_xx_xx_1971_alive_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/slade_xx_xx_1971_xx_xx_1971_alive_video_compilation/"
 }

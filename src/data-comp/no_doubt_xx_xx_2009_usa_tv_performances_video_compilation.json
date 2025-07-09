@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "No Doubt",
+    "city": "",
     "state": "",
-    "country": "- USA TV Performances",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "TV Performances",
   "source": "",
   "category": [
     "video",
@@ -110,5 +110,8 @@
     "no_doubt_20_05_2009_video",
     "no_doubt_11_06_2009_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "no_doubt_xx_xx_2009_usa_tv_performances_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/no_doubt_xx_xx_2009_usa_tv_performances_video_compilation/"
 }

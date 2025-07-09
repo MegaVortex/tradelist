@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Pantera",
+    "city": "",
     "state": "",
-    "country": "-",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -112,5 +112,8 @@
     "pantera_23_10_1992_video",
     "pantera_13_03_1994_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "pantera_xx_xx_1991_xx_xx_1994_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/pantera_xx_xx_1991_xx_xx_1994_video_compilation/"
 }

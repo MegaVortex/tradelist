@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "The Who",
+    "city": "",
     "state": "",
-    "country": "- Stages",
+    "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Stages",
   "source": "",
   "category": [
     "video",
@@ -112,5 +112,8 @@
     "the_who_13_10_1982_video_misc",
     "the_who_18_07_1989_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "the_who_xx_xx_1971_xx_xx_1989_stages_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/the_who_xx_xx_1971_xx_xx_1989_stages_video_compilation/"
 }

@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "The Mars Volta",
+    "city": "",
     "state": "",
-    "country": "-  [VCD Compilation]",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -37,7 +37,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "",
+  "notes": "VCD.",
   "tapers": [],
   "specs": {
     "media": [
@@ -73,7 +73,7 @@
       }
     ],
     "sourceDetail": {
-      "recordingType": "AMT/PRO",
+      "recordingType": "AMT",
       "sourceMediaType": "VHS",
       "finalMediaType": "VCD",
       "fileFormat": "DVD"
@@ -110,5 +110,8 @@
     "the_mars_volta_08_11_2001_video",
     "the_mars_volta_31_03_2002_source_2_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "the_mars_volta_xx_xx_2001_xx_xx_2002_vcd_compilation_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/the_mars_volta_xx_xx_2001_xx_xx_2002_vcd_compilation_video_compilation/"
 }

@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Pink Floyd",
+    "city": "",
     "state": "",
-    "country": "xx.xx.xxxx",
-    "venue": "Why Pink Floyd",
-    "event": "TV MISC"
+    "country": "",
+    "venue": "",
+    "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Why Pink Floyd",
   "source": "Source 2",
   "category": [
     "video",
@@ -37,7 +37,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "",
+  "notes": "TV MISC.",
   "tapers": [],
   "specs": {
     "media": [
@@ -124,23 +124,23 @@
     },
     {
       "order": 2,
-      "song": "Why Pink Floyd? (by David Gilmour)",
-      "feat": "",
+      "song": "Why Pink Floyd?",
+      "feat": "David Gilmour",
       "note": "",
       "coverOf": ""
     },
     {
       "order": 3,
-      "song": "Wish You Were Here (by David Gilmour)",
+      "song": "Wish You Were Here",
       "feat": "",
-      "note": "",
+      "note": "David Gilmour",
       "coverOf": ""
     },
     {
       "order": 4,
-      "song": "The Wall (by David Gilmour)",
+      "song": "The Wall",
       "feat": "",
-      "note": "",
+      "note": "David Gilmour",
       "coverOf": ""
     },
     {
@@ -173,107 +173,107 @@
     },
     {
       "order": 9,
-      "song": "A Foot In The Door (sampler)",
+      "song": "A Foot In The Door",
       "feat": "",
-      "note": "",
+      "note": "sampler",
       "coverOf": ""
     },
     {
       "order": 10,
-      "song": "Wish You Were Here (sampler)",
+      "song": "Wish You Were Here",
       "feat": "",
-      "note": "",
+      "note": "sampler",
       "coverOf": ""
     },
     {
       "order": 11,
-      "song": "The Wall (sampler)",
+      "song": "The Wall",
       "feat": "",
-      "note": "",
+      "note": "sampler",
       "coverOf": ""
     },
     {
       "order": 12,
-      "song": "Pink Floyd Digital Rights (Artisan News)",
+      "song": "Pink Floyd Digital Rights",
       "feat": "",
-      "note": "",
+      "note": "Artisan News",
       "coverOf": ""
     },
     {
       "order": 13,
-      "song": "The Reissues (Artisan News)",
+      "song": "The Reissues",
       "feat": "",
-      "note": "",
+      "note": "Artisan News",
       "coverOf": ""
     },
     {
       "order": 14,
-      "song": "Pink Floyd This Day In Music (iPhone/iPad Application Video AD)",
+      "song": "Pink Floyd This Day In Music",
       "feat": "",
-      "note": "",
+      "note": "iPhone/iPad Application Video AD",
       "coverOf": ""
     },
     {
       "order": 15,
-      "song": "Reuters (Battersea 2011)",
+      "song": "Reuters",
       "feat": "",
-      "note": "",
+      "note": "Battersea 2011",
       "coverOf": ""
     },
     {
       "order": 16,
-      "song": "ITN Pigs Can Fly (Battersea 2011)",
+      "song": "ITN Pigs Can Fly",
       "feat": "",
-      "note": "",
+      "note": "Battersea 2011",
       "coverOf": ""
     },
     {
       "order": 17,
-      "song": "Italian Corriere TV (Battersea 2011)",
+      "song": "Italian Corriere TV",
       "feat": "",
-      "note": "",
+      "note": "Battersea 2011",
       "coverOf": ""
     },
     {
       "order": 18,
-      "song": "Reuters (The Reissues 2011)",
+      "song": "Reuters",
       "feat": "",
-      "note": "",
+      "note": "The Reissues 2011",
       "coverOf": ""
     },
     {
       "order": 19,
-      "song": "Zoom In (The Reissues 2011)",
+      "song": "Zoom In",
       "feat": "",
-      "note": "",
+      "note": "The Reissues 2011",
       "coverOf": ""
     },
     {
       "order": 20,
-      "song": "Oh By The Way (Box Set AD1)",
+      "song": "Oh By The Way",
       "feat": "",
-      "note": "",
+      "note": "Box Set AD1",
       "coverOf": ""
     },
     {
       "order": 21,
-      "song": "Oh By The Way (Box Set AD2)",
+      "song": "Oh By The Way",
       "feat": "",
-      "note": "",
+      "note": "Box Set AD2",
       "coverOf": ""
     },
     {
       "order": 22,
-      "song": "Discovery (Box Set AD)",
+      "song": "Discovery",
       "feat": "",
-      "note": "",
+      "note": "Box Set AD",
       "coverOf": ""
     },
     {
       "order": 23,
-      "song": "Wish You Were Here (SACD AD)",
+      "song": "Wish You Were Here",
       "feat": "",
-      "note": "",
+      "note": "SACD AD",
       "coverOf": ""
     },
     {
@@ -285,16 +285,16 @@
     },
     {
       "order": 25,
-      "song": "Mojo Supreme (history of Pink Floyd)",
+      "song": "Mojo Supreme",
       "feat": "",
-      "note": "",
+      "note": "history of Pink Floyd",
       "coverOf": ""
     },
     {
       "order": 26,
-      "song": "Bild.de German (TV special)",
+      "song": "Bild.de German",
       "feat": "",
-      "note": "",
+      "note": "TV special",
       "coverOf": ""
     },
     {
@@ -327,130 +327,133 @@
     },
     {
       "order": 31,
-      "song": "Gerald Scarfe Interview (for Port Magazine)",
+      "song": "Gerald Scarfe Interview",
       "feat": "",
-      "note": "",
+      "note": "for Port Magazine",
       "coverOf": ""
     },
     {
       "order": 32,
-      "song": "Gerald Scarfe Interview (for Orion Books)",
+      "song": "Gerald Scarfe Interview",
       "feat": "",
-      "note": "",
+      "note": "for Orion Books",
       "coverOf": ""
     },
     {
       "order": 33,
-      "song": "Gerald Scarfe Interview (for BrainDamage)",
+      "song": "Gerald Scarfe Interview",
       "feat": "",
-      "note": "",
+      "note": "for BrainDamage",
       "coverOf": ""
     },
     {
       "order": 2,
-      "song": "&quot;Why Pink Floyd?&quot; (by David Gilmour)",
+      "song": "Why Pink Floyd?",
       "feat": "",
-      "note": "",
+      "note": "by David Gilmour",
       "coverOf": ""
     },
     {
       "order": 3,
-      "song": "&quot;Wish You Were Here&quot; (by David Gilmour)",
+      "song": "Wish You Were Here (by David Gilmour)",
       "feat": "",
       "note": "",
       "coverOf": ""
     },
     {
       "order": 4,
-      "song": "&quot;The Wall&quot; (by David Gilmour)",
+      "song": "The Wall",
       "feat": "",
-      "note": "",
+      "note": "by David Gilmour",
       "coverOf": ""
     },
     {
       "order": 9,
-      "song": "&quot;A Foot In The Door&quot; (sampler)",
+      "song": "A Foot In The Door",
       "feat": "",
-      "note": "",
+      "note": "sampler",
       "coverOf": ""
     },
     {
       "order": 10,
-      "song": "&quot;Wish You Were Here&quot; (sampler)",
+      "song": "Wish You Were Here",
       "feat": "",
-      "note": "",
+      "note": "sampler",
       "coverOf": ""
     },
     {
       "order": 11,
-      "song": "&quot;The Wall&quot; (sampler)",
+      "song": "The Wall",
       "feat": "",
-      "note": "",
+      "note": "sampler",
       "coverOf": ""
     },
     {
       "order": 12,
-      "song": "Pink Floyd &quot;Digital Rights&quot; (Artisan News)",
+      "song": "Pink Floyd Digital Rights",
       "feat": "",
-      "note": "",
+      "note": "Artisan News",
       "coverOf": ""
     },
     {
       "order": 13,
-      "song": "&quot;The Reissues&quot; (Artisan News)",
+      "song": "The Reissues",
       "feat": "",
-      "note": "",
+      "note": "Artisan News",
       "coverOf": ""
     },
     {
       "order": 14,
-      "song": "Pink Floyd &quot;This Day In Music&quot; (iPhone/iPad Application Video AD)",
+      "song": "Pink Floyd This Day In Music",
       "feat": "",
-      "note": "",
+      "note": "iPhone/iPad Application Video AD",
       "coverOf": ""
     },
     {
       "order": 16,
-      "song": "ITN &quot;Pigs Can Fly&quot; (Battersea 2011)",
+      "song": "ITN Pigs Can Fly",
       "feat": "",
-      "note": "",
+      "note": "Battersea 2011",
       "coverOf": ""
     },
     {
       "order": 20,
-      "song": "&quot;Oh By The Way&quot; (Box Set AD1)",
+      "song": "Oh By The Way",
       "feat": "",
-      "note": "",
+      "note": "Box Set AD1",
       "coverOf": ""
     },
     {
       "order": 21,
-      "song": "&quot;Oh By The Way&quot; (Box Set AD2)",
+      "song": "Oh By The Way",
       "feat": "",
-      "note": "",
+      "note": "Box Set AD2",
       "coverOf": ""
     },
     {
       "order": 22,
-      "song": "&quot;Discovery&quot; (Box Set AD)",
+      "song": "Discovery",
       "feat": "",
-      "note": "",
+      "note": "Box Set AD",
       "coverOf": ""
     },
     {
       "order": 23,
-      "song": "&quot;Wish You Were Here&quot; (SACD AD)",
+      "song": "Wish You Were Here",
       "feat": "",
-      "note": "",
+      "note": "SACD AD",
       "coverOf": ""
     },
     {
       "order": 24,
-      "song": "&quot;The Missing Piano&quot;",
+      "song": "The Missing Piano",
       "feat": "",
       "note": "",
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "pink_floyd_xx_xx_xxxx_xx_xx_xxxx_why_pink_floyd_tv_misc_source_2_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/pink_floyd_xx_xx_xxxx_xx_xx_xxxx_why_pink_floyd_tv_misc_source_2_video_compilation/"
 }

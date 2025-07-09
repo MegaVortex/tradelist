@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Metallica",
+    "city": "",
     "state": "",
-    "country": "- Re-Load Day In Paris",
+    "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Re-Load Day In Paris",
   "source": "",
   "category": [
     "video",
@@ -73,7 +73,7 @@
       }
     ],
     "sourceDetail": {
-      "recordingType": "PRO/AMT",
+      "recordingType": "PRO",
       "sourceMediaType": "VHS",
       "finalMediaType": "",
       "fileFormat": "DVD"
@@ -110,5 +110,8 @@
     "metallica_19_11_1997_video_misc",
     "metallica_xx_11_1997_re_load_promo_tour_misc_video_misc"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "metallica_xx_xx_1997_re_load_day_in_paris_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/metallica_xx_xx_1997_re_load_day_in_paris_video_compilation/"
 }

@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Nirvana",
+    "city": "",
     "state": "",
-    "country": "xx.xx.xxxx",
-    "venue": "Promo Videos",
+    "country": "",
+    "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Promo Videos",
   "source": "",
   "category": [
     "video",
@@ -107,95 +107,98 @@
   "setlist": [
     {
       "order": 1,
-      "song": "Smells Like Teen Spirit (Music Video)",
+      "song": "Smells Like Teen Spirit",
       "feat": "",
-      "note": "",
+      "note": "Music Video",
       "coverOf": ""
     },
     {
       "order": 2,
-      "song": "Lithium (Music Video)",
+      "song": "Lithium",
       "feat": "",
-      "note": "",
+      "note": "Music Video",
       "coverOf": ""
     },
     {
       "order": 3,
-      "song": "Sliver (Music Video)",
+      "song": "Sliver",
       "feat": "",
-      "note": "",
+      "note": "Music Video",
       "coverOf": ""
     },
     {
       "order": 4,
-      "song": "Negative Creep (&quot;The Year Punk Broke&quot;)",
+      "song": "Negative Creep",
       "feat": "",
-      "note": "",
+      "note": "The Year Punk Broke",
       "coverOf": ""
     },
     {
       "order": 5,
-      "song": "School (01.09.1991)",
+      "song": "School",
       "feat": "",
-      "note": "",
+      "note": "1991-09-01",
       "coverOf": ""
     },
     {
       "order": 6,
-      "song": "In Bloom (Music Video)",
+      "song": "In Bloom",
       "feat": "",
-      "note": "",
+      "note": "Music Video",
       "coverOf": ""
     },
     {
       "order": 7,
-      "song": "Heart-Shaped Box (Music Video)",
+      "song": "Heart-Shaped Box",
       "feat": "",
-      "note": "",
+      "note": "Music Video",
       "coverOf": ""
     },
     {
       "order": 8,
-      "song": "The Man Who Sold The World (18.11.1993)",
+      "song": "The Man Who Sold The World",
       "feat": "",
-      "note": "",
+      "note": "1993-11-18",
       "coverOf": ""
     },
     {
       "order": 9,
-      "song": "Aneurysm (30.08.1992, 23.01.1993)",
+      "song": "Aneurysm",
       "feat": "",
-      "note": "",
+      "note": "1992-08-30, 1993-01-23",
       "coverOf": ""
     },
     {
       "order": 10,
-      "song": "Endless Nameless (23.08.1991)",
+      "song": "Endless Nameless",
       "feat": "",
-      "note": "",
+      "note": "1991-08-23",
       "coverOf": ""
     },
     {
       "order": 11,
-      "song": "Polly (&quot;The Year Punk Broke&quot;)",
+      "song": "Polly",
       "feat": "",
-      "note": "",
+      "note": "The Year Punk Broke",
       "coverOf": ""
     },
     {
       "order": 12,
-      "song": "All Apologies (18.11.1993)",
+      "song": "All Apologies",
       "feat": "",
-      "note": "",
+      "note": "1993-11-18",
       "coverOf": ""
     },
     {
       "order": 13,
-      "song": "Come As You Are (Music Video)",
+      "song": "Come As You Are",
       "feat": "",
-      "note": "",
+      "note": "Music Video",
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "nirvana_xx_xx_xxxx_xx_xx_xxxx_promo_videos_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/nirvana_xx_xx_xxxx_xx_xx_xxxx_promo_videos_video_compilation/"
 }

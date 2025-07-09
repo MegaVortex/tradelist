@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Sonic Youth",
+    "city": "",
     "state": "",
-    "country": "-",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -113,5 +113,8 @@
     "sonic_youth_11_07_2006_video",
     "sonic_youth_09_08_2006_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "sonic_youth_xx_xx_1995_xx_xx_2006_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/sonic_youth_xx_xx_1995_xx_xx_2006_video_compilation/"
 }

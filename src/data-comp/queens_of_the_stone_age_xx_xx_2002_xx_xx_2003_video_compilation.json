@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Queens Of The Stone Age",
+    "city": "",
     "state": "",
-    "country": "-",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -111,5 +111,8 @@
     "queens_of_the_stone_age_xx_03_2003_usa_mtv2_spring_break_road_trip_misc_video_misc",
     "queens_of_the_stone_age_23_08_2002_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "queens_of_the_stone_age_xx_xx_2002_xx_xx_2003_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/queens_of_the_stone_age_xx_xx_2002_xx_xx_2003_video_compilation/"
 }

@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Slade",
+    "city": "",
     "state": "",
-    "country": "xx.xx.xxxx",
-    "venue": "Rare Videos",
+    "country": "",
+    "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Rare Videos",
   "source": "",
   "category": [
     "video",
@@ -109,44 +109,44 @@
   "setlist": [
     {
       "order": 1,
-      "song": "When The Light Are Out (East Germany TV 1977)",
+      "song": "When The Light Are Out",
       "feat": "",
-      "note": "",
+      "note": "East Germany TV 1977",
       "coverOf": ""
     },
     {
       "order": 2,
-      "song": "Squeeze Stan (8 mm)",
+      "song": "Squeeze Stan",
       "feat": "",
-      "note": "",
+      "note": "8 mm",
       "coverOf": ""
     },
     {
       "order": 3,
-      "song": "The Bangin' Man (26.10.1974)",
+      "song": "The Bangin' Man",
       "feat": "",
-      "note": "",
+      "note": "1974-10-26",
       "coverOf": ""
     },
     {
       "order": 4,
-      "song": "Born To Be Wild (Pop Shop)",
+      "song": "Born To Be Wild",
       "feat": "",
-      "note": "",
+      "note": "Pop Shop",
       "coverOf": ""
     },
     {
       "order": 5,
-      "song": "Coz I Luv You (video clip)",
+      "song": "Coz I Luv You",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
       "order": 6,
-      "song": "Get Down And Get With It (video clip)",
+      "song": "Get Down And Get With It",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
@@ -165,46 +165,49 @@
     },
     {
       "order": 9,
-      "song": "Look Wot You Dun (video clip)",
+      "song": "Look Wot You Dun",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
       "order": 10,
-      "song": "Mama Weer All Crazee Now (video clip)",
+      "song": "Mama Weer All Crazee Now",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
       "order": 11,
-      "song": "Merry X-Mas Everybody (xx.12.1973 - Top Of The Pops)",
+      "song": "Merry X-Mas Everybody",
       "feat": "",
-      "note": "",
+      "note": "1973-12 - Top Of The Pops",
       "coverOf": ""
     },
     {
       "order": 12,
-      "song": "Rock And Roll Preacher (Halleluijah I'm On Fire)",
+      "song": "Rock And Roll Preacher",
       "feat": "",
-      "note": "",
+      "note": "Halleluijah I'm On Fire",
       "coverOf": ""
     },
     {
       "order": 13,
-      "song": "All Right (8mm - video clip)",
+      "song": "All Right",
       "feat": "",
-      "note": "",
+      "note": "8mm - video clip",
       "coverOf": ""
     },
     {
       "order": 14,
-      "song": "We'll Bring The House Down (TV)",
+      "song": "We'll Bring The House Down",
       "feat": "",
-      "note": "",
+      "note": "TV",
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slade_xx_xx_xxxx_xx_xx_xxxx_rare_videos_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/slade_xx_xx_xxxx_xx_xx_xxxx_rare_videos_video_compilation/"
 }

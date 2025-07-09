@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Radiohead",
+    "city": "",
     "state": "",
-    "country": "- s",
+    "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "Jools Holland Show",
+  "showName": "Jools Holland",
   "source": "",
   "category": [
     "video",
@@ -120,5 +120,8 @@
     "radiohead_09_06_2001_video",
     "radiohead_27_05_2003_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "radiohead_xx_xx_1995_xx_xx_2003_s_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/radiohead_xx_xx_1995_xx_xx_2003_s_video_compilation/"
 }

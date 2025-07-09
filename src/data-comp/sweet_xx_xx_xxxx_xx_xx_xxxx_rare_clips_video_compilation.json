@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Sweet",
+    "city": "",
     "state": "",
-    "country": "xx.xx.xxxx",
-    "venue": "Rare Clips",
+    "country": "",
+    "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Rare Clips",
   "source": "",
   "category": [
     "video",
@@ -111,30 +111,30 @@
   "setlist": [
     {
       "order": 1,
-      "song": "Lies In Your Eyes (video clip)",
+      "song": "Lies In Your Eyes",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
       "order": 2,
-      "song": "California Nights (video clip)",
+      "song": "California Nights",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
       "order": 3,
-      "song": "Love Is Like Oxygen (video clip)",
+      "song": "Love Is Like Oxygen",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
       "order": 4,
-      "song": "Fox On The Run (video clip)",
+      "song": "Fox On The Run",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
@@ -146,72 +146,72 @@
     },
     {
       "order": 6,
-      "song": "Teenage Rampage (video clip)",
+      "song": "Teenage Rampage",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
       "order": 7,
-      "song": "Hell Raiser (video clip)",
+      "song": "Hell Raiser",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
       "order": 8,
-      "song": "TV Report (short)",
+      "song": "TV Report",
       "feat": "",
-      "note": "",
+      "note": "short",
       "coverOf": ""
     },
     {
       "order": 9,
-      "song": "Live For Today (video clip)",
+      "song": "Live For Today",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
       "order": 10,
-      "song": "Teenage Rampage (video clip)",
+      "song": "Teenage Rampage",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
       "order": 11,
-      "song": "Turn It Down (video clip)",
+      "song": "Turn It Down",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
       "order": 12,
-      "song": "Lost Angels (video clip)",
+      "song": "Lost Angels",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
       "order": 13,
-      "song": "Action (video clip)",
+      "song": "Action",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
       "order": 14,
-      "song": "Jeanie (video clip)",
+      "song": "Jeanie",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
       "order": 15,
-      "song": "Poppa Joe (video clip)",
+      "song": "Poppa Joe",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
@@ -223,39 +223,42 @@
     },
     {
       "order": 17,
-      "song": "Lost Angels (1977 disco TV show)",
+      "song": "Lost Angels",
       "feat": "",
-      "note": "",
+      "note": "1977 disco TV Show",
       "coverOf": ""
     },
     {
       "order": 18,
-      "song": "Little Willy (video clip)",
+      "song": "Little Willy",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
       "order": 19,
-      "song": "Love Is Like Oxygen (video clip)",
+      "song": "Love Is Like Oxygen",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
       "order": 20,
-      "song": "Fox On The Run (video clip)",
+      "song": "Fox On The Run",
       "feat": "",
-      "note": "",
+      "note": "video clip",
       "coverOf": ""
     },
     {
       "order": 21,
-      "song": "Ballroom Blitz + Interview (Count Down show)",
+      "song": "Ballroom Blitz + Interview",
       "feat": "",
-      "note": "",
+      "note": "Count Down Show",
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "sweet_xx_xx_xxxx_xx_xx_xxxx_rare_clips_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/sweet_xx_xx_xxxx_xx_xx_xxxx_rare_clips_video_compilation/"
 }

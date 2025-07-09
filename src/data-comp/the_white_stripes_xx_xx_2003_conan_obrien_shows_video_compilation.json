@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "The White Stripes",
+    "city": "",
     "state": "",
-    "country": "- Conan OBrien Shows",
+    "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Conan O'Brien",
   "source": "",
   "category": [
     "video",
@@ -109,5 +109,8 @@
     "the_white_stripes_24_04_2003_video",
     "the_white_stripes_25_04_2003_video"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "the_white_stripes_xx_xx_2003_conan_obrien_shows_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/the_white_stripes_xx_xx_2003_conan_obrien_shows_video_compilation/"
 }

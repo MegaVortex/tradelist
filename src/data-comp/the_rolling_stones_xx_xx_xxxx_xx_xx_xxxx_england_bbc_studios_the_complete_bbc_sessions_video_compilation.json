@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "The Rolling Stones",
+    "city": "",
     "state": "",
-    "country": "xx.xx.xxxx",
-    "venue": "England",
-    "event": "BBC Studios - 'The Complete BBC Sessions'"
+    "country": "England",
+    "venue": "BBC Studios",
+    "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "The Complete BBC Sessions",
   "source": "",
   "category": [
     "video",
@@ -104,5 +104,8 @@
     }
   ],
   "parentOf": [],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "the_rolling_stones_xx_xx_xxxx_xx_xx_xxxx_england_bbc_studios_the_complete_bbc_sessions_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/the_rolling_stones_xx_xx_xxxx_xx_xx_xxxx_england_bbc_studios_the_complete_bbc_sessions_video_compilation/"
 }

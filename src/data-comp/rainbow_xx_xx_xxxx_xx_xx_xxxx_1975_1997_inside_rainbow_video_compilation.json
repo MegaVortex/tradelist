@@ -8,24 +8,24 @@
   "startDate": {
     "day": "",
     "month": "",
-    "year": ""
+    "year": 1975
   },
   "startDateUnix": null,
   "endDate": {
     "day": "",
     "month": "",
-    "year": ""
+    "year": 1997
   },
   "endDateUnix": null,
   "location": {
-    "city": "Rainbow",
+    "city": "",
     "state": "",
-    "country": "xx.xx.xxxx",
-    "venue": "[1975-1997]",
-    "event": "Inside Rainbow"
+    "country": "",
+    "venue": "",
+    "event": ""
   },
-  "tvChannel": "",
-  "showName": "",
+  "tvChannel": "MTV",
+  "showName": "Inside Rainbow",
   "source": "",
   "category": [
     "video",
@@ -37,7 +37,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "PRO#1b. MTV broadcast.",
+  "notes": "PRO#1b.",
   "tapers": [],
   "specs": {
     "media": [
@@ -160,5 +160,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "rainbow_xx_xx_xxxx_xx_xx_xxxx_1975_1997_inside_rainbow_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/rainbow_xx_xx_xxxx_xx_xx_xxxx_1975_1997_inside_rainbow_video_compilation/"
 }

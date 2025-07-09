@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Sweet",
+    "city": "",
     "state": "",
-    "country": "xx.xx.xxxx",
-    "venue": "The Rock Years Vol 1",
+    "country": "",
+    "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "The Rock Years Vol 1",
   "source": "",
   "category": [
     "video",
@@ -142,9 +142,9 @@
     },
     {
       "order": 6,
-      "song": "Lady Starlight (Andy Scott)",
+      "song": "Lady Starlight",
       "feat": "",
-      "note": "",
+      "note": "Andy Scott",
       "coverOf": ""
     },
     {
@@ -183,5 +183,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "sweet_xx_xx_xxxx_xx_xx_xxxx_the_rock_years_vol_1_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/sweet_xx_xx_xxxx_xx_xx_xxxx_the_rock_years_vol_1_video_compilation/"
 }

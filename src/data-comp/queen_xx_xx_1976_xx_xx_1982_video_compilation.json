@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Queen",
+    "city": "",
     "state": "",
-    "country": "-",
+    "country": "",
     "venue": "",
     "event": ""
   },
@@ -123,5 +123,8 @@
     "queen_10_05_1982_video",
     "queen_18_09_1976_video_misc"
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "queen_xx_xx_1976_xx_xx_1982_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/queen_xx_xx_1976_xx_xx_1982_video_compilation/"
 }
