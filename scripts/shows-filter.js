@@ -32,13 +32,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const tbody = document.querySelector('#shows-table tbody');
     tableRows = [...tbody.querySelectorAll('tr')];
 
-    function buildBandPillsForLetter(letter) {
-        const bandSet = new Set();
-        tableRows.forEach(row => {
-            const band = row.dataset.band || '';
-            const bands = (row.dataset.band || '').split('|||');
-            bands.forEach(band => {
-                const trimmed = band.trim();
+function buildBandPillsForLetter(letter) {
+    const bandSet = new Set();
+    tableRows.forEach(row => {
+        // Skip rows that are labels
+        if (row.hasAttribute('data-label')) {
+            return; // Go to the next row in the loop
+        }
+
+        const bands = (row.dataset.band || '').split('|||');
+        bands.forEach(band => {
+            const trimmed = band.trim();
+            // Ensure only non-empty strings are added
+            if (trimmed !== '') {
                 const first = trimmed[0]?.toUpperCase();
                 if (
                     (letter === 'all') ||
@@ -47,23 +53,24 @@ document.addEventListener('DOMContentLoaded', () => {
                 ) {
                     bandSet.add(trimmed);
                 }
-            });
+            }
         });
+    });
 
-        const sortedBands = [...bandSet].sort();
-        const bandPillsContainer = document.getElementById("band-pills");
+    const sortedBands = [...bandSet].sort();
+    const bandPillsContainer = document.getElementById("band-pills");
 
-        if (sortedBands.length === 0) {
-            bandPillsContainer.innerHTML = '';
-            bandPillsContainer.style.display = 'none';
-            return;
-        }
+    if (sortedBands.length === 0) {
+        bandPillsContainer.innerHTML = '';
+        bandPillsContainer.style.display = 'none';
+        return;
+    }
 
-        bandPillsContainer.innerHTML = sortedBands.map(band =>
-            `<span class="band-pill" data-band="${band}">${band}</span>`
-        ).join("");
+    bandPillsContainer.innerHTML = sortedBands.map(band =>
+        `<span class="band-pill" data-band="${band}">${band}</span>`
+    ).join("");
 
-        bandPillsContainer.style.display = 'flex';
+    bandPillsContainer.style.display = 'flex';
 
         bandPillsContainer.querySelectorAll(".band-pill").forEach(pill => {
             pill.addEventListener("click", e => {
