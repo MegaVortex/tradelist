@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Deftones - 12.04.2016 - Los Angeles - CA - USA - ABC Studios - Jimmy Kimmel Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Deftones"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "04",
+    "year": "2016"
+  },
+  "startDateUnix": 1460419200,
+  "endDate": {
+    "day": "12",
+    "month": "04",
+    "year": "2016"
+  },
+  "endDateUnix": 1460419200,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "ABC Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jimmy Kimmel Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 348,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 248,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "59.94",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 5
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "65",
+      "filename": "93863745.jpg",
+      "externalId": "1hyU4ztkz58hZga_IHX-D_IGm23KK0WZp"
+    },
+    {
+      "folder": "65",
+      "filename": "40449958.jpg",
+      "externalId": "1Yzymc6ZZigYARa6A8SEY0psAsF8bdK5-"
+    },
+    {
+      "folder": "65",
+      "filename": "79095662.jpg",
+      "externalId": "1Gvcgk5dKhTQaZMV6FK9LlFYsoGSjJHaX"
+    },
+    {
+      "folder": "65",
+      "filename": "17991035.jpg",
+      "externalId": "1zry4Ame7oZEq9K9LYYEEk2EHigMb9j4t"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Prayers/Triangles",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

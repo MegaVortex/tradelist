@@ -1,0 +1,80 @@
+{
+  "originalTitle": "Deftones - 14.07.2000 - Rochester - NY - USA - ESL Sports Center [AUDIO]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Deftones"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "07",
+    "year": "2000"
+  },
+  "startDateUnix": 963532800,
+  "endDate": {
+    "day": "14",
+    "month": "07",
+    "year": "2000"
+  },
+  "endDateUnix": 963532800,
+  "location": {
+    "city": "Rochester",
+    "state": "NY",
+    "country": "USA",
+    "venue": "ESL Sports Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "audio"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "AT853 (Hyper Cards) > Sony TCD-D100 @ 195hz Bass Rolloff.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 451,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 5214,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "FLAC",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "s",
+      "fileFormat": "FLACTaper"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": []
+}

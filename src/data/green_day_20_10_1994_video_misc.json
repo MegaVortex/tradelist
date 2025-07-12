@@ -1,0 +1,123 @@
+{
+  "originalTitle": "Green Day - 20.10.1994 - Paris - France - L'arapaho [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Green Day"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "10",
+    "year": "1994"
+  },
+  "startDateUnix": 782611200,
+  "endDate": {
+    "day": "20",
+    "month": "10",
+    "year": "1994"
+  },
+  "endDateUnix": 782611200,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "L'arapaho",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 236,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 424,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "green_day_25_08_1995_video_misc",
+    "green_day_31_08_1995_video_misc",
+    "green_day_18_10_1995_video_misc",
+    "green_day_16_10_1995_video_misc",
+    "green_day_22_11_1995_video_misc"
+  ],
+  "childOf": "Green Day - [1994-1995] - Interviews",
+  "images": [
+    {
+      "folder": "36",
+      "filename": "41868240.jpg",
+      "externalId": "1vHcJYY8yMn_VKQjklTekw8JVQojJW-Ac"
+    },
+    {
+      "folder": "36",
+      "filename": "59582316.jpg",
+      "externalId": "1Moc3YWRaYbUP6FZY0ch1sGHmVtMOBQfN"
+    },
+    {
+      "folder": "36",
+      "filename": "89465961.jpg",
+      "externalId": "1RBTU5ilJvHlQpUCSn3v8ktFdSOvnr2gL"
+    },
+    {
+      "folder": "36",
+      "filename": "75424644.jpg",
+      "externalId": "1yQ_MXZxWxvIy2goMer3ZPPQppJB70EIw"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

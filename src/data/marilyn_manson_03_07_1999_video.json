@@ -1,0 +1,136 @@
+{
+  "originalTitle": "Marilyn Manson - 03.07.1999 - Werchter - Belgium - Rock Werchter",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "07",
+    "year": "1999"
+  },
+  "startDateUnix": 930960000,
+  "endDate": {
+    "day": "03",
+    "month": "07",
+    "year": "1999"
+  },
+  "endDateUnix": 930960000,
+  "location": {
+    "city": "Werchter",
+    "state": "",
+    "country": "Belgium",
+    "venue": "Rock Werchter",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.2,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 7407,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "marilyn_manson_07_08_1999_video",
+    "marilyn_manson_05_11_2000_source_2_video_misc",
+    "marilyn_manson_08_08_1999_video"
+  ],
+  "childOf": "Marilyn Manson - [1999-2000] - TV Appearances",
+  "images": [
+    {
+      "folder": "62",
+      "filename": "84238452.jpg",
+      "externalId": "1K7klmv3qPWEkfTdEzGxKKxULLogD5Kn9"
+    },
+    {
+      "folder": "62",
+      "filename": "94029646.jpg",
+      "externalId": "1w6DivjKZzSJLGkhYxcm3yBbF572vHN3v"
+    },
+    {
+      "folder": "62",
+      "filename": "64203139.jpg",
+      "externalId": "1nP5-8xB3UBeqUZFywDm28oUF8mcvmcin"
+    },
+    {
+      "folder": "62",
+      "filename": "71685899.jpg",
+      "externalId": "1Vp_etyhXottZuWNR_2Vv2mhqRc4G2lfj"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Reflecting God",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Great Big White World",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

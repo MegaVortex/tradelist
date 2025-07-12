@@ -1,0 +1,174 @@
+{
+  "originalTitle": "King 810 - 25.10.2014 - San Bernardino - CA - USA - San Manuel Amphitheater - KnotFest",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "King 810"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "10",
+    "year": "2014"
+  },
+  "startDateUnix": 1414195200,
+  "endDate": {
+    "day": "25",
+    "month": "10",
+    "year": "2014"
+  },
+  "endDateUnix": 1414195200,
+  "location": {
+    "city": "San Bernardino",
+    "state": "CA",
+    "country": "USA",
+    "venue": "San Manuel Amphitheater",
+    "event": "KnotFest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": true,
+  "public": true,
+  "ownIdentifier": "HDD#J​​​​​​​",
+  "tradeLabel": "",
+  "authoredBy": "Vortex",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Vortex"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.78,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1505,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "59.94",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 320,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "HD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [
+    "butcher_babies_25_10_2014_video",
+    "the_devil_wears_prada_25_10_2014_video",
+    "carcass_25_10_2014_video",
+    "in_this_moment_25_10_2014_video",
+    "testament_25_10_2014_video",
+    "black_label_society_25_10_2014_video",
+    "anthrax_25_10_2014_video"
+  ],
+  "childOf": "various_artists_25_10_2014_knotfest_video_compilation",
+  "images": [
+    {
+      "folder": "55",
+      "filename": "64197494.jpg",
+      "externalId": "1VUf4aCshApDPPfEuh_fgyp5KSMXvmASP"
+    },
+    {
+      "folder": "55",
+      "filename": "29026499.jpg",
+      "externalId": "1WGQm2m3Y8bYiPLxP4QW5PZwbmFa0M0Nl"
+    },
+    {
+      "folder": "55",
+      "filename": "05974837.jpg",
+      "externalId": "1TiRg1xSuyBM0QiKfWmwfHVXfkKtoSJ9b"
+    },
+    {
+      "folder": "55",
+      "filename": "98788278.jpg",
+      "externalId": "14sn034mZQRom0Hdk2PQRgC5ylngkS4Rp"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "810",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Killem All",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Murder Murder Murder",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Desperate Lovers",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Treading And Trodden",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "War Outside",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Fat Around The Heart",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

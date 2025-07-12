@@ -1,0 +1,133 @@
+{
+  "originalTitle": "Avril Lavigne - 01.11.2007 - Munich - Germany - Olympiahalle - MTV Europe Awards [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Avril Lavigne"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "11",
+    "year": "2007"
+  },
+  "startDateUnix": 1193875200,
+  "endDate": {
+    "day": "01",
+    "month": "11",
+    "year": "2007"
+  },
+  "endDateUnix": 1193875200,
+  "location": {
+    "city": "Munich",
+    "state": "",
+    "country": "Germany",
+    "venue": "Olympiahalle",
+    "event": "MTV Europe Awards"
+  },
+  "tvChannel": "MTV Europe",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 143,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 329,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "38",
+      "filename": "17963261.jpg",
+      "externalId": "1qc5mQLX-R95o5R9dMxAZ9QQmL9xH550h"
+    },
+    {
+      "folder": "38",
+      "filename": "60674563.jpg",
+      "externalId": "1S2Ni-gky5Uzd15ZoT-mJcEZDopaqDnhN"
+    },
+    {
+      "folder": "38",
+      "filename": "53496055.jpg",
+      "externalId": "1PrR3MeuvQ48rTMpILC7x0A94Xq1ECPK6"
+    },
+    {
+      "folder": "38",
+      "filename": "47359744.jpg",
+      "externalId": "1pQJuXu7PxSE90VXSxCUeylzLaiey3oGa"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Awarded (Best Solo Artist)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Awarded (Most Addictive)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

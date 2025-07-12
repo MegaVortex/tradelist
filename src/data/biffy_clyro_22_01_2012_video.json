@@ -1,0 +1,244 @@
+{
+  "originalTitle": "Biffy Clyro - 22.01.2012 - Neuss - Germany - Globe-Theater",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Biffy Clyro"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "01",
+    "year": "2012"
+  },
+  "startDateUnix": 1327190400,
+  "endDate": {
+    "day": "22",
+    "month": "01",
+    "year": "2012"
+  },
+  "endDateUnix": 1327190400,
+  "location": {
+    "city": "Neuss",
+    "state": "",
+    "country": "Germany",
+    "venue": "Globe-Theater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "PRO#1. 1LIVE Radiokonzert.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 911,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 4380,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "960x544",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "",
+      "fileFormat": "FLV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "46",
+      "filename": "67304317.jpg",
+      "externalId": "1FsjGFTJre1gPgijnYjFm8mTq492ZBrWg"
+    },
+    {
+      "folder": "46",
+      "filename": "83856964.jpg",
+      "externalId": "1otieLFX3j5qKGTvfZrBJc5Mcr8DS_-Ig"
+    },
+    {
+      "folder": "46",
+      "filename": "45929311.jpg",
+      "externalId": "1E0tYCnpy3Yf2GWzxhhYbzBLfI38skOQY"
+    },
+    {
+      "folder": "46",
+      "filename": "58143206.jpg",
+      "externalId": "1ZGi9XbJMNjJZtru7Y4Wn1VJgAhD0EZ09"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Stingin' Belle",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Captain",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "A Whole Child Ago",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Modern Magic Formula",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Victory Over The Sun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "God & Satan",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Who's Got A Match?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "The Joke's On Us",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Bubbles",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Black Chandelier",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Booooom, Blast & Ruin",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Sounds Like Balloons",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Many Of Horror",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "That Golden Rule",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Mountains",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "Machines",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 17,
+      "song": "Living Is A Problem Because Everything Dies",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

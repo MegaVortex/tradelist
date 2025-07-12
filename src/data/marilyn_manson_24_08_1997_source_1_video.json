@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Marilyn Manson - 24.08.1997 - Reading - England - Little John's Farm - Reading Festival (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "08",
+    "year": "1997"
+  },
+  "startDateUnix": 872380800,
+  "endDate": {
+    "day": "24",
+    "month": "08",
+    "year": "1997"
+  },
+  "endDateUnix": 872380800,
+  "location": {
+    "city": "Reading",
+    "state": "",
+    "country": "England",
+    "venue": "Little John's Farm",
+    "event": "Reading Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 788,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 691,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "ja",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "44",
+      "filename": "12490382.jpg",
+      "externalId": "1JmHAcyi2WQt0J5dk7mUjvI8cu3JdngeC"
+    },
+    {
+      "folder": "44",
+      "filename": "76788330.jpg",
+      "externalId": "1df4fIgm3Bx6J0iqwYbSmC9em3232iy_V"
+    },
+    {
+      "folder": "44",
+      "filename": "33612845.jpg",
+      "externalId": "1qHxA4bj6wFpfVdRK2qeGNOTkioJVpipw"
+    },
+    {
+      "folder": "44",
+      "filename": "52200594.jpg",
+      "externalId": "1zDixBu9QbeCwfyWn1y_XAqKHIfeLJlXy"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Angel With The Scabbed Wings",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Tourniquet",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Sweet Dreams (Are Made Of This) (Eurythmics cover)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

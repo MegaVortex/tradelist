@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Alice In Chains - 07.05.1993 - London - England - BBC Television Centre - Jools Holland Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Alice In Chains"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "05",
+    "year": "1993"
+  },
+  "startDateUnix": 736732800,
+  "endDate": {
+    "day": "07",
+    "month": "05",
+    "year": "1993"
+  },
+  "endDateUnix": 736732800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Television Centre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jools Holland Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Official DVD - NT.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 7.44,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6779,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "queens_of_the_stone_age_25_10_2002_video",
+    "metallica_16_11_1996_source_2_video",
+    "hole_23_10_1998_video",
+    "sonic_youth_03_12_1992_video",
+    "at_the_drive_in_02_12_2000_source_2_video",
+    "the_cardigans_21_05_1999_video",
+    "the_white_stripes_09_11_2001_video",
+    "foo_fighters_06_12_2002_video",
+    "garbage_14_05_1999_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "54370596.jpg",
+      "externalId": "1vECNSIPMTmYKneycYvjdKc2CHtXbXkPS"
+    },
+    {
+      "folder": "28",
+      "filename": "70459842.jpg",
+      "externalId": "1Nvm1xbygPgv-XoDlMczVRFQlMsh4tpt5"
+    },
+    {
+      "folder": "28",
+      "filename": "39982875.jpg",
+      "externalId": "1VckuVl-duL1hg4ySakzXo2f0K5_d7btD"
+    },
+    {
+      "folder": "28",
+      "filename": "21199109.jpg",
+      "externalId": "1nOxQwQ79HM721lw5Z0KmyAH04rRdjAlh"
+    }
+  ],
+  "setlist": []
+}

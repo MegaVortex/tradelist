@@ -1,0 +1,130 @@
+{
+  "originalTitle": "Foo Fighters - 06.11.1995 - Paris - France - Canal+ Studios - Nulle Part Ailleurs (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "11",
+    "year": "1995"
+  },
+  "startDateUnix": 815616000,
+  "endDate": {
+    "day": "06",
+    "month": "11",
+    "year": "1995"
+  },
+  "endDateUnix": 815616000,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "Canal+ Studios",
+    "event": "Nulle Part Ailleurs"
+  },
+  "tvChannel": "Canal+",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "PRO#1a.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.17,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3179,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "foo_fighters_28_08_1995_video",
+    "foo_fighters_06_11_1995_source_2_video",
+    "foo_fighters_09_05_1997_video",
+    "foo_fighters_15_11_1997_video",
+    "foo_fighters_03_05_2005_video"
+  ],
+  "childOf": "Foo Fighters - [1995-2005] - TV Appearances - 'Nulle Part Ailleurs'",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "60603201.jpg",
+      "externalId": "1wopbGdJN5VtSFImOA_HYY9cBfNUoS4Je"
+    },
+    {
+      "folder": "60",
+      "filename": "82155713.jpg",
+      "externalId": "1tQexrHayf51xr0Jpw_RbJ-5OdApDgD_q"
+    },
+    {
+      "folder": "60",
+      "filename": "54612753.jpg",
+      "externalId": "1o-bs52lq43KLb9dbYiMIuSSwHDgyfRI6"
+    },
+    {
+      "folder": "60",
+      "filename": "63213933.jpg",
+      "externalId": "1ig5Z5DylqHSLx5QSvI1bmRp6QHePoKYd"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "I'll Stick Around",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Big Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

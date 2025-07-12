@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Gas Chamber - 22.10.2011 - Somerville - MA - USA - Starlab",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Gas Chamber"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "10",
+    "year": "2011"
+  },
+  "startDateUnix": 1319241600,
+  "endDate": {
+    "day": "22",
+    "month": "10",
+    "year": "2011"
+  },
+  "endDateUnix": 1319241600,
+  "location": {
+    "city": "Somerville",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Starlab",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "dyinghorse release.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.56,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1459,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "34",
+      "filename": "82435408.jpg",
+      "externalId": "1AjQ4162WOsxuvBpNvZUPEZX6aIA8een8"
+    },
+    {
+      "folder": "34",
+      "filename": "04143708.jpg",
+      "externalId": "1QmbMoES3PTibHtk7TlUM5FHlFFOk0Zhm"
+    },
+    {
+      "folder": "34",
+      "filename": "18159130.jpg",
+      "externalId": "1oHIsILfth6x-p66aijx-k_l_64vEK71O"
+    },
+    {
+      "folder": "34",
+      "filename": "40750575.jpg",
+      "externalId": "1gzlF0HW0n9vMqjds6TAtb71h9IQh4fpZ"
+    }
+  ],
+  "setlist": []
+}

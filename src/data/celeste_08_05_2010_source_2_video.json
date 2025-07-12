@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Celeste - 08.05.2010 - Moscow - Russia - Aktoviy Zal (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Celeste"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "05",
+    "year": "2010"
+  },
+  "startDateUnix": 1273276800,
+  "endDate": {
+    "day": "08",
+    "month": "05",
+    "year": "2010"
+  },
+  "endDateUnix": 1273276800,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Aktoviy Zal",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": true,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "No light at all. Re-",
+  "tapers": [
+    "Vortex"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.42,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 2155,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "11",
+      "filename": "72715857.jpg",
+      "externalId": "1aBZ_7eWND7gXVsSOvVeJYpfVFXSo4_L4"
+    },
+    {
+      "folder": "11",
+      "filename": "52717853.jpg",
+      "externalId": "1P_Bp5TYsbZYsID3Mm8JPzMcf2kSqRKuK"
+    },
+    {
+      "folder": "11",
+      "filename": "95664088.jpg",
+      "externalId": "1nxcCSIBSoCjQz0Ng3DsDeS_u0H5Dv8O7"
+    },
+    {
+      "folder": "11",
+      "filename": "07840457.jpg",
+      "externalId": "1qj93oe2NTM5kx1X8WVTqwhbjlQ1ziuTi"
+    }
+  ],
+  "setlist": []
+}

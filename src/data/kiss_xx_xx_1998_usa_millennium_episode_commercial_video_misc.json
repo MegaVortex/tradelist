@@ -1,0 +1,122 @@
+{
+  "originalTitle": "Kiss - xx.xx.1998 - USA - Millennium Episode Commercial [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Kiss"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1998"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1998"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "Millennium Episode Commercial",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.32,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 6542,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "kiss_31_10_1998_video_misc",
+    "kiss_31_10_1998_video",
+    "kiss_xx_xx_1998_usa_gibson_guitar_commercial_video_misc",
+    "kiss_xx_xx_1998_usa_madtv_episode_commercial_video_misc"
+  ],
+  "childOf": "Kiss - [1998] - TV Appearances - Halloween Media Collection",
+  "images": [
+    {
+      "folder": "45",
+      "filename": "73039355.jpg",
+      "externalId": "1TjgOZve4eBs9unO0f6OFxQ6q09NJ2pzN"
+    },
+    {
+      "folder": "45",
+      "filename": "62788109.jpg",
+      "externalId": "1ShYDPlkRgqNflKx6qGmoFFdZmEkSRkhi"
+    },
+    {
+      "folder": "45",
+      "filename": "36009082.jpg",
+      "externalId": "1lPVeJnm94y8XpKFR6DARs_5pn7A-4NUK"
+    },
+    {
+      "folder": "45",
+      "filename": "78862253.jpg",
+      "externalId": "1uDJxtGLkt9KdLjddTTtxoYNPmlaJtpdB"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Commercial",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

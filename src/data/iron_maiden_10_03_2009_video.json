@@ -1,0 +1,229 @@
+{
+  "originalTitle": "Iron Maiden - 10.03.2009 - Quito - Ecuador - Estadio Del Aucas",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Iron Maiden"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "03",
+    "year": "2009"
+  },
+  "startDateUnix": 1236643200,
+  "endDate": {
+    "day": "10",
+    "month": "03",
+    "year": "2009"
+  },
+  "endDateUnix": 1236643200,
+  "location": {
+    "city": "Quito",
+    "state": "",
+    "country": "Ecuador",
+    "venue": "Estadio Del Aucas",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Metal Madness Edition.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.27,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4739,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "52",
+      "filename": "20850285.jpg",
+      "externalId": "1F0YdeuhPPe4f-fFM1c-XJrpleOzA0cno"
+    },
+    {
+      "folder": "52",
+      "filename": "34409542.jpg",
+      "externalId": "17yxS0N1saNzhPXrFBgFt5346zGUkZhoj"
+    },
+    {
+      "folder": "52",
+      "filename": "57667347.jpg",
+      "externalId": "1UH0WHvSdZLDrrv0SNgPwoUiHcgdFlvrP"
+    },
+    {
+      "folder": "52",
+      "filename": "64745866.jpg",
+      "externalId": "1fIdWoGUGU4yqY6gwBaK9qvXg0dSbZ3ch"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Aces High",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wrathchild",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "2 Minutes To Midnight",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Children Of The Damned",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Phantom Of The Opera",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Trooper",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Wasted Years",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Powerslave",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Rime Of The Ancient Mariner",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Run To The Hills",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Fear Of The Dark",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Iron Maiden",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Lauren Harris",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 2,
+      "song": "En Vivo Trailer",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 3,
+      "song": "Photo Gallery",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

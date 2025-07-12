@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Bon Jovi - 31.12.1990 - Tokyo - Japan - Dome (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "12",
+    "year": "1990"
+  },
+  "startDateUnix": 662601600,
+  "endDate": {
+    "day": "31",
+    "month": "12",
+    "year": "1990"
+  },
+  "endDateUnix": 662601600,
+  "location": {
+    "city": "Tokyo",
+    "state": "",
+    "country": "Japan",
+    "venue": "Dome",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MTV New Year's Eve.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.09,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3828,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "bon_jovi_04_07_1990_video_misc",
+    "bon_jovi_xx_xx_1990_usa_guns_and_glory_video_misc",
+    "bon_jovi_11_09_1987_video",
+    "bon_jovi_06_09_1989_video",
+    "bon_jovi_05_03_1990_video_misc",
+    "bon_jovi_xx_xx_1990_los_angeles_ca_usa_nbc_news_video_misc",
+    "bon_jovi_xx_xx_1990_new_york_ny_usa_new_york_university_video_misc",
+    "bon_jovi_23_12_1990_video_misc",
+    "bon_jovi_xx_xx_1991_usa_mtv_news_video_misc",
+    "bon_jovi_25_03_1991_video",
+    "bon_jovi_13_03_1993_video",
+    "bon_jovi_25_06_1997_video",
+    "bon_jovi_12_06_2000_video",
+    "bon_jovi_xx_xx_1984_video",
+    "bon_jovi_15_06_1985_video"
+  ],
+  "childOf": "bon_jovi_xx_xx_xxxx_misc_2_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "77",
+      "filename": "52007453.jpg",
+      "externalId": "1wSnzMkff2wcnB0z6OG9TI-Mi4dPiOF2m"
+    },
+    {
+      "folder": "77",
+      "filename": "60829258.jpg",
+      "externalId": "1KAWL1hXWMQZCQFyq-xm0n16mUHmNMAD0"
+    },
+    {
+      "folder": "77",
+      "filename": "72982220.jpg",
+      "externalId": "1cViCU7ZoJYz70R13-pgklG2I6X46y45V"
+    },
+    {
+      "folder": "77",
+      "filename": "97511065.jpg",
+      "externalId": "14-WcIjTa0gLlBGYZ5vXB2ciRo204e-2v"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "You Give Love A Bad Name",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Livin' On A Prayer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

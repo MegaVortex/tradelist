@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Гражданская Оборона - 06.05.2003 - Киев - Украина - ЦКМ НАУ (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Гражданская Оборона"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "05",
+    "year": "2003"
+  },
+  "startDateUnix": 1052179200,
+  "endDate": {
+    "day": "06",
+    "month": "05",
+    "year": "2003"
+  },
+  "endDateUnix": 1052179200,
+  "location": {
+    "city": "Киев",
+    "state": "",
+    "country": "Украина",
+    "venue": "ЦКМ НАУ",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.14,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3659,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "10",
+      "filename": "55242700.jpg",
+      "externalId": "1F4guoS5pCIXfPkmdoeo13AeZoRu_7_ty"
+    },
+    {
+      "folder": "10",
+      "filename": "10016118.jpg",
+      "externalId": "12Q20M-9FnT3XShgvm3nQuCj3NP_SNQWC"
+    },
+    {
+      "folder": "10",
+      "filename": "07540355.jpg",
+      "externalId": "10nrQZs_ojfiZwO2TWr9SvbUpi1Fj8P9Y"
+    },
+    {
+      "folder": "10",
+      "filename": "22364464.jpg",
+      "externalId": "1lv7ts0p9djnlKaCH5rxsT7JEfT0-nXBq"
+    }
+  ],
+  "setlist": []
+}

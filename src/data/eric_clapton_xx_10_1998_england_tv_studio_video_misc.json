@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Eric Clapton - xx.10.1998 - England - TV Studio [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Eric Clapton"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "10",
+    "year": "1998"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "10",
+    "year": "1998"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "England",
+    "state": "",
+    "country": "TV Studio",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.95,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2131,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "88246963.jpg",
+      "externalId": "1RbXgjKXvWiInfaHWjlQN496jNOY7MdRj"
+    },
+    {
+      "folder": "14",
+      "filename": "42782903.jpg",
+      "externalId": "1OvvOtqFPf9XTAIdSyKFtSRMP1zRl9BL4"
+    },
+    {
+      "folder": "14",
+      "filename": "57230492.jpg",
+      "externalId": "1XAjkCWd7dZh-Y6kW-N9jcK6vvBxhN8-b"
+    },
+    {
+      "folder": "14",
+      "filename": "23031566.jpg",
+      "externalId": "1gjz7ASyF1fe1jJM9CkUSpsk151_x4yyo"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

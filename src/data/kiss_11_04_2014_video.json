@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Kiss - 11.04.2014 - New York - NY - USA - NBC Studios - Jimmy Fallon Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Kiss"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "04",
+    "year": "2014"
+  },
+  "startDateUnix": 1397174400,
+  "endDate": {
+    "day": "11",
+    "month": "04",
+    "year": "2014"
+  },
+  "endDateUnix": 1397174400,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Jimmy Fallon Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 178,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 308,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "MPG"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "63380049.jpg",
+      "externalId": "1RUdGI38d_mKYBqU8DdpmqHH5Qi7XxTxx"
+    },
+    {
+      "folder": "73",
+      "filename": "76351870.jpg",
+      "externalId": "19Kdx9r5MShZfs0JvcC5LQs_tmoddgWZp"
+    },
+    {
+      "folder": "73",
+      "filename": "10957458.jpg",
+      "externalId": "1CejrB0AMYl-iAwquUseAK7r_7nT7cfKA"
+    },
+    {
+      "folder": "73",
+      "filename": "56365775.jpg",
+      "externalId": "1KFjxHFcHloNnqiC0c7-x0mPr5Eceexwb"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "King Of The Night Time World",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

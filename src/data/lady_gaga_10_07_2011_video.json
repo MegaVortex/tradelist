@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Lady Gaga - 10.07.2011 - Tokyo - Japan - Music Lovers",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Lady Gaga"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "07",
+    "year": "2011"
+  },
+  "startDateUnix": 1310256000,
+  "endDate": {
+    "day": "10",
+    "month": "07",
+    "year": "2011"
+  },
+  "endDateUnix": 1310256000,
+  "location": {
+    "city": "Tokyo",
+    "state": "",
+    "country": "Japan",
+    "venue": "Music Lovers",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.65,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1346,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "1440x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 1
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "25",
+      "filename": "08902839.jpg",
+      "externalId": "1EnoQFQtj0E0d9GRPzHP1BJb7SVi5j7Mt"
+    },
+    {
+      "folder": "25",
+      "filename": "48395241.jpg",
+      "externalId": "1eqi-bQX80DK5qfAq-rkueEhd7O8S7bvj"
+    },
+    {
+      "folder": "25",
+      "filename": "19864525.jpg",
+      "externalId": "1R-SPypHQF69zLMZxrI6eQGjFAiA5SzfE"
+    },
+    {
+      "folder": "25",
+      "filename": "26135594.jpg",
+      "externalId": "18UHRwIwcMot6YSC-j8M0Pq-D1M9K71kN"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Born This Way",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Edge Of Glory",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Judas (preview)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

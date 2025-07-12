@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Blink-182 - 11.07.2016 - New York - NY - USA - Ed Sullivan Theatre - Stephen Colbert Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Blink-182"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "07",
+    "year": "2016"
+  },
+  "startDateUnix": 1468195200,
+  "endDate": {
+    "day": "11",
+    "month": "07",
+    "year": "2016"
+  },
+  "endDateUnix": 1468195200,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Ed Sullivan Theatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Stephen Colbert Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 180,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 259,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "23470354.jpg",
+      "externalId": "1ZY7wtGX-DDkPXNtmgFQ7nj_XrEsZlZOC"
+    },
+    {
+      "folder": "70",
+      "filename": "24808570.jpg",
+      "externalId": "1JfuEV9RIOJ3MxGrAtL-mSi8hSkT5kWJv"
+    },
+    {
+      "folder": "70",
+      "filename": "82435146.jpg",
+      "externalId": "1tRCuqISRFuNI1z-hWczBn82r9tmZFRJD"
+    },
+    {
+      "folder": "70",
+      "filename": "59561418.jpg",
+      "externalId": "1CRY7TcJN57s57p9fbCBO1OnHGUtGMRIN"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Bored To Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,136 @@
+{
+  "originalTitle": "Jeff Beck - 09.11.2011 - London - England - The Roundhouse - The Classic Rock Roll Of Honour",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Jeff Beck"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "11",
+    "year": "2011"
+  },
+  "startDateUnix": 1320796800,
+  "endDate": {
+    "day": "09",
+    "month": "11",
+    "year": "2011"
+  },
+  "endDateUnix": 1320796800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "The Roundhouse",
+    "event": "The Classic Rock Roll Of Honour"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.63,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 970,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": {
+      "language": "",
+      "codec": "",
+      "bitrateKbps": null,
+      "channels": null
+    },
+    "sourceDetail": {
+      "type": "",
+      "extra": "",
+      "medium": ""
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "31",
+      "filename": "79774728.jpg",
+      "externalId": "166LOVRJWewpxOurEu1zDcd_NUp-XzRVn"
+    },
+    {
+      "folder": "31",
+      "filename": "38010430.jpg",
+      "externalId": "1BYmOvB_FI-9x5yB8vxXtRy13Oz3Utcxl"
+    },
+    {
+      "folder": "31",
+      "filename": "58002869.jpg",
+      "externalId": "15Uu_sKaHAyf47kF8oaeGSC-jU3JxjTfb"
+    },
+    {
+      "folder": "31",
+      "filename": "85646511.jpg",
+      "externalId": "1y_fPCUx9xIKMs3dfN0i8YZH3pbFOhakr"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Bad Romance",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Big Block",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "I Put A Spell On You",
+      "feat": "Joss Stone",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "I'll Stand By You",
+      "feat": "Chrissie Hynde",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Korn - 15.08.2006 - Greenwood Village - CO - USA - Coors Amphitheatre (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "08",
+    "year": "2006"
+  },
+  "startDateUnix": 1155600000,
+  "endDate": {
+    "day": "15",
+    "month": "08",
+    "year": "2006"
+  },
+  "endDateUnix": 1155600000,
+  "location": {
+    "city": "Greenwood Village",
+    "state": "CO",
+    "country": "USA",
+    "venue": "Coors Amphitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Shitshot again. Very shaky.",
+  "tapers": [
+    "Red UFO"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.83,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2856,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "36990051.jpg",
+      "externalId": "1HS64OilRDbVfutKdXgOqAlAblcT8YcxN"
+    },
+    {
+      "folder": "14",
+      "filename": "06645252.jpg",
+      "externalId": "1k7E_ymJjGulnJWYqTvLNFQWQAFdpB-1I"
+    },
+    {
+      "folder": "14",
+      "filename": "15358869.jpg",
+      "externalId": "1bhkI4wAFJHKreNjzbCG-XnCcRISONzJp"
+    },
+    {
+      "folder": "14",
+      "filename": "01791935.jpg",
+      "externalId": "1t5mfBRPy1wT0HymUN76wdx8Y1QY7S57Q"
+    }
+  ],
+  "setlist": []
+}

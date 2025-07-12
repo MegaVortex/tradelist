@@ -1,0 +1,148 @@
+{
+  "originalTitle": "American Football - 30.04.1999 - Chicago - IL - USA - Fireside Bowl",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "American Football"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "04",
+    "year": "1999"
+  },
+  "startDateUnix": 925430400,
+  "endDate": {
+    "day": "30",
+    "month": "04",
+    "year": "1999"
+  },
+  "endDateUnix": 925430400,
+  "location": {
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "venue": "Fireside Bowl",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.31,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 2016,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "44",
+      "filename": "46804327.jpg",
+      "externalId": "1i1k_LeuLBq1fUJ_CWqoaCoSd9PvaJ783"
+    },
+    {
+      "folder": "44",
+      "filename": "27945461.jpg",
+      "externalId": "18KOB4IJoWUNn2DocEBkxyvrNFaCxHxs6"
+    },
+    {
+      "folder": "44",
+      "filename": "68762300.jpg",
+      "externalId": "1VRdrKhSDP-uDt2dSGBNWZndiv5XlVB18"
+    },
+    {
+      "folder": "44",
+      "filename": "39431957.jpg",
+      "externalId": "1zPhxDY9nX651PLKPQFc4ckXvcyplqZ9G"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The One With The Tambourine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Letters And Packages",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Five Silent Miles",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "I'll See You When We're Both Not So Emotional",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

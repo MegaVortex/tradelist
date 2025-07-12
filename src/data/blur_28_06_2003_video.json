@@ -1,0 +1,136 @@
+{
+  "originalTitle": "Blur - 28.06.2003 - Roskilde - Denmark - Dyrskuepladsen - Roskilde Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Blur"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "06",
+    "year": "2003"
+  },
+  "startDateUnix": 1056758400,
+  "endDate": {
+    "day": "28",
+    "month": "06",
+    "year": "2003"
+  },
+  "endDateUnix": 1056758400,
+  "location": {
+    "city": "Roskilde",
+    "state": "",
+    "country": "Denmark",
+    "venue": "Dyrskuepladsen",
+    "event": "Roskilde Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 297,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 337,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "blur_06_03_2003_video",
+    "blur_19_06_1999_source_2_video",
+    "blur_20_10_2003_video"
+  ],
+  "childOf": "Blur - [1999-2003] - Live Performances",
+  "images": [
+    {
+      "folder": "46",
+      "filename": "59975693.jpg",
+      "externalId": "1aHubQxXZqlf_RpQn0RLtpjnY3rHOxs38"
+    },
+    {
+      "folder": "46",
+      "filename": "41192115.jpg",
+      "externalId": "1o-kYhJNyTsBWrZAtJPvjf6b8pttMRGMT"
+    },
+    {
+      "folder": "46",
+      "filename": "03632594.jpg",
+      "externalId": "1xvSHjE49v8mJGetEGYWQ-j1HqrCaCAeb"
+    },
+    {
+      "folder": "46",
+      "filename": "96447825.jpg",
+      "externalId": "1nmBlJrJlrwcdbZrravNyUFaM-dt2VeJ3"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Crazy Beat",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Out Of Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

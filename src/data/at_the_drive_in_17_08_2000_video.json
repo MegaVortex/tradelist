@@ -1,0 +1,211 @@
+{
+  "originalTitle": "At The Drive-In - 17.08.2000 - Toronto - ON - Canada - The Kathedral",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "At The Drive-In"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "08",
+    "year": "2000"
+  },
+  "startDateUnix": 966470400,
+  "endDate": {
+    "day": "17",
+    "month": "08",
+    "year": "2000"
+  },
+  "endDateUnix": 966470400,
+  "location": {
+    "city": "Toronto",
+    "state": "ON",
+    "country": "Canada",
+    "venue": "The Kathedral",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.37,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": null,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "352x480",
+        "bitrateType": "CBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "0",
+      "filename": "37242.jpg",
+      "externalId": "11FHEMHzvFc2AY5c0Icr56m2i-jjlWWcY"
+    },
+    {
+      "folder": "0",
+      "filename": "05420.jpg",
+      "externalId": "1xDtdOoIDj9ZPMgjCZULu6e9xTGjCnsm8"
+    },
+    {
+      "folder": "0",
+      "filename": "08374.jpg",
+      "externalId": "1RgMPSkStBDvn0kX4ztkO0PuSbeGed7dJ"
+    },
+    {
+      "folder": "0",
+      "filename": "11597.jpg",
+      "externalId": "1sZ_EcvLrMOF9orl5LrtdqzIVsptGxhZc"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Chanbara",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Sleepwalk Capsules",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Pickpocket",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "One Armed Scissor",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Lopsided",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Metronome Arthritis",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Pattern Against User",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Rascuache",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "198d",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Catacombs",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Arc Arsenal",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Napolean Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,166 @@
+{
+  "originalTitle": "Iron Maiden - 26.10.1981 - Bologna - Italy - Palasport (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Iron Maiden"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "10",
+    "year": "1981"
+  },
+  "startDateUnix": 372902400,
+  "endDate": {
+    "day": "26",
+    "month": "10",
+    "year": "1981"
+  },
+  "endDateUnix": 372902400,
+  "location": {
+    "city": "Bologna",
+    "state": "",
+    "country": "Italy",
+    "venue": "Palasport",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.72,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1530,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "iron_maiden_26_10_1981_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "22",
+      "filename": "33038321.jpg",
+      "externalId": "1ysGlmXIutA8TkdhPRvSThE3rvTHZCs8f"
+    },
+    {
+      "folder": "22",
+      "filename": "47337488.jpg",
+      "externalId": "1O55JT2Xp-fTFygytzxcYKuo1npWiqmdf"
+    },
+    {
+      "folder": "22",
+      "filename": "92613878.jpg",
+      "externalId": "1yEMwUO8ugEtJ-s61YHl_1jS_PmtVMw98"
+    },
+    {
+      "folder": "22",
+      "filename": "02203567.jpg",
+      "externalId": "1HH4YQKCxpmNdwFndD4jXVxvmpsMgojkf"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Purgatory",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wrathchild",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Twilight Zone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Remember Tomorrow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Killers",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Running Free",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Murders In The Rue Morgue",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

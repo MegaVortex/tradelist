@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Marilyn Manson - 10.11.1996 - Charlotte - NC - USA - Grady Cole Center (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "11",
+    "year": "1996"
+  },
+  "startDateUnix": 847584000,
+  "endDate": {
+    "day": "10",
+    "month": "11",
+    "year": "1996"
+  },
+  "endDateUnix": 847584000,
+  "location": {
+    "city": "Charlotte",
+    "state": "NC",
+    "country": "USA",
+    "venue": "Grady Cole Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.59,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2152,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "47064488.jpg",
+      "externalId": "1NdlqG2sYlp_JlYHZhqNhTjbMX8Xhyn4I"
+    },
+    {
+      "folder": "18",
+      "filename": "26293047.jpg",
+      "externalId": "1frYNR4UVUhWa0c-ECH9N6RuR6a_A4HNS"
+    },
+    {
+      "folder": "18",
+      "filename": "22411043.jpg",
+      "externalId": "1NVMQrQeC3CRze1dgJ-_hv-DBotToqMt9"
+    },
+    {
+      "folder": "18",
+      "filename": "57388340.jpg",
+      "externalId": "1E5yhC9jcbRZmSxxelsoG3AzhyTwAsF-u"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Get Your Gunn",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Angel With The Scabbed Wings",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Dreid Up, Tied Up And Dead To The World",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Tourniquet",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

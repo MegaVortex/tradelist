@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Gojira - 01.11.2013 - Seattle - WA - USA - WaMu Theater [AUDIO]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Gojira"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "11",
+    "year": "2013"
+  },
+  "startDateUnix": 1383264000,
+  "endDate": {
+    "day": "01",
+    "month": "11",
+    "year": "2013"
+  },
+  "endDateUnix": 1383264000,
+  "location": {
+    "city": "Seattle",
+    "state": "WA",
+    "country": "USA",
+    "venue": "WaMu Theater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "audio"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "SDHC (.mov file) > SDHC reader > HDD > Audacity (.mov > .wav) > CD Wave (splits) > dBpoweramp (.wav > .flac, tags).",
+  "tapers": [
+    "Meddle Earth"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 546,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2769,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "FLAC",
+        "rateHz": 48000,
+        "bitrateKbps": 2304,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Oroborus",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Axe",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Backbone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Heaviest Matter Of The Universe",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Flying Whales",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "L'Enfant Sauvage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Toxic Garbage Island",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Vacuity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

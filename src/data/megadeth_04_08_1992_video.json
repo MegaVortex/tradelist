@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Megadeth - 04.08.1992 - Los Angeles - CA - USA - Paramount Studios - Arsenio Hall Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Megadeth"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "08",
+    "year": "1992"
+  },
+  "startDateUnix": 712886400,
+  "endDate": {
+    "day": "04",
+    "month": "08",
+    "year": "1992"
+  },
+  "endDateUnix": 712886400,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Paramount Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Arsenio Hall Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Season 4, Episode 193.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 420,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 423,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "60450429.jpg",
+      "externalId": "1nM8ND9bxT4vR8rYbmdgP5zFLsDXlDKWa"
+    },
+    {
+      "folder": "28",
+      "filename": "37552502.jpg",
+      "externalId": "1Cuqf4iI9vUtUKaN4Bc0a7FFVNGXh1DdI"
+    },
+    {
+      "folder": "28",
+      "filename": "32299209.jpg",
+      "externalId": "10E-4mXq4aqNcdBtKiJbHTRLkQCBGWW-i"
+    },
+    {
+      "folder": "28",
+      "filename": "63773679.jpg",
+      "externalId": "1W2Ews_2cqxKKsLN0OZ0Tr3O2E1Sgi6fm"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Symphony Of Destruction",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "Dave Mustaine",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

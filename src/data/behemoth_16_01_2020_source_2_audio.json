@@ -1,0 +1,114 @@
+{
+  "originalTitle": "Behemoth - 16.01.2020 - Manchester - England - Manchester Arena (Source 2) [AUDIO]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Behemoth"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "01",
+    "year": "2020"
+  },
+  "startDateUnix": 1579132800,
+  "endDate": {
+    "day": "16",
+    "month": "01",
+    "year": "2020"
+  },
+  "endDateUnix": 1579132800,
+  "location": {
+    "city": "Manchester",
+    "state": "",
+    "country": "England",
+    "venue": "Manchester Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "audio"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Highly incomplete. Sound Professionals SP-CMC-8 Microphones + Sound Professionals SP-SPSB-11 Mini Battery Module with Bass Roll-Off (16Hz) > Edirol R-09HR  44.1kHz / 16 bit > CD Wave Editor > Trader's Little Helper > FLAC (level 8).",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 90.8,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 934,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "FLAC",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Solve",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wolves Ov Siberia",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Daimonos",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Ora Pro Nobis Lucifer",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

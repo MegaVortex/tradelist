@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Biohazard - 13.07.1995 - London - England - MTV Studios - MTV Most Wanted",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Biohazard"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "07",
+    "year": "1995"
+  },
+  "startDateUnix": 805593600,
+  "endDate": {
+    "day": "13",
+    "month": "07",
+    "year": "1995"
+  },
+  "endDateUnix": 805593600,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "MTV Studios",
+    "event": "MTV Most Wanted"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 737,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 638,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "31",
+      "filename": "56879572.jpg",
+      "externalId": "1a2BerkMFMXXh0Rv8FjLpJ4sjGxW4D7Q-"
+    },
+    {
+      "folder": "31",
+      "filename": "65466579.jpg",
+      "externalId": "1nQPbJme6HFeV1yb64wdQBjuelzmAss1r"
+    },
+    {
+      "folder": "31",
+      "filename": "37476427.jpg",
+      "externalId": "1AibkxfghAabQK3ZFd_bFeF9tT2Y2CZO3"
+    },
+    {
+      "folder": "31",
+      "filename": "63231207.jpg",
+      "externalId": "1RDSaWcl8wcAit3Ce-E3pPAZBMgL7SbBA"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "What Makes Us Tick",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Love Denied",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

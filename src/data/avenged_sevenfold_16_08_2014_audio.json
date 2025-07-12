@@ -1,0 +1,170 @@
+{
+  "originalTitle": "Avenged Sevenfold - 16.08.2014 - Chiba - Japan - Makuhari Messe - Summer Sonic [AUDIO]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Avenged Sevenfold"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "08",
+    "year": "2014"
+  },
+  "startDateUnix": 1408147200,
+  "endDate": {
+    "day": "16",
+    "month": "08",
+    "year": "2014"
+  },
+  "endDateUnix": 1408147200,
+  "location": {
+    "city": "Chiba",
+    "state": "",
+    "country": "Japan",
+    "venue": "Makuhari Messe",
+    "event": "Summer Sonic"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "audio"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Schoeps MK4/KCY active > Naiant TinyBox > Sony PCM-M10 (24/96)> Samplitude (16/44.1) > TLH > FLAC.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 321,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3663,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "FLAC",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Shepherd Of Fire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Nightmare",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Bat Country",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Hail To The King",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Almost Easy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Buried Alive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "So Far Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Afterlife",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "This Means War",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "A Little Piece Of Heaven",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Unholy Confessions",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

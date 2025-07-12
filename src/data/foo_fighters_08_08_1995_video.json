@@ -1,0 +1,416 @@
+{
+  "originalTitle": "Foo Fighters - 08.08.1995 - Toronto - ON - Canada - The Phoenix",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "08",
+    "year": "1995"
+  },
+  "startDateUnix": 807840000,
+  "endDate": {
+    "day": "08",
+    "month": "08",
+    "year": "1995"
+  },
+  "endDateUnix": 807840000,
+  "location": {
+    "city": "Toronto",
+    "state": "ON",
+    "country": "Canada",
+    "venue": "The Phoenix",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.99,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3939,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "9",
+      "filename": "08057365.jpg",
+      "externalId": "150_vnfjESvv5wB2-RRdNPX8HQHFQ3Ktd"
+    },
+    {
+      "folder": "9",
+      "filename": "51548243.jpg",
+      "externalId": "1OgUTbsl1Wscmjz9w_A8F5L6jZgcvaBQQ"
+    },
+    {
+      "folder": "9",
+      "filename": "87596186.jpg",
+      "externalId": "1P2OjLtTMMkwOVnQvMGslypqip6FFh_xo"
+    },
+    {
+      "folder": "9",
+      "filename": "22721031.jpg",
+      "externalId": "1ljOpdCqG5o1sydU8X-4narS7fxlNa99D"
+    },
+    {
+      "folder": "9",
+      "filename": "20904961.jpg",
+      "externalId": "1mMRzlFitFDb4wzio_MSaoBF_iXmb0Ip6"
+    },
+    {
+      "folder": "9",
+      "filename": "17164157.jpg",
+      "externalId": "17VkkYI4yFFJ-HDyEOThMMqtWqeVrtz9Q"
+    },
+    {
+      "folder": "9",
+      "filename": "51277804.jpg",
+      "externalId": "1eC4p73i4h7gBM_Sjgf_2Rk-SQ5j9_Gzg"
+    },
+    {
+      "folder": "9",
+      "filename": "23874137.jpg",
+      "externalId": "1IZ3ziGiqQCPP-w4Sb1gvTd4KKZT9lJxv"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Winnebego",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "I'll Stick Around",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Butterflies",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Wattershed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Big Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "This Is A Call",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Weenie Beenie",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "For All The Cows",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "X-Static",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Oh, George",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Podunk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Alone + Easy Target",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Exhausted",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Lovein' Touchin' Squeezin' (Journy)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Down In The Park",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 1,
+      "song": "Beck's Bolero",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Pump",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "You Never Know",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Cause We've Ended As Lovers",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Behind The Veil",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Blast From The East",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Stratus",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Angel (Footsteps)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Led Boots",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Nadia",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Space Boogie",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Goodbye Pork Pie Hat/Brush With The Blues",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Blue Wind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Lilac Wine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Freeway Jam",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "Big Block",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 17,
+      "song": "A Day In The Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 18,
+      "song": "Peter Gunn Theme",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 19,
+      "song": "Jerusalem",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 20,
+      "song": "Hi-Ho Silver Lining",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 21,
+      "song": "Where Were You?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

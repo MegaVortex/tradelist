@@ -1,0 +1,109 @@
+{
+  "originalTitle": "At The Drive-In - 12.10.1998 - Seattle - WA - USA - Velvet Elvis",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "At The Drive-In"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "10",
+    "year": "1998"
+  },
+  "startDateUnix": 908150400,
+  "endDate": {
+    "day": "12",
+    "month": "10",
+    "year": "1998"
+  },
+  "endDateUnix": 908150400,
+  "location": {
+    "city": "Seattle",
+    "state": "WA",
+    "country": "USA",
+    "venue": "Velvet Elvis",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.42,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 4435,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "and_you_will_know_us_by_the_trail_of_dead_03_09_1999_video",
+    "and_you_will_know_us_by_the_trail_of_dead_12_02_1999_video"
+  ],
+  "childOf": "[VARIOUS ARTISTS] - [1998-1999] - USA Live Performances",
+  "images": [
+    {
+      "folder": "7",
+      "filename": "01425401.jpg",
+      "externalId": "1Uzxl7uZSEYU2rxqzIqvzEMeD6ZR-qEE9"
+    },
+    {
+      "folder": "7",
+      "filename": "08823074.jpg",
+      "externalId": "1H0uVOedLmjkPxyfmh8HOyslm0yMjKBUe"
+    },
+    {
+      "folder": "7",
+      "filename": "53011028.jpg",
+      "externalId": "1GLmkfXdjDHLb8lLvXvYfqjgVkt6faxGu"
+    },
+    {
+      "folder": "7",
+      "filename": "14163318.jpg",
+      "externalId": "1GfpJhjw-Y3dBkm-stNd7Z-NYqrK21DHw"
+    }
+  ],
+  "setlist": []
+}

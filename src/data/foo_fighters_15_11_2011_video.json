@@ -1,0 +1,135 @@
+{
+  "originalTitle": "Foo Fighters - 15.11.2011 - New York - NY - USA - Ed Sullivan Theater - David Letterman Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "11",
+    "year": "2011"
+  },
+  "startDateUnix": 1321315200,
+  "endDate": {
+    "day": "15",
+    "month": "11",
+    "year": "2011"
+  },
+  "endDateUnix": 1321315200,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Ed Sullivan Theater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "David Letterman Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 225,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 240,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "foo_fighters_16_03_2011_source_2_video",
+    "foo_fighters_09_04_2011_source_2_video",
+    "foo_fighters_11_04_2011_video",
+    "foo_fighters_12_04_2011_video_misc",
+    "foo_fighters_12_04_2011_source_2_video",
+    "foo_fighters_05_06_2011_video",
+    "foo_fighters_28_08_2011_video_misc",
+    "foo_fighters_07_09_2011_video_misc",
+    "foo_fighters_08_09_2011_source_3_video",
+    "foo_fighters_27_09_2011_source_2_video",
+    "foo_fighters_16_03_2011_source_1_video"
+  ],
+  "childOf": "Foo Fighters - [2011] - USA TV Appearances",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "04460109.jpg",
+      "externalId": "1XvYX7JJz6Wa08785pmwHL8KHfRSl7tM6"
+    },
+    {
+      "folder": "28",
+      "filename": "64001900.jpg",
+      "externalId": "1kPhNNUURSB-pBmctgXl22CsFZ94yUWFv"
+    },
+    {
+      "folder": "28",
+      "filename": "85001384.jpg",
+      "externalId": "1xxH5BKj0fJy8VywBSqLTxl3Rec3mn1tL"
+    },
+    {
+      "folder": "28",
+      "filename": "16205216.jpg",
+      "externalId": "1lFm8g5sVWkkCzqgm7j3v-DTIFLrzOyNR"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Bad Reputation",
+      "feat": "Joan Jett",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

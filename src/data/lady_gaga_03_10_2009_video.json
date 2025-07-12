@@ -1,0 +1,129 @@
+{
+  "originalTitle": "Lady Gaga - 03.10.2009 - New York - NY - USA - 30 Rockefeller Plaza - Studio 8H - Saturday Night Live",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Lady Gaga"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "10",
+    "year": "2009"
+  },
+  "startDateUnix": 1254528000,
+  "endDate": {
+    "day": "03",
+    "month": "10",
+    "year": "2009"
+  },
+  "endDateUnix": 1254528000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "30 Rockefeller Plaza",
+    "event": "Studio 8H - Saturday Night Live"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "NBC broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.94,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 632,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [
+    "lady_gaga_13_09_2009_video",
+    "lady_gaga_31_01_2009_video",
+    "lady_gaga_23_11_2009_video",
+    "lady_gaga_25_09_2011_source_2_video"
+  ],
+  "childOf": "Lady Gaga - [2009-2011] - TV Appearances",
+  "images": [
+    {
+      "folder": "43",
+      "filename": "64420134.jpg",
+      "externalId": "1uoo9mBLEeZlTxw5yxFZhKmqZl_j4aFpV"
+    },
+    {
+      "folder": "43",
+      "filename": "64477926.jpg",
+      "externalId": "1LVmhWMxzufdh1yI3r7xj_VR2MMWgzH2m"
+    },
+    {
+      "folder": "43",
+      "filename": "81644445.jpg",
+      "externalId": "1jsC11lnkY_OtByk2YtlpJbFCQZRl_aOb"
+    },
+    {
+      "folder": "43",
+      "filename": "88508780.jpg",
+      "externalId": "1iHpvBMnHk96Km-oL5z8zIxNJAeIuXQQ3"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Paparazzi",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "New York Medley",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

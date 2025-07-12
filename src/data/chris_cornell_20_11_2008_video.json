@@ -1,0 +1,125 @@
+{
+  "originalTitle": "Chris Cornell - 20.11.2008 - Burbank - CA - USA - NBC Studios - Jay Leno Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Chris Cornell"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "11",
+    "year": "2008"
+  },
+  "startDateUnix": 1227139200,
+  "endDate": {
+    "day": "20",
+    "month": "11",
+    "year": "2008"
+  },
+  "endDateUnix": 1227139200,
+  "location": {
+    "city": "Burbank",
+    "state": "CA",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Jay Leno Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 276,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 275,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "chris_cornell_07_07_2007_video",
+    "audioslave_09_05_2005_video_misc",
+    "audioslave_25_11_2002_video",
+    "audioslave_04_12_2005_video",
+    "audioslave_18_05_2005_video",
+    "audioslave_22_11_2005_video",
+    "chris_cornell_08_08_2008_video",
+    "chris_cornell_28_01_2000_video"
+  ],
+  "childOf": "[VARIOUS ARTISTS] - [2000-2008] - TV Appearances",
+  "images": [
+    {
+      "folder": "22",
+      "filename": "34705415.jpg",
+      "externalId": "1CV7ZH0m_NcYiTAIPfU0q12bXPHBMUXF_"
+    },
+    {
+      "folder": "22",
+      "filename": "80941550.jpg",
+      "externalId": "1z3Bhn4gA8i5W5bUJudHGDs7KgBIHubDu"
+    },
+    {
+      "folder": "22",
+      "filename": "04379455.jpg",
+      "externalId": "1v8dMC5cJdNlHLQs5Wy5oLeqhs8qGTSVn"
+    },
+    {
+      "folder": "22",
+      "filename": "75290132.jpg",
+      "externalId": "1NJO0eFl8Ktc8uCCQttT_YKu_1DyLf2_V"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "You Know My Name",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

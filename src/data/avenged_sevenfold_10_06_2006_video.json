@@ -1,0 +1,139 @@
+{
+  "originalTitle": "Avenged Sevenfold - 10.06.2006 - Castle Donington - England - Donington Park - Download Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Avenged Sevenfold"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "06",
+    "year": "2006"
+  },
+  "startDateUnix": 1149897600,
+  "endDate": {
+    "day": "10",
+    "month": "06",
+    "year": "2006"
+  },
+  "endDateUnix": 1149897600,
+  "location": {
+    "city": "Castle Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": "Download Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.91,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 7016,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_10_06_2006_video",
+    "funeral_for_a_friend_11_06_2006_video",
+    "lacuna_coil_11_06_2006_video",
+    "hatebreed_11_06_2006_video",
+    "stone_sour_10_06_2006_video",
+    "bullet_for_my_valentine_11_06_2006_source_2_video",
+    "in_flames_11_06_2006_video",
+    "guns_n_roses_11_06_2006_video",
+    "trivium_10_06_2006_video",
+    "coheed_and_cambria_09_06_2006_video",
+    "36_crazyfists_11_06_2006_video",
+    "alice_in_chains_10_06_2006_video",
+    "deftones_09_06_2006_video",
+    "soulfly_09_06_2006_video"
+  ],
+  "childOf": "various_artists_09_06_2006_11_06_2006_video_compilation",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "02367453.jpg",
+      "externalId": "1Yik_80FJsQIPfT14Phk4ylEui6NW2ey8"
+    },
+    {
+      "folder": "15",
+      "filename": "51496442.jpg",
+      "externalId": "1EqPHSKmKa7BKH6IaKf3tk4NldMu3WRff"
+    },
+    {
+      "folder": "15",
+      "filename": "57593299.jpg",
+      "externalId": "1vbj9qLmmodAr17MLFn-kcIkke34BsPcI"
+    },
+    {
+      "folder": "15",
+      "filename": "21498590.jpg",
+      "externalId": "1UJnxlTxh7XpCoJDhI4xjEgo8UFOQDD40"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Burn It Down",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

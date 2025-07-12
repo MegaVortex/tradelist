@@ -1,0 +1,178 @@
+{
+  "originalTitle": "Led Zeppelin - 14.05.1988 - New York - NY - USA - Madison Square Garden - Atlantic Records 40th Anniversary",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Led Zeppelin"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "05",
+    "year": "1988"
+  },
+  "startDateUnix": 579571200,
+  "endDate": {
+    "day": "14",
+    "month": "05",
+    "year": "1988"
+  },
+  "endDateUnix": 579571200,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Madison Square Garden",
+    "event": "Atlantic Records 40th Anniversary"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "With FM broadcast. Rehearsals & backstage upgrades. Performance features 2 seperate audio tracks, an FM Source and a very rare and unrelased audience source.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 7.8,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 11976,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "led_zeppelin_phil_collins_13_07_1985_source_2_video",
+    "led_zeppelin_12_01_1995_video",
+    "led_zeppelin_10_12_2007_source_3_video",
+    "page_plant_30_06_1990_video",
+    "page_plant_07_07_2001_source_1_video",
+    "led_zeppelin_22_05_2006_video_misc"
+  ],
+  "childOf": "[VARIOUS ARTISTS] - [1985-2007] - Reunions - Full Circle",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "19743989.jpg",
+      "externalId": "182Ok5THb0d-_lC2n0SAGUouQhdJ13Qq3"
+    },
+    {
+      "folder": "28",
+      "filename": "56276889.jpg",
+      "externalId": "1y0XKbyCXPtncfSmYRDMn7T2Br3zqPGP8"
+    },
+    {
+      "folder": "28",
+      "filename": "02833336.jpg",
+      "externalId": "1vKr_Z-ZdOPFMRizZops6dKsYZZVBksLO"
+    },
+    {
+      "folder": "28",
+      "filename": "03777247.jpg",
+      "externalId": "1IWccjRNkqGoh-PqemkhaSUlhOb6kNuOf"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Rehearsals (Misty Mountain Hop)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Backstage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Kashmir",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Heartbreaker",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Whole Lotta Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Misty Mountain Hop",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Stairway To Heaven",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

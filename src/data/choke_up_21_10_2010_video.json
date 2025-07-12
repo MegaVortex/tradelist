@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Choke Up - 21.10.2010 - Allston - MA - USA - Wacky Kastle",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Choke Up"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "10",
+    "year": "2010"
+  },
+  "startDateUnix": 1287619200,
+  "endDate": {
+    "day": "21",
+    "month": "10",
+    "year": "2010"
+  },
+  "endDateUnix": 1287619200,
+  "location": {
+    "city": "Allston",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Wacky Kastle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "dyinghorse release.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.88,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1753,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "34",
+      "filename": "60867934.jpg",
+      "externalId": "1uhABSVjNhI9jhRIquTWYfLH8gxesljK3"
+    },
+    {
+      "folder": "34",
+      "filename": "70612152.jpg",
+      "externalId": "1-CcWDacN9DznxOCiMPfTmDFTFccOhSjV"
+    },
+    {
+      "folder": "34",
+      "filename": "74520839.jpg",
+      "externalId": "1KJ0sH_mqLa9NGXurRsZOpczsIdxU-Lc9"
+    },
+    {
+      "folder": "34",
+      "filename": "35583880.jpg",
+      "externalId": "1rAtcL9D1d8SQ5P3JckFkWbm1I-1uDGc6"
+    }
+  ],
+  "setlist": []
+}

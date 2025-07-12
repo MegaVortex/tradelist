@@ -1,0 +1,129 @@
+{
+  "originalTitle": "Limp Bizkit - 18.02.1998 - Worcester - MA - USA - The Palladium - WAAF TV [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "02",
+    "year": "1998"
+  },
+  "startDateUnix": 887760000,
+  "endDate": {
+    "day": "18",
+    "month": "02",
+    "year": "1998"
+  },
+  "endDateUnix": 887760000,
+  "location": {
+    "city": "Worcester",
+    "state": "MA",
+    "country": "USA",
+    "venue": "The Palladium",
+    "event": "WAAF TV"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1014,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 889,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "limp_bizkit_17_10_1998_video",
+    "limp_bizkit_30_12_1998_video",
+    "limp_bizkit_24_05_1999_video",
+    "limp_bizkit_13_06_1999_source_2_video",
+    "limp_bizkit_12_03_1998_video",
+    "limp_bizkit_13_06_1999_source_3_video",
+    "limp_bizkit_23_09_1998_video_misc",
+    "limp_bizkit_29_07_1997_video_misc",
+    "limp_bizkit_13_06_1999_video_misc",
+    "limp_bizkit_01_01_1999_source_1_video",
+    "limp_bizkit_24_07_1999_source_1_video"
+  ],
+  "childOf": "Limp Bizkit - [1997-1999] - TV Appearances",
+  "images": [
+    {
+      "folder": "25",
+      "filename": "35033646.jpg",
+      "externalId": "1r6T85kW6-TRh_u3iDrm5fP2y0C6_SNq0"
+    },
+    {
+      "folder": "25",
+      "filename": "29465586.jpg",
+      "externalId": "1Y_oqMmm-xTcVsxAhy57sd3UY15-bwzeN"
+    },
+    {
+      "folder": "25",
+      "filename": "35156621.jpg",
+      "externalId": "1MeApC0RiZLVSeoNzmwGV2cOIC2y4fvLF"
+    },
+    {
+      "folder": "25",
+      "filename": "08273684.jpg",
+      "externalId": "1BQpj_wfgn9IRRiX1ziSxFEYS3CT0AYuf"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Fred Durst",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,300 @@
+{
+  "originalTitle": "Foo Fighters - 25.01.2015 - Rio De Janeiro - Brazil - Estadio Do Maracana",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "01",
+    "year": "2015"
+  },
+  "startDateUnix": 1422144000,
+  "endDate": {
+    "day": "25",
+    "month": "01",
+    "year": "2015"
+  },
+  "endDateUnix": 1422144000,
+  "location": {
+    "city": "Rio De Janeiro",
+    "state": "",
+    "country": "Brazil",
+    "venue": "Estadio Do Maracana",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 9.18,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 10113,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "65",
+      "filename": "18031675.jpg",
+      "externalId": "16Z4SVkqOz_XynJWCqX088BZFpwAaH4lV"
+    },
+    {
+      "folder": "65",
+      "filename": "03606863.jpg",
+      "externalId": "1qizW0RHLAI83xSIXHKjGagD0AwfJcL2u"
+    },
+    {
+      "folder": "65",
+      "filename": "03375129.jpg",
+      "externalId": "1ayeEz4AhSRhqLpLge-9ag0vPd21h2JC9"
+    },
+    {
+      "folder": "65",
+      "filename": "05605054.jpg",
+      "externalId": "1-lAqUOwiurbDsfO8BCDL_9oEmS0cVhXe"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Something From Nothing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Pretender",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Learn To Fly",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Breakout",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Arlandria",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "My Hero",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Big Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Congregation",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Walk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Cold Day In The Sun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "In The Clear",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "This Is A Call",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Monkey Wrench",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Skin And Bones",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "Wheels",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 17,
+      "song": "Times Like These",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 18,
+      "song": "Detroit Rock City",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Kiss"
+    },
+    {
+      "order": 19,
+      "song": "Tom Sawyer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Rush"
+    },
+    {
+      "order": 20,
+      "song": "Stay With Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Faces"
+    },
+    {
+      "order": 21,
+      "song": "Under Pressure",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Queen"
+    },
+    {
+      "order": 22,
+      "song": "All My Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 23,
+      "song": "Best Of You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 24,
+      "song": "Everlong",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

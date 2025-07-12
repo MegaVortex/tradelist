@@ -1,0 +1,131 @@
+{
+  "originalTitle": "Marilyn Manson - xx.01.2001 - USA - MTV News [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "01",
+    "year": "2001"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "01",
+    "year": "2001"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "MTV News",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Explanation of \"The Fight Song\" video, 2 minutes.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.07,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4162,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "marilyn_manson_xx_xx_2001_usa_mtv2_the_marilyn_manson_collection_video_misc",
+    "marilyn_manson_xx_xx_2001_usa_mtv_cribs_video_misc",
+    "marilyn_manson_05_11_2000_source_1_video_misc",
+    "marilyn_manson_15_11_2000_video_misc",
+    "marilyn_manson_31_12_2000_source_1_video"
+  ],
+  "childOf": "marilyn_manson_xx_xx_xxxx_misc_3_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "44",
+      "filename": "73746385.jpg",
+      "externalId": "1kdo-FmTM-MiQ6kEYaEij00SdFZpHp5wG"
+    },
+    {
+      "folder": "44",
+      "filename": "81471382.jpg",
+      "externalId": "1hxq6GdzjDBF0ST0sVxZpTSACVCKagSUx"
+    },
+    {
+      "folder": "44",
+      "filename": "90430322.jpg",
+      "externalId": "1BYYiNarzuRXeV43Lz4qESmylHzcCMA2V"
+    },
+    {
+      "folder": "44",
+      "filename": "09749293.jpg",
+      "externalId": "1uj9MO9xxS7fFzMWO1eiQms-TIX-vmPUV"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

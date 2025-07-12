@@ -1,0 +1,109 @@
+{
+  "originalTitle": "Lopatka - 02.07.2010 - Moscow - Russia - Aktoviy Zal",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Lopatka"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "07",
+    "year": "2010"
+  },
+  "startDateUnix": 1278028800,
+  "endDate": {
+    "day": "02",
+    "month": "07",
+    "year": "2010"
+  },
+  "endDateUnix": 1278028800,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Aktoviy Zal",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.1,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5423,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "hombre_malo_02_07_2010_source_1_video",
+    "cikuta_02_07_2010_video"
+  ],
+  "childOf": "various_artists_02_07_2010_source_2_video_compilation",
+  "images": [
+    {
+      "folder": "12",
+      "filename": "40489665.jpg",
+      "externalId": "1gmcvXdAWyC9TOezBL9CRQJOaV_6GZZB8"
+    },
+    {
+      "folder": "12",
+      "filename": "11402843.jpg",
+      "externalId": "1P0UHNgoN6nUo7U_qzonbpn2sEBUqlS4A"
+    },
+    {
+      "folder": "12",
+      "filename": "59454648.jpg",
+      "externalId": "1lW2BSZ06TwxYhgTIKRu0zYvaDgOzdG7X"
+    },
+    {
+      "folder": "12",
+      "filename": "41132911.jpg",
+      "externalId": "1reBYwcr8ynWsxLWaafQsSIJgT1WOp7t8"
+    }
+  ],
+  "setlist": []
+}

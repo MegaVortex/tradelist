@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Linkin Park - 27.05.2012 - Landgraaf - Netherlands - Megaland - Pinkpop Festival (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "05",
+    "year": "2012"
+  },
+  "startDateUnix": 1338076800,
+  "endDate": {
+    "day": "27",
+    "month": "05",
+    "year": "2012"
+  },
+  "endDateUnix": 1338076800,
+  "location": {
+    "city": "Landgraaf",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Megaland",
+    "event": "Pinkpop Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 594,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 530,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "37",
+      "filename": "53081789.jpg",
+      "externalId": "13VEOvdZbcT4GTy6LHQgLKINWzwwps--5"
+    },
+    {
+      "folder": "37",
+      "filename": "59568201.jpg",
+      "externalId": "1mY4NAqmSpuA7hocQdIImnGRWw_drjV_7"
+    },
+    {
+      "folder": "37",
+      "filename": "23570629.jpg",
+      "externalId": "1TOMEK2SRCOZihbJa8TCxdxiEhYDphqNj"
+    },
+    {
+      "folder": "37",
+      "filename": "35420972.jpg",
+      "externalId": "1Prh_UnV9QX2g0LxPmcLPpk2aWGtl9cjC"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "In The End",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Bleed It Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

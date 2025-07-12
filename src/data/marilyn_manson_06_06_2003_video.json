@@ -1,0 +1,126 @@
+{
+  "originalTitle": "Marilyn Manson - 06.06.2003 - London - England - BBC Television Centre - Jonathan Ross Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "06",
+    "year": "2003"
+  },
+  "startDateUnix": 1054857600,
+  "endDate": {
+    "day": "06",
+    "month": "06",
+    "year": "2003"
+  },
+  "endDateUnix": 1054857600,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Television Centre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jonathan Ross Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete. Lots of video glitches.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 553,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 965,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "marilyn_manson_26_11_2003_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "64",
+      "filename": "08328079.jpg",
+      "externalId": "1wyXZwgQny9B7aNmGyXKIMjpv0BG82Rck"
+    },
+    {
+      "folder": "64",
+      "filename": "55998965.jpg",
+      "externalId": "1SATXr4kx2bGrjQaWtO8vUmy8-taih5TP"
+    },
+    {
+      "folder": "64",
+      "filename": "05733227.jpg",
+      "externalId": "1PcJHgxjVicVrBQmrBqGxa0eJc8x-koI-"
+    },
+    {
+      "folder": "64",
+      "filename": "15674073.jpg",
+      "externalId": "1jd7URoucUuou_wJgUtEbJmmJmZmU8Hsc"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "mOBSCENE",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

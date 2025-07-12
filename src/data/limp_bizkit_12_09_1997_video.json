@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Limp Bizkit - 12.09.1997 - Atlanta - GA - USA - Parking Lot",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "09",
+    "year": "1997"
+  },
+  "startDateUnix": 874022400,
+  "endDate": {
+    "day": "12",
+    "month": "09",
+    "year": "1997"
+  },
+  "endDateUnix": 874022400,
+  "location": {
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "venue": "Parking Lot",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Out of sync.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.71,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1685,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "21",
+      "filename": "99122469.jpg",
+      "externalId": "1379QO2v1ubF5kBVWaYNEfiuIzccHPUBf"
+    },
+    {
+      "folder": "21",
+      "filename": "22322934.jpg",
+      "externalId": "1H4vaZ5VxwdpDPlcdfY6kn-7Of1LHi0XS"
+    },
+    {
+      "folder": "21",
+      "filename": "40590261.jpg",
+      "externalId": "1_jcVYt1XqTGNG85nQ7JbaXzzcFuT8Fys"
+    },
+    {
+      "folder": "21",
+      "filename": "87886670.jpg",
+      "externalId": "1HNrFpARYqZVByB9c3J92qmhmK9Eix3vh"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Nobody Loves Me",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Counterfeit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Jane Says",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Faith",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Stuck",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Indigo Flow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,111 @@
+{
+  "originalTitle": "Kylesa - 16.04.2009 - Tempe - AZ - USA - The Marquee Theater",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Kylesa"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "04",
+    "year": "2009"
+  },
+  "startDateUnix": 1239840000,
+  "endDate": {
+    "day": "16",
+    "month": "04",
+    "year": "2009"
+  },
+  "endDateUnix": 1239840000,
+  "location": {
+    "city": "Tempe",
+    "state": "AZ",
+    "country": "USA",
+    "venue": "The Marquee Theater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Derrell"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.72,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2353,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "intronaut_16_04_2009_video",
+    "via_vengeance_16_04_2009_video"
+  ],
+  "childOf": "various_artists_16_04_2009_video_compilation",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "21965703.jpg",
+      "externalId": "1WdGPtw0RJF1eKdqdufi9pLoVfaN1bZX8"
+    },
+    {
+      "folder": "27",
+      "filename": "74957531.jpg",
+      "externalId": "1SaXHIeWK3cwMAbBbiUzmZSTp4onTZaSC"
+    },
+    {
+      "folder": "27",
+      "filename": "65260901.jpg",
+      "externalId": "1ZWG6KFRv4hEFzQrHCKk71WjibSMtHjGN"
+    },
+    {
+      "folder": "27",
+      "filename": "18634736.jpg",
+      "externalId": "1XS7Tj12M2NsXOwRVzyaosnhlljUuRuD4"
+    }
+  ],
+  "setlist": []
+}

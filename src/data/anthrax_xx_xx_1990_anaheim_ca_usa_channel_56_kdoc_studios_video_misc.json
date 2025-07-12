@@ -1,0 +1,119 @@
+{
+  "originalTitle": "Anthrax - xx.xx.1990 - Anaheim - CA - USA - Channel 56 KDOC Studios [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Anthrax"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1990"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1990"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Anaheim",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Channel 56 KDOC Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 901,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 906,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "pantera_xx_xx_1990_anaheim_ca_usa_channel_56_kdoc_studios_video_misc"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "38034728.jpg",
+      "externalId": "18hxyNZnQAZLzQJ_qyoifEORy3cdGzu-r"
+    },
+    {
+      "folder": "20",
+      "filename": "60421234.jpg",
+      "externalId": "1p0dVXEl4uMSQw_jJro9FXP7Z_6PKIwFY"
+    },
+    {
+      "folder": "20",
+      "filename": "18216514.jpg",
+      "externalId": "1P6ayxtWEUqWGUcf4EPXyzI2s0tgxY1DW"
+    },
+    {
+      "folder": "20",
+      "filename": "79191661.jpg",
+      "externalId": "1J2lflX2NmCOmDKIK-PZifiePPlAoX47v"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Scott Ian",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Madonna - 14.09.1984 - New York - NY - USA - Radio City Music Hall - MTV Video Music Awards",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Madonna"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "09",
+    "year": "1984"
+  },
+  "startDateUnix": 463968000,
+  "endDate": {
+    "day": "14",
+    "month": "09",
+    "year": "1984"
+  },
+  "endDateUnix": 463968000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Radio City Music Hall",
+    "event": "MTV Video Music Awards"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 174,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 229,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "71",
+      "filename": "81694480.jpg",
+      "externalId": "1Thgtb3aL09r5L8cm2gXFINjIwTaTDl7N"
+    },
+    {
+      "folder": "71",
+      "filename": "66450289.jpg",
+      "externalId": "1S22wOdNzWCTXoi9vA2v9ntTa6t6r2Xk5"
+    },
+    {
+      "folder": "71",
+      "filename": "15497175.jpg",
+      "externalId": "10KMj10Cju4Kt8kPmdukIi9M00CwXlG7C"
+    },
+    {
+      "folder": "71",
+      "filename": "80933559.jpg",
+      "externalId": "1WBQ_icTasOy1FxEz_s0tHlnvhCiC7dfP"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Like A Virgin",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

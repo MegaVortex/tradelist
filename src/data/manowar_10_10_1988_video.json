@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Manowar - 10.10.1988 - New York - NY - USA - Cat Club",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Manowar"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "10",
+    "year": "1988"
+  },
+  "startDateUnix": 592444800,
+  "endDate": {
+    "day": "10",
+    "month": "10",
+    "year": "1988"
+  },
+  "endDateUnix": 592444800,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Cat Club",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.62,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1467,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "72",
+      "filename": "22526733.jpg",
+      "externalId": "1I_McegdT2Frdld1iJiuni9LLnvcCKrws"
+    },
+    {
+      "folder": "72",
+      "filename": "52058643.jpg",
+      "externalId": "1xQEibLGAmcePUV8tKRQ12VLlILkCLmKe"
+    },
+    {
+      "folder": "72",
+      "filename": "93075457.jpg",
+      "externalId": "1P2ys7fzXwiwnyqDvKhhKx7I2R8LBSXA1"
+    },
+    {
+      "folder": "72",
+      "filename": "76694436.jpg",
+      "externalId": "1u5LBEW8FVTgnoDgHI_Bbc-FDhW7kGcqt"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Heart Of Steel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wheels Of Fire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Hail And Kill",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Fighting The World",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

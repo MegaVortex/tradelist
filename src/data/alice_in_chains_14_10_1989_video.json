@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Alice In Chains - 14.10.1989 - Tacoma - WA - USA - Legends",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Alice In Chains"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "10",
+    "year": "1989"
+  },
+  "startDateUnix": 624326400,
+  "endDate": {
+    "day": "14",
+    "month": "10",
+    "year": "1989"
+  },
+  "endDateUnix": 624326400,
+  "location": {
+    "city": "Tacoma",
+    "state": "WA",
+    "country": "USA",
+    "venue": "Legends",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Minor tracking issues during first few seconds of video.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.83,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2040,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "17",
+      "filename": "59256396.jpg",
+      "externalId": "1RAJL36uppIBCovA4GjTtePMowuO75yhp"
+    },
+    {
+      "folder": "17",
+      "filename": "46967043.jpg",
+      "externalId": "1eYGqBVPeKyTHvtzJMl3rkRBAUdEdkQms"
+    },
+    {
+      "folder": "17",
+      "filename": "25463054.jpg",
+      "externalId": "1Annu_r2G-I6U4r5_i9kNWBBNtHdGLj1-"
+    },
+    {
+      "folder": "17",
+      "filename": "75277468.jpg",
+      "externalId": "1nCbic75KNH1LhCQCEQp82CFwlhp6K3_u"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "We Die Young",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Sunshine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Man In The Box",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Put You Down",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "I Can't Remember",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Queen Of The Rodeo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Social Parasite",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Sea of Sorrow",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Love, Hate, Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

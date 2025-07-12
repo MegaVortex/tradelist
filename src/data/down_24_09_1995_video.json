@@ -1,0 +1,243 @@
+{
+  "originalTitle": "Down - 24.09.1995 - Chicago - IL - USA - Vic Theatre",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Down"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "09",
+    "year": "1995"
+  },
+  "startDateUnix": 811900800,
+  "endDate": {
+    "day": "24",
+    "month": "09",
+    "year": "1995"
+  },
+  "endDateUnix": 811900800,
+  "location": {
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "venue": "Vic Theatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Reauthored in 2013.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.6,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3518,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "47",
+      "filename": "34162738.jpg",
+      "externalId": "1hnvdJDC5EHx3ZR0teW0FJOt8DctQyUXC"
+    },
+    {
+      "folder": "47",
+      "filename": "72592177.jpg",
+      "externalId": "1cRjJYOF2J5Wl5fBTo2bOMPW6Pk2ARnAP"
+    },
+    {
+      "folder": "47",
+      "filename": "23814901.jpg",
+      "externalId": "1ps6j0kmISWcaG8AGXoX-e9MUSxfxYDH2"
+    },
+    {
+      "folder": "47",
+      "filename": "35243358.jpg",
+      "externalId": "1WjNCqv1NYEfENc4uDrBsXHI6YjacBgsj"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Pillars Of Eternity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Lifer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Temptation's Wings",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Rehab",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Sweet Home Alabama (jam)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Hail The Leaf",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Hand Of Doom",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Underneath Everything",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Stone The Crow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Ice Monkey",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Losing All",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Bridging Sighs",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Swan Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Eyes Of The South",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Bury Me In Smoke",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "Symptom Of The Universe (jam)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

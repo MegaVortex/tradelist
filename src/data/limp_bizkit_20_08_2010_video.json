@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Limp Bizkit - 20.08.2010 - Hasselt - Belgium - Kiewit - Pukkelpop Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "08",
+    "year": "2010"
+  },
+  "startDateUnix": 1282262400,
+  "endDate": {
+    "day": "20",
+    "month": "08",
+    "year": "2010"
+  },
+  "endDateUnix": 1282262400,
+  "location": {
+    "city": "Hasselt",
+    "state": "",
+    "country": "Belgium",
+    "venue": "Kiewit",
+    "event": "Pukkelpop Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 8.65,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3075,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "36",
+      "filename": "09121039.jpg",
+      "externalId": "1UPLWPXJbCKmwSVirRqqm49siPtsAk7Yw"
+    },
+    {
+      "folder": "36",
+      "filename": "99230569.jpg",
+      "externalId": "1tSrdxhrihbP-OrmRZSULxoGOrER9fnIj"
+    },
+    {
+      "folder": "36",
+      "filename": "75337011.jpg",
+      "externalId": "12JJ5eP885BAc-Zutfjrmb8MK89RkRJPG"
+    },
+    {
+      "folder": "36",
+      "filename": "87542145.jpg",
+      "externalId": "1Tx8FzLQ4iZyqAU3Z2cB4KkhY5vzC8LGU"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Also Sprach Zarathustra",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Richard Strauss"
+    },
+    {
+      "order": 2,
+      "song": "Rollin' (Air Raid Vehicle)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "My Generation",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Livin' It Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "My Way",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Eat You Alive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Take A Look Around",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Behind Blue Eyes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "The Who"
+    },
+    {
+      "order": 9,
+      "song": "Break Stuff",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Faith",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "George Michael"
+    }
+  ],
+  "extras": []
+}

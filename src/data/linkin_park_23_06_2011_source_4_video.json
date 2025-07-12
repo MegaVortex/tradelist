@@ -1,0 +1,196 @@
+{
+  "originalTitle": "Linkin Park - 23.06.2011 - Moscow - Russia - Red Square - Vasiljevskiy Spusk (Source 4)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "06",
+    "year": "2011"
+  },
+  "startDateUnix": 1308787200,
+  "endDate": {
+    "day": "23",
+    "month": "06",
+    "year": "2011"
+  },
+  "endDateUnix": 1308787200,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Red Square",
+    "event": "Vasiljevskiy Spusk"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 4",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.52,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2620,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1072",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "31",
+      "filename": "24503323.jpg",
+      "externalId": "1yaRxwT9tn8Dtn-TAeK_xI85cjoHgfx_-"
+    },
+    {
+      "folder": "31",
+      "filename": "60806464.jpg",
+      "externalId": "1tykZuTgR8jgvqUFlnw084PIsTAqNcKok"
+    },
+    {
+      "folder": "31",
+      "filename": "63919794.jpg",
+      "externalId": "1vlTuO7Zt3ns5L5pL5eZ3U_ebVT0TF4Dw"
+    },
+    {
+      "folder": "31",
+      "filename": "68622853.jpg",
+      "externalId": "1nr8AGaGdOy2zDcoJMgmAdUpNJWuSNkn3"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "New Divide",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Given Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Jornada Del Muerto",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Waiting For The End",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Breaking The Habit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Fallout",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "The Catalyst",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "In The End",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Iridescent",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "What I've Done",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Bleed It Out / A Place For My Head",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

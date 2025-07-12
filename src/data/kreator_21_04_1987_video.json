@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Kreator - 21.04.1987 - Montreal - QC - Canada - Le Spectrum",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Kreator"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "04",
+    "year": "1987"
+  },
+  "startDateUnix": 545961600,
+  "endDate": {
+    "day": "21",
+    "month": "04",
+    "year": "1987"
+  },
+  "endDateUnix": 545961600,
+  "location": {
+    "city": "Montreal",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "Le Spectrum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.33,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2092,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "49",
+      "filename": "90101060.jpg",
+      "externalId": "1sYHjfmwDQOitbeXxhjpz6PdMp6_PMQtA"
+    },
+    {
+      "folder": "49",
+      "filename": "66013487.jpg",
+      "externalId": "1Qkywr2AsrpoNwaQohWTKQvwpr3ccMCNk"
+    },
+    {
+      "folder": "49",
+      "filename": "74012272.jpg",
+      "externalId": "1FDBn92ez5WrQz6DD4PReR84pSmd43Ugl"
+    },
+    {
+      "folder": "49",
+      "filename": "33807185.jpg",
+      "externalId": "1LC0UKahVmZJamr6Bd6C8try4yxVrTo_2"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Choir Of The Damned",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Ripping Corpse",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Awakening Of The Gods",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Tormentor",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Pleasure To Kill",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Take Their Lives",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Flag Of Hate",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Riot Of Violence",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

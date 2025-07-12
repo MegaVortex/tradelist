@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Every Time I Die - 07.07.2005 - Minneapolis - MN - USA",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Every Time I Die"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "07",
+    "year": "2005"
+  },
+  "startDateUnix": 1120694400,
+  "endDate": {
+    "day": "07",
+    "month": "07",
+    "year": "2005"
+  },
+  "endDateUnix": 1120694400,
+  "location": {
+    "city": "Minneapolis",
+    "state": "MN",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "No zoom at all.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.72,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1545,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "7",
+      "filename": "63589903.jpg",
+      "externalId": "1BhrZJ5fdrHY8oU3HwCFlVHZdFB3nefo_"
+    },
+    {
+      "folder": "7",
+      "filename": "32336794.jpg",
+      "externalId": "1mv0bGIUB8Tww43rk11gi_OamqxueSgFR"
+    },
+    {
+      "folder": "7",
+      "filename": "50700520.jpg",
+      "externalId": "1C-f3ocVQDiBopXqvUEFyVc6OsZnraNfv"
+    },
+    {
+      "folder": "7",
+      "filename": "31039175.jpg",
+      "externalId": "1fOi6Sn-T0uGT8W3eKfnE4iCk3sHyV_CX"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Romeo A Go-Go",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "I Been Gone A Long Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Kill The Music",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Off Broadway",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Floater",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "She's My Rushmore",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Ebolarama",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

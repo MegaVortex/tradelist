@@ -1,0 +1,109 @@
+{
+  "originalTitle": "Marilyn Manson - 15.01.1999 - Auckland - New Zealand - Ericsson Stadium - Big Day Out",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "01",
+    "year": "1999"
+  },
+  "startDateUnix": 916358400,
+  "endDate": {
+    "day": "15",
+    "month": "01",
+    "year": "1999"
+  },
+  "endDateUnix": 916358400,
+  "location": {
+    "city": "Auckland",
+    "state": "",
+    "country": "New Zealand",
+    "venue": "Ericsson Stadium",
+    "event": "Big Day Out"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 123,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": null,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": {
+      "language": "",
+      "codec": "",
+      "bitrateKbps": null,
+      "channels": null
+    },
+    "sourceDetail": {
+      "type": "",
+      "extra": "",
+      "medium": ""
+    }
+  },
+  "relatedShows": [
+    "marilyn_manson_22_06_1997_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "47",
+      "filename": "79104942.jpg",
+      "externalId": "15JR5iV0JnkdXyEd2tYvxwPD_t3q6A66C"
+    },
+    {
+      "folder": "47",
+      "filename": "12530539.jpg",
+      "externalId": "15bQ0hWHvRDFaH5FMZcke2zJKpYe-fmWr"
+    },
+    {
+      "folder": "47",
+      "filename": "17098934.jpg",
+      "externalId": "1jd-UtonWfCDwx8ZSpqS9vzPE_TXyqbQR"
+    },
+    {
+      "folder": "47",
+      "filename": "83259581.jpg",
+      "externalId": "19XN1Vmm52PcVQo9FsA3stRaYMz3Od-xN"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Great Big White World",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

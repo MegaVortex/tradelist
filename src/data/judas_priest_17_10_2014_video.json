@@ -1,0 +1,152 @@
+{
+  "originalTitle": "Judas Priest - 17.10.2014 - East Rutherford - NJ - USA - Izod Center",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Judas Priest"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "10",
+    "year": "2014"
+  },
+  "startDateUnix": 1413504000,
+  "endDate": {
+    "day": "17",
+    "month": "10",
+    "year": "2014"
+  },
+  "endDateUnix": 1413504000,
+  "location": {
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA",
+    "venue": "Izod Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Viper"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.25,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 941,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "59.94",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [
+    "judas_priest_20_03_2018_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "74",
+      "filename": "18315177.jpg",
+      "externalId": "1ms98mL-vwr5QLjaopQeF157zrdBl7k18"
+    },
+    {
+      "folder": "74",
+      "filename": "22743672.jpg",
+      "externalId": "1NETxkT4G6f7NC8qDMF4rp9-soe2IGbkH"
+    },
+    {
+      "folder": "74",
+      "filename": "14534228.jpg",
+      "externalId": "1BiOC2vle0jBEnNmhvIYbPLYTmgntfW1Q"
+    },
+    {
+      "folder": "74",
+      "filename": "98326322.jpg",
+      "externalId": "1iNDe7iuJAYxcsCcUhdCjwdGWJ4Ci6xSi"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "War Pigs (Black Sabbath song) (PA)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Battle Cry",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Dragonaut",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Metal Gods",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Devil's Child",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

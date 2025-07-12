@@ -1,0 +1,136 @@
+{
+  "originalTitle": "Limp Bizkit - 12.03.1998 - Negril - Jamaica - Margaritaville - MTV Spring Break",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "03",
+    "year": "1998"
+  },
+  "startDateUnix": 889660800,
+  "endDate": {
+    "day": "12",
+    "month": "03",
+    "year": "1998"
+  },
+  "endDateUnix": 889660800,
+  "location": {
+    "city": "Negril",
+    "state": "",
+    "country": "Jamaica",
+    "venue": "Margaritaville",
+    "event": "MTV Spring Break"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 717,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 309,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "limp_bizkit_17_10_1998_video",
+    "limp_bizkit_30_12_1998_video",
+    "limp_bizkit_24_05_1999_video",
+    "limp_bizkit_13_06_1999_source_2_video",
+    "limp_bizkit_18_02_1998_video_misc",
+    "limp_bizkit_13_06_1999_source_3_video",
+    "limp_bizkit_23_09_1998_video_misc",
+    "limp_bizkit_29_07_1997_video_misc",
+    "limp_bizkit_13_06_1999_video_misc",
+    "limp_bizkit_01_01_1999_source_1_video",
+    "limp_bizkit_24_07_1999_source_1_video"
+  ],
+  "childOf": "Limp Bizkit - [1997-1999] - TV Appearances",
+  "images": [
+    {
+      "folder": "25",
+      "filename": "93089364.jpg",
+      "externalId": "1LK_cTwNdwqS4gXDGLH4PaSddyaYwgEPU"
+    },
+    {
+      "folder": "25",
+      "filename": "37989348.jpg",
+      "externalId": "1O37qUhmhvFdn3nUDc6iuaYRu-VXvfdU5"
+    },
+    {
+      "folder": "25",
+      "filename": "11992295.jpg",
+      "externalId": "1FohHy0LxCHqnBesIOx574rHltij6Pfvq"
+    },
+    {
+      "folder": "25",
+      "filename": "62546424.jpg",
+      "externalId": "1buqK9OwR64w0k_iUTfzTvsYTOGjE6_Ao"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Counterfeit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Nobody Loves Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

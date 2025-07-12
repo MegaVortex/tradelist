@@ -1,0 +1,153 @@
+{
+  "originalTitle": "Blur - 21.02.2012 - London - England - O2 Arena - Brit Awards",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Blur"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "02",
+    "year": "2012"
+  },
+  "startDateUnix": 1329782400,
+  "endDate": {
+    "day": "21",
+    "month": "02",
+    "year": "2012"
+  },
+  "endDateUnix": 1329782400,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "O2 Arena",
+    "event": "Brit Awards"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "The first 3 songs were broadcast on ITV1's BRITS coverage, while the last two were broadcast later on ITV2.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.6,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 2.86,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1226,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "71",
+      "filename": "24522573.jpg",
+      "externalId": "1zX-Pa11cE-H-aAxef2jcVOsMFRZfx-7f"
+    },
+    {
+      "folder": "71",
+      "filename": "92518432.jpg",
+      "externalId": "1QQ_mL6UX7Tatc9Ox6ofb2sAx-aA3Fi6Z"
+    },
+    {
+      "folder": "71",
+      "filename": "70951763.jpg",
+      "externalId": "1w0e_wDJMYRgdcJsCAg7pVIF-ocpqhJ_a"
+    },
+    {
+      "folder": "71",
+      "filename": "72167916.jpg",
+      "externalId": "1dM0AHvs4wOV_VCEU9bpZ7IF-JMIEq6Hh"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Girls & Boys",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Song 2",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Parklife",
+      "feat": "Phil Daniels",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Tender",
+      "feat": "London Community Gospel Choir",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "This Is A Low",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

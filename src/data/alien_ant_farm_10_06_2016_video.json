@@ -1,0 +1,130 @@
+{
+  "originalTitle": "Alien Ant Farm - 10.06.2016 - Castle Donington - England - Donington Park - Download Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Alien Ant Farm"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "06",
+    "year": "2016"
+  },
+  "startDateUnix": 1465516800,
+  "endDate": {
+    "day": "10",
+    "month": "06",
+    "year": "2016"
+  },
+  "endDateUnix": 1465516800,
+  "location": {
+    "city": "Castle Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": "Download Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 24.2,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 16514,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 479,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [
+    "rammstein_10_06_2016_video",
+    "korn_10_06_2016_video",
+    "deftones_11_06_2016_video",
+    "skillet_10_06_2016_video",
+    "killswitch_engage_10_06_2016_video",
+    "nofx_11_06_2016_video",
+    "rival_sons_11_06_2016_video",
+    "iron_maiden_12_06_2016_video",
+    "skindred_11_06_2016_video",
+    "billy_talent_12_06_2016_video",
+    "disturbed_12_06_2016_video",
+    "nightwish_12_06_2016_video",
+    "halestorm_12_06_2016_video"
+  ],
+  "childOf": "various_artists_10_06_2016_12_06_2016_video_compilation",
+  "images": [
+    {
+      "folder": "67",
+      "filename": "33820557.jpg",
+      "externalId": "1N-e-D9AejuxeXrYUly0dIu_dGthr_pyI"
+    },
+    {
+      "folder": "67",
+      "filename": "58201169.jpg",
+      "externalId": "1LX1eGRuvj2o-NeY7l3ePKfylL4hoyMSU"
+    },
+    {
+      "folder": "67",
+      "filename": "23830272.jpg",
+      "externalId": "1VDQNr4nxyRyhX42-ah_rqM7Bwq0ejCal"
+    },
+    {
+      "folder": "67",
+      "filename": "00855203.jpg",
+      "externalId": "1bM9rmSV4k6o4sJK_1-NA1wULX12YWOBT"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Smooth Criminal",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

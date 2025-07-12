@@ -1,0 +1,182 @@
+{
+  "originalTitle": "Bon Jovi - 05.09.2002 - New York - NY - USA - Times Square (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "09",
+    "year": "2002"
+  },
+  "startDateUnix": 1031184000,
+  "endDate": {
+    "day": "05",
+    "month": "09",
+    "year": "2002"
+  },
+  "endDateUnix": 1031184000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Times Square",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.44,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2526,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "bon_jovi_05_09_2002_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "23",
+      "filename": "05866252.jpg",
+      "externalId": "1lYGgGaJsptyLhdHNRTDJZSgiWoOJlKzw"
+    },
+    {
+      "folder": "23",
+      "filename": "97436507.jpg",
+      "externalId": "1a5m6CnGXroXorGTl8kAiIX2dM-xFh-AQ"
+    },
+    {
+      "folder": "23",
+      "filename": "11765448.jpg",
+      "externalId": "1JGQTiWpF3N5mP5vHiy8BEBZ-VCsmDe4f"
+    },
+    {
+      "folder": "23",
+      "filename": "44121523.jpg",
+      "externalId": "1x4Uvfuqoh0Oq1coLXf70jZ7LpNyA6Quj"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Livin' On A Prayer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "You Give Love A Bad Name",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Born To Be My Baby",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Everyday",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Just Older",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Bounce",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "I'll Sleep When I'm Dead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Twist & Shout",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "America The Beautiful",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

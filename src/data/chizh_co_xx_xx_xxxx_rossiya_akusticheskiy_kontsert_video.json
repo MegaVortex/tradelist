@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Чиж & Co. - xx.xx.xxxx - Россия - Акустический Концерт",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Чиж & Co."
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Россия",
+    "state": "",
+    "country": "Акустический Концерт",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 154,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 851,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "384x288",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.14",
+        "standard": "Xvid",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 22050,
+        "bitrateKbps": 32,
+        "channels": 1
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "VCD",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "27015653.jpg",
+      "externalId": "1D_PG1ZJahcsGLL5G9nAbcXe_S_HZk1tL"
+    },
+    {
+      "folder": "20",
+      "filename": "82512710.jpg",
+      "externalId": "1ZQrR5ulNk63L6oWMSMexUisnvwf9Y5Tt"
+    },
+    {
+      "folder": "20",
+      "filename": "71245975.jpg",
+      "externalId": "1NMaIUvJb4bhRGELzKGVvfEocviVfvlCc"
+    },
+    {
+      "folder": "20",
+      "filename": "69051078.jpg",
+      "externalId": "1rUJQbJRh3bxSd7-ED9JkHDYdjY054rU9"
+    }
+  ],
+  "setlist": []
+}

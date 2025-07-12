@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Foo Fighters - 28.10.2009 - Culver City - CA - USA - Sony Pictures Studios - VH1 Storytellers (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "10",
+    "year": "2009"
+  },
+  "startDateUnix": 1256688000,
+  "endDate": {
+    "day": "28",
+    "month": "10",
+    "year": "2009"
+  },
+  "endDateUnix": 1256688000,
+  "location": {
+    "city": "Culver City",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Sony Pictures Studios",
+    "event": "VH1 Storytellers"
+  },
+  "tvChannel": "VH1",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 5.99,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2604,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "38",
+      "filename": "88828621.jpg",
+      "externalId": "1KN7zWT-tHFT_jdg-T8icnf1QCSb_lo5_"
+    },
+    {
+      "folder": "38",
+      "filename": "92597255.jpg",
+      "externalId": "1_fDIgRntNm2EZoNCeMNDKAiO91OaIAaM"
+    },
+    {
+      "folder": "38",
+      "filename": "96784479.jpg",
+      "externalId": "1-8FkgduuQ-37Q5aEm_4Xe57EHRytDSNY"
+    },
+    {
+      "folder": "38",
+      "filename": "39288739.jpg",
+      "externalId": "1nN3A0JXPfXMjnpgHfDLKL31pNvLNI7mr"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "This Is A Call",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Big Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Wheels",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "My Hero",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Word Forward",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Everlong",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

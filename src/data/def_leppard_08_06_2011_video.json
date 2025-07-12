@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Def Leppard - 08.06.2011 - Dublin - Ireland - The O2",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Def Leppard"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "06",
+    "year": "2011"
+  },
+  "startDateUnix": 1307491200,
+  "endDate": {
+    "day": "08",
+    "month": "06",
+    "year": "2011"
+  },
+  "endDateUnix": 1307491200,
+  "location": {
+    "city": "Dublin",
+    "state": "",
+    "country": "Ireland",
+    "venue": "The O2",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Highly incomplete recording.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.74,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2439,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "alice_cooper_08_06_2011_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "47",
+      "filename": "72069094.jpg",
+      "externalId": "1yg3y6kwZnAyW1xfBxIjHx1cT1lnIktZT"
+    },
+    {
+      "folder": "47",
+      "filename": "39536950.jpg",
+      "externalId": "1IZSgYsKkdoPL0exAUeIr5_gzL3Zv6VB6"
+    },
+    {
+      "folder": "47",
+      "filename": "33858996.jpg",
+      "externalId": "1VCYKI0VEcBZ0CYzYcMzX24lHUciptG5y"
+    },
+    {
+      "folder": "47",
+      "filename": "25766179.jpg",
+      "externalId": "1dC7pAiILhLj62JqlF5QlQPHQAiAS6BWJ"
+    }
+  ],
+  "setlist": []
+}

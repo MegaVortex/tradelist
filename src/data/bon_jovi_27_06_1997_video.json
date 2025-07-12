@@ -1,0 +1,114 @@
+{
+  "originalTitle": "Bon Jovi - 27.06.1997 - New York - NY - USA - Rockefeller Center",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "06",
+    "year": "1997"
+  },
+  "startDateUnix": 867369600,
+  "endDate": {
+    "day": "27",
+    "month": "06",
+    "year": "1997"
+  },
+  "endDateUnix": 867369600,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Rockefeller Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "NBC Europe broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2265,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "bon_jovi_xx_xx_1997_video",
+    "bon_jovi_13_06_1997_video",
+    "bon_jovi_08_11_1997_video",
+    "bon_jovi_29_08_1997_video",
+    "bon_jovi_06_11_1997_video",
+    "bon_jovi_09_06_1998_video",
+    "bon_jovi_xx_xx_1998_mtv_news_video_misc"
+  ],
+  "childOf": "Bon Jovi - [1997-1998] - 'Destination Anywhere' - TV Appearances",
+  "images": [
+    {
+      "folder": "45",
+      "filename": "21140497.jpg",
+      "externalId": "1dPM95K7UOkLTzj5hxJlnKKkXJFKB2GwB"
+    },
+    {
+      "folder": "45",
+      "filename": "33570161.jpg",
+      "externalId": "1zlyqZpcWjw7OIxuwaTRXJ3MrkuA1YGUk"
+    },
+    {
+      "folder": "45",
+      "filename": "65695709.jpg",
+      "externalId": "1lYDVur6BPue-WTc0ojs7tvfAvEm5Fcwa"
+    },
+    {
+      "folder": "45",
+      "filename": "55384018.jpg",
+      "externalId": "1Wu5FyIhhpS7mU3X4vEZqvwPuGTvm3Z8i"
+    }
+  ],
+  "setlist": []
+}

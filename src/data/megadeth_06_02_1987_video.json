@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Megadeth - 06.02.1987 - Des Moines - IA - USA - Veterans Memorial Auditorim",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Megadeth"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "02",
+    "year": "1987"
+  },
+  "startDateUnix": 539568000,
+  "endDate": {
+    "day": "06",
+    "month": "02",
+    "year": "1987"
+  },
+  "endDateUnix": 539568000,
+  "location": {
+    "city": "Des Moines",
+    "state": "IA",
+    "country": "USA",
+    "venue": "Veterans Memorial Auditorim",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.26,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2534,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "31",
+      "filename": "63038059.jpg",
+      "externalId": "19ZFm2kMCzj_Kot558eHELfev8pQX0PnT"
+    },
+    {
+      "folder": "31",
+      "filename": "45689565.jpg",
+      "externalId": "1HSPj55Jtlb6Xa_6bMUa4zSuneaSQYL2s"
+    },
+    {
+      "folder": "31",
+      "filename": "36554683.jpg",
+      "externalId": "1jQPDtj8rdTOanxVCTx9w_IzmvnyV3v9a"
+    },
+    {
+      "folder": "31",
+      "filename": "96669679.jpg",
+      "externalId": "1FTpM_X--t-CofpxMDXBxdr_cKMIfApRJ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Wake Up Dead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Conjuring",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Rattlehead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Bad Omen",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Peace Sells",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Devil's Island",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "The Mechanix",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Good Mourning / Black Friday",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

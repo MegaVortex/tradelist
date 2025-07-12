@@ -1,0 +1,110 @@
+{
+  "originalTitle": "Converge - 19.07.2002 - Baltimore - MD - USA - Ottobar",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Converge"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "07",
+    "year": "2002"
+  },
+  "startDateUnix": 1027036800,
+  "endDate": {
+    "day": "19",
+    "month": "07",
+    "year": "2002"
+  },
+  "endDateUnix": 1027036800,
+  "location": {
+    "city": "Baltimore",
+    "state": "MD",
+    "country": "USA",
+    "venue": "Ottobar",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.09,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5404,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "between_the_buried_and_me_07_07_2002_video",
+    "underoath_23_06_2002_video",
+    "converge_21_03_2005_video"
+  ],
+  "childOf": "various_artists_xx_xx_2002_xx_xx_2005_video_compilation",
+  "images": [
+    {
+      "folder": "12",
+      "filename": "34620360.jpg",
+      "externalId": "18TszATEAtcDfNKhv0ktIqu6De0rsO57_"
+    },
+    {
+      "folder": "12",
+      "filename": "80031031.jpg",
+      "externalId": "1fY3ReXuId7bDEllT0Xn3BF6tRm5Zfi6Y"
+    },
+    {
+      "folder": "12",
+      "filename": "98472628.jpg",
+      "externalId": "1sI7arbjgwJfYUVhZT2vcnVZDLv2fykf3"
+    },
+    {
+      "folder": "12",
+      "filename": "05611032.jpg",
+      "externalId": "1CqO9RFvTVZ_ISX_t_P7h2a0p9EaDwQ9l"
+    }
+  ],
+  "setlist": []
+}

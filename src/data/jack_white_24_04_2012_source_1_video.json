@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Jack White - 24.04.2012 - London - England - BBC Television Centre - Jools Holland Show (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Jack White"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "04",
+    "year": "2012"
+  },
+  "startDateUnix": 1335225600,
+  "endDate": {
+    "day": "24",
+    "month": "04",
+    "year": "2012"
+  },
+  "endDateUnix": 1335225600,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Television Centre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jools Holland Show",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 676,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 542,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1440x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "35",
+      "filename": "06688116.jpg",
+      "externalId": "1LsA1VC6QmmIaHL8LlQc8BUHZe8u1dVHg"
+    },
+    {
+      "folder": "35",
+      "filename": "69064506.jpg",
+      "externalId": "1k1smFYGBEL5QlK_eulI-8KTBAZ6RuOo3"
+    },
+    {
+      "folder": "35",
+      "filename": "78719942.jpg",
+      "externalId": "1VKdgh5HG80R1yh7BoCN3PP8-ETdFFQP9"
+    },
+    {
+      "folder": "35",
+      "filename": "52444369.jpg",
+      "externalId": "1S2xR4-SzMooPDiAscConAdr7QmWKgF05"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Sixteen Saltines",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Freedom At 21",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

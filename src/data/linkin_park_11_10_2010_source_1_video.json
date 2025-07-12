@@ -1,0 +1,120 @@
+{
+  "originalTitle": "Linkin Park - 11.10.2010 - Itu - Sao Paulo - Brazil - Fazenda Maeda - SWU Festival (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "10",
+    "year": "2010"
+  },
+  "startDateUnix": 1286755200,
+  "endDate": {
+    "day": "11",
+    "month": "10",
+    "year": "2010"
+  },
+  "endDateUnix": 1286755200,
+  "location": {
+    "city": "Itu",
+    "state": "",
+    "country": "Sao Paulo",
+    "venue": "Brazil",
+    "event": "Fazenda Maeda - SWU Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Summer Sonic highlights.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.55,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2619,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "rage_against_the_machine_09_10_2010_source_2_video",
+    "pixies_11_10_2010_video",
+    "queens_of_the_stone_age_11_10_2010_video"
+  ],
+  "childOf": "various_artists_09_10_2010_11_10_2010_video_compilation",
+  "images": [
+    {
+      "folder": "10",
+      "filename": "83731488.jpg",
+      "externalId": "1O4lv0SHYxhkyE1SuS_Nm33JM6MlZ5876"
+    },
+    {
+      "folder": "10",
+      "filename": "64720323.jpg",
+      "externalId": "1NvDcUUMAGD3crSYB86v6DiQSFP1YhpEJ"
+    },
+    {
+      "folder": "10",
+      "filename": "35274935.jpg",
+      "externalId": "1C8xk9m5Z5vTxqc2KrkF4oCnQz42LaJhz"
+    },
+    {
+      "folder": "10",
+      "filename": "50848661.jpg",
+      "externalId": "1Ijk5nDYoTdOdCtWgyfynQ3xkBaVNPXuv"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Numb",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

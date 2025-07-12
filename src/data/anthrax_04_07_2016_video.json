@@ -1,0 +1,202 @@
+{
+  "originalTitle": "Anthrax - 04.07.2016 - Berlin - Germany - Schwuz",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Anthrax"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "07",
+    "year": "2016"
+  },
+  "startDateUnix": 1467590400,
+  "endDate": {
+    "day": "04",
+    "month": "07",
+    "year": "2016"
+  },
+  "endDateUnix": 1467590400,
+  "location": {
+    "city": "Berlin",
+    "state": "",
+    "country": "Germany",
+    "venue": "Schwuz",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Arte HDTV broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 4.98,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3583,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "64",
+      "filename": "18158399.jpg",
+      "externalId": "1yBmeWhGXvcALj59BszDexYbpITi5xKYP"
+    },
+    {
+      "folder": "64",
+      "filename": "10436449.jpg",
+      "externalId": "1yDcwFyFdWa2WBkfk_FlAvlZHeeuMaBmG"
+    },
+    {
+      "folder": "64",
+      "filename": "03224370.jpg",
+      "externalId": "1VuoGh6F3EymziRDTP0tWhaPV614meVTc"
+    },
+    {
+      "folder": "64",
+      "filename": "78710850.jpg",
+      "externalId": "1Ou5r9ifhTzM511KGIwMdK0R-cm4bP9yW"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "You Gotta Believe",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Monster At The End",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Caught In A Mosh",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Madhouse",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Fight 'Em 'Til You Can't",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Evil Twin",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Medusa",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Breathing Lightning",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Indians",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,125 @@
+{
+  "originalTitle": "Chris Cornell - 28.01.2000 - Burbank - CA - USA - NBC Studios - Jay Leno Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Chris Cornell"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "01",
+    "year": "2000"
+  },
+  "startDateUnix": 949017600,
+  "endDate": {
+    "day": "28",
+    "month": "01",
+    "year": "2000"
+  },
+  "endDateUnix": 949017600,
+  "location": {
+    "city": "Burbank",
+    "state": "CA",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Jay Leno Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 246,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 246,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "chris_cornell_07_07_2007_video",
+    "audioslave_09_05_2005_video_misc",
+    "audioslave_25_11_2002_video",
+    "audioslave_04_12_2005_video",
+    "audioslave_18_05_2005_video",
+    "audioslave_22_11_2005_video",
+    "chris_cornell_08_08_2008_video",
+    "chris_cornell_20_11_2008_video"
+  ],
+  "childOf": "[VARIOUS ARTISTS] - [2000-2008] - TV Appearances",
+  "images": [
+    {
+      "folder": "22",
+      "filename": "53107249.jpg",
+      "externalId": "1xv83hkWzRJWXpWcSEWf2qXPqUpkhtn85"
+    },
+    {
+      "folder": "22",
+      "filename": "43719459.jpg",
+      "externalId": "1YCpiJmEkOqJCwkk29xf_TrfNmAY1ruut"
+    },
+    {
+      "folder": "22",
+      "filename": "22204666.jpg",
+      "externalId": "1YNW9zsbNJqu4ZC89PGvwDdbXT2UTCGdH"
+    },
+    {
+      "folder": "22",
+      "filename": "96667884.jpg",
+      "externalId": "1-cGedzpCplUpL1TZIcJYGK3Gr5hwUgLu"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Preaching The End Of The World",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

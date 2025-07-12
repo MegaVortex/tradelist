@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Garbage - 22.04.2012 - Frisco - TX - USA - FC Dallas Stadium - Edgefest",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Garbage"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "04",
+    "year": "2012"
+  },
+  "startDateUnix": 1335052800,
+  "endDate": {
+    "day": "22",
+    "month": "04",
+    "year": "2012"
+  },
+  "endDateUnix": 1335052800,
+  "location": {
+    "city": "Frisco",
+    "state": "TX",
+    "country": "USA",
+    "venue": "FC Dallas Stadium",
+    "event": "Edgefest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.54,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2695,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "38",
+      "filename": "21663224.jpg",
+      "externalId": "1ma3mLedlexY6bRuyu20SzjcVr1X3ZY6D"
+    },
+    {
+      "folder": "38",
+      "filename": "84486120.jpg",
+      "externalId": "1FMgX0QPvgtDAJCppV3z4jtyAitEb8hsL"
+    },
+    {
+      "folder": "38",
+      "filename": "05243705.jpg",
+      "externalId": "1KrK2EBJvfsI9ErAM4uwNCevl-uJpHNKG"
+    },
+    {
+      "folder": "38",
+      "filename": "81877121.jpg",
+      "externalId": "1KF78gqXzL-F9QIwJ39mt6_3vXkQ3ajlt"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Push It",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "I Think I'm Paranoid",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Stupid Girl",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Special",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "I Would Die For You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Blood For Poppies",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Vow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Only Happy When It Rains",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Why Do You Love Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

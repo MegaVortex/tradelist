@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Marilyn Manson - 11.11.1999 - Dublin - Ireland - Point Depot - MTV European Music Awards (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "11",
+    "year": "1999"
+  },
+  "startDateUnix": 942278400,
+  "endDate": {
+    "day": "11",
+    "month": "11",
+    "year": "1999"
+  },
+  "endDateUnix": 942278400,
+  "location": {
+    "city": "Dublin",
+    "state": "",
+    "country": "Ireland",
+    "venue": "Point Depot",
+    "event": "MTV European Music Awards"
+  },
+  "tvChannel": "MTV Europe",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.62,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3697,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "Marilyn Manson - [MISC 2 - Compilation]",
+  "images": [
+    {
+      "folder": "44",
+      "filename": "72239306.jpg",
+      "externalId": "1OAPfAReFpfRG5o2NSJLnJvRpbrO1YNO_"
+    },
+    {
+      "folder": "44",
+      "filename": "27091733.jpg",
+      "externalId": "1-ygaFmP8eZJ7A5yRICzPbhAlB1jkaNPV"
+    },
+    {
+      "folder": "44",
+      "filename": "77788578.jpg",
+      "externalId": "1lLkrJY5jGWn25e7cVgZZMoX2N4JdYJ_R"
+    },
+    {
+      "folder": "44",
+      "filename": "73055090.jpg",
+      "externalId": "1WgNSJldqARzEKx6usT7ty002Hom3Kar4"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Rock Is Dead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

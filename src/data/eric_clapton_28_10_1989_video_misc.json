@@ -1,0 +1,113 @@
+{
+  "originalTitle": "Eric Clapton - 28.10.1989 - London - England - BBC Studios - Saturday Matters [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Eric Clapton"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "10",
+    "year": "1989"
+  },
+  "startDateUnix": 625536000,
+  "endDate": {
+    "day": "28",
+    "month": "10",
+    "year": "1989"
+  },
+  "endDateUnix": 625536000,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Studios",
+    "event": "Saturday Matters"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 717,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 973,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "eric_clapton_25_01_1989_video_misc",
+    "eric_clapton_buddy_guy_06_10_1987_video",
+    "eric_clapton_keith_richards_all_star_band_31_05_1989_video",
+    "eric_clapton_05_02_1990_video",
+    "legends_11_07_1997_video"
+  ],
+  "childOf": "Eric Clapton - [1987-1997] - TV Appearances",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "32301955.jpg",
+      "externalId": "19bsNsfGnMJqH1xe9QWXvnaqKlFdXctiR"
+    },
+    {
+      "folder": "26",
+      "filename": "46113281.jpg",
+      "externalId": "1NhAkgdpQbBBOLasgvHqVBpNEJgFnLdGP"
+    },
+    {
+      "folder": "26",
+      "filename": "35965637.jpg",
+      "externalId": "1r4vcnIv2WG8RiQux3vIf4atntL-bHx1N"
+    },
+    {
+      "folder": "26",
+      "filename": "25656115.jpg",
+      "externalId": "1AiDaapySH8lf4jtLdDyXhmMRtA4QPH2j"
+    }
+  ],
+  "setlist": []
+}

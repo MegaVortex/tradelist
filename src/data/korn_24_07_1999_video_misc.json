@@ -1,0 +1,123 @@
+{
+  "originalTitle": "Korn - 24.07.1999 - Rome - NY - USA - Griffiss Park - Woodstock [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "07",
+    "year": "1999"
+  },
+  "startDateUnix": 932774400,
+  "endDate": {
+    "day": "24",
+    "month": "07",
+    "year": "1999"
+  },
+  "endDateUnix": 932774400,
+  "location": {
+    "city": "Rome",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Griffiss Park",
+    "event": "Woodstock"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 369,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 452,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_xx_xx_1998_los_angeles_ca_usa_mtv_fanatic_show_source_1_video_misc",
+    "korn_xx_07_1997_source_2_video",
+    "korn_xx_xx_1995_usa_interview_with_rick_davis_source_1_video_misc",
+    "korn_15_06_1996_video_misc",
+    "korn_12_10_1999_source_3_video"
+  ],
+  "childOf": "korn_xx_xx_xxxx_misc_5_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "60855977.jpg",
+      "externalId": "10wRH0-5IP9gZ2KLhD2KMxoYqeZjDA-Tl"
+    },
+    {
+      "folder": "15",
+      "filename": "91749172.jpg",
+      "externalId": "1MYnxPwrT1ZRV20cXbgs1kgvJ9-D9IzzU"
+    },
+    {
+      "folder": "15",
+      "filename": "06823865.jpg",
+      "externalId": "1AD2c2dRKSBCe0ZJcoa88YdA23PbKLl53"
+    },
+    {
+      "folder": "15",
+      "filename": "37983541.jpg",
+      "externalId": "18hfgROUfzIuba3Taci5e41avcKxkI83Y"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

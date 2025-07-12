@@ -1,0 +1,166 @@
+{
+  "originalTitle": "Alice Cooper - 16.07.2012 - Corfu - NY - USA - Darien Lake Performing Arts Center",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Alice Cooper"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "07",
+    "year": "2012"
+  },
+  "startDateUnix": 1342396800,
+  "endDate": {
+    "day": "16",
+    "month": "07",
+    "year": "2012"
+  },
+  "endDateUnix": 1342396800,
+  "location": {
+    "city": "Corfu",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Darien Lake Performing Arts Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Highly incomplete.",
+  "tapers": [
+    "AK"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1004,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 397,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 44100,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MOV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "51",
+      "filename": "31165960.jpg",
+      "externalId": "1dM31myPyau4Ojdhlk1GocUUiXUWJWwml"
+    },
+    {
+      "folder": "51",
+      "filename": "81811200.jpg",
+      "externalId": "19PDpA-pWKvN3yjknNbVTB6QSpkrkY3Fe"
+    },
+    {
+      "folder": "51",
+      "filename": "82282506.jpg",
+      "externalId": "1a5qY6VetY74qWsaLhr29M0VbSja4WFGi"
+    },
+    {
+      "folder": "51",
+      "filename": "14241371.jpg",
+      "externalId": "1m_9-kjDHB3MgXaXDYeRROoNGjKHAWake"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Black Widow",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "No More Mr. Nice Guy",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Guitar Solo",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Billion Dollar Babies",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Feed My Frankenstein",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "School's Out",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

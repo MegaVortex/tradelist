@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Green Day - 16.03.1994 - New York - NY - USA - 30 Rockefeller Plaza - Conan O'Brien Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Green Day"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "03",
+    "year": "1994"
+  },
+  "startDateUnix": 763776000,
+  "endDate": {
+    "day": "16",
+    "month": "03",
+    "year": "1994"
+  },
+  "endDateUnix": 763776000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "30 Rockefeller Plaza",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Conan O'Brien Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.23,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2601,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "green_day_17_03_1994_video",
+    "green_day_06_06_1994_video",
+    "green_day_29_06_1994_video",
+    "green_day_08_09_1994_video",
+    "green_day_15_10_1994_video",
+    "green_day_22_10_1994_video",
+    "green_day_03_12_1994_video"
+  ],
+  "childOf": "Green Day - [1994] - Dookie-Era TV Appearances",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "49671011.jpg",
+      "externalId": "1275tJVa-NqlEp2Oj5b3SyrMaVxesKRIo"
+    },
+    {
+      "folder": "69",
+      "filename": "02214504.jpg",
+      "externalId": "1MQNVh-Gmzs2jX-TvnVCHi3qVycsLp76w"
+    },
+    {
+      "folder": "69",
+      "filename": "20707125.jpg",
+      "externalId": "1j61rqXO8dUOr1DS0N8qYspAcnehGrGPc"
+    },
+    {
+      "folder": "69",
+      "filename": "06503884.jpg",
+      "externalId": "1U_hVEbSCHOixvJkjEEwgfdWyDYA_PiBO"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Welcome To Paradise",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

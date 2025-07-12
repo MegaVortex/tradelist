@@ -1,0 +1,197 @@
+{
+  "originalTitle": "Megadeth - 10.11.1990 - San Diego - CA - USA - Sports Arena",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Megadeth"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "11",
+    "year": "1990"
+  },
+  "startDateUnix": 658195200,
+  "endDate": {
+    "day": "10",
+    "month": "11",
+    "year": "1990"
+  },
+  "endDateUnix": 658195200,
+  "location": {
+    "city": "San Diego",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Sports Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "\"From The Vaults - Vol 9\".",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.09,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 5629,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "36",
+      "filename": "81347810.jpg",
+      "externalId": "1YvphtOb2k05hwaF5Z8Xe5A6bVfWril0Z"
+    },
+    {
+      "folder": "36",
+      "filename": "55796835.jpg",
+      "externalId": "1BMS9Qey6FYpvRLFzHX3eISN4xS2SWdF-"
+    },
+    {
+      "folder": "36",
+      "filename": "88492461.jpg",
+      "externalId": "1gu8awXkdc_9iyLVC07N_YXhCjEN_khGj"
+    },
+    {
+      "folder": "36",
+      "filename": "79104033.jpg",
+      "externalId": "1AEFPnHLRo9GIVtcy9cdeb-Pp7CwdSGEQ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wake Up Dead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Hook In Mouth",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Hangar 18",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "The Conjuring",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "In My Darkest Hour",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Take No prisoners",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Holy Wars… The Punishment Due",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Peace Sells",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Anarchy In The U.K.",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Backstage Footage",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "originalTitle": "Coal Chamber - 22.08.1999 - St. Paul - MN - USA - Roy Wilkins Auditorium (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Coal Chamber"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "08",
+    "year": "1999"
+  },
+  "startDateUnix": 935280000,
+  "endDate": {
+    "day": "22",
+    "month": "08",
+    "year": "1999"
+  },
+  "endDateUnix": 935280000,
+  "location": {
+    "city": "St. Paul",
+    "state": "MN",
+    "country": "USA",
+    "venue": "Roy Wilkins Auditorium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.73,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2989,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "67",
+      "filename": "71814980.jpg",
+      "externalId": "11skcqg4bxHC132mgOm679abCjCSFKjRy"
+    },
+    {
+      "folder": "67",
+      "filename": "73702506.jpg",
+      "externalId": "1tCCBn0byl68ec2BG7zsDWXCFfecCwqPP"
+    },
+    {
+      "folder": "67",
+      "filename": "99681750.jpg",
+      "externalId": "1qq9LQ-iHe7qYdt-RhidQL41_jX43IRj5"
+    },
+    {
+      "folder": "67",
+      "filename": "28741869.jpg",
+      "externalId": "1yg58czBMbr3PvgSlg3o1YRaRX6er-IE5"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Loco",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Big Truck",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "No Home",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Bradley",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Not Living",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Notion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Clock",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "I",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Tyler's Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "El Cu Cuy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Oddity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Sway",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

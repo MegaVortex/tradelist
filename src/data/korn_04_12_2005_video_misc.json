@@ -1,0 +1,139 @@
+{
+  "originalTitle": "Korn - 04.12.2005 - USA - NBC Studios - MSNBC News [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "12",
+    "year": "2005"
+  },
+  "startDateUnix": 1133654400,
+  "endDate": {
+    "day": "04",
+    "month": "12",
+    "year": "2005"
+  },
+  "endDateUnix": 1133654400,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "NBC Studios",
+    "venue": "MSNBC News",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 154,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 193,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_26_11_2005_video_misc",
+    "korn_28_11_2005_video_misc",
+    "korn_08_11_2005_video_misc",
+    "korn_12_12_2005_video",
+    "korn_29_11_2005_source_1_video"
+  ],
+  "childOf": "korn_xx_xx_xxxx_misc_10_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "56216022.jpg",
+      "externalId": "1-dsEJkVZxAPwc1V1jU5NuVn4VA_FQTwH"
+    },
+    {
+      "folder": "18",
+      "filename": "77130138.jpg",
+      "externalId": "1mjK_3meo1_sAqtTDQIxARJXbaRq6XuhH"
+    },
+    {
+      "folder": "18",
+      "filename": "43241560.jpg",
+      "externalId": "1LXovhD4fqqO-jVXaURo2jeNYsH-0-8eT"
+    },
+    {
+      "folder": "18",
+      "filename": "80978374.jpg",
+      "externalId": "1hc3r0K2J35DtSM1M6flhftbqQ6zEH2IK"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Jonathan Davis",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "Snoop Dogg",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

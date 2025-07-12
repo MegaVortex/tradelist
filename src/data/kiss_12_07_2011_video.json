@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Kiss - 12.07.2011 - Manchester - NH - USA - Verizon Wireless Arena",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Kiss"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "07",
+    "year": "2011"
+  },
+  "startDateUnix": 1310428800,
+  "endDate": {
+    "day": "12",
+    "month": "07",
+    "year": "2011"
+  },
+  "endDateUnix": 1310428800,
+  "location": {
+    "city": "Manchester",
+    "state": "NH",
+    "country": "USA",
+    "venue": "Verizon Wireless Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.87,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2543,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "06302912.jpg",
+      "externalId": "10ELit0q_UfmfHtLuBGAykM-50VvZvyU1"
+    },
+    {
+      "folder": "73",
+      "filename": "36414572.jpg",
+      "externalId": "1BX8GmMurDQFOponkWbFnfPf0-3WfLRc-"
+    },
+    {
+      "folder": "73",
+      "filename": "07110516.jpg",
+      "externalId": "1p4RMtaoT1Ns06FW2b30ugmh963R6U6Uh"
+    },
+    {
+      "folder": "73",
+      "filename": "42670414.jpg",
+      "externalId": "1fRJG7PpbBAfAHlCBjGYKGUi2SI_AMm7u"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Modern Day Delilah",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Cold Gin",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Let Me Go, Rock 'N' Roll",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Firehouse",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Say Yeah",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Deuce",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Do You Love Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Calling Dr. Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

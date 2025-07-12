@@ -1,0 +1,172 @@
+{
+  "originalTitle": "AC-DC - 12.01.1996 - Greensboro - NC - USA - Greensboro Coliseum",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "AC/DC"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "01",
+    "year": "1996"
+  },
+  "startDateUnix": 821404800,
+  "endDate": {
+    "day": "12",
+    "month": "01",
+    "year": "1996"
+  },
+  "endDateUnix": 821404800,
+  "location": {
+    "city": "Greensboro",
+    "state": "NC",
+    "country": "USA",
+    "venue": "Greensboro Coliseum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.26,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2256,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "51",
+      "filename": "50312440.jpg",
+      "externalId": "1h1rg2jwRK-WMR7K2gPVlJLpVLkKrMD2A"
+    },
+    {
+      "folder": "51",
+      "filename": "89562087.jpg",
+      "externalId": "1KSll8Y_4hsBXyviv-7HTn9G_kkryHMl1"
+    },
+    {
+      "folder": "51",
+      "filename": "81237439.jpg",
+      "externalId": "1alO6SVy-i9g5Mu2NnHt1h_fbkVlYu03R"
+    },
+    {
+      "folder": "51",
+      "filename": "72046480.jpg",
+      "externalId": "1uMIEsyZ2KdgG4U7y3RKwA2aLehmteBUL"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Back In Black",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Shot Down In Flames",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Girls Got Rhythm",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Dog Eat Dog",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Thunderstruck",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Cover You In Oil",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Boogie Man",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Hells Bells",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

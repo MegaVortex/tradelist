@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Def Leppard - 12.10.2011 - Auckland - New Zealand - Vector Arena",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Def Leppard"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "10",
+    "year": "2011"
+  },
+  "startDateUnix": 1318377600,
+  "endDate": {
+    "day": "12",
+    "month": "10",
+    "year": "2011"
+  },
+  "endDateUnix": 1318377600,
+  "location": {
+    "city": "Auckland",
+    "state": "",
+    "country": "New Zealand",
+    "venue": "Vector Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 748,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 599,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "640x480",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "30.00",
+        "standard": "MPEG1",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 32000,
+        "bitrateKbps": 64,
+        "channels": 1
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "VCD",
+      "fileFormat": "MPG"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "25",
+      "filename": "62851489.jpg",
+      "externalId": "19Xm3jt6-4UtvVGvYaXOC2OCsO8xHnoOL"
+    },
+    {
+      "folder": "25",
+      "filename": "46239900.jpg",
+      "externalId": "1-N3rLIlNjmp17vbi_8fL8veoXWh_Ytkv"
+    },
+    {
+      "folder": "25",
+      "filename": "47351687.jpg",
+      "externalId": "1EXrDDOBDk3YmmGktlF1vgkrFIGmdgxDD"
+    },
+    {
+      "folder": "25",
+      "filename": "17073899.jpg",
+      "externalId": "14vwmHDS1DtvL1CR2_pQXA-12HIN_wNjh"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Undefeated",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Lets Get Rocked",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

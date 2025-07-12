@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Hatebreed - 12.05.1998 - Minneapolis - MN - USA",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Hatebreed"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "05",
+    "year": "1998"
+  },
+  "startDateUnix": 894931200,
+  "endDate": {
+    "day": "12",
+    "month": "05",
+    "year": "1998"
+  },
+  "endDateUnix": 894931200,
+  "location": {
+    "city": "Minneapolis",
+    "state": "MN",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "2 cam mix.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1004,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1059,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "76939980.jpg",
+      "externalId": "1B1sdaV1lfKSg_QGVIhn4-UkOjYw36Taw"
+    },
+    {
+      "folder": "18",
+      "filename": "87856732.jpg",
+      "externalId": "1EIEJWRMt2HkTEMEZO6nC2v7LdVsTTtfl"
+    },
+    {
+      "folder": "18",
+      "filename": "66147749.jpg",
+      "externalId": "1748CkIgW7N4AjXubGmivQLpInq_xhjS-"
+    },
+    {
+      "folder": "18",
+      "filename": "55208934.jpg",
+      "externalId": "19tEtOT9G2dcYCmnEiwpAVzqKzonoAVa-"
+    }
+  ],
+  "setlist": []
+}

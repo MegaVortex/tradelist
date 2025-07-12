@@ -1,0 +1,142 @@
+{
+  "originalTitle": "Bon Jovi - xx.xx.2002 - New York - NY - USA - Today Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2002"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2002"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Today Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 676,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 567,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "pl",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "bon_jovi_xx_xx_2002_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "40",
+      "filename": "86675576.jpg",
+      "externalId": "1C1a6N86_PQwVaqAEItXT-_Wo787MjAXO"
+    },
+    {
+      "folder": "40",
+      "filename": "11805826.jpg",
+      "externalId": "1S79wvBP5MMUdJdYP2WufQ6_dMtFHZM6u"
+    },
+    {
+      "folder": "40",
+      "filename": "87869094.jpg",
+      "externalId": "1cIXVLA_OTftUq0B9nWzTOwQ3V6iA3OA2"
+    },
+    {
+      "folder": "40",
+      "filename": "53173601.jpg",
+      "externalId": "1mYOibOZ9qwkKSMjKDTyeL6FqPdJLxhPO"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "My Funny Valentine (acoustic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Misunderstood",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,161 @@
+{
+  "originalTitle": "Fear Factory - 03.12.1998 - Hamburg - Germany - Markthalle (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Fear Factory"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "12",
+    "year": "1998"
+  },
+  "startDateUnix": 912643200,
+  "endDate": {
+    "day": "03",
+    "month": "12",
+    "year": "1998"
+  },
+  "endDateUnix": 912643200,
+  "location": {
+    "city": "Hamburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Markthalle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.99,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2047,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "fear_factory_21_05_1999_video",
+    "fear_factory_xx_09_1995_burbank_ca_usa_burbank_hilton_foundations_forum_source_1_video_misc",
+    "fear_factory_xx_09_1995_burbank_ca_usa_burbank_hilton_foundations_forum_source_2_video_misc",
+    "fear_factory_29_06_1996_video"
+  ],
+  "childOf": "Fear Factory - [1995-1999] - TV Appearances",
+  "images": [
+    {
+      "folder": "41",
+      "filename": "01736025.jpg",
+      "externalId": "1Ol-amrnWfeORlZlF75HY5JO7a2mBOxv6"
+    },
+    {
+      "folder": "41",
+      "filename": "16450223.jpg",
+      "externalId": "1ushGLbkl3SpJ7v6xljJ3hHqGiEQA7KGz"
+    },
+    {
+      "folder": "41",
+      "filename": "63748027.jpg",
+      "externalId": "1dO8KkmUePCiv6_uszIc7hV4vUQS2h7U8"
+    },
+    {
+      "folder": "41",
+      "filename": "93997083.jpg",
+      "externalId": "1Sb0B0nOqDZQz6sPbh8yddCThJeb-Pnr0"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Shock",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Zero Signal",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Interview",
+      "feat": "Burton",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Edgecrusher",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Self Bias Resistor",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,220 @@
+{
+  "originalTitle": "Blink-182 - 26.01.2000 - Sydney - NSW - Australia - Showgrounds - Big Day Out",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Blink-182"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "01",
+    "year": "2000"
+  },
+  "startDateUnix": 948844800,
+  "endDate": {
+    "day": "26",
+    "month": "01",
+    "year": "2000"
+  },
+  "endDateUnix": 948844800,
+  "location": {
+    "city": "Sydney",
+    "state": "NSW",
+    "country": "Australia",
+    "venue": "Showgrounds",
+    "event": "Big Day Out"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.47,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3061,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "61",
+      "filename": "68431914.jpg",
+      "externalId": "1Zev5HJDyM63Zp6n9TJqJSVLEyTBox_jl"
+    },
+    {
+      "folder": "61",
+      "filename": "72021654.jpg",
+      "externalId": "1DEE9x7-bHXE1uJzeZGocNgvTifnzer7i"
+    },
+    {
+      "folder": "61",
+      "filename": "15885434.jpg",
+      "externalId": "1neFHjQQq3wrn-4y2pU3fvbbhBCLaufB7"
+    },
+    {
+      "folder": "61",
+      "filename": "44599879.jpg",
+      "externalId": "1VApqIlDbut3dRO6WuBtj1lKllfAPJyrk"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Family Reunion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Dumpweed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Don't Leave Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Pathetic",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "What's My Age Again?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Blow Job Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Aliens Exist",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Going Away To College",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Mutt",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "All The Small Things",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Untitled",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Carousel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "The Country Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Dammit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

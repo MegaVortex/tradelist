@@ -1,0 +1,150 @@
+{
+  "originalTitle": "Jonathan Davis - 16.11.2007 - Philadelphia - PA - USA - The Trocadero",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Jonathan Davis"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "11",
+    "year": "2007"
+  },
+  "startDateUnix": 1195171200,
+  "endDate": {
+    "day": "16",
+    "month": "11",
+    "year": "2007"
+  },
+  "endDateUnix": 1195171200,
+  "location": {
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "venue": "The Trocadero",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Fattylumpkin"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 942,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1285,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "13",
+      "filename": "50671803.jpg",
+      "externalId": "1BdaAwL2MeZoDWkMOzvsDkQ6RHM7ApSCK"
+    },
+    {
+      "folder": "13",
+      "filename": "24731135.jpg",
+      "externalId": "1Ipq0B-GCLNgPO5_pOwAWjzJuYhfTkZnC"
+    },
+    {
+      "folder": "13",
+      "filename": "04946593.jpg",
+      "externalId": "1FhhAgnPz2ayTCvQWwGkyNnboQj8maCNE"
+    },
+    {
+      "folder": "13",
+      "filename": "89168002.jpg",
+      "externalId": "1-AqdAInDB33VZH3IYeJGJWldfN7wN92d"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Hey Daddy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Alone I Break",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Kick The PA",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Hold On",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Falling Away From Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

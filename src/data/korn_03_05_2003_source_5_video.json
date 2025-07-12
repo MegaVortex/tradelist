@@ -1,0 +1,123 @@
+{
+  "originalTitle": "Korn - 03.05.2003 - Universal City - CA - USA - 100 Universal City Plaza - MTV Icon Metallica (Source 5)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "05",
+    "year": "2003"
+  },
+  "startDateUnix": 1051920000,
+  "endDate": {
+    "day": "03",
+    "month": "05",
+    "year": "2003"
+  },
+  "endDateUnix": 1051920000,
+  "location": {
+    "city": "Universal City",
+    "state": "CA",
+    "country": "USA",
+    "venue": "100 Universal City Plaza",
+    "event": "MTV Icon Metallica"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "Source 5",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.51,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 4002,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "avril_lavigne_03_05_2003_source_3_video",
+    "limp_bizkit_03_05_2003_source_3_video",
+    "metallica_03_05_2003_source_3_video",
+    "snoop_dogg_03_05_2003_source_3_video",
+    "staind_03_05_2003_source_3_video",
+    "sum_41_03_05_2003_source_3_video"
+  ],
+  "childOf": "various_artists_03_05_2003_source_3_video_compilation",
+  "images": [
+    {
+      "folder": "63",
+      "filename": "13135717.jpg",
+      "externalId": "1JBUDn5HExHvSpcAKWtWUd2vu_dzl7KF8"
+    },
+    {
+      "folder": "63",
+      "filename": "98779054.jpg",
+      "externalId": "1LmWEnywXJcGUYrALvVXnuuEzlaT8XU01"
+    },
+    {
+      "folder": "63",
+      "filename": "77790353.jpg",
+      "externalId": "1aNDrnysuzF5v8g3z_pQjgnWe45f4CEjZ"
+    },
+    {
+      "folder": "63",
+      "filename": "44650070.jpg",
+      "externalId": "1NKsa-1tJTNwfTmGdtk_skirBWRyh36iu"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

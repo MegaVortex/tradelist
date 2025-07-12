@@ -1,0 +1,110 @@
+{
+  "originalTitle": "A Life Once Lost - 24.03.2008 - St. Petersburg - Russia - Orlandina (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "A Life Once Lost"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "03",
+    "year": "2008"
+  },
+  "startDateUnix": 1206316800,
+  "endDate": {
+    "day": "24",
+    "month": "03",
+    "year": "2008"
+  },
+  "endDateUnix": 1206316800,
+  "location": {
+    "city": "St. Petersburg",
+    "state": "",
+    "country": "Russia",
+    "venue": "Orlandina",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "AMT#2.",
+  "tapers": [
+    "Anonimous333"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.22,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3603,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "himsa_24_03_2008_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "12",
+      "filename": "03678814.jpg",
+      "externalId": "1RvHYf2056-2v0PCJQgTOL8NByWQiLO2q"
+    },
+    {
+      "folder": "12",
+      "filename": "35815374.jpg",
+      "externalId": "1HU7E459THzNvfQAkttcdJH2D6-vNqeGN"
+    },
+    {
+      "folder": "12",
+      "filename": "44681127.jpg",
+      "externalId": "1Sj98kjfi1wLMRWHqPZyQz2gBHKiS7lqz"
+    },
+    {
+      "folder": "12",
+      "filename": "51680978.jpg",
+      "externalId": "12lltawrsasVZGmtUzsZo8mjEvYecWz0M"
+    }
+  ],
+  "setlist": []
+}

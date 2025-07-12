@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Cephalic Carnage - 26.08.2000 - San Jose - CA - USA - Voodoo Lounge",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Cephalic Carnage"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "08",
+    "year": "2000"
+  },
+  "startDateUnix": 967248000,
+  "endDate": {
+    "day": "26",
+    "month": "08",
+    "year": "2000"
+  },
+  "endDateUnix": 967248000,
+  "location": {
+    "city": "San Jose",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Voodoo Lounge",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.09,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1250,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "10455945.jpg",
+      "externalId": "1yqnYCEM4kXNlj4AkP0O6XNYUOtXSX2vn"
+    },
+    {
+      "folder": "26",
+      "filename": "04166494.jpg",
+      "externalId": "1bAmboRYtxtRJlCF0RgdUZuC1UVCqEcNs"
+    },
+    {
+      "folder": "26",
+      "filename": "36621843.jpg",
+      "externalId": "1jkvUtNWSuU73RyTzTxqc7SfM6WblIob6"
+    },
+    {
+      "folder": "26",
+      "filename": "15878090.jpg",
+      "externalId": "1rZupZHVV9aeGrJwowJ0_4YqV7K7Z2VSo"
+    }
+  ],
+  "setlist": []
+}

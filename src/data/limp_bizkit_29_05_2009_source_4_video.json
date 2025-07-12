@@ -1,0 +1,126 @@
+{
+  "originalTitle": "Limp Bizkit - 29.05.2009 - Moscow - Russia - Zeleniy Teatr (Source 4)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "29",
+    "month": "05",
+    "year": "2009"
+  },
+  "startDateUnix": 1243555200,
+  "endDate": {
+    "day": "29",
+    "month": "05",
+    "year": "2009"
+  },
+  "endDateUnix": 1243555200,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Zeleniy Teatr",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 4",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Another shitty digicam shot.",
+  "tapers": [
+    "buben1984"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 266,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 231,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "65300849.jpg",
+      "externalId": "1Rjia-mUQaGGKN9ZeZbIEOIr1yzbL_feC"
+    },
+    {
+      "folder": "6",
+      "filename": "67492912.jpg",
+      "externalId": "19GYkKm6lcsM9qATpjeP8xo3yk35ZNcGf"
+    },
+    {
+      "folder": "6",
+      "filename": "25871398.jpg",
+      "externalId": "1tmMeW0zNj9IMQz9pqKcxl4NuIk27LRct"
+    },
+    {
+      "folder": "6",
+      "filename": "88491033.jpg",
+      "externalId": "1d0EYxAiXJuJ7nuVJbi_93BqXMuP5np8t"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Break Stuff",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Behind Blue Eyes",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

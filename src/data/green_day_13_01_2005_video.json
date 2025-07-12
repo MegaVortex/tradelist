@@ -1,0 +1,118 @@
+{
+  "originalTitle": "Green Day - 13.01.2005 - Cologne - Germany - TV Studios - TV Total",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Green Day"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "01",
+    "year": "2005"
+  },
+  "startDateUnix": 1105574400,
+  "endDate": {
+    "day": "13",
+    "month": "01",
+    "year": "2005"
+  },
+  "endDateUnix": 1105574400,
+  "location": {
+    "city": "Cologne",
+    "state": "",
+    "country": "Germany",
+    "venue": "TV Studios",
+    "event": "TV Total"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 253,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 254,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "green_day_10_01_2005_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "55583069.jpg",
+      "externalId": "1RSHvu4Tb-qjcYQfIv0Z5yw0lSxBmeXme"
+    },
+    {
+      "folder": "69",
+      "filename": "94434747.jpg",
+      "externalId": "1cg5I2AdZtn79IwZD32Tr4qoiE1yU6h8g"
+    },
+    {
+      "folder": "69",
+      "filename": "43029857.jpg",
+      "externalId": "1hqun-sZnDnUmLL4V2uk_awLs2lbtMdz6"
+    },
+    {
+      "folder": "69",
+      "filename": "40321294.jpg",
+      "externalId": "1e8oXr5dqiLv898tdykQ8f1WjANA9VnvH"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Boulevard Of Broken Dreams",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

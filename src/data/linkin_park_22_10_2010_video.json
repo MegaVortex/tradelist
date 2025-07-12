@@ -1,0 +1,182 @@
+{
+  "originalTitle": "Linkin Park - 22.10.2010 - Stuttgart - Germany - Hanns-Martin-Schleyer-Halle",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "10",
+    "year": "2010"
+  },
+  "startDateUnix": 1287705600,
+  "endDate": {
+    "day": "22",
+    "month": "10",
+    "year": "2010"
+  },
+  "endDateUnix": 1287705600,
+  "location": {
+    "city": "Stuttgart",
+    "state": "",
+    "country": "Germany",
+    "venue": "Hanns-Martin-Schleyer-Halle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "v1c70r"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.75,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1859,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "51",
+      "filename": "66263040.jpg",
+      "externalId": "13OiGDyKyRhp6hCdMl-mmnttQI4qpzycd"
+    },
+    {
+      "folder": "51",
+      "filename": "73274266.jpg",
+      "externalId": "1fJAxJkfpAXfRMdtBpBMX1FON9v4FJKRD"
+    },
+    {
+      "folder": "51",
+      "filename": "03251314.jpg",
+      "externalId": "1q71T8Ng7yFFogOABXB-hJyTMc4b1RKfr"
+    },
+    {
+      "folder": "51",
+      "filename": "77147637.jpg",
+      "externalId": "1ZhWDUquersk6x_u8ZKjjxSOh-0Y9xeE-"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Requiem",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wretches & Kings",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Papercut",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Given Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "New Divide",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Faint",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Empty Spaces",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "When They Come For Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "No More Sorrow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

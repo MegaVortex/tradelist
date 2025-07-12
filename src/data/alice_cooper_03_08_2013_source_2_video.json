@@ -1,0 +1,212 @@
+{
+  "originalTitle": "Alice Cooper - 03.08.2013 - Wacken - Germany - Hauptstrasse - Wacken Open Air (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Alice Cooper"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "08",
+    "year": "2013"
+  },
+  "startDateUnix": 1375488000,
+  "endDate": {
+    "day": "03",
+    "month": "08",
+    "year": "2013"
+  },
+  "endDateUnix": 1375488000,
+  "location": {
+    "city": "Wacken",
+    "state": "",
+    "country": "Germany",
+    "venue": "Hauptstrasse",
+    "event": "Wacken Open Air"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 5.94,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3450,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [
+    "motorhead_02_08_2013_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "74",
+      "filename": "13765369.jpg",
+      "externalId": "1JX2iDof_0pA_4XxrZCwD2Piyl9w5gArD"
+    },
+    {
+      "folder": "74",
+      "filename": "72113687.jpg",
+      "externalId": "1PiTfiprRTnvmVFFZep325x-v1u-neiDh"
+    },
+    {
+      "folder": "74",
+      "filename": "02173700.jpg",
+      "externalId": "1glFeWyosaw4zbz3n28VKQUrthETxDm_s"
+    },
+    {
+      "folder": "74",
+      "filename": "65506544.jpg",
+      "externalId": "19ylFTAjC3u77C8GsDG2ZyCDweNTI6vaj"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Hello Hooray",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Judy Collins"
+    },
+    {
+      "order": 2,
+      "song": "House Of Fire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "No More Mr. Nice Guy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Under My Wheels",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "I'll Bite Your Face Off",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Billion Dollar Babies",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Caffeine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Department Of Youth",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Hey Stoopid",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Dirty Diamonds",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

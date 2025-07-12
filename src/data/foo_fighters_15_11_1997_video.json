@@ -1,0 +1,122 @@
+{
+  "originalTitle": "Foo Fighters - 15.11.1997 - Paris - France - Canal+ Studios - Nulle Part Ailleurs",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "11",
+    "year": "1997"
+  },
+  "startDateUnix": 879552000,
+  "endDate": {
+    "day": "15",
+    "month": "11",
+    "year": "1997"
+  },
+  "endDateUnix": 879552000,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "Canal+ Studios",
+    "event": "Nulle Part Ailleurs"
+  },
+  "tvChannel": "Canal+",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "PRO#1.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.17,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3179,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "foo_fighters_28_08_1995_video",
+    "foo_fighters_06_11_1995_source_1_video",
+    "foo_fighters_06_11_1995_source_2_video",
+    "foo_fighters_09_05_1997_video",
+    "foo_fighters_03_05_2005_video"
+  ],
+  "childOf": "Foo Fighters - [1995-2005] - TV Appearances - 'Nulle Part Ailleurs'",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "21698460.jpg",
+      "externalId": "1ovpkLsU5XYcpsVHgzmL4QnX7uv4_bx57"
+    },
+    {
+      "folder": "60",
+      "filename": "30677645.jpg",
+      "externalId": "1hnL95Fyx1G-xVgf_btC3uSSax9Y36vDc"
+    },
+    {
+      "folder": "60",
+      "filename": "67825247.jpg",
+      "externalId": "1Mly_eRAg7SaVFHWWocr4M5THsBJ56z8N"
+    },
+    {
+      "folder": "60",
+      "filename": "03360091.jpg",
+      "externalId": "1eLyF0-2U5BJ--HdV9YZRc78a5S0IY8bc"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Learn To Fly",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,126 @@
+{
+  "originalTitle": "Kittie - 18.03.2000 - Lowell - MA - USA - Tsongas Arena - WAAF's Indoor Beach Party",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Kittie"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "03",
+    "year": "2000"
+  },
+  "startDateUnix": 953337600,
+  "endDate": {
+    "day": "18",
+    "month": "03",
+    "year": "2000"
+  },
+  "endDateUnix": 953337600,
+  "location": {
+    "city": "Lowell",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Tsongas Arena",
+    "event": "WAAF's Indoor Beach Party"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 410,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 555,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "kittie_xx_xx_2000_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "35908701.jpg",
+      "externalId": "11mB5ty7HJu5h3OdNZJ1Hg-SQANAuxHnz"
+    },
+    {
+      "folder": "15",
+      "filename": "49307670.jpg",
+      "externalId": "1-28KtM5NpmlyoZ-L6agc1FXCO-BYtf13"
+    },
+    {
+      "folder": "15",
+      "filename": "11067333.jpg",
+      "externalId": "1KWznijcm7LrbIJ3nH1S3Sh0hRDvH9gYS"
+    },
+    {
+      "folder": "15",
+      "filename": "88358001.jpg",
+      "externalId": "10vWPRObEOPUpNDNep0kV0xyZYz24s0SK"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Brackish",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Run Like Hell",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,228 @@
+{
+  "originalTitle": "Bob Marley - 21.07.1979 - Boston - MA - USA - Harvard Stadium - Amandla Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bob Marley"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "07",
+    "year": "1979"
+  },
+  "startDateUnix": 301363200,
+  "endDate": {
+    "day": "21",
+    "month": "07",
+    "year": "1979"
+  },
+  "endDateUnix": 301363200,
+  "location": {
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Harvard Stadium",
+    "event": "Amandla Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "With \"The Wailers\".",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.22,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6389,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "23",
+      "filename": "85455593.jpg",
+      "externalId": "107IGVLOyoO5G3oZ9KPYny-W2840OxQQM"
+    },
+    {
+      "folder": "23",
+      "filename": "97155008.jpg",
+      "externalId": "19NB2erSsqKppLk0EgRcJZNs-96c9cZwZ"
+    },
+    {
+      "folder": "23",
+      "filename": "24249341.jpg",
+      "externalId": "1rFTvJutgMVFVnzNX4OhwZLRypbrrRNov"
+    },
+    {
+      "folder": "23",
+      "filename": "54120514.jpg",
+      "externalId": "1NS6ohY9Dvu_mzg9Wk1B_ok4K78mac4XX"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Positive Vibration",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Slave Driver",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Them Belly Full",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Runnin Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Crazy Baldhead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Heathen",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "War",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "No More Trouble",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Lively Up Yourself",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "No Woman No Cry",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Jammin",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Get Up Stand Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Exodus",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Zimbabwe",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Wake Up & Live",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,166 @@
+{
+  "originalTitle": "HORSE The Band - 29.09.2007 - Atlanta - GA - USA - Masquerade",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "HORSE The Band"
+  ],
+  "startDate": {
+    "day": "29",
+    "month": "09",
+    "year": "2007"
+  },
+  "startDateUnix": 1191024000,
+  "endDate": {
+    "day": "29",
+    "month": "09",
+    "year": "2007"
+  },
+  "endDateUnix": 1191024000,
+  "location": {
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "USA",
+    "venue": "Masquerade",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Shaggy28"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.69,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1888,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "12",
+      "filename": "05038564.jpg",
+      "externalId": "1cpCK3vWEIGR72JylvL0v5NKcBLdsaDeT"
+    },
+    {
+      "folder": "12",
+      "filename": "30303347.jpg",
+      "externalId": "1gBoxl6selvyDgEXqpuMqaV-sD3cTjT0a"
+    },
+    {
+      "folder": "12",
+      "filename": "15908988.jpg",
+      "externalId": "1OyZNBZn1yVRrgKSK0yz06EjA2vo-zxMn"
+    },
+    {
+      "folder": "12",
+      "filename": "72302346.jpg",
+      "externalId": "1TUEVH9WWJIqjfuutAqju7KLKoIqVfof4"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Murder",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Birdo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "A Million Exploding Suns",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "New York City",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "The Black Hole",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Red Tornado",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Cutsman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

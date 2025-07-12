@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Elton John - 17.09.1976 - Edinburgh - Scotland - Playhouse Theatre",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Elton John"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "09",
+    "year": "1976"
+  },
+  "startDateUnix": 211766400,
+  "endDate": {
+    "day": "17",
+    "month": "09",
+    "year": "1976"
+  },
+  "endDateUnix": 211766400,
+  "location": {
+    "city": "Edinburgh",
+    "state": "",
+    "country": "Scotland",
+    "venue": "Playhouse Theatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.49,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3090,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "20938323.jpg",
+      "externalId": "1HOzr0YKhjCOUV1e8kWEmSaWc_8PB8iY1"
+    },
+    {
+      "folder": "73",
+      "filename": "45207395.jpg",
+      "externalId": "1iLYMDWcK7ojJ4lBE840QHZwYoDmjKE0s"
+    },
+    {
+      "folder": "73",
+      "filename": "77985992.jpg",
+      "externalId": "1btbVGysr2PS2O0ndjqc-AFJYUH5buL05"
+    },
+    {
+      "folder": "73",
+      "filename": "51154614.jpg",
+      "externalId": "1iZC50s_a9dyATDtq4S9h_XTFm2a0q1_4"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "I Need You To Turn To",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Sixty Years On",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Border Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Bennie And The Jets",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Candle In The Wind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Rocket Man (I Think It's Going To Be A Long, Long Time)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Don't Let The Sun Go Down On Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Someone Saved My Life Tonight",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Your Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Saturday Night's Alright For Fighting",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,150 @@
+{
+  "originalTitle": "Lacuna Coil - 15.04.2009 - Lowell - MA - USA - The Tsongas Arena",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Lacuna Coil"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "04",
+    "year": "2009"
+  },
+  "startDateUnix": 1239753600,
+  "endDate": {
+    "day": "15",
+    "month": "04",
+    "year": "2009"
+  },
+  "endDateUnix": 1239753600,
+  "location": {
+    "city": "Lowell",
+    "state": "MA",
+    "country": "USA",
+    "venue": "The Tsongas Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "TripKore"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.42,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1462,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "11",
+      "filename": "38212174.jpg",
+      "externalId": "1BpfWMzxanOcp9rs64zj1B3BjWKAlP4x9"
+    },
+    {
+      "folder": "11",
+      "filename": "78007847.jpg",
+      "externalId": "1RH_L6daKABKfDDLbvuv_u58tlRrxUdUe"
+    },
+    {
+      "folder": "11",
+      "filename": "06063800.jpg",
+      "externalId": "1kpay8wy3tR7wQm1aqfwF9fDvepZB5ZQO"
+    },
+    {
+      "folder": "11",
+      "filename": "75669024.jpg",
+      "externalId": "1rXNjYiD44Uqk26dqXCaclG4zMX6ziti2"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "To The Edge",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Fragments Of Faith",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Spellbound",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Fragile",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Our Truth",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

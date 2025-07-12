@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Lenny Kravitz - 07.07.2007 - Rio De Janeiro - Brazil - Copacabana Beach - Live Earth",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Lenny Kravitz"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "07",
+    "year": "2007"
+  },
+  "startDateUnix": 1183766400,
+  "endDate": {
+    "day": "07",
+    "month": "07",
+    "year": "2007"
+  },
+  "endDateUnix": 1183766400,
+  "location": {
+    "city": "Rio De Janeiro",
+    "state": "",
+    "country": "Brazil",
+    "venue": "Copacabana Beach",
+    "event": "Live Earth"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.15,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 580,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "1440x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "85746931.jpg",
+      "externalId": "1hnvspnh-_O1b8-JUEVSR_TAL4CrdNPDq"
+    },
+    {
+      "folder": "26",
+      "filename": "33170506.jpg",
+      "externalId": "18gn2riVdzgDyrYPJQ5DG6y3yhySLGFyd"
+    },
+    {
+      "folder": "26",
+      "filename": "48687012.jpg",
+      "externalId": "1JuQnO26rI6VgYzID_kaNdHmdvqAZR4Cy"
+    },
+    {
+      "folder": "26",
+      "filename": "55781339.jpg",
+      "externalId": "1TFtpGGwcikdbvz65rR7M8f4MepBclySU"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Are You Gonna Go My Way?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "American Woman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

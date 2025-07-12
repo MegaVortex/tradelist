@@ -1,0 +1,118 @@
+{
+  "originalTitle": "Foo Fighters - 16.05.2003 - Los Angeles - CA - USA - Craig Kilborn Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "05",
+    "year": "2003"
+  },
+  "startDateUnix": 1053043200,
+  "endDate": {
+    "day": "16",
+    "month": "05",
+    "year": "2003"
+  },
+  "endDateUnix": 1053043200,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Craig Kilborn Show",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 287,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 294,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "foo_fighters_10_07_2003_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "67",
+      "filename": "88893839.jpg",
+      "externalId": "1i_PRankk5xbhqrJSnnxezZvjW7gvi04E"
+    },
+    {
+      "folder": "67",
+      "filename": "78667581.jpg",
+      "externalId": "1HfuAVLYnyoOvblZjJYMQR_3yu97vsDJK"
+    },
+    {
+      "folder": "67",
+      "filename": "46563809.jpg",
+      "externalId": "1cCbDKnPCUlIUkzE4Vhv60dVlOrwkLmOP"
+    },
+    {
+      "folder": "67",
+      "filename": "72233874.jpg",
+      "externalId": "1d55Ls_UG8zhg5i9aMTyYx3Jaguc9gCt1"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Low",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

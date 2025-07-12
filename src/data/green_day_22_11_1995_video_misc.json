@@ -1,0 +1,123 @@
+{
+  "originalTitle": "Green Day - 22.11.1995 - Chicago - IL - USA - New Music [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Green Day"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "11",
+    "year": "1995"
+  },
+  "startDateUnix": 816998400,
+  "endDate": {
+    "day": "22",
+    "month": "11",
+    "year": "1995"
+  },
+  "endDateUnix": 816998400,
+  "location": {
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "venue": "New Music",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 256,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 455,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "green_day_25_08_1995_video_misc",
+    "green_day_31_08_1995_video_misc",
+    "green_day_18_10_1995_video_misc",
+    "green_day_16_10_1995_video_misc",
+    "green_day_20_10_1994_video_misc"
+  ],
+  "childOf": "Green Day - [1994-1995] - Interviews",
+  "images": [
+    {
+      "folder": "36",
+      "filename": "64261770.jpg",
+      "externalId": "1rF1aO6hUwOBHr_yGdMHd5Gh9b_-ddWpn"
+    },
+    {
+      "folder": "36",
+      "filename": "99401757.jpg",
+      "externalId": "1xQJMAap2U1IcbpyqCO9HjzRw85wnlrn7"
+    },
+    {
+      "folder": "36",
+      "filename": "89483944.jpg",
+      "externalId": "1oUqbEpm8XxS0SAXwPqOzprUiTJB7pdll"
+    },
+    {
+      "folder": "36",
+      "filename": "18098200.jpg",
+      "externalId": "1s7rpkxuu0nu3a7L26QLFIKg32U36QecX"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

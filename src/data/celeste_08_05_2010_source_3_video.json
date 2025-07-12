@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Celeste - 08.05.2010 - Moscow - Russia - Aktoviy Zal (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Celeste"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "05",
+    "year": "2010"
+  },
+  "startDateUnix": 1273276800,
+  "endDate": {
+    "day": "08",
+    "month": "05",
+    "year": "2010"
+  },
+  "endDateUnix": 1273276800,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Aktoviy Zal",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "EvilDead"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.39,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2397,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "1440x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MTS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "60108200.jpg",
+      "externalId": "1LqxO6LmgJt1uRrDcFdkV9OOqqI7fHTqR"
+    },
+    {
+      "folder": "80",
+      "filename": "38747350.jpg",
+      "externalId": "1MPAze7IvzHfV9yH7xga9we1werlB5EqM"
+    },
+    {
+      "folder": "80",
+      "filename": "63146877.jpg",
+      "externalId": "1AzFeSbWXS-rUVjy7V1AFGWP7n1lkivv8"
+    },
+    {
+      "folder": "80",
+      "filename": "73128024.jpg",
+      "externalId": "1HeeJu9M885jGTfdXiCOr8lANZmLwk8pJ"
+    }
+  ],
+  "setlist": []
+}

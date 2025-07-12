@@ -1,0 +1,138 @@
+{
+  "originalTitle": "Biohazard - 05.06.1995 - Landgraaf - Netherlands - Megaland - Pinkpop Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Biohazard"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "06",
+    "year": "1995"
+  },
+  "startDateUnix": 802310400,
+  "endDate": {
+    "day": "05",
+    "month": "06",
+    "year": "1995"
+  },
+  "endDateUnix": 802310400,
+  "location": {
+    "city": "Landgraaf",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Megaland",
+    "event": "Pinkpop Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 328,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 499,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "biohazard_04_06_1994_source_3_video",
+    "biohazard_17_08_1996_video",
+    "biohazard_16_05_1994_video",
+    "biohazard_08_09_1994_video_misc",
+    "biohazard_28_06_1997_video_misc"
+  ],
+  "childOf": "Biohazard - [1994-1997] - TV Appearances - 'Tales From The TV Side' Part II",
+  "images": [
+    {
+      "folder": "22",
+      "filename": "96473172.jpg",
+      "externalId": "10HAYxDZSiuq1VbwCIgFoGyYIpGi_Godd"
+    },
+    {
+      "folder": "22",
+      "filename": "17829520.jpg",
+      "externalId": "19GCTQdh39Tr0qQ8yK8YFUq70rsudw7ao"
+    },
+    {
+      "folder": "22",
+      "filename": "08754885.jpg",
+      "externalId": "1f6AVKVIzf1yQsOVAwieufSfuwMGqwwyY"
+    },
+    {
+      "folder": "22",
+      "filename": "12179131.jpg",
+      "externalId": "19ZLLDC3lmZnYEV6-su6xpURUBFsf5c12"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "We Ain't Going Oul Like That",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Cypress Hill"
+    },
+    {
+      "order": 2,
+      "song": "Punishment",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

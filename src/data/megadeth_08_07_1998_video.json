@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Megadeth - 08.07.1998 - Boston - MA - USA - Hard Rock Cafe",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Megadeth"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "07",
+    "year": "1998"
+  },
+  "startDateUnix": 899856000,
+  "endDate": {
+    "day": "08",
+    "month": "07",
+    "year": "1998"
+  },
+  "endDateUnix": 899856000,
+  "location": {
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Hard Rock Cafe",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "It is the complete episode of WAAF's Real Rock TV featuring acoustic versions and interviews.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.66,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1477,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "63856666.jpg",
+      "externalId": "1-RfLP4QJJq7N4efZv1Wa9t7NSChU9p0o"
+    },
+    {
+      "folder": "18",
+      "filename": "45723363.jpg",
+      "externalId": "1jrXsK68AmWMeOQUmsph9cPQUBomwnW9f"
+    },
+    {
+      "folder": "18",
+      "filename": "04236031.jpg",
+      "externalId": "1oWiN8B5QuIbK7B1RT_7XWHiXYw4REAQc"
+    },
+    {
+      "folder": "18",
+      "filename": "29055805.jpg",
+      "externalId": "1xOaM761QNd8OexxB24tHeMHLZqYq-8tx"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "A Secret Place",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Almost Honest",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Use The Man",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Angry Again",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Deftones - 12.08.2006 - Chiba - Japan - Marine Stadium - Summer Sonic",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Deftones"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "08",
+    "year": "2006"
+  },
+  "startDateUnix": 1155340800,
+  "endDate": {
+    "day": "12",
+    "month": "08",
+    "year": "2006"
+  },
+  "endDateUnix": 1155340800,
+  "location": {
+    "city": "Chiba",
+    "state": "",
+    "country": "Japan",
+    "venue": "Marine Stadium",
+    "event": "Summer Sonic"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 727,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 872,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "64",
+      "filename": "40939057.jpg",
+      "externalId": "1XRZlg5TFB9thv7kmPlNciLoIHM7g1oPr"
+    },
+    {
+      "folder": "64",
+      "filename": "40826048.jpg",
+      "externalId": "1QY0jKrZXWsStQpntJRghKcJu0qE-IGag"
+    },
+    {
+      "folder": "64",
+      "filename": "34184593.jpg",
+      "externalId": "1oYTFtmi5Np5TKyQPnnRWN0yE5ubNqkoE"
+    },
+    {
+      "folder": "64",
+      "filename": "41411077.jpg",
+      "externalId": "1dzRDdrN5I4dKXMkXD28hOoZs9DmcwQbn"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Be Quiet And Drive (Far Away)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Change (In The House Of Flies)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "7 Words",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

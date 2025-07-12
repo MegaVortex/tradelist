@@ -1,0 +1,158 @@
+{
+  "originalTitle": "Iron Maiden - 16.07.2012 - New York - NY - USA - Darien Lake Performing Arts Center (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Iron Maiden"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "07",
+    "year": "2012"
+  },
+  "startDateUnix": 1342396800,
+  "endDate": {
+    "day": "16",
+    "month": "07",
+    "year": "2012"
+  },
+  "endDateUnix": 1342396800,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Darien Lake Performing Arts Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Hybrid196"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.86,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3157,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "640x480",
+        "bitrateType": "",
+        "bitrateKbps": 4984,
+        "fps": "20.00",
+        "standard": "MJPG",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 11024,
+        "bitrateKbps": 88,
+        "channels": 1
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "VCD",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "39",
+      "filename": "37243844.jpg",
+      "externalId": "1owayay6pQYYU2nsZX2BtCcUKKxChxu2z"
+    },
+    {
+      "folder": "39",
+      "filename": "17984689.jpg",
+      "externalId": "1sdhS5TIQfUioM_RHf3vBfpWuMVjlPOyW"
+    },
+    {
+      "folder": "39",
+      "filename": "15659732.jpg",
+      "externalId": "1Q_3lu5MX8KrvDYOwvxrS5Ldo21p2hPz3"
+    },
+    {
+      "folder": "39",
+      "filename": "15881645.jpg",
+      "externalId": "1IIWbIwqNEFB-vR8FymSCZUEzmBD0j_gJ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Clairvoyant",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Fear Of The Dark",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Iron Maiden",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Aces High",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "The Evil That Men Do",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Running Free",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

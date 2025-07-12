@@ -1,0 +1,201 @@
+{
+  "originalTitle": "Carnifex - 14.03.2011 - Moscow - Russia - Tochka (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Carnifex"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "03",
+    "year": "2011"
+  },
+  "startDateUnix": 1300060800,
+  "endDate": {
+    "day": "14",
+    "month": "03",
+    "year": "2011"
+  },
+  "endDateUnix": 1300060800,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Tochka",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.94,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 1.35,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2840,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "1440x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MTS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "68242008.jpg",
+      "externalId": "13bSCZcosZ1_sDQV-IUvpeSojr2jJKAkW"
+    },
+    {
+      "folder": "24",
+      "filename": "72325034.jpg",
+      "externalId": "1V3sYE04Sj9MdcWEY7hAtCfaqYQOlyBZi"
+    },
+    {
+      "folder": "24",
+      "filename": "25723295.jpg",
+      "externalId": "1Z2O0QshDdb4_4GLFWQ2wKnbEyO60HORe"
+    },
+    {
+      "folder": "24",
+      "filename": "92155804.jpg",
+      "externalId": "1dar38LioecYFLej-2asBh_q8KmB8VC4c"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Slit Wrist Savior",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "In Coalesce With Filth And Faith",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Entombed Monarch",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Diseased And The Poisoned",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "My Heart In Atrophy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Answers In Mourning",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Names Mean Nothing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Sorrowspell",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Lie To My Face",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Hell Chose Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Love Lies In Ashes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

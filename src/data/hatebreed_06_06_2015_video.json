@@ -1,0 +1,150 @@
+{
+  "originalTitle": "Hatebreed - 06.06.2015 - Nijmegen - Netherlands - Goffertpark - FortaRock",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Hatebreed"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "06",
+    "year": "2015"
+  },
+  "startDateUnix": 1433548800,
+  "endDate": {
+    "day": "06",
+    "month": "06",
+    "year": "2015"
+  },
+  "endDateUnix": 1433548800,
+  "location": {
+    "city": "Nijmegen",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Goffertpark",
+    "event": "FortaRock"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": true,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Highly incomplete recording.",
+  "tapers": [
+    "Vortex"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.45,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 843,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "57",
+      "filename": "63392878.jpg",
+      "externalId": "1mZCpq1m-zVR3_GKo-HNJVpXXx0DWVds6"
+    },
+    {
+      "folder": "57",
+      "filename": "50941889.jpg",
+      "externalId": "1tTh2VyMrCnTw1my9FqSycb2hdwdrEndF"
+    },
+    {
+      "folder": "57",
+      "filename": "95062395.jpg",
+      "externalId": "1fwhXltaD-ATHWMb-LKhlE8bNDkv1WQRH"
+    },
+    {
+      "folder": "57",
+      "filename": "81265263.jpg",
+      "externalId": "1s56XTytfy5pAxe5NjgrhlbYDXZ8Wgpb-"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Tear It Down",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "To The Threshold",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Never Let It Die",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Become The Fuse",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Hands Of A Dying Man",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

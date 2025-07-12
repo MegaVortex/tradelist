@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Jimi Hendrix - 18.05.1967 - Offenbach - Germany - Stadthalle",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Jimi Hendrix"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "05",
+    "year": "1967"
+  },
+  "startDateUnix": -82857600,
+  "endDate": {
+    "day": "18",
+    "month": "05",
+    "year": "1967"
+  },
+  "endDateUnix": -82857600,
+  "location": {
+    "city": "Offenbach",
+    "state": "",
+    "country": "Germany",
+    "venue": "Stadthalle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 461,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 596,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "64986649.jpg",
+      "externalId": "1zMnHHqRZTWCY1V8JWJkptMYn3pFdwVCt"
+    },
+    {
+      "folder": "24",
+      "filename": "39259030.jpg",
+      "externalId": "1MjpVe4tqSAQs-sk-Y8nX_dSDz8bw2RWP"
+    },
+    {
+      "folder": "24",
+      "filename": "70808794.jpg",
+      "externalId": "1_gKtnyTbO7iSohKdibOfpyAX0AsXdn4J"
+    },
+    {
+      "folder": "24",
+      "filename": "82346394.jpg",
+      "externalId": "1eLymxKALRIGZOLGQlongkWMnl2F-45kV"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Stone Free",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Hey Joe",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Purple Haze",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

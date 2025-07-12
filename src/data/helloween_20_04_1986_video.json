@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Helloween - 20.04.1986 - Eindhoven - Netherlands - Aardschokdag - Aardshock Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Helloween"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "04",
+    "year": "1986"
+  },
+  "startDateUnix": 514339200,
+  "endDate": {
+    "day": "20",
+    "month": "04",
+    "year": "1986"
+  },
+  "endDateUnix": 514339200,
+  "location": {
+    "city": "Eindhoven",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Aardschokdag",
+    "event": "Aardshock Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.56,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3152,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "51",
+      "filename": "48692373.jpg",
+      "externalId": "10VmAY4R1mk_zBwGzcHVUG50McKO09-mj"
+    },
+    {
+      "folder": "51",
+      "filename": "12954096.jpg",
+      "externalId": "1Qdm7anmYG7PlLEkgALTUOYeLdzAzfixF"
+    },
+    {
+      "folder": "51",
+      "filename": "79148607.jpg",
+      "externalId": "1KJxK5CnnHynxupcyGc5UfN32O1ZHiV4k"
+    },
+    {
+      "folder": "51",
+      "filename": "03670419.jpg",
+      "externalId": "1XJLFoeZDuHBBGcMzbcsAfBnw79NNs2dm"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Happy Helloween",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Ride The Sky",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Murderer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Gorgar",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Victum Of Fate",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Reptile",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Judas",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Guardians",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Heavy Metal (Is the Law) / Bass Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Metal Invaders",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

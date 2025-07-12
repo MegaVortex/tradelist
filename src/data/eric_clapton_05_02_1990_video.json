@@ -1,0 +1,111 @@
+{
+  "originalTitle": "Eric Clapton - 05.02.1990 - London - England - Royal Albert Hall",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Eric Clapton"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "02",
+    "year": "1990"
+  },
+  "startDateUnix": 634176000,
+  "endDate": {
+    "day": "05",
+    "month": "02",
+    "year": "1990"
+  },
+  "endDateUnix": 634176000,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Royal Albert Hall",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.02,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1471,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "eric_clapton_25_01_1989_video_misc",
+    "eric_clapton_28_10_1989_video_misc",
+    "eric_clapton_keith_richards_all_star_band_31_05_1989_video",
+    "legends_11_07_1997_video"
+  ],
+  "childOf": "Eric Clapton - [1987-1997] - TV Appearances",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "76807177.jpg",
+      "externalId": "1bDWCCdhpy1G3Ms3JBMOezM46MWYdJxPl"
+    },
+    {
+      "folder": "26",
+      "filename": "25809686.jpg",
+      "externalId": "1D4Jw5pWAtl9PHD3wjL9YuqouwcHQ_MGz"
+    },
+    {
+      "folder": "26",
+      "filename": "63882110.jpg",
+      "externalId": "14rT8RQgWD0kJU2MWvQrGtqLzjCIvAWSd"
+    },
+    {
+      "folder": "26",
+      "filename": "96831525.jpg",
+      "externalId": "1dKPEYgA490o3b9dJnRg1FBGbDjC-EVAA"
+    }
+  ],
+  "setlist": []
+}

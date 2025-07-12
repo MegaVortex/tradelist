@@ -1,0 +1,136 @@
+{
+  "originalTitle": "Elton John - 22.03.2000 - New York - NY - USA - NBC Studios - Rosie O'Donnell Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Elton John"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "03",
+    "year": "2000"
+  },
+  "startDateUnix": 953683200,
+  "endDate": {
+    "day": "22",
+    "month": "03",
+    "year": "2000"
+  },
+  "endDateUnix": 953683200,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Rosie O'Donnell Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 7.13,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6248,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "elton_john_01_10_1997_video",
+    "elton_john_19_03_1999_video",
+    "elton_john_15_11_1996_video"
+  ],
+  "childOf": "Elton John - [1996-2000] - Rosie O'Donnell TV Appearances",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "39966061.jpg",
+      "externalId": "1u5GZ3dvVMBoNOdZ5gaHMIT-M1hxrjrV7"
+    },
+    {
+      "folder": "73",
+      "filename": "28610902.jpg",
+      "externalId": "1qrem0sKR17PvRQQyxS-kFyWACaH-w5x4"
+    },
+    {
+      "folder": "73",
+      "filename": "11178770.jpg",
+      "externalId": "1QUc6n9sgQw6I8C6n6LtCOjOzpRwIkf-V"
+    },
+    {
+      "folder": "73",
+      "filename": "16581779.jpg",
+      "externalId": "1LobUyA3dZ5j6EGiz_YQZKBmcOFiGjI59"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "I Know The Truth",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Someday Out Of The Blue",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

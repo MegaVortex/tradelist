@@ -1,0 +1,109 @@
+{
+  "originalTitle": "Converge - 25.01.2004 - Paris - France - La Loco",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Converge"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "01",
+    "year": "2004"
+  },
+  "startDateUnix": 1074988800,
+  "endDate": {
+    "day": "25",
+    "month": "01",
+    "year": "2004"
+  },
+  "endDateUnix": 1074988800,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "La Loco",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 573,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 796,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "converge_14_01_2004_video",
+    "converge_25_03_2004_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "43",
+      "filename": "96355099.jpg",
+      "externalId": "1OdzXtQ1XN3u6l5KmfXZEbAqravMHCkJH"
+    },
+    {
+      "folder": "43",
+      "filename": "10665857.jpg",
+      "externalId": "1B_o5RFLPBcjNhXSIAGQoor2MoUS7w-sf"
+    },
+    {
+      "folder": "43",
+      "filename": "51470954.jpg",
+      "externalId": "1XSytKKewxIIy5L3zXvEQzxm8KSbOA0CM"
+    },
+    {
+      "folder": "43",
+      "filename": "87259136.jpg",
+      "externalId": "1OE77bSZhphw6mqIB3QEmQpYU8BsfMKlh"
+    }
+  ],
+  "setlist": []
+}

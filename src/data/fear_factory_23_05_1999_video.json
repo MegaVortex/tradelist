@@ -1,0 +1,183 @@
+{
+  "originalTitle": "Fear Factory - 23.05.1999 - Eindhoven - Netherlands - Dynamo Open Air",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Fear Factory"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "05",
+    "year": "1999"
+  },
+  "startDateUnix": 927417600,
+  "endDate": {
+    "day": "23",
+    "month": "05",
+    "year": "1999"
+  },
+  "endDateUnix": 927417600,
+  "location": {
+    "city": "Eindhoven",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Dynamo Open Air",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.49,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 6135,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "fear_factory_23_01_1999_video",
+    "fear_factory_06_09_1998_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "47",
+      "filename": "20551417.jpg",
+      "externalId": "1Fey6kJ7RnwWC87UJlJ5KFyQyWktfBACA"
+    },
+    {
+      "folder": "47",
+      "filename": "72278319.jpg",
+      "externalId": "1UH0bidkRwF4HgF7bevwx_ELKJm0ZJEGR"
+    },
+    {
+      "folder": "47",
+      "filename": "40086830.jpg",
+      "externalId": "1S5EAqtWGrBo838wN-N1j7vzXuEnPgAoY"
+    },
+    {
+      "folder": "47",
+      "filename": "29460681.jpg",
+      "externalId": "17I3WuexrhsDVt-IvBaR5pP6lYc1vZJD1"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Shock",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "New Breed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Zero Signal",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Self Bias Resistor",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Edgecrusher",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Demanufacture",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Scapegoat",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Martyr",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Replica",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

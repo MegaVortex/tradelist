@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Jimi Hendrix - 07.09.1968 - Vancouver - BC - Canada - Pacific Coliseum [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Jimi Hendrix"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "09",
+    "year": "1968"
+  },
+  "startDateUnix": -41558400,
+  "endDate": {
+    "day": "07",
+    "month": "09",
+    "year": "1968"
+  },
+  "endDateUnix": -41558400,
+  "location": {
+    "city": "Vancouver",
+    "state": "BC",
+    "country": "Canada",
+    "venue": "Pacific Coliseum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 686,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 698,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "8mm",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "20991084.jpg",
+      "externalId": "1Ugo6cA2Tlqc0kzZwrqCQQLhQQyxgjeFL"
+    },
+    {
+      "folder": "60",
+      "filename": "39853194.jpg",
+      "externalId": "1Oml2-hQzAfG74HomhCZXDRfRVRkUIQ1x"
+    },
+    {
+      "folder": "60",
+      "filename": "16687371.jpg",
+      "externalId": "18S34xaFQLmIx-KqLkff6omZcWHCLyrmC"
+    },
+    {
+      "folder": "60",
+      "filename": "02585926.jpg",
+      "externalId": "1dRiLfarjRJ6F8tLMaLR40seSzWqljLqL"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

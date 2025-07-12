@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Korn - 18.11.1999 - New York - NY - USA - MuchMusic TV (Source 1) [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "11",
+    "year": "1999"
+  },
+  "startDateUnix": 942883200,
+  "endDate": {
+    "day": "18",
+    "month": "11",
+    "year": "1999"
+  },
+  "endDateUnix": 942883200,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "MuchMusic TV",
+    "event": ""
+  },
+  "tvChannel": "MuchMusic",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.08,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1962,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "87528181.jpg",
+      "externalId": "1BD1rQ-L4Eeex7q7lhUAYsRwrFhlI3NX_"
+    },
+    {
+      "folder": "14",
+      "filename": "16581420.jpg",
+      "externalId": "1Bot_mU0aT4dYfTPb51iZKCBgJL7SAWS2"
+    },
+    {
+      "folder": "14",
+      "filename": "01071024.jpg",
+      "externalId": "1OTpBGCjOrNGTjfxN1xsACT8e-Av6axRC"
+    },
+    {
+      "folder": "14",
+      "filename": "81191677.jpg",
+      "externalId": "1un9QnwQtBsy7IRKmS2yC1Qj_-aZ_yDwc"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

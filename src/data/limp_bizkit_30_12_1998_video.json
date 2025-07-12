@@ -1,0 +1,128 @@
+{
+  "originalTitle": "Limp Bizkit - 30.12.1998 - New York - NY - USA - NBC Studios - Conan O'Brien Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "12",
+    "year": "1998"
+  },
+  "startDateUnix": 914976000,
+  "endDate": {
+    "day": "30",
+    "month": "12",
+    "year": "1998"
+  },
+  "endDateUnix": 914976000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Conan O'Brien Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 215,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 191,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "limp_bizkit_17_10_1998_video",
+    "limp_bizkit_12_03_1998_video",
+    "limp_bizkit_24_05_1999_video",
+    "limp_bizkit_13_06_1999_source_2_video",
+    "limp_bizkit_18_02_1998_video_misc",
+    "limp_bizkit_13_06_1999_source_3_video",
+    "limp_bizkit_23_09_1998_video_misc",
+    "limp_bizkit_29_07_1997_video_misc",
+    "limp_bizkit_13_06_1999_video_misc",
+    "limp_bizkit_01_01_1999_source_1_video",
+    "limp_bizkit_24_07_1999_source_1_video"
+  ],
+  "childOf": "Limp Bizkit - [1997-1999] - TV Appearances",
+  "images": [
+    {
+      "folder": "25",
+      "filename": "66541629.jpg",
+      "externalId": "1UXtqIxw4Qckz0bjwMztqlTVfpdkZdyUD"
+    },
+    {
+      "folder": "25",
+      "filename": "16315012.jpg",
+      "externalId": "10mV_jxJO7DySzBa4k4YhFkPPdmdMC19f"
+    },
+    {
+      "folder": "25",
+      "filename": "57981573.jpg",
+      "externalId": "154n_npRHKE39ZzBHB83TPhsAFOMPxDPU"
+    },
+    {
+      "folder": "25",
+      "filename": "45476804.jpg",
+      "externalId": "1pdcAY82j-IdeyM8ZURmh0r7W0ChWWCrS"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Faith  (with Pauley Shore and Kid Rock)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "George Michael"
+    }
+  ],
+  "extras": []
+}

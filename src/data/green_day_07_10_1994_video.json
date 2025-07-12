@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Green Day - 07.10.1994 - Lund - Sweden - Olympen",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Green Day"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "10",
+    "year": "1994"
+  },
+  "startDateUnix": 781488000,
+  "endDate": {
+    "day": "07",
+    "month": "10",
+    "year": "1994"
+  },
+  "endDateUnix": 781488000,
+  "location": {
+    "city": "Lund",
+    "state": "",
+    "country": "Sweden",
+    "venue": "Olympen",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.41,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2104,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "21",
+      "filename": "46924075.jpg",
+      "externalId": "19TvflUNu8SKwV6fRP2nuM0d3TbDNWpre"
+    },
+    {
+      "folder": "21",
+      "filename": "54193061.jpg",
+      "externalId": "1gAjuPS7CSrcHM_iWBgRhsq7Dc9_jx5DN"
+    },
+    {
+      "folder": "21",
+      "filename": "03998494.jpg",
+      "externalId": "1Bq0wLicl0y5D8OfSQeA-SSpipXAVrBFv"
+    },
+    {
+      "folder": "21",
+      "filename": "55870978.jpg",
+      "externalId": "1ezG-nxAxjcRdhW6lxdefrI9-5mMqyUlQ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Welcome To Paradise",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Chump",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Longview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Burnout",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Christie Road",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "2000 Light Years Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Basketcase",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "F.O.D.",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Paper Lanterns",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

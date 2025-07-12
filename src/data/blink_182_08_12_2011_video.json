@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Blink-182 - 08.12.2011 - Burbank - CA - USA - Warner Bros. Studios - Conan O'Brien Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Blink-182"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "12",
+    "year": "2011"
+  },
+  "startDateUnix": 1323302400,
+  "endDate": {
+    "day": "08",
+    "month": "12",
+    "year": "2011"
+  },
+  "endDateUnix": 1323302400,
+  "location": {
+    "city": "Burbank",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Warner Bros. Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Conan O'Brien Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 297,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 227,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": 8000,
+        "fps": "25.00",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MPG"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "84094242.jpg",
+      "externalId": "1QoN1cTtxWF7ytWSODkT19WRBq8I0Bgjb"
+    },
+    {
+      "folder": "29",
+      "filename": "08486994.jpg",
+      "externalId": "1KZO2QRa3Ch10qs-65ziKtAwE8Bi7z-eC"
+    },
+    {
+      "folder": "29",
+      "filename": "12435259.jpg",
+      "externalId": "1C8_JgwNR4kdMTIZ6Ui9MJ8BR-XW8NNNz"
+    },
+    {
+      "folder": "29",
+      "filename": "42681332.jpg",
+      "externalId": "1TTLYKgDrOt_dOTl9q9fMbS4o6PCek99F"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "After Midnight",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

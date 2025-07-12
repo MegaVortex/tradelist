@@ -1,0 +1,166 @@
+{
+  "originalTitle": "Machine Head - 12.12.2009 - San Jose - CA - USA - HP Pavilion",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Machine Head"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "12",
+    "year": "2009"
+  },
+  "startDateUnix": 1260576000,
+  "endDate": {
+    "day": "12",
+    "month": "12",
+    "year": "2009"
+  },
+  "endDateUnix": 1260576000,
+  "location": {
+    "city": "San Jose",
+    "state": "CA",
+    "country": "USA",
+    "venue": "HP Pavilion",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "hail_ozzy"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.63,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2977,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "640x480",
+        "bitrateType": "",
+        "bitrateKbps": 9773,
+        "fps": "30",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 44100,
+        "bitrateKbps": 705,
+        "channels": 1
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "VCD",
+      "fileFormat": "MOV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "65",
+      "filename": "20516957.jpg",
+      "externalId": "1PoedjoFFJdo1Xl26afQaHIphjMaS-ohY"
+    },
+    {
+      "folder": "65",
+      "filename": "77380312.jpg",
+      "externalId": "1FonOr21k0lzta9bdqg6PwFxz7aQp9XUf"
+    },
+    {
+      "folder": "65",
+      "filename": "44790331.jpg",
+      "externalId": "1bKk3rJJh-EHxApZi52pa-O1hXdZQU4AZ"
+    },
+    {
+      "folder": "65",
+      "filename": "67156513.jpg",
+      "externalId": "1beihV4XtXq6MeQjFg48jW9FdrvVcBDJy"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Imperium",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Ten Ton Hammer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Now I Lay Thee Down",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Beautiful Mourning",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Fucking Hostile",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Pantera"
+    },
+    {
+      "order": 6,
+      "song": "Halo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Davidian",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

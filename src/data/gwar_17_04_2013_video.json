@@ -1,0 +1,260 @@
+{
+  "originalTitle": "GWAR - 17.04.2013 - Denver - CO - USA - Gothic Theater",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "GWAR"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "04",
+    "year": "2013"
+  },
+  "startDateUnix": 1366156800,
+  "endDate": {
+    "day": "17",
+    "month": "04",
+    "year": "2013"
+  },
+  "endDateUnix": 1366156800,
+  "location": {
+    "city": "Denver",
+    "state": "CO",
+    "country": "USA",
+    "venue": "Gothic Theater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "AXS TV broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 12.8,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5568,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "48",
+      "filename": "58462367.jpg",
+      "externalId": "1C-KFVnpRUhbPAlpOyt1G0hJy2JXe9sBM"
+    },
+    {
+      "folder": "48",
+      "filename": "38547399.jpg",
+      "externalId": "1qRBw16j0Lag3uOnEKp4p7EWq0IjhrQ9C"
+    },
+    {
+      "folder": "48",
+      "filename": "43785800.jpg",
+      "externalId": "1_NDTl0X6TGfoZOhIoqQK6xGarQYLqYb_"
+    },
+    {
+      "folder": "48",
+      "filename": "49849677.jpg",
+      "externalId": "1IKrs3f6hM-c0IjIeTebG5sXOK_fLp-WP"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Horror Of Yig",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Womb With A View",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Madness At The Core Of Tim",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Saddam A Go-Go",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Bring Back The Bomb",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Bloodbath",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Krosstika",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Metal Metal Land",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Immortal Corrupter",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "They Swallowed The Sun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Let Us Slay",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Have You Seen Me?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Hail, Genocide!",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "War Is All We Know",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "A Short History Of The End Of The World",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "Rock 'N' Roll Never Felt So Good",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 17,
+      "song": "Whargoul",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 18,
+      "song": "Carry On Wayward Son",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Kansas"
+    },
+    {
+      "order": 19,
+      "song": "Sick Of You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

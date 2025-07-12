@@ -1,0 +1,106 @@
+{
+  "originalTitle": "L'antietam - 28.10.2006 - Manchester - NH - USA - Basement",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "L'antietam"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "10",
+    "year": "2006"
+  },
+  "startDateUnix": 1161993600,
+  "endDate": {
+    "day": "28",
+    "month": "10",
+    "year": "2006"
+  },
+  "endDateUnix": 1161993600,
+  "location": {
+    "city": "Manchester",
+    "state": "NH",
+    "country": "USA",
+    "venue": "Basement",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Timmy's Last Show!",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 809,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1259,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "36",
+      "filename": "16258532.jpg",
+      "externalId": "1D1QWra1CqaHHFnaSY-5ErZWDlmfDfHs3"
+    },
+    {
+      "folder": "36",
+      "filename": "58837115.jpg",
+      "externalId": "1m0DrO9uXV9BOS4DeCMx3A9p9fxcJgoWP"
+    },
+    {
+      "folder": "36",
+      "filename": "01762705.jpg",
+      "externalId": "1Yf77S6ZfywaFDtlUm1F5FY-_cLreM-VL"
+    },
+    {
+      "folder": "36",
+      "filename": "69612005.jpg",
+      "externalId": "1vbm_p4masXlfK-vZVcdQwZl-EJqGyeMv"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,142 @@
+{
+  "originalTitle": "Marilyn Manson - 08.08.2001 - Mansfield - MA - USA - Tweeter Center",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "08",
+    "year": "2001"
+  },
+  "startDateUnix": 997228800,
+  "endDate": {
+    "day": "08",
+    "month": "08",
+    "year": "2001"
+  },
+  "endDateUnix": 997228800,
+  "location": {
+    "city": "Mansfield",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Tweeter Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 625,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 818,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "marilyn_manson_30_11_1998_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "62",
+      "filename": "28874935.jpg",
+      "externalId": "1cEIkAqcCqsYl6SnMwgYxtO-UNK87v0nj"
+    },
+    {
+      "folder": "62",
+      "filename": "81143993.jpg",
+      "externalId": "1rh6nXASrBHbjqBebX7kkixBxGSLszR9o"
+    },
+    {
+      "folder": "62",
+      "filename": "51416296.jpg",
+      "externalId": "1V1HzU7d5kbcdXUyDp_2mJMkRChIfDuce"
+    },
+    {
+      "folder": "62",
+      "filename": "73780690.jpg",
+      "externalId": "1EFf8npqEB8jDlNZszy3syCzBNmD5iyAp"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "God Bless America",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Irresponsible Hate Anthem",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Reflecting God",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Disposable Teens",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

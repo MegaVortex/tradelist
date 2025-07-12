@@ -1,0 +1,130 @@
+{
+  "originalTitle": "Dio - 04.04.1986 - London - England - The Tube",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Dio"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "04",
+    "year": "1986"
+  },
+  "startDateUnix": 512956800,
+  "endDate": {
+    "day": "04",
+    "month": "04",
+    "year": "1986"
+  },
+  "endDateUnix": 512956800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "The Tube",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.18,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 477,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "CBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "dio_11_06_1984_video",
+    "dio_14_01_1984_source_1_video",
+    "dio_05_02_1988_video",
+    "dio_15_11_1997_source_1_video",
+    "dio_31_03_2001_source_2_video"
+  ],
+  "childOf": "Dio - [1984-2001] - Live Anthology",
+  "images": [
+    {
+      "folder": "12",
+      "filename": "61811054.jpg",
+      "externalId": "1Mm_zzlMVa4jPz0JQaNTgydorEXEQW7jQ"
+    },
+    {
+      "folder": "12",
+      "filename": "09680096.jpg",
+      "externalId": "1XvDO5vxrL1FeX_QA-EzcUaYGI895kjZP"
+    },
+    {
+      "folder": "12",
+      "filename": "93981814.jpg",
+      "externalId": "1Z_asqWdVZ406XIkmTLy6KJkqfA9QbCSC"
+    },
+    {
+      "folder": "12",
+      "filename": "51832784.jpg",
+      "externalId": "1covkoEDr6wGaZVb2ntbf9AP8EJXlfDn4"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Hungry For Heaven",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Rock 'N' Roll Children",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

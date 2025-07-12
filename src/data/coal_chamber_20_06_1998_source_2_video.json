@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Coal Chamber - 20.06.1998 - Milton Keynes - England - National Bowl - Ozzfest (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Coal Chamber"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "06",
+    "year": "1998"
+  },
+  "startDateUnix": 898300800,
+  "endDate": {
+    "day": "20",
+    "month": "06",
+    "year": "1998"
+  },
+  "endDateUnix": 898300800,
+  "location": {
+    "city": "Milton Keynes",
+    "state": "",
+    "country": "England",
+    "venue": "National Bowl",
+    "event": "Ozzfest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Transfer#2.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.2,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1637,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "67",
+      "filename": "42885056.jpg",
+      "externalId": "1TLo5Nb82R8llEUvV0kdaYKzSjOyBLtb4"
+    },
+    {
+      "folder": "67",
+      "filename": "52320122.jpg",
+      "externalId": "1SLaOgkV-HtaR45ytCS1oPUv8ln1r_RiM"
+    },
+    {
+      "folder": "67",
+      "filename": "24719749.jpg",
+      "externalId": "1_mUUMpt7wvGsj1Xbn54NxotthV-1fdgj"
+    },
+    {
+      "folder": "67",
+      "filename": "41385637.jpg",
+      "externalId": "17HcBolWfhc8nvFZMmbOuMmXjfP9UuZkA"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Sway",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Big Truck",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Bradley",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Clock",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Not Living",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Oddity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Loco",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

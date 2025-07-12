@@ -1,0 +1,307 @@
+{
+  "originalTitle": "Megadeth - 15.03.2011 - Moscow - Russia - SC Olimpiyskiy (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Megadeth"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "03",
+    "year": "2011"
+  },
+  "startDateUnix": 1300147200,
+  "endDate": {
+    "day": "15",
+    "month": "03",
+    "year": "2011"
+  },
+  "endDateUnix": 1300147200,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "SC Olimpiyskiy",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Audio taped by Felix. Authored, mixed and mastered by Demolition.",
+  "tapers": [
+    "Vortex",
+    "TheALEX073",
+    "SergeyMetallica",
+    "Satchafunkiluss",
+    "KFK",
+    "theevilhog",
+    "forensicmedicine9",
+    "Zollshik"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.22,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 3.49,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4278,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "33",
+      "filename": "21120683.jpg",
+      "externalId": "1rH7GCDdjAmCskZioK3DDNQ5eDItyOd77"
+    },
+    {
+      "folder": "33",
+      "filename": "22571363.jpg",
+      "externalId": "1FVzSFAOW6XdJiWeYr2q0qoA8f8pu6YbG"
+    },
+    {
+      "folder": "33",
+      "filename": "62474745.jpg",
+      "externalId": "1tozW451ewBXtiNvB61n96tSaEzvpkWhv"
+    },
+    {
+      "folder": "33",
+      "filename": "78582087.jpg",
+      "externalId": "1gwJkLPH_t2Lo-djv3XC5bsllUuTY1_af"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro (Shut Up, Be Happy) (Ice-T song)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Holy Wars... The Punishment Due",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Hangar 18",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Wake Up Dead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "In My Darkest Hour",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "She-Wolf",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Skin O' My Teeth",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "A Tout Le Monde",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "How The Story Ends",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Tornado Of Souls",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Head Crusher",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Trust",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Sweating Bullets",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Symphony Of Destruction",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Peace Sells",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Five Magics",
+      "feat": "",
+      "note": "incomplete",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 2,
+      "song": "Angry Again",
+      "feat": "",
+      "note": "incomplete",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 3,
+      "song": "Symphony Of Destruction (13.07.2010 - Moscow - Russia - B1 Maximum)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 4,
+      "song": "Peace Sells (13.07.2010 - Moscow - Russia - B1 Maximum)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 5,
+      "song": "Hangar 18 (14.07.2010 - Moscow - Russia - B1 Maximum)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 6,
+      "song": "A Tout Le Monde (14.07.2010 - Moscow - Russia - B1 Maximum)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 7,
+      "song": "MuzTV Report (15.03.2011 - Moscow - Russia)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 8,
+      "song": "A-ONE Interview",
+      "feat": "Dave",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

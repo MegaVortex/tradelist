@@ -1,0 +1,176 @@
+{
+  "originalTitle": "Blur - 06.03.2003 - London - England - MTV Studios",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Blur"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "03",
+    "year": "2003"
+  },
+  "startDateUnix": 1046908800,
+  "endDate": {
+    "day": "06",
+    "month": "03",
+    "year": "2003"
+  },
+  "endDateUnix": 1046908800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "MTV Studios",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 932,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1252,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "blur_19_06_1999_source_2_video",
+    "blur_28_06_2003_video",
+    "blur_20_10_2003_video"
+  ],
+  "childOf": "Blur - [1999-2003] - Live Performances",
+  "images": [
+    {
+      "folder": "46",
+      "filename": "95342355.jpg",
+      "externalId": "1JWXpRLfHt9I5Ud9sXueqqLaXPo0UxUYw"
+    },
+    {
+      "folder": "46",
+      "filename": "37609273.jpg",
+      "externalId": "16bs9YKoNxpdzXLWejFK8QyfvQu1WK0kU"
+    },
+    {
+      "folder": "46",
+      "filename": "95448565.jpg",
+      "externalId": "1u-x2xzIDzmFiLZ9BsUI4S-_WCHgUr0k-"
+    },
+    {
+      "folder": "46",
+      "filename": "61067103.jpg",
+      "externalId": "1zY1wEDYmstuDd2oZpZuxokUjttO3mwWN"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Crazy Beat",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Good Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Out Of Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Ambulance",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

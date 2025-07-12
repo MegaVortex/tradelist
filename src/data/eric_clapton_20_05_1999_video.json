@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Eric Clapton - 20.05.1999 - London - England - BBC Studios - Frank Skinner Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Eric Clapton"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "05",
+    "year": "1999"
+  },
+  "startDateUnix": 927158400,
+  "endDate": {
+    "day": "20",
+    "month": "05",
+    "year": "1999"
+  },
+  "endDateUnix": 927158400,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Studios",
+    "event": "Frank Skinner Show"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.13,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2185,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "eric_clapton_13_12_1995_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "19572107.jpg",
+      "externalId": "1_bokBB1X99Hm2iHiEdkzk9Jsft4aataD"
+    },
+    {
+      "folder": "24",
+      "filename": "24091989.jpg",
+      "externalId": "1WgDyiclSZYOJxOZ9uTtaH57Btz4oG7Ox"
+    },
+    {
+      "folder": "24",
+      "filename": "45498347.jpg",
+      "externalId": "1iZYma0Oa7cU2UsZp-K3v_H_IpvhLibgC"
+    },
+    {
+      "folder": "24",
+      "filename": "89065734.jpg",
+      "externalId": "1jzv0C3B7TR1HQkeKk9W_HyQwNRXj76Bg"
+    }
+  ],
+  "setlist": []
+}

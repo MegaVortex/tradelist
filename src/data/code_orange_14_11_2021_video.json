@@ -1,0 +1,176 @@
+{
+  "originalTitle": "Code Orange - 14.11.2021 - Daytona Beach - FL - USA - Daytona International Speedway - Welcome To Rockville",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Code Orange"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "11",
+    "year": "2021"
+  },
+  "startDateUnix": 1636848000,
+  "endDate": {
+    "day": "14",
+    "month": "11",
+    "year": "2021"
+  },
+  "endDateUnix": 1636848000,
+  "location": {
+    "city": "Daytona Beach",
+    "state": "FL",
+    "country": "USA",
+    "venue": "Daytona International Speedway",
+    "event": "Welcome To Rockville"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 19.3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 30916,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "23.976",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 193,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "HD",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [
+    "anthrax_14_11_2021_video",
+    "rob_zombie_12_11_2021_video",
+    "disturbed_13_11_2021_video"
+  ],
+  "childOf": "[VARIOUS ARTISTS] - [12.11.2021-14.11.2021] - Daytona Beach - FL - USA - Daytona International Speedway - Welcome To Rockville",
+  "images": [
+    {
+      "folder": "82",
+      "filename": "48269733.jpg",
+      "externalId": "1fvAU_hAx3D5v_A7_UPNizAtdPaBmAbkJ"
+    },
+    {
+      "folder": "82",
+      "filename": "11290752.jpg",
+      "externalId": "1jD8rOZxZ_4AF_ClGIqxU9XU13L31KSaW"
+    },
+    {
+      "folder": "82",
+      "filename": "37930875.jpg",
+      "externalId": "1ifJahpJdTYMYvAH7tdltmRxEp_r-sACk"
+    },
+    {
+      "folder": "82",
+      "filename": "17882706.jpg",
+      "externalId": "1LC9uAOgANBYYpS4s8STwnSvY5T3RrQb6"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Swallowing The Rabbit Whole",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "In Fear",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Cold.Metal.Place",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Bleeding In The Blur",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Last Ones Left",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "My World",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Forever",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Underneath",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

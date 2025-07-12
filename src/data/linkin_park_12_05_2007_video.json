@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Linkin Park - 12.05.2007 - New York - NY - USA - Studio 8H - Saturday Night Live",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "05",
+    "year": "2007"
+  },
+  "startDateUnix": 1178928000,
+  "endDate": {
+    "day": "12",
+    "month": "05",
+    "year": "2007"
+  },
+  "endDateUnix": 1178928000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Studio 8H",
+    "event": "Saturday Night Live"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "NBC broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 788,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 410,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "48",
+      "filename": "20434361.jpg",
+      "externalId": "1XCEO91mXtJ2IFkzC44XYfNmR_GjlTc3e"
+    },
+    {
+      "folder": "48",
+      "filename": "50909939.jpg",
+      "externalId": "1UDx7nITRUSJulFcMN3tcVPIrgBsGm7n-"
+    },
+    {
+      "folder": "48",
+      "filename": "14200396.jpg",
+      "externalId": "1s7Bt1nPqff6KWiK0ZsLZAzhDERtwwxqL"
+    },
+    {
+      "folder": "48",
+      "filename": "60917115.jpg",
+      "externalId": "1wwAh92M_qtsAUIClUH3RDJL3XXHyQvll"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "What I've Done",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Bleed It Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,174 @@
+{
+  "originalTitle": "Machine Head - 14.10.1995 - Minneapolis - MN - USA - The Mirage",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Machine Head"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "10",
+    "year": "1995"
+  },
+  "startDateUnix": 813628800,
+  "endDate": {
+    "day": "14",
+    "month": "10",
+    "year": "1995"
+  },
+  "endDateUnix": 813628800,
+  "location": {
+    "city": "Minneapolis",
+    "state": "MN",
+    "country": "USA",
+    "venue": "The Mirage",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Will Carrol on drums.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.61,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2955,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "madball_14_10_1995_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "44",
+      "filename": "56183081.jpg",
+      "externalId": "14eAgsHZQB9xkMSjDlcrVf7a_yeVJYubh"
+    },
+    {
+      "folder": "44",
+      "filename": "44872630.jpg",
+      "externalId": "1LynlP38HEpNliYYu-DKeJduDGMTBc7aZ"
+    },
+    {
+      "folder": "44",
+      "filename": "01393876.jpg",
+      "externalId": "1lmVfJ92VgK169yT8qsrUEzrcdX25PaOr"
+    },
+    {
+      "folder": "44",
+      "filename": "96630281.jpg",
+      "externalId": "1M_IT0N2--pHnQFNOkdeKQp9Lj4WfeQZ9"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Davidian",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "A Thousand Lies",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Rage To Overcome",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "None But My Own",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Blood For Blood",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Old",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Hard Times",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Cro-Mags"
+    },
+    {
+      "order": 8,
+      "song": "Block",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

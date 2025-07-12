@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Foo Fighters & Queen - 25.05.2006 - Las Vegas - NV - USA - Mandalay Bay Events Centre - VH1 Rock Honors",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters & Queen"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "05",
+    "year": "2006"
+  },
+  "startDateUnix": 1148515200,
+  "endDate": {
+    "day": "25",
+    "month": "05",
+    "year": "2006"
+  },
+  "endDateUnix": 1148515200,
+  "location": {
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "venue": "Mandalay Bay Events Centre",
+    "event": "VH1 Rock Honors"
+  },
+  "tvChannel": "VH1",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.36,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1631,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "17",
+      "filename": "23858321.jpg",
+      "externalId": "16FFp4QU2KOkZz7JgYCdBqVuk1MxRtL87"
+    },
+    {
+      "folder": "17",
+      "filename": "28796221.jpg",
+      "externalId": "1V4N5DdCkkpkpFNfR9ntQfrvE0_dffwQa"
+    },
+    {
+      "folder": "17",
+      "filename": "87130800.jpg",
+      "externalId": "1ahz4E8jXin_DvWmsQ7nUxxl7_YgfonAH"
+    },
+    {
+      "folder": "17",
+      "filename": "48099748.jpg",
+      "externalId": "1nagMLpzOyg3yH7BAxMhflijJWhZJYcBR"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Tie Your Mother Down",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interviews",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Show Must Go On",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Foo Fighters & Kiefer Sutherland (discuss Queen)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "We Will Rock You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "We Are The Champions",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Short Interviews",
+      "feat": "Brian, Roger and Paul",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Madball - 21.08.2007 - Moscow - Russia - Tochka",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Madball"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "08",
+    "year": "2007"
+  },
+  "startDateUnix": 1187654400,
+  "endDate": {
+    "day": "21",
+    "month": "08",
+    "year": "2007"
+  },
+  "endDateUnix": 1187654400,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Tochka",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.68,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 4756,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "31",
+      "filename": "57616322.jpg",
+      "externalId": "1L9WVte6hxufQViNyYW-V16WE3bH7bGki"
+    },
+    {
+      "folder": "31",
+      "filename": "46001568.jpg",
+      "externalId": "1I2ENyaufeHbHc9Y-mGoN4Gz8EWzWLX43"
+    },
+    {
+      "folder": "31",
+      "filename": "01424376.jpg",
+      "externalId": "1pjRSopP6DD_QVqTHniv0RTQLEj6dveUo"
+    },
+    {
+      "folder": "31",
+      "filename": "62192015.jpg",
+      "externalId": "1pwtQYPphs-oHQZ1n4TRWTzJNGEr-XqM5"
+    }
+  ],
+  "setlist": []
+}

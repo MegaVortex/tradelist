@@ -1,0 +1,198 @@
+{
+  "originalTitle": "Foo Fighters - 01.05.2003 - Washington - DC - USA - Black Cat",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "05",
+    "year": "2003"
+  },
+  "startDateUnix": 1051747200,
+  "endDate": {
+    "day": "01",
+    "month": "05",
+    "year": "2003"
+  },
+  "endDateUnix": 1051747200,
+  "location": {
+    "city": "Washington",
+    "state": "DC",
+    "country": "USA",
+    "venue": "Black Cat",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "PRO#1.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.64,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3356,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "ja",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "foo_fighters_12_09_2002_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "48403083.jpg",
+      "externalId": "1YXSvpDbnZw6P_kW3zcTldvVygNBHDc2b"
+    },
+    {
+      "folder": "26",
+      "filename": "03290331.jpg",
+      "externalId": "1BXV6u7RLfrI1kGK4fqVDJ0ZeU9HVRlLf"
+    },
+    {
+      "folder": "26",
+      "filename": "88328886.jpg",
+      "externalId": "1wYlyxDz3ud54rhZfXz8Tjzjn5RmIsfzv"
+    },
+    {
+      "folder": "26",
+      "filename": "99913974.jpg",
+      "externalId": "1eb0gpuTOg6yH3HyCKIjsF7Ad7IzVK7FI"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "All My Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Generator",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "My Hero",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Have It All",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Disenchanted Lullabye",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Enough Space",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Aurora",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Stacked Actors",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Low",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Monkey Wrench",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Everlong",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Marilyn Manson - 08.01.2001 - Los Angeles - CA - USA - Shrine Auditorium - American Music Awards",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "01",
+    "year": "2001"
+  },
+  "startDateUnix": 978912000,
+  "endDate": {
+    "day": "08",
+    "month": "01",
+    "year": "2001"
+  },
+  "endDateUnix": 978912000,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Shrine Auditorium",
+    "event": "American Music Awards"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 145,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 191,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "marilyn_manson_04_06_2005_source_3_video",
+    "marilyn_manson_28_08_2005_source_2_video",
+    "marilyn_manson_04_09_1997_source_3_video",
+    "marilyn_manson_10_09_1998_source_3_video",
+    "marilyn_manson_11_11_1999_source_2_video",
+    "marilyn_manson_31_12_2000_source_3_video",
+    "marilyn_manson_24_08_1997_source_2_video"
+  ],
+  "childOf": "Marilyn Manson - [1997-2005] - TV Appearances",
+  "images": [
+    {
+      "folder": "67",
+      "filename": "21906925.jpg",
+      "externalId": "1lvB4Pu9888wgnzV0VNJgyHfURMvZEofN"
+    },
+    {
+      "folder": "67",
+      "filename": "96727776.jpg",
+      "externalId": "16cluqkDt7OSRTL3INV1dTiAFeFD1BtV5"
+    },
+    {
+      "folder": "67",
+      "filename": "01678289.jpg",
+      "externalId": "15t3r5bosQ3RLNkAAyzcuEQ4a8ciWHWqY"
+    },
+    {
+      "folder": "67",
+      "filename": "82972609.jpg",
+      "externalId": "1NeqTViXc3eO_hXLXIE-rNqMyoHSjwyhe"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Disposable Teens",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,137 @@
+{
+  "originalTitle": "Limp Bizkit - 13.06.1999 - Boston - MA - USA - Fenway Park - Parking Lot [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "06",
+    "year": "1999"
+  },
+  "startDateUnix": 929232000,
+  "endDate": {
+    "day": "13",
+    "month": "06",
+    "year": "1999"
+  },
+  "endDateUnix": 929232000,
+  "location": {
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Fenway Park",
+    "event": "Parking Lot"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 553,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 935,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "limp_bizkit_17_10_1998_video",
+    "limp_bizkit_30_12_1998_video",
+    "limp_bizkit_24_05_1999_video",
+    "limp_bizkit_13_06_1999_source_2_video",
+    "limp_bizkit_18_02_1998_video_misc",
+    "limp_bizkit_13_06_1999_source_3_video",
+    "limp_bizkit_23_09_1998_video_misc",
+    "limp_bizkit_29_07_1997_video_misc",
+    "limp_bizkit_12_03_1998_video",
+    "limp_bizkit_01_01_1999_source_1_video",
+    "limp_bizkit_24_07_1999_source_1_video"
+  ],
+  "childOf": "Limp Bizkit - [1997-1999] - TV Appearances",
+  "images": [
+    {
+      "folder": "25",
+      "filename": "44614106.jpg",
+      "externalId": "1B1PcPdJFGbIu57T5n_tTQIMRnKXP6UQv"
+    },
+    {
+      "folder": "25",
+      "filename": "39538915.jpg",
+      "externalId": "10lJvvQ9tM6xJtvtOYBoHH2MbJQwIqcJT"
+    },
+    {
+      "folder": "25",
+      "filename": "42161943.jpg",
+      "externalId": "1HxvDHPSvKvTYBLCWwSG_IeCJ4TKe24Fq"
+    },
+    {
+      "folder": "25",
+      "filename": "94760121.jpg",
+      "externalId": "1jKz0VZgjHM8yui10KQWES3wTDsgcoglh"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

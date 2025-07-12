@@ -1,0 +1,150 @@
+{
+  "originalTitle": "Eric Clapton - 13.12.1995 - London - England - BBC Studios - Jools Holland Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Eric Clapton"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "12",
+    "year": "1995"
+  },
+  "startDateUnix": 818812800,
+  "endDate": {
+    "day": "13",
+    "month": "12",
+    "year": "1995"
+  },
+  "endDateUnix": 818812800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jools Holland Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.13,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2185,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "eric_clapton_20_05_1999_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "04180882.jpg",
+      "externalId": "1vnO55X-O5BY9HGeGfjG_xQdhbJOF2Yof"
+    },
+    {
+      "folder": "24",
+      "filename": "88817561.jpg",
+      "externalId": "1VLaKpqkq80lcCPptrokZpMpi-0SoDB7_"
+    },
+    {
+      "folder": "24",
+      "filename": "92631063.jpg",
+      "externalId": "1_yLv2kEsSJP0UTkLjs4QbPkiamfJuDgZ"
+    },
+    {
+      "folder": "24",
+      "filename": "88296624.jpg",
+      "externalId": "1LA2-V57zWUOW72WLCBDshH8_ypAZiaI9"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Such A Night",
+      "feat": "Dr. John",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Reconsider Baby",
+      "feat": "The Jools Holland Rhythm and Blues Orchestra",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "There Must Be A Better World Somewhere",
+      "feat": "Dr. John",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Third Degree",
+      "feat": "The Jools Holland Rhythm and Blues Orchestra",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Jump For Joy (jam)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Lamb Of God - 10.05.2002 - Albany - NY - USA - Saratoga",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Lamb Of God"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "05",
+    "year": "2002"
+  },
+  "startDateUnix": 1020988800,
+  "endDate": {
+    "day": "10",
+    "month": "05",
+    "year": "2002"
+  },
+  "endDateUnix": 1020988800,
+  "location": {
+    "city": "Albany",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Saratoga",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "2 cam mix.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.04,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2677,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "22",
+      "filename": "83759059.jpg",
+      "externalId": "1BaZmYqHZ7GHuJNUWXD676COtrz1cOfxi"
+    },
+    {
+      "folder": "22",
+      "filename": "66689089.jpg",
+      "externalId": "11pSu9w7qFooAORvZb9jzTvLJ0P8Cy2Yk"
+    },
+    {
+      "folder": "22",
+      "filename": "52229614.jpg",
+      "externalId": "1nCaWLLRKUJpzwxn27XIdURRCKS920vEC"
+    },
+    {
+      "folder": "22",
+      "filename": "40489512.jpg",
+      "externalId": "1lNIJtPByxzhT6NymK-injhCn7hPNL9qH"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "In Abscnese Of The Sacred",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "A Warning",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Ruin",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Black Dahlia",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Bloodletting",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Pariah",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "As The Palaces Burn",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Black Label",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Blood Junkie",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Suble Arts Of Muder And Persuasion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

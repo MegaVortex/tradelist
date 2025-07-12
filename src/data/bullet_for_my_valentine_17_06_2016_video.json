@@ -1,0 +1,147 @@
+{
+  "originalTitle": "Bullet For My Valentine - 17.06.2016 - Clisson - France - Val De Moine - Hellfest",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bullet For My Valentine"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "06",
+    "year": "2016"
+  },
+  "startDateUnix": 1466121600,
+  "endDate": {
+    "day": "17",
+    "month": "06",
+    "year": "2016"
+  },
+  "endDateUnix": 1466121600,
+  "location": {
+    "city": "Clisson",
+    "state": "",
+    "country": "France",
+    "venue": "Val De Moine",
+    "event": "Hellfest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.58,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 6222,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "1440x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 68,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 49,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 70,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 46,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [
+    "rammstein_17_06_2016_source_2_video",
+    "foreigner_18_06_2016_video",
+    "napalm_death_18_06_2016_video",
+    "disturbed_18_06_2016_video",
+    "the_offspring_17_06_2016_video",
+    "joe_satriani_18_06_2016_video",
+    "sick_of_it_all_18_06_2016_video",
+    "within_temptation_18_06_2016_video",
+    "korn_18_06_2016_source_2_video"
+  ],
+  "childOf": "various_artists_17_06_2016_18_06_2016_video_compilation",
+  "images": [
+    {
+      "folder": "78",
+      "filename": "36177951.jpg",
+      "externalId": "1JFEHsGjJ9UQReNqROPEjcmxytVmbrJBk"
+    },
+    {
+      "folder": "78",
+      "filename": "02151966.jpg",
+      "externalId": "15uHLLVrLKV4AJntpApx0FXVw0ZcNpABH"
+    },
+    {
+      "folder": "78",
+      "filename": "10287134.jpg",
+      "externalId": "1g4io4JWaqoC0KDbk5XjGVEENTuz38K7b"
+    },
+    {
+      "folder": "78",
+      "filename": "37510428.jpg",
+      "externalId": "1gpFAZSqw6804G0MOzBX-q776tbuoQSfC"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Your Betrayal",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

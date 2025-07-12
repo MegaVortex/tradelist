@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Bon Jovi - 31.12.1992 - Bethlehem - PA - USA - Stabler Arena",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "12",
+    "year": "1992"
+  },
+  "startDateUnix": 725760000,
+  "endDate": {
+    "day": "31",
+    "month": "12",
+    "year": "1992"
+  },
+  "endDateUnix": 725760000,
+  "location": {
+    "city": "Bethlehem",
+    "state": "PA",
+    "country": "USA",
+    "venue": "Stabler Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.43,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2605,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "66259537.jpg",
+      "externalId": "1Uzcv2IIKJaAxN4lqjsP9bOwI291Ct9Dd"
+    },
+    {
+      "folder": "18",
+      "filename": "72311990.jpg",
+      "externalId": "1v2XPXtxuthU6oWGvwrfpeZQJ6uI_0eSB"
+    },
+    {
+      "folder": "18",
+      "filename": "70828209.jpg",
+      "externalId": "1lK8AMzlwG4Xccwlkt3zOtUSv3_0LtnBp"
+    },
+    {
+      "folder": "18",
+      "filename": "88525585.jpg",
+      "externalId": "1O6ZeSsLW-Azcu4VajDjfXkr5ayef-O1e"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Keep The Faith",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Wanted Dead Or Alive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Livin' On A Prayer (acoustic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Bed Of Roses",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Livin' On A Prayer (Berns Salonger)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Wanted Dead Or Alive (Berns Salonger)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Keep The Faith (Berns Salonger)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

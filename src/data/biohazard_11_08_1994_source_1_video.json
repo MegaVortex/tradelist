@@ -1,0 +1,139 @@
+{
+  "originalTitle": "Biohazard - 11.08.1994 - Hultsfred - Sweden - Hultsfreds Hembygdspark - Hultsfred Festival (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Biohazard"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "08",
+    "year": "1994"
+  },
+  "startDateUnix": 776563200,
+  "endDate": {
+    "day": "11",
+    "month": "08",
+    "year": "1994"
+  },
+  "endDateUnix": 776563200,
+  "location": {
+    "city": "Hultsfred",
+    "state": "",
+    "country": "Sweden",
+    "venue": "Hultsfreds Hembygdspark",
+    "event": "Hultsfred Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MTV broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.05,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1244,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "biohazard_11_08_1994_source_2_video",
+    "biohazard_27_08_1994_video",
+    "biohazard_21_05_1999_video",
+    "biohazard_23_05_1999_video",
+    "biohazard_xx_xx_1994_usa_mtv_making_of_new_album_video_misc",
+    "biohazard_11_05_1994_video_misc"
+  ],
+  "childOf": "Biohazard - [1994-1999] - TV Appearances - 'Tales From The TV Side' Part I",
+  "images": [
+    {
+      "folder": "22",
+      "filename": "04148471.jpg",
+      "externalId": "1vpNkJGiPloA0GtIlGm6Flb_71Fo6Zdp9"
+    },
+    {
+      "folder": "22",
+      "filename": "88052959.jpg",
+      "externalId": "1P88zXBQYGT3nlKwTx_eX3guxPk5nG9CE"
+    },
+    {
+      "folder": "22",
+      "filename": "19166548.jpg",
+      "externalId": "1_cONIq4H9Hj7f7s_o7NQ2vzEEaiU7zwm"
+    },
+    {
+      "folder": "22",
+      "filename": "02720834.jpg",
+      "externalId": "1RJRwyLAHuvn-skC-yF0mWhJtIWjCrqZG"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Loss",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

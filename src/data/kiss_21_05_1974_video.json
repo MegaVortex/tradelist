@@ -1,0 +1,131 @@
+{
+  "originalTitle": "Kiss - 21.05.1974 - Philadelphia - PA - USA - KYW-TV Studio - Mike Douglas Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Kiss"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "05",
+    "year": "1974"
+  },
+  "startDateUnix": 138326400,
+  "endDate": {
+    "day": "21",
+    "month": "05",
+    "year": "1974"
+  },
+  "endDateUnix": 138326400,
+  "location": {
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "venue": "KYW-TV Studio",
+    "event": "Mike Douglas Show"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.12,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 5040,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "kiss_06_12_1974_video",
+    "kiss_10_01_1975_video",
+    "kiss_xx_03_1976_usa_detroit_tv_report_video_misc",
+    "kiss_02_08_1976_video_misc",
+    "kiss_29_10_1976_video"
+  ],
+  "childOf": "Kiss - [1974-1976] - TV Appearances",
+  "images": [
+    {
+      "folder": "32",
+      "filename": "90441759.jpg",
+      "externalId": "1rkkz5AYPLbTz1kHGx3Iwql53ixs9WQwQ"
+    },
+    {
+      "folder": "32",
+      "filename": "23133615.jpg",
+      "externalId": "1DH2S9CKjLaIwRExCbpN1TbeEwxIz8IXL"
+    },
+    {
+      "folder": "32",
+      "filename": "54137465.jpg",
+      "externalId": "11br-eRrx_CRI1bsMSfh5L8Ijukh3GlVn"
+    },
+    {
+      "folder": "32",
+      "filename": "91451329.jpg",
+      "externalId": "1EYndjf7htYYUIu9ZHT_JjrI0ZikfQmr2"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Firehouse",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "TV Ad: Hotter Than Hell",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

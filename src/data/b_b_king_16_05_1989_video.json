@@ -1,0 +1,156 @@
+{
+  "originalTitle": "B.B. King - 16.05.1989 - Tokyo - Japan - MZA Ariake",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "B.B. King"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "05",
+    "year": "1989"
+  },
+  "startDateUnix": 611280000,
+  "endDate": {
+    "day": "16",
+    "month": "05",
+    "year": "1989"
+  },
+  "endDateUnix": 611280000,
+  "location": {
+    "city": "Tokyo",
+    "state": "",
+    "country": "Japan",
+    "venue": "MZA Ariake",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.81,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 7230,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "38581685.jpg",
+      "externalId": "1qrPeAG4wIj20v_uZFfTqsMBC9FJeTqoM"
+    },
+    {
+      "folder": "73",
+      "filename": "88320559.jpg",
+      "externalId": "1s_sluQCDioyEmm-5mlRChE6o85NK5MAl"
+    },
+    {
+      "folder": "73",
+      "filename": "36459201.jpg",
+      "externalId": "1C3dyPhnx2df_dkbSckmr7eA0IXHOuteb"
+    },
+    {
+      "folder": "73",
+      "filename": "18158984.jpg",
+      "externalId": "1cJ0xphXzCMEW_KUtr0fWNG69VOFz9O7G"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Let The Good Times Roll",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Louis Jordan"
+    },
+    {
+      "order": 2,
+      "song": "When It All Comes Down (I'll Still Be Around)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "All Over Again",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Why I Sing The Blues",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Darling You Know I Love You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Thrill Is Gone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Roy Hawkins"
+    }
+  ],
+  "extras": []
+}

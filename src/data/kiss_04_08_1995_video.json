@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Kiss - 04.08.1995 - New York - NY - USA - NBC Studios - Conan O'Brien Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Kiss"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "08",
+    "year": "1995"
+  },
+  "startDateUnix": 807494400,
+  "endDate": {
+    "day": "04",
+    "month": "08",
+    "year": "1995"
+  },
+  "endDateUnix": 807494400,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Conan O'Brien Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 195,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 344,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "87660390.jpg",
+      "externalId": "15rb0-KNBD2CtMmoRh8IF7aFX0PsCR9zN"
+    },
+    {
+      "folder": "14",
+      "filename": "05265263.jpg",
+      "externalId": "1wgRmxbgNJCnsmWt99fwbCMi6_hCBk10S"
+    },
+    {
+      "folder": "14",
+      "filename": "27765532.jpg",
+      "externalId": "1-2wbMG0RJVCYnM9n84aM5TAzvZrqrOrn"
+    },
+    {
+      "folder": "14",
+      "filename": "55740099.jpg",
+      "externalId": "1vC79tBQa6csdFxt6qsJWPi8R2zd8W9RN"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Comin' Home",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Domino",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

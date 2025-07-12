@@ -1,0 +1,195 @@
+{
+  "originalTitle": "Elvis Presley - 20.02.1977 - Charlotte - NC - USA - Charlotte Coliseum",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Elvis Presley"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "02",
+    "year": "1977"
+  },
+  "startDateUnix": 225244800,
+  "endDate": {
+    "day": "20",
+    "month": "02",
+    "year": "1977"
+  },
+  "endDateUnix": 225244800,
+  "location": {
+    "city": "Charlotte",
+    "state": "NC",
+    "country": "USA",
+    "venue": "Charlotte Coliseum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 7.44,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 8277,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "8mm",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "elvis_presley_24_06_1977_video",
+    "elvis_presley_25_06_1977_video",
+    "elvis_presley_26_06_1977_video",
+    "elvis_presley_18_06_1977_video",
+    "elvis_presley_01_05_1977_video",
+    "elvis_presley_02_05_1977_video"
+  ],
+  "childOf": "Elvis Presley - [1977] - Live Performances - 'The Final Curtain' Part II",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "90936346.jpg",
+      "externalId": "1J1qqKReQykaulh3I6ZD8TUWTCN7TkcXv"
+    },
+    {
+      "folder": "18",
+      "filename": "13803222.jpg",
+      "externalId": "12P8QnnicEd-PZPZwejTjlZL5vn2Bul4k"
+    },
+    {
+      "folder": "18",
+      "filename": "71143614.jpg",
+      "externalId": "1yHHD2PQ88NPFHemuOZWpY0oarie55bdK"
+    },
+    {
+      "folder": "18",
+      "filename": "88188781.jpg",
+      "externalId": "1WS-hvO2T1hn074Mqse_b0160KKp0WcU8"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Opening Vamp / C C Rider",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "I Got A Woman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Love Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Jailhouse Rock",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Little Sister",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Love Letters",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Hurt",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Hound Dog",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Unchained Melody",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Can't Help Falling In Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

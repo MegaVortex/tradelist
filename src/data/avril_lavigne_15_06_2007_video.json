@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Avril Lavigne - 15.06.2007 - Burbank - CA - USA - NBC Studios - Jay Leno Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Avril Lavigne"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "06",
+    "year": "2007"
+  },
+  "startDateUnix": 1181865600,
+  "endDate": {
+    "day": "15",
+    "month": "06",
+    "year": "2007"
+  },
+  "endDateUnix": 1181865600,
+  "location": {
+    "city": "Burbank",
+    "state": "CA",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Jay Leno Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 563,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 290,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": 65000,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MPG"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "25",
+      "filename": "62591481.jpg",
+      "externalId": "17_ChH4lYLdnV4IvsjhaGyOS4TOfzOmXI"
+    },
+    {
+      "folder": "25",
+      "filename": "62599499.jpg",
+      "externalId": "1p2wtm2wSUIaTBEY0IlDeR1PaHQHX0mc6"
+    },
+    {
+      "folder": "25",
+      "filename": "41374086.jpg",
+      "externalId": "1pwYTDkfwV0yYAPmjbvGChEgeJnFFUYCz"
+    },
+    {
+      "folder": "25",
+      "filename": "29229438.jpg",
+      "externalId": "108VEZa5OSudfRz2Xx9WCdg8jcdU4N5E7"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "When You're Gone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

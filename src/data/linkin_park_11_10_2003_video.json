@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Linkin Park - 11.10.2003 - Sydney - Australia - Moore Park - Livid Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "10",
+    "year": "2003"
+  },
+  "startDateUnix": 1065830400,
+  "endDate": {
+    "day": "11",
+    "month": "10",
+    "year": "2003"
+  },
+  "endDateUnix": 1065830400,
+  "location": {
+    "city": "Sydney",
+    "state": "",
+    "country": "Australia",
+    "venue": "Moore Park",
+    "event": "Livid Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 512,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 458,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "30",
+      "filename": "65298675.jpg",
+      "externalId": "1cpbB7V6X4gHhgjy7zVB_P7PXRXbKnLxQ"
+    },
+    {
+      "folder": "30",
+      "filename": "42517553.jpg",
+      "externalId": "10nUzHWCg4NzEqWD6YDv84l9ySmrCyWyN"
+    },
+    {
+      "folder": "30",
+      "filename": "38794832.jpg",
+      "externalId": "1T9Yv-kK_cwBFuv44LQYS2DOVpYTQxC95"
+    },
+    {
+      "folder": "30",
+      "filename": "95062114.jpg",
+      "externalId": "1XxVdZoBthA_D-EMsehvDYlSqp8mBV2kg"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "A Place For My Head",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "One Step Closer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

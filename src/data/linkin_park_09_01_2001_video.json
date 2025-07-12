@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Linkin Park - 09.01.2001 - Paris - France - Canal+ Studios - Nulle Part Ailleurs",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "01",
+    "year": "2001"
+  },
+  "startDateUnix": 978998400,
+  "endDate": {
+    "day": "09",
+    "month": "01",
+    "year": "2001"
+  },
+  "endDateUnix": 978998400,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "Canal+ Studios",
+    "event": "Nulle Part Ailleurs"
+  },
+  "tvChannel": "Canal+",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "First ever performance in France.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 154,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 173,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "95911664.jpg",
+      "externalId": "1C7zLfvSU59ekn4NY_rg1SbNUToGs7osu"
+    },
+    {
+      "folder": "14",
+      "filename": "77886941.jpg",
+      "externalId": "1HU5X70XTOg6yq_pyPXn6CgsxwFM-DUkz"
+    },
+    {
+      "folder": "14",
+      "filename": "34058730.jpg",
+      "externalId": "1QN9I5Jj5_dbgsgG2DzSNU78P3rNCdiC8"
+    },
+    {
+      "folder": "14",
+      "filename": "27862841.jpg",
+      "externalId": "16rbRfGIFjjXDGjrA5jc2BarWJ9MWI2ub"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "One Step Closer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

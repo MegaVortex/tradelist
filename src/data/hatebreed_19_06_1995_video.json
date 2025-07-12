@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Hatebreed - 19.06.1995 - Northampton - MA - USA",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Hatebreed"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "06",
+    "year": "1995"
+  },
+  "startDateUnix": 803520000,
+  "endDate": {
+    "day": "19",
+    "month": "06",
+    "year": "1995"
+  },
+  "endDateUnix": 803520000,
+  "location": {
+    "city": "Northampton",
+    "state": "MA",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.26,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1179,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "33",
+      "filename": "22731726.jpg",
+      "externalId": "1_HgUIJ0cNRZs0FsEO0VqM4uhdo3drX2_"
+    },
+    {
+      "folder": "33",
+      "filename": "15892311.jpg",
+      "externalId": "1orELzmUK7nJHuqdPvf_MVXZdPrJ9xCxS"
+    },
+    {
+      "folder": "33",
+      "filename": "79953706.jpg",
+      "externalId": "1wtL2kuEH2dtJR9ZdgrINPQ1fy74mzhQB"
+    },
+    {
+      "folder": "33",
+      "filename": "95089976.jpg",
+      "externalId": "1vD-P5qtupk3fyy00XeQxNztrTNPzAKvR"
+    }
+  ],
+  "setlist": []
+}

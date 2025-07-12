@@ -1,0 +1,129 @@
+{
+  "originalTitle": "Lady Gaga - 25.09.2011 - Las Vegas - NV - USA - MGM Grand Garden Arena - iHeartRadio Music Festival (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Lady Gaga"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "09",
+    "year": "2011"
+  },
+  "startDateUnix": 1316908800,
+  "endDate": {
+    "day": "25",
+    "month": "09",
+    "year": "2011"
+  },
+  "endDateUnix": 1316908800,
+  "location": {
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "venue": "MGM Grand Garden Arena",
+    "event": "iHeartRadio Music Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "VH1 broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.28,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 753,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [
+    "lady_gaga_13_09_2009_video",
+    "lady_gaga_03_10_2009_video",
+    "lady_gaga_23_11_2009_video",
+    "lady_gaga_31_01_2009_video"
+  ],
+  "childOf": "Lady Gaga - [2009-2011] - TV Appearances",
+  "images": [
+    {
+      "folder": "43",
+      "filename": "50463223.jpg",
+      "externalId": "1s1mlcqFHFN_qj0vwMlAmFPhpv116t_ZR"
+    },
+    {
+      "folder": "43",
+      "filename": "41635224.jpg",
+      "externalId": "1Ow3dqinadBAR_89gdjMso5vOui5WmDlW"
+    },
+    {
+      "folder": "43",
+      "filename": "58480893.jpg",
+      "externalId": "1yCsINRK3urnuRs1rQKi3fzDshbL0kYXD"
+    },
+    {
+      "folder": "43",
+      "filename": "50189136.jpg",
+      "externalId": "1nnxQXtHoQ31G9YC3X7F-owXNud-4bPB1"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Scheisse / Judas",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Bad Romance",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

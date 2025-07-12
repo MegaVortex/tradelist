@@ -1,0 +1,238 @@
+{
+  "originalTitle": "Limp Bizkit - 01.03.1998 - Cleveland - OH - USA - Agora",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "03",
+    "year": "1998"
+  },
+  "startDateUnix": 888710400,
+  "endDate": {
+    "day": "01",
+    "month": "03",
+    "year": "1998"
+  },
+  "endDateUnix": 888710400,
+  "location": {
+    "city": "Cleveland",
+    "state": "OH",
+    "country": "USA",
+    "venue": "Agora",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "Chris",
+  "notes": "Amazing picture quality but unfortunately, the external microphone wasn't plugged in properly, causing a terribly hissing audio feed.",
+  "tapers": [
+    "Chris Spicuzza"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 15,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 4327,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "",
+        "bitrateKbps": 28771,
+        "fps": "29.97",
+        "standard": "DVSD",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 32000,
+        "bitrateKbps": 1024,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "78",
+      "filename": "64025161.jpg",
+      "externalId": "1GcrX3c86joywZypu4lYPRyiEjef0v5wq"
+    },
+    {
+      "folder": "78",
+      "filename": "93448399.jpg",
+      "externalId": "15ZRKFopIbUQ8rzPvty0j7Rg1ohe6jjm1"
+    },
+    {
+      "folder": "78",
+      "filename": "48338434.jpg",
+      "externalId": "1ePOTOqewr7_igNg79METbT8K4OkVcDJB"
+    },
+    {
+      "folder": "78",
+      "filename": "41961003.jpg",
+      "externalId": "1IO1pqc5meVwcz34qLZL1qP66UhKEqOF_"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Cambodia",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Pollution",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Leech",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Everything",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Sour",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Thieves",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Ministry"
+    },
+    {
+      "order": 7,
+      "song": "Nobody Loves Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Clunk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Wicked",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Ice Cube"
+    },
+    {
+      "order": 10,
+      "song": "Stink Finger",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Indigo Flow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Stuck",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "I Would For You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Jane's Addiction"
+    },
+    {
+      "order": 14,
+      "song": "Counterfeit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Jump Around",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "House Of Pain"
+    },
+    {
+      "order": 16,
+      "song": "Faith",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "George Michael"
+    }
+  ],
+  "extras": []
+}

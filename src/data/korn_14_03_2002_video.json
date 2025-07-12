@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Korn - 14.03.2002 - Caracas - Venezuela - Illusion Amphitheatre",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "03",
+    "year": "2002"
+  },
+  "startDateUnix": 1016064000,
+  "endDate": {
+    "day": "14",
+    "month": "03",
+    "year": "2002"
+  },
+  "endDateUnix": 1016064000,
+  "location": {
+    "city": "Caracas",
+    "state": "",
+    "country": "Venezuela",
+    "venue": "Illusion Amphitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 123,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 252,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_xx_xx_2002_issy_les_moulineaux_france_arte_tv_studios_video_misc",
+    "korn_21_02_1997_video",
+    "korn_01_09_2002_video",
+    "korn_23_10_2003_source_2_video",
+    "korn_12_06_2004_source_2_video",
+    "korn_25_05_2006_video",
+    "korn_22_09_2005_source_2_video"
+  ],
+  "childOf": "korn_xx_xx_xxxx_misc_1_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "21811360.jpg",
+      "externalId": "1iubQvbFK92GFcxEipo4g6aE_iuzxfDJI"
+    },
+    {
+      "folder": "14",
+      "filename": "28755922.jpg",
+      "externalId": "1MgmIpcPjJy-1M0nLhwNHJ7uplukwirNS"
+    },
+    {
+      "folder": "14",
+      "filename": "56457837.jpg",
+      "externalId": "1NOea_OfR3UT_KyxlSew9d7z1ir9kt4bv"
+    },
+    {
+      "folder": "14",
+      "filename": "05628703.jpg",
+      "externalId": "14zhkJiACPafnl_96RkL6Cxwv4bvVwIt5"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Shoots And Ladders",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

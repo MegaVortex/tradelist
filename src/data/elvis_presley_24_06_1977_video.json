@@ -1,0 +1,203 @@
+{
+  "originalTitle": "Elvis Presley - 24.06.1977 - Madison - WI - USA - Dane County Coliseum",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Elvis Presley"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "06",
+    "year": "1977"
+  },
+  "startDateUnix": 235958400,
+  "endDate": {
+    "day": "24",
+    "month": "06",
+    "year": "1977"
+  },
+  "endDateUnix": 235958400,
+  "location": {
+    "city": "Madison",
+    "state": "WI",
+    "country": "USA",
+    "venue": "Dane County Coliseum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 7.44,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 8277,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "8mm",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "elvis_presley_18_06_1977_video",
+    "elvis_presley_25_06_1977_video",
+    "elvis_presley_26_06_1977_video",
+    "elvis_presley_20_02_1977_video",
+    "elvis_presley_01_05_1977_video",
+    "elvis_presley_02_05_1977_video"
+  ],
+  "childOf": "Elvis Presley - [1977] - Live Performances - 'The Final Curtain' Part II",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "91641331.jpg",
+      "externalId": "1tpE351CC0s5dKIIngHBR-8X8KYsfYXsy"
+    },
+    {
+      "folder": "18",
+      "filename": "26977927.jpg",
+      "externalId": "1XJlkDjOtNAb2ZRhtTSOv-JspzFGaKbXu"
+    },
+    {
+      "folder": "18",
+      "filename": "07211945.jpg",
+      "externalId": "11z88apakTqp7TpL9APOoogapEtyWGe3Z"
+    },
+    {
+      "folder": "18",
+      "filename": "12951755.jpg",
+      "externalId": "1T_TCMSct1Uc3iI5bVviroWEl5CHdqBiY"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Opening Vamp",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "C C Rider",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Love Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "If You Love Me Let Me Know",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Jailhouse Rock",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "O Sole Mio (Sherrill Nielsen)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "One Night",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "John Wilkinson / Early Morning Rain",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "James Burton / What'd I Say",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "James Burton / Johnny B Goode",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "I Really Don't Want To Know",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

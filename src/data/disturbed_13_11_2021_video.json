@@ -1,0 +1,144 @@
+{
+  "originalTitle": "Disturbed - 13.11.2021 - Daytona Beach - FL - USA - Daytona International Speedway - Welcome To Rockville",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Disturbed"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "11",
+    "year": "2021"
+  },
+  "startDateUnix": 1636761600,
+  "endDate": {
+    "day": "13",
+    "month": "11",
+    "year": "2021"
+  },
+  "endDateUnix": 1636761600,
+  "location": {
+    "city": "Daytona Beach",
+    "state": "FL",
+    "country": "USA",
+    "venue": "Daytona International Speedway",
+    "event": "Welcome To Rockville"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 19.3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 30916,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "23.976",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 193,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "HD",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [
+    "code_orange_14_11_2021_video",
+    "rob_zombie_12_11_2021_video",
+    "anthrax_14_11_2021_video"
+  ],
+  "childOf": "[VARIOUS ARTISTS] - [12.11.2021-14.11.2021] - Daytona Beach - FL - USA - Daytona International Speedway - Welcome To Rockville",
+  "images": [
+    {
+      "folder": "82",
+      "filename": "89289035.jpg",
+      "externalId": "1FbyC2C-citVFKvPeuJ-CyQUGcHELQ4_V"
+    },
+    {
+      "folder": "82",
+      "filename": "82111477.jpg",
+      "externalId": "1591mN9NvoM8O6LBhevVctXRvq_KPrpLi"
+    },
+    {
+      "folder": "82",
+      "filename": "41585647.jpg",
+      "externalId": "1a61Q1M4eTGflGsAfXu3txbVC50r6s4BJ"
+    },
+    {
+      "folder": "82",
+      "filename": "34565720.jpg",
+      "externalId": "1kozREVg5EYYqEqcJEjm7fuc4A1qA5Wa5"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Game",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Inside The Fire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Light",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Down With The Sickness",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Korn - 07.11.2003 - Mexico City - Mexico - Foro Sol - Press Conference [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "11",
+    "year": "2003"
+  },
+  "startDateUnix": 1068163200,
+  "endDate": {
+    "day": "07",
+    "month": "11",
+    "year": "2003"
+  },
+  "endDateUnix": 1068163200,
+  "location": {
+    "city": "Mexico City",
+    "state": "",
+    "country": "Mexico",
+    "venue": "Foro Sol",
+    "event": "Press Conference"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.77,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1578,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "02524632.jpg",
+      "externalId": "1yeJlecPkbS6N4rY9EBEcRqRs3KXSDJun"
+    },
+    {
+      "folder": "14",
+      "filename": "04342809.jpg",
+      "externalId": "16LoMe7XOhtZ0MRseL-kgf73ikyFEGDri"
+    },
+    {
+      "folder": "14",
+      "filename": "77117187.jpg",
+      "externalId": "1IvZTpH_uQLjFJkOQgjwbpmldVA2qOhIk"
+    },
+    {
+      "folder": "14",
+      "filename": "69453008.jpg",
+      "externalId": "1_bsra02Ohy--gIPfvAXOCwq6E1zIOl16"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Jonathan Davis",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Converge - 06.10.2001 - Worcester - MA - USA (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Converge"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "10",
+    "year": "2001"
+  },
+  "startDateUnix": 1002326400,
+  "endDate": {
+    "day": "06",
+    "month": "10",
+    "year": "2001"
+  },
+  "endDateUnix": 1002326400,
+  "location": {
+    "city": "Worcester",
+    "state": "MA",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "AMT#2.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.68,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1520,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "45",
+      "filename": "84980023.jpg",
+      "externalId": "1RbqII2Aq2bVq53glHgUlaEL3HSYu-Swx"
+    },
+    {
+      "folder": "45",
+      "filename": "55476248.jpg",
+      "externalId": "19sp_AaLadD8Ysd_Z7EPm1IebtgQ9Vj_R"
+    },
+    {
+      "folder": "45",
+      "filename": "01583323.jpg",
+      "externalId": "14LuQy-wBD59_P1tOjCW9MsJ-44cfRa6f"
+    },
+    {
+      "folder": "45",
+      "filename": "52707871.jpg",
+      "externalId": "1B77jX4_cZWEqzAnywENVB0GO976Bogfr"
+    }
+  ],
+  "setlist": []
+}

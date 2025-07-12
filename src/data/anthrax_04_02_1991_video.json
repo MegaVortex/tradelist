@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Anthrax - 04.02.1991 - Auburn Hills - MI - USA - The Palace",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Anthrax"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "02",
+    "year": "1991"
+  },
+  "startDateUnix": 665625600,
+  "endDate": {
+    "day": "04",
+    "month": "02",
+    "year": "1991"
+  },
+  "endDateUnix": 665625600,
+  "location": {
+    "city": "Auburn Hills",
+    "state": "MI",
+    "country": "USA",
+    "venue": "The Palace",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.16,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3365,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "35",
+      "filename": "69778350.jpg",
+      "externalId": "1jgPmc7zPyDPxiz7o6fCkYwXZfkCGSfbT"
+    },
+    {
+      "folder": "35",
+      "filename": "14363440.jpg",
+      "externalId": "1YtmpMpb7AVbkNvbw5q1BoC2FXxTCmWU3"
+    },
+    {
+      "folder": "35",
+      "filename": "86682129.jpg",
+      "externalId": "1O2gq1Kf4Fp5MNBHYK6EM3ig0VkMb5Rr1"
+    },
+    {
+      "folder": "35",
+      "filename": "14398161.jpg",
+      "externalId": "1tWRs3xsVdDy3Lx-C4Qr-vTy-OcaXJ3Rv"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Blues Brothers Intro",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Madhouse",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Caught In A Mosh",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Keep It In The Family",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Got The Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Joe Jackson"
+    },
+    {
+      "order": 7,
+      "song": "Indians",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Antisocial",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Trust"
+    },
+    {
+      "order": 9,
+      "song": "I'm The Man",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Won't Get Fooled Again / I Am The Law",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

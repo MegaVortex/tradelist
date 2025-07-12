@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Meshuggah - 31.07.2002 - Montreal - QC - Canada - Parc Jean-Drapeau",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Meshuggah"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "07",
+    "year": "2002"
+  },
+  "startDateUnix": 1028073600,
+  "endDate": {
+    "day": "31",
+    "month": "07",
+    "year": "2002"
+  },
+  "endDateUnix": 1028073600,
+  "location": {
+    "city": "Montreal",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "Parc Jean-Drapeau",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.22,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2067,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "66",
+      "filename": "03155032.jpg",
+      "externalId": "1P8qr2ARJmyyUFjRlw1O8O6abLUp5LVGh"
+    },
+    {
+      "folder": "66",
+      "filename": "91118753.jpg",
+      "externalId": "1Oof8hrqdoleVj_CCs5PhV8rvL6xNkkbp"
+    },
+    {
+      "folder": "66",
+      "filename": "51943723.jpg",
+      "externalId": "1nGmszjOGd-qoi9mgTdV5tEnOlbTkQS9R"
+    },
+    {
+      "folder": "66",
+      "filename": "31309773.jpg",
+      "externalId": "1swmdnBCCNV_rr-W3gmf6FjAMQ57wHamz"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Sane",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Sickening",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "New Millennium Cyanide Christ",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Soul Burn",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Elastic",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Future Breed Machine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

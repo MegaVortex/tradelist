@@ -1,0 +1,207 @@
+{
+  "originalTitle": "Deftones - 22.07.1999 - Phoenix - AZ - USA - Blockbuster Desert Sky Pavilion - Ozzfest",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Deftones"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "07",
+    "year": "1999"
+  },
+  "startDateUnix": 932601600,
+  "endDate": {
+    "day": "22",
+    "month": "07",
+    "year": "1999"
+  },
+  "endDateUnix": 932601600,
+  "location": {
+    "city": "Phoenix",
+    "state": "AZ",
+    "country": "USA",
+    "venue": "Blockbuster Desert Sky Pavilion",
+    "event": "Ozzfest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.21,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4548,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "deftones_08_06_1999_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "64",
+      "filename": "79390748.jpg",
+      "externalId": "1ChxsDXMnX7wiRgUKkdnpxi1LlPuiWKn-"
+    },
+    {
+      "folder": "64",
+      "filename": "21691024.jpg",
+      "externalId": "1HMiLGUxNlI3YiVIptuLIvx30woERgr_Z"
+    },
+    {
+      "folder": "64",
+      "filename": "28018007.jpg",
+      "externalId": "1Cvk-sLh2rrSx6R3mYfSQOfrg2f3_oSoO"
+    },
+    {
+      "folder": "64",
+      "filename": "74613580.jpg",
+      "externalId": "17GZcS1ceUsRdhei6OYOlWs52Y0JfQ7Ew"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Headup",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "My Own Summer (Shove It)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Root",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Nosebleed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Bored",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Korea (demo)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "To Have And To Hold",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Depeche Mode"
+    },
+    {
+      "order": 8,
+      "song": "7 Words",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Around The Fur",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Pink Maggit (demo)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Be Quiet And Drive (Far Away)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

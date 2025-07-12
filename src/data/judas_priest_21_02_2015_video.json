@@ -1,0 +1,244 @@
+{
+  "originalTitle": "Judas Priest - 21.02.2015 - Melbourne - VIC - Australia - Showgrounds - Soundwave Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Judas Priest"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "02",
+    "year": "2015"
+  },
+  "startDateUnix": 1424476800,
+  "endDate": {
+    "day": "21",
+    "month": "02",
+    "year": "2015"
+  },
+  "endDateUnix": 1424476800,
+  "location": {
+    "city": "Melbourne",
+    "state": "VIC",
+    "country": "Australia",
+    "venue": "Showgrounds",
+    "event": "Soundwave Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.81,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 5139,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "75",
+      "filename": "30371222.jpg",
+      "externalId": "1-nylUve3LhbKGjOctmAtP5TSl4Xnbyaa"
+    },
+    {
+      "folder": "75",
+      "filename": "32470578.jpg",
+      "externalId": "1iFbLI5rqQle5wY1YxuCBHbMvmU3Hm_aU"
+    },
+    {
+      "folder": "75",
+      "filename": "47562370.jpg",
+      "externalId": "1PynK5bW7Cmn0VEnBRwGc2w56_cKiL74I"
+    },
+    {
+      "folder": "75",
+      "filename": "19982903.jpg",
+      "externalId": "1FdgEv-gvTlrNZh4dw_1SDZxn7bEA_0ds"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "War Pigs (Black Sabbath song) (PA)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Battle Cry",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Dragonaut",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Metal Gods",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Devil's Child",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Victim Of Changes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Halls Of Valhalla",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Turbo Lover",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Redeemer Of Souls",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Beyond The Realms Of Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Jawbreaker",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Breaking The Law",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Hell Bent For Leather",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "You've Got Another Thing Comin'",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Living After Midnight",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "Defenders Of The Faith",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 17,
+      "song": "Beginning Of The End",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Alice Cooper - 28.11.2012 - Burbank - CA - USA - Warner Bros. Studio - Conan O'Brien Show (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Alice Cooper"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "11",
+    "year": "2012"
+  },
+  "startDateUnix": 1354060800,
+  "endDate": {
+    "day": "28",
+    "month": "11",
+    "year": "2012"
+  },
+  "endDateUnix": 1354060800,
+  "location": {
+    "city": "Burbank",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Warner Bros. Studio",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Conan O'Brien Show",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 425,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 245,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "74",
+      "filename": "04261938.jpg",
+      "externalId": "1gwZnG1Bt-Tz5bmnY_Fs2mG5nRkOuXB4Z"
+    },
+    {
+      "folder": "74",
+      "filename": "08842146.jpg",
+      "externalId": "1mnsU6Mbx8SReSAXiFkcFqJpkr-9VyGB2"
+    },
+    {
+      "folder": "74",
+      "filename": "90282352.jpg",
+      "externalId": "15XM8IMQxBOs08m360_0BY76IQp6GBNXx"
+    },
+    {
+      "folder": "74",
+      "filename": "12916597.jpg",
+      "externalId": "13C5kxeVdA-x96eakR39VQBLFNdL5m4Mb"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Under My Wheels",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

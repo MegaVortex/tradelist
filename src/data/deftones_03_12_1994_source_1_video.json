@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Deftones - 03.12.1994 - San Jose - CA - USA - Cactus Club (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Deftones"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "12",
+    "year": "1994"
+  },
+  "startDateUnix": 786412800,
+  "endDate": {
+    "day": "03",
+    "month": "12",
+    "year": "1994"
+  },
+  "endDateUnix": 786412800,
+  "location": {
+    "city": "San Jose",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Cactus Club",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.14,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1026,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "63",
+      "filename": "61165417.jpg",
+      "externalId": "1fC_MnZNM2VdKsB4L8JDekDsCOY37t75D"
+    },
+    {
+      "folder": "63",
+      "filename": "93135430.jpg",
+      "externalId": "1fwOE3fD8xmzQOJjZpK7m3mD0SOGyS9cY"
+    },
+    {
+      "folder": "63",
+      "filename": "00106281.jpg",
+      "externalId": "1LEUzc6pglFH_Hp1sg0Rj0OoUrx4WlV4i"
+    },
+    {
+      "folder": "63",
+      "filename": "92858373.jpg",
+      "externalId": "1dOB_mDLKDz1QRMx25K40kyPMDCqg_sk3"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Nosebleed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Oraled (early version of Bored)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Minus Blindfold",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "One Weak",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "7 Words",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Intermission",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Root",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Engine No.9",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

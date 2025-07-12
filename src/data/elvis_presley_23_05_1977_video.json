@@ -1,0 +1,149 @@
+{
+  "originalTitle": "Elvis Presley - 23.05.1977 - Providence - RI - USA - Civic Center",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Elvis Presley"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "05",
+    "year": "1977"
+  },
+  "startDateUnix": 233193600,
+  "endDate": {
+    "day": "23",
+    "month": "05",
+    "year": "1977"
+  },
+  "endDateUnix": 233193600,
+  "location": {
+    "city": "Providence",
+    "state": "RI",
+    "country": "USA",
+    "venue": "Civic Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 7.58,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 8785,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "8mm",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "elvis_presley_22_05_1977_video",
+    "elvis_presley_24_05_1977_video",
+    "elvis_presley_25_05_1977_video",
+    "elvis_presley_26_05_1977_video",
+    "elvis_presley_27_05_1977_video",
+    "elvis_presley_28_05_1977_video",
+    "elvis_presley_29_05_1977_video",
+    "elvis_presley_01_06_1977_video"
+  ],
+  "childOf": "Elvis Presley - [1977] - Live Performances - 'The Final Curtain' Part I",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "99194299.jpg",
+      "externalId": "1CAvPS80O5pzW27DjrfzMx2VRmOsrmE0H"
+    },
+    {
+      "folder": "18",
+      "filename": "93319254.jpg",
+      "externalId": "1-VTXAbzX2ToNnWLPdT0Id3_Ov2IQjsbN"
+    },
+    {
+      "folder": "18",
+      "filename": "55981071.jpg",
+      "externalId": "1g5Gv2PEXsA_k8NqsOGRNWi8odSx1e4E5"
+    },
+    {
+      "folder": "18",
+      "filename": "34971843.jpg",
+      "externalId": "1jQoE_-xH4D3Y8SALC4WPTr-x18EDNFXk"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Little Sister",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Teddy Bear / Don't Be Cruel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Hurt",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Can't Help Falling In Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,129 @@
+{
+  "originalTitle": "Coal Chamber - 14.12.1999 - Munich - Germany - Colosseum",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Coal Chamber"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "12",
+    "year": "1999"
+  },
+  "startDateUnix": 945129600,
+  "endDate": {
+    "day": "14",
+    "month": "12",
+    "year": "1999"
+  },
+  "endDateUnix": 945129600,
+  "location": {
+    "city": "Munich",
+    "state": "",
+    "country": "Germany",
+    "venue": "Colosseum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "VIVA broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 602,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 604,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "coal_chamber_13_11_1996_video",
+    "coal_chamber_31_05_1998_source_4_video",
+    "coal_chamber_20_06_1998_video",
+    "coal_chamber_29_11_1999_video_misc"
+  ],
+  "childOf": "Coal Chamber - [1996-1999] - Live Performances",
+  "images": [
+    {
+      "folder": "68",
+      "filename": "52015488.jpg",
+      "externalId": "1bNYpukdSqiKiQSsx0HKA2eQRV8ARiHbd"
+    },
+    {
+      "folder": "68",
+      "filename": "97626699.jpg",
+      "externalId": "1dGkHaF92FCytYM8a_QlL8RdNj48a1Zvv"
+    },
+    {
+      "folder": "68",
+      "filename": "11112953.jpg",
+      "externalId": "1MIPWHpU4vXG3_f_vnG95KF-oZtWMXDJC"
+    },
+    {
+      "folder": "68",
+      "filename": "83535509.jpg",
+      "externalId": "1U8zbbuQGsh3nhPG-X-WLgxWNMjuPspc9"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "No Home",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

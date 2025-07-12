@@ -1,0 +1,158 @@
+{
+  "originalTitle": "Def Leppard - 14.03.1983 - Lyon - France - Palais D'Hiver",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Def Leppard"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "03",
+    "year": "1983"
+  },
+  "startDateUnix": 416448000,
+  "endDate": {
+    "day": "14",
+    "month": "03",
+    "year": "1983"
+  },
+  "endDateUnix": 416448000,
+  "location": {
+    "city": "Lyon",
+    "state": "",
+    "country": "France",
+    "venue": "Palais D'Hiver",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.24,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3086,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "def_leppard_18_12_1983_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "21",
+      "filename": "90670668.jpg",
+      "externalId": "1Ix2UZ9ispVKZBVcC4PVo_B6Gs2m7xse0"
+    },
+    {
+      "folder": "21",
+      "filename": "87396723.jpg",
+      "externalId": "1tFDU6cz8t18VjbWChy_nGZTc1-MPXcmG"
+    },
+    {
+      "folder": "21",
+      "filename": "76761376.jpg",
+      "externalId": "1lAM434Fvzumq4k2mX5DF6TGSRu16UNGV"
+    },
+    {
+      "folder": "21",
+      "filename": "98111998.jpg",
+      "externalId": "1-pJL84d9cQus2f6txqFA7X-mx7emTFHu"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "High 'N' Dry (Saturday Night)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Rock Brigade",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Bringin' On The Heartbreak",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Switch 625",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Lady Strange",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Photograph",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

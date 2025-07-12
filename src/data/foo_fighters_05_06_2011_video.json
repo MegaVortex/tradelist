@@ -1,0 +1,135 @@
+{
+  "originalTitle": "Foo Fighters - 05.06.2011 - Universal City - CA - USA - Gibson Amphitheater - MTV Movie Awards",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "06",
+    "year": "2011"
+  },
+  "startDateUnix": 1307232000,
+  "endDate": {
+    "day": "05",
+    "month": "06",
+    "year": "2011"
+  },
+  "endDateUnix": 1307232000,
+  "location": {
+    "city": "Universal City",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Gibson Amphitheater",
+    "event": "MTV Movie Awards"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 256,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 275,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "foo_fighters_16_03_2011_source_2_video",
+    "foo_fighters_09_04_2011_source_2_video",
+    "foo_fighters_11_04_2011_video",
+    "foo_fighters_12_04_2011_video_misc",
+    "foo_fighters_12_04_2011_source_2_video",
+    "foo_fighters_16_03_2011_source_1_video",
+    "foo_fighters_28_08_2011_video_misc",
+    "foo_fighters_07_09_2011_video_misc",
+    "foo_fighters_08_09_2011_source_3_video",
+    "foo_fighters_27_09_2011_source_2_video",
+    "foo_fighters_15_11_2011_video"
+  ],
+  "childOf": "Foo Fighters - [2011] - USA TV Appearances",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "92817217.jpg",
+      "externalId": "1W79HnRl22Nv5lju39WTb2c95PpEsX1Ur"
+    },
+    {
+      "folder": "28",
+      "filename": "71697678.jpg",
+      "externalId": "1iBzuQUYkTNTx5DXs7FG5LY_MgWyGjL8V"
+    },
+    {
+      "folder": "28",
+      "filename": "86463836.jpg",
+      "externalId": "1SIOQk9FBaO3xt-PNCL-KJE8Dz_laviqO"
+    },
+    {
+      "folder": "28",
+      "filename": "17332960.jpg",
+      "externalId": "1_vefi_Nse_xGEiF5HiV3P6OB4_uhusvo"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Walk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

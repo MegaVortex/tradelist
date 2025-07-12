@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Marilyn Manson - 16.08.1997 - Cologne - Germany - Butzweiler Hof - Bizarre Festival (Source 4)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "08",
+    "year": "1997"
+  },
+  "startDateUnix": 871689600,
+  "endDate": {
+    "day": "16",
+    "month": "08",
+    "year": "1997"
+  },
+  "endDateUnix": 871689600,
+  "location": {
+    "city": "Cologne",
+    "state": "",
+    "country": "Germany",
+    "venue": "Butzweiler Hof",
+    "event": "Bizarre Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 4",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 261,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 354,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "marilyn_manson_20_08_1997_source_3_video",
+    "marilyn_manson_24_08_1997_source_2_video_misc",
+    "marilyn_manson_09_08_1997_video_misc",
+    "marilyn_manson_10_11_1996_source_3_video",
+    "marilyn_manson_07_12_1996_video",
+    "marilyn_manson_29_05_1997_video",
+    "marilyn_manson_04_09_1997_source_3_video"
+  ],
+  "childOf": "Marilyn Manson - [1996-1997] - TV Appearances",
+  "images": [
+    {
+      "folder": "67",
+      "filename": "02118358.jpg",
+      "externalId": "14QpXOclKwf0j3wsInGQnXYxVGAO5qGC4"
+    },
+    {
+      "folder": "67",
+      "filename": "74755645.jpg",
+      "externalId": "1GJL9HizDRoGvsbhpJ_bHh9FWcEJjXHTC"
+    },
+    {
+      "folder": "67",
+      "filename": "09078422.jpg",
+      "externalId": "1u7aC8hnKPJWH61QNFF_-DzNb-KWXHM9d"
+    },
+    {
+      "folder": "67",
+      "filename": "78428693.jpg",
+      "externalId": "1BZpThfF_T0uFcbJx5yMDgQbbMBDt_xzG"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Beautiful People",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Sweet Dreams (Are Made Of This) (Eurythmics cover)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

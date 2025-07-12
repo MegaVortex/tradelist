@@ -1,0 +1,109 @@
+{
+  "originalTitle": "Glassjaw - 01.05.2002 - Chicago - IL - USA - Fireside Bowl",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Glassjaw"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "05",
+    "year": "2002"
+  },
+  "startDateUnix": 1020211200,
+  "endDate": {
+    "day": "01",
+    "month": "05",
+    "year": "2002"
+  },
+  "endDateUnix": 1020211200,
+  "location": {
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "venue": "Fireside Bowl",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.29,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2359,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "glassjaw_27_09_2000_video",
+    "glassjaw_02_05_2002_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "92979006.jpg",
+      "externalId": "15pBSkadpofKGVXdMKRSatZMzKMvdBZPC"
+    },
+    {
+      "folder": "6",
+      "filename": "30307791.jpg",
+      "externalId": "1gPtM7s80zqGoD4ALB9c7ElAyNGeu58Gg"
+    },
+    {
+      "folder": "6",
+      "filename": "86320079.jpg",
+      "externalId": "1Fz7_PJRcEMXjXro5QMeT-Zdr2tw0XJE8"
+    },
+    {
+      "folder": "6",
+      "filename": "20758197.jpg",
+      "externalId": "1FJ8pZ1YiS9z7ywHb1896MWSChEYxnb0_"
+    }
+  ],
+  "setlist": []
+}

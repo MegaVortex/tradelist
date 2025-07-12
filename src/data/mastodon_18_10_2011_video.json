@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Mastodon - 18.10.2011 - London - England - BBC Television Centre - Jools Holland Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Mastodon"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "10",
+    "year": "2011"
+  },
+  "startDateUnix": 1318896000,
+  "endDate": {
+    "day": "18",
+    "month": "10",
+    "year": "2011"
+  },
+  "endDateUnix": 1318896000,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Television Centre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jools Holland Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 645,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 443,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1440x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "25",
+      "filename": "76052455.jpg",
+      "externalId": "1KDLdiDu8Wbank-dUV2RdKjvlicWYouVw"
+    },
+    {
+      "folder": "25",
+      "filename": "69245077.jpg",
+      "externalId": "1-rDra8V8If3xCS5rTxYYnjMP_hzpxETt"
+    },
+    {
+      "folder": "25",
+      "filename": "08316556.jpg",
+      "externalId": "14o-mZ9aVnJd9u5ro-qqjht66rQj5seVI"
+    },
+    {
+      "folder": "25",
+      "filename": "93755591.jpg",
+      "externalId": "1byHTQIv6lbPKbtIUBhK8lRKZ5G696Zcd"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Black Tongue",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Curl Of The Burl",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

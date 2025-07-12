@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Marilyn Manson - 19.02.1998 - New York - NY - USA - CBS Studios - David Letterman Show (Source 1) [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "02",
+    "year": "1998"
+  },
+  "startDateUnix": 887846400,
+  "endDate": {
+    "day": "19",
+    "month": "02",
+    "year": "1998"
+  },
+  "endDateUnix": 887846400,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "CBS Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "David Letterman Show",
+  "source": "Source 1",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Interview about book \"Long Hard Road Out Of Hell\". Marilyn Manson's first appearance on Letterman.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.2,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4251,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "44",
+      "filename": "53888507.jpg",
+      "externalId": "1YkuUYZtEkUUtOicthAYMy6npF55h8bOL"
+    },
+    {
+      "folder": "44",
+      "filename": "45770087.jpg",
+      "externalId": "1I1UGRTWCYV8FecJnkxtCNdRRwkLvKof3"
+    },
+    {
+      "folder": "44",
+      "filename": "91282907.jpg",
+      "externalId": "1hmxFowKwdpws8-hPDIvsnkPaUHWbakwC"
+    },
+    {
+      "folder": "44",
+      "filename": "34814966.jpg",
+      "externalId": "1LhUs5Tl6-8yYR9gAGCyCQAgV0R0n_60U"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

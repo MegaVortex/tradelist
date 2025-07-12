@@ -1,0 +1,121 @@
+{
+  "originalTitle": "Korn - xx.xx.1998 - USA - Family Values Tour - MTV Report [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1998"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1998"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "Family Values Tour",
+    "venue": "MTV Report",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 276,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 240,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_05_11_1999_video_misc",
+    "korn_16_11_1999_video_misc",
+    "korn_xx_06_2004_sweden_ztv_nytt_news_video_misc"
+  ],
+  "childOf": "korn_xx_xx_xxxx_misc_4_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "13811040.jpg",
+      "externalId": "1U3ELnnAgrmIs9scmczCGuf6K26vKZRBP"
+    },
+    {
+      "folder": "15",
+      "filename": "06085549.jpg",
+      "externalId": "1pCpJUeGfNOlbY8ZePEbPuqIKGKqEQocQ"
+    },
+    {
+      "folder": "15",
+      "filename": "92957827.jpg",
+      "externalId": "1bX3qa_tUT5-jXQrXlgBDd8X2_F33guBx"
+    },
+    {
+      "folder": "15",
+      "filename": "90509807.jpg",
+      "externalId": "1IhyHfoaofMLn1E850cNgiU1BhjoDSzMr"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

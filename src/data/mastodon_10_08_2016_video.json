@@ -1,0 +1,222 @@
+{
+  "originalTitle": "Mastodon - 10.08.2016 - Josefov - Czech Republic - Brutal Assault",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Mastodon"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "08",
+    "year": "2016"
+  },
+  "startDateUnix": 1470787200,
+  "endDate": {
+    "day": "10",
+    "month": "08",
+    "year": "2016"
+  },
+  "endDateUnix": 1470787200,
+  "location": {
+    "city": "Josefov",
+    "state": "",
+    "country": "Czech Republic",
+    "venue": "Brutal Assault",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Jederlacht"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 11,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3782,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 640,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "63",
+      "filename": "70990807.jpg",
+      "externalId": "1F24j5SfFaMdnlWReCcPZ6Ohq-KwVRC-R"
+    },
+    {
+      "folder": "63",
+      "filename": "27728707.jpg",
+      "externalId": "1IV841UZnvOtvvu2NeUVbrOpggcPumCNM"
+    },
+    {
+      "folder": "63",
+      "filename": "44454101.jpg",
+      "externalId": "1AHNoTr3pDbMp3nwUVlkJ4n29lGO3Sph5"
+    },
+    {
+      "folder": "63",
+      "filename": "20816587.jpg",
+      "externalId": "1OoMgzSgw0S3bAW03_hGE9DqCIZUPdlTV"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Tread Lightly",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Feast Your Eyes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Blasteroid",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Oblivion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "The Motherload",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "High Road",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Aqua Dementia",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Bladecatcher",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Black Tongue",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "The Wolf Is Loose",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Crystal Skull",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Ember City",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Divinations",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Blood And Thunder",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

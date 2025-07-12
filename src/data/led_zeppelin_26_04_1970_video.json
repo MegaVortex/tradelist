@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Led Zeppelin - 26.04.1970 - London - England - BBC Studios - Julie Felix Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Led Zeppelin"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "04",
+    "year": "1970"
+  },
+  "startDateUnix": 9936000,
+  "endDate": {
+    "day": "26",
+    "month": "04",
+    "year": "1970"
+  },
+  "endDateUnix": 9936000,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Studios",
+    "event": "Julie Felix Show"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 51.2,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 312,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "352x240",
+        "bitrateType": "",
+        "bitrateKbps": 1150,
+        "fps": "29.97",
+        "standard": "MPEG1",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "VCD",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "17",
+      "filename": "87566020.jpg",
+      "externalId": "1RPgf0GuGayaerUVMRJLGtuSM0eoQQ9ZM"
+    },
+    {
+      "folder": "17",
+      "filename": "93257840.jpg",
+      "externalId": "16Nb1SjkIWus9n9IF_eqnqzzpeAQ-VNRE"
+    },
+    {
+      "folder": "17",
+      "filename": "94780384.jpg",
+      "externalId": "14u7enEu9NZv-Ll78z98jYnW2loVn5qIm"
+    },
+    {
+      "folder": "17",
+      "filename": "34158343.jpg",
+      "externalId": "1_OPvVLPMEesMkN4lAarLDqtLKnlOxsXi"
+    }
+  ],
+  "setlist": []
+}

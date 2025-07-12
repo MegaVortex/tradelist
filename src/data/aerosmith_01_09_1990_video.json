@@ -1,0 +1,118 @@
+{
+  "originalTitle": "Aerosmith - 01.09.1990 - Mannheim - Germany - Maimarkt-Gelende - Monsters Of Rock",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Aerosmith"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "09",
+    "year": "1990"
+  },
+  "startDateUnix": 652147200,
+  "endDate": {
+    "day": "01",
+    "month": "09",
+    "year": "1990"
+  },
+  "endDateUnix": 652147200,
+  "location": {
+    "city": "Mannheim",
+    "state": "",
+    "country": "Germany",
+    "venue": "Maimarkt-Gelende",
+    "event": "Monsters Of Rock"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.01,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": null,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": {
+      "language": "",
+      "codec": "",
+      "bitrateKbps": null,
+      "channels": null
+    },
+    "sourceDetail": {
+      "type": "",
+      "extra": "",
+      "medium": ""
+    }
+  },
+  "relatedShows": [
+    "whitesnake_01_09_1990_video",
+    "dio_25_08_1990_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "35272174.jpg",
+      "externalId": "1i5bzJuyPmaT4DFqj9F6UO39qo0K1yffm"
+    },
+    {
+      "folder": "29",
+      "filename": "78779749.jpg",
+      "externalId": "11wwA0M_3SPr_h9NZ_Co9R7hEVz9b8JO3"
+    },
+    {
+      "folder": "29",
+      "filename": "66960548.jpg",
+      "externalId": "16t-seNRDoKP_LtymIVC47RG_LmkUpAm5"
+    },
+    {
+      "folder": "29",
+      "filename": "40600274.jpg",
+      "externalId": "1oFBCn7MoGSDGnvz60w8wYARVDko0aGIU"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Steven Tyler",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Train Keept A Rollin'",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

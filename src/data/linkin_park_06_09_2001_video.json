@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Linkin Park - 06.09.2001 - New York - NY - USA - Metropolitan Opera House - MTV Video Music Awards",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "09",
+    "year": "2001"
+  },
+  "startDateUnix": 999734400,
+  "endDate": {
+    "day": "06",
+    "month": "09",
+    "year": "2001"
+  },
+  "endDateUnix": 999734400,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Metropolitan Opera House",
+    "event": "MTV Video Music Awards"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MTV Germany.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 225,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 227,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "30",
+      "filename": "00297377.jpg",
+      "externalId": "1zy2V-W-vZH3jc0jJQeIMUJNC2Us5Ldcz"
+    },
+    {
+      "folder": "30",
+      "filename": "65293980.jpg",
+      "externalId": "16xBk_DX0R6kOrX-Y8rOMFwzKz3SRhFAe"
+    },
+    {
+      "folder": "30",
+      "filename": "39909175.jpg",
+      "externalId": "1c9cJOXHAHVj1gQhINzd-NaVstgsQl6x4"
+    },
+    {
+      "folder": "30",
+      "filename": "17378967.jpg",
+      "externalId": "1DDAlK2fBFOLFkU2RRrCG4KkCy5yrJG8l"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "One Step Closer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

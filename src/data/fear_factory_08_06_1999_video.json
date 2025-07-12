@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Fear Factory - 08.06.1999 - Holmdel - NJ - USA - PNC Bank Arts Center - Ozzfest",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Fear Factory"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "06",
+    "year": "1999"
+  },
+  "startDateUnix": 928800000,
+  "endDate": {
+    "day": "08",
+    "month": "06",
+    "year": "1999"
+  },
+  "endDateUnix": 928800000,
+  "location": {
+    "city": "Holmdel",
+    "state": "NJ",
+    "country": "USA",
+    "venue": "PNC Bank Arts Center",
+    "event": "Ozzfest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.46,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2285,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "41",
+      "filename": "10441748.jpg",
+      "externalId": "1SOHI-ibTNi4LvDKylWlFkllGHhi3U2_t"
+    },
+    {
+      "folder": "41",
+      "filename": "09727753.jpg",
+      "externalId": "1lHJATXleN_w_PUKQQjklV-ed-QG0S-Ja"
+    },
+    {
+      "folder": "41",
+      "filename": "12457965.jpg",
+      "externalId": "1QfxF6hKd9SdIsetV5RqUvLgKd1Br9Ai0"
+    },
+    {
+      "folder": "41",
+      "filename": "12343635.jpg",
+      "externalId": "1WdivfFGGhMR2U76kQtcwIblS9GoaPbb3"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Shock",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Self Bias Resistor",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Edgecrusher",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Demanufacture",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Scpegoat",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Martyr",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Cars",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Replica",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

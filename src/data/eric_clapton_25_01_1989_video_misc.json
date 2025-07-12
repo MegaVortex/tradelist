@@ -1,0 +1,123 @@
+{
+  "originalTitle": "Eric Clapton - 25.01.1989 - London - England - BBC Studios - Terry Wogan Show [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Eric Clapton"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "01",
+    "year": "1989"
+  },
+  "startDateUnix": 601689600,
+  "endDate": {
+    "day": "25",
+    "month": "01",
+    "year": "1989"
+  },
+  "endDateUnix": 601689600,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Studios",
+    "event": "Terry Wogan Show"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 358,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 510,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "eric_clapton_buddy_guy_06_10_1987_video",
+    "eric_clapton_28_10_1989_video_misc",
+    "eric_clapton_keith_richards_all_star_band_31_05_1989_video",
+    "eric_clapton_05_02_1990_video",
+    "legends_11_07_1997_video"
+  ],
+  "childOf": "Eric Clapton - [1987-1997] - TV Appearances",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "60389507.jpg",
+      "externalId": "1qUGDUtknjDTMMePvBkLFJxQPPphKm43Q"
+    },
+    {
+      "folder": "26",
+      "filename": "88959959.jpg",
+      "externalId": "1IJde15i9QVFP-N63VmufJWvrXJ_OlJYO"
+    },
+    {
+      "folder": "26",
+      "filename": "44092346.jpg",
+      "externalId": "1thnCm7ml6c1qZ8YWpzliTDzhkb6LsjTK"
+    },
+    {
+      "folder": "26",
+      "filename": "96259044.jpg",
+      "externalId": "1_bBwuWwXwFCmSoJ9Q4mNDgfS_Wya31Oc"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

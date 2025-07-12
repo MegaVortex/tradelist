@@ -1,0 +1,182 @@
+{
+  "originalTitle": "Megadeth - 22.07.2011 - Mansfield - MA - USA - Comcast Theater",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Megadeth"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "07",
+    "year": "2011"
+  },
+  "startDateUnix": 1311292800,
+  "endDate": {
+    "day": "22",
+    "month": "07",
+    "year": "2011"
+  },
+  "endDateUnix": 1311292800,
+  "location": {
+    "city": "Mansfield",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Comcast Theater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Unsteady filming, very shaky at times. Lots of obstructions.",
+  "tapers": [
+    "Hellawaits77"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.85,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2903,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "37",
+      "filename": "57114510.jpg",
+      "externalId": "15MG_iiMBG0TleLwSodUjIMr_diCh-byf"
+    },
+    {
+      "folder": "37",
+      "filename": "36696363.jpg",
+      "externalId": "1jfQHeULXSFiFJrWVLX9thVcXckwcB61a"
+    },
+    {
+      "folder": "37",
+      "filename": "48396557.jpg",
+      "externalId": "1dzNLKYm_m6859mh3ylD-XRGmtpPDiCgL"
+    },
+    {
+      "folder": "37",
+      "filename": "74337488.jpg",
+      "externalId": "12K_iJ1oIMV0V9qUORLgG5J0JN5zSlFL4"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Trust",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Hangar 18",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Wake Up Dead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Head Crusher",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "A Tout Le Monde",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Public Enemy No. 1",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Symphony Of Destruction",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Peace Sells",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Holy Wars... The Punishment Due",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

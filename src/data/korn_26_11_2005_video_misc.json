@@ -1,0 +1,123 @@
+{
+  "originalTitle": "Korn - 26.11.2005 - USA - Headbanger's Ball Episode [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "11",
+    "year": "2005"
+  },
+  "startDateUnix": 1132963200,
+  "endDate": {
+    "day": "26",
+    "month": "11",
+    "year": "2005"
+  },
+  "endDateUnix": 1132963200,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "Headbanger's Ball Episode",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 348,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 449,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_08_11_2005_video_misc",
+    "korn_28_11_2005_video_misc",
+    "korn_04_12_2005_video_misc",
+    "korn_12_12_2005_video",
+    "korn_29_11_2005_source_1_video"
+  ],
+  "childOf": "korn_xx_xx_xxxx_misc_10_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "13311609.jpg",
+      "externalId": "1B2AGzrwWwia7fP_QnhIk9T7n5g2Jq94B"
+    },
+    {
+      "folder": "18",
+      "filename": "94331693.jpg",
+      "externalId": "1pYwQDsOJ9AIJj3aQxI9FFoufvibceCwh"
+    },
+    {
+      "folder": "18",
+      "filename": "00001757.jpg",
+      "externalId": "1AT5wbleE4-eeIyJ_AnP9cyYxlq-sV7lT"
+    },
+    {
+      "folder": "18",
+      "filename": "69900567.jpg",
+      "externalId": "1OUVXTeKSujcHmvSan6JJPfVF3xkZuWmH"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

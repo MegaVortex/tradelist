@@ -1,0 +1,125 @@
+{
+  "originalTitle": "Def Leppard - 06.09.1989 - Universal City - CA - USA - Universal Amphitheatre - MTV Video Music Awards",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Def Leppard"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "09",
+    "year": "1989"
+  },
+  "startDateUnix": 621043200,
+  "endDate": {
+    "day": "06",
+    "month": "09",
+    "year": "1989"
+  },
+  "endDateUnix": 621043200,
+  "location": {
+    "city": "Universal City",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Universal Amphitheatre",
+    "event": "MTV Video Music Awards"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 123,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 459,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "79",
+      "filename": "47262930.jpg",
+      "externalId": "1qKxgl9-zlpXvwZtQkV9E6yUdnaCaQYEg"
+    },
+    {
+      "folder": "79",
+      "filename": "49958184.jpg",
+      "externalId": "15-s736Cl9G4dBZ-UTfGjUl9z0pMYo1Qd"
+    },
+    {
+      "folder": "79",
+      "filename": "20316064.jpg",
+      "externalId": "1lVs1AHLZ-ZbWF3_i1-PH7NT8TNWWm897"
+    },
+    {
+      "folder": "79",
+      "filename": "51100371.jpg",
+      "externalId": "1kP3CbveTfp28Wp0DeGHUpKd8uuIBV6YT"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Tear It Down",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Cher - If I Could Turn Back Time",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

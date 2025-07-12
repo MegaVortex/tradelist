@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Чиж & Co. - 13.05.1995 - Москва - Россия - СК Олимпийский - Maxidrom",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Чиж & Co."
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "05",
+    "year": "1995"
+  },
+  "startDateUnix": 800323200,
+  "endDate": {
+    "day": "13",
+    "month": "05",
+    "year": "1995"
+  },
+  "endDateUnix": 800323200,
+  "location": {
+    "city": "Москва",
+    "state": "",
+    "country": "Россия",
+    "venue": "СК Олимпийский",
+    "event": "Maxidrom"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 113,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 598,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "384x288",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.15",
+        "standard": "Xvid",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 22050,
+        "bitrateKbps": 32,
+        "channels": 1
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "VCD",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "82134392.jpg",
+      "externalId": "1ywY1kfbOi_8yCmEmXG_CA98N7WPwlreV"
+    },
+    {
+      "folder": "19",
+      "filename": "23616564.jpg",
+      "externalId": "1aVL5aNOFQYp9WgxusXy5za8oBRAbWlCL"
+    },
+    {
+      "folder": "19",
+      "filename": "19543459.jpg",
+      "externalId": "13xDJQFBRC9NlsklIaaAxVOYz3uBLEURZ"
+    },
+    {
+      "folder": "19",
+      "filename": "06204421.jpg",
+      "externalId": "1MwrEvZ-WkfPt3AKT6UoftD-WD-qSDjpC"
+    }
+  ],
+  "setlist": []
+}

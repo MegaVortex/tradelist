@@ -1,0 +1,228 @@
+{
+  "originalTitle": "Alexisonfire - 31.10.2010 - Dortmund - Germany - FZW - Westend Indoor Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Alexisonfire"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "10",
+    "year": "2010"
+  },
+  "startDateUnix": 1288483200,
+  "endDate": {
+    "day": "31",
+    "month": "10",
+    "year": "2010"
+  },
+  "endDateUnix": 1288483200,
+  "location": {
+    "city": "Dortmund",
+    "state": "",
+    "country": "Germany",
+    "venue": "FZW",
+    "event": "Westend Indoor Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.11,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 4312,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "ru",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "13",
+      "filename": "71695017.jpg",
+      "externalId": "1hyJoHV9wcBTTdZoTcyF7X-FFnfJJJ5yi"
+    },
+    {
+      "folder": "13",
+      "filename": "65097316.jpg",
+      "externalId": "1ZLfuYm-ANmK1Gzbxr5YOEPKmFiK96wrm"
+    },
+    {
+      "folder": "13",
+      "filename": "62820778.jpg",
+      "externalId": "1iThUOZ1X81XqPcLKWKPQUaGQzD_JdSDF"
+    },
+    {
+      "folder": "13",
+      "filename": "12632100.jpg",
+      "externalId": "1Xi_xfyNdnypZMQ_iJdmZYvqQQKQPsDMt"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Young Cardinals",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Boiled Frogs",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Sons Of Privilege",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Drunks, Lovers, Sinners And Saints",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "We Are The Sound",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Old Crows",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Grey",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Rough Hands",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Midnight Regulations",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Accept Crime",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Dog's Blood",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Crisis",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "This Could Be Anywhere In The World",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "The Northern",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Accidents",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,180 @@
+{
+  "originalTitle": "DevilDriver - 26.10.2014 - San Bernardino - CA - USA - San Manuel Amphitheater - KnotFest",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "DevilDriver"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "10",
+    "year": "2014"
+  },
+  "startDateUnix": 1414281600,
+  "endDate": {
+    "day": "26",
+    "month": "10",
+    "year": "2014"
+  },
+  "endDateUnix": 1414281600,
+  "location": {
+    "city": "San Bernardino",
+    "state": "CA",
+    "country": "USA",
+    "venue": "San Manuel Amphitheater",
+    "event": "KnotFest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete. Recorded and",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.74,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1699,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "30",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 128,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "HD",
+      "fileFormat": "MPG"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "73212807.jpg",
+      "externalId": "1lfByxjPXc5fZeT_HBkDMYZtS-KSV2Gm8"
+    },
+    {
+      "folder": "60",
+      "filename": "15648233.jpg",
+      "externalId": "1Fg2AEJEqvJk0MOg_bfHKeVl3I7Ei_dbt"
+    },
+    {
+      "folder": "60",
+      "filename": "77845400.jpg",
+      "externalId": "1jWPsXLXQA8kIrsxJrQSMSRzB5t_Mb3CR"
+    },
+    {
+      "folder": "60",
+      "filename": "79351904.jpg",
+      "externalId": "1dpHPyafCN2pJnWvjMDkyfHyVIvBiqn6V"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "End Of The Line",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Head On To Heartache (Let Them Rot)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Not All Who Wander Are Lost",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Before The Hangman's Noose",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "I Could Care Less",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Hold Back The Day",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Clouds Over California",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Ruthless",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Meet The Wretched",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

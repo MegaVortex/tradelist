@@ -1,0 +1,214 @@
+{
+  "originalTitle": "At The Drive-In - 26.03.2000 - Hannover - Germany - UJZ Kornstrasse",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "At The Drive-In"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "03",
+    "year": "2000"
+  },
+  "startDateUnix": 954028800,
+  "endDate": {
+    "day": "26",
+    "month": "03",
+    "year": "2000"
+  },
+  "endDateUnix": 954028800,
+  "location": {
+    "city": "Hannover",
+    "state": "",
+    "country": "Germany",
+    "venue": "UJZ Kornstrasse",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "(((unartig)))"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 12.4,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3536,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": 28800,
+        "fps": "25",
+        "standard": "DVCP",
+        "codec": "295:216",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "MOV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "32",
+      "filename": "93841007.jpg",
+      "externalId": "1i_UcLCgCOK4d16Uhx-FjJM-SEFjRuZrs"
+    },
+    {
+      "folder": "32",
+      "filename": "04860950.jpg",
+      "externalId": "156DrHSp6N6zcKXFdQBr1Y7aj4H7XkyNZ"
+    },
+    {
+      "folder": "32",
+      "filename": "11031509.jpg",
+      "externalId": "1f5u2RZz3ZNdHVn_UpG_FQ5Q90t1km1DP"
+    },
+    {
+      "folder": "32",
+      "filename": "56960596.jpg",
+      "externalId": "15ztxPBk3X-nl7YYYb3cIhV_o5vYHOA2B"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Pickpocket",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Chanbara",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Pattern Against User",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Rascuache",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Lopsided",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "One Armed Scissor",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Metronome Arthritis",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "198D",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Catacombs",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Holahoop Wounds",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Napoleon Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Hourglass",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Alpha Centauri",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

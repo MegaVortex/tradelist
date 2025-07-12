@@ -1,0 +1,128 @@
+{
+  "originalTitle": "Elton John - 26.03.1999 - New York - NY - USA - NBC Studios - Today Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Elton John"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "03",
+    "year": "1999"
+  },
+  "startDateUnix": 922406400,
+  "endDate": {
+    "day": "26",
+    "month": "03",
+    "year": "1999"
+  },
+  "endDateUnix": 922406400,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Today Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 6.91,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6048,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "elton_john_31_03_2000_video",
+    "elton_john_14_03_2000_video_misc",
+    "elton_john_18_11_2002_video"
+  ],
+  "childOf": "Elton John - [1999-2002] - TV Appearances",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "47606695.jpg",
+      "externalId": "1EXkVGBiumZrzpjisdkDzWbMZu6JAAduO"
+    },
+    {
+      "folder": "73",
+      "filename": "04642708.jpg",
+      "externalId": "1OefvenH-7vuE4ZtxOP2SniNmA9diWSYu"
+    },
+    {
+      "folder": "73",
+      "filename": "87508166.jpg",
+      "externalId": "1Ces_V-zjr-JickpKpv40HPcpTQpIS4xK"
+    },
+    {
+      "folder": "73",
+      "filename": "95909289.jpg",
+      "externalId": "1FF4Q5msdEKpVRNTIXADfGpqxOPpZGxxe"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Written In The Stars",
+      "feat": "LeAnn Rimes",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Marilyn Manson - 13.02.1998 - New York - NY - USA - MTV Studios - MTV Live - Carson Daly Show [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "02",
+    "year": "1998"
+  },
+  "startDateUnix": 887328000,
+  "endDate": {
+    "day": "13",
+    "month": "02",
+    "year": "1998"
+  },
+  "endDateUnix": 887328000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "MTV Studios",
+    "event": "MTV Live"
+  },
+  "tvChannel": "MTV",
+  "showName": "Carson Daly Show",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "40 minutes interview.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.2,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4251,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "marilyn_manson_05_02_1997_video_misc",
+    "marilyn_manson_xx_02_1997_usa_mtv_news_video_misc",
+    "marilyn_manson_xx_xx_1997_usa_mtv_year_in_rock_video_misc",
+    "marilyn_manson_xx_xx_1996_usa_mtv_week_in_rock_video_misc",
+    "marilyn_manson_19_02_1998_video_misc",
+    "marilyn_manson_xx_xx_1998_new_york_ny_usa_fox_news_judith_regan_show_video_misc"
+  ],
+  "childOf": "Marilyn Manson - [MISC 1 - Compilation]",
+  "images": [
+    {
+      "folder": "44",
+      "filename": "75455848.jpg",
+      "externalId": "1dkf_xnr5usKocrdbY5Z5LcwelOU40eA6"
+    },
+    {
+      "folder": "44",
+      "filename": "30003292.jpg",
+      "externalId": "1J5aE3IjdJYfDwvQbYY_lzE6ZEm2b0Umb"
+    },
+    {
+      "folder": "44",
+      "filename": "46662176.jpg",
+      "externalId": "1aM58sAd8gqSFTra5f8Hu3s8GqkatRYes"
+    },
+    {
+      "folder": "44",
+      "filename": "74574067.jpg",
+      "externalId": "1I_02SdlcvvKCfKWkhyMp7ZnmJebWV4Pe"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

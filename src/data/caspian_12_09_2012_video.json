@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Caspian - 12.09.2012 - Chicago - IL - USA - Audiotree Studio - Audiotree Live",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Caspian"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "09",
+    "year": "2012"
+  },
+  "startDateUnix": 1347408000,
+  "endDate": {
+    "day": "12",
+    "month": "09",
+    "year": "2012"
+  },
+  "endDateUnix": 1347408000,
+  "location": {
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "venue": "Audiotree Studio",
+    "event": "Audiotree Live"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "Vortex",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1014,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3033,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "23.98",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "HD",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "41",
+      "filename": "58489958.jpg",
+      "externalId": "1cO3RiGh7DomJ1IlcNPW7XwJ_u9_1NYvv"
+    },
+    {
+      "folder": "41",
+      "filename": "69274712.jpg",
+      "externalId": "12BaCEIvRnjcaxUpQegLXrdonFigaQK9w"
+    },
+    {
+      "folder": "41",
+      "filename": "65082981.jpg",
+      "externalId": "12HAmgBxNXmZBkfp5wlEcqY1bJ8_KkNik"
+    },
+    {
+      "folder": "41",
+      "filename": "29070269.jpg",
+      "externalId": "1jre_1VkmwZn6VSpFdMxN6kb4qE30LBjX"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Some Are White Light",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Gone In Bloom And Bough",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Halls Of The Summer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Sycamore",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

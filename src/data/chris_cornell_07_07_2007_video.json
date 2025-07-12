@@ -1,0 +1,125 @@
+{
+  "originalTitle": "Chris Cornell - 07.07.2007 - Hamburg - Germany - AOL Arena - Live Earth",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Chris Cornell"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "07",
+    "year": "2007"
+  },
+  "startDateUnix": 1183766400,
+  "endDate": {
+    "day": "07",
+    "month": "07",
+    "year": "2007"
+  },
+  "endDateUnix": 1183766400,
+  "location": {
+    "city": "Hamburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "AOL Arena",
+    "event": "Live Earth"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 338,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 343,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "chris_cornell_28_01_2000_video",
+    "audioslave_09_05_2005_video_misc",
+    "audioslave_25_11_2002_video",
+    "audioslave_04_12_2005_video",
+    "audioslave_18_05_2005_video",
+    "audioslave_22_11_2005_video",
+    "chris_cornell_08_08_2008_video",
+    "chris_cornell_20_11_2008_video"
+  ],
+  "childOf": "[VARIOUS ARTISTS] - [2000-2008] - TV Appearances",
+  "images": [
+    {
+      "folder": "22",
+      "filename": "97344587.jpg",
+      "externalId": "1OJqZ8uUHOrPgl9luSyakJ6mckNMrE4-I"
+    },
+    {
+      "folder": "22",
+      "filename": "84802216.jpg",
+      "externalId": "1_FuzD4Qd9NDdGcWOSEtC1pw2sIyn-xAw"
+    },
+    {
+      "folder": "22",
+      "filename": "83156293.jpg",
+      "externalId": "1hssClRzLtu4La_hjlx5m_XXI2ytbhwWY"
+    },
+    {
+      "folder": "22",
+      "filename": "23898427.jpg",
+      "externalId": "1w0YnxQR2knIpffOK0EO3CyKryi5eXDys"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Black Hole Sun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,136 @@
+{
+  "originalTitle": "Elton John - 14.09.1997 - Chicago - IL - USA - ABC Studios - Oprah Winfrey Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Elton John"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "09",
+    "year": "1997"
+  },
+  "startDateUnix": 874195200,
+  "endDate": {
+    "day": "14",
+    "month": "09",
+    "year": "1997"
+  },
+  "endDateUnix": 874195200,
+  "location": {
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "venue": "ABC Studios",
+    "event": "Oprah Winfrey Show"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 6.81,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5967,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "elton_john_21_03_2002_video",
+    "elton_john_01_12_2000_video",
+    "elton_john_16_11_1992_source_2_video"
+  ],
+  "childOf": "Elton John - [1992-2002] - TV Appearances",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "33643308.jpg",
+      "externalId": "1z1LGrY_uUvysf7B8SFSPUKL8EB9uSoJU"
+    },
+    {
+      "folder": "73",
+      "filename": "39177976.jpg",
+      "externalId": "1Uhm3dI7qvt-mnbMxS3Jqv5RECFiwk4NZ"
+    },
+    {
+      "folder": "73",
+      "filename": "20278559.jpg",
+      "externalId": "1wcV0jit6sR_GQ3yRTETaddokVYL4cB_R"
+    },
+    {
+      "folder": "73",
+      "filename": "95341785.jpg",
+      "externalId": "1KHUQVUGhoKc_XquumTozfDx23MtzcVh8"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Your Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Bennie And The Jets",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

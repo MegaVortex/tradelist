@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Explosions In The Sky - 14.06.2007 - Austin - TX - USA - Austin City Limits",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Explosions In The Sky"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "06",
+    "year": "2007"
+  },
+  "startDateUnix": 1181779200,
+  "endDate": {
+    "day": "14",
+    "month": "06",
+    "year": "2007"
+  },
+  "endDateUnix": 1181779200,
+  "location": {
+    "city": "Austin",
+    "state": "TX",
+    "country": "USA",
+    "venue": "Austin City Limits",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.09,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1620,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "25",
+      "filename": "07056987.jpg",
+      "externalId": "1lh9zFT-9wkAYSarAnJGWIsrjFsfcwKLk"
+    },
+    {
+      "folder": "25",
+      "filename": "08590196.jpg",
+      "externalId": "1MRt9GW4qK2yZSgC-3a2hhyblrzv6ut_O"
+    },
+    {
+      "folder": "25",
+      "filename": "90395324.jpg",
+      "externalId": "1gYH-65GOCEkmPIGAhkWp205t7p-Gsp3s"
+    },
+    {
+      "folder": "25",
+      "filename": "44352699.jpg",
+      "externalId": "1rtytjpOC419CZzaHmCeghd9AQeqHRjvp"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Yasmin The Light",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Catastrophe And The Cure",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Memorial",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

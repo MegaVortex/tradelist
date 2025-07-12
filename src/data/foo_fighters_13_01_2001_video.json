@@ -1,0 +1,212 @@
+{
+  "originalTitle": "Foo Fighters - 13.01.2001 - Rio De Janeiro - Brazil - Cidade Do Rock - Rock In Rio",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "01",
+    "year": "2001"
+  },
+  "startDateUnix": 979344000,
+  "endDate": {
+    "day": "13",
+    "month": "01",
+    "year": "2001"
+  },
+  "endDateUnix": 979344000,
+  "location": {
+    "city": "Rio De Janeiro",
+    "state": "",
+    "country": "Brazil",
+    "venue": "Cidade Do Rock",
+    "event": "Rock In Rio"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.87,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4448,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "67",
+      "filename": "41143512.jpg",
+      "externalId": "1NSpog23so22j4gCBjnYLWF56YyE-144F"
+    },
+    {
+      "folder": "67",
+      "filename": "49237340.jpg",
+      "externalId": "1AgM7vrXBYleuMf9cFTgvvoxgxN3aiiPF"
+    },
+    {
+      "folder": "67",
+      "filename": "47954472.jpg",
+      "externalId": "1MltUCw5FIxqo33qJazaDGzzBM82hl08L"
+    },
+    {
+      "folder": "67",
+      "filename": "89397957.jpg",
+      "externalId": "1ujTXsi6v3xJZ3V3QaayZsLmO1_ajWO_A"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Breakout",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "My Hero",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Learn To Fly",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Up In Arms",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Big Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Stacked Actors",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Next Year",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "I'll Stick Around",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Doll",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "See You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "This Is A Call",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Monkey Wrench",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Everlong",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Guns N' Roses - 03.06.2007 - Guadalajara - Mexico - Arena FVG",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Guns N' Roses"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "06",
+    "year": "2007"
+  },
+  "startDateUnix": 1180828800,
+  "endDate": {
+    "day": "03",
+    "month": "06",
+    "year": "2007"
+  },
+  "endDateUnix": 1180828800,
+  "location": {
+    "city": "Guadalajara",
+    "state": "",
+    "country": "Mexico",
+    "venue": "Arena FVG",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Such a shitty screenshot source.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.64,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2200,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "11",
+      "filename": "43201252.jpg",
+      "externalId": "1V8kfGnl5Xb1CqozJ3ba9C49dLMNW4wVX"
+    },
+    {
+      "folder": "11",
+      "filename": "22775779.jpg",
+      "externalId": "1svuCQksa9SZTmEU0_HEHIxv6GbYQ2sae"
+    },
+    {
+      "folder": "11",
+      "filename": "91610367.jpg",
+      "externalId": "1YGkj-ILSrX8MxbfMUnHWsglWF7HlUAUd"
+    },
+    {
+      "folder": "11",
+      "filename": "87600134.jpg",
+      "externalId": "1KCotA8AW2nfcUmATbgnmmNoN2LkKi8Uf"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Mr Brownstone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Live and Let Die",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Robin Finck Guitar Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Sweet Child O'Mine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Better",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Knockin' On Heaven's Door",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,214 @@
+{
+  "originalTitle": "At The Drive-In - 22.04.2000 - Bremen - Germany - Schlachthof Magazinkeller",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "At The Drive-In"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "04",
+    "year": "2000"
+  },
+  "startDateUnix": 956361600,
+  "endDate": {
+    "day": "22",
+    "month": "04",
+    "year": "2000"
+  },
+  "endDateUnix": 956361600,
+  "location": {
+    "city": "Bremen",
+    "state": "",
+    "country": "Germany",
+    "venue": "Schlachthof Magazinkeller",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "(((unartig)))"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 11.8,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3353,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": 28800,
+        "fps": "25",
+        "standard": "DVCP",
+        "codec": "295:216",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "MOV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "32",
+      "filename": "62597397.jpg",
+      "externalId": "1rlyeLi4wnVpESCTln2OlFZAFFo95vy5k"
+    },
+    {
+      "folder": "32",
+      "filename": "55420958.jpg",
+      "externalId": "1DMr_xxSnQBfbU2IoazyruW2eK6HYCCDj"
+    },
+    {
+      "folder": "32",
+      "filename": "89768021.jpg",
+      "externalId": "1Uu3D3k9MYQM4iMuazxN1zVEazSdjQpeF"
+    },
+    {
+      "folder": "32",
+      "filename": "01838311.jpg",
+      "externalId": "1ykr7drzfVWTUcYZ1ouGS-ieH__CGz8l0"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Pickpocket",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Chanbara",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Pattern Against User",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Rascuache",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Lopsided",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Metronome Arthritis",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "One Armed Scissor",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Catacombs",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "198D",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Holahoop Wounds",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Napoleon Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Hourglass",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Fahrenheit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

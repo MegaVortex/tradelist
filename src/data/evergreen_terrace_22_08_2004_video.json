@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Evergreen Terrace - 22.08.2004 - Montreal - QC - Canada - L'X",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Evergreen Terrace"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "08",
+    "year": "2004"
+  },
+  "startDateUnix": 1093132800,
+  "endDate": {
+    "day": "22",
+    "month": "08",
+    "year": "2004"
+  },
+  "endDateUnix": 1093132800,
+  "location": {
+    "city": "Montreal",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "L'X",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.41,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1494,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "fr",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "30288360.jpg",
+      "externalId": "1tkDURz9RRFsrFbmaxEWzWG0aD4RONsG6"
+    },
+    {
+      "folder": "29",
+      "filename": "60017186.jpg",
+      "externalId": "1goGOhZSAjlNjXVb49lRWsTEQh326v1Rt"
+    },
+    {
+      "folder": "29",
+      "filename": "54960726.jpg",
+      "externalId": "156vCZvWZ4DRaLBfopb65GrLepM9HD0KR"
+    },
+    {
+      "folder": "29",
+      "filename": "97157118.jpg",
+      "externalId": "1jLsjPn01uNdTL7EdpIoJ5nFuoAS7rUWp"
+    }
+  ],
+  "setlist": []
+}

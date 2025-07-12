@@ -1,0 +1,147 @@
+{
+  "originalTitle": "Agnostic Front - 04.07.2015 - Lobnitz - Germany - Flugplatz Roitzschjora - With Full Force",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Agnostic Front"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "07",
+    "year": "2015"
+  },
+  "startDateUnix": 1435968000,
+  "endDate": {
+    "day": "04",
+    "month": "07",
+    "year": "2015"
+  },
+  "endDateUnix": 1435968000,
+  "location": {
+    "city": "Lobnitz",
+    "state": "",
+    "country": "Germany",
+    "venue": "Flugplatz Roitzschjora",
+    "event": "With Full Force"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 863,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 696,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 1
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "77",
+      "filename": "13075089.jpg",
+      "externalId": "1tF3z1UKNYd80oGeA1q_WBlGnHTqsmjp5"
+    },
+    {
+      "folder": "77",
+      "filename": "86732951.jpg",
+      "externalId": "1O1ZTu0ZtOOzInvLlWQnpUoVOvk2WaXKD"
+    },
+    {
+      "folder": "77",
+      "filename": "83329720.jpg",
+      "externalId": "1qL5IpxTD-L9fNmiJP60RhGV1sRy9rjXN"
+    },
+    {
+      "folder": "77",
+      "filename": "06908828.jpg",
+      "externalId": "1_OnUytGQ2cNHM0cC4MAaILcIYy4TtLzG"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "For My Family",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Gotta Go",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "Roger Miret",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Blitzkrieg Bop",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Ramones"
+    }
+  ],
+  "extras": []
+}

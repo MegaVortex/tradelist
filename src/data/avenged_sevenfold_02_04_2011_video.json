@@ -1,0 +1,204 @@
+{
+  "originalTitle": "Avenged Sevenfold - 02.04.2011 - Rio De Janeiro - Brazil - Citibank Hall",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Avenged Sevenfold"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "04",
+    "year": "2011"
+  },
+  "startDateUnix": 1301702400,
+  "endDate": {
+    "day": "02",
+    "month": "04",
+    "year": "2011"
+  },
+  "endDateUnix": 1301702400,
+  "location": {
+    "city": "Rio De Janeiro",
+    "state": "",
+    "country": "Brazil",
+    "venue": "Citibank Hall",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.13,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4447,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "70359863.jpg",
+      "externalId": "1seExbrVWd78TSV-LxD_UZTMYRj0ajqlI"
+    },
+    {
+      "folder": "28",
+      "filename": "20685737.jpg",
+      "externalId": "1UQcXI4qqHMNYxLdZ_Oj1KnvqufdGPN4L"
+    },
+    {
+      "folder": "28",
+      "filename": "40398997.jpg",
+      "externalId": "1utw04T5-khKdKzBF7CBzeBgRLJgc8k4r"
+    },
+    {
+      "folder": "28",
+      "filename": "62036533.jpg",
+      "externalId": "1hynmoDizK4AQMjiKwgGV7zlR83XJ3E_j"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Nightmare",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Critical Acclaim",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Welcome To The Family",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Beast And The Harlot",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Buried Alive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "So Far Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Afterlife",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "God Hates Us",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Bat Country",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Unholy Confessions",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Fiction",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Save Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,135 @@
+{
+  "originalTitle": "Lou Reed & Metallica - 13.11.2011 - Milan - Italy - RAI Studios - Che Tempo Che Fa",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Lou Reed & Metallica"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "11",
+    "year": "2011"
+  },
+  "startDateUnix": 1321142400,
+  "endDate": {
+    "day": "13",
+    "month": "11",
+    "year": "2011"
+  },
+  "endDateUnix": 1321142400,
+  "location": {
+    "city": "Milan",
+    "state": "",
+    "country": "Italy",
+    "venue": "RAI Studios",
+    "event": "Che Tempo Che Fa"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 973,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 771,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "lou_reed_metallica_11_11_2011_source_1_video",
+    "lou_reed_metallica_08_11_2011_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "62350646.jpg",
+      "externalId": "1tWqdoBSOVUbUnRxIhiwQk1HYgyLL7L4Z"
+    },
+    {
+      "folder": "28",
+      "filename": "64052776.jpg",
+      "externalId": "1aViYACCksb8SFyjX_4b_5w8DZZOEehYQ"
+    },
+    {
+      "folder": "28",
+      "filename": "33008782.jpg",
+      "externalId": "1L_g9Snm9b9YmhlSRuTAGpVz26ARmBxoG"
+    },
+    {
+      "folder": "28",
+      "filename": "09114910.jpg",
+      "externalId": "1u0z41ts6_6ai9vb1r8jCU8upwuDzaCfY"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Iced Honey",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "White Light/White Heat",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,114 @@
+{
+  "originalTitle": "Bon Jovi - 13.06.1997 - London - England - BBC Studios - Top Of The Pops",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "06",
+    "year": "1997"
+  },
+  "startDateUnix": 866160000,
+  "endDate": {
+    "day": "13",
+    "month": "06",
+    "year": "1997"
+  },
+  "endDateUnix": 866160000,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Top Of The Pops",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "First solo 'Top Of The Pops' studio appearance. BBC broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2265,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "bon_jovi_27_06_1997_video",
+    "bon_jovi_xx_xx_1997_video",
+    "bon_jovi_08_11_1997_video",
+    "bon_jovi_29_08_1997_video",
+    "bon_jovi_06_11_1997_video",
+    "bon_jovi_09_06_1998_video",
+    "bon_jovi_xx_xx_1998_mtv_news_video_misc"
+  ],
+  "childOf": "Bon Jovi - [1997-1998] - 'Destination Anywhere' - TV Appearances",
+  "images": [
+    {
+      "folder": "45",
+      "filename": "94644556.jpg",
+      "externalId": "1r_ujPBm9kqorbaSTli5b53T8moTIN1dM"
+    },
+    {
+      "folder": "45",
+      "filename": "14240627.jpg",
+      "externalId": "12wW8zyc0ZoJAvT7EmGz0hvMSFv5fTEmw"
+    },
+    {
+      "folder": "45",
+      "filename": "49057913.jpg",
+      "externalId": "1nitjEDU9F_dVVEKg891K9SjcLt7ispUU"
+    },
+    {
+      "folder": "45",
+      "filename": "48357807.jpg",
+      "externalId": "1E7nnWn0P7ThScdjwfrw_CX2zjmUhQtUP"
+    }
+  ],
+  "setlist": []
+}

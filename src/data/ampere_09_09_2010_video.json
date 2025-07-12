@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Ampere - 09.09.2010 - Easthampton - MA - USA - Flywheel",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Ampere"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "09",
+    "year": "2010"
+  },
+  "startDateUnix": 1283990400,
+  "endDate": {
+    "day": "09",
+    "month": "09",
+    "year": "2010"
+  },
+  "endDateUnix": 1283990400,
+  "location": {
+    "city": "Easthampton",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Flywheel",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "dyinghorse release.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 799,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 725,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "33",
+      "filename": "25213950.jpg",
+      "externalId": "1bWLF87I7HLJIrB7zolpu3Bh22D3Swjhe"
+    },
+    {
+      "folder": "33",
+      "filename": "04305525.jpg",
+      "externalId": "1OzULu4YMil8v0A267lqGZOWzHSnmmw2q"
+    },
+    {
+      "folder": "33",
+      "filename": "21640009.jpg",
+      "externalId": "1EHeUq3Bup43rsd8YgwGR3qG-unbFr5HG"
+    },
+    {
+      "folder": "33",
+      "filename": "62654962.jpg",
+      "externalId": "1ycSA0_2DUrGu5n65VzEFKHJnavTSYXqj"
+    }
+  ],
+  "setlist": []
+}

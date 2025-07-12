@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Korn - 28.05.2007 - Landgraaf - Netherlands - Megaland - Pinkpop Festival (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "05",
+    "year": "2007"
+  },
+  "startDateUnix": 1180310400,
+  "endDate": {
+    "day": "28",
+    "month": "05",
+    "year": "2007"
+  },
+  "endDateUnix": 1180310400,
+  "location": {
+    "city": "Landgraaf",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Megaland",
+    "event": "Pinkpop Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 676,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 737,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "53",
+      "filename": "53330528.jpg",
+      "externalId": "1YNUitNG3hNY5AYRxxFzRNb_8I03H5kP4"
+    },
+    {
+      "folder": "53",
+      "filename": "26913395.jpg",
+      "externalId": "1ikZByIaac9BOQQICX6GqnsgCrHU1NiU8"
+    },
+    {
+      "folder": "53",
+      "filename": "04501605.jpg",
+      "externalId": "1aETDOjX128Dl2HaCDjNYKS69dtxCtJn-"
+    },
+    {
+      "folder": "53",
+      "filename": "73060930.jpg",
+      "externalId": "1nhBV7MlC5Up0fGCVVG9UoQui57zj2fpe"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Falling Away From Me",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Got The Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Freak On A Leash",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

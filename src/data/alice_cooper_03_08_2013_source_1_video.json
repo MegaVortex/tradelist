@@ -1,0 +1,170 @@
+{
+  "originalTitle": "Alice Cooper - 03.08.2013 - Wacken - Germany - Hauptstrasse - Wacken Open Air (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Alice Cooper"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "08",
+    "year": "2013"
+  },
+  "startDateUnix": 1375488000,
+  "endDate": {
+    "day": "03",
+    "month": "08",
+    "year": "2013"
+  },
+  "endDateUnix": 1375488000,
+  "location": {
+    "city": "Wacken",
+    "state": "",
+    "country": "Germany",
+    "venue": "Hauptstrasse",
+    "event": "Wacken Open Air"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.08,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1212,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "74",
+      "filename": "26987007.jpg",
+      "externalId": "1rVmBo1QHbHv0rD1HKmbuq-_mo0NwaBct"
+    },
+    {
+      "folder": "74",
+      "filename": "13184141.jpg",
+      "externalId": "1EtEmEzGulpZsXCX2W1U3AX47rYAP-mSe"
+    },
+    {
+      "folder": "74",
+      "filename": "62182722.jpg",
+      "externalId": "1iju5lUl_M7fZzMNb5VlljphByJPdZntO"
+    },
+    {
+      "folder": "74",
+      "filename": "30772838.jpg",
+      "externalId": "1gw9M7gGSckIGdz1uFA-nYJGu20ehUwJo"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Hello Hooray",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Judy Collins"
+    },
+    {
+      "order": 2,
+      "song": "House Of Fire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "No More Mr. Nice Guy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Under My Wheels",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "I'll Bite Your Face Off",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Billion Dollar Babies",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

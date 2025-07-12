@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Deftones - 07.07.1996 - San Francisco - CA - USA - Crissy Field",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Deftones"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "07",
+    "year": "1996"
+  },
+  "startDateUnix": 836697600,
+  "endDate": {
+    "day": "07",
+    "month": "07",
+    "year": "1996"
+  },
+  "endDateUnix": 836697600,
+  "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Crissy Field",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.09,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2022,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "25",
+      "filename": "59818250.jpg",
+      "externalId": "1E9QI5DJbmKMHeV5CYvEtezqBOK6E9pmG"
+    },
+    {
+      "folder": "25",
+      "filename": "54235123.jpg",
+      "externalId": "1oGyl8Gw2J13KvnCldAvo-AqOSPAv9xGk"
+    },
+    {
+      "folder": "25",
+      "filename": "40068076.jpg",
+      "externalId": "19ARSeAVY7pFfzxHT5q-FfLXYsH0IaDqr"
+    },
+    {
+      "folder": "25",
+      "filename": "33896735.jpg",
+      "externalId": "1vYDIctxQkLYjRG-x4fR-xT8Nb5JLaEQa"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Nosebleed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Root",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Bored",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "One Weak",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Teething",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "7 Words",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Minus Blindfold",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Engine No.9",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

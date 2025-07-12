@@ -1,0 +1,135 @@
+{
+  "originalTitle": "Marilyn Manson - xx.xx.xxxx - USA - MTV Studios - 'Hangin' With MTV Flashback' [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "MTV Studios",
+    "venue": "'Hangin' With MTV Flashback'",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Flashback of june 17th, 1992 show that had Brian Warner on it, 1 minute.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.04,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3109,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "marilyn_manson_xx_xx_2000_usa_mtv_booty_licious_video_misc",
+    "marilyn_manson_xx_xx_xxxx_usa_vh1_couples_that_never_should_have_been_rose_mcgowan_video_misc",
+    "marilyn_manson_06_12_2007_video_misc",
+    "marilyn_manson_xx_xx_xxxx_usa_vh1_the_story_of_metal_video_misc",
+    "marilyn_manson_xx_xx_1997_usa_mtv_is_music_magical_commercial_video_misc",
+    "marilyn_manson_xx_xx_xxxx_usa_mtv_most_hated_rock_stars_33_video_misc",
+    "marilyn_manson_xx_xx_xxxx_usa_vh1_all_access_indecent_exposure_video_misc",
+    "marilyn_manson_xx_xx_xxxx_usa_mtv_mtv_s_100_greatest_pop_songs_video_misc",
+    "marilyn_manson_xx_xx_1996_usa_mtv_existance_of_aliens_video_misc"
+  ],
+  "childOf": "Marilyn Manson - [MISC 5 - Compilation]",
+  "images": [
+    {
+      "folder": "44",
+      "filename": "27191195.jpg",
+      "externalId": "1nNAQ7FC6aay7U7p1wU5zhvQGnMpomq3i"
+    },
+    {
+      "folder": "44",
+      "filename": "60633158.jpg",
+      "externalId": "1Ho7oE9cvSb0q9rcK3EqQbsOvSu047uI_"
+    },
+    {
+      "folder": "44",
+      "filename": "33860649.jpg",
+      "externalId": "1zGTDG8KcsOr2ZbVW65OjCZLwbTquikKM"
+    },
+    {
+      "folder": "44",
+      "filename": "55943459.jpg",
+      "externalId": "1djRPexB4XY90LftpKETxK5w4EvEEP3QF"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "Brian Warner",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

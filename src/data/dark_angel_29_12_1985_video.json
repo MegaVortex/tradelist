@@ -1,0 +1,187 @@
+{
+  "originalTitle": "Dark Angel - 29.12.1985 - Long Beach - CA - USA - Fender's Ballroom",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Dark Angel"
+  ],
+  "startDate": {
+    "day": "29",
+    "month": "12",
+    "year": "1985"
+  },
+  "startDateUnix": 504662400,
+  "endDate": {
+    "day": "29",
+    "month": "12",
+    "year": "1985"
+  },
+  "endDateUnix": 504662400,
+  "location": {
+    "city": "Long Beach",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Fender's Ballroom",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Reauthored in 2013.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.37,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2331,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "49",
+      "filename": "79594359.jpg",
+      "externalId": "1nIS1iFrMq1vAW47ubGSrAndQfkUpWggO"
+    },
+    {
+      "folder": "49",
+      "filename": "13663683.jpg",
+      "externalId": "1ygJwgD4Re0gdg-ImOJ7hOh8Uis30quLC"
+    },
+    {
+      "folder": "49",
+      "filename": "09478089.jpg",
+      "externalId": "1OZMCTHeszFx4k23rIkCwQmU6kUwcL0Qz"
+    },
+    {
+      "folder": "49",
+      "filename": "09215849.jpg",
+      "externalId": "1eeznWgLGA8QOyjh_MgI9UlJfDv_MI1Hu"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Harbinger Of Doom",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Burning Of Sodom",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Death Is Certain (Life Is Not)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Welcome To The Slaughter House",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Falling From The Sky",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Hunger Of The Undead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Merciless Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "We Have Arrived",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Perish In Flames",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

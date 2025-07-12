@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Hatebreed - 13.02.1998 - New York - NY - USA - CBGB (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Hatebreed"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "02",
+    "year": "1998"
+  },
+  "startDateUnix": 887328000,
+  "endDate": {
+    "day": "13",
+    "month": "02",
+    "year": "1998"
+  },
+  "endDateUnix": 887328000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "CBGB",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.33,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3824,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "hatebreed_29_04_1998_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "45",
+      "filename": "41894104.jpg",
+      "externalId": "1zTFuN9_QEkhtJq1osn1FBOJanbO3IxqA"
+    },
+    {
+      "folder": "45",
+      "filename": "40631395.jpg",
+      "externalId": "1qadYVkuqbe9huAQKWUsjxnPpnrpClInC"
+    },
+    {
+      "folder": "45",
+      "filename": "10534358.jpg",
+      "externalId": "1uV4om4jzLQVKmkDpNesEb-8a2_TaI57I"
+    },
+    {
+      "folder": "45",
+      "filename": "96062059.jpg",
+      "externalId": "1rUC1J8Sy11PihjhEqTTO31RC203AXLEi"
+    }
+  ],
+  "setlist": []
+}

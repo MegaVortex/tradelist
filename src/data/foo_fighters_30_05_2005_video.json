@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Foo Fighters - 30.05.2005 - Sydney - NSW - Australia - Fox Studios - Channel [V] Headquarters",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "05",
+    "year": "2005"
+  },
+  "startDateUnix": 1117411200,
+  "endDate": {
+    "day": "30",
+    "month": "05",
+    "year": "2005"
+  },
+  "endDateUnix": 1117411200,
+  "location": {
+    "city": "Sydney",
+    "state": "NSW",
+    "country": "Australia",
+    "venue": "Fox Studios",
+    "event": "Channel [V] Headquarters"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.49,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2745,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "67",
+      "filename": "62088470.jpg",
+      "externalId": "1yrEhbNd-Wpa5SKcSGfhOox-bgJfXR0xk"
+    },
+    {
+      "folder": "67",
+      "filename": "47355526.jpg",
+      "externalId": "1TiIpoNbQcfG2GN6fPQOPT8LZeS2Yq2B4"
+    },
+    {
+      "folder": "67",
+      "filename": "07786159.jpg",
+      "externalId": "1EpGEAVSO5WA9IoqUhFbZVy4uXxBsiw_r"
+    },
+    {
+      "folder": "67",
+      "filename": "34356284.jpg",
+      "externalId": "1dVdEqpl_hrWAIIGTbRPbV1R3gic8U31T"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "This Is A Call",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "No Way Back",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Times Like These",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Generator",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "My Hero",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Best Of You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Learn To Fly",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Everlong",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Monkey Wrench",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "All My Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

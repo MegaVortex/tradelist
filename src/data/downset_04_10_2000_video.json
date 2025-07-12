@@ -1,0 +1,196 @@
+{
+  "originalTitle": "Downset - 04.10.2000 - Sauget - IL - USA - Pop's",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Downset"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "10",
+    "year": "2000"
+  },
+  "startDateUnix": 970617600,
+  "endDate": {
+    "day": "04",
+    "month": "10",
+    "year": "2000"
+  },
+  "endDateUnix": 970617600,
+  "location": {
+    "city": "Sauget",
+    "state": "IL",
+    "country": "USA",
+    "venue": "Pop's",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.59,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2339,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "68",
+      "filename": "38878432.jpg",
+      "externalId": "1EiNNCkkOz3TbtO3kdZIbm-45h0GVjELG"
+    },
+    {
+      "folder": "68",
+      "filename": "57416698.jpg",
+      "externalId": "1C7E7wEzWU9qgtr3u9w4UXQM0y7pBrks_"
+    },
+    {
+      "folder": "68",
+      "filename": "42494272.jpg",
+      "externalId": "1-HDUEtH7_kf_of7Z2-40o0Fs8w6Bmnrz"
+    },
+    {
+      "folder": "68",
+      "filename": "16494199.jpg",
+      "externalId": "18ekURydsoaZf47-lT1p-am4Eu5Rdmupp"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Anger!",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Play Big",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Eyes Shut Tight",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Pure Trauma",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Downset",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Sangre De Mis Manos",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Together",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Holding Hands",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Fallen Off",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Coming Back",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Empower",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

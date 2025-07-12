@@ -1,0 +1,174 @@
+{
+  "originalTitle": "Gorgoroth - 13.04.1996 - Vosselaar - Belgium",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Gorgoroth"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "04",
+    "year": "1996"
+  },
+  "startDateUnix": 829353600,
+  "endDate": {
+    "day": "13",
+    "month": "04",
+    "year": "1996"
+  },
+  "endDateUnix": 829353600,
+  "location": {
+    "city": "Vosselaar",
+    "state": "",
+    "country": "Belgium",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.37,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1701,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "gorgoroth_11_03_2004_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "27636185.jpg",
+      "externalId": "1z9SvxvH6U55XmdpWneqwoGPf1an-SgfL"
+    },
+    {
+      "folder": "19",
+      "filename": "55714705.jpg",
+      "externalId": "1M-gE9S3RbLmSh1Pl-4R6pDsb0wqEIoGx"
+    },
+    {
+      "folder": "19",
+      "filename": "71000229.jpg",
+      "externalId": "1Ipz79wf4i6vBkmHnfyhnFs_SNncOZARy"
+    },
+    {
+      "folder": "19",
+      "filename": "60213353.jpg",
+      "externalId": "176ICQF7iAjB7XD3504yUO4XUyvpKMpON"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Katharinas Bortgang",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Crushing The Scepter (Regaining A Lost Dominion)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Unlisted Track",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Revelation of Doom",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Ritual",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Bergtrollets Hevn",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Gorgoroth",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Maaneskyggens Slave",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

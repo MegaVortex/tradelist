@@ -1,0 +1,222 @@
+{
+  "originalTitle": "Enter Shikari - 13.10.2012 - Moscow - Russia - Arena Moscow",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Enter Shikari"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "10",
+    "year": "2012"
+  },
+  "startDateUnix": 1350086400,
+  "endDate": {
+    "day": "13",
+    "month": "10",
+    "year": "2012"
+  },
+  "endDateUnix": 1350086400,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Arena Moscow",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "psinka"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.21,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 4533,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 44100,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "45",
+      "filename": "44351283.jpg",
+      "externalId": "1qTRHUAYKkz3yU8U_KdSgHC_QPp_MuH7d"
+    },
+    {
+      "folder": "45",
+      "filename": "58079508.jpg",
+      "externalId": "1LBcgnNxqlCbpTUSyVPmaIvgTMquekI_S"
+    },
+    {
+      "folder": "45",
+      "filename": "17653624.jpg",
+      "externalId": "198T2IjQ8A3rHuLOdAwPmKyfSlHcqQRyC"
+    },
+    {
+      "folder": "45",
+      "filename": "67671165.jpg",
+      "externalId": "1zAUHA4BuWG8DjW0rzMwozBpIZu1yTt9B"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "System...",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "...Meltdown",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Sorry, You're Not A Winner",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Feast",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "The Jester",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Hello Tyrannosaurus, Meet Tyrannicide",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Destabilise",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Mothership",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Quelle Surprise",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Warm Smiles Do Not Make You Welcome Here",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Gandhi Mate, Gandhi",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Juggernauts",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Arguing With Thermometers",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Sssnakepit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

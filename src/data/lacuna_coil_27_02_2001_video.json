@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Lacuna Coil - 27.02.2001 - Stavanger - Norway - Folken",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Lacuna Coil"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "02",
+    "year": "2001"
+  },
+  "startDateUnix": 983232000,
+  "endDate": {
+    "day": "27",
+    "month": "02",
+    "year": "2001"
+  },
+  "endDateUnix": 983232000,
+  "location": {
+    "city": "Stavanger",
+    "state": "",
+    "country": "Norway",
+    "venue": "Folken",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.71,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2442,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "88494020.jpg",
+      "externalId": "194mvXsaq3ME1ixU2aYVH5qr3SH-ezQQI"
+    },
+    {
+      "folder": "14",
+      "filename": "36894957.jpg",
+      "externalId": "1W5p56caLgyDG8DY5fN8Doj6l_4zXlrxO"
+    },
+    {
+      "folder": "14",
+      "filename": "19313344.jpg",
+      "externalId": "1bGNEI1yXntB6yHZhmkUJBcNyodvoL6Oc"
+    },
+    {
+      "folder": "14",
+      "filename": "46278066.jpg",
+      "externalId": "1TL7Sa2O1XE8aByZyqVpcwtebv1ugF0-o"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro / Senzafine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wave Of Anguish",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Honneymoon Suite",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "When A Dead Man Walks",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Falling Again",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "My Wings",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "To Live Is To Hide",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "The Secret",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

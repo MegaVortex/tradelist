@@ -1,0 +1,133 @@
+{
+  "originalTitle": "Linkin Park - xx.11.2003 - 'Live In Texas' TV Special [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "11",
+    "year": "2003"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "11",
+    "year": "2003"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "'Live In Texas' TV Special",
+    "state": "",
+    "country": "",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "TV special aired to promote the \"Live In Texas\" DVD release with interviews and live footage from the Asia Tour 2003.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.38,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1291,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "49",
+      "filename": "86514002.jpg",
+      "externalId": "1HyRH8SsdabmULmniPMGxGaRP2oGOYiPM"
+    },
+    {
+      "folder": "49",
+      "filename": "97959288.jpg",
+      "externalId": "1CAVq0gzvub1N-i6PUvfOTux8kbRzIVPF"
+    },
+    {
+      "folder": "49",
+      "filename": "84528536.jpg",
+      "externalId": "1tspsFP3lgHUFJ5XK0Q1jcOwMZPPiFUhk"
+    },
+    {
+      "folder": "49",
+      "filename": "40424776.jpg",
+      "externalId": "1OjZzUj2TZaK7pDJ1EJMDWMTIaxDbBMgD"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interviews",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Live Footage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

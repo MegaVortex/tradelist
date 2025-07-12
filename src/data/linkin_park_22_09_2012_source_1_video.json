@@ -1,0 +1,190 @@
+{
+  "originalTitle": "Linkin Park - 22.09.2012 - Las Vegas - NV - USA - MGM Grand Garden Arena - iHeartRadio Music Festival (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "09",
+    "year": "2012"
+  },
+  "startDateUnix": 1348272000,
+  "endDate": {
+    "day": "22",
+    "month": "09",
+    "year": "2012"
+  },
+  "endDateUnix": 1348272000,
+  "location": {
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "venue": "MGM Grand Garden Arena",
+    "event": "iHeartRadio Music Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 9.89,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2360,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [
+    "linkin_park_22_09_2012_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "42",
+      "filename": "36228345.jpg",
+      "externalId": "1Ao-M3q3M1wpmCK7a_c5l1JY6Rqv8oa1b"
+    },
+    {
+      "folder": "42",
+      "filename": "73679264.jpg",
+      "externalId": "151tkr3TSu-MvD6yjtW8SdBWMzfXFbUh9"
+    },
+    {
+      "folder": "42",
+      "filename": "01340370.jpg",
+      "externalId": "11O1FU1PRaz-CCUsxOcD5dnSkpJjqigC_"
+    },
+    {
+      "folder": "42",
+      "filename": "88548797.jpg",
+      "externalId": "1hlQ7gExAOPjJMSztTlrohAj6Uo0NvNcg"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "In The End",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Bleed It Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Waiting For The End",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Lost In The Echo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Numb",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Leave Out All The Rest / Shadow Of The Day / Iridescent",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "What I've Done",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Burn It Down",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Faint",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "One Step Closer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

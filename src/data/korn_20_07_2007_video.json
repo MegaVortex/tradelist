@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Korn - 20.07.2007 - USA - AT&T U-Verse TV - AT&T Blue Room - Family Values Rehearsal",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "07",
+    "year": "2007"
+  },
+  "startDateUnix": 1184889600,
+  "endDate": {
+    "day": "20",
+    "month": "07",
+    "year": "2007"
+  },
+  "endDateUnix": 1184889600,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "AT&T U-Verse TV",
+    "venue": "AT&T Blue Room",
+    "event": "Family Values Rehearsal"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Family Values Rehearsals. Amazing session with Joey Jordison. AT&T U-verse Television (Blue Room) broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 922,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1130,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "de",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "41381000.jpg",
+      "externalId": "1TyIfxPEIuY--Svlq4uiM_7HTIP-ILeaZ"
+    },
+    {
+      "folder": "14",
+      "filename": "98801859.jpg",
+      "externalId": "1oMfkSCChEQOi9-7YUtoUDxpLzsUARgmD"
+    },
+    {
+      "folder": "14",
+      "filename": "05929909.jpg",
+      "externalId": "1gxQpVmYLMdURO82u5qFlw8iZzxfZNslG"
+    },
+    {
+      "folder": "14",
+      "filename": "29360541.jpg",
+      "externalId": "1XSYYgUyrACOPdmT1vVZdwrrPu1muN1dz"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Evolution",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Ever Be",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Trash",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Blind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Freak On A Leash",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,204 @@
+{
+  "originalTitle": "Bon Jovi - 10.06.2011 - Dresden - Germany - Ostragehege",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "06",
+    "year": "2011"
+  },
+  "startDateUnix": 1307664000,
+  "endDate": {
+    "day": "10",
+    "month": "06",
+    "year": "2011"
+  },
+  "endDateUnix": 1307664000,
+  "location": {
+    "city": "Dresden",
+    "state": "",
+    "country": "Germany",
+    "venue": "Ostragehege",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.56,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2883,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "23",
+      "filename": "40368264.jpg",
+      "externalId": "1EPx6EUaAbVnyh571AecbQ-CpSmoW9uPZ"
+    },
+    {
+      "folder": "23",
+      "filename": "76900267.jpg",
+      "externalId": "1HZxaaSyG_Hojl-huzwaF1Stq-VIN_cSV"
+    },
+    {
+      "folder": "23",
+      "filename": "24979768.jpg",
+      "externalId": "1WzV_6sxX4LLyRI2w5bba4IwtfpHLFJbA"
+    },
+    {
+      "folder": "23",
+      "filename": "43519456.jpg",
+      "externalId": "1iHf6KFyWitUjuLM3W2NdOOxmOdcUWRp4"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Bounce",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Born To Be My Baby",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Superman Tonight",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Runaway",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "No Apologies",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Bad Medicine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Roadhouse Blues",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Bells Of Freedom (acoustic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Someday I'll Be Saturday Night (acoustic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Undivided",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Keep The Faith",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Something To Believe In",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Host - 16.04.2011 - Allston - MA - USA - Wacky Kastle",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Host"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "04",
+    "year": "2011"
+  },
+  "startDateUnix": 1302912000,
+  "endDate": {
+    "day": "16",
+    "month": "04",
+    "year": "2011"
+  },
+  "endDateUnix": 1302912000,
+  "location": {
+    "city": "Allston",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Wacky Kastle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "dyinghorse release.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 584,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 530,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "34",
+      "filename": "14473404.jpg",
+      "externalId": "1x-5rSnNvi5Zn6m4fzgwY9NSczMWBev2L"
+    },
+    {
+      "folder": "34",
+      "filename": "35044664.jpg",
+      "externalId": "1fS_PElsO-V_qY8OHUu5Bi2Iuyxe8pNf7"
+    },
+    {
+      "folder": "34",
+      "filename": "91780162.jpg",
+      "externalId": "1lfrBlevXnSgFOa_lymIlpMbHSreQHccm"
+    },
+    {
+      "folder": "34",
+      "filename": "68262894.jpg",
+      "externalId": "1sVdOgcQNn-s1Q6SITiVPqCX7U-RN0amG"
+    }
+  ],
+  "setlist": []
+}

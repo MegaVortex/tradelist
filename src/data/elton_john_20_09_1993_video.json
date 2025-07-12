@@ -1,0 +1,129 @@
+{
+  "originalTitle": "Elton John - 20.09.1993 - Burbank - CA - USA - NBC Studios - Jay Leno Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Elton John"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "09",
+    "year": "1993"
+  },
+  "startDateUnix": 748483200,
+  "endDate": {
+    "day": "20",
+    "month": "09",
+    "year": "1993"
+  },
+  "endDateUnix": 748483200,
+  "location": {
+    "city": "Burbank",
+    "state": "CA",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Jay Leno Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 5.97,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5227,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "elton_john_22_09_1997_video",
+    "elton_john_22_03_1999_video",
+    "elton_john_13_03_2000_video",
+    "elton_john_07_02_2001_video"
+  ],
+  "childOf": "Elton John - [1993-2001] - TV Appearances",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "33163378.jpg",
+      "externalId": "1E04EA5iGF5mqK1sZ8ACckq_fXEV5EHbU"
+    },
+    {
+      "folder": "73",
+      "filename": "77245408.jpg",
+      "externalId": "1LG36yFjl-gm8LltW98KFWwd4fQPTnkv7"
+    },
+    {
+      "folder": "73",
+      "filename": "32819133.jpg",
+      "externalId": "1mBAshXFQnleqb3ko4CIJviXfGW8il-Jr"
+    },
+    {
+      "folder": "73",
+      "filename": "21758891.jpg",
+      "externalId": "1ZmYDJxn5Kf4BNUkHHMUaldVHK2tSS0--"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Philadelphia Freedom",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

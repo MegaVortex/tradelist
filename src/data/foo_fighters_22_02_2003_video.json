@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Foo Fighters - 22.02.2003 - New York - NY - USA - NBC Studios - Saturday Night Live",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "02",
+    "year": "2003"
+  },
+  "startDateUnix": 1045872000,
+  "endDate": {
+    "day": "22",
+    "month": "02",
+    "year": "2003"
+  },
+  "endDateUnix": 1045872000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": "Saturday Night Live"
+  },
+  "tvChannel": "NBC",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 287,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 514,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "21",
+      "filename": "38205965.jpg",
+      "externalId": "1tMFZfZXw6jOsPTQeyPo1sdwFr4i5LIZy"
+    },
+    {
+      "folder": "21",
+      "filename": "55304211.jpg",
+      "externalId": "1TiO94YRgsL5VcKTaGlgheZ6xVW4JHbfB"
+    },
+    {
+      "folder": "21",
+      "filename": "49688066.jpg",
+      "externalId": "1Tim7j1vwz0v2Fc6ROLgyRb4YvyTxrPR0"
+    },
+    {
+      "folder": "21",
+      "filename": "08539237.jpg",
+      "externalId": "1NM9CAUNtmKw896PCg3A0hawVYQYQ2037"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "All My Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Times Like These",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

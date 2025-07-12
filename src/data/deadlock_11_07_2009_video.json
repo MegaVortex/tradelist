@@ -1,0 +1,131 @@
+{
+  "originalTitle": "Deadlock - 11.07.2009 - Sobriach - Obervellach - Austria - Zeckenstadion",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Deadlock"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "07",
+    "year": "2009"
+  },
+  "startDateUnix": 1247270400,
+  "endDate": {
+    "day": "11",
+    "month": "07",
+    "year": "2009"
+  },
+  "endDateUnix": 1247270400,
+  "location": {
+    "city": "Sobriach",
+    "state": "",
+    "country": "Obervellach",
+    "venue": "Austria",
+    "event": "Zeckenstadion"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 532,
+        "unit": "Mb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 3.4,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5745,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "4",
+      "filename": "00804865.jpg",
+      "externalId": "1nJh1vqg9FRhKrZSQLtDSOhuLb-OSsiMS"
+    },
+    {
+      "folder": "4",
+      "filename": "10039346.jpg",
+      "externalId": "1nZceNxGpPzBm_ieVCY-DMMYRl2IF4MqU"
+    },
+    {
+      "folder": "4",
+      "filename": "62430118.jpg",
+      "externalId": "10oCJ83e3uFB8K-cE_LqQaBUnswP16dGu"
+    },
+    {
+      "folder": "4",
+      "filename": "61686323.jpg",
+      "externalId": "1agbhnJds9WsjptFoz3-GGo5q_SH0u53a"
+    },
+    {
+      "folder": "4",
+      "filename": "22984967.jpg",
+      "externalId": "1s_hohs_g7QQNdYfbIByHvRvBor2NPfph"
+    },
+    {
+      "folder": "4",
+      "filename": "91790841.jpg",
+      "externalId": "13wWQGFeBPUQhWDNnJb_DKF7muL5ey2Ic"
+    },
+    {
+      "folder": "4",
+      "filename": "98787685.jpg",
+      "externalId": "1H08CNquzhs5Wd9y9hRfMF8MhILZ4fu6-"
+    },
+    {
+      "folder": "4",
+      "filename": "01034049.jpg",
+      "externalId": "1QLyYviaaxamUoX78eJUR9U0vfZbFZEE7"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,85 @@
+{
+  "originalTitle": "Megadeth - 02.11.2001 - Combined Locks - WI - USA - Ryan's Ballroom [AUDIO]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Megadeth"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "11",
+    "year": "2001"
+  },
+  "startDateUnix": 1004659200,
+  "endDate": {
+    "day": "02",
+    "month": "11",
+    "year": "2001"
+  },
+  "endDateUnix": 1004659200,
+  "location": {
+    "city": "Combined Locks",
+    "state": "WI",
+    "country": "USA",
+    "venue": "Ryan's Ballroom",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "audio"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "CSB > Battery Box (no bass filter) > D7 DAT > 7 pin > Creative Audigy 2 > Cdwav (splits) > Nero (normalized files) > EAC > Flac 8 > CDR > Random Trade > EAC > Traders Little Helper.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 338,
+        "unit": "Mb"
+      },
+      {
+        "type": "CD",
+        "size": 307,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 5828,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": []
+}

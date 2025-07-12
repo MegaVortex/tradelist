@@ -1,0 +1,109 @@
+{
+  "originalTitle": "Hatebreed - 15.10.1999 - Worchester - MA - USA",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Hatebreed"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "10",
+    "year": "1999"
+  },
+  "startDateUnix": 939945600,
+  "endDate": {
+    "day": "15",
+    "month": "10",
+    "year": "1999"
+  },
+  "endDateUnix": 939945600,
+  "location": {
+    "city": "Worchester",
+    "state": "MA",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.63,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2960,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "god_forbid_30_03_2001_video",
+    "hatebreed_09_03_1997_video"
+  ],
+  "childOf": "various_artists_xx_xx_1997_xx_xx_2001_video_compilation",
+  "images": [
+    {
+      "folder": "16",
+      "filename": "34325308.jpg",
+      "externalId": "1U0S99nCSSbb8U0TnglUkz0ubTCRkvt82"
+    },
+    {
+      "folder": "16",
+      "filename": "79650247.jpg",
+      "externalId": "1Tqh5kAZkc2JmaB6A6asUFVpDkIk686lb"
+    },
+    {
+      "folder": "16",
+      "filename": "07148734.jpg",
+      "externalId": "1wBOSxgJ9S7YRwdv4P19Ue0cYJ6_fO8te"
+    },
+    {
+      "folder": "16",
+      "filename": "19661196.jpg",
+      "externalId": "1EvjLGCTDX_Bg6mx2li0kKgznXApCVwFc"
+    }
+  ],
+  "setlist": []
+}

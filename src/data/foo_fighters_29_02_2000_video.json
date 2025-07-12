@@ -1,0 +1,297 @@
+{
+  "originalTitle": "Foo Fighters - 29.02.2000 - Amsterdam - Netherlands - Melkweg",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "29",
+    "month": "02",
+    "year": "2000"
+  },
+  "startDateUnix": 951782400,
+  "endDate": {
+    "day": "29",
+    "month": "02",
+    "year": "2000"
+  },
+  "endDateUnix": 951782400,
+  "location": {
+    "city": "Amsterdam",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Melkweg",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.48,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 2.96,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5693,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "67",
+      "filename": "07765136.jpg",
+      "externalId": "1aguXMS812NnIRTb4RxZDuCsthPmPhJj5"
+    },
+    {
+      "folder": "67",
+      "filename": "06336761.jpg",
+      "externalId": "1-ccloNS22oekmyEFo06L3P88h4dxqMK7"
+    },
+    {
+      "folder": "67",
+      "filename": "11447950.jpg",
+      "externalId": "1LB1KYJwo83duvRxElP4lxqgcACBtmSne"
+    },
+    {
+      "folder": "67",
+      "filename": "72395396.jpg",
+      "externalId": "1VtjToB6goE8IIhDzKOevAJEFyeztoUYY"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Aurora",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Breakout",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Learn To Fly",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "For All The Cows",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "My Hero",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Up In Arms",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Ain't It The Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Monkey Wrench",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Hey, Johnny Park!",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Alone + Easy Target",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Everlong",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Rocky Mountain Way",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Joe Walsh"
+    },
+    {
+      "order": 13,
+      "song": "Generator",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "See You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Have A Cigar",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Pink Floyd"
+    },
+    {
+      "order": 16,
+      "song": "Big Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 17,
+      "song": "Weenie Beenie",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 18,
+      "song": "New Way Home",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 19,
+      "song": "I'll Stick Around",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 20,
+      "song": "Stacked Actors",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 21,
+      "song": "Next Year",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 22,
+      "song": "Sweet Home Alabama",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Lynyrd Skynyrd"
+    },
+    {
+      "order": 23,
+      "song": "This Is a Call",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,196 @@
+{
+  "originalTitle": "Megadeth - 26.05.1988 - Paris - France - Le Zenith [AUDIO]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Megadeth"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "05",
+    "year": "1988"
+  },
+  "startDateUnix": 580608000,
+  "endDate": {
+    "day": "26",
+    "month": "05",
+    "year": "1988"
+  },
+  "endDateUnix": 580608000,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "Le Zenith",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "audio"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "Stef",
+  "notes": "Mastered by Scabbyman. Sony WM D3 + Sony Mic > Master Tape > Standalone CD-R Recorder > WAV > FLAC > TLH (flac to wav decoding) > Sony Soundforge 10.0 (normalization, track splitting) > TLH (encoding on sector boundaries) > Foobar2000 (tagging) > FLAC(8).",
+  "tapers": [
+    "Stef"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 472,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 4240,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "FLAC",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Set The World Afire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Hook In Mouth",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Wake Up Dead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "The Conjuring",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Mary Jane",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "In My Darkest Hour",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Devil's Island",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "These Boots Are Made For Walkin'",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Lee Hazlewood"
+    },
+    {
+      "order": 10,
+      "song": "Drum Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Peace Sells",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Liar",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Mechanix",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Anarchy In The U.K.",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Sex Pistols"
+    }
+  ],
+  "extras": []
+}

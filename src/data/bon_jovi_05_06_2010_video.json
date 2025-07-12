@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Bon Jovi - 05.06.2010 - Scheveningen - Netherlands - Royal Beach",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "06",
+    "year": "2010"
+  },
+  "startDateUnix": 1275696000,
+  "endDate": {
+    "day": "05",
+    "month": "06",
+    "year": "2010"
+  },
+  "endDateUnix": 1275696000,
+  "location": {
+    "city": "Scheveningen",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Royal Beach",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.04,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2778,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "43",
+      "filename": "16061295.jpg",
+      "externalId": "1ee0x77VUKwsuHtJ6hqXGAiokGZ8XGsDu"
+    },
+    {
+      "folder": "43",
+      "filename": "12631768.jpg",
+      "externalId": "185SaEC1pQPTeHFAWO-cHGdzJxi4J5GCb"
+    },
+    {
+      "folder": "43",
+      "filename": "26055797.jpg",
+      "externalId": "1nkPwhI3u-25aCUelSUs_lQqIQohB0yiV"
+    },
+    {
+      "folder": "43",
+      "filename": "96207027.jpg",
+      "externalId": "1ti-miMriK27Gpm5MJJBi_t7UCis1GKhF"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Raise Your Hands",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "When We Were Beautiful",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "In These Arms",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Bad Case Of Loving You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Roadhouse Blues",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Lay Your Hands On Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Rockin' All Over The World",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Who Says You Can't Go Home",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Only Lonely",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Wanted Dead Or Alive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Deftones - 04.08.2001 - Latrobe - PA - USA - Westmorland County Fairgrounds - Rolling Rock Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Deftones"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "08",
+    "year": "2001"
+  },
+  "startDateUnix": 996883200,
+  "endDate": {
+    "day": "04",
+    "month": "08",
+    "year": "2001"
+  },
+  "endDateUnix": 996883200,
+  "location": {
+    "city": "Latrobe",
+    "state": "PA",
+    "country": "USA",
+    "venue": "Westmorland County Fairgrounds",
+    "event": "Rolling Rock Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 358,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 495,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "33",
+      "filename": "88221191.jpg",
+      "externalId": "1xhsDejyvWtY1yuvSecvMZRBxnY8fP5tL"
+    },
+    {
+      "folder": "33",
+      "filename": "81280189.jpg",
+      "externalId": "1BoQN_Jf0ZNH5gzK2zflEVxiR5JoMdVTD"
+    },
+    {
+      "folder": "33",
+      "filename": "24907698.jpg",
+      "externalId": "17RJSzo4OtiELOSmGyI6LJV1t6zhtixEa"
+    },
+    {
+      "folder": "33",
+      "filename": "51666172.jpg",
+      "externalId": "1PW_njs9RTz1t_aBUtxIQlcFn4Ct6M0fY"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "My Own Summer (Shove It)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Be Quiet And Drive (Far Away)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

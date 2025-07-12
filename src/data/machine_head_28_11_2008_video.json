@@ -1,0 +1,166 @@
+{
+  "originalTitle": "Machine Head - 28.11.2008 - Vienna - Austria - Stadthalle",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Machine Head"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "11",
+    "year": "2008"
+  },
+  "startDateUnix": 1227830400,
+  "endDate": {
+    "day": "28",
+    "month": "11",
+    "year": "2008"
+  },
+  "endDateUnix": 1227830400,
+  "location": {
+    "city": "Vienna",
+    "state": "",
+    "country": "Austria",
+    "venue": "Stadthalle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Antihero"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.09,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2792,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "65",
+      "filename": "64028913.jpg",
+      "externalId": "1mBgIbWlWYqoNG7HRh_yexjMBhpHK4wVh"
+    },
+    {
+      "folder": "65",
+      "filename": "68998860.jpg",
+      "externalId": "1Xlojt4b2MVP1jPgGLIhRmABXGKdTTfTL"
+    },
+    {
+      "folder": "65",
+      "filename": "03886160.jpg",
+      "externalId": "1QETHoo0GV5fI4KjaTMOFwWnMPye2pT6e"
+    },
+    {
+      "folder": "65",
+      "filename": "84549902.jpg",
+      "externalId": "1ODMoKVOSH0MS0fsCuf2qfgo2Gus_t3jT"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Clenching The Fists Of Dissent",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Imperium",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Beautiful Mourning",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Aesthetics Of Hate",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Old",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Halo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Davidian",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

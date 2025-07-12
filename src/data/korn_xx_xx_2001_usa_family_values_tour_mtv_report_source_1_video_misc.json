@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Korn - xx.xx.2001 - USA - Family Values Tour - MTV Report (Source 1) [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2001"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2001"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "Family Values Tour",
+    "venue": "MTV Report",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 40.96,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 34,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "08850987.jpg",
+      "externalId": "1Z_PSPmSiJbqt4A31PvGqghpqJRRF6uVA"
+    },
+    {
+      "folder": "14",
+      "filename": "82113594.jpg",
+      "externalId": "1LjXl1mEnRztxv7MdDXzy9sRQG3vxatKh"
+    },
+    {
+      "folder": "14",
+      "filename": "48867471.jpg",
+      "externalId": "1hCZ11tcXv9NxECyjLnQkXoDIZUS94g_q"
+    },
+    {
+      "folder": "14",
+      "filename": "80341952.jpg",
+      "externalId": "14UPFPmwfHvuhi_6HUoZqRZsQuu4u-ApT"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Jonathan Davis",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

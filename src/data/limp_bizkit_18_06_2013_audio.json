@@ -1,0 +1,82 @@
+{
+  "originalTitle": "Limp Bizkit - 18.06.2013 - Zurich - Switzerland - Komplex457 [AUDIO]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "06",
+    "year": "2013"
+  },
+  "startDateUnix": 1371513600,
+  "endDate": {
+    "day": "18",
+    "month": "06",
+    "year": "2013"
+  },
+  "endDateUnix": 1371513600,
+  "location": {
+    "city": "Zurich",
+    "state": "",
+    "country": "Switzerland",
+    "venue": "Komplex457",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "audio"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Church Audio CA-11 cardioids (mounted on cap) > iRiver H340 (rockbox) > PC > Audition 3.0 (volume boost, fade in/out) > CD Wave (splitting + output FLAC Highend Level 8).",
+  "tapers": [
+    "nowfacethetruth"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 543,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 5579,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": []
+}

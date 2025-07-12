@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Marilyn Manson - 31.03.2008 - Moscow - Russia - Blizhe K Zvyozdam [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "03",
+    "year": "2008"
+  },
+  "startDateUnix": 1206921600,
+  "endDate": {
+    "day": "31",
+    "month": "03",
+    "year": "2008"
+  },
+  "endDateUnix": 1206921600,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Blizhe K Zvyozdam",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Muz TV russian-dubbed report.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 481,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1651,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "64",
+      "filename": "93615685.jpg",
+      "externalId": "1RlgJp-1Y3jIxBb9gVjbSCaZ6SMyMsYDA"
+    },
+    {
+      "folder": "64",
+      "filename": "33558861.jpg",
+      "externalId": "1Lc7rDHdOBWtlIEDCL5ViGQMfll8OXg-X"
+    },
+    {
+      "folder": "64",
+      "filename": "97989585.jpg",
+      "externalId": "19Gli8I0WUOROnTWoSI2s_sa9ztt8iWIl"
+    },
+    {
+      "folder": "64",
+      "filename": "67693653.jpg",
+      "externalId": "1uajv0M16uUINdZNchh6T2ro7NVLJLzNI"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

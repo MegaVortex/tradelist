@@ -1,0 +1,129 @@
+{
+  "originalTitle": "Foo Fighters - 07.09.2011 - Los Angeles - CA - USA - Westside Media Center - Chelsea Lately [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "09",
+    "year": "2011"
+  },
+  "startDateUnix": 1315353600,
+  "endDate": {
+    "day": "07",
+    "month": "09",
+    "year": "2011"
+  },
+  "endDateUnix": 1315353600,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Westside Media Center",
+    "event": "Chelsea Lately"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 399,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 562,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "foo_fighters_16_03_2011_source_2_video",
+    "foo_fighters_09_04_2011_source_2_video",
+    "foo_fighters_11_04_2011_video",
+    "foo_fighters_12_04_2011_video_misc",
+    "foo_fighters_12_04_2011_source_2_video",
+    "foo_fighters_05_06_2011_video",
+    "foo_fighters_28_08_2011_video_misc",
+    "foo_fighters_16_03_2011_source_1_video",
+    "foo_fighters_08_09_2011_source_3_video",
+    "foo_fighters_27_09_2011_source_2_video",
+    "foo_fighters_15_11_2011_video"
+  ],
+  "childOf": "Foo Fighters - [2011] - USA TV Appearances",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "75169855.jpg",
+      "externalId": "1oJSQykVubqBGRwZ_EpKLflXp4_AmYPso"
+    },
+    {
+      "folder": "28",
+      "filename": "82960984.jpg",
+      "externalId": "1eTWia3f8yVickB51uYheCKgRKSFfOHx5"
+    },
+    {
+      "folder": "28",
+      "filename": "23440141.jpg",
+      "externalId": "1UcsczPGFLNBjxuTHBRBePRh7uuK8jq79"
+    },
+    {
+      "folder": "28",
+      "filename": "39972164.jpg",
+      "externalId": "1VhszG3WdByJI2R6EC3qigxaCOVoSaPu3"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

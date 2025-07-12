@@ -1,0 +1,198 @@
+{
+  "originalTitle": "At The Drive-In - 23.04.2000 - Hamburg - Germany - Hafenklang",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "At The Drive-In"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "04",
+    "year": "2000"
+  },
+  "startDateUnix": 956448000,
+  "endDate": {
+    "day": "23",
+    "month": "04",
+    "year": "2000"
+  },
+  "endDateUnix": 956448000,
+  "location": {
+    "city": "Hamburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Hafenklang",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "(((unartig)))"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 20.7,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3278,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": 52968,
+        "fps": "25",
+        "standard": "ULY2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "miniDV",
+      "finalMediaType": "",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "32",
+      "filename": "59382426.jpg",
+      "externalId": "1DFuxzBMuiuC0uzXZBVUVeIBxPIV38FTU"
+    },
+    {
+      "folder": "32",
+      "filename": "79679974.jpg",
+      "externalId": "1dpQiPUgNbayCYXhkGxBifizQLRpixIUS"
+    },
+    {
+      "folder": "32",
+      "filename": "95398612.jpg",
+      "externalId": "1Xh-Vf9PJpMFdJWzx_3BJYrbkINKqB5fP"
+    },
+    {
+      "folder": "32",
+      "filename": "91269449.jpg",
+      "externalId": "1QhTfhoXVhM6Iy4w_LfPXgHWRYujjOndX"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Pickpocket",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Chanbara",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Pattern Against User",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Rascuache",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Lopsided",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Metronome Arthritis",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "One Armed Scissor",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Catacombs",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "198D",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Holahoop Wounds",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Napoleon Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

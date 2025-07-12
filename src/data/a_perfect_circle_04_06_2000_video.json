@@ -1,0 +1,203 @@
+{
+  "originalTitle": "A Perfect Circle - 04.06.2000 - Phoenix - AZ - USA - America West Arena",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "A Perfect Circle"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "06",
+    "year": "2000"
+  },
+  "startDateUnix": 960076800,
+  "endDate": {
+    "day": "04",
+    "month": "06",
+    "year": "2000"
+  },
+  "endDateUnix": 960076800,
+  "location": {
+    "city": "Phoenix",
+    "state": "AZ",
+    "country": "USA",
+    "venue": "America West Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.44,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2616,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "69944876.jpg",
+      "externalId": "1XbRy_I0-MYaDQruDyMM4WVGfQDnnweO0"
+    },
+    {
+      "folder": "27",
+      "filename": "78809919.jpg",
+      "externalId": "1vwhaxxeFFZ1uXLLwvLJNAFf2HozKvjl9"
+    },
+    {
+      "folder": "27",
+      "filename": "86594702.jpg",
+      "externalId": "1SmNicAApLnRJf423i8Uvunjbe8Ln8OHV"
+    },
+    {
+      "folder": "27",
+      "filename": "14568866.jpg",
+      "externalId": "1Ryk-hkp1RMAxsg4h1yeBBlrIeW-3eqm_"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro (Renholder)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Hollow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Magdalena",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "3 Libras",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Sleeping Beauty",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Brena",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Orestes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Thinking Of You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Thomas",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Rose",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Judith",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

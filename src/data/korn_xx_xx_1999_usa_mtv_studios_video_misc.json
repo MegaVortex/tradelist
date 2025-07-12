@@ -1,0 +1,125 @@
+{
+  "originalTitle": "Korn - xx.xx.1999 - USA - MTV Studios [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1999"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1999"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "MTV Studios",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 51.2,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 40,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_xx_xx_2001_usa_mtv_studios_family_values_tour_source_2_video_misc",
+    "korn_01_07_2004_source_2_video",
+    "korn_xx_xx_2004_mtv_news_video_misc",
+    "korn_xx_xx_2002_new_york_ny_usa_mtv_studios_trl_show_source_2_video_misc",
+    "korn_12_06_2002_source_1_video_misc",
+    "korn_xx_xx_2002_usa_mtv_story_behind_untouchables_source_2_video_misc",
+    "korn_xx_xx_1999_usa_mtv_korn_day_show_video_misc"
+  ],
+  "childOf": "korn_xx_xx_xxxx_misc_6_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "17",
+      "filename": "81330316.jpg",
+      "externalId": "16844k8mt7YbZZHK1V6YI7M3seS8Cn1pG"
+    },
+    {
+      "folder": "17",
+      "filename": "68033903.jpg",
+      "externalId": "1-PrqcdxQGxdNCa5GchYV3uUaTiMn7SW3"
+    },
+    {
+      "folder": "17",
+      "filename": "40114940.jpg",
+      "externalId": "1zAkvObStBeR290zxhnOouIFIL8QeMnmV"
+    },
+    {
+      "folder": "17",
+      "filename": "00611014.jpg",
+      "externalId": "1eQO6eMgIOCO4MLfQ0hng8PINhjfBEgcz"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Jonathan Davis",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,141 @@
+{
+  "originalTitle": "Bon Jovi - xx.xx.1990 - New York - NY - USA - New York University [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1990"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1990"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "New York University",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Nordoff Robbins Music Therapy organization award acceptance.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.09,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3828,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "bon_jovi_04_07_1990_video_misc",
+    "bon_jovi_xx_xx_1990_usa_guns_and_glory_video_misc",
+    "bon_jovi_11_09_1987_video",
+    "bon_jovi_06_09_1989_video",
+    "bon_jovi_05_03_1990_video_misc",
+    "bon_jovi_xx_xx_1990_los_angeles_ca_usa_nbc_news_video_misc",
+    "bon_jovi_23_12_1990_video_misc",
+    "bon_jovi_31_12_1990_source_2_video",
+    "bon_jovi_xx_xx_1991_usa_mtv_news_video_misc",
+    "bon_jovi_25_03_1991_video",
+    "bon_jovi_13_03_1993_video",
+    "bon_jovi_25_06_1997_video",
+    "bon_jovi_12_06_2000_video",
+    "bon_jovi_xx_xx_1984_video",
+    "bon_jovi_15_06_1985_video"
+  ],
+  "childOf": "bon_jovi_xx_xx_xxxx_misc_2_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "77",
+      "filename": "52621017.jpg",
+      "externalId": "1v0iHrCm87VSQ8wJmzgm0da6jK_BF06so"
+    },
+    {
+      "folder": "77",
+      "filename": "67454606.jpg",
+      "externalId": "1JJ6h7HtzI6xVf2bKRhTWbpv1GJyxNSgs"
+    },
+    {
+      "folder": "77",
+      "filename": "04469318.jpg",
+      "externalId": "1cln3gpATAeiVCUES8YW8gCurMS47B2O0"
+    },
+    {
+      "folder": "77",
+      "filename": "26927719.jpg",
+      "externalId": "1tDodw9HG9JXe5SY-0maXrxfRDLunQIV3"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Acceptance Speech",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

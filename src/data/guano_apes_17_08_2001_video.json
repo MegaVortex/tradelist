@@ -1,0 +1,160 @@
+{
+  "originalTitle": "Guano Apes - 17.08.2001 - Cologne - Germany - Butzweiler Hof - Bizarre Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Guano Apes"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "08",
+    "year": "2001"
+  },
+  "startDateUnix": 998006400,
+  "endDate": {
+    "day": "17",
+    "month": "08",
+    "year": "2001"
+  },
+  "endDateUnix": 998006400,
+  "location": {
+    "city": "Cologne",
+    "state": "",
+    "country": "Germany",
+    "venue": "Butzweiler Hof",
+    "event": "Bizarre Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "WDR broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.19,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4629,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "guano_apes_22_08_1998_video",
+    "guano_apes_23_04_2000_video",
+    "guano_apes_20_11_1997_video"
+  ],
+  "childOf": "Guano Apes - [1997-2001] - Live Performances",
+  "images": [
+    {
+      "folder": "44",
+      "filename": "20405526.jpg",
+      "externalId": "1YNbzFU5koutcjtB9LFzlTVs6jh5Zy2P0"
+    },
+    {
+      "folder": "44",
+      "filename": "38573438.jpg",
+      "externalId": "1wPQf7iSDugXQw5JCgbgXKj2Q7Ota3sL5"
+    },
+    {
+      "folder": "44",
+      "filename": "63948441.jpg",
+      "externalId": "1akV88GfczSTt60xV6-g-I88scm_pbMXY"
+    },
+    {
+      "folder": "44",
+      "filename": "95902130.jpg",
+      "externalId": "1Bwge76sOl-E1i4gHuxNA3b07bSaXldRR"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Living In A Lie",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Anne-Claire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "We Use The Pain",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Kumba-Yo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Lords Of The Boards",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

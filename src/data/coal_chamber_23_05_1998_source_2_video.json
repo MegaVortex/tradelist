@@ -1,0 +1,142 @@
+{
+  "originalTitle": "Coal Chamber - 23.05.1998 - Somerset - WI - USA - Float Rite Park Amphitheatre (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Coal Chamber"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "05",
+    "year": "1998"
+  },
+  "startDateUnix": 895881600,
+  "endDate": {
+    "day": "23",
+    "month": "05",
+    "year": "1998"
+  },
+  "endDateUnix": 895881600,
+  "location": {
+    "city": "Somerset",
+    "state": "WI",
+    "country": "USA",
+    "venue": "Float Rite Park Amphitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "2 cam mix.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.1,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1791,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "kittie_28_08_1999_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "30",
+      "filename": "19702568.jpg",
+      "externalId": "1_s5G6BtQK7FY0FjvxJa9Q1zcy9uOyq5f"
+    },
+    {
+      "folder": "30",
+      "filename": "14584076.jpg",
+      "externalId": "1UTsbJ4LEbKxWQmpXZmZHd59KZXw7egTm"
+    },
+    {
+      "folder": "30",
+      "filename": "64648582.jpg",
+      "externalId": "1yXnE3ANMdbqKtfsKOG2wSZBSQRcKjZgn"
+    },
+    {
+      "folder": "30",
+      "filename": "74488677.jpg",
+      "externalId": "1j5tw0gv_z074iHpEUaaEY6z2V7gAfmtr"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Sway",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Big Truck",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Bradley",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Clock",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

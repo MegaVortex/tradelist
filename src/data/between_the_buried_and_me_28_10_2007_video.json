@@ -1,0 +1,174 @@
+{
+  "originalTitle": "Between The Buried And Me - 28.10.2007 - Columbia - SC - USA - New Brookland Tavern",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Between The Buried And Me"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "10",
+    "year": "2007"
+  },
+  "startDateUnix": 1193529600,
+  "endDate": {
+    "day": "28",
+    "month": "10",
+    "year": "2007"
+  },
+  "endDateUnix": 1193529600,
+  "location": {
+    "city": "Columbia",
+    "state": "SC",
+    "country": "USA",
+    "venue": "New Brookland Tavern",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "shaggy28"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.57,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3985,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "51550865.jpg",
+      "externalId": "1ZCCeO4iUJJRPCqYdF5ofSNK8IaChhtmo"
+    },
+    {
+      "folder": "15",
+      "filename": "78567941.jpg",
+      "externalId": "1G6J4na0J_1L9ZaUbgSduRz-51HuKKCjU"
+    },
+    {
+      "folder": "15",
+      "filename": "94900091.jpg",
+      "externalId": "1ZyJCC_PxUtUqwUbj9Xa70DdSl3MuWmDQ"
+    },
+    {
+      "folder": "15",
+      "filename": "94549542.jpg",
+      "externalId": "1UMTF4hzoeHIaFsVXuaH9tF4-ZiYtncT4"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Foam Born:(A) - The Backtrack",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "(B) The Decade Of Statues",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Informal Gluttony",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Sun Of Nothing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Ants Of The Sky",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Prequel To The Sequel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Viridian",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "White Walls",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

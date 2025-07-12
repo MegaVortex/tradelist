@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Limp Bizkit - 10.05.2010 - Burbank - CA - USA - Jay Leno Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "05",
+    "year": "2010"
+  },
+  "startDateUnix": 1273449600,
+  "endDate": {
+    "day": "10",
+    "month": "05",
+    "year": "2010"
+  },
+  "endDateUnix": 1273449600,
+  "location": {
+    "city": "Burbank",
+    "state": "CA",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jay Leno Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#С",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 573,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 283,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "NTMPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "20610633.jpg",
+      "externalId": "1KLx4yVFKBSkiSeocJ8HfWZPAqb7UkEwk"
+    },
+    {
+      "folder": "6",
+      "filename": "48749915.jpg",
+      "externalId": "17513eqTk_vudY8NBGoDxnlzW1uMCy-TE"
+    },
+    {
+      "folder": "6",
+      "filename": "15959080.jpg",
+      "externalId": "1O0pmGDA05UwTS42sy0JoxpSFickNcdpw"
+    },
+    {
+      "folder": "6",
+      "filename": "26408119.jpg",
+      "externalId": "1hphmKl5hD0pEcVYPmN-2Iok1uoukOe8f"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Take A Look Around",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

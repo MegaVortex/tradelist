@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Machine Head - 15.09.1999 - Hartford - CT - USA - Webster Theatre",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Machine Head"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "09",
+    "year": "1999"
+  },
+  "startDateUnix": 937353600,
+  "endDate": {
+    "day": "15",
+    "month": "09",
+    "year": "1999"
+  },
+  "endDateUnix": 937353600,
+  "location": {
+    "city": "Hartford",
+    "state": "CT",
+    "country": "USA",
+    "venue": "Webster Theatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.78,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2615,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "44",
+      "filename": "21574056.jpg",
+      "externalId": "1gT5xHaHR7KHSDtwTgWVmNJ6A_OEvDukL"
+    },
+    {
+      "folder": "44",
+      "filename": "10838976.jpg",
+      "externalId": "1EeDTg85C2HKvLCeouaC0iKUlsanpBSja"
+    },
+    {
+      "folder": "44",
+      "filename": "52279882.jpg",
+      "externalId": "1EmnQA4Kq92-ADYZEuKRDtCmc4ghUbTgO"
+    },
+    {
+      "folder": "44",
+      "filename": "10149625.jpg",
+      "externalId": "1upZgVappow2WAZh5eznOdn8EEVJtMcta"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Desire To Fire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Take My Scars",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Blood, The Sweat, The Tears",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Ten Ton Hammer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Old",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "From This Day",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Davidian",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Nothing Left",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

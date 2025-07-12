@@ -1,0 +1,111 @@
+{
+  "originalTitle": "Devourment - 29.08.2010 - Moscow - Russia - XO Club (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Devourment"
+  ],
+  "startDate": {
+    "day": "29",
+    "month": "08",
+    "year": "2010"
+  },
+  "startDateUnix": 1283040000,
+  "endDate": {
+    "day": "29",
+    "month": "08",
+    "year": "2010"
+  },
+  "endDateUnix": 1283040000,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "XO Club",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "AMT#3. This recording is not for trade, sorry.",
+  "tapers": [
+    "Sorgnatt"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 481,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 525,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "devourment_29_08_2010_source_1_video",
+    "devourment_29_08_2010_source_3_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "22",
+      "filename": "43541210.jpg",
+      "externalId": "1Bah2A7Ua1p6AM8gC4sY8tWGQ8VmoRVL6"
+    },
+    {
+      "folder": "22",
+      "filename": "03821530.jpg",
+      "externalId": "1cB2sXMNBEL-z6rWnEF3lNH_4QlNPeODe"
+    },
+    {
+      "folder": "22",
+      "filename": "39118318.jpg",
+      "externalId": "1WoPnS3kJi5VYqBBNrOWPpKKvG2jDbce3"
+    },
+    {
+      "folder": "22",
+      "filename": "54327864.jpg",
+      "externalId": "1KQ9nn0u5lOMNDnnCu1A_917OfZtPTuSY"
+    }
+  ],
+  "setlist": []
+}

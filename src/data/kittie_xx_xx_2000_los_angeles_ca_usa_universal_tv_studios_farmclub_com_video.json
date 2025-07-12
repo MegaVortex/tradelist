@@ -1,0 +1,118 @@
+{
+  "originalTitle": "Kittie - xx.xx.2000 - Los Angeles - CA - USA - Universal TV Studios - Farmclub.com",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Kittie"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2000"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2000"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Universal TV Studios",
+    "event": "Farmclub.com"
+  },
+  "tvChannel": "Universal TV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 410,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 555,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "kittie_18_03_2000_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "21777489.jpg",
+      "externalId": "15SAlmz5hirhxTTSdnUwQt5Dsba4xok51"
+    },
+    {
+      "folder": "15",
+      "filename": "22196624.jpg",
+      "externalId": "11-Xk5EBUzVocOdHTNMGT0ADuwBeM2jUF"
+    },
+    {
+      "folder": "15",
+      "filename": "93925576.jpg",
+      "externalId": "1EZOhgqxFDwvNmjAwNKqTmrdIdJWhwLED"
+    },
+    {
+      "folder": "15",
+      "filename": "60775295.jpg",
+      "externalId": "127Ci0F7-MYuNOL_T8DNn3X2F4GCkLPy-"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Brackish",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

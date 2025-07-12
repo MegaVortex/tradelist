@@ -1,0 +1,171 @@
+{
+  "originalTitle": "Eagles - 12.01.1998 - New York - NY - USA - Waldorf Astoria - Hall Of Fame Ceremony",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Eagles"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "01",
+    "year": "1998"
+  },
+  "startDateUnix": 884563200,
+  "endDate": {
+    "day": "12",
+    "month": "01",
+    "year": "1998"
+  },
+  "endDateUnix": 884563200,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Waldorf Astoria",
+    "event": "Hall Of Fame Ceremony"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 686,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1171,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "eagles_xx_xx_1973_video",
+    "eagles_10_03_1973_source_2_video",
+    "eagles_23_08_1973_video",
+    "eagles_06_04_1974_video",
+    "eagles_03_08_1973_video"
+  ],
+  "childOf": "Eagles - [1973-1998] - The Ultimate",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "03955839.jpg",
+      "externalId": "1RoyOrHpgJygP7LHBmdl1dGfpRaJDHFpi"
+    },
+    {
+      "folder": "29",
+      "filename": "01384912.jpg",
+      "externalId": "1Vlnps0nKxkZj2em0oHXH_1a72veWMTwA"
+    },
+    {
+      "folder": "29",
+      "filename": "12025271.jpg",
+      "externalId": "1Q4cU8H-e8vwkx7mb9hzZ91DbT6DvBCRD"
+    },
+    {
+      "folder": "29",
+      "filename": "88938145.jpg",
+      "externalId": "1Rj_scAMfGmwDBKTSzTOR-47ysGboLs-v"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Take It Easy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Hotel California",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Hotel California (promo)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 2,
+      "song": "The Long Run (promo)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 3,
+      "song": "I Can't Tell You Why (promo)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 4,
+      "song": "In The City (promo)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 3,
+      "song": "I Can't Tell You Why (promo)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

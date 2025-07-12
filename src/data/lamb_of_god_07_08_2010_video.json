@@ -1,0 +1,173 @@
+{
+  "originalTitle": "Lamb Of God - 07.08.2010 - Burgettstown - PA - USA - First Niagra Pavillion",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Lamb Of God"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "08",
+    "year": "2010"
+  },
+  "startDateUnix": 1281139200,
+  "endDate": {
+    "day": "07",
+    "month": "08",
+    "year": "2010"
+  },
+  "endDateUnix": 1281139200,
+  "location": {
+    "city": "Burgettstown",
+    "state": "PA",
+    "country": "USA",
+    "venue": "First Niagra Pavillion",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.21,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2567,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "five_finger_death_punch_07_08_2010_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "37",
+      "filename": "26206296.jpg",
+      "externalId": "19hIFfUJak3bWuSHUMMk_xIG-2nM_-Dv9"
+    },
+    {
+      "folder": "37",
+      "filename": "92439906.jpg",
+      "externalId": "1D2Dm5UDCk1ukuVKHRl7elxHUSC60KGJ9"
+    },
+    {
+      "folder": "37",
+      "filename": "22484771.jpg",
+      "externalId": "1cnytDccozX5dPC123417jZ_Nwm63bXsw"
+    },
+    {
+      "folder": "37",
+      "filename": "79368042.jpg",
+      "externalId": "1E7N-0CwmX5lwGZUDovFkX7SXUJYqckq3"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "In Your Words",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Set To Fail",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Walk With Me In Hell",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Now You've Got Something To Die For",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Laid To Rest",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Redneck",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Black Label",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

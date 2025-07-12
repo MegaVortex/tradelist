@@ -1,0 +1,252 @@
+{
+  "originalTitle": "Iron Maiden - 25.06.2013 - Amsterdam - Netherlands - Ziggo Dome",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Iron Maiden"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "06",
+    "year": "2013"
+  },
+  "startDateUnix": 1372118400,
+  "endDate": {
+    "day": "25",
+    "month": "06",
+    "year": "2013"
+  },
+  "endDateUnix": 1372118400,
+  "location": {
+    "city": "Amsterdam",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 4.92,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5272,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "72",
+      "filename": "04950762.jpg",
+      "externalId": "1TTj2atSGBXpLAxpfbSc6TGbIbm3QseJe"
+    },
+    {
+      "folder": "72",
+      "filename": "35100264.jpg",
+      "externalId": "1j5B19L23mX7TdJiHF2gCcqEC_-QVVPFB"
+    },
+    {
+      "folder": "72",
+      "filename": "66713613.jpg",
+      "externalId": "12DtI8AHBDOfuDsaVHxg7i7C7lX_MXbM4"
+    },
+    {
+      "folder": "72",
+      "filename": "17177595.jpg",
+      "externalId": "1knJpNPSOxD4S9vs7uFhOUtoEw3Rwmd2O"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Moonchild",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Can I Play With Madness",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Prisoner",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "2 Minutes To Midnight",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Afraid To Shoot Strangers",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Trooper",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "The Number Of The Beast",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Phantom Of The Opera",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Run To The Hills",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Wasted Years",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Seventh Son Of A Seventh Son",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "The Clairvoyant",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Fear Of The Dark",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Iron Maiden",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Churchill's Speech",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "Aces High",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 17,
+      "song": "The Evil That Men Do",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 18,
+      "song": "Running Free",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,128 @@
+{
+  "originalTitle": "Alice Cooper - 23.10.2012 - London - England - BBC Television Centre - Jools Holland Show (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Alice Cooper"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "10",
+    "year": "2012"
+  },
+  "startDateUnix": 1350950400,
+  "endDate": {
+    "day": "23",
+    "month": "10",
+    "year": "2012"
+  },
+  "endDateUnix": 1350950400,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Television Centre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jools Holland Show",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Series 41, Episode 5. Live Show - Broadcast on the 23rd October 2012.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 502,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": null,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "type": "",
+      "extra": "",
+      "medium": ""
+    }
+  },
+  "relatedShows": [
+    "alice_cooper_23_10_2012_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "50",
+      "filename": "31444931.jpg",
+      "externalId": "1M0WjEd7ZyDOxrVf4FD1bwrs2B2pppgiy"
+    },
+    {
+      "folder": "50",
+      "filename": "34034817.jpg",
+      "externalId": "1j7A2jSdmwEVk5RgzgKn_DhirGv9TmXjA"
+    },
+    {
+      "folder": "50",
+      "filename": "03054181.jpg",
+      "externalId": "1VAoeY9Dc4m7IDxe2n4qU4KGt0xU8ASUC"
+    },
+    {
+      "folder": "50",
+      "filename": "54798057.jpg",
+      "externalId": "1wzxpkpM8rrdjBC26vxYTw8btHnn6g3em"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "School's Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "I'll Bite Your Face Off",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

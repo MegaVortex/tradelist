@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Bon Jovi - 28.07.1995 - Providence - RI - USA - Waterplace Park",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "07",
+    "year": "1995"
+  },
+  "startDateUnix": 806889600,
+  "endDate": {
+    "day": "28",
+    "month": "07",
+    "year": "1995"
+  },
+  "endDateUnix": 806889600,
+  "location": {
+    "city": "Providence",
+    "state": "RI",
+    "country": "USA",
+    "venue": "Waterplace Park",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Acoustic set.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.71,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1514,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "76",
+      "filename": "34112933.jpg",
+      "externalId": "1h6JhZY9V3I1N6CuSX5fkIOC38ZerAp0y"
+    },
+    {
+      "folder": "76",
+      "filename": "56309373.jpg",
+      "externalId": "1L3wg7UxbFDSSPx41qHTp2O2ovzFKBtgx"
+    },
+    {
+      "folder": "76",
+      "filename": "79315434.jpg",
+      "externalId": "1d5X-h9kLfI6n7APMihH0CJrLqMww2YwP"
+    },
+    {
+      "folder": "76",
+      "filename": "75158971.jpg",
+      "externalId": "1EquiD-csaD8EPEsBLOfgslzWmJV-FOOw"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "That's All Right",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Arthur Crudup"
+    },
+    {
+      "order": 2,
+      "song": "Someday I'll Be Saturday Night",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Love For Sale",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Livin' On A Prayer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Wanted Dead Or Alive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "I'll Sleep When I'm Dead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

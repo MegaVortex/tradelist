@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Elton John - 10.02.2013 - Los Angeles - CA - USA - Staples Center - Grammy Awards",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Elton John"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "02",
+    "year": "2013"
+  },
+  "startDateUnix": 1360454400,
+  "endDate": {
+    "day": "10",
+    "month": "02",
+    "year": "2013"
+  },
+  "endDateUnix": 1360454400,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Staples Center",
+    "event": "Grammy Awards"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 352,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 185,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "76676548.jpg",
+      "externalId": "1PPyv7tFg7NHDJrU9GIaauex95sBH5Sjf"
+    },
+    {
+      "folder": "73",
+      "filename": "31733980.jpg",
+      "externalId": "1zheFBjP-kfqsX8Mcci5lbyxVDd0BOxmP"
+    },
+    {
+      "folder": "73",
+      "filename": "48826339.jpg",
+      "externalId": "1dvlUHaNEV1DGLubar-6R9tX4CAFZk_-M"
+    },
+    {
+      "folder": "73",
+      "filename": "68984845.jpg",
+      "externalId": "1u0a_XO3OJcqYU0foAdsNyv-2eMUIP2mR"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The A Team",
+      "feat": "Ed Sheeran",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Marilyn Manson - 26.05.2001 - Foxboro - MA - USA - Gilette Stadium - WBNC River Rave (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "05",
+    "year": "2001"
+  },
+  "startDateUnix": 990835200,
+  "endDate": {
+    "day": "26",
+    "month": "05",
+    "year": "2001"
+  },
+  "endDateUnix": 990835200,
+  "location": {
+    "city": "Foxboro",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Gilette Stadium",
+    "event": "WBNC River Rave"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "SBD audio.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.46,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2286,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "62",
+      "filename": "41162621.jpg",
+      "externalId": "1rZJPq9P1-qvFKFYJFJnlh39HoRtseT_A"
+    },
+    {
+      "folder": "62",
+      "filename": "80775798.jpg",
+      "externalId": "1bxkMdH5qtH2bD8z4DCJHrAx2PgPyZb6K"
+    },
+    {
+      "folder": "62",
+      "filename": "95828528.jpg",
+      "externalId": "10argYDvvHXP34d-hPBkB90SWCav596GX"
+    },
+    {
+      "folder": "62",
+      "filename": "60310353.jpg",
+      "externalId": "1RX8Xl0BKw7o-9Va56kvaDb8aSw0BXIFn"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Count To Six And Die",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Hate Anthem",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Astonishing Panorama",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Disposable Teens",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "The Dope Show",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Fight Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Rock Is Dead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "The Nobodies",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Sweet Dreams (Are Made Of This) (Eurythmics cover)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "The Beautiful People",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

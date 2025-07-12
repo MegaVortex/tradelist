@@ -1,0 +1,151 @@
+{
+  "originalTitle": "Foo Fighters - 08.09.2011 - Burbank - CA - USA - Warner Brothers Studios - Conan O'Brien Show (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "09",
+    "year": "2011"
+  },
+  "startDateUnix": 1315440000,
+  "endDate": {
+    "day": "08",
+    "month": "09",
+    "year": "2011"
+  },
+  "endDateUnix": 1315440000,
+  "location": {
+    "city": "Burbank",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Warner Brothers Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Conan O'Brien Show",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.11,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1206,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "foo_fighters_16_03_2011_source_2_video",
+    "foo_fighters_09_04_2011_source_2_video",
+    "foo_fighters_11_04_2011_video",
+    "foo_fighters_12_04_2011_video_misc",
+    "foo_fighters_12_04_2011_source_2_video",
+    "foo_fighters_05_06_2011_video",
+    "foo_fighters_28_08_2011_video_misc",
+    "foo_fighters_07_09_2011_video_misc",
+    "foo_fighters_16_03_2011_source_1_video",
+    "foo_fighters_27_09_2011_source_2_video",
+    "foo_fighters_15_11_2011_video"
+  ],
+  "childOf": "Foo Fighters - [2011] - USA TV Appearances",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "39214487.jpg",
+      "externalId": "1tV3FKKq5ViellbT-JLl0e4ypu5_dHmeZ"
+    },
+    {
+      "folder": "28",
+      "filename": "57643198.jpg",
+      "externalId": "1kblNtGq-MWaRD2Hw2UXf6s04WIkVzk-e"
+    },
+    {
+      "folder": "28",
+      "filename": "60884410.jpg",
+      "externalId": "1-Fsx_BMBviNQSECx5uwKimMnVi7QpEdh"
+    },
+    {
+      "folder": "28",
+      "filename": "70644465.jpg",
+      "externalId": "1GUaaIJFutxjniRjEnFnWDGpUxT_YUU09"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Walk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Dear Rosemary",
+      "feat": "Bob Mould",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

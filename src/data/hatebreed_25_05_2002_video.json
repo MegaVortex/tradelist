@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Hatebreed - 25.05.2002 - Somerset - WI - USA - Float-Rite Amphitheater",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Hatebreed"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "05",
+    "year": "2002"
+  },
+  "startDateUnix": 1022284800,
+  "endDate": {
+    "day": "25",
+    "month": "05",
+    "year": "2002"
+  },
+  "endDateUnix": 1022284800,
+  "location": {
+    "city": "Somerset",
+    "state": "WI",
+    "country": "USA",
+    "venue": "Float-Rite Amphitheater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.15,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1963,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "22",
+      "filename": "01856319.jpg",
+      "externalId": "12PnUYbPh8dBMFFM-6d7q_Dks64WYJ1WD"
+    },
+    {
+      "folder": "22",
+      "filename": "09854634.jpg",
+      "externalId": "17vfouIEic4gaYCH7iAIYsvoKdx1pv8HW"
+    },
+    {
+      "folder": "22",
+      "filename": "46949552.jpg",
+      "externalId": "1qcrI749HSuYC-5lVgyYwJ_iaZ-Kri55l"
+    },
+    {
+      "folder": "22",
+      "filename": "82214287.jpg",
+      "externalId": "1kCaRGBEjtCGw4N7XCRKiJbGrP62b5PHy"
+    }
+  ],
+  "setlist": []
+}

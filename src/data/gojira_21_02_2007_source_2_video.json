@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Gojira - 21.02.2007 - Flagstaff - AZ - USA - The Orpheum Theater (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Gojira"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "02",
+    "year": "2007"
+  },
+  "startDateUnix": 1172016000,
+  "endDate": {
+    "day": "21",
+    "month": "02",
+    "year": "2007"
+  },
+  "endDateUnix": 1172016000,
+  "location": {
+    "city": "Flagstaff",
+    "state": "AZ",
+    "country": "USA",
+    "venue": "The Orpheum Theater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Horrible sound.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.44,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2723,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "81059134.jpg",
+      "externalId": "1rEW89PfiJA6c2jz7jW9l19XhCEBCqZib"
+    },
+    {
+      "folder": "18",
+      "filename": "56628167.jpg",
+      "externalId": "15jMDLyomxNAYqEE9BxiFq9sSM75O-MYJ"
+    },
+    {
+      "folder": "18",
+      "filename": "11730406.jpg",
+      "externalId": "1BR5DKupuDd14cFKLidnYsTfCnZBySFqS"
+    },
+    {
+      "folder": "18",
+      "filename": "29718637.jpg",
+      "externalId": "1jfVJBb_tWa-A4sRpYE-Dhwi-8IesGHJ1"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Ocean Planet",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Backbone",
+      "feat": "Randy Blythe",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Rememberance",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Clone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Flying Whales",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Inward Movement",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Wisdom Comes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Чиж & Co. - xx.xx.xxxx - Омск - Россия",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Чиж & Co."
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Омск",
+    "state": "",
+    "country": "Россия",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 481,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3008,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "Xvid",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 386,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "33518086.jpg",
+      "externalId": "14INy1eGw1y9EXSaXSWSas1oKXOWB-YQT"
+    },
+    {
+      "folder": "20",
+      "filename": "53071750.jpg",
+      "externalId": "11oA5TCfyaXAleft4evkT515XbOUbZ9DJ"
+    },
+    {
+      "folder": "20",
+      "filename": "36557548.jpg",
+      "externalId": "1Loe4tnBi3W7zsTuSTZoKOOeVk-VmFn0C"
+    },
+    {
+      "folder": "20",
+      "filename": "88499657.jpg",
+      "externalId": "1wirOJqVWRID_v8p6YW_N7-6re4tDVcHp"
+    }
+  ],
+  "setlist": []
+}

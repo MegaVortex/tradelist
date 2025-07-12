@@ -1,0 +1,82 @@
+{
+  "originalTitle": "Deftones - 30.08.2013 - Wiesen - Austria - Festivalgelande - 2 Days A Week Festival [AUDIO]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Deftones"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "08",
+    "year": "2013"
+  },
+  "startDateUnix": 1377820800,
+  "endDate": {
+    "day": "30",
+    "month": "08",
+    "year": "2013"
+  },
+  "endDateUnix": 1377820800,
+  "location": {
+    "city": "Wiesen",
+    "state": "",
+    "country": "Austria",
+    "venue": "",
+    "event": "Festivalgelande - 2 Days A Week Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "audio"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "SP-CMC-4U (low sens mod) mounted on cap > H140 (rockboxed) > WAV > Adobe Audition (levels & normalization) > Audacity (tracking, bass boost & fading) > FLAC8 (dbpoweramp).",
+  "tapers": [
+    "FotherMucker"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 451,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 4186,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": []
+}

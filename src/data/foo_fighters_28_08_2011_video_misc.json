@@ -1,0 +1,137 @@
+{
+  "originalTitle": "Foo Fighters - 28.08.2011 - Los Angeles - CA - USA - Nokia Theatre - MTV Video Music Awards [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "08",
+    "year": "2011"
+  },
+  "startDateUnix": 1314489600,
+  "endDate": {
+    "day": "28",
+    "month": "08",
+    "year": "2011"
+  },
+  "endDateUnix": 1314489600,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Nokia Theatre",
+    "event": "MTV Video Music Awards"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 174,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 212,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "foo_fighters_16_03_2011_source_2_video",
+    "foo_fighters_09_04_2011_source_2_video",
+    "foo_fighters_11_04_2011_video",
+    "foo_fighters_12_04_2011_video_misc",
+    "foo_fighters_12_04_2011_source_2_video",
+    "foo_fighters_05_06_2011_video",
+    "foo_fighters_16_03_2011_source_1_video",
+    "foo_fighters_07_09_2011_video_misc",
+    "foo_fighters_08_09_2011_source_3_video",
+    "foo_fighters_27_09_2011_source_2_video",
+    "foo_fighters_15_11_2011_video"
+  ],
+  "childOf": "Foo Fighters - [2011] - USA TV Appearances",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "92613663.jpg",
+      "externalId": "1sUDLweekgNsdrHuBhshKrsv97F36iLxZ"
+    },
+    {
+      "folder": "28",
+      "filename": "38864320.jpg",
+      "externalId": "16LMIxEXk5LgS86yP1BEkte1rZMt72fm1"
+    },
+    {
+      "folder": "28",
+      "filename": "59993289.jpg",
+      "externalId": "1Usmcrq0yqxJ_jI2toTfHs9UgjISekjZH"
+    },
+    {
+      "folder": "28",
+      "filename": "11627746.jpg",
+      "externalId": "1FjWJK-2jVAh6bhSFTkNTvDbpTnbpg1q2"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Award Acceptance",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

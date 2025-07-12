@@ -1,0 +1,212 @@
+{
+  "originalTitle": "Mastodon - 25.09.2015 - Rio De Janeiro - Brazil - Cidade Do Rock - Rock In Rio",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Mastodon"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "09",
+    "year": "2015"
+  },
+  "startDateUnix": 1443139200,
+  "endDate": {
+    "day": "25",
+    "month": "09",
+    "year": "2015"
+  },
+  "endDateUnix": 1443139200,
+  "location": {
+    "city": "Rio De Janeiro",
+    "state": "",
+    "country": "Brazil",
+    "venue": "Cidade Do Rock",
+    "event": "Rock In Rio"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.2,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3544,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "HD",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "71",
+      "filename": "46051996.jpg",
+      "externalId": "1RC5njA6HN0St-ZTC595TtQAeRbLwld_K"
+    },
+    {
+      "folder": "71",
+      "filename": "38037843.jpg",
+      "externalId": "1qL2P-LbV-KhiVVg85aKg0D9ye-iGbR1v"
+    },
+    {
+      "folder": "71",
+      "filename": "76987420.jpg",
+      "externalId": "1XHZhT_-Kq_YlBuJbTBXd7NWDKG7ha8mp"
+    },
+    {
+      "folder": "71",
+      "filename": "88876473.jpg",
+      "externalId": "1oAnbe0-RUHM5bE_vgSAGGiU7n5ueJfPF"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Tread Lightly",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Once More 'Round The Sun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Blasteroid",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Motherload",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Chimes At Midnight",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "High Road",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Aqua Dementia",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Halloween",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Bladecatcher",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Black Tongue",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Ember City",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Crystal Skull",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Blood And Thunder",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

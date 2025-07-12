@@ -1,0 +1,139 @@
+{
+  "originalTitle": "Gojira - 10.07.2015 - Aix-Les-Bains - France - Esplanade Du Lac - Musilac Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Gojira"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "07",
+    "year": "2015"
+  },
+  "startDateUnix": 1436486400,
+  "endDate": {
+    "day": "10",
+    "month": "07",
+    "year": "2015"
+  },
+  "endDateUnix": 1436486400,
+  "location": {
+    "city": "Aix-Les-Bains",
+    "state": "",
+    "country": "France",
+    "venue": "Esplanade Du Lac",
+    "event": "Musilac Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 481,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 851,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "1440x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 62,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 62,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "72",
+      "filename": "89709036.jpg",
+      "externalId": "1XrSX1V3IsNSbe4omx_Nq_wxNVyr803z5"
+    },
+    {
+      "folder": "72",
+      "filename": "01601639.jpg",
+      "externalId": "1jScKCP-G6QKaMV2Qx2KUdfuIsZqwSnAI"
+    },
+    {
+      "folder": "72",
+      "filename": "39116084.jpg",
+      "externalId": "14tazK97WvVJJOsecyxWYO1iIRRqeMWho"
+    },
+    {
+      "folder": "72",
+      "filename": "75659837.jpg",
+      "externalId": "1BJZhhFbbeRYw22zcAu5xLBxj8FCh-V9s"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Ocean Planet",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Backbone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Heaviest Matter Of The Universe",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

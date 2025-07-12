@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Bon Jovi - 27.09.2002 - London - England - BBC Studios - Top Of The Pops",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "09",
+    "year": "2002"
+  },
+  "startDateUnix": 1033084800,
+  "endDate": {
+    "day": "27",
+    "month": "09",
+    "year": "2002"
+  },
+  "endDateUnix": 1033084800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Top Of The Pops",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.38,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3784,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "bon_jovi_10_11_2002_video_misc",
+    "bon_jovi_xx_05_2002_video",
+    "bon_jovi_xx_09_2002_london_england_bbc_studios_sean_rowley_show_video_misc",
+    "bon_jovi_10_10_2002_video",
+    "bon_jovi_xx_06_2003_video",
+    "bon_jovi_14_09_2002_video",
+    "bon_jovi_26_01_2003_video"
+  ],
+  "childOf": "Bon Jovi - [2002-2003] - TV Appearances",
+  "images": [
+    {
+      "folder": "76",
+      "filename": "97535785.jpg",
+      "externalId": "1Pu1ahfYUr0LrIuqKiEVZv3Gl-phzKgYf"
+    },
+    {
+      "folder": "76",
+      "filename": "79224849.jpg",
+      "externalId": "1lau8AZ7k28TJIfOuqr3mcHKmqXW2-aDE"
+    },
+    {
+      "folder": "76",
+      "filename": "30365788.jpg",
+      "externalId": "1lQrtYWok2YnYXbkoMfo6dhZKDN-Lqj-X"
+    },
+    {
+      "folder": "76",
+      "filename": "38576924.jpg",
+      "externalId": "1kD7W4_1-O14Y2b4VOPgHB9NHrHISe04y"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Everyday",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

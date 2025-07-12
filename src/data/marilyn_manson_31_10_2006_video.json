@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Marilyn Manson - 31.10.2006 - Burbank - CA - USA - NBC Studios - Jay Leno Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "10",
+    "year": "2006"
+  },
+  "startDateUnix": 1162252800,
+  "endDate": {
+    "day": "31",
+    "month": "10",
+    "year": "2006"
+  },
+  "endDateUnix": 1162252800,
+  "location": {
+    "city": "Burbank",
+    "state": "CA",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Jay Leno Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 461,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 221,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "62",
+      "filename": "73036081.jpg",
+      "externalId": "16x_0kOsgp2dygBlzCdEabsdNDOTBsk-a"
+    },
+    {
+      "folder": "62",
+      "filename": "50428344.jpg",
+      "externalId": "1uY3BIEUK8akZBUV12q5IYyAsmhxMxJa6"
+    },
+    {
+      "folder": "62",
+      "filename": "04289134.jpg",
+      "externalId": "1jdjB9EeAfUSMg5wQbQBpiXH_l9dSttLq"
+    },
+    {
+      "folder": "62",
+      "filename": "18619677.jpg",
+      "externalId": "147tGRML3EBe2KvZ6qBFsFGF-Zm9SDaTG"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "This Is Halloween",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Danny Elfman"
+    }
+  ],
+  "extras": []
+}

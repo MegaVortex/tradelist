@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Foo Fighters - 20.11.2014 - Austin - TX - USA - Moody Theater - Austin City Limits (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "11",
+    "year": "2014"
+  },
+  "startDateUnix": 1416441600,
+  "endDate": {
+    "day": "20",
+    "month": "11",
+    "year": "2014"
+  },
+  "endDateUnix": 1416441600,
+  "location": {
+    "city": "Austin",
+    "state": "TX",
+    "country": "USA",
+    "venue": "Moody Theater",
+    "event": "Austin City Limits"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 4.82,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3247,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "67",
+      "filename": "31362248.jpg",
+      "externalId": "1_lVG0MNoLTkpwYLB1kOot4xXmZyllDtx"
+    },
+    {
+      "folder": "67",
+      "filename": "31987596.jpg",
+      "externalId": "1-eU_KQ4YZntgMw8Wz2ojqPwxwZ6NGsz9"
+    },
+    {
+      "folder": "67",
+      "filename": "24067968.jpg",
+      "externalId": "1qkRxgQt6ILcu9gv-OeMFE48sic4U5CmS"
+    },
+    {
+      "folder": "67",
+      "filename": "06485681.jpg",
+      "externalId": "1LwrUS4izBZ2swwDPpFVFj3lKitfjxY69"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Times Like These",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Feast And The Famine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Rope",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Congregation",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "What Did I Do?/God As My Witness",
+      "feat": "Gary Clark Jr.",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Tuff Enuff  (with Jimmie Vaughan and Gary Clark Jr.)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "The Fabulous Thunderbirds"
+    },
+    {
+      "order": 7,
+      "song": "I'll Stick Around",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Walk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Best Of You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

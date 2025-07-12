@@ -1,0 +1,204 @@
+{
+  "originalTitle": "Агата Кристи - 26.09.1993 - Николаев - Украина - ТРК 'Норма'",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Агата Кристи"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "09",
+    "year": "1993"
+  },
+  "startDateUnix": 749001600,
+  "endDate": {
+    "day": "26",
+    "month": "09",
+    "year": "1993"
+  },
+  "endDateUnix": 749001600,
+  "location": {
+    "city": "Николаев",
+    "state": "",
+    "country": "Украина",
+    "venue": "ТРК 'Норма'",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Рандеву М.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.61,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3475,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "768x576",
+        "bitrateType": "",
+        "bitrateKbps": 3736,
+        "fps": "25",
+        "standard": "Xvid",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 256,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "VCD",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "77",
+      "filename": "89538478.jpg",
+      "externalId": "1MeM0542UtHcboKEsJIcURoZ2oSZADYlM"
+    },
+    {
+      "folder": "77",
+      "filename": "21980912.jpg",
+      "externalId": "1aA5QS6TZi4UPk0b6o3TDMxo1sdRZU1vp"
+    },
+    {
+      "folder": "77",
+      "filename": "45747136.jpg",
+      "externalId": "1SYQQQFlvHqGzaipmrWqRTcOpgZKQFs4S"
+    },
+    {
+      "folder": "77",
+      "filename": "16168890.jpg",
+      "externalId": "1o8SNccxiRzs8BYyPCqLQ3kOqgVIc8cut"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Айлавью",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Пантера",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Новый Год",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Вива, Кальман",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Праздник Семьи",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Шпа-ла-ла-ла",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Пулемет Максим",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Позорная Звезда",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Декаданс",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Мотоциклетка",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Сирота",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Собачье Сердце",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

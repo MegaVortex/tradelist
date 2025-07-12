@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Korn - 11.06.2000 - Nuerburg - Germany - Nuerburgring - Rock Am Ring (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "06",
+    "year": "2000"
+  },
+  "startDateUnix": 960681600,
+  "endDate": {
+    "day": "11",
+    "month": "06",
+    "year": "2000"
+  },
+  "endDateUnix": 960681600,
+  "location": {
+    "city": "Nuerburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Nuerburgring",
+    "event": "Rock Am Ring"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.47,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1434,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "42",
+      "filename": "05550678.jpg",
+      "externalId": "1qjj3F3tG0gPFtl92nEzSFV3Pt7Jk8Hyy"
+    },
+    {
+      "folder": "42",
+      "filename": "94695711.jpg",
+      "externalId": "1g7aKO-V-Y7zF2eFQA-TvVnWbuqXlQG5r"
+    },
+    {
+      "folder": "42",
+      "filename": "31453354.jpg",
+      "externalId": "1lofypfuVD683D8iZ07dJgPDQXO9TO1Yv"
+    },
+    {
+      "folder": "42",
+      "filename": "83204898.jpg",
+      "externalId": "1cnPjJQ4sAdoffAAGXf6enK66YoSN-Bc4"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Got The Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Make Me Bad",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Somebody Someone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "It's On",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Blind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Freak On A Leash",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

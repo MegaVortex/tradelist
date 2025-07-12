@@ -1,0 +1,123 @@
+{
+  "originalTitle": "Korn - xx.xx.1996 - USA - Lollapalooza - MuchMusic TV [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1996"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1996"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "Lollapalooza",
+    "venue": "MuchMusic TV",
+    "event": ""
+  },
+  "tvChannel": "MuchMusic",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 451,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 537,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_28_08_1998_video_misc",
+    "korn_xx_09_1998_boston_ma_usa_usa_waaf_tv_real_rock_korn_kampaign_video_misc",
+    "korn_xx_07_1997_source_3_video",
+    "korn_xx_09_1996_boston_ma_usa_usa_waaf_tv_real_rock_video_misc",
+    "korn_xx_xx_1998_usa_making_of_freak_on_a_leash_video_misc"
+  ],
+  "childOf": "korn_xx_xx_xxxx_misc_7_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "72484635.jpg",
+      "externalId": "1I8Z-SHSC1U9i74Qwjr9pCYJs8LgG29T7"
+    },
+    {
+      "folder": "15",
+      "filename": "19410758.jpg",
+      "externalId": "1CeoDc5EpjZdQ5hNVmze--8ZVI-0ruvnh"
+    },
+    {
+      "folder": "15",
+      "filename": "57542672.jpg",
+      "externalId": "1Kd4S4bhZfFSh0PxucXxM56mVeFYc1K7P"
+    },
+    {
+      "folder": "15",
+      "filename": "85199871.jpg",
+      "externalId": "1wvKnIh3oVaCibxSo3OSXss7cWIkll2Y2"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

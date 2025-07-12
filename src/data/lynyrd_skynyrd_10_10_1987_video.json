@@ -1,0 +1,228 @@
+{
+  "originalTitle": "Lynyrd Skynyrd - 10.10.1987 - New Haven - CT - USA - Veterans Memorial Coliseum",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Lynyrd Skynyrd"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "10",
+    "year": "1987"
+  },
+  "startDateUnix": 560822400,
+  "endDate": {
+    "day": "10",
+    "month": "10",
+    "year": "1987"
+  },
+  "endDateUnix": 560822400,
+  "location": {
+    "city": "New Haven",
+    "state": "CT",
+    "country": "USA",
+    "venue": "Veterans Memorial Coliseum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.14,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5819,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "71",
+      "filename": "86162013.jpg",
+      "externalId": "126XKYPm3qxZk4jdoEF96GoIYeBgARmbV"
+    },
+    {
+      "folder": "71",
+      "filename": "39383484.jpg",
+      "externalId": "1KLUcVqwckA993NMJ4tkbyIevs5NQ5n5x"
+    },
+    {
+      "folder": "71",
+      "filename": "48537193.jpg",
+      "externalId": "1VyNKVAXWlT2XNhnFLqGhV7_INaDJ-_Tc"
+    },
+    {
+      "folder": "71",
+      "filename": "35495503.jpg",
+      "externalId": "1USBJe0kL2Q6LzH3f_IXgyn5xPNj97LD3"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Workin' For MCA",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "I Ain't The One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Saturday Night Special",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Needle And The Spoon",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "That Smell",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "I Know A Little",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Gimme Three Steps",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Call Me The Breeze",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "J.J. Cale"
+    },
+    {
+      "order": 9,
+      "song": "Swamp Music",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "You Got That Right",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "What's Your Name",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Gimme Back My Bullets",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Simple Man",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Sweet Home Alabama",
+      "feat": "Charlie Daniels",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Free Bird",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

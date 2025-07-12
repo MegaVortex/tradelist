@@ -1,0 +1,116 @@
+{
+  "originalTitle": "A Perfect Circle - 27.10.2010 - Los Angeles - CA - USA - Bud Light Outdoor Stage - Jimmy Kimmel Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "A Perfect Circle"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "10",
+    "year": "2010"
+  },
+  "startDateUnix": 1288137600,
+  "endDate": {
+    "day": "27",
+    "month": "10",
+    "year": "2010"
+  },
+  "endDateUnix": 1288137600,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Bud Light Outdoor Stage",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jimmy Kimmel Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "ABC broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 545,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 211,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "59.94",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "74",
+      "filename": "24564710.jpg",
+      "externalId": "1NzpCdP5xdEe5Oxtmz0dnIJ_r-MbUpVrb"
+    },
+    {
+      "folder": "74",
+      "filename": "67032762.jpg",
+      "externalId": "1k4k3UrlfO_04VFT7pnvegpt4zedEULqx"
+    },
+    {
+      "folder": "74",
+      "filename": "59780774.jpg",
+      "externalId": "1gvpbbbvwIVMTAUhkLKtfEVTpLeY9o9l4"
+    },
+    {
+      "folder": "74",
+      "filename": "15411226.jpg",
+      "externalId": "15SVbqCQO-PW2uvBGvTpGElGFTOSAYuTY"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Weak And Powerless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

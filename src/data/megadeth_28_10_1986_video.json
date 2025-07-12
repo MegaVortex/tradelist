@@ -1,0 +1,196 @@
+{
+  "originalTitle": "Megadeth - 28.10.1986 - Detroit - MI - USA - Token Lounge",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Megadeth"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "10",
+    "year": "1986"
+  },
+  "startDateUnix": 530841600,
+  "endDate": {
+    "day": "28",
+    "month": "10",
+    "year": "1986"
+  },
+  "endDateUnix": 530841600,
+  "location": {
+    "city": "Detroit",
+    "state": "MI",
+    "country": "USA",
+    "venue": "Token Lounge",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.63,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3117,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "83696247.jpg",
+      "externalId": "1B1nk8R1az5pNRLt9n4_50CJS0nO72HFT"
+    },
+    {
+      "folder": "19",
+      "filename": "04727242.jpg",
+      "externalId": "1cy_uKAxmUthUQ8WV9JMAliQv020kW2nA"
+    },
+    {
+      "folder": "19",
+      "filename": "26846446.jpg",
+      "externalId": "1NbuSFdQfAQX-QdU97yvypncoeRL_loh3"
+    },
+    {
+      "folder": "19",
+      "filename": "43260284.jpg",
+      "externalId": "1kwUsTiNFeRA5u3iJdB9OQkLWdIRMHH_G"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Rattlehead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wake Up Dead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Conjuring",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Peace Sells",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "These Boots",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Devil's Island",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Killing Is My Business",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Bad Omen",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "My Last Words",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Mechanix",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Last Rites / Loved To Deth",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

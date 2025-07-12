@@ -1,0 +1,182 @@
+{
+  "originalTitle": "Callisto - 28.09.2009 - Moscow - Russia - Ikra",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Callisto"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "09",
+    "year": "2009"
+  },
+  "startDateUnix": 1254096000,
+  "endDate": {
+    "day": "28",
+    "month": "09",
+    "year": "2009"
+  },
+  "endDateUnix": 1254096000,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Ikra",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "2 cam mix.",
+  "tapers": [
+    "Toki"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.14,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4657,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "68",
+      "filename": "55412078.jpg",
+      "externalId": "1y0Mei_OdyuAuOZHLR_eoEkRIeerRN2Ln"
+    },
+    {
+      "folder": "68",
+      "filename": "19398266.jpg",
+      "externalId": "1RXbFCzMEknge6Dln75qMOH605Nxo5CaE"
+    },
+    {
+      "folder": "68",
+      "filename": "71964079.jpg",
+      "externalId": "1De7iKIsfp5SmjnUMNJImVoeSlzeupbIq"
+    },
+    {
+      "folder": "68",
+      "filename": "01216200.jpg",
+      "externalId": "18BeB5vbqsxx40qRWPR0GJvqRqoVFheUA"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Drying Mouths (In A Gasping Land)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Limb: Diasporas",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Rule The Blood",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Covenant Colours",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "The Fugitive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "In Session",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Wormwood",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Providence",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Cold Stare",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Marilyn Manson - xx.xx.1997 - USA - MTV Year In Rock [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1997"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1997"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "MTV Year In Rock",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.2,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4251,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "marilyn_manson_05_02_1997_video_misc",
+    "marilyn_manson_xx_02_1997_usa_mtv_news_video_misc",
+    "marilyn_manson_xx_xx_1996_usa_mtv_week_in_rock_video_misc",
+    "marilyn_manson_13_02_1998_video_misc",
+    "marilyn_manson_19_02_1998_video_misc",
+    "marilyn_manson_xx_xx_1998_new_york_ny_usa_fox_news_judith_regan_show_video_misc"
+  ],
+  "childOf": "Marilyn Manson - [MISC 1 - Compilation]",
+  "images": [
+    {
+      "folder": "44",
+      "filename": "09361267.jpg",
+      "externalId": "10a6nHxYerKSvccQXoifard-0nD5Rs-kF"
+    },
+    {
+      "folder": "44",
+      "filename": "70898269.jpg",
+      "externalId": "1NSzKYK8qzzUBh_3GQx1uN90tV4sSOKH1"
+    },
+    {
+      "folder": "44",
+      "filename": "40239886.jpg",
+      "externalId": "117ZSdDGW8bS-JOxvQGVgVe1VFDU7pEfP"
+    },
+    {
+      "folder": "44",
+      "filename": "72887053.jpg",
+      "externalId": "1zAL72movaZzyr9VwSWUYXcJQOKYnwP9b"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Live Footage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

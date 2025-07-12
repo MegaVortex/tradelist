@@ -1,0 +1,129 @@
+{
+  "originalTitle": "Fear Factory - 17.08.1996 - Donington - England - Monsters Of Rock",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Fear Factory"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "08",
+    "year": "1996"
+  },
+  "startDateUnix": 840240000,
+  "endDate": {
+    "day": "17",
+    "month": "08",
+    "year": "1996"
+  },
+  "endDateUnix": 840240000,
+  "location": {
+    "city": "Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Monsters Of Rock",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MTV Report.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 481,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 479,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "fear_factory_02_06_1995_video",
+    "fear_factory_09_07_1996_video",
+    "fear_factory_20_06_1998_video_misc",
+    "fear_factory_22_06_1996_video_misc"
+  ],
+  "childOf": "Fear Factory - [1995-1998] - TV Appearances",
+  "images": [
+    {
+      "folder": "41",
+      "filename": "89408707.jpg",
+      "externalId": "1v8g8itTCm269WGuLoyKZ8bzVS-oAbWmq"
+    },
+    {
+      "folder": "41",
+      "filename": "73462109.jpg",
+      "externalId": "19i_bYLuQEiA61OWJyOXCXzCMaQpOTkMv"
+    },
+    {
+      "folder": "41",
+      "filename": "34049592.jpg",
+      "externalId": "1QTURouj4tZzVr3PrOGbzsO5d0U0SjSO1"
+    },
+    {
+      "folder": "41",
+      "filename": "75385366.jpg",
+      "externalId": "1bpjc2fwSqoQ4nPhOZSHWy8X9VT-YlpSh"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Scumgreif",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,135 @@
+{
+  "originalTitle": "Аквариум - 08.06.2013 - Petra-Dubrava - Samara - Russia - Rock Over Volga",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Аквариум"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "06",
+    "year": "2013"
+  },
+  "startDateUnix": 1370649600,
+  "endDate": {
+    "day": "08",
+    "month": "06",
+    "year": "2013"
+  },
+  "endDateUnix": 1370649600,
+  "location": {
+    "city": "Petra-Dubrava",
+    "state": "",
+    "country": "Samara",
+    "venue": "Russia",
+    "event": "Rock Over Volga"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.39,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 5421,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "MPG"
+    }
+  },
+  "relatedShows": [
+    "chizh_co_08_06_2013_source_3_video",
+    "alisa_08_06_2013_video"
+  ],
+  "childOf": "various_artists_08_06_2013_video_compilation",
+  "images": [
+    {
+      "folder": "78",
+      "filename": "14618634.jpg",
+      "externalId": "1tThw4J7D4f3-7Ixb1K-PHN5xcgjj6JdE"
+    },
+    {
+      "folder": "78",
+      "filename": "93668408.jpg",
+      "externalId": "1rx3xzFWoxzgZf7_KzNimOWieXoJun1E5"
+    },
+    {
+      "folder": "78",
+      "filename": "73959672.jpg",
+      "externalId": "11ddy7i7GGRAqgVDonqokiXLS5nuVBNgX"
+    },
+    {
+      "folder": "78",
+      "filename": "15773071.jpg",
+      "externalId": "1_BOrwYxmRgsj82ygr0TOSdbZ5rBDWqSE"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Максим-Лесник",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Растаманы Из Глубинки",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "2-12-85-06",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

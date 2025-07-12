@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Bon Jovi - 25.01.1993 - Los Angeles - CA - USA - Shrine Auditorium - American Music Awards",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "01",
+    "year": "1993"
+  },
+  "startDateUnix": 727920000,
+  "endDate": {
+    "day": "25",
+    "month": "01",
+    "year": "1993"
+  },
+  "endDateUnix": 727920000,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Shrine Auditorium",
+    "event": "American Music Awards"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Official DVD - NT.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 328,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 578,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "21056826.jpg",
+      "externalId": "1LB31t1IhgR33pQmKaD2iUx-dOSrOQQAK"
+    },
+    {
+      "folder": "27",
+      "filename": "37976885.jpg",
+      "externalId": "1Cf3aOw6S_1R3h8GI4QjDP1q8Ajou6bmF"
+    },
+    {
+      "folder": "27",
+      "filename": "55548754.jpg",
+      "externalId": "1D0co3ZawiAaFWmBVXyYxek1ICou-bOC4"
+    },
+    {
+      "folder": "27",
+      "filename": "05802227.jpg",
+      "externalId": "1q6ZUTXJphrFKP1JI9TPCTxQE5cXGaY5w"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Bed Of Roses",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

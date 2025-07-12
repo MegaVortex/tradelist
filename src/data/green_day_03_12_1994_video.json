@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Green Day - 03.12.1994 - New York - NY - USA - Rockefeller Center - Saturday Night Live",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Green Day"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "12",
+    "year": "1994"
+  },
+  "startDateUnix": 786412800,
+  "endDate": {
+    "day": "03",
+    "month": "12",
+    "year": "1994"
+  },
+  "endDateUnix": 786412800,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Rockefeller Center",
+    "event": "Saturday Night Live"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.23,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2601,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "green_day_17_03_1994_video",
+    "green_day_06_06_1994_video",
+    "green_day_29_06_1994_video",
+    "green_day_08_09_1994_video",
+    "green_day_15_10_1994_video",
+    "green_day_22_10_1994_video",
+    "green_day_16_03_1994_video"
+  ],
+  "childOf": "Green Day - [1994] - Dookie-Era TV Appearances",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "62195466.jpg",
+      "externalId": "17FQsj8xr95TC5yYrOFMTFg955tRNk66r"
+    },
+    {
+      "folder": "69",
+      "filename": "28478514.jpg",
+      "externalId": "1RKHIuHGStgNr0wuQ_fWqJ87emG7N_fCL"
+    },
+    {
+      "folder": "69",
+      "filename": "17864926.jpg",
+      "externalId": "1J84-MqUP86Nki7PJsKZXhjEgPzTW4wJL"
+    },
+    {
+      "folder": "69",
+      "filename": "75892685.jpg",
+      "externalId": "1Wzg-d_dCYEopaiCWrGK4uafM4OcCoZeo"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "When I Come Around",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Geek Stink Breath",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

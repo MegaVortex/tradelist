@@ -1,0 +1,200 @@
+{
+  "originalTitle": "Amy Winehouse - 18.09.2004 - Baden-Baden - Germany - Theater - New Pop Festival (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Amy Winehouse"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "09",
+    "year": "2004"
+  },
+  "startDateUnix": 1095465600,
+  "endDate": {
+    "day": "18",
+    "month": "09",
+    "year": "2004"
+  },
+  "endDateUnix": 1095465600,
+  "location": {
+    "city": "Baden-Baden",
+    "state": "",
+    "country": "Germany",
+    "venue": "Theater",
+    "event": "New Pop Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "SWR3 broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.38,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2607,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "amy_winehouse_01_11_2007_video",
+    "amy_winehouse_04_07_2008_video",
+    "amy_winehouse_22_07_2007_video"
+  ],
+  "childOf": "Amy Winehouse - [2004-2007] - TV Appearances",
+  "images": [
+    {
+      "folder": "44",
+      "filename": "95277150.jpg",
+      "externalId": "1TLrde7rsm5jpCjT37KM4iDDdsXiS_ViL"
+    },
+    {
+      "folder": "44",
+      "filename": "08079580.jpg",
+      "externalId": "1BoRuchnZAou06HsWOyMC3A-pjslm5vCH"
+    },
+    {
+      "folder": "44",
+      "filename": "68402711.jpg",
+      "externalId": "17TxObSfHY5eiHKdLdlDTQbyjqy3dRcdk"
+    },
+    {
+      "folder": "44",
+      "filename": "97129332.jpg",
+      "externalId": "1vkRA1r-rxvMqHBPN4eBTD23f3McXUXq8"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "October Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "You Sent Me Flying",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "In My Bed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Take The Box",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Love Is Blind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Brother",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Mr. Magic",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "(There Is) No Greater Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Stronger Than Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Fuck Me Pumps",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

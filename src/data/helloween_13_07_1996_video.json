@@ -1,0 +1,127 @@
+{
+  "originalTitle": "Helloween - 13.07.1996 - Weert - Netherlands - Sportpark Boshoven - Bospop Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Helloween"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "07",
+    "year": "1996"
+  },
+  "startDateUnix": 837216000,
+  "endDate": {
+    "day": "13",
+    "month": "07",
+    "year": "1996"
+  },
+  "endDateUnix": 837216000,
+  "location": {
+    "city": "Weert",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Sportpark Boshoven",
+    "event": "Bospop Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.21,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1987,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "joe_satriani_13_07_1996_video",
+    "iron_maiden_13_07_1996_video"
+  ],
+  "childOf": "various_artists_13_07_1996_video_compilation",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "18227782.jpg",
+      "externalId": "13mp2LYNwoiNbnKs8MuajWH7KVbk-SJ_o"
+    },
+    {
+      "folder": "60",
+      "filename": "97319641.jpg",
+      "externalId": "1RsTfV7UGpkQfkEYJNJglVdhV3Mj5RggE"
+    },
+    {
+      "folder": "60",
+      "filename": "82155780.jpg",
+      "externalId": "1h90467UCgtNW4U1pH3dHH12KhiLaQZVa"
+    },
+    {
+      "folder": "60",
+      "filename": "95542362.jpg",
+      "externalId": "15TSDIwzSfF3fqx2aLgoo0fC_7l6ZDRdN"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Power",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,120 @@
+{
+  "originalTitle": "Kurt Cobain - 26.09.1992 - Valencia - CA - USA - Castaic Lake Natural Amphitheater (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Kurt Cobain"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "09",
+    "year": "1992"
+  },
+  "startDateUnix": 717465600,
+  "endDate": {
+    "day": "26",
+    "month": "09",
+    "year": "1992"
+  },
+  "endDateUnix": 717465600,
+  "location": {
+    "city": "Valencia",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Castaic Lake Natural Amphitheater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.31,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3050,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "kurt_cobain_mudhoney_26_09_1992_source_1_video",
+    "mudhoney_26_09_1992_video",
+    "sonic_youth_26_09_1992_video"
+  ],
+  "childOf": "various_artists_26_09_1992_video_compilation",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "98930348.jpg",
+      "externalId": "1xqz7WpywVLr0cRMHsZZuNQ-Uv-xqOlAb"
+    },
+    {
+      "folder": "15",
+      "filename": "89022962.jpg",
+      "externalId": "1MO-IF5wps3xCkvXXmf0RIlin_dsDmcDR"
+    },
+    {
+      "folder": "15",
+      "filename": "41110510.jpg",
+      "externalId": "1VYWkOsf5ogIIVvP7Zk_n41xoN5nRc2kO"
+    },
+    {
+      "folder": "15",
+      "filename": "52324353.jpg",
+      "externalId": "1GdV9ydcaL4J-6nVflvr4nBqb06Vtg8sr"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Where Did You Sleep Last Night?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,164 @@
+{
+  "originalTitle": "AC-DC - 25.03.1988 - Stockholm - Sweden - Isstadium",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "AC/DC"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "03",
+    "year": "1988"
+  },
+  "startDateUnix": 575251200,
+  "endDate": {
+    "day": "25",
+    "month": "03",
+    "year": "1988"
+  },
+  "endDateUnix": 575251200,
+  "location": {
+    "city": "Stockholm",
+    "state": "",
+    "country": "Sweden",
+    "venue": "Isstadium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.78,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2487,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "44",
+      "filename": "56955050.jpg",
+      "externalId": "1gZ6_v0v8CMSOo2RQWhpTO8jK9a1kKMsf"
+    },
+    {
+      "folder": "44",
+      "filename": "98828953.jpg",
+      "externalId": "1P3LwCQ7hY1wosqOxp8YGpSbELrjNiWU1"
+    },
+    {
+      "folder": "44",
+      "filename": "43053345.jpg",
+      "externalId": "1VvPwCydn-oglfQ7q3o6mYNsqxvilvQD-"
+    },
+    {
+      "folder": "44",
+      "filename": "58504025.jpg",
+      "externalId": "12fOVgXJqnfgKQDLLncm-HkaHqYa3VKiP"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Who Made Who",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Shoot To Thrill",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Dirty Deeds Done Dirt Cheap",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Back In Black",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Heatseeker",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Jailbreak",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Hells Bells",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

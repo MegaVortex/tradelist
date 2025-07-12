@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Deep Purple - 01.03.1972 - Copenhagen - Denmark",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Deep Purple"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "03",
+    "year": "1972"
+  },
+  "startDateUnix": 68256000,
+  "endDate": {
+    "day": "01",
+    "month": "03",
+    "year": "1972"
+  },
+  "endDateUnix": 68256000,
+  "location": {
+    "city": "Copenhagen",
+    "state": "",
+    "country": "Denmark",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "VCD sourced. Official video - NT.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 686,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 5642,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "512x384",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "DivX",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 109,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "2",
+      "filename": "79633.jpg",
+      "externalId": "1bvQmNqacBBW8rkrcEyoyPXNdbrPwfoTD"
+    },
+    {
+      "folder": "2",
+      "filename": "81444.jpg",
+      "externalId": "18VKKDWP5rzu8WWDO37WvsAnYu6wcJhgH"
+    },
+    {
+      "folder": "2",
+      "filename": "98361.jpg",
+      "externalId": "12Ql52Ft0Lhl4F7xmjiTzxGT4Uyh22yCK"
+    },
+    {
+      "folder": "2",
+      "filename": "33415.jpg",
+      "externalId": "1haJ1YM5woq2BiJyya-VWsKzu0Ull6Tfh"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Highway Star",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Strange Kind of Woman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Child in Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Mule",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Lazy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Space Truckin'",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Fireball",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Lucille (Albert Collins, Richard Penniman)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Black Night",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

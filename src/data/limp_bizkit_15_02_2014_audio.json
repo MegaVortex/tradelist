@@ -1,0 +1,196 @@
+{
+  "originalTitle": "Limp Bizkit - 15.02.2014 - Newcastle - England - O2 Academy [AUDIO]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "02",
+    "year": "2014"
+  },
+  "startDateUnix": 1392422400,
+  "endDate": {
+    "day": "15",
+    "month": "02",
+    "year": "2014"
+  },
+  "endDateUnix": 1392422400,
+  "location": {
+    "city": "Newcastle",
+    "state": "",
+    "country": "England",
+    "venue": "O2 Academy",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "audio"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Soundprofessionals SP-CMC-19 cardioids (mounted on cap) > iRiver H320 (CF mod, rockbox) > iRiver H320 > PC > Audacity (volume boost, bass boost +15dB, fade in/out) > CD Wave (splitting + output FLAC Highend Level 8).",
+  "tapers": [
+    "nowfacethetruth"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 461,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 4710,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "FLAC",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Ready To Go",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Welcome To The Jungle",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Guns N' Roses"
+    },
+    {
+      "order": 4,
+      "song": "Rollin' (Air Raid Vehicle)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Full Nelson",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Faith",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "George Michael"
+    },
+    {
+      "order": 7,
+      "song": "Hot Dog",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Gold Cobra",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "My Generation",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Livin' It Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Heart-Shaped Box  / Smells Like Teen Spirit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Nirvana"
+    },
+    {
+      "order": 12,
+      "song": "My Way",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Break Stuff",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Take A Look Around",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,230 @@
+{
+  "originalTitle": "Limp Bizkit - 27.10.2015 - Yuzhno-Sakhalinsk - Russia - Arena City",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "10",
+    "year": "2015"
+  },
+  "startDateUnix": 1445904000,
+  "endDate": {
+    "day": "27",
+    "month": "10",
+    "year": "2015"
+  },
+  "endDateUnix": 1445904000,
+  "location": {
+    "city": "Yuzhno-Sakhalinsk",
+    "state": "",
+    "country": "Russia",
+    "venue": "Arena City",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": true,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Few obstructions, shaky at times. \"Hot Dog\" song higly incomplete.",
+  "tapers": [
+    "Vortex"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 15.2,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5249,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "61",
+      "filename": "29271168.jpg",
+      "externalId": "1zR6vfXpU6QaNn8rCRZvNNqnr5XY-80tM"
+    },
+    {
+      "folder": "61",
+      "filename": "73947814.jpg",
+      "externalId": "1VZkDdDWq6iv8okXd310IWWrI6SiaMgOs"
+    },
+    {
+      "folder": "61",
+      "filename": "84733783.jpg",
+      "externalId": "1eJeyRDJnWQBBEfxLuOQsL3jInwcz0ZMI"
+    },
+    {
+      "folder": "61",
+      "filename": "80930650.jpg",
+      "externalId": "1XnMUBpQC1zelA21eDW931F1r7wJffP9u"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Why Try",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Rollin' (Air Raid Vehicle)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Hot Dog",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Full Nelson",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Nookie",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "My Generation",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Livin' It Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Boiler",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Re-Arranged",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Gold Cobra",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "My Way",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Behind Blue Eyes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "The Who"
+    },
+    {
+      "order": 13,
+      "song": "Smells Like Teen Spirit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Nirvana"
+    },
+    {
+      "order": 14,
+      "song": "Break Stuff",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Take A Look Around",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

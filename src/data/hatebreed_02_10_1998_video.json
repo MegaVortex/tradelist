@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Hatebreed - 02.10.1998 - Staten Island - NY - USA - The Cave",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Hatebreed"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "10",
+    "year": "1998"
+  },
+  "startDateUnix": 907286400,
+  "endDate": {
+    "day": "02",
+    "month": "10",
+    "year": "1998"
+  },
+  "endDateUnix": 907286400,
+  "location": {
+    "city": "Staten Island",
+    "state": "NY",
+    "country": "USA",
+    "venue": "The Cave",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.01,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1801,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "ill_nino_18_10_1998_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "30",
+      "filename": "73115984.jpg",
+      "externalId": "1CP0ozbFUS4g-fn6pMjYCeEi5a_6KollO"
+    },
+    {
+      "folder": "30",
+      "filename": "82234179.jpg",
+      "externalId": "1uB4BfPexx3iImxvfdzKRtHD8X7sc7z1U"
+    },
+    {
+      "folder": "30",
+      "filename": "78091192.jpg",
+      "externalId": "1v4I71NwMQwoowJx18UEi7OAQ2BJfhf5b"
+    },
+    {
+      "folder": "30",
+      "filename": "96405055.jpg",
+      "externalId": "169wBbg81S55yaPOtGynxtrN_qErorCQ7"
+    }
+  ],
+  "setlist": []
+}

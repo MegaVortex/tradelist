@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Jimi Hendrix - 25.05.1969 - San Jose - CA - USA - Santa Clara County Fairgrounds - Northern California Folk-Rock Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Jimi Hendrix"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "05",
+    "year": "1969"
+  },
+  "startDateUnix": -19094400,
+  "endDate": {
+    "day": "25",
+    "month": "05",
+    "year": "1969"
+  },
+  "endDateUnix": -19094400,
+  "location": {
+    "city": "San Jose",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Santa Clara County Fairgrounds",
+    "event": "Northern California Folk-Rock Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Resynced.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 61.44,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 73,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "8mm",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "93202180.jpg",
+      "externalId": "1u3mHLx4lkeGzPVNwkTHTJzXnGcIebKkw"
+    },
+    {
+      "folder": "60",
+      "filename": "59356489.jpg",
+      "externalId": "1l8fzGa0SxhRPviuRKxBs6crqKIXYQb3N"
+    },
+    {
+      "folder": "60",
+      "filename": "78165825.jpg",
+      "externalId": "1szaSgHkao5htEGyPuIMNusXqm3OGbVl9"
+    },
+    {
+      "folder": "60",
+      "filename": "40543256.jpg",
+      "externalId": "1c-qBgAbDOlIduuLnrheQmJm1WJ9ZmHk_"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Live Footage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

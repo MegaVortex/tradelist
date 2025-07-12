@@ -1,0 +1,114 @@
+{
+  "originalTitle": "Алиса - 11.06.2012 - Petra-Dubrava - Samara - Russia - Rock Over Volga",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Алиса"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "06",
+    "year": "2012"
+  },
+  "startDateUnix": 1339372800,
+  "endDate": {
+    "day": "11",
+    "month": "06",
+    "year": "2012"
+  },
+  "endDateUnix": 1339372800,
+  "location": {
+    "city": "Petra-Dubrava",
+    "state": "",
+    "country": "Samara",
+    "venue": "Russia",
+    "event": "Rock Over Volga"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "The sound is awful, you can't hear anything most of the time!",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.06,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2055,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "1440x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [
+    "yu_piter_11_06_2012_video",
+    "akvarium_11_06_2012_video",
+    "leningrad_11_06_2012_source_2_video",
+    "okean_el_zi_11_06_2012_video",
+    "igor_rasteryaev_11_06_2012_video",
+    "garbage_11_06_2012_source_2_video",
+    "various_artists_11_06_2012_video"
+  ],
+  "childOf": "various_artists_11_06_2012_video_compilation",
+  "images": [
+    {
+      "folder": "41",
+      "filename": "20026648.jpg",
+      "externalId": "1023XCJtl7-GgbMhDDQw4XiPQzUj6IHBe"
+    },
+    {
+      "folder": "41",
+      "filename": "18757552.jpg",
+      "externalId": "1t_0cy4tXgyDRNhRno_3rywVriAj3MHKb"
+    },
+    {
+      "folder": "41",
+      "filename": "37023571.jpg",
+      "externalId": "1bVbl5LL0T4LSMvFYpdqfaKW9HoTRQq5N"
+    },
+    {
+      "folder": "41",
+      "filename": "73756584.jpg",
+      "externalId": "1kdylC4lH-bSzWXgI4uTKw207Pvi9Istq"
+    }
+  ],
+  "setlist": []
+}

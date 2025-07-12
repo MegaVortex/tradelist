@@ -1,0 +1,152 @@
+{
+  "originalTitle": "Korn - 21.06.2007 - Bordeaux - France - Patinoire Meriadeck (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "06",
+    "year": "2007"
+  },
+  "startDateUnix": 1182384000,
+  "endDate": {
+    "day": "21",
+    "month": "06",
+    "year": "2007"
+  },
+  "endDateUnix": 1182384000,
+  "location": {
+    "city": "Bordeaux",
+    "state": "",
+    "country": "France",
+    "venue": "Patinoire Meriadeck",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete.",
+  "tapers": [
+    "Trash"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.1,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1172,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_21_06_2007_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "33347497.jpg",
+      "externalId": "156PZk45L8t65FYpllE_wQUeKhF3kAsOW"
+    },
+    {
+      "folder": "20",
+      "filename": "20926808.jpg",
+      "externalId": "1wNKL5d_PXrA8UYDk4i24tgWduqo98DK1"
+    },
+    {
+      "folder": "20",
+      "filename": "87640015.jpg",
+      "externalId": "1g_8USZivpyr6WVqJPR1RmiHajBh0L7V8"
+    },
+    {
+      "folder": "20",
+      "filename": "50336783.jpg",
+      "externalId": "1io1vlpwRayztQGsEOJ7dQ5FDq-wpHaBx"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro + Here To Stay",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Twist",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Good God",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Coming Undone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Falling Away From Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

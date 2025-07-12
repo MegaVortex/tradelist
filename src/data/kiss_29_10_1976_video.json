@@ -1,0 +1,138 @@
+{
+  "originalTitle": "Kiss - 29.10.1976 - USA - ABC Studios - Paul Lynde Halloween Special",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Kiss"
+  ],
+  "startDate": {
+    "day": "29",
+    "month": "10",
+    "year": "1976"
+  },
+  "startDateUnix": 215395200,
+  "endDate": {
+    "day": "29",
+    "month": "10",
+    "year": "1976"
+  },
+  "endDateUnix": 215395200,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "ABC Studios",
+    "venue": "Paul Lynde Halloween Special",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.12,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 5040,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "kiss_21_05_1974_video",
+    "kiss_10_01_1975_video",
+    "kiss_xx_03_1976_usa_detroit_tv_report_video_misc",
+    "kiss_02_08_1976_video_misc",
+    "kiss_06_12_1974_video"
+  ],
+  "childOf": "Kiss - [1974-1976] - TV Appearances",
+  "images": [
+    {
+      "folder": "32",
+      "filename": "68431785.jpg",
+      "externalId": "1LjjYS4tv53BKY3UZnIH_XuoB1y-v5uUE"
+    },
+    {
+      "folder": "32",
+      "filename": "19218983.jpg",
+      "externalId": "1mt0EFiIb6nkiOyEDOUFeE3n6ntqkbaLX"
+    },
+    {
+      "folder": "32",
+      "filename": "60902407.jpg",
+      "externalId": "1-gOJ9xGLSOWYFuUe4YE59Hev1YZSozTz"
+    },
+    {
+      "folder": "32",
+      "filename": "12070637.jpg",
+      "externalId": "1FiEhTmaslUI6CN7z8fuH3jraSC3vITHx"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Detroit Rock City",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Beth",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "King Of The Night Time World",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

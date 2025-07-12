@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Avril Lavigne - 12.11.2004 - Los Angeles - CA - USA - Hollywood Center Studios - Saturday Night",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Avril Lavigne"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "11",
+    "year": "2004"
+  },
+  "startDateUnix": 1100217600,
+  "endDate": {
+    "day": "12",
+    "month": "11",
+    "year": "2004"
+  },
+  "endDateUnix": 1100217600,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Hollywood Center Studios",
+    "event": "Saturday Night"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 154,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 244,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "36",
+      "filename": "87443675.jpg",
+      "externalId": "1vwQJvW2Hblpb9n5RdZTi5e6cHITdz2XA"
+    },
+    {
+      "folder": "36",
+      "filename": "31675487.jpg",
+      "externalId": "1UGOevBfnRAbE5xp1GOqkcEdXQhzbXA-l"
+    },
+    {
+      "folder": "36",
+      "filename": "80073822.jpg",
+      "externalId": "1BCPs-8YZmePQieh7IrthFuiaas3311WT"
+    },
+    {
+      "folder": "36",
+      "filename": "51653053.jpg",
+      "externalId": "1kDmLmDSXiDw0nHl2OoGSjjMV6V-acvVg"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Nobody's Home (acoustic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

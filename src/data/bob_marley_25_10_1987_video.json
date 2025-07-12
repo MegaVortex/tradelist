@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Bob Marley - 25.10.1987 - West 57th TV",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bob Marley"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "10",
+    "year": "1987"
+  },
+  "startDateUnix": 562118400,
+  "endDate": {
+    "day": "25",
+    "month": "10",
+    "year": "1987"
+  },
+  "endDateUnix": 562118400,
+  "location": {
+    "city": "West 57th TV",
+    "state": "",
+    "country": "",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Documentary. CBS broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.23,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1112,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "37403355.jpg",
+      "externalId": "1IZbBaV6htHDCqFk7DHn_Fh0DI33RyCPQ"
+    },
+    {
+      "folder": "6",
+      "filename": "32243680.jpg",
+      "externalId": "1bA8JEwq9EyAlgoTBZlpNz5KUoTh2kZMw"
+    },
+    {
+      "folder": "6",
+      "filename": "96012211.jpg",
+      "externalId": "1Q4Zym-0djeN6tyz_seQc5gd4U8OiO4AK"
+    },
+    {
+      "folder": "6",
+      "filename": "93572980.jpg",
+      "externalId": "1iwMcdRRk9EpO3frzNmnSZgbUhqbOy_H7"
+    }
+  ],
+  "setlist": []
+}

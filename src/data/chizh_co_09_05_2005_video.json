@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Чиж & Co. - 09.05.2005 - Россия - НТВ",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Чиж & Co."
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "05",
+    "year": "2005"
+  },
+  "startDateUnix": 1115596800,
+  "endDate": {
+    "day": "09",
+    "month": "05",
+    "year": "2005"
+  },
+  "endDateUnix": 1115596800,
+  "location": {
+    "city": "Россия",
+    "state": "",
+    "country": "НТВ",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 51.2,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 234,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "384x288",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "DivX",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 32000,
+        "bitrateKbps": 1024,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "85415699.jpg",
+      "externalId": "1mD9gG_oYk5w0E7mH5B71u8tbdxqHm9pm"
+    },
+    {
+      "folder": "19",
+      "filename": "91308163.jpg",
+      "externalId": "1-eoet6ma357rg5iQyJ873C4EeQ-vGINq"
+    },
+    {
+      "folder": "19",
+      "filename": "63423310.jpg",
+      "externalId": "1IPokHpVpFBwvpM2QcaQpYcp_KizhX5ol"
+    },
+    {
+      "folder": "19",
+      "filename": "38744306.jpg",
+      "externalId": "1EALMWN724M9hy-bFJ5zFoaz0cuWAtevI"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "На Поле Танки Грохотали",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

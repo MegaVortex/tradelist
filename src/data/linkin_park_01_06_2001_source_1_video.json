@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Linkin Park - 01.06.2001 - Nuernberg - Germany - Zeppelinfield - Rock Im Park (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "06",
+    "year": "2001"
+  },
+  "startDateUnix": 991353600,
+  "endDate": {
+    "day": "01",
+    "month": "06",
+    "year": "2001"
+  },
+  "endDateUnix": 991353600,
+  "location": {
+    "city": "Nuernberg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Zeppelinfield",
+    "event": "Rock Im Park"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 666,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 790,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "53928769.jpg",
+      "externalId": "1z0LvErZejdicS85-0uCaci3SEM_TZ5zv"
+    },
+    {
+      "folder": "29",
+      "filename": "86174691.jpg",
+      "externalId": "1h96ukqwN4qx_StYnrCXUnswVzbATkIP4"
+    },
+    {
+      "folder": "29",
+      "filename": "54618404.jpg",
+      "externalId": "1WZYHn2l71Bw96xZMijKqHWOaB-f0OwO4"
+    },
+    {
+      "folder": "29",
+      "filename": "42923824.jpg",
+      "externalId": "1XP8U9aC2mpsj48JXNpyxYnnHFrUtqG7E"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Runaway",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "Chester and Phoenix",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Crawling",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "In The End",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "One Step Closer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

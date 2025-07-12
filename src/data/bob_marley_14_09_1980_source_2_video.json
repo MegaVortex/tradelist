@@ -1,0 +1,120 @@
+{
+  "originalTitle": "Bob Marley - 14.09.1980 - Miami - FL - USA - Criteria Studios (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bob Marley"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "09",
+    "year": "1980"
+  },
+  "startDateUnix": 337737600,
+  "endDate": {
+    "day": "14",
+    "month": "09",
+    "year": "1980"
+  },
+  "endDateUnix": 337737600,
+  "location": {
+    "city": "Miami",
+    "state": "FL",
+    "country": "USA",
+    "venue": "Criteria Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Rehearsals.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 53,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 283,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "bob_marley_13_11_1979_video",
+    "bob_marley_24_10_1973_video",
+    "bob_marley_19_04_1980_video"
+  ],
+  "childOf": "Bob Marley & The Wailers - [1973-1980] - Live Performances & Rehearsals",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "31628227.jpg",
+      "externalId": "1kdIHnmUKphFec_BvvJNSpea5IgTcByWv"
+    },
+    {
+      "folder": "73",
+      "filename": "52427306.jpg",
+      "externalId": "1-uL7v0zPshOG_Q7jRy-2BDXmSStXf-Yv"
+    },
+    {
+      "folder": "73",
+      "filename": "00472894.jpg",
+      "externalId": "1jS7c1ddm68T921d6APHEbp1JufrPcE6i"
+    },
+    {
+      "folder": "73",
+      "filename": "92472242.jpg",
+      "externalId": "1lgSACNq00IxgdDt2jWWu6UZjs751EYmv"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "So Much Trouble",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

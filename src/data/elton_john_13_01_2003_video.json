@@ -1,0 +1,123 @@
+{
+  "originalTitle": "Elton John - 13.01.2003 - Los Angeles - CA - USA - Shrine Auditorium - American Music Awards",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Elton John"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "01",
+    "year": "2003"
+  },
+  "startDateUnix": 1042416000,
+  "endDate": {
+    "day": "13",
+    "month": "01",
+    "year": "2003"
+  },
+  "endDateUnix": 1042416000,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Shrine Auditorium",
+    "event": "American Music Awards"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 5.47,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4791,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "elton_john_20_02_1995_video",
+    "elton_john_03_12_1995_video",
+    "elton_john_13_04_1999_video",
+    "elton_john_23_02_2000_video",
+    "elton_john_10_02_2002_video",
+    "elton_john_27_03_1995_video"
+  ],
+  "childOf": "Elton John - [1995-2003] - TV Appearances",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "31591293.jpg",
+      "externalId": "1ICYIcU4-qFNhwkNVi8NamjY2-bcItfv9"
+    },
+    {
+      "folder": "73",
+      "filename": "51195541.jpg",
+      "externalId": "169RI5uD_v9H6BosckU9GLGD_KDVFJeBv"
+    },
+    {
+      "folder": "73",
+      "filename": "78472119.jpg",
+      "externalId": "1zLP8RSehpjmdIpapC5Cs9TNvdAvxByXb"
+    },
+    {
+      "folder": "73",
+      "filename": "20989966.jpg",
+      "externalId": "1cjdqXtxG7JTQtLK55fujdTFv91Zu66V1"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Tiny Dancer",
+      "feat": "Tim McGraw",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

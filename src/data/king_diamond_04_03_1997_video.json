@@ -1,0 +1,190 @@
+{
+  "originalTitle": "King Diamond - 04.03.1997 - Halmstad - Sweden - Diezel",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "King Diamond"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "03",
+    "year": "1997"
+  },
+  "startDateUnix": 857433600,
+  "endDate": {
+    "day": "04",
+    "month": "03",
+    "year": "1997"
+  },
+  "endDateUnix": 857433600,
+  "location": {
+    "city": "Halmstad",
+    "state": "",
+    "country": "Sweden",
+    "venue": "Diezel",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.32,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 8211,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "mercyful_fate_04_03_1997_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "47",
+      "filename": "37261692.jpg",
+      "externalId": "1HAtHr3XUzwg7qxw6RXmBcB_KF52tJBzQ"
+    },
+    {
+      "folder": "47",
+      "filename": "87258260.jpg",
+      "externalId": "1wwVyuoD7BM9OHHIs2tGERx5LwE4ouT2W"
+    },
+    {
+      "folder": "47",
+      "filename": "98072682.jpg",
+      "externalId": "1_ky7QRjLrInucHZtgSif04dpbfYoHoO4"
+    },
+    {
+      "folder": "47",
+      "filename": "19476848.jpg",
+      "externalId": "1WbbsGeO6NAvSANUoUGj82lSh32_iYMGk"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Welcome Home",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Sleepless Nights",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Spider's Lullaby",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Inquisition",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Waiting",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Meet Me At Midnight",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Trick Or Treat",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Up From The Grave",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Abigail",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Halloween",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

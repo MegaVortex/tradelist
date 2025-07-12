@@ -1,0 +1,224 @@
+{
+  "originalTitle": "Down - 18.06.2013 - Moscow - Russia - Arena Moscow",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Down"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "06",
+    "year": "2013"
+  },
+  "startDateUnix": 1371513600,
+  "endDate": {
+    "day": "18",
+    "month": "06",
+    "year": "2013"
+  },
+  "endDateUnix": 1371513600,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Arena Moscow",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": true,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Extended, with members of Montezuma's Revenge jamming the last 7 minutes.",
+  "tapers": [
+    "Vortex"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 10.1,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5156,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [
+    "montezuma_s_revenge_18_06_2013_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "47",
+      "filename": "82051692.jpg",
+      "externalId": "1kxc6QmGPZOlB4ikl0fqmshXbu8YgBu6G"
+    },
+    {
+      "folder": "47",
+      "filename": "26758797.jpg",
+      "externalId": "1pBckOwHjjuMOWLXsyxG0UBCekW2SCd8W"
+    },
+    {
+      "folder": "47",
+      "filename": "76536394.jpg",
+      "externalId": "1v-DQaRNY9PjIpCMvT2NTumfH2D6bRPmn"
+    },
+    {
+      "folder": "47",
+      "filename": "28707688.jpg",
+      "externalId": "1zZrWEGqEDbtzaZaA6afnIulmQeJAYfD9"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Eyes Of The South",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Witchtripper",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Lysergik Funeral Procession",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Lifer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Pillars Of Eternity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Temptation's Wings",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Ghosts Along The Mississippi",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Losing All",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "New Orleans Is A Dying Whore",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Underneath Everything",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Hail The Leaf",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Stone The Crow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Bury Me In Smoke",
+      "feat": "\"Montezuma's Revenge\"",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

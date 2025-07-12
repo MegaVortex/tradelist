@@ -1,0 +1,125 @@
+{
+  "originalTitle": "Korn - xx.xx.2002 - USA - MTV - Story Behind Untouchables (Source 1) [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2002"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2002"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "MTV",
+    "country": "Story Behind Untouchables",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 215,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 211,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "75752445.jpg",
+      "externalId": "1gGGkvKm89E8sgf2VpsS-jl6LtSSgYJLR"
+    },
+    {
+      "folder": "14",
+      "filename": "25418977.jpg",
+      "externalId": "1i-Yw_6xQRy1qJ6PwrGMoFIg7yUEXQdqJ"
+    },
+    {
+      "folder": "14",
+      "filename": "95026165.jpg",
+      "externalId": "1INcHcrnotCZdjVd7e-1fi4XCc7sHNxAD"
+    },
+    {
+      "folder": "14",
+      "filename": "95746126.jpg",
+      "externalId": "129WCcxwzuiX7ZlerMThL7rmjkTNnj3Hq"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Jonathan Davis",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "Munky",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Kittie - 10.05.2000 - Detroit - MI - USA",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Kittie"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "05",
+    "year": "2000"
+  },
+  "startDateUnix": 957916800,
+  "endDate": {
+    "day": "10",
+    "month": "05",
+    "year": "2000"
+  },
+  "endDateUnix": 957916800,
+  "location": {
+    "city": "Detroit",
+    "state": "MI",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.98,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 6114,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "kittie_22_02_2000_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "31",
+      "filename": "82803241.jpg",
+      "externalId": "1UCkocVIcBhNj4DxDZPp8LCkgn2dmJe6f"
+    },
+    {
+      "folder": "31",
+      "filename": "94318434.jpg",
+      "externalId": "18tP9gTqXmnnkaVr5zVyL5uU33AEXt-kx"
+    },
+    {
+      "folder": "31",
+      "filename": "56270926.jpg",
+      "externalId": "15xBeQVpihi9JfzYQn8JJy-50o3iIJNOM"
+    },
+    {
+      "folder": "31",
+      "filename": "79228564.jpg",
+      "externalId": "1DN0XYq0qQAlL7Oikn0UqjszNcejp0nr7"
+    }
+  ],
+  "setlist": []
+}

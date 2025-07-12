@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Linkin Park - 08.02.2006 - Los Angeles - CA - USA - Staples Center - Grammy Awards",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "02",
+    "year": "2006"
+  },
+  "startDateUnix": 1139356800,
+  "endDate": {
+    "day": "08",
+    "month": "02",
+    "year": "2006"
+  },
+  "endDateUnix": 1139356800,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Staples Center",
+    "event": "Grammy Awards"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "CBS broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 696,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 375,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "48",
+      "filename": "15518120.jpg",
+      "externalId": "1TLx1m8ojXcQ5KQc4XTDpgZnc4Tl-H9Li"
+    },
+    {
+      "folder": "48",
+      "filename": "61122950.jpg",
+      "externalId": "1q7HUOXYcBPnLvxrTk_fPtbN8qKRJjIuB"
+    },
+    {
+      "folder": "48",
+      "filename": "09770100.jpg",
+      "externalId": "1aYkK8nxv437U20w6UTCvRakAQKR7TXGo"
+    },
+    {
+      "folder": "48",
+      "filename": "01349029.jpg",
+      "externalId": "1WxmkoV9sfVKDmyV8BDbZeyZY7fLuiBWn"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Getting Award",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Numb/Encore  / Yesterday",
+      "feat": "Jay-Z",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

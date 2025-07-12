@@ -1,0 +1,176 @@
+{
+  "originalTitle": "Anthrax - 14.11.2021 - Daytona Beach - FL - USA - Daytona International Speedway - Welcome To Rockville",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Anthrax"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "11",
+    "year": "2021"
+  },
+  "startDateUnix": 1636848000,
+  "endDate": {
+    "day": "14",
+    "month": "11",
+    "year": "2021"
+  },
+  "endDateUnix": 1636848000,
+  "location": {
+    "city": "Daytona Beach",
+    "state": "FL",
+    "country": "USA",
+    "venue": "Daytona International Speedway",
+    "event": "Welcome To Rockville"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 19.3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 30916,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "23.976",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 193,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "HD",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [
+    "code_orange_14_11_2021_video",
+    "rob_zombie_12_11_2021_video",
+    "disturbed_13_11_2021_video"
+  ],
+  "childOf": "[VARIOUS ARTISTS] - [12.11.2021-14.11.2021] - Daytona Beach - FL - USA - Daytona International Speedway - Welcome To Rockville",
+  "images": [
+    {
+      "folder": "82",
+      "filename": "78301687.jpg",
+      "externalId": "1k2YXXuHt0pa-7YAtYTv6zjHV_4rBv2ts"
+    },
+    {
+      "folder": "82",
+      "filename": "63124160.jpg",
+      "externalId": "1Eh5nj7GuTYk68PX25cpo0LKKSVsqe8sr"
+    },
+    {
+      "folder": "82",
+      "filename": "85495324.jpg",
+      "externalId": "18XO157J4ini_2M0I9yhNfCuj1FodDgc1"
+    },
+    {
+      "folder": "82",
+      "filename": "02452992.jpg",
+      "externalId": "1_iaEJWhjqGXs5TNBW_AyTES97H2bNNwa"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Among The Living",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Got The Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Joe Jackson"
+    },
+    {
+      "order": 3,
+      "song": "Caught In A Mosh",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Madhouse",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Fight 'Em 'Til You Can't",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "I Am The Law",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Antisocial",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Trust"
+    },
+    {
+      "order": 8,
+      "song": "Indians",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

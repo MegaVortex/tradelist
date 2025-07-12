@@ -1,0 +1,166 @@
+{
+  "originalTitle": "Deftones - 02.06.2006 - Nuerburg - Germany - Nuerburgring - Rock Am Ring (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Deftones"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "06",
+    "year": "2006"
+  },
+  "startDateUnix": 1149206400,
+  "endDate": {
+    "day": "02",
+    "month": "06",
+    "year": "2006"
+  },
+  "endDateUnix": 1149206400,
+  "location": {
+    "city": "Nuerburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Nuerburgring",
+    "event": "Rock Am Ring"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "WDR broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.11,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3933,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_02_06_2006_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "53",
+      "filename": "21701365.jpg",
+      "externalId": "1aYjeTuE3ui-OzlDJmIu7zYyWIiiLJLBe"
+    },
+    {
+      "folder": "53",
+      "filename": "94423753.jpg",
+      "externalId": "1gwywHP6DM2OHWPC7cIiq-DeppbH2ee8g"
+    },
+    {
+      "folder": "53",
+      "filename": "96283216.jpg",
+      "externalId": "1SXZh8a5LO5Cx3aZQAPYjX_Jmtm5A-aYt"
+    },
+    {
+      "folder": "53",
+      "filename": "62538391.jpg",
+      "externalId": "1ULiV93GFt_Snts0kNFxkzPpCO-nNl8s_"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Be Quiet And Drive (Far Away)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "When Girls Telephone Boys",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Around The Fur",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Nosebleed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Root",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Birthmark",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "7 Words",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

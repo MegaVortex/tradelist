@@ -1,0 +1,140 @@
+{
+  "originalTitle": "30 Seconds To Mars - 15.10.2006 - Los Angeles - CA - USA - Fuse TV - Chainsaw Awards",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "30 Seconds To Mars"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "10",
+    "year": "2006"
+  },
+  "startDateUnix": 1160870400,
+  "endDate": {
+    "day": "15",
+    "month": "10",
+    "year": "2006"
+  },
+  "endDateUnix": 1160870400,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Fuse TV",
+    "event": "Chainsaw Awards"
+  },
+  "tvChannel": "Fuse TV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.81,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 7759,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "[VARIOUS ARTISTS] - 15.10.2006 - Los Angeles - CA - USA - Fuse TV - Chainsaw Awards",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "05955599.jpg",
+      "externalId": "1-tgpUfoVavXLhNJabJfdS9-R_7Vz5cVY"
+    },
+    {
+      "folder": "18",
+      "filename": "09156693.jpg",
+      "externalId": "1XD9PXT_yoUa93gEUmWyT0LxwpkAb-Sj8"
+    },
+    {
+      "folder": "18",
+      "filename": "32243715.jpg",
+      "externalId": "1B7nkZJDtWc_5KP-kC30qsww0k7Ojurq0"
+    },
+    {
+      "folder": "18",
+      "filename": "44266658.jpg",
+      "externalId": "1aiYYHwOa5NHKwFnnlgO_F1g9LVAHb0kl"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Speech",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Winners Announcement",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Kill (live performance)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Awarded",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

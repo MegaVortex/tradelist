@@ -1,0 +1,92 @@
+{
+  "originalTitle": "At The Drive-In - 27.07.2012 - Byron Bay - Australia - Belongil Fields - Splendour In The Grass [AUDIO]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "At The Drive-In"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "07",
+    "year": "2012"
+  },
+  "startDateUnix": 1343347200,
+  "endDate": {
+    "day": "27",
+    "month": "07",
+    "year": "2012"
+  },
+  "endDateUnix": 1343347200,
+  "location": {
+    "city": "Byron Bay",
+    "state": "",
+    "country": "Australia",
+    "venue": "Belongil Fields",
+    "event": "Splendour In The Grass"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "audio"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "iRiver iHP-120 > Sony Sound Forge 8 (Normalised Volume, Fade In/Out, Splits) > Trader's Little Helper > FLAC (Level 8).",
+  "tapers": [
+    "SeanceMascara"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 25.6,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 235,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Catacombs",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

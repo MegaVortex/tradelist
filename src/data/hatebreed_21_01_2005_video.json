@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Hatebreed - 21.01.2005 - Auckland - New Zealand - Mount Smart Stadium - Big Day Out",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Hatebreed"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "01",
+    "year": "2005"
+  },
+  "startDateUnix": 1106265600,
+  "endDate": {
+    "day": "21",
+    "month": "01",
+    "year": "2005"
+  },
+  "endDateUnix": 1106265600,
+  "location": {
+    "city": "Auckland",
+    "state": "",
+    "country": "New Zealand",
+    "venue": "Mount Smart Stadium",
+    "event": "Big Day Out"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.5,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2395,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "33",
+      "filename": "06476078.jpg",
+      "externalId": "19CxQd_vZerPMYoIZ0RiVMZ2xsTw-p4L9"
+    },
+    {
+      "folder": "33",
+      "filename": "06489845.jpg",
+      "externalId": "1QBehu_Rrp9Pde7UjzoobiAq26OE6C-uU"
+    },
+    {
+      "folder": "33",
+      "filename": "45017597.jpg",
+      "externalId": "17WWEmZL9iVtWDtf9Jz2c65Aegk-YMixT"
+    },
+    {
+      "folder": "33",
+      "filename": "41054986.jpg",
+      "externalId": "1YJ0O9JTXOzBC_oJtPShAhVl2_KYTgOT2"
+    }
+  ],
+  "setlist": []
+}

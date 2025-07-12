@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Black Bomb A - xx.xx.2001 - France",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Black Bomb A"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2001"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2001"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "France",
+    "state": "",
+    "country": "",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 71.68,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 415,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "352x288",
+        "bitrateType": "",
+        "bitrateKbps": 1150,
+        "fps": "25.00",
+        "standard": "MPEG1",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 224,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "VCD",
+      "fileFormat": "MPG"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "12439200.jpg",
+      "externalId": "1J90Sph2QGHjWlFh-6FDkxQrUIm3q1G3F"
+    },
+    {
+      "folder": "18",
+      "filename": "77661987.jpg",
+      "externalId": "1S996bMif7rbJHpIRf0Hko8Vph9SqC7IS"
+    },
+    {
+      "folder": "18",
+      "filename": "47929633.jpg",
+      "externalId": "1tBzSJWCRYufMMMEqaok7OUmkhwEjNuFk"
+    },
+    {
+      "folder": "18",
+      "filename": "09074793.jpg",
+      "externalId": "1bdRkgNOhjAZSuqBwXNMudJhnKQECB2-D"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Born To Die",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Everlast",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

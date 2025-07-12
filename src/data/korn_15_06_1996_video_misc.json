@@ -1,0 +1,123 @@
+{
+  "originalTitle": "Korn - 15.06.1996 - Irvine - CA - USA - KROQ Weenie Roast [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "06",
+    "year": "1996"
+  },
+  "startDateUnix": 834796800,
+  "endDate": {
+    "day": "15",
+    "month": "06",
+    "year": "1996"
+  },
+  "endDateUnix": 834796800,
+  "location": {
+    "city": "Irvine",
+    "state": "CA",
+    "country": "USA",
+    "venue": "KROQ Weenie Roast",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 307,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 161,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_xx_xx_1998_los_angeles_ca_usa_mtv_fanatic_show_source_1_video_misc",
+    "korn_xx_07_1997_source_2_video",
+    "korn_xx_xx_1995_usa_interview_with_rick_davis_source_1_video_misc",
+    "korn_24_07_1999_video_misc",
+    "korn_12_10_1999_source_3_video"
+  ],
+  "childOf": "korn_xx_xx_xxxx_misc_5_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "73580008.jpg",
+      "externalId": "1c9FqKHOHiCc1sVGH7qGYyzkrpS676JSd"
+    },
+    {
+      "folder": "15",
+      "filename": "10854983.jpg",
+      "externalId": "1uiu0tHBFwFDNFNjk2upoCjZTOWIZ2rv4"
+    },
+    {
+      "folder": "15",
+      "filename": "25884477.jpg",
+      "externalId": "14eBZlXr0cE3Dm0JWAkjpZ1wAXh9NukBL"
+    },
+    {
+      "folder": "15",
+      "filename": "66393132.jpg",
+      "externalId": "1ams_CW1JaAvHPG_c39FIO0-JsYOpqtWk"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

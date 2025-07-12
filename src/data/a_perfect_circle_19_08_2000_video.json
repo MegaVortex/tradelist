@@ -1,0 +1,196 @@
+{
+  "originalTitle": "A Perfect Circle - 19.08.2000 - New York - NY - USA - Roseland Ballroom",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "A Perfect Circle"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "08",
+    "year": "2000"
+  },
+  "startDateUnix": 966643200,
+  "endDate": {
+    "day": "19",
+    "month": "08",
+    "year": "2000"
+  },
+  "endDateUnix": 966643200,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Roseland Ballroom",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.57,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3318,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "81763642.jpg",
+      "externalId": "1HM7x0QvmWC2ZCYJcuAWxivTfyeNYhFZO"
+    },
+    {
+      "folder": "28",
+      "filename": "58398420.jpg",
+      "externalId": "1djpWjO4H9AK0kZCGphnaScQf_udNYSIF"
+    },
+    {
+      "folder": "28",
+      "filename": "67539063.jpg",
+      "externalId": "1YbNs3P7DISOyn41nnfeNhRAa2ve4JkFt"
+    },
+    {
+      "folder": "28",
+      "filename": "54482170.jpg",
+      "externalId": "11PKVZHMgf7duw_BXfH9dVRUcMPaxsl8I"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Magdelena",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Hollow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Sleeping Beauty",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "3 Libras",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Brena",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Orestes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Thinking Of You Thomas",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Rose",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Diary Of A Love Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Over",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Judith",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,107 @@
+{
+  "originalTitle": "Чиж & Co. - xx.xx.xxxx - Россия - TV [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Чиж & Co."
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Россия",
+    "state": "TV",
+    "country": "",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 78.85,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 428,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "352x240",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.21",
+        "standard": "Xvid",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 22050,
+        "bitrateKbps": 24,
+        "channels": 1
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "33938424.jpg",
+      "externalId": "1jCsQMGeUDczJfd4XR6NxkvZgQoR6BsYp"
+    },
+    {
+      "folder": "20",
+      "filename": "41607669.jpg",
+      "externalId": "1xI8EVe6nCYiqa8aeJGyqH6aMJHTiAEq0"
+    },
+    {
+      "folder": "20",
+      "filename": "61009067.jpg",
+      "externalId": "1aXC1xu2P1G-0SbLP06TJu0stbwei_b0Y"
+    },
+    {
+      "folder": "20",
+      "filename": "45321831.jpg",
+      "externalId": "1NBmePRSIyuv7c4dqsG58iWkv0eUIyY0X"
+    }
+  ],
+  "setlist": []
+}

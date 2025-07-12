@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Avril Lavigne - 14.08.2002 - Cleveland - OH - USA - Cleveland Public Hall - Rock & Roll Hall Of Fame",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Avril Lavigne"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "08",
+    "year": "2002"
+  },
+  "startDateUnix": 1029283200,
+  "endDate": {
+    "day": "14",
+    "month": "08",
+    "year": "2002"
+  },
+  "endDateUnix": 1029283200,
+  "location": {
+    "city": "Cleveland",
+    "state": "OH",
+    "country": "USA",
+    "venue": "Cleveland Public Hall",
+    "event": "Rock & Roll Hall Of Fame"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.41,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1278,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "77395668.jpg",
+      "externalId": "18zOrlTC-3g_z4cZdYnFvgT5_DajVNxWM"
+    },
+    {
+      "folder": "20",
+      "filename": "67101506.jpg",
+      "externalId": "1eOSIjdolVyNVjclGY6C-EhhXhSBuEi28"
+    },
+    {
+      "folder": "20",
+      "filename": "02789465.jpg",
+      "externalId": "1-UTpT7T8BdBkQY5U-Dg-b0CgBG4JwJtQ"
+    },
+    {
+      "folder": "20",
+      "filename": "55851219.jpg",
+      "externalId": "1h3BDN5mWOmKw4AJZMXF9RtHUwpwJUqaf"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Sk8er Boi",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Nobody's Fool",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Complicated",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Losing Grip",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Things I'll Never Say",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Unwanted",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

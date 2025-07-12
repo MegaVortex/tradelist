@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Korn - 26.02.1995 - Forth Worth - TX - USA - Engine Room",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "02",
+    "year": "1995"
+  },
+  "startDateUnix": 793756800,
+  "endDate": {
+    "day": "26",
+    "month": "02",
+    "year": "1995"
+  },
+  "endDateUnix": 793756800,
+  "location": {
+    "city": "Forth Worth",
+    "state": "TX",
+    "country": "USA",
+    "venue": "Engine Room",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.04,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1895,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "42",
+      "filename": "87826824.jpg",
+      "externalId": "1Z0e2iJ_zntjLaCHSahI9Mq2A9PMwbFLO"
+    },
+    {
+      "folder": "42",
+      "filename": "86691595.jpg",
+      "externalId": "1WEw01V7y5x9TqqPlrn89sgyZKRoN_N0G"
+    },
+    {
+      "folder": "42",
+      "filename": "72043339.jpg",
+      "externalId": "1KMzQgMYv83eKfwq1t_yDvJJCQlRoenIP"
+    },
+    {
+      "folder": "42",
+      "filename": "26995855.jpg",
+      "externalId": "17eS4A9NhwYOQ3cs-BT80cjdsqSt2YoHE"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Blind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Ball Tongue",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Need To",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Divine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Shoots And Ladders",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Lies",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Faget",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

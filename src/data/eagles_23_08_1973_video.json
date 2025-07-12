@@ -1,0 +1,130 @@
+{
+  "originalTitle": "Eagles - 23.08.1973 - New York - NY - USA - Central Park - Wollman Rink",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Eagles"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "08",
+    "year": "1973"
+  },
+  "startDateUnix": 114912000,
+  "endDate": {
+    "day": "23",
+    "month": "08",
+    "year": "1973"
+  },
+  "endDateUnix": 114912000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Central Park",
+    "event": "Wollman Rink"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 113,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 197,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "eagles_xx_xx_1973_video",
+    "eagles_10_03_1973_source_2_video",
+    "eagles_03_08_1973_video",
+    "eagles_06_04_1974_video",
+    "eagles_12_01_1998_video"
+  ],
+  "childOf": "Eagles - [1973-1998] - The Ultimate",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "53739618.jpg",
+      "externalId": "1P4zqj94rhuiosqfjzt7Vq7C3-ZrIvs7n"
+    },
+    {
+      "folder": "29",
+      "filename": "00456418.jpg",
+      "externalId": "1nU7LklCo6-vxniF2UXypkXs55ZzbsgkB"
+    },
+    {
+      "folder": "29",
+      "filename": "15919578.jpg",
+      "externalId": "1fI23O8DjCwsrix-mFTPRkUbVcK_MztQp"
+    },
+    {
+      "folder": "29",
+      "filename": "95088335.jpg",
+      "externalId": "1bA3O7JXrAxZQZ4V2QEaS2ZLVlrn35vXD"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Acapella Intro (from the folk song Come All Ye Fair And Tender Ladies)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Take It Easy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

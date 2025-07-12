@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Marilyn Manson - 13.06.2003 - London - England - BBC Studios - Top Of The Pops",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "06",
+    "year": "2003"
+  },
+  "startDateUnix": 1055462400,
+  "endDate": {
+    "day": "13",
+    "month": "06",
+    "year": "2003"
+  },
+  "endDateUnix": 1055462400,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Top Of The Pops",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 133,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 205,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "62",
+      "filename": "48677650.jpg",
+      "externalId": "1xxF1y6UXiWq1wApIe7s-KN-IepNKsgYc"
+    },
+    {
+      "folder": "62",
+      "filename": "13915536.jpg",
+      "externalId": "1uR2rP_9Wi7xOMOxYGerF8XZaK0T2hwck"
+    },
+    {
+      "folder": "62",
+      "filename": "23516464.jpg",
+      "externalId": "1foJL3pH7ECaS_20jsAiS0BbZowicebrw"
+    },
+    {
+      "folder": "62",
+      "filename": "25726658.jpg",
+      "externalId": "1TWL5KhnKpeBdD6mFe1ZAqPDzX79vvIYQ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "mOBSCENE",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

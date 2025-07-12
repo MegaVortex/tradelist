@@ -1,0 +1,123 @@
+{
+  "originalTitle": "Korn - 28.08.1998 - NJ - USA - MuchMusic TV Special - Korn Kampaign [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "08",
+    "year": "1998"
+  },
+  "startDateUnix": 904262400,
+  "endDate": {
+    "day": "28",
+    "month": "08",
+    "year": "1998"
+  },
+  "endDateUnix": 904262400,
+  "location": {
+    "city": "NJ",
+    "state": "USA",
+    "country": "MuchMusic TV Special",
+    "venue": "Korn Kampaign",
+    "event": ""
+  },
+  "tvChannel": "MuchMusic",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.45,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1886,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_xx_xx_1996_usa_lollapalooza_muchmusic_tv_video_misc",
+    "korn_xx_09_1998_boston_ma_usa_usa_waaf_tv_real_rock_korn_kampaign_video_misc",
+    "korn_xx_07_1997_source_3_video",
+    "korn_xx_09_1996_boston_ma_usa_usa_waaf_tv_real_rock_video_misc",
+    "korn_xx_xx_1998_usa_making_of_freak_on_a_leash_video_misc"
+  ],
+  "childOf": "korn_xx_xx_xxxx_misc_7_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "53058831.jpg",
+      "externalId": "1dycbquVbaVYYGk-w-M9RW1nueihhwwOj"
+    },
+    {
+      "folder": "15",
+      "filename": "29537692.jpg",
+      "externalId": "17vmfDYY1TwoGDW933cpa7-uxinTEAnKU"
+    },
+    {
+      "folder": "15",
+      "filename": "25587526.jpg",
+      "externalId": "1J8pBUQjhX-d-sFFCQ7RMrDApW3tvGOPj"
+    },
+    {
+      "folder": "15",
+      "filename": "11130117.jpg",
+      "externalId": "1ROf-XGCiaEBiBH7sG_mDg1rRZhlPMMpb"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview + TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

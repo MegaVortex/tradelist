@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Korn - 30.03.2007 - Hollywood - CA - USA - Kodak Theatre (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "03",
+    "year": "2007"
+  },
+  "startDateUnix": 1175212800,
+  "endDate": {
+    "day": "30",
+    "month": "03",
+    "year": "2007"
+  },
+  "endDateUnix": 1175212800,
+  "location": {
+    "city": "Hollywood",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Kodak Theatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Boost Mobile RockCorps.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 686,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 820,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "53",
+      "filename": "64629230.jpg",
+      "externalId": "1L3YAAc3jyLg8FFiHSnykw4uLw0qyN9AV"
+    },
+    {
+      "folder": "53",
+      "filename": "24602439.jpg",
+      "externalId": "1rLvt_nxuRqA9juRQyJ3Fn5-Lhq0fX-gB"
+    },
+    {
+      "folder": "53",
+      "filename": "78876014.jpg",
+      "externalId": "11Hms7ESbiy0CdP8XkFxkwpIoracZMlQF"
+    },
+    {
+      "folder": "53",
+      "filename": "58658571.jpg",
+      "externalId": "1-E1528fDpJqrxp1MFJ_PUapwqlqHLr8y"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Throw Me Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Coming Undone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Blind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

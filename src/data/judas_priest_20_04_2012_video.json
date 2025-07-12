@@ -1,0 +1,300 @@
+{
+  "originalTitle": "Judas Priest - 20.04.2012 - St. Petersburg - Russia - DS Yubileiniy",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Judas Priest"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "04",
+    "year": "2012"
+  },
+  "startDateUnix": 1334880000,
+  "endDate": {
+    "day": "20",
+    "month": "04",
+    "year": "2012"
+  },
+  "endDateUnix": 1334880000,
+  "location": {
+    "city": "St. Petersburg",
+    "state": "",
+    "country": "Russia",
+    "venue": "DS Yubileiniy",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete show, there are many cuts between tracks, during tracks (with only beginnings or endings of songs) and many songs are missing. The sound has some loudness distortion.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.96,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 4442,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "75",
+      "filename": "56913414.jpg",
+      "externalId": "14yKdkDvNciGdxd6gTwc083HkOh7JST8l"
+    },
+    {
+      "folder": "75",
+      "filename": "90825817.jpg",
+      "externalId": "1geebupD1od5T66lAed2Qo3WoMP-nWTd6"
+    },
+    {
+      "folder": "75",
+      "filename": "35733077.jpg",
+      "externalId": "1It5CpdYs8WmrgMoAPjtZV8LiJdl5ZvUk"
+    },
+    {
+      "folder": "75",
+      "filename": "75168866.jpg",
+      "externalId": "1XI97f1bn7JEW-Vy-kBjV4lAQLJDulpCf"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Battle Hymn",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Rapid Fire (no vocals)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Rapid Fire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Metal Gods",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Judas Rising",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Starbreaker",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Victim Of Changes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Never Satisfied",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Diamonds & Rust",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Joan Baez"
+    },
+    {
+      "order": 10,
+      "song": "Prophecy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Night Crawler",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Turbo Lover",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Beyond The Realms Of Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "The Sentinel",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Blood Red Skies",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "The Green Manalishi",
+      "feat": "The Two Prong Crown",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 17,
+      "song": "Breaking The Law",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 18,
+      "song": "Drum Solo",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 19,
+      "song": "Painkiller",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 20,
+      "song": "The Hellion",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 21,
+      "song": "Electric Eye",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 22,
+      "song": "Hell Bent For Leather",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 23,
+      "song": "You've Got Another Thing Comin'",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 24,
+      "song": "Living After Midnight",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

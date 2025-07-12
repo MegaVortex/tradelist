@@ -1,0 +1,106 @@
+{
+  "originalTitle": "At The Drive-In - xx.04.2000 - Wroclaw - Poland",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "At The Drive-In"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "04",
+    "year": "2000"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "04",
+    "year": "2000"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Wroclaw",
+    "state": "",
+    "country": "Poland",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Performed between 3rd and 7th april.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.56,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2620,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "23",
+      "filename": "27911824.jpg",
+      "externalId": "1UN_CM9A54CIdU7iwvoz2COE0EbENyzrc"
+    },
+    {
+      "folder": "23",
+      "filename": "09880671.jpg",
+      "externalId": "1ygCaWmQY2ks-o_UyeepmySsRmph_WXVK"
+    },
+    {
+      "folder": "23",
+      "filename": "52543155.jpg",
+      "externalId": "1-7-psKx4bT4yOM2CGwQh2LbfetpOdnZ5"
+    },
+    {
+      "folder": "23",
+      "filename": "28758255.jpg",
+      "externalId": "1vRZdHNe5gJN3sB4usbufcVcVjPHaOZuw"
+    }
+  ],
+  "setlist": []
+}

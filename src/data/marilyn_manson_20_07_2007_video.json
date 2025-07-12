@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Marilyn Manson - 20.07.2007 - Burbank - CA - USA - NBC Studios - Jay Leno Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "07",
+    "year": "2007"
+  },
+  "startDateUnix": 1184889600,
+  "endDate": {
+    "day": "20",
+    "month": "07",
+    "year": "2007"
+  },
+  "endDateUnix": 1184889600,
+  "location": {
+    "city": "Burbank",
+    "state": "CA",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Jay Leno Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 563,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 273,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "62",
+      "filename": "24001787.jpg",
+      "externalId": "1GrRrOz-IUzIcgeFYsi_H5bwqNo_3E1Ob"
+    },
+    {
+      "folder": "62",
+      "filename": "99608540.jpg",
+      "externalId": "1NkDhG6PcZtTkcjTsZ44Un0BFLq83S_NE"
+    },
+    {
+      "folder": "62",
+      "filename": "23454649.jpg",
+      "externalId": "1RQTE3F0flxvIWeCDTCEJ4TvdwfJl1oU1"
+    },
+    {
+      "folder": "62",
+      "filename": "27779406.jpg",
+      "externalId": "18pZsQEePl3tbYI7EeSgUE_OSJbywJ5Yd"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Putting Holes In Happiness",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

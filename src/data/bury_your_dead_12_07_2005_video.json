@@ -1,0 +1,120 @@
+{
+  "originalTitle": "Bury Your Dead - 12.07.2005 - Montreal - QC - Canada - El Salon",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bury Your Dead"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "07",
+    "year": "2005"
+  },
+  "startDateUnix": 1121126400,
+  "endDate": {
+    "day": "12",
+    "month": "07",
+    "year": "2005"
+  },
+  "endDateUnix": 1121126400,
+  "location": {
+    "city": "Montreal",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "El Salon",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Highly incomplete.",
+  "tapers": [
+    "NightpunX"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.31,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1756,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "CBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "3_miles_screams_12_07_2005_video",
+    "most_precious_blood_12_07_2005_video",
+    "tantrum_12_07_2005_video",
+    "a_ok_23_07_2005_video"
+  ],
+  "childOf": "various_artists_12_07_2005_video_compilation",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "68391182.jpg",
+      "externalId": "1BffKAJj5uebkW8PjW7NT1TS2d9gNJt0d"
+    },
+    {
+      "folder": "14",
+      "filename": "60968458.jpg",
+      "externalId": "1lwAXMZ2Uytv3YG0e21AXMIDl7jN3qgX5"
+    },
+    {
+      "folder": "14",
+      "filename": "38921442.jpg",
+      "externalId": "1ZImxuj2Nj5yue73_6g5F-0tcLLIUfMFU"
+    },
+    {
+      "folder": "14",
+      "filename": "15432798.jpg",
+      "externalId": "1K98X98S4yHr3iGs-DcK24qTJfKYNIE4H"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,128 @@
+{
+  "originalTitle": "Lady Gaga - 28.07.2011 - Hollywood - Los Angeles - CA - USA - Bud Light Outdoor Stage - Jimmy Kimmel Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Lady Gaga"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "07",
+    "year": "2011"
+  },
+  "startDateUnix": 1311811200,
+  "endDate": {
+    "day": "28",
+    "month": "07",
+    "year": "2011"
+  },
+  "endDateUnix": 1311811200,
+  "location": {
+    "city": "Hollywood",
+    "state": "",
+    "country": "Los Angeles",
+    "venue": "CA",
+    "event": "USA - Bud Light Outdoor Stage"
+  },
+  "tvChannel": "",
+  "showName": "Jimmy Kimmel Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.75,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3003,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "lady_gaga_21_05_2011_video",
+    "lady_gaga_27_05_2011_video",
+    "lady_gaga_28_04_2011_video"
+  ],
+  "childOf": "Lady Gaga - [2011] - TV Appearances",
+  "images": [
+    {
+      "folder": "22",
+      "filename": "22721685.jpg",
+      "externalId": "1qOuonRICBBKHv6eWynC9j5mpH6zLEsUR"
+    },
+    {
+      "folder": "22",
+      "filename": "68581391.jpg",
+      "externalId": "1EgA85OkjGG91OMocD0uyCitgLW_RwxRR"
+    },
+    {
+      "folder": "22",
+      "filename": "90444910.jpg",
+      "externalId": "1gI-HeVsW0UKCgEJiSeVnyafUZ2FZoCjW"
+    },
+    {
+      "folder": "22",
+      "filename": "77910265.jpg",
+      "externalId": "1Dz_5WER5lEUyj31VpNSpAzyP0c8YAwrg"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "You And I",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Edge Of Glory",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

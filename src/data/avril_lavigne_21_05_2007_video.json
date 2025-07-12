@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Avril Lavigne - 21.05.2007 - Tokyo - Japan - Music Lovers",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Avril Lavigne"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "05",
+    "year": "2007"
+  },
+  "startDateUnix": 1179705600,
+  "endDate": {
+    "day": "21",
+    "month": "05",
+    "year": "2007"
+  },
+  "endDateUnix": 1179705600,
+  "location": {
+    "city": "Tokyo",
+    "state": "",
+    "country": "Japan",
+    "venue": "Music Lovers",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.52,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1254,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "59.94",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MPG"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "25",
+      "filename": "55524779.jpg",
+      "externalId": "1Ip5fWVp9zprxhNxUAs8gD5JgfoDbyG27"
+    },
+    {
+      "folder": "25",
+      "filename": "04485366.jpg",
+      "externalId": "18Xy7G117T2iHr64mWCK4DEVbY0X9dBFB"
+    },
+    {
+      "folder": "25",
+      "filename": "57062416.jpg",
+      "externalId": "16gk1ELjWtXB6_rQ9SglzdZlhqXUzik1F"
+    },
+    {
+      "folder": "25",
+      "filename": "71661351.jpg",
+      "externalId": "1ei3Ln7rW46V-sBreLUaYkR7nzPGbQjpX"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Sk8er Boi",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "My Happy Ending",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Girlfriend",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

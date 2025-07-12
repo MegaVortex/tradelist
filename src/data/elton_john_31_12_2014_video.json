@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Elton John - 31.12.2014 - Brooklyn - NY - USA - Barclays Center",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Elton John"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "12",
+    "year": "2014"
+  },
+  "startDateUnix": 1419984000,
+  "endDate": {
+    "day": "31",
+    "month": "12",
+    "year": "2014"
+  },
+  "endDateUnix": 1419984000,
+  "location": {
+    "city": "Brooklyn",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Barclays Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 319,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 233,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "59.94",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "77440325.jpg",
+      "externalId": "1UZoVxyvJZgEVcMCYveJTjqjv6CQYsIcM"
+    },
+    {
+      "folder": "73",
+      "filename": "99924013.jpg",
+      "externalId": "1X4Wbgu1l84Cepa3jIuTsYUOn5JdUGSqB"
+    },
+    {
+      "folder": "73",
+      "filename": "22895190.jpg",
+      "externalId": "1ddT_4dlEp3VXdwImK-pS3DtqXtSSmuo-"
+    },
+    {
+      "folder": "73",
+      "filename": "38957167.jpg",
+      "externalId": "1Z3FvpaEk6o31Wy3tQfSX006n7bTBugfm"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "I'm Still Standing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

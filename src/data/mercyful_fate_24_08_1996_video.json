@@ -1,0 +1,150 @@
+{
+  "originalTitle": "Mercyful Fate - 24.08.1996 - Sao Paulo - Brazil - Estadio Do Pacaembu - Monsters Of Rock",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Mercyful Fate"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "08",
+    "year": "1996"
+  },
+  "startDateUnix": 840844800,
+  "endDate": {
+    "day": "24",
+    "month": "08",
+    "year": "1996"
+  },
+  "endDateUnix": 840844800,
+  "location": {
+    "city": "Sao Paulo",
+    "state": "",
+    "country": "Brazil",
+    "venue": "Estadio Do Pacaembu",
+    "event": "Monsters Of Rock"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.01,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3636,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "king_diamond_24_08_1996_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "17",
+      "filename": "29793812.jpg",
+      "externalId": "1mglrNA8t5Bw4nRuflEvqFVJzYfwW3zz9"
+    },
+    {
+      "folder": "17",
+      "filename": "12270529.jpg",
+      "externalId": "1-Szdni0YPClcpLOsnLQllrn_cWkdYF2M"
+    },
+    {
+      "folder": "17",
+      "filename": "25183890.jpg",
+      "externalId": "159LueISxU-HJDxRfm8CDka6NaFNEm90V"
+    },
+    {
+      "folder": "17",
+      "filename": "43495743.jpg",
+      "externalId": "1NTHP6F-u06vWpsxlUwrqKMMeZcRj8y1m"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Evil",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Bell Witch",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Uninvited Guest",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Satan's Fall",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Come To The Sabbath",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

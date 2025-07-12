@@ -1,0 +1,225 @@
+{
+  "originalTitle": "Bon Jovi - 07.03.1989 - Largo - MD - USA - Capitol Center",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "03",
+    "year": "1989"
+  },
+  "startDateUnix": 605232000,
+  "endDate": {
+    "day": "07",
+    "month": "03",
+    "year": "1989"
+  },
+  "endDateUnix": 605232000,
+  "location": {
+    "city": "Largo",
+    "state": "MD",
+    "country": "USA",
+    "venue": "Capitol Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.97,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 3.75,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 5879,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "21",
+      "filename": "93848078.jpg",
+      "externalId": "1HCpO3jNtiQdgSKgo20RyFMhJ1W5WIpK9"
+    },
+    {
+      "folder": "21",
+      "filename": "02110233.jpg",
+      "externalId": "1sBeW0wDxO5Iq15fzKMCkUcAnqT7aMWYP"
+    },
+    {
+      "folder": "21",
+      "filename": "16244858.jpg",
+      "externalId": "10ZV5N-lKJQ1vEQwrsB85eVQAqYXhSl9D"
+    },
+    {
+      "folder": "21",
+      "filename": "12488802.jpg",
+      "externalId": "1P7XWLFHxHeqDuYVkUJOehAGUBpEA7-Nr"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Lay Your Hands On Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "I'd Die For You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Wild In The Streets",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "You Give Love A Bad Name",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Born To Be My Baby",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Wild Is The Wind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Let It Rock",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Living In Sin",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Blood On Blood",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Runaway",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Living On A Prayer (acoustic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Wanted Dead Or Alive (acoustic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Bad Medicine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Shout",
+      "feat": "Skid Row",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

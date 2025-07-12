@@ -1,0 +1,170 @@
+{
+  "originalTitle": "Foo Fighters - 17.08.2001 - Weeze - Germany - Flughafen Niederrhein - Bizarre Festival (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "08",
+    "year": "2001"
+  },
+  "startDateUnix": 998006400,
+  "endDate": {
+    "day": "17",
+    "month": "08",
+    "year": "2001"
+  },
+  "endDateUnix": 998006400,
+  "location": {
+    "city": "Weeze",
+    "state": "",
+    "country": "Germany",
+    "venue": "Flughafen Niederrhein",
+    "event": "Bizarre Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Einsfestival HD broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.87,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1779,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "67",
+      "filename": "71795963.jpg",
+      "externalId": "1Iv3NMPvtly3tkhB0UsHEIm4RGvAF9dFS"
+    },
+    {
+      "folder": "67",
+      "filename": "72060637.jpg",
+      "externalId": "1xJ4U1ntdA2yhLEqDjM-ncH7FFs5t_yV4"
+    },
+    {
+      "folder": "67",
+      "filename": "22272679.jpg",
+      "externalId": "1PhOheb5o2k3832LX-Cb4PGEY21gyziuR"
+    },
+    {
+      "folder": "67",
+      "filename": "96810588.jpg",
+      "externalId": "1ntMDmkdqqGTKkbCzQi7sw-FDdP2I66iw"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Monkey Wrench",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Hey Johnny Park",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "M.I.A",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Everlong",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Generator",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "For All The Cows",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Madame De Montespan - 23.02.2010 - St. Petersburg - Russia - Ulitka Na Sklone",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Madame De Montespan"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "02",
+    "year": "2010"
+  },
+  "startDateUnix": 1266883200,
+  "endDate": {
+    "day": "23",
+    "month": "02",
+    "year": "2010"
+  },
+  "endDateUnix": 1266883200,
+  "location": {
+    "city": "St. Petersburg",
+    "state": "",
+    "country": "Russia",
+    "venue": "Ulitka Na Sklone",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.13,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 4408,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "medic_medic_23_02_2010_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "96404623.jpg",
+      "externalId": "14nEJB2U_cKiB0yOyz1OuENVVfc-FHCgR"
+    },
+    {
+      "folder": "70",
+      "filename": "44390594.jpg",
+      "externalId": "1rj810-a7aDtrgHC20fKpGtaieb_yBl2n"
+    },
+    {
+      "folder": "70",
+      "filename": "50506556.jpg",
+      "externalId": "1OuPJJCOrXq8y4LqJI0ynEnr9Fx-5YVt1"
+    },
+    {
+      "folder": "70",
+      "filename": "12004067.jpg",
+      "externalId": "1Px9Fkz7BWKnC6dLb2FbbT1ggErF0_bAq"
+    }
+  ],
+  "setlist": []
+}

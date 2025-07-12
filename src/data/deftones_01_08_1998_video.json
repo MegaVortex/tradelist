@@ -1,0 +1,168 @@
+{
+  "originalTitle": "Deftones - 01.08.1998 - Randalls Island - NY - USA - Randall's Island Park",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Deftones"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "08",
+    "year": "1998"
+  },
+  "startDateUnix": 901929600,
+  "endDate": {
+    "day": "01",
+    "month": "08",
+    "year": "1998"
+  },
+  "endDateUnix": 901929600,
+  "location": {
+    "city": "Randalls Island",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Randall's Island Park",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.08,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 1653,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "deftones_26_07_1998_video",
+    "deftones_21_07_1998_video",
+    "deftones_25_07_1998_video"
+  ],
+  "childOf": "Deftones - [1998] - Warped Tour",
+  "images": [
+    {
+      "folder": "64",
+      "filename": "18240219.jpg",
+      "externalId": "1K7tIMqFRpo08Gkj5LBGmWod9a581Wo2k"
+    },
+    {
+      "folder": "64",
+      "filename": "85165450.jpg",
+      "externalId": "10BqyBqLPXU0X2Kss5eiE9K77a8ohEARX"
+    },
+    {
+      "folder": "64",
+      "filename": "86111964.jpg",
+      "externalId": "1wysBjReyTZsSLumAaKPsltkXaPikxYqp"
+    },
+    {
+      "folder": "64",
+      "filename": "16358333.jpg",
+      "externalId": "1QDIv-GWbjBIRI9GzgdL_vh4eZvkrKz4c"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Lotion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "My Own Summer (Shove It)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Root",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "7 Words",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Around The Fur",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Be Quiet And Drive (Far Away)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Headup",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

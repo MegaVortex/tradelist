@@ -1,0 +1,198 @@
+{
+  "originalTitle": "Megadeth - 13.08.1986 - Sacramento - CA - USA - El Dorado Saloon",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Megadeth"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "08",
+    "year": "1986"
+  },
+  "startDateUnix": 524275200,
+  "endDate": {
+    "day": "13",
+    "month": "08",
+    "year": "1986"
+  },
+  "endDateUnix": 524275200,
+  "location": {
+    "city": "Sacramento",
+    "state": "CA",
+    "country": "USA",
+    "venue": "El Dorado Saloon",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.44,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2501,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "king_diamond_13_08_1986_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "49",
+      "filename": "38555563.jpg",
+      "externalId": "1QKXJ-8Eg_YZCcqdvoghok6f8xngA3tGH"
+    },
+    {
+      "folder": "49",
+      "filename": "61888662.jpg",
+      "externalId": "12Z86cDe7dkh8NwSxIYf7RWgAr4FbzL2S"
+    },
+    {
+      "folder": "49",
+      "filename": "76555598.jpg",
+      "externalId": "1Zcnrxuv8LbLkV-Ya36G66MHY9XoiK50t"
+    },
+    {
+      "folder": "49",
+      "filename": "46337499.jpg",
+      "externalId": "1F-FWWfarl2t5HJ_xvHFAv2x2K6aSStM_"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Rattlehead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wake Up Dead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Killing Is My Business",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Peace Sells",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Looking Down The Cross",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Bad Omen",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Devil's Island",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "The Chosen Ones",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "My Last Words",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "The Mechanix",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Good Morning/Black Friday",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

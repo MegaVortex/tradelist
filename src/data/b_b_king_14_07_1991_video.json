@@ -1,0 +1,196 @@
+{
+  "originalTitle": "B.B. King - 14.07.1991 - Hamburg - Germany - Grosse Freiheit 36",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "B.B. King"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "07",
+    "year": "1991"
+  },
+  "startDateUnix": 679449600,
+  "endDate": {
+    "day": "14",
+    "month": "07",
+    "year": "1991"
+  },
+  "endDateUnix": 679449600,
+  "location": {
+    "city": "Hamburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Grosse Freiheit 36",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "N3 broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.01,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 5694,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "01151415.jpg",
+      "externalId": "1P1ukcCFn-QkASIANSwGCGn6Ptzz6IFI7"
+    },
+    {
+      "folder": "73",
+      "filename": "84876592.jpg",
+      "externalId": "1_hjY4Fw7J0SRGg0CMuOl4aIkPzY_n0lS"
+    },
+    {
+      "folder": "73",
+      "filename": "76293489.jpg",
+      "externalId": "1FAsx0rqdXo6Kz04K-HyML7rjxRST3bCC"
+    },
+    {
+      "folder": "73",
+      "filename": "90099079.jpg",
+      "externalId": "1g5raJk1Dlpgh66Y8Yhbqon3QdQ9HIaHc"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "B.B. King Introduction Jam",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Let The Good Times Roll",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Louis Jordan"
+    },
+    {
+      "order": 3,
+      "song": "When It All Comes Down (I'll Still Be Around)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Paying The Cost To Be The Boss",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Since I Met You Baby",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Ivory Joe Hunter"
+    },
+    {
+      "order": 6,
+      "song": "Blues Boys Tune",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "'Taint Nobody's Biz-ness If I Do",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Anna Meyers & The Original Memphis Six"
+    },
+    {
+      "order": 8,
+      "song": "I Gotta Move Out Of This Neighborhood",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "The Thrill Is Gone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Roy Hawkins"
+    },
+    {
+      "order": 10,
+      "song": "Please Accept My Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "When Love Comes to Town",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "U2"
+    }
+  ],
+  "extras": []
+}

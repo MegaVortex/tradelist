@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Biohazard - 30.09.1991 - Brooklyn - NY - USA - L'Amours",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Biohazard"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "09",
+    "year": "1991"
+  },
+  "startDateUnix": 686188800,
+  "endDate": {
+    "day": "30",
+    "month": "09",
+    "year": "1991"
+  },
+  "endDateUnix": 686188800,
+  "location": {
+    "city": "Brooklyn",
+    "state": "NY",
+    "country": "USA",
+    "venue": "L'Amours",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.29,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6018,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "16",
+      "filename": "55594414.jpg",
+      "externalId": "170rBEH4DT6OLmZz51qR6aCtFiDNyBHvS"
+    },
+    {
+      "folder": "16",
+      "filename": "56461098.jpg",
+      "externalId": "1_X5fQRkLTGg_l9RusgxW9_r12N2rYynz"
+    },
+    {
+      "folder": "16",
+      "filename": "53440959.jpg",
+      "externalId": "1XrCCFV4tmaqu8rDEAqUFApUECtmAtW1C"
+    },
+    {
+      "folder": "16",
+      "filename": "95413045.jpg",
+      "externalId": "1joPlRCOdG3bl8y9DbIBi5RTrOFNdg3Nv"
+    }
+  ],
+  "setlist": []
+}

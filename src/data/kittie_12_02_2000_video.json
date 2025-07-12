@@ -1,0 +1,119 @@
+{
+  "originalTitle": "Kittie - 12.02.2000 - Madison - WI - USA",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Kittie"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "02",
+    "year": "2000"
+  },
+  "startDateUnix": 950313600,
+  "endDate": {
+    "day": "12",
+    "month": "02",
+    "year": "2000"
+  },
+  "endDateUnix": 950313600,
+  "location": {
+    "city": "Madison",
+    "state": "WI",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Official content - NT.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 819,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 728,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "kittie_14_09_2000_video",
+    "kittie_xx_xx_2000_canada_muchmusic_studios_much_on_demand_video_misc"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "62",
+      "filename": "88734981.jpg",
+      "externalId": "1f39mmRWF9y41zOpb5lNpwvE-Xx3_I9xG"
+    },
+    {
+      "folder": "62",
+      "filename": "52008678.jpg",
+      "externalId": "1rXVe6HEcHZT6pnXSQxoJc_fv7PjGSdEQ"
+    },
+    {
+      "folder": "62",
+      "filename": "89785301.jpg",
+      "externalId": "1PKnO4KUFiZeuaukXfPkh1rD1nzg-eArx"
+    },
+    {
+      "folder": "62",
+      "filename": "00965837.jpg",
+      "externalId": "1XfaevDFrdGmRhRcdPw1yVLYwvwIBc6f9"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Spit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

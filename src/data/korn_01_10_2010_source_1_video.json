@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Korn - 01.10.2010 - Brussels - Belgium - Ancienne Belgique (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "10",
+    "year": "2010"
+  },
+  "startDateUnix": 1285891200,
+  "endDate": {
+    "day": "01",
+    "month": "10",
+    "year": "2010"
+  },
+  "endDateUnix": 1285891200,
+  "location": {
+    "city": "Brussels",
+    "state": "",
+    "country": "Belgium",
+    "venue": "Ancienne Belgique",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#С",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.1,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2343,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "M4V"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "02389673.jpg",
+      "externalId": "1RteWhCPjMhsnPiGF3xH2McmRh2bCW-Ae"
+    },
+    {
+      "folder": "20",
+      "filename": "56986454.jpg",
+      "externalId": "1dtSA0fVusZmE9xpnJ1vhBZxaEbgw3-dB"
+    },
+    {
+      "folder": "20",
+      "filename": "34471286.jpg",
+      "externalId": "1jOEn5v6q4-o4GejqT72PDfffXvt3vDx8"
+    },
+    {
+      "folder": "20",
+      "filename": "81632501.jpg",
+      "externalId": "1cI8TIclnH_dE91lFXhyqidVV5SDkiiiR"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Here To Stay",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Let The Guilt Go",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Somebody Someone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Helmet In The Bush",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Blind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Shoot And Ladders / One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Metallica"
+    },
+    {
+      "order": 7,
+      "song": "Clown",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Got The Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

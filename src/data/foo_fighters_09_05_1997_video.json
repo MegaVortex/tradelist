@@ -1,0 +1,122 @@
+{
+  "originalTitle": "Foo Fighters - 09.05.1997 - Paris - France - Canal+ Studios - Nulle Part Ailleurs",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "05",
+    "year": "1997"
+  },
+  "startDateUnix": 863136000,
+  "endDate": {
+    "day": "09",
+    "month": "05",
+    "year": "1997"
+  },
+  "endDateUnix": 863136000,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "Canal+ Studios",
+    "event": "Nulle Part Ailleurs"
+  },
+  "tvChannel": "Canal+",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "PRO#1.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.17,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3179,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "foo_fighters_28_08_1995_video",
+    "foo_fighters_06_11_1995_source_1_video",
+    "foo_fighters_06_11_1995_source_2_video",
+    "foo_fighters_15_11_1997_video",
+    "foo_fighters_03_05_2005_video"
+  ],
+  "childOf": "Foo Fighters - [1995-2005] - TV Appearances - 'Nulle Part Ailleurs'",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "72293122.jpg",
+      "externalId": "1FvrGlvUpG_W-4wLMvP0Cg6xXZ7RPewuB"
+    },
+    {
+      "folder": "60",
+      "filename": "61450072.jpg",
+      "externalId": "1FGOLeGM0Ck2CoJV91yoG4ajbNp6EO5l4"
+    },
+    {
+      "folder": "60",
+      "filename": "70711200.jpg",
+      "externalId": "1y-ua-NZq8DxjbfwKT4ZCujZCT2tKsMX1"
+    },
+    {
+      "folder": "60",
+      "filename": "46421141.jpg",
+      "externalId": "1DDWUBrd6u0TGCJvf36hPKfzK5ZBj-gAS"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Monkey Wrench",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

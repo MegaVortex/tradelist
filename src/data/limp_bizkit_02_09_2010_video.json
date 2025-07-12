@@ -1,0 +1,228 @@
+{
+  "originalTitle": "Limp Bizkit - 02.09.2010 - Wiesen - Austria - Festivalgelande Wiesen - Two Days A Week",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "09",
+    "year": "2010"
+  },
+  "startDateUnix": 1283385600,
+  "endDate": {
+    "day": "02",
+    "month": "09",
+    "year": "2010"
+  },
+  "endDateUnix": 1283385600,
+  "location": {
+    "city": "Wiesen",
+    "state": "",
+    "country": "Austria",
+    "venue": "",
+    "event": "Festivalgelande Wiesen - Two Days A Week"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#С",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Don't trust anyone who tells he has MASTER DVD. Everyone is trading YouTube-sourced crap.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.1,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4513,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "ru",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "YouTube",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "22",
+      "filename": "75531803.jpg",
+      "externalId": "18FzVNDG6Rhthlvj_eK8CDmHu0gsiKR1D"
+    },
+    {
+      "folder": "22",
+      "filename": "98828948.jpg",
+      "externalId": null
+    },
+    {
+      "folder": "22",
+      "filename": "98592308.jpg",
+      "externalId": "1C1-t72ILqUUCRJEFA9c5k5kzldPgMLMf"
+    },
+    {
+      "folder": "22",
+      "filename": "45185388.jpg",
+      "externalId": "1sjPsUW97NbDs06fNwE6wtdphQQI5T_Iy"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Pure Imagination",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Why Try",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "My Generation",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Livin' It Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Rollin' (Air Raid Vehicle)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "It'll Be OK",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Boiler",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "My Way",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Break Stuff",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Walking Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Eat You Alive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Behind Blue Eyes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "The Who"
+    },
+    {
+      "order": 13,
+      "song": "Take A Look Around",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Nookie",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Faith  (Axel F. Intro)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "George Michael"
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Gary Moore - 10.09.1997 - London - England - VH1 Studios",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Gary Moore"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "09",
+    "year": "1997"
+  },
+  "startDateUnix": 873849600,
+  "endDate": {
+    "day": "10",
+    "month": "09",
+    "year": "1997"
+  },
+  "endDateUnix": 873849600,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "VH1 Studios",
+    "event": ""
+  },
+  "tvChannel": "VH1",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.07,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1842,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "45",
+      "filename": "46754817.jpg",
+      "externalId": "11EbL9f_UqwO3LoEh95lQlnpruwqoucao"
+    },
+    {
+      "folder": "45",
+      "filename": "55829469.jpg",
+      "externalId": "1OfU-uIoaZoG4WSBTQzF5EDV8vAdzDb0p"
+    },
+    {
+      "folder": "45",
+      "filename": "00695754.jpg",
+      "externalId": "1cRxLFe5mKi60aEnog41i_8tZBrgjaVyH"
+    },
+    {
+      "folder": "45",
+      "filename": "62095311.jpg",
+      "externalId": "1dFl7PmIrs0C2vh3Mif1wx_DiiQx6RlDj"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "One Fine Day",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Cold Wind Blows",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "All Your Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Always There For You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "One Good Reason",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Still Got The Blues",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

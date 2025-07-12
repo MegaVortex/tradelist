@@ -181,7 +181,7 @@
                   <td>
                      {% if show.images and show.images.length %}
                         {% set firstImg = show.images[0] %}
-                        <span role="button" title="View images" style="cursor: pointer; font-size: 18px;" onclick='openModal("{{ firstImg.externalId }}", {{ show.images | dump | safe }})'>📷</span>
+                        <span role="button" title="View images" style="cursor: pointer; font-size: 18px;" onclick='openModal("{{ firstImg.externalId }}", {{ show.images | dump | safe }})'>📷 {{ show.images.length }}</span>
                      {% else %}
                         —
                      {% endif %}

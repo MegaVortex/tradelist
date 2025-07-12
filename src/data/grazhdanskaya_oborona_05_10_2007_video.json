@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Гражданская Оборона - 05.10.2007 - Днепропетровск - Украина - ДК Шинник",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Гражданская Оборона"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "10",
+    "year": "2007"
+  },
+  "startDateUnix": 1191542400,
+  "endDate": {
+    "day": "05",
+    "month": "10",
+    "year": "2007"
+  },
+  "endDateUnix": 1191542400,
+  "location": {
+    "city": "Днепропетровск",
+    "state": "",
+    "country": "Украина",
+    "venue": "ДК Шинник",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.63,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3703,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "10",
+      "filename": "44956382.jpg",
+      "externalId": "1e7e6nqUdwJc7eh0EbdwefYiRQwanFsst"
+    },
+    {
+      "folder": "10",
+      "filename": "02688717.jpg",
+      "externalId": "1B7ZhGf_iTQA6SsIeg6paC4quwIkc1_v8"
+    },
+    {
+      "folder": "10",
+      "filename": "65833328.jpg",
+      "externalId": "1mkDEeUu_GL0yetxVb6YJH4HjUIr9MR5H"
+    },
+    {
+      "folder": "10",
+      "filename": "81423205.jpg",
+      "externalId": "1wEC215zsefGXku63t49T4X_lhRc5h83-"
+    }
+  ],
+  "setlist": []
+}

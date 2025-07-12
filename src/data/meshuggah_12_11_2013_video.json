@@ -1,0 +1,228 @@
+{
+  "originalTitle": "Meshuggah - 12.11.2013 - Santiago - Chile - Teatro Caupolican",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Meshuggah"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "11",
+    "year": "2013"
+  },
+  "startDateUnix": 1384214400,
+  "endDate": {
+    "day": "12",
+    "month": "11",
+    "year": "2013"
+  },
+  "endDateUnix": 1384214400,
+  "location": {
+    "city": "Santiago",
+    "state": "",
+    "country": "Chile",
+    "venue": "Teatro Caupolican",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 14.7,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 5301,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "23.976",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MTS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "65",
+      "filename": "16363793.jpg",
+      "externalId": "1k9dIkrj32oUKa_AHb3iCjx_vNkukMH2U"
+    },
+    {
+      "folder": "65",
+      "filename": "60758922.jpg",
+      "externalId": "1CgekNhtWoAqtayh3IbjDSsaz-SpF8j3w"
+    },
+    {
+      "folder": "65",
+      "filename": "71105156.jpg",
+      "externalId": "16GO70adKlxXn_ggkvoJKkpwjJ_D3iche"
+    },
+    {
+      "folder": "65",
+      "filename": "50205759.jpg",
+      "externalId": "1ieaDHfQ4WYZnzOdB2jLj_zly9hGin167"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Swarm",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Combustion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Rational Gaze",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "obZen",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Lethargica",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Do Not Look Down",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "The Hurt That Finds You First",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "I Am Colossus",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Bleed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Demiurge",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "New Millennium Cyanide Christ",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Dancers To A Discordant System",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Mind's Mirrors",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "In Death - Is Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "In Death - Is Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

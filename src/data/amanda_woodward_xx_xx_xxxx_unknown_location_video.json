@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Amanda Woodward - xx.xx.xxxx - Unknown Location",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Amanda Woodward"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Unknown Location",
+    "state": "",
+    "country": "",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.44,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2536,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "amanda_woodward_14_07_2004_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "19218981.jpg",
+      "externalId": "1F-ILkPa9dxWhJ-f2tzAlMdTGVpNLfe2u"
+    },
+    {
+      "folder": "6",
+      "filename": "06355195.jpg",
+      "externalId": "1x8MKsK5GCtmGXP-Z9iJ-830p52w-5dOe"
+    },
+    {
+      "folder": "6",
+      "filename": "52242637.jpg",
+      "externalId": "1qW8cqm_FG2jLfdfnbMJj7gq81fKcEALV"
+    },
+    {
+      "folder": "6",
+      "filename": "46381287.jpg",
+      "externalId": "1KOt0E0tjgGLvXOtDXbzvIT9vKkxn2sXN"
+    }
+  ],
+  "setlist": []
+}

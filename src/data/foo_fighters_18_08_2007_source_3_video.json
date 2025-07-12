@@ -1,0 +1,199 @@
+{
+  "originalTitle": "Foo Fighters - 18.08.2007 - Chelmsford - England - Hylands Park - V Festival (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "08",
+    "year": "2007"
+  },
+  "startDateUnix": 1187395200,
+  "endDate": {
+    "day": "18",
+    "month": "08",
+    "year": "2007"
+  },
+  "endDateUnix": 1187395200,
+  "location": {
+    "city": "Chelmsford",
+    "state": "",
+    "country": "England",
+    "venue": "Hylands Park",
+    "event": "V Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "PRO#1c.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.18,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2862,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "foo_fighters_18_08_2007_source_1_video",
+    "foo_fighters_18_08_2007_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "35849813.jpg",
+      "externalId": "1fQvgGFB42Z_ajSd9AxnBD_8LazRDdqM8"
+    },
+    {
+      "folder": "27",
+      "filename": "04947711.jpg",
+      "externalId": "1c-ahWm1P6UQsEQ0RqSgpsLSr5eHxdTM_"
+    },
+    {
+      "folder": "27",
+      "filename": "41332368.jpg",
+      "externalId": "1Wq72gue6-zLxx0MZOBH05y-kxgoILSGv"
+    },
+    {
+      "folder": "27",
+      "filename": "25958209.jpg",
+      "externalId": "187Am803H9f3ux8sj4JhQO2mtilHxyC2F"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Big Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "But, Honestly",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "The Pretender",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Learn To Fly",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "My Hero",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Best Of You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "DOA",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "All My Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

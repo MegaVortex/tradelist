@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Helloween - 22.08.1988 - Barcelona - Spain - Bullring - Monsters Of Rock",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Helloween"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "08",
+    "year": "1988"
+  },
+  "startDateUnix": 588211200,
+  "endDate": {
+    "day": "22",
+    "month": "08",
+    "year": "1988"
+  },
+  "endDateUnix": 588211200,
+  "location": {
+    "city": "Barcelona",
+    "state": "",
+    "country": "Spain",
+    "venue": "Bullring",
+    "event": "Monsters Of Rock"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2702,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "42",
+      "filename": "46451068.jpg",
+      "externalId": "1yLy1u5g4gpAkU6G6IZGvHeaMVE1v_24E"
+    },
+    {
+      "folder": "42",
+      "filename": "91846733.jpg",
+      "externalId": "1S5B9ZPymyNA_wTIuUfWTHZFHJfHXd39v"
+    },
+    {
+      "folder": "42",
+      "filename": "24980597.jpg",
+      "externalId": "1I7LY6aKMk4Md_U1vqRLo3U1A8BXGukK_"
+    },
+    {
+      "folder": "42",
+      "filename": "20646311.jpg",
+      "externalId": "1ghPvfTA1DZRdP3kqd7hrFCYI31ED3iC6"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Eagle Fly Free",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "A Little Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Rise And Fall",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Future World",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Halloween",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "How Many Tears",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,128 @@
+{
+  "originalTitle": "Guns N' Roses - 12.04.2012 - Cleveland - OH - USA - Public Auditorium",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Guns N' Roses"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "04",
+    "year": "2012"
+  },
+  "startDateUnix": 1334188800,
+  "endDate": {
+    "day": "12",
+    "month": "04",
+    "year": "2012"
+  },
+  "endDateUnix": 1334188800,
+  "location": {
+    "city": "Cleveland",
+    "state": "OH",
+    "country": "USA",
+    "venue": "Public Auditorium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "PRO#1. Rock And Roll Hall Of Fame Induction Ceremony. The video is out of sync.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.55,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1518,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": {
+      "language": "",
+      "codec": "",
+      "bitrateKbps": null,
+      "channels": null
+    },
+    "sourceDetail": {
+      "type": "",
+      "extra": "",
+      "medium": ""
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "36",
+      "filename": "99601412.jpg",
+      "externalId": "1r79PXENn4zmHq21ainA7wIHHsvoVMcqR"
+    },
+    {
+      "folder": "36",
+      "filename": "18219869.jpg",
+      "externalId": "1agW0rcps0owyr9NUs9bqRRFyhXeESW_4"
+    },
+    {
+      "folder": "36",
+      "filename": "69954945.jpg",
+      "externalId": "1JYIf4Fg1piyXLBQDLMD5IUHrhrDS3pgI"
+    },
+    {
+      "folder": "36",
+      "filename": "32437340.jpg",
+      "externalId": "1DNP_J78HWRO35qTqwdi0ns8gUK2NwhNc"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Guns N' Roses Induction (by Green Day)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Sweet Child O' Mine",
+      "feat": "Myles Kennedy",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Paradise City",
+      "feat": "Myles Kennedy",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

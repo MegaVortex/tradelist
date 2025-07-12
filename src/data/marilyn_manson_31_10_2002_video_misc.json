@@ -1,0 +1,122 @@
+{
+  "originalTitle": "Marilyn Manson - 31.10.2002 - USA - MuchMusic TV - Uranium [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "10",
+    "year": "2002"
+  },
+  "startDateUnix": 1036022400,
+  "endDate": {
+    "day": "31",
+    "month": "10",
+    "year": "2002"
+  },
+  "endDateUnix": 1036022400,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "MuchMusic TV",
+    "venue": "Uranium",
+    "event": ""
+  },
+  "tvChannel": "MuchMusic",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Pretty much a long form interview with other things going on at a Grotesque Burlesque themed party, 20 minutes.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.24,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4365,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "marilyn_manson_18_05_2003_video",
+    "marilyn_manson_28_06_2003_video_misc",
+    "marilyn_manson_09_09_2004_video_misc",
+    "marilyn_manson_13_11_2004_video"
+  ],
+  "childOf": "Marilyn Manson - [MISC 4 - Compilation]",
+  "images": [
+    {
+      "folder": "44",
+      "filename": "46452541.jpg",
+      "externalId": "1_Yt5dJMpgykFgk3ll970kzMGXhKxdBoq"
+    },
+    {
+      "folder": "44",
+      "filename": "72786642.jpg",
+      "externalId": "1rsX3aRSI8Q6dIazmpqoNFJuPtS_gfrDx"
+    },
+    {
+      "folder": "44",
+      "filename": "41209263.jpg",
+      "externalId": "1G_f8B5BulGy_MpZG3iIZkxQkrALBH3_I"
+    },
+    {
+      "folder": "44",
+      "filename": "03950956.jpg",
+      "externalId": "1cNNRZ3tF8o-8kt7rUemBic7deeNOnohq"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

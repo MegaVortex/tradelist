@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Deftones - 15.05.1996 - Hollywood - CA - USA - The Palladium",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Deftones"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "05",
+    "year": "1996"
+  },
+  "startDateUnix": 832118400,
+  "endDate": {
+    "day": "15",
+    "month": "05",
+    "year": "1996"
+  },
+  "endDateUnix": 832118400,
+  "location": {
+    "city": "Hollywood",
+    "state": "CA",
+    "country": "USA",
+    "venue": "The Palladium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.47,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2547,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "16",
+      "filename": "44949625.jpg",
+      "externalId": "1WAU5PKVzYWH682QOFdgsqqXfBeMs5e-a"
+    },
+    {
+      "folder": "16",
+      "filename": "65885678.jpg",
+      "externalId": "1YzM7x894b9_6j5URMa1EDp7pYIbhwKDe"
+    },
+    {
+      "folder": "16",
+      "filename": "22427572.jpg",
+      "externalId": "1EFndHBrxkS602D-0Oe-6xKHO7lH1xhkv"
+    },
+    {
+      "folder": "16",
+      "filename": "50792148.jpg",
+      "externalId": "1anFvObR-y3zGFrNqo3SRJ3x8TeMozW0t"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Root",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Nosebleed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Bored",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "One Weak",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "7 Words",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Teething",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Lifter",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Right Brigade",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Minus Blindfold",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Engine No. 9",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

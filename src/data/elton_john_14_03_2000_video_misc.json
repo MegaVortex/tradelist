@@ -1,0 +1,129 @@
+{
+  "originalTitle": "Elton John - 14.03.2000 - New York - NY - USA - ABC Studios - Good Morning America [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Elton John"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "03",
+    "year": "2000"
+  },
+  "startDateUnix": 952992000,
+  "endDate": {
+    "day": "14",
+    "month": "03",
+    "year": "2000"
+  },
+  "endDateUnix": 952992000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "ABC Studios",
+    "event": "Good Morning America"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 6.91,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6048,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "elton_john_31_03_2000_video",
+    "elton_john_26_03_1999_video",
+    "elton_john_18_11_2002_video"
+  ],
+  "childOf": "Elton John - [1999-2002] - TV Appearances",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "55011376.jpg",
+      "externalId": "1kBEo9Xt_gTXebI9dbS7WZ3701wWcqCuD"
+    },
+    {
+      "folder": "73",
+      "filename": "50311993.jpg",
+      "externalId": "1uxam2LMmsii1yYFhPG2zlHkfdJaspbMZ"
+    },
+    {
+      "folder": "73",
+      "filename": "63028042.jpg",
+      "externalId": "1p4bCLQjRwj5uodFjr-rSRHFbm6t2jt21"
+    },
+    {
+      "folder": "73",
+      "filename": "86429422.jpg",
+      "externalId": "1aLK-KZGxkvNMIxXV_XEMzD0Ak7pDU2jJ"
+    }
+  ],
+  "setlist": [],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "cast members from Aida: Heather Headley, Adam Pascal and Sherie Rene Scott",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 2,
+      "song": "Elaborate Lives",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

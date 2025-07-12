@@ -1,0 +1,173 @@
+{
+  "originalTitle": "AC-DC - 12.06.1979 - Toronto - ON - Canada - Massey Hall (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "AC/DC"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "06",
+    "year": "1979"
+  },
+  "startDateUnix": 297993600,
+  "endDate": {
+    "day": "12",
+    "month": "06",
+    "year": "1979"
+  },
+  "endDateUnix": 297993600,
+  "location": {
+    "city": "Toronto",
+    "state": "ON",
+    "country": "Canada",
+    "venue": "Massey Hall",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.62,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2402,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "49",
+      "filename": "07106044.jpg",
+      "externalId": "15H9o7UOQPYMAS_vWFvQ2gA9vSRYxPZaw"
+    },
+    {
+      "folder": "49",
+      "filename": "41064784.jpg",
+      "externalId": "137fSgqvzCnYOfTUPMv8KtHBsQKabWZ-S"
+    },
+    {
+      "folder": "49",
+      "filename": "78984729.jpg",
+      "externalId": "12W5Yq1ASk9jJFBdTrnSGnqxYm1pSxmRA"
+    },
+    {
+      "folder": "49",
+      "filename": "35702609.jpg",
+      "externalId": "1FtwjwcvbJig1U7AAOmrKsXu5geuUMWI_"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Bad Boy Boogie",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Jack",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Whole Lotta Rosie",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Rocker",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Dog Eat Dog",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "xx.xx.1983 - Interview",
+      "feat": "Angus Young and Cliff Williams",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 2,
+      "song": "xx.xx.1985 - Interview",
+      "feat": "Brian Johnson",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 3,
+      "song": "xx.xx.1985 - Interview",
+      "feat": "Angus Young and Brian Johnson",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

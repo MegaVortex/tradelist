@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Foo Fighters - 09.04.2011 - New York - NY - USA - NBC Studios - Saturday Night Live (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "04",
+    "year": "2011"
+  },
+  "startDateUnix": 1302307200,
+  "endDate": {
+    "day": "09",
+    "month": "04",
+    "year": "2011"
+  },
+  "endDateUnix": 1302307200,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": "Saturday Night Live"
+  },
+  "tvChannel": "NBC",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 963,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 583,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "58421309.jpg",
+      "externalId": "1_TTzTBIpwxGmedJGIYHdYIRAZT5UXiYJ"
+    },
+    {
+      "folder": "19",
+      "filename": "24331720.jpg",
+      "externalId": "1bGakuQF9XOHugX_b92a6IUUbHKAmWKJj"
+    },
+    {
+      "folder": "19",
+      "filename": "12631882.jpg",
+      "externalId": "1czjCRIOUlPFR8cqRwAAdszSMwONP2tYf"
+    },
+    {
+      "folder": "19",
+      "filename": "53648755.jpg",
+      "externalId": "1OzBqDhB2YAyiXjxFy748pa9M4gapV5wi"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Rope",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Walk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

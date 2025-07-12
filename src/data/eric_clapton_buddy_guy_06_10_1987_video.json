@@ -1,0 +1,162 @@
+{
+  "originalTitle": "Eric Clapton & Buddy Guy - 06.10.1987 - London - England - Ronnie Scott's",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Eric Clapton & Buddy Guy"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "10",
+    "year": "1987"
+  },
+  "startDateUnix": 560476800,
+  "endDate": {
+    "day": "06",
+    "month": "10",
+    "year": "1987"
+  },
+  "endDateUnix": 560476800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Ronnie Scott's",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.11,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1577,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "eric_clapton_25_01_1989_video_misc",
+    "eric_clapton_28_10_1989_video_misc",
+    "eric_clapton_keith_richards_all_star_band_31_05_1989_video",
+    "eric_clapton_05_02_1990_video",
+    "legends_11_07_1997_video"
+  ],
+  "childOf": "Eric Clapton - [1987-1997] - TV Appearances",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "23052151.jpg",
+      "externalId": "1raOmibF2yj5IRJFFLpvPOL5kPB-H4XiS"
+    },
+    {
+      "folder": "26",
+      "filename": "27607049.jpg",
+      "externalId": "11xVwkXhN35i-gp7z-vGA_u_u_bIlc27e"
+    },
+    {
+      "folder": "26",
+      "filename": "74355740.jpg",
+      "externalId": "1SIKTbW2fLuQXqQQMtMpeidbUdzpDusGK"
+    },
+    {
+      "folder": "26",
+      "filename": "74851069.jpg",
+      "externalId": "1pt7rqDg9DBp3jowMHZKvDU71AnrT2I39"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Key To The Highway",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Stormy Monday",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Worried Life Blues",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Sweet Home Chicago",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Jam",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

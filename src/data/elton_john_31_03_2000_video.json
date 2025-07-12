@@ -1,0 +1,160 @@
+{
+  "originalTitle": "Elton John - 31.03.2000 - New York - NY - USA - NBC Studios - Today Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Elton John"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "03",
+    "year": "2000"
+  },
+  "startDateUnix": 954460800,
+  "endDate": {
+    "day": "31",
+    "month": "03",
+    "year": "2000"
+  },
+  "endDateUnix": 954460800,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Today Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 6.91,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6048,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "elton_john_26_03_1999_video",
+    "elton_john_14_03_2000_video_misc",
+    "elton_john_18_11_2002_video"
+  ],
+  "childOf": "Elton John - [1999-2002] - TV Appearances",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "55888556.jpg",
+      "externalId": "19fO0AF82lHLDwUTlSOVrZdCJTiPcCOtR"
+    },
+    {
+      "folder": "73",
+      "filename": "94066432.jpg",
+      "externalId": "1zBbjRvEtFAMwNzNj7rojxA8bwd0g8OA0"
+    },
+    {
+      "folder": "73",
+      "filename": "05630121.jpg",
+      "externalId": "1tTvYpJgRStSB-U3KpPFyXuModm9KeDJf"
+    },
+    {
+      "folder": "73",
+      "filename": "48181638.jpg",
+      "externalId": "1Uxq4WS-jy9sFMv-rk7Vx-5IYudCAlZxd"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "El Dorado",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Without Question",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Someday Out Of The Blue",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Circle Of Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Crocodile Rock",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

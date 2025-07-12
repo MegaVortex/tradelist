@@ -1,0 +1,198 @@
+{
+  "originalTitle": "Caspian - 28.05.2010 - St. Petersburg - Russia - Tanzy (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Caspian"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "05",
+    "year": "2010"
+  },
+  "startDateUnix": 1275004800,
+  "endDate": {
+    "day": "28",
+    "month": "05",
+    "year": "2010"
+  },
+  "endDateUnix": 1275004800,
+  "location": {
+    "city": "St. Petersburg",
+    "state": "",
+    "country": "Russia",
+    "venue": "Tanzy",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "AMT#2.",
+  "tapers": [
+    "Strah81"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.95,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4318,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "12",
+      "filename": "66469321.jpg",
+      "externalId": "1NR9t5cjSAAnY6kMReE40OeGsd6p1GBuy"
+    },
+    {
+      "folder": "12",
+      "filename": "47556990.jpg",
+      "externalId": "1yX0IWVjjX4rA4u1ixfjjNfDW3IZg_dS3"
+    },
+    {
+      "folder": "12",
+      "filename": "78772914.jpg",
+      "externalId": "1c2BtZGxM292k5ySuCg6e3kCf0BjlOaHH"
+    },
+    {
+      "folder": "12",
+      "filename": "92466471.jpg",
+      "externalId": "1QM3GPCIkLENcaC1t91eUr_BeJC96L_hr"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "La Cerva",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Malaconda",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Some Are White Light",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Concrescene",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Moksha",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Quovis",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Further Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Further In",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Ghosts Of The Garden City",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Sycamore",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Crawlspace",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,107 @@
+{
+  "originalTitle": "Kittie - 10.01.2000 - Springfield - MO - USA [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Kittie"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "01",
+    "year": "2000"
+  },
+  "startDateUnix": 947462400,
+  "endDate": {
+    "day": "10",
+    "month": "01",
+    "year": "2000"
+  },
+  "endDateUnix": 947462400,
+  "location": {
+    "city": "Springfield",
+    "state": "MO",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.41,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1271,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "25",
+      "filename": "16730315.jpg",
+      "externalId": "1AkfNuL4sACr1u3yTeocwN2o7XXz_TKxh"
+    },
+    {
+      "folder": "25",
+      "filename": "20140321.jpg",
+      "externalId": "1yoqiXPtakBl15YnoSpCKRVZfIw_dpkYD"
+    },
+    {
+      "folder": "25",
+      "filename": "55845374.jpg",
+      "externalId": "1N3kQhD-xVdTPkICdXBjXGSGaip0VfetW"
+    },
+    {
+      "folder": "25",
+      "filename": "11533832.jpg",
+      "externalId": "1oAtWz9HSFTKQvHe6iEAFmSljwlGNTfNa"
+    }
+  ],
+  "setlist": []
+}

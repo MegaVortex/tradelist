@@ -1,0 +1,178 @@
+{
+  "originalTitle": "Korn - 25.03.1995 - Universal City - CA - USA - Universal Amphitheatre",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "03",
+    "year": "1995"
+  },
+  "startDateUnix": 796089600,
+  "endDate": {
+    "day": "25",
+    "month": "03",
+    "year": "1995"
+  },
+  "endDateUnix": 796089600,
+  "location": {
+    "city": "Universal City",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Universal Amphitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.21,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1947,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "89835328.jpg",
+      "externalId": "1m-wexueroJRtR1ovW16cJY3ADV8VXM_g"
+    },
+    {
+      "folder": "70",
+      "filename": "55077497.jpg",
+      "externalId": "1CRYhKlga-4WBP5BT1v5Y_LfJUH1BFerS"
+    },
+    {
+      "folder": "70",
+      "filename": "20947760.jpg",
+      "externalId": "18LUrkwElI599EiFF4yVdxmcBQOTQGy9r"
+    },
+    {
+      "folder": "70",
+      "filename": "21587143.jpg",
+      "externalId": "1LYLYiazeMWLN9G6NXcIbY2lAMdZ9hT2Q"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Blind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Ball Tongue",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Need To",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Low Rider",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "War"
+    },
+    {
+      "order": 5,
+      "song": "Shoots And Ladders",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Lies",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Faget",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,109 @@
+{
+  "originalTitle": "Hatebreed - 30.12.2001 - West Babylon - NY - USA",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Hatebreed"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "12",
+    "year": "2001"
+  },
+  "startDateUnix": 1009670400,
+  "endDate": {
+    "day": "30",
+    "month": "12",
+    "year": "2001"
+  },
+  "endDateUnix": 1009670400,
+  "location": {
+    "city": "West Babylon",
+    "state": "NY",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.84,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2707,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "hatebreed_05_08_2001_source_1_video",
+    "hatebreed_15_08_2003_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "34",
+      "filename": "69825476.jpg",
+      "externalId": "19ue2FAWZo_FUfjfAY0yy0HlzIrOv8hik"
+    },
+    {
+      "folder": "34",
+      "filename": "20712086.jpg",
+      "externalId": "1MqZrlyHYdON83mqEzLIZ8mQPZwOQJVyg"
+    },
+    {
+      "folder": "34",
+      "filename": "99580354.jpg",
+      "externalId": "1xCi6VackgN2gSE1U1SM8O6nfXJBs_IZS"
+    },
+    {
+      "folder": "34",
+      "filename": "49504744.jpg",
+      "externalId": "1O5oBQN4Ge17hmdbpQt1sjuSIqeyA4hHg"
+    }
+  ],
+  "setlist": []
+}

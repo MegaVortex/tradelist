@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Avril Lavigne - 31.12.2011 - Wuhan - Hubei Province - China - New Year's Eve",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Avril Lavigne"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "12",
+    "year": "2011"
+  },
+  "startDateUnix": 1325289600,
+  "endDate": {
+    "day": "31",
+    "month": "12",
+    "year": "2011"
+  },
+  "endDateUnix": 1325289600,
+  "location": {
+    "city": "Wuhan",
+    "state": "",
+    "country": "Hubei Province",
+    "venue": "China",
+    "event": "New Year's Eve"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "JSTV broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.38,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1169,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "30",
+      "filename": "50280145.jpg",
+      "externalId": "1ipgAiqu59RY4SEo2UFEhJ9dyQn_qxo9N"
+    },
+    {
+      "folder": "30",
+      "filename": "94802295.jpg",
+      "externalId": "14vJAZWHjM-WAhk-T9gVcJB2-aoYDR1O4"
+    },
+    {
+      "folder": "30",
+      "filename": "03933017.jpg",
+      "externalId": "1F1XAqMYCST8cKOg7ikXhCOJ-I8vOt5pv"
+    },
+    {
+      "folder": "30",
+      "filename": "75460701.jpg",
+      "externalId": "1kN96gE-yfzT8Wzx7e8xRXkJVmjoFkapR"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Girlfriend",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Complicated",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Sk8er Boi",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "I'm With You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

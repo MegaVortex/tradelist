@@ -1,0 +1,128 @@
+{
+  "originalTitle": "Aerosmith - 03.09.1990 - Paris - France - Hippodrome De Vincennes - Monsters Of Rock [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Aerosmith"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "09",
+    "year": "1990"
+  },
+  "startDateUnix": 652320000,
+  "endDate": {
+    "day": "03",
+    "month": "09",
+    "year": "1990"
+  },
+  "endDateUnix": 652320000,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "Hippodrome De Vincennes",
+    "event": "Monsters Of Rock"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.75,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2453,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "faith_no_more_03_09_1990_video_misc",
+    "whitesnake_03_09_1990_video_misc"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "14636692.jpg",
+      "externalId": "1yi6z-q91rv-ETpeqgaiK3iFKeU2MY4xW"
+    },
+    {
+      "folder": "28",
+      "filename": "20557730.jpg",
+      "externalId": "1S1PwWCViapajAmf4jSYm2Bcl-__VOFaU"
+    },
+    {
+      "folder": "28",
+      "filename": "35777915.jpg",
+      "externalId": "1IDfZvFwcYgHcW7L16ils6v70ebMP2J3x"
+    },
+    {
+      "folder": "28",
+      "filename": "07111519.jpg",
+      "externalId": "1oDNx6DTcjp1jQ-OehTTyISE2g087ZU4D"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Live Footage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

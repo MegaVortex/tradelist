@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Marilyn Manson - 21.12.2012 - Moscow - Russia - Teletsentr Ostankino - Ivan Urgant Show (Source 2) [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "12",
+    "year": "2012"
+  },
+  "startDateUnix": 1356048000,
+  "endDate": {
+    "day": "21",
+    "month": "12",
+    "year": "2012"
+  },
+  "endDateUnix": 1356048000,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Teletsentr Ostankino",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Ivan Urgant Show",
+  "source": "Source 2",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Season 2, Episode 100.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 205,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2614,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "480x272",
+        "bitrateType": "",
+        "bitrateKbps": 512,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 128,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "MP4"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "63",
+      "filename": "38166468.jpg",
+      "externalId": "1a1pGuqjrqgWAynIhK92VdAu3ympI_bpm"
+    },
+    {
+      "folder": "63",
+      "filename": "70339019.jpg",
+      "externalId": "1wIyoMMUeOUfSYDDtyUVfuk8aCy7Nk_xt"
+    },
+    {
+      "folder": "63",
+      "filename": "44663935.jpg",
+      "externalId": "1366UMs9TsecaG1EQMQcgkegnGiha50AJ"
+    },
+    {
+      "folder": "63",
+      "filename": "82008070.jpg",
+      "externalId": "1hygl2M9nrbwTVB9Z7-mQHwmlxqvuYrrj"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

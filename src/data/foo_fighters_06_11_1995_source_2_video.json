@@ -1,0 +1,122 @@
+{
+  "originalTitle": "Foo Fighters - 06.11.1995 - Paris - France - Canal+ Studios - Nulle Part Ailleurs (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "11",
+    "year": "1995"
+  },
+  "startDateUnix": 815616000,
+  "endDate": {
+    "day": "06",
+    "month": "11",
+    "year": "1995"
+  },
+  "endDateUnix": 815616000,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "Canal+ Studios",
+    "event": "Nulle Part Ailleurs"
+  },
+  "tvChannel": "Canal+",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "PRO#1b. Has digital errors at the end.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.17,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3179,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "foo_fighters_28_08_1995_video",
+    "foo_fighters_06_11_1995_source_1_video",
+    "foo_fighters_09_05_1997_video",
+    "foo_fighters_15_11_1997_video",
+    "foo_fighters_03_05_2005_video"
+  ],
+  "childOf": "Foo Fighters - [1995-2005] - TV Appearances - 'Nulle Part Ailleurs'",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "45144479.jpg",
+      "externalId": "1qdOmwKfRUS0zaMvepWhPzgqS0qC7qBQa"
+    },
+    {
+      "folder": "60",
+      "filename": "61380443.jpg",
+      "externalId": "1YsZoQhkrcJlqTY6wYLNLDJWrA6PfUAdI"
+    },
+    {
+      "folder": "60",
+      "filename": "55171093.jpg",
+      "externalId": "10Yb6EdwBoAkuXyuLqysXHw7FYpgG5XO1"
+    },
+    {
+      "folder": "60",
+      "filename": "01114648.jpg",
+      "externalId": "1RJxH-J7Kvpi1-a3VGhVkEAaGG_vEjiAA"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Big Me",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

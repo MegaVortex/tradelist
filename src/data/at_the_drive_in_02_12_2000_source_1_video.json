@@ -1,0 +1,142 @@
+{
+  "originalTitle": "At The Drive-In - 02.12.2000 - London - England - BBC Television Centre - Jools Holland Show (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "At The Drive-In"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "12",
+    "year": "2000"
+  },
+  "startDateUnix": 975715200,
+  "endDate": {
+    "day": "02",
+    "month": "12",
+    "year": "2000"
+  },
+  "endDateUnix": 975715200,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Television Centre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jools Holland Show",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 61.44,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 425,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "352x288",
+        "bitrateType": "",
+        "bitrateKbps": 1150,
+        "fps": "25.00",
+        "standard": "MPEG1",
+        "codec": "",
+        "letterboxed": false
+      },
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "320x240",
+        "bitrateType": "",
+        "bitrateKbps": 632,
+        "fps": "30.00",
+        "standard": "Windows",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 224,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 64,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "MPG/WMV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "9",
+      "filename": "00913144.jpg",
+      "externalId": "18zVX6rm8au4MAxy0o73tNt9PoPivg2Xg"
+    },
+    {
+      "folder": "9",
+      "filename": "50309161.jpg",
+      "externalId": "1U1Cx3XW6I6ucf-j-JjNVWPh84f5GYIrl"
+    },
+    {
+      "folder": "9",
+      "filename": "07306439.jpg",
+      "externalId": "1BSNEsJVUGkdQWhQqi5QksvM43Fy5p0dm"
+    },
+    {
+      "folder": "9",
+      "filename": "35139074.jpg",
+      "externalId": "13QCVH_Jps-19r_zaEJoG20hjBVufbPQx"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "One Armed Scissor",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Rolodex Propaganda",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}
