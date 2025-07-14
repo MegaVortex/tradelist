@@ -1,0 +1,113 @@
+{
+  "originalTitle": "Queen - 20.04.1992 - London - England - Wembley Stadium - Freddie Mercury Tribute Concert",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queen"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "04",
+    "year": "1992"
+  },
+  "startDateUnix": 703728000,
+  "endDate": {
+    "day": "20",
+    "month": "04",
+    "year": "1992"
+  },
+  "endDateUnix": 703728000,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Wembley Stadium",
+    "event": "Freddie Mercury Tribute Concert"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 7.66,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 15869,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "elton_john_20_04_1992_video",
+    "guns_n_roses_20_04_1992_video",
+    "metallica_20_04_1992_video",
+    "def_leppard_20_04_1992_video",
+    "robert_plant_20_04_1992_video",
+    "various_artists_20_04_1992_video"
+  ],
+  "childOf": "[VARIOUS ARTISTS] - 20.04.1992 - London - England - Wembley Stadium - Freddie Mercury Tribute Concert",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "18561002.jpg",
+      "externalId": "1fd3BSVvhMUYJSqEId21VPAUY9f51xfnS"
+    },
+    {
+      "folder": "28",
+      "filename": "12339131.jpg",
+      "externalId": "1vvlkEZCpQg1j9pBV4nrekhDw7HYvXSJL"
+    },
+    {
+      "folder": "28",
+      "filename": "65016782.jpg",
+      "externalId": "1vBOdKT9K6KSqLG66z3F1YqWVo3hebjDB"
+    },
+    {
+      "folder": "28",
+      "filename": "51965502.jpg",
+      "externalId": "1c3dbaxnlwI8toHeHx6pjUhA7LWlx2seJ"
+    }
+  ],
+  "setlist": []
+}

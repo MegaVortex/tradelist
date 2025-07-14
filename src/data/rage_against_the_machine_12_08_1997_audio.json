@@ -1,0 +1,212 @@
+{
+  "originalTitle": "Rage Against The Machine - 12.08.1997 - Antioch - TN - USA - Starwood Amphitheatre [AUDIO]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rage Against The Machine"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "08",
+    "year": "1997"
+  },
+  "startDateUnix": 871344000,
+  "endDate": {
+    "day": "12",
+    "month": "08",
+    "year": "1997"
+  },
+  "endDateUnix": 871344000,
+  "location": {
+    "city": "Antioch",
+    "state": "TN",
+    "country": "USA",
+    "venue": "Starwood Amphitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "audio"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "Ballsdeep",
+  "notes": "Core Sound (CSB) mics > Sony D8 > Maxell XLII (90 min) > Cassette(1) > Denon 790R > Kenwood A-522 amplifier > Kenwood GE-622 Equalizer > WAV (16 bit/44.1 kHz) > Sound Forge Pro 11.0 > Audacity 2.1.1 > xAct 2.37 > FLAC(8).",
+  "tapers": [
+    "Scott B."
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 546,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 5401,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "FLAC",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "People Of The Sun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Vietnow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Bombtrack",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Ghost Of Tom Joad",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Bruce Springsteen"
+    },
+    {
+      "order": 5,
+      "song": "Tire Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Fistful Of Steel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Revolver",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Without A Face",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Darkness Of Greed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Know Your Enemy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Bulls On Parade",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Bullet In The Head",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Sound Of Da Police",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "KRS-One"
+    },
+    {
+      "order": 14,
+      "song": "Killing In The Name",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Freedom",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "Township Rebellion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,140 @@
+{
+  "originalTitle": "The Mars Volta - 27.08.2005 - Worcester - MA - USA - DCU Center",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Mars Volta"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "08",
+    "year": "2005"
+  },
+  "startDateUnix": 1125100800,
+  "endDate": {
+    "day": "27",
+    "month": "08",
+    "year": "2005"
+  },
+  "endDateUnix": 1125100800,
+  "location": {
+    "city": "Worcester",
+    "state": "MA",
+    "country": "USA",
+    "venue": "DCU Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.96,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3049,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "13371549.jpg",
+      "externalId": "1EE1aYOTZEyR8UZVtOF-AW_8l9GEQRdls"
+    },
+    {
+      "folder": "6",
+      "filename": "65147651.jpg",
+      "externalId": "16Qlw6MHd4kumKBtKCo5thojeMgguDN4H"
+    },
+    {
+      "folder": "6",
+      "filename": "79016714.jpg",
+      "externalId": "1P6pRmMwDmkTyl7KG-Z4slLzL8kB6hmNS"
+    },
+    {
+      "folder": "6",
+      "filename": "76372796.jpg",
+      "externalId": "1w7IDKzaCbQejrKmQ0Hs-HaiI4ksY5YVQ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Cygnus...Vismund Cygnus",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "L'Via L'Viaquez",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Widow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Drunkship Of Lanterns",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

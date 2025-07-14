@@ -1,0 +1,216 @@
+{
+  "originalTitle": "Radiohead - 09.06.2001 - London - England - BBC Television Centre - Jools Holland Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Radiohead"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "06",
+    "year": "2001"
+  },
+  "startDateUnix": 992044800,
+  "endDate": {
+    "day": "09",
+    "month": "06",
+    "year": "2001"
+  },
+  "endDateUnix": 992044800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Television Centre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jools Holland Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1746,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "radiohead_31_05_1997_video",
+    "radiohead_27_05_1995_video",
+    "radiohead_27_05_2003_video"
+  ],
+  "childOf": "Radiohead - [1995-2003] - Jools Holland Shows",
+  "images": [
+    {
+      "folder": "32",
+      "filename": "03735540.jpg",
+      "externalId": "1yiaYAUscrzgBs1TlZESO0MlyJFA-box5"
+    },
+    {
+      "folder": "32",
+      "filename": "80661644.jpg",
+      "externalId": "1xL-SZNycVNPLVKY_Qd2CvI3PW2GEDR1V"
+    },
+    {
+      "folder": "32",
+      "filename": "89677708.jpg",
+      "externalId": "12apFiHew8SSGQseljeRIEnHLDwvLdTrf"
+    },
+    {
+      "folder": "32",
+      "filename": "52999710.jpg",
+      "externalId": "1Lfl6_sLuT4VTXug_k9Vg2T2N9WgE0QxV"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "National Anthem",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Morning Bell",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Lucky",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Knives Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Life In A Glasshouse",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Packed Like Sardines..",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "No Suprises",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Exit Music",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "I Might Be Wrong",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Street Spirit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Paraniod Android",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Idioteque",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "The Bends",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

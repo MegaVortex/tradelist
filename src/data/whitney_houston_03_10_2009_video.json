@@ -1,0 +1,112 @@
+{
+  "originalTitle": "Whitney Houston - 03.10.2009 - Freiburg - Germany - Halle 2 Вer Neuen Messe",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Whitney Houston"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "10",
+    "year": "2009"
+  },
+  "startDateUnix": 1254528000,
+  "endDate": {
+    "day": "03",
+    "month": "10",
+    "year": "2009"
+  },
+  "endDateUnix": 1254528000,
+  "location": {
+    "city": "Freiburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Halle 2 Вer Neuen Messe",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 420,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 289,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": {
+      "language": "",
+      "codec": "",
+      "bitrateKbps": null,
+      "channels": null
+    },
+    "sourceDetail": {
+      "type": "",
+      "extra": "",
+      "medium": ""
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "31",
+      "filename": "04369208.jpg",
+      "externalId": "11iVvxhXHPCAcO_Z5AIsdCO7zQXSv34ai"
+    },
+    {
+      "folder": "31",
+      "filename": "63939413.jpg",
+      "externalId": "1QrgFS78YkTB8rW0VkI0tBtdPdwbu2WDQ"
+    },
+    {
+      "folder": "31",
+      "filename": "56914003.jpg",
+      "externalId": "1BWgHCFJtargLq-4H4-k8KLrN-pFWQe_L"
+    },
+    {
+      "folder": "31",
+      "filename": "73152218.jpg",
+      "externalId": "1kkLii6nyxiwyMw_F8mjausjUvmbCR-OO"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "I Look To You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

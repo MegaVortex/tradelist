@@ -1,0 +1,120 @@
+{
+  "originalTitle": "Smashing Pumpkins - xx.xx.1993 - BBC2 TV - The Late Show - 'No Nirvana'",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Smashing Pumpkins"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1993"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1993"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "BBC2 TV",
+    "state": "",
+    "country": "'No Nirvana'",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "BBC2 TV",
+  "showName": "The Late Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.66,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2451,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "pearl_jam_xx_xx_1993_video",
+    "sonic_youth_xx_xx_1993_video",
+    "r_e_m_xx_xx_1993_video"
+  ],
+  "childOf": "[VARIOUS ARTISTS] - [1993] - BBC2 TV - The Late Show - 'No Nirvana'",
+  "images": [
+    {
+      "folder": "17",
+      "filename": "97919932.jpg",
+      "externalId": "1IFwsBFpOP7O521eP39EjsGPnt9NeJ5LJ"
+    },
+    {
+      "folder": "17",
+      "filename": "85083724.jpg",
+      "externalId": "1VQKfLhunRiMUKUnh9Rg2676MShrzputN"
+    },
+    {
+      "folder": "17",
+      "filename": "01161018.jpg",
+      "externalId": "17HRi36S3T_9CRE4kL5tFXlavnN1WymaG"
+    },
+    {
+      "folder": "17",
+      "filename": "69828257.jpg",
+      "externalId": "1KiLbdLFvgWltP_327qbJUGh80PTilsiX"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Rhinoceros",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

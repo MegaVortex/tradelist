@@ -1,0 +1,160 @@
+{
+  "originalTitle": "Nirvana - xx.10.1990 - Tour Footage [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "10",
+    "year": "1990"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "10",
+    "year": "1990"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Tour Footage",
+    "state": "",
+    "country": "",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "Mike Ziegler",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.67,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1474,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "nirvana_25_10_1990_source_3_video",
+    "nirvana_27_10_1990_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "27501740.jpg",
+      "externalId": "1xiHO8uwKLJkoBMRMu6L36Pe54HinSBWK"
+    },
+    {
+      "folder": "80",
+      "filename": "17220154.jpg",
+      "externalId": "1Co0RvfEjdzBdoipPtPWXy1F5NopdY8v1"
+    },
+    {
+      "folder": "80",
+      "filename": "30135041.jpg",
+      "externalId": "1HjdFYGEa36jJ_Z0dNufJWBpIGPDjT3MD"
+    },
+    {
+      "folder": "80",
+      "filename": "75120064.jpg",
+      "externalId": "1BL2LfLNfLs1__AxYDycKjnz8ZK_bQito"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Krist's House (xx.10.1990)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "On The Plane (20.10.1990)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Streets Of London (21.10.1990)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Maida Vale Studio 3 (21.10.1990)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Tour Footage (xx.10.1990)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Backstage (25.10.1990)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

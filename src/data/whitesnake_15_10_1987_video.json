@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Whitesnake - 15.10.1987 - Tacoma - WA - USA - Dome",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Whitesnake"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "10",
+    "year": "1987"
+  },
+  "startDateUnix": 561254400,
+  "endDate": {
+    "day": "15",
+    "month": "10",
+    "year": "1987"
+  },
+  "endDateUnix": 561254400,
+  "location": {
+    "city": "Tacoma",
+    "state": "WA",
+    "country": "USA",
+    "venue": "Dome",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 563,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 989,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "76",
+      "filename": "23274932.jpg",
+      "externalId": "1mNQGNcvxJ12w6sL-ClExBl0kPiaWzsyr"
+    },
+    {
+      "folder": "76",
+      "filename": "74690775.jpg",
+      "externalId": "1D5Xg7YTtNM8INgm0Jtfei_NErT55y2K2"
+    },
+    {
+      "folder": "76",
+      "filename": "08985065.jpg",
+      "externalId": "18qnYFOtF1eoEf_GMkQ7NGPRRZ3VRea3w"
+    },
+    {
+      "folder": "76",
+      "filename": "37719131.jpg",
+      "externalId": "11e0_1hBzWVWvhskKr46-Ky3GHVnWXHFo"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Drum Solo",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Still Of The Night",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

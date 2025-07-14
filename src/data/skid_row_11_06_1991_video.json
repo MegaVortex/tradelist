@@ -1,0 +1,195 @@
+{
+  "originalTitle": "Skid Row - 11.06.1991 - Hershey - PA - USA - Hershey Stadium",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Skid Row"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "06",
+    "year": "1991"
+  },
+  "startDateUnix": 676598400,
+  "endDate": {
+    "day": "11",
+    "month": "06",
+    "year": "1991"
+  },
+  "endDateUnix": 676598400,
+  "location": {
+    "city": "Hershey",
+    "state": "PA",
+    "country": "USA",
+    "venue": "Hershey Stadium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Horrible audio and video quality.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.02,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 3.54,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 6917,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "guns_n_roses_11_06_1991_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "17",
+      "filename": "87724071.jpg",
+      "externalId": "1IKDXCl1rhmJOAa8lW4FqssIEdL_BCyVS"
+    },
+    {
+      "folder": "17",
+      "filename": "73931315.jpg",
+      "externalId": "1otdsPxDyMPtOuIHkq2fxlIy1z_Nlz8xf"
+    },
+    {
+      "folder": "17",
+      "filename": "01334990.jpg",
+      "externalId": "14TQf6_0PwaTSNt8iaPMDIqz2wytt5qZI"
+    },
+    {
+      "folder": "17",
+      "filename": "76466362.jpg",
+      "externalId": "1ZRi4JV8YteTBYvuthgg57AmCPeAjiBR-"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Slave To The Grind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Big Guns",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Piece Of Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Riot Act",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "18 And Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Psycho Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Get The Fuck Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Monkey Business",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "I Remember You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Youth Gone Wild",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

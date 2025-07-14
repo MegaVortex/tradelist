@@ -1,0 +1,106 @@
+{
+  "originalTitle": "The New And Very Welcome - 08.08.2009 - Winooski - VT - USA - The Monkey House",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The New And Very Welcome"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "08",
+    "year": "2009"
+  },
+  "startDateUnix": 1249689600,
+  "endDate": {
+    "day": "08",
+    "month": "08",
+    "year": "2009"
+  },
+  "endDateUnix": 1249689600,
+  "location": {
+    "city": "Winooski",
+    "state": "VT",
+    "country": "USA",
+    "venue": "The Monkey House",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "dyinghorse release.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.67,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1566,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "34",
+      "filename": "78277414.jpg",
+      "externalId": "1biGdqvRCszUIf63b1G2qpp9u31Wb1rkb"
+    },
+    {
+      "folder": "34",
+      "filename": "05517122.jpg",
+      "externalId": "1o5yOwhx2Cf0zFdbcodn_yuYsony-_ewz"
+    },
+    {
+      "folder": "34",
+      "filename": "63679877.jpg",
+      "externalId": "1qVLwJWMeKCmBrBH96cDlV0i8QvJr7-nq"
+    },
+    {
+      "folder": "34",
+      "filename": "11985357.jpg",
+      "externalId": "1TdXhI8L44bF4rra6kGc_LBSkfHy2Ye3q"
+    }
+  ],
+  "setlist": []
+}

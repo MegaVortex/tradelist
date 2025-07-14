@@ -1,0 +1,205 @@
+{
+  "originalTitle": "Metallica - 10.09.2008 - Saint-Denis - France - La Plaine Saint-Denis - B+otiment 130A (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "09",
+    "year": "2008"
+  },
+  "startDateUnix": 1221004800,
+  "endDate": {
+    "day": "10",
+    "month": "09",
+    "year": "2008"
+  },
+  "endDateUnix": 1221004800,
+  "location": {
+    "city": "Saint-Denis",
+    "state": "",
+    "country": "France",
+    "venue": "La Plaine Saint-Denis",
+    "event": "B+otiment 130A"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.9,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3857,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "16",
+      "filename": "72752455.jpg",
+      "externalId": "109cINOv-eOYD5ZRhsSZVVW-vonCIrEDh"
+    },
+    {
+      "folder": "16",
+      "filename": "84094658.jpg",
+      "externalId": "1Yms320Kkj40mwfxjuTh78G3IIgV_TZ3q"
+    },
+    {
+      "folder": "16",
+      "filename": "02368132.jpg",
+      "externalId": "1L35Darx7V_9z0btc7RFAgOPsm-rRfpUd"
+    },
+    {
+      "folder": "16",
+      "filename": "85779775.jpg",
+      "externalId": "1_NzjXkc9NdKc9AQEf9To1O4ixKPh5aog"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 2,
+      "song": "The Day That Never Comes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Cyanide",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "The Day That Never Comes (bootleg version)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 2,
+      "song": "Intro",
+      "feat": "Kirk & Jaymz",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 3,
+      "song": "Trust - 15.12.2006 (Antisocial)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 4,
+      "song": "Lenny Kravitz - 11.03.1993 (Are You Gonna My Way)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 5,
+      "song": "Smashing Pumpkins - 28.01.1996",
+      "feat": "My Betterfly Wings",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 6,
+      "song": "Outro",
+      "feat": "Kirk & Jaymz",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 2,
+      "song": "Intro",
+      "feat": "Kirk &amp; Jaymz",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 6,
+      "song": "Outro",
+      "feat": "Kirk &amp; Jaymz",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

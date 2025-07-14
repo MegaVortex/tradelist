@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Slipknot - 25.08.2002 - Reading - England - Richfield Avenue - Reading Festival (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "08",
+    "year": "2002"
+  },
+  "startDateUnix": 1030233600,
+  "endDate": {
+    "day": "25",
+    "month": "08",
+    "year": "2002"
+  },
+  "endDateUnix": 1030233600,
+  "location": {
+    "city": "Reading",
+    "state": "",
+    "country": "England",
+    "venue": "Richfield Avenue",
+    "event": "Reading Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 120,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 593,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "352x288",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG1",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "VCD",
+      "fileFormat": "MPG"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "12",
+      "filename": "39368299.jpg",
+      "externalId": "1a_Jy2C9d63iR7Lndvqz4-5IA1jDoahxi"
+    },
+    {
+      "folder": "12",
+      "filename": "30355498.jpg",
+      "externalId": "1XLEb0uhseTrmseOfHnGtBIJu9eU4Z90G"
+    },
+    {
+      "folder": "12",
+      "filename": "28956239.jpg",
+      "externalId": "1_4mLX26DiJ7YFUB0aC7uSYqgGsqLfbVq"
+    },
+    {
+      "folder": "12",
+      "filename": "15383871.jpg",
+      "externalId": "1NH2IMTem5q7UyPXmmxGfStwb_9O8rx0H"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "(Sic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Disasterpiece",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Eeyore",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

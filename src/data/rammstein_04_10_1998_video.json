@@ -1,0 +1,182 @@
+{
+  "originalTitle": "Rammstein - 04.10.1998 - Minneapolis - MN - USA - Target Center",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "10",
+    "year": "1998"
+  },
+  "startDateUnix": 907459200,
+  "endDate": {
+    "day": "04",
+    "month": "10",
+    "year": "1998"
+  },
+  "endDateUnix": 907459200,
+  "location": {
+    "city": "Minneapolis",
+    "state": "MN",
+    "country": "USA",
+    "venue": "Target Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Chris"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 8.47,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2396,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "",
+        "bitrateKbps": 28771,
+        "fps": "29.97",
+        "standard": "DVSD",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HI8",
+      "finalMediaType": "",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "78",
+      "filename": "57335750.jpg",
+      "externalId": "17ypqr8S5jRwxkta1KzOHTI1KqT04Lmys"
+    },
+    {
+      "folder": "78",
+      "filename": "44260157.jpg",
+      "externalId": "1ycNLsEwW6QhPlUxLPEAJaoUWznCR_JNG"
+    },
+    {
+      "folder": "78",
+      "filename": "68326089.jpg",
+      "externalId": "1jSROLm8nXczTgV5ntVNhbjHQwbx9piKl"
+    },
+    {
+      "folder": "78",
+      "filename": "79551403.jpg",
+      "externalId": "1jSsOA1z8AeGq9XljFzSIun89wRMyqaNK"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Rammstein",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Tier",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Bestrafe Mich",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Weisses Fleisch",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Sehnsucht",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Asche Zu Asche",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Du Hast",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Buck Dich",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Engel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,116 @@
+{
+  "originalTitle": "System Of A Down - 07.08.2013 - Anapa - Russia - Blagoveshenskaya - Kubana Festival (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "System Of A Down"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "08",
+    "year": "2013"
+  },
+  "startDateUnix": 1375833600,
+  "endDate": {
+    "day": "07",
+    "month": "08",
+    "year": "2013"
+  },
+  "endDateUnix": 1375833600,
+  "location": {
+    "city": "Anapa",
+    "state": "",
+    "country": "Russia",
+    "venue": "Blagoveshenskaya",
+    "event": "Kubana Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 30.72,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 123,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 96000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "HD",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "55",
+      "filename": "48126826.jpg",
+      "externalId": "12H1e95pC8V7NZFgndHGvVAJ-_JshoXY1"
+    },
+    {
+      "folder": "55",
+      "filename": "43311840.jpg",
+      "externalId": "17oMFKpUcL1x46pBl7TfR8eevhodaqeeX"
+    },
+    {
+      "folder": "55",
+      "filename": "15665012.jpg",
+      "externalId": "1c2Y2sg7xR4tu-RXaDME5KrofNzQaT6kY"
+    },
+    {
+      "folder": "55",
+      "filename": "41290190.jpg",
+      "externalId": "1gb_0-1Z9CBjWjg_QtZVEX6FJeT1vKaer"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Chop Suey!",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

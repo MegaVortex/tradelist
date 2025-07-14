@@ -1,0 +1,161 @@
+{
+  "originalTitle": "Metallica - 23.08.1995 - London - England - Astoria II (Source 4)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "08",
+    "year": "1995"
+  },
+  "startDateUnix": 809136000,
+  "endDate": {
+    "day": "23",
+    "month": "08",
+    "year": "1995"
+  },
+  "endDateUnix": 809136000,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Astoria II",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 4",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MTV Headbangers Ball Revisited.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.28,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2940,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "it",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_xx_xx_1992_wherever_we_may_roam_video_misc",
+    "metallica_05_06_1993_source_3_video",
+    "metallica_14_01_1992_video",
+    "metallica_06_09_1996_video"
+  ],
+  "childOf": "Metallica - [1992-1996] - Live Performances",
+  "images": [
+    {
+      "folder": "76",
+      "filename": "18293801.jpg",
+      "externalId": "1p5Aeq638hc2CjkVxCCkUpB7kropXlrKQ"
+    },
+    {
+      "folder": "76",
+      "filename": "85081194.jpg",
+      "externalId": "178hIJOhPpCPjtGiXn9C1allfuRR5WOCt"
+    },
+    {
+      "folder": "76",
+      "filename": "30962704.jpg",
+      "externalId": "185Ziw3vB0twaCqErPzsyxlcZZGwSPhDJ"
+    },
+    {
+      "folder": "76",
+      "filename": "77744766.jpg",
+      "externalId": "1FIYl_mtzmNPL7JGva8gG-FvquzpTYDMq"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "Lars",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Nothing Else Matters",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Harvester Of Sorrow",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Interview",
+      "feat": "James",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

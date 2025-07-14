@@ -1,0 +1,118 @@
+{
+  "originalTitle": "Rammstein - 19.04.2013 - Barakaldo - Spain - Bilbao Exhibition Centre (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "04",
+    "year": "2013"
+  },
+  "startDateUnix": 1366329600,
+  "endDate": {
+    "day": "19",
+    "month": "04",
+    "year": "2013"
+  },
+  "endDateUnix": 1366329600,
+  "location": {
+    "city": "Barakaldo",
+    "state": "",
+    "country": "Spain",
+    "venue": "Bilbao Exhibition Centre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "AMT#1. Just one song. Shitty video and audio quality.",
+  "tapers": [
+    "Flanaganbrother"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 113,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 67,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.152",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "HD",
+      "fileFormat": "MP4"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "53",
+      "filename": "07681332.jpg",
+      "externalId": "1pPqp1ymm4z_XZedqrsa2xlAo2KfJx-wo"
+    },
+    {
+      "folder": "53",
+      "filename": "22200954.jpg",
+      "externalId": "1ovVs4K_g64q5MzgVMWFMGjmpZwV6qOLD"
+    },
+    {
+      "folder": "53",
+      "filename": "18422532.jpg",
+      "externalId": "1Wijk-GUjrlWpEmic5Ire2fwXwKo1NnJb"
+    },
+    {
+      "folder": "53",
+      "filename": "53125062.jpg",
+      "externalId": "1L3xoL_gn2jLaoiSOcqMlvnOO7GbpZoin"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Du Hast",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

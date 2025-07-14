@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Nirvana - 26.11.1989 - Mezzago - Italy - Bloom (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "11",
+    "year": "1989"
+  },
+  "startDateUnix": 628041600,
+  "endDate": {
+    "day": "26",
+    "month": "11",
+    "year": "1989"
+  },
+  "endDateUnix": 628041600,
+  "location": {
+    "city": "Mezzago",
+    "state": "",
+    "country": "Italy",
+    "venue": "Bloom",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.25,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": null,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "0",
+      "filename": "54977.jpg",
+      "externalId": "1lbCCTE9ZTZW8ZmDePQq_ZwnhC92QKwx1"
+    },
+    {
+      "folder": "0",
+      "filename": "88999.jpg",
+      "externalId": "1np7LA_2dwwAXtZT-1P9V0Z3eGw5o3fm1"
+    },
+    {
+      "folder": "0",
+      "filename": "82564.jpg",
+      "externalId": "1hRB9_xz5aNbpI_T7zWE_aUymay6De3Eq"
+    },
+    {
+      "folder": "0",
+      "filename": "14430.jpg",
+      "externalId": "1IUu8YaqcMJOfQAPoEF6uo8AKpl-6Yde5"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "High On The Hog",
+      "feat": "Tad",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Loser",
+      "feat": "Tad",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "School",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Love Buzz",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Big Cheese",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

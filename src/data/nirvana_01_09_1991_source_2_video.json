@@ -1,0 +1,204 @@
+{
+  "originalTitle": "Nirvana - 01.09.1991 - Rotterdam - Netherlands - De Doelen (Ein Abend In Wien) (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "09",
+    "year": "1991"
+  },
+  "startDateUnix": 683683200,
+  "endDate": {
+    "day": "01",
+    "month": "09",
+    "year": "1991"
+  },
+  "endDateUnix": 683683200,
+  "location": {
+    "city": "Rotterdam",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "De Doelen (Ein Abend In Wien)",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "2 cam mix (AMT#1 and AMT#2) synced with AUD#2a. Synched and",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.16,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2973,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "35",
+      "filename": "44688344.jpg",
+      "externalId": "1pPLHjwhKyk59GNnJILj4R2KNwutoc859"
+    },
+    {
+      "folder": "35",
+      "filename": "14455218.jpg",
+      "externalId": "1BwlPvY7kSA6YXyMfBJ5QqxrSyvF6bnzs"
+    },
+    {
+      "folder": "35",
+      "filename": "00721044.jpg",
+      "externalId": "1lPEGSX3or_LCwOrb_ZSX23dXmH64f6Rh"
+    },
+    {
+      "folder": "35",
+      "filename": "70337711.jpg",
+      "externalId": "1uYC4cI6jP54NrVNDfRn9w_mtTWYrV7Nu"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Polly",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Drain You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "School",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Floyd The Barber",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Smells Like Teen Spirit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Come As You Are",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "About A Girl",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Breed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Sliver",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "In Bloom",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Been A Son",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Negative Creep",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

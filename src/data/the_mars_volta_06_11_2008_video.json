@@ -1,0 +1,132 @@
+{
+  "originalTitle": "The Mars Volta - 06.11.2008 - Mexico City - Mexico - OnceTV Studios",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Mars Volta"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "11",
+    "year": "2008"
+  },
+  "startDateUnix": 1225929600,
+  "endDate": {
+    "day": "06",
+    "month": "11",
+    "year": "2008"
+  },
+  "endDateUnix": 1225929600,
+  "location": {
+    "city": "Mexico City",
+    "state": "",
+    "country": "Mexico",
+    "venue": "OnceTV Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.76,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2188,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "58651124.jpg",
+      "externalId": "1NLwBb2RHvMSn5oLTC2SzpH4YTe-4Q_t1"
+    },
+    {
+      "folder": "15",
+      "filename": "61637076.jpg",
+      "externalId": "1A1ywITvUDmaZDiLbui_OpndpCT_NJDCf"
+    },
+    {
+      "folder": "15",
+      "filename": "34449636.jpg",
+      "externalId": "1fqmm1u6FSYytsi-l04iR0sqSGK02RU89"
+    },
+    {
+      "folder": "15",
+      "filename": "13183371.jpg",
+      "externalId": "1qh7N9pV3IBMeZ3rD7IQ7gmXBB6SMtHrd"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Televators",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Asilos Magdalena",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Miranda...",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

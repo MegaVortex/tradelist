@@ -1,0 +1,149 @@
+{
+  "originalTitle": "Metallica - 19.10.1997 - Mountain View - CA - USA - Shoreline Amphitheatre [AUDIO]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "10",
+    "year": "1997"
+  },
+  "startDateUnix": 877219200,
+  "endDate": {
+    "day": "19",
+    "month": "10",
+    "year": "1997"
+  },
+  "endDateUnix": 877219200,
+  "location": {
+    "city": "Mountain View",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Shoreline Amphitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "audio"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Bridge School Benefit. DAT Clone > Sony R500 > MBox+ > Protools > xACT2.21 > FLAC(8).",
+  "tapers": [
+    "kwv"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 266,
+        "unit": "Mb"
+      },
+      {
+        "type": "Floppy",
+        "size": 1.38,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": null,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": {
+      "language": "",
+      "codec": "",
+      "bitrateKbps": null,
+      "channels": null
+    },
+    "sourceDetail": {
+      "type": "",
+      "extra": "",
+      "medium": ""
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Low Man's Lyric",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Helpless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Diamond Head"
+    },
+    {
+      "order": 3,
+      "song": "Tuesday's Gone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Lynyrd Skynyrd"
+    },
+    {
+      "order": 4,
+      "song": "Poor Twisted Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Fade To Black",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Four Horsemen",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Nothing Else Matters",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Last Caress  (with John Popper)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Misfits"
+    }
+  ],
+  "extras": []
+}

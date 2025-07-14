@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Papa Roach - 16.06.2001 - Somerset - WI - USA - Float Rite Park - Ozzfest",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Papa Roach"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "06",
+    "year": "2001"
+  },
+  "startDateUnix": 992649600,
+  "endDate": {
+    "day": "16",
+    "month": "06",
+    "year": "2001"
+  },
+  "endDateUnix": 992649600,
+  "location": {
+    "city": "Somerset",
+    "state": "WI",
+    "country": "USA",
+    "venue": "Float Rite Park",
+    "event": "Ozzfest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.99,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1789,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "43183025.jpg",
+      "externalId": "1CRTclaICgpEu6G3ZgxEu6crrwsBh1YF5"
+    },
+    {
+      "folder": "29",
+      "filename": "55759862.jpg",
+      "externalId": "1F0o7WxRA5mW3CIqKWuBkEvkHL7jAthQk"
+    },
+    {
+      "folder": "29",
+      "filename": "69317501.jpg",
+      "externalId": "174cnUlKKH4ruH4Et6zqaRfdW0mI4pooX"
+    },
+    {
+      "folder": "29",
+      "filename": "37182570.jpg",
+      "externalId": "158WrrwedD1Ndpcv5pn-gNRNV2SueHaeS"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Snakes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Walking Thru Barbed Wire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Dead Cell",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Broken Home",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Never Enough",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Last Resort",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

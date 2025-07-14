@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Rage Against The Machine - 28.10.1993 - Toronto - ON - Canada - Concert Hall [AUDIO]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rage Against The Machine"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "10",
+    "year": "1993"
+  },
+  "startDateUnix": 751766400,
+  "endDate": {
+    "day": "28",
+    "month": "10",
+    "year": "1993"
+  },
+  "endDateUnix": 751766400,
+  "location": {
+    "city": "Toronto",
+    "state": "ON",
+    "country": "Canada",
+    "venue": "Concert Hall",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "audio"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "Five in 2007",
+  "notes": "Stock Mics > Aiwa/Sanyo Portable Cassette Recorder > Maxell XLII Cass(m) > Yamaha KX-650 3-Motor/3-Head Closed Loop Dual Capstan Cassette Deck > Hosa Cables > EMU0404 > CEP2.1 (recording, cutting, nofx) > FLAC(8).",
+  "tapers": [
+    "Andymon"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 331,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2852,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "FLAC",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Bombtrack",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wake Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "People Of The Sun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Fistful Of Steel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Take The Power Back",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Hadda Be Playing On The Jukebox",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Allen Ginsberg"
+    },
+    {
+      "order": 7,
+      "song": "Know Your Enemy",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Freedom",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

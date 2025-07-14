@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Supertramp - 11.04.1988 - Rome - Italy - Palazzetto Dello Sport",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Supertramp"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "04",
+    "year": "1988"
+  },
+  "startDateUnix": 576720000,
+  "endDate": {
+    "day": "11",
+    "month": "04",
+    "year": "1988"
+  },
+  "endDateUnix": 576720000,
+  "location": {
+    "city": "Rome",
+    "state": "",
+    "country": "Italy",
+    "venue": "Palazzetto Dello Sport",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.31,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2104,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "86310694.jpg",
+      "externalId": "1KANa5bbeh3nnZZZ1Pe8QdCMPZitA2Y8v"
+    },
+    {
+      "folder": "26",
+      "filename": "97354568.jpg",
+      "externalId": "1Vbtxgn1cit_qekCeBWSf_1zmm9dIc78e"
+    },
+    {
+      "folder": "26",
+      "filename": "75737894.jpg",
+      "externalId": "1b9MCxL6vqrN9ggOt4uyYbHmK2YgLf2Lp"
+    },
+    {
+      "folder": "26",
+      "filename": "31637379.jpg",
+      "externalId": "1ozAIfiw_yQ2Ae9P4y96Dq0iOu4txgHza"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Ain't Nobody But Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "It's Alright",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Breakfast In America",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "From Now On",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Logical Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Goodbye Stranger",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

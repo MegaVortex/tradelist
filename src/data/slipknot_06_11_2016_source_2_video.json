@@ -1,0 +1,142 @@
+{
+  "originalTitle": "Slipknot - 06.11.2016 - Chiba - Japan - Makuhari Messe - Knotfest (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "11",
+    "year": "2016"
+  },
+  "startDateUnix": 1478390400,
+  "endDate": {
+    "day": "06",
+    "month": "11",
+    "year": "2016"
+  },
+  "endDateUnix": 1478390400,
+  "location": {
+    "city": "Chiba",
+    "state": "",
+    "country": "Japan",
+    "venue": "Makuhari Messe",
+    "event": "Knotfest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 770,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1840,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": 3377,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 44100,
+        "bitrateKbps": 127,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "YouTube RIP",
+      "finalMediaType": "HD",
+      "fileFormat": "MP4"
+    }
+  },
+  "relatedShows": [
+    "slipknot_05_11_2016_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "82",
+      "filename": "37198229.jpg",
+      "externalId": "1mSxc2ceqZdGvuSDUumD8-DOsidVVuqoe"
+    },
+    {
+      "folder": "82",
+      "filename": "80693282.jpg",
+      "externalId": "1JvIJBhIiiBlyD4KKH5j27tIUFy9LmusU"
+    },
+    {
+      "folder": "82",
+      "filename": "26411599.jpg",
+      "externalId": "1hjcoX3giCviI4vWs5NfCXsLgN13lYjqz"
+    },
+    {
+      "folder": "82",
+      "filename": "46947834.jpg",
+      "externalId": "1P-EoW-9d81UWw7uxmLif7EdmvteCHv_g"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "People = Shit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Devil In I",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Duality",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Spit It Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

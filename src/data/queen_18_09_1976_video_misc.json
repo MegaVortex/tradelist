@@ -1,0 +1,145 @@
+{
+  "originalTitle": "Queen - 18.09.1976 - London - England - Hyde Park [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queen"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "09",
+    "year": "1976"
+  },
+  "startDateUnix": 211852800,
+  "endDate": {
+    "day": "18",
+    "month": "09",
+    "year": "1976"
+  },
+  "endDateUnix": 211852800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Hyde Park",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Original film.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 911,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1109,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      },
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "8mm",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "queen_14_09_1980_video",
+    "queen_10_05_1982_video",
+    "queen_18_08_1979_video"
+  ],
+  "childOf": "Queen - [1976-1982] - Live Performances",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "34786982.jpg",
+      "externalId": "1symZmgwC45dfjDqK9Kmsli5sCz02eSHb"
+    },
+    {
+      "folder": "24",
+      "filename": "24823486.jpg",
+      "externalId": "1iAZxJbiGrb7q2AyR1kndH-2iyjvooz8f"
+    },
+    {
+      "folder": "24",
+      "filename": "16033174.jpg",
+      "externalId": "1W2eza5sCFJlb0lMEo_k0207Dlz6idnCO"
+    },
+    {
+      "folder": "24",
+      "filename": "68801072.jpg",
+      "externalId": "1mvny5-HGtT4NQuRfGjB9NABkKEe3z3hT"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Outtakes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Live footage (24.01.1979 - Berlin - Germany - Deutschlandhalle (55 sec))",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 2,
+      "song": "Soundcheck (29.01.1979 - Rotterdam - Netherlands - Ahoy Hall (1 min 40 sec))",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

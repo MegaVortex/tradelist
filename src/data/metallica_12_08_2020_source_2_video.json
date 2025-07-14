@@ -1,0 +1,144 @@
+{
+  "originalTitle": "Metallica - 12.08.2020 - San Rafael - CA - USA - HQ - Howard Stern Show (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "08",
+    "year": "2020"
+  },
+  "startDateUnix": 1597190400,
+  "endDate": {
+    "day": "12",
+    "month": "08",
+    "year": "2020"
+  },
+  "endDateUnix": 1597190400,
+  "location": {
+    "city": "San Rafael",
+    "state": "CA",
+    "country": "USA",
+    "venue": "HQ",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Howard Stern Show",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.65,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6880,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_23_09_2013_video",
+    "metallica_15_08_2017_video_misc",
+    "metallica_28_08_2020_video"
+  ],
+  "childOf": "Metallica - [2013-2020] - TV Appearances",
+  "images": [
+    {
+      "folder": "74",
+      "filename": "10530236.jpg",
+      "externalId": "1qFj_VW_q8NQIPV-2gLMkcLkYSIk9mZgK"
+    },
+    {
+      "folder": "74",
+      "filename": "34398411.jpg",
+      "externalId": "1RFRQkZAxCfv3qFQr7ZTIdt2bNj5SzaM8"
+    },
+    {
+      "folder": "74",
+      "filename": "07473785.jpg",
+      "externalId": "1ljxITVe7G29s_gU5USsXW9UhHEUWtScM"
+    },
+    {
+      "folder": "74",
+      "filename": "38945299.jpg",
+      "externalId": "1g79qwNA-YGOYe3869kbeiGKuAOe4EiOU"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wherever I May Roam",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Unforgiven",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "All Within My Hands",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

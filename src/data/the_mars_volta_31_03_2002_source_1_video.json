@@ -1,0 +1,151 @@
+{
+  "originalTitle": "The Mars Volta - 31.03.2002 - Dusseldorf - Germany - Osterrocknacht (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Mars Volta"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "03",
+    "year": "2002"
+  },
+  "startDateUnix": 1017532800,
+  "endDate": {
+    "day": "31",
+    "month": "03",
+    "year": "2002"
+  },
+  "endDateUnix": 1017532800,
+  "location": {
+    "city": "Dusseldorf",
+    "state": "",
+    "country": "Germany",
+    "venue": "Osterrocknacht",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.6,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1579,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "the_mars_volta_03_08_2003_video",
+    "the_mars_volta_05_02_2005_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "2",
+      "filename": "97831.jpg",
+      "externalId": "1qeGyw2fxmegrCQchH_JfkjbOVcZatSbt"
+    },
+    {
+      "folder": "2",
+      "filename": "47632.jpg",
+      "externalId": "1SiVs8OXjP2WqDU2CzgXrmwjITVt83m3D"
+    },
+    {
+      "folder": "2",
+      "filename": "18290.jpg",
+      "externalId": "1FnqmKlD5-0Q2o5dOvfmR4uaFe6PbT4SI"
+    },
+    {
+      "folder": "2",
+      "filename": "39790.jpg",
+      "externalId": "1LsVkh_PPtH3bKhgDk0LgnWDyizyWD4pd"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Inertiatic ESP",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Cut That City",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Concertina",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Enuch Provacateur",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Roulette Dares",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

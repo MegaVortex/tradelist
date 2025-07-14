@@ -1,0 +1,166 @@
+{
+  "originalTitle": "Rage Against The Machine - 28.12.1999 - San Diego - CA - USA - Cox Arena",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rage Against The Machine"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "12",
+    "year": "1999"
+  },
+  "startDateUnix": 946339200,
+  "endDate": {
+    "day": "28",
+    "month": "12",
+    "year": "1999"
+  },
+  "endDateUnix": 946339200,
+  "location": {
+    "city": "San Diego",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Cox Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "cesaro"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.1,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4925,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "23724807.jpg",
+      "externalId": "1F8EUyd6UvqHYG93xiQKCyOQDYXlCRw-r"
+    },
+    {
+      "folder": "69",
+      "filename": "75776086.jpg",
+      "externalId": "1CpgbqhODp6dCJnqQklf2yXHaccFZYwAq"
+    },
+    {
+      "folder": "69",
+      "filename": "42645384.jpg",
+      "externalId": "1n_EcxFPIFinsS9hMrfQrL4rfa2-z9Q2H"
+    },
+    {
+      "folder": "69",
+      "filename": "38220481.jpg",
+      "externalId": "1b1Okz5wBARj1rNmqaj0auiqJCUsJzBNV"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Infest",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Blood Brothers",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Between Angels And Insects",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Dead Cell",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Snakes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Broken Home",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Last Resort",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

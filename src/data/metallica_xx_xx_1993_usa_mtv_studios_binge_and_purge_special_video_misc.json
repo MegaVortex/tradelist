@@ -1,0 +1,125 @@
+{
+  "originalTitle": "Metallica - xx.xx.1993 - USA - MTV Studios - 'Binge And Purge' Special [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1993"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1993"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "MTV Studios",
+    "venue": "'Binge And Purge' Special",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "'TV Shit: Binge And Purge (Part 3)'.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 809,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 964,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_04_09_1996_source_1_video",
+    "metallica_25_01_1993_source_2_video",
+    "metallica_26_08_1995_source_4_video",
+    "metallica_xx_xx_1993_usa_mtv_studios_headbangers_ball_video_misc",
+    "metallica_xx_xx_1996_usa_mtv_rockumentary_video_misc",
+    "metallica_xx_xx_1996_usa_motherload_mtv_news_report_video_misc",
+    "metallica_xx_xx_xxxx_video"
+  ],
+  "childOf": "metallica_xx_xx_xxxx_tv_shit_3_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "50",
+      "filename": "87575903.jpg",
+      "externalId": "1cRfPALeSQuJUiihVSH2UhOsqqVHXyuBv"
+    },
+    {
+      "folder": "50",
+      "filename": "97256622.jpg",
+      "externalId": "1cNxREqA7ZYr6SUCrgvjfT68u9A33NIEx"
+    },
+    {
+      "folder": "50",
+      "filename": "24466220.jpg",
+      "externalId": "1FYv9G_N1Cdku9CdVVYyay3GAsuSjp9fr"
+    },
+    {
+      "folder": "50",
+      "filename": "41862921.jpg",
+      "externalId": "19BBcsrjwcyIf7-6Iro2gAro8ddpvHHUA"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Lars and Jason",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

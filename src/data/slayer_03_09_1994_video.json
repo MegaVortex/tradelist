@@ -1,0 +1,212 @@
+{
+  "originalTitle": "Slayer - 03.09.1994 - Buenos Aires - Argentina - River Plate Stadium - Monsters Of Rock",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slayer"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "09",
+    "year": "1994"
+  },
+  "startDateUnix": 778550400,
+  "endDate": {
+    "day": "03",
+    "month": "09",
+    "year": "1994"
+  },
+  "endDateUnix": 778550400,
+  "location": {
+    "city": "Buenos Aires",
+    "state": "",
+    "country": "Argentina",
+    "venue": "River Plate Stadium",
+    "event": "Monsters Of Rock"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.63,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3265,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "17",
+      "filename": "22051368.jpg",
+      "externalId": "1UGuNjh2N2-PPD1vIUhDkO3xeOCzfqlTm"
+    },
+    {
+      "folder": "17",
+      "filename": "85099633.jpg",
+      "externalId": "13U0F4vOwibXcpt8vQn6EnANMgXRY-G1G"
+    },
+    {
+      "folder": "17",
+      "filename": "69489693.jpg",
+      "externalId": "1ZRRMPOf9gCN5sH4ZOedHo_H69EXosR3J"
+    },
+    {
+      "folder": "17",
+      "filename": "06720178.jpg",
+      "externalId": "1Na8-DsCBmv0qLMGvCdi2wytBrK9aoCcv"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Hell Awaits",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Antichrist",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Spirits In Black",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Mind Control",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Jesus Saves",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Captor Of Sin",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Dead Skin Mask",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Seasons In The Abyss",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Mandatory Suicide",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "War Ensemble",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Die By The Sword",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "South Of Heaven",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Angel Of Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

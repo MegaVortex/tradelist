@@ -1,0 +1,180 @@
+{
+  "originalTitle": "The Cure - 10.09.2011 - Isle Of Wight - England - Robin Hill - Bestival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Cure"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "09",
+    "year": "2011"
+  },
+  "startDateUnix": 1315612800,
+  "endDate": {
+    "day": "10",
+    "month": "09",
+    "year": "2011"
+  },
+  "endDateUnix": 1315612800,
+  "location": {
+    "city": "Isle Of Wight",
+    "state": "",
+    "country": "England",
+    "venue": "Robin Hill",
+    "event": "Bestival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.69,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2208,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "68944797.jpg",
+      "externalId": "1m-JR7AI269mYs4fLKmuldlkOjSqpkFtQ"
+    },
+    {
+      "folder": "24",
+      "filename": "07322648.jpg",
+      "externalId": "1rjjnMDiOxGTuJnccn538aSKm7OAVSf7c"
+    },
+    {
+      "folder": "24",
+      "filename": "20138423.jpg",
+      "externalId": "1tDEICbIvsVs9bwLhEwbHGhJs6FlIKUUq"
+    },
+    {
+      "folder": "24",
+      "filename": "89281033.jpg",
+      "externalId": "11iTWoUpRSqZuQralmmYeGPwfVzGVlAUs"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Lovesong",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Just Like Heaven",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Only One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Walk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Push",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Friday I'm In Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Inbetween Days",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "PLay For Today",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "A Forest",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

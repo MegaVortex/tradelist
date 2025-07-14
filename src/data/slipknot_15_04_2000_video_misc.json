@@ -1,0 +1,135 @@
+{
+  "originalTitle": "Slipknot - 15.04.2000 - Chicago - IL - USA - Congress Theater [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "04",
+    "year": "2000"
+  },
+  "startDateUnix": 955756800,
+  "endDate": {
+    "day": "15",
+    "month": "04",
+    "year": "2000"
+  },
+  "endDateUnix": 955756800,
+  "location": {
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "venue": "Congress Theater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Soundcheck.",
+  "tapers": [
+    "Chris"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 5.14,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1455,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "",
+        "bitrateKbps": 28771,
+        "fps": "29.97",
+        "standard": "DVSD",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "76",
+      "filename": "28059804.jpg",
+      "externalId": "14WUVboxQNNTS-U2zbPsMs9-ya_7vbh7P"
+    },
+    {
+      "folder": "76",
+      "filename": "89082648.jpg",
+      "externalId": "12J32zWiOY3g79E2UOFJxBwJqWb823Krl"
+    },
+    {
+      "folder": "76",
+      "filename": "34467099.jpg",
+      "externalId": "13rDCt985oDJongr5of-7P0e_iWIAQ-FO"
+    },
+    {
+      "folder": "76",
+      "filename": "81961130.jpg",
+      "externalId": "1jsNjTIREBhA9zuikgMXfGoxtgcBdXmvn"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Eyeless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Liberate",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Purity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

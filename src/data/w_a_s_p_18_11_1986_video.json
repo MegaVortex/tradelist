@@ -1,0 +1,172 @@
+{
+  "originalTitle": "W.A.S.P. - 18.11.1986 - Malmo - Sweden - Isstadion",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "W.A.S.P."
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "11",
+    "year": "1986"
+  },
+  "startDateUnix": 532656000,
+  "endDate": {
+    "day": "18",
+    "month": "11",
+    "year": "1986"
+  },
+  "endDateUnix": 532656000,
+  "location": {
+    "city": "Malmo",
+    "state": "",
+    "country": "Sweden",
+    "venue": "Isstadion",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.21,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3239,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "31",
+      "filename": "28673903.jpg",
+      "externalId": "1XG7KvZdNj86yYi0qVpEgOprKbjstI6qE"
+    },
+    {
+      "folder": "31",
+      "filename": "84874649.jpg",
+      "externalId": "1HZVc1pIiX6IxcDh4mA0XZcn6q-kETnd5"
+    },
+    {
+      "folder": "31",
+      "filename": "04846737.jpg",
+      "externalId": "1YW8mN9oDsdoiDwo7om1JPebLh4MOkgFb"
+    },
+    {
+      "folder": "31",
+      "filename": "66344963.jpg",
+      "externalId": "1ZxVzaS23C7jeFCGEES3oGLotnMh_BoNc"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Inside The Electric Circus",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "I Don't Need No Doctor",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "95 NASTY",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Widowmaker",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Wild Child",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Animal (Fuck Like A Beast)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "I Wanna Be Somebody",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Blind In Texas",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

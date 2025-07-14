@@ -1,0 +1,158 @@
+{
+  "originalTitle": "Rammstein - 20.04.2012 - Sunrise - FL - USA - BankAtlantic Center",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "04",
+    "year": "2012"
+  },
+  "startDateUnix": 1334880000,
+  "endDate": {
+    "day": "20",
+    "month": "04",
+    "year": "2012"
+  },
+  "endDateUnix": 1334880000,
+  "location": {
+    "city": "Sunrise",
+    "state": "FL",
+    "country": "USA",
+    "venue": "BankAtlantic Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Distorted sound.",
+  "tapers": [
+    "Lifeonmars45"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.15,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1475,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "30",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "HD",
+      "fileFormat": "MOV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "53",
+      "filename": "29201471.jpg",
+      "externalId": "1_KpzCCBddt9hOwtX1eAJjtn1SU4lq9JT"
+    },
+    {
+      "folder": "53",
+      "filename": "81990555.jpg",
+      "externalId": "1Mud3BW0crAvnGXWivFdXUXeGOeDxFC9v"
+    },
+    {
+      "folder": "53",
+      "filename": "97166512.jpg",
+      "externalId": "1a3djnJX6Q-5lGFeIBYbtyXCaFYVwEz8x"
+    },
+    {
+      "folder": "53",
+      "filename": "86615641.jpg",
+      "externalId": "1EjFnU1BYZ0jyuTunEzWD7rV3caih1dwG"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Sonne",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Du Riechst So Gut",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Haifisch",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Buck Dich",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Engel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,129 @@
+{
+  "originalTitle": "Pink Floyd - 15.06.1971 - Royaumont - France - Abbaye De Royaumont (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Pink Floyd"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "06",
+    "year": "1971"
+  },
+  "startDateUnix": 45792000,
+  "endDate": {
+    "day": "15",
+    "month": "06",
+    "year": "1971"
+  },
+  "endDateUnix": 45792000,
+  "location": {
+    "city": "Royaumont",
+    "state": "",
+    "country": "France",
+    "venue": "Abbaye De Royaumont",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.01,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1130,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "8mm",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "pink_floyd_28_06_1970_video",
+    "pink_floyd_25_10_1969_video",
+    "pink_floyd_28_06_1972_video",
+    "pink_floyd_29_06_1972_video"
+  ],
+  "childOf": "Pink Floyd - [1969-1972] - TV Appearances",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "97626698.jpg",
+      "externalId": "10fFknlMYdVJLQOtbZOFdI4w467-WBupW"
+    },
+    {
+      "folder": "24",
+      "filename": "80676838.jpg",
+      "externalId": "1XhchzZWHhyXnf0_PyKhmPQ2ErGUCvRyy"
+    },
+    {
+      "folder": "24",
+      "filename": "27921742.jpg",
+      "externalId": "1H6gWT2NCQzkzbs_fjWk5V2V9KQ_WgZac"
+    },
+    {
+      "folder": "24",
+      "filename": "93049752.jpg",
+      "externalId": "1pzU0AlbDPdVtToB7KrgoUW0ntzh-QCfn"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Cymbaline",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Set The Controls For The Heart Of The Sun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

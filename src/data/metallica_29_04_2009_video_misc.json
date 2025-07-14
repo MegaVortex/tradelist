@@ -1,0 +1,146 @@
+{
+  "originalTitle": "Metallica - 29.04.2009 - USA - Discovery Channel Studios - 'Time Warp' [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "29",
+    "month": "04",
+    "year": "2009"
+  },
+  "startDateUnix": 1240963200,
+  "endDate": {
+    "day": "29",
+    "month": "04",
+    "year": "2009"
+  },
+  "endDateUnix": 1240963200,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "Discovery Channel Studios",
+    "venue": "'Time Warp'",
+    "event": ""
+  },
+  "tvChannel": "Discovery Channel",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Amazing quality show!",
+  "tapers": [
+    "MrCaptaincrash"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.18,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 3.64,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 4.36,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 11535,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_02_04_2009_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "44",
+      "filename": "69331843.jpg",
+      "externalId": "1aBhSmCXUWWZzjD1eA70i_kSZhBZtQxV8"
+    },
+    {
+      "folder": "44",
+      "filename": "43690608.jpg",
+      "externalId": "1LEiaRh0pOolwp3MHPka7MiH5IoTreQ0-"
+    },
+    {
+      "folder": "44",
+      "filename": "39762486.jpg",
+      "externalId": "1ZlR7mTx2iy2x04K4cKLbISLJ2VpWy1D6"
+    },
+    {
+      "folder": "44",
+      "filename": "73494832.jpg",
+      "externalId": "1bYg83k3cLM9Ej9f_oHwtb3gRZgdXGStO"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

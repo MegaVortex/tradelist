@@ -1,0 +1,244 @@
+{
+  "originalTitle": "Sonic Youth - 13.10.1987 - Madison - WI - USA - Headliners",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sonic Youth"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "10",
+    "year": "1987"
+  },
+  "startDateUnix": 561081600,
+  "endDate": {
+    "day": "13",
+    "month": "10",
+    "year": "1987"
+  },
+  "endDateUnix": 561081600,
+  "location": {
+    "city": "Madison",
+    "state": "WI",
+    "country": "USA",
+    "venue": "Headliners",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.86,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3770,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "81",
+      "filename": "88946481.jpg",
+      "externalId": "1lM-aWbfXswwySjiOwvyB4U1xCky6OvOz"
+    },
+    {
+      "folder": "81",
+      "filename": "70136021.jpg",
+      "externalId": "1iu_mWI6p83bS_a6AT4x1OwJLPn5ag_89"
+    },
+    {
+      "folder": "81",
+      "filename": "99477358.jpg",
+      "externalId": "1HsFoC4daw5ogESrpOPCsrhrpTAkm8oQf"
+    },
+    {
+      "folder": "81",
+      "filename": "02380359.jpg",
+      "externalId": "10aF7dEFf5qS3stzx8jXNkbWeIoe4zrPY"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Schizophrenia",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Tom Violence",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "White Kross",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Kotton Krown",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Stereo Sanctity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Brother James",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Pipeline/Kill Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "(I Got A) Catholic Block",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Tuff Gnarl",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Beauty Lies In The Eye",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "I Wanna Be Your Dog",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "The Stooges"
+    },
+    {
+      "order": 12,
+      "song": "Expressway To Yr Skull",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Pacific Coast Highway",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Loudmouth",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Ramones"
+    },
+    {
+      "order": 15,
+      "song": "I Don't Wanna Walk Around With You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Ramones"
+    },
+    {
+      "order": 16,
+      "song": "Today Your Love, Tomorrow The World",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Ramones"
+    },
+    {
+      "order": 17,
+      "song": "Beat On The Brat",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Ramones"
+    }
+  ],
+  "extras": []
+}

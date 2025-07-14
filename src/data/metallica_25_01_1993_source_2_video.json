@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Metallica - 25.01.1993 - Los Angeles - CA - USA - Shrine Auditorium - American Music Awards (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "01",
+    "year": "1993"
+  },
+  "startDateUnix": 727920000,
+  "endDate": {
+    "day": "25",
+    "month": "01",
+    "year": "1993"
+  },
+  "endDateUnix": 727920000,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Shrine Auditorium",
+    "event": "American Music Awards"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "'TV Shit: Binge And Purge (Part 3)'.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 451,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 343,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_04_09_1996_source_1_video",
+    "metallica_xx_xx_1993_usa_mtv_studios_binge_and_purge_special_video_misc",
+    "metallica_26_08_1995_source_4_video",
+    "metallica_xx_xx_1993_usa_mtv_studios_headbangers_ball_video_misc",
+    "metallica_xx_xx_1996_usa_mtv_rockumentary_video_misc",
+    "metallica_xx_xx_1996_usa_motherload_mtv_news_report_video_misc",
+    "metallica_xx_xx_xxxx_video"
+  ],
+  "childOf": "metallica_xx_xx_xxxx_tv_shit_3_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "49",
+      "filename": "90899942.jpg",
+      "externalId": "1hcQ0O2D1apEvoubWwMqfvNp9wB8mjead"
+    },
+    {
+      "folder": "49",
+      "filename": "29805424.jpg",
+      "externalId": "1o0If5w9Wg8R1l7RAd6-TvVYDsDjJPgNg"
+    },
+    {
+      "folder": "49",
+      "filename": "44164686.jpg",
+      "externalId": "1bKdS5zuXEI_gEXPHg1mnhqIUM0REVn0g"
+    },
+    {
+      "folder": "49",
+      "filename": "41312104.jpg",
+      "externalId": "1WfUkY7J2seSb4exsseCo-bgZ6PSfq59C"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Wherever I May Roam",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

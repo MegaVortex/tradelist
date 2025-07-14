@@ -1,0 +1,125 @@
+{
+  "originalTitle": "Slash - xx.xx.2000 - Sweden - TV Special [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slash"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2000"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2000"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Sweden",
+    "state": "",
+    "country": "TV Special",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 205,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 269,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "47",
+      "filename": "19567203.jpg",
+      "externalId": "1y4TN7ONzeZK9vFqdqMbp_zZoKFMd0_f8"
+    },
+    {
+      "folder": "47",
+      "filename": "11410621.jpg",
+      "externalId": "17qgicAAVw4CDAlTDUktK9pfYdAF3e0td"
+    },
+    {
+      "folder": "47",
+      "filename": "03980439.jpg",
+      "externalId": "1TJEA86ozZ_GJ-4Q2YzaTk2LrEurtFFFr"
+    },
+    {
+      "folder": "47",
+      "filename": "12508816.jpg",
+      "externalId": "1shjbUsNmoUEdbafwvYOoxzv_di3YtZ1p"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Live Footage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

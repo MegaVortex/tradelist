@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Nirvana - 01.03.1994 - Munich - Germany - Terminal 1 (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "03",
+    "year": "1994"
+  },
+  "startDateUnix": 762480000,
+  "endDate": {
+    "day": "01",
+    "month": "03",
+    "year": "1994"
+  },
+  "endDateUnix": 762480000,
+  "location": {
+    "city": "Munich",
+    "state": "",
+    "country": "Germany",
+    "venue": "Terminal 1",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "Bill Mayer",
+  "notes": "PRO#1a.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 686,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 579,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "43",
+      "filename": "88291057.jpg",
+      "externalId": "16TJFtX2je12rCEmKa0alblK7xERQhWg7"
+    },
+    {
+      "folder": "43",
+      "filename": "51449629.jpg",
+      "externalId": "1wunnfkuMKfLyyui6zCRoBC1DKXDOcuhF"
+    },
+    {
+      "folder": "43",
+      "filename": "18311442.jpg",
+      "externalId": "1HE-Q4FasZuDEdAnhWg_39rOU2lwlP2er"
+    },
+    {
+      "folder": "43",
+      "filename": "14765027.jpg",
+      "externalId": "1YDiPZEWhqlPaLyViWZsqeS3zZY95n6lb"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Radio Friendly Unit Shifter",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "My Best Friend's Girl  / Moving In Stereo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "The Cars"
+    },
+    {
+      "order": 3,
+      "song": "Drain You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Interview",
+      "feat": "fans",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

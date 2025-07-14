@@ -1,0 +1,190 @@
+{
+  "originalTitle": "Sed Non Satiata - 25.01.2014 - Moscow - Russia - Teatr",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sed Non Satiata"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "01",
+    "year": "2014"
+  },
+  "startDateUnix": 1390608000,
+  "endDate": {
+    "day": "25",
+    "month": "01",
+    "year": "2014"
+  },
+  "endDateUnix": 1390608000,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Teatr",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": true,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Very dark. A hundredth performance according to the band. \"Extrospection\" song has been played twice.",
+  "tapers": [
+    "Vortex"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 6.41,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3445,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "53",
+      "filename": "41272730.jpg",
+      "externalId": "1APvo2lqs3MyT7Yx0gskno0CNK1Hd8BdO"
+    },
+    {
+      "folder": "53",
+      "filename": "72074319.jpg",
+      "externalId": "1mI1xcGdHJCoFSb5BBboYEKjWvWqwfvF0"
+    },
+    {
+      "folder": "53",
+      "filename": "48362273.jpg",
+      "externalId": "1BhXa93K28JzNc-wN2HD-5YDwlfawyFFR"
+    },
+    {
+      "folder": "53",
+      "filename": "69917130.jpg",
+      "externalId": "1hbe2KS6LlMPJvllsQJZhu9QVYIkrN4l8"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Extrospection (take 1) (cuts in)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Entropia",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Nemesis",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "San Andrea",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Spirit Fuel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Les Hommes Sans Visage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Hypocrisie Des Sentiments",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Soma",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Moi Le Premier",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Extrospection (take 2)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

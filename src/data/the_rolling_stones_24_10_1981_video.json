@@ -1,0 +1,113 @@
+{
+  "originalTitle": "The Rolling Stones - 24.10.1981 - Orlando - FL - USA",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Rolling Stones"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "10",
+    "year": "1981"
+  },
+  "startDateUnix": 372729600,
+  "endDate": {
+    "day": "24",
+    "month": "10",
+    "year": "1981"
+  },
+  "endDateUnix": 372729600,
+  "location": {
+    "city": "Orlando",
+    "state": "FL",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Upgraded audio from TB's release \"Local rock history for you\".",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.97,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4219,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "the_rolling_stones_18_10_1981_video",
+    "the_rolling_stones_01_11_1981_video",
+    "the_rolling_stones_12_11_1981_video",
+    "the_rolling_stones_20_11_1981_video",
+    "the_rolling_stones_28_11_1981_video",
+    "the_rolling_stones_30_11_1981_video"
+  ],
+  "childOf": "The Rolling Stones - Early Years Part II",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "07744447.jpg",
+      "externalId": "1Xkb-ewSyUhiiMTEtxIkGZLfXsitzQqWI"
+    },
+    {
+      "folder": "27",
+      "filename": "41309567.jpg",
+      "externalId": "1ADKqNclDnaqYiFFJNDfBDXfrc7uwJHIv"
+    },
+    {
+      "folder": "27",
+      "filename": "61598188.jpg",
+      "externalId": "1mp_mf3u1ft8bxwKyLLyTLJr3JdOa2zYy"
+    },
+    {
+      "folder": "27",
+      "filename": "44362151.jpg",
+      "externalId": "1QA08O6WoXytYF0c6ZIVzYUYwNgXIPKkH"
+    }
+  ],
+  "setlist": []
+}

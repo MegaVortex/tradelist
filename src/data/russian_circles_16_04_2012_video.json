@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Russian Circles - 16.04.2012 - Stockholm - Sweden - Hornstull Strand",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Russian Circles"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "04",
+    "year": "2012"
+  },
+  "startDateUnix": 1334534400,
+  "endDate": {
+    "day": "16",
+    "month": "04",
+    "year": "2012"
+  },
+  "endDateUnix": 1334534400,
+  "location": {
+    "city": "Stockholm",
+    "state": "",
+    "country": "Sweden",
+    "venue": "Hornstull Strand",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.99,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 4140,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "40",
+      "filename": "08200229.jpg",
+      "externalId": "1bCs3TUaTVkSMWsWEzJeZVKKKNu_PscB-"
+    },
+    {
+      "folder": "40",
+      "filename": "13838068.jpg",
+      "externalId": "1YXQUqwAVTW1EOYwbDF5ZbiXmJPYgzfuz"
+    },
+    {
+      "folder": "40",
+      "filename": "44263678.jpg",
+      "externalId": "1D1xHM1C6Y5XlXzqvM94G_8DogyC_cjY0"
+    },
+    {
+      "folder": "40",
+      "filename": "69370109.jpg",
+      "externalId": "1G6ZFWf1ZFN25X6k7nu5qf3MQpeSV6Kq0"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Carpe",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Harper Lewis",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "309",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Geneva",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Batu",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Youngblood",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Mlаdek",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Death Rides A Horse",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

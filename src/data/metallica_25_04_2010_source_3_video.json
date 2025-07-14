@@ -1,0 +1,149 @@
+{
+  "originalTitle": "Metallica - 25.04.2010 - Moscow - Russia - SC Olimpiyskiy (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "04",
+    "year": "2010"
+  },
+  "startDateUnix": 1272153600,
+  "endDate": {
+    "day": "25",
+    "month": "04",
+    "year": "2010"
+  },
+  "endDateUnix": 1272153600,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "SC Olimpiyskiy",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Alexey Kemaikin"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 838,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "45",
+      "filename": "15643047.jpg",
+      "externalId": "1Z53q6RLydRgsbFbuKslKBuHofd1gK0ft"
+    },
+    {
+      "folder": "45",
+      "filename": "11349841.jpg",
+      "externalId": "1KqeU_g9iUMnAfotRymQzvwJmdLIFKkkk"
+    },
+    {
+      "folder": "45",
+      "filename": "86933340.jpg",
+      "externalId": "1RlDOVwbxo6dSpkR47y6_c-t_Vx4UMKEG"
+    },
+    {
+      "folder": "45",
+      "filename": "13611130.jpg",
+      "externalId": "1eXD0cyYdS4vbqj5R22na_jRS9sruwApK"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "That Was Just Your Life",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Day That Never Comes",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "One",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Master Of Puppets",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

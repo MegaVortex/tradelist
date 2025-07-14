@@ -1,0 +1,198 @@
+{
+  "originalTitle": "Slipknot - 22.05.1999 - Des Moines - IA - USA - Hairy Marys (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "05",
+    "year": "1999"
+  },
+  "startDateUnix": 927331200,
+  "endDate": {
+    "day": "22",
+    "month": "05",
+    "year": "1999"
+  },
+  "endDateUnix": 927331200,
+  "location": {
+    "city": "Des Moines",
+    "state": "IA",
+    "country": "USA",
+    "venue": "Hairy Marys",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "A little dark.",
+  "tapers": [
+    "Tom"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 13.8,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3973,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "",
+        "bitrateKbps": 28771,
+        "fps": "29.97",
+        "standard": "DVSD",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 32000,
+        "bitrateKbps": 1024,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "74",
+      "filename": "12777350.jpg",
+      "externalId": "1miHTbIZ1SqHa8k9vDkwpG_q368gIuj4T"
+    },
+    {
+      "folder": "74",
+      "filename": "71618490.jpg",
+      "externalId": "1D7Txbh1O58mHvA5HGjsm7k0kPD9x6Cff"
+    },
+    {
+      "folder": "74",
+      "filename": "00808679.jpg",
+      "externalId": "1De6RKTEtfLR0FMkzA8_dqCPbg69Bx42Z"
+    },
+    {
+      "folder": "74",
+      "filename": "98434524.jpg",
+      "externalId": "1P5cJSakxBsfIiM96QEoqxLJsMe_R4T2g"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "742617000027",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "(Sic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Eyeless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Wait And Bleed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Liberate",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Surfacing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Purity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Prosthetics",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Spit It Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Only One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Eeyore",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

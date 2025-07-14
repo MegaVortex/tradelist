@@ -1,0 +1,158 @@
+{
+  "originalTitle": "Slipknot - 06.06.2004 - Donington - England - Donington Park - Download Festival (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "06",
+    "year": "2004"
+  },
+  "startDateUnix": 1086480000,
+  "endDate": {
+    "day": "06",
+    "month": "06",
+    "year": "2004"
+  },
+  "endDateUnix": 1086480000,
+  "location": {
+    "city": "Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": "Download Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "bara"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 251,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1588,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "320x240",
+        "bitrateType": "",
+        "bitrateKbps": 1150,
+        "fps": "29.97",
+        "standard": "MPEG1",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 128,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "MPG"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "2",
+      "filename": "70106.jpg",
+      "externalId": "1OGqkKkEDau3YTRLGa94lhEbd2up6c29O"
+    },
+    {
+      "folder": "2",
+      "filename": "79109.jpg",
+      "externalId": "1EIspX2vqqqQT4Dwb17KF2eXs_f9WMGUx"
+    },
+    {
+      "folder": "2",
+      "filename": "96753.jpg",
+      "externalId": "1yoza18EdcKOSm75geth_-D9E2_w_C-S-"
+    },
+    {
+      "folder": "2",
+      "filename": "52970.jpg",
+      "externalId": "12-4TUxA_3e8T5AhhUPTRRhUlpOrMSBnv"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "742617000027",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "(Sic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Blister Exists",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Three Nil",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Eyeless",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Duality",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

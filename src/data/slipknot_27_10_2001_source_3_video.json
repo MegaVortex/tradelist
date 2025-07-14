@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Slipknot - 27.10.2001 - Peoria - IL - USA - Civic Center (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "10",
+    "year": "2001"
+  },
+  "startDateUnix": 1004140800,
+  "endDate": {
+    "day": "27",
+    "month": "10",
+    "year": "2001"
+  },
+  "endDateUnix": 1004140800,
+  "location": {
+    "city": "Peoria",
+    "state": "IL",
+    "country": "USA",
+    "venue": "Civic Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "VH1 broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 655,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 662,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "66",
+      "filename": "75092142.jpg",
+      "externalId": "1lRmMoKz8BtHLUsNGUXFXWNp5Z4BG7f8V"
+    },
+    {
+      "folder": "66",
+      "filename": "28531546.jpg",
+      "externalId": "131k50F-x0tfLumqwhj-JRnPzKCHIV2Os"
+    },
+    {
+      "folder": "66",
+      "filename": "08544062.jpg",
+      "externalId": "1VzC-CJ_L-SgZj8ZmQxkJiK2bFpRSU6yY"
+    },
+    {
+      "folder": "66",
+      "filename": "29178540.jpg",
+      "externalId": "13vUxV5t4qD5klKoS8frmF98K1fFnFB-2"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Disasterpiece",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Heretic Anthem",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Get This",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Liberate",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

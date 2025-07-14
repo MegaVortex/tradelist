@@ -1,0 +1,188 @@
+{
+  "originalTitle": "The Cure - 18.11.2004 - Rome - Italy - The Colosseum",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Cure"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "11",
+    "year": "2004"
+  },
+  "startDateUnix": 1100736000,
+  "endDate": {
+    "day": "18",
+    "month": "11",
+    "year": "2004"
+  },
+  "endDateUnix": 1100736000,
+  "location": {
+    "city": "Rome",
+    "state": "",
+    "country": "Italy",
+    "venue": "The Colosseum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.49,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2181,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "62257765.jpg",
+      "externalId": "1mKAwC0HnnWEBYDBt3TDa6bKYRQYFDDYL"
+    },
+    {
+      "folder": "26",
+      "filename": "35225387.jpg",
+      "externalId": "1r4pR8K7p83OMa4ommNt2ii7KmiJUT6wb"
+    },
+    {
+      "folder": "26",
+      "filename": "01589844.jpg",
+      "externalId": "1kdMosD3TkrRgknxn-qUlZvSsSv4ckR8T"
+    },
+    {
+      "folder": "26",
+      "filename": "34018771.jpg",
+      "externalId": "1jLJD2WUqPhbomQSS_N29WtYntHdfeOxw"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Three Imaginary Boys",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Fascination Street",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "High",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Let's Go To Bed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Lovesong",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "In Between Days",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Play For Today",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Boys Don't Cry",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "The End Of The World",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Interview",
+      "feat": "Robert Smith",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

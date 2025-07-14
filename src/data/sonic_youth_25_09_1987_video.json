@@ -1,0 +1,244 @@
+{
+  "originalTitle": "Sonic Youth - 25.09.1987 - San Diego - CA - USA - Spirit",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sonic Youth"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "09",
+    "year": "1987"
+  },
+  "startDateUnix": 559526400,
+  "endDate": {
+    "day": "25",
+    "month": "09",
+    "year": "1987"
+  },
+  "endDateUnix": 559526400,
+  "location": {
+    "city": "San Diego",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Spirit",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 993,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1331,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "81",
+      "filename": "01057893.jpg",
+      "externalId": "1ZwKqz4ACIE0kHhrjcJbLlGQMk13TOf9e"
+    },
+    {
+      "folder": "81",
+      "filename": "81657534.jpg",
+      "externalId": "1bRhAjT8VmcghDw2ez7fEziETwpr8VQu-"
+    },
+    {
+      "folder": "81",
+      "filename": "60000720.jpg",
+      "externalId": "1oPoLquMnpLl8zxsKBW_oODCkst2jkqpF"
+    },
+    {
+      "folder": "81",
+      "filename": "25401566.jpg",
+      "externalId": "1FqfjrpXSI6IGKaZuos66GGjvzY7NNT1P"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Schizophrenia",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Tom Violence",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "White Kross",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Stereo Sanctity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Kotton Krown",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Brother James",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Pipeline/Kill Time",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "(I Got A) Catholic Block (not recorded)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Tuff Gnarl",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Beauty Lies In The Eye",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Loudmouth",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "I Don't Wanna Walk Around With You",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Today Yr Love, Tomorrow The World",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Expressway To Yr Skull",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Pacific Coast Highway",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "Hotwire My Heart",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 17,
+      "song": "Beat On The Brat",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

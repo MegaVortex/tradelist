@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Pelican - 02.06.2006 - Portland - OR - USA - Loveland",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Pelican"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "06",
+    "year": "2006"
+  },
+  "startDateUnix": 1149206400,
+  "endDate": {
+    "day": "02",
+    "month": "06",
+    "year": "2006"
+  },
+  "endDateUnix": 1149206400,
+  "location": {
+    "city": "Portland",
+    "state": "OR",
+    "country": "USA",
+    "venue": "Loveland",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Pretty dark.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.13,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3537,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "16",
+      "filename": "11321563.jpg",
+      "externalId": "1zVGj51I6RxuolVALo096W3QnhTtOcG6Q"
+    },
+    {
+      "folder": "16",
+      "filename": "06523673.jpg",
+      "externalId": "1_QBpvq8iMkaA2v8EHbqggMooLzv2hNPe"
+    },
+    {
+      "folder": "16",
+      "filename": "08621696.jpg",
+      "externalId": "1TVW_S0C7HWwKHUN1-15eQTeg35BDqeak"
+    },
+    {
+      "folder": "16",
+      "filename": "70855958.jpg",
+      "externalId": "1Z8tzW6no5aC4jjfE-EuVllJCCufEizbl"
+    }
+  ],
+  "setlist": []
+}

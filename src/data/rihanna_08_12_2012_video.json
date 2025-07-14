@@ -1,0 +1,138 @@
+{
+  "originalTitle": "Rihanna - 08.12.2012 - Freiburg - Germany - Messehalle - Wetten, Dass..?",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rihanna"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "12",
+    "year": "2012"
+  },
+  "startDateUnix": 1354924800,
+  "endDate": {
+    "day": "08",
+    "month": "12",
+    "year": "2012"
+  },
+  "endDateUnix": 1354924800,
+  "location": {
+    "city": "Freiburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Messehalle",
+    "event": "Wetten, Dass..?"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "ZDF HD broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 635,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 373,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "71679093.jpg",
+      "externalId": "1OB-hMqRR1KyfEmqL0CU4gJ1cRUhFJVld"
+    },
+    {
+      "folder": "60",
+      "filename": "67304685.jpg",
+      "externalId": "1pK3DlDlHIJYT6eRjOYpSS4ZLOIGHb75O"
+    },
+    {
+      "folder": "60",
+      "filename": "34404256.jpg",
+      "externalId": "1zY-rNCqtSDOS7gwKGIpLHUf8-ezI33jm"
+    },
+    {
+      "folder": "60",
+      "filename": "27441220.jpg",
+      "externalId": "1JlMFEmO2j0NA8KCyrLi8T_gWrR--zyew"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Diamonds",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

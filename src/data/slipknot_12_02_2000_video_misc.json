@@ -1,0 +1,119 @@
+{
+  "originalTitle": "Slipknot - 12.02.2000 - Melbourne - Australia [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "02",
+    "year": "2000"
+  },
+  "startDateUnix": 950313600,
+  "endDate": {
+    "day": "12",
+    "month": "02",
+    "year": "2000"
+  },
+  "endDateUnix": 950313600,
+  "location": {
+    "city": "Melbourne",
+    "state": "",
+    "country": "Australia",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.29,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 4895,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "slipknot_12_02_2000_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "31",
+      "filename": "58535742.jpg",
+      "externalId": "1k4rWDz7WOQJuykqrJPo5wJ5GV-H2hf_Z"
+    },
+    {
+      "folder": "31",
+      "filename": "56127921.jpg",
+      "externalId": "13Q4uTP4nPjImVTPNBktjhRqxiHKjsjTs"
+    },
+    {
+      "folder": "31",
+      "filename": "53399014.jpg",
+      "externalId": "10cgqNu2w4gvLS2aYJuISkT3ocJOXpoh0"
+    },
+    {
+      "folder": "31",
+      "filename": "23584041.jpg",
+      "externalId": "1Bx32eGLO_GQFr2iBJeos8k1fIjGCNZBR"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

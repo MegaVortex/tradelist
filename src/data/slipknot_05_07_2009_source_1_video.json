@@ -1,0 +1,155 @@
+{
+  "originalTitle": "Slipknot - 05.07.2009 - Belfort - France - Malsaucy - Eurockeennes Festival (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "07",
+    "year": "2009"
+  },
+  "startDateUnix": 1246752000,
+  "endDate": {
+    "day": "05",
+    "month": "07",
+    "year": "2009"
+  },
+  "endDateUnix": 1246752000,
+  "location": {
+    "city": "Belfort",
+    "state": "",
+    "country": "France",
+    "venue": "Malsaucy",
+    "event": "Eurockeennes Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Very good webstream. Includes 20min interview.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.76,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2173,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "ru",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "18149739.jpg",
+      "externalId": "18kKUtfavYE0d2USkMvLjelwTNuHOOjNJ"
+    },
+    {
+      "folder": "5",
+      "filename": "25446633.jpg",
+      "externalId": "1HsJpGs3PXPIVtVEXnB382eyeZJmIBmv-"
+    },
+    {
+      "folder": "5",
+      "filename": "15798272.jpg",
+      "externalId": "1VsCA4AUSG2hY0bLqvFlaymHyBxgrmf3e"
+    },
+    {
+      "folder": "5",
+      "filename": "41354456.jpg",
+      "externalId": "1Dm9KdDoywGuBA303kwyrADGPgED-Xy5A"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "742617000027",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "(Sic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Eyeless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Wait And Bleed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,118 @@
+{
+  "originalTitle": "System Of A Down - 17.03.2000 - Los Angeles - CA - USA - NBC Studios - Conan O'Brien Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "System Of A Down"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "03",
+    "year": "2000"
+  },
+  "startDateUnix": 953251200,
+  "endDate": {
+    "day": "17",
+    "month": "03",
+    "year": "2000"
+  },
+  "endDateUnix": 953251200,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Conan O'Brien Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 236,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 398,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "system_of_a_down_04_07_2000_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "36534200.jpg",
+      "externalId": "10WZ_FIxNwmWFuh8ij0DKjFjSqFteAqCH"
+    },
+    {
+      "folder": "20",
+      "filename": "44758865.jpg",
+      "externalId": "1kxvW-WkhlelKF6mcxkZtPNgblOx2JkdY"
+    },
+    {
+      "folder": "20",
+      "filename": "35219218.jpg",
+      "externalId": "1kFQuXZQ66Pt1mRg4D89hpIRPjq26mIld"
+    },
+    {
+      "folder": "20",
+      "filename": "77285899.jpg",
+      "externalId": "1oBpelh1NmuRdFFsLPq_67QmI8rV19h-W"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Spiders",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

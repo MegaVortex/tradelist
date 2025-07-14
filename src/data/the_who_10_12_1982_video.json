@@ -1,0 +1,132 @@
+{
+  "originalTitle": "The Who - 10.12.1982 - Syracuse - NY - USA - Carrier Dome",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Who"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "12",
+    "year": "1982"
+  },
+  "startDateUnix": 408326400,
+  "endDate": {
+    "day": "10",
+    "month": "12",
+    "year": "1982"
+  },
+  "endDateUnix": 408326400,
+  "location": {
+    "city": "Syracuse",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Carrier Dome",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Recorded from a local public access channel.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.1,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5394,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "the_who_xx_xx_1976_video",
+    "the_who_xx_xx_1979_buffalo_ny_usa_video_misc",
+    "the_who_12_05_1979_video_misc",
+    "the_who_29_07_1971_video",
+    "the_who_13_10_1982_video_misc",
+    "the_who_18_07_1989_video",
+    "the_who_stages_xx_xx_xxxx_the_who_stages_video_compilation"
+  ],
+  "childOf": "The Who - [1971-1989] - Stages",
+  "images": [
+    {
+      "folder": "39",
+      "filename": "62473812.jpg",
+      "externalId": "1x34FeqKs7qlyxMsd9gHc1u7J4QmYO6Dq"
+    },
+    {
+      "folder": "39",
+      "filename": "33827094.jpg",
+      "externalId": "1KbsK4teBgFzfRzvLLCeaLIlw7YzR6rjR"
+    },
+    {
+      "folder": "39",
+      "filename": "03971255.jpg",
+      "externalId": "12MdZRer1GOpkUIYQQHFBIDhb2MJu-Qlr"
+    },
+    {
+      "folder": "39",
+      "filename": "25971334.jpg",
+      "externalId": "1MOJ3sOElpL2XfTGq4EDbn32ChY3mOofZ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Sister Disco",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Dangerous",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

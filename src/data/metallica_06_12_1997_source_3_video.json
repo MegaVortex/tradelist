@@ -1,0 +1,130 @@
+{
+  "originalTitle": "Metallica - 06.12.1997 - New York - NY - USA - NBC Studios - Saturday Night Live (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "12",
+    "year": "1997"
+  },
+  "startDateUnix": 881366400,
+  "endDate": {
+    "day": "06",
+    "month": "12",
+    "year": "1997"
+  },
+  "endDateUnix": 881366400,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": "Saturday Night Live"
+  },
+  "tvChannel": "NBC",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.15,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5718,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_05_06_1993_source_2_video",
+    "metallica_17_05_1990_source_3_video",
+    "metallica_25_02_1992_video",
+    "metallica_05_06_1993_video_misc",
+    "metallica_08_12_1997_video"
+  ],
+  "childOf": "Metallica - [1990-1997] - TV Appearances",
+  "images": [
+    {
+      "folder": "59",
+      "filename": "07934851.jpg",
+      "externalId": "1PCChYgXsF7tjX1ZNpdhiTtUVvdeg60TT"
+    },
+    {
+      "folder": "59",
+      "filename": "13436965.jpg",
+      "externalId": "1x_KwbB-0GBHtz0NvFD7sMCcKpOQVp9sB"
+    },
+    {
+      "folder": "59",
+      "filename": "21518790.jpg",
+      "externalId": "1T1n48AXRi2DDaaKjikKiaQ21cXEp1Xh6"
+    },
+    {
+      "folder": "59",
+      "filename": "80771411.jpg",
+      "externalId": "1V1OLGhb97m7bGX4c4Z9ivMtRfjW8m4gY"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Fuel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Memory Remains",
+      "feat": "Marianne Faithfull",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

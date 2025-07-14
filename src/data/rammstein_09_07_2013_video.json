@@ -1,0 +1,166 @@
+{
+  "originalTitle": "Rammstein - 09.07.2013 - Rome - Italy - Ippodromo Delle Capannelle - Rock In Roma",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "07",
+    "year": "2013"
+  },
+  "startDateUnix": 1373328000,
+  "endDate": {
+    "day": "09",
+    "month": "07",
+    "year": "2013"
+  },
+  "endDateUnix": 1373328000,
+  "location": {
+    "city": "Rome",
+    "state": "",
+    "country": "Italy",
+    "venue": "Ippodromo Delle Capannelle",
+    "event": "Rock In Roma"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Highly incomplete.",
+  "tapers": [
+    "Silvyadav"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.96,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1936,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "HD",
+      "fileFormat": "MTS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "53",
+      "filename": "93628774.jpg",
+      "externalId": "1yoCDcYD_9apdzVvfPSKGHLB3KCOKC_V8"
+    },
+    {
+      "folder": "53",
+      "filename": "77414872.jpg",
+      "externalId": "1drL-5ej_k5hk4YiEEYEDoLNPMvXS6RCm"
+    },
+    {
+      "folder": "53",
+      "filename": "22206856.jpg",
+      "externalId": "14ap7vJUWDH9GDbvEeCfuhPj3X0-GqSXj"
+    },
+    {
+      "folder": "53",
+      "filename": "95512802.jpg",
+      "externalId": "1aXtJp8qnvhY3nSq3F3mdfMlewRyRyoKD"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Feuer Frei!",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Mein Teil",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Links 2-3-4",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Du Hast",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Buck Dich",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Ich Will",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Sonne",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

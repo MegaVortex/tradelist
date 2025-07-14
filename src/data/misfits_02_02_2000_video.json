@@ -1,0 +1,144 @@
+{
+  "originalTitle": "Misfits - 02.02.2000 - Tokyo - Japan - Shibuya Club Quattro",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Misfits"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "02",
+    "year": "2000"
+  },
+  "startDateUnix": 949449600,
+  "endDate": {
+    "day": "02",
+    "month": "02",
+    "year": "2000"
+  },
+  "endDateUnix": 949449600,
+  "location": {
+    "city": "Tokyo",
+    "state": "",
+    "country": "Japan",
+    "venue": "Shibuya Club Quattro",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.55,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 677,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "misfits_01_02_2000_source_1_video",
+    "misfits_01_02_2000_source_2_video",
+    "misfits_07_08_1999_video"
+  ],
+  "childOf": "Misfits - [1999-2000] - Japanese Live Performances",
+  "images": [
+    {
+      "folder": "61",
+      "filename": "25910471.jpg",
+      "externalId": "1HYQy1XU3MrpiWUh9JWReZtfM7ORIDoPy"
+    },
+    {
+      "folder": "61",
+      "filename": "65657209.jpg",
+      "externalId": "1yr74RN9eBS_eJu--rjfRkKBdvNk9MBI2"
+    },
+    {
+      "folder": "61",
+      "filename": "28625305.jpg",
+      "externalId": "1S9s_Tk7Zzoz5vVKzR6nP0_YySqniwup-"
+    },
+    {
+      "folder": "61",
+      "filename": "06752782.jpg",
+      "externalId": "1Yxkp1RLpEDqBMaz7ExckROYo1rEvdRlt"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Forbidden Zone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Witch Hunt",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Lost In Space",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

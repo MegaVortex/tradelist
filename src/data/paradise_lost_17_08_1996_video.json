@@ -1,0 +1,127 @@
+{
+  "originalTitle": "Paradise Lost - 17.08.1996 - Castle Donington - England - Donington Park - Download Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Paradise Lost"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "08",
+    "year": "1996"
+  },
+  "startDateUnix": 840240000,
+  "endDate": {
+    "day": "17",
+    "month": "08",
+    "year": "1996"
+  },
+  "endDateUnix": 840240000,
+  "location": {
+    "city": "Castle Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": "Download Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.1,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2712,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "paradise_lost_24_07_1999_video",
+    "paradise_lost_21_06_1996_video_misc"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "46508199.jpg",
+      "externalId": "1LTIKHoZo30Q0qLunbM6PdWR5rgcjT6P_"
+    },
+    {
+      "folder": "26",
+      "filename": "14340313.jpg",
+      "externalId": "1qcymh3J1KDxM2fLuSNWndGVGfSz5UoRY"
+    },
+    {
+      "folder": "26",
+      "filename": "07763188.jpg",
+      "externalId": "11Z71Jh8CnRVvGYyoLZKmFbYHj56JBmZ4"
+    },
+    {
+      "folder": "26",
+      "filename": "86117148.jpg",
+      "externalId": "1XfdSFe7YG4VYdMsL9EsFvUgAQEWiAfqu"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Once Solemn",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "Nick and Greg",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

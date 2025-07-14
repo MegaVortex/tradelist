@@ -1,0 +1,136 @@
+{
+  "originalTitle": "Red Hot Chili Peppers - 14.04.2012 - Cleveland - OH - USA - Public Auditorium",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Red Hot Chili Peppers"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "04",
+    "year": "2012"
+  },
+  "startDateUnix": 1334361600,
+  "endDate": {
+    "day": "14",
+    "month": "04",
+    "year": "2012"
+  },
+  "endDateUnix": 1334361600,
+  "location": {
+    "city": "Cleveland",
+    "state": "OH",
+    "country": "USA",
+    "venue": "Public Auditorium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "PRO#1. Rock And Roll Hall Of Fame Induction Ceremony.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.09,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1856,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": {
+      "language": "",
+      "codec": "",
+      "bitrateKbps": null,
+      "channels": null
+    },
+    "sourceDetail": {
+      "type": "",
+      "extra": "",
+      "medium": ""
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "35",
+      "filename": "87675968.jpg",
+      "externalId": "1MpZYI7MSDj7ii4o7C_vjp6mPzDkLKtT_"
+    },
+    {
+      "folder": "35",
+      "filename": "23153206.jpg",
+      "externalId": "1T4uXpLk8P57RhtO0N64hZ9-XzHUr7pRa"
+    },
+    {
+      "folder": "35",
+      "filename": "73547642.jpg",
+      "externalId": "12afGeuAmoGGDZXEc5Zw0r7Y4wmjyprEk"
+    },
+    {
+      "folder": "35",
+      "filename": "72498207.jpg",
+      "externalId": "1rPi1U_leUbtGDtM7XytqhHdaNDsFnDFQ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Induction Speech (by Chris Rock)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "By The Way",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Give It Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Higher Ground",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

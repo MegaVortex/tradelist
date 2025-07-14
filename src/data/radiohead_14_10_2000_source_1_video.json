@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Radiohead - 14.10.2000 - New York - NY - USA - Saturday Night Live (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Radiohead"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "10",
+    "year": "2000"
+  },
+  "startDateUnix": 971481600,
+  "endDate": {
+    "day": "14",
+    "month": "10",
+    "year": "2000"
+  },
+  "endDateUnix": 971481600,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Saturday Night Live",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 532,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": null,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "0",
+      "filename": "61980.jpg",
+      "externalId": "1wIXBBb7aj2nJ3ox0zyQEa44AaMlzlRVy"
+    },
+    {
+      "folder": "0",
+      "filename": "09632.jpg",
+      "externalId": "1NBtdhPmsyrDYP8GoxUJ2RYtISH6Z1ge9"
+    },
+    {
+      "folder": "0",
+      "filename": "68599.jpg",
+      "externalId": "1O0fO4hAsoBOW-e1n74fFKZLUQIIvfYvX"
+    },
+    {
+      "folder": "0",
+      "filename": "80416.jpg",
+      "externalId": "1fvxJZ6BV7LAmpSsB20s8-JeLLPaCgE6q"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The National Anthem",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Idioteque",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Outro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

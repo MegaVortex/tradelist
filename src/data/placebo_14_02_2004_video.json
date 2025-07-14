@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Placebo - 14.02.2004 - Paris - France - Palais Omnisports De Paris-Bercy",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Placebo"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "02",
+    "year": "2004"
+  },
+  "startDateUnix": 1076716800,
+  "endDate": {
+    "day": "14",
+    "month": "02",
+    "year": "2004"
+  },
+  "endDateUnix": 1076716800,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "Palais Omnisports De Paris-Bercy",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MCM broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 922,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1960,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "fr",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "72",
+      "filename": "82072085.jpg",
+      "externalId": "1fZluoiu9ifi2MsQikayIW5UDr6SYCz3K"
+    },
+    {
+      "folder": "72",
+      "filename": "21510426.jpg",
+      "externalId": "1nQVwqiDN2lmA7nyk1r5ZQUCdsIVamoes"
+    },
+    {
+      "folder": "72",
+      "filename": "17184556.jpg",
+      "externalId": "1I45iij1NQ7-8JMRQ5kkhz47lZ7S_iy_T"
+    },
+    {
+      "folder": "72",
+      "filename": "69252677.jpg",
+      "externalId": "1VI6DHHGE4uQ8PVT-x-phstYwLUgpC5Ra"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Taste In Men",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Bitter End",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Special Needs",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Protect Me From What I Want",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "English Summer Rain",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "This Picture",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Pure Morning",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

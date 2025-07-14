@@ -1,0 +1,145 @@
+{
+  "originalTitle": "Misfits - 01.02.2000 - Tokyo - Japan - Shibuya Club Quattro (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Misfits"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "02",
+    "year": "2000"
+  },
+  "startDateUnix": 949363200,
+  "endDate": {
+    "day": "01",
+    "month": "02",
+    "year": "2000"
+  },
+  "endDateUnix": 949363200,
+  "location": {
+    "city": "Tokyo",
+    "state": "",
+    "country": "Japan",
+    "venue": "Shibuya Club Quattro",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Space Shower TV show.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.55,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 717,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "misfits_01_02_2000_source_1_video",
+    "misfits_07_08_1999_video",
+    "misfits_02_02_2000_video"
+  ],
+  "childOf": "Misfits - [1999-2000] - Japanese Live Performances",
+  "images": [
+    {
+      "folder": "61",
+      "filename": "64240199.jpg",
+      "externalId": "1F4EjGszG5lavY8fFAA-IKNRcRBnjeYff"
+    },
+    {
+      "folder": "61",
+      "filename": "62933669.jpg",
+      "externalId": "13KB0hRPaMTSQEcUom7tJNndqX5S6x0Jt"
+    },
+    {
+      "folder": "61",
+      "filename": "86255703.jpg",
+      "externalId": "13L3w0ssKR8DGcObDFRc38JZ13i14x25W"
+    },
+    {
+      "folder": "61",
+      "filename": "27546522.jpg",
+      "externalId": "1pVMO_biHOukiIHCanAGqpgBMqZsGOkSJ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Kong At The Gates / The Forbidden Zone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Lost In Space",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Scream (promo video)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

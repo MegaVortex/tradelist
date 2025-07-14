@@ -1,0 +1,159 @@
+{
+  "originalTitle": "Sepultura - 09.02.1996 - Copenhagen - Denmark - Alexandra",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sepultura"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "02",
+    "year": "1996"
+  },
+  "startDateUnix": 823824000,
+  "endDate": {
+    "day": "09",
+    "month": "02",
+    "year": "1996"
+  },
+  "endDateUnix": 823824000,
+  "location": {
+    "city": "Copenhagen",
+    "state": "",
+    "country": "Denmark",
+    "venue": "Alexandra",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MTV On The Road.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.79,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2810,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "sepultura_08_02_1996_video",
+    "sepultura_08_02_1996_video_misc"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "12197384.jpg",
+      "externalId": "1pHv-pybB--21x7CwVL-zceveug7ZGLkG"
+    },
+    {
+      "folder": "70",
+      "filename": "87081586.jpg",
+      "externalId": "1PIdx1lFL2O5B_YyD45cCrEmdc_I-E2uP"
+    },
+    {
+      "folder": "70",
+      "filename": "71731273.jpg",
+      "externalId": "1o2jxldo9p40R4AgV16s1GLSURxlTeWa2"
+    },
+    {
+      "folder": "70",
+      "filename": "50223265.jpg",
+      "externalId": "11gfxP3A9WVwZGO1MuGGILCs64XBuC7Hv"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Propaganda",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Territory",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Slave New World",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Spit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,111 @@
+{
+  "originalTitle": "The Dillinger Escape Plan - 12.02.2000 - Worcester - MA - USA",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Dillinger Escape Plan"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "02",
+    "year": "2000"
+  },
+  "startDateUnix": 950313600,
+  "endDate": {
+    "day": "12",
+    "month": "02",
+    "year": "2000"
+  },
+  "endDateUnix": 950313600,
+  "location": {
+    "city": "Worcester",
+    "state": "MA",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 768,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1303,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "the_dillinger_escape_plan_31_12_2000_video",
+    "the_dillinger_escape_plan_19_07_1999_video",
+    "the_dillinger_escape_plan_30_10_1999_video",
+    "the_dillinger_escape_plan_08_04_2000_source_1_video"
+  ],
+  "childOf": "the_dillinger_escape_plan_xx_xx_1999_xx_xx_2000_part_2_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "56399707.jpg",
+      "externalId": "1_nBkItxNXofri6q-Q0aus6RP-Qb1asyc"
+    },
+    {
+      "folder": "24",
+      "filename": "54198947.jpg",
+      "externalId": "1PFNo4JDoA2J-_vd7QHmYuS634pUCInlE"
+    },
+    {
+      "folder": "24",
+      "filename": "77308235.jpg",
+      "externalId": "1aLghxcO3-4VdU45FMdC3XZk9k2wPg2Em"
+    },
+    {
+      "folder": "24",
+      "filename": "85642739.jpg",
+      "externalId": "1_iTdWhLa5EKrlRpFxOpdB4S-01iIRw9M"
+    }
+  ],
+  "setlist": []
+}

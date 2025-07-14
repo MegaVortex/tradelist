@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Unearth - 25.07.2006 - Toronto - ON - Canada - Molson Amphitheatre",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Unearth"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "07",
+    "year": "2006"
+  },
+  "startDateUnix": 1153785600,
+  "endDate": {
+    "day": "25",
+    "month": "07",
+    "year": "2006"
+  },
+  "endDateUnix": 1153785600,
+  "location": {
+    "city": "Toronto",
+    "state": "ON",
+    "country": "Canada",
+    "venue": "Molson Amphitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.86,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1638,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "63474419.jpg",
+      "externalId": "17_KjBEOj7ygPk7X2WpoegairTnSuvx1d"
+    },
+    {
+      "folder": "6",
+      "filename": "51646277.jpg",
+      "externalId": "1nGosMWPe2g_zasIwUP4xS9nP_WElAHxu"
+    },
+    {
+      "folder": "6",
+      "filename": "62559505.jpg",
+      "externalId": "1LB3QFMzOr9oYnvWzxOwHACYaFYFwJaf1"
+    },
+    {
+      "folder": "6",
+      "filename": "04853352.jpg",
+      "externalId": "19Ty20Wx8DF_XkVyuPTPdODwiUyejJ_db"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "This Lying World",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Endless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Great Dividers",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Zombie Autopilot",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Sancity Of Brothers",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Black Hearts Now Reign",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

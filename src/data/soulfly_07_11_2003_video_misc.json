@@ -1,0 +1,137 @@
+{
+  "originalTitle": "Soulfly - 07.11.2003 - Belgrade - Serbia [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Soulfly"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "11",
+    "year": "2003"
+  },
+  "startDateUnix": 1068163200,
+  "endDate": {
+    "day": "07",
+    "month": "11",
+    "year": "2003"
+  },
+  "endDateUnix": 1068163200,
+  "location": {
+    "city": "Belgrade",
+    "state": "",
+    "country": "Serbia",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Max playing with serbian reggae metal bend Eyesburn (mostly Soulfly songs plus Sepultura plus one song from Bob Marley and one from Eyesburn). Main part is interview with Max, but there is also some live footage.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.95,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3200,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "soulfly_23_02_2003_video_misc",
+    "soulfly_23_02_2003_video",
+    "soulfly_02_07_2004_video"
+  ],
+  "childOf": "Soulfly - [2003-2004] - Live Performances",
+  "images": [
+    {
+      "folder": "68",
+      "filename": "19482904.jpg",
+      "externalId": "1GdCnagvg5ePB3Roj8H2Wt5vT2PjpGgQC"
+    },
+    {
+      "folder": "68",
+      "filename": "70613617.jpg",
+      "externalId": "13Fc9V4nOQiTzw3eyOIpXs_zyUjiKG6wa"
+    },
+    {
+      "folder": "68",
+      "filename": "86403610.jpg",
+      "externalId": "1JxNUpSSv-Ub-fLGiUDh0rVjSr5ZcHCCr"
+    },
+    {
+      "folder": "68",
+      "filename": "75797125.jpg",
+      "externalId": "1i-hEd-q9ekFSouGtjGRA4k1GsueZ1aFM"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Live Footage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

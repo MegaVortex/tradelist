@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Slipknot - 11.03.2000 - Nantes - France - Olympic (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "03",
+    "year": "2000"
+  },
+  "startDateUnix": 952732800,
+  "endDate": {
+    "day": "11",
+    "month": "03",
+    "year": "2000"
+  },
+  "endDateUnix": 952732800,
+  "location": {
+    "city": "Nantes",
+    "state": "",
+    "country": "France",
+    "venue": "Olympic",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Transferred to MP4 from MXF clean feed.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "4K UHD",
+        "size": 681,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 229,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "960x720",
+        "bitrateType": "",
+        "bitrateKbps": 24670,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 44100,
+        "bitrateKbps": 285,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "MP4"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "79366627.jpg",
+      "externalId": "1W7h49XR7kqlfPflUELTn_t4juUNaFSUR"
+    },
+    {
+      "folder": "73",
+      "filename": "52878901.jpg",
+      "externalId": "1HW5HlLqEyALfYI3DVUCbTk6CPjvz9U3a"
+    },
+    {
+      "folder": "73",
+      "filename": "28535312.jpg",
+      "externalId": "1szaIV7pLOsQBBDPvrb5BYEqgU-BHhDIu"
+    },
+    {
+      "folder": "73",
+      "filename": "89823296.jpg",
+      "externalId": "1ANDlzANT0i3BmHQ5pkoZvr-EZw9HHaMp"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Spit It Out",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

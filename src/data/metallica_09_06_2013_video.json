@@ -1,0 +1,149 @@
+{
+  "originalTitle": "Metallica - 09.06.2013 - Detroit - MI - USA - Belle Isle - Orion Music Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "06",
+    "year": "2013"
+  },
+  "startDateUnix": 1370736000,
+  "endDate": {
+    "day": "09",
+    "month": "06",
+    "year": "2013"
+  },
+  "endDateUnix": 1370736000,
+  "location": {
+    "city": "Detroit",
+    "state": "MI",
+    "country": "USA",
+    "venue": "Belle Isle",
+    "event": "Orion Music Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Andrew Sharp"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.31,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1073,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "CellPhone",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "50",
+      "filename": "96089803.jpg",
+      "externalId": "1xfsBylOLCoUSZ6Tavkulpw__GE-bpQdM"
+    },
+    {
+      "folder": "50",
+      "filename": "31299875.jpg",
+      "externalId": "1O5Wz4ilDJZ4TXsh_I9PWKvXVMkmizGYn"
+    },
+    {
+      "folder": "50",
+      "filename": "72892279.jpg",
+      "externalId": "1SUTnezUanLeWhxyZmw5reqGpa0WoNiCw"
+    },
+    {
+      "folder": "50",
+      "filename": "03002786.jpg",
+      "externalId": "1gXw2zWbVEQMr0h7BKFlrIHi1bZ0rBkMl"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Blackened",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Sad But True",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Welcome Home (Sanitarium) (cut)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "One",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

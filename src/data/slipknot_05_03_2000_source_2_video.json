@@ -1,0 +1,204 @@
+{
+  "originalTitle": "Slipknot - 05.03.2000 - London - England - Brixton Academy (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "03",
+    "year": "2000"
+  },
+  "startDateUnix": 952214400,
+  "endDate": {
+    "day": "05",
+    "month": "03",
+    "year": "2000"
+  },
+  "endDateUnix": 952214400,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Brixton Academy",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 14.5,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 4185,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": 28800,
+        "fps": "25",
+        "standard": "DVSD",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 32000,
+        "bitrateKbps": 1024,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "DV",
+      "finalMediaType": "",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "72",
+      "filename": "26175425.jpg",
+      "externalId": "1jzXEvMbMyPaohEObn3lfGBWF1S-ckOYD"
+    },
+    {
+      "folder": "72",
+      "filename": "15362435.jpg",
+      "externalId": "1M_o-XWpR1VR0ja_ENsVvPEObf45Q5U-q"
+    },
+    {
+      "folder": "72",
+      "filename": "44508547.jpg",
+      "externalId": "1Lt-2FQ731Tx6TAFnt-ftmM3wQ1h9bjKr"
+    },
+    {
+      "folder": "72",
+      "filename": "19780005.jpg",
+      "externalId": "1P5ywF7lSLgZlcuk4g6qvP4b2mNN1J32u"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "742617000027",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "(Sic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Eyeless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Wait And Bleed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Liberate",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Surfacing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Purity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Prosthetics",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Me Inside",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Spit It Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Eeyore",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Scissors",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

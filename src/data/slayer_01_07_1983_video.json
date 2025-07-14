@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Slayer - 01.07.1983 - Hollywood - Los Angeles - CA - USA - The Roxy - Woodstock",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slayer"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "07",
+    "year": "1983"
+  },
+  "startDateUnix": 425865600,
+  "endDate": {
+    "day": "01",
+    "month": "07",
+    "year": "1983"
+  },
+  "endDateUnix": 425865600,
+  "location": {
+    "city": "Hollywood",
+    "state": "",
+    "country": "Los Angeles",
+    "venue": "CA",
+    "event": "USA - The Roxy - Woodstock"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.52,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1614,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "81141838.jpg",
+      "externalId": "1egMQaNIzqzH9F02NaazexDHfcpqDDmct"
+    },
+    {
+      "folder": "15",
+      "filename": "11963169.jpg",
+      "externalId": "1Jkx-g3MJfRnjltCF6bdPCHcQo3vjy8dA"
+    },
+    {
+      "folder": "15",
+      "filename": "50942049.jpg",
+      "externalId": "1D14N4Uit9JZlFXlV_hjYMfs05JewFsEG"
+    },
+    {
+      "folder": "15",
+      "filename": "21450855.jpg",
+      "externalId": "1NZu9vmnXD6Fhn9zTgcBQ5rm4kJM1MM01"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Evil Has No Boundaries",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Crionics",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Tormentor",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Black Magic",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Die By The Sword",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Aggressive Perfector",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

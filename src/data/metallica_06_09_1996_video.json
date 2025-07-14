@@ -1,0 +1,121 @@
+{
+  "originalTitle": "Metallica - 06.09.1996 - Vienna - Austria - Stadthalle",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "09",
+    "year": "1996"
+  },
+  "startDateUnix": 841968000,
+  "endDate": {
+    "day": "06",
+    "month": "09",
+    "year": "1996"
+  },
+  "endDateUnix": 841968000,
+  "location": {
+    "city": "Vienna",
+    "state": "",
+    "country": "Austria",
+    "venue": "Stadthalle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MTV Headbangers Ball Revisited.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.28,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2940,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "it",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_xx_xx_1992_wherever_we_may_roam_video_misc",
+    "metallica_05_06_1993_source_3_video",
+    "metallica_14_01_1992_video",
+    "metallica_23_08_1995_source_4_video"
+  ],
+  "childOf": "Metallica - [1992-1996] - Live Performances",
+  "images": [
+    {
+      "folder": "76",
+      "filename": "94861552.jpg",
+      "externalId": "1WjhLBJpMkUXFlCGe6TKlTy10MtZsPMmN"
+    },
+    {
+      "folder": "76",
+      "filename": "54792909.jpg",
+      "externalId": "1a9vWtsGk15Q-Kspi6ViZeM8haQlHz0WV"
+    },
+    {
+      "folder": "76",
+      "filename": "08541608.jpg",
+      "externalId": "1TqcukhqkTc5Il0bvX4u_JbHl7BdR2_Se"
+    },
+    {
+      "folder": "76",
+      "filename": "85108779.jpg",
+      "externalId": "1BZBeGNGOIEQgV9B1g9FnGazDzpKt0XZk"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Creeping Death",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

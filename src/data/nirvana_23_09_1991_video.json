@@ -1,0 +1,139 @@
+{
+  "originalTitle": "Nirvana - 23.09.1991 - Boston - MA - USA - Axis",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "09",
+    "year": "1991"
+  },
+  "startDateUnix": 685584000,
+  "endDate": {
+    "day": "23",
+    "month": "09",
+    "year": "1991"
+  },
+  "endDateUnix": 685584000,
+  "location": {
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Axis",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "Pieter Vermeulen",
+  "notes": "PRO#1b. Re-authored version with 2 different audio streams.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 184,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 173,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 5
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 5
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "79",
+      "filename": "02873261.jpg",
+      "externalId": "1_neN8eGryb3KB-AoXz_GV6lf0td8KNFN"
+    },
+    {
+      "folder": "79",
+      "filename": "77575669.jpg",
+      "externalId": "124POdrLTit58T_2n8gY7fA5wISDtMWKQ"
+    },
+    {
+      "folder": "79",
+      "filename": "63462738.jpg",
+      "externalId": "1G9B9SfAIst0bS0UFuAEswhS5n_-6HXUc"
+    },
+    {
+      "folder": "79",
+      "filename": "90929594.jpg",
+      "externalId": "1CWk1w6E7gfjgT-aevFhTPLB8mMBbaE6r"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Aneurysm",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Drain You",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Smells Like Teen Spirit",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

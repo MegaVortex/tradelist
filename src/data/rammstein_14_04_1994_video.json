@@ -1,0 +1,157 @@
+{
+  "originalTitle": "Rammstein - 14.04.1994 - Leipzig - Germany - NATO",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "04",
+    "year": "1994"
+  },
+  "startDateUnix": 766281600,
+  "endDate": {
+    "day": "14",
+    "month": "04",
+    "year": "1994"
+  },
+  "endDateUnix": 766281600,
+  "location": {
+    "city": "Leipzig",
+    "state": "",
+    "country": "Germany",
+    "venue": "NATO",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 645,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 684,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "53",
+      "filename": "11157698.jpg",
+      "externalId": "1cXY_7BIHFsp60cSnCG4LkLmaDWuydIa7"
+    },
+    {
+      "folder": "53",
+      "filename": "51176596.jpg",
+      "externalId": "16Y69oGvjNLvPv0A-i1VIqv_QVT0K3xlc"
+    },
+    {
+      "folder": "53",
+      "filename": "20741397.jpg",
+      "externalId": "1PCB5S8JBSms3vXo5NORbbL-LoSRXdS_U"
+    },
+    {
+      "folder": "53",
+      "filename": "04347542.jpg",
+      "externalId": "16ZBef7PsImhtyZp69A4oUwS8GKMNqzgx"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Rammstein",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wollt Ihr Das Bett In Flammen Sehen?",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Du Riechst So Gut",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Weisses Fleisch",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Interview (studio)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 2,
+      "song": "Alter Mann (studio)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Tom Waits - 25.05.1978 - Hollywood - CA - USA - 'America 2Night'",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Tom Waits"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "05",
+    "year": "1978"
+  },
+  "startDateUnix": 264902400,
+  "endDate": {
+    "day": "25",
+    "month": "05",
+    "year": "1978"
+  },
+  "endDateUnix": 264902400,
+  "location": {
+    "city": "Hollywood",
+    "state": "CA",
+    "country": "USA",
+    "venue": "'America 2Night'",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2545,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "8mm",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "70712681.jpg",
+      "externalId": "1Wceyi2i0t5ASHtAjA1g61ZOGRtoG2OEy"
+    },
+    {
+      "folder": "26",
+      "filename": "15918853.jpg",
+      "externalId": "1iwCJetBY1mNQ4mwEakKtCL1fSWaqUMV-"
+    },
+    {
+      "folder": "26",
+      "filename": "17429500.jpg",
+      "externalId": "1-hvDqqrOmQVpvWPcVTrgdLmBnL9mBcCZ"
+    },
+    {
+      "folder": "26",
+      "filename": "20824666.jpg",
+      "externalId": "1dQr8pvw3aj7IPWNoF8ehG0IVf-wDop-K"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Tom Waits",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Outro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

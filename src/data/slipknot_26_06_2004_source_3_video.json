@@ -1,0 +1,139 @@
+{
+  "originalTitle": "Slipknot - 26.06.2004 - Dessel - Belgium - Boeretang - Graspop Metal Meeting (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "06",
+    "year": "2004"
+  },
+  "startDateUnix": 1088208000,
+  "endDate": {
+    "day": "26",
+    "month": "06",
+    "year": "2004"
+  },
+  "endDateUnix": 1088208000,
+  "location": {
+    "city": "Dessel",
+    "state": "",
+    "country": "Belgium",
+    "venue": "Boeretang",
+    "event": "Graspop Metal Meeting"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "VCD sourced.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 666,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 840,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "type": "",
+      "extra": "",
+      "medium": ""
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "26822156.jpg",
+      "externalId": "1i82jh4GIkp-VsfhW8rjAk_5j9t8IQTZ1"
+    },
+    {
+      "folder": "15",
+      "filename": "95089259.jpg",
+      "externalId": "1sTPXbrWjcf0PUkaX8-DzFXhKYKjX653H"
+    },
+    {
+      "folder": "15",
+      "filename": "40898345.jpg",
+      "externalId": "1YaLMpW27lBRuEGQ2WbS1dqFUZtGi_38-"
+    },
+    {
+      "folder": "15",
+      "filename": "15733460.jpg",
+      "externalId": "1_XdYrC80wMaTISlzF2NQQSG8DUU_m-l1"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "742617000027",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "(Sic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Blister Exists",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Eyeless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

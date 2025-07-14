@@ -1,0 +1,144 @@
+{
+  "originalTitle": "Metallica - 06.12.1997 - New York - NY - USA - Studio 8H - Saturday Night Live (Source 4)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "12",
+    "year": "1997"
+  },
+  "startDateUnix": 881366400,
+  "endDate": {
+    "day": "06",
+    "month": "12",
+    "year": "1997"
+  },
+  "endDateUnix": 881366400,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Studio 8H",
+    "event": "Saturday Night Live"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 4",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.13,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4108,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_27_01_1997_video",
+    "metallica_21_05_1999_source_2_video",
+    "metallica_07_04_1998_video"
+  ],
+  "childOf": "Metallica - [1997-1999] - TV Appearances",
+  "images": [
+    {
+      "folder": "59",
+      "filename": "91314200.jpg",
+      "externalId": "1hfO69zfzDOJuDbf5Rj20PyJ_blVEBA58"
+    },
+    {
+      "folder": "59",
+      "filename": "22324163.jpg",
+      "externalId": "1S09ZZdFvvDdX3lqmkcTjEc7nGSLakCuA"
+    },
+    {
+      "folder": "59",
+      "filename": "19207988.jpg",
+      "externalId": "159SGD7WZZA9nuotouDGPCBvDrKitl3b8"
+    },
+    {
+      "folder": "59",
+      "filename": "20663603.jpg",
+      "externalId": "1toOSg12QBGknZqd5l981QqjeqQ8w8IoS"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Fuel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Nothing Else Matters (1992)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 2,
+      "song": "Master Of Puppets",
+      "feat": "",
+      "note": "incomplete",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

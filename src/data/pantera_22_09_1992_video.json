@@ -1,0 +1,131 @@
+{
+  "originalTitle": "Pantera - 22.09.1992 - Paris - France - Le Zenith",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Pantera"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "09",
+    "year": "1992"
+  },
+  "startDateUnix": 717120000,
+  "endDate": {
+    "day": "22",
+    "month": "09",
+    "year": "1992"
+  },
+  "endDateUnix": 717120000,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "Le Zenith",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 922,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 805,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "pantera_22_03_1991_source_2_video",
+    "pantera_xx_xx_1992_rage_pantera_special_video_misc",
+    "pantera_27_06_1992_video",
+    "pantera_23_10_1992_video",
+    "pantera_09_07_1994_video_misc",
+    "pantera_13_03_1994_video"
+  ],
+  "childOf": "Pantera - [1991-1994] - TV Appearances",
+  "images": [
+    {
+      "folder": "62",
+      "filename": "53429297.jpg",
+      "externalId": "1zy0OxOTuTVzmgYWFtOV6UJRGiRTIrdS9"
+    },
+    {
+      "folder": "62",
+      "filename": "33320014.jpg",
+      "externalId": "1g-QE8mHgM8K874iLaWv6HiJ8hvQ1BGI2"
+    },
+    {
+      "folder": "62",
+      "filename": "80241185.jpg",
+      "externalId": "11OoPCMoNDQYkZ7iAdUB18BwiOcNy2t9e"
+    },
+    {
+      "folder": "62",
+      "filename": "31752584.jpg",
+      "externalId": "1eZoUna1xqJTiDfvGFkDtRboUAa3feY6p"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Phil Anselmo and Darrell Dimebag",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Walk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

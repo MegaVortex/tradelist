@@ -1,0 +1,222 @@
+{
+  "originalTitle": "P.O.D. - 13.10.2013 - Krasnoyarsk - Russia - Pilot",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "P.O.D."
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "10",
+    "year": "2013"
+  },
+  "startDateUnix": 1381622400,
+  "endDate": {
+    "day": "13",
+    "month": "10",
+    "year": "2013"
+  },
+  "endDateUnix": 1381622400,
+  "location": {
+    "city": "Krasnoyarsk",
+    "state": "",
+    "country": "Russia",
+    "venue": "Pilot",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "zuddizud"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 10.7,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 4110,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MTS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "62",
+      "filename": "14283802.jpg",
+      "externalId": "1OF-2_LqsdjlfnUk5SSPcppdlPnsQY75B"
+    },
+    {
+      "folder": "62",
+      "filename": "46118158.jpg",
+      "externalId": "1BPCAehI7TzlgLkfZ7E0gXULDrxDC6zLL"
+    },
+    {
+      "folder": "62",
+      "filename": "17577951.jpg",
+      "externalId": "1PJIkXOFIAheRU4yq_7ZRjgr2qSwBPI9h"
+    },
+    {
+      "folder": "62",
+      "filename": "69695863.jpg",
+      "externalId": "1fAzzikK1KgH66L_oZAFFp3tHHnMNuL7X"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Boom",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Murdered Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Lost In Forever",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Set It Off",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Eyez",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Without Jah, Nothin'",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Roots In Stereo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Youth Of The Nation",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Southtown",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Beautiful",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Satellite",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Bullet The Blue Sky",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "U2"
+    },
+    {
+      "order": 13,
+      "song": "Alive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "What I Got",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Sublime"
+    }
+  ],
+  "extras": []
+}

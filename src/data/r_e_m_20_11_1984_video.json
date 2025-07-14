@@ -1,0 +1,128 @@
+{
+  "originalTitle": "R.E.M. - 20.11.1984 - London - England - BBC Television Centre - Studio 5 - The Whistle Test",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "R.E.M."
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "11",
+    "year": "1984"
+  },
+  "startDateUnix": 469756800,
+  "endDate": {
+    "day": "20",
+    "month": "11",
+    "year": "1984"
+  },
+  "endDateUnix": 469756800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Television Centre",
+    "event": "Studio 5"
+  },
+  "tvChannel": "",
+  "showName": "The Whistle Test",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "BBC4 re-broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.9,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3538,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "r_e_m_xx_xx_1989_video",
+    "r_e_m_15_06_1989_video",
+    "r_e_m_14_03_1991_video",
+    "r_e_m_xx_02_1995_video",
+    "r_e_m_30_10_1998_video",
+    "r_e_m_27_10_1998_source_2_video",
+    "r_e_m_01_05_2001_video",
+    "r_e_m_26_04_2001_video",
+    "r_e_m_xx_xx_2003_video",
+    "r_e_m_14_10_2003_video",
+    "r_e_m_23_09_2004_video"
+  ],
+  "childOf": "R.E.M. - [1984-2004] - BBC TV Appearances",
+  "images": [
+    {
+      "folder": "31",
+      "filename": "55784309.jpg",
+      "externalId": "11oMWDhNiYXkcXga4WfRBSxFcuHRc5AVV"
+    },
+    {
+      "folder": "31",
+      "filename": "21810703.jpg",
+      "externalId": "10pCA-sfiqWlNiHdHVB77dCvqbrCbtGQs"
+    },
+    {
+      "folder": "31",
+      "filename": "33700810.jpg",
+      "externalId": "1tC3SwwUpaTp5eq1DJiBtASblwhvykIF7"
+    },
+    {
+      "folder": "31",
+      "filename": "29190074.jpg",
+      "externalId": "1xtgQ_NJiXT2dcL7HtQyrXieXaK9TjW2S"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Moon River / Pretty Persuasion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

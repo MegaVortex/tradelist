@@ -1,0 +1,110 @@
+{
+  "originalTitle": "Staind - 27.04.2001 - Miami - FL - USA - Bayfront Park Amphitheatre",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Staind"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "04",
+    "year": "2001"
+  },
+  "startDateUnix": 988329600,
+  "endDate": {
+    "day": "27",
+    "month": "04",
+    "year": "2001"
+  },
+  "endDateUnix": 988329600,
+  "location": {
+    "city": "Miami",
+    "state": "FL",
+    "country": "USA",
+    "venue": "Bayfront Park Amphitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Marc"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.54,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2409,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "linkin_park_27_04_2001_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "48",
+      "filename": "35301961.jpg",
+      "externalId": "1_sH2nvSbqvldIzz6pjXhYTfS2kYgOFhq"
+    },
+    {
+      "folder": "48",
+      "filename": "73232367.jpg",
+      "externalId": "1z1Kmn2GflnccAL6tB6kpbt_lDgQVgP4B"
+    },
+    {
+      "folder": "48",
+      "filename": "95927800.jpg",
+      "externalId": "1e5w6U0A8KVvjaltqqh_n-Cm5xS7VLkQW"
+    },
+    {
+      "folder": "48",
+      "filename": "95443331.jpg",
+      "externalId": "15sxtvfYkPXsVjWbmSwH89XDdAyQsTrUK"
+    }
+  ],
+  "setlist": []
+}

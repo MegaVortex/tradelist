@@ -1,0 +1,129 @@
+{
+  "originalTitle": "Metallica - xx.xx.1993 - Australia - Molly's Melodrama [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1993"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1993"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Australia",
+    "state": "",
+    "country": "Molly's Melodrama",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.15,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 6794,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_xx_xx_1993_rage_tv_special_video_misc",
+    "metallica_01_04_1993_video"
+  ],
+  "childOf": "Metallica - [1993] - Australia",
+  "images": [
+    {
+      "folder": "59",
+      "filename": "97842977.jpg",
+      "externalId": "1tjp9L_k8enFGkpnuYFyyBFHhJJ533CYL"
+    },
+    {
+      "folder": "59",
+      "filename": "08561404.jpg",
+      "externalId": "1l1YUeo41k1jzHvYopMjlhq1VL92LlenS"
+    },
+    {
+      "folder": "59",
+      "filename": "19045983.jpg",
+      "externalId": "1_W8AY3UAMV6ueeF0Z6T2tg3zZ-0W_8Ot"
+    },
+    {
+      "folder": "59",
+      "filename": "49109901.jpg",
+      "externalId": "1qg9zVHikdfZtf0Z8DAlxNW-Fo20AX3pi"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Lars",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Black Album (commercial)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

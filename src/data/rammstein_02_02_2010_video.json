@@ -1,0 +1,162 @@
+{
+  "originalTitle": "Rammstein - 02.02.2010 - Manchester - England - Manchester Evening News Arena",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "02",
+    "year": "2010"
+  },
+  "startDateUnix": 1265068800,
+  "endDate": {
+    "day": "02",
+    "month": "02",
+    "year": "2010"
+  },
+  "endDateUnix": 1265068800,
+  "location": {
+    "city": "Manchester",
+    "state": "",
+    "country": "England",
+    "venue": "Manchester Evening News Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Highly incomplete recording.",
+  "tapers": [
+    "Yuppyslayer"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 4.75,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1870,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "30",
+        "standard": "MJPEG",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": {
+      "language": "",
+      "codec": "",
+      "bitrateKbps": null,
+      "channels": null
+    },
+    "sourceDetail": {
+      "type": "",
+      "extra": "",
+      "medium": ""
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "48",
+      "filename": "31317782.jpg",
+      "externalId": "15USTB-iO0Eu3mHiLYFNUv5KMYXgcMB-z"
+    },
+    {
+      "folder": "48",
+      "filename": "94747050.jpg",
+      "externalId": "1etFL818C3aSAqZGbmixybcGYNevxqjYR"
+    },
+    {
+      "folder": "48",
+      "filename": "54781778.jpg",
+      "externalId": "1LABFmfz_kueMN0So0oBCBZ5oi9PYHxo1"
+    },
+    {
+      "folder": "48",
+      "filename": "16661074.jpg",
+      "externalId": "1_8E-YPfWzi-qjKyfgJJ6J_WABoN_tlvT"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Weisses Fleisch",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Feuer Frei!",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Ich Tu Dir Weh",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Links 2-3-4",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Du Hast",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Sonne",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Ich Will",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

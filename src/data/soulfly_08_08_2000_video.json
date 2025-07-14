@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Soulfly - 08.08.2000 - Cincinnati - OH - USA - Riverbend Music Center - Ozzfest",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Soulfly"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "08",
+    "year": "2000"
+  },
+  "startDateUnix": 965692800,
+  "endDate": {
+    "day": "08",
+    "month": "08",
+    "year": "2000"
+  },
+  "endDateUnix": 965692800,
+  "location": {
+    "city": "Cincinnati",
+    "state": "OH",
+    "country": "USA",
+    "venue": "Riverbend Music Center",
+    "event": "Ozzfest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.28,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2306,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "22",
+      "filename": "09993573.jpg",
+      "externalId": "1YPwDDxaMdr3uPgsLqvNCXz4-O7kniqaO"
+    },
+    {
+      "folder": "22",
+      "filename": "06065121.jpg",
+      "externalId": "1CvFbKFqVgKawTiKmZrlmbHjvKTRYK091"
+    },
+    {
+      "folder": "22",
+      "filename": "90195568.jpg",
+      "externalId": "1NtLX8fDObQ8Asyj5bFdQayF6vhKrGeRk"
+    },
+    {
+      "folder": "22",
+      "filename": "08994479.jpg",
+      "externalId": "1Y1fbB0TVFshYG__mq4fPG6iFFYPBUze1"
+    }
+  ],
+  "setlist": []
+}

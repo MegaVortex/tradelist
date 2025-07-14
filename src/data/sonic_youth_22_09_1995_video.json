@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Sonic Youth - 22.09.1995 - New York - NY - USA - CBS Studios - David Letterman Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sonic Youth"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "09",
+    "year": "1995"
+  },
+  "startDateUnix": 811728000,
+  "endDate": {
+    "day": "22",
+    "month": "09",
+    "year": "1995"
+  },
+  "endDateUnix": 811728000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "CBS Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "David Letterman Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.22,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2165,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "sonic_youth_17_06_1998_video",
+    "sonic_youth_26_09_2002_video",
+    "sonic_youth_09_06_2004_video",
+    "sonic_youth_07_07_2004_video",
+    "sonic_youth_16_06_2006_video",
+    "sonic_youth_11_07_2006_video",
+    "sonic_youth_09_08_2006_video"
+  ],
+  "childOf": "Sonic Youth - [1995-2006] - TV Appearances",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "28382236.jpg",
+      "externalId": "1Pf02OgXePcColjxXXTf6lXfxRQmqH9zD"
+    },
+    {
+      "folder": "26",
+      "filename": "12272387.jpg",
+      "externalId": "12d_bm3xmYLtf_rIVCC_cO8ZUtsmjTrEk"
+    },
+    {
+      "folder": "26",
+      "filename": "85752111.jpg",
+      "externalId": "12T4UF0AJL0iapwQ8w3I1wod-j2ZzRSkX"
+    },
+    {
+      "folder": "26",
+      "filename": "60606407.jpg",
+      "externalId": "1O-PaGxyHuAep4gLjkPRvz3EiCpCH1aJX"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Diamond Sea",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

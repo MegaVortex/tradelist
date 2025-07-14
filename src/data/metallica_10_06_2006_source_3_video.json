@@ -1,0 +1,157 @@
+{
+  "originalTitle": "Metallica - 10.06.2006 - Castle Donington - England - Donington Park - Download Festival (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "06",
+    "year": "2006"
+  },
+  "startDateUnix": 1149897600,
+  "endDate": {
+    "day": "10",
+    "month": "06",
+    "year": "2006"
+  },
+  "endDateUnix": 1149897600,
+  "location": {
+    "city": "Castle Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": "Download Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 626,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1218,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_10_06_2006_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "79",
+      "filename": "97067053.jpg",
+      "externalId": "1k_qLlUdJAioX2rQeMt1m137Le_LIznXm"
+    },
+    {
+      "folder": "79",
+      "filename": "00621906.jpg",
+      "externalId": "14riyUNuF4pk8pDsOAhJidmsck1Tew3aq"
+    },
+    {
+      "folder": "79",
+      "filename": "86597617.jpg",
+      "externalId": "1BUcJorqBj6MybG049qGUifhBIJ8GzwIW"
+    },
+    {
+      "folder": "79",
+      "filename": "77765528.jpg",
+      "externalId": "1uytVIY0i5lgeN28lg1EdYTgx4Fls2khR"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Thing That Should Not Be",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Guitar Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Sad But True",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Seek And Destroy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,142 @@
+{
+  "originalTitle": "Metallica - 12.08.2006 - Tokyo - Japan - Chiba Marine Stadium - Summer Sonic Festival (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "08",
+    "year": "2006"
+  },
+  "startDateUnix": 1155340800,
+  "endDate": {
+    "day": "12",
+    "month": "08",
+    "year": "2006"
+  },
+  "endDateUnix": 1155340800,
+  "location": {
+    "city": "Tokyo",
+    "state": "",
+    "country": "Japan",
+    "venue": "Chiba Marine Stadium",
+    "event": "Summer Sonic Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1469,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_12_08_2006_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "59",
+      "filename": "16851548.jpg",
+      "externalId": "10dDAvFkdotfrioa_cGmfB4BBcgGixnW-"
+    },
+    {
+      "folder": "59",
+      "filename": "94664813.jpg",
+      "externalId": "1p5MxPZugVT9UsjbfTYbK0EVaeffVNceJ"
+    },
+    {
+      "folder": "59",
+      "filename": "82303348.jpg",
+      "externalId": "1y7rl-8tVjPVnmTcGMZuH43WvE5IRsMSI"
+    },
+    {
+      "folder": "59",
+      "filename": "01512965.jpg",
+      "externalId": "1o7mhb-QYvSLqXFDeEOViXLHXxMRn4uZ6"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Fuel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Battery",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Nothing Else Matters",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

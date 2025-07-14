@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Metallica - xx.xx.1998 - Ruta MTV Special [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1998"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1998"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Ruta MTV Special",
+    "state": "",
+    "country": "",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.36,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1780,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "74",
+      "filename": "18209275.jpg",
+      "externalId": "1oNLfB3MQjVIiLT7lxX4mb2XdQ_bJce7l"
+    },
+    {
+      "folder": "74",
+      "filename": "69943284.jpg",
+      "externalId": "1lw80vX0n9mFS0EzWRfT7LLXoIDBj1by-"
+    },
+    {
+      "folder": "74",
+      "filename": "87208162.jpg",
+      "externalId": "17k0bTGLM9HG1lvhObnt15rwtMAh45WNh"
+    },
+    {
+      "folder": "74",
+      "filename": "65654261.jpg",
+      "externalId": "1B_cXcMOSs_7H-dc-vRBGdozNtn7PI_E2"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

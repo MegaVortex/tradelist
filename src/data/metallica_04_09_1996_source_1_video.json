@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Metallica - 04.09.1996 - New York - NY - USA - Radio City Music Hall - MTV Video Music Awards (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "09",
+    "year": "1996"
+  },
+  "startDateUnix": 841795200,
+  "endDate": {
+    "day": "04",
+    "month": "09",
+    "year": "1996"
+  },
+  "endDateUnix": 841795200,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Radio City Music Hall",
+    "event": "MTV Video Music Awards"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "'TV Shit: Binge And Purge (Part 3)'.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 276,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 279,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_25_01_1993_source_2_video",
+    "metallica_xx_xx_1993_usa_mtv_studios_binge_and_purge_special_video_misc",
+    "metallica_26_08_1995_source_4_video",
+    "metallica_xx_xx_1993_usa_mtv_studios_headbangers_ball_video_misc",
+    "metallica_xx_xx_1996_usa_mtv_rockumentary_video_misc",
+    "metallica_xx_xx_1996_usa_motherload_mtv_news_report_video_misc",
+    "metallica_xx_xx_xxxx_video"
+  ],
+  "childOf": "metallica_xx_xx_xxxx_tv_shit_3_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "50",
+      "filename": "38359891.jpg",
+      "externalId": "1DyoiubKpgzavQOjGDLxkMQUebtFr-3Xt"
+    },
+    {
+      "folder": "50",
+      "filename": "35010461.jpg",
+      "externalId": "1rUmmedeQPuQZxr1cit6dE-9vkP4F7B1m"
+    },
+    {
+      "folder": "50",
+      "filename": "91755566.jpg",
+      "externalId": "1YGtdkUzvfFCTHQrp7_956N_Kfjwkwz6M"
+    },
+    {
+      "folder": "50",
+      "filename": "59792336.jpg",
+      "externalId": "1mk1ttW6Kh4PrI2zZl3OhcAyMVp4CHAi7"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Until It Sleeps",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

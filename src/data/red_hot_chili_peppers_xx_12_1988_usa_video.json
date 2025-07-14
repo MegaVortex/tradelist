@@ -1,0 +1,143 @@
+{
+  "originalTitle": "Red Hot Chili Peppers - xx.12.1988 - USA - 2HIP4TV Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Red Hot Chili Peppers"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "12",
+    "year": "1988"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "12",
+    "year": "1988"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "2HIP4TV Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.62,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5000,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "red_hot_chili_peppers_13_02_1996_video",
+    "red_hot_chili_peppers_24_09_1999_video",
+    "red_hot_chili_peppers_08_12_1999_video",
+    "red_hot_chili_peppers_30_11_2000_video",
+    "red_hot_chili_peppers_01_08_2001_video",
+    "red_hot_chili_peppers_06_06_2002_video",
+    "red_hot_chili_peppers_05_07_2002_video",
+    "red_hot_chili_peppers_20_12_2002_video",
+    "red_hot_chili_peppers_15_02_2003_video"
+  ],
+  "childOf": "Red Hot Chili Peppers - [1988-2003] - TV Appearances",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "23818283.jpg",
+      "externalId": "15QG_lb0doPttjGLnC7tI1tIZ7xK9Wqqh"
+    },
+    {
+      "folder": "6",
+      "filename": "00636141.jpg",
+      "externalId": "1z5o5pQNAdjCZMeWvffXeTOtgskTUHP4G"
+    },
+    {
+      "folder": "6",
+      "filename": "10157371.jpg",
+      "externalId": "1ZcU55vEflOlzlCj7MvjtLQIlCDELRngF"
+    },
+    {
+      "folder": "6",
+      "filename": "03284037.jpg",
+      "externalId": "1JUMVEbDjCIADBg3PKSV6xPo-TM-FV_iu"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Fight Like A Brave",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Me And My Friends",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Especial TV Programm - MTV weekend 2002 (15 Min... broadcast including live videos and interviews. Official videos has been removed from the disk. Picture speed is very slow).",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

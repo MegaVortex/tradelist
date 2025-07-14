@@ -1,0 +1,130 @@
+{
+  "originalTitle": "Sepultura - 30.06.1996 - Milan - Italy - Parco Aquatica - Sonoria Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sepultura"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "06",
+    "year": "1996"
+  },
+  "startDateUnix": 836092800,
+  "endDate": {
+    "day": "30",
+    "month": "06",
+    "year": "1996"
+  },
+  "endDateUnix": 836092800,
+  "location": {
+    "city": "Milan",
+    "state": "",
+    "country": "Italy",
+    "venue": "Parco Aquatica",
+    "event": "Sonoria Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MTV broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 225,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 194,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "sepultura_25_11_1996_video",
+    "sepultura_24_05_1996_video",
+    "sepultura_12_02_1996_video",
+    "sepultura_15_02_1996_video_misc",
+    "sepultura_06_12_1996_video_misc"
+  ],
+  "childOf": "Sepultura - [1996] - TV Appearances",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "18938799.jpg",
+      "externalId": "15YzcBgcgTpHwf3PQwjftweenRirv9n5F"
+    },
+    {
+      "folder": "70",
+      "filename": "14141138.jpg",
+      "externalId": "1shI-3TNbJX5ZX85M2wtmiED1j3HNCRAw"
+    },
+    {
+      "folder": "70",
+      "filename": "56574740.jpg",
+      "externalId": "18zQTICFYAV-vTmlWgWyAst4ZKN4IfEGw"
+    },
+    {
+      "folder": "70",
+      "filename": "41811401.jpg",
+      "externalId": "13kq8Cysem9FWJuynkuDSEaZWSQY2bp9n"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Roots Bloody Roots",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

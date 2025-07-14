@@ -1,0 +1,151 @@
+{
+  "originalTitle": "Sepultura - 27.11.1998 - London - England - Astoria (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sepultura"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "11",
+    "year": "1998"
+  },
+  "startDateUnix": 912124800,
+  "endDate": {
+    "day": "27",
+    "month": "11",
+    "year": "1998"
+  },
+  "endDateUnix": 912124800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Astoria",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.27,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4353,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "slayer_27_11_1998_video",
+    "system_of_a_down_27_11_1998_video"
+  ],
+  "childOf": "various_artists_27_11_1998_video_compilation",
+  "images": [
+    {
+      "folder": "16",
+      "filename": "27421525.jpg",
+      "externalId": "1v12QXfzzjwLozaKwfIk5ijvn1DmxfXSE"
+    },
+    {
+      "folder": "16",
+      "filename": "18832384.jpg",
+      "externalId": "1eC_AWhvAheWXF2eH2x5bOVXRH1WVB6O9"
+    },
+    {
+      "folder": "16",
+      "filename": "78520039.jpg",
+      "externalId": "18V2iMq6Lloa6aPaCsrFEqq4wB6Obhy4L"
+    },
+    {
+      "folder": "16",
+      "filename": "20160256.jpg",
+      "externalId": "1H2coZIxXM3ik9g4kUHNaNIAeUHgs4v3h"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Derrick",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Against",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Interview",
+      "feat": "Igor and Andreas",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Choke",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

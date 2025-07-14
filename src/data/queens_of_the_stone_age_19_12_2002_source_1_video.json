@@ -1,0 +1,131 @@
+{
+  "originalTitle": "Queens Of The Stone Age - 19.12.2002 - New York - NY - USA - NBC Studios - Carson Daly Show (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "12",
+    "year": "2002"
+  },
+  "startDateUnix": 1040256000,
+  "endDate": {
+    "day": "19",
+    "month": "12",
+    "year": "2002"
+  },
+  "endDateUnix": 1040256000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Carson Daly Show",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.38,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6527,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "queens_of_the_stone_age_22_05_2003_video",
+    "queens_of_the_stone_age_14_11_2000_video",
+    "queens_of_the_stone_age_08_12_2002_video",
+    "queens_of_the_stone_age_28_07_2002_video",
+    "queens_of_the_stone_age_23_04_2003_video",
+    "queens_of_the_stone_age_04_11_2000_video"
+  ],
+  "childOf": "Queens Of The Stone Age - [2000-2003] - TV Appearances",
+  "images": [
+    {
+      "folder": "66",
+      "filename": "20829923.jpg",
+      "externalId": "1_wjjhpZ3CxzefMt4aKVFsB8Issish8uV"
+    },
+    {
+      "folder": "66",
+      "filename": "98336233.jpg",
+      "externalId": "1tL21-c6mz0--P76x8eoNBRw8DmAoL0mb"
+    },
+    {
+      "folder": "66",
+      "filename": "02021752.jpg",
+      "externalId": "1_4tnbU6qAp7wQ5dQ90hBKjnFeA8Y738m"
+    },
+    {
+      "folder": "66",
+      "filename": "33292662.jpg",
+      "externalId": "1fWsvocGF7dsLPg7TQu5kVV2jXqq-wdpa"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "No One Knows",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Go With The Flow",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

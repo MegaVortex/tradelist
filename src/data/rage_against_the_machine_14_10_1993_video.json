@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Rage Against The Machine - 14.10.1993 - Hollywood - CA - USA - Hollywood Palladium",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rage Against The Machine"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "10",
+    "year": "1993"
+  },
+  "startDateUnix": 750556800,
+  "endDate": {
+    "day": "14",
+    "month": "10",
+    "year": "1993"
+  },
+  "endDateUnix": 750556800,
+  "location": {
+    "city": "Hollywood",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Hollywood Palladium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.12,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2282,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "21899611.jpg",
+      "externalId": "1oSRmlqtBu7fiurWko83ax5GxoTwVaajc"
+    },
+    {
+      "folder": "28",
+      "filename": "17371631.jpg",
+      "externalId": "1gLAJVLpkZrHL47s60N5MvNdU_0798rjO"
+    },
+    {
+      "folder": "28",
+      "filename": "38500096.jpg",
+      "externalId": "14xLFoXf7XDrkvwadtITaL1YoQL0IwCJF"
+    },
+    {
+      "folder": "28",
+      "filename": "72460289.jpg",
+      "externalId": "17Us4326nMSVOg2H2_3GLujY1WKE_VO9J"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Wake Up",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Take The Power Back",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "People Of The Sun (different version) (cut)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Darkness Of Greed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Bullet In The Head",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Killing In The Name",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Hadda Be Playing On The Jukebox",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Freedom",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

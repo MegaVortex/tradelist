@@ -1,0 +1,196 @@
+{
+  "originalTitle": "Sonic Youth - 08.11.1983 - Milan - Italy - Odissea 2001",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sonic Youth"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "11",
+    "year": "1983"
+  },
+  "startDateUnix": 437097600,
+  "endDate": {
+    "day": "08",
+    "month": "11",
+    "year": "1983"
+  },
+  "endDateUnix": 437097600,
+  "location": {
+    "city": "Milan",
+    "state": "",
+    "country": "Italy",
+    "venue": "Odissea 2001",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.46,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 7209,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "81",
+      "filename": "02922113.jpg",
+      "externalId": "1cJqPaEO3uhhBDP1AmI_UrQQ9wiLYCbWj"
+    },
+    {
+      "folder": "81",
+      "filename": "90767124.jpg",
+      "externalId": "1h1fQfvaAVwuce5N4-CCbkEuWeOv8_Fla"
+    },
+    {
+      "folder": "81",
+      "filename": "10942674.jpg",
+      "externalId": "1srr32Ppcgzkxa9925C5gnGN17qATzLtk"
+    },
+    {
+      "folder": "81",
+      "filename": "00355038.jpg",
+      "externalId": "148eAyj7Y0XAfHxzq5-Z1wF_A9XQ3quke"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The World Looks Red",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "She's In A Bad Mood",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Early American",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Burning Spear",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Confusion Is Next",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Brother James",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Kill Yr Idols",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Making The Nature Scene",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Shaking Hell",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "The Good And The Bad",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Inhuman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

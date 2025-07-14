@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Metallica - 13.11.1996 - London - England - BBC Television Centre - Jools Holland Show (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "11",
+    "year": "1996"
+  },
+  "startDateUnix": 847843200,
+  "endDate": {
+    "day": "13",
+    "month": "11",
+    "year": "1996"
+  },
+  "endDateUnix": 847843200,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Television Centre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jools Holland Show",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 932,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 821,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "0",
+      "filename": "83950.jpg",
+      "externalId": "1CJuZCMz5ocCVuHYKpTwKWBzR2a20-xby"
+    },
+    {
+      "folder": "0",
+      "filename": "03955.jpg",
+      "externalId": "1HOIgqB41Wvyj1Zdydp_FLAdPKYC_VYpm"
+    },
+    {
+      "folder": "0",
+      "filename": "23699.jpg",
+      "externalId": "15ACwAkxR8M36ur2Hs9FOcAxm3aeCKJ_H"
+    },
+    {
+      "folder": "0",
+      "filename": "78775.jpg",
+      "externalId": "1cRxZCXVBzY2MrHP2xu7y68zTY-xt1PbG"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Mama Said (James only)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wasting My Hate",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "King Nothing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

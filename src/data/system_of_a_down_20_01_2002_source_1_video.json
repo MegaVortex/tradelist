@@ -1,0 +1,196 @@
+{
+  "originalTitle": "System Of A Down - 20.01.2002 - Gold Coast - QLD - Australia - Parklands Southport - Big Day Out (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "System Of A Down"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "01",
+    "year": "2002"
+  },
+  "startDateUnix": 1011484800,
+  "endDate": {
+    "day": "20",
+    "month": "01",
+    "year": "2002"
+  },
+  "endDateUnix": 1011484800,
+  "location": {
+    "city": "Gold Coast",
+    "state": "QLD",
+    "country": "Australia",
+    "venue": "Parklands Southport",
+    "event": "Big Day Out"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.92,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2183,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "22924908.jpg",
+      "externalId": "1dn0Viq1VeXcqhqzNkANCtbD4ycVB2leE"
+    },
+    {
+      "folder": "20",
+      "filename": "56276517.jpg",
+      "externalId": "1ajtReJ5EVdD0so0tt23NNDdJRJK2KGqK"
+    },
+    {
+      "folder": "20",
+      "filename": "33449786.jpg",
+      "externalId": "1dyE1SMRqRvlYL1IPTfa2qvQeaqMMjOGj"
+    },
+    {
+      "folder": "20",
+      "filename": "87405797.jpg",
+      "externalId": "1fzqbhMRvEDvku-HGJbcimo8tm6NIZWJk"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "War?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Jet Pilot",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "X",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Suggestions",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Psycho",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Chop Suey!",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Bounce",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Aerials",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Needles",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Toxicity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Sugar",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

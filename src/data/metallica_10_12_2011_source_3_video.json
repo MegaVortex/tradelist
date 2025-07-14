@@ -1,0 +1,268 @@
+{
+  "originalTitle": "Metallica - 10.12.2011 - San Francisco - CA - USA - The Fillmore (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "12",
+    "year": "2011"
+  },
+  "startDateUnix": 1323475200,
+  "endDate": {
+    "day": "10",
+    "month": "12",
+    "year": "2011"
+  },
+  "endDateUnix": 1323475200,
+  "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "venue": "The Fillmore",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "30th anniversary. Prior to Metallica's set, Mike Bordin and Stefan Chirazi came out to tell stories about Cliff Burton. Metallica honored their crew members (including Big Mick and Zach Harmon) and presented an award to superfan \"Barricade Ron\". World premiere for \"Rebel Of Babylon\". Compilation of YouTube sources.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.63,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 6024,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "59",
+      "filename": "48752587.jpg",
+      "externalId": "15-sqtQCu4eUMTe9m8hpSBnwMtg5YK0nS"
+    },
+    {
+      "folder": "59",
+      "filename": "39962088.jpg",
+      "externalId": "1JNdwe6733KyglUAXd24ZLUbdNTpCZ8UC"
+    },
+    {
+      "folder": "59",
+      "filename": "70166297.jpg",
+      "externalId": "1_QiU50OuqKebLAQ9FjscoVaUB_sRnfmZ"
+    },
+    {
+      "folder": "59",
+      "filename": "80563049.jpg",
+      "externalId": "1ww2YxLKyLqIGKDn_ZwqJLWJvI0D_U_9B"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Orion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Through The Never",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Ride The Lightning",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The God That Failed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Welcome Home (Sanitarium)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Rebel Of Babylon",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Blackened",
+      "feat": "MetClubbers Dennis and Annette Diaz",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Dirty Window",
+      "feat": "Bob Rock",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Frantic",
+      "feat": "Bob Rock",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Sabbra Cadabra  (with Geezer Butler)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Black Sabbath"
+    },
+    {
+      "order": 11,
+      "song": "Iron Man  (with Ozzy Osbourne and Geezer Butler)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Black Sabbath"
+    },
+    {
+      "order": 12,
+      "song": "Paranoid  (with Ozzy Osbourne and Geezer Butler)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Black Sabbath"
+    },
+    {
+      "order": 13,
+      "song": "King Nothing",
+      "feat": "Jason Newsted",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Whiplash",
+      "feat": "Jason Newsted",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Motorbreath",
+      "feat": "Hugh Tanner",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "Phantom Lord",
+      "feat": "Dave Mustaine",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 17,
+      "song": "Jump In The Fire",
+      "feat": "Dave Mustaine",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 18,
+      "song": "Metal Militia",
+      "feat": "Dave Mustaine",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 19,
+      "song": "Hit The Lights",
+      "feat": "Dave Mustaine, Ron McGovney and Lloyd Grant",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 20,
+      "song": "Seek And Destroy",
+      "feat": "Ron McGovney, Dave Mustaine, Lloyd Grant, Hugh Tanner, Jason Newsted, Mark Osegueda and Soul Rebels",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

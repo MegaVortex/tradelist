@@ -1,0 +1,131 @@
+{
+  "originalTitle": "Metallica - 05.06.1993 - Milton Keynes - England - National Bowl - BBC The Music Biz [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "06",
+    "year": "1993"
+  },
+  "startDateUnix": 739238400,
+  "endDate": {
+    "day": "05",
+    "month": "06",
+    "year": "1993"
+  },
+  "endDateUnix": 739238400,
+  "location": {
+    "city": "Milton Keynes",
+    "state": "",
+    "country": "England",
+    "venue": "National Bowl",
+    "event": "BBC The Music Biz"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.15,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5718,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_05_06_1993_source_2_video",
+    "metallica_17_05_1990_source_3_video",
+    "metallica_25_02_1992_video",
+    "metallica_06_12_1997_source_3_video",
+    "metallica_08_12_1997_video"
+  ],
+  "childOf": "Metallica - [1990-1997] - TV Appearances",
+  "images": [
+    {
+      "folder": "59",
+      "filename": "18124725.jpg",
+      "externalId": "1S8rX_Fww5wUw9BRMxj2vmbaN4tOTx-oP"
+    },
+    {
+      "folder": "59",
+      "filename": "59846975.jpg",
+      "externalId": "16gN1oAuiOxKVwLIPRS1hq7gWXk51qU-h"
+    },
+    {
+      "folder": "59",
+      "filename": "25977832.jpg",
+      "externalId": "1mR0phiCu-hNktkvk18TSbQhgkKWaB8d1"
+    },
+    {
+      "folder": "59",
+      "filename": "02662701.jpg",
+      "externalId": "1LA0yVCZnOMcxrcQmcSRcFTskwF6eaXBP"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "People Behind The Scenes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "How To Set Up A Show For Metallica",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

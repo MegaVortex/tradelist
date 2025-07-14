@@ -1,0 +1,123 @@
+{
+  "originalTitle": "Queens Of The Stone Age - 22.05.2003 - New York - NY - USA - NBC Studios - Conan O'Brien Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "05",
+    "year": "2003"
+  },
+  "startDateUnix": 1053561600,
+  "endDate": {
+    "day": "22",
+    "month": "05",
+    "year": "2003"
+  },
+  "endDateUnix": 1053561600,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Conan O'Brien Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.38,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6527,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "queens_of_the_stone_age_19_12_2002_video",
+    "queens_of_the_stone_age_14_11_2000_video",
+    "queens_of_the_stone_age_08_12_2002_video",
+    "queens_of_the_stone_age_28_07_2002_video",
+    "queens_of_the_stone_age_23_04_2003_video",
+    "queens_of_the_stone_age_04_11_2000_video"
+  ],
+  "childOf": "Queens Of The Stone Age - [2000-2003] - TV Appearances",
+  "images": [
+    {
+      "folder": "66",
+      "filename": "54518000.jpg",
+      "externalId": "1KVC4y3mOsLODLoDnmvqIQsTvLcz9TLzh"
+    },
+    {
+      "folder": "66",
+      "filename": "20658192.jpg",
+      "externalId": "1nWxvPF3G8dkf-JgR4p6ytKB9NRnkOHSQ"
+    },
+    {
+      "folder": "66",
+      "filename": "55240578.jpg",
+      "externalId": "1_kqYBAVXnyIBpZ1ARH36I9p21j3LkF8q"
+    },
+    {
+      "folder": "66",
+      "filename": "54555969.jpg",
+      "externalId": "1VRVDzSEMLlqzQo94EBa2FtBuUe94OHaF"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Go With The Flow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

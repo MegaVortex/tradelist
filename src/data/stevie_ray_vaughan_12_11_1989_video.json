@@ -1,0 +1,220 @@
+{
+  "originalTitle": "Stevie Ray Vaughan - 12.11.1989 - Troy - NY - USA - R.P.I. Fieldhouse",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Stevie Ray Vaughan"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "11",
+    "year": "1989"
+  },
+  "startDateUnix": 626832000,
+  "endDate": {
+    "day": "12",
+    "month": "11",
+    "year": "1989"
+  },
+  "endDateUnix": 626832000,
+  "location": {
+    "city": "Troy",
+    "state": "NY",
+    "country": "USA",
+    "venue": "R.P.I. Fieldhouse",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.97,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 5420,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "34",
+      "filename": "82209698.jpg",
+      "externalId": "1pYEd_NmmsNPbdRZPO-E1PWZjMv8WiY2h"
+    },
+    {
+      "folder": "34",
+      "filename": "78679786.jpg",
+      "externalId": "1PHmfuo2diQr9KeoKwLJOW-94qDpfsKDV"
+    },
+    {
+      "folder": "34",
+      "filename": "44500442.jpg",
+      "externalId": "1A4d0pTXfqKt8JqWug0DLBNLDYVkeXVed"
+    },
+    {
+      "folder": "34",
+      "filename": "22444029.jpg",
+      "externalId": "1nIj6OQ-VYMHxTvd-rXpkUxXOkEHTAKS8"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The House Is Rocking",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Tightrope",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Look At Little Sister",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Mary Had A Little Lamb",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Let Me Love You Baby",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Texas Flood",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Wall Of Denial",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Supersticious",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Cold Shot",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Couldn't Stand The Weather",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Life Without You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Crossfire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Voodoo Child",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Riviera Paradise",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

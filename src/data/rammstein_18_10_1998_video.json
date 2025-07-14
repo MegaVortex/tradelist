@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Rammstein - 18.10.1998 - New Orleans - LA - USA - Kiefer UNO Lakefront Arena",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "10",
+    "year": "1998"
+  },
+  "startDateUnix": 908668800,
+  "endDate": {
+    "day": "18",
+    "month": "10",
+    "year": "1998"
+  },
+  "endDateUnix": 908668800,
+  "location": {
+    "city": "New Orleans",
+    "state": "LA",
+    "country": "USA",
+    "venue": "Kiefer UNO Lakefront Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Official content - NT.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 727,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1238,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "640x480",
+        "bitrateType": "",
+        "bitrateKbps": 4750,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 255,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "MP4"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "55",
+      "filename": "33175575.jpg",
+      "externalId": "1CB4UDNATSPYRvBRU9rG4R20rdwdSIKZx"
+    },
+    {
+      "folder": "55",
+      "filename": "52367199.jpg",
+      "externalId": "1Aj-se9epOGFJj77rk90TtNBh4uiLiiBg"
+    },
+    {
+      "folder": "55",
+      "filename": "74586844.jpg",
+      "externalId": "1wIjI-GS4cMuass1Vlf7lWnfKOsIh-qCq"
+    },
+    {
+      "folder": "55",
+      "filename": "85477877.jpg",
+      "externalId": "1BTARWgWkgibcOkDPSzzQoH4MhT5jiX_o"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Sehnsucht",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Asche Zu Asche",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Du Hast",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Buck Dich",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Engel",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

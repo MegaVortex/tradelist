@@ -1,0 +1,249 @@
+{
+  "originalTitle": "Page & Plant - 23.02.1998 - Budapest - Hungary - Sports Hall",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Page & Plant"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "02",
+    "year": "1998"
+  },
+  "startDateUnix": 888192000,
+  "endDate": {
+    "day": "23",
+    "month": "02",
+    "year": "1998"
+  },
+  "endDateUnix": 888192000,
+  "location": {
+    "city": "Budapest",
+    "state": "",
+    "country": "Hungary",
+    "venue": "Sports Hall",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.11,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 2.69,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 7048,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "34",
+      "filename": "55792535.jpg",
+      "externalId": "1Kwjaw1xNSbl26rebd0OmC0LWMHmX6BFh"
+    },
+    {
+      "folder": "34",
+      "filename": "09857853.jpg",
+      "externalId": "1fqrOyqdop3TO5TWkxKgBTNyNfHjXYIvn"
+    },
+    {
+      "folder": "34",
+      "filename": "73805173.jpg",
+      "externalId": "1bhrXkGI8lqUAMOelTj0g-BYHg1RVk4ty"
+    },
+    {
+      "folder": "34",
+      "filename": "58897490.jpg",
+      "externalId": "1AQixVH7yL75ljmL3kFoTcs8cdYsVbM7l"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Egyptian Tape Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Wanton Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Bring It On Home",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Heartbreaker",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Ramble On",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Walking Into Clarksdale",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "No Quarter",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Going To California",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Tangerine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Gallows Pole",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Most High",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Babe I'm Gonna Leave You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "How Many More Times / In The Light",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Burning Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Whole Lotta Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "Thank You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 17,
+      "song": "Rock & Roll",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

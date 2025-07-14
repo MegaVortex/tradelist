@@ -1,0 +1,122 @@
+{
+  "originalTitle": "Metallica - xx.xx.1993 - Japan (Source 2) [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1993"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1993"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Japan",
+    "state": "",
+    "country": "",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.02,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3585,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_16_03_1993_source_2_video",
+    "metallica_17_03_1993_source_2_video",
+    "metallica_18_03_1993_source_2_video",
+    "metallica_20_04_1992_source_4_video"
+  ],
+  "childOf": "Metallica - [1992-1993] - Japan & England",
+  "images": [
+    {
+      "folder": "77",
+      "filename": "85839259.jpg",
+      "externalId": "1XfRTdY-i_g7aywSZ4gYuB3L-KX33vQdU"
+    },
+    {
+      "folder": "77",
+      "filename": "41361964.jpg",
+      "externalId": "16NmB7oUj51tjLHMth0GMT1SN4K852ypP"
+    },
+    {
+      "folder": "77",
+      "filename": "65895059.jpg",
+      "externalId": "19BWOuc14Ihj7x2Qpw3h7CLYTdlONgDLn"
+    },
+    {
+      "folder": "77",
+      "filename": "88958683.jpg",
+      "externalId": "1qcyHs84tJ2BbsRpyWjgEUrExVgDmArEw"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

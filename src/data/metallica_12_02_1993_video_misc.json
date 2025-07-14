@@ -1,0 +1,136 @@
+{
+  "originalTitle": "Metallica - 12.02.1993 - Montreal - QC - Canada - Forum De Montreal [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "02",
+    "year": "1993"
+  },
+  "startDateUnix": 729475200,
+  "endDate": {
+    "day": "12",
+    "month": "02",
+    "year": "1993"
+  },
+  "endDateUnix": 729475200,
+  "location": {
+    "city": "Montreal",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "Forum De Montreal",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "FAX broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 246,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 248,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_13_02_1993_source_2_video",
+    "metallica_13_02_1993_video_misc"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "77",
+      "filename": "53713934.jpg",
+      "externalId": "1PrMSzZQs5ahzKL-vrzqtatjSqDmKKZWp"
+    },
+    {
+      "folder": "77",
+      "filename": "61825475.jpg",
+      "externalId": "1eoVV_k6NIgv0U5XIwj8K4uOOiEVi3lc5"
+    },
+    {
+      "folder": "77",
+      "filename": "56896888.jpg",
+      "externalId": "1XnwHPKFk45dbvwM12Hccy_3XLu5phmwb"
+    },
+    {
+      "folder": "77",
+      "filename": "32478407.jpg",
+      "externalId": "1oKpDga1PzzIpTvQOsI22kwfHMpWW7u15"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Live Footage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

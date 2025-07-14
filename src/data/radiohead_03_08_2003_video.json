@@ -1,0 +1,220 @@
+{
+  "originalTitle": "Radiohead - 03.08.2003 - Chiba - Japan - Marine Stadium - Summer Sonic",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Radiohead"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "08",
+    "year": "2003"
+  },
+  "startDateUnix": 1059868800,
+  "endDate": {
+    "day": "03",
+    "month": "08",
+    "year": "2003"
+  },
+  "endDateUnix": 1059868800,
+  "location": {
+    "city": "Chiba",
+    "state": "",
+    "country": "Japan",
+    "venue": "Marine Stadium",
+    "event": "Summer Sonic"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.67,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3298,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "45098828.jpg",
+      "externalId": "1rYjnj9hpFslgP5UB8h3KNFHyL7U6XiOo"
+    },
+    {
+      "folder": "70",
+      "filename": "91568486.jpg",
+      "externalId": "12ag7c_IdZ5TLSvSQJJN83lMV6mNaAloY"
+    },
+    {
+      "folder": "70",
+      "filename": "03192144.jpg",
+      "externalId": "1q25kCTu8hWKddVlmsm1C-Pz9N-gBYHW8"
+    },
+    {
+      "folder": "70",
+      "filename": "80370044.jpg",
+      "externalId": "1_AUf61aBqLXlgG_P1BGFYs6G_CerWSKS"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Where Bluebirds Fly",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "There There",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "2 + 2 = 5",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Backdrifts",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Sit Down. Stand Up.",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "No Surprises",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Bones",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Kid A",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Go To Sleep",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Just",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Pyramid Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "A Wolf At The Door",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Karma Police",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Creep",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

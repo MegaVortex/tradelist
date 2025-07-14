@@ -1,0 +1,121 @@
+{
+  "originalTitle": "Nirvana - 02.04.1994 - Paris - France - Canal+ Studios - Nulle Part Ailleurs (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "04",
+    "year": "1994"
+  },
+  "startDateUnix": 765244800,
+  "endDate": {
+    "day": "02",
+    "month": "04",
+    "year": "1994"
+  },
+  "endDateUnix": 765244800,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "Canal+ Studios",
+    "event": "Nulle Part Ailleurs"
+  },
+  "tvChannel": "Canal+",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "Cedric Guillod",
+  "notes": "PRO#1a.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 161,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 185,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "nirvana_13_12_1993_source_5_video",
+    "nirvana_14_02_1994_video",
+    "nirvana_06_02_1994_source_4_video",
+    "nirvana_27_02_1994_source_2_video"
+  ],
+  "childOf": "Nirvana - [1993-1994] - TV Appearances",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "77136695.jpg",
+      "externalId": "1foNalZFh8WDBZl7ykYOGvGCXkjn_Rgwl"
+    },
+    {
+      "folder": "80",
+      "filename": "53066520.jpg",
+      "externalId": "1YMayWxT4bveRMzJ1wcOM1SNwBQ3Bb9CR"
+    },
+    {
+      "folder": "80",
+      "filename": "22625401.jpg",
+      "externalId": "1YLu0szlpefjfYq5-NNBIjSaWk_guN25c"
+    },
+    {
+      "folder": "80",
+      "filename": "25912170.jpg",
+      "externalId": "1v2Fo6Lqkf9PMgEj0-xjNs9u_6QcAGMHK"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Rape Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

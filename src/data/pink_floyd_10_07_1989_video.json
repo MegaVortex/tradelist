@@ -1,0 +1,204 @@
+{
+  "originalTitle": "Pink Floyd - 10.07.1989 - Nijmegen - Netherlands - Goffertpark",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Pink Floyd"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "07",
+    "year": "1989"
+  },
+  "startDateUnix": 616032000,
+  "endDate": {
+    "day": "10",
+    "month": "07",
+    "year": "1989"
+  },
+  "endDateUnix": 616032000,
+  "location": {
+    "city": "Nijmegen",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Goffertpark",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.11,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 5267,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "39",
+      "filename": "92171572.jpg",
+      "externalId": "1y6c-6eM0NKvAglmiXop43ipl3U7GUXzU"
+    },
+    {
+      "folder": "39",
+      "filename": "66354171.jpg",
+      "externalId": "1Wc_bVC-l2piiJViNqJRFf6TO8G3sL8sw"
+    },
+    {
+      "folder": "39",
+      "filename": "12585155.jpg",
+      "externalId": "10df8wN4xZQ6P0LA_BIWw84z0hy7l8JsD"
+    },
+    {
+      "folder": "39",
+      "filename": "25488677.jpg",
+      "externalId": "1Ta-tH8YO89ssjzPxJzqIHfrfbTXz1ha0"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "One Of These Days",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "On The Run",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Great Gig In The Sky",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Wish You Were Here",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Welcome To The Machine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Us And Them",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Money",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Another Brick In The Wall (Part II)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Comfortably Numb",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "One Slip",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Run Like Hell",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

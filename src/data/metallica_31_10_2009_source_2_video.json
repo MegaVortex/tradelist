@@ -1,0 +1,104 @@
+{
+  "originalTitle": "Metallica - 31.10.2009 - Quebec City - QC - Canada - Colisee Pepsi (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "10",
+    "year": "2009"
+  },
+  "startDateUnix": 1256947200,
+  "endDate": {
+    "day": "31",
+    "month": "10",
+    "year": "2009"
+  },
+  "endDateUnix": 1256947200,
+  "location": {
+    "city": "Quebec City",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "Colisee Pepsi",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Official BD - NT!",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 12.5,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3026,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": 1536,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": {
+      "language": "",
+      "codec": "",
+      "bitrateKbps": null,
+      "channels": null
+    },
+    "sourceDetail": {
+      "type": "",
+      "extra": "",
+      "medium": ""
+    }
+  },
+  "relatedShows": [
+    "metallica_01_11_2009_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "51",
+      "filename": "17578963.jpg",
+      "externalId": "1kutqbfHLwfQZylHlQPeWi-vjSBhgICXH"
+    },
+    {
+      "folder": "51",
+      "filename": "39763812.jpg",
+      "externalId": "1ctx5g7zmyAfxt31AwWd0W6Rss5j4buy1"
+    },
+    {
+      "folder": "51",
+      "filename": "38029204.jpg",
+      "externalId": "1nh0kJjhBTjS0rPBb8jhDmUV8tBIXJjLe"
+    },
+    {
+      "folder": "51",
+      "filename": "91677195.jpg",
+      "externalId": "1zVGlT2btwtzSagRbcqHIQ2u1JI5z5zi1"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Slipknot - 04.02.2002 - Milan - Italy - Filaforum (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "02",
+    "year": "2002"
+  },
+  "startDateUnix": 1012780800,
+  "endDate": {
+    "day": "04",
+    "month": "02",
+    "year": "2002"
+  },
+  "endDateUnix": 1012780800,
+  "location": {
+    "city": "Milan",
+    "state": "",
+    "country": "Italy",
+    "venue": "Filaforum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 92.16,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 205,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "3",
+      "filename": "8623405.jpg",
+      "externalId": "1nGDnh6vDFsBijI0QeQKhxTVHEmY6qOzN"
+    },
+    {
+      "folder": "3",
+      "filename": "2412641.jpg",
+      "externalId": "1rs5ML5bXPjnFtPREoaIBR5Vl62tHw_wL"
+    },
+    {
+      "folder": "3",
+      "filename": "6886305.jpg",
+      "externalId": "1zPxIGpJEYsg6TgAIrrMQOKIWUIG_V2nC"
+    },
+    {
+      "folder": "3",
+      "filename": "8584529.jpg",
+      "externalId": "12UVYOmdG8Yr00i15_KXagSXRrVlFX18N"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Left Behind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

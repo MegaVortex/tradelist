@@ -1,0 +1,190 @@
+{
+  "originalTitle": "Metallica - 27.05.1992 - Seattle - WA - USA - Seattle Center Coliseum (Source 4)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "05",
+    "year": "1992"
+  },
+  "startDateUnix": 706924800,
+  "endDate": {
+    "day": "27",
+    "month": "05",
+    "year": "1992"
+  },
+  "endDateUnix": 706924800,
+  "location": {
+    "city": "Seattle",
+    "state": "WA",
+    "country": "USA",
+    "venue": "Seattle Center Coliseum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 4",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Tripod shot, but taper films screen the entire show, and the show is cut short due to the battery dying.",
+  "tapers": [
+    "Lee Bunn"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 5.96,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5248,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "77",
+      "filename": "95079145.jpg",
+      "externalId": "1AWKGmcWsUK9IyEXZxcZn7rBlsiJqDU9V"
+    },
+    {
+      "folder": "77",
+      "filename": "93279242.jpg",
+      "externalId": "10vYW9TgP5eTaNAbOXUtXJHuj7XUqtWvL"
+    },
+    {
+      "folder": "77",
+      "filename": "39480732.jpg",
+      "externalId": "1n3Ia7C_N6l0lb4KH_yvPMg5fVkNpeh85"
+    },
+    {
+      "folder": "77",
+      "filename": "07916424.jpg",
+      "externalId": "11fV7cyilAq-Gl4Pb87GrOcLcwvSYnLEk"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Ecstasy Of Gold (Ennio Morricone song) (PA)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Creeping Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Harvester Of Sorrow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Welcome Home (Sanitarium)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Sad But True",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Wherever I May Roam",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Bass Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Through The Never",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "The Unforgiven",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

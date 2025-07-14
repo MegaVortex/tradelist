@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Stevie Ray Vaughan & Double Trouble - 30.08.1987 - Des Moines - IA - USA - Iowa State Fair",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Stevie Ray Vaughan & Double Trouble"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "08",
+    "year": "1987"
+  },
+  "startDateUnix": 557280000,
+  "endDate": {
+    "day": "30",
+    "month": "08",
+    "year": "1987"
+  },
+  "endDateUnix": 557280000,
+  "location": {
+    "city": "Des Moines",
+    "state": "IA",
+    "country": "USA",
+    "venue": "Iowa State Fair",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 297,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 517,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "stevie_ray_vaughan_double_trouble_27_02_1987_video",
+    "stevie_ray_vaughan_double_trouble_25_03_1987_source_2_video",
+    "stevie_ray_vaughan_double_trouble_31_12_1986_video",
+    "stevie_ray_vaughan_double_trouble_06_09_1987_video",
+    "stevie_ray_vaughan_double_trouble_10_05_1988_source_1_video",
+    "stevie_ray_vaughan_double_trouble_10_05_1988_source_2_video",
+    "stevie_ray_vaughan_double_trouble_03_07_1988_source_2_video",
+    "stevie_ray_vaughan_double_trouble_17_07_1988_video",
+    "stevie_ray_vaughan_double_trouble_23_01_1989_video",
+    "stevie_ray_vaughan_double_trouble_19_07_1988_video",
+    "stevie_ray_vaughan_double_trouble_28_10_1989_video",
+    "stevie_ray_vaughan_double_trouble_08_11_1989_source_2_video",
+    "stevie_ray_vaughan_double_trouble_11_11_1989_source_2_video",
+    "stevie_ray_vaughan_double_trouble_05_06_1990_video",
+    "stevie_ray_vaughan_double_trouble_17_01_1990_video"
+  ],
+  "childOf": "Stevie Ray Vaughan & Double Trouble - [1986-1990] - TV Appearances",
+  "images": [
+    {
+      "folder": "47",
+      "filename": "46206050.jpg",
+      "externalId": "1TT9lTObE2khTinHyHjD2fbqS-cDQfFav"
+    },
+    {
+      "folder": "47",
+      "filename": "78989468.jpg",
+      "externalId": "1C08KwGWQqCfbEJQKDzr4vZU_jiDn9e_k"
+    },
+    {
+      "folder": "47",
+      "filename": "53617088.jpg",
+      "externalId": "16XpTT5t-keuNtW6xUaKR-iIFsJ3duWfQ"
+    },
+    {
+      "folder": "47",
+      "filename": "25381060.jpg",
+      "externalId": "1UDqAza4pnOy7aXh2ze5x5-miFzSYWa9f"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Scuttle Buttin'",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Say What",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

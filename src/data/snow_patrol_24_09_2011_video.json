@@ -1,0 +1,184 @@
+{
+  "originalTitle": "Snow Patrol - 24.09.2011 - Rio De Janeiro - Brazil - Cidade Do Rock - Rock In Rio",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Snow Patrol"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "09",
+    "year": "2011"
+  },
+  "startDateUnix": 1316822400,
+  "endDate": {
+    "day": "24",
+    "month": "09",
+    "year": "2011"
+  },
+  "endDateUnix": 1316822400,
+  "location": {
+    "city": "Rio De Janeiro",
+    "state": "",
+    "country": "Brazil",
+    "venue": "Cidade Do Rock",
+    "event": "Rock In Rio"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 7.22,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 13519,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [
+    "red_hot_chili_peppers_24_09_2011_source_1_video",
+    "stone_sour_24_09_2011_video",
+    "various_artists_24_09_2011_video"
+  ],
+  "childOf": "various_artists_24_09_2011_video_compilation",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "86510109.jpg",
+      "externalId": "1gl694dMHrY0udbGCu2heTA5nx4sKyRoM"
+    },
+    {
+      "folder": "24",
+      "filename": "95032283.jpg",
+      "externalId": "1AYLdr7H7g9EOLQEjBbd3NDsqEKA8RTYr"
+    },
+    {
+      "folder": "24",
+      "filename": "85995411.jpg",
+      "externalId": "1nTZLK0J9s3Tp6E7vPDla9T4e4HxPTwTj"
+    },
+    {
+      "folder": "24",
+      "filename": "77953133.jpg",
+      "externalId": "1fmsZIzntPKgyzjd5y_E_LEj12LIuMpLJ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "You're All I Have",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Take Back The City",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Called Out In The Dark",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Run",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Shut Your Eyes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Set The Fire On The Third Bar",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Chasing Cars",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Fallen Empires",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Open Your Eyes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

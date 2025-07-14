@@ -1,0 +1,126 @@
+{
+  "originalTitle": "Metallica - 07.07.2007 - London - England - Wembley Stadium (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "07",
+    "year": "2007"
+  },
+  "startDateUnix": 1183766400,
+  "endDate": {
+    "day": "07",
+    "month": "07",
+    "year": "2007"
+  },
+  "endDateUnix": 1183766400,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Wembley Stadium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.37,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": null,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": {
+      "language": "",
+      "codec": "",
+      "bitrateKbps": null,
+      "channels": null
+    },
+    "sourceDetail": {
+      "type": "",
+      "extra": "",
+      "medium": ""
+    }
+  },
+  "relatedShows": [
+    "metallica_15_08_2006_source_2_video",
+    "metallica_04_06_2004_source_3_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "45",
+      "filename": "32230540.jpg",
+      "externalId": "1hKqwcrI5LY3xewS-ZeFwGXSZJDLwAEzz"
+    },
+    {
+      "folder": "45",
+      "filename": "74872043.jpg",
+      "externalId": "1bzEWyzT3AEw1vKtHlTBz7UETXThXGkpX"
+    },
+    {
+      "folder": "45",
+      "filename": "04311935.jpg",
+      "externalId": "1TEhnWunCOIHjuxcHdyEJ5hx7U9ibci_c"
+    },
+    {
+      "folder": "45",
+      "filename": "94662681.jpg",
+      "externalId": "1e2OoNbLuQTrR-ICPHmkcEnNciOqyP0Dp"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Sad But True",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Nothing Else Matters",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

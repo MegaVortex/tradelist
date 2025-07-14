@@ -1,0 +1,182 @@
+{
+  "originalTitle": "Slipknot - 03.12.2008 - London - England - Hammersmith Apollo (Source 7)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "12",
+    "year": "2008"
+  },
+  "startDateUnix": 1228262400,
+  "endDate": {
+    "day": "03",
+    "month": "12",
+    "year": "2008"
+  },
+  "endDateUnix": 1228262400,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Hammersmith Apollo",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 7",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "LPMaskMan",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "LPMaskMan"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.59,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2609,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "72",
+      "filename": "79460720.jpg",
+      "externalId": "141vi7WCdJZXDW0X2XbG7yqQChW2fwWwD"
+    },
+    {
+      "folder": "72",
+      "filename": "79241930.jpg",
+      "externalId": "19aOWNIYYWUbZZgs_D66qN0BkCmS9wziB"
+    },
+    {
+      "folder": "72",
+      "filename": "97362468.jpg",
+      "externalId": "1eZkPOqgQrZEn_uuHnmvci6MWokKYtqUk"
+    },
+    {
+      "folder": "72",
+      "filename": "88553945.jpg",
+      "externalId": "1x_-SfxmFr-zLAAmdJKgfideBcmRIBBP0"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Surfacing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Blister Exists",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Dead Memories",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Psychosocial",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "The Heretic Anthem",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Spit It Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Duality",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "People = Shit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "(Sic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

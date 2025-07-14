@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Metallica - 07.11.1992 - Rotterdam - Netherlands - Ahoy (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "11",
+    "year": "1992"
+  },
+  "startDateUnix": 721094400,
+  "endDate": {
+    "day": "07",
+    "month": "11",
+    "year": "1992"
+  },
+  "endDateUnix": 721094400,
+  "location": {
+    "city": "Rotterdam",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Ahoy",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Dutch Veronica TV documentary with interview, backstage and live footage recorded during the two Metallica shows: Metallica - 07.11.1992 - Rotterdam - Netherlands - Ahoy (Source 2) and Metallica - 08.11.1992 - Rotterdam - Netherlands - Ahoy.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2175,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "59",
+      "filename": "91942088.jpg",
+      "externalId": "17ENsP1ke22KpKDruqCRQG840N531NY0r"
+    },
+    {
+      "folder": "59",
+      "filename": "87073121.jpg",
+      "externalId": "1Vx8cbYpBurbJb7BYltCPgzaAicjvYE10"
+    },
+    {
+      "folder": "59",
+      "filename": "16731005.jpg",
+      "externalId": "1V2YGTCwzHqOxtWAtHQc0PY4qCPh_E2ix"
+    },
+    {
+      "folder": "59",
+      "filename": "19777252.jpg",
+      "externalId": "14LXYXzUvxXnb6TPkMTcSVc7ptvkahSAS"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "For Whom The Bell Tolls",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Wherever I May Roam",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Backstage Tour",
+      "feat": "Lars",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

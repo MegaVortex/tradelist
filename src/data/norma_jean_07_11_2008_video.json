@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Norma Jean - 07.11.2008 - Syracuse - NY - USA - The Lost Horizon",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Norma Jean"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "11",
+    "year": "2008"
+  },
+  "startDateUnix": 1226016000,
+  "endDate": {
+    "day": "07",
+    "month": "11",
+    "year": "2008"
+  },
+  "endDateUnix": 1226016000,
+  "location": {
+    "city": "Syracuse",
+    "state": "NY",
+    "country": "USA",
+    "venue": "The Lost Horizon",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Probably VCD sourced.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.07,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3017,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "CBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "norma_jean_05_03_2011_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "52729710.jpg",
+      "externalId": "1_CQ6rrIvYm0HQdqBTsEN1YATx7dHRqsJ"
+    },
+    {
+      "folder": "20",
+      "filename": "27031668.jpg",
+      "externalId": "1DY5i0cyMZNSC8B5-ldsbTMrjOAfV9VzP"
+    },
+    {
+      "folder": "20",
+      "filename": "79931787.jpg",
+      "externalId": "1ochbAHfPMBNYUdZyzA6stmRJic9XU4qU"
+    },
+    {
+      "folder": "20",
+      "filename": "98351152.jpg",
+      "externalId": "1JabE2U9BFYn7D4Gc2PCxt13LLcQ4KiaT"
+    }
+  ],
+  "setlist": []
+}

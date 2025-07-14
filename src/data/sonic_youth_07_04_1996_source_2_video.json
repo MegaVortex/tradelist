@@ -1,0 +1,203 @@
+{
+  "originalTitle": "Sonic Youth - 07.04.1996 - Duesseldorf - Germany - Philipshalle (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sonic Youth"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "04",
+    "year": "1996"
+  },
+  "startDateUnix": 828835200,
+  "endDate": {
+    "day": "07",
+    "month": "04",
+    "year": "1996"
+  },
+  "endDateUnix": 828835200,
+  "location": {
+    "city": "Duesseldorf",
+    "state": "",
+    "country": "Germany",
+    "venue": "Philipshalle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "WDR HD broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.25,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 4517,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "de",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "de",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "82",
+      "filename": "89071050.jpg",
+      "externalId": "15Ct2yBN7l1ENHt7MEG-w6GsKJkNpfDPx"
+    },
+    {
+      "folder": "82",
+      "filename": "44936301.jpg",
+      "externalId": "1hesV52yZzG3BDhBFPkiDeuG_7zXORaob"
+    },
+    {
+      "folder": "82",
+      "filename": "10964252.jpg",
+      "externalId": "1UizkRFdMWzxy6G2J8SKr29fFh9nrMMV6"
+    },
+    {
+      "folder": "82",
+      "filename": "05187009.jpg",
+      "externalId": "1yc7lyit2JT2rSIFmEvuCwGcsFf9SaPcz"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Teen Age Riot",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Bull In The Heather",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Starfield Road",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Washing Machine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Junkie's Promise",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Saucer-Like",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Becuz",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Sugar Kane",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Skip Tracer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Skink",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "The Diamond Sea",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

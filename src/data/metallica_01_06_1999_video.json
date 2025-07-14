@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Metallica - 01.06.1999 - Warsaw - Poland - Gwardia Stadium",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "06",
+    "year": "1999"
+  },
+  "startDateUnix": 928195200,
+  "endDate": {
+    "day": "01",
+    "month": "06",
+    "year": "1999"
+  },
+  "endDateUnix": 928195200,
+  "location": {
+    "city": "Warsaw",
+    "state": "",
+    "country": "Poland",
+    "venue": "Gwardia Stadium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Pretty boring documentary dubbed in Polish with live clips and interviews with various crew, fans and the band from the show. Only two songs filmed with a single cam from in front of the stage.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.32,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2897,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "56",
+      "filename": "53943364.jpg",
+      "externalId": "1DBNFtPs-K46VgP5rFsWQdIxibh6D2mxa"
+    },
+    {
+      "folder": "56",
+      "filename": "03779466.jpg",
+      "externalId": "1qUOdXWFQK1_bE8pYJJIWu27rc0ZI7TSu"
+    },
+    {
+      "folder": "56",
+      "filename": "32695018.jpg",
+      "externalId": "1LgP4rK3nLDPj2po55jcfCJN9VrwXHdDM"
+    },
+    {
+      "folder": "56",
+      "filename": "09417103.jpg",
+      "externalId": "1YU1eghq4bgWsXPc-sDbCiQKXRh1GkLAX"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Before The Show",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Master Of Puppets",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Of Wolf And Man",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "After The Show",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

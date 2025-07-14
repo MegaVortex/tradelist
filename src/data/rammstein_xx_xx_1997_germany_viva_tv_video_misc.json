@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Rammstein - xx.xx.1997 - Germany - VIVA TV [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1997"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1997"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Germany",
+    "state": "",
+    "country": "VIVA TV",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Mono audio only, german language.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.83,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2994,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "26787185.jpg",
+      "externalId": "17bnQHs6bldFndAJDkFbe-queH54P7uCL"
+    },
+    {
+      "folder": "27",
+      "filename": "82139004.jpg",
+      "externalId": "1UoFrA9EmHjRLCmbSRdlS9FCOiw7Qsp3D"
+    },
+    {
+      "folder": "27",
+      "filename": "42352795.jpg",
+      "externalId": "1vRbIbYH4E4cPVGPwO62cZI-Zrpx0OJ2c"
+    },
+    {
+      "folder": "27",
+      "filename": "83886954.jpg",
+      "externalId": "1xRmADN72iZ85ii9vxJ8JbPWTyxcS0TB8"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interviews",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Russian Red - 15.06.2011 - Seoul - South Korea - EBS Space",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Russian Red"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "06",
+    "year": "2011"
+  },
+  "startDateUnix": 1308096000,
+  "endDate": {
+    "day": "15",
+    "month": "06",
+    "year": "2011"
+  },
+  "endDateUnix": 1308096000,
+  "location": {
+    "city": "Seoul",
+    "state": "",
+    "country": "South Korea",
+    "venue": "EBS Space",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.37,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1613,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "34406989.jpg",
+      "externalId": "1vpjI9hZ6-9PbWHVkQDJrhtqB3jnHoLCM"
+    },
+    {
+      "folder": "27",
+      "filename": "07198337.jpg",
+      "externalId": "1mfJ7MMluvBgoLJ_WI3jI9km38XPBaTZS"
+    },
+    {
+      "folder": "27",
+      "filename": "77205991.jpg",
+      "externalId": "1eQmOloPCp-4qfeMXpNga6lu5CuLdc2To"
+    },
+    {
+      "folder": "27",
+      "filename": "57346359.jpg",
+      "externalId": "10htcWAcGYLECPd3PisSICk7rVOi7AiMy"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Everyday, Every Night",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "January 14th",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Braver Soldier",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Cigarettes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Fuerteventura",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Loving Strangers",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Mi Cancion 7",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,117 @@
+{
+  "originalTitle": "'Weird Al' Yankovic - xx.xx.xxxx - USA - Bio Channel - TV Documentary [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "'Weird Al' Yankovic"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "Bio Channel",
+    "venue": "TV Documentary",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.99,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2686,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "16008213.jpg",
+      "externalId": "1fNgktqtepRFLjSgoMYJlUhmrzhWx3ibe"
+    },
+    {
+      "folder": "18",
+      "filename": "80612596.jpg",
+      "externalId": "1B5TKutCNAJ2TYM2RJFoW3GCTqBfqJF2o"
+    },
+    {
+      "folder": "18",
+      "filename": "82395038.jpg",
+      "externalId": "1tKVJEI9z-oTB9o2IIjJswCrvKhwzidz2"
+    },
+    {
+      "folder": "18",
+      "filename": "02628778.jpg",
+      "externalId": "14aq-gzFbqBAw5SYMupdKIB64qC-XHEDv"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interviews + TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

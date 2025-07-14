@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Testament - 24.02.1991 - Miami - FL - USA - Cameo Theatre",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Testament"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "02",
+    "year": "1991"
+  },
+  "startDateUnix": 667353600,
+  "endDate": {
+    "day": "24",
+    "month": "02",
+    "year": "1991"
+  },
+  "endDateUnix": 667353600,
+  "location": {
+    "city": "Miami",
+    "state": "FL",
+    "country": "USA",
+    "venue": "Cameo Theatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.63,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3318,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "testament_23_02_1991_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "48",
+      "filename": "46231488.jpg",
+      "externalId": "1I8pM5aTYSkbIiNLnx57KoOyX0AIcavfC"
+    },
+    {
+      "folder": "48",
+      "filename": "80870041.jpg",
+      "externalId": "1d0TNn-dmyXz_AR745clOgqP5_cgFFAwJ"
+    },
+    {
+      "folder": "48",
+      "filename": "36845106.jpg",
+      "externalId": "1GVOJykEK0mNS8m-dgzKIneqWbesHbQMy"
+    },
+    {
+      "folder": "48",
+      "filename": "60793444.jpg",
+      "externalId": "1wtigYYDGf2zWXFgELzP23qh5M6Q0iWfT"
+    }
+  ],
+  "setlist": []
+}

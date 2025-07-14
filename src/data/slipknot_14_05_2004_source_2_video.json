@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Slipknot - 14.05.2004 - Los Angeles - CA - USA - AOL Sessions (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "05",
+    "year": "2004"
+  },
+  "startDateUnix": 1084492800,
+  "endDate": {
+    "day": "14",
+    "month": "05",
+    "year": "2004"
+  },
+  "endDateUnix": 1084492800,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "AOL Sessions",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.15,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1179,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "72",
+      "filename": "70006488.jpg",
+      "externalId": "1CPU2ZE0DguLy-7eDR0-xUr7WemUZSLH7"
+    },
+    {
+      "folder": "72",
+      "filename": "99871203.jpg",
+      "externalId": "1lSJajlpoVfPCEMSrZUGrpL8dgs4phfVY"
+    },
+    {
+      "folder": "72",
+      "filename": "41686397.jpg",
+      "externalId": "1xthE8vFIM2COMzQXUEMx_clsFj6cqiJW"
+    },
+    {
+      "folder": "72",
+      "filename": "90364108.jpg",
+      "externalId": "1lp3eppblpv8Mrg3ZqBIe7EUnjZHkWCpF"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Blister Exists",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Three Nil",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Duality",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

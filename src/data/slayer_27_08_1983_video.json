@@ -1,0 +1,126 @@
+{
+  "originalTitle": "Slayer - 27.08.1983 - Anaheim - CA - USA - Woodstock",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slayer"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "08",
+    "year": "1983"
+  },
+  "startDateUnix": 430790400,
+  "endDate": {
+    "day": "27",
+    "month": "08",
+    "year": "1983"
+  },
+  "endDateUnix": 430790400,
+  "location": {
+    "city": "Anaheim",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Woodstock",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Authored, mixed and remastered by Demolition.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 584,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 479,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "slayer_12_08_1983_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "55",
+      "filename": "96337419.jpg",
+      "externalId": "1KMv9aRI3N3_7QNaNDOgNZnj0xhqqWilh"
+    },
+    {
+      "folder": "55",
+      "filename": "86462602.jpg",
+      "externalId": "1AYZl_sKAhWPxHBVEHHxi5xrac6mjFhIy"
+    },
+    {
+      "folder": "55",
+      "filename": "54356317.jpg",
+      "externalId": "1K1VFMqX6-DsPil5S4i9cDxx8QxWJfavY"
+    },
+    {
+      "folder": "55",
+      "filename": "20272179.jpg",
+      "externalId": "1bEnFz2oLkFGI4HbVe3POWTr7wZ1LqTdh"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Evil Has No Boundaries",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Crionics",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

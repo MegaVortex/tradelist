@@ -1,0 +1,128 @@
+{
+  "originalTitle": "Sparta - 09.06.2004 - New York - NY - USA - NBC Studios - Carson Daly Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sparta"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "06",
+    "year": "2004"
+  },
+  "startDateUnix": 1086739200,
+  "endDate": {
+    "day": "09",
+    "month": "06",
+    "year": "2004"
+  },
+  "endDateUnix": 1086739200,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Carson Daly Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "VCD sourced.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 40.96,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 222,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "352x480",
+        "bitrateType": "CBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "sparta_18_10_2004_video",
+    "sparta_06_02_2005_video",
+    "sparta_19_03_2004_video",
+    "sparta_23_01_2003_video",
+    "sparta_20_10_2004_video",
+    "sparta_26_11_2004_video",
+    "sparta_25_01_2003_video",
+    "sparta_09_10_2004_video",
+    "sparta_xx_xx_xxxx_mtv_news_the_wrad_video_misc",
+    "at_the_drive_in_xx_xx_xxxx_mtv_news_the_wrad_video_misc",
+    "the_mars_volta_xx_xx_xxxx_mtv_news_the_wrad_video_misc"
+  ],
+  "childOf": "Sparta - [2003-2005] - TV Appearances",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "67051240.jpg",
+      "externalId": "1zDRMcyMakzNjBVz2ZY372miGFFLT1DJP"
+    },
+    {
+      "folder": "24",
+      "filename": "13830276.jpg",
+      "externalId": "1eGOpMfMS8lCsXc-bziTalSeUiOnmYPVi"
+    },
+    {
+      "folder": "24",
+      "filename": "46933025.jpg",
+      "externalId": "1IqaMu0NPhuS5dgNvI3zfYWryR1mNA3n7"
+    },
+    {
+      "folder": "24",
+      "filename": "53317763.jpg",
+      "externalId": "10wIofPEsVijcea0CYHSyov30rvMDui2q"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Breaking The Broken",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

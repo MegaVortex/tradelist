@@ -1,0 +1,228 @@
+{
+  "originalTitle": "Metallica - 02.08.1991 - Petaluma - CA - USA - Phoenix Theatre",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "08",
+    "year": "1991"
+  },
+  "startDateUnix": 681091200,
+  "endDate": {
+    "day": "02",
+    "month": "08",
+    "year": "1991"
+  },
+  "endDateUnix": 681091200,
+  "location": {
+    "city": "Petaluma",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Phoenix Theatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "The video quality is still pretty crappy. The audio is decent.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.06,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 7367,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "78",
+      "filename": "25997235.jpg",
+      "externalId": "1sX2aw3Na_wXzBzoBa4IWCwekKZakzxoy"
+    },
+    {
+      "folder": "78",
+      "filename": "51722143.jpg",
+      "externalId": "1P8CbSQT3LZKthWF6FNZJiv5hHKO98SQ_"
+    },
+    {
+      "folder": "78",
+      "filename": "98552700.jpg",
+      "externalId": "1QKZdC7qEg3Sh02CVrKFMXprZ6-1heyc5"
+    },
+    {
+      "folder": "78",
+      "filename": "76320943.jpg",
+      "externalId": "15iAvOqbVwu2u1qdqsslqX2wVszoZcc0-"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Ecstasy Of Gold",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Creeping Death",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Harvester Of Sorrow",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Fade To Black",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Sad But True",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Master Of Puppets",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Seek And Destroy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "For Whom The Bell Tolls",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Whiplash",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Last Caress  (with Jim Martin)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Misfits"
+    },
+    {
+      "order": 13,
+      "song": "Am I Evil?  (cut)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Diamond Head"
+    },
+    {
+      "order": 14,
+      "song": "Battery",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Breadfan",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Budgie"
+    }
+  ],
+  "extras": []
+}

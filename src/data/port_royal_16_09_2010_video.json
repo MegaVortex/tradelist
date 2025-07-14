@@ -1,0 +1,174 @@
+{
+  "originalTitle": "Port-Royal - 16.09.2010 - St. Petersburg - Russia - The Place",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Port-Royal"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "09",
+    "year": "2010"
+  },
+  "startDateUnix": 1284595200,
+  "endDate": {
+    "day": "16",
+    "month": "09",
+    "year": "2010"
+  },
+  "endDateUnix": 1284595200,
+  "location": {
+    "city": "St. Petersburg",
+    "state": "",
+    "country": "Russia",
+    "venue": "The Place",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Sorgnatt"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.13,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5066,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "12",
+      "filename": "86423520.jpg",
+      "externalId": "1YJjY3LUtnSVCwyuKtiTi1nkkfjVCN73A"
+    },
+    {
+      "folder": "12",
+      "filename": "47531586.jpg",
+      "externalId": "10wOc3kgCn1_VJnzOtP5xoqidBBTmOyED"
+    },
+    {
+      "folder": "12",
+      "filename": "64116457.jpg",
+      "externalId": "1zE3qGgFMY7y7nLUNrKRCE_fUP6IXFJfk"
+    },
+    {
+      "folder": "12",
+      "filename": "95132906.jpg",
+      "externalId": "1n1yH4HfzMVCNBS2LvHN8HFOaoMugJmST"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Susy: Blue East Fading",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Anna Ustinova",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Photoshopped Prince",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Balding Generation (Losing Hair As We Lose Hope) (Jatun Mix + Ambidextrous 1992 & 1985 Mix + Original Version)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Zobione pt. 2",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Richard Sorge",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Putin vs. Valery",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Sovraesposte",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

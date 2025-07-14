@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Sweet - 15.02.1978 - Stockholm - Sweden - Gota Lejon",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sweet"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "02",
+    "year": "1978"
+  },
+  "startDateUnix": 256348800,
+  "endDate": {
+    "day": "15",
+    "month": "02",
+    "year": "1978"
+  },
+  "endDateUnix": 256348800,
+  "location": {
+    "city": "Stockholm",
+    "state": "",
+    "country": "Sweden",
+    "venue": "Gota Lejon",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.54,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2675,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "8mm",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "81189157.jpg",
+      "externalId": "15kJQrQzl367do1hHdsSKoKXdjYXdwwBw"
+    },
+    {
+      "folder": "18",
+      "filename": "12313879.jpg",
+      "externalId": "1gEBSwrBXrl7dQG7iBDa761sfstCem3_Q"
+    },
+    {
+      "folder": "18",
+      "filename": "09024856.jpg",
+      "externalId": "1Pj5dPpcO2d29qbVeikDAFH384ERqUd1J"
+    },
+    {
+      "folder": "18",
+      "filename": "42048336.jpg",
+      "externalId": "1o6i8jXss6z7CA9LJO-1JmxwOAwLfZICq"
+    }
+  ],
+  "setlist": []
+}

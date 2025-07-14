@@ -1,0 +1,120 @@
+{
+  "originalTitle": "R.E.M. - xx.xx.1993 - BBC2 TV - The Late Show - 'No Nirvana'",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "R.E.M."
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1993"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1993"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "BBC2 TV",
+    "state": "",
+    "country": "'No Nirvana'",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "BBC2 TV",
+  "showName": "The Late Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.66,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2451,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "pearl_jam_xx_xx_1993_video",
+    "sonic_youth_xx_xx_1993_video",
+    "smashing_pumpkins_xx_xx_1993_video"
+  ],
+  "childOf": "[VARIOUS ARTISTS] - [1993] - BBC2 TV - The Late Show - 'No Nirvana'",
+  "images": [
+    {
+      "folder": "17",
+      "filename": "05644027.jpg",
+      "externalId": "11rc9xXee8arMzwSEQNXXVcM81Qp6xd3-"
+    },
+    {
+      "folder": "17",
+      "filename": "62071753.jpg",
+      "externalId": "1sjk9LOp8UbjhiYY89FIkAKT65fvRnXML"
+    },
+    {
+      "folder": "17",
+      "filename": "81967506.jpg",
+      "externalId": "1Wi_1Wg4yiJlNyvUccfdAqF4tCBR_LMJJ"
+    },
+    {
+      "folder": "17",
+      "filename": "74336954.jpg",
+      "externalId": "1sqf8ZsmUxG-XUtapf_AzvIq5CkLUkkub"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Half A World Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

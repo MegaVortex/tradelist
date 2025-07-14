@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Rage Against The Machine - 29.08.1993 - Biddinghuizen - Netherlands - Evenemententerrein Six Flags - Lowlands Festival (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rage Against The Machine"
+  ],
+  "startDate": {
+    "day": "29",
+    "month": "08",
+    "year": "1993"
+  },
+  "startDateUnix": 746582400,
+  "endDate": {
+    "day": "29",
+    "month": "08",
+    "year": "1993"
+  },
+  "endDateUnix": 746582400,
+  "location": {
+    "city": "Biddinghuizen",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Evenemententerrein Six Flags",
+    "event": "Lowlands Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.13,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1000,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "38966537.jpg",
+      "externalId": "1p5iL3X7n7NUlIS662GrNVkngNH4AOzk_"
+    },
+    {
+      "folder": "26",
+      "filename": "62082072.jpg",
+      "externalId": "1j1i1k4qREwTYvbIA_agNscIbtyDH1nCY"
+    },
+    {
+      "folder": "26",
+      "filename": "49066941.jpg",
+      "externalId": "1lyD5fHzoAUWilpSTeEA6DHJzXvTAt5DE"
+    },
+    {
+      "folder": "26",
+      "filename": "18308147.jpg",
+      "externalId": "1tDfmlRQ4WnSXLQlanPFXV3Es3my2K1Ba"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Tom",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "Tom",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Know Your Enemy (feat. Maynard)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Interview",
+      "feat": "Tom",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Bombtrack",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

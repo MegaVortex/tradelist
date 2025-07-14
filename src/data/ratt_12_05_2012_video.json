@@ -1,0 +1,223 @@
+{
+  "originalTitle": "Ratt - 12.05.2012 - Columbia - MD - USA - Merriweather Post Pavilion - M3 Rock Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Ratt"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "05",
+    "year": "2012"
+  },
+  "startDateUnix": 1336780800,
+  "endDate": {
+    "day": "12",
+    "month": "05",
+    "year": "2012"
+  },
+  "endDateUnix": 1336780800,
+  "location": {
+    "city": "Columbia",
+    "state": "MD",
+    "country": "USA",
+    "venue": "Merriweather Post Pavilion",
+    "event": "M3 Rock Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 8,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3983,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [
+    "queensryche_12_05_2012_video",
+    "skid_row_12_05_2012_source_2_video"
+  ],
+  "childOf": "various_artists_12_05_2012_video_compilation",
+  "images": [
+    {
+      "folder": "38",
+      "filename": "24044274.jpg",
+      "externalId": "1kTohXJ0Fca3NBYmIoN9cLAGbWNSNSLps"
+    },
+    {
+      "folder": "38",
+      "filename": "29507615.jpg",
+      "externalId": "1nuT2r-WzZ61WGqWjtYmtzJAxTby_KB_M"
+    },
+    {
+      "folder": "38",
+      "filename": "61447034.jpg",
+      "externalId": "1l0AckoOQBrvqFMW9OkNT7SoCUw1jrUn6"
+    },
+    {
+      "folder": "38",
+      "filename": "20858860.jpg",
+      "externalId": "1AJlBTpCrcl4T199puSot2tz1KbKbzLHp"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Dangerous But Worth The Risk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Scene Of The Crime",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "In Your Direction",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Wanted Man",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "I'm Insane",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Lay It Down",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Lack Of Communication",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Way Cool Jr.",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "You Think You're Tough",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Nobody Rides For Free",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Body Talk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Back For More",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "You're In Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Round And Round",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,196 @@
+{
+  "originalTitle": "Slayer - 25.05.1991 - Costa Mesa - CA - USA - Pacific Amphitheatre",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slayer"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "05",
+    "year": "1991"
+  },
+  "startDateUnix": 675129600,
+  "endDate": {
+    "day": "25",
+    "month": "05",
+    "year": "1991"
+  },
+  "endDateUnix": 675129600,
+  "location": {
+    "city": "Costa Mesa",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Pacific Amphitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.34,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3006,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "36",
+      "filename": "74753062.jpg",
+      "externalId": "1LMw4VuZJ1nCaTyzHNMllGz1ZHVpZauYY"
+    },
+    {
+      "folder": "36",
+      "filename": "88837121.jpg",
+      "externalId": "1o1oF9mEykl-Nipxh-zjApgSmETwuxSQB"
+    },
+    {
+      "folder": "36",
+      "filename": "48301537.jpg",
+      "externalId": "1CHJnSxMX-AZ1tLS22bqa1w0ne25tOfto"
+    },
+    {
+      "folder": "36",
+      "filename": "98964279.jpg",
+      "externalId": "1NNdR5UkDd_cfw3zGtcIi2WCZGrwPP2wn"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Hell Awaits",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Antichrist",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "War Ensemble",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "South Of Heaven",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Raining Blood",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Altar Of Sacrifice",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Jesus Saves",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Dead Skin Mask",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Seasons In The Abyss",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Mandatory Suicide",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Angel Of Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

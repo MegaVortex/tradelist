@@ -1,0 +1,180 @@
+{
+  "originalTitle": "The Police - 08.09.2007 - London - England - Twickenham Stadium",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Police"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "09",
+    "year": "2007"
+  },
+  "startDateUnix": 1189209600,
+  "endDate": {
+    "day": "08",
+    "month": "09",
+    "year": "2007"
+  },
+  "endDateUnix": 1189209600,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Twickenham Stadium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.15,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3164,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "352x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "43",
+      "filename": "02370032.jpg",
+      "externalId": "1QqKktWRjXw_rIm6ccfRy4xOH5s76r1gw"
+    },
+    {
+      "folder": "43",
+      "filename": "53573198.jpg",
+      "externalId": "1o7axK7WJAapF061f_oQdvzFFe_7WeJCj"
+    },
+    {
+      "folder": "43",
+      "filename": "83230897.jpg",
+      "externalId": "1KAS_VUw35FUikiSsiw6hww7WjTwZTE5D"
+    },
+    {
+      "folder": "43",
+      "filename": "75121027.jpg",
+      "externalId": "1-dZK_Qsir9hLJvCfs9DLCckRYnSFyVb5"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Message In A Bottle",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Synchronicity II",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Hole In My Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Invisible Sun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Walking In Your Footsteps",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Can't Stand Losing You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "So Lonely",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Every Breath You Take",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Next To You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

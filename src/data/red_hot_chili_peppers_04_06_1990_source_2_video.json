@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Red Hot Chili Peppers - 04.06.1990 - Landgraaf - Netherlands - Draf-en Renbaan Limburg - Pinkpop Festival (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Red Hot Chili Peppers"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "06",
+    "year": "1990"
+  },
+  "startDateUnix": 644457600,
+  "endDate": {
+    "day": "04",
+    "month": "06",
+    "year": "1990"
+  },
+  "endDateUnix": 644457600,
+  "location": {
+    "city": "Landgraaf",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Draf-en Renbaan Limburg",
+    "event": "Pinkpop Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 240,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 407,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "78",
+      "filename": "76428439.jpg",
+      "externalId": "1Oa7Au0H5AojKV6y2aqkjJz1Vr61S8LUP"
+    },
+    {
+      "folder": "78",
+      "filename": "06801905.jpg",
+      "externalId": "1_36grR7Tj1Rii5S23MzXgqJJC5LrjlDY"
+    },
+    {
+      "folder": "78",
+      "filename": "47732808.jpg",
+      "externalId": "1jZ96fOhVi65BFj5A9zPYI5Wkp1vxidIx"
+    },
+    {
+      "folder": "78",
+      "filename": "73124055.jpg",
+      "externalId": "1BIHW6yaqz266RLKcOTwHT7OMlzIvYsNG"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Mommy, Where's Daddy?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

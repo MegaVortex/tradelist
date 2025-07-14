@@ -1,0 +1,113 @@
+{
+  "originalTitle": "Morbid Angel - 30.06.1998 - Worchester - MA - USA - The Palladium",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Morbid Angel"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "06",
+    "year": "1998"
+  },
+  "startDateUnix": 899164800,
+  "endDate": {
+    "day": "30",
+    "month": "06",
+    "year": "1998"
+  },
+  "endDateUnix": 899164800,
+  "location": {
+    "city": "Worchester",
+    "state": "MA",
+    "country": "USA",
+    "venue": "The Palladium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.62,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 4402,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "38",
+      "filename": "48854236.jpg",
+      "externalId": "1Ih86GocDmef4ysfG6lQV_WWy2Pm2R6h9"
+    },
+    {
+      "folder": "38",
+      "filename": "13507816.jpg",
+      "externalId": "1CPqQ6xq4nKM2kzuPjBfNWcYVxhFxLl1D"
+    },
+    {
+      "folder": "38",
+      "filename": "74141146.jpg",
+      "externalId": "1MdmMTN0Y3em85XR2h5ylrJYzk7nx4xNV"
+    },
+    {
+      "folder": "38",
+      "filename": "36367077.jpg",
+      "externalId": "1kU2PPx6NiTTK0dnOy-VDtz865fZ7DR45"
+    }
+  ],
+  "setlist": []
+}

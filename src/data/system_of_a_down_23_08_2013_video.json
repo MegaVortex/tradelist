@@ -1,0 +1,144 @@
+{
+  "originalTitle": "System Of A Down - 23.08.2013 - Reading - England - Little John's Farm - Reading Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "System Of A Down"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "08",
+    "year": "2013"
+  },
+  "startDateUnix": 1377216000,
+  "endDate": {
+    "day": "23",
+    "month": "08",
+    "year": "2013"
+  },
+  "endDateUnix": 1377216000,
+  "location": {
+    "city": "Reading",
+    "state": "",
+    "country": "England",
+    "venue": "Little John's Farm",
+    "event": "Reading Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 184,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1039,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "832x468",
+        "bitrateType": "",
+        "bitrateKbps": 1536,
+        "fps": "1000",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": {
+      "language": "",
+      "codec": "",
+      "bitrateKbps": null,
+      "channels": null
+    },
+    "sourceDetail": {
+      "type": "",
+      "extra": "",
+      "medium": ""
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "49",
+      "filename": "21064113.jpg",
+      "externalId": "1_Vv8vDfmd5F_6tdcnrUmJ2JQBlmGqiR4"
+    },
+    {
+      "folder": "49",
+      "filename": "37134040.jpg",
+      "externalId": "1AhoLzZ0k03ozs8Ht2XpQuBZMAXIBud48"
+    },
+    {
+      "folder": "49",
+      "filename": "92974606.jpg",
+      "externalId": "16bLlFJ3FwPIQsN4x_7PBBefJ6GHEgtpN"
+    },
+    {
+      "folder": "49",
+      "filename": "92460922.jpg",
+      "externalId": "1TAVfY0TW8taAtBg1EGwX6ELCI2HTAnJR"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "I-E-A-I-A-I-O",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Radio/Video",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Hypnotize",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Chop Suey!",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Sugar",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

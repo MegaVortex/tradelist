@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Sonic Youth - 05.01.1985 - Mojave Desert - CA - USA - Gila Monster Jamboree",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sonic Youth"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "01",
+    "year": "1985"
+  },
+  "startDateUnix": 473731200,
+  "endDate": {
+    "day": "05",
+    "month": "01",
+    "year": "1985"
+  },
+  "endDateUnix": 473731200,
+  "location": {
+    "city": "Mojave Desert",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Gila Monster Jamboree",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.37,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2302,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "81",
+      "filename": "86942738.jpg",
+      "externalId": "1ppf5XKilGQNrD9nfL7sl1f8g-LLDamS2"
+    },
+    {
+      "folder": "81",
+      "filename": "57798122.jpg",
+      "externalId": "1kMOD5ElP-db13yFLawPc1mmhZXwo3ZaS"
+    },
+    {
+      "folder": "81",
+      "filename": "02378484.jpg",
+      "externalId": "1GQUQnt30DTdjxnfeEi1OefbPDdCKYjDB"
+    },
+    {
+      "folder": "81",
+      "filename": "45521529.jpg",
+      "externalId": "1DJZZAHHVHegDWBzEfAVkOLGG4lj0JqI1"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Brother James",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Kill Yr Idols",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Brave Men Run (In My Family)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Death Valley '69",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "I Love Her All The Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Ghost Bitch",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "I'm Insane",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Flower",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "The Burning Spear",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

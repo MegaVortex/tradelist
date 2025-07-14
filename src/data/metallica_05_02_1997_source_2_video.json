@@ -1,0 +1,294 @@
+{
+  "originalTitle": "Metallica - 05.02.1997 - Moline - IL - USA - The MARK Of The Quad Cities (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "02",
+    "year": "1997"
+  },
+  "startDateUnix": 855100800,
+  "endDate": {
+    "day": "05",
+    "month": "02",
+    "year": "1997"
+  },
+  "endDateUnix": 855100800,
+  "location": {
+    "city": "Moline",
+    "state": "IL",
+    "country": "USA",
+    "venue": "The MARK Of The Quad Cities",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Better transfer of the original master tapes and authored with 3 audio sources.",
+  "tapers": [
+    "B.S."
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.12,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 2.85,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 2.21,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 8214,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "76",
+      "filename": "57851876.jpg",
+      "externalId": "14raBU6L7oXw58mYC12gvUdnK72-u8UBB"
+    },
+    {
+      "folder": "76",
+      "filename": "64615057.jpg",
+      "externalId": "1-TNpUQHqaXqKDJWFDEINjEo4xQdYdOWM"
+    },
+    {
+      "folder": "76",
+      "filename": "86607761.jpg",
+      "externalId": "1MZb6TYQ8q_A2BEll8GjgrUpN32z5Zjw_"
+    },
+    {
+      "folder": "76",
+      "filename": "19505659.jpg",
+      "externalId": "1DDZ9ormgRJYz84a0gUrcVn11hf8Pvtms"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Overkill",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Motorhead"
+    },
+    {
+      "order": 2,
+      "song": "Creeping Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Sad But True",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Shortest Straw",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Until It Sleeps",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "King Nothing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Ain't My Bitch",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Bass Solo / Guitar Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Nothing Else Matters",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Hero Of The Day",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "For Whom The Bell Tolls",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Wherever I May Roam",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Fade To Black",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Seek And Destroy / Fight Fire With Fire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "So What",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Anti-Nowhere League"
+    },
+    {
+      "order": 17,
+      "song": "Master Of Puppets",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 18,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 19,
+      "song": "Am I Evil?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Diamond Head"
+    },
+    {
+      "order": 20,
+      "song": "Motorbreath",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

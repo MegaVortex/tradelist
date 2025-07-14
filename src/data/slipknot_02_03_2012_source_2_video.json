@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Slipknot - 02.03.2012 - Melbourne - VIC - Australia - Royal Melbourne Showgrounds - Soundwave Festival (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "03",
+    "year": "2012"
+  },
+  "startDateUnix": 1330646400,
+  "endDate": {
+    "day": "02",
+    "month": "03",
+    "year": "2012"
+  },
+  "endDateUnix": 1330646400,
+  "location": {
+    "city": "Melbourne",
+    "state": "VIC",
+    "country": "Australia",
+    "venue": "Royal Melbourne Showgrounds",
+    "event": "Soundwave Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Shaky as hell, obstructed view, crappy sound.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 5.44,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1949,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "14870834.jpg",
+      "externalId": "1_MJX_pbGmfc4De9aKTA6_AUGdkj3qu93"
+    },
+    {
+      "folder": "69",
+      "filename": "16705853.jpg",
+      "externalId": "1W2txW5rePVHoofPwNrPuKKeZK7FNWbBc"
+    },
+    {
+      "folder": "69",
+      "filename": "92705116.jpg",
+      "externalId": "19yNuENEQ6Q6bqjNxFZ0JO18Fa2oodvah"
+    },
+    {
+      "folder": "69",
+      "filename": "39120579.jpg",
+      "externalId": "1l98yoy1ggSvakGYIGqIoEGHKb0N626ow"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "742617000027",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "(Sic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Eyeless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Wait And Bleed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "The Blister Exists",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Liberate",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Before I Forget",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "The Pulse Of The Maggots",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

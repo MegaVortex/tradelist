@@ -1,0 +1,129 @@
+{
+  "originalTitle": "Metallica - 23.09.2013 - New York - NY - USA - SiriusXM Studios - Howard Stern Show (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "09",
+    "year": "2013"
+  },
+  "startDateUnix": 1379894400,
+  "endDate": {
+    "day": "23",
+    "month": "09",
+    "year": "2013"
+  },
+  "endDateUnix": 1379894400,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "SiriusXM Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Howard Stern Show",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 370,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 384,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_12_08_2020_source_2_video",
+    "metallica_15_08_2017_video_misc",
+    "metallica_28_08_2020_video",
+    "metallica_12_08_2020_video"
+  ],
+  "childOf": "Metallica - [2013-2020] - TV Appearances",
+  "images": [
+    {
+      "folder": "74",
+      "filename": "84305407.jpg",
+      "externalId": "1GO2ihZkGx52MSkfAhedc0eykxSnEe1fq"
+    },
+    {
+      "folder": "74",
+      "filename": "67696281.jpg",
+      "externalId": "1ydV0tCQOXin6Mh1HLDKJRMcYF232rxtk"
+    },
+    {
+      "folder": "74",
+      "filename": "38501528.jpg",
+      "externalId": "1ycgRFv9eWHq-5lCyRnlWg_wPjXKYYPfT"
+    },
+    {
+      "folder": "74",
+      "filename": "51711069.jpg",
+      "externalId": "1I--pfSDFI3fil_QjaE4rd02bPMhlenC4"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

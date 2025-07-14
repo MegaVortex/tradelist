@@ -1,0 +1,142 @@
+{
+  "originalTitle": "Metallica - 19.10.1997 - Mountain View - CA - USA - Shoreline Amphitheatre (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "10",
+    "year": "1997"
+  },
+  "startDateUnix": 877219200,
+  "endDate": {
+    "day": "19",
+    "month": "10",
+    "year": "1997"
+  },
+  "endDateUnix": 877219200,
+  "location": {
+    "city": "Mountain View",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Shoreline Amphitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.51,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1346,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_19_10_1997_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "51",
+      "filename": "37527368.jpg",
+      "externalId": "1zaXJ0TPB-yG7mzjsKkd2-Vf2T3nyV3d0"
+    },
+    {
+      "folder": "51",
+      "filename": "83593877.jpg",
+      "externalId": "1lSsTn7IROXh_IGsopGpg0hFhd678_IMj"
+    },
+    {
+      "folder": "51",
+      "filename": "79548887.jpg",
+      "externalId": "1iIuHUh3VRUdttb68iOWuozUGgDrbsjaP"
+    },
+    {
+      "folder": "51",
+      "filename": "32491031.jpg",
+      "externalId": "19ndDNtUZ6JMR5rRAGH6BeWFXKXaM8T0Z"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Fade To Black",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Four Horsemen",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Nothing Else Matters",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Last Caress",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "The Misfits"
+    }
+  ],
+  "extras": []
+}

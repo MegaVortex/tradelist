@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Slipknot - 20.11.2008 - Amsterdam - Netherlands - Heineken Music Hall [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "11",
+    "year": "2008"
+  },
+  "startDateUnix": 1227139200,
+  "endDate": {
+    "day": "20",
+    "month": "11",
+    "year": "2008"
+  },
+  "endDateUnix": 1227139200,
+  "location": {
+    "city": "Amsterdam",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Heineken Music Hall",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 932,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1228,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "40383750.jpg",
+      "externalId": "1J9aSEHyGaSt1FoXchWRTaTaRiGgd6TfF"
+    },
+    {
+      "folder": "69",
+      "filename": "81569336.jpg",
+      "externalId": "1sW_VTyJNxycaSR1-A1jmWNl5WDFB0W7Z"
+    },
+    {
+      "folder": "69",
+      "filename": "80949475.jpg",
+      "externalId": "1EEIjF4F9q0GI6zf10ENsztwywqpsKKiC"
+    },
+    {
+      "folder": "69",
+      "filename": "71270961.jpg",
+      "externalId": "1Y72mQZuRyQtX_t8vAoTT7OsWX5Ot_rX_"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Chris Fehn",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

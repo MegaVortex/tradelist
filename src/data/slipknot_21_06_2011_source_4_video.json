@@ -1,0 +1,198 @@
+{
+  "originalTitle": "Slipknot - 21.06.2011 - Berlin - Germany - Columbiahalle (Source 4)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "06",
+    "year": "2011"
+  },
+  "startDateUnix": 1308614400,
+  "endDate": {
+    "day": "21",
+    "month": "06",
+    "year": "2011"
+  },
+  "endDateUnix": 1308614400,
+  "location": {
+    "city": "Berlin",
+    "state": "",
+    "country": "Germany",
+    "venue": "Columbiahalle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 4",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete and shaky.",
+  "tapers": [
+    "Todd"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.7,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2625,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": 11973,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 191,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "HD",
+      "fileFormat": "MP4"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "68",
+      "filename": "46616361.jpg",
+      "externalId": "1EQiyQfnYUZKobG1OMh9EL9Ey8QZtJaTr"
+    },
+    {
+      "folder": "68",
+      "filename": "40323016.jpg",
+      "externalId": "1vGMlOpHhPQvumQ4NSLjakGUHyJfKS0O-"
+    },
+    {
+      "folder": "68",
+      "filename": "76878279.jpg",
+      "externalId": "1pp8EdMQjOG5ASarI4Xgx8iS2Fi6n3Zb1"
+    },
+    {
+      "folder": "68",
+      "filename": "98536975.jpg",
+      "externalId": "1O9GHm1dMMSbKPSVRU_E2AFEu9yIY_T5K"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "742617000027",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "(Sic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Eyeless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Liberate",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Before I Forget",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Purity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Left Behind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Psychosocial",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Only One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Spit It Out",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Surfacing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

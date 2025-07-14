@@ -1,0 +1,126 @@
+{
+  "originalTitle": "Queens Of The Stone Age - 19.01.2003 - Gold Coast - QLD - Australia - Parklands - Big Day Out [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "01",
+    "year": "2003"
+  },
+  "startDateUnix": 1042934400,
+  "endDate": {
+    "day": "19",
+    "month": "01",
+    "year": "2003"
+  },
+  "endDateUnix": 1042934400,
+  "location": {
+    "city": "Gold Coast",
+    "state": "QLD",
+    "country": "Australia",
+    "venue": "Parklands",
+    "event": "Big Day Out"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 114,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 199,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "queens_of_the_stone_age_27_10_2002_video",
+    "queens_of_the_stone_age_04_10_2002_source_2_video",
+    "queens_of_the_stone_age_20_01_2003_video_misc",
+    "queens_of_the_stone_age_23_01_2003_video",
+    "queens_of_the_stone_age_26_01_2001_source_2_video",
+    "queens_of_the_stone_age_19_01_2003_source_2_video",
+    "queens_of_the_stone_age_26_08_2001_video",
+    "queens_of_the_stone_age_25_08_2001_video"
+  ],
+  "childOf": "Queens Of The Stone Age - [2001-2003] - TV Appearances",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "55330492.jpg",
+      "externalId": "1D3wnWX0Xas18ZvvoMFsLnkwGA2tG0uKh"
+    },
+    {
+      "folder": "70",
+      "filename": "64108508.jpg",
+      "externalId": "1iqZ82SoAts4DND1iaYylZBOW-sfabc4M"
+    },
+    {
+      "folder": "70",
+      "filename": "54144554.jpg",
+      "externalId": "16f1GfbS4Bz9FzBR6lIztvJFxrIvOFw7A"
+    },
+    {
+      "folder": "70",
+      "filename": "87958595.jpg",
+      "externalId": "1eNZE2zQJ0b3pAPoCMrenAFoyFtd4gELN"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

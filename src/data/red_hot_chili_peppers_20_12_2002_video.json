@@ -1,0 +1,135 @@
+{
+  "originalTitle": "Red Hot Chili Peppers - 20.12.2002 - Las Vegas - NV - USA - Park City Mountain Resort - Chevy Truck U.S. Snowboard Grand Prix",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Red Hot Chili Peppers"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "12",
+    "year": "2002"
+  },
+  "startDateUnix": 1040342400,
+  "endDate": {
+    "day": "20",
+    "month": "12",
+    "year": "2002"
+  },
+  "endDateUnix": 1040342400,
+  "location": {
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "venue": "Park City Mountain Resort",
+    "event": "Chevy Truck U.S. Snowboard Grand Prix"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.62,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5000,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "red_hot_chili_peppers_13_02_1996_video",
+    "red_hot_chili_peppers_24_09_1999_video",
+    "red_hot_chili_peppers_08_12_1999_video",
+    "red_hot_chili_peppers_30_11_2000_video",
+    "red_hot_chili_peppers_01_08_2001_video",
+    "red_hot_chili_peppers_06_06_2002_video",
+    "red_hot_chili_peppers_05_07_2002_video",
+    "red_hot_chili_peppers_xx_12_1988_video",
+    "red_hot_chili_peppers_15_02_2003_video"
+  ],
+  "childOf": "Red Hot Chili Peppers - [1988-2003] - TV Appearances",
+  "images": [
+    {
+      "folder": "7",
+      "filename": "15727274.jpg",
+      "externalId": "1YMvb1WoYlPwBdTS1WzRXaTxYaMwNNOth"
+    },
+    {
+      "folder": "7",
+      "filename": "23961345.jpg",
+      "externalId": "1sJ5G0tODRegjv2nFJBMzNG3XGoKe6478"
+    },
+    {
+      "folder": "7",
+      "filename": "49722359.jpg",
+      "externalId": "1m4_dYp176hp9_p8YY0JxHotkjZebkdgm"
+    },
+    {
+      "folder": "7",
+      "filename": "09918691.jpg",
+      "externalId": "1wk_3tRW6_ADQNWgYN24ddCBCujQm4ZWW"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Can't Stop",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Especial TV Programm - MTV weekend 2002 (15 Min... broadcast including live videos and interviews. Official videos has been removed from the disk - the picture speed is very slow).",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

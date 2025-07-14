@@ -1,0 +1,122 @@
+{
+  "originalTitle": "Metallica - 16.11.2003 - Los Angeles - CA - USA - Shrine Auditorium - American Music Awards",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "11",
+    "year": "2003"
+  },
+  "startDateUnix": 1068940800,
+  "endDate": {
+    "day": "16",
+    "month": "11",
+    "year": "2003"
+  },
+  "endDateUnix": 1068940800,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Shrine Auditorium",
+    "event": "American Music Awards"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.89,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3786,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_31_05_2003_source_2_video",
+    "metallica_29_05_2003_video",
+    "metallica_28_08_2003_video",
+    "metallica_06_11_2003_video",
+    "metallica_31_12_2003_video"
+  ],
+  "childOf": "Metallica - [2003] - TV Appearances",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "24366578.jpg",
+      "externalId": "1kDHnaaQYVV-IfNAypA6CRBv7P_Ls9OGR"
+    },
+    {
+      "folder": "19",
+      "filename": "36543234.jpg",
+      "externalId": "1L_2Fct-FVeW3W17VTVd1YYqdDMMNM65p"
+    },
+    {
+      "folder": "19",
+      "filename": "16785965.jpg",
+      "externalId": "1em20qJc3a6CtfGplAoOll8GWLcaq0Hfa"
+    },
+    {
+      "folder": "19",
+      "filename": "47910042.jpg",
+      "externalId": "141lFLgIdy4NWN2fXlA1TgIb5bKmiiwho"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "St. Anger",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

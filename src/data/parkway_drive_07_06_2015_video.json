@@ -1,0 +1,204 @@
+{
+  "originalTitle": "Parkway Drive - 07.06.2015 - Mendig - Germany - Mendig Air Base - Rock Am Ring",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Parkway Drive"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "06",
+    "year": "2015"
+  },
+  "startDateUnix": 1433635200,
+  "endDate": {
+    "day": "07",
+    "month": "06",
+    "year": "2015"
+  },
+  "endDateUnix": 1433635200,
+  "location": {
+    "city": "Mendig",
+    "state": "",
+    "country": "Germany",
+    "venue": "Mendig Air Base",
+    "event": "Rock Am Ring"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.51,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3449,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "HD",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "66",
+      "filename": "67839984.jpg",
+      "externalId": "1Hh9UPqjsq5IWS7ueh0N3MM65lSzFNuRN"
+    },
+    {
+      "folder": "66",
+      "filename": "12314076.jpg",
+      "externalId": "1pihregRwBlf8lzxS9b5NpUR7is-VMIzG"
+    },
+    {
+      "folder": "66",
+      "filename": "98723300.jpg",
+      "externalId": "1iIRV2ppo18YwtD1WNF78hPRo4LFdRXjz"
+    },
+    {
+      "folder": "66",
+      "filename": "36705905.jpg",
+      "externalId": "1ZZ41xLTSpxEMAOA-6H3h9RD1JdESsXrE"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Wild Eyes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Carrion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Karma",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Dark Days",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Deliver Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Sleepwalker",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Dead Man's Chest",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Idols And Anchors",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Romance Is Dead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Bulls On Parade",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Rage Against The Machine"
+    },
+    {
+      "order": 11,
+      "song": "Swing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Home Is For The Heartless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

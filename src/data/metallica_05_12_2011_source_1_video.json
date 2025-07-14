@@ -1,0 +1,157 @@
+{
+  "originalTitle": "Metallica - 05.12.2011 - San Francisco - CA - USA - The Fillmore (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "12",
+    "year": "2011"
+  },
+  "startDateUnix": 1323043200,
+  "endDate": {
+    "day": "05",
+    "month": "12",
+    "year": "2011"
+  },
+  "endDateUnix": 1323043200,
+  "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "venue": "The Fillmore",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "These DVDs are created using clips from Youtube. Quality is pretty good (90% of clips used were HD). Edited all in multi-angle and the result is very good. Only the rarely-live-played songs were edited and those with other artists. Menus are animated and there is an extra video... 30th Anniversary. Multicam mix. \"Hate Train\" is a previously unreleased song from \"Death Magnetic\" sessions. \"Carpe Diem Baby\" first time performed live.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 7.33,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-9",
+        "size": 7.26,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 13656,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_07_12_2011_video",
+    "metallica_09_12_2011_source_1_video",
+    "metallica_10_12_2011_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "30",
+      "filename": "44130977.jpg",
+      "externalId": "1wn0gyBp3ALTW3iHHKQzzJucHwcdUR77J"
+    },
+    {
+      "folder": "30",
+      "filename": "52376163.jpg",
+      "externalId": "1qKXohBDjm36UNRPrqY6tw0gPpHBY1WSE"
+    },
+    {
+      "folder": "30",
+      "filename": "65772217.jpg",
+      "externalId": "1WY7CppKD7vxUN12-au_eY0kFDkAz3dwV"
+    },
+    {
+      "folder": "30",
+      "filename": "40220649.jpg",
+      "externalId": "1NwHN7Q8zHTuopD4CenaWTU0giN2MUtpY"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Hate Train",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Harvester Of Sorrow",
+      "feat": "Jason Newsted",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Carpe Diem Baby",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "(Anesthesia) Pulling Teeth (jam by Robert Trujillo)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "One",
+      "feat": "Apocalyptica",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,150 @@
+{
+  "originalTitle": "Slipknot - 08.02.2015 - Hamburg - Germany - O2 World (Source 5)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "02",
+    "year": "2015"
+  },
+  "startDateUnix": 1423353600,
+  "endDate": {
+    "day": "08",
+    "month": "02",
+    "year": "2015"
+  },
+  "endDateUnix": 1423353600,
+  "location": {
+    "city": "Hamburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "O2 World",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 5",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Highly incomplete, taper got caught during the end of The Devil In I.",
+  "tapers": [
+    "nowfacethetruth"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.52,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1435,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 2304,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "74",
+      "filename": "29066703.jpg",
+      "externalId": "1lPT_9GE4Ksj6vFEYfrkNSOSi6UFscsBp"
+    },
+    {
+      "folder": "74",
+      "filename": "84746535.jpg",
+      "externalId": "1b5MWkpe5Pa-7V9x9VwFOyubEYMegUCux"
+    },
+    {
+      "folder": "74",
+      "filename": "19863494.jpg",
+      "externalId": "17E-YvoAMbPeZ6DB0OVzK_TZ7rwQ9Kw0E"
+    },
+    {
+      "folder": "74",
+      "filename": "09745358.jpg",
+      "externalId": "114NZzzO5mXrabvA-P6KHLPNGVMhXGG-n"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "XIX",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Sarcastrophe",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Heretic Anthem",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "My Plague",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "The Devil In I",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

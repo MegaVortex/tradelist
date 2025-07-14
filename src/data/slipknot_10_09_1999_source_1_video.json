@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Slipknot - 10.09.1999 - Detroit - MI - USA - Harpos Concert Theatre (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "09",
+    "year": "1999"
+  },
+  "startDateUnix": 936921600,
+  "endDate": {
+    "day": "10",
+    "month": "09",
+    "year": "1999"
+  },
+  "endDateUnix": 936921600,
+  "location": {
+    "city": "Detroit",
+    "state": "MI",
+    "country": "USA",
+    "venue": "Harpos Concert Theatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "2 cam mix.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.52,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1466,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "3",
+      "filename": "3945010.jpg",
+      "externalId": "1mWBciaPziRMjj7fdwlgWk-XGBpFsXA6p"
+    },
+    {
+      "folder": "3",
+      "filename": "3887455.jpg",
+      "externalId": "1i6X46kNYUHarHUUk-4mKJFzIIdsRxZJO"
+    },
+    {
+      "folder": "3",
+      "filename": "2622609.jpg",
+      "externalId": "1x2lw4nWo4oSJy7yCvTVzwwe2oOap_o_A"
+    },
+    {
+      "folder": "3",
+      "filename": "2431897.jpg",
+      "externalId": "14JrhxTh895yLBf7-oWrvkFhxFHJyJh_W"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "742617000027",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "(Sic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Eyeless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Wait and Bleed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Surfacing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Purity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Spit It Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

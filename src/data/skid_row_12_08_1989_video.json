@@ -1,0 +1,184 @@
+{
+  "originalTitle": "Skid Row - 12.08.1989 - Moscow - Russia - BSA Luzhniki - Moscow Music Peace Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Skid Row"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "08",
+    "year": "1989"
+  },
+  "startDateUnix": 618883200,
+  "endDate": {
+    "day": "12",
+    "month": "08",
+    "year": "1989"
+  },
+  "endDateUnix": 618883200,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "BSA Luzhniki",
+    "event": "Moscow Music Peace Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.81,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 7358,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "bon_jovi_12_08_1989_video",
+    "cinderella_12_08_1989_video"
+  ],
+  "childOf": "various_artists_12_08_1989_video_compilation",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "79950188.jpg",
+      "externalId": "1o_lMWduHiqaIBipjmX7qhMr4_MvUeL16"
+    },
+    {
+      "folder": "24",
+      "filename": "35817353.jpg",
+      "externalId": "1ZQgn6hY80FOyKCOiZU8zjg8hOFMaKpG2"
+    },
+    {
+      "folder": "24",
+      "filename": "54008338.jpg",
+      "externalId": "1PEQyVNuF40L60is8kqjhcZUchdrQl1zl"
+    },
+    {
+      "folder": "24",
+      "filename": "40963737.jpg",
+      "externalId": "1BBoeNFsOi06lm99KOnGrXxe5mrIRFwsJ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Holidays In The Sun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Makin' A Mess",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Piece Of Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Big Guns",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "18 And Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Youth Gone Wild",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Hound Dog (all bands jamming together) (with Jason Bonham on drums)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 2,
+      "song": "Rock N' Roll (all bands jamming together) (with Jason Bonham on drums)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 2,
+      "song": "Rock N' Roll (all bands jamming together) (with Jason Bonham on drums)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

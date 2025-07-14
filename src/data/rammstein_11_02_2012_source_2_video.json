@@ -1,0 +1,200 @@
+{
+  "originalTitle": "Rammstein - 11.02.2012 - Moscow - Russia - SC Olimpiyskiy (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "02",
+    "year": "2012"
+  },
+  "startDateUnix": 1328918400,
+  "endDate": {
+    "day": "11",
+    "month": "02",
+    "year": "2012"
+  },
+  "endDateUnix": 1328918400,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "SC Olimpiyskiy",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Highly incomplete.",
+  "tapers": [
+    "SHOCKER999"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.13,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 3.8,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 3.13,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3258,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MTS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "31",
+      "filename": "89575807.jpg",
+      "externalId": "1f5wAtdBwlIbuljXgoF-wb6Hc69PrU8D5"
+    },
+    {
+      "folder": "31",
+      "filename": "06509786.jpg",
+      "externalId": "1p7Elqq82cJ1gWdq-G2Zd2FAExov25XSd"
+    },
+    {
+      "folder": "31",
+      "filename": "36164121.jpg",
+      "externalId": "13Ghw1MIcCQz3Ef7-IZLCZ-2s2-IwRtUn"
+    },
+    {
+      "folder": "31",
+      "filename": "76944495.jpg",
+      "externalId": "1Il9_UC4vyxzknIp2ePiNdirsJ4bsmEXn"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Sonne",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Feuer Frei",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Mutter",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Mein Teil",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Buck Dich",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Mann Gegen Mann",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Ohne Dich",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Mein Herz Brennt",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Amerika",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Ich Will",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

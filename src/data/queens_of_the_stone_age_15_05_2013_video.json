@@ -1,0 +1,130 @@
+{
+  "originalTitle": "Queens Of The Stone Age - 15.05.2013 - Amsterdam - Netherlands - Westergasterrein - De Wereld Draait Door",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "05",
+    "year": "2013"
+  },
+  "startDateUnix": 1368576000,
+  "endDate": {
+    "day": "15",
+    "month": "05",
+    "year": "2013"
+  },
+  "endDateUnix": 1368576000,
+  "location": {
+    "city": "Amsterdam",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Westergasterrein",
+    "event": "De Wereld Draait Door"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 239,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 147,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 6
+      },
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "68",
+      "filename": "72669444.jpg",
+      "externalId": "1-vt-zXctYyyNzbx1xJR7Ik-9qZuQi4Rb"
+    },
+    {
+      "folder": "68",
+      "filename": "15146750.jpg",
+      "externalId": "1Wzlp6hQba-a_BR3NXzkU0YmeRDKHPdEp"
+    },
+    {
+      "folder": "68",
+      "filename": "40213839.jpg",
+      "externalId": "1YfrKmKc7Q2NHt_uARgC-TPSObCidsuzF"
+    },
+    {
+      "folder": "68",
+      "filename": "03120588.jpg",
+      "externalId": "1P2imnHkeFs9ghHuEJI3gMQTXsXNA6ALN"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "My God Is The Sun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

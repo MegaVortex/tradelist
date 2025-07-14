@@ -1,0 +1,141 @@
+{
+  "originalTitle": "Metallica - 06.06.2004 - Castle Donington - England - Donington Park - Download Festival [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "06",
+    "year": "2004"
+  },
+  "startDateUnix": 1086480000,
+  "endDate": {
+    "day": "06",
+    "month": "06",
+    "year": "2004"
+  },
+  "endDateUnix": 1086480000,
+  "location": {
+    "city": "Castle Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": "Download Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.25,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 2.99,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6373,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_06_06_2004_source_3_video",
+    "metallica_06_06_2004_source_4_video",
+    "metallica_26_08_1995_source_13_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "81",
+      "filename": "02105168.jpg",
+      "externalId": "154_4VnZdGcerW55Nu4EQLfmhy3zQki6T"
+    },
+    {
+      "folder": "81",
+      "filename": "62022015.jpg",
+      "externalId": "1F8CFDZ5w9p0Gsh_Ap3FOBwX17xsmwL6h"
+    },
+    {
+      "folder": "81",
+      "filename": "63034369.jpg",
+      "externalId": "1eGyFf1Vhp4WYOYALFYSxvPdoQ7NYGbNa"
+    },
+    {
+      "folder": "81",
+      "filename": "86584294.jpg",
+      "externalId": "1wMcuuAQp5B692o8857ED37FZJ9wWJiIm"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Live Footage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

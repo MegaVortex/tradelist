@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Nirvana - 10.09.1992 - Portland - OR - USA - The Portland Meadows (No On 9 Benefit)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "09",
+    "year": "1992"
+  },
+  "startDateUnix": 716083200,
+  "endDate": {
+    "day": "10",
+    "month": "09",
+    "year": "1992"
+  },
+  "endDateUnix": 716083200,
+  "location": {
+    "city": "Portland",
+    "state": "OR",
+    "country": "USA",
+    "venue": "The Portland Meadows (No On 9 Benefit)",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "PRO#1. This is shot mainly from the front left of the stage fairly low down, there are also portions shot from next to Dave (see last 2 caps). There are some very good shots of all band members. The video is however very generated and is black and white for the most part. The audio is open-mic but is very poor, it is distorted and rather bass heavy. The interview is about 12 mins in length and concert footage 15 mins.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.47,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1608,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "9",
+      "filename": "19852359.jpg",
+      "externalId": "14cvXz0k4WKU1nf6NPACL5H8UrZDzJGLm"
+    },
+    {
+      "folder": "9",
+      "filename": "75625527.jpg",
+      "externalId": "1H1s6rd75dC3byEQ31FgTZxRFAyT38eID"
+    },
+    {
+      "folder": "9",
+      "filename": "12927549.jpg",
+      "externalId": "1qfooD0MwPM-VfoK_mFt9omQ7WVOut8TF"
+    },
+    {
+      "folder": "9",
+      "filename": "76962641.jpg",
+      "externalId": "1kSo0HCIodf8DbgfzU07ZfBW-3ZtGJUZP"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Breed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Drain You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "School",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Sliver",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "In Bloom",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Come As You Are",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Lithium",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "About A Girl",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

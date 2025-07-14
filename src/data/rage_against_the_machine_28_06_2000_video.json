@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Rage Against The Machine - 28.06.2000 - Osaka - Japan - Osaka-Jou Hall",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rage Against The Machine"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "06",
+    "year": "2000"
+  },
+  "startDateUnix": 962150400,
+  "endDate": {
+    "day": "28",
+    "month": "06",
+    "year": "2000"
+  },
+  "endDateUnix": 962150400,
+  "location": {
+    "city": "Osaka",
+    "state": "",
+    "country": "Japan",
+    "venue": "Osaka-Jou Hall",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Highly incomplete.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.08,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1113,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "18836766.jpg",
+      "externalId": "1UkxcP5WAhGA0-1h9BmGrA4MLlxUx_LGC"
+    },
+    {
+      "folder": "69",
+      "filename": "08105305.jpg",
+      "externalId": "1z61R7WFY4ZtUUcmI6YwPrQ1EnMxLM7OW"
+    },
+    {
+      "folder": "69",
+      "filename": "98173985.jpg",
+      "externalId": "1-LiD2-lprX_xpP3gIQ1uUUqASSQcUzTB"
+    },
+    {
+      "folder": "69",
+      "filename": "01044766.jpg",
+      "externalId": "1eOcBfzP4YnT9xQQeSqhTynfxPO17K1i_"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Testify",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Guerrilla Radio",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Kick Out The Jams  (audio only)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "MC5"
+    },
+    {
+      "order": 4,
+      "song": "People Of The Sun (audio only)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Bombtrack (audio only)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

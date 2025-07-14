@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Metallica - 12.08.1992 - Los Angeles - CA - USA - 'Year And A Half' [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "08",
+    "year": "1992"
+  },
+  "startDateUnix": 713577600,
+  "endDate": {
+    "day": "12",
+    "month": "08",
+    "year": "1992"
+  },
+  "endDateUnix": 713577600,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "'Year And A Half'",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Black-and-white coloured TV show.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.91,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6759,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "16",
+      "filename": "89542346.jpg",
+      "externalId": "1Nio5PBCNOc0VguUb2HTt2a7x1a2dncZ1"
+    },
+    {
+      "folder": "16",
+      "filename": "52089913.jpg",
+      "externalId": "1dj8ow7VbZXHSb-EYBw_2ytB22QLzsOJ_"
+    },
+    {
+      "folder": "16",
+      "filename": "35563549.jpg",
+      "externalId": "14dh6_9GDMdfIviFxxwrkdqctuWuWAf3s"
+    },
+    {
+      "folder": "16",
+      "filename": "98227637.jpg",
+      "externalId": "1vjydBUMJ-4wb3rvTs7JM-fm5cZpqJ57Z"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

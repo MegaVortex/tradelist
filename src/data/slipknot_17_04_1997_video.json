@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Slipknot - 17.04.1997 - Des Moines - IA - USA - Safari Club",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "04",
+    "year": "1997"
+  },
+  "startDateUnix": 861235200,
+  "endDate": {
+    "day": "17",
+    "month": "04",
+    "year": "1997"
+  },
+  "endDateUnix": 861235200,
+  "location": {
+    "city": "Des Moines",
+    "state": "IA",
+    "country": "USA",
+    "venue": "Safari Club",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Shitty quality. MFKR times.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 4.1,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 78,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "320x240",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "14.87",
+        "standard": "MSMPEG4v2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 11025,
+        "bitrateKbps": 88,
+        "channels": 1
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "VHS",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "2",
+      "filename": "48604.jpg",
+      "externalId": "16UE-vCOIRwpZyn4TKdlYgfbSOySs9xnn"
+    },
+    {
+      "folder": "2",
+      "filename": "25443.jpg",
+      "externalId": "1MCVrQa7vktUrden2dEWXYLwjDurbPKqT"
+    },
+    {
+      "folder": "2",
+      "filename": "04058.jpg",
+      "externalId": "1pAxDKQy7EC5jwDZirc_IvpWKUtBWwuA8"
+    },
+    {
+      "folder": "2",
+      "filename": "20380.jpg",
+      "externalId": "1dQyws5-Vq_rg2v9tgmRzybjqaceC9mlI"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Carve",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interloper",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Slipknot",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

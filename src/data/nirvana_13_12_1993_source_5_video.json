@@ -1,0 +1,249 @@
+{
+  "originalTitle": "Nirvana - 13.12.1993 - Seattle - WA - USA - Pier 48 - MTV Live And Loud (Source 5)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "12",
+    "year": "1993"
+  },
+  "startDateUnix": 755740800,
+  "endDate": {
+    "day": "13",
+    "month": "12",
+    "year": "1993"
+  },
+  "endDateUnix": 755740800,
+  "location": {
+    "city": "Seattle",
+    "state": "WA",
+    "country": "USA",
+    "venue": "Pier 48",
+    "event": "MTV Live And Loud"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "Source 5",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "Cedric Guillod",
+  "notes": "PRO#1c.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.43,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2504,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "nirvana_02_04_1994_source_3_video",
+    "nirvana_14_02_1994_video",
+    "nirvana_06_02_1994_source_4_video",
+    "nirvana_27_02_1994_source_2_video"
+  ],
+  "childOf": "Nirvana - [1993-1994] - TV Appearances",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "31301133.jpg",
+      "externalId": "1STH5THMUYUJ7jqCR0E5Z7PSFyeHYO1Hl"
+    },
+    {
+      "folder": "80",
+      "filename": "10225254.jpg",
+      "externalId": "1CxnIV3HjKV8AXmsgLTUuGi1GMboxNwYD"
+    },
+    {
+      "folder": "80",
+      "filename": "86499846.jpg",
+      "externalId": "1hcaPgIgx3Z50m9hItaziwsIH4i6d6wIm"
+    },
+    {
+      "folder": "80",
+      "filename": "09483654.jpg",
+      "externalId": "1RpHzUcmBdvtD4wBHXY95c1f7l1rPUU-k"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Radio Friendly Unit Shifter",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Drain You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Breed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Serve The Servants",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Rape Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Sliver",
+      "feat": "",
+      "note": "not broadcasted",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Pennyroyal Tea",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Scentless Apprentice",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "All Apologies",
+      "feat": "",
+      "note": "not broadcasted",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Heart-Shaped Box",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Blew",
+      "feat": "",
+      "note": "not broadcasted",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "The Man Who Sold The World",
+      "feat": "",
+      "note": "not broadcasted",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "School",
+      "feat": "",
+      "note": "not broadcasted",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Come As You Are",
+      "feat": "",
+      "note": "not broadcasted",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Lithium",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "About A Girl",
+      "feat": "",
+      "note": "not broadcasted",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 17,
+      "song": "Endless, Nameless",
+      "feat": "",
+      "note": "not broadcasted",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

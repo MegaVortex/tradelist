@@ -1,0 +1,116 @@
+{
+  "originalTitle": "The Mars Volta - 17.01.2008 - New York - NY - USA - CBS Studios - David Letterman Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Mars Volta"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "01",
+    "year": "2008"
+  },
+  "startDateUnix": 1200528000,
+  "endDate": {
+    "day": "17",
+    "month": "01",
+    "year": "2008"
+  },
+  "endDateUnix": 1200528000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "CBS Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "David Letterman Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 184,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 176,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "16",
+      "filename": "16331967.jpg",
+      "externalId": "1QWdBAEQt03dvw2cqtLvH-ymZMAACAqz8"
+    },
+    {
+      "folder": "16",
+      "filename": "84421209.jpg",
+      "externalId": "1ecxEIM3X85-5WrlyzTtxVjH5-PUY3Isp"
+    },
+    {
+      "folder": "16",
+      "filename": "45493948.jpg",
+      "externalId": "1J0hp1BmH-MCWEICWehrENlGUmBnmaaaa"
+    },
+    {
+      "folder": "16",
+      "filename": "36521116.jpg",
+      "externalId": "1wialxPWYhcylj6s0ZGNd41zJbzRsSTrh"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Wax Simulacra",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

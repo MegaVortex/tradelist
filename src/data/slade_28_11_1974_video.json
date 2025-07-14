@@ -1,0 +1,146 @@
+{
+  "originalTitle": "Slade - 28.11.1974 - Munich - Germany - Circus Krone",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slade"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "11",
+    "year": "1974"
+  },
+  "startDateUnix": 154828800,
+  "endDate": {
+    "day": "28",
+    "month": "11",
+    "year": "1974"
+  },
+  "endDateUnix": 154828800,
+  "location": {
+    "city": "Munich",
+    "state": "",
+    "country": "Germany",
+    "venue": "Circus Krone",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 410,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 783,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "8mm",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "slade_04_08_1975_video",
+    "slade_21_07_1975_video",
+    "slade_xx_12_1971_source_1_video",
+    "slade_28_01_1973_video",
+    "slade_xx_xx_1971_alive_video_compilation"
+  ],
+  "childOf": "Slade - [1971-1975] - Live Performances",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "36973437.jpg",
+      "externalId": "1V0R0oZq5-1Dbuv3hGeP8OEXr7k3d-Fti"
+    },
+    {
+      "folder": "19",
+      "filename": "07513752.jpg",
+      "externalId": "1HloXqkjNT73Oav6YZXPjtO8xC-DEw_yE"
+    },
+    {
+      "folder": "19",
+      "filename": "91687852.jpg",
+      "externalId": "1WwOWyKvvL4PNOWOg0rgi1jNnt8CH82pk"
+    },
+    {
+      "folder": "19",
+      "filename": "11697288.jpg",
+      "externalId": "1yRnHkmJwP6jo0PU6wnDGakmZbQwWp6oB"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Far Far Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Yestarday Was Yestarday",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Raining In My Champagne",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Mama Weer All Crazee Now",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

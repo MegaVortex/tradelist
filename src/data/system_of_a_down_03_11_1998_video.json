@@ -1,0 +1,180 @@
+{
+  "originalTitle": "System Of A Down - 03.11.1998 - Milan - Italy - Palavobis Arena",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "System Of A Down"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "11",
+    "year": "1998"
+  },
+  "startDateUnix": 910051200,
+  "endDate": {
+    "day": "03",
+    "month": "11",
+    "year": "1998"
+  },
+  "endDateUnix": 910051200,
+  "location": {
+    "city": "Milan",
+    "state": "",
+    "country": "Italy",
+    "venue": "Palavobis Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.98,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1784,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "55",
+      "filename": "86117255.jpg",
+      "externalId": "11xkSpv_sc-BGMkoJQlMmreBK4LxMl0fq"
+    },
+    {
+      "folder": "55",
+      "filename": "15829751.jpg",
+      "externalId": "1JDKGtQh43tX8M-H9v0Qb1F1zrsEHvXeX"
+    },
+    {
+      "folder": "55",
+      "filename": "27649407.jpg",
+      "externalId": "1MNj33HaZIWeQmGW-1volU6NPlVeKEor-"
+    },
+    {
+      "folder": "55",
+      "filename": "72224171.jpg",
+      "externalId": "1oQakq0yX0tdh7TU0o-70rXCHZHclXmBq"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "P.L.U.C.K.",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "X",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Suite-Pee",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Mind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "DDevil",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "36",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Sugar",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "War?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Darts",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

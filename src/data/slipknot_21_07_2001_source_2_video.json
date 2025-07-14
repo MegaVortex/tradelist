@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Slipknot - 21.07.2001 - Camden - NJ - USA - Tweety Center (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "07",
+    "year": "2001"
+  },
+  "startDateUnix": 995673600,
+  "endDate": {
+    "day": "21",
+    "month": "07",
+    "year": "2001"
+  },
+  "endDateUnix": 995673600,
+  "location": {
+    "city": "Camden",
+    "state": "NJ",
+    "country": "USA",
+    "venue": "Tweety Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Right angle.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.22,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2121,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "62",
+      "filename": "65052083.jpg",
+      "externalId": "1jj2zT7K1aNNktmAslrJzuSWR1S0QRV8M"
+    },
+    {
+      "folder": "62",
+      "filename": "66709968.jpg",
+      "externalId": "1Ehp6CZZJk8c31a1kHDUacsJV_rTHNiA3"
+    },
+    {
+      "folder": "62",
+      "filename": "18655580.jpg",
+      "externalId": "1L0_Kxt7c6TKZCULacsMtQmuDyve11LCI"
+    },
+    {
+      "folder": "62",
+      "filename": "77564080.jpg",
+      "externalId": "1P0vU5Jim5w4mImiz7WqBDz50EonsyusM"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "(515) (PA)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "People = Shit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Liberate",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Eeyore",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Disasterpiece",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Purity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Eyeless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "New Abortion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "The Heretic Anthem",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

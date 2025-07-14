@@ -1,0 +1,109 @@
+{
+  "originalTitle": "Misery Signals - 24.05.2007 - Tempe - AZ - USA - The Marquee Theater",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Misery Signals"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "05",
+    "year": "2007"
+  },
+  "startDateUnix": 1179964800,
+  "endDate": {
+    "day": "24",
+    "month": "05",
+    "year": "2007"
+  },
+  "endDateUnix": 1179964800,
+  "location": {
+    "city": "Tempe",
+    "state": "AZ",
+    "country": "USA",
+    "venue": "The Marquee Theater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "This is an angle switchable user interface DVD (includes 2 angles).",
+  "tapers": [
+    "Kelly",
+    "Derrell"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.13,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2387,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "99362025.jpg",
+      "externalId": "12RdRWdIhKEXAutKHZVBIaHdT8jpUykvX"
+    },
+    {
+      "folder": "24",
+      "filename": "43252264.jpg",
+      "externalId": "1317MIk54JEGgoJDbQ6cLAfBJYxEtkklX"
+    },
+    {
+      "folder": "24",
+      "filename": "42171980.jpg",
+      "externalId": "1OE0TpofLz31ajby3uMbssMHwSryWjkYS"
+    },
+    {
+      "folder": "24",
+      "filename": "29869801.jpg",
+      "externalId": "1RZPJYm4qcNBB4tcnsJ_t19s2Go1jeRub"
+    }
+  ],
+  "setlist": []
+}

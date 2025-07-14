@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Slipknot - 09.08.2001 - Wantagh - NY - USA - Jones Beach Amphitheatre",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "08",
+    "year": "2001"
+  },
+  "startDateUnix": 997315200,
+  "endDate": {
+    "day": "09",
+    "month": "08",
+    "year": "2001"
+  },
+  "endDateUnix": 997315200,
+  "location": {
+    "city": "Wantagh",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Jones Beach Amphitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "DVD includes 20 min of unknown show.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.67,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3554,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "1",
+      "filename": "04351.jpg",
+      "externalId": "1FDTTs3gBjNu1unRlaxKx9IUBuaBr5rDw"
+    },
+    {
+      "folder": "1",
+      "filename": "79535.jpg",
+      "externalId": "1mvA3kBLOJXYWzp3OSKuRC9heofAVWEBB"
+    },
+    {
+      "folder": "1",
+      "filename": "56879.jpg",
+      "externalId": "1qf9Gdy8tOwpXeg0bf2aS5DYHEkSoku6-"
+    },
+    {
+      "folder": "1",
+      "filename": "19613.jpg",
+      "externalId": "1u6HoOAxIYADpoNnD56T_mJuHCe9hYzt1"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Gently",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Sid Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Eyeless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "New Abortion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "The Heretic Anthem",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Spit It Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Wait and Bleed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "742617000027",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "(Sic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Surfacing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,109 @@
+{
+  "originalTitle": "Prea Hrada - 23.06.2010 - Moscow - Russia - Aktoviy Zal",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Prea Hrada"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "06",
+    "year": "2010"
+  },
+  "startDateUnix": 1277251200,
+  "endDate": {
+    "day": "23",
+    "month": "06",
+    "year": "2010"
+  },
+  "endDateUnix": 1277251200,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Aktoviy Zal",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.32,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 6139,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "dottie_danger_23_06_2010_video",
+    "argument_5_45_23_06_2010_video"
+  ],
+  "childOf": "various_artists_23_06_2010_video_compilation",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "28504937.jpg",
+      "externalId": "1fX1FadcoQuVUThCyD2ZNtGSIJSivWEo8"
+    },
+    {
+      "folder": "14",
+      "filename": "59294820.jpg",
+      "externalId": "1fozt_l_ZtxvAV_zFUvro4ZxjyxoGGgPJ"
+    },
+    {
+      "folder": "14",
+      "filename": "27533490.jpg",
+      "externalId": "1BX6q9mMCJ3ouYOpcf_n-tXLOktkbTFDk"
+    },
+    {
+      "folder": "14",
+      "filename": "83831165.jpg",
+      "externalId": "12GVoiSyeqo8CErW8fIhjmC_GYs_R0Dlt"
+    }
+  ],
+  "setlist": []
+}

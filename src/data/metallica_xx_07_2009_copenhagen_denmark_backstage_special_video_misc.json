@@ -1,0 +1,111 @@
+{
+  "originalTitle": "Metallica - xx.07.2009 - Copenhagen - Denmark - Backstage Special [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "07",
+    "year": "2009"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "07",
+    "year": "2009"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Copenhagen",
+    "state": "",
+    "country": "Denmark",
+    "venue": "Backstage Special",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.12,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 7106,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_xx_03_2005_usa_when_metallica_ruled_the_world_mtv_documentary_source_1_video_misc",
+    "metallica_03_06_2006_source_1_video",
+    "metallica_xx_xx_xxxx_usa_vh1_studios_heavy_metal_of_the_80_s_video_misc"
+  ],
+  "childOf": "Metallica - 'Motorbreath Special'",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "42193616.jpg",
+      "externalId": "19GggDFnOSp9dekvw5rHWEiSfTkTIPh_b"
+    },
+    {
+      "folder": "20",
+      "filename": "70741796.jpg",
+      "externalId": "1evCJVSXKY4SCRcuzTandeSNPDO-9BGWN"
+    },
+    {
+      "folder": "20",
+      "filename": "57983833.jpg",
+      "externalId": "1XRJGbOl4edFDM1wPsBfRul2IMgEpENmC"
+    },
+    {
+      "folder": "20",
+      "filename": "44636504.jpg",
+      "externalId": "1LMpoo1ZT4Fcn4fNItv1jTU4mVudyspdo"
+    }
+  ],
+  "setlist": []
+}

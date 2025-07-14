@@ -1,0 +1,136 @@
+{
+  "originalTitle": "R.E.M. - 01.05.2001 - London - England - BBC Television Centre - Jools Holland Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "R.E.M."
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "05",
+    "year": "2001"
+  },
+  "startDateUnix": 988675200,
+  "endDate": {
+    "day": "01",
+    "month": "05",
+    "year": "2001"
+  },
+  "endDateUnix": 988675200,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Television Centre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jools Holland Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.9,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3538,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "r_e_m_xx_xx_1989_video",
+    "r_e_m_15_06_1989_video",
+    "r_e_m_14_03_1991_video",
+    "r_e_m_xx_02_1995_video",
+    "r_e_m_30_10_1998_video",
+    "r_e_m_27_10_1998_source_2_video",
+    "r_e_m_20_11_1984_video",
+    "r_e_m_26_04_2001_video",
+    "r_e_m_xx_xx_2003_video",
+    "r_e_m_14_10_2003_video",
+    "r_e_m_23_09_2004_video"
+  ],
+  "childOf": "R.E.M. - [1984-2004] - BBC TV Appearances",
+  "images": [
+    {
+      "folder": "31",
+      "filename": "85391824.jpg",
+      "externalId": "1apUGQgduF7BZ43lRSJX4UIZ-YmzSO_2D"
+    },
+    {
+      "folder": "31",
+      "filename": "96318783.jpg",
+      "externalId": "1uYVwJ2c9qDecOW7zka-U2jOBIBHJu1tW"
+    },
+    {
+      "folder": "31",
+      "filename": "66850446.jpg",
+      "externalId": "1JI1w4rvQpkHRtuW3Nh7ER1lFAAiM_Qsb"
+    },
+    {
+      "folder": "31",
+      "filename": "46315770.jpg",
+      "externalId": "15Gb9A316xHV8wW7oo11Yme8IKM6ELaNh"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Imitation Of Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The One I Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

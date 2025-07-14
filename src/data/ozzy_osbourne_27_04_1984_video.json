@@ -1,0 +1,212 @@
+{
+  "originalTitle": "Ozzy Osbourne - 27.04.1984 - Montreal - QC - Canada - Forum",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Ozzy Osbourne"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "04",
+    "year": "1984"
+  },
+  "startDateUnix": 451872000,
+  "endDate": {
+    "day": "27",
+    "month": "04",
+    "year": "1984"
+  },
+  "endDateUnix": 451872000,
+  "location": {
+    "city": "Montreal",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "Forum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.2,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3683,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "00783574.jpg",
+      "externalId": "1qwzMVm2vada9wOYsMxwmGmporqgGijah"
+    },
+    {
+      "folder": "80",
+      "filename": "61001267.jpg",
+      "externalId": "1czcE6A80NALARjE4t755JWygjEvL3uEP"
+    },
+    {
+      "folder": "80",
+      "filename": "17798719.jpg",
+      "externalId": "1JEqcmI0CIqAF4QIf3M_wEpGfFiUHiIzP"
+    },
+    {
+      "folder": "80",
+      "filename": "82936276.jpg",
+      "externalId": "1_4gX-472q6khYEhb2iCiTWPAGvo9vxt-"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "I Don't Know",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Mr. Crowley",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Rock 'N' Roll Rebel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Bark At The Moon",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Revelation (Mother Earth)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Steal Away (The Night)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Suicide Solution",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Centre Of Eternity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Drum Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Flying High Again",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Iron Man",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Crazy Train",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Paranoid",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

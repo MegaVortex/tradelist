@@ -1,0 +1,111 @@
+{
+  "originalTitle": "Metallica - xx.xx.xxxx - USA - VH1 Studios - 'Heavy Metal Of The 80's' [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "VH1 Studios",
+    "venue": "'Heavy Metal Of The 80's'",
+    "event": ""
+  },
+  "tvChannel": "VH1",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.12,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 7106,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_xx_03_2005_usa_when_metallica_ruled_the_world_mtv_documentary_source_1_video_misc",
+    "metallica_xx_07_2009_copenhagen_denmark_backstage_special_video_misc",
+    "metallica_03_06_2006_source_1_video"
+  ],
+  "childOf": "Metallica - 'Motorbreath Special'",
+  "images": [
+    {
+      "folder": "51",
+      "filename": "40788812.jpg",
+      "externalId": "1Rikp3-yDM75bU1w4DGJpGLrFGJvLWX2i"
+    },
+    {
+      "folder": "51",
+      "filename": "62584540.jpg",
+      "externalId": "1-ur3mPos5dF9s8_ZIt7vnUZi8HVE7Aj3"
+    },
+    {
+      "folder": "51",
+      "filename": "86423372.jpg",
+      "externalId": "1G2COw_XJ3GzbB3vdGeibdZg0DbgweBRy"
+    },
+    {
+      "folder": "51",
+      "filename": "07980053.jpg",
+      "externalId": "1F6eIByDu1vS8tSffatdFVgkYdmQOEcEk"
+    }
+  ],
+  "setlist": []
+}

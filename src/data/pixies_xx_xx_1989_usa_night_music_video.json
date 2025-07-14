@@ -1,0 +1,130 @@
+{
+  "originalTitle": "Pixies - xx.xx.1989 - USA - Night Music",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Pixies"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1989"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1989"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "Night Music",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.18,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2849,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "pixies_xx_xx_1989_usa_mtv_studios_post_modern_mtv_video_misc",
+    "pixies_xx_xx_1990_usa_mtv_studios_mtv_news_video_misc",
+    "pixies_xx_xx_1991_video",
+    "pixies_xx_xx_1991_usa_mtv_studios_mtv_news_video_misc",
+    "pixies_05_02_1992_video"
+  ],
+  "childOf": "Pixies - [1989-1992] - TV Appearances",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "29991972.jpg",
+      "externalId": "1ShVxY13DnIt0fVMsOhhDoZz1u_Mad7QW"
+    },
+    {
+      "folder": "28",
+      "filename": "58727115.jpg",
+      "externalId": "1tW_JwdF8h31PqH1hI3XH1wQo3iKAph-p"
+    },
+    {
+      "folder": "28",
+      "filename": "44593442.jpg",
+      "externalId": "1FSTMSfK7v0B7YXJpLnZCnfdDKJpkLsM3"
+    },
+    {
+      "folder": "28",
+      "filename": "33405102.jpg",
+      "externalId": "1QaQY1PW6P4qxb7mVTmsjPWaFW9xiSj9R"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Monkey Gone To Heaven",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Tame",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

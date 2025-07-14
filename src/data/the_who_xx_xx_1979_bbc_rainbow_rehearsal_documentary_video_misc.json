@@ -1,0 +1,119 @@
+{
+  "originalTitle": "The Who - xx.xx.1979 - BBC Rainbow - \"Rehearsal Documentary\" [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Who"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1979"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1979"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "BBC Rainbow",
+    "state": "",
+    "country": "\"Rehearsal Documentary\"",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.83,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3877,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "the_who_xx_xx_1979_itv_wgfa_a_who_profile_video_misc"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "37",
+      "filename": "31363377.jpg",
+      "externalId": "1b_tUCuAQsGi6GEs0QL0_Y6ZzTIte8MFD"
+    },
+    {
+      "folder": "37",
+      "filename": "31021020.jpg",
+      "externalId": "1huzOwkYzEO5Uhct0reHxR1AZm8RfloW9"
+    },
+    {
+      "folder": "37",
+      "filename": "95125874.jpg",
+      "externalId": "1l66ynzqBnWRoY3NOxNhI1ZsE3WfeQgYY"
+    },
+    {
+      "folder": "37",
+      "filename": "09374218.jpg",
+      "externalId": "1PN35RFNXcZhi0EbZhhZaek2lpCdg0K1e"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "TV Documentary",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

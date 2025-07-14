@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Slash - 15.05.2015 - Columbus - OH - USA - Mapfre Stadium - Rock On The Range",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slash"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "05",
+    "year": "2015"
+  },
+  "startDateUnix": 1431648000,
+  "endDate": {
+    "day": "15",
+    "month": "05",
+    "year": "2015"
+  },
+  "endDateUnix": 1431648000,
+  "location": {
+    "city": "Columbus",
+    "state": "OH",
+    "country": "USA",
+    "venue": "Mapfre Stadium",
+    "event": "Rock On The Range"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "AXSTV broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.61,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1897,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "61",
+      "filename": "95386717.jpg",
+      "externalId": "1yJ2ACo_5bnXBMX3P8KgzQVe8maciPavr"
+    },
+    {
+      "folder": "61",
+      "filename": "91648227.jpg",
+      "externalId": "1u9dU7-cfVujwBtVZB5QDd9sgZtVRuvp_"
+    },
+    {
+      "folder": "61",
+      "filename": "74335627.jpg",
+      "externalId": "1_tEIzE1fSyLGerG6ZZxztSGeINvtp59D"
+    },
+    {
+      "folder": "61",
+      "filename": "08802481.jpg",
+      "externalId": "1-zsGL01O0Myric5IljMWuirYVXllnVGH"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Bent To Fly",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "World On Fire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Anastasia",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Slither",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Velvet Revolver"
+    },
+    {
+      "order": 5,
+      "song": "Paradise City",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Guns N' Roses"
+    },
+    {
+      "order": 6,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

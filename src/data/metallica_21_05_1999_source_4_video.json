@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Metallica - 21.05.1999 - Nuernberg - Germany - Frankenstadion - Rock Im Park (Source 4)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "05",
+    "year": "1999"
+  },
+  "startDateUnix": 927244800,
+  "endDate": {
+    "day": "21",
+    "month": "05",
+    "year": "1999"
+  },
+  "endDateUnix": 927244800,
+  "location": {
+    "city": "Nuernberg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Frankenstadion",
+    "event": "Rock Im Park"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 4",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Master upgrade.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.9,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2609,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "74",
+      "filename": "96544103.jpg",
+      "externalId": "1O13YxaKtVwOyJBFxUg-k7P6S_gtnFBDb"
+    },
+    {
+      "folder": "74",
+      "filename": "61354590.jpg",
+      "externalId": "1nOp3HXQlevQv45k3iF7pTfZ1kPH2iqSN"
+    },
+    {
+      "folder": "74",
+      "filename": "79291784.jpg",
+      "externalId": "1vIz66sGFgO-HYaUOnYXijroQFLdHw--N"
+    },
+    {
+      "folder": "74",
+      "filename": "72001439.jpg",
+      "externalId": "14wMP7ISi8iDbilWdax9EwGIXOgzm8PAn"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Nothing Else Matters",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Sad But True",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Creeping Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Die, Die My Darling",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "The Misfits"
+    },
+    {
+      "order": 6,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Battery",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

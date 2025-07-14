@@ -1,0 +1,109 @@
+{
+  "originalTitle": "Rammstein - 03.03.2010 - Moscow - Russia - Muz TV - 'Pro News' [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "03",
+    "year": "2010"
+  },
+  "startDateUnix": 1267574400,
+  "endDate": {
+    "day": "03",
+    "month": "03",
+    "year": "2010"
+  },
+  "endDateUnix": 1267574400,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Muz TV",
+    "event": "'Pro News'"
+  },
+  "tvChannel": "Muz TV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Include live footage and interviews.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 983,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 845,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "rammstein_02_03_2010_video_misc"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "9",
+      "filename": "13329884.jpg",
+      "externalId": "1BB4NHkqbsJFj63gxZnFrXp23omFNrXHf"
+    },
+    {
+      "folder": "9",
+      "filename": "27769316.jpg",
+      "externalId": "1XL81WJ4dVbiMmhAVQD7rsagDaBvO9xuO"
+    },
+    {
+      "folder": "9",
+      "filename": "83198582.jpg",
+      "externalId": "1QoYXX6zBRHG48IUiY5zIyB6Y_IFQfHFv"
+    },
+    {
+      "folder": "9",
+      "filename": "01346933.jpg",
+      "externalId": "1PetOs6YFu--kRFMugdfFNJFpZj7MjyrO"
+    }
+  ],
+  "setlist": []
+}

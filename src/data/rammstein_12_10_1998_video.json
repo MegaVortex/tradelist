@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Rammstein - 12.10.1998 - Phoenix - AZ - USA - America West Arena",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "10",
+    "year": "1998"
+  },
+  "startDateUnix": 908150400,
+  "endDate": {
+    "day": "12",
+    "month": "10",
+    "year": "1998"
+  },
+  "endDateUnix": 908150400,
+  "location": {
+    "city": "Phoenix",
+    "state": "AZ",
+    "country": "USA",
+    "venue": "America West Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.84,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1831,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "53",
+      "filename": "08541551.jpg",
+      "externalId": "1kWTkjGWFZw-ldir0-WJP0-MyCCXZhKc_"
+    },
+    {
+      "folder": "53",
+      "filename": "60330079.jpg",
+      "externalId": "1aPgSVctcbSe4P4aH5jmW_vxb76JF0FTa"
+    },
+    {
+      "folder": "53",
+      "filename": "39777403.jpg",
+      "externalId": "1becfo4E-wB1UDlukw6OGdQthC2AW5G3C"
+    },
+    {
+      "folder": "53",
+      "filename": "83252481.jpg",
+      "externalId": "1ALQ0AqGnAea7W9dIZl8l-40MrgeygnMq"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Rammstein",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Tier",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Bestrafe Mich",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Weisses Fleisch",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Sehnsucht",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Asche Zu Asche",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Du Hast",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Buck Dich",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

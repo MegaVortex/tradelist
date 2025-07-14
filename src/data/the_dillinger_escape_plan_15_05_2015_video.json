@@ -1,0 +1,132 @@
+{
+  "originalTitle": "The Dillinger Escape Plan - 15.05.2015 - Columbus - OH - USA - Mapfre Stadium - Rock On The Range",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Dillinger Escape Plan"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "05",
+    "year": "2015"
+  },
+  "startDateUnix": 1431648000,
+  "endDate": {
+    "day": "15",
+    "month": "05",
+    "year": "2015"
+  },
+  "endDateUnix": 1431648000,
+  "location": {
+    "city": "Columbus",
+    "state": "OH",
+    "country": "USA",
+    "venue": "Mapfre Stadium",
+    "event": "Rock On The Range"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 670,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "62",
+      "filename": "73040433.jpg",
+      "externalId": "1fbAy1q6yxX55wVM-LbNdSUgTsyaSCDaW"
+    },
+    {
+      "folder": "62",
+      "filename": "61919315.jpg",
+      "externalId": "1-myaNCWkXjQesNJG_Yde1jC5t_GXFwLE"
+    },
+    {
+      "folder": "62",
+      "filename": "02670392.jpg",
+      "externalId": "1ZZYrRhpj-e_fjL5OXwLwMcAXI-628jnO"
+    },
+    {
+      "folder": "62",
+      "filename": "98729423.jpg",
+      "externalId": "1PgMnMZBq0GpLVrFBf2oiGffDwFdp_eWZ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Prancer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Farewell, Mona Lisa",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "43% Burnt (intro)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

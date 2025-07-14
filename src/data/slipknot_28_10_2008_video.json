@@ -1,0 +1,131 @@
+{
+  "originalTitle": "Slipknot - 28.10.2008 - Adelaide - Australia - Jubilee Pavilion",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "10",
+    "year": "2008"
+  },
+  "startDateUnix": 1225152000,
+  "endDate": {
+    "day": "28",
+    "month": "10",
+    "year": "2008"
+  },
+  "endDateUnix": 1225152000,
+  "location": {
+    "city": "Adelaide",
+    "state": "",
+    "country": "Australia",
+    "venue": "Jubilee Pavilion",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Includes 3 minutes of before the show footage.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.79,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": null,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": {
+      "language": "",
+      "codec": "",
+      "bitrateKbps": null,
+      "channels": null
+    },
+    "sourceDetail": {
+      "type": "",
+      "extra": "",
+      "medium": ""
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "36",
+      "filename": "18435394.jpg",
+      "externalId": "1dlpqkpp_qlSSGzO9i7jo5mnEVVlnGPxp"
+    },
+    {
+      "folder": "36",
+      "filename": "09028661.jpg",
+      "externalId": "1WBAJbQcsnaHM5nggXor9sXfeeJBpWZmG"
+    },
+    {
+      "folder": "36",
+      "filename": "39585702.jpg",
+      "externalId": "1Jv99EM9pCo3s9RaOxSdaZYoMlNLjTd3t"
+    },
+    {
+      "folder": "36",
+      "filename": "57069238.jpg",
+      "externalId": "1__Kwgx8hUX133icnrdhMNwMDynC4zL1M"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Surfacing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Blister Exists",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Get This",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

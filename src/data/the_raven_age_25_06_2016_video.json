@@ -1,0 +1,150 @@
+{
+  "originalTitle": "The Raven Age - 25.06.2016 - Moscow - Russia - SC Olimpiyskiy",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Raven Age"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "06",
+    "year": "2016"
+  },
+  "startDateUnix": 1466812800,
+  "endDate": {
+    "day": "25",
+    "month": "06",
+    "year": "2016"
+  },
+  "endDateUnix": 1466812800,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "SC Olimpiyskiy",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": true,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete.",
+  "tapers": [
+    "Vortex"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 4.86,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1674,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "62",
+      "filename": "39139133.jpg",
+      "externalId": "11Gt-dIr2v1IO9uKtW8mqA2SXEHqc_mV_"
+    },
+    {
+      "folder": "62",
+      "filename": "84857076.jpg",
+      "externalId": "1ORufbZTJqVIFQPgrSpDhMiqX5W0_Sr86"
+    },
+    {
+      "folder": "62",
+      "filename": "78020079.jpg",
+      "externalId": "1yQfUIR3p9kojB64VxD1hORHMRa0xtOhm"
+    },
+    {
+      "folder": "62",
+      "filename": "28496404.jpg",
+      "externalId": "13Ri5vdhdLTgsKbgdk8KYVVDuEag0g0aQ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Death March",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Eye Among The Blind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Merciful One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Salem's Fate",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Angel In Disgrace",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

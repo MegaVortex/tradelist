@@ -1,0 +1,128 @@
+{
+  "originalTitle": "R.E.M. - 23.09.2004 - Cologne - Germany - BBC Studios - Top Of The Pops",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "R.E.M."
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "09",
+    "year": "2004"
+  },
+  "startDateUnix": 1095897600,
+  "endDate": {
+    "day": "23",
+    "month": "09",
+    "year": "2004"
+  },
+  "endDateUnix": 1095897600,
+  "location": {
+    "city": "Cologne",
+    "state": "",
+    "country": "Germany",
+    "venue": "BBC Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Top Of The Pops",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.9,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3538,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "r_e_m_xx_xx_1989_video",
+    "r_e_m_15_06_1989_video",
+    "r_e_m_14_03_1991_video",
+    "r_e_m_xx_02_1995_video",
+    "r_e_m_30_10_1998_video",
+    "r_e_m_27_10_1998_source_2_video",
+    "r_e_m_01_05_2001_video",
+    "r_e_m_26_04_2001_video",
+    "r_e_m_xx_xx_2003_video",
+    "r_e_m_14_10_2003_video",
+    "r_e_m_20_11_1984_video"
+  ],
+  "childOf": "R.E.M. - [1984-2004] - BBC TV Appearances",
+  "images": [
+    {
+      "folder": "31",
+      "filename": "22042885.jpg",
+      "externalId": "1XeMu6-sCjzypoj2aPwtt-jrJT_-z4nc1"
+    },
+    {
+      "folder": "31",
+      "filename": "25004083.jpg",
+      "externalId": "190nBN_4P5ms2d3uzk2PVM6geyQ6zTaSS"
+    },
+    {
+      "folder": "31",
+      "filename": "29716772.jpg",
+      "externalId": "1WCTRVAdwka3sTIZAbS7uBmDVvF6Gpc-H"
+    },
+    {
+      "folder": "31",
+      "filename": "58128189.jpg",
+      "externalId": "1EEWH3_JU43K6GpXmt2SwAsiGxEVU9JsV"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Leaving New York",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

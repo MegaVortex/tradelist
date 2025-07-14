@@ -1,0 +1,120 @@
+{
+  "originalTitle": "Metallica - xx.xx.1993 - Rage TV Special [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1993"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1993"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Rage TV Special",
+    "state": "",
+    "country": "",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "Rage TV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Hosted by Lars. He picks his favourite videos, but they are cut, and just his speech's are present.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.15,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 6794,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_01_04_1993_video",
+    "metallica_xx_xx_1993_australia_molly_s_melodrama_video_misc"
+  ],
+  "childOf": "Metallica - [1993] - Australia",
+  "images": [
+    {
+      "folder": "59",
+      "filename": "30909232.jpg",
+      "externalId": "1qmiIcOqULzeQOA7dPOC8GxgMQw7dfru2"
+    },
+    {
+      "folder": "59",
+      "filename": "21311315.jpg",
+      "externalId": "1jR_CcDyDMkoMg5a-_gzGvwefuiKoLV4x"
+    },
+    {
+      "folder": "59",
+      "filename": "71938150.jpg",
+      "externalId": "1hY2j6nQnXbMh5cpH2QnV0ilh7chrgh5z"
+    },
+    {
+      "folder": "59",
+      "filename": "98630409.jpg",
+      "externalId": "1Wmvt0LAi81TRkwiD-zJJmTBvKvv90upP"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Lars",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

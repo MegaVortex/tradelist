@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Remainder - 02.08.2010 - Allston - MA - USA - O'Brien's",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Remainder"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "08",
+    "year": "2010"
+  },
+  "startDateUnix": 1280707200,
+  "endDate": {
+    "day": "02",
+    "month": "08",
+    "year": "2010"
+  },
+  "endDateUnix": 1280707200,
+  "location": {
+    "city": "Allston",
+    "state": "MA",
+    "country": "USA",
+    "venue": "O'Brien's",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "dyinghorse release.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.44,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1345,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "34",
+      "filename": "68373473.jpg",
+      "externalId": "1gFWrCmp22_O-zd4gvIZaDF4eUrLKOis_"
+    },
+    {
+      "folder": "34",
+      "filename": "53130602.jpg",
+      "externalId": "1IbNYCjXG0Rkm1ZhHWRwpmTA07aKLTl5-"
+    },
+    {
+      "folder": "34",
+      "filename": "58215411.jpg",
+      "externalId": "1gBgqJpVEpYCjkCluwGROEVbiUKwd4orP"
+    },
+    {
+      "folder": "34",
+      "filename": "98126773.jpg",
+      "externalId": "1FnpcbqG2FJNvRAuMXQMnZdPsMSwppLDY"
+    }
+  ],
+  "setlist": []
+}

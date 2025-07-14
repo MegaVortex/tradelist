@@ -1,0 +1,265 @@
+{
+  "originalTitle": "Van Halen - 10.05.1986 - Detroit - MI - USA - Joe Louis Arena",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Van Halen"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "05",
+    "year": "1986"
+  },
+  "startDateUnix": 516067200,
+  "endDate": {
+    "day": "10",
+    "month": "05",
+    "year": "1986"
+  },
+  "endDateUnix": 516067200,
+  "location": {
+    "city": "Detroit",
+    "state": "MI",
+    "country": "USA",
+    "venue": "Joe Louis Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Silver Stallion Production.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.28,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 3.72,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 8336,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "50",
+      "filename": "93361564.jpg",
+      "externalId": "13zYtLX_kU0pzd8O1V3oFZczs8Z_TMDV5"
+    },
+    {
+      "folder": "50",
+      "filename": "49147165.jpg",
+      "externalId": "1oUFgkncpeQBf0-zwvr8eT-ym89U5xdOs"
+    },
+    {
+      "folder": "50",
+      "filename": "30169290.jpg",
+      "externalId": "1UCFX4t7ivCyr2S5eWujy5X74Rgw9T1a6"
+    },
+    {
+      "folder": "50",
+      "filename": "31192864.jpg",
+      "externalId": "127Z8YNbD08M5k4qbDogLmgwBEagulIOr"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "You Really Got Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "There's Only One Way To Rock",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Summer Nights",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Get Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Drum Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Why Can't This Be Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "5150",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Bass Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Panama",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Best Of Both Worlds",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Love Walks In",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Good Enough",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Guitar Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "I Can't Drive 55",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Ain't Talkin' 'Bout Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "Rock Candy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Montrose"
+    },
+    {
+      "order": 17,
+      "song": "Jump",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 18,
+      "song": "Wild Thing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Jimi Hendrix"
+    },
+    {
+      "order": 10,
+      "song": "Rock And Roll",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Led Zeppelin"
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,125 @@
+{
+  "originalTitle": "The Who - 13.10.1982 - New York - NY - USA - Shea Stadium [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Who"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "10",
+    "year": "1982"
+  },
+  "startDateUnix": 403315200,
+  "endDate": {
+    "day": "13",
+    "month": "10",
+    "year": "1982"
+  },
+  "endDateUnix": 403315200,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Shea Stadium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.1,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5394,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "the_who_xx_xx_1976_video",
+    "the_who_xx_xx_1979_buffalo_ny_usa_video_misc",
+    "the_who_12_05_1979_video_misc",
+    "the_who_10_12_1982_video",
+    "the_who_29_07_1971_video",
+    "the_who_18_07_1989_video",
+    "the_who_stages_xx_xx_xxxx_the_who_stages_video_compilation"
+  ],
+  "childOf": "The Who - [1971-1989] - Stages",
+  "images": [
+    {
+      "folder": "39",
+      "filename": "67980698.jpg",
+      "externalId": "1M0AdfWKONb4_v5fveNIqsKHaR7qB1Wfl"
+    },
+    {
+      "folder": "39",
+      "filename": "58564684.jpg",
+      "externalId": "1wtBVwgp-tUqGy-O-egyDNdy0Ccarghow"
+    },
+    {
+      "folder": "39",
+      "filename": "15333803.jpg",
+      "externalId": "1R16PxXbRrAZFDghWW0-adPVHcPoUv1Ye"
+    },
+    {
+      "folder": "39",
+      "filename": "98453624.jpg",
+      "externalId": "1GhfbBRc5ENmvcnlS0xVxpmyJpPiwH8iK"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "News Reports",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

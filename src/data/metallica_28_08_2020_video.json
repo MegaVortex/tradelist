@@ -1,0 +1,121 @@
+{
+  "originalTitle": "Metallica - 28.08.2020 - San Rafael - CA - USA - HQ - Channel 9",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "08",
+    "year": "2020"
+  },
+  "startDateUnix": 1598572800,
+  "endDate": {
+    "day": "28",
+    "month": "08",
+    "year": "2020"
+  },
+  "endDateUnix": 1598572800,
+  "location": {
+    "city": "San Rafael",
+    "state": "CA",
+    "country": "USA",
+    "venue": "HQ",
+    "event": "Channel 9"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 286,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 354,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_23_09_2013_video",
+    "metallica_15_08_2017_video_misc",
+    "metallica_12_08_2020_source_2_video",
+    "metallica_12_08_2020_video"
+  ],
+  "childOf": "Metallica - [2013-2020] - TV Appearances",
+  "images": [
+    {
+      "folder": "74",
+      "filename": "79359234.jpg",
+      "externalId": "1nbOEOkPImr4TqEIiPfztdRV8wQOr9Cne"
+    },
+    {
+      "folder": "74",
+      "filename": "29860245.jpg",
+      "externalId": "1JC005IMI7OwsHq7BzluXMsQY6RcQEB5G"
+    },
+    {
+      "folder": "74",
+      "filename": "76621333.jpg",
+      "externalId": "1h7qF_Nob4pkjKo-A7iqZU-2A2EvSDeZ3"
+    },
+    {
+      "folder": "74",
+      "filename": "05325449.jpg",
+      "externalId": "110SQijAdN9q8edcg1Z3yIzwAruaruB_g"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Red Hot Chili Peppers - 16.10.2012 - Los Angeles - CA - USA - Flea's House",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Red Hot Chili Peppers"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "10",
+    "year": "2012"
+  },
+  "startDateUnix": 1350345600,
+  "endDate": {
+    "day": "16",
+    "month": "10",
+    "year": "2012"
+  },
+  "endDateUnix": 1350345600,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Flea's House",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.58,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3391,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "51",
+      "filename": "04703803.jpg",
+      "externalId": "1LQZbEPot9MSsU8D3eizWA-MOWOS-lLRv"
+    },
+    {
+      "folder": "51",
+      "filename": "65740976.jpg",
+      "externalId": "1iDoL6418eddFlPj-LuCa23j5MO9oCrfH"
+    },
+    {
+      "folder": "51",
+      "filename": "35395043.jpg",
+      "externalId": "1415XxbnLA8Do62OzJE516Oi_4d0UoriL"
+    },
+    {
+      "folder": "51",
+      "filename": "90240119.jpg",
+      "externalId": "1qh0bvKQXCW7x7fqoXVEZopJqmAg6R0EJ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Monarchy Of Roses",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Factory Of Faith",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Ethiopia",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Look Around",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "The Adventures Of Rain Dance Maggie",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Did I Let You Know",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Goodbye Hooray",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Police Station",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Meet Me At The Corner",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

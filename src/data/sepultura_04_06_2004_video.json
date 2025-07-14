@@ -1,0 +1,136 @@
+{
+  "originalTitle": "Sepultura - 04.06.2004 - Lisbon - Portugal - Parque Bella Vista - Rock In Rio",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sepultura"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "06",
+    "year": "2004"
+  },
+  "startDateUnix": 1086307200,
+  "endDate": {
+    "day": "04",
+    "month": "06",
+    "year": "2004"
+  },
+  "endDateUnix": 1086307200,
+  "location": {
+    "city": "Lisbon",
+    "state": "",
+    "country": "Portugal",
+    "venue": "Parque Bella Vista",
+    "event": "Rock In Rio"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.7,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 4378,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": 6821,
+        "fps": "25",
+        "standard": "Xvid",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 5
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [
+    "moonspell_04_06_2004_video",
+    "metallica_04_06_2004_source_2_video",
+    "slipknot_04_06_2004_source_1_video"
+  ],
+  "childOf": "various_artists_04_06_2004_video_compilation",
+  "images": [
+    {
+      "folder": "3",
+      "filename": "4545084.jpg",
+      "externalId": "1z6rSTmPHBSXju68uy_Z4iGj1yKBZvlCl"
+    },
+    {
+      "folder": "3",
+      "filename": "1132543.jpg",
+      "externalId": "1KIKpLse-eSJrlF5kZUCecVNVU6WE_HNT"
+    },
+    {
+      "folder": "3",
+      "filename": "7628026.jpg",
+      "externalId": "1BU0wxUcjc8aMx9JIzyGysr5LNfh0CNtm"
+    },
+    {
+      "folder": "3",
+      "filename": "6982775.jpg",
+      "externalId": "1kXBEWodsEIJAtrrnaGdcnSZGaPQYAfP6"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Arise",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Kayowas",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Roots",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,171 @@
+{
+  "originalTitle": "Robert Plant - 12.06.1993 - Bologne - Italy - Videomusic Studios - Roxy Bar",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Robert Plant"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "06",
+    "year": "1993"
+  },
+  "startDateUnix": 739843200,
+  "endDate": {
+    "day": "12",
+    "month": "06",
+    "year": "1993"
+  },
+  "endDateUnix": 739843200,
+  "location": {
+    "city": "Bologne",
+    "state": "",
+    "country": "Italy",
+    "venue": "Videomusic Studios",
+    "event": "Roxy Bar"
+  },
+  "tvChannel": "Videomusic",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Acoustic appearance on the Videomusic TV show Roxy Bar.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.76,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2312,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "robert_plant_26_08_1993_video",
+    "robert_plant_01_05_1993_video",
+    "robert_plant_31_05_1993_video",
+    "robert_plant_03_07_1993_video",
+    "robert_plant_07_09_1993_video",
+    "robert_plant_11_11_1993_video"
+  ],
+  "childOf": "Robert Plant - [1993] - Acoustic Performances",
+  "images": [
+    {
+      "folder": "36",
+      "filename": "46846287.jpg",
+      "externalId": "1mZW1lhJqVfhGRBAuwgJj2U86R7vXUcTW"
+    },
+    {
+      "folder": "36",
+      "filename": "70595784.jpg",
+      "externalId": "1qPURi3ezKkpxgfXW8A82AxB6lHVYbBSU"
+    },
+    {
+      "folder": "36",
+      "filename": "06762814.jpg",
+      "externalId": "1pPL28e3dBeOCnkM13r_SqMPeQnEBnczw"
+    },
+    {
+      "folder": "36",
+      "filename": "86900641.jpg",
+      "externalId": "1zfdruFkYrUhnmKwJVEpRdkKwIfkFl_T2"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Hoochie Coochie Man",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "29 Palms",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Thank You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "I Believe",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Whole Lotta Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Going To California",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

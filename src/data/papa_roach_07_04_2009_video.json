@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Papa Roach - 07.04.2009 - Belton - TX - USA - Bell County Expo Center",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Papa Roach"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "04",
+    "year": "2009"
+  },
+  "startDateUnix": 1239062400,
+  "endDate": {
+    "day": "07",
+    "month": "04",
+    "year": "2009"
+  },
+  "endDateUnix": 1239062400,
+  "location": {
+    "city": "Belton",
+    "state": "TX",
+    "country": "USA",
+    "venue": "Bell County Expo Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Poor video quality.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 543,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 728,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "59565186.jpg",
+      "externalId": "1RAC5hWGBn0fTXqQlPj1RIQNSUKksJRsy"
+    },
+    {
+      "folder": "29",
+      "filename": "29171257.jpg",
+      "externalId": "1TogiE0eJ1U456AGI5N09Woo5PxmT6o5g"
+    },
+    {
+      "folder": "29",
+      "filename": "76902129.jpg",
+      "externalId": "1SwbEh6_ZfQFzmRuUffMaxz7sbIMYB7kD"
+    },
+    {
+      "folder": "29",
+      "filename": "27999760.jpg",
+      "externalId": "1BvPE9TKCr7UHB2J_M5_eUSPSjIOm3ETO"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Days Of War",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Change Or Die",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "...To Be Loved",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Getting Away With Murder",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,174 @@
+{
+  "originalTitle": "Rage Against The Machine - 22.01.1993 - Philadelphia - PA - USA - J.C. Dobbs (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rage Against The Machine"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "01",
+    "year": "1993"
+  },
+  "startDateUnix": 727660800,
+  "endDate": {
+    "day": "22",
+    "month": "01",
+    "year": "1993"
+  },
+  "endDateUnix": 727660800,
+  "location": {
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "venue": "J.C. Dobbs",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.57,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2857,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "rage_against_the_machine_24_07_1999_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "78",
+      "filename": "20328171.jpg",
+      "externalId": "1UXJ80buhkTNEbXvLriGMpaJ9wC1hBRoa"
+    },
+    {
+      "folder": "78",
+      "filename": "46235826.jpg",
+      "externalId": "1wyWnh-1oL87JXHKoyN1kayQBh8VPQ1oN"
+    },
+    {
+      "folder": "78",
+      "filename": "84838344.jpg",
+      "externalId": "172BYSuplLSl5GAxeDmZBZh2Iax8oKosG"
+    },
+    {
+      "folder": "78",
+      "filename": "92633305.jpg",
+      "externalId": "1N3PF7JY3AWv-eY4_5GzAmHX7xDEP25A4"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "People Of The Sun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Bombtrack",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Fistful Of Steel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Wake Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Settle For Nothing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Bullet In The Head",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Killing In The Name",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Freedom",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

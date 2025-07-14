@@ -1,0 +1,134 @@
+{
+  "originalTitle": "Metallica - 10.06.2004 - Gelsenkirchen - Germany - Arena AufSchalke [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "06",
+    "year": "2004"
+  },
+  "startDateUnix": 1086825600,
+  "endDate": {
+    "day": "10",
+    "month": "06",
+    "year": "2004"
+  },
+  "endDateUnix": 1086825600,
+  "location": {
+    "city": "Gelsenkirchen",
+    "state": "",
+    "country": "Germany",
+    "venue": "Arena AufSchalke",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.63,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2572,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_15_11_1997_source_1_video",
+    "metallica_25_02_1992_source_2_video",
+    "metallica_09_09_1996_source_2_video",
+    "metallica_06_12_1997_source_2_video",
+    "metallica_08_12_1997_source_2_video",
+    "metallica_15_08_2003_video_misc",
+    "metallica_08_06_2004_video_misc",
+    "metallica_17_05_1990_source_2_video"
+  ],
+  "childOf": "Metallica - [1990-2004] - TV Appearances",
+  "images": [
+    {
+      "folder": "56",
+      "filename": "22149944.jpg",
+      "externalId": "1X1xBgMDlz2jJAf_ZnRKDcvBmUJEv5SR1"
+    },
+    {
+      "folder": "56",
+      "filename": "79673552.jpg",
+      "externalId": "1la-7zP_F7hOZ2HKqzaeE0V2CmveI3erX"
+    },
+    {
+      "folder": "56",
+      "filename": "96683189.jpg",
+      "externalId": "1MeJxHqPnhoLH8FfcFBMVzfCImUJCJa0r"
+    },
+    {
+      "folder": "56",
+      "filename": "69000012.jpg",
+      "externalId": "1uMxq3zGM-v23Ps8RfH-iWIx5szJYMTOZ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Live Footage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

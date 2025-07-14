@@ -1,0 +1,137 @@
+{
+  "originalTitle": "Rammstein - 29.05.1998 - Nuernberg - Germany - Franken Stadion - Rock Im Park",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "29",
+    "month": "05",
+    "year": "1998"
+  },
+  "startDateUnix": 896400000,
+  "endDate": {
+    "day": "29",
+    "month": "05",
+    "year": "1998"
+  },
+  "endDateUnix": 896400000,
+  "location": {
+    "city": "Nuernberg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Franken Stadion",
+    "event": "Rock Im Park"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.66,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 971,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "rammstein_15_05_1997_video",
+    "rammstein_05_07_1997_video",
+    "rammstein_23_10_1997_video",
+    "rammstein_10_06_2005_video"
+  ],
+  "childOf": "Rammstein - [1997-2005] - TV Appearances",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "33798762.jpg",
+      "externalId": "14uia7Gdh-GVpLhwbOdk8XPVTlWiV-D1y"
+    },
+    {
+      "folder": "27",
+      "filename": "86061651.jpg",
+      "externalId": "1eb6XWdhRn1Mk9IEvXDU21eOeCox39LAD"
+    },
+    {
+      "folder": "27",
+      "filename": "17024610.jpg",
+      "externalId": "1QHD3EmLdCqIJ5e4cKITpPB64W538YjtC"
+    },
+    {
+      "folder": "27",
+      "filename": "24934833.jpg",
+      "externalId": "1_ZoxgYmMdQdgZm7_Lf3CZlbrArqbiSAK"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Heirate Mich",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Du Riechst So Gut",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Du Hast",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

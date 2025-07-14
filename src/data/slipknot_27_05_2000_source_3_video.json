@@ -1,0 +1,214 @@
+{
+  "originalTitle": "Slipknot - 27.05.2000 - Somerset - WI - USA - Float-Rite Park Amphitheatre - 93X Fest (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "05",
+    "year": "2000"
+  },
+  "startDateUnix": 959385600,
+  "endDate": {
+    "day": "27",
+    "month": "05",
+    "year": "2000"
+  },
+  "endDateUnix": 959385600,
+  "location": {
+    "city": "Somerset",
+    "state": "WI",
+    "country": "USA",
+    "venue": "Float-Rite Park Amphitheatre",
+    "event": "93X Fest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Stage. Same as Source 1, except this one has original audio, which has slight issues due to it raining all day.",
+  "tapers": [
+    "Chris"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 14.2,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 4021,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "",
+        "bitrateKbps": 28771,
+        "fps": "29.97",
+        "standard": "DVSD",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "76",
+      "filename": "62547812.jpg",
+      "externalId": "1kPydKBudMX9zA1ybudQi5vezBDwnF1m8"
+    },
+    {
+      "folder": "76",
+      "filename": "91072431.jpg",
+      "externalId": "1rSkLdja6I41-fcZA5vYARye8wcpcttLl"
+    },
+    {
+      "folder": "76",
+      "filename": "77057602.jpg",
+      "externalId": "1BDSHg4SoUmR_UWP1DZrBLhieHuK1b6uK"
+    },
+    {
+      "folder": "76",
+      "filename": "34110148.jpg",
+      "externalId": "1aYJVZNx5J9wCsfmKBpymiKpP1nTV5X0R"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Get Behind Me Satan And Push (Billie Jo Spears song) (PA)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "742617000027",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "(Sic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Eyeless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Wait And Bleed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "No Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Liberate",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Purity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Prosthetics",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Spit It Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Get This",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Surfacing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Scissors",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

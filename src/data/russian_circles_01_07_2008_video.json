@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Russian Circles - 01.07.2008 - Buffalo - NY - USA - Mohawk Place",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Russian Circles"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "07",
+    "year": "2008"
+  },
+  "startDateUnix": 1214870400,
+  "endDate": {
+    "day": "01",
+    "month": "07",
+    "year": "2008"
+  },
+  "endDateUnix": 1214870400,
+  "location": {
+    "city": "Buffalo",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Mohawk Place",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.72,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3361,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "25590320.jpg",
+      "externalId": "1aZtGAASw5B2-JMX6WMAW7OkpG9cWhzRO"
+    },
+    {
+      "folder": "80",
+      "filename": "38751382.jpg",
+      "externalId": "1dz8S1p87f7NRiR2JuUkPI-UJfENqbEqA"
+    },
+    {
+      "folder": "80",
+      "filename": "27535646.jpg",
+      "externalId": "1FCsadj9IxuZ_JDhpSwZaWf58NpGwUGeS"
+    },
+    {
+      "folder": "80",
+      "filename": "02590537.jpg",
+      "externalId": "1afpxFS89RMoHdqvu2It5OH5aRt5SJX7D"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Harper Lewis",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Station",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Carpe",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Versus",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Youngblood",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Death Rides A Horse",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

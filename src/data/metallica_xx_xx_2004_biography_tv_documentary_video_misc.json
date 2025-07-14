@@ -1,0 +1,107 @@
+{
+  "originalTitle": "Metallica - xx.xx.2004 - Biography - TV Documentary [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2004"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2004"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Biography",
+    "state": "",
+    "country": "TV Documentary",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Finnish subtitles.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.99,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2695,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "33",
+      "filename": "91556761.jpg",
+      "externalId": "1z2dzVJ_LdlJowyBkSc9eEjlvTMGjiZei"
+    },
+    {
+      "folder": "33",
+      "filename": "88282764.jpg",
+      "externalId": "111Hh8hpxEdRnLmk4vqSYozLqsT7_FIHP"
+    },
+    {
+      "folder": "33",
+      "filename": "28208297.jpg",
+      "externalId": "1JbyPUqGApZK7k8VjqCY4cdGmCHwiNaK7"
+    },
+    {
+      "folder": "33",
+      "filename": "73967137.jpg",
+      "externalId": "1KnQPv47k4NOLnCpU5FvU6G0IiXEJ6AB-"
+    }
+  ],
+  "setlist": []
+}

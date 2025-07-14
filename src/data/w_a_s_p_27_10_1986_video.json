@@ -1,0 +1,150 @@
+{
+  "originalTitle": "W.A.S.P. - 27.10.1986 - London - England - Town & Country Club",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "W.A.S.P."
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "10",
+    "year": "1986"
+  },
+  "startDateUnix": 530755200,
+  "endDate": {
+    "day": "27",
+    "month": "10",
+    "year": "1986"
+  },
+  "endDateUnix": 530755200,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Town & Country Club",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.75,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1682,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "w_a_s_p_28_11_1986_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "16666685.jpg",
+      "externalId": "1qbT-Nc4P9uxpa8471giGYyRire98eOz5"
+    },
+    {
+      "folder": "29",
+      "filename": "40290395.jpg",
+      "externalId": "1fRJhwcpanFMBS4RQVFozIPEikOpJ7-zv"
+    },
+    {
+      "folder": "29",
+      "filename": "15025367.jpg",
+      "externalId": "1X18kSxFgYEDnsRxl4OLZFRiBiUA2O1Wm"
+    },
+    {
+      "folder": "29",
+      "filename": "95462339.jpg",
+      "externalId": "11n-EdAfEy5C2e7bnvPMGOfYYzERDjMGX"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Inside The Electric Circus",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "95 N.A.S.T.Y.",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Wild Child",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "I Don't Need No Doctor",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Blind In Texas",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

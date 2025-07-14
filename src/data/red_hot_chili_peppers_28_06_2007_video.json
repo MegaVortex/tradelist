@@ -1,0 +1,198 @@
+{
+  "originalTitle": "Red Hot Chili Peppers - 28.06.2007 - Udine - Italy - Friuli Stadium",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Red Hot Chili Peppers"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "06",
+    "year": "2007"
+  },
+  "startDateUnix": 1182988800,
+  "endDate": {
+    "day": "28",
+    "month": "06",
+    "year": "2007"
+  },
+  "endDateUnix": 1182988800,
+  "location": {
+    "city": "Udine",
+    "state": "",
+    "country": "Italy",
+    "venue": "Friuli Stadium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "AMT#1.",
+  "tapers": [
+    "frandfe"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.78,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2460,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "30",
+      "filename": "01609950.jpg",
+      "externalId": "1Sdfs9uTsh1eu5qvMon8DNTdoMrq3J3xY"
+    },
+    {
+      "folder": "30",
+      "filename": "62459990.jpg",
+      "externalId": "1co9cpCyUQeI66n6ygaCZ_tLBpySS8kV5"
+    },
+    {
+      "folder": "30",
+      "filename": "90948717.jpg",
+      "externalId": "1-z9SYT-wfmCXbBpvPJg0_LUdmCTksPcL"
+    },
+    {
+      "folder": "30",
+      "filename": "32730811.jpg",
+      "externalId": "1LMQC9PeSWQTmgY4WxLWCpbOLU1hKhmAR"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Jam",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Can't Stop",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Dani California",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Under The Bridge",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "21st Century",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Parallel Universe",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Maybe (John)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Snow (Hey Oh)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Get On Top",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Emit Remmus",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Hump De Bump",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

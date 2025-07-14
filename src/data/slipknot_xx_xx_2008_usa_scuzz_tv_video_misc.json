@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Slipknot - xx.xx.2008 - USA - Scuzz TV [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2008"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2008"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "Scuzz TV",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Shawn Crahan talking about his favourite video clips.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 154,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 130,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "87893940.jpg",
+      "externalId": "1Sa2RnavL_7rPG_abqRxyNcgN2q-0VwI-"
+    },
+    {
+      "folder": "5",
+      "filename": "80833339.jpg",
+      "externalId": "1pXgxvaqfNVfT-NZRmgdtCIHgnSJL5eyL"
+    },
+    {
+      "folder": "5",
+      "filename": "86263607.jpg",
+      "externalId": "1L-XB0cmdzuP24kBzFJHPzRsbo2frriV9"
+    },
+    {
+      "folder": "5",
+      "filename": "22917334.jpg",
+      "externalId": "1WwQoMC5Tzlo-t2F7Qwt1426w8-gycgT1"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Shawn Crahan",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

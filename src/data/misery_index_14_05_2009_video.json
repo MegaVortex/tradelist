@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Misery Index - 14.05.2009 - Quebec City - QC - Canada - Bar L'Agit",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Misery Index"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "05",
+    "year": "2009"
+  },
+  "startDateUnix": 1242259200,
+  "endDate": {
+    "day": "14",
+    "month": "05",
+    "year": "2009"
+  },
+  "endDateUnix": 1242259200,
+  "location": {
+    "city": "Quebec City",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "Bar L'Agit",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.14,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3660,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "8",
+      "filename": "29717926.jpg",
+      "externalId": "1n8R0HOvusS9gsLxE7DP6qvMJjewseXfT"
+    },
+    {
+      "folder": "8",
+      "filename": "97453408.jpg",
+      "externalId": "1A3kYqbWPyWQ9E03zZQMVLBa6Q-8nPg-T"
+    },
+    {
+      "folder": "8",
+      "filename": "46389050.jpg",
+      "externalId": "1MMHqRCPehi1JP2iAAwTivtfrR_dYpToN"
+    },
+    {
+      "folder": "8",
+      "filename": "09705873.jpg",
+      "externalId": "1HH2HqigWcVERsD__0nii67u31UHAGEjT"
+    }
+  ],
+  "setlist": []
+}

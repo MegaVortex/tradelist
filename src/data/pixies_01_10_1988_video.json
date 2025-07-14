@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Pixies - 01.10.1988 - Hilversum - Netherlands - 'Fa. Onrust'",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Pixies"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "10",
+    "year": "1988"
+  },
+  "startDateUnix": 591667200,
+  "endDate": {
+    "day": "01",
+    "month": "10",
+    "year": "1988"
+  },
+  "endDateUnix": 591667200,
+  "location": {
+    "city": "Hilversum",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "'Fa. Onrust'",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 666,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1043,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "27656557.jpg",
+      "externalId": "1e3ulijIQZn4FXR18UICoCakzpTKEwV33"
+    },
+    {
+      "folder": "28",
+      "filename": "17093533.jpg",
+      "externalId": "1U8-jirQDghQv2Ol2IfB7dnyXq35Z7dBu"
+    },
+    {
+      "folder": "28",
+      "filename": "87844796.jpg",
+      "externalId": "1nEauHZtwMX7G0h2qOKEYjAOThuBZbC7a"
+    },
+    {
+      "folder": "28",
+      "filename": "22447998.jpg",
+      "externalId": "1NizsYPFVOrsKhamjKsHFGdJVPJlvlulx"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Bone Machine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Gigantic",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "River Euphrates",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Where Is My Mind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "I've Been Tired",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

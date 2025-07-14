@@ -1,0 +1,95 @@
+{
+  "originalTitle": "Slipknot - xx.01.1998 - Omaha - NE - USA - Bronco Bowl",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "01",
+    "year": "1998"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "01",
+    "year": "1998"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Omaha",
+    "state": "NE",
+    "country": "USA",
+    "venue": "Bronco Bowl",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "Floppy",
+        "size": 876,
+        "unit": "Kb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 10,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "320x240",
+        "bitrateType": "",
+        "bitrateKbps": 598,
+        "fps": "10",
+        "standard": "CVID",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 11025,
+        "bitrateKbps": 88,
+        "channels": 1
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "VCD",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Scissors",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

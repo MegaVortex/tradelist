@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Skid Row - 24.08.2003 - Minneapolis - MN - USA - Target Centre",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Skid Row"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "08",
+    "year": "2003"
+  },
+  "startDateUnix": 1061683200,
+  "endDate": {
+    "day": "24",
+    "month": "08",
+    "year": "2003"
+  },
+  "endDateUnix": 1061683200,
+  "location": {
+    "city": "Minneapolis",
+    "state": "MN",
+    "country": "USA",
+    "venue": "Target Centre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.46,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2651,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "skid_row_21_06_2003_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "30",
+      "filename": "14659366.jpg",
+      "externalId": "1rNfvBxiKN1P78c9V5ZrZqvYjlu9iRcqS"
+    },
+    {
+      "folder": "30",
+      "filename": "51980367.jpg",
+      "externalId": "10GB1ErTWo6PUeJJqSO34CIbdhFQmv5_q"
+    },
+    {
+      "folder": "30",
+      "filename": "22954495.jpg",
+      "externalId": "1JFhwXGGPKxG-k48RY0gB2KsCBGI40pdD"
+    },
+    {
+      "folder": "30",
+      "filename": "10955215.jpg",
+      "externalId": "11rY-B-tBYU2w9GSZI3zQZiMJ41t2EEHx"
+    }
+  ],
+  "setlist": []
+}

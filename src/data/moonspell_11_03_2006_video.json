@@ -1,0 +1,109 @@
+{
+  "originalTitle": "Moonspell - 11.03.2006 - Moscow - Russia - Tochka",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Moonspell"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "03",
+    "year": "2006"
+  },
+  "startDateUnix": 1142035200,
+  "endDate": {
+    "day": "11",
+    "month": "03",
+    "year": "2006"
+  },
+  "endDateUnix": 1142035200,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Tochka",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 778,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 4274,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "moonspell_07_02_1998_video",
+    "cannibal_corpse_16_11_1999_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "31",
+      "filename": "40490630.jpg",
+      "externalId": "1LIoThxcGK6u0W4sVncYFqV7kIGRYLTxf"
+    },
+    {
+      "folder": "31",
+      "filename": "15590210.jpg",
+      "externalId": "1ybuFk6a4DjVlX4Zs5niLLUf1hHKY_xsV"
+    },
+    {
+      "folder": "31",
+      "filename": "08830392.jpg",
+      "externalId": "1XZP7hARa2ua4fQrmKNXaBp9Anx38EsCf"
+    },
+    {
+      "folder": "31",
+      "filename": "80521651.jpg",
+      "externalId": "1nBLPRSbEytv_ffB3l0AL5Mh7UeFJwD5C"
+    }
+  ],
+  "setlist": []
+}

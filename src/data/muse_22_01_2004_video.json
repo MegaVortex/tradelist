@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Muse - 22.01.2004 - Sydney - Australia - Bent Street - Channel V On Air",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Muse"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "01",
+    "year": "2004"
+  },
+  "startDateUnix": 1074729600,
+  "endDate": {
+    "day": "22",
+    "month": "01",
+    "year": "2004"
+  },
+  "endDateUnix": 1074729600,
+  "location": {
+    "city": "Sydney",
+    "state": "",
+    "country": "Australia",
+    "venue": "Bent Street",
+    "event": "Channel V On Air"
+  },
+  "tvChannel": "Channel V",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Probably VCD sourced.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.53,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1338,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "25",
+      "filename": "79766071.jpg",
+      "externalId": "1Lw5ftur8IB6I784gVb7tbcXdMaZs_t9g"
+    },
+    {
+      "folder": "25",
+      "filename": "53937391.jpg",
+      "externalId": "13WH0914NZ6IT0RZ2X6GyP3Ios0LHEptw"
+    },
+    {
+      "folder": "25",
+      "filename": "08363267.jpg",
+      "externalId": "1JkvWLPdH8oNv1NIz4tF9G2-8aANmVQtf"
+    },
+    {
+      "folder": "25",
+      "filename": "77066462.jpg",
+      "externalId": "1Iv0S7o6ywWHg_FoUSm49cu4KG3PA9Cwa"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Hysteria",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Time Is Running Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Stockholm Syndrome",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

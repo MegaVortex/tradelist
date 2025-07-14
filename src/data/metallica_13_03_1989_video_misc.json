@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Metallica - 13.03.1989 - Buffalo - NY - USA - Buffalo News [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "03",
+    "year": "1989"
+  },
+  "startDateUnix": 605750400,
+  "endDate": {
+    "day": "13",
+    "month": "03",
+    "year": "1989"
+  },
+  "endDateUnix": 605750400,
+  "location": {
+    "city": "Buffalo",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Buffalo News",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.98,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 6893,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_10_10_1988_source_2_video",
+    "metallica_xx_xx_1988_pure_rock_show_japanese_tv_video_misc",
+    "metallica_01_06_1989_video_misc",
+    "metallica_15_06_1986_video_misc",
+    "metallica_xx_xx_1986_music_tomato_show_japanese_tv_video_misc",
+    "metallica_26_08_1995_source_2_video"
+  ],
+  "childOf": "Metallica - [1986-1995] - Early Years Miscellaneous Videos",
+  "images": [
+    {
+      "folder": "25",
+      "filename": "94003814.jpg",
+      "externalId": "1D6LoOY6HrSJRVAm5N3RgoQhPn_jWjPqG"
+    },
+    {
+      "folder": "25",
+      "filename": "64419805.jpg",
+      "externalId": "19-ZTNQWR7wwDVSfbruxkjZfX9MbkaLWJ"
+    },
+    {
+      "folder": "25",
+      "filename": "58424269.jpg",
+      "externalId": "1IM1ZL8yTDbKhMNxIsYG7iMyU4831HMDF"
+    },
+    {
+      "folder": "25",
+      "filename": "08202484.jpg",
+      "externalId": "1si3EM8pwoDkzogBwzQhbYqclxIqbKtGW"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

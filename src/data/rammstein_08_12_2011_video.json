@@ -1,0 +1,174 @@
+{
+  "originalTitle": "Rammstein - 08.12.2011 - Frankfurt - Germany - Festhalle",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "12",
+    "year": "2011"
+  },
+  "startDateUnix": 1323302400,
+  "endDate": {
+    "day": "08",
+    "month": "12",
+    "year": "2011"
+  },
+  "endDateUnix": 1323302400,
+  "location": {
+    "city": "Frankfurt",
+    "state": "",
+    "country": "Germany",
+    "venue": "Festhalle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Distorted sound.",
+  "tapers": [
+    "Cat Casino"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.14,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1574,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "30",
+        "standard": "JPEG",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 16000,
+        "bitrateKbps": 512,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "HD",
+      "fileFormat": "MOV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "53",
+      "filename": "57772931.jpg",
+      "externalId": "18OV3RRdBYDsVHOFr-xepL9rZlPavQobe"
+    },
+    {
+      "folder": "53",
+      "filename": "88137022.jpg",
+      "externalId": "14fv7r23coUHHdWsXlTm8WYHPSykBwK9p"
+    },
+    {
+      "folder": "53",
+      "filename": "32743353.jpg",
+      "externalId": "1usjtQaNrApLXumoImgFn70--_3vla4Qi"
+    },
+    {
+      "folder": "53",
+      "filename": "84576670.jpg",
+      "externalId": "16rFu3y0pSiqP_nNz7qD2cwDRp8plfe1y"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Haifisch",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Buck Dich",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Mann Gegen Mann",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Mein Herz Brennt",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Amerika",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Ich Will",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Engel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

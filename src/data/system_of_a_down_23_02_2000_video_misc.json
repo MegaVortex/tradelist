@@ -1,0 +1,191 @@
+{
+  "originalTitle": "System Of A Down - 23.02.2000 - New York - NY - Sam Goody Instore [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "System Of A Down"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "02",
+    "year": "2000"
+  },
+  "startDateUnix": 951264000,
+  "endDate": {
+    "day": "23",
+    "month": "02",
+    "year": "2000"
+  },
+  "endDateUnix": 951264000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "Sam Goody Instore",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 246,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 458,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "system_of_a_down_19_02_2000_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "63",
+      "filename": "35497058.jpg",
+      "externalId": "1zWHIbwn91dEl37J-r-c-TWGnmCfOLppo"
+    },
+    {
+      "folder": "63",
+      "filename": "57566018.jpg",
+      "externalId": "1lnq9_puKqLZf2WJlgSMZNAeoweToAuas"
+    },
+    {
+      "folder": "63",
+      "filename": "72628688.jpg",
+      "externalId": "14gc-7CIwa8QRcezb_BvdH0hceuVyggby"
+    },
+    {
+      "folder": "63",
+      "filename": "65606120.jpg",
+      "externalId": "1NanhCGN_KUgocnx2T_a6ZpWTnfDuwx_i"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Family Trip",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Cake And Sodomy",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Snake Eyes And Sissies",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Get Your Gunn",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Dope Hat",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Sweet Dreams",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Organ Grinder",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Lunchbox",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "My Monkey",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Misery Machine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,137 @@
+{
+  "originalTitle": "Red Hot Chili Peppers - xx.xx.1992 - Barrie - ON - Canada - Molson Park - Lollapalooza Festival [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Red Hot Chili Peppers"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1992"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1992"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Barrie",
+    "state": "ON",
+    "country": "Canada",
+    "venue": "Molson Park",
+    "event": "Lollapalooza Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 35.84,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 70,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "red_hot_chili_peppers_xx_xx_1992_muchmusic_spotlight_video_misc",
+    "red_hot_chili_peppers_xx_xx_1992_laurel_canyon_ca_usa_muchmusic_spotlight_tattoos_source_1_video_misc",
+    "red_hot_chili_peppers_xx_xx_1992_laurel_canyon_ca_usa_muchmusic_spotlight_source_2_video_misc"
+  ],
+  "childOf": "Red Hot Chili Peppers - [1992] - Interviews",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "51522710.jpg",
+      "externalId": "1W9Qyu073ik8vaiz1NwIK4Q7oMPUqnrpD"
+    },
+    {
+      "folder": "19",
+      "filename": "56313197.jpg",
+      "externalId": "13rYCNxhYYSPqtRD6YqTjG1F8e-KeHMO6"
+    },
+    {
+      "folder": "19",
+      "filename": "01752443.jpg",
+      "externalId": "1E0UjT7xx0DfeUDTn2U-0MeRkrZ1PXSVa"
+    },
+    {
+      "folder": "19",
+      "filename": "92793562.jpg",
+      "externalId": "1zn0Dx0XxLvazP9CaKo_CvisW43aWijWo"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Anthony",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Live Footage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "Flea",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

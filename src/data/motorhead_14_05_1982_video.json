@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Motorhead - 14.05.1982 - New York - NY - USA - Palladium",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Motorhead"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "05",
+    "year": "1982"
+  },
+  "startDateUnix": 390182400,
+  "endDate": {
+    "day": "14",
+    "month": "05",
+    "year": "1982"
+  },
+  "endDateUnix": 390182400,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Palladium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.69,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1507,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "75",
+      "filename": "92795681.jpg",
+      "externalId": "1C1V9NaKkR9ARP2z9S30Jr-2_7cH3YFin"
+    },
+    {
+      "folder": "75",
+      "filename": "07092663.jpg",
+      "externalId": "1pfd8XPfim2DMPgGnaKkquOTLX1XQ4N6s"
+    },
+    {
+      "folder": "75",
+      "filename": "12706764.jpg",
+      "externalId": "18lzVUCjo1DxRwjaYApXOobr_qt1z4ltq"
+    },
+    {
+      "folder": "75",
+      "filename": "60302307.jpg",
+      "externalId": "1A9mbSC8amTtIN34b6l0rxizRmYtmd_qF"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Ace Of Spades",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Stay Clean",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Over The Top",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Hammer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Leaving Here",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Eddie Holland"
+    },
+    {
+      "order": 6,
+      "song": "Jailbait",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Bite The Bullet",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "The Chase Is Better Than The Catch",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Overkill",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

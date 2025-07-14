@@ -1,0 +1,150 @@
+{
+  "originalTitle": "Nirvana - 22.02.1994 - Rome - Italy - Palaghiaccio (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "02",
+    "year": "1994"
+  },
+  "startDateUnix": 761875200,
+  "endDate": {
+    "day": "22",
+    "month": "02",
+    "year": "1994"
+  },
+  "endDateUnix": 761875200,
+  "location": {
+    "city": "Rome",
+    "state": "",
+    "country": "Italy",
+    "venue": "Palaghiaccio",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "Martin Behling",
+  "notes": "PRO#1.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 471,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 408,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "de",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "nirvana_08_01_1994_video",
+    "nirvana_02_04_1994_source_4_video",
+    "nirvana_02_04_1994_source_5_video",
+    "nirvana_06_02_1994_source_5_video",
+    "nirvana_06_02_1994_source_6_video",
+    "nirvana_14_02_1994_source_2_video",
+    "nirvana_23_02_1994_source_2_video",
+    "nirvana_27_02_1994_source_3_video",
+    "nirvana_01_03_1994_source_4_video"
+  ],
+  "childOf": "Nirvana - [1994] - '94 PROject'",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "03139203.jpg",
+      "externalId": "1SPpU6w4vPAJMsc6ck9sWdHtwFTJcKRW1"
+    },
+    {
+      "folder": "80",
+      "filename": "75663463.jpg",
+      "externalId": "16R_z6A6XdziH3nIKRMaDF-DwojX_5l9l"
+    },
+    {
+      "folder": "80",
+      "filename": "68225067.jpg",
+      "externalId": "1v_L_Thd2Lcy6Xee33rE6gW_8px4OsDpO"
+    },
+    {
+      "folder": "80",
+      "filename": "56283680.jpg",
+      "externalId": "1lsZnqCcyODrVdLhPjPvBqGnlieemR0hj"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Smells Like Teen Spirit",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Lithium",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Pennyroyal Tea",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Rape Me",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

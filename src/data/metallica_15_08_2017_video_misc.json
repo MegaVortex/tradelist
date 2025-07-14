@@ -1,0 +1,130 @@
+{
+  "originalTitle": "Metallica - 15.08.2017 - Los Angeles - CA - USA - Carpool Karaoke [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "08",
+    "year": "2017"
+  },
+  "startDateUnix": 1502755200,
+  "endDate": {
+    "day": "15",
+    "month": "08",
+    "year": "2017"
+  },
+  "endDateUnix": 1502755200,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Carpool Karaoke",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.04,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 977,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_23_09_2013_video",
+    "metallica_12_08_2020_source_2_video",
+    "metallica_28_08_2020_video",
+    "metallica_12_08_2020_video"
+  ],
+  "childOf": "Metallica - [2013-2020] - TV Appearances",
+  "images": [
+    {
+      "folder": "74",
+      "filename": "05929433.jpg",
+      "externalId": "1pdD2vIw92fHjMM_VrCbVi62E7FIrD0T_"
+    },
+    {
+      "folder": "74",
+      "filename": "64891940.jpg",
+      "externalId": "1JfQ94svwg2sQQVveY43y5FYfxdn_NCYU"
+    },
+    {
+      "folder": "74",
+      "filename": "04880425.jpg",
+      "externalId": "1bAZ89aCHXa3F9HDZgk4C3csVDhy7tWul"
+    },
+    {
+      "folder": "74",
+      "filename": "57356696.jpg",
+      "externalId": "14pPt8JdBcOHnPBiyJzH2fbTwIuz1RkbL"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Singing Songs",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

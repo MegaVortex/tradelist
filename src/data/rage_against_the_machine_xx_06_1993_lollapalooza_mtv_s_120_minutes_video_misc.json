@@ -1,0 +1,129 @@
+{
+  "originalTitle": "Rage Against The Machine - xx.06.1993 - Lollapalooza - MTV's 120 Minutes [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rage Against The Machine"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "06",
+    "year": "1993"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "06",
+    "year": "1993"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Lollapalooza",
+    "state": "",
+    "country": "MTV's 120 Minutes",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.94,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1724,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "rage_against_the_machine_31_05_1993_source_1_video",
+    "rage_against_the_machine_xx_xx_1993_mtv_news_rave_on_video_misc",
+    "rage_against_the_machine_04_06_1993_source_1_video"
+  ],
+  "childOf": "Rage Against The Machine - [1993] - Live Performances",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "63934107.jpg",
+      "externalId": "13Fw7LgURrYZRHjcNH-ZTpRLrH2dYaUTm"
+    },
+    {
+      "folder": "69",
+      "filename": "06113979.jpg",
+      "externalId": "1REvk-hW9sqLb4wVmi1L33_l1hzS-HBeQ"
+    },
+    {
+      "folder": "69",
+      "filename": "93790269.jpg",
+      "externalId": "1tkhHmebyN4kh20jPKKKcyrdWp-yDWxA7"
+    },
+    {
+      "folder": "69",
+      "filename": "30840907.jpg",
+      "externalId": "1uXuOZ2eZhVe9UnoWseQ7rzQp1RHpR6yo"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Tom Morello",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Live Footage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

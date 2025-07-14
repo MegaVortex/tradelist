@@ -1,0 +1,136 @@
+{
+  "originalTitle": "Parkway Drive - 19.05.2011 - Byron Bay - NSW - Australia - Byron Bay High School",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Parkway Drive"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "05",
+    "year": "2011"
+  },
+  "startDateUnix": 1305763200,
+  "endDate": {
+    "day": "19",
+    "month": "05",
+    "year": "2011"
+  },
+  "endDateUnix": 1305763200,
+  "location": {
+    "city": "Byron Bay",
+    "state": "NSW",
+    "country": "Australia",
+    "venue": "Byron Bay High School",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Official BD - NT.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.65,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 869,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "23.98",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [
+    "parkway_drive_xx_xx_2012_home_is_for_the_heartless_documentary_video_misc",
+    "parkway_drive_10_07_2011_video",
+    "parkway_drive_19_11_2011_video"
+  ],
+  "childOf": "Parkway Drive - [2011-2012] - Home Is For The Heartless",
+  "images": [
+    {
+      "folder": "42",
+      "filename": "30232690.jpg",
+      "externalId": "1VelldA_9yxwsX4_aixByYQwi6ZDidIwP"
+    },
+    {
+      "folder": "42",
+      "filename": "62572366.jpg",
+      "externalId": "1wdMKUcV1S4ywaQLby9hymuzS3FFGggv8"
+    },
+    {
+      "folder": "42",
+      "filename": "15914218.jpg",
+      "externalId": "18xEjZmGAHinb1VrWVZ5KeZer4EUTOrsm"
+    },
+    {
+      "folder": "42",
+      "filename": "59365015.jpg",
+      "externalId": "1NG7e6ra-TcRQf2Vc1L9Sco90egagVY3q"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Sleepwalker",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Karma",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Romance Is Dead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

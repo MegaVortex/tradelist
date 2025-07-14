@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Metallica - 31.05.2003 - London - England - Riverside Studios (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "05",
+    "year": "2003"
+  },
+  "startDateUnix": 1054339200,
+  "endDate": {
+    "day": "31",
+    "month": "05",
+    "year": "2003"
+  },
+  "endDateUnix": 1054339200,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Riverside Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "It's beautiful quality with great audio.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.58,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2405,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "17",
+      "filename": "07905334.jpg",
+      "externalId": "1nzTzJmkO69RKOhEni2elX1bqPTlXWl4N"
+    },
+    {
+      "folder": "17",
+      "filename": "66123741.jpg",
+      "externalId": "11Z3kiDNSL0p1TJsCUVom-hxv5ycHuY4G"
+    },
+    {
+      "folder": "17",
+      "filename": "05095872.jpg",
+      "externalId": "1JJ3QIzBbp_GyQe7umSUPKT1tuanexKoA"
+    },
+    {
+      "folder": "17",
+      "filename": "84213928.jpg",
+      "externalId": "1tBEvPoxAB8U2oFCh-8BvsNxk2pit28uL"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Blackened",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "No Remorse",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Fuel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Sad But True",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Frantic",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Welcome Home (Sanitarium)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "St. Anger",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

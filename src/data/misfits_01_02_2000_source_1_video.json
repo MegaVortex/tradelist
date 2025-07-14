@@ -1,0 +1,145 @@
+{
+  "originalTitle": "Misfits - 01.02.2000 - Tokyo - Japan - Shibuya Club Quattro (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Misfits"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "02",
+    "year": "2000"
+  },
+  "startDateUnix": 949363200,
+  "endDate": {
+    "day": "01",
+    "month": "02",
+    "year": "2000"
+  },
+  "endDateUnix": 949363200,
+  "location": {
+    "city": "Tokyo",
+    "state": "",
+    "country": "Japan",
+    "venue": "Shibuya Club Quattro",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Space Shower TV show.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.55,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1335,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "misfits_07_08_1999_video",
+    "misfits_01_02_2000_source_2_video",
+    "misfits_02_02_2000_video"
+  ],
+  "childOf": "Misfits - [1999-2000] - Japanese Live Performances",
+  "images": [
+    {
+      "folder": "61",
+      "filename": "05169802.jpg",
+      "externalId": "1Vkmv_RNv0V79VA0Lrz6L8LJPjV6FgGCH"
+    },
+    {
+      "folder": "61",
+      "filename": "54349124.jpg",
+      "externalId": "1F4lb395pOq_8zbTtp0TYVb_ZD901iwPa"
+    },
+    {
+      "folder": "61",
+      "filename": "62946765.jpg",
+      "externalId": "1qc3LzfGAThNv5K2E_U25C7FVlHw9ByMZ"
+    },
+    {
+      "folder": "61",
+      "filename": "63395729.jpg",
+      "externalId": "1GDBe_WLbi5ypfnsONhWJ5A6_r-P01V3q"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Forbidden Zone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Misfits - xx.02.2000 - Japan - Megalo Maniacs (Space Shower TV)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 2,
+      "song": "Scream (promo video)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

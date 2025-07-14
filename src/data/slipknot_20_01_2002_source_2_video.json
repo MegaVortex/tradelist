@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Slipknot - 20.01.2002 - Helsinki - Finland - Hartwell (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "01",
+    "year": "2002"
+  },
+  "startDateUnix": 1011484800,
+  "endDate": {
+    "day": "20",
+    "month": "01",
+    "year": "2002"
+  },
+  "endDateUnix": 1011484800,
+  "location": {
+    "city": "Helsinki",
+    "state": "",
+    "country": "Finland",
+    "venue": "Hartwell",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 73.8,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 531,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "352x288",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG1",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "MPG"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "70328222.jpg",
+      "externalId": "1u5BGDlhZ9ay2Uhu7ywVAP2_LeZsqkBsm"
+    },
+    {
+      "folder": "20",
+      "filename": "52301874.jpg",
+      "externalId": "129qeiJ6fAqtxs_fCDrAuXh5qODVxsSV8"
+    },
+    {
+      "folder": "20",
+      "filename": "24047199.jpg",
+      "externalId": "19TpfAE55vbghQwlXsEddvRL5cSNkfxr-"
+    },
+    {
+      "folder": "20",
+      "filename": "68505113.jpg",
+      "externalId": "1xnCRdHP3JBOIZBpyzJK0-GUELm4oRDDx"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "People = Shit",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Liberate",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Left Behind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

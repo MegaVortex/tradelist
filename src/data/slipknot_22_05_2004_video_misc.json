@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Slipknot - 22.05.2004 - USA - Headbanger's Ball Episode [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "05",
+    "year": "2004"
+  },
+  "startDateUnix": 1085184000,
+  "endDate": {
+    "day": "22",
+    "month": "05",
+    "year": "2004"
+  },
+  "endDateUnix": 1085184000,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "Headbanger's Ball Episode",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.15,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 7140,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "3",
+      "filename": "s3307129.png.jpg",
+      "externalId": "1ISXL9na0SJbvTc57EnJenvsbXG79oWbs"
+    },
+    {
+      "folder": "3",
+      "filename": "s6173412.png.jpg",
+      "externalId": "1l3vJFMlnU86CxSEsnphMqyo6PG0jKhpV"
+    },
+    {
+      "folder": "3",
+      "filename": "s8291034.jpg.jpg",
+      "externalId": "1TwnY2-3Dk1VR1TudiJojbzR24Wq2zunt"
+    },
+    {
+      "folder": "3",
+      "filename": "s9944404.png.jpg",
+      "externalId": "1TFGd1J4J8KwRw9ZKITEteD7U5ck3EUPp"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

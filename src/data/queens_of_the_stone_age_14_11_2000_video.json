@@ -1,0 +1,123 @@
+{
+  "originalTitle": "Queens Of The Stone Age - 14.11.2000 - New York - NY - USA - NBC Studios - Conan O'Brien Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "11",
+    "year": "2000"
+  },
+  "startDateUnix": 974160000,
+  "endDate": {
+    "day": "14",
+    "month": "11",
+    "year": "2000"
+  },
+  "endDateUnix": 974160000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Conan O'Brien Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.38,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6527,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "queens_of_the_stone_age_19_12_2002_video",
+    "queens_of_the_stone_age_22_05_2003_video",
+    "queens_of_the_stone_age_08_12_2002_video",
+    "queens_of_the_stone_age_28_07_2002_video",
+    "queens_of_the_stone_age_23_04_2003_video",
+    "queens_of_the_stone_age_04_11_2000_video"
+  ],
+  "childOf": "Queens Of The Stone Age - [2000-2003] - TV Appearances",
+  "images": [
+    {
+      "folder": "66",
+      "filename": "96603468.jpg",
+      "externalId": "1uxLT4LYl2PzVlYNwQ9HxzsfqPdTI4tj5"
+    },
+    {
+      "folder": "66",
+      "filename": "03340018.jpg",
+      "externalId": "1T-vF--EIMfAUaWAy8-RT4ZcsAk2UYIwY"
+    },
+    {
+      "folder": "66",
+      "filename": "66183169.jpg",
+      "externalId": "1KzLOvjszaH0ObZTJYTPKb4pgotv5o6rD"
+    },
+    {
+      "folder": "66",
+      "filename": "62142554.jpg",
+      "externalId": "1Z7KxyFghm2PDnHCIRDWd8Bs4jAl2pa7E"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Lost Art Of Keeping A Secret",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

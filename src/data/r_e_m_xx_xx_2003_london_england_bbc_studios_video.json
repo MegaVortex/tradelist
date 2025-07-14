@@ -1,0 +1,128 @@
+{
+  "originalTitle": "R.E.M. - xx.xx.2003 - London - England - BBC Studios - Parkinson Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "R.E.M."
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2003"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2003"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Parkinson Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.9,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3538,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "r_e_m_xx_xx_1989_video",
+    "r_e_m_15_06_1989_video",
+    "r_e_m_14_03_1991_video",
+    "r_e_m_xx_02_1995_video",
+    "r_e_m_30_10_1998_video",
+    "r_e_m_27_10_1998_source_2_video",
+    "r_e_m_01_05_2001_video",
+    "r_e_m_26_04_2001_video",
+    "r_e_m_20_11_1984_video",
+    "r_e_m_14_10_2003_video",
+    "r_e_m_23_09_2004_video"
+  ],
+  "childOf": "R.E.M. - [1984-2004] - BBC TV Appearances",
+  "images": [
+    {
+      "folder": "31",
+      "filename": "18355889.jpg",
+      "externalId": "1ddy_kAVSyAoP5d3oMVEEdiWdpb_SdKmR"
+    },
+    {
+      "folder": "31",
+      "filename": "82283483.jpg",
+      "externalId": "1DBO-aHeWp9IA88lJl4l5fjdWpbuv5nKK"
+    },
+    {
+      "folder": "31",
+      "filename": "31127605.jpg",
+      "externalId": "1a01F6GiDAzzblEXuQ-X1wkfcM75LPj0q"
+    },
+    {
+      "folder": "31",
+      "filename": "72444601.jpg",
+      "externalId": "1FNpCqXi6rWzCoiRqv0r2aczov2A30z2i"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Bad Day",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

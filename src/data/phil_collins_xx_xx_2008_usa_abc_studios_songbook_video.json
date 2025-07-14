@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Phil Collins - xx.xx.2008 - USA - ABC Studios - 'Songbook'",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Phil Collins"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2008"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2008"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "ABC Studios",
+    "venue": "'Songbook'",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Phil talks with Will Hodgkinson.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.29,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2849,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "65476582.jpg",
+      "externalId": "1dLTkoVS4FegBjrOMETv2UESjq0KfLA2k"
+    },
+    {
+      "folder": "19",
+      "filename": "07093080.jpg",
+      "externalId": "1aV1l2AtfGZKJuVT6iTlCfzHSNMEwnDTg"
+    },
+    {
+      "folder": "19",
+      "filename": "90094834.jpg",
+      "externalId": "1cOI_SJ25eMNq1-sF_0Bqe6XrGFeAZfBE"
+    },
+    {
+      "folder": "19",
+      "filename": "00742877.jpg",
+      "externalId": "1aIKhuOrBF6vvx0pQc1CtxohLRPN4SNvo"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "In The Air Tonight",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Against All Odds",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Another Day In Paradise",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "You'll Be In My Heart",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

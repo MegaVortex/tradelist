@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Slipknot - 16.10.2001 - Baltimore - MD - USA - Baltimore Arena (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "10",
+    "year": "2001"
+  },
+  "startDateUnix": 1003190400,
+  "endDate": {
+    "day": "16",
+    "month": "10",
+    "year": "2001"
+  },
+  "endDateUnix": 1003190400,
+  "location": {
+    "city": "Baltimore",
+    "state": "MD",
+    "country": "USA",
+    "venue": "Baltimore Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Enhanced picture quality.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 666,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "648x486",
+        "bitrateType": "",
+        "bitrateKbps": 12881,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 96,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "MP4"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "82",
+      "filename": "15383533.jpg",
+      "externalId": "15z8cnwdziyQ6ux15LYZeWBJUPXpC496M"
+    },
+    {
+      "folder": "82",
+      "filename": "87130064.jpg",
+      "externalId": "13Bqn3D3COZ8BywNlFRzoZR2lTKgTMjBs"
+    },
+    {
+      "folder": "82",
+      "filename": "83380649.jpg",
+      "externalId": "13soPLlo3NaTz1yWThvTnoGXQrIhqZU7Z"
+    },
+    {
+      "folder": "82",
+      "filename": "89576720.jpg",
+      "externalId": "1D2mwPtjPbhnRc58MSJWcEzPP5-qA-lgr"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "People = Shit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Liberate",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Get This",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Slipknot - 20.08.2005 - San Bernardino - CA - USA - Hyundai Pavilion At Glen Helen",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "08",
+    "year": "2005"
+  },
+  "startDateUnix": 1124496000,
+  "endDate": {
+    "day": "20",
+    "month": "08",
+    "year": "2005"
+  },
+  "endDateUnix": 1124496000,
+  "location": {
+    "city": "San Bernardino",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Hyundai Pavilion At Glen Helen",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.2,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2254,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "1",
+      "filename": "34552.jpg",
+      "externalId": "12X9S7iFYwdT5pVsq7G_LYhUs0_ovYtIX"
+    },
+    {
+      "folder": "1",
+      "filename": "65559.jpg",
+      "externalId": "1zvlJkR17SE9rHnIpkiLmN4HqaGoFfmY8"
+    },
+    {
+      "folder": "1",
+      "filename": "76586.jpg",
+      "externalId": "1lkjHakWzMaGu9xbmzJBNEAiXnVZCJlo2"
+    },
+    {
+      "folder": "1",
+      "filename": "04330.jpg",
+      "externalId": "1_OhmJNQHWo28yw-wDmY7gp-YaCWtgAtA"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Blister Exists",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "(Sic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Before I Forget",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Heretic Anthem",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Duality",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Spit It Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "People = Shit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Wait and Bleed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Surfacing",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

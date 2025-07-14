@@ -1,0 +1,135 @@
+{
+  "originalTitle": "Red Hot Chili Peppers - 01.08.2001 - New York - NY - USA - MTV Studios - MTV 20 Years",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Red Hot Chili Peppers"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "08",
+    "year": "2001"
+  },
+  "startDateUnix": 996624000,
+  "endDate": {
+    "day": "01",
+    "month": "08",
+    "year": "2001"
+  },
+  "endDateUnix": 996624000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "MTV Studios",
+    "event": "MTV 20 Years"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.62,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5000,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "red_hot_chili_peppers_13_02_1996_video",
+    "red_hot_chili_peppers_24_09_1999_video",
+    "red_hot_chili_peppers_08_12_1999_video",
+    "red_hot_chili_peppers_30_11_2000_video",
+    "red_hot_chili_peppers_xx_12_1988_video",
+    "red_hot_chili_peppers_06_06_2002_video",
+    "red_hot_chili_peppers_05_07_2002_video",
+    "red_hot_chili_peppers_20_12_2002_video",
+    "red_hot_chili_peppers_15_02_2003_video"
+  ],
+  "childOf": "Red Hot Chili Peppers - [1988-2003] - TV Appearances",
+  "images": [
+    {
+      "folder": "7",
+      "filename": "05704192.jpg",
+      "externalId": "12t6E_hRLoFPPRvFF7C-pmeXkC1XnKyf7"
+    },
+    {
+      "folder": "7",
+      "filename": "30750756.jpg",
+      "externalId": "1Nv5D-wkF36UVzy0twbkvKemQ3EbcpMZl"
+    },
+    {
+      "folder": "7",
+      "filename": "70824917.jpg",
+      "externalId": "1F5oUwzqlxPF19bvSDZ9QcoUMnpbKSF0E"
+    },
+    {
+      "folder": "7",
+      "filename": "67700973.jpg",
+      "externalId": "1vE3B3GwB4Q3whBLRDuLINoSavdo52j2r"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "You're Gonna Get Yours / Give It Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Especial TV Programm - MTV weekend 2002 (15 Min... broadcast including live videos and interviews. Official videos has been removed from the disk - the picture speed is very slow).",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

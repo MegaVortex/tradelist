@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Metallica - 02.05.2013 - Los Angeles - CA - USA - Club Nokia - Revolver Golden Gods Awards (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "05",
+    "year": "2013"
+  },
+  "startDateUnix": 1367452800,
+  "endDate": {
+    "day": "02",
+    "month": "05",
+    "year": "2013"
+  },
+  "endDateUnix": 1367452800,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Club Nokia",
+    "event": "Revolver Golden Gods Awards"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-50",
+        "size": 44.6,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 16200,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [
+    "metallica_19_09_2013_source_2_video",
+    "metallica_24_09_2013_source_4_video",
+    "metallica_10_08_2013_source_2_video",
+    "metallica_09_06_2012_source_2_video",
+    "metallica_08_07_2011_source_2_video",
+    "metallica_02_08_2009_source_2_video",
+    "metallica_04_04_2009_source_3_video"
+  ],
+  "childOf": "Metallica - [2009-2013] - HD TV Appearances",
+  "images": [
+    {
+      "folder": "51",
+      "filename": "18032983.jpg",
+      "externalId": "1P6E_HSBhzceT4q39SkpgoMUytE5b_IBV"
+    },
+    {
+      "folder": "51",
+      "filename": "85494083.jpg",
+      "externalId": "1lPdZVRZpDJIZHPt4IwoHdCINKfWSgHeE"
+    },
+    {
+      "folder": "51",
+      "filename": "59909192.jpg",
+      "externalId": "1mH9u4nwd_mif6C4SGENQSo5WIyIdpkvZ"
+    },
+    {
+      "folder": "51",
+      "filename": "41949344.jpg",
+      "externalId": "1XuSRMmt1ghpxtyj2D6yaDJMh0FxNOE-F"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Disposable Heroes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "For Whom The Bell Tolls",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Seek And Destroy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

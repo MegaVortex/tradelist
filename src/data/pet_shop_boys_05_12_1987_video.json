@@ -1,0 +1,111 @@
+{
+  "originalTitle": "Pet Shop Boys - 05.12.1987 - Duesseldorf - Germany - ZDF Studios - Peter's Pop Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Pet Shop Boys"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "12",
+    "year": "1987"
+  },
+  "startDateUnix": 565660800,
+  "endDate": {
+    "day": "05",
+    "month": "12",
+    "year": "1987"
+  },
+  "endDateUnix": 565660800,
+  "location": {
+    "city": "Duesseldorf",
+    "state": "",
+    "country": "Germany",
+    "venue": "ZDF Studios",
+    "event": "Peter's Pop Show"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 768,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 692,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "pet_shop_boys_xx_xx_1986_video",
+    "pet_shop_boys_06_12_1986_video",
+    "pet_shop_boys_xx_xx_1987_video",
+    "pet_shop_boys_12_04_2002_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "36",
+      "filename": "53013355.jpg",
+      "externalId": "1yNZlUCz0rthafGTABhggLiOQKXhi8IvY"
+    },
+    {
+      "folder": "36",
+      "filename": "87241785.jpg",
+      "externalId": "184C7WkFLPuS4H5b_NTf7f7pU0P52S_WL"
+    },
+    {
+      "folder": "36",
+      "filename": "01168225.jpg",
+      "externalId": "1luZuUTpPivydp7tscaNIcKYzzK0wiv31"
+    },
+    {
+      "folder": "36",
+      "filename": "20974328.jpg",
+      "externalId": "1PPaOPO75vWJnnClbLrpa-EmGBc6AsTPZ"
+    }
+  ],
+  "setlist": []
+}

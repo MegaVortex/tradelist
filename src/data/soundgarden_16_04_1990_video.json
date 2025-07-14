@@ -1,0 +1,182 @@
+{
+  "originalTitle": "Soundgarden - 16.04.1990 - Dusseldorf - Germany - Philipshalle",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Soundgarden"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "04",
+    "year": "1990"
+  },
+  "startDateUnix": 640224000,
+  "endDate": {
+    "day": "16",
+    "month": "04",
+    "year": "1990"
+  },
+  "endDateUnix": 640224000,
+  "location": {
+    "city": "Dusseldorf",
+    "state": "",
+    "country": "Germany",
+    "venue": "Philipshalle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.93,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2569,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "soundgarden_20_09_1996_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "12",
+      "filename": "42052144.jpg",
+      "externalId": "1nB_JR1mOTEBpiuoz6elpEfxC5P15Vel9"
+    },
+    {
+      "folder": "12",
+      "filename": "44538896.jpg",
+      "externalId": "19CV2W--cpr8tRorl9uIXcse2khGjjzDB"
+    },
+    {
+      "folder": "12",
+      "filename": "53985715.jpg",
+      "externalId": "1zHgjGtWSSYLPqM3fbZasuOlUUfaGRQZ9"
+    },
+    {
+      "folder": "12",
+      "filename": "81758220.jpg",
+      "externalId": "1j2BxJaiqnd8YBkpmQ2-_oKVwZjE-ApLd"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Announcement By Alan Bangs",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Flower",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Hands All Over",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Gun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Loud Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Get On The Snake",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Full On",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Nothing To Say",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Beyond The Wheel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

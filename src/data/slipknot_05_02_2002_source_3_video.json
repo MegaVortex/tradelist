@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Slipknot - 05.02.2002 - Buelach - Switzerland - Eulachhalle (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "02",
+    "year": "2002"
+  },
+  "startDateUnix": 1012867200,
+  "endDate": {
+    "day": "05",
+    "month": "02",
+    "year": "2002"
+  },
+  "endDateUnix": 1012867200,
+  "location": {
+    "city": "Buelach",
+    "state": "",
+    "country": "Switzerland",
+    "venue": "Eulachhalle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 352,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 209,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": 13907,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MP4"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "82",
+      "filename": "90350409.jpg",
+      "externalId": "1gV7TNr-JzibIHykZjZ5XfqxtWSQf1vvT"
+    },
+    {
+      "folder": "82",
+      "filename": "48611296.jpg",
+      "externalId": "1aGzdTnLlMDPG-DhbzV_3K3Rhoaz_er5x"
+    },
+    {
+      "folder": "82",
+      "filename": "61153793.jpg",
+      "externalId": "1a2Xddy1QcI48LpYbmzr73U1ZcGY7Y7vI"
+    },
+    {
+      "folder": "82",
+      "filename": "38646721.jpg",
+      "externalId": "1_4jJenUI9X2skqEHxeWv860jPJyzVS9V"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "People = Shit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,114 @@
+{
+  "originalTitle": "Metallica - 15.06.1986 - USA - Metal Mania [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "06",
+    "year": "1986"
+  },
+  "startDateUnix": 519177600,
+  "endDate": {
+    "day": "15",
+    "month": "06",
+    "year": "1986"
+  },
+  "endDateUnix": 519177600,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "Metal Mania",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.98,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 6893,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_10_10_1988_source_2_video",
+    "metallica_xx_xx_1988_pure_rock_show_japanese_tv_video_misc",
+    "metallica_13_03_1989_video_misc",
+    "metallica_01_06_1989_video_misc",
+    "metallica_xx_xx_1986_music_tomato_show_japanese_tv_video_misc",
+    "metallica_26_08_1995_source_2_video"
+  ],
+  "childOf": "Metallica - [1986-1995] - Early Years Miscellaneous Videos",
+  "images": [
+    {
+      "folder": "25",
+      "filename": "69770470.jpg",
+      "externalId": "12vNq-DAeSduu9ziL2je9X3bcKcj3dg3L"
+    },
+    {
+      "folder": "25",
+      "filename": "45702267.jpg",
+      "externalId": "1DA7YX_bt-VhnjBbB2j7u8-5GdoUITOoC"
+    },
+    {
+      "folder": "25",
+      "filename": "13167422.jpg",
+      "externalId": "1FTwGWLa5zzKEObn_1OzUwi4F9LodKhiE"
+    },
+    {
+      "folder": "25",
+      "filename": "54444028.jpg",
+      "externalId": "1yWzRdB8wfK3CipsAkwETXjGseeCUH1_2"
+    }
+  ],
+  "setlist": []
+}

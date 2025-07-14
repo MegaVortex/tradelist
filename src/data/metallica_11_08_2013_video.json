@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Metallica - 11.08.2013 - Osaka - Japan - Maishima - Summer Sonic",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "08",
+    "year": "2013"
+  },
+  "startDateUnix": 1376179200,
+  "endDate": {
+    "day": "11",
+    "month": "08",
+    "year": "2013"
+  },
+  "endDateUnix": 1376179200,
+  "location": {
+    "city": "Osaka",
+    "state": "",
+    "country": "Japan",
+    "venue": "Maishima",
+    "event": "Summer Sonic"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "WOWOW broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.19,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 501,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 183,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "65",
+      "filename": "28467021.jpg",
+      "externalId": "1SO43oxxuWrD_AG2hS06wP3TgctQMy67P"
+    },
+    {
+      "folder": "65",
+      "filename": "40677403.jpg",
+      "externalId": "1RFQcmt8iJeQrJWqtQFgQtbt0_OYld86J"
+    },
+    {
+      "folder": "65",
+      "filename": "58724976.jpg",
+      "externalId": "1CT19kcdM_2d8eR9kV84PTttBQnfYcFb-"
+    },
+    {
+      "folder": "65",
+      "filename": "21650376.jpg",
+      "externalId": "112ncdu7o7Y9MQTpqWQNJSMY66lyFcIGb"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Master Of Puppets",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

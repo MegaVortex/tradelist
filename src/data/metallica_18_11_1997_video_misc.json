@@ -1,0 +1,121 @@
+{
+  "originalTitle": "Metallica - 18.11.1997 - Paris - France - Hotel Plaza Athenee [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "11",
+    "year": "1997"
+  },
+  "startDateUnix": 879811200,
+  "endDate": {
+    "day": "18",
+    "month": "11",
+    "year": "1997"
+  },
+  "endDateUnix": 879811200,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "Hotel Plaza Athenee",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.7,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6419,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_18_11_1997_video",
+    "metallica_19_11_1997_video_misc",
+    "metallica_xx_11_1997_re_load_promo_tour_video_misc"
+  ],
+  "childOf": "Metallica - [1997] - Re-Load Day In Paris",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "20448604.jpg",
+      "externalId": "1gDgweL9sdSVRUDNiANdiV3wzPYAT2r6K"
+    },
+    {
+      "folder": "69",
+      "filename": "78901628.jpg",
+      "externalId": "1kAahItjhMcikMuXH5YlIKm3JKpzgmOJL"
+    },
+    {
+      "folder": "69",
+      "filename": "65767437.jpg",
+      "externalId": "17XaEkVXLUsnIrESvS79dn1ZpArHLIr49"
+    },
+    {
+      "folder": "69",
+      "filename": "67965735.jpg",
+      "externalId": "1Z0hCySKC39HV-HAJJ7X5PWJ71hRZEg6k"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Metallica Welcomed by French Fans",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

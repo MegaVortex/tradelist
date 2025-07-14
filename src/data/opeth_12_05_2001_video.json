@@ -1,0 +1,158 @@
+{
+  "originalTitle": "Opeth - 12.05.2001 - Fort Lauderdale - FL - USA - Culture Room",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Opeth"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "05",
+    "year": "2001"
+  },
+  "startDateUnix": 989625600,
+  "endDate": {
+    "day": "12",
+    "month": "05",
+    "year": "2001"
+  },
+  "endDateUnix": 989625600,
+  "location": {
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "country": "USA",
+    "venue": "Culture Room",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "VCD sourced.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.11,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 8292,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "opeth_29_04_2001_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "71",
+      "filename": "52124180.jpg",
+      "externalId": "1WBcUZYMLGQr8nTUNS--iDCW2vswugYb3"
+    },
+    {
+      "folder": "71",
+      "filename": "54387309.jpg",
+      "externalId": "1NTIJEve-ZW0YNo60N1I0-dtbc3SCwiij"
+    },
+    {
+      "folder": "71",
+      "filename": "09418019.jpg",
+      "externalId": "1P7x6uw6HTWckVJjYNUqwdqOCwV_d0Oip"
+    },
+    {
+      "folder": "71",
+      "filename": "68923395.jpg",
+      "externalId": "1BltlVBaLHbxmIO3gxsQk6BYS_goic8al"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "White Cluster",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Drapery Falls",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Advent",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Leper Affinity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Demon Of The Fall",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Interview",
+      "feat": "Mikel",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

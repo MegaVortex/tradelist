@@ -1,0 +1,118 @@
+{
+  "originalTitle": "Rammstein - 01.08.2013 - Wacken - Germany - Wacken Open Air (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "08",
+    "year": "2013"
+  },
+  "startDateUnix": 1375315200,
+  "endDate": {
+    "day": "01",
+    "month": "08",
+    "year": "2013"
+  },
+  "endDateUnix": 1375315200,
+  "location": {
+    "city": "Wacken",
+    "state": "",
+    "country": "Germany",
+    "venue": "Wacken Open Air",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Highly incomplete, just 1 song.",
+  "tapers": [
+    "CasMotorhead"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 614,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 331,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "HD",
+      "fileFormat": "MOV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "53",
+      "filename": "44463638.jpg",
+      "externalId": "1lfcONUqE-PM-1_2JvHi23MZacGG9XDUa"
+    },
+    {
+      "folder": "53",
+      "filename": "59729378.jpg",
+      "externalId": "1wf3sZ3plstbZ2KH7Y6r7ZnKqvdUjKt27"
+    },
+    {
+      "folder": "53",
+      "filename": "47922120.jpg",
+      "externalId": "1Xvu1qdJeltX7vahpRTr29zMBJ0CbfDkj"
+    },
+    {
+      "folder": "53",
+      "filename": "79386562.jpg",
+      "externalId": "1v4KnwvuzCYpW5hEYJR3xtoR8_Rpctpyc"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Ich Tu Dir Weh",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

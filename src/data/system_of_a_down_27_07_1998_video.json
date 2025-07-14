@@ -1,0 +1,180 @@
+{
+  "originalTitle": "System Of A Down - 27.07.1998 - Louisville - KY - USA - The Brewery - Ozzfest",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "System Of A Down"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "07",
+    "year": "1998"
+  },
+  "startDateUnix": 901497600,
+  "endDate": {
+    "day": "27",
+    "month": "07",
+    "year": "1998"
+  },
+  "endDateUnix": 901497600,
+  "location": {
+    "city": "Louisville",
+    "state": "KY",
+    "country": "USA",
+    "venue": "The Brewery",
+    "event": "Ozzfest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.32,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1786,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "24806766.jpg",
+      "externalId": "1f5rX3CluPsBAAFpXFHAAPrPVBwgZ2vtn"
+    },
+    {
+      "folder": "6",
+      "filename": "30463030.jpg",
+      "externalId": "1pSDunhUkhcVM5Ayeg0yvagTjXp_vx4CE"
+    },
+    {
+      "folder": "6",
+      "filename": "08219882.jpg",
+      "externalId": "1qYq5lmtKsoQbJk-ZPHKtjX5mlfERev0t"
+    },
+    {
+      "folder": "6",
+      "filename": "67730935.jpg",
+      "externalId": "1kqm5Pk_Of4kcOOFry5_8o5cU460dJmXF"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "P.L.U.C.K.",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "X",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Suite-Pee",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Mind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Suggestions",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Peephole",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "War?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Sugar",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Darts",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

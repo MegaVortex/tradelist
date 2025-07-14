@@ -1,0 +1,204 @@
+{
+  "originalTitle": "Metallica - 06.06.2004 - Castle Donington - England - Donington Park - Download Festival (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "06",
+    "year": "2004"
+  },
+  "startDateUnix": 1086480000,
+  "endDate": {
+    "day": "06",
+    "month": "06",
+    "year": "2004"
+  },
+  "endDateUnix": 1086480000,
+  "location": {
+    "city": "Castle Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": "Download Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "3rd source. Mainly films the screens.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.93,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 4362,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "81",
+      "filename": "31490604.jpg",
+      "externalId": "1l-k9hGbbcgtMkPVEAChe8wKbx7hkOKFv"
+    },
+    {
+      "folder": "81",
+      "filename": "50348873.jpg",
+      "externalId": "1dlOBSp2ZNKb_ycKYRCBLWKALpvKXXPwk"
+    },
+    {
+      "folder": "81",
+      "filename": "49427802.jpg",
+      "externalId": "1kU_1i8ktDzMnaYQwj7mKANrDHY8NM-cT"
+    },
+    {
+      "folder": "81",
+      "filename": "47352311.jpg",
+      "externalId": "1sfqVKMj3eTOYNFNPpLMez5ggzZS-lCnT"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Ecstasy Of Gold",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Battery",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Four Horsemen",
+      "feat": "Dave Lombardo",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "For Whom The Bell Tolls",
+      "feat": "Joey Jordison",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Creeping Death",
+      "feat": "Joey Jordison",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Seek And Destroy",
+      "feat": "Joey Jordison",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Fade To Black",
+      "feat": "Flemming Larsen",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Wherever I May Roam",
+      "feat": "Joey Jordison",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Last Caress  (with Joey Jordison)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Misfits"
+    },
+    {
+      "order": 10,
+      "song": "Sad But True",
+      "feat": "Joey Jordison",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Nothing Else Matters",
+      "feat": "Joey Jordison",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Enter Sandman",
+      "feat": "Joey Jordison",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

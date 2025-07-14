@@ -1,0 +1,136 @@
+{
+  "originalTitle": "Slash - 23.07.2011 - London - England - Victoria Park - High Voltage Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slash"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "07",
+    "year": "2011"
+  },
+  "startDateUnix": 1311379200,
+  "endDate": {
+    "day": "23",
+    "month": "07",
+    "year": "2011"
+  },
+  "endDateUnix": 1311379200,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Victoria Park",
+    "event": "High Voltage Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2731,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "slash_08_06_2012_video",
+    "slash_21_05_2012_video",
+    "slash_08_03_2012_video"
+  ],
+  "childOf": "Slash - [2011-2012] - Live Performances",
+  "images": [
+    {
+      "folder": "44",
+      "filename": "05051782.jpg",
+      "externalId": "1NrGaixIsfIGh8EkLYhbMIFZV04fQRAzJ"
+    },
+    {
+      "folder": "44",
+      "filename": "21333527.jpg",
+      "externalId": "1D5kXRb55scaPDMcoPuxDlMT67H_b9pnX"
+    },
+    {
+      "folder": "44",
+      "filename": "00460762.jpg",
+      "externalId": "1zJGecjX73zCnmps3JncOtW2tubE8xN4K"
+    },
+    {
+      "folder": "44",
+      "filename": "74562538.jpg",
+      "externalId": "1SqgxdezuuowvBrJeBaUTMhq5nJQA13YN"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Sweet Child O' Mine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Rocket Queen",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Mean Bone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

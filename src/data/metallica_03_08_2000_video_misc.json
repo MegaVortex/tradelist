@@ -1,0 +1,210 @@
+{
+  "originalTitle": "Metallica - 03.08.2000 - USA - MTV Studios [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "08",
+    "year": "2000"
+  },
+  "startDateUnix": 965260800,
+  "endDate": {
+    "day": "03",
+    "month": "08",
+    "year": "2000"
+  },
+  "endDateUnix": 965260800,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "MTV Studios",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Season 3, Episode 12. \"The Battle Of The Heavy Metal Maniacs\": James Hetfield vs Fred\" Durst.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.69,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6246,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_11_06_2004_video",
+    "apocalyptica_13_09_2003_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "81",
+      "filename": "10908154.jpg",
+      "externalId": "1z7NtBb9ZmlOZpJZ1sjzO4oAHjDT5pkJy"
+    },
+    {
+      "folder": "81",
+      "filename": "23004137.jpg",
+      "externalId": "1GW7y6PdeRbnjARy2XS4L3OMELiYYgGpT"
+    },
+    {
+      "folder": "81",
+      "filename": "66583218.jpg",
+      "externalId": "1eT25xSXujBnTcX1vTbDU3MqekXv6M78P"
+    },
+    {
+      "folder": "81",
+      "filename": "15567533.jpg",
+      "externalId": "1rdfQGuMhQd699IvbNg7AVuNUsSe0c5YY"
+    },
+    {
+      "folder": "3",
+      "filename": "2433372.jpg",
+      "externalId": "19XdPCrnlUtm4Jzcxm43YI28oh-jGmV9N"
+    },
+    {
+      "folder": "3",
+      "filename": "1723543.jpg",
+      "externalId": "1bj00hBRdqRhim_S2W-XoShG5anO939hh"
+    },
+    {
+      "folder": "3",
+      "filename": "4447951.jpg",
+      "externalId": "1-5b2N_pZUgpdPBSWKGMnkrAxqanit6zk"
+    },
+    {
+      "folder": "3",
+      "filename": "9263749.jpg",
+      "externalId": "1r-XQLG8jNVzASEmfa74OyZUUPLrqs-bz"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Cartoon",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 1,
+      "song": "Interview & Soundcheck",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Hall Of The Mountain King",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Nothing Else Matters",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Life Burns",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Inquisitions Symphony",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Seemann",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

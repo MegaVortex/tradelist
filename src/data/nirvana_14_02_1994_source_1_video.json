@@ -1,0 +1,129 @@
+{
+  "originalTitle": "Nirvana - 14.02.1994 - Paris - France - Le Zenith (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "02",
+    "year": "1994"
+  },
+  "startDateUnix": 761184000,
+  "endDate": {
+    "day": "14",
+    "month": "02",
+    "year": "1994"
+  },
+  "endDateUnix": 761184000,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "Le Zenith",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "Cedric Guillod",
+  "notes": "PRO#2. Metal Express. M6 broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.02,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1556,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "nirvana_13_12_1993_source_5_video",
+    "nirvana_02_04_1994_source_3_video",
+    "nirvana_06_02_1994_source_4_video",
+    "nirvana_27_02_1994_source_2_video"
+  ],
+  "childOf": "Nirvana - [1993-1994] - TV Appearances",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "88561890.jpg",
+      "externalId": "1q3dk4p1HZ8bx3JUuKPIiK3nPRHX88WQZ"
+    },
+    {
+      "folder": "80",
+      "filename": "69493126.jpg",
+      "externalId": "1aRL-zaffz3S2RBojTOSAZ3h8F3Yr1x67"
+    },
+    {
+      "folder": "80",
+      "filename": "69068832.jpg",
+      "externalId": "1zjf4-xNg60B48ymw6du_zEXct-qRetJ5"
+    },
+    {
+      "folder": "80",
+      "filename": "41275946.jpg",
+      "externalId": "1nPTg4AVLnw3WVSjnLVPxG7J3oxOymL-A"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Lithium",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

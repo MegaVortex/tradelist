@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Sinaloa - 02.05.2009 - Allston - MA - USA - Wadzilla Mansion",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sinaloa"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "05",
+    "year": "2009"
+  },
+  "startDateUnix": 1241222400,
+  "endDate": {
+    "day": "02",
+    "month": "05",
+    "year": "2009"
+  },
+  "endDateUnix": 1241222400,
+  "location": {
+    "city": "Allston",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Wadzilla Mansion",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "dyinghorse release.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.66,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1548,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "34",
+      "filename": "56720193.jpg",
+      "externalId": "1PqLgkxl6rThvoN41FSVdIMb71ovE3Q4C"
+    },
+    {
+      "folder": "34",
+      "filename": "70491321.jpg",
+      "externalId": "11uSbe9phf1F5Qtv2Zda_Zd7dU8gHvTLr"
+    },
+    {
+      "folder": "34",
+      "filename": "67399004.jpg",
+      "externalId": "1TDBR3XHrs2uyZahH1BpzMURQrrlUoju-"
+    },
+    {
+      "folder": "34",
+      "filename": "54419677.jpg",
+      "externalId": "1Zn9m-HNpXhj8FC7YjN-lufQ8FhhxR6Ei"
+    }
+  ],
+  "setlist": []
+}

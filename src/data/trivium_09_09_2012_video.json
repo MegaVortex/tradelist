@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Trivium - 09.09.2012 - Curitiba - Brazil - Music Hall",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Trivium"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "09",
+    "year": "2012"
+  },
+  "startDateUnix": 1347148800,
+  "endDate": {
+    "day": "09",
+    "month": "09",
+    "year": "2012"
+  },
+  "endDateUnix": 1347148800,
+  "location": {
+    "city": "Curitiba",
+    "state": "",
+    "country": "Brazil",
+    "venue": "Music Hall",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.26,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2993,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "64",
+      "filename": "95068808.jpg",
+      "externalId": "1Zyi4PCv2XNnmTIP1JfzTAkPjucLb_sNl"
+    },
+    {
+      "folder": "64",
+      "filename": "14587440.jpg",
+      "externalId": "1t_hq1xZ_53i2HmNTiIxy7wrl3-kg9VWH"
+    },
+    {
+      "folder": "64",
+      "filename": "78709686.jpg",
+      "externalId": "1gokF3PwPvOdSJAjTwIUv51Ra2UQlUMio"
+    },
+    {
+      "folder": "64",
+      "filename": "48214769.jpg",
+      "externalId": "1UORmWg0_lPuTzCHaxc4_X3_Yd_0qENrq"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "In Waves",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Pull Harder On The Strings Of Your Martyr",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Rain",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Into The Mouth Of Hell We March",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Down From The Sky",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Built To Fall",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "The Deceived",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Dusk Dismantled",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Detonation",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Ember To Inferno",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

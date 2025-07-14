@@ -1,0 +1,139 @@
+{
+  "originalTitle": "Rammstein - 20.08.2016 - Grosspoesna - Germany - Stormthaler See - Highfield Festival (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "08",
+    "year": "2016"
+  },
+  "startDateUnix": 1471651200,
+  "endDate": {
+    "day": "20",
+    "month": "08",
+    "year": "2016"
+  },
+  "endDateUnix": 1471651200,
+  "location": {
+    "city": "Grosspoesna",
+    "state": "",
+    "country": "Germany",
+    "venue": "Stormthaler See",
+    "event": "Highfield Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MDR broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.44,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1063,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "67",
+      "filename": "08992596.jpg",
+      "externalId": "1hM2Dlqm_TDsaOoqgiv6DChKBucQZz_Dg"
+    },
+    {
+      "folder": "67",
+      "filename": "04726184.jpg",
+      "externalId": "1iZxF5ruEZAFwLf8zxweOHsHCvBA1Yo86"
+    },
+    {
+      "folder": "67",
+      "filename": "37595233.jpg",
+      "externalId": "1iE4pdiOdUudQaX9JqEqiXiMN6qIt9dkj"
+    },
+    {
+      "folder": "67",
+      "filename": "19613973.jpg",
+      "externalId": "1_IxpZjMnp22Uyrrys71pJZpwuv1UwHhK"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Ich Tu Dir Weh",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Mein Herz Brennt",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Sonne",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

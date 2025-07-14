@@ -1,0 +1,160 @@
+{
+  "originalTitle": "Motley Crue - 04.09.2012 - Nashville - TN - USA - Bridgestone Arena (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Motley Crue"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "09",
+    "year": "2012"
+  },
+  "startDateUnix": 1346716800,
+  "endDate": {
+    "day": "04",
+    "month": "09",
+    "year": "2012"
+  },
+  "endDateUnix": 1346716800,
+  "location": {
+    "city": "Nashville",
+    "state": "TN",
+    "country": "USA",
+    "venue": "Bridgestone Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Berry Byassee"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.13,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1623,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "kiss_04_09_2012_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "40",
+      "filename": "46248928.jpg",
+      "externalId": "1P0S4bP34HRuv6fNuChe432Ml9DybvHfw"
+    },
+    {
+      "folder": "40",
+      "filename": "37679543.jpg",
+      "externalId": "17VGBtLNkCv6A4yVfjS1ImrxEdjBKK-89"
+    },
+    {
+      "folder": "40",
+      "filename": "77318620.jpg",
+      "externalId": "15PxHYe28TdIxWfz0LGUNxxwIraVHPF0_"
+    },
+    {
+      "folder": "40",
+      "filename": "35152813.jpg",
+      "externalId": "1-SiYomCsH2OYCNgQyjFhmxHXC43M3yIt"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Shout At The Devil",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Same Ol' Situation",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Dr. Feelgood",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Girls, Girls, Girls",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Guitar Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Kickstart My Heart",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,119 @@
+{
+  "originalTitle": "System Of A Down - xx.10.2001 - USA - MTV News [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "System Of A Down"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "10",
+    "year": "2001"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "10",
+    "year": "2001"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "MTV News",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 23.3,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 140,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "352x240",
+        "bitrateType": "",
+        "bitrateKbps": 1150,
+        "fps": "29.97",
+        "standard": "MPEG1",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 224,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "MPG"
+    }
+  },
+  "relatedShows": [
+    "slipknot_xx_10_2001_usa_mtv_news_video_misc"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "94309409.jpg",
+      "externalId": "1a0btJ3eCT7cg0YEcTZJ1vo8QwTVkS-j1"
+    },
+    {
+      "folder": "15",
+      "filename": "75359869.jpg",
+      "externalId": "1MoPCZTajYmTbkS4jZdWttFdbV4SN49Q1"
+    },
+    {
+      "folder": "15",
+      "filename": "26671834.jpg",
+      "externalId": "1VJK4E2cjbMJMa_T3Ty7POZSjSkKWXb8L"
+    },
+    {
+      "folder": "15",
+      "filename": "17548204.jpg",
+      "externalId": "1t0ll22WM4y7CV_WgCr_xgi_af2uHyPn5"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview  + TV Report",
+      "feat": "Serj",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

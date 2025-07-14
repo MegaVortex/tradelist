@@ -1,0 +1,120 @@
+{
+  "originalTitle": "The White Stripes - 22.04.2003 - New York - NY - USA - NBC Studios - Conan O'Brien Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The White Stripes"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "04",
+    "year": "2003"
+  },
+  "startDateUnix": 1050969600,
+  "endDate": {
+    "day": "22",
+    "month": "04",
+    "year": "2003"
+  },
+  "endDateUnix": 1050969600,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Conan O'Brien Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.38,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1026,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "the_white_stripes_23_04_2003_video",
+    "the_white_stripes_24_04_2003_video",
+    "the_white_stripes_25_04_2003_video"
+  ],
+  "childOf": "The White Stripes - [2003] - Conan O'Brien Shows",
+  "images": [
+    {
+      "folder": "31",
+      "filename": "70694174.jpg",
+      "externalId": "1jMpb0682dfYvex7dk7oawBhkNgCBMQ66"
+    },
+    {
+      "folder": "31",
+      "filename": "56889745.jpg",
+      "externalId": "1Hp6c2S3WVMfh2o5kQwfiPEwytlk_ji9e"
+    },
+    {
+      "folder": "31",
+      "filename": "28573299.jpg",
+      "externalId": "1oSiNwF6_Y7rS7ie9gPDmihs8pp3PsNjf"
+    },
+    {
+      "folder": "31",
+      "filename": "62748311.jpg",
+      "externalId": "1VFboRRAI2uhstrRnJLsezuow9iL5Fqtj"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Seven Nation Army",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

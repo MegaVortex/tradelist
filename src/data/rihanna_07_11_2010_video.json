@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Rihanna - 07.11.2010 - Madrid - Spain - Caja Magica - MTV Europe Music Awards",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rihanna"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "11",
+    "year": "2010"
+  },
+  "startDateUnix": 1289088000,
+  "endDate": {
+    "day": "07",
+    "month": "11",
+    "year": "2010"
+  },
+  "endDateUnix": 1289088000,
+  "location": {
+    "city": "Madrid",
+    "state": "",
+    "country": "Spain",
+    "venue": "Caja Magica",
+    "event": "MTV Europe Music Awards"
+  },
+  "tvChannel": "MTV Europe",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 922,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 211,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "47",
+      "filename": "03862246.jpg",
+      "externalId": "1Z_tzkKCP7MB1eLK7lJeQYXbKy-a6ijQS"
+    },
+    {
+      "folder": "47",
+      "filename": "88268667.jpg",
+      "externalId": "1Q88_fmKUoqfzgvkqdinkhVPSJBga2I6V"
+    },
+    {
+      "folder": "47",
+      "filename": "00574244.jpg",
+      "externalId": "1vz69D5pWuo9Y1XJlZxoHax_qfiY-m7c0"
+    },
+    {
+      "folder": "47",
+      "filename": "17491662.jpg",
+      "externalId": "1b265pDyfRF1h8kjwMiifO-3AfYh86vx5"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Only Girl (In The World)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

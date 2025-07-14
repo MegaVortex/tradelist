@@ -1,0 +1,128 @@
+{
+  "originalTitle": "Sparta - 20.10.2004 - New York - NY - USA - CBS Studios - David Letterman Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sparta"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "10",
+    "year": "2004"
+  },
+  "startDateUnix": 1098230400,
+  "endDate": {
+    "day": "20",
+    "month": "10",
+    "year": "2004"
+  },
+  "endDateUnix": 1098230400,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "CBS Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "David Letterman Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 266,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 235,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "sparta_18_10_2004_video",
+    "sparta_06_02_2005_video",
+    "sparta_19_03_2004_video",
+    "sparta_23_01_2003_video",
+    "sparta_25_01_2003_video",
+    "sparta_26_11_2004_video",
+    "sparta_09_06_2004_video",
+    "sparta_09_10_2004_video",
+    "sparta_xx_xx_xxxx_mtv_news_the_wrad_video_misc",
+    "at_the_drive_in_xx_xx_xxxx_mtv_news_the_wrad_video_misc",
+    "the_mars_volta_xx_xx_xxxx_mtv_news_the_wrad_video_misc"
+  ],
+  "childOf": "Sparta - [2003-2005] - TV Appearances",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "65220691.jpg",
+      "externalId": "1CuD9CVgqeRZKz1FiEYYDgQLZuLy51lXf"
+    },
+    {
+      "folder": "24",
+      "filename": "62596387.jpg",
+      "externalId": "1acaNXXrIcpDVLqx7qW9hHjgHjw-Wuiyi"
+    },
+    {
+      "folder": "24",
+      "filename": "47795798.jpg",
+      "externalId": "1EAOvzORgGNT91-ocKaGGRuQR88oCqvlV"
+    },
+    {
+      "folder": "24",
+      "filename": "70112052.jpg",
+      "externalId": "1ZXezn0voRk4buexWd72lRIBViWFuvYtV"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Breaking The Broken",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

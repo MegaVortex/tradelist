@@ -1,0 +1,196 @@
+{
+  "originalTitle": "Snot - 08.12.1997 - Houston - TX - USA - Abyss",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Snot"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "12",
+    "year": "1997"
+  },
+  "startDateUnix": 881539200,
+  "endDate": {
+    "day": "08",
+    "month": "12",
+    "year": "1997"
+  },
+  "endDateUnix": 881539200,
+  "location": {
+    "city": "Houston",
+    "state": "TX",
+    "country": "USA",
+    "venue": "Abyss",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.72,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 3451,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "64941916.jpg",
+      "externalId": "1LMs5wmUWfFKjdYPOGJXGpYqCkVb7XUjY"
+    },
+    {
+      "folder": "80",
+      "filename": "57438501.jpg",
+      "externalId": "17DaAjHeizO2Lz29QyUo8VTcHIKhvh_V7"
+    },
+    {
+      "folder": "80",
+      "filename": "21451831.jpg",
+      "externalId": "1s5jp76aYp_sCILklkEx8REq3j9UZNjLZ"
+    },
+    {
+      "folder": "80",
+      "filename": "97704140.jpg",
+      "externalId": "1Ki0o4o7aJVl9z-xPXrMcIjg00pmWfQjM"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "I Jus' Lie",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Unplugged",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Joy Ride",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Box",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Snooze Button",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Stoopid",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Deadfall",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Tecato",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Get Some",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Snot",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "I Jus' Lie",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

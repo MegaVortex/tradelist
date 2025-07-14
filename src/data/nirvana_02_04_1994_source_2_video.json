@@ -1,0 +1,119 @@
+{
+  "originalTitle": "Nirvana - 02.04.1994 - Paris - France - Canal+ Studios - Nulle Part Ailleurs (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "04",
+    "year": "1994"
+  },
+  "startDateUnix": 765244800,
+  "endDate": {
+    "day": "02",
+    "month": "04",
+    "year": "1994"
+  },
+  "endDateUnix": 765244800,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "Canal+ Studios",
+    "event": "Nulle Part Ailleurs"
+  },
+  "tvChannel": "Canal+",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 203,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 211,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "nirvana_26_11_1989_source_2_video",
+    "tad_26_11_1989_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "58516570.jpg",
+      "externalId": "1_OKHF7X9mxYUrQhVcL1SCEJ4xTP2pTCJ"
+    },
+    {
+      "folder": "80",
+      "filename": "87763945.jpg",
+      "externalId": "1jG6QK35CBkQsznd6a4-J1bxRYRn0GCys"
+    },
+    {
+      "folder": "80",
+      "filename": "96452892.jpg",
+      "externalId": "1EyCMd9_R7sePifJtZlkvN7R42fxD9g_1"
+    },
+    {
+      "folder": "80",
+      "filename": "53598213.jpg",
+      "externalId": "1OP6nWSO7i3RTTFN7ODZ5vO8tNwA24L67"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Pennyroyal Tea",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

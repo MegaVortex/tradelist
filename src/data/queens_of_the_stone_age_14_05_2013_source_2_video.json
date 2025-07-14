@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Queens Of The Stone Age - 14.05.2013 - Maidstone - England - BBC TV Centre - Jools Holland Show (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "05",
+    "year": "2013"
+  },
+  "startDateUnix": 1368489600,
+  "endDate": {
+    "day": "14",
+    "month": "05",
+    "year": "2013"
+  },
+  "endDateUnix": 1368489600,
+  "location": {
+    "city": "Maidstone",
+    "state": "",
+    "country": "England",
+    "venue": "BBC TV Centre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jools Holland Show",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.25,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 954,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "22321038.jpg",
+      "externalId": "1H_PNIOL0i_Z7Pd3PB48_SrAt3tHKAdnL"
+    },
+    {
+      "folder": "70",
+      "filename": "18518779.jpg",
+      "externalId": "1JzMGQKgHT6C2t1fOgqYUfDC7tAwOtdLf"
+    },
+    {
+      "folder": "70",
+      "filename": "45166808.jpg",
+      "externalId": "1KLPp2RXkBX3BYWzEXxVDVlsIa5xXfb6o"
+    },
+    {
+      "folder": "70",
+      "filename": "22585871.jpg",
+      "externalId": "1QVya_d-VHqgLbW8gx367obD3jSN2v8iy"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "I Sat By The Ocean",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "If I Had A Tail",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "My God Is The Sun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

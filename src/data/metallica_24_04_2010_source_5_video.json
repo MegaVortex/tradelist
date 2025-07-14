@@ -1,0 +1,227 @@
+{
+  "originalTitle": "Metallica - 24.04.2010 - Moscow - Russia - SC Olimpiyskiy (Source 5)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "04",
+    "year": "2010"
+  },
+  "startDateUnix": 1272067200,
+  "endDate": {
+    "day": "24",
+    "month": "04",
+    "year": "2010"
+  },
+  "endDateUnix": 1272067200,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "SC Olimpiyskiy",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 5",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Same as Source 2, but in HD quality.",
+  "tapers": [
+    "Mangler"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.6,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1472,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "HD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [
+    "metallica_24_04_2010_source_6_video",
+    "metallica_25_04_2010_source_4_video",
+    "metallica_25_04_2010_source_5_video",
+    "metallica_25_04_2010_source_6_video"
+  ],
+  "childOf": "Metallica - [2010] - Moscow",
+  "images": [
+    {
+      "folder": "81",
+      "filename": "01078926.jpg",
+      "externalId": "19CyWDkU947tXZYUUIlkgZaLXtEdue7iC"
+    },
+    {
+      "folder": "81",
+      "filename": "18230060.jpg",
+      "externalId": "1mjQ2SryRhFSMZBf3F_pQTch4zCyU45e8"
+    },
+    {
+      "folder": "81",
+      "filename": "75452042.jpg",
+      "externalId": "1RYbVOz2tzD05b7X2U4wE2D-bcHga3U7q"
+    },
+    {
+      "folder": "81",
+      "filename": "55349023.jpg",
+      "externalId": "19ZQKkAZIcyPyC2cYqMaDWD4JeD0E_tSE"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Ecstasy Of Gold (Ennio Morricone song) (PA)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "That Was Just Your Life",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The End Of The Line",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "For Whom The Bell Tolls",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Fuel",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Fade To Black",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Broken, Beat & Scarred",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Wherever I May Roam",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Welcome Home (Sanitarium) (cut)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "All Nightmare Long",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "One",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Fight Fire With Fire",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Nothing Else Matters",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

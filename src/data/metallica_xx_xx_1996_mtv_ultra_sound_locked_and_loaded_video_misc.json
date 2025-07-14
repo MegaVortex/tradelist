@@ -1,0 +1,125 @@
+{
+  "originalTitle": "Metallica - xx.xx.1996 - MTV Ultra Sound - 'Locked And Loaded' [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1996"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1996"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "MTV Ultra Sound",
+    "state": "",
+    "country": "'Locked And Loaded'",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.67,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1251,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "74",
+      "filename": "23399920.jpg",
+      "externalId": "1mWE5oTL-w1Vdw59-G_1o26HxOk1zcXVq"
+    },
+    {
+      "folder": "74",
+      "filename": "92438277.jpg",
+      "externalId": "1TxkJk0L58lixnv2WDM7NrIGWWopdsf2T"
+    },
+    {
+      "folder": "74",
+      "filename": "87701101.jpg",
+      "externalId": "1U3xb3XMLcfUZFuFdpQ4JxUVNIpfIrd_2"
+    },
+    {
+      "folder": "74",
+      "filename": "55469378.jpg",
+      "externalId": "1tiz_UW8HVMXOVReKUojb6VMHXaeB0PaH"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

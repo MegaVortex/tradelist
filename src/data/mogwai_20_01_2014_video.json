@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Mogwai - 20.01.2014 - Glasgow - Scotland - Centre For Contemporary Arts",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Mogwai"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "01",
+    "year": "2014"
+  },
+  "startDateUnix": 1390176000,
+  "endDate": {
+    "day": "20",
+    "month": "01",
+    "year": "2014"
+  },
+  "endDateUnix": 1390176000,
+  "location": {
+    "city": "Glasgow",
+    "state": "",
+    "country": "Scotland",
+    "venue": "Centre For Contemporary Arts",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 264,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1475,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "832x468",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "72",
+      "filename": "67893443.jpg",
+      "externalId": "1n1tIR6WE1fZFYNpe9Liu8p3mtJuVaKcT"
+    },
+    {
+      "folder": "72",
+      "filename": "25803219.jpg",
+      "externalId": "1zWI4BK9AZe1OECN9BVVe_qmj6MnQ5U3L"
+    },
+    {
+      "folder": "72",
+      "filename": "37611478.jpg",
+      "externalId": "1VbBrhvY6UvYmdVgWuL1Ul-eIBZVv8_xF"
+    },
+    {
+      "folder": "72",
+      "filename": "86243254.jpg",
+      "externalId": "1eTFpz1U1nThPeU5k2NSYFcqr7k6bUx-C"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Heard About You Last Night",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Lord Is Out Of Control",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Remurdered",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "New Paths To Helicon, Pt. 1",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,207 @@
+{
+  "originalTitle": "Scorpions - 08.02.2001 - Lisbon - Portugal - Conveto De Beato",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Scorpions"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "02",
+    "year": "2001"
+  },
+  "startDateUnix": 981590400,
+  "endDate": {
+    "day": "08",
+    "month": "02",
+    "year": "2001"
+  },
+  "endDateUnix": 981590400,
+  "location": {
+    "city": "Lisbon",
+    "state": "",
+    "country": "Portugal",
+    "venue": "Conveto De Beato",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "This is a 3 shows mix.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 6.25,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3547,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [
+    "scorpions_09_02_2001_video",
+    "scorpions_10_02_2001_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "38",
+      "filename": "92791385.jpg",
+      "externalId": "1mNKxTy1IP_FgaUZUlvtW9VRSKFxJkpOK"
+    },
+    {
+      "folder": "38",
+      "filename": "86563191.jpg",
+      "externalId": "1XjSseyJ4EyHK6_Vcq8Zjf7KfOBoMXXwT"
+    },
+    {
+      "folder": "38",
+      "filename": "66911334.jpg",
+      "externalId": "1nrClScTdvfkFPB9dIPKZ4PwhkvINGH-z"
+    },
+    {
+      "folder": "38",
+      "filename": "05065151.jpg",
+      "externalId": "1vbHofkLOgVsT14ITAcDISu45TSTHjsJQ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Loving You Sunday Morning",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Is There Anybody There",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Tease Me, Please Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Dust In The Wind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Kansas"
+    },
+    {
+      "order": 5,
+      "song": "Send Me An Angel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Under The Same Sun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Catch Your Train",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Hurricane 2001",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Wind Of Change",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Love Of My Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Queen"
+    },
+    {
+      "order": 11,
+      "song": "Drive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "The Cars"
+    },
+    {
+      "order": 12,
+      "song": "Still Loving You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

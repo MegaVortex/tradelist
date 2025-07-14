@@ -1,0 +1,153 @@
+{
+  "originalTitle": "Rammstein - 10.06.2005 - Scheessel - Germany - Eichenring - Hurricane Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "06",
+    "year": "2005"
+  },
+  "startDateUnix": 1118361600,
+  "endDate": {
+    "day": "10",
+    "month": "06",
+    "year": "2005"
+  },
+  "endDateUnix": 1118361600,
+  "location": {
+    "city": "Scheessel",
+    "state": "",
+    "country": "Germany",
+    "venue": "Eichenring",
+    "event": "Hurricane Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.66,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 430,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "rammstein_15_05_1997_video",
+    "rammstein_05_07_1997_video",
+    "rammstein_23_10_1997_video",
+    "rammstein_29_05_1998_video"
+  ],
+  "childOf": "Rammstein - [1997-2005] - TV Appearances",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "88942323.jpg",
+      "externalId": "15HppEEtIlkEm11KjdQK8sjYd166cZgXk"
+    },
+    {
+      "folder": "27",
+      "filename": "76594119.jpg",
+      "externalId": "1Zf-xUYjPq9g_svKriH5zmkoeYCkhD80g"
+    },
+    {
+      "folder": "27",
+      "filename": "11434182.jpg",
+      "externalId": "17J7dDRpwzo1MW_aCke6XtwlXfqbQDcsy"
+    },
+    {
+      "folder": "27",
+      "filename": "39252625.jpg",
+      "externalId": "1gwBvKzLikiVbzRz8MCTBxX8ywePN-6He"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Paul Landers",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Rammstein",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Du Riechst So Gut",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Ich Will",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Amerika",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Slipknot - xx.xx.2001 - Los Angeles - CA - USA - Sound City Studio [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2001"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2001"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Sound City Studio",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Official content - NT.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 229,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1505,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": 10258,
+        "fps": "23.976",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 317,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MP4"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "82",
+      "filename": "97091744.jpg",
+      "externalId": "1pvX8y2XAw3W5-AzdwV7UUYk3YzU5TtQA"
+    },
+    {
+      "folder": "82",
+      "filename": "12401543.jpg",
+      "externalId": "1Hji0swJuBK62kDl6TE66SqrL3Gre9PXW"
+    },
+    {
+      "folder": "82",
+      "filename": "75692730.jpg",
+      "externalId": "1-ZJI4S3mUTwW2QVlfSkTrmjqIzZw0ygl"
+    },
+    {
+      "folder": "82",
+      "filename": "62878907.jpg",
+      "externalId": "1RDkyPK1Qz48kUyrshUGOh7zwSRG3BTKD"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Recording Sessions",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

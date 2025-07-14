@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Metallica - 23.01.2004 - Sydney - NSW - Australia - Showgrounds - Big Day Out (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "01",
+    "year": "2004"
+  },
+  "startDateUnix": 1074816000,
+  "endDate": {
+    "day": "23",
+    "month": "01",
+    "year": "2004"
+  },
+  "endDateUnix": 1074816000,
+  "location": {
+    "city": "Sydney",
+    "state": "NSW",
+    "country": "Australia",
+    "venue": "Showgrounds",
+    "event": "Big Day Out"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete Channel V broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.65,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2390,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "30",
+      "filename": "32004357.jpg",
+      "externalId": "1UajTYOtb2XSxUsAt1DvtTMZGfl1Nap2z"
+    },
+    {
+      "folder": "30",
+      "filename": "59841675.jpg",
+      "externalId": "1ZsvXbALXw5MuNpSRVle58XlCMWBHSEqE"
+    },
+    {
+      "folder": "30",
+      "filename": "76164633.jpg",
+      "externalId": "18949zqbc-CFXRcjmDtcgLjqgR-JkZxrv"
+    },
+    {
+      "folder": "30",
+      "filename": "50134088.jpg",
+      "externalId": "1G8ivYMw1kwM_Bs0XOfoma3RcHzVF2wP6"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Frantic",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Sad But True",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Fade To Black",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Battery",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Nothing Else Matters",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Master Of Puppets",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Slipknot - 09.06.2000 - Nuernberg - Germany - Zeppelinfield - Rock Im Park (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "06",
+    "year": "2000"
+  },
+  "startDateUnix": 960508800,
+  "endDate": {
+    "day": "09",
+    "month": "06",
+    "year": "2000"
+  },
+  "endDateUnix": 960508800,
+  "location": {
+    "city": "Nuernberg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Zeppelinfield",
+    "event": "Rock Im Park"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 6.09,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 825,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": 62002,
+        "fps": "25",
+        "standard": "ULY2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "83",
+      "filename": "93671811.jpg",
+      "externalId": "12Pp-PJb6JjBCuepYaGDIsMIWawGpkWSw"
+    },
+    {
+      "folder": "83",
+      "filename": "34040704.jpg",
+      "externalId": "1g80lMwblF3VtzSVePsetJbx--Sossscc"
+    },
+    {
+      "folder": "83",
+      "filename": "33084635.jpg",
+      "externalId": "1LGMvEhfA8h6nZJwGlejgPPQWY1uumkMl"
+    },
+    {
+      "folder": "83",
+      "filename": "21958098.jpg",
+      "externalId": "11sA3LJd2Yang8PbYfKRK-c2DbxVAN4j4"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Surfacing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Scissors",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

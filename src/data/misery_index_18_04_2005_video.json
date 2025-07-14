@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Misery Index - 18.04.2005 - Paris - France - La Locomotive",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Misery Index"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "04",
+    "year": "2005"
+  },
+  "startDateUnix": 1113782400,
+  "endDate": {
+    "day": "18",
+    "month": "04",
+    "year": "2005"
+  },
+  "endDateUnix": 1113782400,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "La Locomotive",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.34,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2254,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "8",
+      "filename": "89835429.jpg",
+      "externalId": "1q7MadkpKJPMUk5OKBR0YA_KV0tCJ4ZNB"
+    },
+    {
+      "folder": "8",
+      "filename": "88893132.jpg",
+      "externalId": "1u1MFB65U0dhRnrXE9kaaJyUlfqdKBv84"
+    },
+    {
+      "folder": "8",
+      "filename": "79583997.jpg",
+      "externalId": "1iP0a3GJmGV79fdoWYVMeSkcSaXnR4l-5"
+    },
+    {
+      "folder": "8",
+      "filename": "75626640.jpg",
+      "externalId": "1fKR6vCiCOM7xUnZBX6hGA0BX5yXpIYI3"
+    }
+  ],
+  "setlist": []
+}

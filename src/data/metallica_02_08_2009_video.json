@@ -1,0 +1,142 @@
+{
+  "originalTitle": "Metallica - 02.08.2009 - Knebworth - England - Knebworth Park - Sonisphere Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "08",
+    "year": "2009"
+  },
+  "startDateUnix": 1249171200,
+  "endDate": {
+    "day": "02",
+    "month": "08",
+    "year": "2009"
+  },
+  "endDateUnix": 1249171200,
+  "location": {
+    "city": "Knebworth",
+    "state": "",
+    "country": "England",
+    "venue": "Knebworth Park",
+    "event": "Sonisphere Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 12.9,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5956,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [
+    "heaven_and_hell_01_08_2009_video",
+    "the_used_01_08_2009_video",
+    "alien_ant_farm_01_08_2009_video",
+    "anthrax_01_08_2009_video",
+    "bullet_for_my_valentine_01_08_2009_video",
+    "linkin_park_02_08_2009_source_1_video",
+    "alice_in_chains_02_08_2009_video",
+    "machine_head_02_08_2009_video",
+    "limp_bizkit_02_08_2009_source_2_video"
+  ],
+  "childOf": "various_artists_01_08_2009_02_08_2009_video_compilation",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "32382365.jpg",
+      "externalId": "1Csg5O6StP-wGXKBstJ6xE_4u2Py740CN"
+    },
+    {
+      "folder": "28",
+      "filename": "77187067.jpg",
+      "externalId": "110Qa8bhZkqQDQ5CvrH9pj8jJWrjyL0Ba"
+    },
+    {
+      "folder": "28",
+      "filename": "11535618.jpg",
+      "externalId": "1Sz9C7W1kF01fLnu_TI_W00TlLqEqOO6g"
+    },
+    {
+      "folder": "28",
+      "filename": "87288142.jpg",
+      "externalId": "1-VSwLiJFRXag5-Vx3W49_QLRV8idIpO1"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Fuel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Hit The Lights",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Fade To Black",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

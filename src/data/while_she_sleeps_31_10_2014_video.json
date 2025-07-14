@@ -1,0 +1,156 @@
+{
+  "originalTitle": "While She Sleeps - 31.10.2014 - Cologne - Germany - Palladium",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "While She Sleeps"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "10",
+    "year": "2014"
+  },
+  "startDateUnix": 1414713600,
+  "endDate": {
+    "day": "31",
+    "month": "10",
+    "year": "2014"
+  },
+  "endDateUnix": 1414713600,
+  "location": {
+    "city": "Cologne",
+    "state": "",
+    "country": "Germany",
+    "venue": "Palladium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "WDR HD broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.6,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2224,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [
+    "wovenwar_31_10_2014_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "65",
+      "filename": "98601683.jpg",
+      "externalId": "1s8iJbp1N2hBfGYpFNpxla726N7B1wfx9"
+    },
+    {
+      "folder": "65",
+      "filename": "21299630.jpg",
+      "externalId": "17WXQ6x9UDYyCHy1J18C8COtcJhq7Irjh"
+    },
+    {
+      "folder": "65",
+      "filename": "79691373.jpg",
+      "externalId": "1caAUsu2SKmEOEPqgq2SJ6vAPl45W6KjH"
+    },
+    {
+      "folder": "65",
+      "filename": "12474764.jpg",
+      "externalId": "1SaC9_kwEM6rqlplZ_Va3Xx9cXrMpeW5v"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "This Is The Six",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Crows",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Our Courage, Our Cancer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Seven Hills",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

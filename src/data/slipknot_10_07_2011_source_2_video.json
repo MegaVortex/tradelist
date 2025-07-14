@@ -1,0 +1,137 @@
+{
+  "originalTitle": "Slipknot - 10.07.2011 - Knebworth - England - Knebworth Park - Sonisphere Festival (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "07",
+    "year": "2011"
+  },
+  "startDateUnix": 1310256000,
+  "endDate": {
+    "day": "10",
+    "month": "07",
+    "year": "2011"
+  },
+  "endDateUnix": 1310256000,
+  "location": {
+    "city": "Knebworth",
+    "state": "",
+    "country": "England",
+    "venue": "Knebworth Park",
+    "event": "Sonisphere Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 10.4,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 5401,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [
+    "slayer_08_07_2011_video",
+    "megadeth_08_07_2011_video",
+    "anthrax_08_07_2011_video",
+    "diamond_head_08_07_2011_video",
+    "cavelera_conspiracy_09_07_2011_video",
+    "sum_41_09_07_2011_video",
+    "house_of_pain_09_07_2011_video",
+    "the_mars_volta_09_07_2011_video",
+    "metallica_08_07_2011_video",
+    "opeth_10_07_2011_source_2_video",
+    "mastodon_10_07_2011_video",
+    "motorhead_10_07_2011_video"
+  ],
+  "childOf": "various_artists_08_07_2011_10_07_2011_video_compilation",
+  "images": [
+    {
+      "folder": "23",
+      "filename": "37943589.jpg",
+      "externalId": "1h5cd9Wqm_amHnI_sCgb4t6cahZ5dt05v"
+    },
+    {
+      "folder": "23",
+      "filename": "16603913.jpg",
+      "externalId": "1bwKzjNeIpX9-VciDNqXi29Z9CK2wVf5v"
+    },
+    {
+      "folder": "23",
+      "filename": "22789061.jpg",
+      "externalId": "195rUcEB_JSSYd9rz56-cvYfeKuUJhzO6"
+    },
+    {
+      "folder": "23",
+      "filename": "20679423.jpg",
+      "externalId": "1WirMhysxeXE2M9xTp4Ow_IhG7zbQFdW-"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Duality",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Surfacing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

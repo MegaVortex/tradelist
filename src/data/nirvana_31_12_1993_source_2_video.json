@@ -1,0 +1,315 @@
+{
+  "originalTitle": "Nirvana - 31.12.1993 - Oakland - CA - USA - Oakland Coliseum Arena (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "12",
+    "year": "1993"
+  },
+  "startDateUnix": 757296000,
+  "endDate": {
+    "day": "31",
+    "month": "12",
+    "year": "1993"
+  },
+  "endDateUnix": 757296000,
+  "location": {
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Oakland Coliseum Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "2 cam mix (AMT#1 and AMT#2) synced with AUD#1 and AUD#2 in various ac3 configurations. Synched and",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 7.48,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6573,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "35",
+      "filename": "26155597.jpg",
+      "externalId": "1abs9aB6PDuy6Rvj95hVHtZOXYpwXSC4g"
+    },
+    {
+      "folder": "35",
+      "filename": "29559349.jpg",
+      "externalId": "17rR_dqtBsVzljVMRGA31LLM9ayyWLqYF"
+    },
+    {
+      "folder": "35",
+      "filename": "94626255.jpg",
+      "externalId": "16GajQZD9OavwH0MDhIr8qGie_KmIiIZr"
+    },
+    {
+      "folder": "35",
+      "filename": "08796383.jpg",
+      "externalId": "13McCsHDPQUsVtHsyLO1ZnnuNlfq26Vg0"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Radio Friendly Unit Shifter",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Drain You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Breed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Serve The Servants",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Come As You Are",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Smells Like Teen Spirit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Sliver",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Dumb",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "In Bloom",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "About A Girl",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Lithium",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Pennyroyal Tea",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "School",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Polly (acoustic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Frances Farmer Will Have Her Revenge On Seattle",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "Milk It",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 17,
+      "song": "Rape Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 18,
+      "song": "Territorial Pissings",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 19,
+      "song": "Jesus Wants Me For A Sunbeam  (acoustic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Vaselines"
+    },
+    {
+      "order": 20,
+      "song": "Where Did You Sleep Last Night?  (acoustic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Lead Belly"
+    },
+    {
+      "order": 21,
+      "song": "The Man Who Sold The World  (electric)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "David Bowie"
+    },
+    {
+      "order": 22,
+      "song": "All Apologies",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 23,
+      "song": "Scentless Apprentice",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 24,
+      "song": "Heart-Shaped Box",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 25,
+      "song": "Blew",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

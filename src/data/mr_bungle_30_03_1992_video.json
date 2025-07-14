@@ -1,0 +1,220 @@
+{
+  "originalTitle": "Mr. Bungle - 30.03.1992 - Toronto - ON - Canada - Phoenix Concert Theatre",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Mr. Bungle"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "03",
+    "year": "1992"
+  },
+  "startDateUnix": 701913600,
+  "endDate": {
+    "day": "30",
+    "month": "03",
+    "year": "1992"
+  },
+  "endDateUnix": 701913600,
+  "location": {
+    "city": "Toronto",
+    "state": "ON",
+    "country": "Canada",
+    "venue": "Phoenix Concert Theatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.09,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4571,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "83",
+      "filename": "20476714.jpg",
+      "externalId": "1hFrZX37WHD08GzhoLvKyfhkEQ5MyEOZw"
+    },
+    {
+      "folder": "83",
+      "filename": "21903523.jpg",
+      "externalId": "1NEiLd0U_lrLIc0xJzDTK9HCQeQJxg2OZ"
+    },
+    {
+      "folder": "83",
+      "filename": "94050018.jpg",
+      "externalId": "13fyWtGyQIPNjUVoGtFePXzGQPC5fxAvg"
+    },
+    {
+      "folder": "83",
+      "filename": "58231091.jpg",
+      "externalId": "1oB6ahLeWkxVt2Zix3QM7EeQA-Npi_VSL"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Thing Strikes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Henry Mancini"
+    },
+    {
+      "order": 2,
+      "song": "Travolta",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Mr. Nice Guy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "3rd Floor Dungeon",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Dr. Seuss"
+    },
+    {
+      "order": 5,
+      "song": "Love Is A Fist",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Slowly Growing Deaf",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "The Stroke",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Billy Squier"
+    },
+    {
+      "order": 8,
+      "song": "Platypus",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "My Ass Is On Fire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "The Alan Parsons Project"
+    },
+    {
+      "order": 11,
+      "song": "I Don't Need Society",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "D.R.I."
+    },
+    {
+      "order": 12,
+      "song": "Squeeze Me Macaroni",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "The Thrill Is Gone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Roy Hawkins"
+    },
+    {
+      "order": 14,
+      "song": "Everyone I Went To High School With Is Dead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

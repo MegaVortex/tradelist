@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Sonic Youth - 11.07.2006 - Hollywood - Los Angeles - CA - USA - Pontiac Garage - Jimmy Kimmel Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sonic Youth"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "07",
+    "year": "2006"
+  },
+  "startDateUnix": 1152576000,
+  "endDate": {
+    "day": "11",
+    "month": "07",
+    "year": "2006"
+  },
+  "endDateUnix": 1152576000,
+  "location": {
+    "city": "Hollywood",
+    "state": "",
+    "country": "Los Angeles",
+    "venue": "CA",
+    "event": "USA - Pontiac Garage"
+  },
+  "tvChannel": "",
+  "showName": "Jimmy Kimmel Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.22,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2165,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "sonic_youth_17_06_1998_video",
+    "sonic_youth_26_09_2002_video",
+    "sonic_youth_09_06_2004_video",
+    "sonic_youth_07_07_2004_video",
+    "sonic_youth_16_06_2006_video",
+    "sonic_youth_22_09_1995_video",
+    "sonic_youth_09_08_2006_video"
+  ],
+  "childOf": "Sonic Youth - [1995-2006] - TV Appearances",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "32435784.jpg",
+      "externalId": "1Xq-CE1tD61YTlCs4U0EjnMdzE9f2itTV"
+    },
+    {
+      "folder": "26",
+      "filename": "71651706.jpg",
+      "externalId": "1zqJDtNZsIDwgoxWurgMKVAYM1mV8mDL5"
+    },
+    {
+      "folder": "26",
+      "filename": "97360816.jpg",
+      "externalId": "1YgtMGgcLMDrtMr93x5AdHksootlIN0td"
+    },
+    {
+      "folder": "26",
+      "filename": "17674673.jpg",
+      "externalId": "1d9GRrjfUZSUV7iljSWO5KDBtE6Tc30OK"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Incinerate",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Reena",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

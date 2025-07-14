@@ -1,0 +1,130 @@
+{
+  "originalTitle": "Nightwish - 12.06.2005 - Donington - England - Donington Park - Download Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nightwish"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "06",
+    "year": "2005"
+  },
+  "startDateUnix": 1118534400,
+  "endDate": {
+    "day": "12",
+    "month": "06",
+    "year": "2005"
+  },
+  "endDateUnix": 1118534400,
+  "location": {
+    "city": "Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": "Download Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.85,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2746,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "slipknot_12_06_2005_source_5_video",
+    "mastodon_12_06_2005_video",
+    "motorhead_12_06_2005_video",
+    "lordi_10_06_2005_video",
+    "trivium_12_06_2005_video",
+    "killswitch_engage_12_06_2005_video",
+    "bullet_for_my_valentine_11_06_2005_video",
+    "funeral_for_a_friend_12_06_2005_video",
+    "lacuna_coil_12_06_2005_video",
+    "slayer_12_06_2005_video",
+    "mudvayne_12_06_2005_source_2_video",
+    "apocalyptica_10_06_2005_video",
+    "system_of_a_down_12_06_2005_source_3_video"
+  ],
+  "childOf": "various_artists_10_06_2005_12_06_2005_video_compilation",
+  "images": [
+    {
+      "folder": "30",
+      "filename": "80163627.jpg",
+      "externalId": "1tKZO2lk537VJgKJSJA2qu8loQ_UlGl_S"
+    },
+    {
+      "folder": "30",
+      "filename": "28638743.jpg",
+      "externalId": "1SyRlKFwR1RTWZ6xIaVz9c47i-uSXHUn7"
+    },
+    {
+      "folder": "30",
+      "filename": "88529734.jpg",
+      "externalId": "19ijX2hzj56rnacrI2auYbQNltcpt6dGH"
+    },
+    {
+      "folder": "30",
+      "filename": "19425106.jpg",
+      "externalId": "10SLu5JG04KwvG7SddHvNNGDBYjsC_-rZ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Nemo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

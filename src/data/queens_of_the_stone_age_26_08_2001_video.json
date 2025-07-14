@@ -1,0 +1,141 @@
+{
+  "originalTitle": "Queens Of The Stone Age - 26.08.2001 - Reading - England - Little John's Farm - Reading Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "08",
+    "year": "2001"
+  },
+  "startDateUnix": 998784000,
+  "endDate": {
+    "day": "26",
+    "month": "08",
+    "year": "2001"
+  },
+  "endDateUnix": 998784000,
+  "location": {
+    "city": "Reading",
+    "state": "",
+    "country": "England",
+    "venue": "Little John's Farm",
+    "event": "Reading Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 268,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 474,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "queens_of_the_stone_age_27_10_2002_video",
+    "queens_of_the_stone_age_04_10_2002_source_2_video",
+    "queens_of_the_stone_age_20_01_2003_video_misc",
+    "queens_of_the_stone_age_23_01_2003_video",
+    "queens_of_the_stone_age_19_01_2003_video_misc",
+    "queens_of_the_stone_age_19_01_2003_source_2_video",
+    "queens_of_the_stone_age_26_01_2001_source_2_video",
+    "queens_of_the_stone_age_25_08_2001_video"
+  ],
+  "childOf": "Queens Of The Stone Age - [2001-2003] - TV Appearances",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "52367460.jpg",
+      "externalId": "1oY-RvttMAdfXuMGssAh1PIz-avqpIZJh"
+    },
+    {
+      "folder": "70",
+      "filename": "45889231.jpg",
+      "externalId": "1HdBSDMU_Ewqr3S1a-GgJiDGg-kP2vamN"
+    },
+    {
+      "folder": "70",
+      "filename": "41673936.jpg",
+      "externalId": "1UrsAHP9rjihl3_LluBzntMm5yeD9WQsj"
+    },
+    {
+      "folder": "70",
+      "filename": "54109040.jpg",
+      "externalId": "1jrg3w7tFppXAuqcSXdlNNVLfEi-wSBd5"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Quick And To The Pointless",
+      "feat": "Tobey Tores",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Lost Art Of Keeping A Secret",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

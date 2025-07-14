@@ -1,0 +1,122 @@
+{
+  "originalTitle": "Morphine - 25.05.1994 - Hilversum - Netherlands - NOB Radiostudio",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Morphine"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "05",
+    "year": "1994"
+  },
+  "startDateUnix": 769824000,
+  "endDate": {
+    "day": "25",
+    "month": "05",
+    "year": "1994"
+  },
+  "endDateUnix": 769824000,
+  "location": {
+    "city": "Hilversum",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "NOB Radiostudio",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.23,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 5838,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "morphine_29_10_1996_video",
+    "morphine_xx_04_1997_toronto_on_canada_video_misc",
+    "morphine_10_01_1994_video",
+    "morphine_xx_xx_1997_120_minutes_video_misc",
+    "morphine_23_05_1994_video"
+  ],
+  "childOf": "Morphine - [1994-1997] - TV Appearances",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "47372592.jpg",
+      "externalId": "1JyG9AuUG3x9FkUrEDMER2HVC2vIgJg9L"
+    },
+    {
+      "folder": "70",
+      "filename": "06283686.jpg",
+      "externalId": "1h7eR1jGHyG-Gt6SLqsl1VGX5lrZXgSfT"
+    },
+    {
+      "folder": "70",
+      "filename": "59937281.jpg",
+      "externalId": "1XE2MsCbQWxOjWDGZaWpHuqSCDBzGybhx"
+    },
+    {
+      "folder": "70",
+      "filename": "42877228.jpg",
+      "externalId": "1J7vUtcFyx1pyrB2zJ0YjPnqMvV18WksZ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Have A Lucky Day",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

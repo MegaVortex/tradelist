@@ -1,0 +1,129 @@
+{
+  "originalTitle": "System Of A Down - 26.06.2005 - Interlaken - Switzerland - Flughafen - Greenfield Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "System Of A Down"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "06",
+    "year": "2005"
+  },
+  "startDateUnix": 1119744000,
+  "endDate": {
+    "day": "26",
+    "month": "06",
+    "year": "2005"
+  },
+  "endDateUnix": 1119744000,
+  "location": {
+    "city": "Interlaken",
+    "state": "",
+    "country": "Switzerland",
+    "venue": "Flughafen",
+    "event": "Greenfield Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 445,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 400,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "system_of_a_down_11_06_2005_source_1_video",
+    "system_of_a_down_11_06_2005_source_2_video",
+    "system_of_a_down_04_04_2005_source_2_video",
+    "system_of_a_down_03_11_2005_source_3_video"
+  ],
+  "childOf": "System Of A Down - [2005] - TV Appearances",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "48201988.jpg",
+      "externalId": "1_RKaqvW-HAyyZ_FJiapdH--RZTC2vNmI"
+    },
+    {
+      "folder": "19",
+      "filename": "97926938.jpg",
+      "externalId": "1lttEDhuF-J8cvDfE6qVcapBdb3zXNvyO"
+    },
+    {
+      "folder": "19",
+      "filename": "11522693.jpg",
+      "externalId": "1hAm6BIOIy1DMG7i26tbptxvtjEYATTYE"
+    },
+    {
+      "folder": "19",
+      "filename": "50631014.jpg",
+      "externalId": "1J3jty9zaoJcikMNeGrr9y9WxlRsaYWqW"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Revenga",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Science",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

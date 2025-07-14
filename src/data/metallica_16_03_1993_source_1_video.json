@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Metallica - 16.03.1993 - Tokyo - Japan - Yoyogi Daiichi Taiikukan (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "03",
+    "year": "1993"
+  },
+  "startDateUnix": 732240000,
+  "endDate": {
+    "day": "16",
+    "month": "03",
+    "year": "1993"
+  },
+  "endDateUnix": 732240000,
+  "location": {
+    "city": "Tokyo",
+    "state": "",
+    "country": "Japan",
+    "venue": "Yoyogi Daiichi Taiikukan",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Highly incomplete.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 276,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 481,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_17_03_1993_video",
+    "metallica_18_03_1993_video",
+    "metallica_xx_xx_1993_japan_video_misc",
+    "metallica_20_04_1992_source_3_video",
+    "metallica_22_10_2010_video_misc",
+    "metallica_xx_xx_2010_australia_video_misc",
+    "metallica_17_09_2010_video_misc"
+  ],
+  "childOf": "Metallica - [1993-2010] - Japan & Australia",
+  "images": [
+    {
+      "folder": "76",
+      "filename": "21465876.jpg",
+      "externalId": "1SCfUCutZ0dNlUZEBBV5huC1VxsfEjZff"
+    },
+    {
+      "folder": "76",
+      "filename": "23250140.jpg",
+      "externalId": "1u6lExNuZSUabR4FZoel1FV4Cx-XHCzWd"
+    },
+    {
+      "folder": "76",
+      "filename": "50173106.jpg",
+      "externalId": "1N82bDg3o2ieqSSm4YPxHI0i5_KqIcOn5"
+    },
+    {
+      "folder": "76",
+      "filename": "03200749.jpg",
+      "externalId": "1KiU2DavWYqP3yYWE_OdFbG1zLy2mAVkq"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "One",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

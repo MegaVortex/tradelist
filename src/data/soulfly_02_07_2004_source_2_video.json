@@ -1,0 +1,144 @@
+{
+  "originalTitle": "Soulfly - 02.07.2004 - Novi Sad - Serbia - Petrovaradin Fortress - Exit Festival (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Soulfly"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "07",
+    "year": "2004"
+  },
+  "startDateUnix": 1088726400,
+  "endDate": {
+    "day": "02",
+    "month": "07",
+    "year": "2004"
+  },
+  "endDateUnix": 1088726400,
+  "location": {
+    "city": "Novi Sad",
+    "state": "",
+    "country": "Serbia",
+    "venue": "Petrovaradin Fortress",
+    "event": "Exit Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.95,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3200,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "soulfly_23_02_2003_video_misc",
+    "soulfly_07_11_2003_video_misc",
+    "soulfly_23_02_2003_video"
+  ],
+  "childOf": "Soulfly - [2003-2004] - Live Performances",
+  "images": [
+    {
+      "folder": "68",
+      "filename": "15565082.jpg",
+      "externalId": "1Y2Cs5j7bwGy5TZMujX9Z5uJ8zObCgZ3Y"
+    },
+    {
+      "folder": "68",
+      "filename": "86837707.jpg",
+      "externalId": "1-WU3U5p6dzekmpM3ds0NRmuS7U1WNaHs"
+    },
+    {
+      "folder": "68",
+      "filename": "59005971.jpg",
+      "externalId": "12my_HlvTJ5BQmPU4w2dXz1t1aC1VDDvz"
+    },
+    {
+      "folder": "68",
+      "filename": "95429650.jpg",
+      "externalId": "1SPq1riliCJqY_ougbNG5BHPWtGcL95Mb"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Prophecy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Seek 'N' Strike",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Roots Bloody Roots",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Sepultura"
+    },
+    {
+      "order": 4,
+      "song": "Jumpdafuckup / Bring It",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

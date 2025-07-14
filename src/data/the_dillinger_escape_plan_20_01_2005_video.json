@@ -1,0 +1,190 @@
+{
+  "originalTitle": "The Dillinger Escape Plan - 20.01.2005 - New York - NY - USA - Virgin Megastore",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Dillinger Escape Plan"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "01",
+    "year": "2005"
+  },
+  "startDateUnix": 1106179200,
+  "endDate": {
+    "day": "20",
+    "month": "01",
+    "year": "2005"
+  },
+  "endDateUnix": 1106179200,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Virgin Megastore",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.1,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4708,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "the_dillinger_escape_plan_25_01_2002_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "63",
+      "filename": "80849634.jpg",
+      "externalId": "1E2uQighQklyBJhtHE9Y75N6mdayCfIsS"
+    },
+    {
+      "folder": "63",
+      "filename": "48982273.jpg",
+      "externalId": "1Lqmm8VBQJjogUJRfmO1Q37yXYiEVThaH"
+    },
+    {
+      "folder": "63",
+      "filename": "31485744.jpg",
+      "externalId": "186gOMQxXevDj-s9PMcsq59VLqt_4c8v3"
+    },
+    {
+      "folder": "63",
+      "filename": "80659620.jpg",
+      "externalId": "1x9auR7U7Cl9e13c7RVXAdZqgK9i7fx9B"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Sugar Coated Sour",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Panasonic Youth",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Baby's First Coffin",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Setting Fire To Sleeping Giants",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "43% Burnt",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "When Good Dogs Do Bad Things",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "The Mullet Burden",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Phone Home",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "We Are The Storm",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Sunshine The Werewolf",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

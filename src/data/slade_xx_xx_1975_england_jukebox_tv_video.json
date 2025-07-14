@@ -1,0 +1,119 @@
+{
+  "originalTitle": "Slade - xx.xx.1975 - England - Jukebox TV",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slade"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1975"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1975"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "England",
+    "state": "",
+    "country": "Jukebox TV",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 92.16,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1985,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "slade_xx_xx_1972_source_2_video",
+    "slade_xx_12_1971_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "74932203.jpg",
+      "externalId": "12VF6pw9RcmrA9BQi3dPNTfqyR_rkLL4z"
+    },
+    {
+      "folder": "29",
+      "filename": "20733712.jpg",
+      "externalId": "1LfBoo8vz6eBE44yJL1H9bU5BEDyUSUYb"
+    },
+    {
+      "folder": "29",
+      "filename": "97302462.jpg",
+      "externalId": "1eWGWY48hX1WGBxaU6IyIx_1F3TEU9Rh3"
+    },
+    {
+      "folder": "29",
+      "filename": "50440028.jpg",
+      "externalId": "1CXXzkUk9stKpXzzA-_rSvIwNTolYVwBE"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Let's Call It Quits",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

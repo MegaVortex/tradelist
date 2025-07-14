@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Slipknot - 15.09.1999 - Hartford - CT - USA - Webster Theatre (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "09",
+    "year": "1999"
+  },
+  "startDateUnix": 937353600,
+  "endDate": {
+    "day": "15",
+    "month": "09",
+    "year": "1999"
+  },
+  "endDateUnix": 937353600,
+  "location": {
+    "city": "Hartford",
+    "state": "CT",
+    "country": "USA",
+    "venue": "Webster Theatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete. 1st Gen upgrade.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.77,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 785,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "",
+        "bitrateKbps": 28772,
+        "fps": "29.97",
+        "standard": "DVSD",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "83",
+      "filename": "49649798.jpg",
+      "externalId": "1mZWrgdF8vBRtFzhvmClCG1HLsKCrNB4M"
+    },
+    {
+      "folder": "83",
+      "filename": "59675816.jpg",
+      "externalId": "1SFXl_i4tY0VvC_S1PQqvLI8kVFm_uTI2"
+    },
+    {
+      "folder": "83",
+      "filename": "42713673.jpg",
+      "externalId": "1-hP12fBBFFkZr14aYnFtYjl3AZnBDXgB"
+    },
+    {
+      "folder": "83",
+      "filename": "33212707.jpg",
+      "externalId": "1MEhrYICpozhwffOCHUdUYMWXMmrQd6kI"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "742617000027",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "(Sic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Eyeless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Wait And Bleed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

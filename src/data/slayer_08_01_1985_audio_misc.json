@@ -1,0 +1,91 @@
+{
+  "originalTitle": "Slayer - 08.01.1985 - Los Angeles - CA - USA - KXLU Radio [MISC] [AUDIO]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slayer"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "01",
+    "year": "1985"
+  },
+  "startDateUnix": 473990400,
+  "endDate": {
+    "day": "08",
+    "month": "01",
+    "year": "1985"
+  },
+  "endDateUnix": 473990400,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "KXLU Radio",
+    "event": ""
+  },
+  "tvChannel": "KXLU Radio",
+  "showName": "",
+  "source": "",
+  "category": [
+    "audio",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Recorded with unknown equipment > unknown lineage > trade CDR in 2004/2005 > CDR > EAC > WAV > TLH > FLAC 8.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 61.44,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1076,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Jeff Hanneman and Tom Araya",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

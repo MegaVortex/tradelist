@@ -1,0 +1,108 @@
+{
+  "originalTitle": "The Union Underground - 23.09.2000 - Huntington - WV - USA - Harris Riverfront Park - X-Fest",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Union Underground"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "09",
+    "year": "2000"
+  },
+  "startDateUnix": 969667200,
+  "endDate": {
+    "day": "23",
+    "month": "09",
+    "year": "2000"
+  },
+  "endDateUnix": 969667200,
+  "location": {
+    "city": "Huntington",
+    "state": "WV",
+    "country": "USA",
+    "venue": "Harris Riverfront Park",
+    "event": "X-Fest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.86,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2684,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "kittie_13_03_2000_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "30",
+      "filename": "82739629.jpg",
+      "externalId": "11LkSz0ZM2sIF3dxptE4DqDoT1u15NDAA"
+    },
+    {
+      "folder": "30",
+      "filename": "04610347.jpg",
+      "externalId": "1mxqaZkpG_L9VIQ54nyR_sJ7VELAAzXUJ"
+    },
+    {
+      "folder": "30",
+      "filename": "32988619.jpg",
+      "externalId": "1QOimkia53JGDsMVIDa25dmPNWPldabxv"
+    },
+    {
+      "folder": "30",
+      "filename": "43676473.jpg",
+      "externalId": "1dZOXEa6bQ2y9ECJcvvY-zqtcv3fguOTV"
+    }
+  ],
+  "setlist": []
+}

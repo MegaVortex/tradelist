@@ -1,0 +1,116 @@
+{
+  "originalTitle": "System Of A Down - 25.05.2011 - Irvine - CA - USA - Verizon Wireless Amphitheater (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "System Of A Down"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "05",
+    "year": "2011"
+  },
+  "startDateUnix": 1306281600,
+  "endDate": {
+    "day": "25",
+    "month": "05",
+    "year": "2011"
+  },
+  "endDateUnix": 1306281600,
+  "location": {
+    "city": "Irvine",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Verizon Wireless Amphitheater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.28,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 387,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "JPEG",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 16000,
+        "bitrateKbps": 512,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "HD",
+      "fileFormat": "MOV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "25",
+      "filename": "06146193.jpg",
+      "externalId": "1T1HjvFN0DNHQ7MlEEUYUU6lWIXlPhelF"
+    },
+    {
+      "folder": "25",
+      "filename": "67501405.jpg",
+      "externalId": "1aHXMvou_xVii29-REjTBdBYA3sobvXyv"
+    },
+    {
+      "folder": "25",
+      "filename": "95519207.jpg",
+      "externalId": "1OpaLZRUHM81K1ygEuxmKrq75iK6BXACo"
+    },
+    {
+      "folder": "25",
+      "filename": "66922602.jpg",
+      "externalId": "1uWSGxr8SW8LR4jDzwtYOqyEco5j47Z60"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Holy Mountains",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

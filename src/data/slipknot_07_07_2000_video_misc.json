@@ -1,0 +1,135 @@
+{
+  "originalTitle": "Slipknot - 07.07.2000 - Sioux Falls - SD - USA - Sioux Empire Fair Expo Hall [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "07",
+    "year": "2000"
+  },
+  "startDateUnix": 962928000,
+  "endDate": {
+    "day": "07",
+    "month": "07",
+    "year": "2000"
+  },
+  "endDateUnix": 962928000,
+  "location": {
+    "city": "Sioux Falls",
+    "state": "SD",
+    "country": "USA",
+    "venue": "Sioux Empire Fair Expo Hall",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Soundcheck.",
+  "tapers": [
+    "Chris"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 5.54,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1568,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "",
+        "bitrateKbps": 28771,
+        "fps": "29.97",
+        "standard": "DVSD",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HI8",
+      "finalMediaType": "",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "78",
+      "filename": "01734777.jpg",
+      "externalId": "13q161StRj-DYogKGEPwtsvxZrVUkXYgR"
+    },
+    {
+      "folder": "78",
+      "filename": "91733244.jpg",
+      "externalId": "1oeyEW3BaYQzmmRuXOKtejTriz0MRPSaD"
+    },
+    {
+      "folder": "78",
+      "filename": "14452660.jpg",
+      "externalId": "1j1iLgUSdRcGAXD6z6-F_BJvc7h6_71Ac"
+    },
+    {
+      "folder": "78",
+      "filename": "04233442.jpg",
+      "externalId": "1BPbPkPKuBeyIFngKgumoOY8dmBdMms-u"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Eyeless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Liberate",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Me Inside",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

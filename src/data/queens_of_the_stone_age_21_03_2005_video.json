@@ -1,0 +1,158 @@
+{
+  "originalTitle": "Queens Of The Stone Age - 21.03.2005 - New York - NY - USA - Virgin Megastore - 7th Avenue Drop",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "03",
+    "year": "2005"
+  },
+  "startDateUnix": 1111363200,
+  "endDate": {
+    "day": "21",
+    "month": "03",
+    "year": "2005"
+  },
+  "endDateUnix": 1111363200,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Virgin Megastore",
+    "event": "7th Avenue Drop"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Fuse TV broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.06,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1219,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "queens_of_the_stone_age_25_03_2005_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "68",
+      "filename": "51804565.jpg",
+      "externalId": "1FChNZ3Dy97MW5JkgdbcvQSiKa-4jAeV1"
+    },
+    {
+      "folder": "68",
+      "filename": "01292393.jpg",
+      "externalId": "1yk75RZPYnlUrIvNHt95Zg98RdCe0VPoK"
+    },
+    {
+      "folder": "68",
+      "filename": "87451200.jpg",
+      "externalId": "1523pHBkDM1Cbj9ny0BkI5IM31GYQ7rVI"
+    },
+    {
+      "folder": "68",
+      "filename": "70619345.jpg",
+      "externalId": "1gXxJltcLd4YFjYm77R0zoGCsxf8a3as3"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Little Sister",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Burn The Witch",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "In My Head",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Go With The Flow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "God Is In The Radio",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

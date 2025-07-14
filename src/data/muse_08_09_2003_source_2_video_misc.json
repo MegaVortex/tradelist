@@ -1,0 +1,126 @@
+{
+  "originalTitle": "Muse - 08.09.2003 - London - England - MTV Studios - Gonzo (Source 2) [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Muse"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "09",
+    "year": "2003"
+  },
+  "startDateUnix": 1062979200,
+  "endDate": {
+    "day": "08",
+    "month": "09",
+    "year": "2003"
+  },
+  "endDateUnix": 1062979200,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "MTV Studios",
+    "event": "Gonzo"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 870,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1611,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "fr",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "muse_02_07_2006_source_1_video",
+    "muse_15_06_2006_video",
+    "muse_02_07_2006_source_2_video",
+    "muse_13_05_2006_video",
+    "muse_18_06_2006_video",
+    "muse_02_11_2006_video",
+    "muse_16_10_2006_video",
+    "muse_02_07_2006_source_3_video"
+  ],
+  "childOf": "Muse - [2003-2006] - TV Appearances",
+  "images": [
+    {
+      "folder": "33",
+      "filename": "59701102.jpg",
+      "externalId": "1JXRNJqqyaAt79WWWIWeQjondJMAf1coS"
+    },
+    {
+      "folder": "33",
+      "filename": "95314614.jpg",
+      "externalId": "15ct4FsWzELhMgIm5hz8shziqtGp_vHy9"
+    },
+    {
+      "folder": "33",
+      "filename": "78587870.jpg",
+      "externalId": "1_wZ9wHYcQ2ZhC6gpbCuu-CXVMGbcixWq"
+    },
+    {
+      "folder": "33",
+      "filename": "26351834.jpg",
+      "externalId": "11bF9SEY1CqnHo6OBfTmcKfBVRLXicJrr"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

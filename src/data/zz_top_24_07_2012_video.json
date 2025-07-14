@@ -1,0 +1,156 @@
+{
+  "originalTitle": "ZZ Top - 24.07.2012 - Copenhagen - Denmark - Broendby Stadion",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "ZZ Top"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "07",
+    "year": "2012"
+  },
+  "startDateUnix": 1343088000,
+  "endDate": {
+    "day": "24",
+    "month": "07",
+    "year": "2012"
+  },
+  "endDateUnix": 1343088000,
+  "location": {
+    "city": "Copenhagen",
+    "state": "",
+    "country": "Denmark",
+    "venue": "Broendby Stadion",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Highly incomplete.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.6,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1237,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "30.303",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "46",
+      "filename": "21522673.jpg",
+      "externalId": "1X_FQQHYPzZW7JC-Qke3W9a0Ze8ML1Rhp"
+    },
+    {
+      "folder": "46",
+      "filename": "79093996.jpg",
+      "externalId": "1MuNkpDjDyXS9gxcWfnwab0nmtaW_B-nJ"
+    },
+    {
+      "folder": "46",
+      "filename": "73905660.jpg",
+      "externalId": "1ZBhf2pY-2Rxem3hcvUoEPX4D5NRCWTV4"
+    },
+    {
+      "folder": "46",
+      "filename": "55508091.jpg",
+      "externalId": "1J95SlHFeDPXy8ZYn5gO9tb00vr-Jrdbq"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Thunderbird",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Thank You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Waitin' For The Bus",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Jesus Just Left Chicago",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Pincushion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

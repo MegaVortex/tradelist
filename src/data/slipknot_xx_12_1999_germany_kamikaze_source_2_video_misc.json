@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Slipknot - xx.12.1999 - Germany - Kamikaze - Nils Ruf Show (Source 2) [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "12",
+    "year": "1999"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "12",
+    "year": "1999"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Germany",
+    "state": "",
+    "country": "Kamikaze",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Nils Ruf Show",
+  "source": "Source 2",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "VIVA broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.18,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1042,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "68",
+      "filename": "20454653.jpg",
+      "externalId": "1hTFomytb4nYcaUQBw43hjDxw9Mbmekcp"
+    },
+    {
+      "folder": "68",
+      "filename": "03353082.jpg",
+      "externalId": "1KyXfvEMfij5oNbjtJpL6mAxLuidHpvgY"
+    },
+    {
+      "folder": "68",
+      "filename": "54364102.jpg",
+      "externalId": "1T0El7x-D4J0amoKNuvDpBGc6IoC3emam"
+    },
+    {
+      "folder": "68",
+      "filename": "32719939.jpg",
+      "externalId": "1BBNAiBckqhELbV8r3-iQkAFNzDYHng9I"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

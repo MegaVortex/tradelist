@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Queens Of The Stone Age - 26.10.2013 - Mountain View - CA - USA - Shoreline Amphitheatre",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "10",
+    "year": "2013"
+  },
+  "startDateUnix": 1382745600,
+  "endDate": {
+    "day": "26",
+    "month": "10",
+    "year": "2013"
+  },
+  "endDateUnix": 1382745600,
+  "location": {
+    "city": "Mountain View",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Shoreline Amphitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 242,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1910,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "640x480",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "30",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "VCD",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "68",
+      "filename": "83077922.jpg",
+      "externalId": "1Yua-ILtm8KfMxdCy0oHYTEmUSLBCpktW"
+    },
+    {
+      "folder": "68",
+      "filename": "44451067.jpg",
+      "externalId": "1hunsHJobjakBVReSD-phcPrzMIeMhydV"
+    },
+    {
+      "folder": "68",
+      "filename": "88024222.jpg",
+      "externalId": "1hjG5rc0NzdMWUap2gCEoeygT9XiqPLTn"
+    },
+    {
+      "folder": "68",
+      "filename": "50204680.jpg",
+      "externalId": "1TFAdm1lnn_6ERMLOsH1dcMhGeeT1wOBl"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Long Slow Goodbye",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Make It Wit Chu",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "I Sat By The Ocean",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "...Like Clockwork",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Kalopsia",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Go With The Flow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

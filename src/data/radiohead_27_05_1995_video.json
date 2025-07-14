@@ -1,0 +1,128 @@
+{
+  "originalTitle": "Radiohead - 27.05.1995 - London - England - BBC Television Centre - Jools Holland Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Radiohead"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "05",
+    "year": "1995"
+  },
+  "startDateUnix": 801532800,
+  "endDate": {
+    "day": "27",
+    "month": "05",
+    "year": "1995"
+  },
+  "endDateUnix": 801532800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Television Centre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jools Holland Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 399,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 258,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "radiohead_31_05_1997_video",
+    "radiohead_09_06_2001_video",
+    "radiohead_27_05_2003_video"
+  ],
+  "childOf": "Radiohead - [1995-2003] - Jools Holland Shows",
+  "images": [
+    {
+      "folder": "32",
+      "filename": "19814226.jpg",
+      "externalId": "1YXl6PfeWSgVmi_yEdyTc_KomiarUXgcD"
+    },
+    {
+      "folder": "32",
+      "filename": "54442780.jpg",
+      "externalId": "1DfbHMaUGu0FsCqtV2unHzIP4ZBbaf3qy"
+    },
+    {
+      "folder": "32",
+      "filename": "16197512.jpg",
+      "externalId": "1gf-JXR_NdbQzG0svcFrnGssyb6ngJ2N-"
+    },
+    {
+      "folder": "32",
+      "filename": "93990213.jpg",
+      "externalId": "1IDr4tiMqso4w5GPS9s5GdodN04a6oxSl"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "High And Dry",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Bends",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

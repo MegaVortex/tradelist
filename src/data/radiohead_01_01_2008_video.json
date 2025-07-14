@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Radiohead - 01.01.2008 - Oxford - England - Studio - Scotch Mist",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Radiohead"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "01",
+    "year": "2008"
+  },
+  "startDateUnix": 1199145600,
+  "endDate": {
+    "day": "01",
+    "month": "01",
+    "year": "2008"
+  },
+  "endDateUnix": 1199145600,
+  "location": {
+    "city": "Oxford",
+    "state": "",
+    "country": "England",
+    "venue": "Studio",
+    "event": "Scotch Mist"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "A film with Radiohead in it made for New Year's Eve, 2007. Features every song on their new album \"In Rainbows\".",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.37,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3133,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "21171089.jpg",
+      "externalId": "1SVQKyoRv9JJVrR-yXGNq3etl59CP-t4c"
+    },
+    {
+      "folder": "60",
+      "filename": "52306900.jpg",
+      "externalId": "1Djme5Y20kl3hC_E3IpS0pm2lo0kFmXIp"
+    },
+    {
+      "folder": "60",
+      "filename": "39684888.jpg",
+      "externalId": "12GReAA9vIfRW74ylbv75QFtSrEutwoiO"
+    },
+    {
+      "folder": "60",
+      "filename": "94242927.jpg",
+      "externalId": "19EHWnDO962u4lBOIyYdRIUAFWHY-pWRa"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Weird Fishes-Arpeggi",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Bodysnatchers",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Jigsaw Falling Into Place",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Faust Arp",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "15 Step",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Videotape",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Reckoner",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "House Of Cards",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "All I Need",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Nude",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

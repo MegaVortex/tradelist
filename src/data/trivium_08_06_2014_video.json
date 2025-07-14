@@ -1,0 +1,131 @@
+{
+  "originalTitle": "Trivium - 08.06.2014 - Nuerberg - Germany - Nuerburgring - Rock Am Ring",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Trivium"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "06",
+    "year": "2014"
+  },
+  "startDateUnix": 1402185600,
+  "endDate": {
+    "day": "08",
+    "month": "06",
+    "year": "2014"
+  },
+  "endDateUnix": 1402185600,
+  "location": {
+    "city": "Nuerberg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Nuerburgring",
+    "event": "Rock Am Ring"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 963,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 559,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "64",
+      "filename": "61946282.jpg",
+      "externalId": "1bfclf0iWPqhI8i_TPk5dpunmLN5jPSgj"
+    },
+    {
+      "folder": "64",
+      "filename": "85345181.jpg",
+      "externalId": "1I9-pQQMyMHTEp757D1R1QVcHauph_iFT"
+    },
+    {
+      "folder": "64",
+      "filename": "34664598.jpg",
+      "externalId": "1P4PBkfr9ejTeQbdnFx6AF9E84h3D-tjh"
+    },
+    {
+      "folder": "64",
+      "filename": "87233478.jpg",
+      "externalId": "1j73XR39CCN9Jw5BRRdBw-Ih5SjHGv7oi"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Dying In Your Arms",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "In Waves",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

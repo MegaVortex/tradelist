@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Slipknot - 22.05.1999 - Des Moines - IA - USA - Hairy Marys",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "05",
+    "year": "1999"
+  },
+  "startDateUnix": 927331200,
+  "endDate": {
+    "day": "22",
+    "month": "05",
+    "year": "1999"
+  },
+  "endDateUnix": 927331200,
+  "location": {
+    "city": "Des Moines",
+    "state": "IA",
+    "country": "USA",
+    "venue": "Hairy Marys",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Part of original tape. 2 cam mix + SBD recording. No trades allowed!",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 205,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 270,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 224,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "56",
+      "filename": "34953647.jpg",
+      "externalId": "1QIP96spRM3zvm1lg74yx85HjUdltUsLH"
+    },
+    {
+      "folder": "56",
+      "filename": "71047798.jpg",
+      "externalId": "1DbzobQcvwJ8UJM-du8bXnzFz3lx0Fk9J"
+    },
+    {
+      "folder": "56",
+      "filename": "52134623.jpg",
+      "externalId": "136bdirnq2e4qi8rkRbZ7jrXuExPOGDe4"
+    },
+    {
+      "folder": "56",
+      "filename": "14227171.jpg",
+      "externalId": "1uElD4-DjihI2LEdHie7gPDLfbKK2cmJe"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Only One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

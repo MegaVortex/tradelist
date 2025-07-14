@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Unearth - 06.06.2004 - Montreal - QC - Canada - L'X (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Unearth"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "06",
+    "year": "2004"
+  },
+  "startDateUnix": 1086480000,
+  "endDate": {
+    "day": "06",
+    "month": "06",
+    "year": "2004"
+  },
+  "endDateUnix": 1086480000,
+  "location": {
+    "city": "Montreal",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "L'X",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "NightpunX"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.33,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2910,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "unearth_19_06_2004_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "13",
+      "filename": "37721489.jpg",
+      "externalId": "1UCE2n6bJTFlo4PEiwO0DNs_Eiv6Bh-Kh"
+    },
+    {
+      "folder": "13",
+      "filename": "85782805.jpg",
+      "externalId": "1ix8CBgCQRvzAqZKj8ryWLAOkTTptFKzh"
+    },
+    {
+      "folder": "13",
+      "filename": "28832385.jpg",
+      "externalId": "11UYwy1gT8Y-Y4HOEOAlPZ625jLyBDR3B"
+    },
+    {
+      "folder": "13",
+      "filename": "43513254.jpg",
+      "externalId": "1f_3lTrY4VTzStfVLC1hsDhjdCaKWMez0"
+    }
+  ],
+  "setlist": []
+}

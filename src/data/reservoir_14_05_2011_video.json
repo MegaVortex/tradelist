@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Reservoir - 14.05.2011 - Allston - MA - USA - Wacky Kastle",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Reservoir"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "05",
+    "year": "2011"
+  },
+  "startDateUnix": 1305331200,
+  "endDate": {
+    "day": "14",
+    "month": "05",
+    "year": "2011"
+  },
+  "endDateUnix": 1305331200,
+  "location": {
+    "city": "Allston",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Wacky Kastle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "dyinghorse release.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.42,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1327,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "34",
+      "filename": "71028824.jpg",
+      "externalId": "1h6__egKbJcFPNucnju7MQtVhmuKW2jzN"
+    },
+    {
+      "folder": "34",
+      "filename": "01040175.jpg",
+      "externalId": "1nEYeysHG-cSPMkDlW7-ET98hbWm95Yio"
+    },
+    {
+      "folder": "34",
+      "filename": "80630695.jpg",
+      "externalId": "1R7hzkVEahTTPLenLavFfhucb76j5FSnk"
+    },
+    {
+      "folder": "34",
+      "filename": "91535306.jpg",
+      "externalId": "1kudkNRO42A86biY4qdDLZSMUlbkgqRTk"
+    }
+  ],
+  "setlist": []
+}

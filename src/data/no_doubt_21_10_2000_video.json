@@ -1,0 +1,159 @@
+{
+  "originalTitle": "No Doubt - 21.10.2000 - Brisbane - Australia - RNA Showgrounds - Livid Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "No Doubt"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "10",
+    "year": "2000"
+  },
+  "startDateUnix": 972086400,
+  "endDate": {
+    "day": "21",
+    "month": "10",
+    "year": "2000"
+  },
+  "endDateUnix": 972086400,
+  "location": {
+    "city": "Brisbane",
+    "state": "",
+    "country": "Australia",
+    "venue": "RNA Showgrounds",
+    "event": "Livid Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "TV Compilation Vol 4.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.7,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2364,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "no_doubt_xx_xx_2000_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "33",
+      "filename": "36447797.jpg",
+      "externalId": "1ZQy784TdkjeSvDnDHaTwAK_Lq13-6GrD"
+    },
+    {
+      "folder": "33",
+      "filename": "47144656.jpg",
+      "externalId": "1TUnyPHg588mu3Ren7PcUilN3w5h_VPQq"
+    },
+    {
+      "folder": "33",
+      "filename": "61468785.jpg",
+      "externalId": "19kjhcW6oMiu5HaMO76vNifjobyNa5Tol"
+    },
+    {
+      "folder": "33",
+      "filename": "18366427.jpg",
+      "externalId": "15xO-8MD2JQRGNrA2wXopTpHP_BSkwGLn"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Ex Girlfreind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Just A Girl",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 2,
+      "song": "Ex Girlfreind (live in studio)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 4,
+      "song": "Simple Kind Of Life (live in studio)",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "originalTitle": "Metallica - 18.11.2014 - Los Angeles - CA - USA - CBS Television City - The Late Late Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "11",
+    "year": "2014"
+  },
+  "startDateUnix": 1416268800,
+  "endDate": {
+    "day": "18",
+    "month": "11",
+    "year": "2014"
+  },
+  "endDateUnix": 1416268800,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "CBS Television City",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "The Late Late Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 630,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 283,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "59",
+      "filename": "20777695.jpg",
+      "externalId": "1uZeImDQAFO9CiA_eH5IzrQnUTADWqcLJ"
+    },
+    {
+      "folder": "59",
+      "filename": "57639280.jpg",
+      "externalId": "1xZZV3FlD79aUWL_hsNi4yScT_f7qzd-J"
+    },
+    {
+      "folder": "59",
+      "filename": "56639594.jpg",
+      "externalId": "11Nly97C7lNEf7gLGdEdj6VSAHCGX-ss7"
+    },
+    {
+      "folder": "59",
+      "filename": "49751035.jpg",
+      "externalId": "1vPlt5kSZXL7AC77Wk8A2U17-u5-Bjixd"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Fuel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

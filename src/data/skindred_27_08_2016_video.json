@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Skindred - 27.08.2016 - Reading - England - Little John's Farm - Reading Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Skindred"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "08",
+    "year": "2016"
+  },
+  "startDateUnix": 1472256000,
+  "endDate": {
+    "day": "27",
+    "month": "08",
+    "year": "2016"
+  },
+  "endDateUnix": 1472256000,
+  "location": {
+    "city": "Reading",
+    "state": "",
+    "country": "England",
+    "venue": "Little John's Farm",
+    "event": "Reading Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.32,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2024,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 115,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "HD",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "68",
+      "filename": "33255035.jpg",
+      "externalId": "1JhqKsyLhSeyY0M-1fYvQ5aAA0Zs9k2wj"
+    },
+    {
+      "folder": "68",
+      "filename": "76483424.jpg",
+      "externalId": "1_MizK2IVjZE0pj_nxkWDI2yGZxw3-QyW"
+    },
+    {
+      "folder": "68",
+      "filename": "42656402.jpg",
+      "externalId": "1tCr-LcjAylb2pZnk5sk-K3UFYxp50ddG"
+    },
+    {
+      "folder": "68",
+      "filename": "89586961.jpg",
+      "externalId": "1WLiv6stex-m8O90tzxskLlwWEUv5CcMI"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Under Attack",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Rat Race",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Sound The Siren",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Kill The Power",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Nobody",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Warning",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,109 @@
+{
+  "originalTitle": "Page & Plant - 01.04.1995 - Detroit - MI - USA - The Palace",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Page & Plant"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "04",
+    "year": "1995"
+  },
+  "startDateUnix": 796694400,
+  "endDate": {
+    "day": "01",
+    "month": "04",
+    "year": "1995"
+  },
+  "endDateUnix": 796694400,
+  "location": {
+    "city": "Detroit",
+    "state": "MI",
+    "country": "USA",
+    "venue": "The Palace",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.24,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1755,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "page_plant_03_10_1995_video",
+    "page_plant_01_05_1995_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "88944572.jpg",
+      "externalId": "1Hh98utYEfiPNTlK6dZvTmh-ncTJryncg"
+    },
+    {
+      "folder": "20",
+      "filename": "67271176.jpg",
+      "externalId": "17id8JWyOmV-qptZ_F1-6cD385VJN_GX2"
+    },
+    {
+      "folder": "20",
+      "filename": "50290034.jpg",
+      "externalId": "1vXXNNrUuQ7AiNazyJ-LY0bXzxu3zGqeI"
+    },
+    {
+      "folder": "20",
+      "filename": "71100881.jpg",
+      "externalId": "1im-P2afUgH83gdvZezx6zA32LFhlaZXK"
+    }
+  ],
+  "setlist": []
+}

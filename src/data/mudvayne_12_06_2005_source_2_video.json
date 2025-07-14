@@ -1,0 +1,130 @@
+{
+  "originalTitle": "Mudvayne - 12.06.2005 - Donington - England - Donington Park - Download Festival (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Mudvayne"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "06",
+    "year": "2005"
+  },
+  "startDateUnix": 1118534400,
+  "endDate": {
+    "day": "12",
+    "month": "06",
+    "year": "2005"
+  },
+  "endDateUnix": 1118534400,
+  "location": {
+    "city": "Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": "Download Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.85,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2746,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "nightwish_12_06_2005_video",
+    "mastodon_12_06_2005_video",
+    "motorhead_12_06_2005_video",
+    "lordi_10_06_2005_video",
+    "trivium_12_06_2005_video",
+    "killswitch_engage_12_06_2005_video",
+    "bullet_for_my_valentine_11_06_2005_video",
+    "funeral_for_a_friend_12_06_2005_video",
+    "lacuna_coil_12_06_2005_video",
+    "slayer_12_06_2005_video",
+    "slipknot_12_06_2005_source_5_video",
+    "apocalyptica_10_06_2005_video",
+    "system_of_a_down_12_06_2005_source_3_video"
+  ],
+  "childOf": "various_artists_10_06_2005_12_06_2005_video_compilation",
+  "images": [
+    {
+      "folder": "30",
+      "filename": "61737482.jpg",
+      "externalId": "1VrIg_0I4bdcpbiMzplBm_CZFa_Smeq-x"
+    },
+    {
+      "folder": "30",
+      "filename": "07077032.jpg",
+      "externalId": "1Ku267pRwf3vaTTfvxrXKZGyA6xxH3hhO"
+    },
+    {
+      "folder": "30",
+      "filename": "02613030.jpg",
+      "externalId": "1iAsWu1o1zXmyEVUNXLFZ4sSpNeVuPA7t"
+    },
+    {
+      "folder": "30",
+      "filename": "22938502.jpg",
+      "externalId": "1Fw6vNglJCVF1Pal0EGmSEdN9kc2lXsmf"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Happy?",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

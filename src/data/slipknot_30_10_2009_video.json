@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Slipknot - 30.10.2009 - Hollywood - Los Angeles - CA - USA - Bud Light Outdoor Stage - Jimmy Kimmel Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "10",
+    "year": "2009"
+  },
+  "startDateUnix": 1256860800,
+  "endDate": {
+    "day": "30",
+    "month": "10",
+    "year": "2009"
+  },
+  "endDateUnix": 1256860800,
+  "location": {
+    "city": "Hollywood",
+    "state": "",
+    "country": "Los Angeles",
+    "venue": "CA",
+    "event": "USA - Bud Light Outdoor Stage"
+  },
+  "tvChannel": "",
+  "showName": "Jimmy Kimmel Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 618,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 454,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "59.94",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "82431143.jpg",
+      "externalId": "1pXMxzk-VQOXFeQD_oHGHvDqyXnamCpHk"
+    },
+    {
+      "folder": "15",
+      "filename": "94823781.jpg",
+      "externalId": "1luCJhjw_EtFiCeS0M9efZRLg1ridRMjd"
+    },
+    {
+      "folder": "15",
+      "filename": "80596821.jpg",
+      "externalId": "1YMrHYU-LNehoWSwtWbRtzW-NwbJkhK6D"
+    },
+    {
+      "folder": "15",
+      "filename": "01421985.jpg",
+      "externalId": "1l4z0ZLhqeGXdFvC_OHt1SgMgO7auyOS0"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Snuff",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Psychosocial",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

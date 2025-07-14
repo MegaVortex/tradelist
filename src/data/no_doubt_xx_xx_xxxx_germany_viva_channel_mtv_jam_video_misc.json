@@ -1,0 +1,127 @@
+{
+  "originalTitle": "No Doubt - xx.xx.xxxx - Germany - Viva Channel - MTV Jam [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "No Doubt"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Germany",
+    "state": "",
+    "country": "Viva Channel",
+    "venue": "MTV Jam",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "TV Compilation Vol 3. Dubbed to german language.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.49,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2208,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "no_doubt_xx_xx_1996_australia_channel_v_speak_easy_australia_video_misc"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "33",
+      "filename": "29999460.jpg",
+      "externalId": "1LSsF01vdWhoDxkmdvDBJ4N7FE-RR_4r3"
+    },
+    {
+      "folder": "33",
+      "filename": "45365881.jpg",
+      "externalId": "13PQi8XIWHGL7MGtdPw9fTZkEqlY2w-4k"
+    },
+    {
+      "folder": "33",
+      "filename": "98499442.jpg",
+      "externalId": "1cHgiHMArjLvtGgaKceGvpSQbHE-xwAay"
+    },
+    {
+      "folder": "33",
+      "filename": "83595459.jpg",
+      "externalId": "1ayEf7BdD70iqRpI4XNzUp-xwXGaR88Jk"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,120 @@
+{
+  "originalTitle": "Sonic Youth - xx.xx.1993 - BBC2 TV - The Late Show - 'No Nirvana'",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sonic Youth"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1993"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1993"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "BBC2 TV",
+    "state": "",
+    "country": "'No Nirvana'",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "BBC2 TV",
+  "showName": "The Late Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.66,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2451,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "pearl_jam_xx_xx_1993_video",
+    "r_e_m_xx_xx_1993_video",
+    "smashing_pumpkins_xx_xx_1993_video"
+  ],
+  "childOf": "[VARIOUS ARTISTS] - [1993] - BBC2 TV - The Late Show - 'No Nirvana'",
+  "images": [
+    {
+      "folder": "17",
+      "filename": "70711800.jpg",
+      "externalId": "1rJtwWbcfr1uKt9Etp7JzK3Wg3PxXGPdM"
+    },
+    {
+      "folder": "17",
+      "filename": "74328145.jpg",
+      "externalId": "1BIqw44zRTnEdNIv-BGyK8xKUCvZLdiO-"
+    },
+    {
+      "folder": "17",
+      "filename": "02744886.jpg",
+      "externalId": "1K5VnJuHLqfGoSKBl0EADtg2Zr0MiVHKG"
+    },
+    {
+      "folder": "17",
+      "filename": "75572169.jpg",
+      "externalId": "1Aw6OeQaxKhBo-eE37CDryu97MkXNMf-j"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Drunken Butterfly",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

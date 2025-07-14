@@ -1,0 +1,228 @@
+{
+  "originalTitle": "Mr. Bungle - 10.01.1991 - Los Angeles - CA - USA - Club Lingerie",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Mr. Bungle"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "01",
+    "year": "1991"
+  },
+  "startDateUnix": 663465600,
+  "endDate": {
+    "day": "10",
+    "month": "01",
+    "year": "1991"
+  },
+  "endDateUnix": 663465600,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Club Lingerie",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.95,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 5324,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "83",
+      "filename": "33513422.jpg",
+      "externalId": "1UVAwPMjBFq0GqLs5l_Jd6AMtPXKWdb9c"
+    },
+    {
+      "folder": "83",
+      "filename": "14449949.jpg",
+      "externalId": "16bWeKTk_e8ORgBAymxjfa_UBs0f3I14u"
+    },
+    {
+      "folder": "83",
+      "filename": "86093964.jpg",
+      "externalId": "1vuLuniIRTwDrMCAeuqJZVq4d5yI6rHg1"
+    },
+    {
+      "folder": "83",
+      "filename": "02843359.jpg",
+      "externalId": "1Dl_lFxxeSvXXx70kiSDitYQ1XzsDUGJ_"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Welcome Back",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "John Sebastian"
+    },
+    {
+      "order": 3,
+      "song": "Bienvenidos",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "John Sebastian"
+    },
+    {
+      "order": 4,
+      "song": "Travolta",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Egg",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Slowly Growing Deaf",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Squeeze Me Macaroni",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Stubb (A Dub)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Mr. Nice Guy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Platypus",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "My Ass Is On Fire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "The Girls Of Porn",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Thunderball",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Tom Jones"
+    },
+    {
+      "order": 14,
+      "song": "Love Is A Fist",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Existential Blues",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Freddie Blassie"
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,154 @@
+{
+  "originalTitle": "Nirvana - 26.11.1989 - Mezzago - Italy - Bloom (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "11",
+    "year": "1989"
+  },
+  "startDateUnix": 628041600,
+  "endDate": {
+    "day": "26",
+    "month": "11",
+    "year": "1989"
+  },
+  "endDateUnix": 628041600,
+  "location": {
+    "city": "Mezzago",
+    "state": "",
+    "country": "Italy",
+    "venue": "Bloom",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "Pierre Leroy",
+  "notes": "AMT#1.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.59,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1659,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "tad_26_11_1989_video",
+    "nirvana_02_04_1994_source_2_video",
+    "various_artists_xx_xx_xxxx_video",
+    "tad_span_br_p_li_tad_20_11_1989_video",
+    "a_br_li_li_tad_26_11_1989_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "50",
+      "filename": "37929259.jpg",
+      "externalId": "1qPhNNTfsqye5jOKO03MWnHlf7uSYgSZ5"
+    },
+    {
+      "folder": "50",
+      "filename": "96743956.jpg",
+      "externalId": "1oJnUHR8m2saVCp7uHhLStQ6tcTvFaBwW"
+    },
+    {
+      "folder": "50",
+      "filename": "64613471.jpg",
+      "externalId": "1Y7JCqWugPqCjy-bFpkvjaaKREJ2GsY9v"
+    },
+    {
+      "folder": "50",
+      "filename": "00189893.jpg",
+      "externalId": "1bqgqQPX_AM3KgWQsEjnOt8UYcOz7Er-s"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "School",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Love Buzz",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Big Cheese",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Negative Creep",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

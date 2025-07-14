@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Metallica - 09.06.2012 - Donington - England - Donington Park - Download Festival (Source 4)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "06",
+    "year": "2012"
+  },
+  "startDateUnix": 1339200000,
+  "endDate": {
+    "day": "09",
+    "month": "06",
+    "year": "2012"
+  },
+  "endDateUnix": 1339200000,
+  "location": {
+    "city": "Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": "Download Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 4",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 23.9,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 13062,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [
+    "tenacious_d_09_06_2012_video",
+    "anthrax_10_06_2012_video",
+    "sebastian_bach_10_06_2012_video",
+    "nightwish_08_06_2012_video",
+    "devildriver_10_06_2012_video",
+    "rise_against_10_06_2012_video",
+    "slash_08_06_2012_video",
+    "soundgarden_10_06_2012_video",
+    "lamb_of_god_10_06_2012_video",
+    "nofx_08_06_2012_video",
+    "trivium_09_06_2012_video",
+    "megadeth_10_06_2012_video",
+    "the_prodigy_08_06_2012_video",
+    "machine_head_08_06_2012_video",
+    "rival_sons_10_06_2012_video",
+    "killswitch_engage_09_06_2012_video",
+    "skindred_09_06_2012_video",
+    "black_veil_brides_09_06_2012_video",
+    "steel_panther_09_06_2012_video",
+    "halestorm_09_06_2012_video",
+    "fear_factory_08_06_2012_video",
+    "biffy_clyro_09_06_2012_video",
+    "billy_talent_08_06_2012_video"
+  ],
+  "childOf": "various_artists_08_06_2012_10_06_2012_video_compilation",
+  "images": [
+    {
+      "folder": "67",
+      "filename": "20344034.jpg",
+      "externalId": "12-PYNICOgxhi-WAg8MeBHbFBsP94ZGxx"
+    },
+    {
+      "folder": "67",
+      "filename": "87243497.jpg",
+      "externalId": "1_RTWW1CH3f6_PXk8eTxEx9MBprV6PMn_"
+    },
+    {
+      "folder": "67",
+      "filename": "64651020.jpg",
+      "externalId": "1BLyPu0fIZ0yZGbz1OHBEz3azZJab6w-x"
+    },
+    {
+      "folder": "67",
+      "filename": "84668258.jpg",
+      "externalId": "14B14AcDgXM0n7G1lqNOLLNZS_b9bR0G8"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "For Whom The Bell Tolls",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

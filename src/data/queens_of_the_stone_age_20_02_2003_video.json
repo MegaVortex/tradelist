@@ -1,0 +1,122 @@
+{
+  "originalTitle": "Queens Of The Stone Age - 20.02.2003 - Los Angeles - CA - USA - CBS Studios - Craig Kilborn Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "02",
+    "year": "2003"
+  },
+  "startDateUnix": 1045699200,
+  "endDate": {
+    "day": "20",
+    "month": "02",
+    "year": "2003"
+  },
+  "endDateUnix": 1045699200,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "CBS Studios",
+    "event": "Craig Kilborn Show"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 640,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1294,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "queens_of_the_stone_age_09_09_2002_video",
+    "queens_of_the_stone_age_04_10_2002_source_1_video",
+    "queens_of_the_stone_age_21_09_2002_video",
+    "queens_of_the_stone_age_xx_03_2003_usa_mtv2_spring_break_road_trip_video_misc",
+    "queens_of_the_stone_age_23_08_2002_video"
+  ],
+  "childOf": "Queens Of The Stone Age - [2002-2003] - TV Appearances",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "03044099.jpg",
+      "externalId": "1PzIou5yZvFrCDmThcV1o11duaNkz8hEz"
+    },
+    {
+      "folder": "70",
+      "filename": "75975811.jpg",
+      "externalId": "15fKgLLSQRaLqbwaZMFIPykKfCkOPcjYv"
+    },
+    {
+      "folder": "70",
+      "filename": "69366368.jpg",
+      "externalId": "1lQ0FZOeVBYuGDADeMKtfh0VsYxCEgRDB"
+    },
+    {
+      "folder": "70",
+      "filename": "97104431.jpg",
+      "externalId": "13vad3NFOFHti-md7r_PayGmSKB89yGEQ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "No One Knows",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

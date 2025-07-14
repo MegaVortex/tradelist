@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Slipknot - 26.01.2020 - London - England - Maida Vale Studios - BBC Radio 1 Rock Show (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "01",
+    "year": "2020"
+  },
+  "startDateUnix": 1579996800,
+  "endDate": {
+    "day": "26",
+    "month": "01",
+    "year": "2020"
+  },
+  "endDateUnix": 1579996800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Maida Vale Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "BBC Radio 1 Rock Show",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "YouTube RIP.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 565,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1735,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": 2928,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 44100,
+        "bitrateKbps": 128,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "71",
+      "filename": "27020570.jpg",
+      "externalId": "1Fmmgc-x6sD4DVoonP58F3DXz7ZZH7Ga_"
+    },
+    {
+      "folder": "71",
+      "filename": "97315751.jpg",
+      "externalId": "1wlc86sk__wWL7gVdx8LIwQru7FyD9B9o"
+    },
+    {
+      "folder": "71",
+      "filename": "76584666.jpg",
+      "externalId": "13PxsSHn1kIRGhMAfv6D_1Tkoq_LsCRes"
+    },
+    {
+      "folder": "71",
+      "filename": "91090702.jpg",
+      "externalId": "1DSmNZv4A5ByOv7mVpyKBo4zgTXzaWhRx"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Unsainted",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Psychosocial",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Devil In I",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Duality",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Disasterpiece",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Wait And Bleed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

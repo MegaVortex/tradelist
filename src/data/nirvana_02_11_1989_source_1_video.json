@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Nirvana - 02.11.1989 - Groningen - Netherlands - Vera (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "11",
+    "year": "1989"
+  },
+  "startDateUnix": 625968000,
+  "endDate": {
+    "day": "02",
+    "month": "11",
+    "year": "1989"
+  },
+  "endDateUnix": 625968000,
+  "location": {
+    "city": "Groningen",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Vera",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "The generation of the Nirvana clips differs due to the video being filmed from a TV screen. Passies is a TV program about people who have a certain passion in their lives, this episode is about the programmer of the Vera club: Peter Weening. It features various footage including Pearl Jam clips of \"Oceans\" and \"Even Flow\". There are English subtitles included. AMT CLIP #1 - Professional video / Amateur clips. Authored John Castelijn.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.23,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1274,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO/AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "7",
+      "filename": "32353896.jpg",
+      "externalId": "1LHe3na-xBOHJi77i5zfmfXdfgPUdV4ge"
+    },
+    {
+      "folder": "7",
+      "filename": "48165460.jpg",
+      "externalId": "1dwNtw7ZewAqEGQjtYRpGt4LdDdDV7Wsy"
+    },
+    {
+      "folder": "7",
+      "filename": "56891435.jpg",
+      "externalId": "1d1vO2IEQeXrngZ61CNwLdLo17jZeEU55"
+    },
+    {
+      "folder": "7",
+      "filename": "43990124.jpg",
+      "externalId": "1j_yy79kd8awc3CmpGmkEBmp94uRDUzW4"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Polly",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "School",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Scoff",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

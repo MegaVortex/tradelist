@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Soundgarden - 27.06.1992 - Torino - Italy - Stadio Delle Alpi",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Soundgarden"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "06",
+    "year": "1992"
+  },
+  "startDateUnix": 709603200,
+  "endDate": {
+    "day": "27",
+    "month": "06",
+    "year": "1992"
+  },
+  "endDateUnix": 709603200,
+  "location": {
+    "city": "Torino",
+    "state": "",
+    "country": "Italy",
+    "venue": "Stadio Delle Alpi",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.24,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2016,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "37",
+      "filename": "21310161.jpg",
+      "externalId": "1wQjkUQzdcIJQgL5TEm77dDtSzS-4RG6p"
+    },
+    {
+      "folder": "37",
+      "filename": "27179124.jpg",
+      "externalId": "1v6Xl3ZYNPp4ly6HhlVg4yjoNAhcO5W8w"
+    },
+    {
+      "folder": "37",
+      "filename": "30537104.jpg",
+      "externalId": "1BHwQkCvKrHQjKYK1DmN9OrUPQZQ78qL9"
+    },
+    {
+      "folder": "37",
+      "filename": "53842458.jpg",
+      "externalId": "1dkzNPQto4mB4XIv4aJRXPQA2qW3dtV4D"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Searching With My Good Eye Closed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Hands All Over",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Face Pollution",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Rusty Cage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Outshined",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Jesus Christ Pose",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

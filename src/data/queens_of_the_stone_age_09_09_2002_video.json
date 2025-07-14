@@ -1,0 +1,122 @@
+{
+  "originalTitle": "Queens Of The Stone Age - 09.09.2002 - New York - NY - USA - CBS Studios - David Letterman Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "09",
+    "year": "2002"
+  },
+  "startDateUnix": 1031529600,
+  "endDate": {
+    "day": "09",
+    "month": "09",
+    "year": "2002"
+  },
+  "endDateUnix": 1031529600,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "CBS Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "David Letterman Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 128,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 264,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "queens_of_the_stone_age_21_09_2002_video",
+    "queens_of_the_stone_age_04_10_2002_source_1_video",
+    "queens_of_the_stone_age_20_02_2003_video",
+    "queens_of_the_stone_age_xx_03_2003_usa_mtv2_spring_break_road_trip_video_misc",
+    "queens_of_the_stone_age_23_08_2002_video"
+  ],
+  "childOf": "Queens Of The Stone Age - [2002-2003] - TV Appearances",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "05599144.jpg",
+      "externalId": "1D2mg7UgIHmWJNE6hIiseCBgC9IxwNK9b"
+    },
+    {
+      "folder": "70",
+      "filename": "57230737.jpg",
+      "externalId": "1a1g1HlgpR_CZs3WLGXFLKJM_h5wft9lj"
+    },
+    {
+      "folder": "70",
+      "filename": "13179534.jpg",
+      "externalId": "1o7nekjjSnEs2P4fOwDOZfhhN343q9MNw"
+    },
+    {
+      "folder": "70",
+      "filename": "71309071.jpg",
+      "externalId": "1P7l0IZF2bWn3nyYcHjSqUZqcTpik39lD"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "No One Knows",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

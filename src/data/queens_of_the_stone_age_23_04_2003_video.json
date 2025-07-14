@@ -1,0 +1,131 @@
+{
+  "originalTitle": "Queens Of The Stone Age - 23.04.2003 - Los Angeles - CA - USA - Bud Light Outdoor Stage - Jimmy Kimmel Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "04",
+    "year": "2003"
+  },
+  "startDateUnix": 1051056000,
+  "endDate": {
+    "day": "23",
+    "month": "04",
+    "year": "2003"
+  },
+  "endDateUnix": 1051056000,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Bud Light Outdoor Stage",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jimmy Kimmel Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.38,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6527,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "queens_of_the_stone_age_19_12_2002_video",
+    "queens_of_the_stone_age_14_11_2000_video",
+    "queens_of_the_stone_age_08_12_2002_video",
+    "queens_of_the_stone_age_28_07_2002_video",
+    "queens_of_the_stone_age_22_05_2003_video",
+    "queens_of_the_stone_age_04_11_2000_video"
+  ],
+  "childOf": "Queens Of The Stone Age - [2000-2003] - TV Appearances",
+  "images": [
+    {
+      "folder": "66",
+      "filename": "82403280.jpg",
+      "externalId": "14qbeygUAhaxYeerA_8q6sPR-iObnjc8K"
+    },
+    {
+      "folder": "66",
+      "filename": "34596155.jpg",
+      "externalId": "1-wy4l7ihizX-jTGZ2XzQo_ih2al6jRJ4"
+    },
+    {
+      "folder": "66",
+      "filename": "66318654.jpg",
+      "externalId": "1r11I4Ecygf2aQiPIC0UhpRfRQKMg8mFr"
+    },
+    {
+      "folder": "66",
+      "filename": "32069573.jpg",
+      "externalId": "19HNOk3QQdK204X0F3dLk5DQ6hU6eGFwW"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Go With The Flow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "A Song For The Dead",
+      "feat": "Mark Lanegan",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

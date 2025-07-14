@@ -1,0 +1,143 @@
+{
+  "originalTitle": "Parrhesia - 20.06.2010 - Amherst - MA - USA - Dad City",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Parrhesia"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "06",
+    "year": "2010"
+  },
+  "startDateUnix": 1276992000,
+  "endDate": {
+    "day": "20",
+    "month": "06",
+    "year": "2010"
+  },
+  "endDateUnix": 1276992000,
+  "location": {
+    "city": "Amherst",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Dad City",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 983,
+        "unit": "Mb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 1.18,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2112,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "black_sabbath_27_08_1994_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "34",
+      "filename": "27773065.jpg",
+      "externalId": "1vY7SiSdH9cMl5Czdk0dHc3YvRs8A40Vz"
+    },
+    {
+      "folder": "34",
+      "filename": "13196030.jpg",
+      "externalId": "1RNCvtTKav9aunP6FuWZcEf3zm0Vvndls"
+    },
+    {
+      "folder": "34",
+      "filename": "77803460.jpg",
+      "externalId": "1Fdjv8vyeJagyOOwdQXxjxBzX82uziKDu"
+    },
+    {
+      "folder": "34",
+      "filename": "23953440.jpg",
+      "externalId": "1n8KfwtYEanyXGEqURRVTI0fCQ4o2YBA8"
+    },
+    {
+      "folder": "35",
+      "filename": "39472870.jpg",
+      "externalId": "1Iy6P-Asu7eyAmgO7zkfQ1BgpRJ7R-7w8"
+    },
+    {
+      "folder": "35",
+      "filename": "29531211.jpg",
+      "externalId": "11GWNtDc8q02WqjXWtFiuBCazuThImu1y"
+    },
+    {
+      "folder": "35",
+      "filename": "09334142.jpg",
+      "externalId": "1yq0AzxIOw0XmD3lq-2E21fKN1oNtMjYH"
+    },
+    {
+      "folder": "35",
+      "filename": "34484650.jpg",
+      "externalId": "19jbeONyyrS-UQLmPDBfI7Mmxs_wQZ2Q4"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Press Conference",
+      "feat": "Tony Iommi, Bill Ward and Tony Martin",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

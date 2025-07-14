@@ -1,0 +1,109 @@
+{
+  "originalTitle": "Slade - 18.01.1981 - Peterborough - England - Wirrina Pavilion",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slade"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "01",
+    "year": "1981"
+  },
+  "startDateUnix": 348624000,
+  "endDate": {
+    "day": "18",
+    "month": "01",
+    "year": "1981"
+  },
+  "endDateUnix": 348624000,
+  "location": {
+    "city": "Peterborough",
+    "state": "",
+    "country": "England",
+    "venue": "Wirrina Pavilion",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "3 cam mix. The film was made by a group of film students as a part of their final project.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2689,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "8mm",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "slade_19_01_1981_video",
+    "slade_xx_xx_xxxx_one_more_time_live_antholgy_video_compilation"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "17",
+      "filename": "36066749.jpg",
+      "externalId": "11au_mHEhfNS8WkcTimfOxyaBCyHQmHJ_"
+    },
+    {
+      "folder": "17",
+      "filename": "47581837.jpg",
+      "externalId": "1W_bK6gYS6Huqer6K8ZrFjGjl3nlL1M9e"
+    },
+    {
+      "folder": "17",
+      "filename": "27870380.jpg",
+      "externalId": "1T8Rx5h97iUMebc3ycZhp79i0nzuTMtSA"
+    },
+    {
+      "folder": "17",
+      "filename": "05732066.jpg",
+      "externalId": "1g951v7Yw7yyHazYpS-4EZlrYClIxu4AK"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,144 @@
+{
+  "originalTitle": "Misfits - 07.08.1999 - Mount Fuji - Japan - Mount Fuji Amphitheatre",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Misfits"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "08",
+    "year": "1999"
+  },
+  "startDateUnix": 933984000,
+  "endDate": {
+    "day": "07",
+    "month": "08",
+    "year": "1999"
+  },
+  "endDateUnix": 933984000,
+  "location": {
+    "city": "Mount Fuji",
+    "state": "",
+    "country": "Japan",
+    "venue": "Mount Fuji Amphitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.55,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 427,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "misfits_01_02_2000_source_1_video",
+    "misfits_01_02_2000_source_2_video",
+    "misfits_02_02_2000_video"
+  ],
+  "childOf": "Misfits - [1999-2000] - Japanese Live Performances",
+  "images": [
+    {
+      "folder": "61",
+      "filename": "72357832.jpg",
+      "externalId": "1g9gK9qX0iZ_AlXfWm6L7xoZ7XG98zGsz"
+    },
+    {
+      "folder": "61",
+      "filename": "56705890.jpg",
+      "externalId": "1iqGMbeBlMZt0JnNbMfemW8XzE-VG-Pr1"
+    },
+    {
+      "folder": "61",
+      "filename": "52875770.jpg",
+      "externalId": "1K0qI2-5h_ZW9LcxRLfCki6luwZPAwTM7"
+    },
+    {
+      "folder": "61",
+      "filename": "72054263.jpg",
+      "externalId": "1X-WlMtRDK3GHhvTmf1R67EGh_aH6xAKL"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "American Psycho",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Walk Among Us",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Hunger",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

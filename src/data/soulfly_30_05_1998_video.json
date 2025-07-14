@@ -1,0 +1,143 @@
+{
+  "originalTitle": "Soulfly - 30.05.1998 - Eindhoven - Netherlands - Kunstijsbaan - Dynamo Open Air",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Soulfly"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "05",
+    "year": "1998"
+  },
+  "startDateUnix": 896486400,
+  "endDate": {
+    "day": "30",
+    "month": "05",
+    "year": "1998"
+  },
+  "endDateUnix": 896486400,
+  "location": {
+    "city": "Eindhoven",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Kunstijsbaan",
+    "event": "Dynamo Open Air"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 467,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 814,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "soulfly_09_02_1999_video",
+    "soulfly_23_05_1998_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "68",
+      "filename": "39924521.jpg",
+      "externalId": "11TpEAnF3KejT5mS9UOAWhbXsnrxMPa4S"
+    },
+    {
+      "folder": "68",
+      "filename": "63520974.jpg",
+      "externalId": "1_P29OJKpd1GxAE1jliEUuCHk5-DvR7qk"
+    },
+    {
+      "folder": "68",
+      "filename": "91823930.jpg",
+      "externalId": "1x0V38zEe4MAHaIQ2UMfSeynDhp8eFpbh"
+    },
+    {
+      "folder": "68",
+      "filename": "07588049.jpg",
+      "externalId": "1yFQzJsGu0Jp4tUXvhpl6iWPdePQV-C_Z"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Bleed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Beneath The Remains / Dead Embryonic Cells",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Sepultura"
+    },
+    {
+      "order": 4,
+      "song": "Tribe",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Michael Jackson - 25.01.1993 - Los Angeles - CA - USA - Shrine Auditorium - American Music Awards",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Michael Jackson"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "01",
+    "year": "1993"
+  },
+  "startDateUnix": 727920000,
+  "endDate": {
+    "day": "25",
+    "month": "01",
+    "year": "1993"
+  },
+  "endDateUnix": 727920000,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Shrine Auditorium",
+    "event": "American Music Awards"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Official DVD - NT.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.1,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 679,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 4
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "63033784.jpg",
+      "externalId": "1RHzWbxgGnQ7MJwRbjt0a-p-4dUhEVzzt"
+    },
+    {
+      "folder": "27",
+      "filename": "82789613.jpg",
+      "externalId": "1pABDiA7iTjHsgbHn9ArutFGDOrrrI16v"
+    },
+    {
+      "folder": "27",
+      "filename": "82644401.jpg",
+      "externalId": "1dEfzUO-HURHUGaLGncO8Sms3FFmOiy32"
+    },
+    {
+      "folder": "27",
+      "filename": "80093084.jpg",
+      "externalId": "1nqUzW4I7C96OO0A4yp0FXTntNe2Ktafr"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Dangerous",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Speech",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Pantera - 15.08.1996 - Cuyahoga Falls - OH - USA - Blossom Music Center (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Pantera"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "08",
+    "year": "1996"
+  },
+  "startDateUnix": 840067200,
+  "endDate": {
+    "day": "15",
+    "month": "08",
+    "year": "1996"
+  },
+  "endDateUnix": 840067200,
+  "location": {
+    "city": "Cuyahoga Falls",
+    "state": "OH",
+    "country": "USA",
+    "venue": "Blossom Music Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 430,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 718,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "23",
+      "filename": "84758577.jpg",
+      "externalId": "19VEHjn2zxINPDHwNKh98l4rt4TzB5fiy"
+    },
+    {
+      "folder": "23",
+      "filename": "51053212.jpg",
+      "externalId": "129GYyZq2TteQw89By4p974mVMc2Mwy1W"
+    },
+    {
+      "folder": "23",
+      "filename": "35247501.jpg",
+      "externalId": "1XBR5ZRsnc2JqQoF2v2iHelcp-d458Ybv"
+    },
+    {
+      "folder": "23",
+      "filename": "05330122.jpg",
+      "externalId": "1wMsdGXuCo3Xbh8KtD2MYhTIsHSFvyqSb"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Walk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "This Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

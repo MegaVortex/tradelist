@@ -1,0 +1,123 @@
+{
+  "originalTitle": "Rage Against The Machine - 11.11.1999 - Los Angeles - CA - USA - NBC Studios - Conan O'Brien Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rage Against The Machine"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "11",
+    "year": "1999"
+  },
+  "startDateUnix": 942278400,
+  "endDate": {
+    "day": "11",
+    "month": "11",
+    "year": "1999"
+  },
+  "endDateUnix": 942278400,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Conan O'Brien Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.89,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3569,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "rage_against_the_machine_13_06_1999_source_2_video",
+    "rage_against_the_machine_02_11_1999_video",
+    "rage_against_the_machine_13_04_1996_source_3_video",
+    "rage_against_the_machine_03_11_1999_video",
+    "rage_against_the_machine_14_08_2000_video_misc",
+    "rage_against_the_machine_07_09_2000_video"
+  ],
+  "childOf": "Rage Against The Machine - [1996-2000] - TV Appearances - 'The Revolution Is On TV'",
+  "images": [
+    {
+      "folder": "36",
+      "filename": "71251961.jpg",
+      "externalId": "1kFIcP--BhPfTta3n7EKqymIiKdqiS-_Z"
+    },
+    {
+      "folder": "36",
+      "filename": "74726032.jpg",
+      "externalId": "12OE8jEAsFNErW5F7iidU6Q7CYaqRypho"
+    },
+    {
+      "folder": "36",
+      "filename": "23711263.jpg",
+      "externalId": "1Dnt52yUjndflKhAYQ4KyWYdpouK6kMkV"
+    },
+    {
+      "folder": "36",
+      "filename": "66058425.jpg",
+      "externalId": "1KCe0-cBuBPHii_IAbDD73uNzSM5_kWXB"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Testify",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

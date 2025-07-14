@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Slipknot - 01.03.2005 - New York - NY - USA - Conan O' Brein Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "03",
+    "year": "2005"
+  },
+  "startDateUnix": 1109635200,
+  "endDate": {
+    "day": "01",
+    "month": "03",
+    "year": "2005"
+  },
+  "endDateUnix": 1109635200,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Conan O' Brein Show",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 317,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 272,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "11",
+      "filename": "40204321.jpg",
+      "externalId": "1egPUWFGaWhZHHKBKxOpsNSsqC76rPCuN"
+    },
+    {
+      "folder": "11",
+      "filename": "05377041.jpg",
+      "externalId": "1Y9yhLhkF7eJmbVdOXYhKVs4qOa3u9ItP"
+    },
+    {
+      "folder": "11",
+      "filename": "51968053.jpg",
+      "externalId": "1jUTVSHkFxjIKqR-njSxjw0qWmek4SYPW"
+    },
+    {
+      "folder": "11",
+      "filename": "67999169.jpg",
+      "externalId": "19rku3LKDls6_Vwyr1xVV-pwE1Cm7qUPz"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Before I Forget",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

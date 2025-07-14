@@ -1,0 +1,145 @@
+{
+  "originalTitle": "The Mars Volta - 03.10.2002 - San Diego - CA - USA - The Scene",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Mars Volta"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "10",
+    "year": "2002"
+  },
+  "startDateUnix": 1033603200,
+  "endDate": {
+    "day": "03",
+    "month": "10",
+    "year": "2002"
+  },
+  "endDateUnix": 1033603200,
+  "location": {
+    "city": "San Diego",
+    "state": "CA",
+    "country": "USA",
+    "venue": "The Scene",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 399,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2477,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "352x240",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "VCD",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "the_mars_volta_02_10_2002_video",
+    "the_mars_volta_01_11_2001_video",
+    "the_mars_volta_08_11_2001_video",
+    "the_mars_volta_31_03_2002_source_2_video"
+  ],
+  "childOf": "the_mars_volta_xx_xx_2001_xx_xx_2002_vcd_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "7",
+      "filename": "27964132.jpg",
+      "externalId": "1jutYmDK8f1wsOjdtPhhA3Ku38MZItJG4"
+    },
+    {
+      "folder": "7",
+      "filename": "39894331.jpg",
+      "externalId": "1Us1P77lIxKTttH_Xo08mXctFmYB37ZJf"
+    },
+    {
+      "folder": "7",
+      "filename": "64733406.jpg",
+      "externalId": "1XjV1ymx9CJh1MPVLSLbW1f2OITCqeIKh"
+    },
+    {
+      "folder": "7",
+      "filename": "08157072.jpg",
+      "externalId": "1d9uDz0tPM4wvToL2U3n_QKJj3iJqu1qB"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Drunkship Of Lanterns",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Concertina",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Cicatriz",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Eunuch Provocateur",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

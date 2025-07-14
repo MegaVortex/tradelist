@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Slipknot - 02.10.2004 - Antwerp - Belgium - Sportpaleis - TMF Awards (Source 4)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "10",
+    "year": "2004"
+  },
+  "startDateUnix": 1096675200,
+  "endDate": {
+    "day": "02",
+    "month": "10",
+    "year": "2004"
+  },
+  "endDateUnix": 1096675200,
+  "location": {
+    "city": "Antwerp",
+    "state": "",
+    "country": "Belgium",
+    "venue": "Sportpaleis",
+    "event": "TMF Awards"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 4",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 256,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 323,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "66",
+      "filename": "45942674.jpg",
+      "externalId": "1xk4Eebfgt_PpT6n_p5Ou5lVr0eYED9TU"
+    },
+    {
+      "folder": "66",
+      "filename": "98516060.jpg",
+      "externalId": "1n24-3aWJmfSRqAGBsAsD4mgb1GmJZ9G3"
+    },
+    {
+      "folder": "66",
+      "filename": "54885697.jpg",
+      "externalId": "1MLgE7esMP_uYq84f96Mz20lUDyodKJnQ"
+    },
+    {
+      "folder": "66",
+      "filename": "17314753.jpg",
+      "externalId": "1BysxiLwn5rU5B6XxFECnuJwVvZlVnQE8"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Vermilion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

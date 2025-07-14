@@ -1,0 +1,125 @@
+{
+  "originalTitle": "Slipknot - xx.10.2001 - USA - MTV2 News [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "10",
+    "year": "2001"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "10",
+    "year": "2001"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "MTV2 News",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Slipknot interviewed by Iann Robinson.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 11.3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1746,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": 54165,
+        "fps": "25",
+        "standard": "ULY2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "83",
+      "filename": "08414377.jpg",
+      "externalId": "1j5wJpmMx0VZFEMUmReLT9A2B68VZ_O3l"
+    },
+    {
+      "folder": "83",
+      "filename": "61917385.jpg",
+      "externalId": "1L0sprh7PQ49Nlug-f9ScOjVT-RLau9uV"
+    },
+    {
+      "folder": "83",
+      "filename": "80593352.jpg",
+      "externalId": "1c2BIUcGF6gqAiF2satnTN2PYbSfOtyvK"
+    },
+    {
+      "folder": "83",
+      "filename": "72756634.jpg",
+      "externalId": "1vp4m8vvoQfSIq-balYKW5KXwYsHyW_PH"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Slayer - 03.02.1987 - Cleveland - OH - USA - Music Hall",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slayer"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "02",
+    "year": "1987"
+  },
+  "startDateUnix": 539308800,
+  "endDate": {
+    "day": "03",
+    "month": "02",
+    "year": "1987"
+  },
+  "endDateUnix": 539308800,
+  "location": {
+    "city": "Cleveland",
+    "state": "OH",
+    "country": "USA",
+    "venue": "Music Hall",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.06,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1848,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "50",
+      "filename": "83872197.jpg",
+      "externalId": "1DExg5N9QC_NIiK5YOS2EXARE1EmWV0Fw"
+    },
+    {
+      "folder": "50",
+      "filename": "31970070.jpg",
+      "externalId": "1V8rEzWe5y539chlWx7I6Y6GxKr42UXZg"
+    },
+    {
+      "folder": "50",
+      "filename": "58076092.jpg",
+      "externalId": "1EqfV9xTg_SHO7D3vk-HIqESb6aUe4dT9"
+    },
+    {
+      "folder": "50",
+      "filename": "04885895.jpg",
+      "externalId": "1PGFEi_akuW4uLDT9lWMIYmkTTHGdZW2T"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Raining Blood",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Reborn",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "At Dawn They Sleep",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Die By The Sword",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Angel Of Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Epidemic",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Altar Of Sacrifice",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Jesus Saves",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Evil Has No Boundaries",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

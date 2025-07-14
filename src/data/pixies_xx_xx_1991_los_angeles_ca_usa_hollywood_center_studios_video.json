@@ -1,0 +1,147 @@
+{
+  "originalTitle": "Pixies - xx.xx.1991 - Los Angeles - CA - USA - Hollywood Center Studios - Dennis Miller Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Pixies"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1991"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1991"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Hollywood Center Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Dennis Miller Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.18,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2849,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "pixies_xx_xx_1989_video",
+    "pixies_xx_xx_1990_usa_mtv_studios_mtv_news_video_misc",
+    "pixies_xx_xx_1991_video",
+    "pixies_xx_xx_1991_usa_mtv_studios_mtv_news_video_misc",
+    "pixies_xx_xx_1989_usa_mtv_studios_post_modern_mtv_video_misc",
+    "pixies_05_02_1992_video"
+  ],
+  "childOf": "Pixies - [1989-1992] - TV Appearances",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "28889574.jpg",
+      "externalId": "14H1zdVk9rVDjwe54hGqsckPnrBendRiL"
+    },
+    {
+      "folder": "28",
+      "filename": "65737025.jpg",
+      "externalId": "1UF6iorbg9y5kN5hEV6FJ8OAdTIoikHUX"
+    },
+    {
+      "folder": "28",
+      "filename": "63103838.jpg",
+      "externalId": "1g2MA9yVA8P4ENz7Qxari9xhLkn4DpoaF"
+    },
+    {
+      "folder": "28",
+      "filename": "99906481.jpg",
+      "externalId": "18ioVfPKWKvMQ6Gih_oHVLIBMy6LUrQ57"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Head On",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Bird Dream Of The Olympus Mons",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Planet Of Sound",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

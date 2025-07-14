@@ -1,0 +1,142 @@
+{
+  "originalTitle": "Nirvana - 01.03.1994 - Munich - Germany - Terminal 1 (Source 4)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "03",
+    "year": "1994"
+  },
+  "startDateUnix": 762480000,
+  "endDate": {
+    "day": "01",
+    "month": "03",
+    "year": "1994"
+  },
+  "endDateUnix": 762480000,
+  "location": {
+    "city": "Munich",
+    "state": "",
+    "country": "Germany",
+    "venue": "Terminal 1",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 4",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "Martin Behling",
+  "notes": "PRO#1b.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 756,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 658,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "de",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "nirvana_08_01_1994_video",
+    "nirvana_02_04_1994_source_4_video",
+    "nirvana_02_04_1994_source_5_video",
+    "nirvana_06_02_1994_source_5_video",
+    "nirvana_06_02_1994_source_6_video",
+    "nirvana_14_02_1994_source_2_video",
+    "nirvana_22_02_1994_source_2_video",
+    "nirvana_23_02_1994_source_2_video",
+    "nirvana_27_02_1994_source_3_video"
+  ],
+  "childOf": "Nirvana - [1994] - '94 PROject'",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "73256607.jpg",
+      "externalId": "1xdJy6pCw5wMkXEYARVog6RYoIthrIgie"
+    },
+    {
+      "folder": "80",
+      "filename": "52435761.jpg",
+      "externalId": "1rlGmZT8wRPPvhGYxq2ggbEIkYOLyKzsX"
+    },
+    {
+      "folder": "80",
+      "filename": "84080711.jpg",
+      "externalId": "1m0Mysel6l0Y1AsVF8xCCq8-VZCBswkVk"
+    },
+    {
+      "folder": "80",
+      "filename": "67941457.jpg",
+      "externalId": "1hoD9JxZnbJ56S2hbfRB9Yrdo_P5gd1R8"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "My Best Friend's Girl",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "The Cars"
+    },
+    {
+      "order": 2,
+      "song": "Radio Friendly Unit Shifter",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Drain You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

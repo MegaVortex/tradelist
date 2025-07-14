@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Metallica - 10.09.2021 - Los Angeles - CA - USA - Griffith Observatory - Jimmy Kimmel Show (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "09",
+    "year": "2021"
+  },
+  "startDateUnix": 1631232000,
+  "endDate": {
+    "day": "10",
+    "month": "09",
+    "year": "2021"
+  },
+  "endDateUnix": 1631232000,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Griffith Observatory",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jimmy Kimmel Show",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "ABC broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 909,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1277,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "59.94",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 96,
+        "channels": 1
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "82",
+      "filename": "87381542.jpg",
+      "externalId": "1MX1w9DB6Wx4rnmvTgZZjGikLgCfOGBxj"
+    },
+    {
+      "folder": "82",
+      "filename": "94441843.jpg",
+      "externalId": "1x4Wu9MgL21KIzx48g9cblKikGcrxRH_R"
+    },
+    {
+      "folder": "82",
+      "filename": "67326453.jpg",
+      "externalId": "1LG83fPFGRHBYZXmOE62zLHEC0xn4N3L1"
+    },
+    {
+      "folder": "82",
+      "filename": "25233005.jpg",
+      "externalId": "1JAOftcNQ44R2IF2Fb5hrzgWpVigeZhvR"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wherever I May Roam",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Metallica Reads 1-Star Reviews Of The Black Album",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

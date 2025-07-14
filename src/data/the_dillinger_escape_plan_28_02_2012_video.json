@@ -1,0 +1,180 @@
+{
+  "originalTitle": "The Dillinger Escape Plan - 28.02.2012 - Sydney - Australia - Sydney Entertainment Centre",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Dillinger Escape Plan"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "02",
+    "year": "2012"
+  },
+  "startDateUnix": 1330387200,
+  "endDate": {
+    "day": "28",
+    "month": "02",
+    "year": "2012"
+  },
+  "endDateUnix": 1330387200,
+  "location": {
+    "city": "Sydney",
+    "state": "",
+    "country": "Australia",
+    "venue": "Sydney Entertainment Centre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.59,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2551,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "59.94",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "37",
+      "filename": "75794444.jpg",
+      "externalId": "1gfNr8IIwk2gOIugRdwvUd4pDRcy1MHbP"
+    },
+    {
+      "folder": "37",
+      "filename": "41691750.jpg",
+      "externalId": "1f4pKjVrz3PnAZHCNxsa1RaDd1iq3cj_9"
+    },
+    {
+      "folder": "37",
+      "filename": "39293683.jpg",
+      "externalId": "1fOuU-RjEITd-cZscok_VS8Z3OyzVPYXn"
+    },
+    {
+      "folder": "37",
+      "filename": "95377499.jpg",
+      "externalId": "13XXSpdcQf5ZHS8k8RRHs9J40iCwyusHY"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Farewell, Mona Lisa",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Milk Lizard",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Chinese Whispers",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Panasonic Youth",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Room Full Of Eyes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Gold Teeth On A Bum",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Black Bubblegum",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Good Neighbor",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "43% Burnt",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

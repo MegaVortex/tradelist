@@ -1,0 +1,105 @@
+{
+  "originalTitle": "Metallica - 01.06.2012 - Nuerburg - Germany - Zeppelinfeld - Rock Im Park (Source 5)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "06",
+    "year": "2012"
+  },
+  "startDateUnix": 1338508800,
+  "endDate": {
+    "day": "01",
+    "month": "06",
+    "year": "2012"
+  },
+  "endDateUnix": 1338508800,
+  "location": {
+    "city": "Nuerburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Zeppelinfeld",
+    "event": "Rock Im Park"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 5",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 5.28,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2856,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": 1536,
+        "fps": "50.00",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": {
+      "language": "",
+      "codec": "",
+      "bitrateKbps": null,
+      "channels": null
+    },
+    "sourceDetail": {
+      "type": "",
+      "extra": "",
+      "medium": ""
+    }
+  },
+  "relatedShows": [
+    "metallica_01_06_2012_source_4_video",
+    "metallica_02_06_2012_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "46",
+      "filename": "89027696.jpg",
+      "externalId": "1mHl3e0SPWdhyJsFMXRpQE7OhD6YDWYyx"
+    },
+    {
+      "folder": "46",
+      "filename": "90276492.jpg",
+      "externalId": "1L2dvG9818_lIxXIJRaOkg-Q7y5Fx_Cqv"
+    },
+    {
+      "folder": "46",
+      "filename": "54189198.jpg",
+      "externalId": "1tfYICPBxGvHS7b_nVp4Q6LSVMmzIdA1Z"
+    },
+    {
+      "folder": "46",
+      "filename": "00990928.jpg",
+      "externalId": "1BsYqMIYTstjKxTBQIQYwXxD9ADgMsjnt"
+    }
+  ],
+  "setlist": []
+}

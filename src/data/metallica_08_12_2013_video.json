@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Metallica - 08.12.2013 - King George Island - Antarctica - Carlini Base",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "12",
+    "year": "2013"
+  },
+  "startDateUnix": 1386460800,
+  "endDate": {
+    "day": "08",
+    "month": "12",
+    "year": "2013"
+  },
+  "endDateUnix": 1386460800,
+  "location": {
+    "city": "King George Island",
+    "state": "",
+    "country": "Antarctica",
+    "venue": "Carlini Base",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "First Metallica show in Antarctica, show billed as \"Freeze 'Em All\". Captured by Elias.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 4.91,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5191,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "56",
+      "filename": "03662602.jpg",
+      "externalId": "1-dsy8LmG8A3cLlQxgkda4_K8kRTItGB2"
+    },
+    {
+      "folder": "56",
+      "filename": "47775110.jpg",
+      "externalId": "14Mkd-a8YxJRTiw9rE_rLIB_0g3IUCoMd"
+    },
+    {
+      "folder": "56",
+      "filename": "18444465.jpg",
+      "externalId": "1-z-kRf9B5cbQqLwZED3pVAeon-MvgJbn"
+    },
+    {
+      "folder": "56",
+      "filename": "04819274.jpg",
+      "externalId": "1DqjtiHljNow-VnJmBHj58rFdVXRHVD6G"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Creeping Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "For Whom The Bell Tolls",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Sad But True",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Welcome Home (Sanitarium)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Master Of Puppets",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Blackened",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Nothing Else Matters",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Seek And Destroy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

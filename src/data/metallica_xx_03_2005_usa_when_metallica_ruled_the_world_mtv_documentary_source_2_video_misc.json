@@ -1,0 +1,119 @@
+{
+  "originalTitle": "Metallica - xx.03.2005 - USA - 'When Metallica Ruled The World' - MTV Documentary (Source 2) [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "03",
+    "year": "2005"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "03",
+    "year": "2005"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "'When Metallica Ruled The World'",
+    "venue": "MTV Documentary",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "VH1 TV Show.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.66,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3193,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_xx_xx_1996_spotlight_tv_documentary_video_misc"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "32",
+      "filename": "37452593.jpg",
+      "externalId": "1Jv4ciCeCGc7TTZ9n0Ob32lzR8P4gVtRg"
+    },
+    {
+      "folder": "32",
+      "filename": "86136611.jpg",
+      "externalId": "1Vke8xCkMpxuAK5PKPnY8J5RSMzDGTWVo"
+    },
+    {
+      "folder": "32",
+      "filename": "59745208.jpg",
+      "externalId": "1IBVXeTgS6yZWH8Z8W_UXKy3bm1NqEQvt"
+    },
+    {
+      "folder": "32",
+      "filename": "99795695.jpg",
+      "externalId": "1vim_a87rHtXOrS5j2jGLio_BMnq08P3B"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

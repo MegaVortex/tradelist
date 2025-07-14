@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Rage Against The Machine - 07.09.2000 - New York - NY - USA - Radio City Music Hall - MTV Video Music Awards (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rage Against The Machine"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "09",
+    "year": "2000"
+  },
+  "startDateUnix": 968284800,
+  "endDate": {
+    "day": "07",
+    "month": "09",
+    "year": "2000"
+  },
+  "endDateUnix": 968284800,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Radio City Music Hall",
+    "event": "MTV Video Music Awards"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 338,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 297,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "78",
+      "filename": "01877313.jpg",
+      "externalId": "1KqfasjiHuvpsFhdvlF1KzqdFHCiH-G1W"
+    },
+    {
+      "folder": "78",
+      "filename": "97057601.jpg",
+      "externalId": "1cVYuZ8IqtKfaXKniD6gbYRXDmS1PWBLS"
+    },
+    {
+      "folder": "78",
+      "filename": "78131542.jpg",
+      "externalId": "1Ec56aJDtvGVAZzYLeEsV5pUiiF08z0fi"
+    },
+    {
+      "folder": "78",
+      "filename": "09447607.jpg",
+      "externalId": "1gvz8dKQvg8bcoL71sIOaDIgDOlqkGjL1"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Testify",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

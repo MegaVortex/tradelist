@@ -1,0 +1,153 @@
+{
+  "originalTitle": "Rammstein - 23.10.1997 - Duesseldorf - Germany - Philips-Halle",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "10",
+    "year": "1997"
+  },
+  "startDateUnix": 877564800,
+  "endDate": {
+    "day": "23",
+    "month": "10",
+    "year": "1997"
+  },
+  "endDateUnix": 877564800,
+  "location": {
+    "city": "Duesseldorf",
+    "state": "",
+    "country": "Germany",
+    "venue": "Philips-Halle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Niteconcert Spezial Rammstein.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.66,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1292,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "rammstein_15_05_1997_video",
+    "rammstein_05_07_1997_video",
+    "rammstein_29_05_1998_video",
+    "rammstein_10_06_2005_video"
+  ],
+  "childOf": "Rammstein - [1997-2005] - TV Appearances",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "22735673.jpg",
+      "externalId": "1DB_53qFZOxXHKs93H2qTAVx3QEfHxO6K"
+    },
+    {
+      "folder": "27",
+      "filename": "07158890.jpg",
+      "externalId": "1aVrtoKEnJDlnW8x-NHBWyVyTx7uWgscv"
+    },
+    {
+      "folder": "27",
+      "filename": "45521334.jpg",
+      "externalId": "1fKlP1qsgwaY6L3mFjAmP1TuVIr2Fo5av"
+    },
+    {
+      "folder": "27",
+      "filename": "47888017.jpg",
+      "externalId": "1vpYcmXKnaaAtPd966rEP4LHd_eDxdLRC"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Herzeleid",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Weisses Fleisch",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Asche Zu Asche",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Du Hast",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Rammstein",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

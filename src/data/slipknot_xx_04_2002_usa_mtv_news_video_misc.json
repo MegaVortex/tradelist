@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Slipknot - xx.04.2002 - USA - MTV News [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "04",
+    "year": "2002"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "04",
+    "year": "2002"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "MTV News",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 6.98,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 45,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "352x288",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG1",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 224,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "VCD",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "45570877.jpg",
+      "externalId": "18eGoZ9nX6GG6OHF6Ais2lwyhkG-B2jpo"
+    },
+    {
+      "folder": "14",
+      "filename": "27388864.jpg",
+      "externalId": "1aIznYBG1uSQ8LhTpo2-Vr8DEPfAlckoD"
+    },
+    {
+      "folder": "14",
+      "filename": "38059740.jpg",
+      "externalId": "1A72Ua07MNwdrATL5YlfDhyawu9fuxT5f"
+    },
+    {
+      "folder": "14",
+      "filename": "09600343.jpg",
+      "externalId": "11VmnzjnEnzmce-1R1sJkwelV4a1DlF0L"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview  + TV Report",
+      "feat": "Joey Jordison",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

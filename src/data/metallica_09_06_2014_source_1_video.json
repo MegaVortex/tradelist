@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Metallica - 09.06.2014 - Landgraaf - Netherlands - Megaland - Pinkpop Festival (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "06",
+    "year": "2014"
+  },
+  "startDateUnix": 1402272000,
+  "endDate": {
+    "day": "09",
+    "month": "06",
+    "year": "2014"
+  },
+  "endDateUnix": 1402272000,
+  "location": {
+    "city": "Landgraaf",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Megaland",
+    "event": "Pinkpop Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.35,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2989,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "55",
+      "filename": "18859620.jpg",
+      "externalId": "10rAr2b2ZygI4jYK3QG-POrF04HMaMhND"
+    },
+    {
+      "folder": "55",
+      "filename": "82050337.jpg",
+      "externalId": "13MIYnHTaeIihixknvELnTDZibPwTOkpJ"
+    },
+    {
+      "folder": "55",
+      "filename": "94032089.jpg",
+      "externalId": "19Z9IiiIycwwkua1yDppBQzgt5YkipLfZ"
+    },
+    {
+      "folder": "55",
+      "filename": "88146976.jpg",
+      "externalId": "1tm-32EX18222YcqKUhPiJMh-8LY1jFmN"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Sad But True",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wherever I May Roam",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Lords Of Summer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "For Whom The Bell Tolls",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Whiskey In The Jar",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Nothing Else Matters",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Seek And Destroy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

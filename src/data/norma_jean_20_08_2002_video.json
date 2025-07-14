@@ -1,0 +1,123 @@
+{
+  "originalTitle": "Norma Jean - 20.08.2002 - Baltimore - MD - USA - Ottobar",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Norma Jean"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "08",
+    "year": "2002"
+  },
+  "startDateUnix": 1029801600,
+  "endDate": {
+    "day": "20",
+    "month": "08",
+    "year": "2002"
+  },
+  "endDateUnix": 1029801600,
+  "location": {
+    "city": "Baltimore",
+    "state": "MD",
+    "country": "USA",
+    "venue": "Ottobar",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.97,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 7349,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "the_black_dahlia_murder_09_07_2004_video",
+    "the_black_dahlia_murder_28_03_2004_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "67",
+      "filename": "70831904.jpg",
+      "externalId": "1UFm6SgcwmKPU9heib2flbgYSC-2d1kzA"
+    },
+    {
+      "folder": "67",
+      "filename": "28574107.jpg",
+      "externalId": "1W5VPqXki1muC04YsOr_FxzU2S-J9A4IW"
+    },
+    {
+      "folder": "67",
+      "filename": "90363930.jpg",
+      "externalId": "1c9JJFmzAD-a0gC3-Bdf3h7IUjEx56c3d"
+    },
+    {
+      "folder": "67",
+      "filename": "11192782.jpg",
+      "externalId": "1TQrHOq8Evm0M05uXpMwiKLKy21-c85f6"
+    }
+  ],
+  "setlist": []
+}

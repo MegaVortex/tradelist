@@ -1,0 +1,136 @@
+{
+  "originalTitle": "Sweet - 17.05.1986 - Melbourne - Australia - TV Studios - 'Hey Hey It's Saturday'",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sweet"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "05",
+    "year": "1986"
+  },
+  "startDateUnix": 516672000,
+  "endDate": {
+    "day": "17",
+    "month": "05",
+    "year": "1986"
+  },
+  "endDateUnix": 516672000,
+  "location": {
+    "city": "Melbourne",
+    "state": "",
+    "country": "Australia",
+    "venue": "TV Studios",
+    "event": "'Hey Hey It's Saturday'"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.24,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 5867,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "sweet_xx_xx_xxxx_rare_clips_video_compilation",
+    "sweet_xx_xx_1986_adelaide_australia_tv_studios_music_express_video_misc",
+    "sweet_xx_xx_1970_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "06814281.jpg",
+      "externalId": "13Qy0KELGH8UhmtHbhC8UsAD6Ym_oNSf2"
+    },
+    {
+      "folder": "19",
+      "filename": "76215858.jpg",
+      "externalId": "1Fwf9vsMC1USTsssgpwwcOI_SN9nSpPUr"
+    },
+    {
+      "folder": "19",
+      "filename": "80233013.jpg",
+      "externalId": "1F_0-G1aysaQRnLf_CetxxqvphnxUGQHR"
+    },
+    {
+      "folder": "19",
+      "filename": "96168040.jpg",
+      "externalId": "12tjsAz2JMQqNEG76VzdnzDd2sGXrddaX"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Fox On The Run",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Jump The Fence",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

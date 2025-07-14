@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Rammstein - 08.05.1997 - Leipzig - Germany - RTL2 Studio - RTL2 Show Case",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "05",
+    "year": "1997"
+  },
+  "startDateUnix": 863049600,
+  "endDate": {
+    "day": "08",
+    "month": "05",
+    "year": "1997"
+  },
+  "endDateUnix": 863049600,
+  "location": {
+    "city": "Leipzig",
+    "state": "",
+    "country": "Germany",
+    "venue": "RTL2 Studio",
+    "event": "RTL2 Show Case"
+  },
+  "tvChannel": "RTL2",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 174,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 276,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "53",
+      "filename": "64019431.jpg",
+      "externalId": "16laxJMsW7F8bDeiP4bze4000xzVNdOKO"
+    },
+    {
+      "folder": "53",
+      "filename": "73610178.jpg",
+      "externalId": "1sUzLAYHc8lG2kFzFa9ZfhATaNmADcRWU"
+    },
+    {
+      "folder": "53",
+      "filename": "28932286.jpg",
+      "externalId": "14sPaz1rRpDsLNYDoQlOLHwH-AthoPoTA"
+    },
+    {
+      "folder": "53",
+      "filename": "94542445.jpg",
+      "externalId": "1-eA4UrL8GnEuajomTXF95AnZ5GhTJLhT"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Engel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

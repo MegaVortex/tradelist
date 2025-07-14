@@ -1,0 +1,196 @@
+{
+  "originalTitle": "Metallica - 23.10.2016 - Mountain View - CA - USA - Shoreline Amphitheatre",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "10",
+    "year": "2016"
+  },
+  "startDateUnix": 1477180800,
+  "endDate": {
+    "day": "23",
+    "month": "10",
+    "year": "2016"
+  },
+  "endDateUnix": 1477180800,
+  "location": {
+    "city": "Mountain View",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Shoreline Amphitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Bridge School Benefit.",
+  "tapers": [
+    "Sjmike"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 9.1,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2858,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "24",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "71",
+      "filename": "46338963.jpg",
+      "externalId": "16iVu3UB-26BBt1Zj0F4xP5v7Q2XwnxPy"
+    },
+    {
+      "folder": "71",
+      "filename": "81374835.jpg",
+      "externalId": "1WQblLr3TQ-9WOuQUx0yCtrTg21Oa6bp5"
+    },
+    {
+      "folder": "71",
+      "filename": "32351145.jpg",
+      "externalId": "1rBI67Rlqmda9nRDcA5nJCDauVIxzGUzV"
+    },
+    {
+      "folder": "71",
+      "filename": "94017169.jpg",
+      "externalId": "1Z10zfjA2IbV5OE0K2YGxaBNBLiL76frn"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Whiskey In The Jar",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "traditional"
+    },
+    {
+      "order": 2,
+      "song": "When A Blind Man Cries",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Deep Purple"
+    },
+    {
+      "order": 3,
+      "song": "For Whom The Bell Tolls",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Bleeding Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Clampdown",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "The Clash"
+    },
+    {
+      "order": 6,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Hardwired",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Nothing Else Matters",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Mr. Soul  (with Neil Young)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Buffalo Springfield"
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,133 @@
+{
+  "originalTitle": "The Who - xx.xx.1979 - Buffalo - NY - USA [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Who"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1979"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1979"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Buffalo",
+    "state": "NY",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "News report concerning Cincinatti with clip from Buffalo.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.1,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5394,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "the_who_xx_xx_1976_video",
+    "the_who_29_07_1971_video",
+    "the_who_12_05_1979_video_misc",
+    "the_who_10_12_1982_video",
+    "the_who_13_10_1982_video_misc",
+    "the_who_18_07_1989_video",
+    "the_who_stages_xx_xx_xxxx_the_who_stages_video_compilation"
+  ],
+  "childOf": "The Who - [1971-1989] - Stages",
+  "images": [
+    {
+      "folder": "39",
+      "filename": "67239514.jpg",
+      "externalId": "1zOITNLqEkxxq-Yno7_VPUhhMVyBCS3xh"
+    },
+    {
+      "folder": "39",
+      "filename": "51470329.jpg",
+      "externalId": "1QvCHYqbEMyYhxIzAXumLbk9tYLn-faaU"
+    },
+    {
+      "folder": "39",
+      "filename": "42839097.jpg",
+      "externalId": "1PAZ_2_eAUvyxt-mr9bgox9CzR__q69X0"
+    },
+    {
+      "folder": "39",
+      "filename": "73017971.jpg",
+      "externalId": "1Qk_QFQUVJjXoIBG6tEPG-qmztiQaWNSy"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "News Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Drowned (excerpt)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

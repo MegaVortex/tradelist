@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Sting - 01.05.1987 - Hamburg - Germany - Schauspielhaus",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sting"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "05",
+    "year": "1987"
+  },
+  "startDateUnix": 546825600,
+  "endDate": {
+    "day": "01",
+    "month": "05",
+    "year": "1987"
+  },
+  "endDateUnix": 546825600,
+  "location": {
+    "city": "Hamburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Schauspielhaus",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.16,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5469,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "21",
+      "filename": "66580448.jpg",
+      "externalId": "1RvS0V6xQ-yVoUryjn-mGjwH1kCogKCPR"
+    },
+    {
+      "folder": "21",
+      "filename": "35816561.jpg",
+      "externalId": "10HEK7S1Pv2QklP2OZx4SIUi55arHvdZT"
+    },
+    {
+      "folder": "21",
+      "filename": "22366807.jpg",
+      "externalId": "1gZ7ZvAfx-p_xTFngeTBKttSqhUmtNY59"
+    },
+    {
+      "folder": "21",
+      "filename": "26245908.jpg",
+      "externalId": "17hkaEX-WECRRBMNQLIvyT4P47XRUY4oD"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Moritat Von Mackie Messer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Kurt Weill"
+    },
+    {
+      "order": 2,
+      "song": "Das Liebesduett (Gianna Nannini)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Die Ballade Von Der Sexuellen Horigkeit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Zuhalter-Ballade",
+      "feat": "Gianna Nannini",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Moritat Von Mackie Messer  (Jack Bruce, Gianna Nannini and Sting)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Kurt Weill"
+    },
+    {
+      "order": 6,
+      "song": "Lonely House",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Wie Der Wind Weht",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "An Meinen Kleinen Radio-Apparat (music as The Secret Marriage)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

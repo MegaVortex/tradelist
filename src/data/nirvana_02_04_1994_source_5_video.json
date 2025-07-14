@@ -1,0 +1,126 @@
+{
+  "originalTitle": "Nirvana - 02.04.1994 - Paris - France - Canal+ Studios - Nulle Part Ailleurs (Source 5)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "04",
+    "year": "1994"
+  },
+  "startDateUnix": 765244800,
+  "endDate": {
+    "day": "02",
+    "month": "04",
+    "year": "1994"
+  },
+  "endDateUnix": 765244800,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "Canal+ Studios",
+    "event": "Nulle Part Ailleurs"
+  },
+  "tvChannel": "Canal+",
+  "showName": "",
+  "source": "Source 5",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "Martin Behling",
+  "notes": "PRO#1c.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 141,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 216,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "de",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "nirvana_08_01_1994_video",
+    "nirvana_02_04_1994_source_4_video",
+    "nirvana_06_02_1994_source_5_video",
+    "nirvana_06_02_1994_source_6_video",
+    "nirvana_14_02_1994_source_2_video",
+    "nirvana_22_02_1994_source_2_video",
+    "nirvana_23_02_1994_source_2_video",
+    "nirvana_27_02_1994_source_3_video",
+    "nirvana_01_03_1994_source_4_video"
+  ],
+  "childOf": "Nirvana - [1994] - '94 PROject'",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "00490571.jpg",
+      "externalId": "1XamYY2Ibfvg4m7P_1FgIo8aXqrK00aDl"
+    },
+    {
+      "folder": "80",
+      "filename": "81538095.jpg",
+      "externalId": "1-1wBw-Sv9X5-0YI6CYCOOoStb2jHWMHq"
+    },
+    {
+      "folder": "80",
+      "filename": "98193486.jpg",
+      "externalId": "1pnzL7YsxwSA4Sf1AfprzeikN2Czt-eRm"
+    },
+    {
+      "folder": "80",
+      "filename": "45283915.jpg",
+      "externalId": "1aKQYZ8Fg9YvqnJElEOK7LPwAbiBMAIDx"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Drain You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

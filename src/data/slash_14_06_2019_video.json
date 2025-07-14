@@ -1,0 +1,152 @@
+{
+  "originalTitle": "Slash - 14.06.2019 - Donington - England - Donington Park - Download Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slash"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "06",
+    "year": "2019"
+  },
+  "startDateUnix": 1560470400,
+  "endDate": {
+    "day": "14",
+    "month": "06",
+    "year": "2019"
+  },
+  "endDateUnix": 1560470400,
+  "location": {
+    "city": "Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": "Download Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-50",
+        "size": 25.4,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 17372,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 209,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [
+    "halestorm_14_06_2019_video",
+    "lamb_of_god_16_06_2019_video",
+    "whitesnake_14_06_2019_video",
+    "three_days_grace_14_06_2019_video",
+    "def_leppard_14_06_2019_video",
+    "skid_row_14_06_2019_video",
+    "skindred_15_06_2019_video",
+    "smashing_pumpkins_16_06_2019_video",
+    "eagles_of_death_metal_14_06_2019_video",
+    "underoath_16_06_2019_video",
+    "slipknot_15_06_2019_source_2_video",
+    "trivium_15_06_2019_video",
+    "slayer_16_06_2019_video",
+    "anthrax_16_06_2019_video",
+    "godsmack_16_06_2019_video",
+    "stone_temple_pilots_15_06_2019_video",
+    "behemoth_15_06_2019_video",
+    "rob_zombie_14_06_2019_video",
+    "opeth_14_06_2019_video"
+  ],
+  "childOf": "various_artists_14_06_2019_16_06_2019_video_compilation",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "75097517.jpg",
+      "externalId": "10AfUtXb4JcuLZF6khjdScGHb8XXF9DMa"
+    },
+    {
+      "folder": "73",
+      "filename": "42315903.jpg",
+      "externalId": "1H_OrLU64eDnPZOWO5bVb-IlYbKk6MK8L"
+    },
+    {
+      "folder": "73",
+      "filename": "12739575.jpg",
+      "externalId": "18ACWR-MB5BvGBYgp_9dII7bSNblfXJBj"
+    },
+    {
+      "folder": "73",
+      "filename": "51813916.jpg",
+      "externalId": "1wiYtDWDcVjMkKh7-el-p7c4JJhaXyfQm"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Serve You Right",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Driving Rain",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Standing In The Sun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

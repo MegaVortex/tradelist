@@ -1,0 +1,121 @@
+{
+  "originalTitle": "Metallica - 20.04.1992 - London - England - Wembley Stadium - Freddie Mercury Tribute Concert (Source 4)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "04",
+    "year": "1992"
+  },
+  "startDateUnix": 703728000,
+  "endDate": {
+    "day": "20",
+    "month": "04",
+    "year": "1992"
+  },
+  "endDateUnix": 703728000,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Wembley Stadium",
+    "event": "Freddie Mercury Tribute Concert"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 4",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.02,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3585,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_16_03_1993_source_2_video",
+    "metallica_17_03_1993_source_2_video",
+    "metallica_18_03_1993_source_2_video",
+    "metallica_xx_xx_1993_japan_source_2_video_misc"
+  ],
+  "childOf": "Metallica - [1992-1993] - Japan & England",
+  "images": [
+    {
+      "folder": "77",
+      "filename": "64735914.jpg",
+      "externalId": "1SkiFGy1B9eNNEj_r3L7qQzxgIXN5uKXD"
+    },
+    {
+      "folder": "77",
+      "filename": "35505603.jpg",
+      "externalId": "1HQdYtxzZJf-bIMk4VlLWaTva7vOd0cH0"
+    },
+    {
+      "folder": "77",
+      "filename": "49064652.jpg",
+      "externalId": "1UxeR6qwT1lJTlURpUJyxz2cgWxHlzCcp"
+    },
+    {
+      "folder": "77",
+      "filename": "28904612.jpg",
+      "externalId": "1P1OYPgzNh676e3cRoCnfuGdb9eSasRiq"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Sad But True",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

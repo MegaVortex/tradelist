@@ -1,0 +1,156 @@
+{
+  "originalTitle": "System Of A Down - 04.04.2005 - London - England - Astoria (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "System Of A Down"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "04",
+    "year": "2005"
+  },
+  "startDateUnix": 1112572800,
+  "endDate": {
+    "day": "04",
+    "month": "04",
+    "year": "2005"
+  },
+  "endDateUnix": 1112572800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Astoria",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.48,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1543,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "63",
+      "filename": "13721559.jpg",
+      "externalId": "1vV3EAgbBB6KECDwVnxQBK3vo51MvnWQS"
+    },
+    {
+      "folder": "63",
+      "filename": "74209366.jpg",
+      "externalId": "1SjvQE7ZXtyelm5_LYCt9e6TXS24TgCH1"
+    },
+    {
+      "folder": "63",
+      "filename": "48252965.jpg",
+      "externalId": "12rKbOwWoi6OzztgRKMqTp56csxE2dp5s"
+    },
+    {
+      "folder": "63",
+      "filename": "14568408.jpg",
+      "externalId": "1zkRvP9z1o9jdidKHVM4PWcUDup4u7ZF8"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "B.Y.O.B.",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Science",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Needles",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Psycho",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Chop Suey!",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Aerials",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

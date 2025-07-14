@@ -1,0 +1,121 @@
+{
+  "originalTitle": "No Doubt - 06.05.2009 - Glendale - CA - USA - Alex Theatre - American Idol Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "No Doubt"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "05",
+    "year": "2009"
+  },
+  "startDateUnix": 1241568000,
+  "endDate": {
+    "day": "06",
+    "month": "05",
+    "year": "2009"
+  },
+  "endDateUnix": 1241568000,
+  "location": {
+    "city": "Glendale",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Alex Theatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "American Idol Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.18,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 229,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "no_doubt_01_05_2009_video",
+    "no_doubt_19_05_2009_video",
+    "no_doubt_20_05_2009_video",
+    "no_doubt_11_06_2009_video"
+  ],
+  "childOf": "No Doubt - [2009] - USA TV Performances",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "19067852.jpg",
+      "externalId": "1_O1-QUSyy6U4PQPcFh1wDMRqMp_Enn2-"
+    },
+    {
+      "folder": "6",
+      "filename": "31574654.jpg",
+      "externalId": "1CU-vZSFKWLVThXpOop5Xw7vkNWW2wpS3"
+    },
+    {
+      "folder": "6",
+      "filename": "34768686.jpg",
+      "externalId": "1oNHWBnhbKx2RSnyLow_jYz_4Qd5QfxHL"
+    },
+    {
+      "folder": "6",
+      "filename": "11286448.jpg",
+      "externalId": "1RWCmaL2yBYU63Lu_tLz_4rbTx1unOx21"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Just A Girl",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

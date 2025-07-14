@@ -1,0 +1,108 @@
+{
+  "originalTitle": "The Dillinger Escape Plan - 24.01.1999 - Manville - NJ - USA - Elks Lodge",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Dillinger Escape Plan"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "01",
+    "year": "1999"
+  },
+  "startDateUnix": 917136000,
+  "endDate": {
+    "day": "24",
+    "month": "01",
+    "year": "1999"
+  },
+  "endDateUnix": 917136000,
+  "location": {
+    "city": "Manville",
+    "state": "NJ",
+    "country": "USA",
+    "venue": "Elks Lodge",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Very dark at times.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.2,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1547,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "the_dillinger_escape_plan_09_07_1999_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "17",
+      "filename": "91440247.jpg",
+      "externalId": "1Jd1mhpUojrTz6b66pHnv60tCXwuxWQQc"
+    },
+    {
+      "folder": "17",
+      "filename": "39729744.jpg",
+      "externalId": "1_SKWhMGFbeuCUYL1urHexxSul6euiy4W"
+    },
+    {
+      "folder": "17",
+      "filename": "36733494.jpg",
+      "externalId": "1TCOMb5IV67Id6OWuHzgPM_APD5KHfial"
+    },
+    {
+      "folder": "17",
+      "filename": "44294232.jpg",
+      "externalId": "1c_8f8ckbvdpWyPUDUYq-IWJAVckaYcIu"
+    }
+  ],
+  "setlist": []
+}

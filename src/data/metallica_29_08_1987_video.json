@@ -1,0 +1,127 @@
+{
+  "originalTitle": "Metallica - 29.08.1987 - Nuremberg - Germany - Messegelaende",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "29",
+    "month": "08",
+    "year": "1987"
+  },
+  "startDateUnix": 557193600,
+  "endDate": {
+    "day": "29",
+    "month": "08",
+    "year": "1987"
+  },
+  "endDateUnix": 557193600,
+  "location": {
+    "city": "Nuremberg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Messegelaende",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.03,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 930,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_25_10_1996_video",
+    "metallica_21_05_1999_source_3_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "74",
+      "filename": "95016253.jpg",
+      "externalId": "1Umz9K-2yjx7uvggSVTDdEmd7V6xtr6EU"
+    },
+    {
+      "folder": "74",
+      "filename": "47523987.jpg",
+      "externalId": "1Y6m6FRMg33joKMeEKP5APiqKXo4sLZl4"
+    },
+    {
+      "folder": "74",
+      "filename": "64412792.jpg",
+      "externalId": "1r3R4GACZsFbcoO8hcOxWY0nKmvulCgab"
+    },
+    {
+      "folder": "74",
+      "filename": "96496866.jpg",
+      "externalId": "1je-Izj6xyyfqt26ASUd9gAdQzNlrtSgX"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Seek And Destroy",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "James and Jason",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

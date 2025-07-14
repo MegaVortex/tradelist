@@ -1,0 +1,131 @@
+{
+  "originalTitle": "Rage Against The Machine - 02.11.1999 - New York - NY - USA - CBS Studios - David Letterman Show (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rage Against The Machine"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "11",
+    "year": "1999"
+  },
+  "startDateUnix": 941500800,
+  "endDate": {
+    "day": "02",
+    "month": "11",
+    "year": "1999"
+  },
+  "endDateUnix": 941500800,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "CBS Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "David Letterman Show",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.89,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3569,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "rage_against_the_machine_13_06_1999_source_2_video",
+    "rage_against_the_machine_13_04_1996_source_3_video",
+    "rage_against_the_machine_11_11_1999_video",
+    "rage_against_the_machine_03_11_1999_video",
+    "rage_against_the_machine_14_08_2000_video_misc",
+    "rage_against_the_machine_07_09_2000_video"
+  ],
+  "childOf": "Rage Against The Machine - [1996-2000] - TV Appearances - 'The Revolution Is On TV'",
+  "images": [
+    {
+      "folder": "36",
+      "filename": "36390136.jpg",
+      "externalId": "1qXeIzdV1gV1PWl6oe5M4x4aZw9n_-SoN"
+    },
+    {
+      "folder": "36",
+      "filename": "32892204.jpg",
+      "externalId": "1um4crn24evqE5B5o4gdJjRvTiHJczSfq"
+    },
+    {
+      "folder": "36",
+      "filename": "22675082.jpg",
+      "externalId": "1F7muaaEeJQsxCMe0viW23LFlYKL-lZ8C"
+    },
+    {
+      "folder": "36",
+      "filename": "68625111.jpg",
+      "externalId": "1Gk91wKJ3dCNckEE6M1IMVo3Bd_1CdxPF"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Guerrilla Radio",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Bulls On Parade",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

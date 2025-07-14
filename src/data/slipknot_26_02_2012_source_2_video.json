@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Slipknot - 26.02.2012 - Sydney - Australia - Olympic Park - Soundwave Festival (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "02",
+    "year": "2012"
+  },
+  "startDateUnix": 1330214400,
+  "endDate": {
+    "day": "26",
+    "month": "02",
+    "year": "2012"
+  },
+  "endDateUnix": 1330214400,
+  "location": {
+    "city": "Sydney",
+    "state": "",
+    "country": "Australia",
+    "venue": "Olympic Park",
+    "event": "Soundwave Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Very distant recording. Awful sound quality.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 4.9,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1757,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "68",
+      "filename": "04979405.jpg",
+      "externalId": "1pnLdPbf6yD02yGFLGpS2i3WJ2DHI1Hpz"
+    },
+    {
+      "folder": "68",
+      "filename": "27784609.jpg",
+      "externalId": "1qQwuA7gjvfFwAkYgyi_C_oZEQHHIEAaN"
+    },
+    {
+      "folder": "68",
+      "filename": "71384568.jpg",
+      "externalId": "1VzImvs-gbH3m9EjdsoB-84i6lDQJXUbj"
+    },
+    {
+      "folder": "68",
+      "filename": "15655988.jpg",
+      "externalId": "1s4U3BtdNjE-16HJuvqYzqej3hTbhvsi9"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Psychosocial",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Heretic Anthem",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Duality",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Spit It Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "People = Shit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Surfacing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Til We Die",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

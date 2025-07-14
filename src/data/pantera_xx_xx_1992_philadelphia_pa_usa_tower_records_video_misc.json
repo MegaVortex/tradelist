@@ -1,0 +1,119 @@
+{
+  "originalTitle": "Pantera - xx.xx.1992 - Philadelphia - PA - USA - Tower Records [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Pantera"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1992"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1992"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "venue": "Tower Records",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 973,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 843,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "pantera_10_04_1992_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "63",
+      "filename": "06508066.jpg",
+      "externalId": "18GnQOdlMaMR-HrPdC03LvZnZ4PfnmLlg"
+    },
+    {
+      "folder": "63",
+      "filename": "13734944.jpg",
+      "externalId": "1neDWPzrWun7pwjmBkq9euq-VUiEUvSTj"
+    },
+    {
+      "folder": "63",
+      "filename": "20312812.jpg",
+      "externalId": "1DYf8A5zrOWsG1EBRPDy7X1fv8sqbHXBF"
+    },
+    {
+      "folder": "63",
+      "filename": "86340482.jpg",
+      "externalId": "11VfSaSxEAIyn96lfttLdwGKwl6EhAUEW"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Instore Signing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}
