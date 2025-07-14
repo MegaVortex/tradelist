@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function paginateShows() {
     // 1. Get the list of all shows that are currently visible based on the active filters.
     const rows = [...document.querySelectorAll('.paginated-show')].filter(row => row.style.display !== 'none');
-    const perPage = 100;
+    const perPage = 200;
     const controls = document.getElementById('pagination-controls');
 
     // If there are not enough rows to need pagination, hide the controls and exit.

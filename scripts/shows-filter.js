@@ -1,270 +1,204 @@
-let currentLetter = 'all';
-let tableRows = [];
+/**
+ * Main initialization function.
+ * This is called from the Nunjucks template after the data is loaded.
+ */
+function initializeShowFilters(shows) {
+    // --- STATE MANAGEMENT ---
+    let currentFilterLetter = 'all';
+    let currentFilterBands = [];
+    let currentPage = 1;
+    const perPage = 100;
 
-function updateShowCount() {
-    const countSpan = document.getElementById('show-count-number');
-    if (!countSpan) return;
+    const tbody = document.getElementById('shows-table-body');
+    const showCountSpan = document.getElementById('show-count-number');
+    const paginationControls = document.getElementById('pagination-controls');
 
-    const allRows = [...document.querySelectorAll('#shows-table tbody tr')];
-    const visibleShows = allRows.filter(row =>
-        row.style.display !== 'none' &&
-        !row.hasAttribute('data-label')
-    );
-
-    countSpan.textContent = visibleShows.length;
-}
-
-function markAlreadyAdded() {
-    const cart = JSON.parse(localStorage.getItem('cart') || '{}');
-    document.querySelectorAll('.add-to-cart').forEach(btn => {
-        const id = btn.dataset.id;
-        if (cart[id]) {
-            btn.innerHTML = '✅';
-            btn.classList.remove('btn-outline-success');
-            btn.classList.add('btn-success');
-        }
+    // --- INITIAL SORT ---
+    // Sort the master data array ONCE on load for consistent ordering.
+    shows.sort((a, b) => {
+        const bandA = (a.bands && a.bands.length) ? a.bands[0].toLowerCase() : '';
+        const bandB = (b.bands && b.bands.length) ? b.bands[0].toLowerCase() : '';
+        if (bandA < bandB) return -1;
+        if (bandA > bandB) return 1;
+        return (b.startDateUnix || 0) - (a.startDateUnix || 0); // Date descending
     });
-}
-markAlreadyAdded();
 
-document.addEventListener('DOMContentLoaded', () => {
-    window.selectedBand = null;
-    const tbody = document.querySelector('#shows-table tbody');
-    tableRows = [...tbody.querySelectorAll('tr')];
+    /**
+     * Renders a page of show data into the table body.
+     */
+    function renderPage(filteredShows, page) {
+        currentPage = page;
+        tbody.innerHTML = ''; // Clear the table
 
-function buildBandPillsForLetter(letter) {
-    const bandSet = new Set();
-    tableRows.forEach(row => {
-        // Skip rows that are labels
-        if (row.hasAttribute('data-label')) {
-            return; // Go to the next row in the loop
+        const startIndex = (page - 1) * perPage;
+        const endIndex = startIndex + perPage;
+        const showsForPage = filteredShows.slice(startIndex, endIndex);
+
+        if (showsForPage.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="13" style="text-align: center;">No shows match your filters.</td></tr>';
+            return;
         }
 
-        const bands = (row.dataset.band || '').split('|||');
-        bands.forEach(band => {
-            const trimmed = band.trim();
-            // Ensure only non-empty strings are added
-            if (trimmed !== '') {
-                const first = trimmed[0]?.toUpperCase();
-                if (
-                    (letter === 'all') ||
-                    (letter === '#' && !/^[A-Z]/.test(first)) ||
-                    (first === letter)
-                ) {
-                    bandSet.add(trimmed);
+        let rowsHtml = '';
+        showsForPage.forEach(show => {
+            const dateDisplay = show.startDateUnix ? new Date(show.startDateUnix * 1000).toISOString().slice(0, 10) : '—';
+            const locationDisplay = show.location ? [show.location.city, show.location.country].filter(Boolean).join(', ') : '—';
+            
+            // This template string generates a single row. Customize it as needed.
+            rowsHtml += `
+                <tr class="paginated-show" data-band="${show.bands ? show.bands.join('|||') : ''}">
+                    <td>${show.bands ? show.bands.join(', ') : '—'}</td>
+                    <td>${dateDisplay}</td>
+                    <td>${locationDisplay}</td>
+                    <td>${show.specs && show.specs.length ? Math.round(show.specs.length / 60) + ' min' : '—'}</td>
+                    <td>${show.specs && show.specs.media && show.specs.media[0] ? `${show.specs.media[0].size}${show.specs.media[0].unit}`: '—'}</td>
+                    <td>${show.specs && show.specs.sourceDetail ? show.specs.sourceDetail.fileFormat : '—'}</td>
+                    <td>${show.specs && show.specs.sourceDetail ? show.specs.sourceDetail.recordingType : '—'}</td>
+                    <td>${show.source || '—'}</td>
+                    <td>${show.tapers ? show.tapers.join(', ') : '—'}</td>
+                    <td>${show.images && show.images.length ? `📷 ${show.images.length}` : '—'}</td>
+                    <td><a href="${show.permalink || '#'}" title="View info">🎫</a></td>
+                    <td><button class="btn btn-sm btn-outline-success add-to-cart" data-id="${show.fileSlug}">➕</button></td>
+                </tr>
+            `;
+        });
+
+        tbody.innerHTML = rowsHtml;
+        markAlreadyAdded(); // From cart.js, assuming it's loaded
+        insertGroupLabels(); // From shows-table.js
+    }
+
+    /**
+     * Updates the pagination controls based on the total number of items.
+     */
+    function renderPagination(totalItems, page) {
+        const totalPages = Math.ceil(totalItems / perPage);
+        paginationControls.innerHTML = '';
+        if (totalPages <= 1) return;
+
+        let html = '<nav><ul class="pagination justify-content-center">';
+        if (page > 1) html += `<li class="page-item"><a class="page-link" href="#" data-page="${page - 1}">←</a></li>`;
+        
+        // Pagination logic with ellipses for many pages can be added here if needed
+        for (let i = 1; i <= totalPages; i++) {
+            html += `<li class="page-item ${i === page ? 'active' : ''}"><a class="page-link" href="#" data-page="${i}">${i}</a></li>`;
+        }
+        
+        if (page < totalPages) html += `<li class="page-item"><a class="page-link" href="#" data-page="${page + 1}">→</a></li>`;
+        html += '</ul></nav>';
+        paginationControls.innerHTML = html;
+    }
+
+    /**
+     * The main filtering and rendering pipeline.
+     */
+    function updateDisplay() {
+        const lowerCaseBands = currentFilterBands.map(b => b.toLowerCase());
+        
+        const filteredShows = shows.filter(show => {
+            if (!show.bands || show.bands.length === 0) return false;
+
+            // Letter filter
+            const firstLetter = (show.bands[0][0] || '').toUpperCase();
+            const isNumeric = !/^[A-Z]/.test(firstLetter);
+            const letterMatch = currentFilterLetter === 'all' || (currentFilterLetter === '#' && isNumeric) || firstLetter === currentFilterLetter;
+            if (!letterMatch) return false;
+
+            // Band pill filter
+            const bandMatch = lowerCaseBands.length === 0 || show.bands.some(b => lowerCaseBands.includes(b.toLowerCase()));
+            return bandMatch;
+        });
+
+        showCountSpan.textContent = filteredShows.length;
+        renderPage(filteredShows, 1);
+        renderPagination(filteredShows.length, 1);
+    }
+    
+    // --- BUILD UI CONTROLS ---
+
+    function buildLetterBar() {
+        const letterBar = document.getElementById('letter-bar');
+        const letters = new Set();
+        shows.forEach(show => {
+            if (show.bands && show.bands.length > 0) {
+                const first = (show.bands[0][0] || '').toUpperCase();
+                if (first) letters.add(/^[A-Z]$/.test(first) ? first : '#');
+            }
+        });
+
+        const sortedLetters = Array.from(letters).sort();
+        const barHTML = sortedLetters.map(l => `<li class="nav-item"><a class="nav-link" href="#" data-letter="${l}">${l}</a></li>`).join('');
+        letterBar.innerHTML = `<ul class="nav nav-pills"><li class="nav-item"><a class="nav-link active" href="#" data-letter="all">All</a></li>${barHTML}</ul>`;
+
+        letterBar.addEventListener('click', e => {
+            if (e.target.tagName !== 'A') return;
+            e.preventDefault();
+            letterBar.querySelectorAll('.nav-link').forEach(a => a.classList.remove('active'));
+            e.target.classList.add('active');
+            
+            currentFilterLetter = e.target.dataset.letter;
+            updateDisplay();
+            buildBandPills(); // Rebuild pills for the new letter
+        });
+    }
+
+    function buildBandPills() {
+        const bandPillsContainer = document.getElementById("band-pills");
+        const bandSet = new Set();
+
+        // Get bands only from the shows matching the current letter
+        shows.forEach(show => {
+            if (show.bands && show.bands.length > 0) {
+                const firstLetter = (show.bands[0][0] || '').toUpperCase();
+                const isNumeric = !/^[A-Z]/.test(firstLetter);
+                const letterMatch = currentFilterLetter === 'all' || (currentFilterLetter === '#' && isNumeric) || firstLetter === currentFilterLetter;
+                if(letterMatch) {
+                    show.bands.forEach(band => bandSet.add(band));
                 }
             }
         });
-    });
 
-    const sortedBands = [...bandSet].sort();
-    const bandPillsContainer = document.getElementById("band-pills");
+        const sortedBands = [...bandSet].sort();
+        if (sortedBands.length === 0) {
+            bandPillsContainer.innerHTML = '';
+            bandPillsContainer.style.display = 'none';
+            return;
+        }
 
-    if (sortedBands.length === 0) {
-        bandPillsContainer.innerHTML = '';
-        bandPillsContainer.style.display = 'none';
-        return;
-    }
-
-    bandPillsContainer.innerHTML = sortedBands.map(band =>
-        `<span class="band-pill" data-band="${band}">${band}</span>`
-    ).join("");
-
-    bandPillsContainer.style.display = 'flex';
+        bandPillsContainer.innerHTML = sortedBands.map(band => `<span class="band-pill" data-band="${band}">${band}</span>`).join("");
+        bandPillsContainer.style.display = 'flex';
 
         bandPillsContainer.querySelectorAll(".band-pill").forEach(pill => {
-            pill.addEventListener("click", e => {
+            pill.addEventListener("click", () => {
                 pill.classList.toggle("bg-primary");
                 pill.classList.toggle("bg-secondary");
-
-                const activeBands = [...document.querySelectorAll(".band-pill.bg-primary")]
-                    .map(p => p.dataset.band.toLowerCase());
-                window.selectedBand = activeBands.length === 1 ? activeBands[0] : null;
-
-                const hintBox = document.getElementById("grouping-hint");
-                if (activeBands.length !== 1) {
-                    hintBox.textContent = "ℹ️ Grouping by category and year is only available when one band is selected.";
-                    hintBox.style.display = 'block';
-                } else {
-                    hintBox.textContent = '';
-                    hintBox.style.display = 'none';
-                }
-
-                tableRows.forEach(row => {
-                    const raw = (row.dataset.band || "").toLowerCase();
-                    const bands = raw.split("|||").map(b => b.trim());
-
-                    const first = bands[0]?.[0]?.toUpperCase();
-                    const isNumber = !/^[A-Z]/.test(first);
-                    const matchLetter = currentLetter === 'all' || (currentLetter === '#' && isNumber) || first === currentLetter;
-                    const matchBand = activeBands.length === 0 || bands.some(b => activeBands.includes(b));
-
-                    row.style.display = matchLetter && matchBand ? '' : 'none';
-
-                });
-
-                updateShowCount();
-                insertGroupLabels();
-                paginateShows();
+                currentFilterBands = [...document.querySelectorAll(".band-pill.bg-primary")].map(p => p.dataset.band);
+                window.selectedBand = currentFilterBands.length === 1 ? currentFilterBands[0] : null;
+                updateDisplay();
             });
         });
     }
-
-    const showRows = tableRows.filter(r => !r.hasAttribute('data-label'));
-
-    // Sort by band, then date
-    showRows.sort((a, b) => {
-        const bandA = (a.dataset.band || '').split('|||')[0].toLowerCase();
-        const bandB = (b.dataset.band || '').split('|||')[0].toLowerCase();
-
-        if (bandA < bandB) return -1;
-        if (bandA > bandB) return 1;
-
-        const dateA = a.querySelector('td:nth-child(2)')?.innerText || '';
-        const dateB = b.querySelector('td:nth-child(2)')?.innerText || '';
-        return dateA.localeCompare(dateB);
-    });
-
-    showRows.forEach(row => tbody.appendChild(row));
-
-    tableRows.sort((a, b) => {
-        const bandA = (a.dataset.band || '').split('|||')[0].trim().toLowerCase();
-        const bandB = (b.dataset.band || '').split('|||')[0].trim().toLowerCase();
-        if (bandA < bandB) return -1;
-        if (bandA > bandB) return 1;
-
-        const dateA = a.querySelector('td:nth-child(2)')?.innerText || '';
-        const dateB = b.querySelector('td:nth-child(2)')?.innerText || '';
-        return dateA.localeCompare(dateB);
-    });
-    const letterBar = document.getElementById('letter-bar');
-    const dropdownWrapper = document.getElementById("band-dropdown-wrapper");
-    const dropdown = document.getElementById("band-dropdown");
-
-    const letters = new Set();
-    tableRows.forEach(row => {
-        const bands = (row.dataset.band || '').split('|||');
-        bands.forEach(b => {
-            const first = b.trim()[0]?.toUpperCase();
-            if (first) letters.add(/^[A-Z]$/.test(first) ? first : '#');
-        });
-
-    });
-
-    const sorted = Array.from(letters).sort();
-    const barHTML = sorted.map(l =>
-        `<li class="nav-item">
-    <a class="nav-link" href="#" data-letter="${l}">${l}</a>
-  </li>`
-    ).join('');
-    letterBar.innerHTML = `<ul class="nav nav-pills">${barHTML}</ul>`;
-    letterBar.addEventListener('click', e => {
+    
+    // --- GLOBAL EVENT LISTENERS ---
+    
+    paginationControls.addEventListener('click', e => {
         if (e.target.tagName !== 'A') return;
         e.preventDefault();
-
-        window.selectedBand = null;
-        const selected = e.target.dataset.letter;
-        currentLetter = selected;
-        letterBar.querySelectorAll('.nav-link').forEach(a => a.classList.remove('active'));
-        e.target.classList.add('active');
-
-        tableRows.forEach(row => {
-            if (row.hasAttribute('data-label')) {
-                row.style.display = 'none';
-                return;
-            }
-            const bands = (row.dataset.band || '').split('|||');
-            let match = selected === 'all';
-            if (bands[0]) {
-                const first = bands[0].trim()[0]?.toUpperCase();
-                const isNumber = !/^[A-Z]/.test(first);
-                match = (selected === 'all') || (selected === '#' && isNumber) || (first === selected);
-            }
-            row.style.display = match ? '' : 'none';
+        const page = parseInt(e.target.dataset.page, 10);
+        
+        // Re-run the filter logic to get the current list of shows
+        const filteredShows = shows.filter(show => {
+            const letterMatch = currentFilterLetter === 'all' || (show.bands && show.bands.length > 0 && show.bands[0][0].toUpperCase() === currentFilterLetter);
+            const bandMatch = currentFilterBands.length === 0 || (show.bands && show.bands.some(b => currentFilterBands.includes(b)));
+            return letterMatch && bandMatch;
         });
 
-        buildBandPillsForLetter(currentLetter);
-        updateShowCount();
-        insertGroupLabels();
-
-        paginateShows();
+        renderPage(filteredShows, page);
+        renderPagination(filteredShows.length, page);
     });
 
-    function paginateShows() {
-        const activeBands = document.querySelectorAll(".band-pill.bg-primary");
-
-        if (activeBands.length === 1) {
-            const controls = document.getElementById('pagination-controls');
-            if (controls) {
-                controls.innerHTML = '';
-            }
-
-            const visibleRows = [...document.querySelectorAll('.paginated-show')].filter(row => row.style.display !== 'none');
-            visibleRows.forEach(r => r.style.display = '');
-
-            return;
-        }
-        const rows = [...document.querySelectorAll('.paginated-show')].filter(row => row.style.display !== 'none');
-        const perPage = 100;
-        if (rows.length <= perPage) {
-            const controls = document.getElementById('pagination-controls');
-            if (controls) controls.innerHTML = '';
-            rows.forEach(r => r.style.display = '');
-            return;
-        }
-        let currentPage = 1;
-        let totalPages = Math.ceil(rows.length / perPage);
-
-        function showPage(page) {
-            currentPage = page;
-            rows.forEach((row, i) => {
-                row.style.display = (i >= (page - 1) * perPage && i < page * perPage) ? '' : 'none';
-            });
-            renderPaginationControls();
-            updateShowCount();
-            insertGroupLabels();
-        }
-
-        function renderPaginationControls() {
-            const controls = document.getElementById('pagination-controls');
-            if (totalPages <= 1) {
-                controls.innerHTML = '';
-                return;
-            }
-
-            let html = '<nav><ul class="pagination justify-content-center">';
-
-            if (currentPage > 1) {
-                html += `<li class="page-item"><a class="page-link" href="#" data-page="${currentPage - 1}">←</a></li>`;
-            }
-
-            for (let i = 1; i <= totalPages; i++) {
-                html += `<li class="page-item${i === currentPage ? ' active' : ''}">
-     <a class="page-link" href="#" data-page="${i}">${i}</a>
-   </li>`;
-            }
-
-            if (currentPage < totalPages) {
-                html += `<li class="page-item"><a class="page-link" href="#" data-page="${currentPage + 1}">→</a></li>`;
-            }
-
-            html += '</ul></nav>';
-            controls.innerHTML = html;
-
-            controls.querySelectorAll('[data-page]').forEach(btn => {
-                btn.addEventListener('click', e => {
-                    e.preventDefault();
-                    const page = parseInt(btn.dataset.page);
-                    showPage(page);
-                });
-            });
-        }
-
-        showPage(1);
-    }
-    updateShowCount();
-    insertGroupLabels();
-    if (!window.selectedBand) {
-        paginateShows();
-    }
-});
+    // --- KICK EVERYTHING OFF ---
+    buildLetterBar();
+    buildBandPills();
+    updateDisplay(); // Perform the initial render
+}
