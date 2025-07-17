@@ -173,6 +173,20 @@ a:hover {
   right: 0px;
 }
 
+.rules-and-tapers {
+	display: flex;
+	gap: 20px;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.tapers-section {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	min-width: 250px;
+}
+
 .rules-block {
   background-color: #f6f8fa;
   border: 0px solid #d0d7de;
@@ -187,6 +201,24 @@ a:hover {
   font-size: 14px;
   max-width: 700px;
   margin: 0px 0;
+  left: 0px;
+}
+
+.tapers-block {
+  background-color: #f6f8fa;
+  border: 0px solid #d0d7de;
+  border-top: 2px solid #d0d7de;
+  border-bottom: 1px solid #d0d7de;
+  border-left: 20px solid #d0d7de;
+  border-right: 2px solid #d0d7de;
+  padding: 3px;
+  line-height: 0.95;
+  white-space: pre-line;
+  border-radius: 10px;
+  font-size: 14px;
+  max-width: 600px;
+  margin: 0px 0;
+  right: 0px;
 }
 
 h1, h2, h3 {
