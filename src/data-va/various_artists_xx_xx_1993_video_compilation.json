@@ -27,7 +27,7 @@
     "venue": "",
     "event": "The Late Show"
   },
-  "tvChannel": "BBC2 TV",
+  "tvChannel": "BBC2",
   "showName": "No Nirvana",
   "source": "",
   "category": [
@@ -107,12 +107,9 @@
     }
   ],
   "parentOf": [
-    "pearl_jam_xx_xx_1993_bbc2_tv_the_late_show_no_nirvana_video",
-    "sonic_youth_xx_xx_1993_bbc2_tv_the_late_show_no_nirvana_video",
-    "r_e_m_xx_xx_1993_bbc2_tv_the_late_show_no_nirvana_video",
-    "smashing_pumpkins_xx_xx_1993_bbc2_tv_the_late_show_no_nirvana_video"
-  ],
-  "fileSlug": "various_artists_xx_xx_1993_video_compilation",
-  "isVA": true,
-  "permalink": "/va-shows/various_artists_xx_xx_1993_video_compilation/"
+    "pearl_jam_xx_xx_1993_bbc2_tv_no_nirvana_video",
+    "sonic_youth_xx_xx_1993_bbc2_tv_no_nirvana_video",
+    "r_e_m_xx_xx_1993_bbc2_tv_no_nirvana_video",
+    "smashing_pumpkins_xx_xx_1993_bbc2_tv_no_nirvana_video"
+  ]
 }

@@ -112,28 +112,31 @@
   "setlist": [
     {
       "order": 1,
-      "song": "For Whom The Bell Tolls (medley)",
+      "song": "For Whom The Bell Tolls",
       "feat": "",
-      "note": "",
+      "note": "medley",
       "comment": "",
       "coverOf": ""
     },
     {
       "order": 2,
-      "song": "Enter Sandman (medley) (Metallica shows up)",
+      "song": "Enter Sandman",
       "feat": "",
-      "note": "",
-      "comment": "",
+      "note": "medley",
+      "comment": "Metallica shows up",
       "coverOf": ""
     },
     {
       "order": 3,
-      "song": "Master Of Puppets (medley)",
+      "song": "Master Of Puppets",
       "feat": "",
-      "note": "",
+      "note": "medley",
       "comment": "",
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "sum_41_03_05_2003_source_1_video",
+  "isRegular": true,
+  "permalink": "/shows/sum_41_03_05_2003_source_1_video/"
 }

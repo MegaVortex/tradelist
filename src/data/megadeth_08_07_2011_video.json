@@ -79,8 +79,8 @@
     }
   },
   "relatedShows": [
-    "slayer_08_07_2011_video",
-    "metallica_08_07_2011_video",
+    "slayer_08_07_2011_source_1_video",
+    "metallica_08_07_2011_source_1_video",
     "anthrax_08_07_2011_video",
     "diamond_head_08_07_2011_video",
     "cavelera_conspiracy_09_07_2011_video",
@@ -125,5 +125,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "megadeth_08_07_2011_video",
+  "isRegular": true,
+  "permalink": "/shows/megadeth_08_07_2011_video/"
 }

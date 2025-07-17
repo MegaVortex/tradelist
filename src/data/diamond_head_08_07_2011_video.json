@@ -79,10 +79,10 @@
     }
   },
   "relatedShows": [
-    "slayer_08_07_2011_video",
+    "slayer_08_07_2011_source_1_video",
     "megadeth_08_07_2011_video",
     "anthrax_08_07_2011_video",
-    "metallica_08_07_2011_video",
+    "metallica_08_07_2011_source_1_video",
     "cavelera_conspiracy_09_07_2011_video",
     "sum_41_09_07_2011_video",
     "house_of_pain_09_07_2011_video",
@@ -125,5 +125,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "diamond_head_08_07_2011_video",
+  "isRegular": true,
+  "permalink": "/shows/diamond_head_08_07_2011_video/"
 }

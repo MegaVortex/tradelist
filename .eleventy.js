@@ -8,6 +8,11 @@ const ISO6391 = require("iso-639-1");
 module.exports = function(eleventyConfig) {
 	eleventyConfig.addGlobalData("environment", process.env.ELEVENTY_ENV || "prod");
 	
+	eleventyConfig.addFilter("padEnd", (value, length, padChar = ' ') => {
+        if (value === null || typeof value === 'undefined') return '';
+        return String(value).padEnd(length, padChar);
+    });
+	
     // Existing filter for language names
     eleventyConfig.addFilter("langName", function(code) {
         if (!code || typeof code !== "string") return "";

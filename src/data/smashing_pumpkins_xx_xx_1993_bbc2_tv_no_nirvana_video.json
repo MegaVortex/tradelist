@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "BBC2 TV",
+    "city": "",
     "state": "",
-    "country": "'No Nirvana'",
+    "country": "",
     "venue": "",
-    "event": ""
+    "event": "The Late Show"
   },
-  "tvChannel": "BBC2 TV",
-  "showName": "The Late Show",
+  "tvChannel": "BBC2",
+  "showName": "No Nirvana",
   "source": "",
   "category": [
     "video"
@@ -79,11 +79,11 @@
     }
   },
   "relatedShows": [
-    "pearl_jam_xx_xx_1993_video",
-    "sonic_youth_xx_xx_1993_video",
-    "r_e_m_xx_xx_1993_video"
+    "pearl_jam_xx_xx_1993_bbc2_tv_no_nirvana_video",
+    "sonic_youth_xx_xx_1993_bbc2_tv_no_nirvana_video",
+    "r_e_m_xx_xx_1993_bbc2_tv_no_nirvana_video"
   ],
-  "childOf": "[VARIOUS ARTISTS] - [1993] - BBC2 TV - The Late Show - 'No Nirvana'",
+  "childOf": "various_artists_xx_xx_1993_video_compilation",
   "images": [
     {
       "folder": "17",

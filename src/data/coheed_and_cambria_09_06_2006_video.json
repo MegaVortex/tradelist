@@ -79,7 +79,7 @@
     }
   },
   "relatedShows": [
-    "metallica_10_06_2006_video",
+    "metallica_10_06_2006_source_1_video",
     "funeral_for_a_friend_11_06_2006_video",
     "lacuna_coil_11_06_2006_video",
     "hatebreed_11_06_2006_video",
@@ -91,7 +91,7 @@
     "36_crazyfists_11_06_2006_video",
     "avenged_sevenfold_10_06_2006_video",
     "alice_in_chains_10_06_2006_video",
-    "deftones_09_06_2006_video",
+    "deftones_09_06_2006_source_1_video",
     "soulfly_09_06_2006_video"
   ],
   "childOf": "various_artists_09_06_2006_11_06_2006_video_compilation",
@@ -135,5 +135,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "coheed_and_cambria_09_06_2006_video",
+  "isRegular": true,
+  "permalink": "/shows/coheed_and_cambria_09_06_2006_video/"
 }

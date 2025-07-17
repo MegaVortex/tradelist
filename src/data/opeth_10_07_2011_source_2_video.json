@@ -79,7 +79,7 @@
     }
   },
   "relatedShows": [
-    "slayer_08_07_2011_video",
+    "slayer_08_07_2011_source_1_video",
     "megadeth_08_07_2011_video",
     "anthrax_08_07_2011_video",
     "diamond_head_08_07_2011_video",
@@ -88,7 +88,7 @@
     "house_of_pain_09_07_2011_video",
     "the_mars_volta_09_07_2011_video",
     "slipknot_10_07_2011_source_2_video",
-    "metallica_08_07_2011_video",
+    "metallica_08_07_2011_source_1_video",
     "mastodon_10_07_2011_video",
     "motorhead_10_07_2011_video"
   ],
@@ -125,5 +125,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "opeth_10_07_2011_source_2_video",
+  "isRegular": true,
+  "permalink": "/shows/opeth_10_07_2011_source_2_video/"
 }
