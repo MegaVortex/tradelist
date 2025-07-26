@@ -180,45 +180,20 @@ a:hover {
 	flex-wrap: wrap;
 }
 
-.tapers-section {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	min-width: 250px;
-}
-
-.rules-block {
+.rules-tapers-block {
   background-color: #f6f8fa;
   border: 0px solid #d0d7de;
   border-top: 2px solid #d0d7de;
   border-bottom: 1px solid #d0d7de;
   border-left: 20px solid #d0d7de;
   border-right: 2px solid #d0d7de;
-  padding: 3px;
-  line-height: 0.95;
-  white-space: pre-line;
+  padding: 12px 16px;  /* Increased padding */
+  line-height: 1.8;    /* Better readability */
   border-radius: 10px;
   font-size: 14px;
   max-width: 700px;
-  margin: 0px 0;
   left: 0px;
-}
-
-.tapers-block {
-  background-color: #f6f8fa;
-  border: 0px solid #d0d7de;
-  border-top: 2px solid #d0d7de;
-  border-bottom: 1px solid #d0d7de;
-  border-left: 20px solid #d0d7de;
-  border-right: 2px solid #d0d7de;
-  padding: 3px;
-  line-height: 0.95;
-  white-space: pre-line;
-  border-radius: 10px;
-  font-size: 14px;
-  max-width: 600px;
-  margin: 0px 0;
-  right: 0px;
+  white-space: normal; /* Reset to default */
 }
 
 h1, h2, h3 {

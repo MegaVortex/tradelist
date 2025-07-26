@@ -134,7 +134,7 @@ function renderInitialShows(shows) {
             }</td>
     <td><a href="${pathPrefix}/shows/${show.fileSlug}/" target="_blank" rel="noopener noreferrer" style="font-size: 1.20em;">🎫</a></td>
     <td>${show.tradeLabel === 'NT'
-                ? `<button class="btn btn-sm btn-outline-secondary disabled" style="font-size: 0.75rem; padding: 2px 6px;" disabled title="Not available for trade">➕</button>`
+                ? `<button class="btn btn-sm btn-outline-secondary disabled" style="font-size: 0.75rem; padding: 2px 6px;" disabled title="Not available for trade" data-id="${show.fileSlug}">➕</button>`
                 : `<button class="btn btn-sm btn-outline-success add-to-cart" style="font-size: 0.75rem; padding: 2px 6px;" data-id="${show.fileSlug}" data-json='${encodeURIComponent(JSON.stringify(show))}' title="Add to trade cart">➕</button>`
             }</td>
     ${environment === 'dev'
@@ -236,7 +236,7 @@ function prepareTableRows(shows) {
             }</td>
     <td><a href="${pathPrefix}/shows/${show.fileSlug}/" target="_blank" rel="noopener noreferrer" style="font-size: 1.20em;">🎫</a></td>
     <td>${show.tradeLabel === 'NT'
-                ? `<button class="btn btn-sm btn-outline-secondary disabled" style="font-size: 0.75rem; padding: 2px 6px;" disabled title="Not available for trade">➕</button>`
+                ? `<button class="btn btn-sm btn-outline-secondary disabled" style="font-size: 0.75rem; padding: 2px 6px;" disabled title="Not available for trade" data-id="${show.fileSlug}">➕</button>`
                 : `<button class="btn btn-sm btn-outline-success add-to-cart" style="font-size: 0.75rem; padding: 2px 6px;" data-id="${show.fileSlug}" data-json='${encodeURIComponent(JSON.stringify(show))}' title="Add to trade cart">➕</button>`
             }</td>
     ${environment === 'dev'
@@ -536,7 +536,7 @@ function initializeShowFilters(shows) {
                 }</td>
     <td><a href="${pathPrefix}/shows/${show.fileSlug}/" target="_blank" rel="noopener noreferrer" style="font-size: 1.20em;">🎫</a></td>
     <td>${show.tradeLabel === 'NT'
-                    ? `<button class="btn btn-sm btn-outline-secondary disabled" style="font-size: 0.75rem; padding: 2px 6px;" disabled title="Not available for trade">➕</button>`
+                    ? `<button class="btn btn-sm btn-outline-secondary disabled" style="font-size: 0.75rem; padding: 2px 6px;" disabled title="Not available for trade" data-id="${show.fileSlug}">➕</button>`
                     : `<button class="btn btn-sm btn-outline-success add-to-cart" style="font-size: 0.75rem; padding: 2px 6px;" data-id="${show.fileSlug}" data-json='${encodeURIComponent(JSON.stringify(show))}' title="Add to trade cart">➕</button>`
                 }</td>
     ${environment === 'dev'
