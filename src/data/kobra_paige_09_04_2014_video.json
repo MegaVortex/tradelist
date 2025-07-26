@@ -34,7 +34,7 @@
   "public": true,
   "ownIdentifier": "HDD#J​​​​​​​",
   "tradeLabel": "",
-  "authoredBy": "",
+  "authoredBy": "Vortex",
   "transferredBy": "",
   "notes": "Good recording!",
   "tapers": [
@@ -113,17 +113,17 @@
   "setlist": [
     {
       "order": 1,
-      "song": "Kings Of Metal  (not recorded)",
+      "song": "Kings Of Metal",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": "Manowar"
     },
     {
       "order": 2,
-      "song": "Fear Of The Dark  (cuts in)",
+      "song": "Fear Of The Dark",
       "feat": "",
-      "note": "",
+      "note": "incomplete",
       "comment": "",
       "coverOf": "Iron Maiden"
     },
@@ -144,5 +144,8 @@
       "coverOf": "Megadeth"
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "kobra_paige_09_04_2014_video",
+  "isRegular": true,
+  "permalink": "/shows/kobra_paige_09_04_2014_video/"
 }

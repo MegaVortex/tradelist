@@ -99,7 +99,7 @@
     "danzig_02_05_2013_video",
     "black_sabbath_02_05_2013_video_misc",
     "deftones_02_05_2013_video_misc",
-    "metallica_02_05_2013_video"
+    "metallica_02_05_2013_source_1_video"
   ],
   "childOf": "various_artists_02_05_2013_video_compilation",
   "images": [
@@ -174,5 +174,8 @@
       "coverOf": "Black Sabbath"
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "stone_sour_02_05_2013_video",
+  "isRegular": true,
+  "permalink": "/shows/stone_sour_02_05_2013_video/"
 }

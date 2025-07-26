@@ -493,3 +493,21 @@ img.clickable-thumb {
   text-align: center;
   box-sizing: border-box;
 }
+
+.media-icons img {
+    width: 16px;   /* Was 20px */
+    height: 16px;  /* Was 20px */
+}
+
+.media-icons-top {
+    position: absolute;
+    top: 4px;      /* Adjust for perfect alignment */
+    right: 4px;    /* Place in green zone */
+    display: flex;
+    gap: 4px;      /* Spacing between icons */
+}
+
+.media-icons-top img {
+    width: 16px;
+    height: 16px;
+}

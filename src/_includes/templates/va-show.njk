@@ -178,7 +178,7 @@
       </thead>
       <tbody>
          <tr>
-            <td style="vertical-align: top; text-align: left; width: 375px; table-layout: fixed;">
+            <td style="vertical-align: top; text-align: left; width: 375px; table-layout: fixed; position: relative;">
                <!-- DETAILS -->
                <div>
                   <strong>Size:</strong>
@@ -192,6 +192,22 @@
                   {% else %}
                   —
                   {% endif %}
+<div class="media-icons-top">
+    {% for medium in show.specs.media %}
+        {% set type = medium.type %}
+        {% if type == "Floppy" %}
+            <img src="{{ '/assets/images/floppy.png' | url }}" alt="Floppy" title="Floppy">
+        {% elif type == "CD" %}
+            <img src="{{ '/assets/images/cd.png' | url }}" alt="CD" title="CD">
+        {% elif type in ["DVD-5", "DVD-9"] %}
+            <img src="{{ '/assets/images/dvd.png' | url }}" alt="DVD" title="{{ type }}">
+        {% elif type in ["BD-25", "BD-50"] %}
+            <img src="{{ '/assets/images/bd.png' | url }}" alt="Blu-ray" title="{{ type }}">
+        {% elif type == "4K UHD" %}
+            <img src="{{ '/assets/images/sd.png' | url }}" alt="4K UHD" title="4K UHD">
+        {% endif %}
+    {% endfor %}
+</div>
                </div>
                {% if show.specs and show.specs.media and show.specs.media.length > 1 %}
                <div id="media-toggle" class="extra-media indent-block-size" style="display: none;">

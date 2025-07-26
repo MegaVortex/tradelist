@@ -4,25 +4,30 @@
 
 {% block content %}
 <section style="margin-top: -30px;">
-	<p class="info-box">ℹ️ Kindly make sure to read the trading rules before reaching out.</p>
-	<p class="info-box">ℹ️ Top Tapers</p>
-
 	<div class="rules-and-tapers">
-		<div class="rules-block">
-			🚫 Bootlegs are fan-made for trading only - <strong>nothing on this website is for sale or download</strong>!<br>
-			🎵 Support the band by buying official releases.<br>
-			📭 No more mail trades - it was fun, but that era is over.<br>
-			☁️ If you contact me first, you'll need to upload first.<br>
-			🙏 Even if we've traded before, I may still ask you to upload first. Please respect that.<br>
-			🛒 Browse the site and use the form to request the shows you're interested in - no need to email!<br>
-			⛔ Shows marked as <strong>NT</strong> are <strong>not available for trade</strong>!<br>
-			⚠️ If you <strong>bad-trade</strong> me, your name will go straight to my Bad Traders list.<br>
+		<!-- Rules Section -->
+		<div class="rules-wrapper">
+			<p class="info-box">ℹ️ Kindly make sure to read the trading rules before reaching out.</p>
+			<div class="rules-tapers-block">
+				🚫 Bootlegs are fan-made for trading only - <strong>nothing on this website is for sale or download</strong>!<br>
+				🎵 Support the band by buying official releases.<br>
+				📭 No more mail trades - it was fun, but that era is over.<br>
+				☁️ If you contact me first, you'll need to upload first.<br>
+				🙏 Even if we've traded before, I may still ask you to upload first. Please respect that.<br>
+				🛒 Browse the site and use the form to request the shows you're interested in - no need to email!<br>
+				⛔ Shows marked as <strong>NT</strong> are <strong>not available for trade</strong>!<br>
+				⚠️ If you <strong>bad-trade</strong> me, your name will go straight to my Bad Traders list.<br>
+			</div>
 		</div>
 
-		<div class="tapers-block">
-			{% for item in tapersTop10 %}
-			{{ item.emoji }} {{ item.taper | padEnd(15, " ") }}{{ item.count }}
-			{% endfor %}
+		<!-- Tapers Section -->
+		<div class="tapers-wrapper">
+			<p class="info-box">ℹ️ Top tapers</p>
+			<div class="rules-tapers-block">
+				{% for item in tapersTop10 %}
+				<div class="taper-item">{{ item.emoji }} {{ item.taper }} <strong>{{ item.count }}</strong></div>
+				{% endfor %}
+			</div>
 		</div>
 	</div>
 </section>

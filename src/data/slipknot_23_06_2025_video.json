@@ -1,224 +1,123 @@
 {
-  "originalTitle": "Slipknot - 21.06.2023 - Berlin - Germany - Mercedes-Benz Arena (Source 2)",
-  "created": 1704067200,
-  "lastUpdated": 1752181957,
+  "originalTitle": "Slipknot - 23.06.2025 - Berlin - Germany - Waldbuhne",
+  "created": 1753389785,
+  "lastUpdated": 1753389785,
   "bands": [
     "Slipknot"
   ],
   "startDate": {
-    "day": "21",
+    "day": "23",
     "month": "06",
-    "year": "2023"
+    "year": "2025"
   },
-  "startDateUnix": 1687305600,
   "endDate": {
-    "day": "21",
+    "day": "23",
     "month": "06",
-    "year": "2023"
+    "year": "2025"
   },
-  "endDateUnix": 1687305600,
+  "startDateUnix": 1750636800,
+  "endDateUnix": 1750636800,
   "location": {
     "city": "Berlin",
     "state": "",
     "country": "Germany",
-    "venue": "Mercedes-Benz Arena",
+    "venue": "Waldbuhne",
     "event": ""
   },
   "tvChannel": "",
   "showName": "",
-  "source": "Source 2",
+  "source": "",
   "category": [
     "video"
   ],
-  "master": false,
+  "master": true,
   "public": true,
   "ownIdentifier": "HDD#B",
-  "tradeLabel": "NT",
+  "tradeLabel": "RT",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "",
   "tapers": [
-    "Antihero"
+    "Vortex"
   ],
   "specs": {
     "media": [
       {
         "type": "BD-50",
-        "size": 25.8,
+        "size": 37.67,
         "unit": "Gb"
       }
     ],
     "chapters": false,
     "menu": false,
-    "length": 5338,
+    "length": 5345,
     "video": [
       {
         "tvFormat": "",
-        "ratio": "",
+        "ratio": "16:9",
         "resolution": "3840x2160",
         "bitrateType": "",
-        "bitrateKbps": 41379,
-        "fps": "25",
-        "standard": "MPEG4",
-        "codec": "H264",
+        "bitrateKbps": 60507,
+        "fps": "25.00",
+        "standard": "H264",
+        "codec": "AVC1",
         "letterboxed": false
       }
     ],
     "audio": [
       {
-        "language": "",
+        "language": "en",
         "codec": "AAC",
         "rateHz": 48000,
-        "bitrateKbps": 196,
+        "bitrateKbps": 253,
         "channels": 2
       }
     ],
     "sourceDetail": {
       "recordingType": "AMT",
-      "sourceMediaType": "4K",
+      "sourceMediaType": "",
       "finalMediaType": "",
       "fileFormat": "MP4"
     }
   },
-  "relatedShows": [],
-  "childOf": "",
   "images": [
     {
-      "folder": "83",
-      "filename": "77238076.jpg",
-      "externalId": "1Ow4j90FeTMsn3Q-cQymvgK673LUIPGVS"
+      "folder": "2025",
+      "filename": "shot-1753389684488-1.jpg",
+      "externalId": "1H4n6ETW7rHzqMQEB0OWCkn6JqmPSXnqa"
     },
     {
-      "folder": "83",
-      "filename": "14253312.jpg",
-      "externalId": "1piFnQiqiFUC0ow0_AQjO2cZTZkxOoBSM"
+      "folder": "2025",
+      "filename": "shot-1753389686728-3.jpg",
+      "externalId": "1SoWbuHy0zgutb1x_xQIWtiiwHCLnMQ6A"
     },
     {
-      "folder": "83",
-      "filename": "90370055.jpg",
-      "externalId": "1oluYIyzVdO9XnM9Lq70mm4paxFy2R3FU"
+      "folder": "2025",
+      "filename": "shot-1753389682701-0.jpg",
+      "externalId": "1-kjlMIvihag3dC0igkFNxgmeBexlKnzk"
     },
     {
-      "folder": "83",
-      "filename": "71818053.jpg",
-      "externalId": "1Kd7tvCFCnotBl2ygZN7rkaDOa0UQQQjz"
+      "folder": "2025",
+      "filename": "shot-1753389685638-2.jpg",
+      "externalId": "1S0BYE40n706sZ_cPXoFC9cSfPQsjAiC_"
     }
   ],
   "setlist": [
     {
-      "order": 1,
-      "song": "Prelude 3.0",
+      "song": "742617000027",
       "feat": "",
       "note": "tape",
       "comment": "",
       "coverOf": ""
     },
     {
-      "order": 2,
-      "song": "The Blister Exists",
+      "song": "(sic)",
       "feat": "",
       "note": "",
       "comment": "",
       "coverOf": ""
     },
     {
-      "order": 3,
-      "song": "The Dying Song (Time To Sing)",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 4,
-      "song": "Liberate",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 5,
-      "song": "Yen",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 6,
-      "song": "Psychosocial",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 7,
-      "song": "The Devil In I",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 8,
-      "song": "The Heretic Anthem",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 9,
-      "song": "Eyeless",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 10,
-      "song": "Wait And Bleed",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 11,
-      "song": "Unsainted",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 12,
-      "song": "Snuff",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 13,
-      "song": "Purity",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 14,
-      "song": "(515) (PA)",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 15,
       "song": "People = Shit",
       "feat": "",
       "note": "",
@@ -226,15 +125,69 @@
       "coverOf": ""
     },
     {
-      "order": 16,
-      "song": "Surfacing",
+      "song": "Gematria (The Killing Name)",
       "feat": "",
       "note": "",
       "comment": "",
       "coverOf": ""
     },
     {
-      "order": 17,
+      "song": "Wait and Bleed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "song": "Nero Forte",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "song": "Yen",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "song": "Psychosocial",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "song": "Tattered & Torn",
+      "feat": "",
+      "note": "tape",
+      "comment": "Sid Wilson remix",
+      "coverOf": ""
+    },
+    {
+      "song": "The Heretic Anthem",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "song": "The Devil in I",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "song": "Unsainted",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
       "song": "Duality",
       "feat": "",
       "note": "",
@@ -242,7 +195,13 @@
       "coverOf": ""
     },
     {
-      "order": 18,
+      "song": "Mudslide",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
       "song": "Spit It Out",
       "feat": "",
       "note": "",
@@ -250,16 +209,21 @@
       "coverOf": ""
     },
     {
-      "order": 19,
-      "song": "Til We Die",
+      "song": "Surfacing",
       "feat": "",
-      "note": "tape",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "song": "Scissors",
+      "feat": "",
+      "note": "",
       "comment": "",
       "coverOf": ""
     }
   ],
   "extras": [],
-  "fileSlug": "slipknot_21_06_2023_source_2_video",
-  "isRegular": true,
-  "permalink": "/shows/slipknot_21_06_2023_source_2_video/"
+  "relatedShows": [],
+  "childOf": ""
 }

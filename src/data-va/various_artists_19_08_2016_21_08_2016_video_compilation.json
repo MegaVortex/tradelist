@@ -77,14 +77,14 @@
       },
       {
         "language": "",
-        "codec": "",
+        "codec": "MPEG",
         "rateHz": 48000,
         "bitrateKbps": 192,
         "channels": 2
       },
       {
         "language": "",
-        "codec": "",
+        "codec": "MPEG",
         "rateHz": 48000,
         "bitrateKbps": 192,
         "channels": 2
@@ -122,11 +122,11 @@
     }
   ],
   "parentOf": [
-    "heaven_shall_burn_19_08_2016_video",
+    "heaven_shall_burn_19_08_2016_source_1_video",
     "nofx_20_08_2016_video",
-    "rammstein_20_08_2016_video",
+    "rammstein_20_08_2016_source_1_video",
     "sum_41_19_08_2016_video",
-    "caliban_20_08_2016_video"
+    "caliban_20_08_2016_source_2_video"
   ],
   "fileSlug": "various_artists_19_08_2016_21_08_2016_video_compilation",
   "isVA": true,

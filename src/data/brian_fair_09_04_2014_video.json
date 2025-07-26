@@ -32,9 +32,9 @@
   ],
   "master": true,
   "public": true,
-  "ownIdentifier": "",
-  "tradeLabel": "",
-  "authoredBy": "",
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "RT",
+  "authoredBy": "Vortex",
   "transferredBy": "",
   "notes": "Good recording!",
   "tapers": [
@@ -81,9 +81,13 @@
     }
   },
   "relatedShows": [
-    "kobra_paige_09_04_2014_video"
+    "kobra_paige_09_04_2014_video",
+    "udo_dirkschneider_09_04_2014_video",
+    "max_cavalera_09_04_2014_video",
+    "joey_belladonna_09_04_2014_video",
+    "zakk_wylde_09_04_2014_video"
   ],
-  "childOf": "",
+  "childOf": "various_artists_09_04_2014_video_compilation",
   "images": [
     {
       "folder": "55",
@@ -141,12 +145,15 @@
     },
     {
       "order": 5,
-      "song": "Raining Blood  (with Max Cavalera)",
-      "feat": "",
+      "song": "Raining Blood",
+      "feat": "Max Cavalera",
       "note": "",
       "comment": "",
       "coverOf": "Slayer"
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "brian_fair_09_04_2014_video",
+  "isRegular": true,
+  "permalink": "/shows/brian_fair_09_04_2014_video/"
 }
