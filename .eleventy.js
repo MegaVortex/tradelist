@@ -81,6 +81,7 @@ module.exports = function(eleventyConfig) {
         const regularDataDir = "./src/data";
         const vaDataDir = "./src/data-va";
         const compilationDataDir = "./src/data-comp";
+		const privateDataDir = "./src/data-private";
 
         const readShowsFromDir = (dir, type) => {
             if (!fs.existsSync(dir)) {
@@ -104,6 +105,10 @@ module.exports = function(eleventyConfig) {
                         permalink = `/compilations/${fileSlug}/`;
                         specificTypeFlag = { isCompilation: true };
                         break;
+					case 'private':
+						permalink = `/private-shows/${fileSlug}/`;
+						specificTypeFlag = { isPrivate: true };
+						break;
                     default:
                         permalink = `/shows/${fileSlug}/`;
                         specificTypeFlag = { isRegular: true };
@@ -123,9 +128,10 @@ module.exports = function(eleventyConfig) {
         const regularShows = readShowsFromDir(regularDataDir, 'regular');
         const vaShows = readShowsFromDir(vaDataDir, 'va');
         const compilationShows = readShowsFromDir(compilationDataDir, 'compilation');
+		const privateShows = readShowsFromDir(privateDataDir, 'private');
 
         // Combine all shows into a single array and sort them
-        const allShows = [...regularShows, ...vaShows, ...compilationShows].sort((a, b) => {
+        const allShows = [...regularShows, ...vaShows, ...compilationShows, ...privateShows].sort((a, b) => {
             const unixA = a.startDateUnix;
             const unixB = b.startDateUnix;
             if (typeof unixA === 'number' && typeof unixB === 'number') return unixA - unixB;
@@ -155,6 +161,8 @@ module.exports = function(eleventyConfig) {
         });
 
         const publicShows = allShows.filter(show => show.public !== false);
+		const privateShowsOnly = allShows.filter(show => show.public === false);
+		const privateRegularShows = privateShowsOnly.filter(show => show.isPrivate);
 
         // Create separate arrays for public regular, VA, and Compilation shows
         const publicRegularShows = publicShows.filter(show => !show.isVA && !show.isCompilation);
@@ -195,6 +203,8 @@ module.exports = function(eleventyConfig) {
             publicRegularShows,
             publicVaShows,
             publicCompilationShows,
+			privateShowsOnly,
+			privateRegularShows,
             updatesPageData,
             showsBySlug
         };

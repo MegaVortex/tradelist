@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <link href="https://cdn.jsdelivr.net/npm/jsoneditor@9.10.0/dist/jsoneditor.min.css" rel="stylesheet" type="text/css">
+      <script src="https://cdn.jsdelivr.net/npm/jsoneditor@9.10.0/dist/jsoneditor.min.js"></script>
+      <base href="/">
+      <link href="/tradelist/styles/bootstrap.min.css" rel="stylesheet">
+      <link href="/tradelist/styles/clusterize.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+      <link rel="icon" href="/favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" href="/tradelist/styles/global.css">
+      <link rel="stylesheet" href="/tradelist/styles/show.css">
+      <meta charset="UTF-8">
+      <title>
+         Private Shows
+      </title>
+   </head>
+   <body>
+      <header class="navbar custom-navbar">
+         <div class="navbar-left">
+            <span class="site-title">Vortex Trade List</span>
+         </div>
+         <div class="navbar-center">
+            <nav id="main-nav" class="nav nav-pills justify-content-center">
+               <a class="nav-link" href="/tradelist/">Home</a>
+               <a class="nav-link" href="/tradelist/shows/">Browse Shows</a>
+               <a class="nav-link" href="/tradelist/va/">Various Artists</a>
+               <a class="nav-link" href="/tradelist/comp/">Compilations</a>
+               <a class="nav-link" href="/tradelist/updates/">Updates</a>
+               
+               <a class="nav-link active" href="/tradelist/private/">Private</a>
+               
+            </nav>
+         </div>
+         <div class="navbar-right">
+            
+            
+            <button class="btn btn-sm btn-cart" data-bs-toggle="modal" data-bs-target="#cartModal">🛒 Cart</button>
+         </div>
+      </header>
+      <main>
+         
+   <div class="table-wrapper">
+      <div id="letter-bar" class="letter-bar"></div>
+      <div id="band-pills" class="d-flex flex-wrap gap-2 justify-content-center my-2" style="display:none;"></div>
+   </div>
+   <p id="show-count" class="show-counter">
+      🎫 Shows:
+      <span id="show-count-number">1</span>
+   </p>
+   <div id="grouping-hint" style="display:none; font-size: 11px; color: #555; margin-bottom: 10px;"></div>
+   <table id="shows-table">
+      <thead>
+         <tr>
+            <th>Artist</th>
+            <th>Date</th>
+            <th>Location</th>
+            <th>Length</th>
+            <th>Size</th>
+            <th>Format</th>
+            <th>Type</th>
+            <th>Source</th>
+            <th>Taper(s)</th>
+            <th>Pics</th>
+            <th>Page</th>
+            
+               <th>Edit</th>
+            
+         </tr>
+      </thead>
+      <tbody>
+         
+         
+               
+               
+                  
+                  <tr class="band-label-row" data-label="true">
+                     <td colspan="12" class="band-label">🎸
+                        Slipknot</td>
+                  </tr>
+               
+               <tr class="paginated-show" data-band="Slipknot">
+                  <td>
+                     
+                        Slipknot
+                     
+                  </td>
+                  <td>
+                     
+                        1999-12-16
+                     
+                  </td>
+                  <td>
+                     
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                           Paris, France
+                        
+                     
+                  </td>
+                  <td>
+                     
+                        00:03:24
+                     
+                  </td>
+                  <td>
+                     
+                        
+                        <div class="media-wrapper">
+                           
+                           <span>0.46Gb</span>
+                           
+                        </div>
+                        
+                     
+                  </td>
+                  <td>
+                     
+                        MKV
+                     
+                  </td>
+                  <td class="type-cell">
+                     
+                        PRO
+                        
+                           <span class="type-label video-label">video</span>
+                        
+                     
+                  </td>
+                  <td class="type-cell">
+                     Source 2
+                     
+                     
+                  </td>
+                  <td class="type-cell">
+                     
+                        —
+                     
+                     
+                        <span class="trade-label blue">NT</span>
+                     
+                  </td>
+                  <td>
+                     
+                        
+                        <span role="button" title="View images" style="cursor: pointer; font-size: 18px;" onclick='openModal("1fnGIS3kX912qbKG0ZAAfyfXRvIEeqVS2", [{"folder":"2025","filename":"shot-1753557371112-1.jpg","externalId":"1fnGIS3kX912qbKG0ZAAfyfXRvIEeqVS2"},{"folder":"2025","filename":"shot-1753557371775-2.jpg","externalId":"1I44-Fx-NpsmDszFBVK0nj83WiKddt_X-"},{"folder":"2025","filename":"shot-1753557372102-3.jpg","externalId":"1Edu4f-j0ibnS0f4tYXeam_WWNale0cPz"},{"folder":"2025","filename":"shot-1753557370212-0.jpg","externalId":"1dScwbNPbu5y1-iWHOnbFZ1SC1MNrnSZ7"}])'>📷 4</span>
+                     
+                  </td>
+                  <td>
+                     <a href="/tradelist/private-shows/slipknot_16_12_1999_source_2_video/" title="View info" style="font-size: 1.20em;">🎫</a>
+                  </td>
+                  
+               <td>
+                  <button
+				  onclick="openJsonEditor('slipknot_16_12_1999_source_2_video', 'regular')"
+				  class="btn btn-sm btn-outline-secondary"
+				  style="font-size: 0.75rem; padding: 2px 6px;"
+				  >✏️</button>
+               </td>
+                  
+               </tr>
+         
+         <script src="/tradelist/scripts/shows-filter.js"></script>
+      </tbody>
+   </table>
+   <div id="json-modal" style="display:none; position:fixed; top:10%; left:10%; width:80%; height:80%; background:#fff; z-index:1000; border: 1px solid #ccc;">
+  <div id="json-editor" style="height:90%;"></div>
+  <button onclick="saveJson()">Save</button>
+  <button onclick="closeJsonEditor()">Close</button>
+</div>
+   <script src="/tradelist/scripts/json-editor.js"></script>
+   <div id="pagination-controls" class="my-3"></div>
+   <script src="/tradelist/scripts/hammer.min.js"></script>
+   <div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:1000; align-items:center; justify-content:center;">
+  <div class="modal-inner">
+    <img id="modalClose" class="close-btn" src="/tradelist/assets/images/icon_close.png" alt="Close" onclick="closeModal()"/>
+    <img id="modalPrev" class="nav-arrow" src="/tradelist/assets/images/icon_prev.png" alt="Previous" onclick="prevImage()"/>
+    <img id="modalNext" class="nav-arrow" src="/tradelist/assets/images/icon_next.png" alt="Next" onclick="nextImage()"/>
+    <img id="modalImage" style="width:100%; height:100%; border:none; border-radius:0px;"></img>
+    <div id="gestureOverlay" style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:10;"></div>
+    <div id="imageCounter" style="position: absolute; top: 14px; left: 20px; font-size: 13px; background-color: rgba(0, 0, 0, 0.5); color: #fff; padding: 3px 8px; border-radius: 6px; z-index: 30; font-family: sans-serif;"></div>
+  </div>
+</div>
+   <script src="/tradelist/scripts/cart.js"></script>
+   <script src="/tradelist/scripts/image-modal-viewer.js"></script>
+   <script src="/tradelist/scripts/media-extras-toggle.js"></script>
+   <script>
+      window.allShowsData = [{"originalTitle":"Slipknot - 16.12.1999 - Paris - France - Nulle Part Ailleurs (Source 2)","created":1753557560,"lastUpdated":1753557560,"bands":["Slipknot"],"startDate":{"day":"16","month":"12","year":"1999"},"endDate":{"day":"16","month":"12","year":"1999"},"startDateUnix":945302400,"endDateUnix":945302400,"location":{"city":"Paris","state":"","country":"France","venue":"","event":""},"tvChannel":"","showName":"Nulle Part Ailleurs","source":"Source 2","category":["video"],"master":false,"public":false,"ownIdentifier":"HDD#B","tradeLabel":"NT","authoredBy":"","transferredBy":"","notes":"","tapers":[],"specs":{"media":[{"type":"CD","size":0.46,"unit":"Gb"}],"chapters":false,"menu":false,"length":204,"video":[{"tvFormat":"","ratio":"4:3","resolution":"1440x1080","bitrateType":"","bitrateKbps":null,"fps":"59.94","standard":"H264","codec":"AVC","letterboxed":false}],"audio":[{"language":"","codec":"AAC","rateHz":48000,"bitrateKbps":null,"channels":2}],"sourceDetail":{"recordingType":"PRO","sourceMediaType":"VHS","finalMediaType":"","fileFormat":"MKV"}},"images":[{"folder":"2025","filename":"shot-1753557371112-1.jpg","externalId":"1fnGIS3kX912qbKG0ZAAfyfXRvIEeqVS2"},{"folder":"2025","filename":"shot-1753557371775-2.jpg","externalId":"1I44-Fx-NpsmDszFBVK0nj83WiKddt_X-"},{"folder":"2025","filename":"shot-1753557372102-3.jpg","externalId":"1Edu4f-j0ibnS0f4tYXeam_WWNale0cPz"},{"folder":"2025","filename":"shot-1753557370212-0.jpg","externalId":"1dScwbNPbu5y1-iWHOnbFZ1SC1MNrnSZ7"}],"setlist":[{"song":"Wait and Bleed","feat":"","note":"","comment":"","coverOf":""}],"extras":[],"relatedShows":[],"childOf":"","fileSlug":"slipknot_16_12_1999_source_2_video","isPrivate":true,"permalink":"/private-shows/slipknot_16_12_1999_source_2_video/"}];
+   </script>
+</div>
+
+      </main>
+      <footer style="padding: 2rem; text-align: center; font-size: 0.75rem; color: #888;">
+         Vortex © 2025
+      </footer>
+      <script src="/tradelist/scripts/bootstrap.bundle.min.js"></script>
+   </body>
+</html>
