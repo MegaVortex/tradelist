@@ -34,7 +34,8 @@ permalink: "/private/"
       </thead>
       <tbody>
          {% set currentGroup = null %}
-         {% for show in allShowData.privateRegularShows %}
+         {% set sortedShows = allShowData.privateRegularShows %}
+			{% for show in sortedShows %}
                {% set groupKey = show.bands[0] %}
                {% if groupKey != currentGroup %}
                   {% set currentGroup = groupKey %}
@@ -182,7 +183,7 @@ permalink: "/private/"
                   <td>
                      {% if show.images and show.images.length %}
                         {% set firstImg = show.images[0] %}
-                        <span role="button" title="View images" style="cursor: pointer; font-size: 18px;" onclick='openModal("{{ firstImg.externalId }}", {{ show.images | dump | safe }})'>📷 {{ show.images.length }}</span>
+                        <span role="button" title="View images" style="cursor: pointer; font-size: 18px;" onclick='openModal("{{ firstImg.externalId }}", {{ show.images | dump | safe }})'>📷</span>
                      {% else %}
                         —
                      {% endif %}
@@ -201,7 +202,7 @@ permalink: "/private/"
                   {% endif %}
                </tr>
          {% endfor %}
-         <script src="{{ '/scripts/shows-filter.js' | url }}"></script>
+         <script src="{{ '/scripts/private-shows-filter.js' | url }}"></script>
       </tbody>
    </table>
    {% include "modals/json-editor-modal.njk" %}
@@ -209,7 +210,7 @@ permalink: "/private/"
    <div id="pagination-controls" class="my-3"></div>
    <script src="{{ '/scripts/hammer.min.js' | url }}"></script>
    {% include "modals/image-modal.njk" %}
-   <script src="{{ '/scripts/cart.js' | url }}"></script>
+   <script src="{{ '/scripts/private-shows-table.js' | url }}"></script>
    <script src="{{ '/scripts/image-modal-viewer.js' | url }}"></script>
    <script src="{{ '/scripts/media-extras-toggle.js' | url }}"></script>
    <script>
