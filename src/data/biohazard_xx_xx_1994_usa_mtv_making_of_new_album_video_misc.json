@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
-    "state": "MTV",
-    "country": "Making Of New Album",
+    "city": "",
+    "state": "",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "Making Of New Album",
   "source": "",
   "category": [
     "video",
@@ -37,7 +37,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "MTV broadcast.",
+  "notes": "",
   "tapers": [],
   "specs": {
     "media": [
@@ -87,7 +87,7 @@
     "biohazard_11_08_1994_source_1_video",
     "biohazard_11_05_1994_video_misc"
   ],
-  "childOf": "Biohazard - [1994-1999] - TV Appearances - 'Tales From The TV Side' Part I",
+  "childOf": "biohazard_xx_xx_1994_xx_xx_1999_tales_from_the_tv_side_part_i_video_compilation",
   "images": [
     {
       "folder": "22",

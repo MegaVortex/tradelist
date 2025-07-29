@@ -1,0 +1,136 @@
+{
+  "originalTitle": "Elton John - 15.11.1996 - New York - NY - USA - NBC Studios - Rosie O'Donnell Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Elton John"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "11",
+    "year": "1996"
+  },
+  "startDateUnix": 848059200,
+  "endDate": {
+    "day": "15",
+    "month": "11",
+    "year": "1996"
+  },
+  "endDateUnix": 848059200,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Rosie O'Donnell Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 7.13,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6248,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "elton_john_01_10_1997_video",
+    "elton_john_19_03_1999_video",
+    "elton_john_22_03_2000_video"
+  ],
+  "childOf": "elton_john_xx_xx_1996_xx_xx_2000_rosie_odonnell_video_compilation",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "s96491449.jpg",
+      "externalId": "1hy9srsxOTpr5UoRz3qLI7o9knrCmFm6L"
+    },
+    {
+      "folder": "73",
+      "filename": "s66948740.jpg",
+      "externalId": "1P9ROF8ZPrHEQHWTpV8TMJPeqzkxXGfqr"
+    },
+    {
+      "folder": "73",
+      "filename": "s40456701.jpg",
+      "externalId": "1GIK91uYvq6TcAOtCPafU5LKCHfMztTji"
+    },
+    {
+      "folder": "73",
+      "filename": "s09845396.jpg",
+      "externalId": "1PiAhWOSLL9BosV_G4px3OChL1pxB7Jry"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "You Can Make History (Young Again)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Levon",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}
