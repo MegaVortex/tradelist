@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Mono - 03.04.2009 - St. Petersburg - Russia - A2",
+  "created": 1753881392,
+  "lastUpdated": 1753881392,
+  "bands": [
+    "Mono"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "04",
+    "year": "2009"
+  },
+  "startDateUnix": 1238716800,
+  "endDate": {
+    "day": "03",
+    "month": "04",
+    "year": "2009"
+  },
+  "endDateUnix": 1238716800,
+  "location": {
+    "city": "St. Petersburg",
+    "state": "",
+    "country": "Russia",
+    "venue": "A2",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.64,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3554,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "11",
+      "filename": "19031102.jpg",
+      "externalId": "1Rz-OBUH5Z4_rViiUJ84jLf5uG5ZfjzLb"
+    },
+    {
+      "folder": "11",
+      "filename": "89413273.jpg",
+      "externalId": "10oj4_muvkIVq3vRZqrlX9b6Pal5_mT--"
+    },
+    {
+      "folder": "11",
+      "filename": "96288392.jpg",
+      "externalId": "1gyU3bppqnwyP5ZU5M5-G9e_vnj9kFi4y"
+    },
+    {
+      "folder": "11",
+      "filename": "16602131.jpg",
+      "externalId": "1P7DUMRTeJJoJ1F9yWs9xLalwNJdiOP6w"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Metallica - 23.08.1997 - Stuttgart - Germany - Cannstatter Wasen (Source 2)",
+  "created": 1753881392,
+  "lastUpdated": 1753881392,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "08",
+    "year": "1997"
+  },
+  "startDateUnix": 872294400,
+  "endDate": {
+    "day": "23",
+    "month": "08",
+    "year": "1997"
+  },
+  "endDateUnix": 872294400,
+  "location": {
+    "city": "Stuttgart",
+    "state": "",
+    "country": "Germany",
+    "venue": "Cannstatter Wasen",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 6.38,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6561,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "06088981.jpg",
+      "externalId": "1yauA8bUteJRrXu-GbQ1YEhWuTFp76pgm"
+    },
+    {
+      "folder": "27",
+      "filename": "66931955.jpg",
+      "externalId": "147NVhdfyqCjxe-S-36DzWfxjLZOaphqH"
+    },
+    {
+      "folder": "27",
+      "filename": "10049382.jpg",
+      "externalId": "1LZhYqmjSXkrQbxuz_lqR_3aESS4pE6ky"
+    },
+    {
+      "folder": "27",
+      "filename": "54592539.jpg",
+      "externalId": "1WH9RLhG6nGQswSfeJGdmyfq6ehah4Ugx"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Megadeth - 12.10.1990 - Edinburgh - Scotland - Playhouse",
+  "created": 1753881392,
+  "lastUpdated": 1753881392,
+  "bands": [
+    "Megadeth"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "10",
+    "year": "1990"
+  },
+  "startDateUnix": 655689600,
+  "endDate": {
+    "day": "12",
+    "month": "10",
+    "year": "1990"
+  },
+  "endDateUnix": 655689600,
+  "location": {
+    "city": "Edinburgh",
+    "state": "",
+    "country": "Scotland",
+    "venue": "Playhouse",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "\"From The Vaults - Vol 5\".",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.99,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 7228,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "megadeth_14_10_1990_source_1_video_misc"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "28256420.jpg",
+      "externalId": "11aWNvBeQVkIsQCie6P3bCsoVjik2goba"
+    },
+    {
+      "folder": "28",
+      "filename": "49853145.jpg",
+      "externalId": "1fS5v3RKExiIL0dM1L72rtxHzOOXX1OdS"
+    },
+    {
+      "folder": "28",
+      "filename": "21150205.jpg",
+      "externalId": "13ijAF9WWKEogK4GRnmSpVxpNB2Qb5Pq5"
+    },
+    {
+      "folder": "28",
+      "filename": "59989599.jpg",
+      "externalId": "1b6g6ONMkF4smpYVhn9Xd7Kh62ptMXfCc"
+    }
+  ],
+  "setlist": []
+}

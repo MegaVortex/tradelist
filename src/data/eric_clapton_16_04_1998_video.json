@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Eric Clapton - 16.04.1998 - Washington - DC - USA - MCI Center",
+  "created": 1753881392,
+  "lastUpdated": 1753881392,
+  "bands": [
+    "Eric Clapton"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "04",
+    "year": "1998"
+  },
+  "startDateUnix": 892684800,
+  "endDate": {
+    "day": "16",
+    "month": "04",
+    "year": "1998"
+  },
+  "endDateUnix": 892684800,
+  "location": {
+    "city": "Washington",
+    "state": "DC",
+    "country": "USA",
+    "venue": "MCI Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.36,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 7117,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "25411208.jpg",
+      "externalId": "1-BWdFAYMeCbt0J56Nq5d26HtwL4wv_oZ"
+    },
+    {
+      "folder": "5",
+      "filename": "30530682.jpg",
+      "externalId": "1dlgCKY4aOkG1b69X4xibA1p5SwPzcaHE"
+    },
+    {
+      "folder": "5",
+      "filename": "84498656.jpg",
+      "externalId": "1i65Eap3e1Er3OxOzDHqsos1DM_I42gEb"
+    },
+    {
+      "folder": "5",
+      "filename": "69576242.jpg",
+      "externalId": "1meDyuZRkgBf7qp1g5ddV12ZYnfzU-C8l"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,135 @@
+{
+  "originalTitle": "Metallica - 13.02.1993 - Montreal - QC - Canada [MISC]",
+  "created": 1753904008,
+  "lastUpdated": 1753904008,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "02",
+    "year": "1993"
+  },
+  "startDateUnix": 729561600,
+  "endDate": {
+    "day": "13",
+    "month": "02",
+    "year": "1993"
+  },
+  "endDateUnix": 729561600,
+  "location": {
+    "city": "Montreal",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 604,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 592,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_08_08_1992_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "76",
+      "filename": "62608687.jpg",
+      "externalId": "1kcYY5YwwoA-wMDJ1Fg6bSttNGoz8berJ"
+    },
+    {
+      "folder": "76",
+      "filename": "79849342.jpg",
+      "externalId": "141K-lwxXNiCysNRdHFc2Y8fGC6h9leo0"
+    },
+    {
+      "folder": "76",
+      "filename": "50348366.jpg",
+      "externalId": "1AVbZCxeZCLse02ScLjYTVknMYzpW63UC"
+    },
+    {
+      "folder": "76",
+      "filename": "82715525.jpg",
+      "externalId": "1nfTzoPIJXJrjWwsX-6hcEA8r8nko5n9I"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Live Footage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

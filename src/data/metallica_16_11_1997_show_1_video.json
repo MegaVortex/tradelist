@@ -1,0 +1,190 @@
+{
+  "originalTitle": "Metallica - 16.11.1997 - Copenhagen - Denmark - Den Gra Hal",
+  "created": 1753904008,
+  "lastUpdated": 1753904008,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "11",
+    "year": "1997"
+  },
+  "startDateUnix": 879638400,
+  "endDate": {
+    "day": "16",
+    "month": "11",
+    "year": "1997"
+  },
+  "endDateUnix": 879638400,
+  "location": {
+    "city": "Copenhagen",
+    "state": "",
+    "country": "Denmark",
+    "venue": "Den Gra Hal",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "The video quality is really good despite the venue being very dark. Very steady filming with no obstructions and great zooms. Audio synced with Metallica Vault SBD audio.",
+  "tapers": [
+    "Rikard Normann"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.48,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3818,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "77",
+      "filename": "90316430.jpg",
+      "externalId": "1vXTat5nu1l4D_1mhBTTjWbg-RC4vq1wZ"
+    },
+    {
+      "folder": "77",
+      "filename": "32953633.jpg",
+      "externalId": "1o-YElkd3J81ZA_jUFoHq7ES48ZT8BJI7"
+    },
+    {
+      "folder": "77",
+      "filename": "63736664.jpg",
+      "externalId": "1sT2cp4hWMcqRRLFjYB4DGWgGBI54V5Sm"
+    },
+    {
+      "folder": "77",
+      "filename": "07465584.jpg",
+      "externalId": "1-HJ1Qkrh9iHLZjRjkJQYayU00GW7s4im"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Helpless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Diamond Head"
+    },
+    {
+      "order": 2,
+      "song": "The Four Horsemen",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Of Wolf And Man",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Thing That Should Not Be",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Fuel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Memory Remains",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "King Nothing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Am I Evil?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Diamond Head"
+    },
+    {
+      "order": 9,
+      "song": "Stone Cold Crazy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Queen"
+    },
+    {
+      "order": 10,
+      "song": "Master Of Puppets",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Deep Purple - 27.02.1987 - Stockholm - Sweden - Johanneshov",
+  "created": 1753881392,
+  "lastUpdated": 1753881392,
+  "bands": [
+    "Deep Purple"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "02",
+    "year": "1987"
+  },
+  "startDateUnix": 541382400,
+  "endDate": {
+    "day": "27",
+    "month": "02",
+    "year": "1987"
+  },
+  "endDateUnix": 541382400,
+  "location": {
+    "city": "Stockholm",
+    "state": "",
+    "country": "Sweden",
+    "venue": "Johanneshov",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "NoDVD here, just one VOB file. The video is incomplete. Many songs are skipped.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.75,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3363,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": 6000,
+        "fps": "25.00",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "DVD",
+      "fileFormat": "VOB"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "53969681.jpg",
+      "externalId": "1CAjW2AlB6xcYnrsedbsgGiaZDRROSRSb"
+    },
+    {
+      "folder": "5",
+      "filename": "27407570.jpg",
+      "externalId": "1YhJ_EmhRawwyrkK3_yj_N03RDREm_uEC"
+    },
+    {
+      "folder": "5",
+      "filename": "94418564.jpg",
+      "externalId": "1z1nLkJb-fCvyU-C7afOekb7fMJeqJAqX"
+    },
+    {
+      "folder": "5",
+      "filename": "37417610.jpg",
+      "externalId": "1WlnEGK5svc0hPZhbPZv-yfwQGPh2NgTO"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,118 @@
+{
+  "originalTitle": "Kurt Cobain & Mudhoney - 26.09.1992 - Valencia - CA - USA - Castaic Lake Natural Amphitheater (Source 2)",
+  "created": 1753904008,
+  "lastUpdated": 1753904008,
+  "bands": [
+    "Kurt Cobain & Mudhoney"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "09",
+    "year": "1992"
+  },
+  "startDateUnix": 717465600,
+  "endDate": {
+    "day": "26",
+    "month": "09",
+    "year": "1992"
+  },
+  "endDateUnix": 717465600,
+  "location": {
+    "city": "Valencia",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Castaic Lake Natural Amphitheater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "Mike Ziegler",
+  "notes": "AMT#1.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 214,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 185,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "kurt_cobain_26_09_1992_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "83667456.jpg",
+      "externalId": "17HF7tJK41NZoSnXJAHmPewWZAdZU9nLQ"
+    },
+    {
+      "folder": "80",
+      "filename": "45213159.jpg",
+      "externalId": "1kj1ps36U0OgIPSvTrDAdd0x8eAEAhOfV"
+    },
+    {
+      "folder": "80",
+      "filename": "53635030.jpg",
+      "externalId": "1roB1uFceNdGkuZhK0GeGe_F3L1OU1_L8"
+    },
+    {
+      "folder": "80",
+      "filename": "48220357.jpg",
+      "externalId": "1669Ye0oWC2YWlU2Gcq-UB3EgyyM7GPpF"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Where Did You Sleep Last Night?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Lead Belly"
+    }
+  ],
+  "extras": []
+}

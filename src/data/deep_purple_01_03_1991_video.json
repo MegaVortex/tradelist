@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Deep Purple - 01.03.1991 - Stockholm - Sweden - The Globe",
+  "created": 1753881392,
+  "lastUpdated": 1753881392,
+  "bands": [
+    "Deep Purple"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "03",
+    "year": "1991"
+  },
+  "startDateUnix": 667785600,
+  "endDate": {
+    "day": "01",
+    "month": "03",
+    "year": "1991"
+  },
+  "endDateUnix": 667785600,
+  "location": {
+    "city": "Stockholm",
+    "state": "",
+    "country": "Sweden",
+    "venue": "The Globe",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Very clear pictures.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.04,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4909,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "06247265.jpg",
+      "externalId": "1VC2PCZlAyA26EapvKakKCflNMI_dwgVs"
+    },
+    {
+      "folder": "5",
+      "filename": "77078176.jpg",
+      "externalId": "1DjtX1gl03T1X43IkfBJAo_OUsShwiYaN"
+    },
+    {
+      "folder": "5",
+      "filename": "66646272.jpg",
+      "externalId": "1_5nSpNhVLP2rEUFTuC-kJdmKie6A6WTn"
+    },
+    {
+      "folder": "5",
+      "filename": "89227051.jpg",
+      "externalId": "1L8LhvNYHkKPlHs6zt9dYT0IzpcXVzQyK"
+    }
+  ],
+  "setlist": []
+}

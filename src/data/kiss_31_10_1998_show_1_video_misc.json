@@ -1,0 +1,122 @@
+{
+  "originalTitle": "Kiss - 31.10.1998 - Los Angeles - CA - USA - Hollywood Center Studios - MADtv [MISC]",
+  "created": 1753904008,
+  "lastUpdated": 1753904008,
+  "bands": [
+    "Kiss"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "10",
+    "year": "1998"
+  },
+  "startDateUnix": 909792000,
+  "endDate": {
+    "day": "31",
+    "month": "10",
+    "year": "1998"
+  },
+  "endDateUnix": 909792000,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Hollywood Center Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "MADtv",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Season 4, Episode 6.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.32,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 6542,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "kiss_31_10_1998_video",
+    "kiss_xx_xx_1998_usa_millennium_episode_commercial_video_misc",
+    "kiss_xx_xx_1998_usa_gibson_guitar_commercial_video_misc",
+    "kiss_xx_xx_1998_usa_madtv_episode_commercial_video_misc"
+  ],
+  "childOf": "Kiss - [1998] - TV Appearances - Halloween Media Collection",
+  "images": [
+    {
+      "folder": "45",
+      "filename": "46969727.jpg",
+      "externalId": "16gwBJjh-X_SRH0lTxKLbOQ19Uge7bQD0"
+    },
+    {
+      "folder": "45",
+      "filename": "56004813.jpg",
+      "externalId": "1Bg4X_do-jjEymgpS6UCr6lc6i8dzhoz3"
+    },
+    {
+      "folder": "45",
+      "filename": "22793686.jpg",
+      "externalId": "1nbkAu3IrhyddumtFCgxFJVGKTJBkD3dY"
+    },
+    {
+      "folder": "45",
+      "filename": "40568605.jpg",
+      "externalId": "17wHlCbwvSrF7-ASkp7YXgt3MZz10IJSE"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "TV Episode",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

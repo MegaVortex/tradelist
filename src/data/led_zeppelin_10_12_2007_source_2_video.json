@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Led Zeppelin - 10.12.2007 - London - England - O2 Arena (Source 2)",
+  "created": 1753881392,
+  "lastUpdated": 1753881392,
+  "bands": [
+    "Led Zeppelin"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "12",
+    "year": "2007"
+  },
+  "startDateUnix": 1197244800,
+  "endDate": {
+    "day": "10",
+    "month": "12",
+    "year": "2007"
+  },
+  "endDateUnix": 1197244800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "O2 Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "So far from stage, no zoom, no camera work.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2657,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "11",
+      "filename": "91007010.jpg",
+      "externalId": "1uc1a-jB62ImjYkyJGkTKm-y2Bhc1ue5N"
+    },
+    {
+      "folder": "11",
+      "filename": "44127695.jpg",
+      "externalId": "1gQM89GNfA9Zeb2BWJwWB_Jc0r5NWF5FV"
+    },
+    {
+      "folder": "11",
+      "filename": "58236137.jpg",
+      "externalId": "1xsCWO1rBBZ_yKRdBTykq9WMAQUdSsgPf"
+    },
+    {
+      "folder": "11",
+      "filename": "43964613.jpg",
+      "externalId": "1QxTvA0JxvVlKyNRDcD922CvUN4Cx_UKv"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Good Times Bad Times",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Ramble On",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Black Dog",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "In My Time of Dying",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "For Your Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Stairway to Heaven",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "The Song Remains The Same",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Kashmir",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

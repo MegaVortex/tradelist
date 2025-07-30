@@ -1,0 +1,111 @@
+{
+  "originalTitle": "The Price Of One Day - 28.01.2010 - Moscow - Russia - Plan B Club",
+  "created": 1753881392,
+  "lastUpdated": 1753881392,
+  "bands": [
+    "The Price Of One Day"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "01",
+    "year": "2010"
+  },
+  "startDateUnix": 1264636800,
+  "endDate": {
+    "day": "28",
+    "month": "01",
+    "year": "2010"
+  },
+  "endDateUnix": 1264636800,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Plan B Club",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Ingram"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.39,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5793,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "times_new_roman_28_01_2010_video",
+    "medic_medic_span_28_01_2010_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "8",
+      "filename": "54991191.jpg",
+      "externalId": "1QJeOptG6qxa3Bs76h0tyA7jpq378k7YZ"
+    },
+    {
+      "folder": "8",
+      "filename": "14415855.jpg",
+      "externalId": "1rDP8jlftaadkjIFgG18VmVL-X7Gsx7YT"
+    },
+    {
+      "folder": "8",
+      "filename": "54361494.jpg",
+      "externalId": "1SpFEN7m8GCI0EI7g2CcTabjOoICeWRHy"
+    },
+    {
+      "folder": "8",
+      "filename": "75964811.jpg",
+      "externalId": "1-W8Y3GfE7Y7wF8xgbNnAo9IovNpWaH0w"
+    }
+  ],
+  "setlist": []
+}
