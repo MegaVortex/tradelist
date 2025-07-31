@@ -1,7 +1,7 @@
 {
-  "originalTitle": "Slipknot - 08.06.2023 - Hradec Kralove - Czech Republic - Festivalpark - Rock For People",
-  "created": 1704067200,
-  "lastUpdated": 1752181957,
+  "originalTitle": "Slipknot - 08.06.2023 - Hradec Kralove - Czech Republic - Festivalpark - Rock For People (Source 2)",
+  "created": 1753969819,
+  "lastUpdated": 1753969819,
   "bands": [
     "Slipknot"
   ],
@@ -10,103 +10,100 @@
     "month": "06",
     "year": "2023"
   },
-  "startDateUnix": 1686182400,
   "endDate": {
     "day": "08",
     "month": "06",
     "year": "2023"
   },
+  "startDateUnix": 1686182400,
   "endDateUnix": 1686182400,
   "location": {
     "city": "Hradec Kralove",
     "state": "",
     "country": "Czech Republic",
-    "venue": "",
-    "event": "Festivalpark - Rock For People"
+    "venue": "Festivalpark",
+    "event": "Rock For People"
   },
   "tvChannel": "",
   "showName": "",
-  "source": "",
+  "source": "Source 2",
   "category": [
     "video"
   ],
   "master": false,
   "public": true,
   "ownIdentifier": "HDD#B",
-  "tradeLabel": "",
+  "tradeLabel": "NT",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "Amazing video quality!",
+  "notes": "",
   "tapers": [
-    "Jederlacht"
+    "Antihero"
   ],
   "specs": {
     "media": [
       {
         "type": "BD-25",
-        "size": 24.2,
+        "size": 23.04,
         "unit": "Gb"
       }
     ],
     "chapters": false,
     "menu": false,
-    "length": 5170,
+    "length": 5203,
     "video": [
       {
         "tvFormat": "",
-        "ratio": "",
+        "ratio": "16:9",
         "resolution": "3840x2160",
         "bitrateType": "",
-        "bitrateKbps": 40007,
-        "fps": "29.97",
-        "standard": "HVC1",
-        "codec": "",
+        "bitrateKbps": 37770,
+        "fps": "25.00",
+        "standard": "HEVC",
+        "codec": "HVC1",
         "letterboxed": false
       }
     ],
     "audio": [
       {
-        "language": "",
+        "language": "en",
         "codec": "AAC",
         "rateHz": 48000,
-        "bitrateKbps": 317,
+        "bitrateKbps": 253,
         "channels": 2
       }
     ],
     "sourceDetail": {
       "recordingType": "AMT",
-      "sourceMediaType": "4K",
+      "sourceMediaType": "",
       "finalMediaType": "",
       "fileFormat": "MP4"
     }
   },
-  "relatedShows": [],
-  "childOf": "",
   "images": [
     {
-      "folder": "83",
-      "filename": "30256033.jpg",
-      "externalId": "18-v1c0gqeURFb0k68iDeFFzR3zVmLp77"
+      "folder": "2025",
+      "filename": "shot-1753969409470-1.jpg",
+      "externalId": "1KkZ1idEgBoSGKaEMv9cTJ_30kZ-7lUfe"
     },
     {
-      "folder": "83",
-      "filename": "73332839.jpg",
-      "externalId": "1Z6Egw-1AhNzEz3zQTr29NcEgqdb_Rn6P"
+      "folder": "2025",
+      "filename": "shot-1753969410161-2.jpg",
+      "externalId": "13m4ZFJ4yOZGFHHX06mFX3rFTJ7OuYruE"
     },
     {
-      "folder": "83",
-      "filename": "37019982.jpg",
-      "externalId": "1Aao-ixVbh1xuzQ8NwYqKriog5vVHj94o"
+      "folder": "2025",
+      "filename": "shot-1753969408427-0.jpg",
+      "externalId": "1MiUzulxspeM8psfxxJRkLxd5l_V82KcA"
     },
     {
-      "folder": "83",
-      "filename": "26430455.jpg",
-      "externalId": "1eT_jNx6Zw9wj7wKU-kNKFO3Sn5MPQK89"
+      "folder": "2025",
+      "filename": "shot-1753969410935-3.jpg",
+      "externalId": "1d_PHTbximfeJUg3MB5Wk4p3cYNzOEtl6"
     }
   ],
   "setlist": [
     {
-      "order": 1,
       "song": "Prelude 3.0",
       "feat": "",
       "note": "tape",
@@ -114,7 +111,6 @@
       "coverOf": ""
     },
     {
-      "order": 2,
       "song": "The Blister Exists",
       "feat": "",
       "note": "",
@@ -122,15 +118,13 @@
       "coverOf": ""
     },
     {
-      "order": 3,
-      "song": "The Dying Song (Time To Sing)",
+      "song": "The Dying Song (Time to Sing)",
       "feat": "",
       "note": "",
       "comment": "",
       "coverOf": ""
     },
     {
-      "order": 4,
       "song": "Liberate",
       "feat": "",
       "note": "",
@@ -138,7 +132,6 @@
       "coverOf": ""
     },
     {
-      "order": 5,
       "song": "Yen",
       "feat": "",
       "note": "",
@@ -146,7 +139,6 @@
       "coverOf": ""
     },
     {
-      "order": 6,
       "song": "Psychosocial",
       "feat": "",
       "note": "",
@@ -154,15 +146,13 @@
       "coverOf": ""
     },
     {
-      "order": 7,
-      "song": "The Devil In I",
+      "song": "The Devil in I",
       "feat": "",
       "note": "",
       "comment": "",
       "coverOf": ""
     },
     {
-      "order": 8,
       "song": "The Heretic Anthem",
       "feat": "",
       "note": "",
@@ -170,7 +160,6 @@
       "coverOf": ""
     },
     {
-      "order": 9,
       "song": "Eyeless",
       "feat": "",
       "note": "",
@@ -178,15 +167,13 @@
       "coverOf": ""
     },
     {
-      "order": 10,
-      "song": "Wait And Bleed",
+      "song": "Wait and Bleed",
       "feat": "",
       "note": "",
       "comment": "",
       "coverOf": ""
     },
     {
-      "order": 11,
       "song": "Unsainted",
       "feat": "",
       "note": "",
@@ -194,7 +181,6 @@
       "coverOf": ""
     },
     {
-      "order": 12,
       "song": "Snuff",
       "feat": "",
       "note": "",
@@ -202,7 +188,6 @@
       "coverOf": ""
     },
     {
-      "order": 13,
       "song": "Purity",
       "feat": "",
       "note": "",
@@ -210,7 +195,13 @@
       "coverOf": ""
     },
     {
-      "order": 14,
+      "song": "(515)",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
       "song": "People = Shit",
       "feat": "",
       "note": "",
@@ -218,7 +209,6 @@
       "coverOf": ""
     },
     {
-      "order": 15,
       "song": "Surfacing",
       "feat": "",
       "note": "",
@@ -226,7 +216,6 @@
       "coverOf": ""
     },
     {
-      "order": 16,
       "song": "Duality",
       "feat": "",
       "note": "",
@@ -234,7 +223,6 @@
       "coverOf": ""
     },
     {
-      "order": 17,
       "song": "Spit It Out",
       "feat": "",
       "note": "",
@@ -242,13 +230,14 @@
       "coverOf": ""
     },
     {
-      "order": 18,
-      "song": "Til We Die",
+      "song": "'Til We Die",
       "feat": "",
       "note": "tape",
       "comment": "",
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "relatedShows": [],
+  "childOf": ""
 }
