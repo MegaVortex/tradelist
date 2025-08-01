@@ -45,29 +45,41 @@
    <script src="{{ '/scripts/shows-table.js' | url }}"></script>
    <script src="{{ '/scripts/image-modal-viewer.js' | url }}"></script>
    <script src="{{ '/scripts/media-extras-toggle.js' | url }}"></script>
-<script>
-(async function () {
-    const showCountSpan = document.getElementById('show-count-number');
-    let shows = await getFromDB("allShowsData"); // From shows-table.js
-
-    if (!shows || shows.length === 0) {
-        console.log("Fetching initial shows...");
-        shows = {{ allShowData.publicRegularShows | dump | safe }};
-        await saveToDB("allShowsData", shows);
-        console.log("✅ Stored in IndexedDB");
-    } else {
-        console.log("✅ Loaded from IndexedDB");
-    }
-
-    // Make the data globally available and initialize the table filter script
-    window.allShowsData = shows;
-    showCountSpan.textContent = shows.length; // Set initial total count
-
-    // This function is defined in the new shows-filter.js
-    initializeShowFilters(window.allShowsData); 
-})();
-</script>
-
-
+   <script>
+   (async function () {
+       const CACHE_TTL = 12 * 60 * 60 * 1000;
+       const TIMESTAMP_KEY = "allShowsDataTimestamp";
+       const DATA_KEY = "allShowsData";
+       const showCountSpan = document.getElementById('show-count-number');
+   
+       async function getTimestamp() {
+           return await getFromDB(TIMESTAMP_KEY);
+       }
+   
+       async function setTimestamp(value) {
+           await saveToDB(TIMESTAMP_KEY, value);
+       }
+   
+       let shows = await getFromDB(DATA_KEY);
+       const lastUpdated = await getTimestamp();
+       const now = Date.now();
+   
+       if (!shows || shows.length === 0 || !lastUpdated || (now - lastUpdated) > CACHE_TTL) {
+           console.log("⚠ Cache expired or empty. Fetching fresh data...");
+           
+           shows = {{ allShowData.publicRegularShows | dump | safe }};
+           
+           await saveToDB(DATA_KEY, shows);
+           await setTimestamp(now);
+           console.log(`✅ Data saved in IndexedDB (new timestamp: ${new Date(now).toLocaleString()})`);
+       } else {
+           console.log(`✅ Loaded from IndexedDB (last updated: ${new Date(lastUpdated).toLocaleString()})`);
+       }
+   
+       window.allShowsData = shows;
+       showCountSpan.textContent = shows.length;
+       initializeShowFilters(window.allShowsData);
+   })();
+   </script>
 </div>
 {% endblock %}

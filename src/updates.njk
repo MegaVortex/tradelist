@@ -119,8 +119,27 @@
                               <span class="trade-label master">MASTER</span>
                            {% endif %}
                         </td>
-                        <td style="position: relative;">
-                           {{ show.tapers | join(", ") if show.tapers else "—" }}
+                        <td class="type-cell">
+                           {% if show.tapers and show.tapers.length %}
+                              {% set tapers = show.tapers %}
+                              <div class="media-wrapper">
+                                 <span>{{ tapers[0] }}</span>
+                                 {% if tapers.length > 1 %}
+                                    <a href="#" class="toggle-media" data-target="media-{{ loop.index0 }}">
+                                       ▾ +{{ tapers.length - 1 }}
+                                    </a>
+                                 {% endif %}
+                              </div>
+                              {% if tapers.length > 1 %}
+                                 <div id="media-{{ loop.index0 }}" class="extra-media">
+                                    {% for taper in tapers.slice(1) %}
+                                       <div>{{ taper }}</div>
+                                    {% endfor %}
+                                 </div>
+                              {% endif %}
+                           {% else %}
+                              —
+                           {% endif %}
                            {% if show.tradeLabel == 'RT' %}
                               <span class="trade-label red">RT</span>
                            {% elif show.tradeLabel == 'NT' %}
