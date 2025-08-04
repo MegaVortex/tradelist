@@ -147,7 +147,14 @@
                      —
                   {% endif %}
                </td>
-               <td>{{ show.source or "—" }}</td>
+               <td class="type-cell">
+                  {{ show.source or "—" }}
+                  {% if show.fileSlug and 'show_1' in show.fileSlug %}
+                     <span class="show-label">Show 1</span>
+                  {% elif show.fileSlug and 'show_2' in show.fileSlug %}
+                     <span class="show-label">Show 2</span>
+                  {% endif %}
+               </td>
             </tr>
          </tbody>
       </table>

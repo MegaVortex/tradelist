@@ -1,0 +1,123 @@
+{
+  "originalTitle": "Korn - xx.09.1996 - Boston - MA - USA - USA - WAAF TV Real Rock [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "09",
+    "year": "1996"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "09",
+    "year": "1996"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "venue": "USA",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "WAAF TV Real Rock",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 215,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 268,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_xx_xx_1996_usa_lollapalooza_muchmusic_tv_video_misc",
+    "korn_xx_09_1998_boston_ma_usa_usa_waaf_tv_real_rock_korn_kampaign_video_misc",
+    "korn_xx_07_1997_boston_ma_usa_indoor_beach_party_waaf_tv_real_rock_source_3_video",
+    "korn_28_08_1998_video_misc",
+    "korn_xx_xx_1998_usa_making_of_freak_on_a_leash_video_misc"
+  ],
+  "childOf": "korn_xx_xx_xxxx_misc_7_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "52610006.jpg",
+      "externalId": "1_6RArIE5Bjf7K39_89l7OIZYY_fdCasw"
+    },
+    {
+      "folder": "15",
+      "filename": "34974894.jpg",
+      "externalId": "1aybuMV_Sw_epkgHfpZXmxAMiDHMoRE_n"
+    },
+    {
+      "folder": "15",
+      "filename": "71975587.jpg",
+      "externalId": "1Ls2EBvyQskqws7nbZqmJjYwTXeUlopID"
+    },
+    {
+      "folder": "15",
+      "filename": "29211295.jpg",
+      "externalId": "1tP6H3wdcGMPanDsN4k5UnUlz0pc7AEfZ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Fieldy and David",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}
