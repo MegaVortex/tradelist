@@ -79,10 +79,10 @@
     }
   },
   "relatedShows": [
-    "span_metallica_xx_xx_2004_englewood_cliffs_nj_usa_cnbc_studios_john_mcenroe_show_span_style_video_misc",
-    "span_metallica_xx_xx_2004_los_angeles_ca_usa_nbc_studios_deborah_norville_show_span_style_video_misc"
+    "metallica_xx_xx_2004_englewood_cliffs_nj_usa_cnbc_studios_john_mcenroe_show_video_misc",
+    "metallica_xx_xx_2004_los_angeles_ca_usa_nbc_studios_deborah_norville_show_video_misc"
   ],
-  "childOf": "",
+  "childOf": "metallica_xx_xx_xxxx_tv_shit_9_compilation_video_compilation",
   "images": [
     {
       "folder": "46",
@@ -105,5 +105,14 @@
       "externalId": "1DriIFzTrTssKoPJq2sgyTajiBzKr9uo7"
     }
   ],
-  "setlist": []
+  "setlist": [
+      {
+      "order": 1,
+      "song": "Don't You Think This Outlaw Bit Has Done Got Out Of Hand",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ]
 }

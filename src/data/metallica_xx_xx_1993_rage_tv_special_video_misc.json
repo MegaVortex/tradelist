@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Rage TV Special",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
-  "tvChannel": "Rage TV",
-  "showName": "",
+  "tvChannel": "",
+  "showName": "Rage TV Special",
   "source": "",
   "category": [
     "video",
@@ -80,7 +80,7 @@
     }
   },
   "relatedShows": [
-    "metallica_01_04_1993_video",
+    "metallica_01_04_1993_source_1_video",
     "metallica_xx_xx_1993_australia_molly_s_melodrama_video_misc"
   ],
   "childOf": "metallica_xx_xx_1993_australia_video_compilation",

@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Nirvana",
+    "city": "",
     "state": "",
-    "country": "xx.xx.xxxx",
-    "venue": "Video Compilation",
+    "country": "",
+    "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Video Compilation",
   "source": "",
   "category": [
     "video",
@@ -36,7 +36,7 @@
   "ownIdentifier": "HDD#B",
   "tradeLabel": "NT",
   "authoredBy": "",
-  "transferredBy": "Hugo Leveille and Allen Deane",
+  "transferredBy": "Hugo Leveille, Allen Deane",
   "notes": "Contains official material - NT.",
   "tapers": [],
   "specs": {
@@ -107,107 +107,122 @@
   "setlist": [
     {
       "order": 1,
-      "song": "Smells Like Teen Spirit (Promo Tape)",
+      "song": "Smells Like Teen Spirit",
       "feat": "",
-      "note": "",
+      "note": "promo tape",
+	  "comment": "",
       "coverOf": ""
     },
     {
       "order": 2,
-      "song": "Smells Like Nirvana (Weird Al Yankovich)",
+      "song": "Smells Like Nirvana",
       "feat": "",
       "note": "",
+	  "comment": "Weird Al Yankovich",
       "coverOf": ""
     },
     {
       "order": 3,
-      "song": "In Bloom (Promo Tape)",
+      "song": "In Bloom",
       "feat": "",
-      "note": "",
+      "note": "promo tape",
+	  "comment": "",
       "coverOf": ""
     },
     {
       "order": 4,
-      "song": "In Bloom (Sub Pop)",
+      "song": "In Bloom",
       "feat": "",
       "note": "",
+	  "comment": "Sub Pop",
       "coverOf": ""
     },
     {
       "order": 5,
-      "song": "In Bloom (All Dresses)",
+      "song": "In Bloom",
       "feat": "",
       "note": "",
+	  "comment": "All Dresses",
       "coverOf": ""
     },
     {
       "order": 6,
-      "song": "Heart-Shaped Box (Promo Tape)",
+      "song": "Heart-Shaped Box",
       "feat": "",
-      "note": "",
+      "note": "promo tape",
+	  "comment": "",
       "coverOf": ""
     },
     {
       "order": 7,
-      "song": "Lithium (Promo Tape)",
+      "song": "Lithium",
       "feat": "",
-      "note": "",
+      "note": "promo tape",
+	  "comment": "",
       "coverOf": ""
     },
     {
       "order": 8,
-      "song": "Come As You Are (Promo Tape)",
+      "song": "Come As You Are",
       "feat": "",
-      "note": "",
+      "note": "promo tape",
+	  "comment": "",
       "coverOf": ""
     },
     {
       "order": 9,
-      "song": "Aneurysm (Promo Tape)",
+      "song": "Aneurysm",
       "feat": "",
-      "note": "",
+      "note": "promo tape",
+	  "comment": "",
       "coverOf": ""
     },
     {
       "order": 10,
-      "song": "Downer (MTV)",
+      "song": "Downer",
       "feat": "",
       "note": "",
+	  "comment": "MTV",
       "coverOf": ""
     },
     {
       "order": 11,
-      "song": "Sappy (VCD)",
+      "song": "Sappy",
       "feat": "",
-      "note": "",
+      "note": "VCD",
+	  "comment": "",
       "coverOf": ""
     },
     {
       "order": 12,
-      "song": "Sliver (Promo Tape)",
+      "song": "Sliver",
       "feat": "",
-      "note": "",
+      "note": "promo tape",
+	  "comment": "",
       "coverOf": ""
     },
     {
       "order": 13,
-      "song": "You Know You're Right (Promo Tape)",
+      "song": "You Know You're Right",
       "feat": "",
-      "note": "",
+      "note": "promo tape",
+	  "comment": "",
       "coverOf": ""
     },
     {
       "order": 14,
-      "song": "The Man Who Sold The World (18.11.1993)",
+      "song": "The Man Who Sold The World",
       "feat": "",
       "note": "",
+	  "comment": "1993-11-18",
       "coverOf": ""
     },
     {
       "order": 15,
-      "song": "All Apologies (18.11.1993)",
+      "song": "All Apologies",
       "feat": "",
       "note": "",
+	  "comment": "1993-11-18",
       "coverOf": ""
     }
   ],

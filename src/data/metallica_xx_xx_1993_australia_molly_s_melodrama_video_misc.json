@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Australia",
+    "city": "",
     "state": "",
-    "country": "Molly's Melodrama",
+    "country": "Australia",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Molly's Melodrama",
   "source": "",
   "category": [
     "video",
@@ -80,8 +80,8 @@
     }
   },
   "relatedShows": [
-    "metallica_xx_xx_1993_rage_tv_special_video_misc",
-    "metallica_01_04_1993_video"
+    "metallica_01_04_1993_source_1_video",
+    "metallica_xx_xx_1993_rage_tv_special_video_misc"
   ],
   "childOf": "metallica_xx_xx_1993_australia_video_compilation",
   "images": [

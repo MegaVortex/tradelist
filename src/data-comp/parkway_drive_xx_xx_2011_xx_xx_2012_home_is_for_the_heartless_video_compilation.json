@@ -45,48 +45,38 @@
         "type": "BD-50",
         "size": 25.76,
         "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 2.85,
-        "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 3.01,
-        "unit": "Gb"
       }
     ],
     "chapters": true,
     "menu": true,
-    "length": 6376,
+    "length": 6207,
     "video": [
       {
-        "tvFormat": "PAL",
+        "tvFormat": "",
         "ratio": "16:9",
-        "resolution": "720x576",
-        "bitrateType": "VBR",
+        "resolution": "1920x1080",
+        "bitrateType": "",
         "bitrateKbps": null,
-        "fps": "",
-        "standard": "",
-        "codec": "",
+        "fps": "23.98",
+        "standard": "MPEG4",
+        "codec": "H264",
         "letterboxed": true
       }
     ],
     "audio": [
       {
         "language": "en",
-        "codec": "LPCM",
-        "rateHz": null,
+        "codec": "AC3",
+        "rateHz": 48000,
         "bitrateKbps": null,
         "channels": 2
       }
     ],
     "sourceDetail": {
-      "recordingType": "AMT",
-      "sourceMediaType": "",
-      "finalMediaType": "",
-      "fileFormat": "DVD"
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
     }
   },
   "relatedShows": [],
@@ -111,26 +101,6 @@
       "folder": "60",
       "filename": "95324795.jpg",
       "externalId": "1LsDMALGTk3Za_w42shSBhZ5XJdyWzcsN"
-    },
-    {
-      "folder": "18",
-      "filename": "34316184.jpg",
-      "externalId": "1yzyqxvYhWYyl89L74xkLJ7NQw6rx7Flw"
-    },
-    {
-      "folder": "18",
-      "filename": "02933681.jpg",
-      "externalId": "1JwM8INpIaWM4xk5Hor4Ui3hQ7GDv1_YI"
-    },
-    {
-      "folder": "18",
-      "filename": "01696631.jpg",
-      "externalId": "1Vf4vpXxu2TpkDqX8S10iE4GmlYy9o1_L"
-    },
-    {
-      "folder": "18",
-      "filename": "69578318.jpg",
-      "externalId": "1akt2cMp_843TGe5igXWWdflMHHytPv2c"
     }
   ],
   "parentOf": [
@@ -139,120 +109,7 @@
     "parkway_drive_10_07_2011_video",
     "parkway_drive_19_11_2011_video"
   ],
-  "setlist": [
-    {
-      "order": 1,
-      "song": "4U",
-      "feat": "",
-      "note": "tape",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "Right Now",
-      "feat": "",
-      "note": "",
-      "coverOf": ""
-    },
-    {
-      "order": 3,
-      "song": "Pop A Pill",
-      "feat": "",
-      "note": "",
-      "coverOf": ""
-    },
-    {
-      "order": 4,
-      "song": "Here To Stay",
-      "feat": "",
-      "note": "",
-      "coverOf": ""
-    },
-    {
-      "order": 5,
-      "song": "Oildale (Leave Me Alone)",
-      "feat": "",
-      "note": "",
-      "coverOf": ""
-    },
-    {
-      "order": 6,
-      "song": "Falling Away From Me",
-      "feat": "",
-      "note": "",
-      "coverOf": ""
-    },
-    {
-      "order": 7,
-      "song": "Did My Time",
-      "feat": "",
-      "note": "",
-      "coverOf": ""
-    },
-    {
-      "order": 8,
-      "song": "Let The Guilt Go",
-      "feat": "",
-      "note": "",
-      "coverOf": ""
-    },
-    {
-      "order": 9,
-      "song": "Somebody Someone",
-      "feat": "",
-      "note": "",
-      "coverOf": ""
-    },
-    {
-      "order": 10,
-      "song": "Throw Me Away",
-      "feat": "",
-      "note": "",
-      "coverOf": ""
-    },
-    {
-      "order": 11,
-      "song": "Freak On A Leash",
-      "feat": "",
-      "note": "",
-      "coverOf": ""
-    },
-    {
-      "order": 12,
-      "song": "Helmet In The Bush",
-      "feat": "",
-      "note": "",
-      "coverOf": ""
-    },
-    {
-      "order": 13,
-      "song": "Blind",
-      "feat": "",
-      "note": "",
-      "coverOf": ""
-    },
-    {
-      "order": 14,
-      "song": "Shoots And Ladders / One",
-      "feat": "",
-      "note": "",
-      "coverOf": ""
-    },
-    {
-      "order": 15,
-      "song": "Clown",
-      "feat": "",
-      "note": "",
-      "coverOf": ""
-    },
-    {
-      "order": 16,
-      "song": "Got The Life",
-      "feat": "",
-      "note": "",
-      "coverOf": ""
-    }
-  ],
+  "setlist": [],
   "extras": [],
   "fileSlug": "parkway_drive_xx_xx_2011_xx_xx_2012_home_is_for_the_heartless_video_compilation",
   "isCompilation": true,

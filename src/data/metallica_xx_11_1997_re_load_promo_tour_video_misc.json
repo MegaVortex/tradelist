@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Re-Load Promo Tour",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Re-Load Promo Tour",
   "source": "",
   "category": [
     "video",
@@ -33,39 +33,106 @@
   ],
   "master": false,
   "public": true,
-  "ownIdentifier": "",
+  "ownIdentifier": "HDD#D",
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "",
   "tapers": [],
   "specs": {
-    "media": [],
-    "chapters": false,
-    "menu": false,
-    "length": null,
-    "video": {
-      "format": "",
-      "ratio": "",
-      "resolution": "",
-      "bitrateType": "",
-      "bitrateKbps": null,
-      "letterboxed": false
-    },
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.7,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6419,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
     }
   },
-  "relatedShows": [],
-  "childOf": "",
-  "images": [],
-  "setlist": []
+  "relatedShows": [
+    "metallica_18_11_1997_video_misc",
+    "metallica_18_11_1997_show_1_video",
+    "metallica_18_11_1997_show_2_source_1_video",
+    "metallica_19_11_1997_video_misc"
+  ],
+  "childOf": "metallica_xx_xx_1997_re_load_day_in_paris_video_compilation",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "s22105013.jpg",
+      "externalId": "1gzJ9b7LVi6rq-SGj_pMp0bSNJQERiA4z"
+    },
+    {
+      "folder": "69",
+      "filename": "s54834218.jpg",
+      "externalId": "1Bzg3LNQUhGf4pRYtruwYDsA5Jm-sF4sE"
+    },
+    {
+      "folder": "69",
+      "filename": "s86551565.jpg",
+      "externalId": "12Yor_eVIQAMOiExXSymrIWOcTdECH9uU"
+    },
+    {
+      "folder": "69",
+      "filename": "s42779805.jpg",
+      "externalId": "1dMYbUAvJmFEe9EhqOrUNRyu5MrdORGqm"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Live Footage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
 }
