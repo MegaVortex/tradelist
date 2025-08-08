@@ -322,6 +322,71 @@
                <strong>Chapters:</strong> {% if compilation.specs.chapters %}Yes{% else %}No{% endif %}<br>
                {% endif %}
                {% endif %}
+			                  {% if not compilation.childOf and compilation.relatedShows and compilation.relatedShows.length %}
+				  <span style="text-align: center; font-size: 12px; font-weight: bold;">Other shows:</span>
+                     <div class="related-regular-wrapper" style="margin-top: 20px;">
+                        <div class="notice-content">
+                           <div class="table-responsive child-shows-table" style="margin-top: 8px;">
+                              <table class="table table-sm table-bordered" style="margin-bottom: 0;">
+                                 <thead>
+                                    <tr>
+                                       <th>Artist</th>
+                                       <th>Date</th>
+                                       <th>Source</th>
+                                       <th>Link</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    {% for relatedSlug in compilation.relatedShows %}
+                                       {% set relatedShow = allShowData.showsBySlug[relatedSlug] %}
+                                       {% if relatedShow %}
+                                          <tr>
+                                             <td>{{ relatedShow.bands[0] if relatedShow.bands else '—' }}</td>
+                                             <td>
+                                                {% if relatedShow.startDateUnix %}
+                                                   {{ relatedShow.startDateUnix | date("yyyy-MM-dd") }}
+                                                {% elif relatedShow.startDate %}
+                                                   {% set sd = relatedShow.startDate %}
+                                                   {% set day = sd.day | toInt %}
+                                                   {% set month = sd.month | toInt %}
+                                                   {% set year = sd.year | toInt %}
+                                                   {% if day and month and year %}
+                                                      {{ year }}-{{ month | padStart(2) }}-{{ day | padStart(2) }}
+                                                   {% elif month and year %}
+                                                      {{ year }}-{{ month | padStart(2) }}
+                                                   {% elif year %}
+                                                      {{ year }}
+                                                   {% else %}
+                                                      —
+                                                   {% endif %}
+                                                {% else %}
+                                                   —
+                                                {% endif %}
+                                             </td>
+                                             <td style="position: relative;">
+                                                {{ relatedShow.source or '—' }}
+                                                {% if relatedShow.category == "audio" %}
+                                                   <span class="type-label-comp audio-label">audio</span>
+                                                {% elif "misc" in relatedShow.category %}
+                                                   <span class="type-label-comp misc-label">misc</span>
+                                                {% elif "video" in relatedShow.category %}
+                                                   <span class="type-label-comp video-label">video</span>
+                                                {% else %}
+                                                   —
+                                                {% endif %}
+                                             </td>
+                                             <td>
+                                                <a href="{{ relatedShow.permalink | url }}">🎫</a>
+                                             </td>
+                                          </tr>
+                                       {% endif %}
+                                    {% endfor %}
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                     </div>
+                  {% endif %}
             </td>
             <td style="vertical-align: top; text-align: left; width: 515px; table-layout: fixed;">
                {% if compilation.images %}

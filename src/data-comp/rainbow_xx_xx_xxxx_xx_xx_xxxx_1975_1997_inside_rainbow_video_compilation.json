@@ -33,11 +33,11 @@
   ],
   "master": false,
   "public": true,
-  "ownIdentifier": "HDD#J",
+  "ownIdentifier": "HDD#D",
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "PRO#1b.",
+  "notes": "",
   "tapers": [],
   "specs": {
     "media": [
@@ -60,33 +60,28 @@
         "type": "DVD-5",
         "size": 1.58,
         "unit": "Gb"
-      },
-      {
-        "type": "CD",
-        "size": 532,
-        "unit": "Mb"
       }
     ],
-    "chapters": false,
+    "chapters": true,
     "menu": false,
-    "length": 499,
+    "length": 9566,
     "video": [
       {
-        "tvFormat": "PAL",
-        "ratio": "4:3",
-        "resolution": "720x576",
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
         "bitrateType": "VBR",
         "bitrateKbps": null,
         "fps": "",
         "standard": "",
         "codec": "",
-        "letterboxed": false
+        "letterboxed": true
       }
     ],
     "audio": [
       {
         "language": "",
-        "codec": "MPEG1",
+        "codec": "LPCM",
         "rateHz": null,
         "bitrateKbps": null,
         "channels": 2
@@ -121,45 +116,10 @@
       "folder": "49",
       "filename": "08200312.jpg",
       "externalId": "1Jv4CJz2T1Rv0yJAadN4L1BSmUQNNK10A"
-    },
-    {
-      "folder": "49",
-      "filename": "77187343.jpg",
-      "externalId": "1bB7vHuEQrpiKvMVctyfJ9-V69eD1Z9g5"
-    },
-    {
-      "folder": "49",
-      "filename": "53573479.jpg",
-      "externalId": "1E7eUioqt4ngXfgoJtSbVFNbU08L7_Dix"
-    },
-    {
-      "folder": "49",
-      "filename": "76044907.jpg",
-      "externalId": "1S8hXVCQg5-UexsycvvAGlwBSoewKB1rO"
-    },
-    {
-      "folder": "49",
-      "filename": "29046777.jpg",
-      "externalId": "15XpsGOTewC0NFRfBhPnnIeZWOkkaJlNN"
     }
   ],
   "parentOf": [],
-  "setlist": [
-    {
-      "order": 1,
-      "song": "Wollt Ihr Das Bett In Flammen Sehen?",
-      "feat": "",
-      "note": "",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "Du Riechst So Gut",
-      "feat": "",
-      "note": "incomplete",
-      "coverOf": ""
-    }
-  ],
+  "setlist": [],
   "extras": [],
   "fileSlug": "rainbow_xx_xx_xxxx_xx_xx_xxxx_1975_1997_inside_rainbow_video_compilation",
   "isCompilation": true,
