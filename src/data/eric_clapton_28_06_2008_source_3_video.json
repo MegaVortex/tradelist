@@ -62,16 +62,20 @@
         "letterboxed": true
       }
     ],
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
     }
   },
   "relatedShows": [

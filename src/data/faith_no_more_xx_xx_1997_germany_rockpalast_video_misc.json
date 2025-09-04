@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Germany",
+    "city": "",
     "state": "",
-    "country": "'Rockpalast'",
+    "country": "Germany",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Rockpalast",
   "source": "",
   "category": [
     "video",
@@ -129,5 +129,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "faith_no_more_xx_xx_1997_germany_rockpalast_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/faith_no_more_xx_xx_1997_germany_rockpalast_video_misc/"
 }

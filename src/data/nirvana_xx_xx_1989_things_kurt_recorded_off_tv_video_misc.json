@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Things Kurt Recorded Off TV",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Things Kurt Recorded Off TV",
   "source": "",
   "category": [
     "video",
@@ -110,5 +110,8 @@
       "externalId": "1ooN-po94sgnYqxqzaUo2mjEyYTi9NU1r"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "nirvana_xx_xx_1989_things_kurt_recorded_off_tv_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/nirvana_xx_xx_1989_things_kurt_recorded_off_tv_video_misc/"
 }

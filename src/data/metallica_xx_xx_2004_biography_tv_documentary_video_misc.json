@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Biography",
+    "city": "",
     "state": "",
-    "country": "TV Documentary",
+    "country": "",
     "venue": "",
-    "event": ""
+    "event": "Biography"
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "TV Documentary",
   "source": "",
   "category": [
     "video",
@@ -103,5 +103,8 @@
       "externalId": "1KnQPv47k4NOLnCpU5FvU6G0IiXEJ6AB-"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "metallica_xx_xx_2004_biography_tv_documentary_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/metallica_xx_xx_2004_biography_tv_documentary_video_misc/"
 }

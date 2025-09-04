@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "MTV News",
+    "city": "",
     "state": "",
-    "country": "The Wrad",
+    "country": "",
     "venue": "",
-    "event": ""
+    "event": "MTV News"
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "The Wrad",
   "source": "",
   "category": [
     "video",
@@ -115,5 +115,8 @@
       "externalId": "1odyciAEBZ7WuogTnFGRO4krXD5r0Owkx"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "the_mars_volta_xx_xx_xxxx_mtv_news_the_wrad_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/the_mars_volta_xx_xx_xxxx_mtv_news_the_wrad_video_misc/"
 }

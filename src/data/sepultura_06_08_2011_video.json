@@ -62,16 +62,20 @@
         "letterboxed": false
       }
     ],
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "MP3",
+        "rateHz": 44100,
+        "bitrateKbps": 128,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "VCD",
+      "fileFormat": "AVI"
     }
   },
   "relatedShows": [],

@@ -18,13 +18,13 @@
   },
   "endDateUnix": 961027200,
   "location": {
-    "city": "Much Music",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
-  "tvChannel": "",
+  "tvChannel": "Much Music",
   "showName": "",
   "source": "",
   "category": [
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_15_06_2000_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_15_06_2000_video_misc/"
 }

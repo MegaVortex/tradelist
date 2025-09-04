@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Metallica - xx.11.1996 - MTV Europe Awards - Video Diary [MISC]",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "11",
+    "year": "1996"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "11",
+    "year": "1996"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "",
+    "state": "",
+    "country": "",
+    "venue": "",
+    "event": "MTV Europe Awards"
+  },
+  "tvChannel": "MTV",
+  "showName": "Video Diary",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Interviews with a band's members.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 440,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 399,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "0",
+      "filename": "27251.jpg",
+      "externalId": "1xHHqpOLGctFAZGAI2taB7_WZrnihKiXr"
+    },
+    {
+      "folder": "0",
+      "filename": "80153.jpg",
+      "externalId": "1TG84j1UFabYeUi6Byz0waA3hx7wZo0ce"
+    },
+    {
+      "folder": "0",
+      "filename": "64221.jpg",
+      "externalId": "13TtNSCBWdY0Naz09VTj33IjoNKAh804Q"
+    },
+    {
+      "folder": "0",
+      "filename": "51123.jpg",
+      "externalId": "1Q4IHbYC8ppJIHmNWzlGfFMEKr15Wyy8Q"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interviews",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

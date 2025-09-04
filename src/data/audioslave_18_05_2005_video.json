@@ -18,11 +18,11 @@
   },
   "endDateUnix": 1116374400,
   "location": {
-    "city": "Hollywood",
-    "state": "",
-    "country": "Los Angeles",
-    "venue": "CA",
-    "event": "USA - ABC Studios"
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "ABC Studios",
+    "event": ""
   },
   "tvChannel": "",
   "showName": "Jimmy Kimmel Show",
@@ -121,5 +121,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "audioslave_18_05_2005_video",
+  "isRegular": true,
+  "permalink": "/shows/audioslave_18_05_2005_video/"
 }

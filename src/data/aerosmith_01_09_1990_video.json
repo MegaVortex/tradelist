@@ -46,27 +46,29 @@
         "unit": "Gb"
       }
     ],
-    "chapters": false,
-    "menu": false,
-    "length": null,
+    "chapters": true,
+    "menu": true,
+    "length": 4094,
     "video": {
-      "format": "",
-      "ratio": "",
-      "resolution": "",
-      "bitrateType": "",
+      "format": "PAL",
+      "ratio": "4:3",
+      "resolution": "720x576",
+      "bitrateType": "VBR",
       "bitrateKbps": null,
       "letterboxed": false
     },
     "audio": {
       "language": "",
-      "codec": "",
+      "codec": "AC3",
+      "rateHz": null,
       "bitrateKbps": null,
-      "channels": null
+      "channels": 2
     },
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
     }
   },
   "relatedShows": [

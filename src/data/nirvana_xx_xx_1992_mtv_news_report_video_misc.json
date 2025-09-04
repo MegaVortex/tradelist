@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "MTV News Report",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "MTV News Report",
   "source": "",
   "category": [
     "video",
@@ -110,5 +110,8 @@
       "externalId": "18ApS8pimt-mxMy7pWjekDJcUr8TmUrZK"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "nirvana_xx_xx_1992_mtv_news_report_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/nirvana_xx_xx_1992_mtv_news_report_video_misc/"
 }

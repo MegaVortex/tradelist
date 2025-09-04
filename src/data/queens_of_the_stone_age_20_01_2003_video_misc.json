@@ -18,14 +18,14 @@
   },
   "endDateUnix": 1043020800,
   "location": {
-    "city": "Australia",
+    "city": "",
     "state": "",
-    "country": "Informer TV Show",
+    "country": "Australia",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Informer TV Show",
   "source": "",
   "category": [
     "video",
@@ -130,5 +130,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "queens_of_the_stone_age_20_01_2003_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/queens_of_the_stone_age_20_01_2003_video_misc/"
 }

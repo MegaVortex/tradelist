@@ -55,23 +55,27 @@
         "ratio": "",
         "resolution": "1920x1080",
         "bitrateType": "",
-        "bitrateKbps": 1536,
+        "bitrateKbps": null,
         "fps": "29.97",
         "standard": "MPEG4",
         "codec": "H264",
         "letterboxed": false
       }
     ],
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MP4"
     }
   },
   "relatedShows": [],

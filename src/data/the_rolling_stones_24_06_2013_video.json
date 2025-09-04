@@ -37,7 +37,9 @@
   "authoredBy": "",
   "transferredBy": "",
   "notes": "",
-  "tapers": [],
+  "tapers": [
+    "napoleon-in-rags"
+  ],
   "specs": {
     "media": [
       {
@@ -46,27 +48,36 @@
         "unit": "Gb"
       }
     ],
-    "chapters": false,
-    "menu": false,
-    "length": null,
-    "video": {
-      "format": "",
-      "ratio": "",
-      "resolution": "",
-      "bitrateType": "",
-      "bitrateKbps": null,
-      "letterboxed": false
-    },
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "chapters": true,
+    "menu": true,
+    "length": 8159,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "1440x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
     }
   },
   "relatedShows": [],
@@ -93,5 +104,183 @@
       "externalId": "1YmU73yC-GnvMLQJ3iBT6MViC-sndt1TJ"
     }
   ],
-  "setlist": []
+  "setlist": [
+      {
+          "order": 1,
+          "song": "Intro",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 2,
+          "song": "Get Off Of My Cloud",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 3,
+          "song": "It's Only Rock 'n Roll (But I Like It)",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 4,
+          "song": "Paint It Black",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 5,
+          "song": "Gimme Shelter",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 6,
+          "song": "Worried About You",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 7,
+          "song": "Street Fighting Man",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 8,
+          "song": "Emotional Rescue",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 9,
+          "song": "Doom And Gloom",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 10,
+          "song": "One More Shot",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 11,
+          "song": "Honky Tonk Women",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 12,
+          "song": "You Got The Silver",
+          "feat": "",
+          "note": "",
+          "comment": "Keith vocals",
+          "coverOf": ""
+      },
+      {
+          "order": 13,
+          "song": "Before They Make Me Run",
+          "feat": "",
+          "note": "",
+          "comment": "Keith vocals",
+          "coverOf": ""
+      },
+      {
+          "order": 14,
+          "song": "Midnight Rambler",
+          "feat": "Mick Taylor",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 15,
+          "song": "Miss You",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 16,
+          "song": "Start Me Up",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 17,
+          "song": "Tumbling Dice",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 18,
+          "song": "Brown Sugar",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 19,
+          "song": "Sympathy For The Devil",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 20,
+          "song": "You Can't Always Get What You Want",
+          "feat": "The Washington Chorus",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 21,
+          "song": "Jumpin' Jack Flash",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 22,
+          "song": "(I Can't Get No) Satisfaction",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      }
+  ],
+  "extras": []
 }

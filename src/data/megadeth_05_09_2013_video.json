@@ -34,7 +34,7 @@
   "public": true,
   "ownIdentifier": "HDD#J",
   "tradeLabel": "",
-  "authoredBy": "",
+  "authoredBy": "Nashwolverine",
   "transferredBy": "",
   "notes": "Incomplete.",
   "tapers": [
@@ -46,34 +46,38 @@
         "type": "DVD-9",
         "size": 8.35,
         "unit": "Gb"
-      },
-      {
-        "type": "Floppy",
-        "size": 448,
-        "unit": "Kb"
       }
     ],
     "chapters": false,
     "menu": false,
-    "length": null,
-    "video": {
-      "format": "",
-      "ratio": "",
-      "resolution": "",
-      "bitrateType": "",
-      "bitrateKbps": null,
-      "letterboxed": false
-    },
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "length": 2803,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "1440x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 6
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
     }
   },
   "relatedShows": [],

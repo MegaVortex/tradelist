@@ -46,27 +46,22 @@
         "type": "DVD-5",
         "size": 3.94,
         "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 3.85,
-        "unit": "Gb"
       }
     ],
     "chapters": true,
     "menu": true,
-    "length": 5088,
+    "length": 5208,
     "video": [
       {
         "tvFormat": "PAL",
-        "ratio": "4:3",
-        "resolution": "704x576",
+        "ratio": "16:9",
+        "resolution": "720x576",
         "bitrateType": "VBR",
         "bitrateKbps": null,
         "fps": "",
         "standard": "",
         "codec": "",
-        "letterboxed": false
+        "letterboxed": true
       }
     ],
     "audio": [
@@ -107,27 +102,10 @@
       "folder": "8",
       "filename": "45697222.jpg",
       "externalId": "1SkmdLLKvnxsDjm_WatLYMPSGakxmre7L"
-    },
-    {
-      "folder": "8",
-      "filename": "77224112.jpg",
-      "externalId": "1G5JN0QLenUuy21oE4yiBbkfqYTAYKpxf"
-    },
-    {
-      "folder": "8",
-      "filename": "25299434.jpg",
-      "externalId": "1i6MfYNnOaKfpCjfAcmJ8G3_6TcEYRhps"
-    },
-    {
-      "folder": "8",
-      "filename": "91029234.jpg",
-      "externalId": "1FOWWCvRTqTaZUFyaKmjMQ06QUK_lhmwu"
-    },
-    {
-      "folder": "8",
-      "filename": "45362888.jpg",
-      "externalId": "1xeVPgZvwDiV3CN4Tku7cfSscqRHqbvoM"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "agata_kristi_17_11_2009_video",
+  "isRegular": true,
+  "permalink": "/shows/agata_kristi_17_11_2009_video/"
 }

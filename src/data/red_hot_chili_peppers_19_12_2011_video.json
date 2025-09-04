@@ -36,7 +36,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "The show was",
+  "notes": "Broadcasted on Dailymotion.",
   "tapers": [],
   "specs": {
     "media": [
@@ -62,16 +62,20 @@
         "letterboxed": false
       }
     ],
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MP4"
     }
   },
   "relatedShows": [],

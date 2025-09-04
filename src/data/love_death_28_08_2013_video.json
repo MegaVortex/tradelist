@@ -34,10 +34,12 @@
   "public": true,
   "ownIdentifier": "HDD#O",
   "tradeLabel": "",
-  "authoredBy": "",
+  "authoredBy": "Vortex",
   "transferredBy": "",
   "notes": "",
-  "tapers": [],
+  "tapers": [
+    "Ansem"
+  ],
   "specs": {
     "media": [
       {
@@ -62,16 +64,20 @@
         "letterboxed": false
       }
     ],
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
     }
   },
   "relatedShows": [],
@@ -98,5 +104,55 @@
       "externalId": "1nimI5dVtgYLe2UIogaoXCje0VCSEJA07"
     }
   ],
-  "setlist": []
+  "setlist": [
+      {
+          "order": 1,
+          "song": "Paralyzed",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 2,
+          "song": "Meltdown",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 3,
+          "song": "I W8 4 U",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 4,
+          "song": "Whip It",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "DEVO"
+      },
+      {
+          "order": 5,
+          "song": "The Abandoning",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 6,
+          "song": "Chemicals",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      }
+  ],
+  "extras": []
 }

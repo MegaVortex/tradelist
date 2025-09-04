@@ -81,10 +81,9 @@
   "relatedShows": [
     "motley_crue_13_08_1989_video",
     "gorky_park_13_08_1989_video",
-    "scorpions_13_08_1989_video",
-    "various_artists_13_08_1989_video"
+    "scorpions_13_08_1989_video"
   ],
-  "childOf": "[VARIOUS ARTISTS] - 13.08.1989 - Moscow - Russia - BSA Luzhniki - Moscow Music Peace Festival",
+  "childOf": "various_artists_13_08_1989_video_compilation",
   "images": [
     {
       "folder": "24",
@@ -107,5 +106,6 @@
       "externalId": "12BYb9-DMh-r6ocsxgyUFD9rIn1GLKFnQ"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "extras": []
 }

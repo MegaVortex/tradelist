@@ -18,11 +18,11 @@
   },
   "endDateUnix": 1176595200,
   "location": {
-    "city": "Kiev",
+    "city": "Kyiv",
     "state": "",
     "country": "Ukraine",
-    "venue": "Extreme Power Fest",
-    "event": ""
+    "venue": "Palats Sportu",
+    "event": "Extreme Power Open Air"
   },
   "tvChannel": "",
   "showName": "",
@@ -44,21 +44,16 @@
         "type": "DVD-5",
         "size": 3.67,
         "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 2.38,
-        "unit": "Gb"
       }
     ],
     "chapters": true,
     "menu": true,
-    "length": 2234,
+    "length": 2519,
     "video": [
       {
-        "tvFormat": "NTSC",
+        "tvFormat": "PAL",
         "ratio": "4:3",
-        "resolution": "720x480",
+        "resolution": "720x576",
         "bitrateType": "VBR",
         "bitrateKbps": null,
         "fps": "",
@@ -78,7 +73,7 @@
     ],
     "sourceDetail": {
       "recordingType": "AMT",
-      "sourceMediaType": "VHS",
+      "sourceMediaType": "",
       "finalMediaType": "",
       "fileFormat": "DVD"
     }
@@ -105,27 +100,8 @@
       "folder": "2",
       "filename": "28756.jpg",
       "externalId": "1_Qs13zLGFV7W1erDqnIbdv4DyU08XSp3"
-    },
-    {
-      "folder": "2",
-      "filename": "05445.jpg",
-      "externalId": "1aHTQwHhbnntFVurR41GhDougwrPoKfxC"
-    },
-    {
-      "folder": "2",
-      "filename": "25062.jpg",
-      "externalId": "1YwgNPs5qlWNxJxCg2H3iVsxOfxi7rWOP"
-    },
-    {
-      "folder": "2",
-      "filename": "80242.jpg",
-      "externalId": "1xXh8BVm4PHLRMxl1Dh0-yDqLtLbw2cBS"
-    },
-    {
-      "folder": "2",
-      "filename": "38707.jpg",
-      "externalId": "1S4ZmTbzVE6VE0PqMZcrznkXpTmZ_8akS"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "extras": []
 }

@@ -34,10 +34,12 @@
   "public": true,
   "ownIdentifier": "HDD#C",
   "tradeLabel": "",
-  "authoredBy": "",
+  "authoredBy": "Thumraider",
   "transferredBy": "",
   "notes": "",
-  "tapers": [],
+  "tapers": [
+    "Deeseven"
+  ],
   "specs": {
     "media": [
       {
@@ -62,16 +64,20 @@
         "letterboxed": false
       }
     ],
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
     }
   },
   "relatedShows": [],

@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Hungary",
+    "city": "",
     "state": "",
-    "country": "MTV Report",
+    "country": "Hungary",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "MTV Report",
   "source": "",
   "category": [
     "video",
@@ -115,5 +115,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "metallica_xx_xx_1997_hungary_mtv_report_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/metallica_xx_xx_1997_hungary_mtv_report_video_misc/"
 }

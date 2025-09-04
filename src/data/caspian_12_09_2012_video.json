@@ -22,22 +22,24 @@
     "state": "IL",
     "country": "USA",
     "venue": "Audiotree Studio",
-    "event": "Audiotree Live"
+    "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Audiotree Live",
   "source": "",
   "category": [
     "video"
   ],
-  "master": false,
+  "master": true,
   "public": true,
   "ownIdentifier": "HDD#D",
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "Vortex",
   "notes": "",
-  "tapers": [],
+  "tapers": [
+    "Vortex"
+  ],
   "specs": {
     "media": [
       {
@@ -136,5 +138,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "caspian_12_09_2012_video",
+  "isRegular": true,
+  "permalink": "/shows/caspian_12_09_2012_video/"
 }

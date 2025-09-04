@@ -55,23 +55,27 @@
         "ratio": "",
         "resolution": "1280x720",
         "bitrateType": "",
-        "bitrateKbps": 1411,
+        "bitrateKbps": null,
         "fps": "25.00",
         "standard": "MPEG4",
         "codec": "H264",
         "letterboxed": false
       }
     ],
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "HD",
+      "fileFormat": "MKV"
     }
   },
   "relatedShows": [],

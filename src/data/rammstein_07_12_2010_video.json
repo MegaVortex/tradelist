@@ -34,7 +34,7 @@
   "public": true,
   "ownIdentifier": "HDD#J",
   "tradeLabel": "",
-  "authoredBy": "",
+  "authoredBy": "Vortex",
   "transferredBy": "",
   "notes": "",
   "tapers": [
@@ -64,16 +64,20 @@
         "letterboxed": false
       }
     ],
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
     }
   },
   "relatedShows": [],
@@ -100,5 +104,135 @@
       "externalId": "1DV_xnZZ3Pve6drme86F9J3sBX_c5XISJ"
     }
   ],
-  "setlist": []
+  "setlist": [
+      {
+          "order": 1,
+          "song": "Waidmanns Heil",
+          "feat": "",
+          "note": "incomplete",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 2,
+          "song": "Keine Lust",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 3,
+          "song": "Weisses Fleisch",
+          "feat": "",
+          "note": "incomplete",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 4,
+          "song": "Feuer Frei!",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 5,
+          "song": "Wiener Blut",
+          "feat": "",
+          "note": "incomplete",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 6,
+          "song": "Fruhling In Paris",
+          "feat": "",
+          "note": "incomplete",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 7,
+          "song": "Mein Teil",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 8,
+          "song": "Du Riechst So Gut",
+          "feat": "",
+          "note": "incomplete",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 9,
+          "song": "Benzin",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 10,
+          "song": "Links 2-3-4",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 11,
+          "song": "Du Hast",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 12,
+          "song": "Pussy",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 13,
+          "song": "Sonne",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 14,
+          "song": "Haifisch",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 15,
+          "song": "Ich Will",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 16,
+          "song": "Te Quiero Puta!",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      }
+  ],
+  "extras": []
 }

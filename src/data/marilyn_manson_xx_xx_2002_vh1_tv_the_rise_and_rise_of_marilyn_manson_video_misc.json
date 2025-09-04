@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "VH1 TV",
+    "city": "",
     "state": "",
-    "country": "'The Rise And Rise Of Marilyn Manson'",
+    "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "VH1",
-  "showName": "",
+  "showName": "The Rise And Rise Of Marilyn Manson",
   "source": "",
   "category": [
     "video",
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "marilyn_manson_xx_xx_2002_vh1_tv_the_rise_and_rise_of_marilyn_manson_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/marilyn_manson_xx_xx_2002_vh1_tv_the_rise_and_rise_of_marilyn_manson_video_misc/"
 }

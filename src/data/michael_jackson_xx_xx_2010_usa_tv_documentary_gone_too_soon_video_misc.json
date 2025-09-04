@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "TV Documentary",
-    "venue": "'Gone Too Soon'",
+    "country": "USA",
+    "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "'Gone Too Soon'",
   "source": "",
   "category": [
     "video",
@@ -103,5 +103,8 @@
       "externalId": "1naBeCrbNQAL9S5Ef0DaVYFmwqJYUCHea"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "michael_jackson_xx_xx_2010_usa_tv_documentary_gone_too_soon_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/michael_jackson_xx_xx_2010_usa_tv_documentary_gone_too_soon_video_misc/"
 }

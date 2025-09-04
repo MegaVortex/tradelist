@@ -53,25 +53,34 @@
     ],
     "chapters": false,
     "menu": false,
-    "length": null,
-    "video": {
-      "format": "",
-      "ratio": "",
-      "resolution": "",
-      "bitrateType": "",
-      "bitrateKbps": null,
-      "letterboxed": false
-    },
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "length": 1313,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "30.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 44100,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MOV"
     }
   },
   "relatedShows": [],
@@ -100,6 +109,14 @@
   ],
   "setlist": [
     {
+      "order": 1,
+      "song": "IOWA",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
       "order": 2,
       "song": "742617000027",
       "feat": "",
@@ -117,7 +134,7 @@
     },
     {
       "order": 4,
-      "song": "Wait And Bleed",
+      "song": "Wait and Bleed",
       "feat": "",
       "note": "",
       "comment": "",

@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "MuchMusic TV",
+    "city": "",
     "state": "",
-    "country": "Egos & Icons",
+    "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MuchMusic",
-  "showName": "",
+  "showName": "Egos & Icons",
   "source": "",
   "category": [
     "video",
@@ -115,5 +115,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "limp_bizkit_xx_06_2001_muchmusic_tv_egos_icons_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/limp_bizkit_xx_06_2001_muchmusic_tv_egos_icons_video_misc/"
 }

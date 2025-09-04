@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "BBC Rainbow",
+    "city": "",
     "state": "",
-    "country": "\"Rehearsal Documentary\"",
+    "country": "",
     "venue": "",
-    "event": ""
+    "event": "BBC Rainbow"
   },
-  "tvChannel": "",
-  "showName": "",
+  "tvChannel": "BBC",
+  "showName": "Rehearsal Documentary",
   "source": "",
   "category": [
     "video",
@@ -115,5 +115,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "the_who_xx_xx_1979_bbc_rainbow_rehearsal_documentary_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/the_who_xx_xx_1979_bbc_rainbow_rehearsal_documentary_video_misc/"
 }

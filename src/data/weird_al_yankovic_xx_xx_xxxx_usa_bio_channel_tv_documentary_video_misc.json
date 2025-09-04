@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Bio Channel",
-    "venue": "TV Documentary",
+    "country": "USA",
+    "venue": "",
     "event": ""
   },
-  "tvChannel": "",
-  "showName": "",
+  "tvChannel": "Bio Channel",
+  "showName": "TV Documentary",
   "source": "",
   "category": [
     "video",
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "weird_al_yankovic_xx_xx_xxxx_usa_bio_channel_tv_documentary_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/weird_al_yankovic_xx_xx_xxxx_usa_bio_channel_tv_documentary_video_misc/"
 }

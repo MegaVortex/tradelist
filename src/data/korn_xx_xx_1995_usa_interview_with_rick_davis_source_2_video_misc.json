@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Interview With Rick Davis",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Interview With Rick Davis",
   "source": "Source 2",
   "category": [
     "video",
@@ -34,7 +34,7 @@
   "master": false,
   "public": true,
   "ownIdentifier": "HDD#C",
-  "tradeLabel": "",
+  "tradeLabel": "RT",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "",
@@ -143,5 +143,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_1995_usa_interview_with_rick_davis_source_2_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_1995_usa_interview_with_rick_davis_source_2_video_misc/"
 }

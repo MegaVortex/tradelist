@@ -41,23 +41,8 @@
   "specs": {
     "media": [
       {
-        "type": "DVD-5",
-        "size": 3.99,
-        "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 3.99,
-        "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 3.99,
-        "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 1.7,
+        "type": "BD-25",
+        "size": 13.67,
         "unit": "Gb"
       }
     ],
@@ -207,5 +192,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "and_so_i_watch_you_from_afar_02_02_2012_video",
+  "isRegular": true,
+  "permalink": "/shows/and_so_i_watch_you_from_afar_02_02_2012_video/"
 }

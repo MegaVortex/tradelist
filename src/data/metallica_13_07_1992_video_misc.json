@@ -18,14 +18,14 @@
   },
   "endDateUnix": 710985600,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "MTV Rockumentary",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "MTV Rockumentary",
   "source": "",
   "category": [
     "video",
@@ -121,5 +121,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "metallica_13_07_1992_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/metallica_13_07_1992_video_misc/"
 }

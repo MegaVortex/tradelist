@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Rage Against The Machine - 16.06.1996 - San Francisco - CA - USA - Golden Gate Park (Free Tibetan)",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Rage Against The Machine"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "06",
+    "year": "1996"
+  },
+  "startDateUnix": 834883200,
+  "endDate": {
+    "day": "16",
+    "month": "06",
+    "year": "1996"
+  },
+  "endDateUnix": 834883200,
+  "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Golden Gate Park",
+    "event": "Free Tibetan"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.49,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2210,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "4",
+      "filename": "7628365.jpg",
+      "externalId": "1zGBCH1wsQU3zHWBKEjv_gGETgJjhScYM"
+    },
+    {
+      "folder": "4",
+      "filename": "2161581.jpg",
+      "externalId": "1YBhfTbcDGATRd0F5RAlOczIQYeQikvHN"
+    },
+    {
+      "folder": "4",
+      "filename": "0529012.jpg",
+      "externalId": "10qiGYHX6SKgOnn4SIDE1UH3bZ1WP0ccR"
+    },
+    {
+      "folder": "4",
+      "filename": "5031666.jpg",
+      "externalId": "1bMWgMkOjGwwAKFZtsfRMoADbSo3Ch9eT"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Bulls On Parade",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Vietnow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Bombtrack",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Bullet In The Head",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Killing In The Name",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Freedom",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "MTV Studios",
-    "venue": "'Binge And Purge' Special",
+    "country": "USA",
+    "venue": "MTV Studios",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "'Binge And Purge' Special",
   "source": "",
   "category": [
     "video",
@@ -120,5 +120,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "metallica_xx_xx_1993_usa_mtv_studios_binge_and_purge_special_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/metallica_xx_xx_1993_usa_mtv_studios_binge_and_purge_special_video_misc/"
 }

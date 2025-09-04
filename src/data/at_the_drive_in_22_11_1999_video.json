@@ -1,0 +1,106 @@
+{
+  "originalTitle": "At The Drive-In - 22.11.1999 - Chicago - IL - USA - The Metro",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "At The Drive-In"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "11",
+    "year": "1999"
+  },
+  "startDateUnix": 943228800,
+  "endDate": {
+    "day": "22",
+    "month": "11",
+    "year": "1999"
+  },
+  "endDateUnix": 943228800,
+  "location": {
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "venue": "The Metro",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.59,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3747,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "2",
+      "filename": "65923.jpg",
+      "externalId": "1ArpdkckW5GFydYRlUIu9_fMo1hOSxAO4"
+    },
+    {
+      "folder": "2",
+      "filename": "09133.jpg",
+      "externalId": "1feAPZZ6MkC38ZBA2ckPsnevbjszra4iu"
+    },
+    {
+      "folder": "2",
+      "filename": "05108.jpg",
+      "externalId": "1eRBAgu8BFNbKvbRwzENQp0AwcpnZPJFR"
+    },
+    {
+      "folder": "2",
+      "filename": "56614.jpg",
+      "externalId": "133bdiAtAuJgHRy7hCDG1pFAXaKD_DbtI"
+    }
+  ],
+  "setlist": []
+}

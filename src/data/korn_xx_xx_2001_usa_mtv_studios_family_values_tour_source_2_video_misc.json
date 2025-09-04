@@ -18,11 +18,11 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "MTV Studios",
-    "venue": "Family Values Tour",
-    "event": ""
+    "country": "USA",
+    "venue": "MTV Studios",
+    "event": "Family Values Tour"
   },
   "tvChannel": "MTV",
   "showName": "",
@@ -121,5 +121,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_2001_usa_mtv_studios_family_values_tour_source_2_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_2001_usa_mtv_studios_family_values_tour_source_2_video_misc/"
 }

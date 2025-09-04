@@ -34,7 +34,7 @@
   "public": true,
   "ownIdentifier": "HDD#J",
   "tradeLabel": "",
-  "authoredBy": "",
+  "authoredBy": "WVMonster",
   "transferredBy": "",
   "notes": "Very steady filming with no obstructions. Taper primarily films the big screen, but towards the later part of the show he films the stage with some great zooms.  Livemet audio. Some songs are cut but the audio continues.",
   "tapers": [
@@ -64,16 +64,20 @@
         "letterboxed": false
       }
     ],
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
     }
   },
   "relatedShows": [],
@@ -100,5 +104,87 @@
       "externalId": "1-NuG_aMBbOLNsF1GqHoD64Mibbd_cyxR"
     }
   ],
-  "setlist": []
+  "setlist": [
+      {
+          "order": 1,
+          "song": "Ecstasy Of Gold",
+          "feat": "",
+          "note": "tape",
+          "comment": "Ennio Morricone song",
+          "coverOf": ""
+      },
+      {
+          "order": 2,
+          "song": "Creeping Death",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 3,
+          "song": "For Whom The Bell Tolls",
+          "feat": "",
+          "note": "incomplete",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 4,
+          "song": "Fade To Black",
+          "feat": "",
+          "note": "incomplete",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 5,
+          "song": "Bass Solo",
+          "feat": "",
+          "note": "",
+          "comment": "audio only",
+          "coverOf": ""
+      },
+      {
+          "order": 6,
+          "song": "Welcome Home (Sanitarium)",
+          "feat": "",
+          "note": "incomplete",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 7,
+          "song": "One",
+          "feat": "",
+          "note": "incomplete",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 8,
+          "song": "Master Of Puppets",
+          "feat": "",
+          "note": "incomplete",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 9,
+          "song": "Enter Sandman",
+          "feat": "",
+          "note": "incomplete",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 10,
+          "song": "Seek And Destroy",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      }
+  ],
+  "extras": []
 }

@@ -18,13 +18,13 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "MTV2 Special",
+    "country": "USA",
     "venue": "",
-    "event": ""
+    "event": "MTV2 Special"
   },
-  "tvChannel": "MTV",
+  "tvChannel": "MTV2",
   "showName": "Zane Meets Metallica Show",
   "source": "",
   "category": [
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "metallica_xx_xx_2008_usa_mtv2_special_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/metallica_xx_xx_2008_usa_mtv2_special_video_misc/"
 }

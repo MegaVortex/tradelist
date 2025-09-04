@@ -32,11 +32,11 @@
   ],
   "master": false,
   "public": true,
-  "ownIdentifier": "HDD#C",
+  "ownIdentifier": "HDD#O",
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "PRO#1.",
+  "notes": "AMT#1.",
   "tapers": [],
   "specs": {
     "media": [
@@ -44,21 +44,16 @@
         "type": "DVD-5",
         "size": 1.27,
         "unit": "Gb"
-      },
-      {
-        "type": "CD",
-        "size": 604,
-        "unit": "Mb"
       }
     ],
     "chapters": true,
     "menu": false,
-    "length": 1049,
+    "length": 2023,
     "video": [
       {
-        "tvFormat": "PAL",
+        "tvFormat": "NTSC",
         "ratio": "4:3",
-        "resolution": "720x576",
+        "resolution": "720x480",
         "bitrateType": "VBR",
         "bitrateKbps": null,
         "fps": "",
@@ -69,7 +64,7 @@
     ],
     "audio": [
       {
-        "language": "en",
+        "language": "",
         "codec": "AC3",
         "rateHz": null,
         "bitrateKbps": null,
@@ -77,7 +72,7 @@
       }
     ],
     "sourceDetail": {
-      "recordingType": "PRO",
+      "recordingType": "AMT",
       "sourceMediaType": "VHS",
       "finalMediaType": "",
       "fileFormat": "DVD"
@@ -109,45 +104,8 @@
       "folder": "29",
       "filename": "19666312.jpg",
       "externalId": "18AwYRvGUPpAMBrlsQCFPuDHDBHy5MMSd"
-    },
-    {
-      "folder": "29",
-      "filename": "40707156.jpg",
-      "externalId": "1Eb0Ye6H0wFumvqRd-S6Cwqzxw3wg8anP"
-    },
-    {
-      "folder": "29",
-      "filename": "83471082.jpg",
-      "externalId": "1BnUkDvJA2D5KAY-ttdKYwaUZzxMXevoe"
-    },
-    {
-      "folder": "29",
-      "filename": "41996382.jpg",
-      "externalId": "11IetHUODF17w0azSQrjVR7U8LsrIkVq2"
-    },
-    {
-      "folder": "29",
-      "filename": "03999098.jpg",
-      "externalId": "16xETRY-n4l2tCFKoPiHQSRSCZFe8ZkX4"
     }
   ],
-  "setlist": [
-    {
-      "order": 1,
-      "song": "Press Conference",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "Give It Away",
-      "feat": "",
-      "note": "incomplete",
-      "comment": "",
-      "coverOf": ""
-    }
-  ],
+  "setlist": [],
   "extras": []
 }

@@ -1,0 +1,220 @@
+{
+  "originalTitle": "Slipknot - 21.07.2001 - Camden - NJ - USA - Tweety Center (Source 1)",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "07",
+    "year": "2001"
+  },
+  "startDateUnix": 995673600,
+  "endDate": {
+    "day": "21",
+    "month": "07",
+    "year": "2001"
+  },
+  "endDateUnix": 995673600,
+  "location": {
+    "city": "Camden",
+    "state": "NJ",
+    "country": "USA",
+    "venue": "Tweety Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Center angle.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.69,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3480,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "3",
+      "filename": "4583980.jpg",
+      "externalId": "1GBNRiWRb3SZda09fnBu0ceTXmZMFD2Qv"
+    },
+    {
+      "folder": "3",
+      "filename": "3216374.jpg",
+      "externalId": "15r2N0fqxFXIOPLZdlwOX53M5H6L4jPd7"
+    },
+    {
+      "folder": "3",
+      "filename": "0022372.jpg",
+      "externalId": "1BIiNIdl3IQ2mSEGFyafD5J7k828fdtDW"
+    },
+    {
+      "folder": "3",
+      "filename": "6808718.jpg",
+      "externalId": "1VRbzWDnSCnwR6nydeKTgo7XNVtIwf_mF"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "(515)",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "People = Shit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Liberate",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Eeyore",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Disasterpiece",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Purity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Eyeless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "New Abortion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "The Heretic Anthem",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Spit It Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Wait and Bleed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "742617000027",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "(Sic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Surfacing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

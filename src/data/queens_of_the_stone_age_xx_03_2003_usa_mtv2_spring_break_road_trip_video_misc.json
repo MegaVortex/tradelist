@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "MTV2 Spring Break Road Trip",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
-  "tvChannel": "MTV",
-  "showName": "",
+  "tvChannel": "MTV2",
+  "showName": "Spring Break Road Trip",
   "source": "",
   "category": [
     "video",
@@ -128,5 +128,8 @@
       "coverOf": "",
       "comment": ""
     }
-  ]
+  ],
+  "fileSlug": "queens_of_the_stone_age_xx_03_2003_usa_mtv2_spring_break_road_trip_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/queens_of_the_stone_age_xx_03_2003_usa_mtv2_spring_break_road_trip_video_misc/"
 }

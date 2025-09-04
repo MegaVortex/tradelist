@@ -37,7 +37,9 @@
   "authoredBy": "",
   "transferredBy": "",
   "notes": "",
-  "tapers": [],
+  "tapers": [
+    "r4d3cki"
+  ],
   "specs": {
     "media": [
       {
@@ -55,23 +57,27 @@
         "ratio": "",
         "resolution": "1280x720",
         "bitrateType": "",
-        "bitrateKbps": 1536,
+        "bitrateKbps": null,
         "fps": "50.00",
         "standard": "MPG2",
         "codec": "",
         "letterboxed": false
       }
     ],
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
     }
   },
   "relatedShows": [
@@ -101,5 +107,55 @@
       "externalId": "1BsYqMIYTstjKxTBQIQYwXxD9ADgMsjnt"
     }
   ],
-  "setlist": []
+  "setlist": [
+      {
+          "order": 1,
+          "song": "Sad But True",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 2,
+          "song": "Bass Solo",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 3,
+          "song": "Enter Sandman",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 4,
+          "song": "Fight Fire With Fire",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 5,
+          "song": "One",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 6,
+          "song": "Seek And Destroy",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      }
+  ],
+  "extras": []
 }

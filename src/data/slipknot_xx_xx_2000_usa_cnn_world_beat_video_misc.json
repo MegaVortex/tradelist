@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "CNN World Beat",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "CNN World Beat",
   "source": "",
   "category": [
     "video",
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_xx_xx_2000_usa_cnn_world_beat_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_xx_xx_2000_usa_cnn_world_beat_video_misc/"
 }

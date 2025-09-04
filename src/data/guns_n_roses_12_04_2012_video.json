@@ -62,16 +62,20 @@
         "letterboxed": false
       }
     ],
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
     }
   },
   "relatedShows": [],
@@ -101,10 +105,10 @@
   "setlist": [
     {
       "order": 1,
-      "song": "Guns N' Roses Induction (by Green Day)",
+      "song": "Guns N' Roses Induction",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "By Green Day",
       "coverOf": ""
     },
     {

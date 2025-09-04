@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "MTV News 1515",
-    "venue": "Rock Is Dead TV Special",
+    "country": "USA",
+    "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "MTV News 1515",
   "source": "",
   "category": [
     "video",
@@ -37,7 +37,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "",
+  "notes": "Rock Is Dead TV Special.",
   "tapers": [],
   "specs": {
     "media": [
@@ -118,5 +118,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_1999_usa_mtv_news_1515_rock_is_dead_tv_special_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_1999_usa_mtv_news_1515_rock_is_dead_tv_special_video_misc/"
 }

@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Fuse TV",
-    "venue": "Uranium",
-    "event": "Juliya's Diary"
+    "country": "USA",
+    "venue": "",
+    "event": ""
   },
   "tvChannel": "Fuse TV",
-  "showName": "",
+  "showName": "Juliya's Diary",
   "source": "",
   "category": [
     "video",
@@ -34,10 +34,10 @@
   "master": false,
   "public": true,
   "ownIdentifier": "HDD#C",
-  "tradeLabel": "",
+  "tradeLabel": "RT",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "",
+  "notes": "Uranium.",
   "tapers": [],
   "specs": {
     "media": [
@@ -143,5 +143,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_2002_usa_fuse_tv_uranium_juliya_s_diary_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_2002_usa_fuse_tv_uranium_juliya_s_diary_video_misc/"
 }

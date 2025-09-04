@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "'Nirvana In The Nineties'",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Nirvana In The Nineties",
   "source": "",
   "category": [
     "video",
@@ -129,5 +129,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "nirvana_xx_xx_xxxx_nirvana_in_the_nineties_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/nirvana_xx_xx_xxxx_nirvana_in_the_nineties_video_misc/"
 }

@@ -33,7 +33,7 @@
   "master": false,
   "public": true,
   "ownIdentifier": "HDD#C",
-  "tradeLabel": "",
+  "tradeLabel": "NT",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "Official DVD - NT.",
@@ -97,11 +97,7 @@
       "fileFormat": "DVD"
     }
   },
-  "relatedShows": [
-    "metallica_25_07_2009_video",
-    "metallica_14_06_2009_source_2_video",
-    "metallica_15_06_2009_source_1_video"
-  ],
+  "relatedShows": [],
   "childOf": "",
   "images": [
     {
@@ -123,93 +119,182 @@
       "folder": "27",
       "filename": "90803008.jpg",
       "externalId": "1vl_mzwW2pMgEtJ01TwgckjM714NSbcCB"
-    },
-    {
-      "folder": "27",
-      "filename": "95892311.jpg",
-      "externalId": "1R6dUdFaRXFQYsM1o5Ex0HuvPLkQD4Cnn"
-    },
-    {
-      "folder": "27",
-      "filename": "73817646.jpg",
-      "externalId": "1vZeteyeaowZY-6KlpVrbb2M60pKBcP6s"
-    },
-    {
-      "folder": "27",
-      "filename": "40341628.jpg",
-      "externalId": "1K3DAMQuXYAw66CpRmNRBQlNyZiAHI5AN"
-    },
-    {
-      "folder": "27",
-      "filename": "96376960.jpg",
-      "externalId": "17mdDvLs_s00L-ClVXLmLHp6tU01xj1bp"
-    },
-    {
-      "folder": "27",
-      "filename": "70788636.jpg",
-      "externalId": "18dNrEPIEHBKzJsXLaa0vomgwRbjts4Hj"
-    },
-    {
-      "folder": "27",
-      "filename": "42975109.jpg",
-      "externalId": "1U34Jdk6QFfqfBAB2pnyn-JCJoXY8xUx6"
-    },
-    {
-      "folder": "27",
-      "filename": "66032972.jpg",
-      "externalId": "1UDsCfDM82AGQWmrABQtzleLqPQgfwMU5"
-    },
-    {
-      "folder": "27",
-      "filename": "17256968.jpg",
-      "externalId": "1Q0opPlXrO5YC8Y-wV7HxTxzz1xBZDGXi"
-    },
-    {
-      "folder": "27",
-      "filename": "67088595.jpg",
-      "externalId": "1qLyLNT3Frf9slLgIVPvlzGDvQWgQmHqq"
-    },
-    {
-      "folder": "27",
-      "filename": "09549328.jpg",
-      "externalId": "1fg0ZYc-vnf3oh-8LsFI2-PxB_WFI1xKt"
-    },
-    {
-      "folder": "27",
-      "filename": "64226405.jpg",
-      "externalId": "11nzaDTXOGzhURz5LDg9l-DkwQ21wts9_"
-    },
-    {
-      "folder": "27",
-      "filename": "84170039.jpg",
-      "externalId": "1tJJ5B9u9pCCufcDX3A5DOWtVcohppqUD"
-    },
-    {
-      "folder": "27",
-      "filename": "74653781.jpg",
-      "externalId": "1eEFw0xPk47-6jIX5qxPgqUANPvDFCOxn"
-    },
-    {
-      "folder": "27",
-      "filename": "87088893.jpg",
-      "externalId": "1dtItLDWHIIKE2zT8He6BWum2gFNpBOvJ"
-    },
-    {
-      "folder": "27",
-      "filename": "90762430.jpg",
-      "externalId": "1lJ-lwlU8rbQggg_OXFbGGjE3qw5q4_lQ"
-    },
-    {
-      "folder": "27",
-      "filename": "43615438.jpg",
-      "externalId": "1cCadRpraZ2RmnE6DJbWO6NnmjmubYlLj"
     }
   ],
-  "setlist": [],
+  "setlist": [
+      {
+          "order": 1,
+          "song": "Ecstasy Of Gold",
+          "feat": "",
+          "note": "tape",
+          "comment": "",
+          "coverOf": "Ennio Morricone song"
+      },
+      {
+          "order": 2,
+          "song": "The Call Of Ktulu",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 3,
+          "song": "Master Of Puppets",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 4,
+          "song": "Of Wolf And Man",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 5,
+          "song": "The Thing That Should Not Be",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 6,
+          "song": "Fuel",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 7,
+          "song": "The Memory Remains",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 8,
+          "song": "No Leaf Clover",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 9,
+          "song": "Hero Of The Day",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 10,
+          "song": "Devil's Dance",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 11,
+          "song": "Bleeding Me",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 12,
+          "song": "Nothing Else Matters",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 13,
+          "song": "Until It Sleeps",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 14,
+          "song": "For Whom The Bell Tolls",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 15,
+          "song": "Human",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 16,
+          "song": "Wherever I May Roam",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 17,
+          "song": "Outlaw Torn",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 18,
+          "song": "Sad But True",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 19,
+          "song": "One",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 20,
+          "song": "Enter Sandman",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 21,
+          "song": "Battery",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      }
+  ],
   "extras": [
     {
       "order": 1,
-      "song": "Intro",
+      "song": "Angels",
       "feat": "",
       "note": "",
       "coverOf": "",
@@ -217,7 +302,7 @@
     },
     {
       "order": 2,
-      "song": "Creeping Death",
+      "song": "Documentary",
       "feat": "",
       "note": "",
       "coverOf": "",
@@ -225,79 +310,15 @@
     },
     {
       "order": 3,
-      "song": "Ride The Lightning",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 4,
-      "song": "Disposable Heroes",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 5,
-      "song": "Unforgiven",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 6,
-      "song": "The Memory Remains",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 7,
       "song": "No Leaf Clover",
       "feat": "",
       "note": "",
       "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 2,
-      "song": "Battery",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 3,
-      "song": "One",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 2,
-      "song": "That Was Just Your Life",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 3,
-      "song": "Bellz",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
+      "comment": "The Maestro Section"
     },
     {
       "order": 4,
-      "song": "One",
+      "song": "Angels",
       "feat": "",
       "note": "",
       "coverOf": "",
@@ -305,35 +326,11 @@
     },
     {
       "order": 5,
-      "song": "The Day That Never Comes",
+      "song": "No Leaf Clover",
       "feat": "",
       "note": "",
       "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 6,
-      "song": "Nothing Else Matters",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 7,
-      "song": "Enter Sandman",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 8,
-      "song": "Seek And Destroy",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
+      "comment": "music video"
     }
   ]
 }

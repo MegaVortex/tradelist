@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Aborted - 07.09.2001 - Zaandam - Netherlands",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Aborted"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "09",
+    "year": "2001"
+  },
+  "startDateUnix": 999820800,
+  "endDate": {
+    "day": "07",
+    "month": "09",
+    "year": "2001"
+  },
+  "endDateUnix": 999820800,
+  "location": {
+    "city": "Zaandam",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.23,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1305,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "89902681.jpg",
+      "externalId": "1BWtr1qW0kI2W05dPqNebALKOKuXg2K_w"
+    },
+    {
+      "folder": "5",
+      "filename": "31187390.jpg",
+      "externalId": "1WrlJB5YBoWt_uCxs4cWdKQG8zCaijZ4v"
+    },
+    {
+      "folder": "5",
+      "filename": "71026941.jpg",
+      "externalId": "1FLaX_g6wW_HBCyvbYv52vcrXTpWSnVn2"
+    },
+    {
+      "folder": "5",
+      "filename": "54673371.jpg",
+      "externalId": "13iwpfG-nSXeXKyrsYYYX4QfMNnvB1bv3"
+    }
+  ],
+  "setlist": []
+}

@@ -18,11 +18,11 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Mayhem Festival",
+    "country": "USA",
     "venue": "",
-    "event": ""
+    "event": "Mayhem Festival"
   },
   "tvChannel": "",
   "showName": "",
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_xx_xx_2008_usa_mayhem_festival_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_xx_xx_2008_usa_mayhem_festival_video_misc/"
 }

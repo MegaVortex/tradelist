@@ -36,7 +36,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "Steady shot. On the same disc - \"Montfaucon - 25.06.2010 - Moscow - Russia - Aktoviy Zal\" and \"Flawless Victory - 25.06.2010 - Moscow - Russia - Aktoviy Zal\".",
+  "notes": "Steady shot.",
   "tapers": [],
   "specs": {
     "media": [
@@ -78,7 +78,10 @@
       "fileFormat": "DVD"
     }
   },
-  "relatedShows": [],
+  "relatedShows": [
+    "flawless_victory_25_06_2010_video",
+    "montfaucon_25_06_2010_video"
+  ],
   "childOf": "",
   "images": [
     {

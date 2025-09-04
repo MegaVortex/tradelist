@@ -24,7 +24,7 @@
     "venue": "BBC TV Centre",
     "event": ""
   },
-  "tvChannel": "",
+  "tvChannel": "BBC",
   "showName": "Jools Holland Show",
   "source": "",
   "category": [
@@ -32,11 +32,11 @@
   ],
   "master": false,
   "public": true,
-  "ownIdentifier": "HDD#F",
+  "ownIdentifier": "",
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "PRO#1. MTV broadcast. Re",
+  "notes": "",
   "tapers": [],
   "specs": {
     "media": [
@@ -44,32 +44,27 @@
         "type": "CD",
         "size": 584,
         "unit": "Mb"
-      },
-      {
-        "type": "CD",
-        "size": 553,
-        "unit": "Mb"
       }
     ],
     "chapters": false,
-    "menu": true,
-    "length": 496,
+    "menu": false,
+    "length": 532,
     "video": [
       {
-        "tvFormat": "PAL",
-        "ratio": "4:3",
-        "resolution": "720x576",
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
         "bitrateType": "VBR",
         "bitrateKbps": null,
         "fps": "",
         "standard": "",
         "codec": "",
-        "letterboxed": false
+        "letterboxed": true
       }
     ],
     "audio": [
       {
-        "language": "en",
+        "language": "",
         "codec": "AC3",
         "rateHz": null,
         "bitrateKbps": null,
@@ -78,7 +73,7 @@
     ],
     "sourceDetail": {
       "recordingType": "PRO",
-      "sourceMediaType": "VHS",
+      "sourceMediaType": "",
       "finalMediaType": "",
       "fileFormat": "DVD"
     }
@@ -105,113 +100,8 @@
       "folder": "6",
       "filename": "54942272.jpg",
       "externalId": "1NcSYILxLNmSiWcImkZOiyyQOu8CEWUMf"
-    },
-    {
-      "folder": "6",
-      "filename": "48612046.jpg",
-      "externalId": "1Qf4hNXQceC84Nm06h_epQh5sFPMfhjdJ"
-    },
-    {
-      "folder": "6",
-      "filename": "87372568.jpg",
-      "externalId": "11q4IvC_dIdOuhvFPA01Om0AsjSZ2Uxr5"
-    },
-    {
-      "folder": "6",
-      "filename": "80736047.jpg",
-      "externalId": "1Ykwz7Xv0REpXuvG9NQ5NygdRBcR_aWZM"
-    },
-    {
-      "folder": "6",
-      "filename": "79582197.jpg",
-      "externalId": "1PG-cCh-2dOSDCB0Ng5oZjF5UIv4gCNQ4"
-    },
-    {
-      "folder": "6",
-      "filename": "46339162.jpg",
-      "externalId": "1BYc6ts-wTxUc3xh7IPbx6FxL7uGUzXNo"
-    },
-    {
-      "folder": "6",
-      "filename": "51546717.jpg",
-      "externalId": "1qRNvYG1Sf_lqvpCjUqoEfUmHm2dksa_E"
-    },
-    {
-      "folder": "6",
-      "filename": "61492884.jpg",
-      "externalId": "1s7jGsi5-8ewIFBjiACMdirlrsa4l4kyl"
-    },
-    {
-      "folder": "6",
-      "filename": "22886222.jpg",
-      "externalId": "175BLcdMLFPBBMkXgmLYO9HhK6ukeBckY"
     }
   ],
-  "setlist": [
-    {
-      "order": 1,
-      "song": "Monkey Wrench",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "Everlong",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 1,
-      "song": "Intro/Jam",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "The Pretender",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 3,
-      "song": "My Hero",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 4,
-      "song": "Times Like These",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 5,
-      "song": "Wheels",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 6,
-      "song": "Times Like These",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    }
-  ],
+  "setlist": [],
   "extras": []
 }

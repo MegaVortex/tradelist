@@ -46,16 +46,11 @@
         "type": "CD",
         "size": 287,
         "unit": "Mb"
-      },
-      {
-        "type": "Floppy",
-        "size": 1.38,
-        "unit": "Mb"
       }
     ],
     "chapters": false,
     "menu": false,
-    "length": null,
+    "length": 2956,
     "video": {
       "format": "",
       "ratio": "",
@@ -64,16 +59,20 @@
       "bitrateKbps": null,
       "letterboxed": false
     },
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "FLAC",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
     }
   },
   "relatedShows": [],

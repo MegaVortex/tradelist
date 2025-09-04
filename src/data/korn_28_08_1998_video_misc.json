@@ -20,12 +20,12 @@
   "location": {
     "city": "NJ",
     "state": "USA",
-    "country": "MuchMusic TV Special",
-    "venue": "Korn Kampaign",
+    "country": "",
+    "venue": "",
     "event": ""
   },
   "tvChannel": "MuchMusic",
-  "showName": "",
+  "showName": "Korn Kampaign",
   "source": "",
   "category": [
     "video",
@@ -37,7 +37,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "",
+  "notes": "MuchMusic TV Special.",
   "tapers": [],
   "specs": {
     "media": [
@@ -119,5 +119,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_28_08_1998_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_28_08_1998_video_misc/"
 }

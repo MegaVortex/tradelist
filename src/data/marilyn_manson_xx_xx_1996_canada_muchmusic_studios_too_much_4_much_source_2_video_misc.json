@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Canada",
+    "city": "",
     "state": "",
-    "country": "MuchMusic Studios",
-    "venue": "Too Much 4 Much",
+    "country": "Canada",
+    "venue": "MuchMusic Studios",
     "event": ""
   },
   "tvChannel": "MuchMusic",
-  "showName": "",
+  "showName": "Too Much 4 Much",
   "source": "Source 2",
   "category": [
     "video",
@@ -115,5 +115,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "marilyn_manson_xx_xx_1996_canada_muchmusic_studios_too_much_4_much_source_2_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/marilyn_manson_xx_xx_1996_canada_muchmusic_studios_too_much_4_much_source_2_video_misc/"
 }

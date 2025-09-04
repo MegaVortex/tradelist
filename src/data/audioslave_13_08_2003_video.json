@@ -19,10 +19,10 @@
   "endDateUnix": 1060732800,
   "location": {
     "city": "Greenwood Village",
-    "state": "",
-    "country": "Inglewood",
-    "venue": "CO",
-    "event": "USA - Fiddler's Green Amphitheatre"
+    "state": "CO",
+    "country": "USA",
+    "venue": "Fiddler's Green Amphitheatre",
+    "event": ""
   },
   "tvChannel": "",
   "showName": "",
@@ -192,5 +192,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "audioslave_13_08_2003_video",
+  "isRegular": true,
+  "permalink": "/shows/audioslave_13_08_2003_video/"
 }

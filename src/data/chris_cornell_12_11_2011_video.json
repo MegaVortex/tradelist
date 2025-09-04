@@ -1,0 +1,220 @@
+{
+  "originalTitle": "Chris Cornell - 12.11.2011 - Santiago - Chile - Club Hipico - Maquinaria Festival",
+  "created": 1754761564,
+  "lastUpdated": 1754761564,
+  "bands": [
+    "Chris Cornell"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "11",
+    "year": "2011"
+  },
+  "startDateUnix": 1321056000,
+  "endDate": {
+    "day": "12",
+    "month": "11",
+    "year": "2011"
+  },
+  "endDateUnix": 1321056000,
+  "location": {
+    "city": "Santiago",
+    "state": "",
+    "country": "Chile",
+    "venue": "Club Hipico",
+    "event": "Maquinaria Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.8,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3693,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "59.94",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "62481475.jpg",
+      "externalId": "1lnrwZi6sajzwcwilcJb65WwpnTDOgxtO"
+    },
+    {
+      "folder": "27",
+      "filename": "12903340.jpg",
+      "externalId": "1-N-i86GdeLgsgxeXT0z1VyhCW09RtQN6"
+    },
+    {
+      "folder": "27",
+      "filename": "63347359.jpg",
+      "externalId": "14VW3gbEX6K7n-ISIC94ZzvnsXxtxvmuF"
+    },
+    {
+      "folder": "27",
+      "filename": "53304471.jpg",
+      "externalId": "1odC6lHhE0lgkNV0jq0w65gE1QAZbxTZq"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "(What's So Funny 'Bout) Peace, Love And Understanding? (Brinsley Schwarz cover)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wide Awake",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Audioslave"
+    },
+    {
+      "order": 3,
+      "song": "Can't Change Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Fell On Black Days",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Soundgarden"
+    },
+    {
+      "order": 4,
+      "song": "Wooden Jesus",
+      "feat": "Alain Johannes",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Hunger Strike",
+      "feat": "Alain Johannes",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Like A Stone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Audioslave"
+    },
+    {
+      "order": 7,
+      "song": "Black Hole Sun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Soundgarden"
+    },
+    {
+      "order": 8,
+      "song": "Doesn't Remind Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Audioslave"
+    },
+    {
+      "order": 9,
+      "song": "Call Me A Dog",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Temple Of The Dog"
+    },
+    {
+      "order": 10,
+      "song": "Thank You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Led Zeppelin"
+    },
+    {
+      "order": 11,
+      "song": "Imagine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "John Lennon"
+    },
+    {
+      "order": 12,
+      "song": "A Day In The Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "The Beatles"
+    },
+    {
+      "order": 13,
+      "song": "Blow Up The Outside World",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Soundgarden"
+    }
+  ],
+  "extras": []
+}

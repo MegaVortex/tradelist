@@ -36,7 +36,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "This bootleg is a mix of three shows: \"Bon Jovi - 26.05.2010 - East Rutherford - NJ - USA - New Meadowlands Stadium\", \"Bon Jovi - 27.05.2010 - East Rutherford - NJ - USA - New Meadowlands Stadium\" and \"Bon Jovi - 29.05.2010 - East Rutherford - NJ - USA - New Meadowlands Stadium (Source 2)\".",
+  "notes": "This bootleg is a mix of three shows.",
   "tapers": [],
   "specs": {
     "media": [
@@ -46,30 +46,42 @@
         "unit": "Gb"
       }
     ],
-    "chapters": false,
-    "menu": false,
-    "length": null,
-    "video": {
-      "format": "",
-      "ratio": "",
-      "resolution": "",
-      "bitrateType": "",
-      "bitrateKbps": null,
-      "letterboxed": false
-    },
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "chapters": true,
+    "menu": true,
+    "length": 4041,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
     }
   },
-  "relatedShows": [],
+  "relatedShows": [
+    "bon_jovi_26_05_2010_video",
+	"bon_jovi_29_05_2010_source_2_video"
+  ],
   "childOf": "",
   "images": [
     {

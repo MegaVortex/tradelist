@@ -1,0 +1,155 @@
+{
+  "originalTitle": "Chuck Berry - 16.11.1977 - Hollywood - CA - USA - Aquarius Theatre - 'Don Kirshner's Rock Concert'",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Chuck Berry"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "11",
+    "year": "1977"
+  },
+  "startDateUnix": 248486400,
+  "endDate": {
+    "day": "16",
+    "month": "11",
+    "year": "1977"
+  },
+  "endDateUnix": 248486400,
+  "location": {
+    "city": "Hollywood",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Aquarius Theatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Don Kirshner's Rock Concert",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.24,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1082,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "4",
+      "filename": "75770651.jpg",
+      "externalId": "1OLUuT4U5DHEBPPgC9z0GO418iO-cg4-A"
+    },
+    {
+      "folder": "4",
+      "filename": "41235005.jpg",
+      "externalId": "1xNrKI1d7kbeuPCRI91X0mkE3sIXI05-e"
+    },
+    {
+      "folder": "4",
+      "filename": "23684264.jpg",
+      "externalId": "1TIku6zQc1SeXhRCZoFa_vRHbKgIX-TkO"
+    },
+    {
+      "folder": "4",
+      "filename": "00608187.jpg",
+      "externalId": "1GL8LoP8tUhzSbV7CNuggzjGdq11vQVAf"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Roll Over Beethoven",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "School Days",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Back In The USA Into Oh Carol",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Sweet Little Sixteen",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Nadine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

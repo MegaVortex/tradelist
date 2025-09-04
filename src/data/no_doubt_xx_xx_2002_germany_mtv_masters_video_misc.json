@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Germany",
+    "city": "",
     "state": "",
-    "country": "MTV Masters",
+    "country": "Germany",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "MTV Masters",
   "source": "",
   "category": [
     "video",
@@ -137,5 +137,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "no_doubt_xx_xx_2002_germany_mtv_masters_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/no_doubt_xx_xx_2002_germany_mtv_masters_video_misc/"
 }

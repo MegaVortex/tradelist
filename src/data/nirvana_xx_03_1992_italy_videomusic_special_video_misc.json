@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Italy",
+    "city": "",
     "state": "",
-    "country": "Videomusic Special",
+    "country": "Italy",
     "venue": "",
     "event": ""
   },
   "tvChannel": "Videomusic",
-  "showName": "",
+  "showName": "Videomusic Special",
   "source": "",
   "category": [
     "video",
@@ -80,9 +80,7 @@
     }
   },
   "relatedShows": [
-    "nirvana_xx_04_1994_italy_videomusic_special_video_misc",
-    "a_img4_td_tr_tbody_table_div_div_div_div_div_setlist_div_div_div_div_1_interview_div_div_2_negative_creep_div_div_3_breed_aneurysm_div_div_4_interview_div_div_5_school_div_div_6_smells_like_teen_spirit_div_div_1439485708_0_nirvana_xx_03_1992_videomusic_special_misc_8_4523_0_0_0_biohazard_28_05_1993_source_1_video",
-    "biohazard_28_05_1993_source_1_video"
+    "nirvana_xx_04_1994_italy_videomusic_special_video_misc"
   ],
   "childOf": "",
   "images": [
@@ -105,43 +103,23 @@
       "folder": "22",
       "filename": "44338626.jpg",
       "externalId": "1uJbRI93dQdvXysGtQJaPmP2hnUXgOkgp"
-    },
-    {
-      "folder": "22",
-      "filename": "65668239.jpg",
-      "externalId": "1uN7UAE3shPDqIHeDmgRB4bxQ-kcSaDoi"
-    },
-    {
-      "folder": "22",
-      "filename": "48956391.jpg",
-      "externalId": "1rP21wQICsdpUUxBwMe16XPU_mRLop7ry"
-    },
-    {
-      "folder": "22",
-      "filename": "59885764.jpg",
-      "externalId": "1Vo4XlTH9Dvw5TmqLb0EWZhxZUAOc8Ltj"
-    },
-    {
-      "folder": "22",
-      "filename": "41990665.jpg",
-      "externalId": "1dRA6dxfaWS9uDFgdtm4IPc3_yR0QBWIP"
     }
   ],
   "setlist": [
     {
       "order": 1,
-      "song": "Interview (11.19.1991 - Rome - Italy - Castle Theater)",
+      "song": "Interview",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "1991-11-19 - Rome - Italy - Castle Theater",
       "coverOf": ""
     },
     {
       "order": 2,
-      "song": "Negative Creep (11.19.1991 - Rome - Italy - Castle Theater)",
+      "song": "Negative Creep",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "1991-11-19 - Rome - Italy - Castle Theater",
       "coverOf": ""
     },
     {
@@ -149,15 +127,15 @@
       "song": "Breed / Aneurysm",
       "feat": "",
       "note": "incomplete",
-      "comment": "",
+      "comment": "1991-11-19 - Rome - Italy - Castle Theater",
       "coverOf": ""
     },
     {
       "order": 4,
-      "song": "Interview (02.11.1991 - Headbanger's Ball Episode)",
+      "song": "Interview",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "1991-11-02 - Headbanger's Ball Episode",
       "coverOf": ""
     },
     {
@@ -165,7 +143,7 @@
       "song": "School",
       "feat": "",
       "note": "incomplete",
-      "comment": "",
+      "comment": "1991-11-19 - Rome - Italy - Castle Theater",
       "coverOf": ""
     },
     {
@@ -173,71 +151,7 @@
       "song": "Smells Like Teen Spirit",
       "feat": "",
       "note": "incomplete",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 1,
-      "song": "Victory",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "Chamber Spins Three",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 3,
-      "song": "Business",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 4,
-      "song": "Black And White And Red All Over",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 5,
-      "song": "Shades Of Grey",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 6,
-      "song": "Wrong Side Of The Tracks",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 7,
-      "song": "Punishment",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 8,
-      "song": "Hold My Own",
-      "feat": "",
-      "note": "",
-      "comment": "",
+      "comment": "1991-11-19 - Rome - Italy - Castle Theater",
       "coverOf": ""
     }
   ],

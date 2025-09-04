@@ -30,14 +30,16 @@
   "category": [
     "video"
   ],
-  "master": false,
+  "master": true,
   "public": true,
   "ownIdentifier": "HDD#O",
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "KROQ Almost Acoustic Christmas. First concert with Daron Malakian's Ibanez Iceman guitar since 2004. This was the only System Of A Down gig in 2014. \"Sugar\" song has been performed with guest guitarist Christopher as part of a \"Make-A-Wish Foundation\".",
-  "tapers": [],
+  "tapers": [
+    "Vortex"
+  ],
   "specs": {
     "media": [
       {
@@ -232,5 +234,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "system_of_a_down_13_12_2014_source_1_video",
+  "isRegular": true,
+  "permalink": "/shows/system_of_a_down_13_12_2014_source_1_video/"
 }

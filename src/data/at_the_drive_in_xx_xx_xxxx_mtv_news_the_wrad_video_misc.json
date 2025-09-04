@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "MTV News",
+    "city": "",
     "state": "",
-    "country": "The Wrad",
+    "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "The Wrad",
   "source": "",
   "category": [
     "video",
@@ -37,7 +37,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "TV report. VCD sourced.",
+  "notes": "MTV News. VCD sourced.",
   "tapers": [],
   "specs": {
     "media": [
@@ -115,5 +115,8 @@
       "externalId": "1V1YYDrDRdGtJQKpGsGq9NkM8nkUXXkkI"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "at_the_drive_in_xx_xx_xxxx_mtv_news_the_wrad_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/at_the_drive_in_xx_xx_xxxx_mtv_news_the_wrad_video_misc/"
 }

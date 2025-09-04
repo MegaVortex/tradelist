@@ -18,14 +18,14 @@
   },
   "endDateUnix": 1132963200,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Headbanger's Ball Episode",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Headbanger's Ball",
   "source": "",
   "category": [
     "video",
@@ -119,5 +119,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_26_11_2005_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_26_11_2005_video_misc/"
 }

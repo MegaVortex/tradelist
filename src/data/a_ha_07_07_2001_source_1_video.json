@@ -36,7 +36,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "On the same disc - \"A-ha - 03.06.2001 - Nuernberg - Germany - Rock Im Park Festival\" and \"A-ha - 07.07.2001 - Stuttgart - Germany - SWR Festival (Source 2)\".",
+  "notes": "",
   "tapers": [],
   "specs": {
     "media": [
@@ -78,7 +78,10 @@
       "fileFormat": "DVD"
     }
   },
-  "relatedShows": [],
+  "relatedShows": [
+    "a_ha_07_07_2001_source_2_video",
+	"a_ha_03_06_2001_video"
+  ],
   "childOf": "",
   "images": [
     {

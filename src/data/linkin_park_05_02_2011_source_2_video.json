@@ -22,10 +22,10 @@
     "state": "NY",
     "country": "USA",
     "venue": "Rockefeller Center",
-    "event": "NBC Studios - Saturday Night Live"
+    "event": ""
   },
   "tvChannel": "NBC",
-  "showName": "",
+  "showName": "Saturday Night Live",
   "source": "Source 2",
   "category": [
     "video"
@@ -120,5 +120,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "linkin_park_05_02_2011_source_2_video",
+  "isRegular": true,
+  "permalink": "/shows/linkin_park_05_02_2011_source_2_video/"
 }

@@ -18,14 +18,14 @@
   },
   "endDateUnix": 612662400,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Justice On Wheels Special",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Justice On Wheels Special",
   "source": "",
   "category": [
     "video",
@@ -128,5 +128,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "metallica_01_06_1989_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/metallica_01_06_1989_video_misc/"
 }

@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Red Hot Chili Peppers - 25.08.2007 - Reading - England - Reading Festival (Source 2)",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Red Hot Chili Peppers"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "08",
+    "year": "2007"
+  },
+  "startDateUnix": 1188000000,
+  "endDate": {
+    "day": "25",
+    "month": "08",
+    "year": "2007"
+  },
+  "endDateUnix": 1188000000,
+  "location": {
+    "city": "Reading",
+    "state": "",
+    "country": "England",
+    "venue": "",
+    "event": "Reading Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "PRO#1b. \"Red Hot Chili Peppers - 25.08.2007 - Reading - England - Reading Festival (Source 1)\"",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.31,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3803,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "4",
+      "filename": "2870478.jpg",
+      "externalId": "1Mp4TISMSBam2Fj7dn4SP0miXG5_wwWUP"
+    },
+    {
+      "folder": "4",
+      "filename": "2178855.jpg",
+      "externalId": "1kVtlw3UnkVQa6rPcsFbDtxJ8QsUc8UFy"
+    },
+    {
+      "folder": "4",
+      "filename": "3324573.jpg",
+      "externalId": "19tl5tpecY1RTsusOpz3CSFTG6kHKY-eS"
+    },
+    {
+      "folder": "4",
+      "filename": "4320336.jpg",
+      "externalId": "18YjQ-C3-wf7yRMWC_npKfJ2mB35dnpVH"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Dani California",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Snow (Hey Oh)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Don't Forget Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Give It Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

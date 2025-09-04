@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "MTV Studios",
+    "city": "",
     "state": "",
-    "country": "The New Music",
-    "venue": "",
+    "country": "",
+    "venue": "MTV Studios",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "The New Music",
   "source": "",
   "category": [
     "video",
@@ -34,7 +34,7 @@
   "master": false,
   "public": true,
   "ownIdentifier": "HDD#C",
-  "tradeLabel": "",
+  "tradeLabel": "RT",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "",
@@ -143,5 +143,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_2002_mtv_studios_the_new_music_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_2002_mtv_studios_the_new_music_video_misc/"
 }

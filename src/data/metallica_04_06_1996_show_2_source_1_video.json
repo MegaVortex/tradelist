@@ -1,0 +1,181 @@
+{
+  "originalTitle": "Metallica - 04.06.1996 - Sacramento - CA - USA - Truckload Show (Source 1)",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "06",
+    "year": "1996"
+  },
+  "startDateUnix": 833846400,
+  "endDate": {
+    "day": "04",
+    "month": "06",
+    "year": "1996"
+  },
+  "endDateUnix": 833846400,
+  "location": {
+    "city": "Sacramento",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Truckload Show",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "WVMonster",
+  "transferredBy": "",
+  "notes": "This show is a combination of two sources. The first source is the \"upgrade\" version of this show, which is shot using a straight on angle of the stage.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.43,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3350,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "0",
+      "filename": "91575.jpg",
+      "externalId": "1tC197oV6BLcar4zqy1RGpCEpfBWDaeG4"
+    },
+    {
+      "folder": "0",
+      "filename": "37750.jpg",
+      "externalId": "1aguzvQ-Ra2tXjLY5UT9YZx5FE-z3ICCK"
+    },
+    {
+      "folder": "0",
+      "filename": "38508.jpg",
+      "externalId": "1YRizUGEJX6oeThYQshUSDuKVLpGVvyK2"
+    },
+    {
+      "folder": "0",
+      "filename": "57044.jpg",
+      "externalId": "1d8G1P6pLWBayO2egouo5Dr-MGUQAZ01a"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "So What",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 2,
+      "song": "Creeping Death",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 3,
+      "song": "Ain't My Bitch",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 4,
+      "song": "Until It Sleeps",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 5,
+      "song": "Sad But True",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 6,
+      "song": "Whiplash",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Until It Sleeps",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": "Lollapalooza 1996"
+    },
+    {
+      "order": 2,
+      "song": "Sad But True",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": "Lollapalooza 1996"
+    },
+    {
+      "order": 3,
+      "song": "Fade to Black",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": "Lollapalooza 1996"
+    }
+  ]
+}

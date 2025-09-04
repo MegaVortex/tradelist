@@ -82,13 +82,34 @@
   },
   "relatedShows": [],
   "childOf": "",
-  "images": [],
+  "images": [
+    {
+      "folder": "76",
+      "filename": "67282725.jpg",
+      "externalId": "1nk30FmuFMZupifbIyv8j6OVoiSkJ60WX"
+    },
+    {
+      "folder": "76",
+      "filename": "31925211.jpg",
+      "externalId": "1kUszxmMb-cyxgbOtx6raaLHpKLenmZcH"
+    },
+    {
+      "folder": "76",
+      "filename": "30454026.jpg",
+      "externalId": "1SvCyz9mIU-XzonSP0N9_v8VEksy5aKi_"
+    },
+    {
+      "folder": "76",
+      "filename": "20737467.jpg",
+      "externalId": "1j1-B5qOum68YbYjhsZipsBqzBxTV-kXW"
+    }
+  ],
   "setlist": [
     {
       "order": 1,
-      "song": "(Sic) (cut)",
+      "song": "(Sic)",
       "feat": "",
-      "note": "",
+      "note": "incomplete",
       "comment": "",
       "coverOf": ""
     },

@@ -1,0 +1,196 @@
+{
+  "originalTitle": "At The Drive-In - 22.08.1999 - Seattle - WA - USA - RKCNDY",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "At The Drive-In"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "08",
+    "year": "1999"
+  },
+  "startDateUnix": 935280000,
+  "endDate": {
+    "day": "22",
+    "month": "08",
+    "year": "1999"
+  },
+  "endDateUnix": 935280000,
+  "location": {
+    "city": "Seattle",
+    "state": "WA",
+    "country": "USA",
+    "venue": "RKCNDY",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.91,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2607,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "2",
+      "filename": "61441.jpg",
+      "externalId": "1B_UEsyql6YEcpO1tAd0uZNhHNadQ2oBE"
+    },
+    {
+      "folder": "2",
+      "filename": "40665.jpg",
+      "externalId": "13V5_xwLZ8nYWEDuAR-6u2Vy4E51zRCjq"
+    },
+    {
+      "folder": "2",
+      "filename": "90501.jpg",
+      "externalId": "1evcSJ4EyfCRmctU0xVC5b05kKti3--C-"
+    },
+    {
+      "folder": "2",
+      "filename": "50115.jpg",
+      "externalId": "1IIUcRW9S9zrmHiaeMiMaXb6pUsWE0GUv"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Alpha Centauri",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Chanbara",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Rascuache",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Lopsided",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Pickpocket",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Metronome Arthritis",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "(Unknown)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Hulahoop Wounds",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "198d",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Heliotrope",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Napoleon Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

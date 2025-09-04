@@ -18,14 +18,14 @@
   },
   "endDateUnix": 1307059200,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "BBC Studios",
-    "venue": "Police In The East",
-    "event": "TV Documentary"
+    "country": "",
+    "venue": "BBC Studios",
+    "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Police In The East",
   "source": "",
   "category": [
     "video",
@@ -37,7 +37,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "Interviews and footage from the Police's 1980 tour of Japan, Hong Kong, India and Egypt.",
+  "notes": "TV Documentary: Interviews and footage from the Police's 1980 tour of Japan, Hong Kong, India and Egypt.",
   "tapers": [],
   "specs": {
     "media": [
@@ -103,5 +103,8 @@
       "externalId": "1ESx1jZOst_WxAxqwcKsTwm7mUfpra1G_"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "the_police_03_06_2011_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/the_police_03_06_2011_video_misc/"
 }

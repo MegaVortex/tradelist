@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "MTV Studios",
-    "venue": "Post Modern MTV",
+    "country": "USA",
+    "venue": "MTV Studios",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "Post Modern MTV",
   "source": "",
   "category": [
     "video",
@@ -128,5 +128,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "pixies_xx_xx_1989_usa_mtv_studios_post_modern_mtv_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/pixies_xx_xx_1989_usa_mtv_studios_post_modern_mtv_video_misc/"
 }

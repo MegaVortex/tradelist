@@ -37,23 +37,20 @@
   "authoredBy": "",
   "transferredBy": "",
   "notes": "Tascam DR-1 [built-in mic, low gain, low cut at 40 Hz, WAV 24-bit/48 kHz] > Amadeus Pro [sound panorama adjustment, EQ, compression, normalizing, tracking, fade in/out] > iZotope RX (cleaning up some unwanted sounds) > Amadeus Pro (dithering/resampling to WAV 16-bit/44.1 kHz) > XLD (conversion to FLAC high compression). Mastered by piktstevs.",
-  "tapers": [],
+  "tapers": [
+    "piktstevs"
+  ],
   "specs": {
     "media": [
       {
         "type": "CD",
         "size": 522,
         "unit": "Mb"
-      },
-      {
-        "type": "Floppy",
-        "size": 1.38,
-        "unit": "Mb"
       }
     ],
     "chapters": false,
     "menu": false,
-    "length": null,
+    "length": 5136,
     "video": {
       "format": "",
       "ratio": "",
@@ -62,16 +59,20 @@
       "bitrateKbps": null,
       "letterboxed": false
     },
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "WAV",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
     }
   },
   "relatedShows": [],
@@ -271,14 +272,5 @@
       "coverOf": ""
     }
   ],
-  "extras": [
-    {
-      "order": 1,
-      "song": "Interview",
-      "feat": "Andreas Kisser",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    }
-  ]
+  "extras": []
 }

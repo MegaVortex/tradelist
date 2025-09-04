@@ -21,11 +21,11 @@
     "city": "New York",
     "state": "NY",
     "country": "USA",
-    "venue": "MTV Fashionably Loud",
-    "event": "Sports Illustrated Edition"
+    "venue": "",
+    "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "MTV Fashionably Loud",
   "source": "",
   "category": [
     "video"
@@ -36,7 +36,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "What a show! :)",
+  "notes": "Sports Illustrated Edition.",
   "tapers": [],
   "specs": {
     "media": [
@@ -65,7 +65,7 @@
     "audio": [
       {
         "language": "",
-        "codec": "",
+        "codec": "MPEG",
         "rateHz": 44100,
         "bitrateKbps": 256,
         "channels": 2
@@ -78,9 +78,7 @@
       "fileFormat": "MPG"
     }
   },
-  "relatedShows": [
-    "at_the_drive_in_28_08_1999_video"
-  ],
+  "relatedShows": [],
   "childOf": "",
   "images": [
     {
@@ -102,208 +100,12 @@
       "folder": "2",
       "filename": "46157.jpg",
       "externalId": "1a2qurHdo_xNY-rwKJ2FJ1zFXFXHAvvpT"
-    },
-    {
-      "folder": "2",
-      "filename": "61013.jpg",
-      "externalId": "1IfohwCytZeORTO7YYE48ywp2Fm2JQFHU"
-    },
-    {
-      "folder": "2",
-      "filename": "59784.jpg",
-      "externalId": "1YoofVkZbT7n-k6sphfdrTCA5jpEP1tzF"
-    },
-    {
-      "folder": "2",
-      "filename": "45875.jpg",
-      "externalId": "1KYqI8Ma8K6A4mzhQ97ENtzzXFC3NfPI9"
-    },
-    {
-      "folder": "2",
-      "filename": "28106.jpg",
-      "externalId": "1FlX7cxpvwifC54Xi2xS57OZPvi1HwCOy"
-    },
-    {
-      "folder": "2",
-      "filename": "96273.jpg",
-      "externalId": "1E72zazpc3wU1YA4ZWeiTBfcbrp6unFgo"
-    },
-    {
-      "folder": "2",
-      "filename": "69005.jpg",
-      "externalId": "1LYmacqzf8p2bnTSiWFB5rCTC6WAMM24l"
-    },
-    {
-      "folder": "2",
-      "filename": "65101.jpg",
-      "externalId": "193GPDCv2UE9C8xP8o-eGzVQOB7GVVdpb"
-    },
-    {
-      "folder": "2",
-      "filename": "94097.jpg",
-      "externalId": "1_QRosETj6MooQZ4IdcOU9AtjzWMWkoLR"
-    },
-    {
-      "folder": "2",
-      "filename": "33372.jpg",
-      "externalId": "1OfQiwgp3o5xNg5zBQhP6XBvEUint02Xp"
-    },
-    {
-      "folder": "2",
-      "filename": "02987.jpg",
-      "externalId": "1zyDVyzYGaVdvDO-vJ-dlTuTsI30PZ06O"
-    },
-    {
-      "folder": "2",
-      "filename": "32153.jpg",
-      "externalId": "1LPzltUw1q6_a_9Z8KYy0JQTUDSj29ZVt"
-    },
-    {
-      "folder": "2",
-      "filename": "36099.jpg",
-      "externalId": "1sqIqhbpmTG_Rtt9-v1k2Zrkgbb7oF30Z"
     }
   ],
   "setlist": [
     {
       "order": 1,
-      "song": "Intro",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "Nothing Left",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 3,
-      "song": "Through Struggle",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 4,
-      "song": "Forever",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 5,
-      "song": "Within Destruction",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 6,
-      "song": "Forsaken",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 7,
-      "song": "The Darkest Nights",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 8,
-      "song": "Distance Is Darkness",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 9,
-      "song": "Behind Me Lies Another Fallen Soldier",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 10,
-      "song": "Meaning In Tragedy",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 11,
-      "song": "An Ocean Between Us",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 12,
-      "song": "Elegy",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 13,
-      "song": "I Never Wanted",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 14,
-      "song": "Comfort Betrays",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 15,
-      "song": "The Sound Of Truth",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 16,
-      "song": "94 Hours",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 17,
-      "song": "Confined",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 18,
-      "song": "3nd",
+      "song": "Crawling In The Dark",
       "feat": "",
       "note": "",
       "comment": "",

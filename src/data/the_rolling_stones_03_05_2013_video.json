@@ -34,44 +34,50 @@
   "public": true,
   "ownIdentifier": "HDD#J",
   "tradeLabel": "",
-  "authoredBy": "",
+  "authoredBy": "Silver Stallion",
   "transferredBy": "",
-  "notes": "Audio",
-  "tapers": [],
+  "notes": "Audio recorded by mystery lady.",
+  "tapers": [
+    "Vandiego Dave"
+  ],
   "specs": {
     "media": [
       {
         "type": "BD-25",
         "size": 23.2,
         "unit": "Gb"
-      },
-      {
-        "type": "CD",
-        "size": 1.5,
-        "unit": "Mb"
       }
     ],
-    "chapters": false,
-    "menu": false,
-    "length": null,
-    "video": {
-      "format": "",
-      "ratio": "",
-      "resolution": "",
-      "bitrateType": "",
-      "bitrateKbps": null,
-      "letterboxed": false
-    },
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "chapters": true,
+    "menu": true,
+    "length": 8394,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
     }
   },
   "relatedShows": [],
@@ -98,5 +104,199 @@
       "externalId": "1lls-tQsTlGLh9Xg7YQHRO1XAvGR7eB5y"
     }
   ],
-  "setlist": []
+  "setlist": [
+      {
+          "order": 1,
+          "song": "(I Can't Get No) Satisfaction",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 2,
+          "song": "Get Off Of My Cloud",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 3,
+          "song": "The Last Time",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 4,
+          "song": "It's Only Rock 'n Roll (But I Like It)",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 5,
+          "song": "Paint It Black",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 6,
+          "song": "Gimme Shelter",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 7,
+          "song": "Wild Horses",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 8,
+          "song": "Factory Girl",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 9,
+          "song": "Emotional Rescue",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 10,
+          "song": "Respectable",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 11,
+          "song": "Doom And Gloom",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 12,
+          "song": "One More Shot",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 13,
+          "song": "Honky Tonk Women",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 14,
+          "song": "Before They Make Me Run",
+          "feat": "",
+          "note": "",
+          "comment": "Keith vocals",
+          "coverOf": ""
+      },
+      {
+          "order": 15,
+          "song": "Happy",
+          "feat": "",
+          "note": "",
+          "comment": "Keith vocals",
+          "coverOf": ""
+      },
+      {
+          "order": 16,
+          "song": "Midnight Rambler",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 17,
+          "song": "Miss You",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 18,
+          "song": "Start Me Up",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 19,
+          "song": "Tumbling Dice",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 20,
+          "song": "Brown Sugar",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 21,
+          "song": "Sympathy For The Devil",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 22,
+          "song": "You Can't Always Get What You Want",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 23,
+          "song": "Jumpin' Jack Flash",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 24,
+          "song": "(I Can't Get No) Satisfaction",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      }
+  ],
+  "extras": []
 }

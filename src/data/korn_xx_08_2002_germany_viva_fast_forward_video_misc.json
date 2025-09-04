@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Germany",
+    "city": "",
     "state": "",
-    "country": "Viva Fast Forward",
+    "country": "Germany",
     "venue": "",
     "event": ""
   },
-  "tvChannel": "",
-  "showName": "",
+  "tvChannel": "VIVA",
+  "showName": "Fast Forward",
   "source": "",
   "category": [
     "video",
@@ -116,5 +116,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_08_2002_germany_viva_fast_forward_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_08_2002_germany_viva_fast_forward_video_misc/"
 }

@@ -30,14 +30,16 @@
   "category": [
     "video"
   ],
-  "master": false,
+  "master": true,
   "public": true,
   "ownIdentifier": "HDD#C",
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "First performance with Alessandro Venturella on bass and Jay Weinburg on drums. \"Three Nil\" has been played for the first time live since 2005, \"Eeyore\" has been played for the first time live since 2008, live premiere for \"The Negative One\" and \"Custer\". This is original video stream without reencoding, perfect quality! Bonus staff included. Transferred and",
-  "tapers": [],
+  "tapers": [
+    "Vortex"
+  ],
   "specs": {
     "media": [
       {
@@ -297,5 +299,8 @@
       "coverOf": "",
       "comment": ""
     }
-  ]
+  ],
+  "fileSlug": "slipknot_25_10_2014_source_2_video",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_25_10_2014_source_2_video/"
 }

@@ -55,23 +55,27 @@
         "ratio": "",
         "resolution": "832x468",
         "bitrateType": "",
-        "bitrateKbps": 1536,
+        "bitrateKbps": null,
         "fps": "1000",
         "standard": "MPEG4",
         "codec": "H264",
         "letterboxed": false
       }
     ],
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
     }
   },
   "relatedShows": [],

@@ -55,7 +55,7 @@
         "ratio": "",
         "resolution": "1920x1080",
         "bitrateType": "",
-        "bitrateKbps": 192,
+        "bitrateKbps": null,
         "fps": "29.97",
         "standard": "MPEG4",
         "codec": "H264",
@@ -64,14 +64,16 @@
     ],
     "audio": {
       "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
+      "codec": "AAC",
+	  "rateHz": null,
+      "bitrateKbps": 192,
+      "channels": 2
     },
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "MP4"
     }
   },
   "relatedShows": [],

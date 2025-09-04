@@ -66,14 +66,16 @@
     ],
     "audio": {
       "language": "",
-      "codec": "",
+      "codec": "AAC",
+      "rateHz": 44100,
       "bitrateKbps": null,
-      "channels": null
+      "channels": 2
     },
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
     }
   },
   "relatedShows": [],

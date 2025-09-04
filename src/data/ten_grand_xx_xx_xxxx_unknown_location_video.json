@@ -18,7 +18,7 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Unknown Location",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
@@ -102,5 +102,8 @@
       "externalId": "196_oZZzr4KY9UGkYIF0XE27hJ2ADLI02"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "ten_grand_xx_xx_xxxx_unknown_location_video",
+  "isRegular": true,
+  "permalink": "/shows/ten_grand_xx_xx_xxxx_unknown_location_video/"
 }

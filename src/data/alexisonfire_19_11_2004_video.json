@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Alexisonfire - 19.11.2004 - Tokyo - Japan - Harajuku Astro Hall",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Alexisonfire"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "11",
+    "year": "2004"
+  },
+  "startDateUnix": 1100822400,
+  "endDate": {
+    "day": "19",
+    "month": "11",
+    "year": "2004"
+  },
+  "endDateUnix": 1100822400,
+  "location": {
+    "city": "Tokyo",
+    "state": "",
+    "country": "Japan",
+    "venue": "Harajuku Astro Hall",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 420,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1343,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "480x480",
+        "bitrateType": "",
+        "bitrateKbps": 2520,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 224,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "M2V"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "2",
+      "filename": "57653.jpg",
+      "externalId": "15DJjkhXZ8R3ZvSWVzl9RBABM-WS65nGW"
+    },
+    {
+      "folder": "2",
+      "filename": "09867.jpg",
+      "externalId": "1G35sZVv_8WDIQImYZX7OX1IxSJC9ibld"
+    },
+    {
+      "folder": "2",
+      "filename": "37642.jpg",
+      "externalId": "1-YUHFTvY8NH65Ip4pAYfOpTF5TICVpyB"
+    },
+    {
+      "folder": "2",
+      "filename": "13375.jpg",
+      "externalId": "1BOsyExnBcNPvgzsX2sxiSY1ay0cWcguJ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Accidents",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "No Transitory",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Waterwings",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Control",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Get Fighted",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": ".44 Caliber Love Letter",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

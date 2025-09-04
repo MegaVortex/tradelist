@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Korn - 13.06.1994 - Hollywood - CA - USA - The Roxy (Source 1)",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "06",
+    "year": "1994"
+  },
+  "startDateUnix": 771465600,
+  "endDate": {
+    "day": "13",
+    "month": "06",
+    "year": "1994"
+  },
+  "endDateUnix": 771465600,
+  "location": {
+    "city": "Hollywood",
+    "state": "CA",
+    "country": "USA",
+    "venue": "The Roxy",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "On the same disc - \"Korn - 23.01.1996 - Philadelphia - PA - USA - Corestates Spectrum\"",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.61,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1610,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "25099385.jpg",
+      "externalId": "1gGM72GcpimFJNYcY41AdS3WvrkKAYwKE"
+    },
+    {
+      "folder": "5",
+      "filename": "00401511.jpg",
+      "externalId": "1qiB0gfsbDaxGobUpKZDu9pEenOhCmETQ"
+    },
+    {
+      "folder": "5",
+      "filename": "93829581.jpg",
+      "externalId": "1XPoTG6ZgFBjOHHv7HbZjUbFon36l1F1K"
+    },
+    {
+      "folder": "5",
+      "filename": "37043669.jpg",
+      "externalId": "1bGK7CzdLbYyXg1Dv2GGwr8o-lW9hDgkm"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Blind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Layla",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Lies",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Need To",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Predictable",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Shoots And Ladders",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Faget",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

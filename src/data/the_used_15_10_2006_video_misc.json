@@ -21,7 +21,7 @@
     "city": "Los Angeles",
     "state": "CA",
     "country": "USA",
-    "venue": "Fuse TV",
+    "venue": "Orpheum Theater",
     "event": "Chainsaw Awards"
   },
   "tvChannel": "Fuse TV",
@@ -79,8 +79,16 @@
       "fileFormat": "DVD"
     }
   },
-  "relatedShows": [],
-  "childOf": "[VARIOUS ARTISTS] - 15.10.2006 - Los Angeles - CA - USA - Fuse TV - Chainsaw Awards",
+  "relatedShows": [
+    "30_seconds_to_mars_15_10_2006_video",
+    "avenged_sevenfold_15_10_2006_video",
+    "fall_out_boy_15_10_2006_video_misc",
+    "jonathan_davis_15_10_2006_video_misc",
+	"rob_zombie_15_10_2006_video_misc",
+	"slipknot_15_10_2006_video_misc",
+	"sum_41_15_10_2006_video_misc"
+  ],
+  "childOf": "various_artists_15_10_2006_video_compilation",
   "images": [
     {
       "folder": "18",

@@ -19,7 +19,7 @@
   "endDateUnix": 917049600,
   "location": {
     "city": "Sydney",
-    "state": "",
+    "state": "NSW",
     "country": "Australia",
     "venue": "Olympic Park",
     "event": "Big Day Out"
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_23_01_1999_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_23_01_1999_video_misc/"
 }

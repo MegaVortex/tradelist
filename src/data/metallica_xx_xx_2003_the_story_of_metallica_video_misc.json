@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "'The Story Of Metallica'",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "The Story Of Metallica",
   "source": "",
   "category": [
     "video",
@@ -105,5 +105,8 @@
       "externalId": "1x1CoIgaIlt4YPLtsipjGq8_MHImVApWc"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "metallica_xx_xx_2003_the_story_of_metallica_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/metallica_xx_xx_2003_the_story_of_metallica_video_misc/"
 }

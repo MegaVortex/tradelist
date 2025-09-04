@@ -30,14 +30,16 @@
   "category": [
     "video"
   ],
-  "master": false,
+  "master": true,
   "public": true,
   "ownIdentifier": "",
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "",
-  "tapers": [],
+  "tapers": [
+    "Vortex"
+  ],
   "specs": {
     "media": [
       {
@@ -102,5 +104,8 @@
       "externalId": "1xwM47Qb1-ta0wUkwmdsJS06IxYYNUUPR"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "vzryv_kabachka_v_kolyaske_s_ponosom_14_01_2012_video",
+  "isRegular": true,
+  "permalink": "/shows/vzryv_kabachka_v_kolyaske_s_ponosom_14_01_2012_video/"
 }

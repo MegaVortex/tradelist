@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Making Of Freak On A Leash",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Making Of Freak On A Leash",
   "source": "",
   "category": [
     "video",
@@ -119,5 +119,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_1998_usa_making_of_freak_on_a_leash_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_1998_usa_making_of_freak_on_a_leash_video_misc/"
 }

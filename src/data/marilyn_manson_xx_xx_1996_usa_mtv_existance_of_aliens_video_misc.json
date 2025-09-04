@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
-    "state": "MTV",
-    "country": "'Existance Of Aliens'",
+    "city": "",
+    "state": "",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "Existance Of Aliens",
   "source": "",
   "category": [
     "video",
@@ -123,5 +123,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "marilyn_manson_xx_xx_1996_usa_mtv_existance_of_aliens_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/marilyn_manson_xx_xx_1996_usa_mtv_existance_of_aliens_video_misc/"
 }

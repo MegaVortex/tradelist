@@ -62,16 +62,20 @@
         "letterboxed": false
       }
     ],
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "AС3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
     }
   },
   "relatedShows": [],
@@ -145,7 +149,7 @@
       "feat": "",
       "note": "",
       "comment": "",
-      "coverOf": "Metallica"
+      "coverOf": ""
     },
     {
       "order": 7,

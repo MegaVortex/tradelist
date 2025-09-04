@@ -34,44 +34,50 @@
   "public": true,
   "ownIdentifier": "HDD#J",
   "tradeLabel": "",
-  "authoredBy": "",
+  "authoredBy": "alzeppelin",
   "transferredBy": "",
   "notes": "",
-  "tapers": [],
+  "tapers": [
+    "alzeppelin"
+  ],
   "specs": {
     "media": [
       {
         "type": "BD-25",
         "size": 14.1,
         "unit": "Gb"
-      },
-      {
-        "type": "CD",
-        "size": 1.5,
-        "unit": "Mb"
       }
     ],
-    "chapters": false,
-    "menu": false,
-    "length": null,
-    "video": {
-      "format": "",
-      "ratio": "",
-      "resolution": "",
-      "bitrateType": "",
-      "bitrateKbps": null,
-      "letterboxed": false
-    },
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "chapters": true,
+    "menu": true,
+    "length": 3842,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
     }
   },
   "relatedShows": [],
@@ -98,5 +104,127 @@
       "externalId": "1T8HBeptLCsH1EGiTh7bodFh26raXEfO9"
     }
   ],
-  "setlist": []
+  "setlist": [
+      {
+          "order": 1,
+          "song": "Suspiria",
+          "feat": "",
+          "note": "tape",
+          "comment": "Goblin song",
+          "coverOf": ""
+      },
+      {
+          "order": 2,
+          "song": "Hey, Cruel World",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 3,
+          "song": "Disposable Teens",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 4,
+          "song": "The Love Song",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 5,
+          "song": "No Reflection",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 6,
+          "song": "mOBSCENE",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 7,
+          "song": "The Dope Show",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 8,
+          "song": "Slo-Mo-Tion",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 9,
+          "song": "Rock Is Dead",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 10,
+          "song": "Personal Jesus",
+          "feat": "",
+          "note": "",
+          "comment": "Depeche Mode cover",
+          "coverOf": "Depeche Mode"
+      },
+      {
+          "order": 11,
+          "song": "Sweet Dreams (Are Made Of This)",
+          "feat": "",
+          "note": "",
+          "comment": "Eurythmics cover",
+          "coverOf": "Eurythmics"
+      },
+      {
+          "order": 12,
+          "song": "Coma White",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 13,
+          "song": "King Kill 33",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 14,
+          "song": "Antichrist Superstar",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 15,
+          "song": "The Beautiful People",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      }
+  ],
+  "extras": []
 }

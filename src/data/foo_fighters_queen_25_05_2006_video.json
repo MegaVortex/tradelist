@@ -129,10 +129,10 @@
     },
     {
       "order": 4,
-      "song": "Foo Fighters & Kiefer Sutherland (discuss Queen)",
+      "song": "Foo Fighters & Kiefer Sutherland",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "Discuss Queen",
       "coverOf": ""
     },
     {
@@ -160,5 +160,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "foo_fighters_queen_25_05_2006_video",
+  "isRegular": true,
+  "permalink": "/shows/foo_fighters_queen_25_05_2006_video/"
 }

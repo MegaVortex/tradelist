@@ -18,14 +18,14 @@
   },
   "endDateUnix": 1225497600,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Behind The Player",
-    "venue": "Paul Gray",
+    "country": "USA",
+    "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Behind The Player: Paul Gray",
   "source": "",
   "category": [
     "video",
@@ -34,7 +34,7 @@
   "master": false,
   "public": true,
   "ownIdentifier": "HDD#B",
-  "tradeLabel": "",
+  "tradeLabel": "NT",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "Official DVD - NT.",
@@ -129,5 +129,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_01_11_2008_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_01_11_2008_video_misc/"
 }

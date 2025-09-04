@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Rock Is Dead Tour Commercial",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Rock Is Dead Tour Commercial",
   "source": "",
   "category": [
     "video",
@@ -80,7 +80,7 @@
     }
   },
   "relatedShows": [
-	"marilyn_manson_xx_xx_1998_usa_mtv_video_music_awards_commercial_video_misc",
+    "marilyn_manson_xx_xx_1998_usa_mtv_video_music_awards_commercial_video_misc",
     "marilyn_manson_10_09_1998_video_misc",
     "marilyn_manson_10_09_1998_source_2_video",
     "marilyn_manson_xx_09_1998_usa_mtv_video_misc",
@@ -90,7 +90,8 @@
     "marilyn_manson_10_11_1999_video_misc",
     "marilyn_manson_11_11_1999_source_1_video",
     "marilyn_manson_19_04_1999_video_misc",
-    "marilyn_manson_xx_xx_1999_usa_video_misc"
+    "marilyn_manson_xx_xx_1999_usa_video_misc",
+    "marilyn_manson_xx_xx_1998_usa_mtv_news_video_misc"
   ],
   "childOf": "marilyn_manson_xx_xx_xxxx_misc_2_compilation_video_compilation",
   "images": [
@@ -115,5 +116,8 @@
       "externalId": "1S83XNgnjwnWeCsS4ZgWNH601liSgDWe3"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "marilyn_manson_xx_03_1999_usa_rock_is_dead_tour_commercial_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/marilyn_manson_xx_03_1999_usa_rock_is_dead_tour_commercial_video_misc/"
 }

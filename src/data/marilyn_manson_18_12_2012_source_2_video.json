@@ -64,16 +64,20 @@
         "letterboxed": false
       }
     ],
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 44100,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
     }
   },
   "relatedShows": [],
@@ -103,10 +107,10 @@
   "setlist": [
     {
       "order": 1,
-      "song": "Suspiria (Goblin song) (intro)",
+      "song": "Suspiria",
       "feat": "",
-      "note": "",
-      "comment": "",
+      "note": "tape",
+      "comment": "Goblin song",
       "coverOf": ""
     },
     {

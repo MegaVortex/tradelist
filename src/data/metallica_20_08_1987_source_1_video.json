@@ -105,354 +105,153 @@
       "folder": "0",
       "filename": "36869.jpg",
       "externalId": "1HT-rTV8UB5YSJ0gHGRYNSlMKIE8ei5X_"
-    },
-    {
-      "folder": "0",
-      "filename": "86705.jpg",
-      "externalId": "112rkAWJhUN2mU1GPS5NlBrGGOk-moJ2a"
-    },
-    {
-      "folder": "0",
-      "filename": "94259.jpg",
-      "externalId": "19VBy2Ok3IHwY-CmEcYt2e7FFIv1flQnq"
-    },
-    {
-      "folder": "0",
-      "filename": "75157.jpg",
-      "externalId": "1mIF6-ZzLmDAJbHWdgCGivFNI4aUGn7jo"
-    },
-    {
-      "folder": "0",
-      "filename": "29224.jpg",
-      "externalId": "14Pi-duw92_OR0TTIHFLVPKT8cDaNWIb-"
-    },
-    {
-      "folder": "0",
-      "filename": "s95816.jpg.jpg",
-      "externalId": "16yVCfdlK1n_Vcb8SF2-j-Cfzd97fTkIh"
-    },
-    {
-      "folder": "0",
-      "filename": "s87368.jpg.jpg",
-      "externalId": "1_FhM07Fi-27Z4zcr2ANIppAVbS-0xSZQ"
-    },
-    {
-      "folder": "0",
-      "filename": "s82367.jpg.jpg",
-      "externalId": "1kZCO0-B4tC9LgTgyfh1LZmpP0WX4H6Lv"
-    },
-    {
-      "folder": "0",
-      "filename": "s16154.jpg.jpg",
-      "externalId": "1ZZ_76QVdkCQ_Gvy6leGq3hYcKSRCS_IY"
     }
   ],
   "setlist": [
-    {
-      "order": 1,
-      "song": "Ecstasy Of Gold",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 5,
-      "song": "Fade To Black (Restart)",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 7,
-      "song": "Phantom Lord",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 8,
-      "song": "Sanitarium",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 14,
-      "song": "Crash Course In Brain Surgery",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 15,
-      "song": "Small Hours",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 16,
-      "song": "The Wait",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 17,
-      "song": "Helpless",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 18,
-      "song": "Blitzkrieg",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 4,
-      "song": "Welcome Home (Sanitarium) (Cut)",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 5,
-      "song": "The Four Horsemen",
-      "feat": "",
-      "note": "not recorded",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 9,
-      "song": "To Live Is To Die Jam",
-      "feat": "",
-      "note": "incomplete",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 11,
-      "song": "Damage, Inc.",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 13,
-      "song": "Seek & Destroy",
-      "feat": "",
-      "note": "incomplete",
-      "comment": "",
-      "coverOf": ""
-    }
+      {
+          "order": 1,
+          "song": "Ecstasy Of Gold",
+          "feat": "",
+          "note": "tape",
+          "comment": "",
+          "coverOf": "Ennio Morricone song"
+      },
+      {
+          "order": 2,
+          "song": "Creeping Death",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 3,
+          "song": "For Whom The Bell Tolls",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 4,
+          "song": "Fade To Black",
+          "feat": "",
+          "note": "",
+          "comment": "Powercut",
+          "coverOf": ""
+      },
+      {
+          "order": 5,
+          "song": "Fade To Black",
+          "feat": "",
+          "note": "",
+          "comment": "Restart",
+          "coverOf": ""
+      },
+      {
+          "order": 6,
+          "song": "Leper Messiah",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 7,
+          "song": "Phantom Lord",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 8,
+          "song": "Sanitarium",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 9,
+          "song": "Seek And Destroy",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 10,
+          "song": "Master Of Puppets",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 11,
+          "song": "Last Caress",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "Misfits"
+      },
+      {
+          "order": 12,
+          "song": "Am I Evil?",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "Diamond Head"
+      },
+      {
+          "order": 13,
+          "song": "Battery",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 14,
+          "song": "Crash Course In Brain Surgery",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "Budgie"
+      },
+      {
+          "order": 15,
+          "song": "Small Hours",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "Holocaust"
+      },
+      {
+          "order": 16,
+          "song": "The Wait",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "Killing Joke"
+      },
+      {
+          "order": 17,
+          "song": "Helpless",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "Diamond Head"
+      },
+      {
+          "order": 18,
+          "song": "Blitzkrieg",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "Blitzkrieg"
+      }
   ],
-  "extras": [
-    {
-      "order": 1,
-      "song": "17.11.1984 - Belgium - Backstage Interview (High Gen)",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 2,
-      "song": "10.08.1991 - Copenhagen - Pro Shot - One, Bellz, Whiplash (Master)",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 3,
-      "song": "04.11.1992 - Birmingham - Justice Medley (1st Gen)",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 1,
-      "song": "The Ecstasy Of Gold",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 2,
-      "song": "Blackened",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 3,
-      "song": "For Whom The Bell Tolls",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 4,
-      "song": "Welcome Home (Sanitarium)",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 5,
-      "song": "Leper Messiah",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 6,
-      "song": "Harvester Of Sorrow",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 7,
-      "song": "Eye Of The Beholder",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 8,
-      "song": "Bass Solo",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 9,
-      "song": "To Live Is To Die (jam)",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 10,
-      "song": "Master Of Puppets",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 11,
-      "song": "One",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 12,
-      "song": "Seek And Destroy",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 13,
-      "song": "...And Justice For All",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 14,
-      "song": "Creeping Death",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 15,
-      "song": "Fade To Black",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 16,
-      "song": "Guitar Solo",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 17,
-      "song": "Battery",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 18,
-      "song": "Last Caress",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 19,
-      "song": "Am I Evil?",
-      "feat": "",
-      "note": "incomplete",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 20,
-      "song": "Whiplash",
-      "feat": "",
-      "note": "not recorded",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 21,
-      "song": "Breadfan",
-      "feat": "",
-      "note": "not recorded",
-      "coverOf": "",
-      "comment": ""
-    }
-  ]
+  "extras": []
 }

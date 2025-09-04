@@ -21,11 +21,11 @@
     "city": "Hamilton",
     "state": "ON",
     "country": "Canada",
-    "venue": "CHCH-TV",
+    "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "CHCH-TV",
   "source": "",
   "category": [
     "video"
@@ -216,5 +216,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "b_b_king_larry_carlton_xx_xx_1983_hamilton_on_canada_chch_tv_video",
+  "isRegular": true,
+  "permalink": "/shows/b_b_king_larry_carlton_xx_xx_1983_hamilton_on_canada_chch_tv_video/"
 }

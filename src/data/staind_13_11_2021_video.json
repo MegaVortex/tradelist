@@ -30,14 +30,16 @@
   "category": [
     "video"
   ],
-  "master": false,
+  "master": true,
   "public": true,
   "ownIdentifier": "HDD#B",
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "",
-  "tapers": [],
+  "tapers": [
+    "Vortex"
+  ],
   "specs": {
     "media": [
       {
@@ -212,5 +214,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "staind_13_11_2021_video",
+  "isRegular": true,
+  "permalink": "/shows/staind_13_11_2021_video/"
 }

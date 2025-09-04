@@ -62,16 +62,20 @@
         "letterboxed": false
       }
     ],
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "de",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
     }
   },
   "relatedShows": [],
@@ -101,10 +105,10 @@
   "setlist": [
     {
       "order": 1,
-      "song": "(I Can't Get No) Satisfaction (skit)",
+      "song": "(I Can't Get No) Satisfaction",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "skit",
       "coverOf": ""
     },
     {
@@ -117,8 +121,8 @@
     },
     {
       "order": 3,
-      "song": "19th Nervous Breakdown / It's Only Rock 'N Roll (But I Like It) (with Foo Fighters)",
-      "feat": "",
+      "song": "19th Nervous Breakdown / It's Only Rock 'N Roll (But I Like It)",
+      "feat": "Foo Fighters",
       "note": "",
       "comment": "",
       "coverOf": ""

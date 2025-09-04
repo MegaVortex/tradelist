@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Mastodon - 22.06.2009 - Milano - Italy - Mediolanum Forum",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Mastodon"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "06",
+    "year": "2009"
+  },
+  "startDateUnix": 1245628800,
+  "endDate": {
+    "day": "22",
+    "month": "06",
+    "year": "2009"
+  },
+  "endDateUnix": 1245628800,
+  "location": {
+    "city": "Milano",
+    "state": "",
+    "country": "Italy",
+    "venue": "Mediolanum Forum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.07,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1948,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "14951794.jpg",
+      "externalId": "1N33u5yDxcf5Wxogy_fJ1WUvGKtCSkqmu"
+    },
+    {
+      "folder": "5",
+      "filename": "81148511.jpg",
+      "externalId": "1rW_1IiaOuR7zCStRJdZWNrAVq6U7DkCS"
+    },
+    {
+      "folder": "5",
+      "filename": "61191809.jpg",
+      "externalId": "1Q7YpKzv-7uiZovn-GFrsxmx9B6AjuJY1"
+    },
+    {
+      "folder": "5",
+      "filename": "41948467.jpg",
+      "externalId": "1tUc-3O3tYsnwC0boco7D_kB45AX-54D3"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Obvilion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Blood",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Wolf Is Loose",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Crystal Skull",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Crack The Sky",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Iron Tusk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "March Of The Fire Ants",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

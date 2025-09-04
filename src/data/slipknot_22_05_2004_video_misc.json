@@ -18,14 +18,14 @@
   },
   "endDateUnix": 1085184000,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Headbanger's Ball Episode",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Headbanger's Ball",
   "source": "",
   "category": [
     "video",
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_22_05_2004_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_22_05_2004_video_misc/"
 }

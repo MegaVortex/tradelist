@@ -41,6 +41,38 @@ function getTypeLabel(categoryArray) {
     }
 }
 
+function getShowNumber(show) {
+  const slug = (show.fileSlug || '').toString();
+  // look for "show_1" or "show-1" or "show1", but NOT 10/11 etc.
+  const m = slug.match(/show[_\s-]?(\d+)(?=[^\d]|$)/i);
+  return m ? parseInt(m[1], 10) : Number.POSITIVE_INFINITY;
+}
+
+function isSameDayUnix(a, b) {
+  const A = new Date(a * 1000);
+  const B = new Date(b * 1000);
+  return (
+    A.getUTCFullYear() === B.getUTCFullYear() &&
+    A.getUTCMonth() === B.getUTCMonth() &&
+    A.getUTCDate() === B.getUTCDate()
+  );
+}
+
+function getSourceNumber(show) {
+  const s = (show.source || '').toString();
+  const m = s.match(/source\s*(\d+)/i);
+  if (m) return parseInt(m[1], 10);
+
+  // fallback: sometimes the slug may contain the number
+  if (show.fileSlug) {
+    const m2 = show.fileSlug.match(/source[_\s-]?(\d+)/i);
+    if (m2) return parseInt(m2[1], 10);
+  }
+
+  // no number? sort these last
+  return Number.POSITIVE_INFINITY;
+}
+
 function renderInitialShows(shows) {
     const tbody = document.getElementById('shows-table-body');
     tbody.innerHTML = '';
@@ -425,11 +457,37 @@ function initializeShowFilters(shows) {
     const paginationControls = document.getElementById('pagination-controls');
 
     shows.sort((a, b) => {
-        const bandA = (a.bands && a.bands.length) ? a.bands[0].toLowerCase() : '';
-        const bandB = (b.bands && b.bands.length) ? b.bands[0].toLowerCase() : '';
-        if (bandA < bandB) return -1;
-        if (bandA > bandB) return 1;
-        return (b.startDateUnix || 0) - (a.startDateUnix || 0);
+      // Band A–Z
+      const bandA = (a.bands && a.bands.length) ? a.bands[0].toLowerCase() : '';
+      const bandB = (b.bands && b.bands.length) ? b.bands[0].toLowerCase() : '';
+      if (bandA < bandB) return -1;
+      if (bandA > bandB) return 1;
+    
+      // Date DESC (same logic you use elsewhere)
+      const unixA = a.startDateUnix;
+      const unixB = b.startDateUnix;
+      if (typeof unixA === 'number' && typeof unixB === 'number') {
+  if (!isSameDayUnix(unixA, unixB)) return unixB - unixA;   // DESC
+} else if (typeof unixA === 'number' || typeof unixB === 'number') {
+        return (typeof unixA === 'number') ? -1 : 1;
+      } else {
+        const sdA = a.startDate || {}, sdB = b.startDate || {};
+        const yearA = parseInt(sdA.year, 10) || 0, yearB = parseInt(sdB.year, 10) || 0;
+        if (yearB !== yearA) return yearB - yearA;
+        const monthA = parseInt(sdA.month, 10) || 0, monthB = parseInt(sdB.month, 10) || 0;
+        if (monthB !== monthA) return monthB - monthA;
+        const dayA = parseInt(sdA.day, 10) || 0, dayB = parseInt(sdB.day, 10) || 0;
+        if (dayB !== dayA) return dayB - dayA;
+      }
+    
+      // TIE-BREAKER: Source number ASC (Source 1 → Source 14)
+      // TIE-BREAKER 1: Show 1 → Show 2 → none
+const shA = getShowNumber(a), shB = getShowNumber(b);
+if (shA !== shB) return shA - shB;
+
+// TIE-BREAKER 2: Source 1 → 2 → 3 → …
+return getSourceNumber(a) - getSourceNumber(b);
+
     });
 
     function renderPage(filteredShows, page) {
@@ -593,79 +651,117 @@ function renderPagination(totalItems, currentPage) {
 
 
 function filterShows() {
-    const lowerCaseBands = currentFilterBands.map(b => b.toLowerCase());
+  const lowerCaseBands = currentFilterBands.map(b => b.toLowerCase());
 
-    let filtered = shows.filter(show => {
-        if (!show.bands || show.bands.length === 0) return false;
+  let filtered = shows.filter(show => {
+    if (!show.bands || show.bands.length === 0) return false;
 
-        const firstLetter = (show.bands[0][0] || '').toUpperCase();
-        const isNumeric = !/^[A-Z]/.test(firstLetter);
-        const letterMatch = currentFilterLetter === 'all' || (currentFilterLetter === '#' && isNumeric) || firstLetter === currentFilterLetter;
+    const firstLetter = (show.bands[0][0] || '').toUpperCase();
+    const isNumeric = !/^[A-Z]/.test(firstLetter);
+    const letterMatch =
+      currentFilterLetter === 'all' ||
+      (currentFilterLetter === '#' && isNumeric) ||
+      firstLetter === currentFilterLetter;
 
-        if (lowerCaseBands.length === 0) {
-            return letterMatch;
-        }
+    if (lowerCaseBands.length === 0) return letterMatch;
 
-        const bandMatch = show.bands.some(b => lowerCaseBands.includes(b.toLowerCase()));
-        return letterMatch && bandMatch;
+    const bandMatch = show.bands.some(b => lowerCaseBands.includes(b.toLowerCase()));
+    return letterMatch && bandMatch;
+  });
+
+  // decide which mode we're in
+  const pillMode = currentFilterLetter !== 'all' && currentFilterBands.length > 0;
+
+  if (currentFilterLetter === 'all') {
+    // ===== All → date DESC =====
+    filtered.sort((a, b) => {
+      const unixA = a.startDateUnix, unixB = b.startDateUnix;
+
+      if (typeof unixA === 'number' && typeof unixB === 'number') {
+        if (!isSameDayUnix(unixA, unixB)) return unixB - unixA; // DESC
+      } else if (typeof unixA === 'number' || typeof unixB === 'number') {
+        return (typeof unixA === 'number') ? -1 : 1;
+      } else {
+        const sdA = a.startDate || {}, sdB = b.startDate || {};
+        const yearA = parseInt(sdA.year, 10) || 0, yearB = parseInt(sdB.year, 10) || 0;
+        if (yearB !== yearA) return yearB - yearA;
+        const monthA = parseInt(sdA.month, 10) || 0, monthB = parseInt(sdB.month, 10) || 0;
+        if (monthB !== monthA) return monthB - monthA;
+        const dayA = parseInt(sdA.day, 10) || 0, dayB = parseInt(sdB.day, 10) || 0;
+        if (dayB !== dayA) return dayB - dayA;
+      }
+
+      // Band A–Z for stability on same day
+      const bandA = (a.bands?.[0] || '').toLowerCase();
+      const bandB = (b.bands?.[0] || '').toLowerCase();
+      if (bandA < bandB) return -1;
+      if (bandA > bandB) return 1;
+
+      // Show → Source
+      const shA = getShowNumber(a), shB = getShowNumber(b);
+      if (shA !== shB) return shA - shB;
+      return getSourceNumber(a) - getSourceNumber(b);
     });
 
-    // Apply sorting depending on filter
-    if (currentFilterLetter === 'all') {
-        filtered.sort((a, b) => {
-            const unixA = a.startDateUnix;
-            const unixB = b.startDateUnix;
-            if (typeof unixA === 'number' && typeof unixB === 'number') return unixB - unixA;
-            if (typeof unixA === 'number') return -1;
-            if (typeof unixB === 'number') return 1;
+  } else if (!pillMode) {
+    // ===== Letter-only → band A–Z, then date DESC =====
+    filtered.sort((a, b) => {
+      const bandA = (a.bands?.[0] || '').toLowerCase();
+      const bandB = (b.bands?.[0] || '').toLowerCase();
+      if (bandA < bandB) return -1;
+      if (bandA > bandB) return 1;
 
-            const sdA = a.startDate || {};
-            const sdB = b.startDate || {};
-            const yearA = parseInt(sdA.year, 10) || 0;
-            const yearB = parseInt(sdB.year, 10) || 0;
-            if (yearA !== yearB) return yearB - yearA;
+      const unixA = a.startDateUnix, unixB = b.startDateUnix;
+      if (typeof unixA === 'number' && typeof unixB === 'number') {
+        if (!isSameDayUnix(unixA, unixB)) return unixB - unixA; // DESC
+      } else if (typeof unixA === 'number' || typeof unixB === 'number') {
+        return (typeof unixA === 'number') ? -1 : 1;
+      } else {
+        const sdA = a.startDate || {}, sdB = b.startDate || {};
+        const yearA = parseInt(sdA.year, 10) || 0, yearB = parseInt(sdB.year, 10) || 0;
+        if (yearB !== yearA) return yearB - yearA;
+        const monthA = parseInt(sdA.month, 10) || 0, monthB = parseInt(sdB.month, 10) || 0;
+        if (monthB !== monthA) return monthB - monthA;
+        const dayA = parseInt(sdA.day, 10) || 0, dayB = parseInt(sdB.day, 10) || 0;
+        if (dayB !== dayA) return dayB - dayA;
+      }
 
-            const monthA = parseInt(sdA.month, 10) || 0;
-            const monthB = parseInt(sdB.month, 10) || 0;
-            if (monthA !== monthB) return monthB - monthA;
+      const shA = getShowNumber(a), shB = getShowNumber(b);
+      if (shA !== shB) return shA - shB;
+      return getSourceNumber(a) - getSourceNumber(b);
+    });
 
-            const dayA = parseInt(sdA.day, 10) || 0;
-            const dayB = parseInt(sdB.day, 10) || 0;
-            return dayB - dayA;
-        });
-    } else {
-        filtered.sort((a, b) => {
-            const bandA = (a.bands?.[0] || '').toLowerCase();
-            const bandB = (b.bands?.[0] || '').toLowerCase();
+  } else {
+    // ===== Pill(s) selected → band A–Z, then date ASC =====
+    filtered.sort((a, b) => {
+      const bandA = (a.bands?.[0] || '').toLowerCase();
+      const bandB = (b.bands?.[0] || '').toLowerCase();
+      if (bandA < bandB) return -1;
+      if (bandA > bandB) return 1;
 
-            if (bandA < bandB) return -1;
-            if (bandA > bandB) return 1;
+      const unixA = a.startDateUnix, unixB = b.startDateUnix;
+      if (typeof unixA === 'number' && typeof unixB === 'number') {
+        if (!isSameDayUnix(unixA, unixB)) return unixA - unixB; // ASC
+      } else if (typeof unixA === 'number' || typeof unixB === 'number') {
+        return (typeof unixA === 'number') ? 1 : -1; // ASC bias
+      } else {
+        const sdA = a.startDate || {}, sdB = b.startDate || {};
+        const yearA = parseInt(sdA.year, 10) || 0, yearB = parseInt(sdB.year, 10) || 0;
+        if (yearA !== yearB) return yearA - yearB;
+        const monthA = parseInt(sdA.month, 10) || 0, monthB = parseInt(sdB.month, 10) || 0;
+        if (monthA !== monthB) return monthA - monthB;
+        const dayA = parseInt(sdA.day, 10) || 0, dayB = parseInt(sdB.day, 10) || 0;
+        if (dayA !== dayB) return dayA - dayB;
+      }
 
-            const unixA = a.startDateUnix;
-            const unixB = b.startDateUnix;
-            if (typeof unixA === 'number' && typeof unixB === 'number') return unixA - unixB;
-            if (typeof unixA === 'number') return 1;
-            if (typeof unixB === 'number') return -1;
+      const shA = getShowNumber(a), shB = getShowNumber(b);
+      if (shA !== shB) return shA - shB;
+      return getSourceNumber(a) - getSourceNumber(b);
+    });
+  }
 
-            const sdA = a.startDate || {};
-            const sdB = b.startDate || {};
-            const yearA = parseInt(sdA.year, 10) || 0;
-            const yearB = parseInt(sdB.year, 10) || 0;
-            if (yearA !== yearB) return yearA - yearB;
-
-            const monthA = parseInt(sdA.month, 10) || 0;
-            const monthB = parseInt(sdB.month, 10) || 0;
-            if (monthA !== monthB) return monthA - monthB;
-
-            const dayA = parseInt(sdA.day, 10) || 0;
-            const dayB = parseInt(sdB.day, 10) || 0;
-            return dayA - dayB;
-        });
-    }
-
-    return filtered;
+  return filtered;
 }
-
 
 
     function updateDisplay() {

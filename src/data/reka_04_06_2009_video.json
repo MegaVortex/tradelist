@@ -34,45 +34,42 @@
   "public": true,
   "ownIdentifier": "HDD#D",
   "tradeLabel": "",
-  "authoredBy": "",
+  "authoredBy": "Ingram",
   "transferredBy": "",
   "notes": "Great shot!",
-  "tapers": [],
+  "tapers": [
+    "Ingram"
+  ],
   "specs": {
     "media": [
       {
         "type": "DVD-5",
         "size": 2.36,
         "unit": "Gb"
-      },
-      {
-        "type": "CD",
-        "size": 236,
-        "unit": "Mb"
       }
     ],
-    "chapters": false,
-    "menu": false,
-    "length": 210,
+    "chapters": true,
+    "menu": true,
+    "length": 2413,
     "video": [
       {
-        "tvFormat": "",
-        "ratio": "4:3",
-        "resolution": "720x480",
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
         "bitrateType": "",
-        "bitrateKbps": 8000,
-        "fps": "29.97",
-        "standard": "MPEG2",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
         "codec": "",
-        "letterboxed": false
+        "letterboxed": true
       }
     ],
     "audio": [
       {
-        "language": "",
-        "codec": "",
-        "rateHz": 48000,
-        "bitrateKbps": 1536,
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
         "channels": 2
       }
     ],
@@ -80,7 +77,7 @@
       "recordingType": "AMT",
       "sourceMediaType": "",
       "finalMediaType": "",
-      "fileFormat": "MPG"
+      "fileFormat": "DVD"
     }
   },
   "relatedShows": [],
@@ -105,77 +102,8 @@
       "folder": "2",
       "filename": "11303.jpg",
       "externalId": "1-U1MUHPlZKQksumntKIIV0JR3cnZqEKh"
-    },
-    {
-      "folder": "2",
-      "filename": "34366.jpg",
-      "externalId": "19LnbGaJUZURzFmi5LC3Mu3yk3uURemez"
-    },
-    {
-      "folder": "2",
-      "filename": "23912.jpg",
-      "externalId": "1y5UOHMV2YWeS5mPf6UZyuD1CXPG0e0kn"
-    },
-    {
-      "folder": "2",
-      "filename": "55056.jpg",
-      "externalId": "1m8_KMfF7jSk5pUPEhdYqN-aTwW7SuAe7"
-    },
-    {
-      "folder": "2",
-      "filename": "61351.jpg",
-      "externalId": "1xD78mx3W-jyNb3Q0c3Cqyxj125EKH57U"
-    },
-    {
-      "folder": "2",
-      "filename": "17611.jpg",
-      "externalId": "1xIiYllKK7C9kWuuFY3MHfKBdEyW75GEL"
-    },
-    {
-      "folder": "2",
-      "filename": "42481.jpg",
-      "externalId": "1lI5F-0QaIHdzi42gbx0tVQQ0CY7Y1xTU"
-    },
-    {
-      "folder": "2",
-      "filename": "11631.jpg",
-      "externalId": "1rng6b-J5fozxWwZhWMf-FAe9Popj_V7o"
-    },
-    {
-      "folder": "2",
-      "filename": "88527.jpg",
-      "externalId": "16BlM6_Oepm8ZBAIMYxetZyqZ6tTDz50G"
-    },
-    {
-      "folder": "2",
-      "filename": "49179.jpg",
-      "externalId": "1tsYLlzzQrokRZ1YnzWi4kOAxJjPaNjYJ"
-    },
-    {
-      "folder": "2",
-      "filename": "67285.jpg",
-      "externalId": "1YSf1l_wKYjNcVRp_daEXQjqjAjAL8zaN"
-    },
-    {
-      "folder": "2",
-      "filename": "87063.jpg",
-      "externalId": "1HVh0PC0Tq2D50wtSfz9yq0vTFUEergV0"
-    },
-    {
-      "folder": "2",
-      "filename": "04200.jpg",
-      "externalId": "1bhbL4ezZ7aaj9sgKoN1ATHws6xMu-q-4"
     }
   ],
-  "setlist": [
-    {
-      "order": 1,
-      "song": "Excreations",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    }
-  ],
+  "setlist": [],
   "extras": []
 }

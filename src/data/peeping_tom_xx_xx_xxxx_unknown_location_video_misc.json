@@ -18,7 +18,7 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Unknown Location",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
@@ -137,5 +137,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "peeping_tom_xx_xx_xxxx_unknown_location_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/peeping_tom_xx_xx_xxxx_unknown_location_video_misc/"
 }

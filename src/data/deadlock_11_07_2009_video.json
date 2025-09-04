@@ -44,43 +44,38 @@
         "type": "CD",
         "size": 532,
         "unit": "Mb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 3.4,
-        "unit": "Gb"
       }
     ],
-    "chapters": true,
-    "menu": true,
-    "length": 5745,
+    "chapters": false,
+    "menu": false,
+    "length": 915,
     "video": [
       {
-        "tvFormat": "PAL",
-        "ratio": "4:3",
-        "resolution": "720x576",
-        "bitrateType": "VBR",
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
         "bitrateKbps": null,
-        "fps": "",
-        "standard": "",
-        "codec": "",
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
         "letterboxed": false
       }
     ],
     "audio": [
       {
         "language": "",
-        "codec": "AC3",
-        "rateHz": null,
+        "codec": "AAC",
+        "rateHz": 44100,
         "bitrateKbps": null,
         "channels": 2
       }
     ],
     "sourceDetail": {
       "recordingType": "AMT",
-      "sourceMediaType": "VHS",
+      "sourceMediaType": "HD",
       "finalMediaType": "",
-      "fileFormat": "DVD"
+      "fileFormat": "MKV"
     }
   },
   "relatedShows": [],
@@ -105,26 +100,6 @@
       "folder": "4",
       "filename": "61686323.jpg",
       "externalId": "1agbhnJds9WsjptFoz3-GGo5q_SH0u53a"
-    },
-    {
-      "folder": "4",
-      "filename": "22984967.jpg",
-      "externalId": "1s_hohs_g7QQNdYfbIByHvRvBor2NPfph"
-    },
-    {
-      "folder": "4",
-      "filename": "91790841.jpg",
-      "externalId": "13wWQGFeBPUQhWDNnJb_DKF7muL5ey2Ic"
-    },
-    {
-      "folder": "4",
-      "filename": "98787685.jpg",
-      "externalId": "1H08CNquzhs5Wd9y9hRfMF8MhILZ4fu6-"
-    },
-    {
-      "folder": "4",
-      "filename": "01034049.jpg",
-      "externalId": "1QLyYviaaxamUoX78eJUR9U0vfZbFZEE7"
     }
   ],
   "setlist": []

@@ -30,14 +30,16 @@
   "category": [
     "video"
   ],
-  "master": false,
+  "master": true,
   "public": true,
   "ownIdentifier": "HDD#J",
-  "tradeLabel": "",
+  "tradeLabel": "RT",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "Few obstructions during first three tracks due to mass fans migration.",
-  "tapers": [],
+  "tapers": [
+    "Vortex"
+  ],
   "specs": {
     "media": [
       {
@@ -62,16 +64,20 @@
         "letterboxed": false
       }
     ],
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "AС3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
     }
   },
   "relatedShows": [],
@@ -98,5 +104,138 @@
       "externalId": "1sLXG7ctrz_XlFpQiNwmMKJtD2_q30BXR"
     }
   ],
-  "setlist": []
+  "setlist": [
+      {
+          "order": 1,
+          "song": "Show Me What You Got",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 2,
+          "song": "Rollin' (Air Raid Vehicle)",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 3,
+          "song": "Bring It Back",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 4,
+          "song": "Gold Cobra",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 5,
+          "song": "Hot Dog",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 6,
+          "song": "Nookie",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 7,
+          "song": "My Generation",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 8,
+          "song": "Livin' It Up",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 9,
+          "song": "My Way",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 10,
+          "song": "Re-Arranged",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 11,
+          "song": "Killing In The Name",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "Rage Against The Machine"
+      },
+      {
+          "order": 12,
+          "song": "Heart-Shaped Box / Smells Like Teen Spirit",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "Nirvana"
+      },
+      {
+          "order": 13,
+          "song": "Faith",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "George Michael"
+      },
+      {
+          "order": 14,
+          "song": "Behind Blue Eyes",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "The Who"
+      },
+      {
+          "order": 15,
+          "song": "Take A Look Around",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 16,
+          "song": "Break Stuff",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      }
+  ],
+  "extras": [],
+  "fileSlug": "limp_bizkit_22_11_2013_video",
+  "isRegular": true,
+  "permalink": "/shows/limp_bizkit_22_11_2013_video/"
 }

@@ -18,13 +18,13 @@
   },
   "endDateUnix": 1137283200,
   "location": {
-    "city": "HDNET TV",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
-  "tvChannel": "",
+  "tvChannel": "HDNET",
   "showName": "",
   "source": "",
   "category": [
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_15_01_2006_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_15_01_2006_video_misc/"
 }

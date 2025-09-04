@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Motherload MTV News Report",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "Motherload MTV News Report",
   "source": "",
   "category": [
     "video",
@@ -128,5 +128,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "metallica_xx_xx_1996_usa_motherload_mtv_news_report_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/metallica_xx_xx_1996_usa_motherload_mtv_news_report_video_misc/"
 }

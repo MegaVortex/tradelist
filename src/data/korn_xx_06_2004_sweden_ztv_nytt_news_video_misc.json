@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Sweden",
+    "city": "",
     "state": "",
-    "country": "ZTV NYTT News",
+    "country": "Sweden",
     "venue": "",
     "event": ""
   },
-  "tvChannel": "ZTV NYTT News",
-  "showName": "",
+  "tvChannel": "ZTV",
+  "showName": "ZTV NYTT News",
   "source": "",
   "category": [
     "video",
@@ -117,5 +117,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_06_2004_sweden_ztv_nytt_news_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_06_2004_sweden_ztv_nytt_news_video_misc/"
 }

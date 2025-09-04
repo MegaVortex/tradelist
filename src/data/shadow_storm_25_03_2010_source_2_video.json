@@ -30,47 +30,44 @@
   "category": [
     "video"
   ],
-  "master": false,
+  "master": true,
   "public": true,
-  "ownIdentifier": "HDD#F",
+  "ownIdentifier": "",
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "We had a trip to Ryazan for MOPA performance, but they didn't come and we decided to tape local band.",
-  "tapers": [],
+  "notes": "We had a trip to Ryazan for MOPA performance, but they didn't show up, and we decided to tape the local band instead.",
+  "tapers": [
+    "Vortex"
+  ],
   "specs": {
     "media": [
       {
         "type": "DVD-5",
         "size": 4.13,
         "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 4.09,
-        "unit": "Gb"
       }
     ],
     "chapters": true,
     "menu": true,
-    "length": 4483,
+    "length": 2545,
     "video": [
       {
         "tvFormat": "PAL",
-        "ratio": "4:3",
+        "ratio": "16:9",
         "resolution": "720x576",
         "bitrateType": "VBR",
         "bitrateKbps": null,
         "fps": "",
         "standard": "",
         "codec": "",
-        "letterboxed": false
+        "letterboxed": true
       }
     ],
     "audio": [
       {
         "language": "",
-        "codec": "AC3",
+        "codec": "MPEG1",
         "rateHz": null,
         "bitrateKbps": null,
         "channels": 2
@@ -78,7 +75,7 @@
     ],
     "sourceDetail": {
       "recordingType": "AMT",
-      "sourceMediaType": "VHS",
+      "sourceMediaType": "",
       "finalMediaType": "",
       "fileFormat": "DVD"
     }
@@ -105,117 +102,8 @@
       "folder": "10",
       "filename": "18222192.jpg",
       "externalId": "158xowd-eButX9Tr2EiShK0Abd7LhnX5A"
-    },
-    {
-      "folder": "10",
-      "filename": "05149601.jpg",
-      "externalId": "1CJJSj8bJVu5olBhJJYz07L_Vmxt4hKae"
-    },
-    {
-      "folder": "10",
-      "filename": "78477094.jpg",
-      "externalId": "1Y2ae38iDotEE5zvK2rPejyawRZclxIET"
-    },
-    {
-      "folder": "10",
-      "filename": "24469931.jpg",
-      "externalId": "1sFY3KPjmPgaYlf7ulcgpW1zYPonjtuKl"
-    },
-    {
-      "folder": "10",
-      "filename": "34936887.jpg",
-      "externalId": "1OingNgTCO85P_ETbIOjcWAB3w5oni079"
     }
   ],
-  "setlist": [
-    {
-      "order": 1,
-      "song": "100%",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "Dirty Boots",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 3,
-      "song": "Kool Thing",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 4,
-      "song": "Swimsuit Issue",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 5,
-      "song": "Genetic",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 6,
-      "song": "Theresa's Sound-World",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 7,
-      "song": "Tom Violence",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 8,
-      "song": "Sugar Kane",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 9,
-      "song": "Schizophrenia",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 10,
-      "song": "Drunken Butterfly",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 11,
-      "song": "Youth Against Fascism",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    }
-  ],
+  "setlist": [],
   "extras": []
 }

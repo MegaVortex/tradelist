@@ -65,7 +65,7 @@
     "audio": [
       {
         "language": "",
-        "codec": "",
+        "codec": "WMA2",
         "rateHz": 44100,
         "bitrateKbps": 128,
         "channels": 2
@@ -80,7 +80,28 @@
   },
   "relatedShows": [],
   "childOf": "",
-  "images": [],
+  "images": [
+    {
+      "folder": "83",
+      "filename": "33745988.jpg",
+      "externalId": "1bzwkz4w_4cU16gwZXc5aWNhVrbJ1Hga_"
+    },
+    {
+      "folder": "83",
+      "filename": "66382068.jpg",
+      "externalId": "1XxusQEtc29R_wd3XTvj-UsoalY2BQr64"
+    },
+    {
+      "folder": "83",
+      "filename": "57544109.jpg",
+      "externalId": "1SBP6i-jbDujesnlPZrQQIcjoh_Zu2i0y"
+    },
+    {
+      "folder": "83",
+      "filename": "51111220.jpg",
+      "externalId": "1FsONXFo79CQSS9jSs0DeAOGAFQgjBpo6"
+    }
+  ],
   "setlist": [
     {
       "order": 1,

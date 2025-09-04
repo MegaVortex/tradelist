@@ -78,10 +78,7 @@
       "fileFormat": "DVD"
     }
   },
-  "relatedShows": [
-    "system_of_a_down_08_06_1999_video",
-    "system_of_a_down_06_06_1998_video"
-  ],
+  "relatedShows": [],
   "childOf": "",
   "images": [
     {
@@ -103,185 +100,153 @@
       "folder": "28",
       "filename": "36277553.jpg",
       "externalId": "1c5voFnClj-P-jBrX8tu90MPWT7u1BVLG"
-    },
-    {
-      "folder": "28",
-      "filename": "46433567.jpg",
-      "externalId": "1jiUwQjX1_D1cOOsybtt8oeQGS1b-kXzX"
-    },
-    {
-      "folder": "28",
-      "filename": "02941875.jpg",
-      "externalId": "15wL2ObQxq32ZqjZeULZulmIeQpz9HQ5r"
-    },
-    {
-      "folder": "28",
-      "filename": "71950903.jpg",
-      "externalId": "1pKHU5LQZ-aiN6hIeYeiKq6UKCOZYTcFP"
-    },
-    {
-      "folder": "28",
-      "filename": "99190310.jpg",
-      "externalId": "1wpYNejSoIpkEU9gkg9e3tUau7_iohRLW"
-    },
-    {
-      "folder": "28",
-      "filename": "19145971.jpg",
-      "externalId": "1DquScuOIvOT0UcrqUvggEEljHGzM1yT9"
-    },
-    {
-      "folder": "28",
-      "filename": "31298366.jpg",
-      "externalId": "1YzU7e4a5hW3cDi6swg1xgqvTukgdBU3h"
-    },
-    {
-      "folder": "28",
-      "filename": "21142817.jpg",
-      "externalId": "1VUXkJrTvlltgMyyDVdiYsAu4pJPFfAW1"
-    },
-    {
-      "folder": "28",
-      "filename": "13952206.jpg",
-      "externalId": "1icUaPd1hpgTAMh3KhSsUPSjaxOi5yuES"
-    },
-    {
-      "folder": "64",
-      "filename": "00156263.jpg",
-      "externalId": "1ZIu5bVLked0uHRDvpnRhfXKi3XqusL_Y"
-    },
-    {
-      "folder": "64",
-      "filename": "48364645.jpg",
-      "externalId": "187KJaaB7zeS64_UnqwZhEX57TKUPhqlr"
-    },
-    {
-      "folder": "64",
-      "filename": "63847729.jpg",
-      "externalId": "1xX2aaESGTt3n0wR4NTz9_0TyW1LCkMum"
-    },
-    {
-      "folder": "64",
-      "filename": "68861036.jpg",
-      "externalId": "1X1MTS9Bnzlmxp-KsSNGH8QECnwG8XBbA"
-    },
-    {
-      "folder": "28",
-      "filename": "16447052.jpg",
-      "externalId": "1-pJFSl2AVOuO_V6zhZHOAO6yhCfVWSS-"
-    },
-    {
-      "folder": "28",
-      "filename": "90272051.jpg",
-      "externalId": "1OAJF9NX7LOpRj08NQY_tFuup56whP6tO"
-    },
-    {
-      "folder": "28",
-      "filename": "19734597.jpg",
-      "externalId": "1-_mOiY7OYBT-pDxBc_xaAMQBCYOFnsxi"
-    },
-    {
-      "folder": "28",
-      "filename": "23475671.jpg",
-      "externalId": "1DWMKhd-bswvtG9vWZEWob6z7_PxHDeW8"
     }
   ],
   "setlist": [
-    {
-      "order": 1,
-      "song": "P.L.U.C.K.",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "Know",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 1,
-      "song": "Suite-Pee",
-      "feat": "",
-      "note": "incomplete",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 3,
-      "song": "X",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 1,
-      "song": "Know",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "X",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 3,
-      "song": "Suite-Pee",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 4,
-      "song": "Suggestions",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 5,
-      "song": "DDevil",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 6,
-      "song": "Mind",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 7,
-      "song": "War?",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 8,
-      "song": "Darts",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    }
+      {
+          "order": 1,
+          "song": "Against",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 2,
+          "song": "Choke",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 3,
+          "song": "Spit",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 4,
+          "song": "Rumors",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 5,
+          "song": "Slave New World",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 6,
+          "song": "Attitude",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 7,
+          "song": "Old Earth",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 8,
+          "song": "Biotech Is Godzilla",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 9,
+          "song": "Arise",
+          "feat": "",
+          "note": "medley",
+          "comment": "with Cells",
+          "coverOf": ""
+      },
+      {
+          "order": 10,
+          "song": "Troops Of Doom",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 11,
+          "song": "Cut-Throat",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 12,
+          "song": "Breed Apart",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 13,
+          "song": "Hatred Aside",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 14,
+          "song": "Refuse/Resist",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 15,
+          "song": "Territory",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 16,
+          "song": "Inner Self",
+          "feat": "",
+          "note": "medley",
+          "comment": "with Beneath The Remains",
+          "coverOf": ""
+      },
+      {
+          "order": 17,
+          "song": "Tribus",
+          "feat": "",
+          "note": "medley",
+          "comment": "with Kaiowas",
+          "coverOf": ""
+      },
+      {
+          "order": 18,
+          "song": "Roots Bloody Roots",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      }
   ],
   "extras": []
 }

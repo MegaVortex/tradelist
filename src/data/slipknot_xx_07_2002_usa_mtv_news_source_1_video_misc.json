@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "MTV News",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "MTV News",
   "source": "Source 1",
   "category": [
     "video",
@@ -137,5 +137,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_xx_07_2002_usa_mtv_news_source_1_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_xx_07_2002_usa_mtv_news_source_1_video_misc/"
 }

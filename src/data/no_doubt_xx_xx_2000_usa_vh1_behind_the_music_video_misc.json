@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "VH1 Behind The Music",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "VH1",
-  "showName": "",
+  "showName": "VH1 Behind The Music",
   "source": "",
   "category": [
     "video",
@@ -103,5 +103,8 @@
       "externalId": "1FXPTaIj4w8VBRwnFB46Oe2kz9QhUuBHq"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "no_doubt_xx_xx_2000_usa_vh1_behind_the_music_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/no_doubt_xx_xx_2000_usa_vh1_behind_the_music_video_misc/"
 }

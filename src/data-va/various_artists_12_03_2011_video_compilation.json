@@ -1,0 +1,137 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - 12.03.2011 - Moscow - Russia - SC Olimpiyskiy - Discoteka 90's",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Комбинация",
+    "Руки Вверх!",
+	"Rednex",
+	"Sash!",
+	"Scooter",
+	"Shura",
+	"Вирус",
+	"Иванушки International",
+	"Кай Метов",
+	"Демо"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "03",
+    "year": "2011"
+  },
+  "startDateUnix": 1299888000,
+  "endDate": {
+    "day": "12",
+    "month": "03",
+    "year": "2011"
+  },
+  "endDateUnix": 1299888000,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "SC Olimpiyskiy",
+    "event": "Discoteka 90's"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": true,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Vortex"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.49,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 2.95,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6532,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "17",
+      "filename": "85068361.jpg",
+      "externalId": "1945E9QQdcELcrUWeboFMBNh2PP7cLc5N"
+    },
+    {
+      "folder": "17",
+      "filename": "13728163.jpg",
+      "externalId": "1jVkG6sVTeGOdpEZbxrXWGLP_Lo-bzXg8"
+    },
+    {
+      "folder": "17",
+      "filename": "32318460.jpg",
+      "externalId": "1FzuGvBxktFc18zfwwWoGRvxZL20YczO6"
+    },
+    {
+      "folder": "17",
+      "filename": "87301085.jpg",
+      "externalId": "1-oQtTLUL_0OXhCjuDQ5T8SsEJyASDNMO"
+    }
+  ],
+  "parentOf": [
+    "sash_12_03_2011_video",
+    "scooter_12_03_2011_video",
+    "shura_12_03_2011_video",
+    "virus_12_03_2011_video",
+    "demo_12_03_2011_video",
+    "ivanushki_international_12_03_2011_video",
+    "kay_metov_12_03_2011_video",
+    "rednex_12_03_2011_video",
+    "ruki_vverh_12_03_2011_video",
+	"kombinatsiya_12_03_2011_video"
+  ],
+  "fileSlug": "various_artists_12_03_2011_video_compilation",
+  "isVA": true,
+  "permalink": "/va-shows/various_artists_12_03_2011_video_compilation/"
+}

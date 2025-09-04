@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "[TX",
-    "state": "OK",
-    "country": "AL",
-    "venue": "GA",
-    "event": "SC] - USA - Tour Bus"
+    "city": "",
+    "state": "",
+    "country": "USA",
+    "venue": "",
+    "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Tour Bus",
   "source": "",
   "category": [
     "video",
@@ -37,7 +37,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "Taped by musicians.",
+  "notes": "Taped by musicians. Tour bus: TX - OK - AL - GA - SC.",
   "tapers": [],
   "specs": {
     "media": [
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_1996_tx_ok_al_ga_sc_usa_tour_bus_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_1996_tx_ok_al_ga_sc_usa_tour_bus_video_misc/"
 }

@@ -36,24 +36,19 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "Screenshot. On the same show - \"[Jeff Beck] [Eric Clapton & Jeff Beck] - 21.02.2009 - Saitama - Japan - Saitama Super Arena\" (These DVDs includes 3 parts of the show).",
+  "notes": "Screenshot.",
   "tapers": [],
   "specs": {
     "media": [
       {
         "type": "DVD-5",
-        "size": 4.27,
-        "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 2.2,
+        "size": 2.19,
         "unit": "Gb"
       }
     ],
     "chapters": true,
     "menu": true,
-    "length": null,
+    "length": 3320,
     "video": [
       {
         "tvFormat": "NTSC",
@@ -83,7 +78,10 @@
       "fileFormat": "DVD"
     }
   },
-  "relatedShows": [],
+  "relatedShows": [
+    "eric_clapton_jeff_beck_21_02_2009_video",
+	"jeff_beck_21_02_2009_video"
+  ],
   "childOf": "",
   "images": [
     {
@@ -107,5 +105,103 @@
       "externalId": "1B4-SYpJTmbP9Syy7E6DWORRtK3s7oxOB"
     }
   ],
-  "setlist": []
+  "setlist": [
+      {
+          "order": 1,
+          "song": "The Pump",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 2,
+          "song": "You Never Knows",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 3,
+          "song": "Cause We're Ended As Lovers",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 4,
+          "song": "Straus",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 5,
+          "song": "Angel (Footsteps)",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 6,
+          "song": "Led Boots",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 7,
+          "song": "Goodbye Pork Pie Hat",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 8,
+          "song": "Brush With The Blues",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 9,
+          "song": "Freeway Jam",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 10,
+          "song": "Blue Wind",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 11,
+          "song": "A Day In The Life",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 12,
+          "song": "Peter Gunn Theme",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      }
+  ],
+  "extras": []
 }

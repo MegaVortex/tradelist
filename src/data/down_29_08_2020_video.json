@@ -30,14 +30,16 @@
   "category": [
     "video"
   ],
-  "master": false,
+  "master": true,
   "public": true,
   "ownIdentifier": "HDD#A",
-  "tradeLabel": "",
+  "tradeLabel": "RT",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "'The Quarter Century Throwdown' live steam event.",
-  "tapers": [],
+  "tapers": [
+    "Vortex"
+  ],
   "specs": {
     "media": [
       {
@@ -265,5 +267,8 @@
       "coverOf": "",
       "comment": ""
     }
-  ]
+  ],
+  "fileSlug": "down_29_08_2020_video",
+  "isRegular": true,
+  "permalink": "/shows/down_29_08_2020_video/"
 }

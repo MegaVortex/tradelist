@@ -33,7 +33,7 @@
   "master": false,
   "public": true,
   "ownIdentifier": "HDD#B",
-  "tradeLabel": "",
+  "tradeLabel": "NT",
   "authoredBy": "Jederlacht",
   "transferredBy": "",
   "notes": "WAV (24-bit/48kHz) > Adobe Audition CC (volume boost, EQ, bass boost, tracking) > FLAC (16-bit) > Trader's Little Helper (creating .md5) > FLAC Highend Level 8.",
@@ -240,5 +240,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_18_01_2020_audio",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_18_01_2020_audio/"
 }

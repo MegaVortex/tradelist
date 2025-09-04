@@ -18,10 +18,10 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "MTV Studios",
-    "venue": "",
+    "country": "USA",
+    "venue": "MTV Studios",
     "event": ""
   },
   "tvChannel": "MTV",
@@ -34,7 +34,7 @@
   "master": false,
   "public": true,
   "ownIdentifier": "HDD#C",
-  "tradeLabel": "",
+  "tradeLabel": "RT",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "",
@@ -143,5 +143,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_1997_usa_mtv_studios_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_1997_usa_mtv_studios_video_misc/"
 }

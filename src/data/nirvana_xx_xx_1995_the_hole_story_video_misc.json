@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "'The Hole Story'",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "The Hole Story",
   "source": "",
   "category": [
     "video",
@@ -110,5 +110,8 @@
       "externalId": "10eb09UpCeOV6aRgeo7aYcLpAGXwfID6Y"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "nirvana_xx_xx_1995_the_hole_story_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/nirvana_xx_xx_1995_the_hole_story_video_misc/"
 }

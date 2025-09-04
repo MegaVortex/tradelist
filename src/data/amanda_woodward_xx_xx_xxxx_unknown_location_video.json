@@ -18,7 +18,7 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Unknown Location",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
@@ -104,5 +104,8 @@
       "externalId": "1KOt0E0tjgGLvXOtDXbzvIT9vKkxn2sXN"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "amanda_woodward_xx_xx_xxxx_unknown_location_video",
+  "isRegular": true,
+  "permalink": "/shows/amanda_woodward_xx_xx_xxxx_unknown_location_video/"
 }

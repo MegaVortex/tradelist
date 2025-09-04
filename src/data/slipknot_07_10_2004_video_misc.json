@@ -18,13 +18,13 @@
   },
   "endDateUnix": 1097107200,
   "location": {
-    "city": "MCM TV",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
-  "tvChannel": "",
+  "tvChannel": "MCM",
   "showName": "",
   "source": "",
   "category": [
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_07_10_2004_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_07_10_2004_video_misc/"
 }

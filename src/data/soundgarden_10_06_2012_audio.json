@@ -36,7 +36,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "2 sources mix:",
+  "notes": "2 sources mix: Source 1 (rbose1): USB > PC > CD Wave Editor > Trader's Little Helper > FLAC level 8; Source 2 (Barghest): WAV > Adobe Audition (Normalize-Track Splitting) > FLAC.",
   "tapers": [
     "rbose1",
     "Barghest"
@@ -70,10 +70,10 @@
       }
     ],
     "sourceDetail": {
-      "recordingType": "WAV &gt; Adobe Audition",
-      "sourceMediaType": "Normalize",
-      "finalMediaType": "Track Splitting",
-      "fileFormat": ""
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
     }
   },
   "relatedShows": [],

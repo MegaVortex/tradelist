@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "'MTV Booty Licious'",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "MTV Booty Licious",
   "source": "",
   "category": [
     "video",
@@ -123,5 +123,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "marilyn_manson_xx_xx_2000_usa_mtv_booty_licious_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/marilyn_manson_xx_xx_2000_usa_mtv_booty_licious_video_misc/"
 }

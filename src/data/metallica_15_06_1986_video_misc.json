@@ -18,14 +18,14 @@
   },
   "endDateUnix": 519177600,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Metal Mania",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Metal Mania",
   "source": "",
   "category": [
     "video",
@@ -110,5 +110,8 @@
       "externalId": "1yWzRdB8wfK3CipsAkwETXjGseeCUH1_2"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "metallica_15_06_1986_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/metallica_15_06_1986_video_misc/"
 }

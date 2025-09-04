@@ -37,7 +37,9 @@
   "authoredBy": "",
   "transferredBy": "",
   "notes": "Before the show footage included.",
-  "tapers": [],
+  "tapers": [
+    "phoenx"
+  ],
   "specs": {
     "media": [
       {
@@ -64,14 +66,16 @@
     ],
     "audio": {
       "language": "",
-      "codec": "",
+      "codec": "MPA",
+	  "rateHz": 48000,
       "bitrateKbps": null,
-      "channels": null
+      "channels": 2
     },
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
     }
   },
   "relatedShows": [],

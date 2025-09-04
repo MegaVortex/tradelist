@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
-    "state": "MTV",
-    "country": "Return Of The Rock",
+    "city": "",
+    "state": "",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "Return Of The Rock",
   "source": "",
   "category": [
     "video",
@@ -34,7 +34,7 @@
   "master": false,
   "public": true,
   "ownIdentifier": "HDD#C",
-  "tradeLabel": "",
+  "tradeLabel": "RT",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "",
@@ -143,5 +143,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_1999_usa_mtv_return_of_the_rock_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_1999_usa_mtv_return_of_the_rock_video_misc/"
 }

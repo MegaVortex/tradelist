@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Россия",
+    "city": "",
     "state": "",
-    "country": "Акустический Концерт",
+    "country": "Россия",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Акустический Концерт",
   "source": "",
   "category": [
     "video"
@@ -102,5 +102,8 @@
       "externalId": "1rUJQbJRh3bxSd7-ED9JkHDYdjY054rU9"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "chizh_co_xx_xx_xxxx_rossiya_akusticheskiy_kontsert_video",
+  "isRegular": true,
+  "permalink": "/shows/chizh_co_xx_xx_xxxx_rossiya_akusticheskiy_kontsert_video/"
 }

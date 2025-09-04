@@ -18,14 +18,14 @@
   },
   "endDateUnix": 1133654400,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "NBC Studios",
-    "venue": "MSNBC News",
+    "country": "USA",
+    "venue": "NBC Studios",
     "event": ""
   },
   "tvChannel": "NBC",
-  "showName": "",
+  "showName": "MSNBC News",
   "source": "",
   "category": [
     "video",
@@ -135,5 +135,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_04_12_2005_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_04_12_2005_video_misc/"
 }

@@ -72,7 +72,7 @@
       }
     ],
     "sourceDetail": {
-      "recordingType": "AMT, PRO",
+      "recordingType": "AMT",
       "sourceMediaType": "",
       "finalMediaType": "",
       "fileFormat": "DVD"
@@ -105,18 +105,18 @@
   "setlist": [
     {
       "order": 1,
-      "song": "Hell Awaits (AUD)",
+      "song": "Hell Awaits",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "AMT",
       "coverOf": ""
     },
     {
       "order": 2,
-      "song": "The Antichrist (AUD)",
+      "song": "The Antichrist",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "AMT",
       "coverOf": ""
     },
     {
@@ -137,58 +137,58 @@
     },
     {
       "order": 5,
-      "song": "Dead Skin Mask (PRO - MASTER)",
+      "song": "Dead Skin Mask",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "PRO",
       "coverOf": ""
     },
     {
       "order": 6,
-      "song": "Seasons In The Abyss (PRO - Low Gen)",
+      "song": "Seasons In The Abyss",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "PRO, Low Gen",
       "coverOf": ""
     },
     {
       "order": 7,
-      "song": "War Ensemble (PRO - Low Gen)",
+      "song": "War Ensemble",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "PRO, Low Gen",
       "coverOf": ""
     },
     {
       "order": 8,
-      "song": "Mandatory Suicide (AUD)",
+      "song": "Mandatory Suicide",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "AMT",
       "coverOf": ""
     },
     {
       "order": 9,
-      "song": "Raining Blood (AUD)",
+      "song": "Raining Blood",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "AMT",
       "coverOf": ""
     },
     {
       "order": 10,
-      "song": "Angel Of Death (AUD)",
+      "song": "Angel Of Death",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "AMT",
       "coverOf": ""
     }
   ],
   "extras": [
     {
       "order": 1,
-      "song": "Interview with Tom and Kerry",
-      "feat": "",
+      "song": "Interview",
+      "feat": "Tom and Kerry",
       "note": "",
       "coverOf": "",
       "comment": ""

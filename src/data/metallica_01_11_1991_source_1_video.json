@@ -1,0 +1,302 @@
+{
+  "originalTitle": "Metallica - 01.11.1991 - Muskegon - MI - USA - L.C. Walker Arena (Source 1)",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "11",
+    "year": "1991"
+  },
+  "startDateUnix": 688953600,
+  "endDate": {
+    "day": "01",
+    "month": "11",
+    "year": "1991"
+  },
+  "endDateUnix": 688953600,
+  "location": {
+    "city": "Muskegon",
+    "state": "MI",
+    "country": "USA",
+    "venue": "L.C. Walker Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.97,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 3.57,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 2.95,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 9436,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "4",
+      "filename": "5562185.jpg",
+      "externalId": "1L546ogPSRMMKzFUB9-pZU4MbEN2JXgiK"
+    },
+    {
+      "folder": "4",
+      "filename": "3242681.jpg",
+      "externalId": "1LH5QotmAZcOCcP9a2l-yWdSnM9__NQtF"
+    },
+    {
+      "folder": "4",
+      "filename": "7736955.jpg",
+      "externalId": "12_PqKhzt2iBPqeBNX0gMsrHtbKpq4mCn"
+    },
+    {
+      "folder": "4",
+      "filename": "6780004.jpg",
+      "externalId": "1ySP_ev1YaA_hsm10DTVKWW8yC11L5Dn2"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Ecstasy Of Gold",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Creeping Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Harvester Of Sorrow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Welcome Home (Sanitarium)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Sad But True",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Bass Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Holier Than Thou",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "The Unforgiven",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Justice Medley",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Drum Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Guitar Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "The Four Horsemen",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "For Whom the Bell Tolls",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Fade To Black",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "Whiplash",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 17,
+      "song": "Cat Scratch Fever Jam",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 18,
+      "song": "Master Of Puppets",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 19,
+      "song": "Seek & Destroy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 20,
+      "song": "One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 21,
+      "song": "Last Caress",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 22,
+      "song": "Am I Evil?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 23,
+      "song": "Battery",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

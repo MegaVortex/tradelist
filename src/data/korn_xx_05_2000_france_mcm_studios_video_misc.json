@@ -18,10 +18,10 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "France",
+    "city": "",
     "state": "",
-    "country": "MCM Studios",
-    "venue": "",
+    "country": "France",
+    "venue": "MCM Studios",
     "event": ""
   },
   "tvChannel": "",
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_05_2000_france_mcm_studios_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_05_2000_france_mcm_studios_video_misc/"
 }

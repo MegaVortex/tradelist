@@ -18,11 +18,11 @@
   },
   "endDateUnix": 1139356800,
   "location": {
-    "city": "Downtown",
-    "state": "",
-    "country": "Los Angeles",
-    "venue": "CA",
-    "event": "USA - Staples Center - Grammy Awards"
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Staples Center",
+    "event": "Grammy Awards"
   },
   "tvChannel": "",
   "showName": "",
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_08_02_2006_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_08_02_2006_video_misc/"
 }

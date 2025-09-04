@@ -36,7 +36,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "2 sources matrix:",
+  "notes": "2 sources matrix.",
   "tapers": [
     "Shownomarcy"
   ],
@@ -69,10 +69,10 @@
       }
     ],
     "sourceDetail": {
-      "recordingType": "CA",
+      "recordingType": "AMT",
       "sourceMediaType": "",
-      "finalMediaType": "omni",
-      "fileFormat": "14"
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
     }
   },
   "relatedShows": [],
@@ -176,5 +176,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "down_27_06_2013_audio",
+  "isRegular": true,
+  "permalink": "/shows/down_27_06_2013_audio/"
 }

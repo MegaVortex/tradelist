@@ -1,0 +1,220 @@
+{
+  "originalTitle": "Metallica - 17.08.1991 - Castle Donington - England - Donington Park (Source 1)",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "08",
+    "year": "1991"
+  },
+  "startDateUnix": 682387200,
+  "endDate": {
+    "day": "17",
+    "month": "08",
+    "year": "1991"
+  },
+  "endDateUnix": 682387200,
+  "location": {
+    "city": "Castle Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "Fan4fan",
+  "transferredBy": "",
+  "notes": "A lot of head and obstructions and somewhat shaky.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.97,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3998,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "1",
+      "filename": "08769.jpg",
+      "externalId": "1e_GrKbeMDhHtXZM1p4X8yUVaXfYe9g0l"
+    },
+    {
+      "folder": "1",
+      "filename": "54067.jpg",
+      "externalId": "1GLkGHymMcAI7aCW7Vp6mPz9h0AzMnES7"
+    },
+    {
+      "folder": "1",
+      "filename": "42675.jpg",
+      "externalId": "1FuRRY0BAqaGyarIEfrDHeyRVvZElwI2A"
+    },
+    {
+      "folder": "1",
+      "filename": "50742.jpg",
+      "externalId": "1PnfIUbpu-XZRmBqYzZ0kyhPd3uQmst3j"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Ecstasy Of Gold",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Creeping Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Harvester Of Sorrow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Fade To Black",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Sad But True",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Master Of Puppets",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Seek & Destroy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "For Whom The Bell Tolls",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Whiplash",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Last Caress",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Am I Evil?",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Battery",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

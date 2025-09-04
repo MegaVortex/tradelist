@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Loud Times",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Loud Times",
   "source": "",
   "category": [
     "video",
@@ -124,5 +124,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_2000_loud_times_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_2000_loud_times_video_misc/"
 }

@@ -21,7 +21,7 @@
     "city": "Wiesen",
     "state": "",
     "country": "Austria",
-    "venue": "",
+    "venue": "Festivalgelande Schollingstrasse",
     "event": "Lovely Days Festival"
   },
   "tvChannel": "",
@@ -100,61 +100,186 @@
       "folder": "4",
       "filename": "6455138.jpg",
       "externalId": "1MDd9IHKA0zgeGNqtpaY4vaAAiVWBNsww"
-    },
-    {
-      "folder": "4",
-      "filename": "2887241.jpg",
-      "externalId": "1fmpuPisimd68I9ZTVnIFbTPcJxjtqxso"
-    },
-    {
-      "folder": "4",
-      "filename": "1886618.jpg",
-      "externalId": "1SCF-8CN3Yi9NhCn2_oLG3P4y_3DwWsBX"
-    },
-    {
-      "folder": "4",
-      "filename": "0868146.jpg",
-      "externalId": "19EIXfXDADuJcdY8S-dg5-BtF5w8pNVMW"
-    },
-    {
-      "folder": "4",
-      "filename": "8029354.jpg",
-      "externalId": "148PfXqksUyq2WSrgwMnPfzO4pufckibr"
     }
   ],
   "setlist": [
-    {
-      "order": 1,
-      "song": "Durango 95 (Interview To Jhonny)",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "Teenage Lobotomy (Interview To Jhonny)",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 3,
-      "song": "Psycho Therapy",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 4,
-      "song": "Do You Remember Rock 'N' Roll Radio",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    }
+      {
+          "order": 1,
+          "song": "Intro",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 2,
+          "song": "Highway Star",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 3,
+          "song": "Things I Never Said",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 4,
+          "song": "Strange Kind Of Woman",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 5,
+          "song": "Rapture Of The Deep",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 6,
+          "song": "Fireball",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 7,
+          "song": "Contact Lost",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 8,
+          "song": "Steve Morse Solo",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 9,
+          "song": "Sometimes I Feel Like Screaming",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 10,
+          "song": "The Well Dressed Guitar",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 11,
+          "song": "Wring That Neck",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 12,
+          "song": "The Battle Rages On",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 13,
+          "song": "Don Airey Solo",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 14,
+          "song": "Perfect Strangers",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 15,
+          "song": "Space Truckin'",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 16,
+          "song": "Smoke On The Water",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 17,
+          "song": "Peter Gunn Theme",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 18,
+          "song": "Hush",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 19,
+          "song": "Roger Glover Bass Intro",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 20,
+          "song": "Black Night",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 21,
+          "song": "Outro",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      }
   ],
-  "extras": []
+  "extras": [
+      {
+          "order": 1,
+          "song": "TV Advertisment",
+          "feat": "",
+          "note": "",
+          "comment": "Local Austrian TV",
+          "coverOf": ""
+      }
+  ]
 }

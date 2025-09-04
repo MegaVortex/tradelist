@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Music Tomato Show",
+    "city": "",
     "state": "",
-    "country": "Japanese TV",
+    "country": "Japan",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Music Tomato Show",
   "source": "",
   "category": [
     "video",
@@ -37,7 +37,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "",
+  "notes": "Japanese TV.",
   "tapers": [],
   "specs": {
     "media": [
@@ -120,5 +120,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "metallica_xx_xx_1986_music_tomato_show_japanese_tv_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/metallica_xx_xx_1986_music_tomato_show_japanese_tv_video_misc/"
 }

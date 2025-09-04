@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "'Dangerous Tour' Rehearsals",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "'Dangerous Tour' Rehearsals",
   "source": "Source 2",
   "category": [
     "video",
@@ -233,5 +233,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "michael_jackson_xx_xx_1992_dangerous_tour_rehearsals_source_2_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/michael_jackson_xx_xx_1992_dangerous_tour_rehearsals_source_2_video_misc/"
 }

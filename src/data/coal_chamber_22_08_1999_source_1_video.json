@@ -36,7 +36,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "A bit dark.",
+  "notes": "3 cam mix.",
   "tapers": [],
   "specs": {
     "media": [
@@ -44,26 +44,16 @@
         "type": "DVD-5",
         "size": 3.17,
         "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 1.6,
-        "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 2.18,
-        "unit": "Gb"
       }
     ],
     "chapters": true,
     "menu": true,
-    "length": 1896,
+    "length": 2911,
     "video": [
       {
-        "tvFormat": "NTSC",
+        "tvFormat": "PAL",
         "ratio": "4:3",
-        "resolution": "720x480",
+        "resolution": "720x576",
         "bitrateType": "VBR",
         "bitrateKbps": null,
         "fps": "",
@@ -75,7 +65,7 @@
     "audio": [
       {
         "language": "",
-        "codec": "AC3",
+        "codec": "LPCM",
         "rateHz": null,
         "bitrateKbps": null,
         "channels": 2
@@ -83,7 +73,7 @@
     ],
     "sourceDetail": {
       "recordingType": "AMT",
-      "sourceMediaType": "",
+      "sourceMediaType": "VHS",
       "finalMediaType": "",
       "fileFormat": "DVD"
     }
@@ -110,46 +100,6 @@
       "folder": "4",
       "filename": "87718516.jpg",
       "externalId": "1lYZ1W9H1ytwZqe5xlxBWXYsVx9txQL8V"
-    },
-    {
-      "folder": "4",
-      "filename": "64653484.jpg",
-      "externalId": "1PSF5M2nHUp4eHKM7uboydnmv_M5VKO2T"
-    },
-    {
-      "folder": "4",
-      "filename": "60175405.jpg",
-      "externalId": "1uWYglCcsJEBmcAr8dMI-oDL_Fe5xJpKR"
-    },
-    {
-      "folder": "4",
-      "filename": "90059973.jpg",
-      "externalId": "1rlnGVcKchgJd0Iy7N55hJ3TWK9ZXn_VO"
-    },
-    {
-      "folder": "4",
-      "filename": "74369208.jpg",
-      "externalId": "1pTfcbzwKmzcjrTe0K2FJrb4oIT-Uuaty"
-    },
-    {
-      "folder": "4",
-      "filename": "18355898.jpg",
-      "externalId": "1EFC0ezapbReOxnquwbeZHulXhyR5IJoZ"
-    },
-    {
-      "folder": "4",
-      "filename": "95620712.jpg",
-      "externalId": "1dCSJiJ3jYIgpB0Go478ZtJVS4xSCfW-p"
-    },
-    {
-      "folder": "4",
-      "filename": "68646423.jpg",
-      "externalId": "11xNAcyW5WtAxw7QCJxRsq0q9OGiSz8jU"
-    },
-    {
-      "folder": "4",
-      "filename": "39439353.jpg",
-      "externalId": "1l0AvGIh0C0yD6HBSG1f9KYNKIGcuC9Ib"
     }
   ],
   "setlist": []

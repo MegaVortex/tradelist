@@ -20,12 +20,12 @@
   "location": {
     "city": "Universal City",
     "state": "CA",
-    "country": "Gibson Amphitheatre",
-    "venue": "MTV Movie Awards",
+    "country": "USA",
+    "venue": "Gibson Amphitheatre",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "MTV Movie Awards",
   "source": "",
   "category": [
     "video"
@@ -114,5 +114,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "amy_winehouse_03_06_2007_video",
+  "isRegular": true,
+  "permalink": "/shows/amy_winehouse_03_06_2007_video/"
 }

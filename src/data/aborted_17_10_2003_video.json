@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Aborted - 17.10.2003 - Tel Aviv - Israel",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Aborted"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "10",
+    "year": "2003"
+  },
+  "startDateUnix": 1066348800,
+  "endDate": {
+    "day": "17",
+    "month": "10",
+    "year": "2003"
+  },
+  "endDateUnix": 1066348800,
+  "location": {
+    "city": "Tel Aviv",
+    "state": "",
+    "country": "Israel",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.43,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2702,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "94584119.jpg",
+      "externalId": "1JFIp56lkWCfHoqKJH00L87ueCLPHuTAh"
+    },
+    {
+      "folder": "5",
+      "filename": "34062608.jpg",
+      "externalId": "1qsc4uI1qpwV5JzKTyQlaZKIF0QCkZ1c0"
+    },
+    {
+      "folder": "5",
+      "filename": "43182563.jpg",
+      "externalId": "1QVT9hwCq-cthy8UwM44si-uZjXe4szXl"
+    },
+    {
+      "folder": "5",
+      "filename": "19775062.jpg",
+      "externalId": "1z5veTJejpRsSyLs1G9pTOAcULPbSC4HU"
+    }
+  ],
+  "setlist": []
+}

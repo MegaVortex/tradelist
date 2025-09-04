@@ -44,21 +44,16 @@
         "type": "DVD-5",
         "size": 4.09,
         "unit": "Gb"
-      },
-      {
-        "type": "CD",
-        "size": 512,
-        "unit": "Mb"
       }
     ],
     "chapters": true,
-    "menu": false,
-    "length": 898,
+    "menu": true,
+    "length": 3989,
     "video": [
       {
-        "tvFormat": "NTSC",
+        "tvFormat": "PAL",
         "ratio": "4:3",
-        "resolution": "720x480",
+        "resolution": "720x576",
         "bitrateType": "VBR",
         "bitrateKbps": null,
         "fps": "",
@@ -78,7 +73,7 @@
     ],
     "sourceDetail": {
       "recordingType": "AMT",
-      "sourceMediaType": "VHS",
+      "sourceMediaType": "Digicam",
       "finalMediaType": "",
       "fileFormat": "DVD"
     }
@@ -108,27 +103,8 @@
       "folder": "2",
       "filename": "62557.jpg",
       "externalId": "1oKLHJkkVEjvMJY6j6mi9v4j8OT5IKVjR"
-    },
-    {
-      "folder": "2",
-      "filename": "38827.jpg",
-      "externalId": "1ioiYySoKnXU1ED3HDeEzKYTNLFT_7DWu"
-    },
-    {
-      "folder": "2",
-      "filename": "74157.jpg",
-      "externalId": "1XTNzVXqkMc4kpInTeSryUMp8oN0tSOla"
-    },
-    {
-      "folder": "2",
-      "filename": "07774.jpg",
-      "externalId": "1UddzEHYyhyhfhsdVRLZTQgcSs0zeQ4pC"
-    },
-    {
-      "folder": "2",
-      "filename": "27770.jpg",
-      "externalId": "1ux1NpymFcfxZhRqABEnOHbDjK_hDhmGW"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "extras": []
 }

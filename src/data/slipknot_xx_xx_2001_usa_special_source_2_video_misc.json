@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Special",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "VH1 Friday Rock Show",
+  "showName": "VH1 Friday Rock Show Special",
   "source": "Source 2",
   "category": [
     "video",
@@ -185,5 +185,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_xx_xx_2001_usa_special_source_2_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_xx_xx_2001_usa_special_source_2_video_misc/"
 }

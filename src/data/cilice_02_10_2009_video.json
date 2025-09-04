@@ -1,0 +1,111 @@
+{
+  "originalTitle": "Cilice - 02.10.2009 - Moscow - Russia - Aktoviy Zal",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Cilice"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "10",
+    "year": "2009"
+  },
+  "startDateUnix": 1254441600,
+  "endDate": {
+    "day": "02",
+    "month": "10",
+    "year": "2009"
+  },
+  "endDateUnix": 1254441600,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Aktoviy Zal",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": true,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "Vortex",
+  "transferredBy": "",
+  "notes": "Rough sound. Re-authored by Vortex in 2016.",
+  "tapers": [
+    "Vortex"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.88,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 2594,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "21548502.jpg",
+      "externalId": "1h7Bp4lSu8Eraf0mCC8svASl2kuTnf6Zq"
+    },
+    {
+      "folder": "6",
+      "filename": "10187195.jpg",
+      "externalId": "1eFZfRF6A_qKG5Xp2stKr7Iz7u2WQmbxg"
+    },
+    {
+      "folder": "6",
+      "filename": "90800237.jpg",
+      "externalId": "1DCBODpZ6uAOIv6cHk7NSRgOXNlFgdy7I"
+    },
+    {
+      "folder": "6",
+      "filename": "87372700.jpg",
+      "externalId": "1UCrwwfY5GPsaAoW0DWHsA-LUDS7o7Bpz"
+    }
+  ],
+  "setlist": [],
+  "fileSlug": "cilice_02_10_2009_video",
+  "isRegular": true,
+  "permalink": "/shows/cilice_02_10_2009_video/"
+}

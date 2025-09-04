@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "FL",
-    "state": "USA",
-    "country": "MTV News",
-    "venue": "Total Request Live",
-    "event": ""
+    "city": "",
+    "state": "FL",
+    "country": "USA",
+    "venue": "",
+    "event": "MTV News"
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "Total Request Live",
   "source": "",
   "category": [
     "video",
@@ -117,5 +117,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_xx_07_2001_fl_usa_mtv_news_total_request_live_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_xx_07_2001_fl_usa_mtv_news_total_request_live_video_misc/"
 }

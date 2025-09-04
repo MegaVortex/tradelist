@@ -1,0 +1,118 @@
+{
+  "originalTitle": "Eric Clapton - [1987-1997] - TV Appearances [Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Eric Clapton"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1987"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1997"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "",
+    "state": "",
+    "country": "",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "TV Appearances",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.02,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5722,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "08441714.jpg",
+      "externalId": "1Et7aHQNLPrpoA7NUkiHozZfV_yzYPJpq"
+    },
+    {
+      "folder": "26",
+      "filename": "27607049.jpg",
+      "externalId": "11xVwkXhN35i-gp7z-vGA_u_u_bIlc27e"
+    },
+    {
+      "folder": "26",
+      "filename": "27072526.jpg",
+      "externalId": "1j4pSpTN5Sid6pqsFE_YMBQMZ2LJDNFYO"
+    },
+    {
+      "folder": "26",
+      "filename": "25656115.jpg",
+      "externalId": "1AiDaapySH8lf4jtLdDyXhmMRtA4QPH2j"
+    }
+  ],
+  "parentOf": [
+    "legends_11_07_1997_video",
+    "eric_clapton_buddy_guy_06_10_1987_video",
+    "eric_clapton_keith_richards_all_star_band_31_05_1989_video",
+    "eric_clapton_05_02_1990_video",
+    "eric_clapton_25_01_1989_video_misc",
+	"eric_clapton_28_10_1989_video_misc"
+  ],
+  "setlist": [],
+  "fileSlug": "eric_clapton_xx_xx_1987_xx_xx_1997_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/eric_clapton_xx_xx_1987_xx_xx_1997_video_compilation/"
+}

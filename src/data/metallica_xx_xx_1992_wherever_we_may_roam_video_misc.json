@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Wherever We May Roam",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Wherever We May Roam",
   "source": "",
   "category": [
     "video",
@@ -134,5 +134,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "metallica_xx_xx_1992_wherever_we_may_roam_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/metallica_xx_xx_1992_wherever_we_may_roam_video_misc/"
 }

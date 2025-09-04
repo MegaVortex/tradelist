@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Lollapalooza",
+    "city": "",
     "state": "",
-    "country": "MTV's 120 Minutes",
+    "country": "",
     "venue": "",
-    "event": ""
+    "event": "Lollapalooza"
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "MTV's 120 Minutes",
   "source": "",
   "category": [
     "video",
@@ -125,5 +125,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "rage_against_the_machine_xx_06_1993_lollapalooza_mtv_s_120_minutes_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/rage_against_the_machine_xx_06_1993_lollapalooza_mtv_s_120_minutes_video_misc/"
 }

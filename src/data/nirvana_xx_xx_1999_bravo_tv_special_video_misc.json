@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Bravo TV Special",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "Bravo TV",
-  "showName": "",
+  "showName": "Bravo TV Special",
   "source": "",
   "category": [
     "video",
@@ -110,5 +110,8 @@
       "externalId": "1Gzh4-KFkDoDLN_vnAS5HiJ0qb7Ku8_-y"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "nirvana_xx_xx_1999_bravo_tv_special_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/nirvana_xx_xx_1999_bravo_tv_special_video_misc/"
 }

@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Limp Bizkit - 29.06.2009 - Sofia - Bulgaria - Festivalna Hall (Source 1)",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "29",
+    "month": "06",
+    "year": "2009"
+  },
+  "startDateUnix": 1246233600,
+  "endDate": {
+    "day": "29",
+    "month": "06",
+    "year": "2009"
+  },
+  "endDateUnix": 1246233600,
+  "location": {
+    "city": "Sofia",
+    "state": "",
+    "country": "Bulgaria",
+    "venue": "",
+    "event": "Festivalna Hall"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Shot from the pit.",
+  "tapers": [
+    "turin"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.49,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2451,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "352x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "34613232.jpg",
+      "externalId": "1FsglqzD0pOPWl1iy634HEDG6nOBfbxt6"
+    },
+    {
+      "folder": "5",
+      "filename": "04451906.jpg",
+      "externalId": "1TO1y7AjarQey-4OMA2ySmQGM_lT-2gwU"
+    },
+    {
+      "folder": "5",
+      "filename": "54578424.jpg",
+      "externalId": "1VvUdDIpDJgYR2CeqInRwlCBFM29vMoaq"
+    },
+    {
+      "folder": "5",
+      "filename": "84563238.jpg",
+      "externalId": "1Nva0u2ttFelyYQYPQAUycmBjawlZGa2S"
+    }
+  ],
+  "setlist": []
+}

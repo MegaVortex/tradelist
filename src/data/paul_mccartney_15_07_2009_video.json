@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Paul McCartney - 15.07.2009 - New York - NY - USA - David Letterman Show",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Paul McCartney"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "07",
+    "year": "2009"
+  },
+  "startDateUnix": 1247616000,
+  "endDate": {
+    "day": "15",
+    "month": "07",
+    "year": "2009"
+  },
+  "endDateUnix": 1247616000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "David Letterman Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.44,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1469,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "3",
+      "filename": "7403585.jpg",
+      "externalId": "1wKYpWpOvCex5krOSERImhcJELpsmcvxW"
+    },
+    {
+      "folder": "3",
+      "filename": "9164685.jpg",
+      "externalId": "1_fP6F_1rT_tbQ4ePUkI_M_o8ahK1u7hj"
+    },
+    {
+      "folder": "3",
+      "filename": "0408987.jpg",
+      "externalId": "1-FSZxSXJ3LyOv3Cs8N-a1a8Cy5VzxLtz"
+    },
+    {
+      "folder": "3",
+      "filename": "3730729.jpg",
+      "externalId": "1zHb-fUclCXBAF_cXf3_yXZ-JExkVqZyO"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview 1",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview 2",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Get Back",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Sing The Changes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

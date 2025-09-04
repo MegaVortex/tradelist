@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "'Dangerous Diary' MTV Documentary",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "'Dangerous Diary' MTV Documentary",
   "source": "",
   "category": [
     "video",
@@ -129,5 +129,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "michael_jackson_xx_xx_1992_dangerous_diary_mtv_documentary_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/michael_jackson_xx_xx_1992_dangerous_diary_mtv_documentary_video_misc/"
 }

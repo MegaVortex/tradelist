@@ -74,8 +74,8 @@
     "sourceDetail": {
       "recordingType": "AMT",
       "sourceMediaType": "VHS",
-      "finalMediaType": "s",
-      "fileFormat": "DVDTaper"
+      "finalMediaType": "",
+      "fileFormat": "DVD"
     }
   },
   "relatedShows": [],
@@ -232,5 +232,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "iron_maiden_06_09_1983_video",
+  "isRegular": true,
+  "permalink": "/shows/iron_maiden_06_09_1983_video/"
 }

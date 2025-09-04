@@ -18,13 +18,13 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Scuzz TV",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
-  "tvChannel": "",
+  "tvChannel": "Scuzz",
   "showName": "",
   "source": "",
   "category": [
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_xx_07_2008_usa_scuzz_tv_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_xx_07_2008_usa_scuzz_tv_video_misc/"
 }

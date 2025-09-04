@@ -24,7 +24,7 @@
     "venue": "Caja Magica",
     "event": "MTV Europe Music Awards"
   },
-  "tvChannel": "MTV Europe",
+  "tvChannel": "MTV",
   "showName": "",
   "source": "",
   "category": [
@@ -55,23 +55,27 @@
         "ratio": "",
         "resolution": "1920x1080",
         "bitrateType": "",
-        "bitrateKbps": 384,
+        "bitrateKbps": null,
         "fps": "25",
-        "standard": "MPEG2",
+        "standard": "MPG2",
         "codec": "",
-        "letterboxed": false
+        "letterboxed": true
       }
     ],
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
     }
   },
   "relatedShows": [],

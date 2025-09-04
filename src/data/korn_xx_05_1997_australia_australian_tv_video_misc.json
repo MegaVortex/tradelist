@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Australia",
+    "city": "",
     "state": "",
-    "country": "Australian TV",
+    "country": "Australia",
     "venue": "",
     "event": ""
   },
@@ -37,7 +37,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "",
+  "notes": "Australian TV.",
   "tapers": [],
   "specs": {
     "media": [
@@ -119,5 +119,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_05_1997_australia_australian_tv_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_05_1997_australia_australian_tv_video_misc/"
 }

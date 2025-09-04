@@ -18,13 +18,13 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Finland",
+    "city": "",
     "state": "",
-    "country": "YLE TV",
+    "country": "Finland",
     "venue": "",
     "event": ""
   },
-  "tvChannel": "",
+  "tvChannel": "YLE",
   "showName": "",
   "source": "",
   "category": [
@@ -121,5 +121,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_xx_11_2008_finland_yle_tv_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_xx_11_2008_finland_yle_tv_video_misc/"
 }

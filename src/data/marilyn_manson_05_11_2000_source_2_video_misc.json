@@ -18,14 +18,14 @@
   },
   "endDateUnix": 973382400,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "MTV Diary",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "MTV Diary",
   "source": "Source 2",
   "category": [
     "video",
@@ -117,5 +117,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "marilyn_manson_05_11_2000_source_2_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/marilyn_manson_05_11_2000_source_2_video_misc/"
 }

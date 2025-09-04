@@ -26,14 +26,14 @@
   },
   "tvChannel": "",
   "showName": "",
-  "source": "",
+  "source": "Source 1",
   "category": [
     "video"
   ],
   "master": true,
   "public": true,
   "ownIdentifier": "HDD#J",
-  "tradeLabel": "",
+  "tradeLabel": "RT",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "Lots of obstructions, shaky as hell.",
@@ -258,5 +258,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_27_01_2016_video",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_27_01_2016_video/"
 }

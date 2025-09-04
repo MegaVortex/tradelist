@@ -22,7 +22,7 @@
     "state": "",
     "country": "Italy",
     "venue": "Arena Fiera Milano",
-    "event": "'The Big Four'"
+    "event": "The Big Four"
   },
   "tvChannel": "",
   "showName": "",
@@ -44,34 +44,38 @@
         "type": "DVD-9",
         "size": 8.26,
         "unit": "Gb"
-      },
-      {
-        "type": "CD",
-        "size": 1.5,
-        "unit": "Mb"
       }
     ],
-    "chapters": false,
-    "menu": false,
-    "length": null,
-    "video": {
-      "format": "",
-      "ratio": "",
-      "resolution": "",
-      "bitrateType": "",
-      "bitrateKbps": null,
-      "letterboxed": false
-    },
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "chapters": true,
+    "menu": true,
+    "length": 3381,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "24.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
     }
   },
   "relatedShows": [

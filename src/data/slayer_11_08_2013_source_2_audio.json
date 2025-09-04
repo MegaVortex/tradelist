@@ -37,7 +37,9 @@
   "authoredBy": "",
   "transferredBy": "",
   "notes": "SBD recording.",
-  "tapers": [],
+  "tapers": [
+    "tito666"
+  ],
   "specs": {
     "media": [
       {
@@ -67,9 +69,10 @@
       }
     ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
     }
   },
   "relatedShows": [],

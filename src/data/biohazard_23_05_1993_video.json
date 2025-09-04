@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Biohazard - 23.05.1993 - Gastelfranco - Italy",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Biohazard"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "05",
+    "year": "1993"
+  },
+  "startDateUnix": 738115200,
+  "endDate": {
+    "day": "23",
+    "month": "05",
+    "year": "1993"
+  },
+  "endDateUnix": 738115200,
+  "location": {
+    "city": "Castelfranco Emilia",
+    "state": "",
+    "country": "Italy",
+    "venue": "Teatro Dada",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.28,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3893,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "4",
+      "filename": "96706482.jpg",
+      "externalId": "15BxhLWz9hLck5pgmJ9uJXbljBXIctJQ6"
+    },
+    {
+      "folder": "4",
+      "filename": "98203553.jpg",
+      "externalId": "1jY-pJJzoEK-f59bcDBo9_zMGTiYtDqmY"
+    },
+    {
+      "folder": "4",
+      "filename": "13507192.jpg",
+      "externalId": "104CYpahm-MDrNpzo8yB2-exIy4SRlQaP"
+    },
+    {
+      "folder": "4",
+      "filename": "76842328.jpg",
+      "externalId": "1A9NrlIqbJnjR-1X-OihxmieL89JAG-pP"
+    }
+  ],
+  "setlist": []
+}

@@ -22,10 +22,10 @@
     "state": "CA",
     "country": "USA",
     "venue": "Woodshed Recorder",
-    "event": "'Alone I Play'"
+    "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Alone I Play",
   "source": "",
   "category": [
     "video"
@@ -33,7 +33,7 @@
   "master": false,
   "public": true,
   "ownIdentifier": "HDD#D",
-  "tradeLabel": "",
+  "tradeLabel": "NT",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "Official DVD - NT.",
@@ -256,5 +256,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "jonathan_davis_07_11_2007_video",
+  "isRegular": true,
+  "permalink": "/shows/jonathan_davis_07_11_2007_video/"
 }

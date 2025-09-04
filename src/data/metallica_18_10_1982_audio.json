@@ -36,7 +36,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "The live show featured here is a pure SBD recording, unfortunately the mix is very awkward. Vocals and drums are very upfront and guitars are pushed extremely far back. Nevertheless, it is extremely clear and this is THE best source you will find for this show.  All other bootlegs were sourced from this recording. Liberated Silver CD.",
+  "notes": "The live show featured here is a pure SBD recording, unfortunately the mix is very awkward. Vocals and drums are very upfront and guitars are pushed extremely far back. Nevertheless, it is extremely clear and this is THE best source you will find for this show. All other bootlegs were sourced from this recording. Liberated Silver CD.",
   "tapers": [],
   "specs": {
     "media": [
@@ -44,16 +44,11 @@
         "type": "CD",
         "size": 256,
         "unit": "Mb"
-      },
-      {
-        "type": "Floppy",
-        "size": 1.38,
-        "unit": "Mb"
       }
     ],
     "chapters": false,
     "menu": false,
-    "length": null,
+    "length": 2386,
     "video": {
       "format": "",
       "ratio": "",
@@ -62,16 +57,20 @@
       "bitrateKbps": null,
       "letterboxed": false
     },
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "FLAC",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
     }
   },
   "relatedShows": [],

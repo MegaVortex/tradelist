@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "MTV Week In Rock",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "Week In Rock",
   "source": "",
   "category": [
     "video",
@@ -136,5 +136,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "marilyn_manson_xx_xx_1996_usa_mtv_week_in_rock_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/marilyn_manson_xx_xx_1996_usa_mtv_week_in_rock_video_misc/"
 }

@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Korn Unleashed!",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Korn Unleashed!",
   "source": "",
   "category": [
     "video",
@@ -115,5 +115,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_1999_korn_unleashed_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_1999_korn_unleashed_video_misc/"
 }

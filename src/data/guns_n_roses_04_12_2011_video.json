@@ -62,16 +62,20 @@
         "letterboxed": false
       }
     ],
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
     }
   },
   "relatedShows": [],
@@ -98,5 +102,287 @@
       "externalId": "1NgCHUzGg-aqErjLdfNcjyYN8NKMZUZFK"
     }
   ],
-  "setlist": []
+  "setlist": [
+      {
+          "order": 1,
+          "song": "Dexter",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 2,
+          "song": "Chinese Democracy",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 3,
+          "song": "Welcome To The Jungle",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 4,
+          "song": "It's So Easy",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 5,
+          "song": "Mr. Brownstone",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 6,
+          "song": "Sorry",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 7,
+          "song": "Shackler's Revenge",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 8,
+          "song": "Estranged",
+          "feat": "",
+          "note": "",
+          "comment": "cut",
+          "coverOf": ""
+      },
+      {
+          "order": 9,
+          "song": "Rocket Queen",
+          "feat": "",
+          "note": "",
+          "comment": "cut",
+          "coverOf": ""
+      },
+      {
+          "order": 10,
+          "song": "Guitar Solo",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 11,
+          "song": "Live And Let Die",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "Paul McCartney & Wings"
+      },
+      {
+          "order": 12,
+          "song": "This I Love",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 13,
+          "song": "Sonic Reducer",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "Dead Boys"
+      },
+      {
+          "order": 14,
+          "song": "Civil War",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 15,
+          "song": "Piano Solo",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 16,
+          "song": "Street Of Dreams",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 17,
+          "song": "You Could Be Mine",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 18,
+          "song": "Guitar Solo",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 19,
+          "song": "Sweet Child O' Mine",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 20,
+          "song": "Another Brick In The Wall (Part II)",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "Pink Floyd"
+      },
+      {
+          "order": 21,
+          "song": "Piano Solo",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 22,
+          "song": "November Rain",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 23,
+          "song": "Guitar Solo",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 24,
+          "song": "Don't Cry",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 25,
+          "song": "Whole Lotta Rosie",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "AC/DC"
+      },
+      {
+          "order": 26,
+          "song": "Knockin' On Heaven's Door",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "Bob Dylan"
+      },
+      {
+          "order": 27,
+          "song": "Nightrain",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 28,
+          "song": "Instrumental Jam",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 29,
+          "song": "Madagascar",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 30,
+          "song": "Better",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 31,
+          "song": "Riff Raff",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "AC/DC"
+      },
+      {
+          "order": 32,
+          "song": "Instrumental Jam",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 33,
+          "song": "Patience",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 34,
+          "song": "Instrumental Jam",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 35,
+          "song": "Paradise City",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      }
+  ],
+  "extras": []
 }

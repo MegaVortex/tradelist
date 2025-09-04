@@ -64,14 +64,16 @@
     ],
     "audio": {
       "language": "",
-      "codec": "",
+      "codec": "AC3",
+      "rateHz": 48000,
       "bitrateKbps": null,
-      "channels": null
+      "channels": 2
     },
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
     }
   },
   "relatedShows": [
@@ -100,5 +102,6 @@
       "externalId": "1fzp2zvJ2gBAbGEIrKi9SK8yy-LtfZdeL"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "extras": []
 }

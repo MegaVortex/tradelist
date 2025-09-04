@@ -18,10 +18,10 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Studio",
-    "venue": "",
+    "country": "USA",
+    "venue": "Studio",
     "event": ""
   },
   "tvChannel": "",
@@ -145,5 +145,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_xx_xx_1999_usa_studio_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_xx_xx_1999_usa_studio_video_misc/"
 }

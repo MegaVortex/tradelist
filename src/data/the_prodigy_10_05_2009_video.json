@@ -1,0 +1,164 @@
+{
+  "originalTitle": "The Prodigy - 10.05.2009 - Swindon - England - Lydiard Park",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "The Prodigy"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "05",
+    "year": "2009"
+  },
+  "startDateUnix": 1241913600,
+  "endDate": {
+    "day": "10",
+    "month": "05",
+    "year": "2009"
+  },
+  "endDateUnix": 1241913600,
+  "location": {
+    "city": "Swindon",
+    "state": "",
+    "country": "England",
+    "venue": "Lydiard Park",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 717,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1564,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "3",
+      "filename": "8027829.jpg",
+      "externalId": "1F8yBbxvN9gPcRoVLRiH5FiK2EtaCjlPr"
+    },
+    {
+      "folder": "3",
+      "filename": "7849798.jpg",
+      "externalId": "1UgMZ3d8ZADhqAm0G6R9chqcU5amZS2aU"
+    },
+    {
+      "folder": "3",
+      "filename": "8473925.jpg",
+      "externalId": "1YLLu8ntad6kQM9bb8SMJWuaIhylmdZ7F"
+    },
+    {
+      "folder": "3",
+      "filename": "4811834.jpg",
+      "externalId": "1QJxgWjonHBUJMoixdsOEB83yAbk5aRgd"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Breathe",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Warrior's Dance",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Firestarter",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Invaders Must Die",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Take Me To The Hospital",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Omen",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

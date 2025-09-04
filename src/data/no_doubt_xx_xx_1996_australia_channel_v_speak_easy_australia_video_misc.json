@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Australia",
+    "city": "",
     "state": "",
-    "country": "Channel V",
-    "venue": "Speak Easy Australia",
+    "country": "Australia",
+    "venue": "",
     "event": ""
   },
   "tvChannel": "Channel V",
-  "showName": "",
+  "showName": "Speak Easy Australia",
   "source": "",
   "category": [
     "video",
@@ -115,5 +115,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "no_doubt_xx_xx_1996_australia_channel_v_speak_easy_australia_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/no_doubt_xx_xx_1996_australia_channel_v_speak_easy_australia_video_misc/"
 }

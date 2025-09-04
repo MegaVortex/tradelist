@@ -1,0 +1,109 @@
+{
+  "originalTitle": "Parkway Drive - 11.05.2005 - Launceston - Australia - Batman Faukner Inn",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Parkway Drive"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "05",
+    "year": "2005"
+  },
+  "startDateUnix": 1115769600,
+  "endDate": {
+    "day": "11",
+    "month": "05",
+    "year": "2005"
+  },
+  "endDateUnix": 1115769600,
+  "location": {
+    "city": "Launceston",
+    "state": "",
+    "country": "Australia",
+    "venue": "Batman Faukner Inn",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "RT",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "A little bit dark.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.59,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1642,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "34164786.jpg",
+      "externalId": "17I-bY2U4TVM_nQ91Nhepd1zHY9AfTpLh"
+    },
+    {
+      "folder": "5",
+      "filename": "51117332.jpg",
+      "externalId": "1Wc7XHNkR-1iqOLAAOgE7L-sHEGlX3YS6"
+    },
+    {
+      "folder": "5",
+      "filename": "34059530.jpg",
+      "externalId": "19PwpuRgjjqi26uIueWGvROt4WhnYUDVg"
+    },
+    {
+      "folder": "5",
+      "filename": "89596455.jpg",
+      "externalId": "1RExf7pPIGurjxtkT7Ld5_5J9og8RqQaT"
+    }
+  ],
+  "setlist": [],
+  "fileSlug": "parkway_drive_11_05_2005_video",
+  "isRegular": true,
+  "permalink": "/shows/parkway_drive_11_05_2005_video/"
+}

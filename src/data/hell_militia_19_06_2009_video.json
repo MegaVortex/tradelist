@@ -36,7 +36,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "Official DVD - NT.",
+  "notes": "Shot from the pit. No camera work at all.",
   "tapers": [],
   "specs": {
     "media": [
@@ -44,47 +44,35 @@
         "type": "DVD-5",
         "size": 1.52,
         "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 3.51,
-        "unit": "Gb"
       }
     ],
-    "chapters": true,
-    "menu": true,
-    "length": 3201,
+    "chapters": false,
+    "menu": false,
+    "length": 2751,
     "video": [
       {
-        "tvFormat": "NTSC",
-        "ratio": "16:9",
-        "resolution": "720x480",
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
         "bitrateType": "VBR",
         "bitrateKbps": null,
         "fps": "",
         "standard": "",
         "codec": "",
-        "letterboxed": true
+        "letterboxed": false
       }
     ],
     "audio": [
       {
-        "language": "en",
-        "codec": "LPCM",
+        "language": "",
+        "codec": "AC3",
         "rateHz": null,
         "bitrateKbps": null,
         "channels": 2
-      },
-      {
-        "language": "en",
-        "codec": "DTS",
-        "rateHz": null,
-        "bitrateKbps": null,
-        "channels": 6
       }
     ],
     "sourceDetail": {
-      "recordingType": "PRO",
+      "recordingType": "AMT",
       "sourceMediaType": "",
       "finalMediaType": "",
       "fileFormat": "DVD"
@@ -112,85 +100,8 @@
       "folder": "7",
       "filename": "78794486.jpg",
       "externalId": "1SFUheHS-xDM1XewCkXdL9Ardquyz3tZk"
-    },
-    {
-      "folder": "7",
-      "filename": "10171665.jpg",
-      "externalId": "1M_8oZkBfInr350kd7IzZ8suDn3-5NzaR"
-    },
-    {
-      "folder": "7",
-      "filename": "23523988.jpg",
-      "externalId": "1iRMOKw2uWIpmVjjJkLxM2fYo7gaCyoZH"
-    },
-    {
-      "folder": "7",
-      "filename": "22227170.jpg",
-      "externalId": "1QvIjyS9NfTcLfU1J9XC0yuAFVzlzJZ_T"
-    },
-    {
-      "folder": "7",
-      "filename": "11689067.jpg",
-      "externalId": "19O0Eo7MqS57wLDDrUhotAoT05fMaUCf2"
     }
   ],
-  "setlist": [
-    {
-      "order": 1,
-      "song": "Crawling In The Dark",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "If I Were You",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 3,
-      "song": "Same Direction",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 4,
-      "song": "Pieces",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 5,
-      "song": "Inside Of You",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 6,
-      "song": "The Reason",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 7,
-      "song": "The First Of Me",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    }
-  ],
+  "setlist": [],
   "extras": []
 }

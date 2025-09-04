@@ -44,16 +44,11 @@
         "type": "DVD-5",
         "size": 2.16,
         "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 4.03,
-        "unit": "Gb"
       }
     ],
     "chapters": true,
-    "menu": true,
-    "length": 6713,
+    "menu": false,
+    "length": 2401,
     "video": [
       {
         "tvFormat": "NTSC",
@@ -70,15 +65,15 @@
     "audio": [
       {
         "language": "",
-        "codec": "AC3",
+        "codec": "MPEG1",
         "rateHz": null,
         "bitrateKbps": null,
         "channels": 2
       }
     ],
     "sourceDetail": {
-      "recordingType": "PRO",
-      "sourceMediaType": "VHS",
+      "recordingType": "AMT",
+      "sourceMediaType": "",
       "finalMediaType": "",
       "fileFormat": "DVD"
     }
@@ -105,149 +100,8 @@
       "folder": "7",
       "filename": "83578951.jpg",
       "externalId": "1Qj5OJlxw1K4IG0EO1yecGBoOe-mqGq8u"
-    },
-    {
-      "folder": "7",
-      "filename": "26790499.jpg",
-      "externalId": "17L8s9cu1RfI3lkge0W9AhTJbbNplstN-"
-    },
-    {
-      "folder": "7",
-      "filename": "32223398.jpg",
-      "externalId": "1LOTkKGgF8GQ8oPls0UMhzfFmSaRThhoE"
-    },
-    {
-      "folder": "7",
-      "filename": "51268584.jpg",
-      "externalId": "1a9SXPCii2kAfQU8JboCLsIw23b8SPUza"
-    },
-    {
-      "folder": "7",
-      "filename": "87297382.jpg",
-      "externalId": "1nQJTB41L0N3Dcbf1FgVG9K02qOmQpM05"
-    },
-    {
-      "folder": "7",
-      "filename": "36172750.jpg",
-      "externalId": "1OsEOKkobw0Kq9rTMb6zooOUglTC3scje"
-    },
-    {
-      "folder": "7",
-      "filename": "33287589.jpg",
-      "externalId": "1M2_elXR9vnZ8UttWD6IILakvxIXsO50y"
-    },
-    {
-      "folder": "7",
-      "filename": "96794826.jpg",
-      "externalId": "1cOAjIu8Wc-X7hFeroA738LFq0sU7GyKW"
-    },
-    {
-      "folder": "7",
-      "filename": "15987086.jpg",
-      "externalId": "16YmjljpdwcXx31PBcKhmubKEI66LnIQl"
-    },
-    {
-      "folder": "7",
-      "filename": "86275907.jpg",
-      "externalId": "1PAbzwqXw0cHVcdSvn3BYrxWTkQmqhfIv"
-    },
-    {
-      "folder": "7",
-      "filename": "92239911.jpg",
-      "externalId": "1jiLxygqFaQZl2uPCUATJIP9b_G_pxLN0"
-    },
-    {
-      "folder": "7",
-      "filename": "17393985.jpg",
-      "externalId": "1_cQOhX-UHNe8QN2RadTTHDjhaCs-Nbag"
-    },
-    {
-      "folder": "7",
-      "filename": "92290835.jpg",
-      "externalId": "1ErlMqGIhS0zg18zILcK_GQLzP_K0f0ne"
-    },
-    {
-      "folder": "7",
-      "filename": "28355810.jpg",
-      "externalId": "1YqyrSSjdso54fDXUlPR41QBzMkAqRxp5"
-    },
-    {
-      "folder": "7",
-      "filename": "94606255.jpg",
-      "externalId": "1V6WCSF0bXDzbpdBd5BweU0DtU5xt22ZG"
-    },
-    {
-      "folder": "7",
-      "filename": "64618867.jpg",
-      "externalId": "1r8NQrwO8FEogIgUX2CzU0Zkwzq7D6mHZ"
-    },
-    {
-      "folder": "7",
-      "filename": "36142173.jpg",
-      "externalId": "1KZbQnEv3a5DaA1cCkBR0euORztnp08l7"
-    },
-    {
-      "folder": "7",
-      "filename": "39595695.jpg",
-      "externalId": "1dgD5vzxTjB7-IcaxxtKIXAgKchmdsiZS"
-    },
-    {
-      "folder": "7",
-      "filename": "00453130.jpg",
-      "externalId": "1YD2aETTIKsgBbgUxvv7MH-Y7fC5nhpW5"
-    },
-    {
-      "folder": "7",
-      "filename": "03573267.jpg",
-      "externalId": "1bpM8XWLVTiIXy4eJOEN4LhSxMHJSve23"
-    },
-    {
-      "folder": "7",
-      "filename": "75248027.jpg",
-      "externalId": "1cIQLuBD6sEPcxK0R2SFJI0bfebdMISuL"
     }
   ],
-  "setlist": [
-    {
-      "order": 1,
-      "song": "Ted The Mechanic 2. Strange Kind Of Woman 3. Bloodsucker 4. Pictures Of Home 5. Sweet Home Alabama - Almost Human 6. Woman From Tokyo 7. Watching The Sky 8. Fireball 9. Sometimes I Feel Like Screaming 10. Steve Morse Solo 11. Riff Raff - Smoke On The Water 12. Jon Lord Solo - Lazy 13. Perfect Strangers 14. Speed King 15. Black Night 16. Highway Star",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 1,
-      "song": "The Boys Are Back In Town 2. Pictures Of Home 3. Ted The Mechanic 4. Strange Kind Of Woman 5. Bloodsucker 6. 69 7. Woman From Tokyo 8. Sometimes I Feel Like Screaming 9. Watching The Sky 10. Space Truckin' 11. Steve Morse Solo 12. Lazy 13. Riff Raff - Smoke On The Water 14. Perfect Strangers 15. Speed King 16. Black Night 17. Highway Star",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 1,
-      "song": "Intro By Jon Lord 2. Pictured Within (Miller Anderson) 3. Sitting In A Dream (Ronnie James Dio) 4. Love Is All (Ronnie James Dio) 5. Fever Dreams (Ronnie James Dio) 6. Rainbow In The Dark (Ronnie James Dio) 7. Wring That Neck 8. Fools 9. When A Blind Man Cries 10. Ted The Mechanic 11. The Well Dressed Guitar 12. Pictures Of Home 13. Sometimes I Feel Like Screaming 14. Concerto 1st Movement 15. Concerto 2nd Movement 16. Concerto 3rd Movement 17. Perfect Strangers 18. Riff Raff 19. Smoke On The Water (with Ronnie James Dio)",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 1,
-      "song": "Fireball 2. Woman From Tokyo 3. Ted The Mechanic 4. Lazy 5. The Well Dressed Guitar 6. Knocking At Your Back Door 7. Black Night 8. Perfect Strangers 9. Speed King 10. Smoke On The Water 11. Hush 12. Highway Star",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 1,
-      "song": "Riff Raff 2. The Well Dressed Guitar 3. The Battle Rages On 4. Lazy 5. Don Airey (solo) 6. Perfect Strangers 7. Space Truckin' 8. Highway Star 9. Smoke On The Water 10. Black Night",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    }
-  ],
+  "setlist": [],
   "extras": []
 }

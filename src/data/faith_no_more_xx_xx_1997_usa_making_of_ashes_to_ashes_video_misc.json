@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Making Of 'Ashes To Ashes'",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Making Of 'Ashes To Ashes'",
   "source": "",
   "category": [
     "video",
@@ -137,5 +137,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "faith_no_more_xx_xx_1997_usa_making_of_ashes_to_ashes_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/faith_no_more_xx_xx_1997_usa_making_of_ashes_to_ashes_video_misc/"
 }

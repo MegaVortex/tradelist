@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "MTV News",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "MTV News",
   "source": "",
   "category": [
     "video",
@@ -80,7 +80,7 @@
     }
   },
   "relatedShows": [
-    "marilyn_manson_xx_xx_1998_usa_mtv_video_music_awards_commercial_video_misc",
+	"marilyn_manson_xx_xx_1998_usa_mtv_video_music_awards_commercial_video_misc",
     "marilyn_manson_10_09_1998_video_misc",
     "marilyn_manson_10_09_1998_source_2_video",
     "marilyn_manson_xx_09_1998_usa_mtv_video_misc",
@@ -89,13 +89,11 @@
     "marilyn_manson_14_03_1999_video_misc",
     "marilyn_manson_05_06_1999_video_misc",
     "marilyn_manson_10_11_1999_video_misc",
-    "marilyn_manson_11_11_1999_video",
+    "marilyn_manson_11_11_1999_source_1_video",
     "marilyn_manson_19_04_1999_video_misc",
-    "marilyn_manson_xx_xx_1999_usa_video_misc",
-    "a_img4_td_tr_tbody_table_br_div_div_div_setlist_div_div_br_div_div_1_tv_report_div_div_1360962055_0_marilyn_manson_xx_xx_1998_mtv_news_misc_20_8852_0_0_0_marilyn_manson_05_06_1999_video_misc",
-    "marilyn_manson_xx_xx_1998_usa_mtv_video_music_awards_commercial_span_br_div_br_div_div_div_style_video_misc"
+    "marilyn_manson_xx_xx_1999_usa_video_misc"
   ],
-  "childOf": "Marilyn Manson - [MISC 2 - Compilation]",
+  "childOf": "marilyn_manson_xx_xx_xxxx_misc_2_compilation_video_compilation",
   "images": [
     {
       "folder": "44",
@@ -116,26 +114,6 @@
       "folder": "44",
       "filename": "03751478.jpg",
       "externalId": "1fsHU3Xahfrff4NmMfJWdrCovXz0yiJxK"
-    },
-    {
-      "folder": "44",
-      "filename": "97739186.jpg",
-      "externalId": "1am-UwX9xOvEL2-QNa52oLq7vOOdUj98b"
-    },
-    {
-      "folder": "44",
-      "filename": "67045397.jpg",
-      "externalId": "11HZ8URzlii7iMgSkPVk9RhcH8ioCsN9A"
-    },
-    {
-      "folder": "44",
-      "filename": "44594842.jpg",
-      "externalId": "1eeM2nr7OoKe70E27_wmrC131Jfze7LcP"
-    },
-    {
-      "folder": "44",
-      "filename": "81315362.jpg",
-      "externalId": "1MeIJVH_lsQafA-MpJiRpAttYpGT-lg2f"
     }
   ],
   "setlist": [
@@ -148,5 +126,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "marilyn_manson_xx_xx_1998_usa_mtv_news_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/marilyn_manson_xx_xx_1998_usa_mtv_news_video_misc/"
 }

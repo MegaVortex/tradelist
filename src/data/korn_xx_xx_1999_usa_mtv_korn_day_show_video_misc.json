@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
-    "state": "MTV",
-    "country": "Korn Day Show",
+    "city": "",
+    "state": "",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "Korn Day Show",
   "source": "",
   "category": [
     "video",
@@ -121,5 +121,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_1999_usa_mtv_korn_day_show_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_1999_usa_mtv_korn_day_show_video_misc/"
 }

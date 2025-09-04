@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Family Values Tour",
-    "venue": "MTV Report",
-    "event": ""
+    "country": "USA",
+    "venue": "",
+    "event": "Family Values Tour"
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "MTV Report",
   "source": "Source 1",
   "category": [
     "video",
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_2001_usa_family_values_tour_mtv_report_source_1_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_2001_usa_family_values_tour_mtv_report_source_1_video_misc/"
 }

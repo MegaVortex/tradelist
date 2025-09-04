@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "PostModern MTV",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "PostModern MTV",
   "source": "",
   "category": [
     "video",
@@ -128,5 +128,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "faith_no_more_xx_xx_1992_postmodern_mtv_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/faith_no_more_xx_xx_1992_postmodern_mtv_video_misc/"
 }

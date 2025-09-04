@@ -18,10 +18,10 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Россия",
+    "city": "",
     "state": "",
-    "country": "Студия ОРТ",
-    "venue": "",
+    "country": "Россия",
+    "venue": "Студия ОРТ",
     "event": ""
   },
   "tvChannel": "",
@@ -103,5 +103,8 @@
       "externalId": "1JVZ6gWPVbG7ESeQDZHtdw-4tojlMd49o"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "chizh_co_xx_xx_xxxx_rossiya_studiya_ort_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/chizh_co_xx_xx_xxxx_rossiya_studiya_ort_video_misc/"
 }

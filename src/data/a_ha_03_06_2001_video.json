@@ -22,7 +22,7 @@
     "state": "",
     "country": "Germany",
     "venue": "",
-    "event": "Rock Im Park Festival"
+    "event": "Rock Im Park"
   },
   "tvChannel": "",
   "showName": "",
@@ -36,7 +36,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "On the same disc - \"A-ha - 07.07.2001 - Stuttgart - Germany - SWR Festival (Source 1)\" \"A-ha - 07.07.2001 - Stuttgart - Germany - SWR Festival (Source 2)\"",
+  "notes": "",
   "tapers": [],
   "specs": {
     "media": [
@@ -78,7 +78,10 @@
       "fileFormat": "DVD"
     }
   },
-  "relatedShows": [],
+  "relatedShows": [
+    "a_ha_07_07_2001_source_1_video",
+	"a_ha_07_07_2001_source_2_video"
+  ],
   "childOf": "",
   "images": [
     {

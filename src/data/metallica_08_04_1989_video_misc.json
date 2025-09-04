@@ -18,14 +18,14 @@
   },
   "endDateUnix": 607996800,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Justice On Wheels",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Justice On Wheels",
   "source": "",
   "category": [
     "video",
@@ -129,5 +129,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "metallica_08_04_1989_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/metallica_08_04_1989_video_misc/"
 }

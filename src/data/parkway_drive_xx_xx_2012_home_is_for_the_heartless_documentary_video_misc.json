@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "'Home Is For The Heartless'",
+    "city": "",
     "state": "",
-    "country": "Documentary",
+    "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Home Is For The Heartless",
   "source": "",
   "category": [
     "video",
@@ -34,10 +34,10 @@
   "master": false,
   "public": true,
   "ownIdentifier": "HDD#O",
-  "tradeLabel": "",
+  "tradeLabel": "NT",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "Official BD - NT.",
+  "notes": "Documentary. Official BD - NT.",
   "tapers": [],
   "specs": {
     "media": [
@@ -326,5 +326,8 @@
       "coverOf": "",
       "comment": ""
     }
-  ]
+  ],
+  "fileSlug": "parkway_drive_xx_xx_2012_home_is_for_the_heartless_documentary_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/parkway_drive_xx_xx_2012_home_is_for_the_heartless_documentary_video_misc/"
 }

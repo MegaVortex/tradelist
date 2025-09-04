@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "MTV Studios",
-    "venue": "Know The Band Show",
+    "country": "USA",
+    "venue": "MTV Studios",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "Know The Band Show",
   "source": "",
   "category": [
     "video",
@@ -34,7 +34,7 @@
   "master": false,
   "public": true,
   "ownIdentifier": "HDD#C",
-  "tradeLabel": "",
+  "tradeLabel": "RT",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "",
@@ -143,5 +143,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_2001_usa_mtv_studios_know_the_band_show_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_2001_usa_mtv_studios_know_the_band_show_video_misc/"
 }

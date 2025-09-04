@@ -30,14 +30,16 @@
   "category": [
     "video"
   ],
-  "master": false,
+  "master": true,
   "public": true,
   "ownIdentifier": "HDD#B",
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "",
-  "tapers": [],
+  "tapers": [
+    "Vortex"
+  ],
   "specs": {
     "media": [
       {
@@ -196,5 +198,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "lamb_of_god_13_11_2021_video",
+  "isRegular": true,
+  "permalink": "/shows/lamb_of_god_13_11_2021_video/"
 }

@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Limp Bizkit - 30.03.2003 - Seattle - WA - USA - Wrestlemania - WWE Show",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "03",
+    "year": "2003"
+  },
+  "startDateUnix": 1048982400,
+  "endDate": {
+    "day": "30",
+    "month": "03",
+    "year": "2003"
+  },
+  "endDateUnix": 1048982400,
+  "location": {
+    "city": "Seattle",
+    "state": "WA",
+    "country": "USA",
+    "venue": "Wrestlemania",
+    "event": "WWE Show"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 379,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 603,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "86790587.jpg",
+      "externalId": "15VkQdXbIcOfsavfDquRxzxmVlyx6Xa4w"
+    },
+    {
+      "folder": "6",
+      "filename": "00558053.jpg",
+      "externalId": "1G4nn0CpAdBs0L_H1VHvZfh5wrErpvbTh"
+    },
+    {
+      "folder": "6",
+      "filename": "07189871.jpg",
+      "externalId": "1nNNBMXuYFPL_JHZBRePsdhrY-L0od1fS"
+    },
+    {
+      "folder": "6",
+      "filename": "40459734.jpg",
+      "externalId": "1FlXW2DfUH4_FlyhtfUnTfS50us8UQzm6"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Crack Addict",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Rollin'",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

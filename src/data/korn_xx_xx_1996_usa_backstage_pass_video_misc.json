@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Backstage Pass",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Backstage Pass",
   "source": "",
   "category": [
     "video",
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_1996_usa_backstage_pass_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_1996_usa_backstage_pass_video_misc/"
 }

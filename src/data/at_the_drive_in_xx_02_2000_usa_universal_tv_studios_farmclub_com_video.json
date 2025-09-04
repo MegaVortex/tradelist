@@ -6,26 +6,26 @@
     "At The Drive-In"
   ],
   "startDate": {
-    "day": "",
-    "month": "02",
+    "day": "29",
+    "month": "08",
     "year": "2000"
   },
-  "startDateUnix": null,
+  "startDateUnix": 967507200,
   "endDate": {
-    "day": "",
-    "month": "02",
+    "day": "29",
+    "month": "08",
     "year": "2000"
   },
-  "endDateUnix": null,
+  "endDateUnix": 967507200,
   "location": {
-    "city": "USA",
-    "state": "",
-    "country": "Universal TV Studios",
-    "venue": "Farmclub.com",
+    "city": "Universal City",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Universal Studios",
     "event": ""
   },
   "tvChannel": "Universal TV",
-  "showName": "",
+  "showName": "Farmclub.com",
   "source": "",
   "category": [
     "video"
@@ -112,5 +112,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "at_the_drive_in_xx_02_2000_usa_universal_tv_studios_farmclub_com_video",
+  "isRegular": true,
+  "permalink": "/shows/at_the_drive_in_xx_02_2000_usa_universal_tv_studios_farmclub_com_video/"
 }

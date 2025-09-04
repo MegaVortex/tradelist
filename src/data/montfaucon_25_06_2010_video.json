@@ -32,11 +32,11 @@
   ],
   "master": false,
   "public": true,
-  "ownIdentifier": "HDD#C",
+  "ownIdentifier": "",
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "Steady shot. On the same disc - \"Montfaucon - 25.06.2010 - Moscow - Russia - Aktoviy Zal\" and \"Flawless Victory - 25.06.2010 - Moscow - Russia - Aktoviy Zal\".",
+  "notes": "Steady shot.",
   "tapers": [],
   "specs": {
     "media": [
@@ -44,26 +44,16 @@
         "type": "DVD-5",
         "size": 3.52,
         "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 3.52,
-        "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 3.31,
-        "unit": "Gb"
       }
     ],
     "chapters": true,
     "menu": true,
-    "length": 5226,
+    "length": 3933,
     "video": [
       {
         "tvFormat": "PAL",
         "ratio": "4:3",
-        "resolution": "720x576",
+        "resolution": "704x576",
         "bitrateType": "VBR",
         "bitrateKbps": null,
         "fps": "",
@@ -74,24 +64,23 @@
     ],
     "audio": [
       {
-        "language": "",
-        "codec": "AC3",
+        "language": "en",
+        "codec": "LPCM",
         "rateHz": null,
         "bitrateKbps": null,
         "channels": 2
       }
     ],
     "sourceDetail": {
-      "recordingType": "PRO",
-      "sourceMediaType": "VHS",
+      "recordingType": "AMT",
+      "sourceMediaType": "",
       "finalMediaType": "",
       "fileFormat": "DVD"
     }
   },
   "relatedShows": [
-    "unearth_19_06_2004_video",
-    "a_img4_td_tr_tbody_table_div_1443036623_0_unearth_06_06_2004_source_2_52_2720_0_0_0_dire_straits_02_10_1991_video",
-    "a_img4_td_tr_tbody_table_div_div_div_div_div_setlist_div_div_div_div_1_romeo_and_juliet_div_div_2_planet_of_new_orleans_div_div_3_the_bug_div_div_4_private_investigations_div_div_5_sultans_of_swing_div_div_6_on_every_street_div_div_7_two_young_lovers_div_div_8_tunnel_of_love_div_div_9_money_for_nothing_div_div_10_brothers_in_arms_div_div_11_solid_rock_div_div_1442336359_0_dire_straits_02_10_1991_19_2721_0_0_0_iron_maiden_14_06_2000_video"
+    "flawless_victory_25_06_2010_video",
+    "ricochet_25_06_2010_video"
   ],
   "childOf": "",
   "images": [
@@ -114,437 +103,8 @@
       "folder": "13",
       "filename": "07316520.jpg",
       "externalId": "1srgz9yLkYYEaS-hmMeRm-cBlvkmMRMyX"
-    },
-    {
-      "folder": "13",
-      "filename": "89873472.jpg",
-      "externalId": "1sEgK02fYgdWcNNZpKuQRDxv6tAHaeAyq"
-    },
-    {
-      "folder": "13",
-      "filename": "81142658.jpg",
-      "externalId": "1THA47OCp21BV5Y4uzDXj32Pwzn9aDRly"
-    },
-    {
-      "folder": "13",
-      "filename": "15847229.jpg",
-      "externalId": "1BPUQ_IwmwhMLc-IT2aTzJLXH0HOQTyDh"
-    },
-    {
-      "folder": "13",
-      "filename": "39321129.jpg",
-      "externalId": "17b6X0jpCnTWMuJx4KtLmwfDXjAn4erAL"
-    },
-    {
-      "folder": "13",
-      "filename": "63692243.jpg",
-      "externalId": "1on48hcROaWPmfeXah-fPsz6me9CH55Tz"
-    },
-    {
-      "folder": "13",
-      "filename": "59243573.jpg",
-      "externalId": "1jcTEFxa-wNykbiMrBKBQpvs0Kz4dUic0"
-    },
-    {
-      "folder": "13",
-      "filename": "94519090.jpg",
-      "externalId": "1uyBHMQlQOo75qNREjnm6gOFY3h2V1z7n"
-    },
-    {
-      "folder": "13",
-      "filename": "73265007.jpg",
-      "externalId": "1a_8TF1zGhoMyHxequsa9dKHSopo4TtvF"
-    },
-    {
-      "folder": "13",
-      "filename": "37721489.jpg",
-      "externalId": "1UCE2n6bJTFlo4PEiwO0DNs_Eiv6Bh-Kh"
-    },
-    {
-      "folder": "13",
-      "filename": "85782805.jpg",
-      "externalId": "1ix8CBgCQRvzAqZKj8ryWLAOkTTptFKzh"
-    },
-    {
-      "folder": "13",
-      "filename": "28832385.jpg",
-      "externalId": "11UYwy1gT8Y-Y4HOEOAlPZ625jLyBDR3B"
-    },
-    {
-      "folder": "13",
-      "filename": "43513254.jpg",
-      "externalId": "1f_3lTrY4VTzStfVLC1hsDhjdCaKWMez0"
-    },
-    {
-      "folder": "13",
-      "filename": "12792242.jpg",
-      "externalId": "1PAG6GRe0G8jyJixv8cNLnnVuwY0OtgZ_"
-    },
-    {
-      "folder": "13",
-      "filename": "46459821.jpg",
-      "externalId": "1SOPGrofL4ewb4aq3H5w7jtvacnw5IBaU"
-    },
-    {
-      "folder": "13",
-      "filename": "87657794.jpg",
-      "externalId": "14r91e9s5pJu2ydEKD_DvvaPVq31QN7Z5"
-    },
-    {
-      "folder": "13",
-      "filename": "10608953.jpg",
-      "externalId": "1gHAg44Y7ad06R5Mj7Ly2LW0pfnb0cA4x"
-    },
-    {
-      "folder": "13",
-      "filename": "89511766.jpg",
-      "externalId": "1OzVkuuFUpTyAk29NJJcHLhIVBpnuxM47"
-    },
-    {
-      "folder": "13",
-      "filename": "84370168.jpg",
-      "externalId": "1JZmYtxDqYW8qQK5nOE6hjq6TMSw8yp53"
-    },
-    {
-      "folder": "13",
-      "filename": "36982821.jpg",
-      "externalId": "1mzo5n55WZGthybJh-w7K0jVlPItm2iiU"
-    },
-    {
-      "folder": "13",
-      "filename": "77571482.jpg",
-      "externalId": "1mOW5C0vcFZXDpHausRMt2TE0NHsUkwAt"
     }
   ],
-  "setlist": [
-    {
-      "order": 1,
-      "song": "All I Want Is Everything",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "Damned",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 3,
-      "song": "These Days",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 4,
-      "song": "You Give Love A Bad Name",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 5,
-      "song": "I'll Be There For You (Richie on vocals)",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 6,
-      "song": "Someday I'll Be Saturday Night",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 7,
-      "song": "Rocking All Over The World",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 8,
-      "song": "Keep The Faith",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 9,
-      "song": "Wanted Dead Or Alive",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 10,
-      "song": "Run Rudolph Run",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 11,
-      "song": "What A Wonderful Word (Tico on vocals)",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 12,
-      "song": "The Chanukah Song (David on vocals)",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 13,
-      "song": "I'll Sleep When I'm Dead",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 1,
-      "song": "Romeo And Juliet",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "Planet Of New Orleans",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 3,
-      "song": "The Bug",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 4,
-      "song": "Private Investigations",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 5,
-      "song": "Sultans Of Swing",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 6,
-      "song": "On Every Street",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 7,
-      "song": "Two Young Lovers",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 8,
-      "song": "Tunnel Of Love",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 9,
-      "song": "Money For Nothing",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 10,
-      "song": "Brothers In Arms",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 11,
-      "song": "Solid Rock",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 1,
-      "song": "The Wicker Man",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "Ghost Of The Navigator",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 3,
-      "song": "Brave New World",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 4,
-      "song": "Wrathchild",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 5,
-      "song": "2 Minutes To Midnight",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 6,
-      "song": "Blood Brothers",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 7,
-      "song": "Sign Of The Cross (camera problems)",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 8,
-      "song": "The Mercenary",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 9,
-      "song": "The Trooper",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 10,
-      "song": "Dream Of Mirrors",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 11,
-      "song": "The Clansman",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 12,
-      "song": "The Evil That Men Do",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 13,
-      "song": "Fear Of The Dark",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 14,
-      "song": "Iron Maiden",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 15,
-      "song": "The Number Of The Beast",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 16,
-      "song": "Hallowed Be Thy Name",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 17,
-      "song": "Sanctuary",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    }
-  ],
+  "setlist": [],
   "extras": []
 }

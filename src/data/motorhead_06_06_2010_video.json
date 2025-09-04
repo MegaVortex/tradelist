@@ -1,0 +1,228 @@
+{
+  "originalTitle": "Motorhead - 06.06.2010 - Nuerburg - Germany - Nuerburgring - Rock Am Ring",
+  "created": 1754761564,
+  "lastUpdated": 1754761564,
+  "bands": [
+    "Motorhead"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "06",
+    "year": "2010"
+  },
+  "startDateUnix": 1275782400,
+  "endDate": {
+    "day": "06",
+    "month": "06",
+    "year": "2010"
+  },
+  "endDateUnix": 1275782400,
+  "location": {
+    "city": "Nuerburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Nuerburgring",
+    "event": "Rock Am Ring"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 5.31,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 4384,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "17",
+      "filename": "47543994.jpg",
+      "externalId": "1cxshaHrzl3k1K9MuCCQn_d02KDJ4k_s9"
+    },
+    {
+      "folder": "17",
+      "filename": "13453424.jpg",
+      "externalId": "1ufJuOe1zdA2yTABBc-edxfoLuBECk9rv"
+    },
+    {
+      "folder": "17",
+      "filename": "67346566.jpg",
+      "externalId": "1p8WAIi89AS7MTFm8Z9qVu4fOGVqn0YyX"
+    },
+    {
+      "folder": "17",
+      "filename": "17562498.jpg",
+      "externalId": "1FNMsl0H9HEWvAbFXmPY3Wwk5tJT2zIEu"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Iron Fist",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Stay Clean",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Be My Baby",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Rock Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Metropolis",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Over The Top",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "One Night Stand",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "The Thousand Names Of God",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Cradle To The Grave",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "In The Name Of Tragedy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Just Cos' You Got The Power",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Going To Brazil",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Killed By Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Ace Of Spades",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Overkill",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

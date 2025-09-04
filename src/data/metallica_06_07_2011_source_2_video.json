@@ -22,7 +22,7 @@
     "state": "",
     "country": "Italy",
     "venue": "Arena Fiera Milano",
-    "event": "'The Big Four'"
+    "event": "The Big Four"
   },
   "tvChannel": "",
   "showName": "",
@@ -34,7 +34,7 @@
   "public": true,
   "ownIdentifier": "HDD#C",
   "tradeLabel": "",
-  "authoredBy": "",
+  "authoredBy": "MilanicaChannel",
   "transferredBy": "",
   "notes": "23 cam mix. No YouTube videos in there.",
   "tapers": [],
@@ -105,53 +105,190 @@
       "folder": "29",
       "filename": "05273865.jpg",
       "externalId": "10nY73XgMpmkMzTtGyVfI9V-voUSds3Tb"
-    },
-    {
-      "folder": "29",
-      "filename": "28000646.jpg",
-      "externalId": "17E_lPpOYMp8RScqyb-9Aexn6rVeIBrvQ"
-    },
-    {
-      "folder": "29",
-      "filename": "38630876.jpg",
-      "externalId": "1rO5Ha1BLVrLfdoSyOwNdmXsWLPA16hu1"
-    },
-    {
-      "folder": "29",
-      "filename": "77448017.jpg",
-      "externalId": "1cOwiWyErHUgq0F5jy3Sw9Wk0WHkf6Bax"
-    },
-    {
-      "folder": "29",
-      "filename": "97155391.jpg",
-      "externalId": "1EObUluZxOIyDHukaEkHzFA8RtbqUDrU3"
-    },
-    {
-      "folder": "29",
-      "filename": "13790772.jpg",
-      "externalId": "1zoiGcz0Br2x3127tnnAxuQqCrXeB948q"
-    },
-    {
-      "folder": "29",
-      "filename": "99165390.jpg",
-      "externalId": "1VLeotxu5K6tOysX4ssRhDJFTzZewm1Om"
-    },
-    {
-      "folder": "29",
-      "filename": "71219319.jpg",
-      "externalId": "1du5L0izd58Ui_PZdI6kbtOqer7_5yA_B"
-    },
-    {
-      "folder": "29",
-      "filename": "62608765.jpg",
-      "externalId": "1bbd7h5ahBOmz2YVgDwG8-DvEzRzReOND"
     }
   ],
-  "setlist": [],
+  "setlist": [
+      {
+          "order": 1,
+          "song": "Ecstasy Of Gold",
+          "feat": "",
+          "note": "tape",
+          "comment": "Ennio Morricone song",
+          "coverOf": ""
+      },
+      {
+          "order": 2,
+          "song": "Hit The Lights",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 3,
+          "song": "Master Of Puppets",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 4,
+          "song": "The Shortest Straw",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 5,
+          "song": "Seek And Destroy",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 6,
+          "song": "Kirk Solo",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 7,
+          "song": "Welcome Home (Sanitarium)",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 8,
+          "song": "Ride The Lightning",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 9,
+          "song": "Through The Never",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 10,
+          "song": "All Nightmare Long",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 11,
+          "song": "Sad But True",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 12,
+          "song": "Bass Solo",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 13,
+          "song": "The Call Of Ktulu",
+          "feat": "",
+          "note": "",
+          "comment": "instrumental",
+          "coverOf": ""
+      },
+      {
+          "order": 14,
+          "song": "One",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 15,
+          "song": "For Whom The Bell Tolls",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 16,
+          "song": "Blackened",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 17,
+          "song": "Kirk Solo",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 18,
+          "song": "Fade To Black",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 19,
+          "song": "Enter Sandman",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 20,
+          "song": "Die, Die My Darling",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "Misfits"
+      },
+      {
+          "order": 21,
+          "song": "Damage Inc.",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 22,
+          "song": "Creeping Death",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      }
+  ],
   "extras": [
     {
       "order": 1,
-      "song": "Low Man's Lyric",
+      "song": "MetOnTour Video",
       "feat": "",
       "note": "",
       "coverOf": "",
@@ -159,15 +296,15 @@
     },
     {
       "order": 2,
-      "song": "Helpless",
+      "song": "Raining Blood",
       "feat": "",
       "note": "",
       "coverOf": "",
-      "comment": ""
+      "comment": "Moshpit"
     },
     {
       "order": 3,
-      "song": "Tuesday's Gone",
+      "song": "Symphony Of Destruction",
       "feat": "",
       "note": "",
       "coverOf": "",
@@ -175,127 +312,15 @@
     },
     {
       "order": 4,
-      "song": "Poor Twisted Me",
+      "song": "TV Documentary",
       "feat": "",
       "note": "",
       "coverOf": "",
-      "comment": ""
+      "comment": "Italian TV"
     },
     {
       "order": 5,
-      "song": "Fade To Black",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 6,
-      "song": "The Four Horsemen",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 7,
-      "song": "Nothing Else Matters",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 8,
-      "song": "Last Caress",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 1,
-      "song": "Slave To The Grind",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 2,
-      "song": "Big Guns",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 3,
-      "song": "Piece Of Me",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 4,
-      "song": "Riot Act",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 5,
-      "song": "18 & Life",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 6,
-      "song": "Psycho Love",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 7,
-      "song": "Seb's Rant",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 8,
-      "song": "Get The Fuck Out",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 9,
-      "song": "Monkey Business",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 10,
-      "song": "I Remember You",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 11,
-      "song": "Youth Gone Wild",
+      "song": "Slideshow Pictures",
       "feat": "",
       "note": "",
       "coverOf": "",

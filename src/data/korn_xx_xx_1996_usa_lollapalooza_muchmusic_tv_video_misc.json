@@ -18,11 +18,11 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Lollapalooza",
-    "venue": "MuchMusic TV",
-    "event": ""
+    "country": "USA",
+    "venue": "",
+    "event": "Lollapalooza"
   },
   "tvChannel": "MuchMusic",
   "showName": "",
@@ -119,5 +119,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_1996_usa_lollapalooza_muchmusic_tv_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_1996_usa_lollapalooza_muchmusic_tv_video_misc/"
 }

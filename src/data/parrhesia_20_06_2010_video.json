@@ -32,9 +32,9 @@
   ],
   "master": false,
   "public": true,
-  "ownIdentifier": "HDD#C",
+  "ownIdentifier": "",
   "tradeLabel": "",
-  "authoredBy": "",
+  "authoredBy": "Vortex",
   "transferredBy": "",
   "notes": "",
   "tapers": [],
@@ -44,32 +44,27 @@
         "type": "DVD-5",
         "size": 983,
         "unit": "Mb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 1.18,
-        "unit": "Gb"
       }
     ],
-    "chapters": true,
+    "chapters": false,
     "menu": false,
-    "length": 2112,
+    "length": 900,
     "video": [
       {
         "tvFormat": "NTSC",
-        "ratio": "4:3",
-        "resolution": "704x480",
+        "ratio": "16:9",
+        "resolution": "720x480",
         "bitrateType": "VBR",
         "bitrateKbps": null,
         "fps": "",
         "standard": "",
         "codec": "",
-        "letterboxed": false
+        "letterboxed": true
       }
     ],
     "audio": [
       {
-        "language": "",
+        "language": "en",
         "codec": "AC3",
         "rateHz": null,
         "bitrateKbps": null,
@@ -78,14 +73,12 @@
     ],
     "sourceDetail": {
       "recordingType": "AMT",
-      "sourceMediaType": "VHS",
+      "sourceMediaType": "",
       "finalMediaType": "",
       "fileFormat": "DVD"
     }
   },
-  "relatedShows": [
-    "black_sabbath_27_08_1994_source_2_video"
-  ],
+  "relatedShows": [],
   "childOf": "",
   "images": [
     {
@@ -107,37 +100,8 @@
       "folder": "34",
       "filename": "23953440.jpg",
       "externalId": "1n8KfwtYEanyXGEqURRVTI0fCQ4o2YBA8"
-    },
-    {
-      "folder": "35",
-      "filename": "39472870.jpg",
-      "externalId": "1Iy6P-Asu7eyAmgO7zkfQ1BgpRJ7R-7w8"
-    },
-    {
-      "folder": "35",
-      "filename": "29531211.jpg",
-      "externalId": "11GWNtDc8q02WqjXWtFiuBCazuThImu1y"
-    },
-    {
-      "folder": "35",
-      "filename": "09334142.jpg",
-      "externalId": "1yq0AzxIOw0XmD3lq-2E21fKN1oNtMjYH"
-    },
-    {
-      "folder": "35",
-      "filename": "34484650.jpg",
-      "externalId": "19jbeONyyrS-UQLmPDBfI7Mmxs_wQZ2Q4"
     }
   ],
-  "setlist": [
-    {
-      "order": 1,
-      "song": "Press Conference",
-      "feat": "Tony Iommi, Bill Ward and Tony Martin",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    }
-  ],
+  "setlist": [],
   "extras": []
 }

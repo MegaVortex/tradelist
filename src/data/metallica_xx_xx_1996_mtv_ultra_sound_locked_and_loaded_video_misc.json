@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "MTV Ultra Sound",
+    "city": "",
     "state": "",
-    "country": "'Locked And Loaded'",
+    "country": "",
     "venue": "",
-    "event": ""
+    "event": "Locked And Loaded"
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "MTV Ultra Sound",
   "source": "",
   "category": [
     "video",
@@ -121,5 +121,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "metallica_xx_xx_1996_mtv_ultra_sound_locked_and_loaded_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/metallica_xx_xx_1996_mtv_ultra_sound_locked_and_loaded_video_misc/"
 }

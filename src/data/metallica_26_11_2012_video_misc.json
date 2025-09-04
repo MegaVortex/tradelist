@@ -18,14 +18,14 @@
   },
   "endDateUnix": 1353888000,
   "location": {
-    "city": "Germany",
+    "city": "",
     "state": "",
-    "country": "Number One! Metallica",
+    "country": "Germany",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Number One! Metallica",
   "source": "",
   "category": [
     "video",
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "metallica_26_11_2012_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/metallica_26_11_2012_video_misc/"
 }

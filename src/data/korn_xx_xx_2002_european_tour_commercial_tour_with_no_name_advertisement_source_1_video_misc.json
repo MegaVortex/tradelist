@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "European Tour Commercial",
+    "city": "",
     "state": "",
-    "country": "Tour With No Name Advertisement",
+    "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Tour With No Name Advertisement",
   "source": "Source 1",
   "category": [
     "video",
@@ -37,7 +37,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "",
+  "notes": "European Tour Commercial.",
   "tapers": [],
   "specs": {
     "media": [
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_2002_european_tour_commercial_tour_with_no_name_advertisement_source_1_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_2002_european_tour_commercial_tour_with_no_name_advertisement_source_1_video_misc/"
 }

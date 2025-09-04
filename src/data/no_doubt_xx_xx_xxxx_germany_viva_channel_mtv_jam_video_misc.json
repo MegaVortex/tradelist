@@ -18,13 +18,13 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Germany",
+    "city": "",
     "state": "",
-    "country": "Viva Channel",
-    "venue": "MTV Jam",
+    "country": "Germany",
+    "venue": "",
     "event": ""
   },
-  "tvChannel": "MTV",
+  "tvChannel": "Viva",
   "showName": "",
   "source": "",
   "category": [
@@ -37,7 +37,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "TV Compilation Vol 3. Dubbed to german language.",
+  "notes": "TV Compilation Vol 3. Dubbed in german.",
   "tapers": [],
   "specs": {
     "media": [
@@ -123,5 +123,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "no_doubt_xx_xx_xxxx_germany_viva_channel_mtv_jam_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/no_doubt_xx_xx_xxxx_germany_viva_channel_mtv_jam_video_misc/"
 }

@@ -18,13 +18,13 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Spike TV",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
-  "tvChannel": "",
+  "tvChannel": "Spike TV",
   "showName": "",
   "source": "",
   "category": [
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_2006_usa_spike_tv_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_2006_usa_spike_tv_video_misc/"
 }

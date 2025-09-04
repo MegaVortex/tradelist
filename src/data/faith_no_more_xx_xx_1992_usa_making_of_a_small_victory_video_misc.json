@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Making Of 'A Small Victory'",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Making Of 'A Small Victory'",
   "source": "",
   "category": [
     "video",
@@ -136,5 +136,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "faith_no_more_xx_xx_1992_usa_making_of_a_small_victory_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/faith_no_more_xx_xx_1992_usa_making_of_a_small_victory_video_misc/"
 }

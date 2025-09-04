@@ -18,11 +18,11 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Germany",
+    "city": "",
     "state": "",
-    "country": "Kamikaze",
+    "country": "Germany",
     "venue": "",
-    "event": ""
+    "event": "Kamikaze"
   },
   "tvChannel": "",
   "showName": "Nils Ruf Show",
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_xx_12_1999_germany_kamikaze_source_2_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_xx_12_1999_germany_kamikaze_source_2_video_misc/"
 }

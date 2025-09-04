@@ -18,14 +18,14 @@
   },
   "endDateUnix": 942105600,
   "location": {
-    "city": "Welcome To Our Neighborhood",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Welcome To Our Neighborhood",
   "source": "",
   "category": [
     "video",
@@ -121,5 +121,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_09_11_1999_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_09_11_1999_video_misc/"
 }

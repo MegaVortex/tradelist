@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
-    "state": "MTV",
-    "country": "Story Behind Untouchables",
+    "city": "",
+    "state": "",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "Story Behind Untouchables",
   "source": "Source 1",
   "category": [
     "video",
@@ -121,5 +121,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_2002_usa_mtv_story_behind_untouchables_source_1_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_2002_usa_mtv_story_behind_untouchables_source_1_video_misc/"
 }

@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "MTV2 News",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
-  "tvChannel": "MTV",
-  "showName": "",
+  "tvChannel": "MTV2",
+  "showName": "MTV2 News",
   "source": "",
   "category": [
     "video",
@@ -121,5 +121,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_xx_10_2001_usa_mtv2_news_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_xx_10_2001_usa_mtv2_news_video_misc/"
 }

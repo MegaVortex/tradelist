@@ -22,7 +22,7 @@
     "state": "",
     "country": "Italy",
     "venue": "Arena Fiera Milano",
-    "event": "'The Big Four'"
+    "event": "The Big Four"
   },
   "tvChannel": "",
   "showName": "",
@@ -55,23 +55,27 @@
         "ratio": "",
         "resolution": "1280x720",
         "bitrateType": "",
-        "bitrateKbps": 1536,
+        "bitrateKbps": null,
         "fps": "24.00",
         "standard": "MPEG4",
         "codec": "H264",
         "letterboxed": false
       }
     ],
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 6
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
     }
   },
   "relatedShows": [
@@ -100,5 +104,31 @@
       "externalId": "15VmT3pZU9k3GDOP3soweH5HLXV8bzmAe"
     }
   ],
-  "setlist": []
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Symphony Of Destruction",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Trust",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Public Enemy No.1",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
 }

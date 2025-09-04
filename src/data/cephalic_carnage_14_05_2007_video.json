@@ -37,30 +37,23 @@
   "authoredBy": "",
   "transferredBy": "",
   "notes": "",
-  "tapers": [
-    "Ingram"
-  ],
+  "tapers": [],
   "specs": {
     "media": [
       {
         "type": "DVD-5",
         "size": 3.83,
         "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 2.11,
-        "unit": "Gb"
       }
     ],
     "chapters": true,
-    "menu": true,
-    "length": 2358,
+    "menu": false,
+    "length": 3335,
     "video": [
       {
         "tvFormat": "PAL",
         "ratio": "4:3",
-        "resolution": "704x576",
+        "resolution": "720x576",
         "bitrateType": "VBR",
         "bitrateKbps": null,
         "fps": "",
@@ -71,7 +64,7 @@
     ],
     "audio": [
       {
-        "language": "en",
+        "language": "",
         "codec": "LPCM",
         "rateHz": null,
         "bitrateKbps": null,
@@ -107,26 +100,6 @@
       "folder": "16",
       "filename": "58762425.jpg",
       "externalId": "1ngMLUXui5wGaEjzLEZOsiLj6DCNYe76U"
-    },
-    {
-      "folder": "16",
-      "filename": "97689598.jpg",
-      "externalId": "1nbPq-LbpcmUcbs2GW9259B2azlUotPnC"
-    },
-    {
-      "folder": "16",
-      "filename": "00170818.jpg",
-      "externalId": "13Mxq0BzDoMvzhIE6A7dfSR--RcgN2Ma8"
-    },
-    {
-      "folder": "16",
-      "filename": "31511827.jpg",
-      "externalId": "1iXsSEwBMN0rsbpjyERg52wa2ketJUWuN"
-    },
-    {
-      "folder": "16",
-      "filename": "89593669.jpg",
-      "externalId": "1ivDKjlA7th4rnQlBjxE2nTMOhyizDZ-v"
     }
   ],
   "setlist": []

@@ -34,7 +34,7 @@
   "public": true,
   "ownIdentifier": "HDD#D",
   "tradeLabel": "",
-  "authoredBy": "",
+  "authoredBy": "metvideo",
   "transferredBy": "",
   "notes": "Incomplete source. Contains livemet audio.",
   "tapers": [
@@ -102,26 +102,6 @@
       "folder": "0",
       "filename": "89517.jpg",
       "externalId": "1KNpwtyWHRmNFURY52IsIlmwapStSJAAg"
-    },
-    {
-      "folder": "0",
-      "filename": "18601.jpg",
-      "externalId": "1HtVoM6dHQGmqYg2e8o59DeggOr2nviFp"
-    },
-    {
-      "folder": "0",
-      "filename": "30088.jpg",
-      "externalId": "1S6ghTyKZpQb7C-_aSRuhHT9evgcJecbb"
-    },
-    {
-      "folder": "0",
-      "filename": "65483.jpg",
-      "externalId": "1dqzMMfb7DDqQZxcv4NPoQ5XkWWC4K6Ku"
-    },
-    {
-      "folder": "0",
-      "filename": "16643.jpg",
-      "externalId": "1ErPqXdvZv7Z265KBsg_8Bu8OjksqJ_lr"
     }
   ],
   "setlist": [
@@ -158,10 +138,18 @@
       "coverOf": ""
     },
     {
-      "order": 6,
-      "song": "Welcome Home (Sanitarium) (cut)",
+      "order": 5,
+      "song": "For Whom The Bell Tolls",
       "feat": "",
-      "note": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Welcome Home (Sanitarium)",
+      "feat": "",
+      "note": "incomplete",
       "comment": "",
       "coverOf": ""
     },
@@ -184,6 +172,14 @@
     {
       "order": 10,
       "song": "Fade To Black",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Master Of Puppets",
       "feat": "",
       "note": "incomplete",
       "comment": "",
@@ -214,6 +210,14 @@
       "coverOf": ""
     },
     {
+      "order": 15,
+      "song": "One",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
       "order": 16,
       "song": "Enter Sandman",
       "feat": "",
@@ -236,6 +240,14 @@
       "note": "incomplete",
       "comment": "",
       "coverOf": ""
+    },
+    {
+      "order": 19,
+      "song": "Seek And Destroy",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
     }
   ],
   "extras": [
@@ -244,158 +256,6 @@
       "song": "Interview",
       "feat": "",
       "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 1,
-      "song": "That was just your life",
-      "feat": "",
-      "note": "incomplete",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 2,
-      "song": "The end of the line",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 3,
-      "song": "Kirk doodle #1",
-      "feat": "",
-      "note": "not recorded",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 4,
-      "song": "The thing that should not be",
-      "feat": "",
-      "note": "incomplete",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 5,
-      "song": "Of wolf and man",
-      "feat": "",
-      "note": "incomplete",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 6,
-      "song": "One",
-      "feat": "",
-      "note": "incomplete",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 7,
-      "song": "Broken, beat & scarred",
-      "feat": "",
-      "note": "incomplete",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 8,
-      "song": "Cyanide",
-      "feat": "",
-      "note": "incomplete",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 9,
-      "song": "Frantic",
-      "feat": "",
-      "note": "incomplete",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 10,
-      "song": "Until it sleeps",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 11,
-      "song": "Wherever I may roam",
-      "feat": "",
-      "note": "incomplete",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 12,
-      "song": "For whom the bell tolls",
-      "feat": "",
-      "note": "incomplete",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 13,
-      "song": "Kirk doodle #2",
-      "feat": "",
-      "note": "not recorded",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 14,
-      "song": "The day that never comes",
-      "feat": "",
-      "note": "incomplete",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 15,
-      "song": "Master of puppets",
-      "feat": "",
-      "note": "not recorded",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 16,
-      "song": "Blackened",
-      "feat": "",
-      "note": "incomplete",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 17,
-      "song": "Blitzkrieg",
-      "feat": "",
-      "note": "",
-      "coverOf": "Blitzkrieg",
-      "comment": ""
-    },
-    {
-      "order": 18,
-      "song": "Jump in the fire",
-      "feat": "",
-      "note": "incomplete",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 19,
-      "song": "Seek and destroy",
-      "feat": "",
-      "note": "incomplete",
       "coverOf": "",
       "comment": ""
     }

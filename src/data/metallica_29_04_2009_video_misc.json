@@ -18,14 +18,14 @@
   },
   "endDateUnix": 1240963200,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Discovery Channel Studios",
-    "venue": "'Time Warp'",
+    "country": "USA",
+    "venue": "Discovery Channel Studios",
     "event": ""
   },
   "tvChannel": "Discovery Channel",
-  "showName": "",
+  "showName": "Time Warp",
   "source": "",
   "category": [
     "video",
@@ -142,5 +142,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "metallica_29_04_2009_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/metallica_29_04_2009_video_misc/"
 }

@@ -1,0 +1,172 @@
+{
+  "originalTitle": "AC-DC - 29.06.1996 - Nancy - France - Zenith",
+  "created": 1754761564,
+  "lastUpdated": 1754761564,
+  "bands": [
+    "AC/DC"
+  ],
+  "startDate": {
+    "day": "29",
+    "month": "06",
+    "year": "1996"
+  },
+  "startDateUnix": 836006400,
+  "endDate": {
+    "day": "29",
+    "month": "06",
+    "year": "1996"
+  },
+  "endDateUnix": 836006400,
+  "location": {
+    "city": "Nancy",
+    "state": "",
+    "country": "France",
+    "venue": "Zenith",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.46,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2493,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "25",
+      "filename": "12827305.jpg",
+      "externalId": "1htjhPREnPjwPl1FaRBtliPEjWnKvz_RP"
+    },
+    {
+      "folder": "25",
+      "filename": "92009266.jpg",
+      "externalId": "1IHPG1rIh3zqDlbx9mbrhUt43WN5hUtIJ"
+    },
+    {
+      "folder": "25",
+      "filename": "44782375.jpg",
+      "externalId": "1AqhfBMaKoyO24qAKfauzaS4PfHkas4tC"
+    },
+    {
+      "folder": "25",
+      "filename": "66141086.jpg",
+      "externalId": "1IMbnO3mBb-aADpi0PR3Jy-vpvB04DB5O"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Back In Black",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Shot Down In Flames",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Thunderstruck",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Girls Got Rhythm",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Hard As A Rock",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Shoot To Thrill",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Boogie Man",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

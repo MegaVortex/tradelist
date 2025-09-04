@@ -18,14 +18,14 @@
   },
   "endDateUnix": 998438400,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "MTV2 Studios",
-    "venue": "Celebrity Deathmatch Show",
+    "country": "USA",
+    "venue": "MTV2 Studios",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "Celebrity Deathmatch Show",
   "source": "",
   "category": [
     "video",
@@ -34,7 +34,7 @@
   "master": false,
   "public": true,
   "ownIdentifier": "HDD#C",
-  "tradeLabel": "",
+  "tradeLabel": "RT",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "Season 4, Episode 62 \"Food Fights\": Jonathan Davis vs. Meat Loaf.",
@@ -133,5 +133,8 @@
       "externalId": "1z3GGE0j8PEAcdPUpy7OSkxbd6GxPwUuH"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "korn_22_08_2001_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_22_08_2001_video_misc/"
 }

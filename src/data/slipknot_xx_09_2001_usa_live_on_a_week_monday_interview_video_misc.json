@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "Live On A Week",
-    "venue": "Monday Interview",
-    "event": ""
+    "country": "USA",
+    "venue": "",
+    "event": "Monday Interview"
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Live On A Week",
   "source": "",
   "category": [
     "video",
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_xx_09_2001_usa_live_on_a_week_monday_interview_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_xx_09_2001_usa_live_on_a_week_monday_interview_video_misc/"
 }

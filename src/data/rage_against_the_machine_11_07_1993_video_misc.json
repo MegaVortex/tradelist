@@ -21,10 +21,10 @@
     "city": "London",
     "state": "",
     "country": "England",
-    "venue": "MTV Europe",
+    "venue": "",
     "event": ""
   },
-  "tvChannel": "MTV Europe",
+  "tvChannel": "MTV",
   "showName": "",
   "source": "",
   "category": [
@@ -37,7 +37,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "",
+  "notes": "MTV Europe.",
   "tapers": [],
   "specs": {
     "media": [
@@ -148,5 +148,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "rage_against_the_machine_11_07_1993_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/rage_against_the_machine_11_07_1993_video_misc/"
 }

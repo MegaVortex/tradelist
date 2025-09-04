@@ -18,13 +18,13 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Germany",
+    "city": "",
     "state": "",
-    "country": "VIVA TV",
+    "country": "Germany",
     "venue": "",
     "event": ""
   },
-  "tvChannel": "",
+  "tvChannel": "VIVA",
   "showName": "",
   "source": "",
   "category": [
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "rammstein_xx_xx_1997_germany_viva_tv_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/rammstein_xx_xx_1997_germany_viva_tv_video_misc/"
 }

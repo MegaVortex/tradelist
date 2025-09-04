@@ -105,74 +105,206 @@
       "folder": "0",
       "filename": "41967.jpg",
       "externalId": "1CSakhnGg35RVr2Sx6YKILTrnClMgV1lv"
-    },
-    {
-      "folder": "0",
-      "filename": "43802.jpg",
-      "externalId": "1Q3M-0cvJSjl7XjC0pDvtztl25Ewv5Xn5"
-    },
-    {
-      "folder": "0",
-      "filename": "07103.jpg",
-      "externalId": "11AXAX6p22T1kSurAoktlY-RTJRwq3yQV"
-    },
-    {
-      "folder": "0",
-      "filename": "14790.jpg",
-      "externalId": "1P079RwYvVgmSaeeUpCQLDQINge32KHMb"
-    },
-    {
-      "folder": "0",
-      "filename": "53015.jpg",
-      "externalId": "1Uoc-P9C9LTOgx7w1ajD_VRKRWk87DA_5"
     }
   ],
   "setlist": [
-    {
-      "order": 11,
-      "song": "Bass Solo / Guitar Solo",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 16,
-      "song": "Seek And Destroy",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 22,
-      "song": "Damage, Inc.",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 23,
-      "song": "Motorbreath",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 24,
-      "song": "Breadfan",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    }
+      {
+          "order": 1,
+          "song": "Ecstasy Of Gold",
+          "feat": "",
+          "note": "tape",
+          "comment": "Ennio Morricone song",
+          "coverOf": ""
+      },
+      {
+          "order": 2,
+          "song": "Enter Sandman",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 3,
+          "song": "Creeping Death",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 4,
+          "song": "Harvester Of Sorrow",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 5,
+          "song": "Welcome Home (Sanitarium)",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 6,
+          "song": "Sad But True",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 7,
+          "song": "Wherever I May Roam",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 8,
+          "song": "Of Wolf And Man",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 9,
+          "song": "The Unforgiven",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 10,
+          "song": "Justice Medley",
+          "feat": "",
+          "note": "medley",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 11,
+          "song": "Bass Solo / Guitar Solo",
+          "feat": "",
+          "note": "solo",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 12,
+          "song": "Through The Never",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 13,
+          "song": "For Whom The Bell Tolls",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 14,
+          "song": "Fade To Black",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 15,
+          "song": "Master Of Puppets",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 16,
+          "song": "Seek And Destroy",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 17,
+          "song": "Whiplash",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 18,
+          "song": "Nothing Else Matters",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 19,
+          "song": "Am I Evil?",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "Diamond Head"
+      },
+      {
+          "order": 20,
+          "song": "Last Caress",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "Misfits"
+      },
+      {
+          "order": 21,
+          "song": "One",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 22,
+          "song": "Damage, Inc.",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 23,
+          "song": "Motorbreath",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 24,
+          "song": "Breadfan",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "Budgie"
+      }
   ],
   "extras": [
     {
       "order": 1,
-      "song": "Disposable Heroes (20.06.1993 - Basel - Switzerland - Stadion St. Jakob)",
+      "song": "Disposable Heroes (1993-06-20 - Basel - Switzerland - Stadion St. Jakob)",
       "feat": "",
       "note": "",
       "coverOf": "",
@@ -180,7 +312,7 @@
     },
     {
       "order": 2,
-      "song": "Instrumental Jam (20.06.1993 - Basel - Switzerland - Stadion St. Jakob)",
+      "song": "Instrumental Jam (1993-06-20 - Basel - Switzerland - Stadion St. Jakob)",
       "feat": "",
       "note": "",
       "coverOf": "",
@@ -188,7 +320,7 @@
     },
     {
       "order": 3,
-      "song": "The Four Horsemen (20.06.1993 - Basel - Switzerland - Stadion St. Jakob)",
+      "song": "The Four Horsemen (1993-06-20 - Basel - Switzerland - Stadion St. Jakob)",
       "feat": "",
       "note": "",
       "coverOf": "",
@@ -196,7 +328,7 @@
     },
     {
       "order": 4,
-      "song": "For Whom The Bell Tolls (20.06.1993 - Basel - Switzerland - Stadion St. Jakob)",
+      "song": "For Whom The Bell Tolls (1993-06-20 - Basel - Switzerland - Stadion St. Jakob)",
       "feat": "",
       "note": "",
       "coverOf": "",
@@ -204,199 +336,7 @@
     },
     {
       "order": 5,
-      "song": "Fade To Black (20.06.1993 - Basel - Switzerland - Stadion St. Jakob)",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 1,
-      "song": "Metallimovie",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 2,
-      "song": "The Ecstasy Of Gold",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 3,
-      "song": "Enter Sandman",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 4,
-      "song": "Creeping Death",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 5,
-      "song": "Harvester Of Sorrow",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 6,
-      "song": "Welcome Home (Sanitarium)",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 7,
-      "song": "Sad But True",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 8,
-      "song": "Of Wolf And Man",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 9,
-      "song": "The Unforgiven",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 10,
-      "song": "Justice Medley",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 11,
-      "song": "Bass Solo",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 12,
-      "song": "Guitar Solo",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 13,
-      "song": "Through The Never",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 14,
-      "song": "For Whom The Bell Tolls",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 15,
-      "song": "Fade To Black",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 16,
-      "song": "Master Of Puppets",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 17,
-      "song": "Seek & Destroy",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 18,
-      "song": "Whiplash",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 19,
-      "song": "Nothing Else Matters",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 20,
-      "song": "Wherever I May Roam",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 21,
-      "song": "Am I Evil?",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 22,
-      "song": "Last Caress",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 23,
-      "song": "One",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 24,
-      "song": "Battery",
+      "song": "Fade To Black (1993-06-20 - Basel - Switzerland - Stadion St. Jakob)",
       "feat": "",
       "note": "",
       "coverOf": "",

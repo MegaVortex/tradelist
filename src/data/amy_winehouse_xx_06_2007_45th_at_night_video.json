@@ -6,26 +6,26 @@
     "Amy Winehouse"
   ],
   "startDate": {
-    "day": "",
-    "month": "06",
+    "day": "01",
+    "month": "05",
     "year": "2007"
   },
   "startDateUnix": null,
   "endDate": {
-    "day": "",
-    "month": "06",
+    "day": "01",
+    "month": "05",
     "year": "2007"
   },
   "endDateUnix": null,
   "location": {
-    "city": "45th At Night",
-    "state": "",
-    "country": "",
-    "venue": "",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "MTV Studios",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "45th At Night",
   "source": "",
   "category": [
     "video"
@@ -162,5 +162,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "amy_winehouse_xx_06_2007_45th_at_night_video",
+  "isRegular": true,
+  "permalink": "/shows/amy_winehouse_xx_06_2007_45th_at_night_video/"
 }

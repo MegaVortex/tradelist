@@ -18,7 +18,7 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Unknown Location",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
@@ -145,5 +145,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "faith_no_more_xx_xx_xxxx_unknown_location_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/faith_no_more_xx_xx_xxxx_unknown_location_video_misc/"
 }

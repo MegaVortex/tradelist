@@ -80,13 +80,34 @@
   },
   "relatedShows": [],
   "childOf": "",
-  "images": [],
+  "images": [
+    {
+      "folder": "2",
+      "filename": "28580.jpg",
+      "externalId": "1C1p-ZJHcyyUasZ3ZdvO-SbdqW-1i5VLo"
+    },
+    {
+      "folder": "2",
+      "filename": "08161.jpg",
+      "externalId": "1OEb4r7_pdjjK-FqCNFFOzpk-1PF9vFXr"
+    },
+    {
+      "folder": "2",
+      "filename": "67827.jpg",
+      "externalId": "1c3rsQ77-dc2I87NZezTmU_iph9B8CyyP"
+    },
+    {
+      "folder": "2",
+      "filename": "33963.jpg",
+      "externalId": "1mdcCfOFuxEAL_262a25U7CMHX2DoeWxz"
+    }
+  ],
   "setlist": [
     {
       "order": 1,
       "song": "Scissors",
       "feat": "",
-      "note": "",
+      "note": "incomplete",
       "comment": "",
       "coverOf": ""
     }

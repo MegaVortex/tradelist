@@ -30,14 +30,16 @@
   "category": [
     "video"
   ],
-  "master": false,
+  "master": true,
   "public": true,
   "ownIdentifier": "HDD#O",
-  "tradeLabel": "",
-  "authoredBy": "",
+  "tradeLabel": "NT",
+  "authoredBy": "Vortex",
   "transferredBy": "",
   "notes": "Show has been captured using Fraps, original audio has been recorded with a front mic, unfortunately my connection flapped 3 times and I lost about 5 minutes of the show, video have a frame drops, that's why it was hard to sync the show. Original soundwave was swapped with Baaxxoor's audio, which was taken from his YouTube channel. I don't want to trade this bootleg, cuz it's still have loss of sync during \"Duality\", part of \"Only One\", \"Before I Forget\" and part of \"Spit It Out\", also several songs are cut. Captured, synced and",
-  "tapers": [],
+  "tapers": [
+    "Vortex"
+  ],
   "specs": {
     "media": [
       {
@@ -272,5 +274,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_10_07_2011_source_1_video",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_10_07_2011_source_1_video/"
 }

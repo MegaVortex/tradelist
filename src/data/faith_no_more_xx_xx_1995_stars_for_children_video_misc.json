@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "'Stars For Children'",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Stars For Children",
   "source": "",
   "category": [
     "video",
@@ -137,5 +137,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "faith_no_more_xx_xx_1995_stars_for_children_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/faith_no_more_xx_xx_1995_stars_for_children_video_misc/"
 }

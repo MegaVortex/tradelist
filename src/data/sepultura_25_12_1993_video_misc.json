@@ -18,10 +18,10 @@
   },
   "endDateUnix": 756777600,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "MTV Studios",
-    "venue": "",
+    "country": "USA",
+    "venue": "MTV Studios",
     "event": ""
   },
   "tvChannel": "MTV",
@@ -290,5 +290,8 @@
       "coverOf": "",
       "comment": ""
     }
-  ]
+  ],
+  "fileSlug": "sepultura_25_12_1993_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/sepultura_25_12_1993_video_misc/"
 }

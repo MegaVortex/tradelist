@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "MTV Studios",
-    "venue": "MTV News",
+    "country": "USA",
+    "venue": "MTV Studios",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "MTV News",
   "source": "",
   "category": [
     "video",
@@ -120,5 +120,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "pixies_xx_xx_1991_usa_mtv_studios_mtv_news_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/pixies_xx_xx_1991_usa_mtv_studios_mtv_news_video_misc/"
 }

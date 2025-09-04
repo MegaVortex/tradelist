@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Bon Jovi - 19.01.2004 - Philadelphia - PA - USA - Wachovia Spectrum",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "01",
+    "year": "2004"
+  },
+  "startDateUnix": 1074470400,
+  "endDate": {
+    "day": "19",
+    "month": "01",
+    "year": "2004"
+  },
+  "endDateUnix": 1074470400,
+  "location": {
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "venue": "Wachovia Spectrum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.68,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2391,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "4",
+      "filename": "0917163.jpg",
+      "externalId": "1Mf0e58Bpnc6eIVh-AUFXcvAPiscgbKTd"
+    },
+    {
+      "folder": "4",
+      "filename": "8310219.jpg",
+      "externalId": "1CH7S2uGe6UIzNHuEZdPvGyI517Rx3rgj"
+    },
+    {
+      "folder": "4",
+      "filename": "6693762.jpg",
+      "externalId": "1fNvMRooFZZOlWKiNIS-LN-UrE3IRTOUe"
+    },
+    {
+      "folder": "4",
+      "filename": "0003722.jpg",
+      "externalId": "19K4FHYBaGpyslxzThoBOmSob1ju4zyHO"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "You Give Love A Bad Name",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Living On A Prayer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "It's My Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Wanted Dead Or Alive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Everyday",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Raise Your Hand",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Bad Medicine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Shout",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

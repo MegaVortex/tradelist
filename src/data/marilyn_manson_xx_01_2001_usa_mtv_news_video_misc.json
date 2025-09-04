@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "MTV News",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "MTV News",
   "source": "",
   "category": [
     "video",
@@ -127,5 +127,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "marilyn_manson_xx_01_2001_usa_mtv_news_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/marilyn_manson_xx_01_2001_usa_mtv_news_video_misc/"
 }

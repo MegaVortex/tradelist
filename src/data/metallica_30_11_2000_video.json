@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Metallica - 30.11.2000 - Los Angeles - CA - USA - Shrine Auditorium - My VH1 Music Awards",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "11",
+    "year": "2000"
+  },
+  "startDateUnix": 975542400,
+  "endDate": {
+    "day": "30",
+    "month": "11",
+    "year": "2000"
+  },
+  "endDateUnix": 975542400,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Shrine Auditorium",
+    "event": "My VH1 Music Awards"
+  },
+  "tvChannel": "VH1",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 471,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 665,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "0",
+      "filename": "57967.jpg",
+      "externalId": "14jTCav7v4BerJch4t05MwqtmtoPu1X9R"
+    },
+    {
+      "folder": "0",
+      "filename": "35628.jpg",
+      "externalId": "1XJicbN3Q6HKSslhe_HQA7VJaBPU6Pnlb"
+    },
+    {
+      "folder": "0",
+      "filename": "57541.jpg",
+      "externalId": "1341iVVqNzI6rrT7nMn_nQ0H1qRd2FK_b"
+    },
+    {
+      "folder": "0",
+      "filename": "06645.jpg",
+      "externalId": "1iam8h3CVbV-Qxg9qVukMBiwEAozQvM0m"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Fade To Black",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Joke &quot;Metallica VS Napster&quot;",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Best Stage Spectacle",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

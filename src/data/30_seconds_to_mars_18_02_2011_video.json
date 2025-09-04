@@ -57,7 +57,7 @@
         "bitrateType": "",
         "bitrateKbps": 24000,
         "fps": "29.97",
-        "standard": "MPG2\u0001",
+        "standard": "MPG2",
         "codec": "",
         "letterboxed": false
       }
@@ -120,5 +120,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "30_seconds_to_mars_18_02_2011_video",
+  "isRegular": true,
+  "permalink": "/shows/30_seconds_to_mars_18_02_2011_video/"
 }

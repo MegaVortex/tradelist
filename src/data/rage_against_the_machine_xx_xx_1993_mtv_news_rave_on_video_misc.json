@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "MTV News",
+    "city": "",
     "state": "",
-    "country": "Rave On",
+    "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "MTV News",
   "source": "",
   "category": [
     "video",
@@ -37,7 +37,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "",
+  "notes": "Rave On.",
   "tapers": [],
   "specs": {
     "media": [
@@ -125,5 +125,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "rage_against_the_machine_xx_xx_1993_mtv_news_rave_on_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/rage_against_the_machine_xx_xx_1993_mtv_news_rave_on_video_misc/"
 }

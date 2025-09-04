@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "VH1",
-    "venue": "'The Story Of Metal'",
+    "country": "USA",
+    "venue": "",
     "event": ""
   },
   "tvChannel": "VH1",
-  "showName": "",
+  "showName": "The Story Of Metal",
   "source": "",
   "category": [
     "video",
@@ -139,5 +139,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "marilyn_manson_xx_xx_xxxx_usa_vh1_the_story_of_metal_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/marilyn_manson_xx_xx_xxxx_usa_vh1_the_story_of_metal_video_misc/"
 }

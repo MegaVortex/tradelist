@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "MuchMusic Spotlight",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MuchMusic",
-  "showName": "",
+  "showName": "MuchMusic Spotlight",
   "source": "",
   "category": [
     "video",
@@ -117,5 +117,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "red_hot_chili_peppers_xx_xx_1992_muchmusic_spotlight_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/red_hot_chili_peppers_xx_xx_1992_muchmusic_spotlight_video_misc/"
 }

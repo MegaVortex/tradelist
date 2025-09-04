@@ -21,11 +21,11 @@
     "city": "Tokyo",
     "state": "",
     "country": "Japan",
-    "venue": "Music Japan Overseas",
+    "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Music Japan Overseas",
   "source": "",
   "category": [
     "video"
@@ -100,26 +100,6 @@
       "folder": "36",
       "filename": "17782310.jpg",
       "externalId": "1vAyfr9iOmIGWDut9jqdUELn_Qu6wAAXf"
-    },
-    {
-      "folder": "36",
-      "filename": "05210842.jpg",
-      "externalId": "1tLSz3xfJjYTNenkxCjiLALw46EXX22pO"
-    },
-    {
-      "folder": "36",
-      "filename": "87470317.jpg",
-      "externalId": "1oGb8g0cN7hkM0kRF3y66SVYN7GXiP7IO"
-    },
-    {
-      "folder": "36",
-      "filename": "84031085.jpg",
-      "externalId": "1aJ-vG1j6-XozcLoQK5AWC-ScLTuj4_-P"
-    },
-    {
-      "folder": "36",
-      "filename": "72414800.jpg",
-      "externalId": "1cY5BI-FfeY5Nzx4sb4vXmGJh21LGFOyh"
     }
   ],
   "setlist": [
@@ -149,49 +129,9 @@
     },
     {
       "order": 4,
-      "song": "I'm With You (acoustic)",
+      "song": "I'm With You",
       "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 1,
-      "song": "Fly Into Your Dream",
-      "feat": "Kotei",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "Foreign Sand",
-      "feat": "Yoshiki and Toshi",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 3,
-      "song": "Bed Of Roses",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 4,
-      "song": "Wanted Dead Or Alive",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 5,
-      "song": "Finale",
-      "feat": "",
-      "note": "",
+      "note": "acoustic",
       "comment": "",
       "coverOf": ""
     }

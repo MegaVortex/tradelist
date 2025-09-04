@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Limp Bizkit - 01.01.1999 - New York - NY - USA - MTV New Year's Eve (Source 2)",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "01",
+    "year": "1999"
+  },
+  "startDateUnix": 915148800,
+  "endDate": {
+    "day": "01",
+    "month": "01",
+    "year": "1999"
+  },
+  "endDateUnix": 915148800,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "MTV New Year's Eve",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Shitty video and audio quality. Picture delay.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 5.12,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 217,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "240x180",
+        "bitrateType": "",
+        "bitrateKbps": 135,
+        "fps": "",
+        "standard": "MP43",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 11025,
+        "bitrateKbps": 8,
+        "channels": 1
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "ASF"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "80639725.jpg",
+      "externalId": "1g-usJBPK-5_J_k65-wkUeKweVUzgQIuI"
+    },
+    {
+      "folder": "6",
+      "filename": "14929921.jpg",
+      "externalId": "1O8EpI2plGsCuTagQC6qeW-K9HKQs1hJd"
+    },
+    {
+      "folder": "6",
+      "filename": "35427847.jpg",
+      "externalId": "1JAKISjv8NMGGzD45DW1WltYDXzJFMFUa"
+    },
+    {
+      "folder": "6",
+      "filename": "36181346.jpg",
+      "externalId": "10VHEUW16r-zvdb8S613nvWMtVTwyooIR"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "1999",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Prince"
+    }
+  ],
+  "extras": []
+}

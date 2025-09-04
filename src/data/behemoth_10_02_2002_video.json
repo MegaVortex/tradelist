@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Behemoth - 10.02.2002 - Moscow - Russia - Svalka",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Behemoth"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "02",
+    "year": "2002"
+  },
+  "startDateUnix": 1013299200,
+  "endDate": {
+    "day": "10",
+    "month": "02",
+    "year": "2002"
+  },
+  "endDateUnix": 1013299200,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Svalka",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.79,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3349,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "2",
+      "filename": "34085.jpg",
+      "externalId": "1YTbfq4yhxnZzj-fTBblNFQgf7seQpWch"
+    },
+    {
+      "folder": "2",
+      "filename": "53369.jpg",
+      "externalId": "1A0p5tQ71fQCf2J10ZTkO_G0-DUmUSMI3"
+    },
+    {
+      "folder": "2",
+      "filename": "87976.jpg",
+      "externalId": "1dXSB_nBWhactx52HDSi6kh7blmS6LACC"
+    },
+    {
+      "folder": "2",
+      "filename": "69403.jpg",
+      "externalId": "1j_oTrfS-K38VKwTQZWy9haCyNu1pGQcl"
+    }
+  ],
+  "setlist": []
+}

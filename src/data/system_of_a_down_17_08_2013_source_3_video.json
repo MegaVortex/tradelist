@@ -64,14 +64,16 @@
     ],
     "audio": {
       "language": "",
-      "codec": "",
+      "codec": "AAC",
+	  "rateHz": 24000,
       "bitrateKbps": null,
-      "channels": null
+      "channels": 2
     },
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
     }
   },
   "relatedShows": [],
@@ -133,7 +135,7 @@
     },
     {
       "order": 5,
-      "song": "Soldier Side (intro)",
+      "song": "Soldier Side (Intro)",
       "feat": "",
       "note": "",
       "comment": "",

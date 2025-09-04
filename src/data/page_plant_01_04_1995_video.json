@@ -79,8 +79,8 @@
     }
   },
   "relatedShows": [
-    "page_plant_03_10_1995_video",
-    "page_plant_01_05_1995_source_1_video"
+    "page_plant_01_05_1995_source_1_video",
+    "page_plant_03_10_1995_source_1_video"
   ],
   "childOf": "",
   "images": [
@@ -105,5 +105,47 @@
       "externalId": "1im-P2afUgH83gdvZezx6zA32LFhlaZXK"
     }
   ],
-  "setlist": []
+  "setlist": [
+      {
+          "order": 1,
+          "song": "Ramble On",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 2,
+          "song": "Thank You",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 3,
+          "song": "Hey, Hey, What Can I Do",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 4,
+          "song": "Four Sticks",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 5,
+          "song": "In The Evening",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      }
+  ],
+  "extras": []
 }

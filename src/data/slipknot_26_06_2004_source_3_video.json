@@ -72,9 +72,10 @@
       }
     ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
     }
   },
   "relatedShows": [],
@@ -106,7 +107,7 @@
       "order": 1,
       "song": "742617000027",
       "feat": "",
-      "note": "",
+      "note": "tape",
       "comment": "",
       "coverOf": ""
     },

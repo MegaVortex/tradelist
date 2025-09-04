@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "'The Sound And The Story'",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "The Sound And The Story",
   "source": "",
   "category": [
     "video",
@@ -137,5 +137,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_xx_xx_2015_usa_the_sound_and_the_story_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_xx_xx_2015_usa_the_sound_and_the_story_video_misc/"
 }

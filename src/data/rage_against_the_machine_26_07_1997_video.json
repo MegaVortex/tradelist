@@ -48,7 +48,7 @@
     ],
     "chapters": false,
     "menu": false,
-    "length": null,
+    "length": 2001,
     "video": [
       {
         "tvFormat": "NTSC",
@@ -103,14 +103,6 @@
     }
   ],
   "setlist": [
-    {
-      "order": 1,
-      "song": "Bulls on Parade (13.04.1996 - Saturday Night Live)",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
     {
       "order": 1,
       "song": "People of the Sun",
@@ -176,5 +168,14 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [
+    {
+      "order": 1,
+      "song": "Bulls on Parade",
+      "feat": "",
+      "note": "",
+      "comment": "1996-04-13 - Saturday Night Live",
+      "coverOf": ""
+    }
+  ]
 }

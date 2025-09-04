@@ -34,7 +34,7 @@
   "public": true,
   "ownIdentifier": "HDD#J",
   "tradeLabel": "",
-  "authoredBy": "",
+  "authoredBy": "Vortex",
   "transferredBy": "",
   "notes": "Series 41, Episode 5. Live Show - Broadcast on the 23rd October 2012.",
   "tapers": [],
@@ -46,30 +46,29 @@
         "unit": "Mb"
       }
     ],
-    "chapters": false,
-    "menu": false,
-    "length": null,
+    "chapters": true,
+    "menu": true,
+    "length": 666,
     "video": {
-      "format": "",
-      "ratio": "",
-      "resolution": "",
-      "bitrateType": "",
+      "format": "PAL",
+      "ratio": "16:9",
+      "resolution": "720x576",
+      "bitrateType": "VBR",
       "bitrateKbps": null,
-      "letterboxed": false
+      "letterboxed": true
     },
-    "audio": [
-      {
-        "language": "",
-        "codec": "AC3",
-        "rateHz": null,
-        "bitrateKbps": null,
-        "channels": 6
-      }
-    ],
+    "audio": {
+      "language": "",
+      "codec": "AC3",
+      "rateHz": null,
+      "bitrateKbps": null,
+      "channels": 2
+    },
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
     }
   },
   "relatedShows": [

@@ -37,7 +37,9 @@
   "authoredBy": "",
   "transferredBy": "",
   "notes": "Austin City Limits.",
-  "tapers": [],
+  "tapers": [
+    "dION1983"
+  ],
   "specs": {
     "media": [
       {
@@ -55,23 +57,27 @@
         "ratio": "",
         "resolution": "1280x720",
         "bitrateType": "",
-        "bitrateKbps": 98,
+        "bitrateKbps": null,
         "fps": "29.97",
         "standard": "MPEG4",
         "codec": "H264",
         "letterboxed": false
       }
     ],
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 44100,
+        "bitrateKbps": 98,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "HD",
+      "fileFormat": "TS"
     }
   },
   "relatedShows": [],

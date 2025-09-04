@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "England",
+    "city": "",
     "state": "",
-    "country": "'In Bed With'",
+    "country": "England",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "In Bed With",
   "source": "",
   "category": [
     "video",
@@ -136,5 +136,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "faith_no_more_xx_xx_1995_england_in_bed_with_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/faith_no_more_xx_xx_1995_england_in_bed_with_video_misc/"
 }

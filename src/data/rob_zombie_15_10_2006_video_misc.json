@@ -21,7 +21,7 @@
     "city": "Los Angeles",
     "state": "CA",
     "country": "USA",
-    "venue": "Fuse TV",
+    "venue": "Orpheum Theater",
     "event": "Chainsaw Awards"
   },
   "tvChannel": "Fuse TV",
@@ -29,7 +29,7 @@
   "source": "",
   "category": [
     "video",
-    "misc"
+	"misc"
   ],
   "master": false,
   "public": true,
@@ -47,40 +47,48 @@
         "unit": "Gb"
       }
     ],
-    "chapters": false,
+    "chapters": true,
     "menu": false,
-    "length": null,
-    "video": {
-      "format": "",
-      "ratio": "",
-      "resolution": "",
-      "bitrateType": "",
-      "bitrateKbps": null,
-      "letterboxed": false
-    },
-    "audio": {
-      "language": "",
-      "codec": "",
-      "bitrateKbps": null,
-      "channels": null
-    },
+    "length": 7759,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
-      "type": "",
-      "extra": "",
-      "medium": ""
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
     }
   },
   "relatedShows": [
+    "30_seconds_to_mars_15_10_2006_video",
     "avenged_sevenfold_15_10_2006_video",
     "fall_out_boy_15_10_2006_video_misc",
     "jonathan_davis_15_10_2006_video_misc",
-    "30_seconds_to_mars_15_10_2006_video",
-    "slipknot_15_10_2006_video_misc",
-    "sum_41_15_10_2006_video_misc",
-    "the_used_15_10_2006_video_misc",
-    "various_artists_15_10_2006_video"
+	"slipknot_15_10_2006_video_misc",
+	"sum_41_15_10_2006_video_misc",
+	"the_used_15_10_2006_video_misc"
   ],
-  "childOf": "[VARIOUS ARTISTS] - 15.10.2006 - Los Angeles - CA - USA - Fuse TV - Chainsaw Awards",
+  "childOf": "various_artists_15_10_2006_video_compilation",
   "images": [
     {
       "folder": "18",
@@ -103,5 +111,39 @@
       "externalId": "1RL-bwHM6I4RQ23-3W0RqrLLAP2H4H-kw"
     }
   ],
-  "setlist": []
+  "setlist": [
+      {
+          "order": 1,
+          "song": "Speech",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 2,
+          "song": "Winners Announcement",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 3,
+          "song": "Awarded",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 4,
+          "song": "Speech",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      }
+  ],
+  "extras": []
 }

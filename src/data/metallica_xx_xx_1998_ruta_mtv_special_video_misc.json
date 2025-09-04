@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Ruta MTV Special",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "Ruta MTV Special",
   "source": "",
   "category": [
     "video",
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "metallica_xx_xx_1998_ruta_mtv_special_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/metallica_xx_xx_1998_ruta_mtv_special_video_misc/"
 }

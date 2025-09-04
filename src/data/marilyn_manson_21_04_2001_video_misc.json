@@ -18,14 +18,14 @@
   },
   "endDateUnix": 987811200,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "MTV: Making Of 'Tainted Love'",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "Making Of 'Tainted Love'",
   "source": "",
   "category": [
     "video",
@@ -124,5 +124,8 @@
       "coverOf": "Soft Cell"
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "marilyn_manson_21_04_2001_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/marilyn_manson_21_04_2001_video_misc/"
 }

@@ -21,11 +21,11 @@
     "city": "Toronto",
     "state": "ON",
     "country": "Canada",
-    "venue": "Much Music",
-    "event": "Loud Times"
+    "venue": "",
+    "event": ""
   },
-  "tvChannel": "",
-  "showName": "",
+  "tvChannel": "Much Music",
+  "showName": "Loud Times",
   "source": "",
   "category": [
     "video",
@@ -140,5 +140,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "mudvayne_xx_xx_2001_toronto_on_canada_much_music_loud_times_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/mudvayne_xx_xx_2001_toronto_on_canada_much_music_loud_times_video_misc/"
 }

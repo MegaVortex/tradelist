@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "MTV Studios",
-    "venue": "'Hangin' With MTV Flashback'",
+    "country": "USA",
+    "venue": "MTV Studios",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "Hangin' With MTV Flashback",
   "source": "",
   "category": [
     "video",
@@ -131,5 +131,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "marilyn_manson_xx_xx_xxxx_usa_mtv_studios_hangin_with_mtv_flashback_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/marilyn_manson_xx_xx_xxxx_usa_mtv_studios_hangin_with_mtv_flashback_video_misc/"
 }

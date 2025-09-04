@@ -18,14 +18,14 @@
   },
   "endDateUnix": 1149984000,
   "location": {
-    "city": "MTV News",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "MTV News",
   "source": "",
   "category": [
     "video",
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_11_06_2006_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_11_06_2006_video_misc/"
 }

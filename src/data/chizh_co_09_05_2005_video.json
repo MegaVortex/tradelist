@@ -18,13 +18,13 @@
   },
   "endDateUnix": 1115596800,
   "location": {
-    "city": "Россия",
+    "city": "",
     "state": "",
-    "country": "НТВ",
+    "country": "Россия",
     "venue": "",
     "event": ""
   },
-  "tvChannel": "",
+  "tvChannel": "НТВ",
   "showName": "",
   "source": "",
   "category": [
@@ -112,5 +112,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "chizh_co_09_05_2005_video",
+  "isRegular": true,
+  "permalink": "/shows/chizh_co_09_05_2005_video/"
 }

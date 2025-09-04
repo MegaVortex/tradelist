@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "MTV Special",
+    "city": "",
     "state": "",
-    "country": "Project Revolution Tour Special",
+    "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "Project Revolution Tour Special",
   "source": "",
   "category": [
     "video",
@@ -37,7 +37,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "",
+  "notes": "MTV Special.",
   "tapers": [],
   "specs": {
     "media": [
@@ -115,5 +115,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_2004_mtv_special_project_revolution_tour_special_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_2004_mtv_special_project_revolution_tour_special_video_misc/"
 }

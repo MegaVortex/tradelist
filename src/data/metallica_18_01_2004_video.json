@@ -34,7 +34,7 @@
   "public": true,
   "ownIdentifier": "HDD#C",
   "tradeLabel": "",
-  "authoredBy": "",
+  "authoredBy": "sss666",
   "transferredBy": "",
   "notes": "",
   "tapers": [
@@ -112,245 +112,145 @@
       "folder": "27",
       "filename": "02154802.jpg",
       "externalId": "16aHnxdfLxKhg-7TlOVHUR2fg72EnBE1K"
-    },
-    {
-      "folder": "27",
-      "filename": "51268184.jpg",
-      "externalId": "1q6RNCj37w8Izk3Os5Z5y6WtpDRVBZXHh"
-    },
-    {
-      "folder": "27",
-      "filename": "92118844.jpg",
-      "externalId": "1q_PRHsby6FOCA5pgFzXkAjnqInQLydor"
-    },
-    {
-      "folder": "27",
-      "filename": "83185216.jpg",
-      "externalId": "19a1JJsJKEe47RzvlWeaAlVcDPbvbzZDq"
-    },
-    {
-      "folder": "27",
-      "filename": "97715571.jpg",
-      "externalId": "1n9ZTrvNaroyrAvyp3i4lzv3CLxwPRLtl"
     }
   ],
   "setlist": [
-    {
-      "order": 1,
-      "song": "Intro",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "Out In L.A.",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 3,
-      "song": "Backwoods",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 4,
-      "song": "Dr. Funkenstein",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 5,
-      "song": "Funky Crime",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 6,
-      "song": "Stone Cold Bush",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 7,
-      "song": "Standing On The Verge Of Getting It On",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 8,
-      "song": "Organic Anti-Beat Box Band",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 9,
-      "song": "Anarchy In The U.K.",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 10,
-      "song": "Subway To Venus",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 11,
-      "song": "Green Heaven",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 12,
-      "song": "Police Helicopter",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 13,
-      "song": "Jam (Say It Loud, I'm Japanese And I'm Proud)",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 14,
-      "song": "Pretty Little Ditty",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 15,
-      "song": "Hollywood",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 16,
-      "song": "Knock Me Down",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 17,
-      "song": "F.U.",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 18,
-      "song": "Boyz-N-The-Hood",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 19,
-      "song": "Party On Your Pussy",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 20,
-      "song": "Magic Johnson",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 21,
-      "song": "Nobody Weird Like Me",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 22,
-      "song": "Sexy Mexican Maid",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 23,
-      "song": "Back In Black",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 24,
-      "song": "Inca Roads (John)",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 25,
-      "song": "Crosstown Traffic",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 26,
-      "song": "Mommy Where's Daddy",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 27,
-      "song": "Me And My Friends",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    }
+      {
+          "order": 1,
+          "song": "The Ecstasy Of Gold",
+          "feat": "",
+          "note": "tape",
+          "comment": "Ennio Morricone song",
+          "coverOf": ""
+      },
+      {
+          "order": 2,
+          "song": "Blackened",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 3,
+          "song": "Creeping Death",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 4,
+          "song": "Harvester Of Sorrow",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 5,
+          "song": "Welcome Home (Sanitarium)",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 6,
+          "song": "For Whom The Bell Tolls",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 7,
+          "song": "Frantic",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 8,
+          "song": "Sad But True",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 9,
+          "song": "Dirty Window",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 10,
+          "song": "Seek And Destroy",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 11,
+          "song": "Fade To Black",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 12,
+          "song": "Battery",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 13,
+          "song": "St. Anger",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 14,
+          "song": "Nothing Else Matters",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 15,
+          "song": "Master Of Puppets",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 16,
+          "song": "One",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 17,
+          "song": "Enter Sandman",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      }
   ],
   "extras": []
 }

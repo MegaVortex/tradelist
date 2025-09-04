@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
+    "city": "",
     "state": "",
-    "country": "TV Guide",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "TV Guide",
   "source": "",
   "category": [
     "video",
@@ -124,5 +124,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_02_2007_usa_tv_guide_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_02_2007_usa_tv_guide_video_misc/"
 }

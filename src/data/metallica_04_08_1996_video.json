@@ -42,8 +42,8 @@
     "media": [
       {
         "type": "DVD-5",
-        "size": 1014,
-        "unit": "Mb"
+        "size": 0.99,
+        "unit": "Gb"
       }
     ],
     "chapters": true,
@@ -78,9 +78,7 @@
       "fileFormat": "DVD"
     }
   },
-  "relatedShows": [
-    "red_hot_chili_peppers_21_04_2006_video"
-  ],
+  "relatedShows": [],
   "childOf": "",
   "images": [
     {
@@ -102,46 +100,6 @@
       "folder": "0",
       "filename": "31876.jpg",
       "externalId": "1v39ogvwRBIjLDjgG3jKdjlNQvEVB3D3X"
-    },
-    {
-      "folder": "0",
-      "filename": "04767.jpg",
-      "externalId": "1W0JEhsRWuR8ewIyTR9fZUUePHjj9SfiT"
-    },
-    {
-      "folder": "0",
-      "filename": "32042.jpg",
-      "externalId": "1bgBePkFeGFdwm1pmV-4apU0Dud-kuApa"
-    },
-    {
-      "folder": "0",
-      "filename": "19686.jpg",
-      "externalId": "1QxJawXQ4sKkig2sNVa1dpadwOYkepBj8"
-    },
-    {
-      "folder": "0",
-      "filename": "96085.jpg",
-      "externalId": "1UxpiEa7gUCpmSTawUo9r7gaMJMiORVFe"
-    },
-    {
-      "folder": "0",
-      "filename": "35271.jpg",
-      "externalId": "1sHJlCJ4O8KJM6hCbZOCUouSKHFg0uTiT"
-    },
-    {
-      "folder": "0",
-      "filename": "48637.jpg",
-      "externalId": "1BBmPwXWVUrB05BisslFH2kEy1HjDyil7"
-    },
-    {
-      "folder": "0",
-      "filename": "10268.jpg",
-      "externalId": "1dQEXyEFvS0l96_Aybhjux3EwT2JO-mdp"
-    },
-    {
-      "folder": "0",
-      "filename": "38905.jpg",
-      "externalId": "1g_ag6AiDMZHHi0PLdS6WWdJOXXvJOlMm"
     }
   ],
   "setlist": [
@@ -168,184 +126,6 @@
       "note": "",
       "comment": "",
       "coverOf": ""
-    },
-    {
-      "order": 1,
-      "song": "Intro",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "Can't Stop",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 3,
-      "song": "Charlie",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 4,
-      "song": "Scar Tissue",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 6,
-      "song": "Me And My Friends",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 7,
-      "song": "How Deep Is Your Love",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": "Bee Gees"
-    },
-    {
-      "order": 8,
-      "song": "Dani California",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 9,
-      "song": "21st Century",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 10,
-      "song": "Don't Forget Me",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 11,
-      "song": "Right On Time",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 12,
-      "song": "By The Way",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 13,
-      "song": "Soul To Squeeze",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 14,
-      "song": "Sex Rap",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 1,
-      "song": "Give It Away",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "Interview (Anthony & Flea)",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 3,
-      "song": "Dani California",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 4,
-      "song": "Jam",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 5,
-      "song": "Can't Stop",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    }
-  ],
-  "extras": [
-    {
-      "order": 1,
-      "song": "RHCP Rehearsals",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 2,
-      "song": "End Of The Show",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 3,
-      "song": "Havana Affair",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 4,
-      "song": "Tell Me Baby",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
     }
   ]
 }

@@ -26,14 +26,14 @@
   },
   "tvChannel": "",
   "showName": "",
-  "source": "",
+  "source": "Source 1",
   "category": [
     "video"
   ],
   "master": true,
   "public": true,
   "ownIdentifier": "HDD#J",
-  "tradeLabel": "",
+  "tradeLabel": "RT",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "Very distant recording, rough sound.",
@@ -250,5 +250,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "rammstein_19_06_2016_video",
+  "isRegular": true,
+  "permalink": "/shows/rammstein_19_06_2016_video/"
 }

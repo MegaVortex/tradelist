@@ -18,13 +18,13 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Germany",
+    "city": "",
     "state": "",
-    "country": "GoTV",
+    "country": "Germany",
     "venue": "",
     "event": ""
   },
-  "tvChannel": "",
+  "tvChannel": "GoTV",
   "showName": "",
   "source": "",
   "category": [
@@ -113,5 +113,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_xx_xx_2008_germany_gotv_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/korn_xx_xx_2008_germany_gotv_video_misc/"
 }

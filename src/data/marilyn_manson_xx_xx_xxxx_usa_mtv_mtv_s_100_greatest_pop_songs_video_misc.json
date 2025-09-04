@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "USA",
-    "state": "MTV",
-    "country": "'MTV's 100 Greatest Pop Songs'",
+    "city": "",
+    "state": "",
+    "country": "USA",
     "venue": "",
     "event": ""
   },
   "tvChannel": "MTV",
-  "showName": "",
+  "showName": "MTV's 100 Greatest Pop Songs",
   "source": "",
   "category": [
     "video",
@@ -123,5 +123,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "marilyn_manson_xx_xx_xxxx_usa_mtv_mtv_s_100_greatest_pop_songs_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/marilyn_manson_xx_xx_xxxx_usa_mtv_mtv_s_100_greatest_pop_songs_video_misc/"
 }

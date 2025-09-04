@@ -33,11 +33,13 @@
   "master": false,
   "public": true,
   "ownIdentifier": "",
-  "tradeLabel": "",
+  "tradeLabel": "RT",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "",
-  "tapers": [],
+  "notes": "Russian internet meme.",
+  "tapers": [
+    "Vortex"
+  ],
   "specs": {
     "media": [
       {
@@ -53,7 +55,7 @@
     ],
     "chapters": true,
     "menu": true,
-    "length": null,
+    "length": 4264,
     "video": [
       {
         "tvFormat": "PAL",
@@ -107,5 +109,6 @@
       "externalId": "1BFXcQdaId2cDKl3pqAnk5uii3hyeKuZg"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "extras": []
 }

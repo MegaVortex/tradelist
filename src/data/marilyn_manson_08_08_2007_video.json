@@ -72,10 +72,10 @@
       }
     ],
     "sourceDetail": {
-      "recordingType": "AMT ) - DVD",
+      "recordingType": "AMT",
       "sourceMediaType": "",
       "finalMediaType": "",
-      "fileFormat": ""
+      "fileFormat": "DVD"
     }
   },
   "relatedShows": [],
@@ -224,5 +224,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "marilyn_manson_08_08_2007_video",
+  "isRegular": true,
+  "permalink": "/shows/marilyn_manson_08_08_2007_video/"
 }

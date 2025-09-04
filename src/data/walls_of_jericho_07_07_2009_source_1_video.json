@@ -33,12 +33,12 @@
   "master": false,
   "public": true,
   "ownIdentifier": "HDD#D",
-  "tradeLabel": "",
-  "authoredBy": "",
+  "tradeLabel": "RT",
+  "authoredBy": "Ingram",
   "transferredBy": "",
   "notes": "AMT#2.",
   "tapers": [
-    "Strah81"
+    "Hell515"
   ],
   "specs": {
     "media": [
@@ -46,16 +46,11 @@
         "type": "DVD-5",
         "size": 2.38,
         "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 2.88,
-        "unit": "Gb"
       }
     ],
-    "chapters": false,
-    "menu": false,
-    "length": 2728,
+    "chapters": true,
+    "menu": true,
+    "length": 3314,
     "video": [
       {
         "tvFormat": "PAL",
@@ -71,7 +66,7 @@
     ],
     "audio": [
       {
-        "language": "",
+        "language": "en",
         "codec": "LPCM",
         "rateHz": null,
         "bitrateKbps": null,
@@ -107,27 +102,8 @@
       "folder": "9",
       "filename": "46909283.jpg",
       "externalId": "1sqDYESgBOLDduQUq0flhLmOorYUjco0k"
-    },
-    {
-      "folder": "10",
-      "filename": "55832832.jpg",
-      "externalId": "1mjNc3xsBwgoWLS8dETj9WG3ZngN9p6nW"
-    },
-    {
-      "folder": "10",
-      "filename": "50406106.jpg",
-      "externalId": "196l1e-7kyaEgfHhvok1kCEKoVk9nKcGc"
-    },
-    {
-      "folder": "10",
-      "filename": "67008338.jpg",
-      "externalId": "1hWqDBpyXxKD4ZuXpizDNB2cadLmkSuyd"
-    },
-    {
-      "folder": "10",
-      "filename": "88408379.jpg",
-      "externalId": "19Ez7govtCcl1ak79czqtGTPS292QS8Ta"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "extras": []
 }

@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Carcass - 17.08.1990 - Miami - FL - USA",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Carcass"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "08",
+    "year": "1990"
+  },
+  "startDateUnix": 650851200,
+  "endDate": {
+    "day": "17",
+    "month": "08",
+    "year": "1990"
+  },
+  "endDateUnix": 650851200,
+  "location": {
+    "city": "Miami",
+    "state": "FL",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.38,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2234,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "2",
+      "filename": "05445.jpg",
+      "externalId": "1aHTQwHhbnntFVurR41GhDougwrPoKfxC"
+    },
+    {
+      "folder": "2",
+      "filename": "25062.jpg",
+      "externalId": "1YwgNPs5qlWNxJxCg2H3iVsxOfxi7rWOP"
+    },
+    {
+      "folder": "2",
+      "filename": "80242.jpg",
+      "externalId": "1xXh8BVm4PHLRMxl1Dh0-yDqLtLbw2cBS"
+    },
+    {
+      "folder": "2",
+      "filename": "38707.jpg",
+      "externalId": "1S4ZmTbzVE6VE0PqMZcrznkXpTmZ_8akS"
+    }
+  ],
+  "setlist": []
+}

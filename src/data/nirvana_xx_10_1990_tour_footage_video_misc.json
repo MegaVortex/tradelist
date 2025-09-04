@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Tour Footage",
+    "city": "",
     "state": "",
     "country": "",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Tour Footage",
   "source": "",
   "category": [
     "video",
@@ -156,5 +156,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "nirvana_xx_10_1990_tour_footage_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/nirvana_xx_10_1990_tour_footage_video_misc/"
 }

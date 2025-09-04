@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "ITV WGFA",
+    "city": "",
     "state": "",
-    "country": "\"A Who Profile\"",
+    "country": "",
     "venue": "",
-    "event": ""
+    "event": "ITV WGFA"
   },
   "tvChannel": "ITV",
-  "showName": "",
+  "showName": "A Who Profile",
   "source": "",
   "category": [
     "video",
@@ -115,5 +115,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "the_who_xx_xx_1979_itv_wgfa_a_who_profile_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/the_who_xx_xx_1979_itv_wgfa_a_who_profile_video_misc/"
 }

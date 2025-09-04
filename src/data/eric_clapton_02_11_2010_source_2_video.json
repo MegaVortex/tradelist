@@ -24,7 +24,7 @@
     "venue": "BBC Television Centre",
     "event": ""
   },
-  "tvChannel": "",
+  "tvChannel": "BBC 2",
   "showName": "Jools Holland Show",
   "source": "Source 2",
   "category": [
@@ -36,7 +36,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "BBC 2 Broadcast.",
+  "notes": "",
   "tapers": [],
   "specs": {
     "media": [
@@ -79,9 +79,7 @@
     }
   },
   "relatedShows": [
-    "eric_clapton_25_04_2000_video",
-    "a_img4_td_tr_tbody_table_br_div_div_div_setlist_div_div_br_div_div_1_intro_div_div_2_travelin_alone_div_div_3_interview_div_div_4_when_somebody_thinks_you_re_wonderful_div_div_5_rocking_chair_div_div_6_travelin_alone_div_div_7_crossroads_div_div_8_interview_div_div_1321809532_0_eric_clapton_02_11_2010_source_2_8_5262_0_0_0_eric_clapton_06_10_2001_video",
-    "eric_clapton_06_10_2001_video"
+    "eric_clapton_25_04_2000_video"
   ],
   "childOf": "",
   "images": [
@@ -104,26 +102,6 @@
       "folder": "26",
       "filename": "40013494.jpg",
       "externalId": "1L026Gvf8XugPJTwOM9umuuS3GS1PFO8L"
-    },
-    {
-      "folder": "26",
-      "filename": "71983037.jpg",
-      "externalId": "1ZtUPe_tQlOuOPoXtGG_hsf8gS_mCse3N"
-    },
-    {
-      "folder": "26",
-      "filename": "60885112.jpg",
-      "externalId": "1NCyPF77SPSF2YqNaoi3uEVPTjObOsSqN"
-    },
-    {
-      "folder": "26",
-      "filename": "26595794.jpg",
-      "externalId": "1_N1-Nf72S2jh5KdRYakJ6qUVm5Lcfglr"
-    },
-    {
-      "folder": "26",
-      "filename": "98333663.jpg",
-      "externalId": "16628f2G-by-vWhoVmRE3FhQjCdaA70NU"
     }
   ],
   "setlist": [
@@ -137,210 +115,58 @@
     },
     {
       "order": 2,
-      "song": "Travelin' Alone (broadcasted on 02.11.2010)",
+      "song": "Travelin' Alone",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "Broadcasted on 2010-11-02",
       "coverOf": ""
     },
     {
       "order": 3,
-      "song": "Interview (broadcasted on 02.11.2010)",
+      "song": "Interview",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "Broadcasted on 2010-11-02",
       "coverOf": ""
     },
     {
       "order": 4,
-      "song": "When Somebody Thinks You're Wonderful (broadcasted on 02.11.2010)",
+      "song": "When Somebody Thinks You're Wonderful",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "Broadcasted on 2010-11-02",
       "coverOf": ""
     },
     {
       "order": 5,
-      "song": "Rocking Chair (broadcasted on 05.11.2010)",
+      "song": "Rocking Chair",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "Broadcasted on 2010-11-05",
       "coverOf": ""
     },
     {
       "order": 6,
-      "song": "Travelin' Alone (broadcasted on 05.11.2010)",
+      "song": "Travelin' Alone",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "Broadcasted on 2010-11-05",
       "coverOf": ""
     },
     {
       "order": 7,
-      "song": "Crossroads (broadcasted on 05.11.2010)",
+      "song": "Crossroads",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "Broadcasted on 2010-11-05",
       "coverOf": ""
     },
     {
       "order": 8,
-      "song": "Interview (broadcasted on 05.11.2010)",
+      "song": "Interview",
       "feat": "",
       "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 1,
-      "song": "Key To The Highway",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "Reptile",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 3,
-      "song": "Got You On My Mind",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 4,
-      "song": "Tears In Heaven",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 5,
-      "song": "Bell Bottom Blues",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 6,
-      "song": "Change The World",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 7,
-      "song": "My Father's Eyes",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 8,
-      "song": "River Of Tears",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 9,
-      "song": "Going Down Slow",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 10,
-      "song": "She's Gone",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 11,
-      "song": "I Want A Little Girl",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 12,
-      "song": "Badge",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 13,
-      "song": "Hoochie Coochie Man",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 14,
-      "song": "Stormy Monday",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 15,
-      "song": "Cocaine",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 16,
-      "song": "Wonderful Tonight",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 17,
-      "song": "Layla",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 18,
-      "song": "Sunshine Of Your Love",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 19,
-      "song": "Somewhere Over The Rainbow",
-      "feat": "",
-      "note": "",
-      "comment": "",
+      "comment": "Broadcasted on 2010-11-05",
       "coverOf": ""
     }
   ],

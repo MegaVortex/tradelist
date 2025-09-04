@@ -34,7 +34,7 @@
   "public": true,
   "ownIdentifier": "HDD#B",
   "tradeLabel": "",
-  "authoredBy": "",
+  "authoredBy": "leglesmoof",
   "transferredBy": "",
   "notes": "VCD sourced. The video itself doesn't look so awesome for a master copy, it's blurry but that's because it's so shaky it doesn't have time to focus on anything.",
   "tapers": [
@@ -82,14 +82,35 @@
   },
   "relatedShows": [],
   "childOf": "",
-  "images": [],
+  "images": [
+    {
+      "folder": "81",
+      "filename": "50845966.jpg",
+      "externalId": "1Jn6HUoRI6Gxoqtp1yGaVHGGec6cEugdi"
+    },
+    {
+      "folder": "81",
+      "filename": "30696442.jpg",
+      "externalId": "1yrFTrlT2ZAho1VutxM_lJe60Z9UvYtcC"
+    },
+    {
+      "folder": "81",
+      "filename": "19547831.jpg",
+      "externalId": "1TVBJ7AnawtIycOePnF16ekFKROzLDjXN"
+    },
+    {
+      "folder": "81",
+      "filename": "40601262.jpg",
+      "externalId": "11rTVuHK-OO7OAgkHrM0NxmdWxjFu9zCt"
+    }
+  ],
   "setlist": [
     {
       "order": 1,
-      "song": "The Ecstasy Of Gold (Ennio Morricone song)",
+      "song": "The Ecstasy Of Gold",
       "feat": "",
-      "note": "",
-      "comment": "",
+      "note": "tape",
+      "comment": "Ennio Morricone song",
       "coverOf": ""
     },
     {

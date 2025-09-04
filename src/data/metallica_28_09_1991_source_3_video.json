@@ -34,7 +34,7 @@
   "public": true,
   "ownIdentifier": "HDD#C",
   "tradeLabel": "",
-  "authoredBy": "",
+  "authoredBy": "HorstKirk",
   "transferredBy": "ARFF",
   "notes": "Great proshot!",
   "tapers": [],
@@ -107,77 +107,129 @@
       "folder": "32",
       "filename": "71181914.jpg",
       "externalId": "1EjWEvGCEbifRU16flU8WAO0brcJmv0-s"
-    },
-    {
-      "folder": "32",
-      "filename": "86543176.jpg",
-      "externalId": "1R_c6wIMvzSiNMMkXhMEBfJeJ15MEDgNo"
-    },
-    {
-      "folder": "32",
-      "filename": "65053720.jpg",
-      "externalId": "1L16rz2GHwxVr6AazGX8hIFUTMMeDlVJO"
-    },
-    {
-      "folder": "32",
-      "filename": "44542709.jpg",
-      "externalId": "1-iORXSy5jCmD7alx2KWg_P-bdg71Q5_b"
-    },
-    {
-      "folder": "32",
-      "filename": "39454290.jpg",
-      "externalId": "1ZqHUWAgOGB4uzZ7eQjO8hMNqW_bq4ibU"
     }
   ],
   "setlist": [
-    {
-      "order": 1,
-      "song": "Ecstasy Of Gold",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 4,
-      "song": "Harvester Of Sorrow",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 11,
-      "song": "Whiplash",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 12,
-      "song": "Symptom Of The Universe / Back In Black (jam)",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 13,
-      "song": "Last Caress",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 15,
-      "song": "Battery",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    }
+      {
+          "order": 1,
+          "song": "The Ecstasy Of Gold",
+          "feat": "",
+          "note": "tape",
+          "comment": "Ennio Morricone song",
+          "coverOf": ""
+      },
+      {
+          "order": 2,
+          "song": "Enter Sandman",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 3,
+          "song": "Creeping Death",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 4,
+          "song": "Harvester Of Sorrow",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 5,
+          "song": "Fade To Black",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 6,
+          "song": "Sad But True",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 7,
+          "song": "Master Of Puppets",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 8,
+          "song": "Seek And Destroy",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 9,
+          "song": "For Whom The Bell Tolls",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 10,
+          "song": "One",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 11,
+          "song": "Whiplash",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 12,
+          "song": "Symptom Of The Universe / Back In Black",
+          "feat": "",
+          "note": "jam",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 13,
+          "song": "Last Caress",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "Misfits"
+      },
+      {
+          "order": 14,
+          "song": "Am I Evil?",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": "Diamond Head"
+      },
+      {
+          "order": 15,
+          "song": "Battery",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      }
   ],
   "extras": [
     {
@@ -191,150 +243,6 @@
     {
       "order": 2,
       "song": "MTV News Report",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 1,
-      "song": "Creeping Death",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 2,
-      "song": "For Whom The Bell Tolls",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 3,
-      "song": "Fuel",
-      "feat": "",
-      "note": "not recorded",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 4,
-      "song": "Ride The Lightning",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 5,
-      "song": "Fade To Black",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 6,
-      "song": "Cyanide",
-      "feat": "",
-      "note": "not recorded",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 7,
-      "song": "All Nightmare Long",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 8,
-      "song": "Sad But True",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 9,
-      "song": "Welcome Home (Sanitarium)",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 10,
-      "song": "Orion",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 11,
-      "song": "One",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 12,
-      "song": "Master Of Puppets",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 13,
-      "song": "Blackened",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 14,
-      "song": "Nothing Else Matters",
-      "feat": "",
-      "note": "not recorded",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 15,
-      "song": "Enter Sandman",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 16,
-      "song": "Am I Evil?",
-      "feat": "Megadeth, Slayer and Anthrax",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 17,
-      "song": "Hit The Lights",
-      "feat": "",
-      "note": "",
-      "coverOf": "",
-      "comment": ""
-    },
-    {
-      "order": 18,
-      "song": "Seek And Destroy",
       "feat": "",
       "note": "",
       "coverOf": "",

@@ -18,14 +18,14 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Pure Rock Show",
+    "city": "",
     "state": "",
-    "country": "Japanese TV",
+    "country": "Japan",
     "venue": "",
     "event": ""
   },
   "tvChannel": "",
-  "showName": "",
+  "showName": "Pure Rock Show",
   "source": "",
   "category": [
     "video",
@@ -37,7 +37,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "",
+  "notes": "Japanese TV.",
   "tapers": [],
   "specs": {
     "media": [
@@ -110,5 +110,8 @@
       "externalId": "1HnzqB96o01iWUME0fH6LJk9U3hg0ZrCj"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "metallica_xx_xx_1988_pure_rock_show_japanese_tv_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/metallica_xx_xx_1988_pure_rock_show_japanese_tv_video_misc/"
 }

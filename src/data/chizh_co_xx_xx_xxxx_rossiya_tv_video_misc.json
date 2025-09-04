@@ -18,9 +18,9 @@
   },
   "endDateUnix": null,
   "location": {
-    "city": "Россия",
-    "state": "TV",
-    "country": "",
+    "city": "",
+    "state": "",
+    "country": "Россия",
     "venue": "",
     "event": ""
   },
@@ -103,5 +103,8 @@
       "externalId": "1NBmePRSIyuv7c4dqsG58iWkv0eUIyY0X"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "fileSlug": "chizh_co_xx_xx_xxxx_rossiya_tv_video_misc",
+  "isRegular": true,
+  "permalink": "/shows/chizh_co_xx_xx_xxxx_rossiya_tv_video_misc/"
 }

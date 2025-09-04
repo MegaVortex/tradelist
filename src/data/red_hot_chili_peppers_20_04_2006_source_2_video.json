@@ -1,0 +1,220 @@
+{
+  "originalTitle": "Red Hot Chili Peppers - 20.04.2006 - Paris - France - La Cigale (Source 2)",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Red Hot Chili Peppers"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "04",
+    "year": "2006"
+  },
+  "startDateUnix": 1145491200,
+  "endDate": {
+    "day": "20",
+    "month": "04",
+    "year": "2006"
+  },
+  "endDateUnix": 1145491200,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "La Cigale",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "PRO#1.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.23,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3580,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "4",
+      "filename": "8619280.jpg",
+      "externalId": "1cWG0RXGH2ngl2PhMShhnfEC8sWvNuuYc"
+    },
+    {
+      "folder": "4",
+      "filename": "4951237.jpg",
+      "externalId": "1fFWMZ76HU-E0_XPLme2W2JMR870asRM4"
+    },
+    {
+      "folder": "4",
+      "filename": "4841670.jpg",
+      "externalId": "1537Tsqj9xkzdIjfdLc1efrpJ-3CGk4mZ"
+    },
+    {
+      "folder": "4",
+      "filename": "5553920.jpg",
+      "externalId": "1bx1YAQ8vALV7pwx_TuiSvDVmal-s4cNi"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Can't Stop",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Charlie",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Scar Tissue",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Tell Me Baby",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Me And My Friends",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "How Deep Is Your Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Bee Gees"
+    },
+    {
+      "order": 8,
+      "song": "Dani California",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "21st Century",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Don't Forget Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Right On Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "By The Way",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Soul To Squeeze",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Sex Rap",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

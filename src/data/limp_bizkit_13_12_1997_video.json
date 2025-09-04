@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Limp Bizkit - 13.12.1997 - Minneapolis - MN - USA - 32X Rocks",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "12",
+    "year": "1997"
+  },
+  "startDateUnix": 881971200,
+  "endDate": {
+    "day": "13",
+    "month": "12",
+    "year": "1997"
+  },
+  "endDateUnix": 881971200,
+  "location": {
+    "city": "Minneapolis",
+    "state": "MN",
+    "country": "USA",
+    "venue": "32X Rocks",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.71,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2009,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "70594612.jpg",
+      "externalId": "13YK5niLki00eiol55L7xrlcYJPIRmZ4y"
+    },
+    {
+      "folder": "5",
+      "filename": "70951441.jpg",
+      "externalId": "1hEW2TPfFVpc1FDAKtQuVSiWbBKciarW1"
+    },
+    {
+      "folder": "5",
+      "filename": "48415997.jpg",
+      "externalId": "1dS8cSE82OOGkiCUFxAZROqLtMuTXzzw-"
+    },
+    {
+      "folder": "5",
+      "filename": "39081407.jpg",
+      "externalId": "1klESW0JrCT60qyQNW40s3iI1Seh9YRN4"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Stuck",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Pollution",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Leech",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Thieves",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Nobody Loves Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Counterfeit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Faith",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

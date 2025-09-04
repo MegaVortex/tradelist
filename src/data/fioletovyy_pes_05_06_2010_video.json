@@ -36,7 +36,7 @@
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "Steady shot. On the same disc - \"Flawless Victory - 25.06.2010 - Moscow - Russia - Aktoviy Zal\" and \"Ricochet - 25.06.2010 - Moscow - Russia - Aktoviy Zal\".",
+  "notes": "",
   "tapers": [],
   "specs": {
     "media": [
@@ -44,21 +44,11 @@
         "type": "DVD-5",
         "size": 4.36,
         "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 3.52,
-        "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 3.52,
-        "unit": "Gb"
       }
     ],
-    "chapters": false,
-    "menu": false,
-    "length": 3933,
+    "chapters": true,
+    "menu": true,
+    "length": 4880,
     "video": [
       {
         "tvFormat": "PAL",
@@ -113,47 +103,8 @@
       "folder": "13",
       "filename": "16585527.jpg",
       "externalId": "1Q_7AfPRSQmmjG6gYQ2CxLBER8HbZzypc"
-    },
-    {
-      "folder": "13",
-      "filename": "00325801.jpg",
-      "externalId": "1EtZza4vHcBlMgcnAcIMLWEetexxFTLOq"
-    },
-    {
-      "folder": "13",
-      "filename": "94746771.jpg",
-      "externalId": "12ZDcu8l0sUj1Ae349RsGmAGAlhGOzbxv"
-    },
-    {
-      "folder": "13",
-      "filename": "50147440.jpg",
-      "externalId": "1ytBPPd-OlD39uW2-SKL_NWiXfXH5TB9F"
-    },
-    {
-      "folder": "13",
-      "filename": "51267847.jpg",
-      "externalId": "1B6uKKYvLsnMwSDlxemh4oleDiKci93CA"
-    },
-    {
-      "folder": "13",
-      "filename": "59584211.jpg",
-      "externalId": "1xDacUY1UjBTsZ2vPoUIZWQIykjLs--Iu"
-    },
-    {
-      "folder": "13",
-      "filename": "94390928.jpg",
-      "externalId": "1A5oJ3nqH-Lvy9xIjNcu2NbQjKZfCKgsR"
-    },
-    {
-      "folder": "13",
-      "filename": "57078909.jpg",
-      "externalId": "1HIxnlKC8CfR2BDo3rLm9EuzeGAt8ifwF"
-    },
-    {
-      "folder": "13",
-      "filename": "07316520.jpg",
-      "externalId": "1srgz9yLkYYEaS-hmMeRm-cBlvkmMRMyX"
     }
   ],
-  "setlist": []
+  "setlist": [],
+  "extras": []
 }

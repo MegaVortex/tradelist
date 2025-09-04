@@ -1,0 +1,212 @@
+{
+  "originalTitle": "Nirvana - 16.02.1990 - Long Beach - CA - USA - Bogart's (Source 1)",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "02",
+    "year": "1990"
+  },
+  "startDateUnix": 635126400,
+  "endDate": {
+    "day": "16",
+    "month": "02",
+    "year": "1990"
+  },
+  "endDateUnix": 635126400,
+  "location": {
+    "city": "Long Beach",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Bogart's",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "Jim Hirte",
+  "transferredBy": "",
+  "notes": "AMT #2. Incomplete.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.93,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1743,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "1",
+      "filename": "76160.jpg",
+      "externalId": "1wZ9lHTxzZSfMSgUd0tqkaE04DcL4MrI_"
+    },
+    {
+      "folder": "1",
+      "filename": "80846.jpg",
+      "externalId": "1DN_BiH_hwbKxv8DWsJ9eXSddQoMb7I1B"
+    },
+    {
+      "folder": "1",
+      "filename": "48848.jpg",
+      "externalId": "1fyo_plxri_ycxGEGYytFk5q85Lh4eGks"
+    },
+    {
+      "folder": "1",
+      "filename": "20574.jpg",
+      "externalId": "1_gUVkOqu5ICb7PmM34HxoHcHj9NiTTZp"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Love Buzz",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Floyd The Barber",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Scoff",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Dive",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "About A Girl",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Breed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "School",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Stain",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Blew",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Sappy",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Spank Thru",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Been A Son",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Negative Creep",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -30,14 +30,16 @@
   "category": [
     "video"
   ],
-  "master": false,
+  "master": true,
   "public": true,
   "ownIdentifier": "HDD#C",
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
   "notes": "Incomplete. There where some problems during the Webcast, so the video contains 3 or 4 small cuts, except cut in the start of the show, which is about 10 minutes (Divine, Predictable, No Place To Hide weren't recorded).",
-  "tapers": [],
+  "tapers": [
+    "Vortex"
+  ],
   "specs": {
     "media": [
       {
@@ -240,5 +242,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "korn_09_08_2012_source_1_video",
+  "isRegular": true,
+  "permalink": "/shows/korn_09_08_2012_source_1_video/"
 }
