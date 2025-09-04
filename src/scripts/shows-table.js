@@ -161,7 +161,7 @@ function renderInitialShows(shows) {
             }
     </td>
     <td>${show.images?.length
-                ? `<span role="button" style="cursor: pointer; font-size: 18px;" onclick='openModal("${show.images[0].externalId}", ${JSON.stringify(show.images)})'>📷 ${show.images.length}</span>`
+                ? `<span role="button" style="cursor: pointer; font-size: 18px;" onclick='openModal("${show.images[0].externalId}", ${JSON.stringify(show.images)})'>📷</span>`
                 : '—'
             }</td>
     <td><a href="${pathPrefix}/shows/${show.fileSlug}/" target="_blank" rel="noopener noreferrer" style="font-size: 1.20em;">🎫</a></td>
@@ -263,7 +263,7 @@ function prepareTableRows(shows) {
             }
     </td>
     <td>${show.images?.length
-                ? `<span role="button" style="cursor: pointer; font-size: 18px;" onclick='openModal("${show.images[0].externalId}", ${JSON.stringify(show.images)})'>📷 ${show.images.length}</span>`
+                ? `<span role="button" style="cursor: pointer; font-size: 18px;" onclick='openModal("${show.images[0].externalId}", ${JSON.stringify(show.images)})'>📷</span>`
                 : '—'
             }</td>
     <td><a href="${pathPrefix}/shows/${show.fileSlug}/" target="_blank" rel="noopener noreferrer" style="font-size: 1.20em;">🎫</a></td>
@@ -589,7 +589,7 @@ return getSourceNumber(a) - getSourceNumber(b);
                 }
     </td>
     <td>${show.images?.length
-                    ? `<span role="button" style="cursor: pointer; font-size: 18px;" onclick='openModal("${show.images[0].externalId}", ${JSON.stringify(show.images)})'>📷 ${show.images.length}</span>`
+                    ? `<span role="button" style="cursor: pointer; font-size: 18px;" onclick='openModal("${show.images[0].externalId}", ${JSON.stringify(show.images)})'>📷</span>`
                     : '—'
                 }</td>
     <td><a href="${pathPrefix}/shows/${show.fileSlug}/" target="_blank" rel="noopener noreferrer" style="font-size: 1.20em;">🎫</a></td>
