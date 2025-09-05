@@ -1,4 +1,3 @@
-/* src/styles/show.css */
 body {
   max-width: 100vw;
   overflow-x: hidden;
@@ -301,7 +300,6 @@ img.clickable-thumb {
   pointer-events: none;
 }
 
-/* Default (desktop) modal style */
 #imageModal .modal-inner {
   position: relative;
   background-color: #2a2a2a;
@@ -313,7 +311,6 @@ img.clickable-thumb {
   max-height: 100vh;
 }
 
-/* Mobile fullscreen override */
 @media (max-width: 768px) {
   #imageModal .modal-inner {
     width: 100vw;
@@ -401,80 +398,75 @@ img.clickable-thumb {
   padding-top: -12px;
 }
 
-/* Styles for the parent compilation notice */
 .parent-compilation-notice {
     margin-bottom: 0px;
     border: 1px solid #ccc;
     border-radius: 6px;
     overflow: hidden;
-    background: #e4cae4; /* ✅ Add this line */
-    position: relative;  /* ✅ Make it explicit */
+    background: #e4cae4;
+    position: relative;
 }
 
 .parent-compilation-notice .notice-header {
 	margin-top: 18px;
     display: flex;
-    flex-direction: column; /* Stack children vertically */
-    align-items: center; /* Center children horizontally */
+    flex-direction: column;
+    align-items: center;
     cursor: pointer;
     background-color: #e4cae4;
     padding: 8px 10px;
-    border-bottom: 1px solid #ddd; /* Only bottom border to separate header from content */
+    border-bottom: 1px solid #ddd;
     font-weight: bold;
     font-size: 11px;
 }
 
 .parent-compilation-notice .notice-header .title-and-icon-row {
     display: flex;
-    align-items: center; /* Vertically align title and icon */
-    justify-content: center; /* Center the title and icon group */
-    width: 100%; /* Ensure it takes full width for justify-content to work */
-    margin-bottom: 5px; /* Space between this row and the arrow */
-    flex-wrap: wrap; /* Allows the title/icon to wrap on smaller screens if needed */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
 }
 
 .parent-compilation-notice .notice-header .notice-title {
-    /* No specific changes to this span, it's now inside .title-and-icon-row */
-    margin-right: 5px; /* Add some space between title and the ticket icon */
-    text-align: center; /* For cases where title itself might wrap */
-	font-weight: normal; /* This will make the text not bold */
+    margin-right: 5px;
+    text-align: center;
+	font-weight: normal;
 }
 
 .parent-compilation-notice .notice-icon-link {
     text-decoration: none;
     color: inherit;
-    font-size: 1.2em; /* Keep your desired larger size if preferred */
+    font-size: 1.2em;
     flex-shrink: 0;
-    position: relative; /* Important for 'top' to work */
-    top: 1px; /* Adjust this value (e.g., 0.5px, 2px, -1px) until it looks aligned */
+    position: relative;
+    top: 1px;
 }
 
 .parent-compilation-notice .notice-header .toggle-arrow {
-    margin-top: 5px; /* Add space between the title/icon row and the arrow */
+    margin-top: 5px;
     font-size: 1.2em;
     transition: transform 0.3s ease;
 }
 
-/* Style for the expandable content area */
 .parent-compilation-notice .notice-content {
     padding: 6px 8px 8px 8px;
 }
 
-/* Ensure the ticket icon in the related shows table is styled consistently */
 .parent-compilation-notice .notice-content table td:last-child a {
     text-decoration: none;
-    color: inherit; /* Inherit color from parent */
-    font-size: 1.2em; /* Make it visible */
+    color: inherit;
+    font-size: 1.2em;
 }
 
-/* Rotate arrow when expanded */
 .parent-compilation-notice .notice-header.expanded .toggle-arrow {
     transform: rotate(90deg);
 }
 
 .compilation-separator {
-    margin-top: 4px; /* Adjust this value */
-    margin-bottom: 4px; /* Adjust this value */
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .group-label-page {
@@ -495,16 +487,16 @@ img.clickable-thumb {
 }
 
 .media-icons img {
-    width: 16px;   /* Was 20px */
-    height: 16px;  /* Was 20px */
+    width: 16px;
+    height: 16px;
 }
 
 .media-icons-top {
     position: absolute;
-    top: 4px;      /* Adjust for perfect alignment */
-    right: 4px;    /* Place in green zone */
+    top: 4px;
+    right: 4px;
     display: flex;
-    gap: 4px;      /* Spacing between icons */
+    gap: 4px;
 }
 
 .media-icons-top img {

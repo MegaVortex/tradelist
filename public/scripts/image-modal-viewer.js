@@ -54,14 +54,12 @@ function closeModal() {
     const existing = document.querySelector('meta[name="viewport"]');
     if (existing) existing.remove();
 
-    // Only reload on mobile (<= 768px)
     const url = new URL(window.location.href);
     if (window.innerWidth <= 768) {
         window.location.href = url.toString();
     } else {
-        // Desktop: just update URL without reload
         history.replaceState({}, '', url.toString());
-        document.body.style.overflow = ''; // restore scroll
+        document.body.style.overflow = '';
     }
 }
 

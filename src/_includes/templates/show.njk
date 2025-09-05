@@ -593,12 +593,10 @@
                   {% endif %}
                   {% if show.extras and show.extras.length %}
                      <div class="extras-card">
-                        {# This div provides the border and overall container #}
                         <div class="extras-header">
                            <span>Extras</span>
                            <a href="#" class="toggle-media" data-target="extras-list-content">▾ +{{ show.extras.length }}</a>
                         </div>
-                        {# The ordered list with extras content, initially hidden #}
                         <ol id="extras-list-content" style="margin-top: 5px; margin-left: -1.3em; display: none;">
                            {% for item in show.extras %}
                               <li>

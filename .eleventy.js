@@ -13,20 +13,17 @@ module.exports = function(eleventyConfig) {
         return String(value).padEnd(length, padChar);
     });
 	
-    // Existing filter for language names
     eleventyConfig.addFilter("langName", function(code) {
         if (!code || typeof code !== "string") return "";
         return ISO6391.getName(code) || code;
     });
 
-    // Passthrough copies for static assets
     eleventyConfig.addPassthroughCopy({
       "src/styles": "styles",
       "src/scripts": "scripts",
       "src/assets/images": "assets/images"
     });
 
-    // Passthrough copies for node_modules dependencies
     eleventyConfig.addPassthroughCopy({
       'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js': 'scripts/bootstrap.bundle.min.js'
     });
@@ -35,25 +32,21 @@ module.exports = function(eleventyConfig) {
       'node_modules/bootstrap/dist/css/bootstrap.min.css': 'styles/bootstrap.min.css'
     });
 
-    // Existing "date" formatter
     eleventyConfig.addFilter("date", (timestamp, format = "yyyy-MM-dd") => {
         if (timestamp === null || typeof timestamp === 'undefined') return '';
         return DateTime.fromSeconds(timestamp).toFormat(format);
     });
 
-    // NEW HELPER FILTER: Safely converts a value to an integer, defaults to 0 if invalid
     eleventyConfig.addFilter("toInt", (value) => {
         const num = parseInt(value, 10);
         return isNaN(num) ? 0 : num;
     });
 
-    // NEW HELPER FILTER: Pads a string with a leading character (default '0') to a specified length
     eleventyConfig.addFilter("padStart", (value, length, padChar = '0') => {
         if (value === null || typeof value === 'undefined') return '';
         return String(value).padStart(length, padChar);
     });
 
-    // Duration formatter
     eleventyConfig.addFilter("formatTime", (seconds) => {
         if (!seconds) return "—";
         const h = Math.floor(seconds / 3600).toString().padStart(2, "0");
@@ -65,18 +58,11 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("smartSize", function (num) {
       if (typeof num !== "number") num = parseFloat(num);
       if (isNaN(num)) return "—";
-
-      // If it's 3+ digit integer (before decimal), return as is
       if (num >= 100) return String(Math.round(num));
-
-      // If < 10, show 2 decimal places: 4 → 4.00, 4.1 → 4.10, 4.12 → 4.12
       if (num < 10) return num.toFixed(2);
-
-      // If 10–99.9 range, show 1 decimal place: 11 → 11.0, 11.12 → 11.1
       return (Math.round(num * 10) / 10).toFixed(1);
     });
 
-    // Load all JSON files and filter them into categories
     eleventyConfig.addGlobalData("allShowData", () => {
         const regularDataDir = "./src/data";
         const vaDataDir = "./src/data-va";
@@ -124,13 +110,11 @@ module.exports = function(eleventyConfig) {
             });
         };
 
-        // Read shows from all directories
         const regularShows = readShowsFromDir(regularDataDir, 'regular');
         const vaShows = readShowsFromDir(vaDataDir, 'va');
         const compilationShows = readShowsFromDir(compilationDataDir, 'compilation');
 		const privateShows = readShowsFromDir(privateDataDir, 'private');
-
-        // Combine all shows into a single array and sort them
+		
         const allShows = [...regularShows, ...vaShows, ...compilationShows, ...privateShows].sort((a, b) => {
             const unixA = a.startDateUnix;
             const unixB = b.startDateUnix;
@@ -163,15 +147,13 @@ module.exports = function(eleventyConfig) {
         const publicShows = allShows.filter(show => show.public !== false);
 		const privateShowsOnly = allShows.filter(show => show.public === false);
 		const privateRegularShows = privateShowsOnly.filter(show => show.isPrivate);
-
-        // Create separate arrays for public regular, VA, and Compilation shows
+		
         const publicRegularShows = publicShows.filter(show => !show.isVA && !show.isCompilation);
         const publicVaShows = publicShows.filter(show => show.isVA);
         const publicCompilationShows = publicShows.filter(show => show.isCompilation);
 
-        // --- Logic for Updates Page --- (keep existing)
         const now = Math.floor(Date.now() / 1000);
-        const cutoff = now - 180 * 86400; // 180 days ago in seconds
+        const cutoff = now - 180 * 86400;
         
         const recentShows = publicRegularShows.filter(s => s.created && s.created >= cutoff);
         

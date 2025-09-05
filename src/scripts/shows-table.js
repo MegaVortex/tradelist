@@ -43,7 +43,6 @@ function getTypeLabel(categoryArray) {
 
 function getShowNumber(show) {
   const slug = (show.fileSlug || '').toString();
-  // look for "show_1" or "show-1" or "show1", but NOT 10/11 etc.
   const m = slug.match(/show[_\s-]?(\d+)(?=[^\d]|$)/i);
   return m ? parseInt(m[1], 10) : Number.POSITIVE_INFINITY;
 }
@@ -63,13 +62,11 @@ function getSourceNumber(show) {
   const m = s.match(/source\s*(\d+)/i);
   if (m) return parseInt(m[1], 10);
 
-  // fallback: sometimes the slug may contain the number
   if (show.fileSlug) {
     const m2 = show.fileSlug.match(/source[_\s-]?(\d+)/i);
     if (m2) return parseInt(m2[1], 10);
   }
 
-  // no number? sort these last
   return Number.POSITIVE_INFINITY;
 }
 
@@ -457,17 +454,15 @@ function initializeShowFilters(shows) {
     const paginationControls = document.getElementById('pagination-controls');
 
     shows.sort((a, b) => {
-      // Band A–Z
       const bandA = (a.bands && a.bands.length) ? a.bands[0].toLowerCase() : '';
       const bandB = (b.bands && b.bands.length) ? b.bands[0].toLowerCase() : '';
       if (bandA < bandB) return -1;
       if (bandA > bandB) return 1;
     
-      // Date DESC (same logic you use elsewhere)
       const unixA = a.startDateUnix;
       const unixB = b.startDateUnix;
       if (typeof unixA === 'number' && typeof unixB === 'number') {
-  if (!isSameDayUnix(unixA, unixB)) return unixB - unixA;   // DESC
+  if (!isSameDayUnix(unixA, unixB)) return unixB - unixA;
 } else if (typeof unixA === 'number' || typeof unixB === 'number') {
         return (typeof unixA === 'number') ? -1 : 1;
       } else {
@@ -479,13 +474,10 @@ function initializeShowFilters(shows) {
         const dayA = parseInt(sdA.day, 10) || 0, dayB = parseInt(sdB.day, 10) || 0;
         if (dayB !== dayA) return dayB - dayA;
       }
-    
-      // TIE-BREAKER: Source number ASC (Source 1 → Source 14)
-      // TIE-BREAKER 1: Show 1 → Show 2 → none
+
 const shA = getShowNumber(a), shB = getShowNumber(b);
 if (shA !== shB) return shA - shB;
 
-// TIE-BREAKER 2: Source 1 → 2 → 3 → …
 return getSourceNumber(a) - getSourceNumber(b);
 
     });
@@ -618,12 +610,10 @@ function renderPagination(totalItems, currentPage) {
 
     let html = '<nav><ul class="pagination justify-content-center">';
 
-    // Previous
     if (currentPage > 1) {
         html += `<li class="page-item"><a class="page-link" href="#" data-page="${currentPage - 1}">←</a></li>`;
     }
 
-    // Pages
     for (let i = 1; i <= totalPages; i++) {
         if (
             i === 1 || i === totalPages || 
@@ -640,7 +630,6 @@ function renderPagination(totalItems, currentPage) {
         }
     }
 
-    // Next
     if (currentPage < totalPages) {
         html += `<li class="page-item"><a class="page-link" href="#" data-page="${currentPage + 1}">→</a></li>`;
     }
@@ -669,16 +658,14 @@ function filterShows() {
     return letterMatch && bandMatch;
   });
 
-  // decide which mode we're in
   const pillMode = currentFilterLetter !== 'all' && currentFilterBands.length > 0;
 
   if (currentFilterLetter === 'all') {
-    // ===== All → date DESC =====
     filtered.sort((a, b) => {
       const unixA = a.startDateUnix, unixB = b.startDateUnix;
 
       if (typeof unixA === 'number' && typeof unixB === 'number') {
-        if (!isSameDayUnix(unixA, unixB)) return unixB - unixA; // DESC
+        if (!isSameDayUnix(unixA, unixB)) return unixB - unixA;
       } else if (typeof unixA === 'number' || typeof unixB === 'number') {
         return (typeof unixA === 'number') ? -1 : 1;
       } else {
@@ -691,20 +678,17 @@ function filterShows() {
         if (dayB !== dayA) return dayB - dayA;
       }
 
-      // Band A–Z for stability on same day
       const bandA = (a.bands?.[0] || '').toLowerCase();
       const bandB = (b.bands?.[0] || '').toLowerCase();
       if (bandA < bandB) return -1;
       if (bandA > bandB) return 1;
 
-      // Show → Source
       const shA = getShowNumber(a), shB = getShowNumber(b);
       if (shA !== shB) return shA - shB;
       return getSourceNumber(a) - getSourceNumber(b);
     });
 
   } else if (!pillMode) {
-    // ===== Letter-only → band A–Z, then date DESC =====
     filtered.sort((a, b) => {
       const bandA = (a.bands?.[0] || '').toLowerCase();
       const bandB = (b.bands?.[0] || '').toLowerCase();
@@ -713,7 +697,7 @@ function filterShows() {
 
       const unixA = a.startDateUnix, unixB = b.startDateUnix;
       if (typeof unixA === 'number' && typeof unixB === 'number') {
-        if (!isSameDayUnix(unixA, unixB)) return unixB - unixA; // DESC
+        if (!isSameDayUnix(unixA, unixB)) return unixB - unixA;
       } else if (typeof unixA === 'number' || typeof unixB === 'number') {
         return (typeof unixA === 'number') ? -1 : 1;
       } else {
@@ -732,7 +716,6 @@ function filterShows() {
     });
 
   } else {
-    // ===== Pill(s) selected → band A–Z, then date ASC =====
     filtered.sort((a, b) => {
       const bandA = (a.bands?.[0] || '').toLowerCase();
       const bandB = (b.bands?.[0] || '').toLowerCase();
@@ -741,9 +724,9 @@ function filterShows() {
 
       const unixA = a.startDateUnix, unixB = b.startDateUnix;
       if (typeof unixA === 'number' && typeof unixB === 'number') {
-        if (!isSameDayUnix(unixA, unixB)) return unixA - unixB; // ASC
+        if (!isSameDayUnix(unixA, unixB)) return unixA - unixB;
       } else if (typeof unixA === 'number' || typeof unixB === 'number') {
-        return (typeof unixA === 'number') ? 1 : -1; // ASC bias
+        return (typeof unixA === 'number') ? 1 : -1;
       } else {
         const sdA = a.startDate || {}, sdB = b.startDate || {};
         const yearA = parseInt(sdA.year, 10) || 0, yearB = parseInt(sdB.year, 10) || 0;
@@ -762,7 +745,6 @@ function filterShows() {
 
   return filtered;
 }
-
 
     function updateDisplay() {
         const filtered = filterShows();
@@ -901,7 +883,6 @@ container.innerHTML = sortedBands.map(b => {
         });
     }
 
-
     paginationControls.addEventListener('click', e => {
         if (e.target.tagName !== 'A') return;
         e.preventDefault();
@@ -915,7 +896,6 @@ container.innerHTML = sortedBands.map(b => {
         renderPage(filtered, page);
         renderPagination(filtered.length, page);
     });
-
 
     buildLetterBar();
     buildBandPills();

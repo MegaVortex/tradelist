@@ -1,5 +1,4 @@
 let editor = null;
-// This object will hold the context of the show being edited
 let currentlyEditing = {
   slug: null,
   type: null,
@@ -39,7 +38,6 @@ function closeJsonEditor() {
   if (editor) {
     editor.destroy();
   }
-  // Clear the context
   currentlyEditing = { slug: null, type: null };
 }
 
@@ -51,7 +49,6 @@ function saveJson() {
     headers: {
       "Content-Type": "application/json",
     },
-    // Include the slug, data, and type in the request body
     body: JSON.stringify({
       slug: currentlyEditing.slug,
       data: updatedData,
