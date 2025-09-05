@@ -3,11 +3,9 @@ function insertGroupLabels() {
   const rows = [...tbody.querySelectorAll('tr')];
   const visible = rows.filter(r => r.style.display !== 'none' && !r.hasAttribute('data-label'));
 
-  // Remove previous labels
   rows.forEach(r => r.hasAttribute('data-label') && r.remove());
 
   if (!selectedBand) {
-    // Default mode: group by band
     let currentBand = null;
     for (const row of visible) {
       const band = row.dataset.band || '—';
@@ -23,7 +21,6 @@ function insertGroupLabels() {
     return;
   }
 
-  // Band selected mode — group by category + year
   const CATEGORY_ORDER = {
     'video': 1,
     'video_misc': 2,

@@ -32,9 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const tbody = document.querySelector('#shows-table tbody');
     tableRows = [...tbody.querySelectorAll('tr')];
 
-    // --- MODIFIED: Sorter function for VA shows (Band, Start Date, End Date, then Title) ---
     const vaShowSorter = (a, b) => {
-        // 1. Sort by Band Name (alphabetically)
         const bandA = (a.dataset.band || '').split('|||')[0].toLowerCase();
         const bandB = (b.dataset.band || '').split('|||')[0].toLowerCase();
         const bandCompare = bandA.localeCompare(bandB);
@@ -42,7 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
             return bandCompare;
         }
 
-        // 2. If bands are identical, sort by Start Date (YYYY-MM-DD format works well with localeCompare)
         const startDateA = a.querySelector('td:nth-child(2)')?.innerText || '';
         const startDateB = b.querySelector('td:nth-child(2)')?.innerText || '';
         const startDateCompare = startDateA.localeCompare(startDateB);
@@ -50,32 +47,23 @@ document.addEventListener('DOMContentLoaded', () => {
             return startDateCompare;
         }
 
-        // 3. If start dates are identical, sort by End Date
-        const endDateA = a.querySelector('td:nth-child(3)')?.innerText || ''; // End Date is the 3rd column
+        const endDateA = a.querySelector('td:nth-child(3)')?.innerText || '';
         const endDateB = b.querySelector('td:nth-child(3)')?.innerText || '';
         const endDateCompare = endDateA.localeCompare(endDateB);
         if (endDateCompare !== 0) {
             return endDateCompare;
         }
 
-        // 4. If end dates are identical, sort by Title (with numeric sorting)
-        // You would need to ensure the title (showName) is accessible for comparison.
-        // If the title is not directly in a data attribute or visible cell, you might need to look it up.
-        // For this example, let's assume `data-title` exists on the row for 'showName'
-        const titleA = (a.dataset.title || '').toLowerCase(); // Assuming data-title attribute exists
-        const titleB = (b.dataset.title || '').toLowerCase(); // Assuming data-title attribute exists
+        const titleA = (a.dataset.title || '').toLowerCase();
+        const titleB = (b.dataset.title || '').toLowerCase();
         return titleA.localeCompare(titleB, undefined, { numeric: true, sensitivity: 'base' });
     };
 
-    // --- Sort the rows initially ---
     const showRows = tableRows.filter(r => !r.hasAttribute('data-label'));
     showRows.sort(vaShowSorter);
-    // Re-append sorted rows (and their corresponding labels) to the table body
     showRows.forEach(row => {
         const bandLabel = row.previousElementSibling;
         if (bandLabel && bandLabel.classList.contains('band-label-row')) {
-           // This part needs adjustment if labels are to be sorted correctly with rows.
-           // For simplicity, we just re-append the rows. This might misorder band labels.
         }
         tbody.appendChild(row);
     });
@@ -171,9 +159,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         buildBandPillsForLetter(currentLetter);
 
-        // Filter rows based on the selected letter
         tableRows.forEach(row => {
-            if (row.hasAttribute('data-label')) return; // Ignore label rows for now
+            if (row.hasAttribute('data-label')) return;
 
             const bands = (row.dataset.band || '').split('|||');
             const match = selected === 'all' || bands.some(b => {
@@ -184,10 +171,8 @@ document.addEventListener('DOMContentLoaded', () => {
             row.style.display = match ? '' : 'none';
         });
 
-        // Hide all band labels initially
         document.querySelectorAll('.band-label-row').forEach(label => label.style.display = 'none');
 
-        // Show only the labels for visible bands
         const visibleRows = tableRows.filter(row => row.style.display !== 'none');
         visibleRows.forEach(row => {
             const label = row.previousElementSibling;
@@ -201,15 +186,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 function paginateShows() {
-    // 1. Get the list of all shows that are currently visible based on the active filters.
     const rows = [...document.querySelectorAll('.paginated-show')].filter(row => row.style.display !== 'none');
     const perPage = 200;
     const controls = document.getElementById('pagination-controls');
 
-    // If there are not enough rows to need pagination, hide the controls and exit.
     if (rows.length <= perPage) {
         if (controls) controls.innerHTML = '';
-        // Make sure all rows in this small set are visible.
         rows.forEach(r => r.style.display = '');
         return;
     }
@@ -220,16 +202,13 @@ function paginateShows() {
     function showPage(page) {
         currentPage = page;
 
-        // This is the core fix:
-        // Iterate over the filtered list and decide visibility based only on the current page number.
-        // This is much simpler and avoids the previous conflict.
         rows.forEach((row, index) => {
             const isVisible = (index >= (page - 1) * perPage && index < page * perPage);
             row.style.display = isVisible ? '' : 'none';
         });
 
         renderPaginationControls();
-        updateShowCount(); // It's better to update the count after showing the page.
+        updateShowCount();
     }
 
     function renderPaginationControls() {
@@ -240,19 +219,16 @@ function paginateShows() {
 
         let html = '<nav><ul class="pagination justify-content-center">';
 
-        // "Previous" arrow
         if (currentPage > 1) {
             html += `<li class="page-item"><a class="page-link" href="#" data-page="${currentPage - 1}">←</a></li>`;
         }
 
-        // Page numbers
         for (let i = 1; i <= totalPages; i++) {
             html += `<li class="page-item ${i === currentPage ? 'active' : ''}">
                 <a class="page-link" href="#" data-page="${i}">${i}</a>
             </li>`;
         }
 
-        // "Next" arrow
         if (currentPage < totalPages) {
             html += `<li class="page-item"><a class="page-link" href="#" data-page="${currentPage + 1}">→</a></li>`;
         }
@@ -260,7 +236,6 @@ function paginateShows() {
         html += '</ul></nav>';
         controls.innerHTML = html;
 
-        // Re-attach event listeners for the new pagination links
         controls.querySelectorAll('[data-page]').forEach(btn => {
             btn.addEventListener('click', e => {
                 e.preventDefault();
@@ -269,8 +244,6 @@ function paginateShows() {
             });
         });
     }
-
-    // Initially, show the first page.
     showPage(1);
 }
     updateShowCount();

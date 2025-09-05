@@ -3,7 +3,6 @@
  * This is called from the Nunjucks template after the data is loaded.
  */
 function initializeShowFilters(shows) {
-    // --- STATE MANAGEMENT ---
     let currentFilterLetter = 'all';
     let currentFilterBands = [];
     let currentPage = 1;
@@ -13,14 +12,12 @@ function initializeShowFilters(shows) {
     const showCountSpan = document.getElementById('show-count-number');
     const paginationControls = document.getElementById('pagination-controls');
 
-    // --- INITIAL SORT ---
-    // Sort the master data array ONCE on load for consistent ordering.
     shows.sort((a, b) => {
         const bandA = (a.bands && a.bands.length) ? a.bands[0].toLowerCase() : '';
         const bandB = (b.bands && b.bands.length) ? b.bands[0].toLowerCase() : '';
         if (bandA < bandB) return -1;
         if (bandA > bandB) return 1;
-        return (b.startDateUnix || 0) - (a.startDateUnix || 0); // Date descending
+        return (b.startDateUnix || 0) - (a.startDateUnix || 0);
     });
 
     /**
@@ -28,7 +25,7 @@ function initializeShowFilters(shows) {
      */
     function renderPage(filteredShows, page) {
         currentPage = page;
-        tbody.innerHTML = ''; // Clear the table
+        tbody.innerHTML = '';
 
         const startIndex = (page - 1) * perPage;
         const endIndex = startIndex + perPage;
@@ -44,7 +41,6 @@ function initializeShowFilters(shows) {
             const dateDisplay = show.startDateUnix ? new Date(show.startDateUnix * 1000).toISOString().slice(0, 10) : '—';
             const locationDisplay = show.location ? [show.location.city, show.location.country].filter(Boolean).join(', ') : '—';
             
-            // This template string generates a single row. Customize it as needed.
             rowsHtml += `
                 <tr class="paginated-show" data-band="${show.bands ? show.bands.join('|||') : ''}">
                     <td>${show.bands ? show.bands.join(', ') : '—'}</td>
@@ -64,13 +60,10 @@ function initializeShowFilters(shows) {
         });
 
         tbody.innerHTML = rowsHtml;
-        markAlreadyAdded(); // From cart.js, assuming it's loaded
-        insertGroupLabels(); // From shows-table.js
+        markAlreadyAdded();
+        insertGroupLabels();
     }
 
-    /**
-     * Updates the pagination controls based on the total number of items.
-     */
     function renderPagination(totalItems, page) {
         const totalPages = Math.ceil(totalItems / perPage);
         paginationControls.innerHTML = '';
@@ -79,7 +72,6 @@ function initializeShowFilters(shows) {
         let html = '<nav><ul class="pagination justify-content-center">';
         if (page > 1) html += `<li class="page-item"><a class="page-link" href="#" data-page="${page - 1}">←</a></li>`;
         
-        // Pagination logic with ellipses for many pages can be added here if needed
         for (let i = 1; i <= totalPages; i++) {
             html += `<li class="page-item ${i === page ? 'active' : ''}"><a class="page-link" href="#" data-page="${i}">${i}</a></li>`;
         }
@@ -89,22 +81,17 @@ function initializeShowFilters(shows) {
         paginationControls.innerHTML = html;
     }
 
-    /**
-     * The main filtering and rendering pipeline.
-     */
     function updateDisplay() {
         const lowerCaseBands = currentFilterBands.map(b => b.toLowerCase());
         
         const filteredShows = shows.filter(show => {
             if (!show.bands || show.bands.length === 0) return false;
 
-            // Letter filter
             const firstLetter = (show.bands[0][0] || '').toUpperCase();
             const isNumeric = !/^[A-Z]/.test(firstLetter);
             const letterMatch = currentFilterLetter === 'all' || (currentFilterLetter === '#' && isNumeric) || firstLetter === currentFilterLetter;
             if (!letterMatch) return false;
 
-            // Band pill filter
             const bandMatch = lowerCaseBands.length === 0 || show.bands.some(b => lowerCaseBands.includes(b.toLowerCase()));
             return bandMatch;
         });
@@ -113,8 +100,6 @@ function initializeShowFilters(shows) {
         renderPage(filteredShows, 1);
         renderPagination(filteredShows.length, 1);
     }
-    
-    // --- BUILD UI CONTROLS ---
 
     function buildLetterBar() {
         const letterBar = document.getElementById('letter-bar');
@@ -138,7 +123,7 @@ function initializeShowFilters(shows) {
             
             currentFilterLetter = e.target.dataset.letter;
             updateDisplay();
-            buildBandPills(); // Rebuild pills for the new letter
+            buildBandPills();
         });
     }
 
@@ -146,7 +131,6 @@ function initializeShowFilters(shows) {
         const bandPillsContainer = document.getElementById("band-pills");
         const bandSet = new Set();
 
-        // Get bands only from the shows matching the current letter
         shows.forEach(show => {
             if (show.bands && show.bands.length > 0) {
                 const firstLetter = (show.bands[0][0] || '').toUpperCase();
@@ -179,14 +163,10 @@ function initializeShowFilters(shows) {
         });
     }
     
-    // --- GLOBAL EVENT LISTENERS ---
-    
     paginationControls.addEventListener('click', e => {
         if (e.target.tagName !== 'A') return;
         e.preventDefault();
         const page = parseInt(e.target.dataset.page, 10);
-        
-        // Re-run the filter logic to get the current list of shows
         const filteredShows = shows.filter(show => {
             const letterMatch = currentFilterLetter === 'all' || (show.bands && show.bands.length > 0 && show.bands[0][0].toUpperCase() === currentFilterLetter);
             const bandMatch = currentFilterBands.length === 0 || (show.bands && show.bands.some(b => currentFilterBands.includes(b)));
@@ -197,8 +177,7 @@ function initializeShowFilters(shows) {
         renderPagination(filteredShows.length, page);
     });
 
-    // --- KICK EVERYTHING OFF ---
     buildLetterBar();
     buildBandPills();
-    updateDisplay(); // Perform the initial render
+    updateDisplay();
 }
