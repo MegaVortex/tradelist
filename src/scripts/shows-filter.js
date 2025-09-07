@@ -1,7 +1,3 @@
-/**
- * Main initialization function.
- * This is called from the Nunjucks template after the data is loaded.
- */
 function initializeShowFilters(shows) {
     let currentFilterLetter = 'all';
     let currentFilterBands = [];
@@ -20,9 +16,6 @@ function initializeShowFilters(shows) {
         return (b.startDateUnix || 0) - (a.startDateUnix || 0);
     });
 
-    /**
-     * Renders a page of show data into the table body.
-     */
     function renderPage(filteredShows, page) {
         currentPage = page;
         tbody.innerHTML = '';
