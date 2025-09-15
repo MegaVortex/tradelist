@@ -42,100 +42,97 @@ function getTypeLabel(categoryArray) {
 }
 
 function parseResolutionStr(resStr) {
-  if (!resStr) return null;
-  const m = String(resStr)
-    .replace(/[×X]/g, 'x')
-    .replace(/\s+/g, '')
-    .match(/(\d{2,5})x(\d{2,5})/i);
-  if (!m) return null;
-  let w = parseInt(m[1], 10), h = parseInt(m[2], 10);
-  if (w < h) [w, h] = [h, w];
-  return { w, h };
+    if (!resStr) return null;
+    const m = String(resStr)
+        .replace(/[×X]/g, 'x')
+        .replace(/\s+/g, '')
+        .match(/(\d{2,5})x(\d{2,5})/i);
+    if (!m) return null;
+    let w = parseInt(m[1], 10), h = parseInt(m[2], 10);
+    if (w < h) [w, h] = [h, w];
+    return { w, h };
 }
 
 function extractResolution(show) {
-  const vid = Array.isArray(show?.specs?.video)
-    ? show.specs.video[0]
-    : (show?.specs?.video || null);
+    const vid = Array.isArray(show?.specs?.video)
+        ? show.specs.video[0]
+        : (show?.specs?.video || null);
 
-  if (vid && Number(vid.width) && Number(vid.height)) {
-    let w = Number(vid.width), h = Number(vid.height);
-    if (w < h) [w, h] = [h, w];
-    return { w, h };
-  }
+    if (vid && Number(vid.width) && Number(vid.height)) {
+        let w = Number(vid.width), h = Number(vid.height);
+        if (w < h) [w, h] = [h, w];
+        return { w, h };
+    }
 
-  const fromVideoStr = parseResolutionStr(vid?.resolution);
-  if (fromVideoStr) return fromVideoStr;
+    const fromVideoStr = parseResolutionStr(vid?.resolution);
+    if (fromVideoStr) return fromVideoStr;
 
-  const fromFormat = parseResolutionStr(show?.specs?.sourceDetail?.fileFormat);
-  if (fromFormat) return fromFormat;
+    const fromFormat = parseResolutionStr(show?.specs?.sourceDetail?.fileFormat);
+    if (fromFormat) return fromFormat;
 
-  const fromSource = parseResolutionStr(show?.source);
-  if (fromSource) return fromSource;
+    const fromSource = parseResolutionStr(show?.source);
+    if (fromSource) return fromSource;
 
-  return null;
+    return null;
 }
 
 const RES_BANDS = [
-  { name: 'QQVGA', maxW: 160,  maxH: 120 },
-  { name: 'QCIF',  maxW: 176,  maxH: 144 },
-  { name: 'GBA',   maxW: 240,  maxH: 160 },
-  { name: 'QVGA',  maxW: 320,  maxH: 240 },
-  { name: 'SIF',   maxW: 352,  maxH: 240 },
-  { name: 'CIF',   maxW: 352,  maxH: 288 },
-  { name: 'PSP',   maxW: 480,  maxH: 272 },
-  { name: 'nHD',   maxW: 640,  maxH: 360 },
-  { name: 'VGA',   maxW: 640,  maxH: 480 },
-  { name: 'SD',    maxW: 720,  maxH: 576 },
-  { name: 'qHD',   maxW: 960,  maxH: 540 },
-  { name: 'HD',    maxW: 1280, maxH: 720 },
-  { name: 'FHD',   maxW: 1920, maxH: 1080 },
-  { name: '2K',    maxW: 2560, maxH: 1440 },
-  { name: '4K',    maxW: 4096, maxH: 2160 },
-  { name: '8K',    maxW: 8192, maxH: 4320 },
+    { name: 'QQVGA', maxW: 160, maxH: 120 },
+    { name: 'QCIF', maxW: 176, maxH: 144 },
+    { name: 'GBA', maxW: 240, maxH: 160 },
+    { name: 'QVGA', maxW: 320, maxH: 240 },
+    { name: 'SIF', maxW: 352, maxH: 240 },
+    { name: 'CIF', maxW: 352, maxH: 288 },
+    { name: 'PSP', maxW: 480, maxH: 272 },
+    { name: 'nHD', maxW: 640, maxH: 360 },
+    { name: 'VGA', maxW: 640, maxH: 480 },
+    { name: 'SD', maxW: 720, maxH: 576 },
+    { name: 'qHD', maxW: 960, maxH: 540 },
+    { name: 'HD', maxW: 1280, maxH: 720 },
+    { name: 'FHD', maxW: 1920, maxH: 1080 },
+    { name: '2K', maxW: 2560, maxH: 1440 },
+    { name: '4K', maxW: 4096, maxH: 2160 },
+    { name: '8K', maxW: 8192, maxH: 4320 },
 ];
 
 const RES_COLORS = [
-  '#ffb3b3',
-  '#ffa6a6',
-  '#ff9999',
-  '#ff8c8c',
-  '#ff8080',
-  '#ff7373',
-  '#ff6666',
-  '#ff5959',
-  '#ff4d4d',
-  '#ffd24d',
-  '#b8e986',
-  '#9be26b',
-  '#7ed64f',
-  '#66cc42',
-  '#4db83a',
-  '#36a235',
+    '#ffb3b3',
+    '#ffa6a6',
+    '#ff9999',
+    '#ff8c8c',
+    '#ff8080',
+    '#ff7373',
+    '#ff6666',
+    '#ff5959',
+    '#ff4d4d',
+    '#ffd24d',
+    '#b8e986',
+    '#9be26b',
+    '#7ed64f',
+    '#66cc42',
+    '#4db83a',
+    '#36a235',
 ];
 
 function classifyResolution(w, h) {
-  for (let i = 0; i < RES_BANDS.length; i++) {
-    const b = RES_BANDS[i];
-    if (w <= b.maxW && h <= b.maxH) {
-      return { index: i, name: b.name, color: RES_COLORS[i] };
+    for (let i = 0; i < RES_BANDS.length; i++) {
+        const b = RES_BANDS[i];
+        if (w <= b.maxW && h <= b.maxH) {
+            return { index: i, name: b.name, color: RES_COLORS[i] };
+        }
     }
-  }
-  const i = RES_BANDS.length - 1;
-  return { index: i, name: '8K+', color: RES_COLORS[i] };
+    const i = RES_BANDS.length - 1;
+    return { index: i, name: '8K+', color: RES_COLORS[i] };
 }
 
 function buildResolutionBadges(show) {
-  const res = extractResolution(show);
-  if (!res) return '';
+    const res = extractResolution(show);
+    if (!res) return '';
 
-  const { w, h } = res;
-  const cls = classifyResolution(w, h);
-  const isUp = (w > 720 || h > 576);
-  const icon = isUp ? 'bi-arrow-up-short' : 'bi-arrow-down-short';
-  const trendTitle = isUp ? 'Above SD' : 'SD or below';
+    const { w, h } = res;
+    const cls = classifyResolution(w, h);
 
-  return `
+    return `
     <div class="format-labels">
       <span class="badge rounded-pill res-badge" style="background-color:${cls.color}" title="${w}×${h}">${cls.name}</span>
     </div>
@@ -143,32 +140,32 @@ function buildResolutionBadges(show) {
 }
 
 function getShowNumber(show) {
-  const slug = (show.fileSlug || '').toString();
-  const m = slug.match(/show[_\s-]?(\d+)(?=[^\d]|$)/i);
-  return m ? parseInt(m[1], 10) : Number.POSITIVE_INFINITY;
+    const slug = (show.fileSlug || '').toString();
+    const m = slug.match(/show[_\s-]?(\d+)(?=[^\d]|$)/i);
+    return m ? parseInt(m[1], 10) : Number.POSITIVE_INFINITY;
 }
 
 function isSameDayUnix(a, b) {
-  const A = new Date(a * 1000);
-  const B = new Date(b * 1000);
-  return (
-    A.getUTCFullYear() === B.getUTCFullYear() &&
-    A.getUTCMonth() === B.getUTCMonth() &&
-    A.getUTCDate() === B.getUTCDate()
-  );
+    const A = new Date(a * 1000);
+    const B = new Date(b * 1000);
+    return (
+        A.getUTCFullYear() === B.getUTCFullYear() &&
+        A.getUTCMonth() === B.getUTCMonth() &&
+        A.getUTCDate() === B.getUTCDate()
+    );
 }
 
 function getSourceNumber(show) {
-  const s = (show.source || '').toString();
-  const m = s.match(/source\s*(\d+)/i);
-  if (m) return parseInt(m[1], 10);
+    const s = (show.source || '').toString();
+    const m = s.match(/source\s*(\d+)/i);
+    if (m) return parseInt(m[1], 10);
 
-  if (show.fileSlug) {
-    const m2 = show.fileSlug.match(/source[_\s-]?(\d+)/i);
-    if (m2) return parseInt(m2[1], 10);
-  }
+    if (show.fileSlug) {
+        const m2 = show.fileSlug.match(/source[_\s-]?(\d+)/i);
+        if (m2) return parseInt(m2[1], 10);
+    }
 
-  return Number.POSITIVE_INFINITY;
+    return Number.POSITIVE_INFINITY;
 }
 
 function renderInitialShows(shows) {
@@ -561,31 +558,31 @@ function initializeShowFilters(shows) {
     const paginationControls = document.getElementById('pagination-controls');
 
     shows.sort((a, b) => {
-      const bandA = (a.bands && a.bands.length) ? a.bands[0].toLowerCase() : '';
-      const bandB = (b.bands && b.bands.length) ? b.bands[0].toLowerCase() : '';
-      if (bandA < bandB) return -1;
-      if (bandA > bandB) return 1;
-    
-      const unixA = a.startDateUnix;
-      const unixB = b.startDateUnix;
-      if (typeof unixA === 'number' && typeof unixB === 'number') {
-  if (!isSameDayUnix(unixA, unixB)) return unixB - unixA;
-} else if (typeof unixA === 'number' || typeof unixB === 'number') {
-        return (typeof unixA === 'number') ? -1 : 1;
-      } else {
-        const sdA = a.startDate || {}, sdB = b.startDate || {};
-        const yearA = parseInt(sdA.year, 10) || 0, yearB = parseInt(sdB.year, 10) || 0;
-        if (yearB !== yearA) return yearB - yearA;
-        const monthA = parseInt(sdA.month, 10) || 0, monthB = parseInt(sdB.month, 10) || 0;
-        if (monthB !== monthA) return monthB - monthA;
-        const dayA = parseInt(sdA.day, 10) || 0, dayB = parseInt(sdB.day, 10) || 0;
-        if (dayB !== dayA) return dayB - dayA;
-      }
+        const bandA = (a.bands && a.bands.length) ? a.bands[0].toLowerCase() : '';
+        const bandB = (b.bands && b.bands.length) ? b.bands[0].toLowerCase() : '';
+        if (bandA < bandB) return -1;
+        if (bandA > bandB) return 1;
 
-const shA = getShowNumber(a), shB = getShowNumber(b);
-if (shA !== shB) return shA - shB;
+        const unixA = a.startDateUnix;
+        const unixB = b.startDateUnix;
+        if (typeof unixA === 'number' && typeof unixB === 'number') {
+            if (!isSameDayUnix(unixA, unixB)) return unixB - unixA;
+        } else if (typeof unixA === 'number' || typeof unixB === 'number') {
+            return (typeof unixA === 'number') ? -1 : 1;
+        } else {
+            const sdA = a.startDate || {}, sdB = b.startDate || {};
+            const yearA = parseInt(sdA.year, 10) || 0, yearB = parseInt(sdB.year, 10) || 0;
+            if (yearB !== yearA) return yearB - yearA;
+            const monthA = parseInt(sdA.month, 10) || 0, monthB = parseInt(sdB.month, 10) || 0;
+            if (monthB !== monthA) return monthB - monthA;
+            const dayA = parseInt(sdA.day, 10) || 0, dayB = parseInt(sdB.day, 10) || 0;
+            if (dayB !== dayA) return dayB - dayA;
+        }
 
-return getSourceNumber(a) - getSourceNumber(b);
+        const shA = getShowNumber(a), shB = getShowNumber(b);
+        if (shA !== shB) return shA - shB;
+
+        return getSourceNumber(a) - getSourceNumber(b);
 
     });
 
@@ -713,148 +710,148 @@ return getSourceNumber(a) - getSourceNumber(b);
         insertGroupLabels();
     }
 
-function renderPagination(totalItems, currentPage) {
-    const totalPages = Math.ceil(totalItems / perPage);
-    paginationControls.innerHTML = '';
-    if (totalPages <= 1) return;
+    function renderPagination(totalItems, currentPage) {
+        const totalPages = Math.ceil(totalItems / perPage);
+        paginationControls.innerHTML = '';
+        if (totalPages <= 1) return;
 
-    let html = '<nav><ul class="pagination justify-content-center">';
+        let html = '<nav><ul class="pagination justify-content-center">';
 
-    if (currentPage > 1) {
-        html += `<li class="page-item"><a class="page-link" href="#" data-page="${currentPage - 1}">←</a></li>`;
-    }
+        if (currentPage > 1) {
+            html += `<li class="page-item"><a class="page-link" href="#" data-page="${currentPage - 1}">←</a></li>`;
+        }
 
-    for (let i = 1; i <= totalPages; i++) {
-        if (
-            i === 1 || i === totalPages || 
-            (i >= currentPage - 2 && i <= currentPage + 2)
-        ) {
-            html += `<li class="page-item ${i === currentPage ? 'active' : ''}">
+        for (let i = 1; i <= totalPages; i++) {
+            if (
+                i === 1 || i === totalPages ||
+                (i >= currentPage - 2 && i <= currentPage + 2)
+            ) {
+                html += `<li class="page-item ${i === currentPage ? 'active' : ''}">
                         <a class="page-link" href="#" data-page="${i}">${i}</a>
                      </li>`;
-        } else if (
-            i === 2 && currentPage > 4 || 
-            i === totalPages - 1 && currentPage < totalPages - 3
-        ) {
-            html += `<li class="page-item disabled"><span class="page-link">…</span></li>`;
+            } else if (
+                i === 2 && currentPage > 4 ||
+                i === totalPages - 1 && currentPage < totalPages - 3
+            ) {
+                html += `<li class="page-item disabled"><span class="page-link">…</span></li>`;
+            }
         }
+
+        if (currentPage < totalPages) {
+            html += `<li class="page-item"><a class="page-link" href="#" data-page="${currentPage + 1}">→</a></li>`;
+        }
+
+        html += '</ul></nav>';
+        paginationControls.innerHTML = html;
     }
 
-    if (currentPage < totalPages) {
-        html += `<li class="page-item"><a class="page-link" href="#" data-page="${currentPage + 1}">→</a></li>`;
+
+    function filterShows() {
+        const lowerCaseBands = currentFilterBands.map(b => b.toLowerCase());
+
+        let filtered = shows.filter(show => {
+            if (!show.bands || show.bands.length === 0) return false;
+
+            const firstLetter = (show.bands[0][0] || '').toUpperCase();
+            const isNumeric = !/^[A-Z]/.test(firstLetter);
+            const letterMatch =
+                currentFilterLetter === 'all' ||
+                (currentFilterLetter === '#' && isNumeric) ||
+                firstLetter === currentFilterLetter;
+
+            if (lowerCaseBands.length === 0) return letterMatch;
+
+            const bandMatch = show.bands.some(b => lowerCaseBands.includes(b.toLowerCase()));
+            return letterMatch && bandMatch;
+        });
+
+        const pillMode = currentFilterLetter !== 'all' && currentFilterBands.length > 0;
+
+        if (currentFilterLetter === 'all') {
+            filtered.sort((a, b) => {
+                const unixA = a.startDateUnix, unixB = b.startDateUnix;
+
+                if (typeof unixA === 'number' && typeof unixB === 'number') {
+                    if (!isSameDayUnix(unixA, unixB)) return unixB - unixA;
+                } else if (typeof unixA === 'number' || typeof unixB === 'number') {
+                    return (typeof unixA === 'number') ? -1 : 1;
+                } else {
+                    const sdA = a.startDate || {}, sdB = b.startDate || {};
+                    const yearA = parseInt(sdA.year, 10) || 0, yearB = parseInt(sdB.year, 10) || 0;
+                    if (yearB !== yearA) return yearB - yearA;
+                    const monthA = parseInt(sdA.month, 10) || 0, monthB = parseInt(sdB.month, 10) || 0;
+                    if (monthB !== monthA) return monthB - monthA;
+                    const dayA = parseInt(sdA.day, 10) || 0, dayB = parseInt(sdB.day, 10) || 0;
+                    if (dayB !== dayA) return dayB - dayA;
+                }
+
+                const bandA = (a.bands?.[0] || '').toLowerCase();
+                const bandB = (b.bands?.[0] || '').toLowerCase();
+                if (bandA < bandB) return -1;
+                if (bandA > bandB) return 1;
+
+                const shA = getShowNumber(a), shB = getShowNumber(b);
+                if (shA !== shB) return shA - shB;
+                return getSourceNumber(a) - getSourceNumber(b);
+            });
+
+        } else if (!pillMode) {
+            filtered.sort((a, b) => {
+                const bandA = (a.bands?.[0] || '').toLowerCase();
+                const bandB = (b.bands?.[0] || '').toLowerCase();
+                if (bandA < bandB) return -1;
+                if (bandA > bandB) return 1;
+
+                const unixA = a.startDateUnix, unixB = b.startDateUnix;
+                if (typeof unixA === 'number' && typeof unixB === 'number') {
+                    if (!isSameDayUnix(unixA, unixB)) return unixB - unixA;
+                } else if (typeof unixA === 'number' || typeof unixB === 'number') {
+                    return (typeof unixA === 'number') ? -1 : 1;
+                } else {
+                    const sdA = a.startDate || {}, sdB = b.startDate || {};
+                    const yearA = parseInt(sdA.year, 10) || 0, yearB = parseInt(sdB.year, 10) || 0;
+                    if (yearB !== yearA) return yearB - yearA;
+                    const monthA = parseInt(sdA.month, 10) || 0, monthB = parseInt(sdB.month, 10) || 0;
+                    if (monthB !== monthA) return monthB - monthA;
+                    const dayA = parseInt(sdA.day, 10) || 0, dayB = parseInt(sdB.day, 10) || 0;
+                    if (dayB !== dayA) return dayB - dayA;
+                }
+
+                const shA = getShowNumber(a), shB = getShowNumber(b);
+                if (shA !== shB) return shA - shB;
+                return getSourceNumber(a) - getSourceNumber(b);
+            });
+
+        } else {
+            filtered.sort((a, b) => {
+                const bandA = (a.bands?.[0] || '').toLowerCase();
+                const bandB = (b.bands?.[0] || '').toLowerCase();
+                if (bandA < bandB) return -1;
+                if (bandA > bandB) return 1;
+
+                const unixA = a.startDateUnix, unixB = b.startDateUnix;
+                if (typeof unixA === 'number' && typeof unixB === 'number') {
+                    if (!isSameDayUnix(unixA, unixB)) return unixA - unixB;
+                } else if (typeof unixA === 'number' || typeof unixB === 'number') {
+                    return (typeof unixA === 'number') ? 1 : -1;
+                } else {
+                    const sdA = a.startDate || {}, sdB = b.startDate || {};
+                    const yearA = parseInt(sdA.year, 10) || 0, yearB = parseInt(sdB.year, 10) || 0;
+                    if (yearA !== yearB) return yearA - yearB;
+                    const monthA = parseInt(sdA.month, 10) || 0, monthB = parseInt(sdB.month, 10) || 0;
+                    if (monthA !== monthB) return monthA - monthB;
+                    const dayA = parseInt(sdA.day, 10) || 0, dayB = parseInt(sdB.day, 10) || 0;
+                    if (dayA !== dayB) return dayA - dayB;
+                }
+
+                const shA = getShowNumber(a), shB = getShowNumber(b);
+                if (shA !== shB) return shA - shB;
+                return getSourceNumber(a) - getSourceNumber(b);
+            });
+        }
+
+        return filtered;
     }
-
-    html += '</ul></nav>';
-    paginationControls.innerHTML = html;
-}
-
-
-function filterShows() {
-  const lowerCaseBands = currentFilterBands.map(b => b.toLowerCase());
-
-  let filtered = shows.filter(show => {
-    if (!show.bands || show.bands.length === 0) return false;
-
-    const firstLetter = (show.bands[0][0] || '').toUpperCase();
-    const isNumeric = !/^[A-Z]/.test(firstLetter);
-    const letterMatch =
-      currentFilterLetter === 'all' ||
-      (currentFilterLetter === '#' && isNumeric) ||
-      firstLetter === currentFilterLetter;
-
-    if (lowerCaseBands.length === 0) return letterMatch;
-
-    const bandMatch = show.bands.some(b => lowerCaseBands.includes(b.toLowerCase()));
-    return letterMatch && bandMatch;
-  });
-
-  const pillMode = currentFilterLetter !== 'all' && currentFilterBands.length > 0;
-
-  if (currentFilterLetter === 'all') {
-    filtered.sort((a, b) => {
-      const unixA = a.startDateUnix, unixB = b.startDateUnix;
-
-      if (typeof unixA === 'number' && typeof unixB === 'number') {
-        if (!isSameDayUnix(unixA, unixB)) return unixB - unixA;
-      } else if (typeof unixA === 'number' || typeof unixB === 'number') {
-        return (typeof unixA === 'number') ? -1 : 1;
-      } else {
-        const sdA = a.startDate || {}, sdB = b.startDate || {};
-        const yearA = parseInt(sdA.year, 10) || 0, yearB = parseInt(sdB.year, 10) || 0;
-        if (yearB !== yearA) return yearB - yearA;
-        const monthA = parseInt(sdA.month, 10) || 0, monthB = parseInt(sdB.month, 10) || 0;
-        if (monthB !== monthA) return monthB - monthA;
-        const dayA = parseInt(sdA.day, 10) || 0, dayB = parseInt(sdB.day, 10) || 0;
-        if (dayB !== dayA) return dayB - dayA;
-      }
-
-      const bandA = (a.bands?.[0] || '').toLowerCase();
-      const bandB = (b.bands?.[0] || '').toLowerCase();
-      if (bandA < bandB) return -1;
-      if (bandA > bandB) return 1;
-
-      const shA = getShowNumber(a), shB = getShowNumber(b);
-      if (shA !== shB) return shA - shB;
-      return getSourceNumber(a) - getSourceNumber(b);
-    });
-
-  } else if (!pillMode) {
-    filtered.sort((a, b) => {
-      const bandA = (a.bands?.[0] || '').toLowerCase();
-      const bandB = (b.bands?.[0] || '').toLowerCase();
-      if (bandA < bandB) return -1;
-      if (bandA > bandB) return 1;
-
-      const unixA = a.startDateUnix, unixB = b.startDateUnix;
-      if (typeof unixA === 'number' && typeof unixB === 'number') {
-        if (!isSameDayUnix(unixA, unixB)) return unixB - unixA;
-      } else if (typeof unixA === 'number' || typeof unixB === 'number') {
-        return (typeof unixA === 'number') ? -1 : 1;
-      } else {
-        const sdA = a.startDate || {}, sdB = b.startDate || {};
-        const yearA = parseInt(sdA.year, 10) || 0, yearB = parseInt(sdB.year, 10) || 0;
-        if (yearB !== yearA) return yearB - yearA;
-        const monthA = parseInt(sdA.month, 10) || 0, monthB = parseInt(sdB.month, 10) || 0;
-        if (monthB !== monthA) return monthB - monthA;
-        const dayA = parseInt(sdA.day, 10) || 0, dayB = parseInt(sdB.day, 10) || 0;
-        if (dayB !== dayA) return dayB - dayA;
-      }
-
-      const shA = getShowNumber(a), shB = getShowNumber(b);
-      if (shA !== shB) return shA - shB;
-      return getSourceNumber(a) - getSourceNumber(b);
-    });
-
-  } else {
-    filtered.sort((a, b) => {
-      const bandA = (a.bands?.[0] || '').toLowerCase();
-      const bandB = (b.bands?.[0] || '').toLowerCase();
-      if (bandA < bandB) return -1;
-      if (bandA > bandB) return 1;
-
-      const unixA = a.startDateUnix, unixB = b.startDateUnix;
-      if (typeof unixA === 'number' && typeof unixB === 'number') {
-        if (!isSameDayUnix(unixA, unixB)) return unixA - unixB;
-      } else if (typeof unixA === 'number' || typeof unixB === 'number') {
-        return (typeof unixA === 'number') ? 1 : -1;
-      } else {
-        const sdA = a.startDate || {}, sdB = b.startDate || {};
-        const yearA = parseInt(sdA.year, 10) || 0, yearB = parseInt(sdB.year, 10) || 0;
-        if (yearA !== yearB) return yearA - yearB;
-        const monthA = parseInt(sdA.month, 10) || 0, monthB = parseInt(sdB.month, 10) || 0;
-        if (monthA !== monthB) return monthA - monthB;
-        const dayA = parseInt(sdA.day, 10) || 0, dayB = parseInt(sdB.day, 10) || 0;
-        if (dayA !== dayB) return dayA - dayB;
-      }
-
-      const shA = getShowNumber(a), shB = getShowNumber(b);
-      if (shA !== shB) return shA - shB;
-      return getSourceNumber(a) - getSourceNumber(b);
-    });
-  }
-
-  return filtered;
-}
 
     function updateDisplay() {
         const filtered = filterShows();
@@ -934,43 +931,43 @@ function filterShows() {
         } else {
             hintBox.style.display = "none";
         }
-		
-function getBandPillColor(count) {
-	if (count < 2) return '#ffff';
-    if (count < 5) return '#ffebf5';
-    if (count < 10) return '#ffe2f1';
-    if (count < 25) return '#ffdaed';
-    if (count < 50) return '#ffd2e9';
-    if (count < 100) return '#ffcae4';
-    if (count < 150) return '#ffc2e0';
-    if (count < 200) return '#ffbadc';
-    if (count < 300) return '#ffb1d8';
-    if (count < 500) return '#ffa9d4';
-    if (count < 750) return '#ffa1d0';
-    if (count < 1000) return '#ff99cc';
-    return '#ff91c8';
-}
 
-const bandCounts = {};
-shows.forEach(show => {
-    const first = (show.bands?.[0]?.[0] || '').toUpperCase();
-    const isNumeric = !/^[A-Z]$/.test(first);
-    const letterMatch = (currentFilterLetter === '#' && isNumeric) || first === currentFilterLetter;
-    if (letterMatch) {
-        show.bands.forEach(b => {
-            bandCounts[b] = (bandCounts[b] || 0) + 1;
+        function getBandPillColor(count) {
+            if (count < 2) return '#ffff';
+            if (count < 5) return '#ffebf5';
+            if (count < 10) return '#ffe2f1';
+            if (count < 25) return '#ffdaed';
+            if (count < 50) return '#ffd2e9';
+            if (count < 100) return '#ffcae4';
+            if (count < 150) return '#ffc2e0';
+            if (count < 200) return '#ffbadc';
+            if (count < 300) return '#ffb1d8';
+            if (count < 500) return '#ffa9d4';
+            if (count < 750) return '#ffa1d0';
+            if (count < 1000) return '#ff99cc';
+            return '#ff91c8';
+        }
+
+        const bandCounts = {};
+        shows.forEach(show => {
+            const first = (show.bands?.[0]?.[0] || '').toUpperCase();
+            const isNumeric = !/^[A-Z]$/.test(first);
+            const letterMatch = (currentFilterLetter === '#' && isNumeric) || first === currentFilterLetter;
+            if (letterMatch) {
+                show.bands.forEach(b => {
+                    bandCounts[b] = (bandCounts[b] || 0) + 1;
+                });
+            }
         });
-    }
-});
 
-const sortedBands = [...Object.keys(bandCounts)].sort();
+        const sortedBands = [...Object.keys(bandCounts)].sort();
 
-container.innerHTML = sortedBands.map(b => {
-    const count = bandCounts[b];
-    const bg = getBandPillColor(count);
+        container.innerHTML = sortedBands.map(b => {
+            const count = bandCounts[b];
+            const bg = getBandPillColor(count);
 
-    return `<span class="band-pill" data-band="${b}" style="background-color: ${bg};">${b}</span>`;
-}).join('');
+            return `<span class="band-pill" data-band="${b}" style="background-color: ${bg};">${b}</span>`;
+        }).join('');
 
         container.style.display = 'flex';
 

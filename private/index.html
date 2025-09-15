@@ -68,7 +68,7 @@
       <tbody>
          
          
-			
+         
          <script src="/tradelist/scripts/private-shows-filter.js"></script>
       </tbody>
    </table>
@@ -90,6 +90,36 @@
     <div id="imageCounter" style="position: absolute; top: 14px; left: 20px; font-size: 13px; background-color: rgba(0, 0, 0, 0.5); color: #fff; padding: 3px 8px; border-radius: 6px; z-index: 30; font-family: sans-serif;"></div>
   </div>
 </div>
+   <script src="/tradelist/scripts/video-quality-label.js"></script>
+   <script>
+      (function () {
+         const rows = document.querySelectorAll('#shows-table tbody tr[data-show]');
+         rows.forEach(tr => {
+            const raw = tr
+               .getAttribute('data-show')
+               .replaceAll('&quot;', '"')
+               .replaceAll('&#39;', "'")
+               .replaceAll('&amp;', '&');
+            let show;
+            try {
+               show = JSON.parse(raw);
+            } catch  {
+               return;
+            }
+            const td = tr.children[5];
+            if (!td) 
+               return;
+            td
+               .classList
+               .add('format-cell');
+            const valEl = td.querySelector('.format-value-other');
+            const current = valEl
+               ? valEl.innerHTML
+               : (td.textContent || '—');
+            td.innerHTML = `<span class="format-value-other">${current}</span>${buildResolutionBadges(show)}`;
+         });
+      })();
+   </script>
    <script src="/tradelist/scripts/private-shows-table.js"></script>
    <script src="/tradelist/scripts/image-modal-viewer.js"></script>
    <script src="/tradelist/scripts/media-extras-toggle.js"></script>

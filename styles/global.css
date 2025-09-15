@@ -36,9 +36,19 @@ footer {
   vertical-align: middle;
 }
 
+.format-value-other {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
 .format-labels {
-  position: absolute; top: 0px; right: 0px;
-  display: inline-flex; gap: 2px; align-items: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: inline-flex;
+  gap: 2px;
+  align-items: center;
   pointer-events: none;
 }
 
@@ -136,11 +146,12 @@ a:hover {
   position: absolute;
   top: 0px;
   right: 0px;
-  padding: 1px 6px;
   font-size: 8px;
+  line-height: 1;
+  padding: 2px 6px;
   font-weight: bold;
-  border-radius: 6px;
-  color: 000;
+  border-radius: 999px;
+  color: #000;
   text-transform: uppercase;
   pointer-events: none;
 }
@@ -162,9 +173,10 @@ a:hover {
   top: 0px;
   right: 0px;
   font-size: 8px;
-  padding: 1px 6px;
+  line-height: 1;
+  padding: 2px 6px;
   font-weight: bold;
-  border-radius: 6px;
+  border-radius: 999px;
   color: #000;
   white-space: nowrap;
   background-color: #42A5F5;
@@ -173,9 +185,10 @@ a:hover {
 .trade-label {
   position: absolute;
   font-size: 8px;
-  padding: 1px 6px;
+  line-height: 1;
+  padding: 2px 6px;
   font-weight: bold;
-  border-radius: 6px;
+  border-radius: 999px;
   color: #000;
   white-space: nowrap;
 }
