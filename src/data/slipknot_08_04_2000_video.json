@@ -26,7 +26,7 @@
   },
   "tvChannel": "",
   "showName": "",
-  "source": "",
+  "source": "Source 1",
   "category": [
     "video"
   ],
@@ -208,5 +208,8 @@
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "fileSlug": "slipknot_08_04_2000_video",
+  "isRegular": true,
+  "permalink": "/shows/slipknot_08_04_2000_video/"
 }

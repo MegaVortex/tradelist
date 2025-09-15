@@ -27,6 +27,15 @@
 				{% endfor %}
 			</div>
 		</div>
+		
+		<div class="tapers-wrapper">
+			<p class="info-box">ℹ️ Top traders</p>
+			<div class="rules-tapers-block">
+				{% for item in tradersTop10 %}
+				<div class="trader-item">{{ item.emoji }} {{ item.trader }} <strong>{{ item.count }}</strong></div>
+				{% endfor %}
+			</div>
+		</div>
 	</div>
 </section>
 {% endblock %}

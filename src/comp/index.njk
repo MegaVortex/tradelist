@@ -32,7 +32,7 @@ permalink: "/comp/"
    </thead>
    <tbody>
       {% for show in allShowData.publicCompilationShows %}
-      <tr class="paginated-show" data-band="{{ show.bands | join('|||') }}" data-title="{{ show.showName | escape }}">
+      <tr class="paginated-show" data-band="{{ show.bands | join('|||') }}" data-title="{{ show.showName | escape }}" data-show="{{ show | dump | escape }}">
          <td>
             {% if show.bands and show.bands.length %}
             {% set bands = show.bands %}
@@ -139,12 +139,8 @@ permalink: "/comp/"
             —
             {% endif %}
          </td>
-         <td>
-            {% if show.specs and show.specs.sourceDetail %}
-            {{ show.specs.sourceDetail.fileFormat or "—" }}
-            {% else %}
-            —
-            {% endif %}
+         <td class="format-cell">
+            <span class="format-value-other">{{ show.specs.sourceDetail.fileFormat if show.specs and show.specs.sourceDetail else "—" }}</span>
          </td>
          <td class="type-cell">
             {% if show.specs and show.specs.sourceDetail %}
@@ -252,6 +248,36 @@ permalink: "/comp/"
 <script src="{{ '/scripts/hammer.min.js' | url }}"></script>
 {% include "modals/cart-modal.njk" %}
 {% include "modals/image-modal.njk" %}
+   <script src="{{ '/scripts/video-quality-label.js' | url }}"></script>
+   <script>
+      (function () {
+         const rows = document.querySelectorAll('#shows-table tbody tr[data-show]');
+         rows.forEach(tr => {
+            const raw = tr
+               .getAttribute('data-show')
+               .replaceAll('&quot;', '"')
+               .replaceAll('&#39;', "'")
+               .replaceAll('&amp;', '&');
+            let show;
+            try {
+               show = JSON.parse(raw);
+            } catch  {
+               return;
+            }
+            const td = tr.children[6];
+            if (!td) 
+               return;
+            td
+               .classList
+               .add('format-cell');
+            const valEl = td.querySelector('.format-value-other');
+            const current = valEl
+               ? valEl.innerHTML
+               : (td.textContent || '—');
+            td.innerHTML = `<span class="format-value-other">${current}</span>${buildResolutionBadges(show)}`;
+         });
+      })();
+   </script>
 <script src="{{ '/scripts/comp-shows-table.js' | url }}"></script>
 <script src="{{ '/scripts/cart.js' | url }}"></script>
 <script src="{{ '/scripts/image-modal-viewer.js' | url }}"></script>
