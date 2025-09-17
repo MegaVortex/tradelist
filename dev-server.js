@@ -24,11 +24,11 @@ app.post("/api/save-json", (req, res) => {
   }
 
   const baseDir =
-  type === "va"
-    ? path.join(__dirname, "src", "data-va")
-    : type === "compilation"
-      ? path.join(__dirname, "src", "data-comp")
-      : path.join(__dirname, "src", "data");
+    type === "va"
+      ? path.join(__dirname, "src", "data-va")
+      : type === "compilation"
+        ? path.join(__dirname, "src", "data-comp")
+        : path.join(__dirname, "src", "data");
 
   const filePath = path.join(baseDir, `${slug}.json`);
 

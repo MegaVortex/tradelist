@@ -146,11 +146,11 @@ permalink: "/comp/"
             {% if show.specs and show.specs.sourceDetail %}
             {{ show.specs.sourceDetail.recordingType or "—" }}
             {% if show.category == "audio" %}
-            <span class="type-label audio-label">audio</span>
+            <span class="type-label audio-label">a</span>
             {% elif "misc" in show.category %}
-            <span class="type-label misc-label">misc</span>
+            <span class="type-label misc-label">m</span>
             {% elif "video" in show.category %}
-            <span class="type-label video-label">video</span>
+            <span class="type-label video-label">v</span>
             {% endif %}
             {% else %}
             —
@@ -159,12 +159,12 @@ permalink: "/comp/"
          <td class="type-cell">
             {{ show.source or "—" }}
             {% if show.fileSlug and 'show_1' in show.fileSlug %}
-            <span class="show-label">Show 1</span>
+            <span class="show-label">1</span>
             {% elif show.fileSlug and 'show_2' in show.fileSlug %}
-            <span class="show-label">Show 2</span>
+            <span class="show-label">2</span>
             {% endif %}
             {% if show.master == true or (show.tapers and show.tapers.length == 1 and show.tapers[0] == "Vortex") %}
-            <span class="trade-label master">MASTER</span>
+            <span class="trade-label master">M</span>
             {% endif %}
          </td>
          <td class="type-cell">
@@ -200,7 +200,7 @@ permalink: "/comp/"
             <span
                role="button"
                title="View images"
-               style="cursor: pointer; font-size: 18px;"
+               style="cursor: pointer; font-size: 15px;"
                onclick='openModal("{{ firstImg.externalId }}", {{ show.images | dump | safe }})'
                >📷</span>
             {% else %}
@@ -214,14 +214,14 @@ permalink: "/comp/"
 				{% if show.tradeLabel == 'NT' %}
 					<button
 						class="btn btn-sm btn-outline-secondary disabled"
-						style="font-size: 0.75rem; padding: 2px 6px;"
+						style="font-size: 0.6rem; padding: 2px 6px;"
 						disabled
 						title="Not available for trade"
 						>➕</button>
 				{% else %}
 					<button
 						class="btn btn-sm btn-outline-success add-to-cart"
-						style="font-size: 0.75rem; padding: 2px 6px;"
+						style="font-size: 0.6rem; padding: 2px 6px;"
 						data-id="{{ show.fileSlug }}"
 						data-json="{{ show | dump | urlencode }}"
 						title="Add to trade cart"
@@ -233,7 +233,7 @@ permalink: "/comp/"
                   <button
 				  onclick="openJsonEditor('{{ show.fileSlug }}', 'compilation')"
 				  class="btn btn-sm btn-outline-secondary"
-				  style="font-size: 0.75rem; padding: 2px 6px;"
+				  style="font-size: 0.6rem; padding: 2px 6px;"
 				  >✏️</button>
                </td>
             {% endif %}

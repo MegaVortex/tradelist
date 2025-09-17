@@ -128,11 +128,11 @@ permalink: "/private/"
                   {% if show.specs and show.specs.sourceDetail %}
                      {{ show.specs.sourceDetail.recordingType or "—" }}
                      {% if show.category == "audio" %}
-                        <span class="type-label audio-label">audio</span>
+                        <span class="type-label audio-label">a</span>
                      {% elif "misc" in show.category %}
-                        <span class="type-label misc-label">misc</span>
+                        <span class="type-label misc-label">m</span>
                      {% elif "video" in show.category %}
-                        <span class="type-label video-label">video</span>
+                        <span class="type-label video-label">v</span>
                      {% endif %}
                   {% else %}
                      —
@@ -141,12 +141,12 @@ permalink: "/private/"
                <td class="type-cell">
                   {{ show.source or "—" }}
                   {% if show.fileSlug and 'show_1' in show.fileSlug %}
-                     <span class="show-label">Show 1</span>
+                     <span class="show-label">1</span>
                   {% elif show.fileSlug and 'show_2' in show.fileSlug %}
-                     <span class="show-label">Show 2</span>
+                     <span class="show-label">2</span>
                   {% endif %}
                   {% if show.master == true or(show.tapers and show.tapers.length == 1 and show.tapers[0] == "Vortex") %}
-                     <span class="trade-label master">MASTER</span>
+                     <span class="trade-label master">M</span>
                   {% endif %}
                </td>
                <td class="type-cell">
@@ -179,7 +179,7 @@ permalink: "/private/"
                <td>
                   {% if show.images and show.images.length %}
                      {% set firstImg = show.images[0] %}
-                     <span role="button" title="View images" style="cursor: pointer; font-size: 18px;" onclick='openModal("{{ firstImg.externalId }}", {{ show.images | dump | safe }})'>📷</span>
+                     <span role="button" title="View images" style="cursor: pointer; font-size: 15px;" onclick='openModal("{{ firstImg.externalId }}", {{ show.images | dump | safe }})'>📷</span>
                   {% else %}
                      —
                   {% endif %}
@@ -189,7 +189,7 @@ permalink: "/private/"
                </td>
                {% if environment == "dev" %}
                   <td>
-                     <button onclick="openJsonEditor('{{ show.fileSlug }}', 'regular')" class="btn btn-sm btn-outline-secondary" style="font-size: 0.75rem; padding: 2px 6px;">✏️</button>
+                     <button onclick="openJsonEditor('{{ show.fileSlug }}', 'regular')" class="btn btn-sm btn-outline-secondary" style="font-size: 0.6rem; padding: 2px 6px;">✏️</button>
                   </td>
                {% endif %}
             </tr>

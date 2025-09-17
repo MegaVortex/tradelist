@@ -132,13 +132,13 @@ function renderCartTable() {
         let sourceCellContent = show.source || '—';
         if (show.fileSlug) {
             if (show.fileSlug.includes('show_1')) {
-                sourceCellContent += `<span class="cart-cell-label-wrap"><span class="show-label">Show 1</span></span>`;
+                sourceCellContent += `<span class="cart-cell-label-wrap"><span class="show-label">1</span></span>`;
             } else if (show.fileSlug.includes('show_2')) {
-                sourceCellContent += `<span class="cart-cell-label-wrap"><span class="show-label">Show 2</span></span>`;
+                sourceCellContent += `<span class="cart-cell-label-wrap"><span class="show-label">2</span></span>`;
             }
         }
         if (show.master === true || (show.tapers && show.tapers.length === 1 && show.tapers[0] === "Vortex")) {
-            sourceCellContent += `<span class="cart-cell-label-wrap"><span class="trade-label master">MASTER</span></span>`;
+            sourceCellContent += `<span class="cart-cell-label-wrap"><span class="trade-label master">M</span></span>`;
         }
 
         let tapersCellContent = show.tapers && show.tapers.length ? show.tapers.join(', ') : '—';
@@ -155,7 +155,7 @@ function renderCartTable() {
               <td>${formattedLocation}</td>
               <td>${sourceCellContent}</td>
               <td>${tapersCellContent}</td>
-              <td><button class="btn btn-sm btn-danger" style="font-size: 0.75rem; padding: 2px 6px;" onclick="removeFromCart('${show.fileSlug}')">✖</button></td>
+              <td><button class="btn btn-sm btn-danger" style="font-size: 0.6rem; padding: 2px 6px;" onclick="removeFromCart('${show.fileSlug}')">✖</button></td>
             </tr>
         `;
     }).join('');
@@ -266,13 +266,13 @@ document.getElementById('send-cart').addEventListener('click', async () => {
         let source = show.source || '—';
         if (show.fileSlug) {
             if (show.fileSlug.includes('show_1')) {
-                source += ' Show 1';
+                source += ' 1';
             } else if (show.fileSlug.includes('show_2')) {
-                source += ' Show 2';
+                source += ' 2';
             }
         }
         if (show.master === true || (show.tapers && show.tapers.length === 1 && show.tapers[0] === "Vortex")) {
-            source += ' MASTER';
+            source += ' M';
         }
 
         let tapers = show.tapers && show.tapers.length ? show.tapers.join(', ') : '—';
