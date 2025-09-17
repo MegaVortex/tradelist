@@ -27,15 +27,15 @@ function getTypeLabel(categoryArray) {
     const catSet = new Set(cat);
 
     if (catSet.has('video') && catSet.size === 1) {
-        return '<span class="type-label video-label">video</span>';
+        return '<span class="type-label video-label">v</span>';
     } else if (catSet.has('video') && catSet.has('misc')) {
-        return '<span class="type-label misc-label">misc</span>';
+        return '<span class="type-label misc-label">m</span>';
     } else if (catSet.has('video') && catSet.has('compilation')) {
-        return '<span class="type-label video-label">video</span>';
+        return '<span class="type-label video-label">v</span>';
     } else if (catSet.has('audio') && catSet.size === 1) {
-        return '<span class="type-label audio-label">audio</span>';
+        return '<span class="type-label audio-label">a</span>';
     } else if (catSet.has('audio') && catSet.has('misc')) {
-        return '<span class="type-label audio-label">audio</span>';
+        return '<span class="type-label audio-label">a</span>';
     } else {
         return '—';
     }
@@ -224,12 +224,12 @@ function renderInitialShows(shows) {
 
     <td class="type-cell">${show.source || '—'
             }
-        ${show.fileSlug?.includes('show_1') ? '<span class="show-label">Show 1</span>' : ''
+        ${show.fileSlug?.includes('show_1') ? '<span class="show-label">1</span>' : ''
             }
-        ${show.fileSlug?.includes('show_2') ? '<span class="show-label">Show 2</span>' : ''
+        ${show.fileSlug?.includes('show_2') ? '<span class="show-label">2</span>' : ''
             }
         ${show.master === true || (show.tapers?.length === 1 && show.tapers[0] === 'Vortex')
-                ? '<span class="trade-label master">MASTER</span>'
+                ? '<span class="trade-label master">M</span>'
                 : ''
             }
     </td>
@@ -259,16 +259,16 @@ function renderInitialShows(shows) {
             }
     </td>
     <td>${show.images?.length
-                ? `<span role="button" style="cursor: pointer; font-size: 18px;" onclick='openModal("${show.images[0].externalId}", ${JSON.stringify(show.images)})'>📷</span>`
+                ? `<span role="button" style="cursor: pointer; font-size: 15px;" onclick='openModal("${show.images[0].externalId}", ${JSON.stringify(show.images)})'>📷</span>`
                 : '—'
             }</td>
     <td><a href="${pathPrefix}/shows/${show.fileSlug}/" target="_blank" rel="noopener noreferrer" style="font-size: 1.20em;">🎫</a></td>
     <td>${show.tradeLabel === 'NT'
-                ? `<button class="btn btn-sm btn-outline-secondary disabled" style="font-size: 0.75rem; padding: 2px 6px;" disabled title="Not available for trade" data-id="${show.fileSlug}">➕</button>`
-                : `<button class="btn btn-sm btn-outline-success add-to-cart" style="font-size: 0.75rem; padding: 2px 6px;" data-id="${show.fileSlug}" data-json='${encodeURIComponent(JSON.stringify(show))}' title="Add to trade cart">➕</button>`
+                ? `<button class="btn btn-sm btn-outline-secondary disabled" style="font-size: 0.6rem; padding: 2px 6px;" disabled title="Not available for trade" data-id="${show.fileSlug}">➕</button>`
+                : `<button class="btn btn-sm btn-outline-success add-to-cart" style="font-size: 0.6rem; padding: 2px 6px;" data-id="${show.fileSlug}" data-json='${encodeURIComponent(JSON.stringify(show))}' title="Add to trade cart">➕</button>`
             }</td>
     ${environment === 'dev'
-                ? `<td><button onclick="openJsonEditor('${show.fileSlug}', 'regular')" class="btn btn-sm btn-outline-secondary" style="font-size: 0.75rem; padding: 2px 6px;">✏️</button></td>`
+                ? `<td><button onclick="openJsonEditor('${show.fileSlug}', 'regular')" class="btn btn-sm btn-outline-secondary" style="font-size: 0.6rem; padding: 2px 6px;">✏️</button></td>`
                 : ''
             }
 `;
@@ -329,12 +329,12 @@ function prepareTableRows(shows) {
 
     <td class="type-cell">${show.source || '—'
             }
-        ${show.fileSlug?.includes('show_1') ? '<span class="show-label">Show 1</span>' : ''
+        ${show.fileSlug?.includes('show_1') ? '<span class="show-label">1</span>' : ''
             }
-        ${show.fileSlug?.includes('show_2') ? '<span class="show-label">Show 2</span>' : ''
+        ${show.fileSlug?.includes('show_2') ? '<span class="show-label">2</span>' : ''
             }
         ${show.master === true || (show.tapers?.length === 1 && show.tapers[0] === 'Vortex')
-                ? '<span class="trade-label master">MASTER</span>'
+                ? '<span class="trade-label master">M</span>'
                 : ''
             }
     </td>
@@ -364,16 +364,16 @@ function prepareTableRows(shows) {
             }
     </td>
     <td>${show.images?.length
-                ? `<span role="button" style="cursor: pointer; font-size: 18px;" onclick='openModal("${show.images[0].externalId}", ${JSON.stringify(show.images)})'>📷</span>`
+                ? `<span role="button" style="cursor: pointer; font-size: 15px;" onclick='openModal("${show.images[0].externalId}", ${JSON.stringify(show.images)})'>📷</span>`
                 : '—'
             }</td>
     <td><a href="${pathPrefix}/shows/${show.fileSlug}/" target="_blank" rel="noopener noreferrer" style="font-size: 1.20em;">🎫</a></td>
     <td>${show.tradeLabel === 'NT'
-                ? `<button class="btn btn-sm btn-outline-secondary disabled" style="font-size: 0.75rem; padding: 2px 6px;" disabled title="Not available for trade" data-id="${show.fileSlug}">➕</button>`
-                : `<button class="btn btn-sm btn-outline-success add-to-cart" style="font-size: 0.75rem; padding: 2px 6px;" data-id="${show.fileSlug}" data-json='${encodeURIComponent(JSON.stringify(show))}' title="Add to trade cart">➕</button>`
+                ? `<button class="btn btn-sm btn-outline-secondary disabled" style="font-size: 0.6rem; padding: 2px 6px;" disabled title="Not available for trade" data-id="${show.fileSlug}">➕</button>`
+                : `<button class="btn btn-sm btn-outline-success add-to-cart" style="font-size: 0.6rem; padding: 2px 6px;" data-id="${show.fileSlug}" data-json='${encodeURIComponent(JSON.stringify(show))}' title="Add to trade cart">➕</button>`
             }</td>
     ${environment === 'dev'
-                ? `<td><button onclick="openJsonEditor('${show.fileSlug}', 'regular')" class="btn btn-sm btn-outline-secondary" style="font-size: 0.75rem; padding: 2px 6px;">✏️</button></td>`
+                ? `<td><button onclick="openJsonEditor('${show.fileSlug}', 'regular')" class="btn btn-sm btn-outline-secondary" style="font-size: 0.6rem; padding: 2px 6px;">✏️</button></td>`
                 : ''
             }
 `;
@@ -653,12 +653,12 @@ function initializeShowFilters(shows) {
 
     <td class="type-cell">${show.source || '—'
                 }
-        ${show.fileSlug?.includes('show_1') ? '<span class="show-label">Show 1</span>' : ''
+        ${show.fileSlug?.includes('show_1') ? '<span class="show-label">1</span>' : ''
                 }
-        ${show.fileSlug?.includes('show_2') ? '<span class="show-label">Show 2</span>' : ''
+        ${show.fileSlug?.includes('show_2') ? '<span class="show-label">2</span>' : ''
                 }
         ${show.master === true || (show.tapers?.length === 1 && show.tapers[0] === 'Vortex')
-                    ? '<span class="trade-label master">MASTER</span>'
+                    ? '<span class="trade-label master">M</span>'
                     : ''
                 }
     </td>
@@ -688,16 +688,16 @@ function initializeShowFilters(shows) {
                 }
     </td>
     <td>${show.images?.length
-                    ? `<span role="button" style="cursor: pointer; font-size: 18px;" onclick='openModal("${show.images[0].externalId}", ${JSON.stringify(show.images)})'>📷</span>`
+                    ? `<span role="button" style="cursor: pointer; font-size: 15px;" onclick='openModal("${show.images[0].externalId}", ${JSON.stringify(show.images)})'>📷</span>`
                     : '—'
                 }</td>
     <td><a href="${pathPrefix}/shows/${show.fileSlug}/" target="_blank" rel="noopener noreferrer" style="font-size: 1.20em;">🎫</a></td>
     <td>${show.tradeLabel === 'NT'
-                    ? `<button class="btn btn-sm btn-outline-secondary disabled" style="font-size: 0.75rem; padding: 2px 6px;" disabled title="Not available for trade" data-id="${show.fileSlug}">➕</button>`
-                    : `<button class="btn btn-sm btn-outline-success add-to-cart" style="font-size: 0.75rem; padding: 2px 6px;" data-id="${show.fileSlug}" data-json='${encodeURIComponent(JSON.stringify(show))}' title="Add to trade cart">➕</button>`
+                    ? `<button class="btn btn-sm btn-outline-secondary disabled" style="font-size: 0.6rem; padding: 2px 6px;" disabled title="Not available for trade" data-id="${show.fileSlug}">➕</button>`
+                    : `<button class="btn btn-sm btn-outline-success add-to-cart" style="font-size: 0.6rem; padding: 2px 6px;" data-id="${show.fileSlug}" data-json='${encodeURIComponent(JSON.stringify(show))}' title="Add to trade cart">➕</button>`
                 }</td>
     ${environment === 'dev'
-                    ? `<td><button onclick="openJsonEditor('${show.fileSlug}', 'regular')" class="btn btn-sm btn-outline-secondary" style="font-size: 0.75rem; padding: 2px 6px;">✏️</button></td>`
+                    ? `<td><button onclick="openJsonEditor('${show.fileSlug}', 'regular')" class="btn btn-sm btn-outline-secondary" style="font-size: 0.6rem; padding: 2px 6px;">✏️</button></td>`
                     : ''
                 }
 `;
