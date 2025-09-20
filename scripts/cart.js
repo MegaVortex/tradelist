@@ -69,7 +69,6 @@ function renderCartTable() {
         return (Math.round(num * 10) / 10).toFixed(1);
     }
 
-
     tbody.innerHTML = cart.map((show, index) => {
         const formattedStartDate = (() => {
             if (typeof show.startDateUnix === 'number' && show.startDateUnix !== null) {
