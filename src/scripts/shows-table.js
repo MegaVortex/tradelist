@@ -2,8 +2,15 @@ window.selectedBand = null;
 const cart = getCart();
 setCart(cart);
 const environment = window.location.hostname === 'localhost' ? 'dev' : 'prod';
-
 const pathPrefix = "/tradelist";
+const TWO_WEEKS_SEC = 14 * 24 * 60 * 60;
+
+function isNewShow(show) {
+  const created = Number(show?.created);
+  if (!Number.isFinite(created)) return false;
+  const nowSec = Math.floor(Date.now() / 1000);
+  return (nowSec - created) <= TWO_WEEKS_SEC;
+}
 
 function formatTime(seconds) {
     if (!seconds) return "—";
@@ -262,7 +269,10 @@ function renderInitialShows(shows) {
                 ? `<span role="button" style="cursor: pointer; font-size: 15px;" onclick='openModal("${show.images[0].externalId}", ${JSON.stringify(show.images)})'>📷</span>`
                 : '—'
             }</td>
-    <td><a href="${pathPrefix}/shows/${show.fileSlug}/" target="_blank" rel="noopener noreferrer" style="font-size: 1.20em;">🎫</a></td>
+    <td class="page-cell">
+      <a href="${pathPrefix}/shows/${show.fileSlug}/" target="_blank" rel="noopener noreferrer" style="font-size: 1.20em;">🎫</a>
+      ${isNewShow(show) ? '<span class="new-label">NEW</span>' : ''}
+    </td>
     <td>${show.tradeLabel === 'NT'
                 ? `<button class="btn btn-sm btn-outline-secondary disabled" style="font-size: 0.6rem; padding: 2px 6px;" disabled title="Not available for trade" data-id="${show.fileSlug}">➕</button>`
                 : `<button class="btn btn-sm btn-outline-success add-to-cart" style="font-size: 0.6rem; padding: 2px 6px;" data-id="${show.fileSlug}" data-json='${encodeURIComponent(JSON.stringify(show))}' title="Add to trade cart">➕</button>`
@@ -367,7 +377,10 @@ function prepareTableRows(shows) {
                 ? `<span role="button" style="cursor: pointer; font-size: 15px;" onclick='openModal("${show.images[0].externalId}", ${JSON.stringify(show.images)})'>📷</span>`
                 : '—'
             }</td>
-    <td><a href="${pathPrefix}/shows/${show.fileSlug}/" target="_blank" rel="noopener noreferrer" style="font-size: 1.20em;">🎫</a></td>
+    <td class="page-cell">
+      <a href="${pathPrefix}/shows/${show.fileSlug}/" target="_blank" rel="noopener noreferrer" style="font-size: 1.20em;">🎫</a>
+      ${isNewShow(show) ? '<span class="new-label">NEW</span>' : ''}
+    </td>
     <td>${show.tradeLabel === 'NT'
                 ? `<button class="btn btn-sm btn-outline-secondary disabled" style="font-size: 0.6rem; padding: 2px 6px;" disabled title="Not available for trade" data-id="${show.fileSlug}">➕</button>`
                 : `<button class="btn btn-sm btn-outline-success add-to-cart" style="font-size: 0.6rem; padding: 2px 6px;" data-id="${show.fileSlug}" data-json='${encodeURIComponent(JSON.stringify(show))}' title="Add to trade cart">➕</button>`
@@ -691,7 +704,10 @@ function initializeShowFilters(shows) {
                     ? `<span role="button" style="cursor: pointer; font-size: 15px;" onclick='openModal("${show.images[0].externalId}", ${JSON.stringify(show.images)})'>📷</span>`
                     : '—'
                 }</td>
-    <td><a href="${pathPrefix}/shows/${show.fileSlug}/" target="_blank" rel="noopener noreferrer" style="font-size: 1.20em;">🎫</a></td>
+    <td class="page-cell">
+      <a href="${pathPrefix}/shows/${show.fileSlug}/" target="_blank" rel="noopener noreferrer" style="font-size: 1.20em;">🎫</a>
+      ${isNewShow(show) ? '<span class="new-label">NEW</span>' : ''}
+    </td>
     <td>${show.tradeLabel === 'NT'
                     ? `<button class="btn btn-sm btn-outline-secondary disabled" style="font-size: 0.6rem; padding: 2px 6px;" disabled title="Not available for trade" data-id="${show.fileSlug}">➕</button>`
                     : `<button class="btn btn-sm btn-outline-success add-to-cart" style="font-size: 0.6rem; padding: 2px 6px;" data-id="${show.fileSlug}" data-json='${encodeURIComponent(JSON.stringify(show))}' title="Add to trade cart">➕</button>`

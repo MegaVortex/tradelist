@@ -207,7 +207,7 @@ permalink: "/comp/"
             —
             {% endif %}
          </td>
-         <td>
+         <td class="page-cell">
             <a href="{{ show.permalink | url }}" target="_blank" rel="noopener noreferrer" title="View info" style="font-size: 1.20em;">🎫</a>
          </td>
 			<td>
@@ -277,6 +277,35 @@ permalink: "/comp/"
             td.innerHTML = `<span class="format-value-other">${current}</span>${buildResolutionBadges(show)}`;
          });
       })();
+   </script>
+   <script>
+     (function () {
+       const TWO_WEEKS_SEC = 14 * 24 * 60 * 60;
+       const nowSec = Math.floor(Date.now() / 1000);
+     
+       const rows = document.querySelectorAll('#shows-table tbody tr[data-show]');
+       rows.forEach(tr => {
+         // Parse the embedded JSON from data-show
+         const raw = tr.getAttribute('data-show')
+           .replaceAll('&quot;', '"')
+           .replaceAll('&#39;', "'")
+           .replaceAll('&amp;', '&');
+         let show;
+         try { show = JSON.parse(raw); } catch { return; }
+     
+         // Page column index: 0..11 => Page is index 10
+         const pageTd = tr.children[10];
+         if (!pageTd) return;
+         pageTd.classList.add('page-cell');
+     
+         const created = Number(show?.created);
+         const isNew = Number.isFinite(created) && (nowSec - created) <= TWO_WEEKS_SEC;
+     
+         if (isNew) {
+           pageTd.insertAdjacentHTML('beforeend', '<span class="new-label">NEW</span>');
+         }
+       });
+     })();
    </script>
 <script src="{{ '/scripts/comp-shows-table.js' | url }}"></script>
 <script src="{{ '/scripts/cart.js' | url }}"></script>
