@@ -128,82 +128,89 @@
             <tr>
                <td style="vertical-align: top; text-align: left; width: 375px; table-layout: fixed; position: relative;">
                   <!-- DETAILS -->
-                  <div>
-                     <strong>Size:</strong>
-                     
-                        
-                        
-                        <span>3.12Gb</span>
-                        
-                           <a href="#" class="toggle-media" data-target="media-toggle">▾ +1</a>
-                        
-                     
-<div class="media-icons-top">
+<div class="pill-wrap">
+  <strong>Size:</strong>
+  
     
-        
-        
-            <img src="/tradelist/assets/images/dvd.png" alt="DVD" title="DVD-5">
-        
     
-        
-        
-            <img src="/tradelist/assets/images/dvd.png" alt="DVD" title="DVD-5">
-        
+    <span>3.12Gb</span>
+
     
+      <button
+        type="button"
+        class="count-badge toggle-media"
+        data-target="media-toggle"
+        aria-expanded="false"
+        title="Show 1 more size"
+      >+1</button>
+    
+  
+
+  <!-- icons stay inside pill-wrap so they line up with Size -->
+  <div class="media-icons-top">
+    
+      
+      
+        <img src="/tradelist/assets/images/dvd.png" alt="DVD" title="DVD-5">
+      
+    
+      
+      
+        <img src="/tradelist/assets/images/dvd.png" alt="DVD" title="DVD-5">
+      
+    
+  </div>
 </div>
-                  </div>
-                  
-                     <div id="media-toggle" class="extra-media indent-block-size" style="display: none;">
-                        
-                           <div>4.36Gb</div>
-                        
-                     </div>
-                  
+
+
+  <div id="media-toggle" class="extra-media indent-block-size" style="display: none;">
+    
+      <div>4.36Gb</div>
+    
+  </div>
+
                   <strong>Length:</strong>
                   02:03:21<br>
-                  <!-- VIDEO -->
-                  
-                     <div>
-                        <strong>Video:</strong>
-                        
-                           
-                           
-                           NTSC
-                           
-                              (16:9)
-                           
-                           
-                           720x480
-                           
-                           
-                              VBR
-                           
-                           
-                           
-                              Letterboxed
-                           
-                        
-                     </div>
-                     
-                  
-                  <!-- AUDIO -->
-                  <div>
-                     <strong>Audio:</strong>
-                     
-                        
-                        
-                        
-                        
-                           MPEG1
-                        
-                        
-                        
-                           2ch
-                        
-                        
-                     
-                  </div>
-                  
+<!-- VIDEO -->
+
+  <div>
+    <strong>Video:</strong>
+    
+      
+      
+      NTSC
+       (16:9)
+      
+      
+      720x480
+      
+       VBR
+      
+       Letterboxed
+
+      
+    
+  </div>
+
+  
+
+<!-- AUDIO -->
+<div>
+  <strong>Audio:</strong>
+  
+    
+    
+    
+     MPEG1
+    
+     2ch
+    
+
+    
+  
+</div>
+
+
                   <strong>Type:</strong>
                   <span  title="Professional" >
                      AMT
@@ -421,37 +428,48 @@
                   
                   
                      <div class="extras-card">
-                        <div class="extras-header">
-                           <span>Extras</span>
-                           <a href="#" class="toggle-media" data-target="extras-list-content">▾ +3</a>
-                        </div>
-                        <ol id="extras-list-content" style="margin-top: 5px; margin-left: -1.3em; display: none;">
+                       <div class="extras-header">
+                         <span>Extras:</span>
+                         
+                           <button
+                             type="button"
+                             class="count-badge toggle-media"
+                             data-target="extras-list-content"
+                             aria-expanded="false"
+                             title="Show 3 extras"
+                           >+3</button>
+                         
+                       </div>
+                     
+                       
+                         <ol id="extras-list-content" class="extra-media indent-block-extras" style="display: none; margin-top: 5px; margin-left: -1.3em;">
                            
-                              <li>
-                                 MetOnTour Video
-                                 
-                                 
-                                 
-                                 
-                              </li>
+                             <li>
+                               MetOnTour Video
+                               
+                               
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 Creeping Death (tuning room)
-                                 
-                                 
-                                 
-                                 
-                              </li>
+                             <li>
+                               Creeping Death (tuning room)
+                               
+                               
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 Ride The Lightning
-                                 
-                                 
-                                 
-                                 
-                              </li>
+                             <li>
+                               Ride The Lightning
+                               
+                               
+                               
+                               
+                             </li>
                            
-                        </ol>
+                         </ol>
+                       
                      </div>
                   
                </td>

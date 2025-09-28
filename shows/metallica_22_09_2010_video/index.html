@@ -147,87 +147,90 @@
             <tr>
                <td style="vertical-align: top; text-align: left; width: 375px; table-layout: fixed; position: relative;">
                   <!-- DETAILS -->
-                  <div>
-                     <strong>Size:</strong>
-                     
-                        
-                        
-                        <span>34.1Gb</span>
-                        
-                     
-<div class="media-icons-top">
+<div class="pill-wrap">
+  <strong>Size:</strong>
+  
     
-        
-        
-            <img src="/tradelist/assets/images/bd.png" alt="Blu-ray" title="BD-50">
-        
     
+    <span>34.1Gb</span>
+
+    
+  
+
+  <!-- icons stay inside pill-wrap so they line up with Size -->
+  <div class="media-icons-top">
+    
+      
+      
+        <img src="/tradelist/assets/images/bd.png" alt="Blu-ray" title="BD-50">
+      
+    
+  </div>
 </div>
-                  </div>
-                  
+
+
                   <strong>Length:</strong>
                   02:33:50<br>
-                  <!-- VIDEO -->
-                  
-                     <div>
-                        <strong>Video:</strong>
-                        
-                           
-                           
-                           
-                           
-                           MPEG2
-                           
-                           1920x1080
-                           
-                              29.97fps
-                           
-                           
-                           
-                           
-                        
-                     </div>
-                     
-                  
-                  <!-- AUDIO -->
-                  <div>
-                     <strong>Audio:</strong>
-                     
-                        
-                        
-                        
-                        
-                           PCM
-                        
-                        
-                           48000Hz
-                        
-                           2ch
-                        
-                           1536kbps
-                        
-                           <a href="#" class="toggle-media" data-target="audio-toggle">▾ +1</a>
-                        
-                     
-                  </div>
-                  
-                     <div id="audio-toggle" class="extra-media indent-block-audio" style="display: none;">
-                        
-                           <div>
-                              
-                              
-                                 PCM
-                              
-                              
-                                 48000Hz
-                              
-                                 2ch
-                              
-                                 1536kbps
-                           </div>
-                        
-                     </div>
-                  
+<!-- VIDEO -->
+
+  <div>
+    <strong>Video:</strong>
+    
+      
+      
+      
+      
+      MPEG2
+      
+      1920x1080
+       29.97fps
+      
+      
+      
+
+      
+    
+  </div>
+
+  
+
+<!-- AUDIO -->
+<div>
+  <strong>Audio:</strong>
+  
+    
+    
+    
+     PCM
+     48000Hz
+     2ch
+     1536kbps
+
+    
+      <button
+        type="button"
+        class="count-badge toggle-media"
+        data-target="audio-toggle"
+        aria-expanded="false"
+        title="Show 1 more audio track"
+      >+1</button>
+    
+  
+</div>
+
+
+  <div id="audio-toggle" class="extra-media indent-block-audio" style="display:none;">
+    
+      <div>
+        
+         PCM
+         48000Hz
+         2ch
+         1536kbps
+      </div>
+    
+  </div>
+
                   <strong>Type:</strong>
                   <span  title="Professional" >
                      AMT
@@ -462,21 +465,32 @@
                   
                   
                      <div class="extras-card">
-                        <div class="extras-header">
-                           <span>Extras</span>
-                           <a href="#" class="toggle-media" data-target="extras-list-content">▾ +1</a>
-                        </div>
-                        <ol id="extras-list-content" style="margin-top: 5px; margin-left: -1.3em; display: none;">
+                       <div class="extras-header">
+                         <span>Extras:</span>
+                         
+                           <button
+                             type="button"
+                             class="count-badge toggle-media"
+                             data-target="extras-list-content"
+                             aria-expanded="false"
+                             title="Show 1 extra"
+                           >+1</button>
+                         
+                       </div>
+                     
+                       
+                         <ol id="extras-list-content" class="extra-media indent-block-extras" style="display: none; margin-top: 5px; margin-left: -1.3em;">
                            
-                              <li>
-                                 MetOnTour
-                                 
-                                 
-                                 
-                                 
-                              </li>
+                             <li>
+                               MetOnTour
+                               
+                               
+                               
+                               
+                             </li>
                            
-                        </ol>
+                         </ol>
+                       
                      </div>
                   
                </td>

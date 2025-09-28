@@ -202,24 +202,26 @@ function renderInitialShows(shows) {
                 : '—'
             }</td>
     <td>${show.specs?.length ? formatTime(show.specs.length) : '—'}</td>
-    <td>${show.specs?.media?.length
-                ? `
-                <div class="media-wrapper">
-                    <span>${smartSize(show.specs.media[0].size)}${show.specs.media[0].unit}</span>
-                    ${show.specs.media.length > 1
-                    ? `<a href="#" class="toggle-media" data-target="media-${i}">▾ +${show.specs.media.length - 1}</a>`
-                    : ''
-                }
-                </div>
-                ${show.specs.media.length > 1
-                    ? `<div id="media-${i}" class="extra-media">
-                        ${show.specs.media.slice(1).map(m => `<div>${smartSize(m.size)}${m.unit}</div>`).join('')}
-                    </div>`
-                    : ''
-                }
-            `
-                : '—'
-            }</td>
+<td class="size-cell">
+  <div class="media-wrapper">
+    <span>${smartSize(show.specs.media[0].size)}${show.specs.media[0].unit}</span>
+    ${show.specs.media.length > 1
+      ? `<button type="button" class="count-badge toggle-media"
+                 data-target="media-${i}"
+                 aria-expanded="false"
+                 title="Show ${show.specs.media.length - 1} more size${(show.specs.media.length - 1) === 1 ? '' : 's'}">
+           +${show.specs.media.length - 1}
+         </button>`
+      : ''
+    }
+  </div>
+  ${show.specs.media.length > 1
+    ? `<div id="media-${i}" class="extra-media">
+         ${show.specs.media.slice(1).map(m => `<div>${smartSize(m.size)}${m.unit}</div>`).join('')}
+       </div>`
+    : ''
+  }
+</td>
 <td class="format-cell">
   ${(show.specs?.sourceDetail?.fileFormat || '—')}
   ${buildResolutionBadges(show)}
@@ -240,24 +242,27 @@ function renderInitialShows(shows) {
                 : ''
             }
     </td>
-    <td class="type-cell">${show.tapers?.length
-                ? `
-                <div class="media-wrapper">
-                    <span>${show.tapers[0]}</span>
-                    ${show.tapers.length > 1
-                    ? `<a href="#" class="toggle-media" data-target="tapers-${i}">▾ +${show.tapers.length - 1}</a>`
-                    : ''
-                }
-                </div>
-                ${show.tapers.length > 1
-                    ? `<div id="tapers-${i}" class="extra-media">
-                        ${show.tapers.slice(1).map(t => `<div>${t}</div>`).join('')}
-                    </div>`
-                    : ''
-                }
-            `
-                : '—'
-            }
+    <td class="type-cell taper-cell">${show.tapers?.length ? `
+  <div class="media-wrapper">
+    <span>${show.tapers[0]}</span>
+    ${show.tapers.length > 1
+      ? `<button type="button"
+                 class="count-badge toggle-media"
+                 data-target="tapers-${i}"
+                 aria-expanded="false"
+                 title="Show ${show.tapers.length - 1} more taper${(show.tapers.length - 1) === 1 ? '' : 's'}">
+            +${show.tapers.length - 1}
+         </button>`
+      : ''
+    }
+  </div>
+  ${show.tapers.length > 1
+    ? `<div id="tapers-${i}" class="extra-media">
+         ${show.tapers.slice(1).map(t => `<div>${t}</div>`).join('')}
+       </div>`
+    : ''
+  }
+` : '—'}
         ${show.tradeLabel === 'RT'
                 ? '<span class="trade-label red">RT</span>'
                 : show.tradeLabel === 'NT'
@@ -310,24 +315,26 @@ function prepareTableRows(shows) {
                 : '—'
             }</td>
     <td>${show.specs?.length ? formatTime(show.specs.length) : '—'}</td>
-    <td>${show.specs?.media?.length
-                ? `
-                <div class="media-wrapper">
-                    <span>${smartSize(show.specs.media[0].size)}${show.specs.media[0].unit}</span>
-                    ${show.specs.media.length > 1
-                    ? `<a href="#" class="toggle-media" data-target="media-${i}">▾ +${show.specs.media.length - 1}</a>`
-                    : ''
-                }
-                </div>
-                ${show.specs.media.length > 1
-                    ? `<div id="media-${i}" class="extra-media">
-                        ${show.specs.media.slice(1).map(m => `<div>${smartSize(m.size)}${m.unit}</div>`).join('')}
-                    </div>`
-                    : ''
-                }
-            `
-                : '—'
-            }</td>
+<td class="size-cell">
+  <div class="media-wrapper">
+    <span>${smartSize(show.specs.media[0].size)}${show.specs.media[0].unit}</span>
+    ${show.specs.media.length > 1
+      ? `<button type="button" class="count-badge toggle-media"
+                 data-target="media-${i}"
+                 aria-expanded="false"
+                 title="Show ${show.specs.media.length - 1} more size${(show.specs.media.length - 1) === 1 ? '' : 's'}">
+           +${show.specs.media.length - 1}
+         </button>`
+      : ''
+    }
+  </div>
+  ${show.specs.media.length > 1
+    ? `<div id="media-${i}" class="extra-media">
+         ${show.specs.media.slice(1).map(m => `<div>${smartSize(m.size)}${m.unit}</div>`).join('')}
+       </div>`
+    : ''
+  }
+</td>
 <td class="format-cell">
   ${(show.specs?.sourceDetail?.fileFormat || '—')}
   ${buildResolutionBadges(show)}
@@ -348,24 +355,27 @@ function prepareTableRows(shows) {
                 : ''
             }
     </td>
-    <td class="type-cell">${show.tapers?.length
-                ? `
-                <div class="media-wrapper">
-                    <span>${show.tapers[0]}</span>
-                    ${show.tapers.length > 1
-                    ? `<a href="#" class="toggle-media" data-target="tapers-${i}">▾ +${show.tapers.length - 1}</a>`
-                    : ''
-                }
-                </div>
-                ${show.tapers.length > 1
-                    ? `<div id="tapers-${i}" class="extra-media">
-                        ${show.tapers.slice(1).map(t => `<div>${t}</div>`).join('')}
-                    </div>`
-                    : ''
-                }
-            `
-                : '—'
-            }
+    <td class="type-cell taper-cell">${show.tapers?.length ? `
+  <div class="media-wrapper">
+    <span>${show.tapers[0]}</span>
+    ${show.tapers.length > 1
+      ? `<button type="button"
+                 class="count-badge toggle-media"
+                 data-target="tapers-${i}"
+                 aria-expanded="false"
+                 title="Show ${show.tapers.length - 1} more taper${(show.tapers.length - 1) === 1 ? '' : 's'}">
+            +${show.tapers.length - 1}
+         </button>`
+      : ''
+    }
+  </div>
+  ${show.tapers.length > 1
+    ? `<div id="tapers-${i}" class="extra-media">
+         ${show.tapers.slice(1).map(t => `<div>${t}</div>`).join('')}
+       </div>`
+    : ''
+  }
+` : '—'}
         ${show.tradeLabel === 'RT'
                 ? '<span class="trade-label red">RT</span>'
                 : show.tradeLabel === 'NT'
@@ -563,6 +573,7 @@ function renderShows(limit = 100) {
 function initializeShowFilters(shows) {
     let currentFilterLetter = 'all';
     let currentFilterBands = [];
+	let currentFilterYear = 'all';
     let currentPage = 1;
     const perPage = 100;
 
@@ -596,8 +607,49 @@ function initializeShowFilters(shows) {
         if (shA !== shB) return shA - shB;
 
         return getSourceNumber(a) - getSourceNumber(b);
-
     });
+	
+	function buildYearDropdown() {
+      const btn = document.getElementById('yearFilterBtn');
+      const menu = document.getElementById('yearMenu');
+      if (!btn || !menu) return;
+    
+    
+      const yearsSet = new Set();
+      shows.forEach(s => {
+        if (typeof s.startDateUnix === 'number') {
+          yearsSet.add(new Date(s.startDateUnix * 1000).getFullYear());
+        } else if (s.startDate?.year) {
+          yearsSet.add(parseInt(s.startDate.year, 10));
+        }
+      });
+    
+      const years = [...yearsSet].filter(Boolean).sort((a,b) => b - a);
+    
+      let html = `
+        <li><a class="dropdown-item ${currentFilterYear === 'all' ? 'active' : ''}" href="#" data-year="all">All years</a></li>
+        <li><hr class="dropdown-divider"></li>
+      `;
+    
+      html += years.map(y =>
+        `<li><a class="dropdown-item ${currentFilterYear === String(y) ? 'active' : ''}" href="#" data-year="${y}">${y}</a></li>`
+      ).join('');
+    
+      menu.innerHTML = html;
+    
+      menu.querySelectorAll('.dropdown-item').forEach(a => {
+        a.addEventListener('click', (e) => {
+          e.preventDefault();
+          currentFilterYear = a.dataset.year;
+          btn.textContent = (currentFilterYear === 'all') ? 'All years' : currentFilterYear;
+    
+          menu.querySelectorAll('.dropdown-item').forEach(x => x.classList.remove('active'));
+          a.classList.add('active');
+    
+          updateDisplay();
+        });
+      });
+    }
 
     function renderPage(filteredShows, page) {
         currentPage = page;
@@ -637,24 +689,26 @@ function initializeShowFilters(shows) {
                     : '—'
                 }</td>
     <td>${show.specs?.length ? formatTime(show.specs.length) : '—'}</td>
-    <td>${show.specs?.media?.length
-                    ? `
-                <div class="media-wrapper">
-                    <span>${smartSize(show.specs.media[0].size)}${show.specs.media[0].unit}</span>
-                    ${show.specs.media.length > 1
-                        ? `<a href="#" class="toggle-media" data-target="media-${i}">▾ +${show.specs.media.length - 1}</a>`
-                        : ''
-                    }
-                </div>
-                ${show.specs.media.length > 1
-                        ? `<div id="media-${i}" class="extra-media">
-                        ${show.specs.media.slice(1).map(m => `<div>${smartSize(m.size)}${m.unit}</div>`).join('')}
-                    </div>`
-                        : ''
-                    }
-            `
-                    : '—'
-                }</td>
+<td class="size-cell">
+  <div class="media-wrapper">
+    <span>${smartSize(show.specs.media[0].size)}${show.specs.media[0].unit}</span>
+    ${show.specs.media.length > 1
+      ? `<button type="button" class="count-badge toggle-media"
+                 data-target="media-${i}"
+                 aria-expanded="false"
+                 title="Show ${show.specs.media.length - 1} more size${(show.specs.media.length - 1) === 1 ? '' : 's'}">
+           +${show.specs.media.length - 1}
+         </button>`
+      : ''
+    }
+  </div>
+  ${show.specs.media.length > 1
+    ? `<div id="media-${i}" class="extra-media">
+         ${show.specs.media.slice(1).map(m => `<div>${smartSize(m.size)}${m.unit}</div>`).join('')}
+       </div>`
+    : ''
+  }
+</td>
 <td class="format-cell">
   ${(show.specs?.sourceDetail?.fileFormat || '—')}
   ${buildResolutionBadges(show)}
@@ -675,30 +729,33 @@ function initializeShowFilters(shows) {
                     : ''
                 }
     </td>
-    <td class="type-cell">${show.tapers?.length
-                    ? `
-                <div class="media-wrapper">
-                    <span>${show.tapers[0]}</span>
-                    ${show.tapers.length > 1
-                        ? `<a href="#" class="toggle-media" data-target="tapers-${i}">▾ +${show.tapers.length - 1}</a>`
-                        : ''
-                    }
-                </div>
-                ${show.tapers.length > 1
-                        ? `<div id="tapers-${i}" class="extra-media">
-                        ${show.tapers.slice(1).map(t => `<div>${t}</div>`).join('')}
-                    </div>`
-                        : ''
-                    }
-            `
-                    : '—'
-                }
+    <td class="type-cell taper-cell">${show.tapers?.length ? `
+  <div class="media-wrapper">
+    <span>${show.tapers[0]}</span>
+    ${show.tapers.length > 1
+      ? `<button type="button"
+                 class="count-badge toggle-media"
+                 data-target="tapers-${i}"
+                 aria-expanded="false"
+                 title="Show ${show.tapers.length - 1} more taper${(show.tapers.length - 1) === 1 ? '' : 's'}">
+            +${show.tapers.length - 1}
+         </button>`
+      : ''
+    }
+  </div>
+  ${show.tapers.length > 1
+    ? `<div id="tapers-${i}" class="extra-media">
+         ${show.tapers.slice(1).map(t => `<div>${t}</div>`).join('')}
+       </div>`
+    : ''
+  }
+` : '—'}
         ${show.tradeLabel === 'RT'
-                    ? '<span class="trade-label red">RT</span>'
-                    : show.tradeLabel === 'NT'
-                        ? '<span class="trade-label blue">NT</span>'
-                        : ''
-                }
+                ? '<span class="trade-label red">RT</span>'
+                : show.tradeLabel === 'NT'
+                    ? '<span class="trade-label blue">NT</span>'
+                    : ''
+            }
     </td>
     <td>${show.images?.length
                     ? `<span role="button" style="cursor: pointer; font-size: 15px;" onclick='openModal("${show.images[0].externalId}", ${JSON.stringify(show.images)})'>📷</span>`
@@ -774,6 +831,16 @@ function initializeShowFilters(shows) {
                 currentFilterLetter === 'all' ||
                 (currentFilterLetter === '#' && isNumeric) ||
                 firstLetter === currentFilterLetter;
+				
+			    if (currentFilterYear !== 'all') {
+                  let y = null;
+                  if (typeof show.startDateUnix === 'number') {
+                    y = new Date(show.startDateUnix * 1000).getFullYear();
+                  } else if (show.startDate?.year) {
+                    y = parseInt(show.startDate.year, 10);
+                  }
+                  if (String(y) !== String(currentFilterYear)) return false;
+                }
 
             if (lowerCaseBands.length === 0) return letterMatch;
 
@@ -1022,6 +1089,7 @@ function initializeShowFilters(shows) {
 
     buildLetterBar();
     buildBandPills();
+	buildYearDropdown();
     updateDisplay();
 }
 
