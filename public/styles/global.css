@@ -143,6 +143,93 @@ a:hover {
   position: relative;
 }
 
+.taper-cell {
+  position: relative;
+}
+
+.taper-cell .count-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 7px;
+  line-height: 1;
+  padding: 2px 6px;
+  font-weight: 700;
+  border-radius: 999px;
+  background-color: #d6e4f0;
+  color: #000;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.06) inset;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.size-cell {
+  position: relative;
+}
+
+.size-cell .count-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 7px;
+  line-height: 1;
+  padding: 2px 6px;
+  font-weight: 700;
+  border-radius: 999px;
+  background-color: #d6e4f0;
+  color: #000;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.06) inset;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.count-badge {
+  display: inline-block;
+  font-size: 7px;
+  line-height: 1;
+  padding: 2px 6px;
+  font-weight: 700;
+  border-radius: 999px;
+  color: #000;
+  background-color: #d6e4f0;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.06) inset;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+}
+.count-badge:focus-visible {
+  outline: 2px solid #7F7D9C;
+  outline-offset: 2px;
+}
+
+.artist-cell {
+  position: relative;
+}
+
+.artist-cell .count-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 7px;
+  line-height: 1;
+  padding: 2px 6px;
+  font-weight: 700;
+  border-radius: 999px;
+  background-color: #d6e4f0;
+  color: #000;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.06) inset;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.media-wrapper-left {
+  align-items: flex-start;
+}
+
 .new-label {
   position: absolute;
   top: 0px;
@@ -751,17 +838,25 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
 .extras-header .toggle-media {
+    border-radius: 999px;
+    background-color: #d6e4f0;
+    color: #000;
     text-decoration: none;
     color: #007bff;
-    font-size: 12px;
-    padding-left: 5px;
-	font-weight: 500;
+    font-size: 10px;
+    padding: 2px 6px;
+	line-height: 1;
+	font-weight: 700;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.06) inset;
+    border: none;
+    cursor: pointer;
+    user-select: none;
 }
 
 .focus-wrapper {
@@ -769,4 +864,82 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+/* places counter and dropdown in one row */
+.counter-and-year {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 6px 0 8px;
+  justify-content: center; /* center like the table controls */
+}
+
+/* make the dropdown button match .show-counter */
+.year-pill {
+  font-size: 11px;
+  padding: 4px 8px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  color: #212529;
+  line-height: 1.2;
+}
+
+.year-pill:focus {
+  box-shadow: none;
+}
+
+/* limit height of the menu and allow scroll */
+.year-menu {
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+/* ===== Filters row (left aligned) ===== */
+.filters-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;  /* <— anchor to the left */
+  gap: 10px;                    /* space between them */
+  margin: 6px 0 10px;
+}
+
+/* ===== Show counter pill: match dropdown sizing ===== */
+.show-counter {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;                      /* spacing between icon and text */
+  padding: 6px 12px;             /* bigger, consistent padding */
+  border: 1px solid #d6e4f0;     /* match your palette */
+  border-radius: 8px;
+  background-color: #f8fbff;
+  margin: 0;                     /* kill default <p> margins so it aligns */
+  line-height: 1.2;
+}
+
+/* optional: a tiny icon margin if you render one inside */
+.show-counter .bi,
+.show-counter svg,
+.show-counter .counter-icon {
+  margin-right: 4px;
+}
+
+/* ===== Year dropdown button: slightly compact to match the pill ===== */
+.year-filter .btn {
+  padding: 6px 12px;             /* same as .show-counter */
+  font-size: 12px;
+  line-height: 1.2;
+  border: 1px solid #d6e4f0;
+}
+
+/* Smaller dropdown menu text */
+.year-filter .dropdown-menu {
+  font-size: 12px;               /* smaller menu text */
+  line-height: 1.2;
+}
+
+.year-filter .dropdown-item {
+  padding: 4px 10px;             /* tighter items */
 }

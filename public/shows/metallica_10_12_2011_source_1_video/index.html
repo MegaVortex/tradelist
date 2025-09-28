@@ -142,82 +142,89 @@
             <tr>
                <td style="vertical-align: top; text-align: left; width: 375px; table-layout: fixed; position: relative;">
                   <!-- DETAILS -->
-                  <div>
-                     <strong>Size:</strong>
-                     
-                        
-                        
-                        <span>7.33Gb</span>
-                        
-                           <a href="#" class="toggle-media" data-target="media-toggle">▾ +1</a>
-                        
-                     
-<div class="media-icons-top">
+<div class="pill-wrap">
+  <strong>Size:</strong>
+  
     
-        
-        
-            <img src="/tradelist/assets/images/dvd.png" alt="DVD" title="DVD-9">
-        
     
-        
-        
-            <img src="/tradelist/assets/images/dvd.png" alt="DVD" title="DVD-9">
-        
+    <span>7.33Gb</span>
+
     
+      <button
+        type="button"
+        class="count-badge toggle-media"
+        data-target="media-toggle"
+        aria-expanded="false"
+        title="Show 1 more size"
+      >+1</button>
+    
+  
+
+  <!-- icons stay inside pill-wrap so they line up with Size -->
+  <div class="media-icons-top">
+    
+      
+      
+        <img src="/tradelist/assets/images/dvd.png" alt="DVD" title="DVD-9">
+      
+    
+      
+      
+        <img src="/tradelist/assets/images/dvd.png" alt="DVD" title="DVD-9">
+      
+    
+  </div>
 </div>
-                  </div>
-                  
-                     <div id="media-toggle" class="extra-media indent-block-size" style="display: none;">
-                        
-                           <div>7.26Gb</div>
-                        
-                     </div>
-                  
+
+
+  <div id="media-toggle" class="extra-media indent-block-size" style="display: none;">
+    
+      <div>7.26Gb</div>
+    
+  </div>
+
                   <strong>Length:</strong>
                   03:47:36<br>
-                  <!-- VIDEO -->
-                  
-                     <div>
-                        <strong>Video:</strong>
-                        
-                           
-                           
-                           PAL
-                           
-                              (16:9)
-                           
-                           
-                           720x576
-                           
-                           
-                              VBR
-                           
-                           
-                           
-                              Letterboxed
-                           
-                        
-                     </div>
-                     
-                  
-                  <!-- AUDIO -->
-                  <div>
-                     <strong>Audio:</strong>
-                     
-                        
-                        
-                        
-                        
-                           LPCM
-                        
-                        
-                        
-                           2ch
-                        
-                        
-                     
-                  </div>
-                  
+<!-- VIDEO -->
+
+  <div>
+    <strong>Video:</strong>
+    
+      
+      
+      PAL
+       (16:9)
+      
+      
+      720x576
+      
+       VBR
+      
+       Letterboxed
+
+      
+    
+  </div>
+
+  
+
+<!-- AUDIO -->
+<div>
+  <strong>Audio:</strong>
+  
+    
+    
+    
+     LPCM
+    
+     2ch
+    
+
+    
+  
+</div>
+
+
                   <strong>Type:</strong>
                   <span  title="Professional" >
                      AMT
@@ -482,279 +489,233 @@
                   
                   
                      <div class="extras-card">
-                        <div class="extras-header">
-                           <span>Extras</span>
-                           <a href="#" class="toggle-media" data-target="extras-list-content">▾ +19</a>
-                        </div>
-                        <ol id="extras-list-content" style="margin-top: 5px; margin-left: -1.3em; display: none;">
+                       <div class="extras-header">
+                         <span>Extras:</span>
+                         
+                           <button
+                             type="button"
+                             class="count-badge toggle-media"
+                             data-target="extras-list-content"
+                             aria-expanded="false"
+                             title="Show 19 extras"
+                           >+19</button>
+                         
+                       </div>
+                     
+                       
+                         <ol id="extras-list-content" class="extra-media indent-block-extras" style="display: none; margin-top: 5px; margin-left: -1.3em;">
                            
-                              <li>
-                                 No Leaf Clover
-                                 
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          Apocalyptica</em>
-                                    </span>
-                                 
-                                 
-                              </li>
+                             <li>
+                               No Leaf Clover
+                               
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. Apocalyptica</em></span>
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 Please Don&#39;t Judas Me  (cut)
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Cover">🎵</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>Nazareth
-                                          cover</em>
-                                    </span>
-                                 
-                                 
-                                 
-                              </li>
+                             <li>
+                               Please Don&#39;t Judas Me  (cut)
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Cover">🎵</span>
+                                 <span class="feat-popup" style="display: none;"><em>Nazareth cover</em></span>
+                               
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 Damage Inc.
-                                 
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          Jason Newsted</em>
-                                    </span>
-                                 
-                                 
-                              </li>
+                             <li>
+                               Damage Inc.
+                               
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. Jason Newsted</em></span>
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 Motorcycle Man
-                                 
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          Biff Byford</em>
-                                    </span>
-                                 
-                                 
-                              </li>
+                             <li>
+                               Motorcycle Man
+                               
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. Biff Byford</em></span>
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 The Prince
-                                 
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          Diamond Head</em>
-                                    </span>
-                                 
-                                 
-                              </li>
+                             <li>
+                               The Prince
+                               
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. Diamond Head</em></span>
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 Turn The Page
-                                 
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          Kid Rock</em>
-                                    </span>
-                                 
-                                 
-                              </li>
+                             <li>
+                               Turn The Page
+                               
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. Kid Rock</em></span>
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 Iced Honey
-                                 
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          Lou Reed</em>
-                                    </span>
-                                 
-                                 
-                              </li>
+                             <li>
+                               Iced Honey
+                               
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. Lou Reed</em></span>
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 Battery
-                                 
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          Jason Newsted</em>
-                                    </span>
-                                 
-                                 
-                              </li>
+                             <li>
+                               Battery
+                               
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. Jason Newsted</em></span>
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 Breadfan
-                                 
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          fan-club member Andrew &#39;Midget&#39; Dowis</em>
-                                    </span>
-                                 
-                                 
-                              </li>
+                             <li>
+                               Breadfan
+                               
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. fan-club member Andrew &#39;Midget&#39; Dowis</em></span>
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 Wherevere I May Roam
-                                 
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          fan-club member John Dent</em>
-                                    </span>
-                                 
-                                 
-                              </li>
+                             <li>
+                               Wherevere I May Roam
+                               
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. fan-club member John Dent</em></span>
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 Blackened
-                                 
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          fan-club members Dennis and Annette Diaz</em>
-                                    </span>
-                                 
-                                 
-                              </li>
+                             <li>
+                               Blackened
+                               
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. fan-club members Dennis and Annette Diaz</em></span>
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 Blitzkrieg
-                                 
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          fan-club member Joseph Guariglia</em>
-                                    </span>
-                                 
-                                 
-                              </li>
+                             <li>
+                               Blitzkrieg
+                               
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. fan-club member Joseph Guariglia</em></span>
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 Sad But True
-                                 
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          John Marshall</em>
-                                    </span>
-                                 
-                                 
-                              </li>
+                             <li>
+                               Sad But True
+                               
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. John Marshall</em></span>
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 Motorbreath
-                                 
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          Hugh Tanner</em>
-                                    </span>
-                                 
-                                 
-                              </li>
+                             <li>
+                               Motorbreath
+                               
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. Hugh Tanner</em></span>
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 For Whom The Bell Tolls
-                                 
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          Jerry Cantrell</em>
-                                    </span>
-                                 
-                                 
-                              </li>
+                             <li>
+                               For Whom The Bell Tolls
+                               
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. Jerry Cantrell</em></span>
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 King Nothing
-                                 
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          Jason Newsted</em>
-                                    </span>
-                                 
-                                 
-                              </li>
+                             <li>
+                               King Nothing
+                               
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. Jason Newsted</em></span>
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 Sabbra Cadabra
-                                 
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          Geezer Butler</em>
-                                    </span>
-                                 
-                                 
-                              </li>
+                             <li>
+                               Sabbra Cadabra
+                               
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. Geezer Butler</em></span>
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 Frantic
-                                 
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          Bob Rock</em>
-                                    </span>
-                                 
-                                 
-                              </li>
+                             <li>
+                               Frantic
+                               
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. Bob Rock</em></span>
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 Seek And Destroy
-                                 
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          Jason Newsted, Dave Mustaine, Lloyd Grant, Ron McGovney, Hugh Tanner, Mark Osegueda and The Soul Rebels</em>
-                                    </span>
-                                 
-                                 
-                              </li>
+                             <li>
+                               Seek And Destroy
+                               
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. Jason Newsted, Dave Mustaine, Lloyd Grant, Ron McGovney, Hugh Tanner, Mark Osegueda and The Soul Rebels</em></span>
+                               
+                               
+                             </li>
                            
-                        </ol>
+                         </ol>
+                       
                      </div>
                   
                </td>

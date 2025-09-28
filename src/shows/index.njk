@@ -5,10 +5,22 @@
       <div id="letter-bar" class="letter-bar"></div>
       <div id="band-pills" class="d-flex flex-wrap gap-2 justify-content-center my-2" style="display:none;"></div>
    </div>
-   <p id="show-count" class="show-counter">
-      🎫 Shows:
-      <span id="show-count-number">0</span>
-   </p>
+   <div class="filters-row">
+     <p id="show-count" class="show-counter">
+       🎫 Shows: <span id="show-count-number">0</span>
+     </p>
+
+     <div class="dropdown year-filter">
+       <button id="yearFilterBtn"
+               class="btn year-pill dropdown-toggle"
+               type="button"
+               data-bs-toggle="dropdown"
+               aria-expanded="false">
+         All years
+       </button>
+       <ul class="dropdown-menu dropdown-menu-end year-menu" id="yearMenu"></ul>
+     </div>
+   </div>
    <div id="grouping-hint" style="display:none; font-size: 11px; color: #555; margin-bottom: 10px;"></div>
    <table id="shows-table">
       <thead>

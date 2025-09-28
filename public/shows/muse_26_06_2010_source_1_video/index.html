@@ -137,88 +137,90 @@
             <tr>
                <td style="vertical-align: top; text-align: left; width: 375px; table-layout: fixed; position: relative;">
                   <!-- DETAILS -->
-                  <div>
-                     <strong>Size:</strong>
-                     
-                        
-                        
-                        <span>4.13Gb</span>
-                        
-                     
-<div class="media-icons-top">
+<div class="pill-wrap">
+  <strong>Size:</strong>
+  
     
-        
-        
-            <img src="/tradelist/assets/images/dvd.png" alt="DVD" title="DVD-5">
-        
     
+    <span>4.13Gb</span>
+
+    
+  
+
+  <!-- icons stay inside pill-wrap so they line up with Size -->
+  <div class="media-icons-top">
+    
+      
+      
+        <img src="/tradelist/assets/images/dvd.png" alt="DVD" title="DVD-5">
+      
+    
+  </div>
 </div>
-                  </div>
-                  
+
+
                   <strong>Length:</strong>
                   02:36:29<br>
-                  <!-- VIDEO -->
-                  
-                     <div>
-                        <strong>Video:</strong>
-                        
-                           
-                           
-                           PAL
-                           
-                              (16:9)
-                           
-                           
-                           720x576
-                           
-                           
-                              VBR
-                           
-                           
-                           
-                              Letterboxed
-                           
-                        
-                     </div>
-                     
-                  
-                  <!-- AUDIO -->
-                  <div>
-                     <strong>Audio:</strong>
-                     
-                        
-                        
-                        English
-                        
-                        
-                           MPEG1
-                        
-                        
-                        
-                           2ch
-                        
-                        
-                           <a href="#" class="toggle-media" data-target="audio-toggle">▾ +1</a>
-                        
-                     
-                  </div>
-                  
-                     <div id="audio-toggle" class="extra-media indent-block-audio" style="display: none;">
-                        
-                           <div>
-                              English
-                              
-                              
-                                 AC3
-                              
-                              
-                              
-                                 6ch
-                              
-                           </div>
-                        
-                     </div>
-                  
+<!-- VIDEO -->
+
+  <div>
+    <strong>Video:</strong>
+    
+      
+      
+      PAL
+       (16:9)
+      
+      
+      720x576
+      
+       VBR
+      
+       Letterboxed
+
+      
+    
+  </div>
+
+  
+
+<!-- AUDIO -->
+<div>
+  <strong>Audio:</strong>
+  
+    
+    
+    English
+     MPEG1
+    
+     2ch
+    
+
+    
+      <button
+        type="button"
+        class="count-badge toggle-media"
+        data-target="audio-toggle"
+        aria-expanded="false"
+        title="Show 1 more audio track"
+      >+1</button>
+    
+  
+</div>
+
+
+  <div id="audio-toggle" class="extra-media indent-block-audio" style="display:none;">
+    
+      <div>
+        English
+         AC3
+        
+         6ch
+        
+      </div>
+    
+  </div>
+
                   <strong>Type:</strong>
                   <span  >
                      PRO
@@ -435,49 +437,54 @@
                   
                   
                      <div class="extras-card">
-                        <div class="extras-header">
-                           <span>Extras</span>
-                           <a href="#" class="toggle-media" data-target="extras-list-content">▾ +3</a>
-                        </div>
-                        <ol id="extras-list-content" style="margin-top: 5px; margin-left: -1.3em; display: none;">
+                       <div class="extras-header">
+                         <span>Extras:</span>
+                         
+                           <button
+                             type="button"
+                             class="count-badge toggle-media"
+                             data-target="extras-list-content"
+                             aria-expanded="false"
+                             title="Show 3 extras"
+                           >+3</button>
+                         
+                       </div>
+                     
+                       
+                         <ol id="extras-list-content" class="extra-media indent-block-extras" style="display: none; margin-top: 5px; margin-left: -1.3em;">
                            
-                              <li>
-                                 Interview
-                                 
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          The Edge</em>
-                                    </span>
-                                 
-                                 
-                              </li>
+                             <li>
+                               Interview
+                               
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. The Edge</em></span>
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 Photo Gallery
-                                 
-                                 
-                                 
-                                 
-                              </li>
+                             <li>
+                               Photo Gallery
+                               
+                               
+                               
+                               
+                             </li>
                            
-                              <li>
-                                 Radio Broadcast
-                                 
-                                 
-                                 
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          5.1 upmix</em>
-                                    </span>
-                                 
-                                 
-                              </li>
+                             <li>
+                               Radio Broadcast
+                               
+                               
+                               
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. 5.1 upmix</em></span>
+                               
+                               
+                             </li>
                            
-                        </ol>
+                         </ol>
+                       
                      </div>
                   
                </td>

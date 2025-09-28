@@ -172,151 +172,142 @@
             <tr>
                <td style="vertical-align: top; text-align: left; width: 375px; table-layout: fixed; position: relative;">
                   <!-- DETAILS -->
-                  <div>
-                     <strong>Size:</strong>
-                     {% if show.specs and show.specs.media and show.specs.media.length %}
-                        {% set media = show.specs.media %}
-                        {% set main = media[0] %}
-                        <span>{{ main.size | smartSize }}{{ main.unit }}</span>
-                        {% if media.length > 1 %}
-                           <a href="#" class="toggle-media" data-target="media-toggle">▾ +{{ media.length - 1 }}</a>
-                        {% endif %}
-                     {% else %}
-                        —
-                     {% endif %}
-<div class="media-icons-top">
+<div class="pill-wrap">
+  <strong>Size:</strong>
+  {% if show.specs and show.specs.media and show.specs.media.length %}
+    {% set media = show.specs.media %}
+    {% set main = media[0] %}
+    <span>{{ main.size | smartSize }}{{ main.unit }}</span>
+
+    {% if media.length > 1 %}
+      <button
+        type="button"
+        class="count-badge toggle-media"
+        data-target="media-toggle"
+        aria-expanded="false"
+        title="Show {{ media.length - 1 }} more size{{ '' if (media.length - 1) == 1 else 's' }}"
+      >+{{ media.length - 1 }}</button>
+    {% endif %}
+  {% else %}
+    —
+  {% endif %}
+
+  <!-- icons stay inside pill-wrap so they line up with Size -->
+  <div class="media-icons-top">
     {% for medium in show.specs.media %}
-        {% set type = medium.type %}
-        {% if type == "Floppy" %}
-            <img src="{{ '/assets/images/floppy.png' | url }}" alt="Floppy" title="Floppy">
-        {% elif type == "CD" %}
-            <img src="{{ '/assets/images/cd.png' | url }}" alt="CD" title="CD">
-        {% elif type in ["DVD-5", "DVD-9"] %}
-            <img src="{{ '/assets/images/dvd.png' | url }}" alt="DVD" title="{{ type }}">
-        {% elif type in ["BD-25", "BD-50"] %}
-            <img src="{{ '/assets/images/bd.png' | url }}" alt="Blu-ray" title="{{ type }}">
-        {% elif type == "4K UHD" %}
-            <img src="{{ '/assets/images/sd.png' | url }}" alt="4K UHD" title="4K UHD">
-        {% endif %}
+      {% set type = medium.type %}
+      {% if type == "Floppy" %}
+        <img src="{{ '/assets/images/floppy.png' | url }}" alt="Floppy" title="Floppy">
+      {% elif type == "CD" %}
+        <img src="{{ '/assets/images/cd.png' | url }}" alt="CD" title="CD">
+      {% elif type in ["DVD-5", "DVD-9"] %}
+        <img src="{{ '/assets/images/dvd.png' | url }}" alt="DVD" title="{{ type }}">
+      {% elif type in ["BD-25", "BD-50"] %}
+        <img src="{{ '/assets/images/bd.png' | url }}" alt="Blu-ray" title="{{ type }}">
+      {% elif type == "4K UHD" %}
+        <img src="{{ '/assets/images/sd.png' | url }}" alt="4K UHD" title="4K UHD">
+      {% endif %}
     {% endfor %}
+  </div>
 </div>
-                  </div>
-                  {% if show.specs and show.specs.media and show.specs.media.length > 1 %}
-                     <div id="media-toggle" class="extra-media indent-block-size" style="display: none;">
-                        {% for medium in show
-                           .specs
-                           .media
-                           .slice(1) %}
-                           <div>{{ medium.size | smartSize }}{{ medium.unit }}</div>
-                        {% endfor %}
-                     </div>
-                  {% endif %}
+
+{% if show.specs and show.specs.media and show.specs.media.length > 1 %}
+  <div id="media-toggle" class="extra-media indent-block-size" style="display: none;">
+    {% for medium in show.specs.media.slice(1) %}
+      <div>{{ medium.size | smartSize }}{{ medium.unit }}</div>
+    {% endfor %}
+  </div>
+{% endif %}
                   <strong>Length:</strong>
                   {{ show.specs.length | formatTime }}<br>
-                  <!-- VIDEO -->
-                  {% if 'audio' not in show.category %}
-                     <div>
-                        <strong>Video:</strong>
-                        {% if show.specs.video and show.specs.video.length %}
-                           {% set videos = show.specs.video %}
-                           {% set v = videos[0] %}
-                           {{ v.tvFormat }}
-                           {% if v.ratio %}
-                              ({{ v.ratio }}){% endif %}
-                           {{ v.standard }}
-                           {% if v.codec %}
-                              ({{ v.codec }}){% endif %}
-                           {{ v.resolution }}
-                           {% if v.fps %}
-                              {{ v.fps }}fps{% endif %}
-                           {% if v.bitrateType %}
-                              {{ v.bitrateType }}
-                           {% endif %}
-                           {% if v.bitrateKbps %}
-                              {{ v.bitrateKbps }}kbps{% endif %}
-                           {% if v.letterboxed == true %}
-                              Letterboxed{% endif %}
-                           {% if videos.length > 1 %}
-                              <a href="#" class="toggle-media" data-target="video-toggle">▾ +{{ videos.length - 1 }}</a>
-                           {% endif %}
-                        {% else %}
-                           —
-                        {% endif %}
-                     </div>
-                     {% if show.specs.video and show.specs.video.length > 1 %}
-                        <div id="video-toggle" class="extra-media indent-block-video" style="display: none;">
-                           {% for vid in show
-                              .specs
-                              .video
-                              .slice(1) %}
-                              <div>
-                                 {{ vid.tvFormat }}
-                                 {% if vid.ratio %}
-                                    ({{ vid.ratio }}){% endif %}
-                                 {{ vid.standard }}
-                                 {% if vid.codec %}
-                                    ({{ vid.codec }}){% endif %}
-                                 {{ vid.resolution }}
-                                 {% if vid.fps %}
-                                    {{ vid.fps }}fps{% endif %}
-                                 {% if vid.bitrateType %}
-                                    {{ vid.bitrateType }}
-                                 {% endif %}
-                                 {% if vid.bitrateKbps %}
-                                    {{ vid.bitrateKbps }}kbps{% endif %}
-                                 {% if vid.letterboxed == true %}
-                                    Letterboxed{% endif %}
-                              </div>
-                           {% endfor %}
-                        </div>
-                     {% endif %}
-                  {% endif %}
-                  <!-- AUDIO -->
-                  <div>
-                     <strong>Audio:</strong>
-                     {% if show.specs.audio and show.specs.audio.length %}
-                        {% set audios = show.specs.audio %}
-                        {% set a = audios[0] %}
-                        {% if a.language %}{{ a.language | langName }}
-                        {% endif %}
-                        {% if a.codec %}
-                           {{ a.codec }}
-                        {% endif %}
-                        {% if a.rateHz %}
-                           {{ a.rateHz }}Hz{% endif %}
-                        {% if a.channels %}
-                           {{ a.channels }}ch{% endif %}
-                        {% if a.bitrateKbps %}
-                           {{ a.bitrateKbps }}kbps{% endif %}
-                        {% if audios.length > 1 %}
-                           <a href="#" class="toggle-media" data-target="audio-toggle">▾ +{{ audios.length - 1 }}</a>
-                        {% endif %}
-                     {% else %}
-                        —
-                     {% endif %}
-                  </div>
-                  {% if show.specs.audio and show.specs.audio.length > 1 %}
-                     <div id="audio-toggle" class="extra-media indent-block-audio" style="display: none;">
-                        {% for a in show
-                           .specs
-                           .audio
-                           .slice(1) %}
-                           <div>
-                              {% if a.language %}{{ a.language | langName }}
-                              {% endif %}
-                              {% if a.codec %}
-                                 {{ a.codec }}
-                              {% endif %}
-                              {% if a.rateHz %}
-                                 {{ a.rateHz }}Hz{% endif %}
-                              {% if a.channels %}
-                                 {{ a.channels }}ch{% endif %}
-                              {% if a.bitrateKbps %}
-                                 {{ a.bitrateKbps }}kbps{% endif %}
-                           </div>
-                        {% endfor %}
-                     </div>
-                  {% endif %}
+<!-- VIDEO -->
+{% if 'audio' not in show.category %}
+  <div>
+    <strong>Video:</strong>
+    {% if show.specs.video and show.specs.video.length %}
+      {% set videos = show.specs.video %}
+      {% set v = videos[0] %}
+      {{ v.tvFormat }}
+      {% if v.ratio %} ({{ v.ratio }}){% endif %}
+      {{ v.standard }}
+      {% if v.codec %} ({{ v.codec }}){% endif %}
+      {{ v.resolution }}
+      {% if v.fps %} {{ v.fps }}fps{% endif %}
+      {% if v.bitrateType %} {{ v.bitrateType }}{% endif %}
+      {% if v.bitrateKbps %} {{ v.bitrateKbps }}kbps{% endif %}
+      {% if v.letterboxed == true %} Letterboxed{% endif %}
+
+      {% if videos.length > 1 %}
+        <button
+          type="button"
+          class="count-badge toggle-media"
+          data-target="video-toggle"
+          aria-expanded="false"
+          title="Show {{ videos.length - 1 }} more video track{{ '' if (videos.length - 1) == 1 else 's' }}"
+        >+{{ videos.length - 1 }}</button>
+      {% endif %}
+    {% else %}
+      —
+    {% endif %}
+  </div>
+
+  {% if show.specs.video and show.specs.video.length > 1 %}
+    <div id="video-toggle" class="extra-media indent-block-video" style="display:none;">
+      {% for vid in show.specs.video.slice(1) %}
+        <div>
+          {{ vid.tvFormat }}
+          {% if vid.ratio %} ({{ vid.ratio }}){% endif %}
+          {{ vid.standard }}
+          {% if vid.codec %} ({{ vid.codec }}){% endif %}
+          {{ vid.resolution }}
+          {% if vid.fps %} {{ vid.fps }}fps{% endif %}
+          {% if vid.bitrateType %} {{ vid.bitrateType }}{% endif %}
+          {% if vid.bitrateKbps %} {{ vid.bitrateKbps }}kbps{% endif %}
+          {% if vid.letterboxed == true %} Letterboxed{% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endif %}
+<!-- AUDIO -->
+<div>
+  <strong>Audio:</strong>
+  {% if show.specs.audio and show.specs.audio.length %}
+    {% set audios = show.specs.audio %}
+    {% set a = audios[0] %}
+    {% if a.language %}{{ a.language | langName }}{% endif %}
+    {% if a.codec %} {{ a.codec }}{% endif %}
+    {% if a.rateHz %} {{ a.rateHz }}Hz{% endif %}
+    {% if a.channels %} {{ a.channels }}ch{% endif %}
+    {% if a.bitrateKbps %} {{ a.bitrateKbps }}kbps{% endif %}
+
+    {% if audios.length > 1 %}
+      <button
+        type="button"
+        class="count-badge toggle-media"
+        data-target="audio-toggle"
+        aria-expanded="false"
+        title="Show {{ audios.length - 1 }} more audio track{{ '' if (audios.length - 1) == 1 else 's' }}"
+      >+{{ audios.length - 1 }}</button>
+    {% endif %}
+  {% else %}
+    —
+  {% endif %}
+</div>
+
+{% if show.specs.audio and show.specs.audio.length > 1 %}
+  <div id="audio-toggle" class="extra-media indent-block-audio" style="display:none;">
+    {% for a in show.specs.audio.slice(1) %}
+      <div>
+        {% if a.language %}{{ a.language | langName }}{% endif %}
+        {% if a.codec %} {{ a.codec }}{% endif %}
+        {% if a.rateHz %} {{ a.rateHz }}Hz{% endif %}
+        {% if a.channels %} {{ a.channels }}ch{% endif %}
+        {% if a.bitrateKbps %} {{ a.bitrateKbps }}kbps{% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
                   <strong>Type:</strong>
                   <span {% if show.specs.sourceDetail.recordingType == "AMT" %} title="Professional" {% elif show.specs.sourceDetail.recordingType == "PRO" %} {% endif %}>
                      {{ show.specs.sourceDetail.recordingType }}
@@ -593,40 +584,43 @@
                   {% endif %}
                   {% if show.extras and show.extras.length %}
                      <div class="extras-card">
-                        <div class="extras-header">
-                           <span>Extras</span>
-                           <a href="#" class="toggle-media" data-target="extras-list-content">▾ +{{ show.extras.length }}</a>
-                        </div>
-                        <ol id="extras-list-content" style="margin-top: 5px; margin-left: -1.3em; display: none;">
+                       <div class="extras-header">
+                         <span>Extras:</span>
+                         {% if show.extras.length > 0 %}
+                           <button
+                             type="button"
+                             class="count-badge toggle-media"
+                             data-target="extras-list-content"
+                             aria-expanded="false"
+                             title="Show {{ show.extras.length }} extra{{ '' if show.extras.length == 1 else 's' }}"
+                           >+{{ show.extras.length }}</button>
+                         {% endif %}
+                       </div>
+                     
+                       {% if show.extras.length > 0 %}
+                         <ol id="extras-list-content" class="extra-media indent-block-extras" style="display: none; margin-top: 5px; margin-left: -1.3em;">
                            {% for item in show.extras %}
-                              <li>
-                                 {{ item.song }}
-                                 {% if item.note %}
-                                    <span class="setlist-note-label">{{ item.note }}</span>
-                                 {% endif %}
-                                 {% if item.coverOf %}
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Cover">🎵</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>{{ item.coverOf }}
-                                          cover</em>
-                                    </span>
-                                 {% endif %}
-                                 {% if item.feat %}
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>feat.
-                                          {{ item.feat }}</em>
-                                    </span>
-                                 {% endif %}
-                                 {% if item.comment %}
-                                    <span class="info-icon" onclick="toggleFeatInfo(this)" title="Comment">💬</span>
-                                    <span class="feat-popup" style="display: none;">
-                                       <em>{{ item.comment }}</em>
-                                    </span>
-                                 {% endif %}
-                              </li>
+                             <li>
+                               {{ item.song }}
+                               {% if item.note %}
+                                 <span class="setlist-note-label">{{ item.note }}</span>
+                               {% endif %}
+                               {% if item.coverOf %}
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Cover">🎵</span>
+                                 <span class="feat-popup" style="display: none;"><em>{{ item.coverOf }} cover</em></span>
+                               {% endif %}
+                               {% if item.feat %}
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;"><em>feat. {{ item.feat }}</em></span>
+                               {% endif %}
+                               {% if item.comment %}
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Comment">💬</span>
+                                 <span class="feat-popup" style="display: none;"><em>{{ item.comment }}</em></span>
+                               {% endif %}
+                             </li>
                            {% endfor %}
-                        </ol>
+                         </ol>
+                       {% endif %}
                      </div>
                   {% endif %}
                </td>

@@ -8,10 +8,15 @@ permalink: "/private/"
       <div id="letter-bar" class="letter-bar"></div>
       <div id="band-pills" class="d-flex flex-wrap gap-2 justify-content-center my-2" style="display:none;"></div>
    </div>
-   <p id="show-count" class="show-counter">
-      🎫 Shows:
-      <span id="show-count-number">{{ allShowData.privateRegularShows | length }}</span>
-   </p>
+   <div class="table-wrapper">
+      <div id="letter-bar" class="letter-bar"></div>
+      <div id="band-pills" class="d-flex flex-wrap gap-2 justify-content-center my-2" style="display:none;"></div>
+   </div>
+   <div class="filters-row">
+     <p id="show-count" class="show-counter">🎫 Shows:
+       <span id="show-count-number">{{ allShowData.privateRegularShows | length }}</span>
+     </p>
+   </div>
    <div id="grouping-hint" style="display:none; font-size: 11px; color: #555; margin-bottom: 10px;"></div>
    <table id="shows-table">
       <thead>
@@ -98,28 +103,37 @@ permalink: "/private/"
                      —
                   {% endif %}
                </td>
-               <td>
-                  {% if show.specs and show.specs.media and show.specs.media.length %}
-                     {% set media = show.specs.media %}
-                     <div class="media-wrapper">
-                        {% set main = media[0] %}
-                        <span>{{ main.size | smartSize }}{{ main.unit }}</span>
-                        {% if media.length > 1 %}
-                           <a href="#" class="toggle-media" data-target="media-{{ loop.index0 }}">
-                              ▾ +{{ media.length - 1 }}
-                           </a>
-                        {% endif %}
-                     </div>
+               <td class="size-cell">
+                 {% if show.specs and show.specs.media and show.specs.media.length %}
+                   {% set media = show.specs.media %}
+                   {% set main = media[0] %}
+               
+                   <div class="media-wrapper">
+                     <span>{{ main.size | smartSize }}{{ main.unit }}</span>
+               
                      {% if media.length > 1 %}
-                        <div id="media-{{ loop.index0 }}" class="extra-media">
-                           {% for medium in media.slice(1) %}
-                              <div>{{ medium.size | smartSize }}{{ medium.unit }}</div>
-                           {% endfor %}
-                        </div>
+                       <button
+                         type="button"
+                         class="count-badge toggle-media"
+                         data-target="media-{{ loop.index0 }}"
+                         aria-expanded="false"
+                         title="Show {{ media.length - 1 }} more size{{ '' if (media.length - 1) == 1 else 's' }}"
+                       >
+                         +{{ media.length - 1 }}
+                       </button>
                      {% endif %}
-                  {% else %}
-                     —
-                  {% endif %}
+                   </div>
+               
+                   {% if media.length > 1 %}
+                     <div id="media-{{ loop.index0 }}" class="extra-media">
+                       {% for medium in media.slice(1) %}
+                         <div>{{ medium.size | smartSize }}{{ medium.unit }}</div>
+                       {% endfor %}
+                     </div>
+                   {% endif %}
+                 {% else %}
+                   —
+                 {% endif %}
                </td>
                <td class="format-cell">
                   <span class="format-value-other">{{ show.specs.sourceDetail.fileFormat if show.specs and show.specs.sourceDetail else "—" }}</span>
@@ -149,32 +163,39 @@ permalink: "/private/"
                      <span class="trade-label master">M</span>
                   {% endif %}
                </td>
-               <td class="type-cell">
-                  {% if show.tapers and show.tapers.length %}
-                     {% set tapers = show.tapers %}
-                     <div class="media-wrapper">
-                        <span>{{ tapers[0] }}</span>
-                        {% if tapers.length > 1 %}
-                           <a href="#" class="toggle-media" data-target="media-{{ loop.index0 }}">
-                              ▾ +{{ tapers.length - 1 }}
-                           </a>
-                        {% endif %}
-                     </div>
+               <td class="taper-cell">
+                 {% if show.tapers and show.tapers.length %}
+                   {% set tapers = show.tapers %}
+                   <div class="media-wrapper">
+                     <span>{{ tapers[0] }}</span>
+               
                      {% if tapers.length > 1 %}
-                        <div id="media-{{ loop.index0 }}" class="extra-media">
-                           {% for taper in tapers.slice(1) %}
-                              <div>{{ taper }}</div>
-                           {% endfor %}
-                        </div>
+                       <button
+                         type="button"
+                         class="count-badge toggle-media"
+                         data-target="tapers-{{ loop.index0 }}"
+                         aria-expanded="false"
+                         title="Show {{ tapers.length - 1 }} more taper{{ '' if (tapers.length - 1) == 1 else 's' }}"
+                       >+{{ tapers.length - 1 }}</button>
                      {% endif %}
-                  {% else %}
-                     —
-                  {% endif %}
-                  {% if show.tradeLabel == 'RT' %}
-                     <span class="trade-label red">RT</span>
-                  {% elif show.tradeLabel == 'NT' %}
-                     <span class="trade-label blue">NT</span>
-                  {% endif %}
+                   </div>
+               
+                   {% if tapers.length > 1 %}
+                     <div id="tapers-{{ loop.index0 }}" class="extra-media">
+                       {% for t in tapers.slice(1) %}
+                         <div>{{ t }}</div>
+                       {% endfor %}
+                     </div>
+                   {% endif %}
+                 {% else %}
+                   —
+                 {% endif %}
+               
+                 {% if show.tradeLabel == 'RT' %}
+                   <span class="trade-label red">RT</span>
+                 {% elif show.tradeLabel == 'NT' %}
+                   <span class="trade-label blue">NT</span>
+                 {% endif %}
                </td>
                <td>
                   {% if show.images and show.images.length %}
