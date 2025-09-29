@@ -45,37 +45,37 @@ document.addEventListener('DOMContentLoaded', () => {
         const titleB = (b.dataset.title || '').toLowerCase();
         return titleA.localeCompare(titleB, undefined, { numeric: true, sensitivity: 'base' });
     };
-	
-	function insertBandLabels() {
-    const tbody = document.querySelector('#shows-table tbody');
-    if (!tbody) return;
 
-    tbody.querySelectorAll('.band-label-row').forEach(label => label.remove());
+    function insertBandLabels() {
+        const tbody = document.querySelector('#shows-table tbody');
+        if (!tbody) return;
 
-    const showRows = [...tbody.querySelectorAll('tr.paginated-show')];
-    let currentBand = null;
+        tbody.querySelectorAll('.band-label-row').forEach(label => label.remove());
 
-    showRows.forEach(row => {
-        const bandAttr = (row.dataset.band || '').split('|||')[0];
-        if (bandAttr && bandAttr !== currentBand) {
-            currentBand = bandAttr;
-            const labelRow = document.createElement('tr');
-            labelRow.classList.add('band-label-row');
-            labelRow.setAttribute('data-label', 'true');
-            labelRow.innerHTML = `
+        const showRows = [...tbody.querySelectorAll('tr.paginated-show')];
+        let currentBand = null;
+
+        showRows.forEach(row => {
+            const bandAttr = (row.dataset.band || '').split('|||')[0];
+            if (bandAttr && bandAttr !== currentBand) {
+                currentBand = bandAttr;
+                const labelRow = document.createElement('tr');
+                labelRow.classList.add('band-label-row');
+                labelRow.setAttribute('data-label', 'true');
+                labelRow.innerHTML = `
                 <td colspan="12" class="band-label">🎸 ${bandAttr}</td>
             `;
-            tbody.insertBefore(labelRow, row);
-        }
-    });
-}
+                tbody.insertBefore(labelRow, row);
+            }
+        });
+    }
 
     const showRows = tableRows.filter(r => !r.hasAttribute('data-label'));
     showRows.sort(vaShowSorter);
 
-showRows.forEach(row => tbody.appendChild(row));
+    showRows.forEach(row => tbody.appendChild(row));
 
-insertBandLabels();
+    insertBandLabels();
 
     function buildBandPillsForLetter(letter) {
         const bandSet = new Set();
@@ -194,67 +194,67 @@ insertBandLabels();
         paginateShows();
     });
 
-function paginateShows() {
-    const rows = [...document.querySelectorAll('.paginated-show')].filter(row => row.style.display !== 'none');
-    const perPage = 200;
-    const controls = document.getElementById('pagination-controls');
+    function paginateShows() {
+        const rows = [...document.querySelectorAll('.paginated-show')].filter(row => row.style.display !== 'none');
+        const perPage = 200;
+        const controls = document.getElementById('pagination-controls');
 
-    if (rows.length <= perPage) {
-        if (controls) controls.innerHTML = '';
-        rows.forEach(r => r.style.display = '');
-        return;
-    }
-
-    let currentPage = 1;
-    const totalPages = Math.ceil(rows.length / perPage);
-
-    function showPage(page) {
-        currentPage = page;
-
-        rows.forEach((row, index) => {
-            const isVisible = (index >= (page - 1) * perPage && index < page * perPage);
-            row.style.display = isVisible ? '' : 'none';
-        });
-
-        renderPaginationControls();
-        updateShowCount();
-    }
-
-    function renderPaginationControls() {
-        if (totalPages <= 1) {
-            controls.innerHTML = '';
+        if (rows.length <= perPage) {
+            if (controls) controls.innerHTML = '';
+            rows.forEach(r => r.style.display = '');
             return;
         }
 
-        let html = '<nav><ul class="pagination justify-content-center">';
+        let currentPage = 1;
+        const totalPages = Math.ceil(rows.length / perPage);
 
-        if (currentPage > 1) {
-            html += `<li class="page-item"><a class="page-link" href="#" data-page="${currentPage - 1}">←</a></li>`;
+        function showPage(page) {
+            currentPage = page;
+
+            rows.forEach((row, index) => {
+                const isVisible = (index >= (page - 1) * perPage && index < page * perPage);
+                row.style.display = isVisible ? '' : 'none';
+            });
+
+            renderPaginationControls();
+            updateShowCount();
         }
 
-        for (let i = 1; i <= totalPages; i++) {
-            html += `<li class="page-item ${i === currentPage ? 'active' : ''}">
+        function renderPaginationControls() {
+            if (totalPages <= 1) {
+                controls.innerHTML = '';
+                return;
+            }
+
+            let html = '<nav><ul class="pagination justify-content-center">';
+
+            if (currentPage > 1) {
+                html += `<li class="page-item"><a class="page-link" href="#" data-page="${currentPage - 1}">←</a></li>`;
+            }
+
+            for (let i = 1; i <= totalPages; i++) {
+                html += `<li class="page-item ${i === currentPage ? 'active' : ''}">
                 <a class="page-link" href="#" data-page="${i}">${i}</a>
             </li>`;
-        }
+            }
 
-        if (currentPage < totalPages) {
-            html += `<li class="page-item"><a class="page-link" href="#" data-page="${currentPage + 1}">→</a></li>`;
-        }
+            if (currentPage < totalPages) {
+                html += `<li class="page-item"><a class="page-link" href="#" data-page="${currentPage + 1}">→</a></li>`;
+            }
 
-        html += '</ul></nav>';
-        controls.innerHTML = html;
+            html += '</ul></nav>';
+            controls.innerHTML = html;
 
-        controls.querySelectorAll('[data-page]').forEach(btn => {
-            btn.addEventListener('click', e => {
-                e.preventDefault();
-                const page = parseInt(btn.dataset.page, 10);
-                showPage(page);
+            controls.querySelectorAll('[data-page]').forEach(btn => {
+                btn.addEventListener('click', e => {
+                    e.preventDefault();
+                    const page = parseInt(btn.dataset.page, 10);
+                    showPage(page);
+                });
             });
-        });
+        }
+        showPage(1);
     }
-    showPage(1);
-}
     updateShowCount();
     if (!window.selectedBand) {
         paginateShows();

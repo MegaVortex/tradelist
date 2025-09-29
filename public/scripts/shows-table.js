@@ -6,10 +6,10 @@ const pathPrefix = "/tradelist";
 const TWO_WEEKS_SEC = 14 * 24 * 60 * 60;
 
 function isNewShow(show) {
-  const created = Number(show?.created);
-  if (!Number.isFinite(created)) return false;
-  const nowSec = Math.floor(Date.now() / 1000);
-  return (nowSec - created) <= TWO_WEEKS_SEC;
+    const created = Number(show?.created);
+    if (!Number.isFinite(created)) return false;
+    const nowSec = Math.floor(Date.now() / 1000);
+    return (nowSec - created) <= TWO_WEEKS_SEC;
 }
 
 function formatTime(seconds) {
@@ -206,21 +206,21 @@ function renderInitialShows(shows) {
   <div class="media-wrapper">
     <span>${smartSize(show.specs.media[0].size)}${show.specs.media[0].unit}</span>
     ${show.specs.media.length > 1
-      ? `<button type="button" class="count-badge toggle-media"
+                ? `<button type="button" class="count-badge toggle-media"
                  data-target="media-${i}"
                  aria-expanded="false"
                  title="Show ${show.specs.media.length - 1} more size${(show.specs.media.length - 1) === 1 ? '' : 's'}">
            +${show.specs.media.length - 1}
          </button>`
-      : ''
-    }
+                : ''
+            }
   </div>
   ${show.specs.media.length > 1
-    ? `<div id="media-${i}" class="extra-media">
+                ? `<div id="media-${i}" class="extra-media">
          ${show.specs.media.slice(1).map(m => `<div>${smartSize(m.size)}${m.unit}</div>`).join('')}
        </div>`
-    : ''
-  }
+                : ''
+            }
 </td>
 <td class="format-cell">
   ${(show.specs?.sourceDetail?.fileFormat || '—')}
@@ -246,22 +246,22 @@ function renderInitialShows(shows) {
   <div class="media-wrapper">
     <span>${show.tapers[0]}</span>
     ${show.tapers.length > 1
-      ? `<button type="button"
+                    ? `<button type="button"
                  class="count-badge toggle-media"
                  data-target="tapers-${i}"
                  aria-expanded="false"
                  title="Show ${show.tapers.length - 1} more taper${(show.tapers.length - 1) === 1 ? '' : 's'}">
             +${show.tapers.length - 1}
          </button>`
-      : ''
-    }
+                    : ''
+                }
   </div>
   ${show.tapers.length > 1
-    ? `<div id="tapers-${i}" class="extra-media">
+                    ? `<div id="tapers-${i}" class="extra-media">
          ${show.tapers.slice(1).map(t => `<div>${t}</div>`).join('')}
        </div>`
-    : ''
-  }
+                    : ''
+                }
 ` : '—'}
         ${show.tradeLabel === 'RT'
                 ? '<span class="trade-label red">RT</span>'
@@ -319,21 +319,21 @@ function prepareTableRows(shows) {
   <div class="media-wrapper">
     <span>${smartSize(show.specs.media[0].size)}${show.specs.media[0].unit}</span>
     ${show.specs.media.length > 1
-      ? `<button type="button" class="count-badge toggle-media"
+                ? `<button type="button" class="count-badge toggle-media"
                  data-target="media-${i}"
                  aria-expanded="false"
                  title="Show ${show.specs.media.length - 1} more size${(show.specs.media.length - 1) === 1 ? '' : 's'}">
            +${show.specs.media.length - 1}
          </button>`
-      : ''
-    }
+                : ''
+            }
   </div>
   ${show.specs.media.length > 1
-    ? `<div id="media-${i}" class="extra-media">
+                ? `<div id="media-${i}" class="extra-media">
          ${show.specs.media.slice(1).map(m => `<div>${smartSize(m.size)}${m.unit}</div>`).join('')}
        </div>`
-    : ''
-  }
+                : ''
+            }
 </td>
 <td class="format-cell">
   ${(show.specs?.sourceDetail?.fileFormat || '—')}
@@ -359,22 +359,22 @@ function prepareTableRows(shows) {
   <div class="media-wrapper">
     <span>${show.tapers[0]}</span>
     ${show.tapers.length > 1
-      ? `<button type="button"
+                    ? `<button type="button"
                  class="count-badge toggle-media"
                  data-target="tapers-${i}"
                  aria-expanded="false"
                  title="Show ${show.tapers.length - 1} more taper${(show.tapers.length - 1) === 1 ? '' : 's'}">
             +${show.tapers.length - 1}
          </button>`
-      : ''
-    }
+                    : ''
+                }
   </div>
   ${show.tapers.length > 1
-    ? `<div id="tapers-${i}" class="extra-media">
+                    ? `<div id="tapers-${i}" class="extra-media">
          ${show.tapers.slice(1).map(t => `<div>${t}</div>`).join('')}
        </div>`
-    : ''
-  }
+                    : ''
+                }
 ` : '—'}
         ${show.tradeLabel === 'RT'
                 ? '<span class="trade-label red">RT</span>'
@@ -573,7 +573,7 @@ function renderShows(limit = 100) {
 function initializeShowFilters(shows) {
     let currentFilterLetter = 'all';
     let currentFilterBands = [];
-	let currentFilterYear = 'all';
+    let currentFilterYear = 'all';
     let currentPage = 1;
     const perPage = 100;
 
@@ -608,47 +608,56 @@ function initializeShowFilters(shows) {
 
         return getSourceNumber(a) - getSourceNumber(b);
     });
-	
-	function buildYearDropdown() {
-      const btn = document.getElementById('yearFilterBtn');
-      const menu = document.getElementById('yearMenu');
-      if (!btn || !menu) return;
-    
-    
-      const yearsSet = new Set();
-      shows.forEach(s => {
-        if (typeof s.startDateUnix === 'number') {
-          yearsSet.add(new Date(s.startDateUnix * 1000).getFullYear());
-        } else if (s.startDate?.year) {
-          yearsSet.add(parseInt(s.startDate.year, 10));
+
+    function buildYearDropdown() {
+        const btn = document.getElementById('yearFilterBtn');
+        const menu = document.getElementById('yearMenu');
+        if (!btn || !menu) return;
+
+        const singleBand = currentFilterBands.length === 1 ? currentFilterBands[0] : null;
+        if (!singleBand) {
+            menu.innerHTML = '';
+            return;
         }
-      });
-    
-      const years = [...yearsSet].filter(Boolean).sort((a,b) => b - a);
-    
-      let html = `
+
+        const yearsSet = new Set();
+        shows.forEach(s => {
+            if (!Array.isArray(s.bands) || !s.bands.includes(singleBand)) return;
+
+            let y = null;
+            if (typeof s.startDateUnix === 'number') {
+                y = new Date(s.startDateUnix * 1000).getFullYear();
+            } else if (s.startDate?.year) {
+                y = parseInt(s.startDate.year, 10);
+            }
+            if (y) yearsSet.add(y);
+        });
+
+        const years = [...yearsSet].sort((a, b) => b - a);
+
+        let html = `
         <li><a class="dropdown-item ${currentFilterYear === 'all' ? 'active' : ''}" href="#" data-year="all">All years</a></li>
         <li><hr class="dropdown-divider"></li>
       `;
-    
-      html += years.map(y =>
-        `<li><a class="dropdown-item ${currentFilterYear === String(y) ? 'active' : ''}" href="#" data-year="${y}">${y}</a></li>`
-      ).join('');
-    
-      menu.innerHTML = html;
-    
-      menu.querySelectorAll('.dropdown-item').forEach(a => {
-        a.addEventListener('click', (e) => {
-          e.preventDefault();
-          currentFilterYear = a.dataset.year;
-          btn.textContent = (currentFilterYear === 'all') ? 'All years' : currentFilterYear;
-    
-          menu.querySelectorAll('.dropdown-item').forEach(x => x.classList.remove('active'));
-          a.classList.add('active');
-    
-          updateDisplay();
+        html += years.map(y =>
+            `<li><a class="dropdown-item ${currentFilterYear === String(y) ? 'active' : ''}" href="#" data-year="${y}">${y}</a></li>`
+        ).join('');
+
+        menu.innerHTML = html;
+
+        menu.querySelectorAll('.dropdown-item').forEach(a => {
+            a.addEventListener('click', (e) => {
+                e.preventDefault();
+                currentFilterYear = a.dataset.year;
+                document.getElementById('yearFilterBtn').textContent =
+                    currentFilterYear === 'all' ? 'All years' : currentFilterYear;
+
+                menu.querySelectorAll('.dropdown-item').forEach(x => x.classList.remove('active'));
+                a.classList.add('active');
+
+                updateDisplay();
+            });
         });
-      });
     }
 
     function renderPage(filteredShows, page) {
@@ -693,21 +702,21 @@ function initializeShowFilters(shows) {
   <div class="media-wrapper">
     <span>${smartSize(show.specs.media[0].size)}${show.specs.media[0].unit}</span>
     ${show.specs.media.length > 1
-      ? `<button type="button" class="count-badge toggle-media"
+                    ? `<button type="button" class="count-badge toggle-media"
                  data-target="media-${i}"
                  aria-expanded="false"
                  title="Show ${show.specs.media.length - 1} more size${(show.specs.media.length - 1) === 1 ? '' : 's'}">
            +${show.specs.media.length - 1}
          </button>`
-      : ''
-    }
+                    : ''
+                }
   </div>
   ${show.specs.media.length > 1
-    ? `<div id="media-${i}" class="extra-media">
+                    ? `<div id="media-${i}" class="extra-media">
          ${show.specs.media.slice(1).map(m => `<div>${smartSize(m.size)}${m.unit}</div>`).join('')}
        </div>`
-    : ''
-  }
+                    : ''
+                }
 </td>
 <td class="format-cell">
   ${(show.specs?.sourceDetail?.fileFormat || '—')}
@@ -733,29 +742,29 @@ function initializeShowFilters(shows) {
   <div class="media-wrapper">
     <span>${show.tapers[0]}</span>
     ${show.tapers.length > 1
-      ? `<button type="button"
+                        ? `<button type="button"
                  class="count-badge toggle-media"
                  data-target="tapers-${i}"
                  aria-expanded="false"
                  title="Show ${show.tapers.length - 1} more taper${(show.tapers.length - 1) === 1 ? '' : 's'}">
             +${show.tapers.length - 1}
          </button>`
-      : ''
-    }
+                        : ''
+                    }
   </div>
   ${show.tapers.length > 1
-    ? `<div id="tapers-${i}" class="extra-media">
+                        ? `<div id="tapers-${i}" class="extra-media">
          ${show.tapers.slice(1).map(t => `<div>${t}</div>`).join('')}
        </div>`
-    : ''
-  }
+                        : ''
+                    }
 ` : '—'}
         ${show.tradeLabel === 'RT'
-                ? '<span class="trade-label red">RT</span>'
-                : show.tradeLabel === 'NT'
-                    ? '<span class="trade-label blue">NT</span>'
-                    : ''
-            }
+                    ? '<span class="trade-label red">RT</span>'
+                    : show.tradeLabel === 'NT'
+                        ? '<span class="trade-label blue">NT</span>'
+                        : ''
+                }
     </td>
     <td>${show.images?.length
                     ? `<span role="button" style="cursor: pointer; font-size: 15px;" onclick='openModal("${show.images[0].externalId}", ${JSON.stringify(show.images)})'>📷</span>`
@@ -831,16 +840,16 @@ function initializeShowFilters(shows) {
                 currentFilterLetter === 'all' ||
                 (currentFilterLetter === '#' && isNumeric) ||
                 firstLetter === currentFilterLetter;
-				
-			    if (currentFilterYear !== 'all') {
-                  let y = null;
-                  if (typeof show.startDateUnix === 'number') {
+
+            if (currentFilterYear !== 'all' && currentFilterBands.length === 1) {
+                let y = null;
+                if (typeof show.startDateUnix === 'number') {
                     y = new Date(show.startDateUnix * 1000).getFullYear();
-                  } else if (show.startDate?.year) {
+                } else if (show.startDate?.year) {
                     y = parseInt(show.startDate.year, 10);
-                  }
-                  if (String(y) !== String(currentFilterYear)) return false;
                 }
+                if (String(y) !== String(currentFilterYear)) return false;
+            }
 
             if (lowerCaseBands.length === 0) return letterMatch;
 
@@ -936,7 +945,34 @@ function initializeShowFilters(shows) {
         return filtered;
     }
 
+    function resetYearFilter() {
+        const btn = document.getElementById('yearFilterBtn');
+        const menu = document.getElementById('yearMenu');
+
+        if (btn && menu) {
+            currentFilterYear = 'all';
+            btn.textContent = 'All years';
+
+            menu.querySelectorAll('.dropdown-item').forEach(a => {
+                a.classList.remove('active');
+                if (a.dataset.year === 'all') {
+                    a.classList.add('active');
+                }
+            });
+        }
+    }
+
     function updateDisplay() {
+        const yearFilterDropdown = document.querySelector('.year-filter');
+        if (yearFilterDropdown) {
+            if (currentFilterBands.length === 1) {
+                yearFilterDropdown.style.display = '';
+            } else {
+                yearFilterDropdown.style.display = 'none';
+                resetYearFilter();
+            }
+        }
+
         const filtered = filterShows();
         showCountSpan.textContent = filtered.length;
 
@@ -978,8 +1014,8 @@ function initializeShowFilters(shows) {
             document.getElementById("grouping-hint").style.display = "none";
 
             buildBandPills();
+            buildYearDropdown();
             updateDisplay();
-
         });
     }
 
@@ -1068,6 +1104,7 @@ function initializeShowFilters(shows) {
                     hintBox.style.display = "none";
                 }
 
+                buildYearDropdown();
                 updateDisplay();
             });
         });
@@ -1089,7 +1126,7 @@ function initializeShowFilters(shows) {
 
     buildLetterBar();
     buildBandPills();
-	buildYearDropdown();
+    buildYearDropdown();
     updateDisplay();
 }
 

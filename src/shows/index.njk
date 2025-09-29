@@ -6,20 +6,17 @@
       <div id="band-pills" class="d-flex flex-wrap gap-2 justify-content-center my-2" style="display:none;"></div>
    </div>
    <div class="filters-row">
-     <p id="show-count" class="show-counter">
-       🎫 Shows: <span id="show-count-number">0</span>
-     </p>
+      <p id="show-count" class="show-counter">
+         🎫 Shows:
+         <span id="show-count-number">0</span>
+      </p>
 
-     <div class="dropdown year-filter">
-       <button id="yearFilterBtn"
-               class="btn year-pill dropdown-toggle"
-               type="button"
-               data-bs-toggle="dropdown"
-               aria-expanded="false">
-         All years
-       </button>
-       <ul class="dropdown-menu dropdown-menu-end year-menu" id="yearMenu"></ul>
-     </div>
+      <div class="dropdown year-filter">
+         <button id="yearFilterBtn" class="btn year-pill dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            All years
+         </button>
+         <ul class="dropdown-menu dropdown-menu-end year-menu" id="yearMenu"></ul>
+      </div>
    </div>
    <div id="grouping-hint" style="display:none; font-size: 11px; color: #555; margin-bottom: 10px;"></div>
    <table id="shows-table">
@@ -42,9 +39,11 @@
             {% endif %}
          </tr>
       </thead>
-<tbody id="shows-table-body">
-  <tr><td colspan="12" style="text-align: center;">Loading shows…</td></tr>
-</tbody>
+      <tbody id="shows-table-body">
+         <tr>
+            <td colspan="12" style="text-align: center;">Loading shows…</td>
+         </tr>
+      </tbody>
    </table>
    <script src="{{ '/scripts/clusterize.min.js' | url }}"></script>
    {% include "modals/json-editor-modal.njk" %}
@@ -58,40 +57,40 @@
    <script src="{{ '/scripts/image-modal-viewer.js' | url }}"></script>
    <script src="{{ '/scripts/media-extras-toggle.js' | url }}"></script>
    <script>
-   (async function () {
-       const CACHE_TTL = 12 * 60 * 60 * 1000;
-       const TIMESTAMP_KEY = "allShowsDataTimestamp";
-       const DATA_KEY = "allShowsData";
-       const showCountSpan = document.getElementById('show-count-number');
-   
-       async function getTimestamp() {
-           return await getFromDB(TIMESTAMP_KEY);
-       }
-   
-       async function setTimestamp(value) {
-           await saveToDB(TIMESTAMP_KEY, value);
-       }
-   
-       let shows = await getFromDB(DATA_KEY);
-       const lastUpdated = await getTimestamp();
-       const now = Date.now();
-   
-       if (!shows || shows.length === 0 || !lastUpdated || (now - lastUpdated) > CACHE_TTL) {
-           console.log("⚠ Cache expired or empty. Fetching fresh data...");
-           
-           shows = {{ allShowData.publicRegularShows | dump | safe }};
-           
-           await saveToDB(DATA_KEY, shows);
-           await setTimestamp(now);
-           console.log(`✅ Data saved in IndexedDB (new timestamp: ${new Date(now).toLocaleString()})`);
-       } else {
-           console.log(`✅ Loaded from IndexedDB (last updated: ${new Date(lastUpdated).toLocaleString()})`);
-       }
-   
-       window.allShowsData = shows;
-       showCountSpan.textContent = shows.length;
-       initializeShowFilters(window.allShowsData);
-   })();
+      (async function () {
+         const CACHE_TTL = 12 * 60 * 60 * 1000;
+         const TIMESTAMP_KEY = "allShowsDataTimestamp";
+         const DATA_KEY = "allShowsData";
+         const showCountSpan = document.getElementById('show-count-number');
+
+         async function getTimestamp() {
+            return await getFromDB(TIMESTAMP_KEY);
+         }
+
+         async function setTimestamp(value) {
+            await saveToDB(TIMESTAMP_KEY, value);
+         }
+
+         let shows = await getFromDB(DATA_KEY);
+         const lastUpdated = await getTimestamp();
+         const now = Date.now();
+
+         if (!shows || shows.length === 0 || !lastUpdated || (now - lastUpdated) > CACHE_TTL) {
+            console.log("⚠ Cache expired or empty. Fetching fresh data...");
+
+            shows = {{ allShowData.publicRegularShows | dump | safe }};
+
+            await saveToDB(DATA_KEY, shows);
+            await setTimestamp(now);
+            console.log(`✅ Data saved in IndexedDB (new timestamp: ${new Date(now).toLocaleString()})`);
+         } else {
+            console.log(`✅ Loaded from IndexedDB (last updated: ${new Date(lastUpdated).toLocaleString()})`);
+         }
+
+         window.allShowsData = shows;
+         showCountSpan.textContent = shows.length;
+         initializeShowFilters(window.allShowsData);
+      })();
    </script>
 </div>
 {% endblock %}

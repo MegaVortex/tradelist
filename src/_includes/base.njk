@@ -3,7 +3,7 @@
    <head>
       <link href="https://cdn.jsdelivr.net/npm/jsoneditor@9.10.0/dist/jsoneditor.min.css" rel="stylesheet" type="text/css">
       <script src="https://cdn.jsdelivr.net/npm/jsoneditor@9.10.0/dist/jsoneditor.min.js"></script>
-	  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
       <base href="{{ pathPrefix or '/' }}">
       <link href="{{ '/styles/bootstrap.min.css' | url }}" rel="stylesheet">
       <link href="{{ '/styles/clusterize.css' | url }}" rel="stylesheet">
@@ -29,25 +29,20 @@
                <a class="nav-link{% if page.url == '/comp/' %} active{% endif %}" href="{{ '/comp/' | url }}">Compilations</a>
                <a class="nav-link{% if page.url == '/updates/' %} active{% endif %}" href="{{ '/updates/' | url }}">Updates</a>
                {% if environment == "dev" %}
-               <a class="nav-link{% if page.url == '/private/' %} active{% endif %}" href="{{ '/private/' | url }}">Private</a>
+                  <a class="nav-link{% if page.url == '/private/' %} active{% endif %}" href="{{ '/private/' | url }}">Private</a>
                {% endif %}
             </nav>
          </div>
          <div class="navbar-right">
             {% if currentShow and environment == "dev" %}
-            <button
-               class="btn btn-sm btn-outline-secondary"
-               style="font-size: 0.75rem; padding: 2px 6px;"
-               onclick='openJsonEditor({{ currentShow | dump | safe }}, "{{ currentShow.type or "regular" }}")'
-               title="Edit this show"
-               >✏️</button>
+               <button class="btn btn-sm btn-outline-secondary" style="font-size: 0.75rem; padding: 2px 6px;" onclick='openJsonEditor({{ currentShow | dump | safe }}, "{{ currentShow.type or "regular" }}")' title="Edit this show">✏️</button>
             {% endif %}
             {% if currentShow and currentShow.tradeLabel is defined %}
-            {% if currentShow.tradeLabel == 'NT' %}
-            <button class="btn btn-sm btn-outline-secondary disabled me-2" style="font-size: 0.75rem; padding: 2px 6px;" disabled="disabled" title="Not available for trade">➕</button>
-            {% else %}
-            <button class="btn btn-outline-success add-to-cart me-2" style="font-size: 0.75rem; padding: 2px 6px;" data-id="{{ currentShow.fileSlug }}" data-json="{{ currentShow | dump | urlencode }}" title="Add this show to your trade cart">➕</button>
-            {% endif %}
+               {% if currentShow.tradeLabel == 'NT' %}
+                  <button class="btn btn-sm btn-outline-secondary disabled me-2" style="font-size: 0.75rem; padding: 2px 6px;" disabled="disabled" title="Not available for trade">➕</button>
+               {% else %}
+                  <button class="btn btn-outline-success add-to-cart me-2" style="font-size: 0.75rem; padding: 2px 6px;" data-id="{{ currentShow.fileSlug }}" data-json="{{ currentShow | dump | urlencode }}" title="Add this show to your trade cart">➕</button>
+               {% endif %}
             {% endif %}
             <button class="btn btn-sm btn-cart" data-bs-toggle="modal" data-bs-target="#cartModal">🛒 Cart</button>
          </div>

@@ -1,357 +1,380 @@
-{# src/_includes/templates/comp-compilation.njk #}
 {% extends "base.njk" %}
 {% set currentShow = compilation %}
 {% block title %}
-{% if compilation.bands and compilation.bands.length %}
-{{ compilation.bands | join(', ') }} -
-{% endif %}
-{% if compilation.startDateUnix %}
-{{ compilation.startDateUnix | date("yyyy-MM-dd") }}
-{% elif compilation.startDate and compilation.startDate.year %}
-{{ compilation.startDate.year }}
-{% endif %}
+   {% if compilation.bands and compilation.bands.length %}
+      {{ compilation.bands | join(', ') }}
+      -
+   {% endif %}
+   {% if compilation.startDateUnix %}
+      {{ compilation.startDateUnix | date("yyyy-MM-dd") }}
+   {% elif compilation.startDate and compilation.startDate.year %}
+      {{ compilation.startDate.year }}
+   {% endif %}
 {% endblock %}
 {% block head %}
-<link rel="stylesheet" href="../../../styles/show.css">
+   <link rel="stylesheet" href="../../../styles/show.css">
 {% endblock %}
 {% block content %}
-<div class="type-cell-page">
-   {% set cat = compilation.category | default('') | string %}
-   {% if "audio" in cat and "misc" not in cat and "video" not in cat %}
-   <span class="type-label-page audio-label-page">audio</span>
-   {% elif "video" in cat and "misc" not in cat and "audio" not in cat %}
-   <span class="type-label-page video-label-page">video</span>
-   {% elif "audio" in cat and "misc" in cat %}
-   <span class="type-label-page audio-label-page">audio</span>
-   <span class="type-label-page audio-misc-label-page">misc</span>
-   {% elif "video" in cat and "misc" in cat %}
-   <span class="type-label-page video-label-page">video</span>
-   <span class="type-label-page video-misc-label-page">misc</span>
-   {% endif %}
-   {% if compilation.notes and compilation.notes | trim != '' %}
-   <span class="note-block" onclick="maybeExpand(this)">
-   <strong>Note:</strong> {{ compilation.notes }}
-   </span>
-   {% endif %}
-   {% if compilation.ownIdentifier and compilation.ownIdentifier | trim != '' %}
-   <span class="type-label-page hdd-page">{{ compilation.ownIdentifier }}</span>
-   {% endif %}
-</div>
-{% if compilation.tvChannel or (compilation.tapers and compilation.tapers | join("") | trim != '') or compilation.authoredBy or compilation.transferredBy %}
-<div class="type-cell-page">
-   <span class="credits-block" title="Credits" onclick="maybeExpand(this)">
-   {% if compilation.tapers and compilation.tapers.length > 0 and compilation.tapers | join("") | trim != '' %}
-   <strong>{% if compilation.tapers.length == 1 %}Taper:{% else %}Tapers:{% endif %}</strong> {{ compilation.tapers | join(", ") }}
-   {% endif %}
-   {% if compilation.authoredBy %}
-   <strong>Authored By:</strong> {{ compilation.authoredBy }}
-   {% endif %}
-   {% if compilation.transferredBy %}
-   <strong>Transferred By:</strong> {{ compilation.transferredBy }}
-   {% endif %}
-   {% if compilation.tvChannel %}
-   <strong>TV Channel:</strong> {{ compilation.tvChannel }}
-   {% endif %}
-   </span>
-</div>
-{% endif %}
-<div style="position: relative;">
-   {% if compilation.tradeLabel == 'RT' %}
-   <span class="trade-label-page red-page">RT</span>
-   {% elif compilation.tradeLabel == 'NT' %}
-   <span class="trade-label-page blue-page">NT</span>
-   {% endif %}
-   {% if compilation.master == true or (compilation.tapers and compilation.tapers.length == 1 and compilation.tapers[0] == "Vortex") %}
-   <span class="trade-label-page master-page">MASTER</span>
-   {% endif %}
-</div>
-<div class="table-wrapper" style="margin-top: 5px;">
-   <table>
-      <thead>
-         <tr>
-            <th>Artists</th>
-            <th>Start Date</th>
-            <th>End Date</th>
-            <th>City</th>
-            <th>State</th>
-            <th>Country</th>
-            <th>Venue</th>
-            <th>Event</th>
-            <th>Source</th>
-         </tr>
-      </thead>
-      <tbody>
-         <tr>
-            <td>
-               {% if compilation.bands and compilation.bands.length %}
-               {% set bands = compilation.bands %}
-               <div class="media-wrapper">
-                  {% set main = bands[0] %}
-                  <span>{{ bands[0] }}</span>
-                  {% if bands.length > 1 %}
-                  <a href="#" class="toggle-media" data-target="bands-toggle">
-                  ▾ +{{ bands.length - 1 }}
-                  </a>
-                  {% endif %}
-               </div>
-               {% if bands.length > 1 %}
-               <div id="bands-toggle" class="extra-media" style="display: none;">
-                  {% for medium in bands.slice(1) %}
-                  <div>{{ medium }}</div>
-                  {% endfor %}
-               </div>
-               {% endif %}
-               {% else %}
-               —
-               {% endif %}
-            </td>
-            <td>
-               {% if compilation.startDateUnix %}
-               {{ compilation.startDateUnix | date("yyyy-MM-dd") }}
-               {% elif compilation.startDate %}
-               {% set sd = compilation.startDate %}
-               {% set day = sd.day | toInt %}
-               {% set month = sd.month | toInt %}
-               {% set year = sd.year | toInt %}
-               {% if day and month and year %}
-               {{ year }}-{{ month | padStart(2) }}-{{ day | padStart(2) }}
-               {% elif month and year %}
-               {{ year }}-{{ month | padStart(2) }}
-               {% elif year %}
-               {{ year }}
-               {% else %}
-               —
-               {% endif %}
-               {% else %}
-               —
-               {% endif %}
-            </td>
-            <td>
-               {% if compilation.endDateUnix %}
-               {{ compilation.endDateUnix | date("yyyy-MM-dd") }}
-               {% elif compilation.endDate %}
-               {% set ed = compilation.endDate %}
-               {% set day = ed.day | toInt %}
-               {% set month = ed.month | toInt %}
-               {% set year = ed.year | toInt %}
-               {% if day and month and year %}
-               {{ year }}-{{ month | padStart(2) }}-{{ day | padStart(2) }}
-               {% elif month and year %}
-               {{ year }}-{{ month | padStart(2) }}
-               {% elif year %}
-               {{ year }}
-               {% else %}
-               —
-               {% endif %}
-               {% else %}
-               —
-               {% endif %}
-            </td>
-            <td>{{ compilation.location.city or "—" }}</td>
-            <td>{{ compilation.location.state or "—" }}</td>
-            <td>{{ compilation.location.country or "—" }}</td>
-            <td>{{ compilation.location.venue or "—" }}</td>
-            <td>
-               {% if compilation.location.event and compilation.showName %}
-               {{ compilation.location.event }}<br>{{ compilation.showName }}
-               {% elif compilation.location.event %}
-               {{ compilation.location.event }}
-               {% elif compilation.showName %}
-               {{ compilation.showName }}
-               {% else %}
-               —
-               {% endif %}
-            </td>
-            <td>{{ compilation.source or "—" }}</td>
-         </tr>
-      </tbody>
-   </table>
-</div>
-<div class="table-wrapper" style="margin-top: 10px;">
-   <table>
-      <thead>
-         <tr>
-            <th>Details</th>
-            <th>Images</th>
-            {% if compilation.parentOf and compilation.parentOf.length %}
-            <th>Shows</th>
-            {% elif compilation.setlist and compilation.setlist.length %}
-            <th>Setlist</th>
+   <div class="type-cell-page">
+      {% set cat = compilation.category | default('') | string %}
+      {% if "audio" in cat and "misc" not in cat and "video" not in cat %}
+         <span class="type-label-page audio-label-page">audio</span>
+      {% elif "video" in cat and "misc" not in cat and "audio" not in cat %}
+         <span class="type-label-page video-label-page">video</span>
+      {% elif "audio" in cat and "misc" in cat %}
+         <span class="type-label-page audio-label-page">audio</span>
+         <span class="type-label-page audio-misc-label-page">misc</span>
+      {% elif "video" in cat and "misc" in cat %}
+         <span class="type-label-page video-label-page">video</span>
+         <span class="type-label-page video-misc-label-page">misc</span>
+      {% endif %}
+      {% if compilation.notes and compilation.notes | trim != '' %}
+         <span class="note-block" onclick="maybeExpand(this)">
+            <strong>Note:</strong>
+            {{ compilation.notes }}
+         </span>
+      {% endif %}
+      {% if compilation.ownIdentifier and compilation.ownIdentifier | trim != '' %}
+         <span class="type-label-page hdd-page">{{ compilation.ownIdentifier }}</span>
+      {% endif %}
+   </div>
+   {% if compilation.tvChannel or(compilation.tapers and compilation.tapers | join("") | trim != '')or compilation.authoredBy or compilation.transferredBy %}
+      <div class="type-cell-page">
+         <span class="credits-block" title="Credits" onclick="maybeExpand(this)">
+            {% if compilation.tapers and compilation.tapers.length > 0 and compilation.tapers | join("") | trim != '' %}
+               <strong>
+                  {% if compilation.tapers.length == 1 %}Taper:{% else %}Tapers:{% endif %}
+               </strong>
+               {{ compilation.tapers | join(", ") }}
             {% endif %}
-         </tr>
-      </thead>
-      <tbody>
-         <tr>
-            <td style="vertical-align: top; text-align: left; width: 375px; table-layout: fixed; position: relative;">
-<div class="pill-wrap">
-  <strong>Size:</strong>
-  {% if compilation.specs and compilation.specs.media and compilation.specs.media.length %}
-    {% set media = compilation.specs.media %}
-    {% set main = media[0] %}
-    <span>{{ main.size | smartSize }}{{ main.unit }}</span>
-
-    {% if media.length > 1 %}
-      <button
-        type="button"
-        class="count-badge toggle-media"
-        data-target="media-toggle"
-        aria-expanded="false"
-        title="Show {{ media.length - 1 }} more size{{ '' if (media.length - 1) == 1 else 's' }}"
-      >+{{ media.length - 1 }}</button>
-    {% endif %}
-  {% else %}
-    —
-  {% endif %}
-
-  <!-- icons stay inside pill-wrap so they line up with Size -->
-  <div class="media-icons-top">
-    {% for medium in compilation.specs.media %}
-      {% set type = medium.type %}
-      {% if type == "Floppy" %}
-        <img src="{{ '/assets/images/floppy.png' | url }}" alt="Floppy" title="Floppy">
-      {% elif type == "CD" %}
-        <img src="{{ '/assets/images/cd.png' | url }}" alt="CD" title="CD">
-      {% elif type in ["DVD-5", "DVD-9"] %}
-        <img src="{{ '/assets/images/dvd.png' | url }}" alt="DVD" title="{{ type }}">
-      {% elif type in ["BD-25", "BD-50"] %}
-        <img src="{{ '/assets/images/bd.png' | url }}" alt="Blu-ray" title="{{ type }}">
-      {% elif type == "4K UHD" %}
-        <img src="{{ '/assets/images/sd.png' | url }}" alt="4K UHD" title="4K UHD">
-      {% endif %}
-    {% endfor %}
-  </div>
-</div>
-
-{% if compilation.specs and compilation.specs.media and compilation.specs.media.length > 1 %}
-  <div id="media-toggle" class="extra-media indent-block-size" style="display: none;">
-    {% for medium in compilation.specs.media.slice(1) %}
-      <div>{{ medium.size | smartSize }}{{ medium.unit }}</div>
-    {% endfor %}
-  </div>
-{% endif %}
-               <strong>Length:</strong> {{ compilation.specs.length | formatTime }}<br>
-<!-- VIDEO -->
-{% if 'audio' not in compilation.category %}
-  <div>
-    <strong>Video:</strong>
-    {% if compilation.specs.video and compilation.specs.video.length %}
-      {% set videos = compilation.specs.video %}
-      {% set v = videos[0] %}
-      {{ v.tvFormat }}
-      {% if v.ratio %} ({{ v.ratio }}){% endif %}
-      {{ v.standard }}
-      {% if v.codec %} ({{ v.codec }}){% endif %}
-      {{ v.resolution }}
-      {% if v.fps %} {{ v.fps }}fps{% endif %}
-      {% if v.bitrateType %} {{ v.bitrateType }}{% endif %}
-      {% if v.bitrateKbps %} {{ v.bitrateKbps }}kbps{% endif %}
-      {% if v.letterboxed == true %} Letterboxed{% endif %}
-
-      {% if videos.length > 1 %}
-        <button
-          type="button"
-          class="count-badge toggle-media"
-          data-target="video-toggle"
-          aria-expanded="false"
-          title="Show {{ videos.length - 1 }} more video track{{ '' if (videos.length - 1) == 1 else 's' }}"
-        >+{{ videos.length - 1 }}</button>
-      {% endif %}
-    {% else %}
-      —
-    {% endif %}
-  </div>
-
-  {% if compilation.specs.video and compilation.specs.video.length > 1 %}
-    <div id="video-toggle" class="extra-media indent-block-video" style="display:none;">
-      {% for vid in compilation.specs.video.slice(1) %}
-        <div>
-          {{ vid.tvFormat }}
-          {% if vid.ratio %} ({{ vid.ratio }}){% endif %}
-          {{ vid.standard }}
-          {% if vid.codec %} ({{ vid.codec }}){% endif %}
-          {{ vid.resolution }}
-          {% if vid.fps %} {{ vid.fps }}fps{% endif %}
-          {% if vid.bitrateType %} {{ vid.bitrateType }}{% endif %}
-          {% if vid.bitrateKbps %} {{ vid.bitrateKbps }}kbps{% endif %}
-          {% if vid.letterboxed == true %} Letterboxed{% endif %}
-        </div>
-      {% endfor %}
-    </div>
-  {% endif %}
-{% endif %}
-<!-- AUDIO -->
-<div>
-  <strong>Audio:</strong>
-  {% if compilation.specs.audio and compilation.specs.audio.length %}
-    {% set audios = compilation.specs.audio %}
-    {% set a = audios[0] %}
-    {% if a.language %}{{ a.language | langName }}{% endif %}
-    {% if a.codec %} {{ a.codec }}{% endif %}
-    {% if a.rateHz %} {{ a.rateHz }}Hz{% endif %}
-    {% if a.channels %} {{ a.channels }}ch{% endif %}
-    {% if a.bitrateKbps %} {{ a.bitrateKbps }}kbps{% endif %}
-
-    {% if audios.length > 1 %}
-      <button
-        type="button"
-        class="count-badge toggle-media"
-        data-target="audio-toggle"
-        aria-expanded="false"
-        title="Show {{ audios.length - 1 }} more audio track{{ '' if (audios.length - 1) == 1 else 's' }}"
-      >+{{ audios.length - 1 }}</button>
-    {% endif %}
-  {% else %}
-    —
-  {% endif %}
-</div>
-
-{% if compilation.specs.audio and compilation.specs.audio.length > 1 %}
-  <div id="audio-toggle" class="extra-media indent-block-audio" style="display:none;">
-    {% for a in compilation.specs.audio.slice(1) %}
-      <div>
-        {% if a.language %}{{ a.language | langName }}{% endif %}
-        {% if a.codec %} {{ a.codec }}{% endif %}
-        {% if a.rateHz %} {{ a.rateHz }}Hz{% endif %}
-        {% if a.channels %} {{ a.channels }}ch{% endif %}
-        {% if a.bitrateKbps %} {{ a.bitrateKbps }}kbps{% endif %}
+            {% if compilation.authoredBy %}
+               <strong>Authored By:</strong>
+               {{ compilation.authoredBy }}
+            {% endif %}
+            {% if compilation.transferredBy %}
+               <strong>Transferred By:</strong>
+               {{ compilation.transferredBy }}
+            {% endif %}
+            {% if compilation.tvChannel %}
+               <strong>TV Channel:</strong>
+               {{ compilation.tvChannel }}
+            {% endif %}
+         </span>
       </div>
-    {% endfor %}
-  </div>
-{% endif %}
-               <strong>Type:</strong>
-               <span
-               {% if compilation.specs.sourceDetail.recordingType == "AMT" %}
-               title="Amateur"
-               {% elif compilation.specs.sourceDetail.recordingType == "PRO" %}
-               title="Professional"
+   {% endif %}
+   <div style="position: relative;">
+      {% if compilation.tradeLabel == 'RT' %}
+         <span class="trade-label-page red-page">RT</span>
+      {% elif compilation.tradeLabel == 'NT' %}
+         <span class="trade-label-page blue-page">NT</span>
+      {% endif %}
+      {% if compilation.master == true or(compilation.tapers and compilation.tapers.length == 1 and compilation.tapers[0] == "Vortex") %}
+         <span class="trade-label-page master-page">MASTER</span>
+      {% endif %}
+   </div>
+   <div class="table-wrapper" style="margin-top: 5px;">
+      <table>
+         <thead>
+            <tr>
+               <th>Artists</th>
+               <th>Start Date</th>
+               <th>End Date</th>
+               <th>City</th>
+               <th>State</th>
+               <th>Country</th>
+               <th>Venue</th>
+               <th>Event</th>
+               <th>Source</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>
+                  {% if compilation.bands and compilation.bands.length %}
+                     {% set bands = compilation.bands %}
+                     <div class="media-wrapper">
+                        {% set main = bands[0] %}
+                        <span>{{ bands[0] }}</span>
+                        {% if bands.length > 1 %}
+                           <a href="#" class="toggle-media" data-target="bands-toggle">
+                              ▾ +{{ bands.length - 1 }}
+                           </a>
+                        {% endif %}
+                     </div>
+                     {% if bands.length > 1 %}
+                        <div id="bands-toggle" class="extra-media" style="display: none;">
+                           {% for medium in bands.slice(1) %}
+                              <div>{{ medium }}</div>
+                           {% endfor %}
+                        </div>
+                     {% endif %}
+                  {% else %}
+                     —
+                  {% endif %}
+               </td>
+               <td>
+                  {% if compilation.startDateUnix %}
+                     {{ compilation.startDateUnix | date("yyyy-MM-dd") }}
+                  {% elif compilation.startDate %}
+                     {% set sd = compilation.startDate %}
+                     {% set day = sd.day | toInt %}
+                     {% set month = sd.month | toInt %}
+                     {% set year = sd.year | toInt %}
+                     {% if day and month and year %}
+                        {{ year }}-{{ month | padStart(2) }}-{{ day | padStart(2) }}
+                     {% elif month and year %}
+                        {{ year }}-{{ month | padStart(2) }}
+                     {% elif year %}
+                        {{ year }}
+                     {% else %}
+                        —
+                     {% endif %}
+                  {% else %}
+                     —
+                  {% endif %}
+               </td>
+               <td>
+                  {% if compilation.endDateUnix %}
+                     {{ compilation.endDateUnix | date("yyyy-MM-dd") }}
+                  {% elif compilation.endDate %}
+                     {% set ed = compilation.endDate %}
+                     {% set day = ed.day | toInt %}
+                     {% set month = ed.month | toInt %}
+                     {% set year = ed.year | toInt %}
+                     {% if day and month and year %}
+                        {{ year }}-{{ month | padStart(2) }}-{{ day | padStart(2) }}
+                     {% elif month and year %}
+                        {{ year }}-{{ month | padStart(2) }}
+                     {% elif year %}
+                        {{ year }}
+                     {% else %}
+                        —
+                     {% endif %}
+                  {% else %}
+                     —
+                  {% endif %}
+               </td>
+               <td>{{ compilation.location.city or "—" }}</td>
+               <td>{{ compilation.location.state or "—" }}</td>
+               <td>{{ compilation.location.country or "—" }}</td>
+               <td>{{ compilation.location.venue or "—" }}</td>
+               <td>
+                  {% if compilation.location.event and compilation.showName %}
+                     {{ compilation.location.event }}<br>{{ compilation.showName }}
+                  {% elif compilation.location.event %}
+                     {{ compilation.location.event }}
+                  {% elif compilation.showName %}
+                     {{ compilation.showName }}
+                  {% else %}
+                     —
+                  {% endif %}
+               </td>
+               <td>{{ compilation.source or "—" }}</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+   <div class="table-wrapper" style="margin-top: 10px;">
+      <table>
+         <thead>
+            <tr>
+               <th>Details</th>
+               <th>Images</th>
+               {% if compilation.parentOf and compilation.parentOf.length %}
+                  <th>Shows</th>
+               {% elif compilation.setlist and compilation.setlist.length %}
+                  <th>Setlist</th>
                {% endif %}
-               >
-               {{ compilation.specs.sourceDetail.recordingType }}
-               </span><br>
-               {% if compilation.specs.sourceDetail.sourceMediaType %}
-               <strong>Source Media:</strong> {{ compilation.specs.sourceDetail.sourceMediaType }}<br>
-               {% endif %}
-               {% set final = compilation.specs.sourceDetail.finalMediaType %}
-               {% set file = compilation.specs.sourceDetail.fileFormat %}
-               {% set hasFormat = final == 'DVD' or final == 'BD' or file == 'DVD' or file == 'BD' %}
-               {% if final or file %}
-               <strong>File Format:</strong>
-               {% if final and file %}
-               {{ final }} ({{ file }})
-               {% else %}
-               {{ final or file }}
-               {% endif %}<br>
-               {% endif %}
-               {% if hasFormat %}
-               {% if compilation.specs.menu != null %}
-               <strong>Menu:</strong> {% if compilation.specs.menu %}Yes{% else %}No{% endif %}<br>
-               {% endif %}
-               {% if compilation.specs.chapters != null %}
-               <strong>Chapters:</strong> {% if compilation.specs.chapters %}Yes{% else %}No{% endif %}<br>
-               {% endif %}
-               {% endif %}
-			                  {% if not compilation.childOf and compilation.relatedShows and compilation.relatedShows.length %}
-				  <span style="text-align: center; font-size: 12px; font-weight: bold;">Other shows:</span>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td style="vertical-align: top; text-align: left; width: 375px; table-layout: fixed; position: relative;">
+                  <div class="pill-wrap">
+                     <strong>Size:</strong>
+                     {% if compilation.specs and compilation.specs.media and compilation.specs.media.length %}
+                        {% set media = compilation.specs.media %}
+                        {% set main = media[0] %}
+                        <span>{{ main.size | smartSize }}{{ main.unit }}</span>
+
+                        {% if media.length > 1 %}
+                           <button type="button" class="count-badge toggle-media" data-target="media-toggle" aria-expanded="false" title="Show {{ media.length - 1 }} more size{{ '' if (media.length - 1) == 1 else 's' }}">+{{ media.length - 1 }}</button>
+                        {% endif %}
+                     {% else %}
+                        —
+                     {% endif %}
+
+                     <!-- icons stay inside pill-wrap so they line up with Size -->
+                     <div class="media-icons-top">
+                        {% for medium in compilation.specs.media %}
+                           {% set type = medium.type %}
+                           {% if type == "Floppy" %}
+                              <img src="{{ '/assets/images/floppy.png' | url }}" alt="Floppy" title="Floppy">
+                           {% elif type == "CD" %}
+                              <img src="{{ '/assets/images/cd.png' | url }}" alt="CD" title="CD">
+                           {% elif type in["DVD-5", "DVD-9"] %}
+                              <img src="{{ '/assets/images/dvd.png' | url }}" alt="DVD" title="{{ type }}">
+                           {% elif type in["BD-25", "BD-50"] %}
+                              <img src="{{ '/assets/images/bd.png' | url }}" alt="Blu-ray" title="{{ type }}">
+                           {% elif type == "4K UHD" %}
+                              <img src="{{ '/assets/images/sd.png' | url }}" alt="4K UHD" title="4K UHD">
+                           {% endif %}
+                        {% endfor %}
+                     </div>
+                  </div>
+
+                  {% if compilation.specs and compilation.specs.media and compilation.specs.media.length > 1 %}
+                     <div id="media-toggle" class="extra-media indent-block-size" style="display: none;">
+                        {% for medium in compilation
+                           .specs
+                           .media
+                           .slice(1) %}
+                           <div>{{ medium.size | smartSize }}{{ medium.unit }}</div>
+                        {% endfor %}
+                     </div>
+                  {% endif %}
+                  <strong>Length:</strong>
+                  {{ compilation.specs.length | formatTime }}<br>
+                  <!-- VIDEO -->
+                  {% if 'audio' not in compilation.category %}
+                     <div>
+                        <strong>Video:</strong>
+                        {% if compilation.specs.video and compilation.specs.video.length %}
+                           {% set videos = compilation.specs.video %}
+                           {% set v = videos[0] %}
+                           {{ v.tvFormat }}
+                           {% if v.ratio %}
+                              ({{ v.ratio }}){% endif %}
+                           {{ v.standard }}
+                           {% if v.codec %}
+                              ({{ v.codec }}){% endif %}
+                           {{ v.resolution }}
+                           {% if v.fps %}
+                              {{ v.fps }}fps{% endif %}
+                           {% if v.bitrateType %}
+                              {{ v.bitrateType }}
+                           {% endif %}
+                           {% if v.bitrateKbps %}
+                              {{ v.bitrateKbps }}kbps{% endif %}
+                           {% if v.letterboxed == true %}
+                              Letterboxed{% endif %}
+
+                           {% if videos.length > 1 %}
+                              <button type="button" class="count-badge toggle-media" data-target="video-toggle" aria-expanded="false" title="Show {{ videos.length - 1 }} more video track{{ '' if (videos.length - 1) == 1 else 's' }}">+{{ videos.length - 1 }}</button>
+                           {% endif %}
+                        {% else %}
+                           —
+                        {% endif %}
+                     </div>
+
+                     {% if compilation.specs.video and compilation.specs.video.length > 1 %}
+                        <div id="video-toggle" class="extra-media indent-block-video" style="display:none;">
+                           {% for vid in compilation
+                              .specs
+                              .video
+                              .slice(1) %}
+                              <div>
+                                 {{ vid.tvFormat }}
+                                 {% if vid.ratio %}
+                                    ({{ vid.ratio }}){% endif %}
+                                 {{ vid.standard }}
+                                 {% if vid.codec %}
+                                    ({{ vid.codec }}){% endif %}
+                                 {{ vid.resolution }}
+                                 {% if vid.fps %}
+                                    {{ vid.fps }}fps{% endif %}
+                                 {% if vid.bitrateType %}
+                                    {{ vid.bitrateType }}
+                                 {% endif %}
+                                 {% if vid.bitrateKbps %}
+                                    {{ vid.bitrateKbps }}kbps{% endif %}
+                                 {% if vid.letterboxed == true %}
+                                    Letterboxed{% endif %}
+                              </div>
+                           {% endfor %}
+                        </div>
+                     {% endif %}
+                  {% endif %}
+                  <!-- AUDIO -->
+                  <div>
+                     <strong>Audio:</strong>
+                     {% if compilation.specs.audio and compilation.specs.audio.length %}
+                        {% set audios = compilation.specs.audio %}
+                        {% set a = audios[0] %}
+                        {% if a.language %}{{ a.language | langName }}
+                        {% endif %}
+                        {% if a.codec %}
+                           {{ a.codec }}
+                        {% endif %}
+                        {% if a.rateHz %}
+                           {{ a.rateHz }}Hz{% endif %}
+                        {% if a.channels %}
+                           {{ a.channels }}ch{% endif %}
+                        {% if a.bitrateKbps %}
+                           {{ a.bitrateKbps }}kbps{% endif %}
+
+                        {% if audios.length > 1 %}
+                           <button type="button" class="count-badge toggle-media" data-target="audio-toggle" aria-expanded="false" title="Show {{ audios.length - 1 }} more audio track{{ '' if (audios.length - 1) == 1 else 's' }}">+{{ audios.length - 1 }}</button>
+                        {% endif %}
+                     {% else %}
+                        —
+                     {% endif %}
+                  </div>
+
+                  {% if compilation.specs.audio and compilation.specs.audio.length > 1 %}
+                     <div id="audio-toggle" class="extra-media indent-block-audio" style="display:none;">
+                        {% for a in compilation
+                           .specs
+                           .audio
+                           .slice(1) %}
+                           <div>
+                              {% if a.language %}{{ a.language | langName }}
+                              {% endif %}
+                              {% if a.codec %}
+                                 {{ a.codec }}
+                              {% endif %}
+                              {% if a.rateHz %}
+                                 {{ a.rateHz }}Hz{% endif %}
+                              {% if a.channels %}
+                                 {{ a.channels }}ch{% endif %}
+                              {% if a.bitrateKbps %}
+                                 {{ a.bitrateKbps }}kbps{% endif %}
+                           </div>
+                        {% endfor %}
+                     </div>
+                  {% endif %}
+                  <strong>Type:</strong>
+                  <span {% if compilation.specs.sourceDetail.recordingType == "AMT" %} title="Professional" {% elif compilation.specs.sourceDetail.recordingType == "PRO" %} {% endif %}>
+                     {{ compilation.specs.sourceDetail.recordingType }}
+                  </span><br>
+                  {% if compilation.specs.sourceDetail.sourceMediaType %}
+                     <strong>Source Media:</strong>
+                     {{ compilation.specs.sourceDetail.sourceMediaType }}<br>
+                  {% endif %}
+                  {% set final = compilation.specs.sourceDetail.finalMediaType %}
+                  {% set file = compilation.specs.sourceDetail.fileFormat %}
+                  {% set hasFormat = final == 'DVD' or final == 'BD' or file == 'DVD' or file == 'BD' %}
+                  {% if final or file %}
+                     <strong>File Format:</strong>
+                     {% if final and file %}
+                        {{ final }}
+                        ({{ file }})
+                     {% else %}
+                        {{ final or file }}
+                     {% endif %}<br>
+                  {% endif %}
+                  {% if hasFormat %}
+                     {% if compilation.specs.menu != null %}
+                        <strong>Menu:</strong>
+                        {% if compilation.specs.menu %}Yes{% else %}No{% endif %}<br>
+                     {% endif %}
+                     {% if compilation.specs.chapters != null %}
+                        <strong>Chapters:</strong>
+                        {% if compilation.specs.chapters %}Yes{% else %}No{% endif %}<br>
+                     {% endif %}
+                  {% endif %}
+                  {% if not compilation.childOf and compilation.relatedShows and compilation.relatedShows.length %}
+                     <span style="text-align: center; font-size: 12px; font-weight: bold;">Other shows:</span>
                      <div class="related-regular-wrapper" style="margin-top: 20px;">
                         <div class="notice-content">
                            <div class="table-responsive child-shows-table" style="margin-top: 8px;">
@@ -415,181 +438,181 @@
                         </div>
                      </div>
                   {% endif %}
-            </td>
-            <td style="vertical-align: top; text-align: left; width: 515px; table-layout: fixed;">
-               {% if compilation.images %}
-               <div style="display: inline-block; border: 1px solid #ccc;">
-                  <div style="display: flex;">
-                     {% for i in [0, 1] %}
-                     {% if compilation.images[i] %}
-                     <img
-                        src="https://drive.google.com/thumbnail?id={{ compilation.images[i].externalId }}&sz=w256"
-                        width="256"
-                        height="128"
-                        style="display: block; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; object-fit: cover; cursor: pointer;"
-                        onclick='openModal("{{ compilation.images[i].externalId }}", {{ compilation.images | dump | safe }})'>
-                     {% endif %}
-                     {% endfor %}
-                  </div>
-                  <div style="display: flex;">
-                     {% for i in [2, 3] %}
-                     {% if compilation.images[i] %}
-                     <img
-                        src="https://drive.google.com/thumbnail?id={{ compilation.images[i].externalId }}&sz=w256"
-                        width="256"
-                        height="128"
-                        style="display: block; border-right: 1px solid #ccc; object-fit: cover; cursor: pointer;"
-                        onclick='openModal("{{ compilation.images[i].externalId }}", {{ compilation.images | dump | safe }})'>
-                     {% endif %}
-                     {% endfor %}
-                  </div>
-               </div>
-               {% else %}
-               —
-               {% endif %}
-            </td>
-            <td style="vertical-align: top; text-align: left; width: 375px; table-layout: fixed;">
-               {% if compilation.parentOf and compilation.parentOf.length %}
-               <div class="table-responsive child-shows-table">
-                  <table class="table table-sm table-bordered" style="margin-bottom: 0;">
-                     <thead>
-                        <tr>
-                           <th>Artist</th>
-                           <th>Date</th>
-                           <th>Source</th>
-                           <th>Page</th>
-                        </tr>
-                     </thead>
-                     <tbody>
-                        {% for childSlug in compilation.parentOf %}
-                        {% set childShow = allShowData.showsBySlug[childSlug] %}
-                        {% if childShow %}
-                        <tr>
-                           <td>
-                              {{ childShow.bands[0] if childShow.bands else '—' }}
-                           </td>
-                           <td>
-                              {% if childShow.startDateUnix %}
-                              {{ childShow.startDateUnix | date("yyyy-MM-dd") }}
-                              {% elif childShow.startDate %}
-                              {% set sd = childShow.startDate %}
-                              {% set day = sd.day | toInt %}
-                              {% set month = sd.month | toInt %}
-                              {% set year = sd.year | toInt %}
-                              {% if day and month and year %}
-                              {{ year }}-{{ month | padStart(2) }}-{{ day | padStart(2) }}
-                              {% elif month and year %}
-                              {{ year }}-{{ month | padStart(2) }}
-                              {% elif year %}
-                              {{ year }}
-                              {% else %}
-                              —
+               </td>
+               <td style="vertical-align: top; text-align: left; width: 515px; table-layout: fixed;">
+                  {% if compilation.images %}
+                     <div style="display: inline-block; border: 1px solid #ccc;">
+                        <div style="display: flex;">
+                           {% for i in[0, 1] %}
+                              {% if compilation.images[i] %}
+                                 <img src="https://drive.google.com/thumbnail?id={{ compilation.images[i].externalId }}&sz=w256" width="256" height="128" style="display: block; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; object-fit: cover; cursor: pointer;" onclick='openModal("{{ compilation.images[i].externalId }}", {{ compilation.images | dump | safe }})'>
                               {% endif %}
-                              {% else %}
-                              —
-                              {% endif %}
-                           </td>
-                           <td style="position: relative;">
-						      {{ childShow.source or '—' }}
-                              {% if childShow.category == "audio" %}
-                              <span class="type-label-comp audio-label">a</span>
-                              {% elif "misc" in childShow.category %}
-                              <span class="type-label-comp misc-label">m</span>
-                              {% elif "video" in childShow.category %}
-                              <span class="type-label-comp video-label">v</span>
-                              {% else %}
-                              —
-                              {% endif %}
-                           </td>
-                           <td>
-                              <a href="{{ childShow.permalink | url }}">🎫</a>
-                           </td>
-                        </tr>
-                        {% endif %}
-                        {% endfor %}
-                     </tbody>
-                  </table>
-               </div>
-               {% elif compilation.setlist and compilation.setlist.length %}
-               <ol style="margin-top: 0; margin-left: -1em;">
-                  {% for item in compilation.setlist %}
-                  <li>
-                     {{ item.song }}
-                     {% if item.note %}
-                     <span class="setlist-note-label">{{ item.note }}</span>
-                     {% endif %}
-                     {% if item.coverOf %}
-                     <span class="info-icon" onclick="toggleFeatInfo(this)" title="Cover">🎵</span>
-                     <span class="feat-popup" style="display: none;"><em>{{ item.coverOf }} cover</em></span>
-                     {% endif %}
-                     {% if item.feat %}
-                     <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                     <span class="feat-popup" style="display: none;"><em>feat. {{ item.feat }}</em></span>
-                     {% endif %}
-                     {% if item.comment %}
-                     <span class="info-icon" onclick="toggleFeatInfo(this)" title="Comment">💬</span>
-                     <span class="feat-popup" style="display: none;"><em>{{ item.comment }}</em></span>
-                     {% endif %}
-                  </li>
-                  {% endfor %}
-               </ol>
-               {% else %}
-               No associated content available.
-               {% endif %}
-               {% if compilation.extras and compilation.extras.length %}
-                     <div class="extras-card">
-                       <div class="extras-header">
-                         <span>Extras:</span>
-                         {% if compilation.extras.length > 0 %}
-                           <button
-                             type="button"
-                             class="count-badge toggle-media"
-                             data-target="extras-list-content"
-                             aria-expanded="false"
-                             title="Show {{ compilation.extras.length }} extra{{ '' if compilation.extras.length == 1 else 's' }}"
-                           >+{{ compilation.extras.length }}</button>
-                         {% endif %}
-                       </div>
-                     
-                       {% if compilation.extras.length > 0 %}
-                         <ol id="extras-list-content" class="extra-media indent-block-extras" style="display: none; margin-top: 5px; margin-left: -1.3em;">
-                           {% for item in compilation.extras %}
-                             <li>
-                               {{ item.song }}
-                               {% if item.note %}
-                                 <span class="setlist-note-label">{{ item.note }}</span>
-                               {% endif %}
-                               {% if item.coverOf %}
-                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Cover">🎵</span>
-                                 <span class="feat-popup" style="display: none;"><em>{{ item.coverOf }} cover</em></span>
-                               {% endif %}
-                               {% if item.feat %}
-                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
-                                 <span class="feat-popup" style="display: none;"><em>feat. {{ item.feat }}</em></span>
-                               {% endif %}
-                               {% if item.comment %}
-                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Comment">💬</span>
-                                 <span class="feat-popup" style="display: none;"><em>{{ item.comment }}</em></span>
-                               {% endif %}
-                             </li>
                            {% endfor %}
-                         </ol>
-                       {% endif %}
+                        </div>
+                        <div style="display: flex;">
+                           {% for i in[2, 3] %}
+                              {% if compilation.images[i] %}
+                                 <img src="https://drive.google.com/thumbnail?id={{ compilation.images[i].externalId }}&sz=w256" width="256" height="128" style="display: block; border-right: 1px solid #ccc; object-fit: cover; cursor: pointer;" onclick='openModal("{{ compilation.images[i].externalId }}", {{ compilation.images | dump | safe }})'>
+                              {% endif %}
+                           {% endfor %}
+                        </div>
                      </div>
-               {% endif %}
-            </td>
-         </tr>
-      </tbody>
-   </table>
-</div>
-{% include "modals/json-editor-modal.njk" %}
-<script src="{{ '/scripts/json-editor.js' | url }}"></script>
-<script src="{{ '/scripts/hammer.min.js' | url }}"></script>
-{% include "modals/cart-modal.njk" %}
-{% include "modals/image-modal.njk" %}
-<script src="{{ '/scripts/cart.js' | url }}"></script>
-<script src="{{ '/scripts/notes-credts-expand.js' | url }}"></script>
-<script src="{{ '/scripts/image-modal-viewer.js' | url }}"></script>
-<script src="{{ '/scripts/setlist-toggle.js' | url }}"></script>
-<script src="{{ '/scripts/media-extras-toggle.js' | url }}"></script>
+                  {% else %}
+                     —
+                  {% endif %}
+               </td>
+               <td style="vertical-align: top; text-align: left; width: 375px; table-layout: fixed;">
+                  {% if compilation.parentOf and compilation.parentOf.length %}
+                     <div class="table-responsive child-shows-table">
+                        <table class="table table-sm table-bordered" style="margin-bottom: 0;">
+                           <thead>
+                              <tr>
+                                 <th>Artist</th>
+                                 <th>Date</th>
+                                 <th>Source</th>
+                                 <th>Page</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              {% for childSlug in compilation.parentOf %}
+                                 {% set childShow = allShowData.showsBySlug[childSlug] %}
+                                 {% if childShow %}
+                                    <tr>
+                                       <td>
+                                          {{ childShow.bands[0] if childShow.bands else '—' }}
+                                       </td>
+                                       <td>
+                                          {% if childShow.startDateUnix %}
+                                             {{ childShow.startDateUnix | date("yyyy-MM-dd") }}
+                                          {% elif childShow.startDate %}
+                                             {% set sd = childShow.startDate %}
+                                             {% set day = sd.day | toInt %}
+                                             {% set month = sd.month | toInt %}
+                                             {% set year = sd.year | toInt %}
+                                             {% if day and month and year %}
+                                                {{ year }}-{{ month | padStart(2) }}-{{ day | padStart(2) }}
+                                             {% elif month and year %}
+                                                {{ year }}-{{ month | padStart(2) }}
+                                             {% elif year %}
+                                                {{ year }}
+                                             {% else %}
+                                                —
+                                             {% endif %}
+                                          {% else %}
+                                             —
+                                          {% endif %}
+                                       </td>
+                                       <td style="position: relative;">
+                                          {{ childShow.source or '—' }}
+                                          {% if childShow.category == "audio" %}
+                                             <span class="type-label-comp audio-label">a</span>
+                                          {% elif "misc" in childShow.category %}
+                                             <span class="type-label-comp misc-label">m</span>
+                                          {% elif "video" in childShow.category %}
+                                             <span class="type-label-comp video-label">v</span>
+                                          {% else %}
+                                             —
+                                          {% endif %}
+                                       </td>
+                                       <td>
+                                          <a href="{{ childShow.permalink | url }}">🎫</a>
+                                       </td>
+                                    </tr>
+                                 {% endif %}
+                              {% endfor %}
+                           </tbody>
+                        </table>
+                     </div>
+                  {% elif compilation.setlist and compilation.setlist.length %}
+                     <ol style="margin-top: 0; margin-left: -1em;">
+                        {% for item in compilation.setlist %}
+                           <li>
+                              {{ item.song }}
+                              {% if item.note %}
+                                 <span class="setlist-note-label">{{ item.note }}</span>
+                              {% endif %}
+                              {% if item.coverOf %}
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Cover">🎵</span>
+                                 <span class="feat-popup" style="display: none;">
+                                    <em>{{ item.coverOf }}
+                                       cover</em>
+                                 </span>
+                              {% endif %}
+                              {% if item.feat %}
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="feat-popup" style="display: none;">
+                                    <em>feat.
+                                       {{ item.feat }}</em>
+                                 </span>
+                              {% endif %}
+                              {% if item.comment %}
+                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Comment">💬</span>
+                                 <span class="feat-popup" style="display: none;">
+                                    <em>{{ item.comment }}</em>
+                                 </span>
+                              {% endif %}
+                           </li>
+                        {% endfor %}
+                     </ol>
+                  {% else %}
+                     No associated content available.
+                  {% endif %}
+                  {% if compilation.extras and compilation.extras.length %}
+                     <div class="extras-card">
+                        <div class="extras-header">
+                           <span>Extras:</span>
+                           {% if compilation.extras.length > 0 %}
+                              <button type="button" class="count-badge toggle-media" data-target="extras-list-content" aria-expanded="false" title="Show {{ compilation.extras.length }} extra{{ '' if compilation.extras.length == 1 else 's' }}">+{{ compilation.extras.length }}</button>
+                           {% endif %}
+                        </div>
+
+                        {% if compilation.extras.length > 0 %}
+                           <ol id="extras-list-content" class="extra-media indent-block-extras" style="display: none; margin-top: 5px; margin-left: -1.3em;">
+                              {% for item in compilation.extras %}
+                                 <li>
+                                    {{ item.song }}
+                                    {% if item.note %}
+                                       <span class="setlist-note-label">{{ item.note }}</span>
+                                    {% endif %}
+                                    {% if item.coverOf %}
+                                       <span class="info-icon" onclick="toggleFeatInfo(this)" title="Cover">🎵</span>
+                                       <span class="feat-popup" style="display: none;">
+                                          <em>{{ item.coverOf }}
+                                             cover</em>
+                                       </span>
+                                    {% endif %}
+                                    {% if item.feat %}
+                                       <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                       <span class="feat-popup" style="display: none;">
+                                          <em>feat.
+                                             {{ item.feat }}</em>
+                                       </span>
+                                    {% endif %}
+                                    {% if item.comment %}
+                                       <span class="info-icon" onclick="toggleFeatInfo(this)" title="Comment">💬</span>
+                                       <span class="feat-popup" style="display: none;">
+                                          <em>{{ item.comment }}</em>
+                                       </span>
+                                    {% endif %}
+                                 </li>
+                              {% endfor %}
+                           </ol>
+                        {% endif %}
+                     </div>
+                  {% endif %}
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+   {% include "modals/json-editor-modal.njk" %}
+   <script src="{{ '/scripts/json-editor.js' | url }}"></script>
+   <script src="{{ '/scripts/hammer.min.js' | url }}"></script>
+   {% include "modals/cart-modal.njk" %}
+   {% include "modals/image-modal.njk" %}
+   <script src="{{ '/scripts/cart.js' | url }}"></script>
+   <script src="{{ '/scripts/notes-credts-expand.js' | url }}"></script>
+   <script src="{{ '/scripts/image-modal-viewer.js' | url }}"></script>
+   <script src="{{ '/scripts/setlist-toggle.js' | url }}"></script>
+   <script src="{{ '/scripts/media-extras-toggle.js' | url }}"></script>
 {% endblock %}

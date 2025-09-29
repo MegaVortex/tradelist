@@ -33,14 +33,14 @@ function initializeShowFilters(shows) {
         showsForPage.forEach(show => {
             const dateDisplay = show.startDateUnix ? new Date(show.startDateUnix * 1000).toISOString().slice(0, 10) : '—';
             const locationDisplay = show.location ? [show.location.city, show.location.country].filter(Boolean).join(', ') : '—';
-            
+
             rowsHtml += `
                 <tr class="paginated-show" data-band="${show.bands ? show.bands.join('|||') : ''}">
                     <td>${show.bands ? show.bands.join(', ') : '—'}</td>
                     <td>${dateDisplay}</td>
                     <td>${locationDisplay}</td>
                     <td>${show.specs && show.specs.length ? Math.round(show.specs.length / 60) + ' min' : '—'}</td>
-                    <td>${show.specs && show.specs.media && show.specs.media[0] ? `${show.specs.media[0].size}${show.specs.media[0].unit}`: '—'}</td>
+                    <td>${show.specs && show.specs.media && show.specs.media[0] ? `${show.specs.media[0].size}${show.specs.media[0].unit}` : '—'}</td>
                     <td>${show.specs && show.specs.sourceDetail ? show.specs.sourceDetail.fileFormat : '—'}</td>
                     <td>${show.specs && show.specs.sourceDetail ? show.specs.sourceDetail.recordingType : '—'}</td>
                     <td>${show.source || '—'}</td>
@@ -64,11 +64,11 @@ function initializeShowFilters(shows) {
 
         let html = '<nav><ul class="pagination justify-content-center">';
         if (page > 1) html += `<li class="page-item"><a class="page-link" href="#" data-page="${page - 1}">←</a></li>`;
-        
+
         for (let i = 1; i <= totalPages; i++) {
             html += `<li class="page-item ${i === page ? 'active' : ''}"><a class="page-link" href="#" data-page="${i}">${i}</a></li>`;
         }
-        
+
         if (page < totalPages) html += `<li class="page-item"><a class="page-link" href="#" data-page="${page + 1}">→</a></li>`;
         html += '</ul></nav>';
         paginationControls.innerHTML = html;
@@ -76,7 +76,7 @@ function initializeShowFilters(shows) {
 
     function updateDisplay() {
         const lowerCaseBands = currentFilterBands.map(b => b.toLowerCase());
-        
+
         const filteredShows = shows.filter(show => {
             if (!show.bands || show.bands.length === 0) return false;
 
@@ -113,7 +113,7 @@ function initializeShowFilters(shows) {
             e.preventDefault();
             letterBar.querySelectorAll('.nav-link').forEach(a => a.classList.remove('active'));
             e.target.classList.add('active');
-            
+
             currentFilterLetter = e.target.dataset.letter;
             updateDisplay();
             buildBandPills();
@@ -129,7 +129,7 @@ function initializeShowFilters(shows) {
                 const firstLetter = (show.bands[0][0] || '').toUpperCase();
                 const isNumeric = !/^[A-Z]/.test(firstLetter);
                 const letterMatch = currentFilterLetter === 'all' || (currentFilterLetter === '#' && isNumeric) || firstLetter === currentFilterLetter;
-                if(letterMatch) {
+                if (letterMatch) {
                     show.bands.forEach(band => bandSet.add(band));
                 }
             }
@@ -155,7 +155,7 @@ function initializeShowFilters(shows) {
             });
         });
     }
-    
+
     paginationControls.addEventListener('click', e => {
         if (e.target.tagName !== 'A') return;
         e.preventDefault();

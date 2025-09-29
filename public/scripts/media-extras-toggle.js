@@ -1,4 +1,3 @@
-// /scripts/media-extras-toggle.js
 document.addEventListener('DOMContentLoaded', () => {
   document.addEventListener('click', (e) => {
     const trigger = e.target.closest('.toggle-media');
@@ -12,8 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const count = panel.children.length;
 
-    // If panel currently has an inline display style, toggle inline (legacy path)
-    // else use the class-based toggle.
     let open;
     const hasInlineDisplay =
       panel.style && (panel.style.display === 'none' || panel.style.display === 'block');
@@ -23,8 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
       panel.style.display = isVisible ? 'none' : 'block';
       open = !isVisible;
     } else {
-      // Ensure base class approach works even if someone left an inline style before
-      panel.style.display = ''; // clear any leftover inline so CSS can take over
+      panel.style.display = '';
       if (panel.classList.contains('extra-media')) {
         open = panel.classList.toggle('visible');
       } else {
