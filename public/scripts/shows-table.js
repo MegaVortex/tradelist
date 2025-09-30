@@ -946,44 +946,39 @@ function initializeShowFilters(shows) {
     }
 
     function resetYearFilter() {
-        const btn = document.getElementById('yearFilterBtn');
-        const menu = document.getElementById('yearMenu');
-
-        if (btn && menu) {
-            currentFilterYear = 'all';
-            btn.textContent = 'All years';
-
-            menu.querySelectorAll('.dropdown-item').forEach(a => {
-                a.classList.remove('active');
-                if (a.dataset.year === 'all') {
-                    a.classList.add('active');
-                }
-            });
-        }
+      const btn = document.getElementById('yearFilterBtn');
+      const menu = document.getElementById('yearMenu');
+      if (!btn || !menu) return;
+      currentFilterYear = 'all';
+      btn.textContent = 'All years';
+      menu.querySelectorAll('.dropdown-item')?.forEach(a=>{
+        a.classList.toggle('active', a.dataset.year === 'all');
+      });
     }
-
+    
     function updateDisplay() {
-        const yearFilterDropdown = document.querySelector('.year-filter');
-        if (yearFilterDropdown) {
-            if (currentFilterBands.length === 1) {
-                yearFilterDropdown.style.display = '';
-            } else {
-                yearFilterDropdown.style.display = 'none';
-                resetYearFilter();
-            }
+      const yearWrap = document.querySelector('.year-filter');
+    
+      if (yearWrap) {
+        const shouldShow = currentFilterBands.length === 1;
+        yearWrap.hidden = !shouldShow;
+    
+        if (!shouldShow) {
+          resetYearFilter();
         }
-
-        const filtered = filterShows();
-        showCountSpan.textContent = filtered.length;
-
-        if (currentFilterBands.length === 1) {
-            renderPage(filtered, 1);
-            paginationControls.innerHTML = '';
-        } else {
-            renderPage(filtered, 1);
-            renderPagination(filtered.length, 1);
-        }
-        insertGroupLabels(currentFilterBands);
+      }
+    
+      const filtered = filterShows();
+      showCountSpan.textContent = filtered.length;
+    
+      if (currentFilterBands.length === 1) {
+        renderPage(filtered, 1);
+        paginationControls.innerHTML = '';
+      } else {
+        renderPage(filtered, 1);
+        renderPagination(filtered.length, 1);
+      }
+      insertGroupLabels(currentFilterBands);
     }
 
     function buildLetterBar() {
