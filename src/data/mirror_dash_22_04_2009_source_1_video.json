@@ -1,0 +1,122 @@
+{
+  "originalTitle": "Mirror/Dash - 22.04.2009 - Krems - Austria - Halle 1 - Donaufestival (Source 1)",
+  "created": 1759778399,
+  "lastUpdated": 1759778399,
+  "bands": [
+    "Mirror/Dash"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "04",
+    "year": "2009"
+  },
+  "endDate": {
+    "day": "22",
+    "month": "04",
+    "year": "2009"
+  },
+  "startDateUnix": 1240358400,
+  "endDateUnix": 1240358400,
+  "location": {
+    "city": "Krems",
+    "state": "",
+    "country": "Austria",
+    "venue": "Halle 1",
+    "event": "Donaufestival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "greenlight",
+  "notes": "",
+  "tapers": [
+    "greenlight"
+  ],
+  "receivedInTrade": true,
+  "trader": "Ingram",
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.31,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 2505,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "images": [
+    {
+      "folder": "2025",
+      "filename": "shot-1759778008359-0.jpg",
+      "externalId": "1KGN5MOyreO_qGYX-VDrT2I0aSVop461G"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1759778008709-2.jpg",
+      "externalId": "1v9QubFOQts-4KE6hXV6NgNpA1rTPZtVF"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1759778008891-3.jpg",
+      "externalId": "1tzK2Ndmhgwi-eBH-5BpK5sLWxMRHzSne"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1759778008554-1.jpg",
+      "externalId": "12ocRaBeGu7Qj4oYdEcefs4nXOUYoqFG1"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Improvisation",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [],
+  "relatedShows": [
+    "sonic_youth_22_04_2009_source_1_video"
+  ],
+  "childOf": ""
+}
