@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Show Adder Tool</title>
+
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+      body {
+        font-size: 10px;
+      }
+
+      input.form-control-sm,
+      select.form-control-sm,
+      select.form-select-sm {
+        font-size: 9px !important;
+        height: 22px !important;
+      }
+
+      textarea[id^="notes"] {
+        font-size: 9px;
+      }
+
+      [id^="shots-result"] {
+        display: grid;
+        grid-template-columns: repeat(2, 160px);
+        gap: 8px;
+        justify-content: center;
+      }
+
+      [id^="shots-result"] > div {
+        text-align: center;
+      }
+
+      [id^="shots-result"] img {
+        width: 160px;
+        border: 1px solid #ccc;
+      }
+
+      [id^="drop-area"] {
+        background: #f8f9fa;
+        font-weight: bold;
+        font-size: 12px;
+      }
+
+      pre[id^="specs-summary"] {
+        background: #f8f8f8;
+        padding: 6px;
+        border: 1px solid #ccc;
+        font-size: 9px;
+      }
+
+      .song-line {
+        display: flex;
+        gap: 4px;
+        margin-bottom: 2px;
+      }
+
+      .song-line input {
+        flex: 1;
+        font-size: 9px !important;
+        height: 20px !important;
+        font-weight: bold;
+      }
+
+      .small-fields {
+        display: flex;
+        gap: 4px;
+        margin-bottom: 6px;
+      }
+
+      .small-fields input {
+        flex: 1;
+        font-size: 9px !important;
+        height: 20px !important;
+      }
+
+      .remove-btn {
+        font-size: 8px;
+        padding: 2px 6px;
+        margin-left: 4px;
+      }
+
+      .media-block {
+        border: 1px dashed #ccc;
+        padding: 6px;
+        border-radius: 4px;
+        background: #fafafa;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="container-fluid mt-3">
+
+      <div class="row">
+
+        <!-- LEFT COLUMN -->
+        <div class="col-3">
+
+          <div class="mb-2">
+            <label class="form-label fw-bold">Show Type</label>
+            <select id="show-type" class="form-select form-select-sm">
+              <option value="regular" selected="selected">Regular Show</option>
+              <option value="va">Various Artists (VA)</option>
+            </select>
+          </div>
+
+          <div class="mb-2">
+            <label class="form-label">Category</label>
+            <div class="d-flex gap-3 flex-wrap align-items-center">
+              <div class="form-check form-check-inline m-0">
+                <input class="form-check-input" type="checkbox" name="category" value="video" id="cat-video" checked="checked">
+                <label class="form-check-label" for="cat-video">Video</label>
+              </div>
+              <div class="form-check form-check-inline m-0">
+                <input class="form-check-input" type="checkbox" name="category" value="audio" id="cat-audio">
+                <label class="form-check-label" for="cat-audio">Audio</label>
+              </div>
+              <div class="form-check form-check-inline m-0">
+                <input class="form-check-input" type="checkbox" name="category" value="misc" id="cat-misc">
+                <label class="form-check-label" for="cat-misc">Misc</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-2">
+            <label class="form-label">Band Name</label>
+            <input type="text" id="bandName" class="form-control form-control-sm">
+          </div>
+
+          <div class="mb-2 row g-1">
+            <div class="col">
+              <label class="form-label">City</label>
+              <input type="text" id="city" class="form-control form-control-sm">
+            </div>
+            <div class="col">
+              <label class="form-label">State</label>
+              <input type="text" id="state" class="form-control form-control-sm">
+            </div>
+            <div class="col">
+              <label class="form-label">Year</label>
+              <input type="number" id="year" class="form-control form-control-sm">
+            </div>
+          </div>
+
+          <div id="setlist-response" class="d-none mb-2 row g-1">
+            <div class="col">
+              <label class="form-label">Venue</label>
+              <input type="text" id="loc-venue" class="form-control form-control-sm">
+            </div>
+            <div class="col">
+              <label class="form-label">Date</label>
+              <input type="text" id="loc-date" class="form-control form-control-sm">
+            </div>
+
+            <div class="mb-2 row g-1">
+              <div class="col">
+                <label class="form-label">Country</label>
+                <input type="text" id="loc-country" class="form-control form-control-sm">
+              </div>
+              <div class="col">
+                <label class="form-label">Event</label>
+                <input type="text" id="loc-event" class="form-control form-control-sm">
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-2 row g-1">
+            <div class="col">
+              <label class="form-label">TV Channel</label>
+              <input type="text" id="tvChannel" class="form-control form-control-sm">
+            </div>
+            <div class="col">
+              <label class="form-label">Show Name</label>
+              <input type="text" id="showName" class="form-control form-control-sm">
+            </div>
+          </div>
+
+          <div class="mb-2 row g-1">
+            <div class="mb-3">
+              <label for="source" class="form-label">Source</label>
+              <select id="source" class="form-select form-select-sm">
+                <option value="Source 1" selected="selected">Source 1</option>
+                <option value="Source 2">Source 2</option>
+                <option value="Source 3">Source 3</option>
+                <option value="Source 4">Source 4</option>
+                <option value="Source 5">Source 5</option>
+              </select>
+            </div>
+            <div class="col">
+              <label class="form-label">Own Identifier</label>
+              <input type="text" id="ownIdentifier" class="form-control form-control-sm" value="HDD#B">
+            </div>
+          </div>
+
+          <div class="mb-2">
+            <label class="form-label">Trade Label</label>
+            <select id="tradeLabel" class="form-select form-select-sm">
+              <option>Regular</option>
+              <option>RT</option>
+              <option>NT</option>
+            </select>
+          </div>
+
+          <div class="mb-2">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="receivedTrade">
+              <label class="form-check-label" for="receivedTrade">Received in Trade</label>
+            </div>
+            <div id="traderRow" class="mt-1 d-none">
+              <label class="form-label">Trader</label>
+              <input type="text" id="traderName" class="form-control form-control-sm">
+            </div>
+          </div>
+
+          <div class="mb-2">
+            <label class="form-label">Notes</label>
+            <textarea id="notes" class="form-control form-control-sm" rows="3"></textarea>
+          </div>
+
+          <div class="mb-2">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="hasRelated">
+              <label class="form-check-label" for="hasRelated">Has related shows</label>
+            </div>
+            <div id="related-config" class="mt-1 d-none">
+              <label class="form-label">#</label>
+              <input type="number" id="relatedCount" class="form-control form-control-sm" min="1" value="1" style="max-width:80px;">
+            </div>
+          </div>
+
+        </div>
+
+        <!-- MIDDLE COLUMN -->
+        <div class="col-5 text-center">
+          <div id="drop-area" class="border border-2 border-secondary rounded p-3 mb-3">
+            Drag & Drop media file here
+          </div>
+
+          <div class="mb-2 d-flex justify-content-center gap-2">
+            <button id="add-media-btn" class="btn btn-outline-secondary btn-sm">Add more media</button>
+            <button id="setlist-lookup-btn" class="btn btn-outline-secondary btn-sm">Lookup Setlist Info</button>
+            <button id="upload-images-btn" class="btn btn-primary btn-sm">Upload Images</button>
+            <button id="save-btn" class="btn btn-success btn-sm d-none">Save JSON</button>
+          </div>
+
+          <div class="mb-2 row g-2 align-items-start">
+            <div class="col-8">
+              <pre id="specs-summary" class="d-none mb-0" style="display:inline-block; font-size:11px; text-align:left;"></pre>
+            </div>
+            <div class="col-4">
+              <label class="form-label">Total Length (sec)</label>
+              <input type="number" id="total-length" class="form-control form-control-sm" value="0">
+            </div>
+          </div>
+
+          <!-- Media Specs Fields -->
+          <div class="media-block text-center mb-2">
+            <div class="fw-bold mb-1">Media #1</div>
+            <div class="row g-2 justify-content-center">
+              <div class="col-3">
+                <label class="form-label">Size</label>
+                <input type="number" step="0.01" id="specs-size" class="form-control form-control-sm">
+              </div>
+              <div class="col-2">
+                <label class="form-label">Unit</label>
+                <select id="specs-unit" class="form-select form-select-sm">
+                  <option>Gb</option>
+                  <option>Mb</option>
+                  <option>Kb</option>
+                </select>
+              </div>
+              <div class="col-3">
+                <label class="form-label">Type</label>
+                <input type="text" id="specs-type" class="form-control form-control-sm">
+              </div>
+            </div>
+          </div>
+
+          <div id="extra-media"></div>
+
+          <div class="mb-2 row g-2 align-items-end">
+            <div class="col">
+              <label class="form-label">Recording Type</label>
+              <select id="recordingType" class="form-select form-select-sm">
+                <option value="AMT" selected="selected">AMT</option>
+                <option value="PRO">PRO</option>
+              </select>
+            </div>
+            <div class="col-3">
+              <label class="form-label">Source Media Type</label>
+              <input id="sourceMediaType" type="text" class="form-control form-control-sm">
+            </div>
+            <div class="col-3">
+              <label class="form-label">Final Media Type</label>
+              <input id="finalMediaType" type="text" class="form-control form-control-sm">
+            </div>
+            <div class="col-3">
+              <label class="form-label">File Format</label>
+              <input id="fileFormat" type="text" class="form-control form-control-sm">
+            </div>
+          </div>
+
+          <div id="shots-result" class="mb-3"></div>
+
+          <div id="tapers-container" class="mt-3">
+            <label class="form-label">Taper(s):</label>
+            <button id="add-taper" class="btn btn-outline-primary btn-sm" style="padding: 1px 6px; font-size: 8px; line-height: 1;">Add Taper</button>
+            <div id="taper-fields" class="row"></div>
+          </div>
+
+          <div>
+            <label class="form-label me-2">Master:</label>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="master" value="yes">
+              <label class="form-check-label">Yes</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="master" value="no" checked="checked">
+              <label class="form-check-label">No</label>
+            </div>
+          </div>
+
+          <div class="mt-2">
+            <label class="form-label me-2">Public:</label>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="public" value="yes" checked="checked">
+              <label class="form-check-label">Yes</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="public" value="no">
+              <label class="form-check-label">No</label>
+            </div>
+          </div>
+
+          <div class="mt-3 row g-1 justify-content-center">
+            <div>
+              <label class="form-label me-2">Chapters:</label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="chapters" value="yes">
+                <label class="form-check-label">Yes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="chapters" value="no" checked="checked">
+                <label class="form-check-label">No</label>
+              </div>
+            </div>
+
+            <div>
+              <label class="form-label me-2">Menu:</label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="menu" value="yes">
+                <label class="form-check-label">Yes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="menu" value="no" checked="checked">
+                <label class="form-check-label">No</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-3 row g-1 justify-content-center">
+            <div class="col-5">
+              <label class="form-label">Authored By</label>
+              <input type="text" id="authoredBy" class="form-control form-control-sm">
+            </div>
+            <div class="col-5">
+              <label class="form-label">Transferred By</label>
+              <input type="text" id="transferredBy" class="form-control form-control-sm">
+            </div>
+          </div>
+
+          <hr id="related-hr" class="d-none">
+          <div id="related-editors" class="d-none"></div>
+          <div id="save-all-row" class="text-center my-3 d-none">
+            <button id="save-all-btn" class="btn btn-success btn-sm">Save All JSONs</button>
+          </div>
+
+        </div>
+
+        <div class="col-4">
+
+          <label class="form-label fw-bold">Setlist</label>
+          <div id="setlist-container"></div>
+          <button id="add-setlist-item" class="btn btn-outline-primary btn-xs my-2" style="font-size:8px; padding:2px 6px;">Add Setlist Song</button>
+
+          <hr>
+
+          <label class="form-label fw-bold">Extras</label>
+          <div id="extras-container"></div>
+          <button id="add-extra-item" class="btn btn-outline-primary btn-xs my-2" style="font-size:8px; padding:2px 6px;">Add Extra</button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>

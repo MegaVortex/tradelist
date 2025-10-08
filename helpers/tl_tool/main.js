@@ -1,0 +1,276 @@
+const { app, BrowserWindow, ipcMain, shell, dialog } = require("electron");
+const path = require("path");
+const fs = require("fs");
+const https = require("https");
+const { google } = require('googleapis');
+
+ipcMain.handle("update-tapers-index", async (event, { tapers, filename }) => {
+  const indexPath = "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\src\\tapers\\tapers_index.json";
+
+  let indexData = {};
+  try {
+    if (fs.existsSync(indexPath)) {
+      const raw = fs.readFileSync(indexPath, "utf-8");
+      if (raw.trim().length > 0) {
+        indexData = JSON.parse(raw);
+      }
+    }
+  } catch (err) {
+    console.warn("⚠ Failed to read existing tapers index:", err.message);
+  }
+
+  for (const taper of tapers) {
+    if (!indexData[taper]) indexData[taper] = [];
+    if (!indexData[taper].includes(filename)) {
+      indexData[taper].push(filename);
+    }
+  }
+
+  fs.writeFileSync(indexPath, JSON.stringify(indexData, null, 2), "utf-8");
+  console.log("✅ tapers_index.json updated successfully");
+
+  return true;
+});
+
+const TRADERS_INDEX_PATH = "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\src\\traders\\traders_index.json";
+
+ipcMain.handle("update-traders-index", async (event, { traders, filename }) => {
+  try {
+    fs.mkdirSync(path.dirname(TRADERS_INDEX_PATH), { recursive: true });
+
+    let indexData = {};
+    if (fs.existsSync(TRADERS_INDEX_PATH)) {
+      const raw = fs.readFileSync(TRADERS_INDEX_PATH, "utf-8").trim();
+      if (raw.length > 0) indexData = JSON.parse(raw);
+    }
+
+    for (const trader of traders) {
+      if (!trader) continue;
+      if (!indexData[trader]) indexData[trader] = [];
+      if (!indexData[trader].includes(filename)) {
+        indexData[trader].push(filename);
+      }
+    }
+
+    fs.writeFileSync(TRADERS_INDEX_PATH, JSON.stringify(indexData, null, 2), "utf-8");
+    console.log("✅ traders_index.json updated successfully");
+    return true;
+  } catch (err) {
+    console.error("❌ Failed to update traders_index.json:", err);
+    throw err;
+  }
+});
+
+ipcMain.handle("save-json-file", async (event, content) => {
+  const win = BrowserWindow.getFocusedWindow();
+  const { filePath } = await dialog.showSaveDialog(win, {
+    defaultPath: path.join(__dirname, "2025", "new_show.json"),
+    filters: [{ name: "JSON Files", extensions: ["json"] }]
+  });
+
+  if (filePath) {
+    fs.writeFileSync(filePath, content, "utf8");
+    return { success: true, filePath };
+  } else {
+    return { success: false };
+  }
+});
+
+const driveFolderId = "1H3C6E52DtJGWuNuu3TqRVH8PI8h4ttQI";
+const ROOT_DIR = path.resolve(__dirname, "..", "..", "..");
+const CREDENTIALS_PATH = path.join(ROOT_DIR, "credentials.json");
+const TOKEN_PATH = path.join(ROOT_DIR, "token.json");
+const CREDENTIALS = JSON.parse(fs.readFileSync(CREDENTIALS_PATH, "utf8"));
+
+let oauth2Client;
+
+function createOAuth2Client() {
+  oauth2Client = new google.auth.OAuth2(
+    CREDENTIALS.installed.client_id,
+    CREDENTIALS.installed.client_secret,
+    CREDENTIALS.installed.redirect_uris[0]
+  );
+
+  if (fs.existsSync(TOKEN_PATH)) {
+    const tokens = JSON.parse(fs.readFileSync(TOKEN_PATH, "utf8"));
+    oauth2Client.setCredentials(tokens);
+  }
+}
+
+app.whenReady().then(() => {
+  createOAuth2Client();
+
+  const preloadPath = path.join(__dirname, "preload.js");
+
+  if (!fs.existsSync(preloadPath)) {
+    console.error("❌ preload.js not found at:", preloadPath);
+    app.quit();
+    return;
+  }
+
+  console.log("✅ Using preload path:", preloadPath);
+
+  const win = new BrowserWindow({
+    width: 900,
+    height: 750,
+    webPreferences: {
+      preload: preloadPath,
+      contextIsolation: true,
+      nodeIntegration: false,
+      sandbox: false
+    },
+  });
+
+  win.loadFile("index.html");
+});
+
+app.on("window-all-closed", () => {
+  if (process.platform !== "darwin") app.quit();
+});
+
+
+
+ipcMain.handle("setlist-lookup", async (event, params) => {
+  const { band, city, year, apiKey } = params;
+
+  const url = `https://api.setlist.fm/rest/1.0/search/setlists?artistName=${encodeURIComponent(band)}&cityName=${encodeURIComponent(city)}&year=${encodeURIComponent(year)}`;
+
+  return new Promise((resolve, reject) => {
+    const options = {
+      headers: {
+        'Accept': 'application/json',
+        'x-api-key': apiKey,
+        'User-Agent': 'Show Info Tool'
+      }
+    };
+
+    https.get(url, options, (res) => {
+      let data = "";
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        resolve({ status: res.statusCode, body: data });
+      });
+    }).on('error', err => {
+      reject(err);
+    });
+  });
+});
+
+function createWindow() {
+  const preloadPath = path.join(__dirname, "preload.js");
+
+  if (!fs.existsSync(preloadPath)) {
+    console.error("❌ preload.js not found at:", preloadPath);
+    app.quit();
+    return;
+  }
+
+  console.log("✅ Using preload path:", preloadPath);
+
+  const win = new BrowserWindow({
+    width: 900,
+    height: 750,
+    webPreferences: {
+      preload: preloadPath,
+      contextIsolation: true,
+      nodeIntegration: false,
+      sandbox: false
+    },
+  });
+
+  win.loadFile("index.html");
+}
+
+ipcMain.handle("get-auth-url", () => {
+  const authUrl = oauth2Client.generateAuthUrl({
+    access_type: "offline",
+    scope: ["https://www.googleapis.com/auth/drive.file"],
+  });
+  return authUrl;
+});
+
+ipcMain.handle("set-auth-code", async (event, code) => {
+  const { tokens } = await oauth2Client.getToken(code);
+  oauth2Client.setCredentials(tokens);
+  fs.writeFileSync(TOKEN_PATH, JSON.stringify(tokens));
+  return tokens;
+});
+
+ipcMain.handle("upload-to-drive", async (event, filePath) => {
+  if (!oauth2Client || !oauth2Client.credentials) {
+    throw new Error("No valid OAuth2 token set. Please login first.");
+  }
+
+  const drive = google.drive({ version: "v3", auth: oauth2Client });
+
+  const res = await drive.files.create({
+    resource: {
+      name: path.basename(filePath),
+      parents: [driveFolderId]
+    },
+    media: { body: fs.createReadStream(filePath) },
+    fields: "id",
+  });
+
+  return res.data;
+});
+
+ipcMain.handle("drive:setPermission", async (event, fileId, permission) => {
+  if (!oauth2Client || !oauth2Client.credentials) {
+    throw new Error("No valid OAuth2 token set. Please login first.");
+  }
+
+  const drive = google.drive({ version: "v3", auth: oauth2Client });
+
+  try {
+    await drive.permissions.create({
+      fileId,
+      requestBody: {
+        role: permission.role || "reader",
+        type: permission.type || "anyone"
+      }
+    });
+
+    return { success: true };
+  } catch (err) {
+    console.error("Failed to set permission:", err);
+    throw new Error(err.message);
+  }
+});
+
+ipcMain.handle("open-auth-window", async (event, authUrl) => {
+  const { BrowserWindow } = require("electron");
+
+  return new Promise((resolve, reject) => {
+    const authWin = new BrowserWindow({
+      width: 500,
+      height: 600,
+      webPreferences: {
+        nodeIntegration: false,
+        contextIsolation: true,
+      }
+    });
+
+    authWin.loadURL(authUrl);
+
+    authWin.webContents.on("will-redirect", (e, url) => {
+      if (url.startsWith("http://localhost")) {
+        const matched = url.match(/code=([^&]+)/);
+        if (matched) {
+          const code = decodeURIComponent(matched[1]);
+          authWin.close();
+          event.sender.send("auth-code", code);
+          resolve();
+        }
+      }
+    });
+
+    authWin.on("closed", () => {
+      reject(new Error("Auth window closed by user."));
+    });
+  });
+});
+
+app.on("window-all-closed", () => {
+  if (process.platform !== "darwin") app.quit();
+});
