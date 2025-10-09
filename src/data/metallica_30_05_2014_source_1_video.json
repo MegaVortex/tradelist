@@ -1,0 +1,264 @@
+{
+  "originalTitle": "Metallica - 30.05.2014 - Stockholm - Sweden - Gardet (Source 1)",
+  "created": 1760035597,
+  "lastUpdated": 1760035597,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "05",
+    "year": "2014"
+  },
+  "endDate": {
+    "day": "30",
+    "month": "05",
+    "year": "2014"
+  },
+  "startDateUnix": 1401408000,
+  "endDateUnix": 1401408000,
+  "location": {
+    "city": "Stockholm",
+    "state": "",
+    "country": "Sweden",
+    "venue": "Gardet",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "PapaHet",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Bombajakan"
+  ],
+  "receivedInTrade": false,
+  "trader": "",
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.18,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2817,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "images": [
+    {
+      "folder": "2025",
+      "filename": "shot-1760035131619-0.jpg",
+      "externalId": "1engbRZU-4WC1w8-hxIyb38VONvwbSJ7p"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1760035132421-3.jpg",
+      "externalId": "1h1GzgVAmEDrPdo7eqdeiZogXy-4cTpYJ"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1760035131971-1.jpg",
+      "externalId": "1Yni-CrVPn5IWTVkRxj6h0ykfNKexNPAO"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1760035132235-2.jpg",
+      "externalId": "1GBEJCMNEWIChCDxIUbRYfyn4SKH7YTDe"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Ecstasy of Gold",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": "Ennio Morricone"
+    },
+    {
+      "order": 2,
+      "song": "Battery",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "without taped intro",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Master of Puppets",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Welcome Home (Sanitarium)",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Harvester of Sorrow",
+      "feat": "",
+      "note": "",
+      "comment": "followed by Kirk's solo, snippet of Of Wolf and Man",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Unforgiven",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Lords of Summer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Ride the Lightning",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Sad but True",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Fade to Black",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "preceded by Rob's bass solo",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "...And Justice for All",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "One",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "For Whom the Bell Tolls",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Blackened",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Nothing Else Matters",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "preceded by kirk solo",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 17,
+      "song": "Creeping Death",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "preceded by The Frayed Ends of Sanity jam",
+      "coverOf": ""
+    },
+    {
+      "order": 18,
+      "song": "Whiskey in the Jar",
+      "feat": "",
+      "note": "",
+      "comment": "Vote of the day song",
+      "coverOf": "traditional"
+    },
+    {
+      "order": 19,
+      "song": "Seek & Destroy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [],
+  "relatedShows": [],
+  "childOf": ""
+}

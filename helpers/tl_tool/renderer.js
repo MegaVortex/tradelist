@@ -24,100 +24,6 @@ function isDirPath(p) {
   }
 }
 
-function findVideoTsDir(basePath) {
-  try {
-    const { basename, pathJoin, readDir, statSync, existsSync } = window.mediaTools;
-
-    if (String(basename(basePath)).toUpperCase() === "VIDEO_TS") return basePath;
-
-    const maybe = pathIsAbsolute("VIDEO_TS")
-      ? "VIDEO_TS"
-      : window.mediaTools.pathJoin(basePath, "VIDEO_TS");
-    if (existsSync(maybe)) return maybe;
-
-    const parent = window.mediaTools.getDirname(basePath);
-    if (String(basename(parent)).toUpperCase() === "VIDEO_TS") return parent;
-
-    try {
-      const entries = readDir(basePath);
-      for (const e of entries) {
-        const name = typeof e === "string" ? e : (e?.name ?? "");
-        if (String(name).toUpperCase() === "VIDEO_TS") {
-          const abs = window.mediaTools.pathJoin(basePath, name);
-          if (isDirPath(abs)) return abs;
-        }
-      }
-    } catch { }
-  } catch { }
-  return null;
-}
-
-function detectDVDContextFromPath(p) {
-  const { basename, getDirname, pathJoin, readDir, statSync, existsSync } = window.mediaTools;
-
-  let base = p;
-  try {
-    const st = statSync(p);
-    const isDir = (typeof st.isDirectory === "function") ? st.isDirectory() : !!st.isDirectory;
-    if (!isDir) {
-      const parent = getDirname(p);
-      if (String(basename(parent)).toUpperCase() === "VIDEO_TS") {
-        base = parent;
-      }
-    }
-  } catch { }
-
-  if (String(basename(base)).toUpperCase() === "VIDEO_TS" && isDirPath(base)) {
-    return buildFromVideoTsDir(base);
-  }
-
-  const maybeChild = pathJoin(base, "VIDEO_TS");
-  if (existsSync(maybeChild) && isDirPath(maybeChild)) {
-    return buildFromVideoTsDir(maybeChild);
-  }
-
-  const parent = getDirname(base);
-  if (String(basename(parent)).toUpperCase() === "VIDEO_TS" && isDirPath(parent)) {
-    return buildFromVideoTsDir(parent);
-  }
-
-  return { isDVD: false };
-
-  function buildFromVideoTsDir(videoTsDir) {
-    if (!isDirPath(videoTsDir)) return { isDVD: false };
-    const entries = readDir(videoTsDir).map(e => (typeof e === "string" ? e : (e?.name ?? "")));
-
-    let vobNames = entries.filter(n => /^VTS_\d{2}_[1-9]\.VOB$/i.test(n));
-    if (!vobNames.length) vobNames = entries.filter(n => /^VTS_\d{2}_[0-9]\.VOB$/i.test(n));
-    if (!vobNames.length) return { isDVD: false };
-
-    const groups = new Map();
-    for (const name of vobNames) {
-      const m = name.match(/^VTS_(\d{2})_([0-9])\.VOB$/i);
-      if (!m) continue;
-      const id = `VTS_${m[1]}`;
-      const abs = pathJoin(videoTsDir, name);
-      const sz = (statSync(abs).size || 0);
-      if (!groups.has(id)) groups.set(id, { files: [], size: 0 });
-      const g = groups.get(id);
-      g.files.push(abs);
-      g.size += sz;
-    }
-
-    let best = null;
-    for (const [, g] of groups) if (!best || g.size > best.size) best = g;
-    if (!best) return { isDVD: false };
-
-    best.files.sort((a, b) => {
-      const an = window.mediaTools.basename(a).match(/_(\d)\.VOB$/i);
-      const bn = window.mediaTools.basename(b).match(/_(\d)\.VOB$/i);
-      return (an ? parseInt(an[1], 10) : 0) - (bn ? parseInt(bn[1], 10) : 0);
-    });
-
-    return { isDVD: true, videoTsDir, titleVobs: best.files };
-  }
-}
-
 const BLANK_STRINGS = new Set(["n/a", "na", "und", "undefined", "unknown", "?", "-", ""]);
 
 function cleanStr(v) {
@@ -395,34 +301,26 @@ async function processFilesForBlock(filesOrPaths, opts) {
   const st = getShowState(i);
 
   let totalSize = 0, totalDuration = 0, firstVideoFile = null;
-  const firstAnyFilePath = files[0]?.path || files[0];
+  const paths = files.map(f => (typeof f === "string" ? f : f?.path)).filter(Boolean);
+  if (!paths.length) return;
 
-  const firstPath = typeof firstAnyFilePath === "string" ? firstAnyFilePath : files[0].path;
-  const dvd = (files.length === 1 && isDirPath(firstPath))
-    ? detectDVDContextFromPath(firstPath)
-    : { isDVD: false };
-  const isDVD = !!dvd.isDVD;
-
-  if (isDVD) {
-    totalSize = await window.mediaTools.getFolderSize(dvd.videoTsDir);
-    for (const vob of dvd.titleVobs) {
-      const info = await window.mediaTools.probeFile(vob);
-      totalDuration += info.format.duration || 0;
+  const anyDir = paths.some(p => isDirPath(p));
+  if (anyDir) {
+    const shotsHost = getEl("shots-result", i);
+    if (shotsHost) {
+      shotsHost.innerHTML = `<div class="text-muted mt-2">Folder drops are no longer supported. Please drop VOB or other video files directly.</div>`;
     }
-    firstVideoFile = dvd.titleVobs[0] || null;
-  } else {
-    for (const f of files) {
-      const p = typeof f === "string" ? f : f.path;
-
-      if (isDirPath(p)) continue;
-
-      let info;
-      try { info = await window.mediaTools.probeFile(p); } catch { continue; }
-      totalSize += info.format.size || 0;
-      totalDuration += info.format.duration || 0;
-      if (!firstVideoFile && info.streams?.some(s => s.codec_type === "video")) firstVideoFile = p;
-    }
+    return;
   }
+
+  for (const p of paths) {
+    let info;
+    try { info = await window.mediaTools.probeFile(p); } catch { continue; }
+    totalSize += info?.format?.size || 0;
+    totalDuration += info?.format?.duration || 0;
+    if (!firstVideoFile && info?.streams?.some(s => s.codec_type === "video")) firstVideoFile = p;
+  }
+
 
   const { sizeVal, unit, sizeMb } = chooseSizeUnitFromBytes(totalSize);
   opts.sizeInput.value = sizeVal;
@@ -436,11 +334,8 @@ async function processFilesForBlock(filesOrPaths, opts) {
   st.droppedFilePath = firstVideoFile || null;
 
   if (st.droppedFilePath) {
-    if (isDVD) getEl("fileFormat", i).value = "DVD";
-    else {
-      const ext = String(st.droppedFilePath).split(".").pop().toUpperCase();
-      getEl("fileFormat", i).value = (ext === "VOB") ? "DVD" : ext;
-    }
+    const ext = String(st.droppedFilePath).split(".").pop().toUpperCase();
+    getEl("fileFormat", i).value = (ext === "VOB") ? "DVD" : ext;
   }
 
   if (firstVideoFile) {
@@ -457,11 +352,7 @@ async function processFilesForBlock(filesOrPaths, opts) {
   } else {
     const shotsHost = getEl("shots-result", i);
     if (shotsHost) {
-      const isDir = isDirPath(firstPath);
-      const msg = isDir
-        ? 'No video VOBs found in the dropped folder (looked for VTS_##_#.VOB under VIDEO_TS).'
-        : 'Audio-only files detected. No screenshots available.';
-      shotsHost.innerHTML = `<div class="text-muted mt-2">${msg}</div>`;
+      shotsHost.innerHTML = `<div class="text-muted mt-2">No video streams found (audio-only or unsupported file types). No screenshots available.</div>`;
     }
   }
 
