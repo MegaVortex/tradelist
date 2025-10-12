@@ -160,12 +160,25 @@ function createSetlistItemFor(i, data = {}) {
   const smallFields = document.createElement('div');
   smallFields.className = 'd-flex gap-1';
   ['feat', 'note', 'comment', 'coverOf'].forEach(key => {
-    const input = document.createElement('input');
-    input.type = 'text';
-    input.placeholder = key;
-    input.value = data[key] || '';
-    input.className = 'form-control form-control-sm';
-    smallFields.appendChild(input);
+    if (key === 'note') {
+      const select = document.createElement('select');
+      select.className = 'form-select form-select-sm';
+      ['', 'tape', 'incomplete', 'not recorded'].forEach(v => {
+        const opt = document.createElement('option');
+        opt.value = v;
+        opt.textContent = v;
+        select.appendChild(opt);
+      });
+      select.value = (data.note && ['tape','incomplete','not recorded'].includes(data.note)) ? data.note : '';
+      smallFields.appendChild(select);
+    } else {
+      const input = document.createElement('input');
+      input.type = 'text';
+      input.placeholder = key;
+      input.value = data[key] || '';
+      input.className = 'form-control form-control-sm';
+      smallFields.appendChild(input);
+    }
   });
 
   container.appendChild(songLine);
@@ -885,10 +898,10 @@ function populateSetlistFromAPIFor(i, setlistFmData) {
         coverOf: ""
       };
       if (songObj.info) {
-        if (songObj.info.toLowerCase().includes('with ')) entry.feat = songObj.info;
+        if (/^\s*with\s+/i.test(songObj.info)) entry.feat = normalizeFeatText(songObj.info);
         else entry.comment = songObj.info;
       }
-      if (songObj.with) entry.feat = `with ${songObj.with.name}`;
+      if (songObj.with) entry.feat = normalizeFeatText(songObj.with.name);
       if (songObj.cover) entry.coverOf = songObj.cover.name;
       if (songObj.tape === true) entry.note = "tape";
       createSetlistItemFor(i, entry);
@@ -921,14 +934,26 @@ function createSetlistItemFor(i, data = {}) {
 
   const smallFields = document.createElement('div');
   smallFields.className = 'd-flex gap-1';
-
   ['feat', 'note', 'comment', 'coverOf'].forEach(key => {
-    const input = document.createElement('input');
-    input.type = 'text';
-    input.placeholder = key;
-    input.value = data[key] || '';
-    input.className = 'form-control form-control-sm';
-    smallFields.appendChild(input);
+    if (key === 'note') {
+      const select = document.createElement('select');
+      select.className = 'form-select form-select-sm';
+      ['', 'tape', 'incomplete', 'not recorded'].forEach(v => {
+        const opt = document.createElement('option');
+        opt.value = v;
+        opt.textContent = v;
+        select.appendChild(opt);
+      });
+      select.value = (data.note && ['tape','incomplete','not recorded'].includes(data.note)) ? data.note : '';
+      smallFields.appendChild(select);
+    } else {
+      const input = document.createElement('input');
+      input.type = 'text';
+      input.placeholder = key;
+      input.value = data[key] || '';
+      input.className = 'form-control form-control-sm';
+      smallFields.appendChild(input);
+    }
   });
 
   container.appendChild(songLine);
@@ -1019,6 +1044,11 @@ function convertLang(code) {
   return out.toLowerCase() === "und" ? "" : out;
 }
 
+function normalizeFeatText(s) {
+  if (!s) return "";
+  return String(s).replace(/^\s*with\s+/i, "").trim();
+}
+
 function inferTvFormatFromStream(stream) {
   const h = stream.height;
   let fps = "";
@@ -1097,7 +1127,9 @@ function parseSpecs(ffprobeData) {
       let alt = cleanStr((stream.codec_tag_string || stream.codec_name || "").toUpperCase());
 
       if (alt === "MPEG2VIDEO") alt = "MPEG2";
+      if (alt === "DVVIDEO") alt = "DV";
       if (alt === "[0][0][0][0]") alt = "";
+	  if (alt === "[27][0][0][0]") alt = "";
 
       const codec = (alt && alt !== standard) ? alt : "";
 
@@ -1464,12 +1496,25 @@ function createSetlistItem(data = {}) {
   smallFields.className = 'd-flex gap-1';
 
   ['feat', 'note', 'comment', 'coverOf'].forEach(key => {
-    const input = document.createElement('input');
-    input.type = 'text';
-    input.placeholder = key;
-    input.value = data[key] || '';
-    input.className = 'form-control form-control-sm';
-    smallFields.appendChild(input);
+    if (key === 'note') {
+      const select = document.createElement('select');
+      select.className = 'form-select form-select-sm';
+      ['', 'tape', 'incomplete', 'not recorded'].forEach(v => {
+        const opt = document.createElement('option');
+        opt.value = v;
+        opt.textContent = v;
+        select.appendChild(opt);
+      });
+      select.value = (data.note && ['tape','incomplete','not recorded'].includes(data.note)) ? data.note : '';
+      smallFields.appendChild(select);
+    } else {
+      const input = document.createElement('input');
+      input.type = 'text';
+      input.placeholder = key;
+      input.value = data[key] || '';
+      input.className = 'form-control form-control-sm';
+      smallFields.appendChild(input);
+    }
   });
 
   container.appendChild(songLine);
@@ -1536,15 +1581,15 @@ function populateSetlistFromAPI(setlistFmData) {
       };
 
       if (songObj.info) {
-        if (songObj.info.toLowerCase().includes('with ')) {
-          entry.feat = songObj.info;
+        if (/^\s*with\s+/i.test(songObj.info)) {
+          entry.feat = normalizeFeatText(songObj.info);
         } else {
           entry.comment = songObj.info;
         }
       }
 
       if (songObj.with) {
-        entry.feat = `with ${songObj.with.name}`;
+        entry.feat = normalizeFeatText(songObj.with.name);
       }
 
       if (songObj.cover) {
@@ -1563,14 +1608,21 @@ function populateSetlistFromAPI(setlistFmData) {
 function exportSetlistAndExtras() {
   const setlist = [];
   document.querySelectorAll('#setlist-container > div').forEach((el, idx) => {
-    const inputs = el.querySelectorAll('input');
+    const songInput = el.querySelector('.d-flex input.form-control.fw-bold') || el.querySelector('.d-flex input');
+    const small = el.querySelector('.d-flex.gap-1');
+    const featInput = small?.querySelector('input[placeholder="feat"]');
+    const noteSelect = small?.querySelector('select');
+    const noteInputFallback = small?.querySelector('input[placeholder="note"]');
+    const commentInput = small?.querySelector('input[placeholder="comment"]');
+    const coverInput = small?.querySelector('input[placeholder="coverOf"]');
+
     setlist.push({
       order: idx + 1,
-      song: inputs[0].value.trim(),
-      feat: inputs[1].value.trim(),
-      note: inputs[2].value.trim(),
-      comment: inputs[3].value.trim(),
-      coverOf: inputs[4].value.trim()
+      song: (songInput?.value || '').trim(),
+      feat: (featInput?.value || '').trim(),
+      note: ((noteSelect?.value ?? '') || (noteInputFallback?.value ?? '')).trim(),
+      comment: (commentInput?.value || '').trim(),
+      coverOf: (coverInput?.value || '').trim()
     });
   });
 
@@ -1597,14 +1649,21 @@ function exportSetlistAndExtrasFor(index = 1) {
   const setlist = [];
   if (setlistCont) {
     setlistCont.querySelectorAll(':scope > div').forEach((el, idx) => {
-      const inputs = el.querySelectorAll('input');
+      const songInput = el.querySelector('.d-flex input.form-control.fw-bold') || el.querySelector('.d-flex input');
+      const small = el.querySelector('.d-flex.gap-1');
+      const featInput = small?.querySelector('input[placeholder="feat"]');
+      const noteSelect = small?.querySelector('select');
+      const noteInputFallback = small?.querySelector('input[placeholder="note"]');
+      const commentInput = small?.querySelector('input[placeholder="comment"]');
+      const coverInput = small?.querySelector('input[placeholder="coverOf"]');
+
       setlist.push({
         order: idx + 1,
-        song: (inputs[0]?.value || '').trim(),
-        feat: (inputs[1]?.value || '').trim(),
-        note: (inputs[2]?.value || '').trim(),
-        comment: (inputs[3]?.value || '').trim(),
-        coverOf: (inputs[4]?.value || '').trim()
+        song: (songInput?.value || '').trim(),
+        feat: (featInput?.value || '').trim(),
+        note: ((noteSelect?.value ?? '') || (noteInputFallback?.value ?? '')).trim(),
+        comment: (commentInput?.value || '').trim(),
+        coverOf: (coverInput?.value || '').trim()
       });
     });
   }
