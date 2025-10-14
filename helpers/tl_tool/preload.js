@@ -95,6 +95,34 @@ contextBridge.exposeInMainWorld("mediaTools", {
     return outputPaths;
   },
 
+  captureScreenshotsAt: async (filePath, timestamps = [], outDir = null) => {
+    const saveDir = outDir || path.dirname(filePath);
+    const outputPaths = [];
+
+    for (let i = 0; i < timestamps.length; i++) {
+      const timestamp = timestamps[i];
+      const outPath = path.join(saveDir, `shot-${Date.now()}-${i}.jpg`);
+
+      await new Promise((resolve, reject) => {
+        ffmpeg(filePath)
+          .seekInput(timestamp)
+          .frames(1)
+          .outputOptions([
+            "-vf scale=1024:576",
+            "-q:v 4",
+            "-an"
+          ])
+          .output(outPath)
+          .on("end", resolve)
+          .on("error", reject)
+          .run();
+      });
+      outputPaths.push(outPath);
+    }
+
+    return outputPaths;
+  },
+
   copyFile: (src, dest) => {
     fs.copyFileSync(src, dest);
   },

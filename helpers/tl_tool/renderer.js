@@ -96,7 +96,9 @@ function getShowState(i) {
       probeData: null,
       durationSec: 0,
       generatedScreenshots: [],
-      uploadedScreenshots: {}
+      uploadedScreenshots: {},
+      screenshotStartSec: 0,
+      screenshotEndSec: 0
     };
   }
   return window.showState[i];
@@ -169,7 +171,7 @@ function createSetlistItemFor(i, data = {}) {
         opt.textContent = v;
         select.appendChild(opt);
       });
-      select.value = (data.note && ['tape','incomplete','not recorded'].includes(data.note)) ? data.note : '';
+      select.value = (data.note && ['tape', 'incomplete', 'not recorded'].includes(data.note)) ? data.note : '';
       smallFields.appendChild(select);
     } else {
       const input = document.createElement('input');
@@ -352,8 +354,19 @@ async function processFilesForBlock(filesOrPaths, opts) {
   }
 
   if (firstVideoFile) {
-    const imgs = await window.mediaTools.captureScreenshots(firstVideoFile, null, 4);
+    const dur = blockDuration || 0;
+    const timestamps = [];
+    for (let k = 0; k < 4; k++) {
+      timestamps.push(Math.random() * dur);
+    }
+    timestamps.sort((a, b) => a - b);
+
+    const imgs = await window.mediaTools.captureScreenshotsAt(firstVideoFile, timestamps);
+
+    st.screenshotTimestamps = timestamps;
     st.generatedScreenshots = imgs;
+    st.screenshotStartSec = 0;
+    st.screenshotEndSec = dur;
     renderScreenshots(imgs, i);
 
     st.probeData = await window.mediaTools.probeFile(firstVideoFile);
@@ -519,11 +532,39 @@ window.refreshScreenshotForShow = async function (i, oldPath, container) {
     try { await window.mediaTools.deleteFile(finalPath); } catch { }
 
     const outDir = await window.mediaTools.getTmpDir();
-    const [newTempPath] = await window.mediaTools.captureScreenshots(st.droppedFilePath, outDir, 1);
+    let newTempPath = null;
+    let newTimestamp = 0;
+
+    const slot = Number(container?.dataset?.slot ?? -1);
+    const hasAt = (typeof window.mediaTools.captureScreenshotsAt === "function");
+
+    if (hasAt) {
+      const start = Number(st.screenshotStartSec || 0);
+      const end = Number(st.screenshotEndSec || st.durationSec || 0);
+
+      newTimestamp = start + (Math.random() * (end - start));
+
+      const arr = await window.mediaTools.captureScreenshotsAt(st.droppedFilePath, [newTimestamp], outDir);
+      newTempPath = Array.isArray(arr) ? arr[0] : null;
+
+      if (slot !== -1) {
+        st.screenshotTimestamps[slot] = newTimestamp;
+      }
+    }
+
+    if (!newTempPath) {
+      const arr = await window.mediaTools.captureScreenshots(st.droppedFilePath, outDir, 1);
+      newTempPath = Array.isArray(arr) ? arr[0] : arr;
+    }
     await window.mediaTools.copyFile(newTempPath, finalPath);
 
     const idx = st.generatedScreenshots.indexOf(oldPath);
     if (idx !== -1) st.generatedScreenshots[idx] = finalPath;
+
+    const tsLabel = document.createElement("div");
+    tsLabel.style.fontSize = "8px";
+    tsLabel.style.marginBottom = "2px";
+    tsLabel.textContent = secToHMS(newTimestamp);
 
     const img = document.createElement("img");
     img.src = `file://${finalPath}?t=${Date.now()}`;
@@ -543,6 +584,7 @@ window.refreshScreenshotForShow = async function (i, oldPath, container) {
     st.uploadedScreenshots[finalPath] = { id: null, idLabel, refreshBtn };
 
     container.innerHTML = "";
+    container.appendChild(tsLabel);
     container.appendChild(img);
     container.appendChild(refreshBtn);
     container.appendChild(idLabel);
@@ -571,10 +613,6 @@ async function uploadScreenshots(i = 1) {
       uploaded.idLabel.textContent = driveId;
 
       if (uploaded.refreshBtn) uploaded.refreshBtn.disabled = true;
-
-      const targetDir = window.mediaTools.getDirname(getShowState(i).droppedFilePath);
-      const destPath = window.mediaTools.pathJoin(targetDir, imgPath.split(/[/\\]/).pop());
-      await window.mediaTools.copyFile(imgPath, destPath);
     }
 
     alert("All screenshots uploaded and saved locally.");
@@ -944,7 +982,7 @@ function createSetlistItemFor(i, data = {}) {
         opt.textContent = v;
         select.appendChild(opt);
       });
-      select.value = (data.note && ['tape','incomplete','not recorded'].includes(data.note)) ? data.note : '';
+      select.value = (data.note && ['tape', 'incomplete', 'not recorded'].includes(data.note)) ? data.note : '';
       smallFields.appendChild(select);
     } else {
       const input = document.createElement('input');
@@ -1049,6 +1087,24 @@ function normalizeFeatText(s) {
   return String(s).replace(/^\s*with\s+/i, "").trim();
 }
 
+function hmsToSec(str) {
+  if (!str) return 0;
+  const parts = String(str).trim().split(":").map(Number);
+  if (parts.some(n => Number.isNaN(n))) return 0;
+  if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2];
+  if (parts.length === 2) return parts[0] * 60 + parts[1];
+  if (parts.length === 1) return parts[0];
+  return 0;
+}
+function secToHMS(total) {
+  const s = Math.max(0, Math.floor(Number(total) || 0));
+  const hh = String(Math.floor(s / 3600)).padStart(2, "0");
+  const mm = String(Math.floor((s % 3600) / 60)).padStart(2, "0");
+  const ss = String(s % 60).padStart(2, "0");
+  return `${hh}:${mm}:${ss}`;
+}
+function clamp(n, min, max) { return Math.min(max, Math.max(min, n)); }
+
 function inferTvFormatFromStream(stream) {
   const h = stream.height;
   let fps = "";
@@ -1129,7 +1185,7 @@ function parseSpecs(ffprobeData) {
       if (alt === "MPEG2VIDEO") alt = "MPEG2";
       if (alt === "DVVIDEO") alt = "DV";
       if (alt === "[0][0][0][0]") alt = "";
-	  if (alt === "[27][0][0][0]") alt = "";
+      if (alt === "[27][0][0][0]") alt = "";
 
       const codec = (alt && alt !== standard) ? alt : "";
 
@@ -1208,14 +1264,74 @@ function formatSpecsForDisplay(ffprobeData) {
 function renderScreenshots(imgPaths, i = 1) {
   const host = getEl("shots-result", i);
   if (!host) return;
-
-  host.innerHTML = "";
   const st = getShowState(i);
   st.generatedScreenshots = imgPaths;
+  const prev = st.uploadedScreenshots || {};
   st.uploadedScreenshots = {};
 
-  imgPaths.forEach(imgPath => {
+  host.innerHTML = "";
+  host.style.display = "block";
+
+  const toolbar = document.createElement("div");
+  toolbar.className = "shots-toolbar d-flex align-items-center justify-content-center";
+  toolbar.style.gap = "8px";
+  toolbar.style.marginBottom = "6px";
+
+  const fileLabel = document.createElement("div");
+  fileLabel.className = "file-label";
+  fileLabel.style.fontSize = "8px";
+  fileLabel.style.marginTop = "4px";
+  const base = st.droppedFilePath ? st.droppedFilePath.split(/[/\\]/).pop() : "";
+  fileLabel.textContent = base || "";
+
+  const startId = i === 1 ? "shots-start" : `shots-start${uidSuffix(i)}`;
+  const endId = i === 1 ? "shots-end" : `shots-end${uidSuffix(i)}`;
+
+  const startInput = document.createElement("input");
+  startInput.id = startId;
+  startInput.type = "text";
+  startInput.placeholder = "hh:mm:ss";
+  startInput.className = "form-control form-control-sm";
+  startInput.style.width = "90px";
+  startInput.value = secToHMS(st.screenshotStartSec || 0);
+
+  const endInput = document.createElement("input");
+  endInput.id = endId;
+  endInput.type = "text";
+  endInput.placeholder = "hh:mm:ss";
+  endInput.className = "form-control form-control-sm";
+  endInput.style.width = "90px";
+  endInput.value = secToHMS(st.screenshotEndSec || (st.durationSec || 0));
+
+  const refresh4Btn = document.createElement("button");
+  refresh4Btn.className = "btn btn-outline-secondary btn-sm";
+  refresh4Btn.textContent = "↻ 4";
+  refresh4Btn.title = "Refresh 4 screenshots within range";
+  refresh4Btn.onclick = () => regenerateScreenshotsInRange(i);
+
+  toolbar.appendChild(fileLabel);
+  toolbar.appendChild(startInput);
+  toolbar.appendChild(endInput);
+  toolbar.appendChild(refresh4Btn);
+  host.appendChild(toolbar);
+
+  const grid = document.createElement("div");
+  grid.className = "shots-grid";
+  grid.style.display = "grid";
+  grid.style.gridTemplateColumns = "repeat(2, 160px)";
+  grid.style.gap = "8px";
+  grid.style.justifyContent = "center";
+  host.appendChild(grid);
+
+  imgPaths.forEach((imgPath, idx) => {
     const wrap = document.createElement("div");
+    wrap.dataset.slot = String(idx);
+    const timestamp = st.screenshotTimestamps[idx];
+    const tsLabel = document.createElement("div");
+    tsLabel.style.fontSize = "8px";
+    tsLabel.style.marginBottom = "2px";
+    tsLabel.textContent = secToHMS(timestamp);
+
     const img = document.createElement("img");
     img.src = `file://${imgPath}?t=${Date.now()}`;
     img.style.width = "160px";
@@ -1230,15 +1346,90 @@ function renderScreenshots(imgPaths, i = 1) {
     refreshBtn.textContent = "↻";
     refreshBtn.onclick = () => refreshScreenshotForShow(i, imgPath, wrap);
 
-    st.uploadedScreenshots[imgPath] = { id: null, idLabel, refreshBtn };
+    const prevRec = prev[imgPath];
+    st.uploadedScreenshots[imgPath] = { id: prevRec?.id || null, idLabel, refreshBtn };
+    if (prevRec?.id) idLabel.textContent = prevRec.id;
 
+    wrap.appendChild(tsLabel);
     wrap.appendChild(img);
     wrap.appendChild(refreshBtn);
     wrap.appendChild(idLabel);
-    host.appendChild(wrap);
+    grid.appendChild(wrap);
   });
 
   updateUploadButtonState(i);
+}
+
+async function regenerateScreenshotsInRange(i = 1) {
+  const st = getShowState(i);
+  if (!st?.droppedFilePath) {
+    alert("Drop a video file first.");
+    return;
+  }
+  const startStr = (getEl("shots-start", i)?.value || "").trim();
+  const endStr = (getEl("shots-end", i)?.value || "").trim();
+  const dur = Number(st.durationSec || 0);
+  let startSec = clamp(hmsToSec(startStr), 0, dur);
+  let endSec = clamp(hmsToSec(endStr), 0, dur);
+  if (endSec < startSec) [startSec, endSec] = [endSec, startSec];
+  if (endSec === startSec) {
+    endSec = clamp(startSec + Math.max(1, Math.floor(dur / 20)), 0, dur);
+  }
+
+  st.screenshotStartSec = startSec;
+  st.screenshotEndSec = endSec;
+
+  let newTempPaths = null;
+  try {
+    const rangeFunc = window.mediaTools.captureScreenshotsRange;
+    const atFunc = window.mediaTools.captureScreenshotsAt;
+
+    if (typeof rangeFunc === "function") {
+      newTempPaths = await rangeFunc(st.droppedFilePath, startSec, endSec, 4);
+    } else if (typeof atFunc === "function") {
+      const rangeDuration = endSec - startSec;
+      const steps = [];
+      for (let k = 0; k < 4; k++) {
+        const randomOffset = Math.random() * rangeDuration;
+        steps.push(startSec + randomOffset);
+      }
+      steps.sort((a, b) => a - b);
+      st.screenshotTimestamps = steps;
+      newTempPaths = await atFunc(st.droppedFilePath, steps);
+    } else {
+      throw new Error("Screenshot generation by time range is not supported by the current version of mediaTools.");
+    }
+  } catch (e) {
+    console.error(e);
+    alert("Failed to generate screenshots in range: " + e.message);
+    return;
+  }
+
+  const targetDir = window.mediaTools.getDirname(st.droppedFilePath);
+  const finalPaths = [];
+
+  for (let idx = 0; idx < newTempPaths.length; idx++) {
+    const newTempPath = newTempPaths[idx];
+    const oldFinalPath = st.generatedScreenshots[idx];
+
+    const baseFilename = oldFinalPath
+      ? oldFinalPath.split(/[/\\]/).pop()
+      : `shot_${idx + 1}.jpg`;
+
+    const finalDestPath = window.mediaTools.pathJoin(targetDir, baseFilename);
+
+    if (oldFinalPath) {
+      try { await window.mediaTools.deleteFile(oldFinalPath); } catch { }
+    }
+
+    await window.mediaTools.copyFile(newTempPath, finalDestPath);
+    try { await window.mediaTools.deleteFile(newTempPath); } catch { }
+
+    finalPaths.push(finalDestPath);
+  }
+
+  st.generatedScreenshots = finalPaths;
+  renderScreenshots(finalPaths, i);
 }
 
 async function saveJson(index = 1) {
@@ -1505,7 +1696,7 @@ function createSetlistItem(data = {}) {
         opt.textContent = v;
         select.appendChild(opt);
       });
-      select.value = (data.note && ['tape','incomplete','not recorded'].includes(data.note)) ? data.note : '';
+      select.value = (data.note && ['tape', 'incomplete', 'not recorded'].includes(data.note)) ? data.note : '';
       smallFields.appendChild(select);
     } else {
       const input = document.createElement('input');

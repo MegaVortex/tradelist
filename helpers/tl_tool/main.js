@@ -1,8 +1,40 @@
+// main.js
 const { app, BrowserWindow, ipcMain, shell, dialog } = require("electron");
+const { spawn } = require("child_process");
+const os = require("os");
 const path = require("path");
 const fs = require("fs");
+const fsp = fs.promises;
 const https = require("https");
 const { google } = require('googleapis');
+
+function ffmpegGrab(file, tSec, outDir) {
+  return new Promise((resolve, reject) => {
+    const out = path.join(outDir, `shot_${Math.floor(tSec * 1000)}.jpg`);
+    const args = ['-ss', String(tSec), '-i', file, '-frames:v', '1', '-q:v', '2', out, '-y'];
+    const p = spawn('ffmpeg', args);
+    p.on('error', reject);
+    p.on('close', code => code === 0 ? resolve(out) : reject(new Error('ffmpeg exited ' + code)));
+  });
+}
+
+ipcMain.handle('media:captureAt', async (_e, { file, timesSecArray, outDir }) => {
+  const dir = outDir || await fsp.mkdtemp(path.join(os.tmpdir(), 'shots-'));
+  const out = [];
+  for (const t of timesSecArray) out.push(await ffmpegGrab(file, Math.max(0, Number(t) || 0), dir));
+  return out;
+});
+
+ipcMain.handle('media:captureRange', async (_e, { file, startSec, endSec, count, outDir }) => {
+  const dir = outDir || await fsp.mkdtemp(path.join(os.tmpdir(), 'shots-'));
+  const s = Math.max(0, Number(startSec) || 0);
+  const e = Math.max(s, Number(endSec) || s);
+  const n = Math.max(1, Number(count) || 4);
+  const steps = (n === 1) ? [(s + e) / 2] : Array.from({ length: n }, (_, k) => s + ((e - s) * (k / (n - 1))));
+  const out = [];
+  for (const t of steps) out.push(await ffmpegGrab(file, t, dir));
+  return out;
+});
 
 ipcMain.handle("update-tapers-index", async (event, { tapers, filename }) => {
   const indexPath = "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\src\\tapers\\tapers_index.json";
