@@ -1800,7 +1800,10 @@ function exportSetlistAndExtras() {
   const setlist = [];
   document.querySelectorAll('#setlist-container > div').forEach((el, idx) => {
     const songInput = el.querySelector('.d-flex input.form-control.fw-bold') || el.querySelector('.d-flex input');
-    const small = el.querySelector('.d-flex.gap-1');
+    
+    // ** FIX: Use a more specific selector **
+    const small = el.querySelector('.d-flex.gap-1:last-child');
+    
     const featInput = small?.querySelector('input[placeholder="feat"]');
     const noteSelect = small?.querySelector('select');
     const noteInputFallback = small?.querySelector('input[placeholder="note"]');
@@ -1841,7 +1844,7 @@ function exportSetlistAndExtrasFor(index = 1) {
   if (setlistCont) {
     setlistCont.querySelectorAll(':scope > div').forEach((el, idx) => {
       const songInput = el.querySelector('.d-flex input.form-control.fw-bold') || el.querySelector('.d-flex input');
-      const small = el.querySelector('.d-flex.gap-1');
+      const small = el.querySelector('.d-flex.gap-1:last-child');
       const featInput = small?.querySelector('input[placeholder="feat"]');
       const noteSelect = small?.querySelector('select');
       const noteInputFallback = small?.querySelector('input[placeholder="note"]');

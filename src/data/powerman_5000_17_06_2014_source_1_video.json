@@ -1,0 +1,121 @@
+{
+  "originalTitle": "Powerman 5000 - 17.06.2014 - Prague - Czech Republic - Incheba Open Air - Aerodrome Festival (Source 1)",
+  "created": 1760555565,
+  "lastUpdated": 1760555565,
+  "bands": [
+    "Powerman 5000"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "06",
+    "year": "2014"
+  },
+  "endDate": {
+    "day": "17",
+    "month": "06",
+    "year": "2014"
+  },
+  "startDateUnix": 1402963200,
+  "endDateUnix": 1402963200,
+  "location": {
+    "city": "Prague",
+    "state": "",
+    "country": "Czech Republic",
+    "venue": "Incheba Open Air",
+    "event": "Aerodrome Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "Jederlacht",
+  "transferredBy": "",
+  "notes": "Highly incomplete. Nice show, pretty stable, some obstructions here and there and sometimes a little shakiness.",
+  "tapers": [],
+  "receivedInTrade": true,
+  "trader": "Jederlacht",
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 552,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 241,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50.00",
+        "standard": "MPEG2",
+        "codec": "HDMV",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "images": [
+    {
+      "folder": "2025",
+      "filename": "shot-1760555072144-0.jpg",
+      "externalId": "1_lw2GGJWW-tvrLV5rK8uXo3le4soDFKI"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1760555072347-1.jpg",
+      "externalId": "1GZFRJS8mGAepV1boHRAnrQj9JFbx1QSh"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1760555072722-3.jpg",
+      "externalId": "12JlLGA-7eBs-pUsvIX48NqZdqjGdJ0xH"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1760555072535-2.jpg",
+      "externalId": "1ejb-2SrPrTL-_KxKQlfvX4YK9jWrYh_s"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Supernova Goes Pop",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [],
+  "relatedShows": [
+    "limp_bizkit_17_06_2014_source_1_video",
+    "rob_zombie_17_06_2014_source_1_video"
+  ],
+  "childOf": ""
+}
