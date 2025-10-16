@@ -1,0 +1,220 @@
+{
+  "originalTitle": "Metallica - 11.09.1991 - Graz - Austria - Liebenau - Monsters Of Rock (Source 2)",
+  "created": 1760560166,
+  "lastUpdated": 1760560166,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "09",
+    "year": "1991"
+  },
+  "startDateUnix": 684547200,
+  "endDate": {
+    "day": "11",
+    "month": "09",
+    "year": "1991"
+  },
+  "endDateUnix": 684547200,
+  "location": {
+    "city": "Graz",
+    "state": "",
+    "country": "Austria",
+    "venue": "Liebenau",
+    "event": "Monsters Of Rock"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "Bellower",
+  "notes": "Ripped from Metallica Black Box stream by Bellower. Previously unreleased show.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.25,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4777,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "1920x1080",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "30",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 255,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "2025",
+      "filename": "2025-10-16-22h57m43s431.jpg",
+      "externalId": "11Aj5dXNzfsIBphJ9yPgz6-IpViS_Rfsk"
+    },
+    {
+      "folder": "2025",
+      "filename": "2025-10-16-22h57m49s741.jpg",
+      "externalId": "1hUJ2LpmonPK4K4LHs63nFhJrCsjxn80d"
+    },
+    {
+      "folder": "2025",
+      "filename": "2025-10-16-22h57m56s450.jpg",
+      "externalId": "1QQ3PZ6mYeIos5be5alQpsJ16nWANRaKE"
+    },
+    {
+      "folder": "2025",
+      "filename": "2025-10-16-22h58m06s361.jpg",
+      "externalId": "1jRiegM4E1DnKRlW_ZM7YUu9rdr7EXtZw"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Ecstasy Of Gold",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": "Ennio Morricone"
+    },
+    {
+      "order": 2,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Creeping Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Harvester Of Sorrow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Fade To Black",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Sad But True",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Master Of Puppets",
+      "feat": "",
+      "note": "",
+      "comment": "Short Version",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Seek And Destroy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "For Whom The Bell Tolls",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Whiplash",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Last Caress",
+      "feat": "",
+      "note": "",
+      "comment": "preceded by Wherever I May Roam jam",
+      "coverOf": "Misfits"
+    },
+    {
+      "order": 13,
+      "song": "Am I Evil?",
+      "feat": "",
+      "note": "",
+      "comment": "Short Version",
+      "coverOf": "Diamond Head"
+    },
+    {
+      "order": 14,
+      "song": "Battery",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}
