@@ -18,6 +18,21 @@ function ffmpegGrab(file, tSec, outDir) {
   });
 }
 
+ipcMain.handle("app:select-images", async (event, { allowMultiple }) => {
+  const win = BrowserWindow.getFocusedWindow();
+  const { filePaths } = await dialog.showOpenDialog(win, {
+    properties: [
+      "openFile",
+      allowMultiple ? "multiSelections" : undefined,
+    ].filter(Boolean),
+    filters: [
+      { name: "Images", extensions: ["jpg", "jpeg", "png", "gif"] },
+    ],
+  });
+
+  return filePaths || [];
+});
+
 ipcMain.handle('media:captureAt', async (_e, { file, timesSecArray, outDir }) => {
   const dir = outDir || await fsp.mkdtemp(path.join(os.tmpdir(), 'shots-'));
   const out = [];

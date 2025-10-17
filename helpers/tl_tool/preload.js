@@ -9,7 +9,8 @@ const { contextBridge, ipcRenderer } = require("electron");
 
 contextBridge.exposeInMainWorld("appAPI", {
   updateTapersIndex: (tapers, filename) => ipcRenderer.invoke("update-tapers-index", { tapers, filename }),
-  updateTradersIndex: (traders, filename) => ipcRenderer.invoke("update-traders-index", { traders, filename })
+  updateTradersIndex: (traders, filename) => ipcRenderer.invoke("update-traders-index", { traders, filename }),
+  selectImageFiles: (allowMultiple) => ipcRenderer.invoke("app:select-images", { allowMultiple }),
 });
 
 contextBridge.exposeInMainWorld("setlistAPI", {

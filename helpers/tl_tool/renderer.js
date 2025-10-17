@@ -89,6 +89,7 @@ function cleanFileName(str) {
 }
 
 window.showState = window.showState || {};
+
 function getShowState(i) {
   if (!window.showState[i]) {
     window.showState[i] = {
@@ -98,7 +99,8 @@ function getShowState(i) {
       generatedScreenshots: [],
       uploadedScreenshots: {},
       screenshotStartSec: 0,
-      screenshotEndSec: 0
+      screenshotEndSec: 0,
+      userSelectedSlots: new Set(),
     };
   }
   return window.showState[i];
@@ -309,83 +311,92 @@ function chooseSizeUnitFromBytes(totalSize) {
 }
 
 async function processFilesForBlock(filesOrPaths, opts) {
-  const files = [...filesOrPaths];
-  if (!files.length) return;
+    const files = [...filesOrPaths];
+    if (!files.length) return;
 
-  const i = opts.showIndex || 1;
-  const st = getShowState(i);
+    const i = opts.showIndex || 1;
+    const st = getShowState(i);
+    st.userSelectedSlots.clear(); // Reset on new file drop
 
-  let totalSize = 0, totalDuration = 0, firstVideoFile = null;
-  const paths = files.map(f => (typeof f === "string" ? f : f?.path)).filter(Boolean);
-  if (!paths.length) return;
+    let totalSize = 0, totalDuration = 0, firstVideoFile = null;
+    const paths = files.map(f => (typeof f === "string" ? f : f?.path)).filter(Boolean);
+    if (!paths.length) return;
 
-  const anyDir = paths.some(p => isDirPath(p));
-  if (anyDir) {
-    const shotsHost = getEl("shots-result", i);
-    if (shotsHost) {
-      shotsHost.innerHTML = `<div class="text-muted mt-2">Folder drops are no longer supported. Please drop VOB or other video files directly.</div>`;
+    const anyDir = paths.some(p => isDirPath(p));
+    if (anyDir) {
+        const shotsHost = getEl("shots-result", i);
+        if (shotsHost) {
+            shotsHost.innerHTML = `<div class="text-muted mt-2">Folder drops are no longer supported. Please drop VOB or other video files directly.</div>`;
+        }
+        return;
     }
-    return;
-  }
 
-  for (const p of paths) {
-    let info;
-    try { info = await window.mediaTools.probeFile(p); } catch { continue; }
-    totalSize += info?.format?.size || 0;
-    totalDuration += info?.format?.duration || 0;
-    if (!firstVideoFile && info?.streams?.some(s => s.codec_type === "video")) firstVideoFile = p;
-  }
-
-
-  const { sizeVal, unit, sizeMb } = chooseSizeUnitFromBytes(totalSize);
-  opts.sizeInput.value = sizeVal;
-  opts.unitSelect.value = unit;
-  opts.typeInput.value = calcMediaType(sizeMb);
-
-  const blockDuration = Math.round(totalDuration);
-  st.durationSec = blockDuration;
-  if (opts.rowEl) opts.rowEl.dataset.durationSec = String(blockDuration);
-  updateTotalLengthUI(i);
-  st.droppedFilePath = firstVideoFile || null;
-
-  if (st.droppedFilePath) {
-    const ext = String(st.droppedFilePath).split(".").pop().toUpperCase();
-    getEl("fileFormat", i).value = (ext === "VOB") ? "DVD" : ext;
-  }
-
-  if (firstVideoFile) {
-    const dur = blockDuration || 0;
-    const timestamps = [];
-    for (let k = 0; k < 4; k++) {
-      timestamps.push(Math.random() * dur);
+    for (const p of paths) {
+        let info;
+        try { info = await window.mediaTools.probeFile(p); } catch { continue; }
+        totalSize += info?.format?.size || 0;
+        totalDuration += info?.format?.duration || 0;
+        if (!firstVideoFile && info?.streams?.some(s => s.codec_type === "video")) firstVideoFile = p;
     }
-    timestamps.sort((a, b) => a - b);
 
-    const imgs = await window.mediaTools.captureScreenshotsAt(firstVideoFile, timestamps);
+    const { sizeVal, unit, sizeMb } = chooseSizeUnitFromBytes(totalSize);
+    opts.sizeInput.value = sizeVal;
+    opts.unitSelect.value = unit;
+    opts.typeInput.value = calcMediaType(sizeMb);
 
-    st.screenshotTimestamps = timestamps;
-    st.generatedScreenshots = imgs;
-    st.screenshotStartSec = 0;
-    st.screenshotEndSec = dur;
-    renderScreenshots(imgs, i);
+    const blockDuration = Math.round(totalDuration);
+    st.durationSec = blockDuration;
+    if (opts.rowEl) opts.rowEl.dataset.durationSec = String(blockDuration);
+    updateTotalLengthUI(i);
+    st.droppedFilePath = firstVideoFile || null;
 
-    st.probeData = await window.mediaTools.probeFile(firstVideoFile);
-    const pre = getEl("specs-summary", i);
-    if (pre) {
-      pre.textContent = formatSpecsForDisplay(st.probeData);
-      pre.classList.remove("d-none");
+    if (st.droppedFilePath) {
+        const ext = String(st.droppedFilePath).split(".").pop().toUpperCase();
+        getEl("fileFormat", i).value = (ext === "VOB") ? "DVD" : ext;
     }
-  } else {
-    const shotsHost = getEl("shots-result", i);
-    if (shotsHost) {
-      shotsHost.innerHTML = `<div class="text-muted mt-2">No video streams found (audio-only or unsupported file types). No screenshots available.</div>`;
-    }
-  }
 
-  if (i === 1) {
-    initTapersSection();
-  }
-  getEl("save-btn", 1)?.classList.remove("d-none");
+    // ** FIX: Wrap screenshot generation in a try...catch block **
+    if (firstVideoFile) {
+        try {
+            const dur = blockDuration || 0;
+            const timestamps = [];
+            for (let k = 0; k < 4; k++) {
+                timestamps.push(Math.random() * dur);
+            }
+            timestamps.sort((a, b) => a - b);
+
+            const imgs = await window.mediaTools.captureScreenshotsAt(firstVideoFile, timestamps);
+
+            st.screenshotTimestamps = timestamps;
+            st.generatedScreenshots = imgs;
+            st.screenshotStartSec = 0;
+            st.screenshotEndSec = dur;
+            renderScreenshots(imgs, i);
+
+            st.probeData = await window.mediaTools.probeFile(firstVideoFile);
+            const pre = getEl("specs-summary", i);
+            if (pre) {
+                pre.textContent = formatSpecsForDisplay(st.probeData);
+                pre.classList.remove("d-none");
+            }
+        } catch (e) {
+            console.error("Initial screenshot generation failed:", e);
+            // On failure, render the UI with no images, so the user can upload manually
+            st.generatedScreenshots = [];
+            st.screenshotTimestamps = [];
+            renderScreenshots([], i);
+        }
+    } else {
+        const shotsHost = getEl("shots-result", i);
+        if (shotsHost) {
+            shotsHost.innerHTML = `<div class="text-muted mt-2">No video streams found (audio-only or unsupported file types). No screenshots available.</div>`;
+        }
+    }
+
+    if (i === 1) {
+        initTapersSection();
+    }
+    getEl("save-btn", 1)?.classList.remove("d-none");
 }
 
 function computeTotalLengthSecFor(i = 1) {
@@ -517,6 +528,13 @@ function updateUploadButtonState(i = 1) {
 
 window.refreshScreenshotForShow = async function (i, oldPath, container) {
   const st = getShowState(i);
+  
+  // ** FIX: Define 'slot' at the top of the function **
+  const slot = Number(container?.dataset?.slot ?? -1);
+  
+  if (slot !== -1) {
+    st.userSelectedSlots.delete(slot);
+  }
 
   if (!st || !st.droppedFilePath) {
     alert("No video file available to refresh screenshots from.");
@@ -535,7 +553,6 @@ window.refreshScreenshotForShow = async function (i, oldPath, container) {
     let newTempPath = null;
     let newTimestamp = 0;
 
-    const slot = Number(container?.dataset?.slot ?? -1);
     const hasAt = (typeof window.mediaTools.captureScreenshotsAt === "function");
 
     if (hasAt) {
@@ -1261,103 +1278,174 @@ function formatSpecsForDisplay(ffprobeData) {
   return [...videoLines, ...audioLines].join("\n");
 }
 
-function renderScreenshots(imgPaths, i = 1) {
-  const host = getEl("shots-result", i);
-  if (!host) return;
+// Add these two new functions to renderer.js
+async function handleBulkFileSelect(i) {
   const st = getShowState(i);
-  st.generatedScreenshots = imgPaths;
-  const prev = st.uploadedScreenshots || {};
-  st.uploadedScreenshots = {};
+  if (!st.droppedFilePath) {
+    alert("Please drop a video file first to set the destination directory.");
+    return;
+  }
 
-  host.innerHTML = "";
-  host.style.display = "block";
+  const filePaths = await window.appAPI.selectImageFiles(true);
+  if (!filePaths.length) return;
 
-  const toolbar = document.createElement("div");
-  toolbar.className = "shots-toolbar d-flex align-items-center justify-content-center";
-  toolbar.style.gap = "8px";
-  toolbar.style.marginBottom = "6px";
+  const targetDir = window.mediaTools.getDirname(st.droppedFilePath);
+  const newScreenshotPaths = [...st.generatedScreenshots]; // Copy existing paths
 
-  const fileLabel = document.createElement("div");
-  fileLabel.className = "file-label";
-  fileLabel.style.fontSize = "8px";
-  fileLabel.style.marginTop = "4px";
-  const base = st.droppedFilePath ? st.droppedFilePath.split(/[/\\]/).pop() : "";
-  fileLabel.textContent = base || "";
+  for (let idx = 0; idx < Math.min(filePaths.length, 4); idx++) {
+    const selectedPath = filePaths[idx];
+    const newFilename = `manual_${Date.now()}_${idx}.jpg`;
+    const finalDestPath = window.mediaTools.pathJoin(targetDir, newFilename);
+    
+    await window.mediaTools.copyFile(selectedPath, finalDestPath);
+    
+    newScreenshotPaths[idx] = finalDestPath;
+    st.userSelectedSlots.add(idx);
+  }
 
-  const startId = i === 1 ? "shots-start" : `shots-start${uidSuffix(i)}`;
-  const endId = i === 1 ? "shots-end" : `shots-end${uidSuffix(i)}`;
+  st.generatedScreenshots = newScreenshotPaths;
+  renderScreenshots(st.generatedScreenshots, i);
+}
 
-  const startInput = document.createElement("input");
-  startInput.id = startId;
-  startInput.type = "text";
-  startInput.placeholder = "hh:mm:ss";
-  startInput.className = "form-control form-control-sm";
-  startInput.style.width = "90px";
-  startInput.value = secToHMS(st.screenshotStartSec || 0);
+async function handleSingleFileSelect(i, idx) {
+  const st = getShowState(i);
+  if (!st.droppedFilePath) {
+    alert("Please drop a video file first to set the destination directory.");
+    return;
+  }
 
-  const endInput = document.createElement("input");
-  endInput.id = endId;
-  endInput.type = "text";
-  endInput.placeholder = "hh:mm:ss";
-  endInput.className = "form-control form-control-sm";
-  endInput.style.width = "90px";
-  endInput.value = secToHMS(st.screenshotEndSec || (st.durationSec || 0));
+  const filePaths = await window.appAPI.selectImageFiles(false);
+  if (!filePaths.length) return;
 
-  const refresh4Btn = document.createElement("button");
-  refresh4Btn.className = "btn btn-outline-secondary btn-sm";
-  refresh4Btn.textContent = "↻ 4";
-  refresh4Btn.title = "Refresh 4 screenshots within range";
-  refresh4Btn.onclick = () => regenerateScreenshotsInRange(i);
+  const selectedPath = filePaths[0];
+  const targetDir = window.mediaTools.getDirname(st.droppedFilePath);
+  const newFilename = `manual_${Date.now()}_${idx}.jpg`;
+  const finalDestPath = window.mediaTools.pathJoin(targetDir, newFilename);
 
-  toolbar.appendChild(fileLabel);
-  toolbar.appendChild(startInput);
-  toolbar.appendChild(endInput);
-  toolbar.appendChild(refresh4Btn);
-  host.appendChild(toolbar);
+  await window.mediaTools.copyFile(selectedPath, finalDestPath);
 
-  const grid = document.createElement("div");
-  grid.className = "shots-grid";
-  grid.style.display = "grid";
-  grid.style.gridTemplateColumns = "repeat(2, 160px)";
-  grid.style.gap = "8px";
-  grid.style.justifyContent = "center";
-  host.appendChild(grid);
+  st.generatedScreenshots[idx] = finalDestPath;
+  st.userSelectedSlots.add(idx);
+  renderScreenshots(st.generatedScreenshots, i);
+}
 
-  imgPaths.forEach((imgPath, idx) => {
-    const wrap = document.createElement("div");
-    wrap.dataset.slot = String(idx);
-    const timestamp = st.screenshotTimestamps[idx];
-    const tsLabel = document.createElement("div");
-    tsLabel.style.fontSize = "8px";
-    tsLabel.style.marginBottom = "2px";
-    tsLabel.textContent = secToHMS(timestamp);
+// In renderer.js, replace the entire renderScreenshots function
+function renderScreenshots(imgPaths, i = 1) {
+    const host = getEl("shots-result", i);
+    if (!host) return;
+    const st = getShowState(i);
+    st.generatedScreenshots = imgPaths;
+    const prev = st.uploadedScreenshots || {};
+    st.uploadedScreenshots = {};
 
-    const img = document.createElement("img");
-    img.src = `file://${imgPath}?t=${Date.now()}`;
-    img.style.width = "160px";
-    img.style.border = "1px solid #ccc";
+    host.innerHTML = "";
+    host.style.display = "block";
 
-    const idLabel = document.createElement("div");
-    idLabel.style.fontSize = "8px";
-    idLabel.style.marginTop = "4px";
+    const toolbar = document.createElement("div");
+    toolbar.className = "shots-toolbar d-flex align-items-center justify-content-center";
+    toolbar.style.gap = "8px";
+    toolbar.style.marginBottom = "6px";
 
-    const refreshBtn = document.createElement("button");
-    refreshBtn.className = "btn btn-outline-secondary btn-sm mt-1";
-    refreshBtn.textContent = "↻";
-    refreshBtn.onclick = () => refreshScreenshotForShow(i, imgPath, wrap);
+    const fileLabel = document.createElement("div");
+    fileLabel.className = "file-label";
+    fileLabel.style.fontSize = "8px";
+    fileLabel.style.marginTop = "4px";
+    const base = st.droppedFilePath ? st.droppedFilePath.split(/[/\\]/).pop() : "";
+    fileLabel.textContent = base || "";
 
-    const prevRec = prev[imgPath];
-    st.uploadedScreenshots[imgPath] = { id: prevRec?.id || null, idLabel, refreshBtn };
-    if (prevRec?.id) idLabel.textContent = prevRec.id;
+    const startInput = document.createElement("input");
+    //... (input setup code is the same)
+    startInput.id = i === 1 ? "shots-start" : `shots-start${uidSuffix(i)}`;
+    startInput.type = "text";
+    startInput.placeholder = "hh:mm:ss";
+    startInput.className = "form-control form-control-sm";
+    startInput.style.width = "90px";
+    startInput.value = secToHMS(st.screenshotStartSec || 0);
 
-    wrap.appendChild(tsLabel);
-    wrap.appendChild(img);
-    wrap.appendChild(refreshBtn);
-    wrap.appendChild(idLabel);
-    grid.appendChild(wrap);
-  });
+    const endInput = document.createElement("input");
+    //... (input setup code is the same)
+    endInput.id = i === 1 ? "shots-end" : `shots-end${uidSuffix(i)}`;
+    endInput.type = "text";
+    endInput.placeholder = "hh:mm:ss";
+    endInput.className = "form-control form-control-sm";
+    endInput.style.width = "90px";
+    endInput.value = secToHMS(st.screenshotEndSec || (st.durationSec || 0));
 
-  updateUploadButtonState(i);
+    const refresh4Btn = document.createElement("button");
+    refresh4Btn.className = "btn btn-outline-secondary btn-sm";
+    refresh4Btn.textContent = "↻ 4";
+    refresh4Btn.title = "Refresh 4 screenshots within range";
+    refresh4Btn.onclick = () => regenerateScreenshotsInRange(i);
+
+    // NEW: Bulk file selection button
+    const select4Btn = document.createElement("button");
+    select4Btn.className = "btn btn-outline-primary btn-sm";
+    select4Btn.innerHTML = '<i class="bi bi-upload"></i> 4';
+    select4Btn.title = "Select up to 4 image files";
+    select4Btn.onclick = () => handleBulkFileSelect(i);
+
+    toolbar.appendChild(fileLabel);
+    toolbar.appendChild(startInput);
+    toolbar.appendChild(endInput);
+    toolbar.appendChild(refresh4Btn);
+    toolbar.appendChild(select4Btn); // Add new button to toolbar
+    host.appendChild(toolbar);
+
+    const grid = document.createElement("div");
+    grid.className = "shots-grid";
+    grid.style.display = "grid";
+    grid.style.gridTemplateColumns = "repeat(2, 160px)";
+    grid.style.gap = "8px";
+    grid.style.justifyContent = "center";
+    host.appendChild(grid);
+
+    imgPaths.forEach((imgPath, idx) => {
+        const wrap = document.createElement("div");
+        wrap.dataset.slot = String(idx);
+        const timestamp = st.screenshotTimestamps[idx];
+        const tsLabel = document.createElement("div");
+        tsLabel.style.fontSize = "8px";
+        tsLabel.style.marginBottom = "2px";
+        tsLabel.textContent = st.userSelectedSlots.has(idx) ? "Manually Selected" : secToHMS(timestamp);
+
+        const img = document.createElement("img");
+        img.src = `file://${imgPath}?t=${Date.now()}`;
+        img.style.width = "160px";
+        img.style.border = "1px solid #ccc";
+
+        const idLabel = document.createElement("div");
+        idLabel.style.fontSize = "8px";
+        idLabel.style.marginTop = "4px";
+
+        const refreshBtn = document.createElement("button");
+        refreshBtn.className = "btn btn-outline-secondary btn-sm mt-1";
+        refreshBtn.textContent = "↻";
+        refreshBtn.onclick = () => refreshScreenshotForShow(i, imgPath, wrap);
+
+        // NEW: Single file selection button
+        const selectBtn = document.createElement("button");
+        selectBtn.className = "btn btn-outline-primary btn-sm mt-1 ms-1";
+        selectBtn.innerHTML = '<i class="bi bi-upload"></i>';
+        selectBtn.onclick = () => handleSingleFileSelect(i, idx);
+
+        // NEW: Disable refresh button if slot is user-selected or uploaded
+        const prevRec = prev[imgPath] || {};
+        if (st.userSelectedSlots.has(idx) || prevRec.id) {
+            refreshBtn.disabled = true;
+        }
+
+        st.uploadedScreenshots[imgPath] = { id: prevRec.id || null, idLabel, refreshBtn };
+        if (prevRec.id) idLabel.textContent = prevRec.id;
+
+        wrap.appendChild(tsLabel);
+        wrap.appendChild(img);
+        wrap.appendChild(refreshBtn);
+        wrap.appendChild(selectBtn); // Add new single select button
+        wrap.appendChild(idLabel);
+        grid.appendChild(wrap);
+    });
+
+    updateUploadButtonState(i);
 }
 
 async function regenerateScreenshotsInRange(i = 1) {
