@@ -175,15 +175,11 @@ app.on("window-all-closed", () => {
   if (process.platform !== "darwin") app.quit();
 });
 
-
-
-ipcMain.handle("setlist-lookup", async (event, params) => {
-  const { band, city, year, apiKey } = params;
-
-  const url = `https://api.setlist.fm/rest/1.0/search/setlists?artistName=${encodeURIComponent(band)}&cityName=${encodeURIComponent(city)}&year=${encodeURIComponent(year)}`;
+ipcMain.handle("setlist-lookup", async (event, options) => {
+  const { url, apiKey } = options;
 
   return new Promise((resolve, reject) => {
-    const options = {
+    const httpsOptions = {
       headers: {
         'Accept': 'application/json',
         'x-api-key': apiKey,
@@ -191,7 +187,7 @@ ipcMain.handle("setlist-lookup", async (event, params) => {
       }
     };
 
-    https.get(url, options, (res) => {
+    https.get(url, httpsOptions, (res) => {
       let data = "";
       res.on('data', chunk => data += chunk);
       res.on('end', () => {

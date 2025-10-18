@@ -311,92 +311,90 @@ function chooseSizeUnitFromBytes(totalSize) {
 }
 
 async function processFilesForBlock(filesOrPaths, opts) {
-    const files = [...filesOrPaths];
-    if (!files.length) return;
+  const files = [...filesOrPaths];
+  if (!files.length) return;
 
-    const i = opts.showIndex || 1;
-    const st = getShowState(i);
-    st.userSelectedSlots.clear(); // Reset on new file drop
+  const i = opts.showIndex || 1;
+  const st = getShowState(i);
+  st.userSelectedSlots.clear();
 
-    let totalSize = 0, totalDuration = 0, firstVideoFile = null;
-    const paths = files.map(f => (typeof f === "string" ? f : f?.path)).filter(Boolean);
-    if (!paths.length) return;
+  let totalSize = 0, totalDuration = 0, firstVideoFile = null;
+  const paths = files.map(f => (typeof f === "string" ? f : f?.path)).filter(Boolean);
+  if (!paths.length) return;
 
-    const anyDir = paths.some(p => isDirPath(p));
-    if (anyDir) {
-        const shotsHost = getEl("shots-result", i);
-        if (shotsHost) {
-            shotsHost.innerHTML = `<div class="text-muted mt-2">Folder drops are no longer supported. Please drop VOB or other video files directly.</div>`;
-        }
-        return;
+  const anyDir = paths.some(p => isDirPath(p));
+  if (anyDir) {
+    const shotsHost = getEl("shots-result", i);
+    if (shotsHost) {
+      shotsHost.innerHTML = `<div class="text-muted mt-2">Folder drops are no longer supported. Please drop VOB or other video files directly.</div>`;
     }
+    return;
+  }
 
-    for (const p of paths) {
-        let info;
-        try { info = await window.mediaTools.probeFile(p); } catch { continue; }
-        totalSize += info?.format?.size || 0;
-        totalDuration += info?.format?.duration || 0;
-        if (!firstVideoFile && info?.streams?.some(s => s.codec_type === "video")) firstVideoFile = p;
+  for (const p of paths) {
+    let info;
+    try { info = await window.mediaTools.probeFile(p); } catch { continue; }
+    totalSize += info?.format?.size || 0;
+    totalDuration += info?.format?.duration || 0;
+    if (!firstVideoFile && info?.streams?.some(s => s.codec_type === "video")) firstVideoFile = p;
+  }
+
+  const { sizeVal, unit, sizeMb } = chooseSizeUnitFromBytes(totalSize);
+  opts.sizeInput.value = sizeVal;
+  opts.unitSelect.value = unit;
+  opts.typeInput.value = calcMediaType(sizeMb);
+
+  const blockDuration = Math.round(totalDuration);
+  st.durationSec = blockDuration;
+  if (opts.rowEl) opts.rowEl.dataset.durationSec = String(blockDuration);
+  updateTotalLengthUI(i);
+  st.droppedFilePath = firstVideoFile || null;
+
+  if (st.droppedFilePath) {
+    const ext = String(st.droppedFilePath).split(".").pop().toUpperCase();
+    getEl("fileFormat", i).value = (ext === "VOB") ? "DVD" : ext;
+  }
+
+  if (firstVideoFile) {
+    try {
+      const dur = blockDuration || 0;
+      const timestamps = [];
+      for (let k = 0; k < 4; k++) {
+        timestamps.push(Math.random() * dur);
+      }
+      timestamps.sort((a, b) => a - b);
+
+      const imgs = await window.mediaTools.captureScreenshotsAt(firstVideoFile, timestamps);
+
+      st.screenshotTimestamps = timestamps;
+      st.generatedScreenshots = imgs;
+      st.screenshotStartSec = 0;
+      st.screenshotEndSec = dur;
+      renderScreenshots(imgs, i);
+
+      st.probeData = await window.mediaTools.probeFile(firstVideoFile);
+      const pre = getEl("specs-summary", i);
+      if (pre) {
+        pre.textContent = formatSpecsForDisplay(st.probeData);
+        pre.classList.remove("d-none");
+      }
+    } catch (e) {
+      console.error("Initial screenshot generation failed:", e);
+      st.generatedScreenshots = [];
+      st.screenshotTimestamps = [];
+      renderScreenshots([], i);
     }
-
-    const { sizeVal, unit, sizeMb } = chooseSizeUnitFromBytes(totalSize);
-    opts.sizeInput.value = sizeVal;
-    opts.unitSelect.value = unit;
-    opts.typeInput.value = calcMediaType(sizeMb);
-
-    const blockDuration = Math.round(totalDuration);
-    st.durationSec = blockDuration;
-    if (opts.rowEl) opts.rowEl.dataset.durationSec = String(blockDuration);
-    updateTotalLengthUI(i);
-    st.droppedFilePath = firstVideoFile || null;
-
-    if (st.droppedFilePath) {
-        const ext = String(st.droppedFilePath).split(".").pop().toUpperCase();
-        getEl("fileFormat", i).value = (ext === "VOB") ? "DVD" : ext;
+  } else {
+    const shotsHost = getEl("shots-result", i);
+    if (shotsHost) {
+      shotsHost.innerHTML = `<div class="text-muted mt-2">No video streams found (audio-only or unsupported file types). No screenshots available.</div>`;
     }
+  }
 
-    // ** FIX: Wrap screenshot generation in a try...catch block **
-    if (firstVideoFile) {
-        try {
-            const dur = blockDuration || 0;
-            const timestamps = [];
-            for (let k = 0; k < 4; k++) {
-                timestamps.push(Math.random() * dur);
-            }
-            timestamps.sort((a, b) => a - b);
-
-            const imgs = await window.mediaTools.captureScreenshotsAt(firstVideoFile, timestamps);
-
-            st.screenshotTimestamps = timestamps;
-            st.generatedScreenshots = imgs;
-            st.screenshotStartSec = 0;
-            st.screenshotEndSec = dur;
-            renderScreenshots(imgs, i);
-
-            st.probeData = await window.mediaTools.probeFile(firstVideoFile);
-            const pre = getEl("specs-summary", i);
-            if (pre) {
-                pre.textContent = formatSpecsForDisplay(st.probeData);
-                pre.classList.remove("d-none");
-            }
-        } catch (e) {
-            console.error("Initial screenshot generation failed:", e);
-            // On failure, render the UI with no images, so the user can upload manually
-            st.generatedScreenshots = [];
-            st.screenshotTimestamps = [];
-            renderScreenshots([], i);
-        }
-    } else {
-        const shotsHost = getEl("shots-result", i);
-        if (shotsHost) {
-            shotsHost.innerHTML = `<div class="text-muted mt-2">No video streams found (audio-only or unsupported file types). No screenshots available.</div>`;
-        }
-    }
-
-    if (i === 1) {
-        initTapersSection();
-    }
-    getEl("save-btn", 1)?.classList.remove("d-none");
+  if (i === 1) {
+    initTapersSection();
+  }
+  getEl("save-btn", 1)?.classList.remove("d-none");
 }
 
 function computeTotalLengthSecFor(i = 1) {
@@ -528,10 +526,8 @@ function updateUploadButtonState(i = 1) {
 
 window.refreshScreenshotForShow = async function (i, oldPath, container) {
   const st = getShowState(i);
-  
-  // ** FIX: Define 'slot' at the top of the function **
   const slot = Number(container?.dataset?.slot ?? -1);
-  
+
   if (slot !== -1) {
     st.userSelectedSlots.delete(slot);
   }
@@ -892,51 +888,93 @@ function initTapersSection() {
 }
 
 async function runSetlistLookupGeneric(i) {
-  const params = {
-    band: getEl('bandName', i).value.trim(),
-    city: getEl('city', i).value.trim(),
-    year: getEl('year', i).value.trim(),
-    apiKey: 'L3j_VGTwJdL-ulD72HnucwIc2tscZWy8rHXo'
-  };
-
-  const result = await window.setlistAPI.lookup(params);
-
-  if (result.status !== 200) {
-    alert("Setlist.fm error: " + result.status);
+  const band = getEl('bandName', i).value.trim();
+  const city = getEl('city', i).value.trim();
+  const year = getEl('year', i).value.trim();
+  const apiKey = await window.secrets.getSetlistKey();
+  if (!apiKey) {
+    alert("Setlist API key missing. Add it to apiKey.json.");
     return;
   }
-  const data = JSON.parse(result.body);
-  window.setlistData = data;
 
-  const firstSetlist = data.setlist[0];
-  const band = getEl('bandName', i).value.trim();
-  const city = firstSetlist.venue.city.name;
-  const year = firstSetlist.eventDate.split("-")[2];
+  const dateInput = getEl('loc-date', i);
+  const dateValue = dateInput ? dateInput.value.trim() : "";
 
-  const searchUrl = `https://www.setlist.fm/search?query=${encodeURIComponent(band)}+${encodeURIComponent(city)}+${year}`;
-  const response = await fetch(searchUrl);
-  const html = await response.text();
-  const match = html.match(/<h2><a .*?title="View this .*? setlist">.*? at (.*?)<\/a><\/h2>/i);
-  window.scrapedEventName = match ? match[1].trim() : "";
+  let apiUrl = `https://api.setlist.fm/rest/1.0/search/setlists?artistName=${encodeURIComponent(band)}`;
 
-  getEl("loc-date", i).value = firstSetlist.eventDate;
-  getEl("loc-venue", i).value = firstSetlist.venue.name;
-
-  let countryName = firstSetlist.venue.city.country.name || "";
-  if (countryName === "United States") countryName = "USA";
-
-  getEl("loc-country", i).value = countryName;
-  getEl("loc-event", i).value = window.scrapedEventName || "";
-
-  const allowedCountries = ["United States", "USA", "Canada", "Australia"];
-  if (allowedCountries.includes(countryName)) {
-    getEl("state", i).value = firstSetlist.venue.city.stateCode || "";
+  if (dateValue) {
+    const dateParts = dateValue.split('-');
+    if (dateParts.length === 3 && dateParts[0].length === 2 && dateParts[1].length === 2 && dateParts[2].length === 4) {
+      apiUrl += `&date=${dateValue}`;
+      if (city) {
+        apiUrl += `&cityName=${encodeURIComponent(city)}`;
+      }
+    } else {
+      console.warn("Date format from UI incorrect ('dd-MM-yyyy' expected), falling back to city/year search.");
+      alert("Date format must be dd-MM-yyyy. Falling back to city/year search.");
+      if (city) apiUrl += `&cityName=${encodeURIComponent(city)}`;
+      if (year) apiUrl += `&year=${year}`;
+    }
   } else {
-    getEl("state", i).value = "";
+    if (city) apiUrl += `&cityName=${encodeURIComponent(city)}`;
+    if (year) apiUrl += `&year=${year}`;
   }
 
-  getEl("setlist-response", i).classList.remove("d-none");
-  populateSetlistFromAPIFor(i, data);
+  try {
+    const result = await window.setlistAPI.lookup({ url: apiUrl, apiKey: apiKey });
+
+    if (result.status !== 200) {
+      alert(`Setlist.fm error: ${result.status}\n${result.body || 'No details provided.'}`);
+      return;
+    }
+    const data = JSON.parse(result.body);
+    if (!data || !data.setlist || data.setlist.length === 0) {
+      alert("No setlist found for the provided details.");
+      return;
+    }
+    window.setlistData = data;
+    const firstSetlist = data.setlist[0];
+
+    if (!dateValue && firstSetlist.eventDate) {
+      const ev = String(firstSetlist.eventDate).trim();
+
+      if (/^\d{4}-\d{2}-\d{2}$/.test(ev)) {
+        const [y, m, d] = ev.split("-");
+        getEl("loc-date", i).value = `${d}-${m}-${y}`;
+      } else if (/^\d{2}-\d{2}-\d{4}$/.test(ev)) {
+        getEl("loc-date", i).value = ev;
+      } else {
+        console.warn("Unexpected eventDate format:", ev);
+      }
+    }
+
+    getEl("loc-venue", i).value = firstSetlist.venue?.name || "";
+    let countryName = firstSetlist.venue?.city?.country?.name || "";
+    if (countryName === "United States") countryName = "USA";
+    getEl("loc-country", i).value = countryName;
+    try {
+      const searchUrl = `https://www.setlist.fm/search?query=${encodeURIComponent(band)}+${encodeURIComponent(firstSetlist.venue?.city?.name || city)}+${firstSetlist.eventDate.split("-")[2] || year}`;
+      const response = await fetch(searchUrl);
+      const html = await response.text();
+      const match = html.match(/<h2><a .*?title="View this .*? setlist">.*? at (.*?)<\/a><\/h2>/i);
+      window.scrapedEventName = match ? match[1].trim() : "";
+      getEl("loc-event", i).value = window.scrapedEventName || "";
+    } catch (fetchError) {
+      console.warn("Could not fetch event name from setlist.fm search page.", fetchError);
+      getEl("loc-event", i).value = "";
+    }
+    const allowedCountries = ["United States", "USA", "Canada", "Australia"];
+    if (allowedCountries.includes(countryName)) {
+      getEl("state", i).value = firstSetlist.venue?.city?.stateCode || "";
+    } else {
+      getEl("state", i).value = "";
+    }
+    getEl("setlist-response", i).classList.remove("d-none");
+    populateSetlistFromAPIFor(i, data);
+  } catch (error) {
+    console.error("Setlist lookup failed:", error);
+    alert("Failed to fetch setlist data. Check console for details.");
+  }
 }
 
 function populateSetlistFromAPIFor(i, setlistFmData) {
@@ -993,7 +1031,7 @@ function createSetlistItemFor(i, data = {}) {
     if (key === 'note') {
       const select = document.createElement('select');
       select.className = 'form-select form-select-sm';
-      ['', 'tape', 'incomplete', 'not recorded'].forEach(v => {
+      ['', 'tape', 'incomplete', 'not recorded', 'audio only'].forEach(v => {
         const opt = document.createElement('option');
         opt.value = v;
         opt.textContent = v;
@@ -1278,7 +1316,6 @@ function formatSpecsForDisplay(ffprobeData) {
   return [...videoLines, ...audioLines].join("\n");
 }
 
-// Add these two new functions to renderer.js
 async function handleBulkFileSelect(i) {
   const st = getShowState(i);
   if (!st.droppedFilePath) {
@@ -1290,15 +1327,15 @@ async function handleBulkFileSelect(i) {
   if (!filePaths.length) return;
 
   const targetDir = window.mediaTools.getDirname(st.droppedFilePath);
-  const newScreenshotPaths = [...st.generatedScreenshots]; // Copy existing paths
+  const newScreenshotPaths = [...st.generatedScreenshots];
 
   for (let idx = 0; idx < Math.min(filePaths.length, 4); idx++) {
     const selectedPath = filePaths[idx];
     const newFilename = `manual_${Date.now()}_${idx}.jpg`;
     const finalDestPath = window.mediaTools.pathJoin(targetDir, newFilename);
-    
+
     await window.mediaTools.copyFile(selectedPath, finalDestPath);
-    
+
     newScreenshotPaths[idx] = finalDestPath;
     st.userSelectedSlots.add(idx);
   }
@@ -1329,123 +1366,117 @@ async function handleSingleFileSelect(i, idx) {
   renderScreenshots(st.generatedScreenshots, i);
 }
 
-// In renderer.js, replace the entire renderScreenshots function
 function renderScreenshots(imgPaths, i = 1) {
-    const host = getEl("shots-result", i);
-    if (!host) return;
-    const st = getShowState(i);
-    st.generatedScreenshots = imgPaths;
-    const prev = st.uploadedScreenshots || {};
-    st.uploadedScreenshots = {};
+  const host = getEl("shots-result", i);
+  if (!host) return;
+  const st = getShowState(i);
+  st.generatedScreenshots = imgPaths;
+  const prev = st.uploadedScreenshots || {};
+  st.uploadedScreenshots = {};
 
-    host.innerHTML = "";
-    host.style.display = "block";
+  host.innerHTML = "";
+  host.style.display = "block";
 
-    const toolbar = document.createElement("div");
-    toolbar.className = "shots-toolbar d-flex align-items-center justify-content-center";
-    toolbar.style.gap = "8px";
-    toolbar.style.marginBottom = "6px";
+  const toolbar = document.createElement("div");
+  toolbar.className = "shots-toolbar d-flex align-items-center justify-content-center";
+  toolbar.style.gap = "8px";
+  toolbar.style.marginBottom = "6px";
 
-    const fileLabel = document.createElement("div");
-    fileLabel.className = "file-label";
-    fileLabel.style.fontSize = "8px";
-    fileLabel.style.marginTop = "4px";
-    const base = st.droppedFilePath ? st.droppedFilePath.split(/[/\\]/).pop() : "";
-    fileLabel.textContent = base || "";
+  const fileLabel = document.createElement("div");
+  fileLabel.className = "file-label";
+  fileLabel.style.fontSize = "8px";
+  fileLabel.style.marginTop = "4px";
+  const base = st.droppedFilePath ? st.droppedFilePath.split(/[/\\]/).pop() : "";
+  fileLabel.textContent = base || "";
 
-    const startInput = document.createElement("input");
-    //... (input setup code is the same)
-    startInput.id = i === 1 ? "shots-start" : `shots-start${uidSuffix(i)}`;
-    startInput.type = "text";
-    startInput.placeholder = "hh:mm:ss";
-    startInput.className = "form-control form-control-sm";
-    startInput.style.width = "90px";
-    startInput.value = secToHMS(st.screenshotStartSec || 0);
+  const startInput = document.createElement("input");
+  startInput.id = i === 1 ? "shots-start" : `shots-start${uidSuffix(i)}`;
+  startInput.type = "text";
+  startInput.placeholder = "hh:mm:ss";
+  startInput.className = "form-control form-control-sm";
+  startInput.style.width = "90px";
+  startInput.value = secToHMS(st.screenshotStartSec || 0);
 
-    const endInput = document.createElement("input");
-    //... (input setup code is the same)
-    endInput.id = i === 1 ? "shots-end" : `shots-end${uidSuffix(i)}`;
-    endInput.type = "text";
-    endInput.placeholder = "hh:mm:ss";
-    endInput.className = "form-control form-control-sm";
-    endInput.style.width = "90px";
-    endInput.value = secToHMS(st.screenshotEndSec || (st.durationSec || 0));
+  const endInput = document.createElement("input");
+  endInput.id = i === 1 ? "shots-end" : `shots-end${uidSuffix(i)}`;
+  endInput.type = "text";
+  endInput.placeholder = "hh:mm:ss";
+  endInput.className = "form-control form-control-sm";
+  endInput.style.width = "90px";
+  endInput.value = secToHMS(st.screenshotEndSec || (st.durationSec || 0));
 
-    const refresh4Btn = document.createElement("button");
-    refresh4Btn.className = "btn btn-outline-secondary btn-sm";
-    refresh4Btn.textContent = "↻ 4";
-    refresh4Btn.title = "Refresh 4 screenshots within range";
-    refresh4Btn.onclick = () => regenerateScreenshotsInRange(i);
+  const refresh4Btn = document.createElement("button");
+  refresh4Btn.className = "btn btn-outline-secondary btn-sm";
+  refresh4Btn.textContent = "↻ 4";
+  refresh4Btn.title = "Refresh 4 screenshots within range";
+  refresh4Btn.onclick = () => regenerateScreenshotsInRange(i);
 
-    // NEW: Bulk file selection button
-    const select4Btn = document.createElement("button");
-    select4Btn.className = "btn btn-outline-primary btn-sm";
-    select4Btn.innerHTML = '<i class="bi bi-upload"></i> 4';
-    select4Btn.title = "Select up to 4 image files";
-    select4Btn.onclick = () => handleBulkFileSelect(i);
+  const select4Btn = document.createElement("button");
+  select4Btn.className = "btn btn-outline-primary btn-sm";
+  select4Btn.innerHTML = '<i class="bi bi-upload"></i> 4';
+  select4Btn.title = "Select up to 4 image files";
+  select4Btn.onclick = () => handleBulkFileSelect(i);
 
-    toolbar.appendChild(fileLabel);
-    toolbar.appendChild(startInput);
-    toolbar.appendChild(endInput);
-    toolbar.appendChild(refresh4Btn);
-    toolbar.appendChild(select4Btn); // Add new button to toolbar
-    host.appendChild(toolbar);
+  toolbar.appendChild(fileLabel);
+  toolbar.appendChild(startInput);
+  toolbar.appendChild(endInput);
+  toolbar.appendChild(refresh4Btn);
+  toolbar.appendChild(select4Btn);
+  host.appendChild(toolbar);
 
-    const grid = document.createElement("div");
-    grid.className = "shots-grid";
-    grid.style.display = "grid";
-    grid.style.gridTemplateColumns = "repeat(2, 160px)";
-    grid.style.gap = "8px";
-    grid.style.justifyContent = "center";
-    host.appendChild(grid);
+  const grid = document.createElement("div");
+  grid.className = "shots-grid";
+  grid.style.display = "grid";
+  grid.style.gridTemplateColumns = "repeat(2, 160px)";
+  grid.style.gap = "8px";
+  grid.style.justifyContent = "center";
+  host.appendChild(grid);
 
-    imgPaths.forEach((imgPath, idx) => {
-        const wrap = document.createElement("div");
-        wrap.dataset.slot = String(idx);
-        const timestamp = st.screenshotTimestamps[idx];
-        const tsLabel = document.createElement("div");
-        tsLabel.style.fontSize = "8px";
-        tsLabel.style.marginBottom = "2px";
-        tsLabel.textContent = st.userSelectedSlots.has(idx) ? "Manually Selected" : secToHMS(timestamp);
+  imgPaths.forEach((imgPath, idx) => {
+    const wrap = document.createElement("div");
+    wrap.dataset.slot = String(idx);
+    const timestamp = st.screenshotTimestamps[idx];
+    const tsLabel = document.createElement("div");
+    tsLabel.style.fontSize = "8px";
+    tsLabel.style.marginBottom = "2px";
+    tsLabel.textContent = st.userSelectedSlots.has(idx) ? "Manually Selected" : secToHMS(timestamp);
 
-        const img = document.createElement("img");
-        img.src = `file://${imgPath}?t=${Date.now()}`;
-        img.style.width = "160px";
-        img.style.border = "1px solid #ccc";
+    const img = document.createElement("img");
+    img.src = `file://${imgPath}?t=${Date.now()}`;
+    img.style.width = "160px";
+    img.style.border = "1px solid #ccc";
 
-        const idLabel = document.createElement("div");
-        idLabel.style.fontSize = "8px";
-        idLabel.style.marginTop = "4px";
+    const idLabel = document.createElement("div");
+    idLabel.style.fontSize = "8px";
+    idLabel.style.marginTop = "4px";
 
-        const refreshBtn = document.createElement("button");
-        refreshBtn.className = "btn btn-outline-secondary btn-sm mt-1";
-        refreshBtn.textContent = "↻";
-        refreshBtn.onclick = () => refreshScreenshotForShow(i, imgPath, wrap);
+    const refreshBtn = document.createElement("button");
+    refreshBtn.className = "btn btn-outline-secondary btn-sm mt-1";
+    refreshBtn.textContent = "↻";
+    refreshBtn.onclick = () => refreshScreenshotForShow(i, imgPath, wrap);
 
-        // NEW: Single file selection button
-        const selectBtn = document.createElement("button");
-        selectBtn.className = "btn btn-outline-primary btn-sm mt-1 ms-1";
-        selectBtn.innerHTML = '<i class="bi bi-upload"></i>';
-        selectBtn.onclick = () => handleSingleFileSelect(i, idx);
+    const selectBtn = document.createElement("button");
+    selectBtn.className = "btn btn-outline-primary btn-sm mt-1 ms-1";
+    selectBtn.innerHTML = '<i class="bi bi-upload"></i>';
+    selectBtn.onclick = () => handleSingleFileSelect(i, idx);
 
-        // NEW: Disable refresh button if slot is user-selected or uploaded
-        const prevRec = prev[imgPath] || {};
-        if (st.userSelectedSlots.has(idx) || prevRec.id) {
-            refreshBtn.disabled = true;
-        }
+    const prevRec = prev[imgPath] || {};
+    if (st.userSelectedSlots.has(idx) || prevRec.id) {
+      refreshBtn.disabled = true;
+    }
 
-        st.uploadedScreenshots[imgPath] = { id: prevRec.id || null, idLabel, refreshBtn };
-        if (prevRec.id) idLabel.textContent = prevRec.id;
+    st.uploadedScreenshots[imgPath] = { id: prevRec.id || null, idLabel, refreshBtn };
+    if (prevRec.id) idLabel.textContent = prevRec.id;
 
-        wrap.appendChild(tsLabel);
-        wrap.appendChild(img);
-        wrap.appendChild(refreshBtn);
-        wrap.appendChild(selectBtn); // Add new single select button
-        wrap.appendChild(idLabel);
-        grid.appendChild(wrap);
-    });
+    wrap.appendChild(tsLabel);
+    wrap.appendChild(img);
+    wrap.appendChild(refreshBtn);
+    wrap.appendChild(selectBtn);
+    wrap.appendChild(idLabel);
+    grid.appendChild(wrap);
+  });
 
-    updateUploadButtonState(i);
+  updateUploadButtonState(i);
 }
 
 async function regenerateScreenshotsInRange(i = 1) {
@@ -1698,13 +1729,22 @@ async function saveJson(index = 1) {
   const outPath = window.mediaTools.pathJoin(targetDir, filename + '.json');
   const jsonStr = JSON.stringify(finalJson, null, 2);
   await window.mediaTools.writeFile(outPath, jsonStr);
+  
+  const MIRROR_DIR = "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\src\\data";
+  try {
+    window.mediaTools.mkdirp(MIRROR_DIR);
+    const mirrorPath = window.mediaTools.pathJoin(MIRROR_DIR, filename + ".json");
+    await window.mediaTools.writeFile(mirrorPath, jsonStr);
+  } catch (e) {
+    console.error("Failed to write mirror JSON:", e);
+  }
 
   await window.appAPI.updateTapersIndex(tapers, filename);
   if (receivedInTrade && traderName) {
     await window.appAPI.updateTradersIndex([traderName], filename);
   }
 
-  alert(`✅ Saved to: ${outPath}`);
+  alert(`✅ Saved to: ${outPath}\n✅ Mirrored to project data folder.`);
   return { filename, outPath, json: finalJson };
 }
 
@@ -1725,11 +1765,21 @@ async function saveAllJsons() {
 
   for (let i = 0; i < results.length; i++) {
     const me = results[i];
+	if (!me) continue;
     const others = names.filter(n => n !== me.filename);
     me.json.relatedShows = others;
 
     const jsonStr = JSON.stringify(me.json, null, 2);
     await window.mediaTools.writeFile(me.outPath, jsonStr);
+
+    const MIRROR_DIR = "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\src\\data";
+    try {
+      window.mediaTools.mkdirp(MIRROR_DIR);
+      const mirrorPath = window.mediaTools.pathJoin(MIRROR_DIR, me.filename + ".json");
+      await window.mediaTools.writeFile(mirrorPath, jsonStr);
+    } catch (e) {
+      console.error("Failed to write mirror JSON (saveAllJsons):", e);
+    }
   }
 
   alert("✅ Saved all JSONs with relatedShows populated.");
@@ -1888,10 +1938,7 @@ function exportSetlistAndExtras() {
   const setlist = [];
   document.querySelectorAll('#setlist-container > div').forEach((el, idx) => {
     const songInput = el.querySelector('.d-flex input.form-control.fw-bold') || el.querySelector('.d-flex input');
-    
-    // ** FIX: Use a more specific selector **
     const small = el.querySelector('.d-flex.gap-1:last-child');
-    
     const featInput = small?.querySelector('input[placeholder="feat"]');
     const noteSelect = small?.querySelector('select');
     const noteInputFallback = small?.querySelector('input[placeholder="note"]');

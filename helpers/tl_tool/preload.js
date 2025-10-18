@@ -6,6 +6,22 @@ const os = require("os");
 const fs = require("fs");
 const path = require("path");
 const { contextBridge, ipcRenderer } = require("electron");
+const SETLIST_KEY_PATH = "C:\\Users\\ovech\\Documents\\new_trade_list\\apiKey.json";
+
+function readSetlistApiKey() {
+  try {
+    const raw = fs.readFileSync(SETLIST_KEY_PATH, "utf8");
+    const json = JSON.parse(raw);
+    return String(json.key || "");
+  } catch (e) {
+    console.error("Failed to read setlist API key:", e.message);
+    return "";
+  }
+}
+
+contextBridge.exposeInMainWorld("secrets", {
+  getSetlistKey: () => readSetlistApiKey()
+});
 
 contextBridge.exposeInMainWorld("appAPI", {
   updateTapersIndex: (tapers, filename) => ipcRenderer.invoke("update-tapers-index", { tapers, filename }),
@@ -14,7 +30,7 @@ contextBridge.exposeInMainWorld("appAPI", {
 });
 
 contextBridge.exposeInMainWorld("setlistAPI", {
-  lookup: (params) => ipcRenderer.invoke("setlist-lookup", params)
+  lookup: (options) => ipcRenderer.invoke("setlist-lookup", options)
 });
 
 ffmpeg.setFfmpegPath(ffmpegPath);
@@ -32,6 +48,7 @@ function getFolderSize(folderPath) {
 }
 
 contextBridge.exposeInMainWorld("mediaTools", {
+  mkdirp: (dir) => fs.mkdirSync(dir, { recursive: true }),
   readDir: (dir) => fs.readdirSync(dir),
   join: (...p) => path.join(...p),
   basename: (p) => path.basename(p),
