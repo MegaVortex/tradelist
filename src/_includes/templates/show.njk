@@ -449,11 +449,11 @@
                                                    <td style="position: relative;">
                                                       {{ relatedShow.source or '—' }}
                                                       {% if relatedShow.category == "audio" %}
-                                                         <span class="type-label-comp audio-label">audio</span>
+                                                         <span class="type-label-comp audio-label">a</span>
                                                       {% elif "misc" in relatedShow.category %}
-                                                         <span class="type-label-comp misc-label">misc</span>
+                                                         <span class="type-label-comp misc-label">m</span>
                                                       {% elif "video" in relatedShow.category %}
-                                                         <span class="type-label-comp video-label">video</span>
+                                                         <span class="type-label-comp video-label">v</span>
                                                       {% else %}
                                                          —
                                                       {% endif %}

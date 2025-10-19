@@ -79,3 +79,22 @@ pre[id^="specs-summary"] {
     border-radius: 4px;
     background: #fafafa;
 }
+
+/* Add this to style.css */
+select.screenshot-source-select {
+  max-width: 160px; /* Adjust as needed, limits width */
+  overflow: hidden; /* Hides overflow */
+  text-overflow: ellipsis; /* Adds '...' for long text */
+  white-space: nowrap; /* Prevents wrapping (use if ellipsis preferred) */
+  /* OR, for actual wrapping: */
+  /* white-space: normal; */
+  /* max-width: 200px; /* Still limit width */
+  /* height: auto; /* Allow height to adjust if needed */
+  /* line-height: 1.2; */
+}
+
+/* Optional: Style the options too if needed */
+select.screenshot-source-select option {
+    white-space: normal; /* Allow options to wrap */
+    word-wrap: break-word; /* Force break */
+}
