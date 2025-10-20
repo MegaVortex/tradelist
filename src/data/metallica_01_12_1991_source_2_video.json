@@ -51,8 +51,28 @@
     "chapters": false,
     "menu": false,
     "length": 8145,
-    "video": [],
-    "audio": [],
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "H264",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      }
+    ],
     "sourceDetail": {
       "recordingType": "PRO",
       "sourceMediaType": "HD",
