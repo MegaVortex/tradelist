@@ -90,31 +90,68 @@ function cleanFileName(str) {
 
 window.showState = window.showState || {};
 
-// In renderer.js, update getShowState
 function getShowState(i) {
   if (!window.showState[i]) {
     window.showState[i] = {
-      // Keep existing properties...
-      droppedFilePath: null, // Keep for general target dir, maybe rename later
+      droppedFilePath: null,
       probeData: null,
-      durationSec: 0, // Total duration of all dropped files
-      // primaryFileDurationSec: 0, // No longer needed
+      durationSec: 0,
       generatedScreenshots: [],
       uploadedScreenshots: {},
       screenshotStartSec: 0,
       screenshotEndSec: 0,
       userSelectedSlots: new Set(),
-
-      // --- NEW STATE PROPERTIES ---
-      // Store all valid video files dropped { path: string, duration: number }
       droppedVideoFiles: [],
-      // Store the path of the file currently selected for screenshots
       selectedScreenshotSourcePath: null,
-      // Store the duration of the currently selected file
       selectedFileDurationSec: 0,
     };
   }
   return window.showState[i];
+}
+
+const EQUIP_FILE = "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\helpers\\tl_tool\\lib\\equipment.json";
+
+function splitEquip(str) {
+  if (!str) return [];
+  return String(str).split(/[;,|]/).map(s => s.trim()).filter(Boolean);
+}
+
+async function safeReadJson(path, fallback) {
+  try {
+    const raw = await window.mediaTools.readFile(path, "utf-8");
+    const data = JSON.parse(raw);
+    if (!data || typeof data !== "object") return fallback;
+    data.audio = Array.isArray(data.audio) ? data.audio : [];
+    data.video = Array.isArray(data.video) ? data.video : [];
+    return data;
+  } catch (e) {
+    console.warn("equipment.json exists but could not be read; using fallback.", e);
+    return fallback;
+  }
+}
+
+function dedupePush(targetArr, values) {
+  for (const v0 of values) {
+    const v = (v0 || "").trim();
+    if (!v) continue;
+    const exists = targetArr.some(x => String(x).toLowerCase() === v.toLowerCase());
+    if (!exists) targetArr.push(v);
+  }
+}
+
+async function appendEquipmentValues({ audioItems = [], videoItems = [] } = {}) {
+  try {
+    const dir = window.mediaTools.getDirname(EQUIP_FILE);
+    await window.mediaTools.mkdirp(dir);
+  } catch { }
+
+  const current = await safeReadJson(EQUIP_FILE, { audio: [], video: [] });
+
+  dedupePush(current.audio, audioItems);
+  dedupePush(current.video, videoItems);
+
+  const out = JSON.stringify(current, null, 2);
+  await window.mediaTools.writeFile(EQUIP_FILE, out);
 }
 
 function buildFilename(json) {
@@ -321,134 +358,118 @@ function chooseSizeUnitFromBytes(totalSize) {
   return { sizeVal: Number(sizeVal.toFixed(2)), unit, sizeMb };
 }
 
-// In renderer.js, replace processFilesForBlock
 async function processFilesForBlock(filesOrPaths, opts) {
-    const files = [...filesOrPaths];
-    if (!files.length) return;
+  const files = [...filesOrPaths];
+  if (!files.length) return;
 
-    const i = opts.showIndex || 1;
-    const st = getShowState(i);
-    // Reset state related to previous drops
-    st.userSelectedSlots.clear();
-    st.droppedVideoFiles = [];
-    st.selectedScreenshotSourcePath = null;
-    st.selectedFileDurationSec = 0;
-    st.generatedScreenshots = [];
-    st.screenshotTimestamps = [];
+  const i = opts.showIndex || 1;
+  const st = getShowState(i);
+  st.userSelectedSlots.clear();
+  st.droppedVideoFiles = [];
+  st.selectedScreenshotSourcePath = null;
+  st.selectedFileDurationSec = 0;
+  st.generatedScreenshots = [];
+  st.screenshotTimestamps = [];
 
 
-    let totalSize = 0, totalDuration = 0;
-    const paths = files.map(f => (typeof f === "string" ? f : f?.path)).filter(Boolean);
-    if (!paths.length) return;
+  let totalSize = 0, totalDuration = 0;
+  const paths = files.map(f => (typeof f === "string" ? f : f?.path)).filter(Boolean);
+  if (!paths.length) return;
 
-    // --- Identify all video files and their durations ---
-    const videoFilesInfo = [];
-    for (const p of paths) {
-        let info;
-        let isVideo = false;
-        let fileDuration = 0;
-        try {
-            // Skip directories explicitly
-            if (isDirPath(p)) {
-                 console.log(`Skipping directory: ${p}`);
-                 continue;
-            }
-            info = await window.mediaTools.probeFile(p);
-            isVideo = info?.streams?.some(s => s.codec_type === "video");
-            fileDuration = Math.round(info?.format?.duration || 0);
-        } catch (e) {
-             console.warn(`Could not probe file, skipping: ${p}`, e);
-             continue; // Skip files that can't be probed
-        }
-
-        totalSize += info?.format?.size || 0;
-        totalDuration += fileDuration; // Sum duration for Media #1 block
-
-        if (isVideo) {
-            videoFilesInfo.push({ path: p, duration: fileDuration });
-        }
-    }
-    // --- Store results in state ---
-    st.droppedVideoFiles = videoFilesInfo;
-    if (videoFilesInfo.length > 0) {
-        st.selectedScreenshotSourcePath = videoFilesInfo[0].path;
-        st.selectedFileDurationSec = videoFilesInfo[0].duration;
-        // Set droppedFilePath to the directory of the first video file (for saving JSON/images)
-        st.droppedFilePath = window.mediaTools.getDirname(videoFilesInfo[0].path);
-    } else {
-         st.droppedFilePath = null; // No video files means no clear save dir yet
+  const videoFilesInfo = [];
+  for (const p of paths) {
+    let info;
+    let isVideo = false;
+    let fileDuration = 0;
+    try {
+      if (isDirPath(p)) {
+        console.log(`Skipping directory: ${p}`);
+        continue;
+      }
+      info = await window.mediaTools.probeFile(p);
+      isVideo = info?.streams?.some(s => s.codec_type === "video");
+      fileDuration = Math.round(info?.format?.duration || 0);
+    } catch (e) {
+      console.warn(`Could not probe file, skipping: ${p}`, e);
+      continue;
     }
 
+    totalSize += info?.format?.size || 0;
+    totalDuration += fileDuration;
 
-    // Update UI for Media #1 block (uses total size/duration)
-    const { sizeVal, unit, sizeMb } = chooseSizeUnitFromBytes(totalSize);
-    opts.sizeInput.value = sizeVal;
-    opts.unitSelect.value = unit;
-    opts.typeInput.value = calcMediaType(sizeMb);
-    st.durationSec = Math.round(totalDuration); // Store total duration
-    if (opts.rowEl) opts.rowEl.dataset.durationSec = String(st.durationSec);
-    updateTotalLengthUI(i); // Update Total Length field if necessary
-
-    // Update File Format based on the *selected* video file
-    if (st.selectedScreenshotSourcePath) {
-        const ext = String(st.selectedScreenshotSourcePath).split(".").pop().toUpperCase();
-        getEl("fileFormat", i).value = (ext === "VOB") ? "DVD" : ext;
-    } else {
-         getEl("fileFormat", i).value = ""; // Clear if no video selected
+    if (isVideo) {
+      videoFilesInfo.push({ path: p, duration: fileDuration });
     }
+  }
+  st.droppedVideoFiles = videoFilesInfo;
+  if (videoFilesInfo.length > 0) {
+    st.selectedScreenshotSourcePath = videoFilesInfo[0].path;
+    st.selectedFileDurationSec = videoFilesInfo[0].duration;
+    st.droppedFilePath = window.mediaTools.getDirname(videoFilesInfo[0].path);
+  } else {
+    st.droppedFilePath = null;
+  }
 
+  const { sizeVal, unit, sizeMb } = chooseSizeUnitFromBytes(totalSize);
+  opts.sizeInput.value = sizeVal;
+  opts.unitSelect.value = unit;
+  opts.typeInput.value = calcMediaType(sizeMb);
+  st.durationSec = Math.round(totalDuration);
+  if (opts.rowEl) opts.rowEl.dataset.durationSec = String(st.durationSec);
+  updateTotalLengthUI(i);
 
-    // --- Generate initial screenshots from the *selected* file ---
-    if (st.selectedScreenshotSourcePath) {
-        try {
-            const dur = st.selectedFileDurationSec; // Use selected file's duration
-            const timestamps = [];
-            for (let k = 0; k < 4; k++) {
-                // Generate timestamps within the selected file's duration
-                 const safeDuration = dur > 10 ? dur - 10 : dur;
-                 const offset = dur > 10 ? 5 : 0;
-                 timestamps.push(offset + (Math.random() * safeDuration));
-            }
-            timestamps.sort((a, b) => a - b);
+  if (st.selectedScreenshotSourcePath) {
+    const ext = String(st.selectedScreenshotSourcePath).split(".").pop().toUpperCase();
+    getEl("fileFormat", i).value = (ext === "VOB") ? "DVD" : ext;
+  } else {
+    getEl("fileFormat", i).value = "";
+  }
 
-            const imgs = await window.mediaTools.captureScreenshotsAt(st.selectedScreenshotSourcePath, timestamps); // Use selected path
+  if (st.selectedScreenshotSourcePath) {
+    try {
+      const dur = st.selectedFileDurationSec;
+      const timestamps = [];
+      for (let k = 0; k < 4; k++) {
+        const safeDuration = dur > 10 ? dur - 10 : dur;
+        const offset = dur > 10 ? 5 : 0;
+        timestamps.push(offset + (Math.random() * safeDuration));
+      }
+      timestamps.sort((a, b) => a - b);
 
-            st.screenshotTimestamps = timestamps;
-            st.generatedScreenshots = imgs;
-            st.screenshotStartSec = 0;
-            st.screenshotEndSec = dur; // End defaults to selected file's duration
-            renderScreenshots(imgs, i); // Render UI
+      const imgs = await window.mediaTools.captureScreenshotsAt(st.selectedScreenshotSourcePath, timestamps);
 
-            // Probe the selected video file for technical specs display
-            st.probeData = await window.mediaTools.probeFile(st.selectedScreenshotSourcePath);
-            const pre = getEl("specs-summary", i);
-            if (pre) {
-                pre.textContent = formatSpecsForDisplay(st.probeData);
-                pre.classList.remove("d-none");
-            }
-        } catch (e) {
-            console.error("Initial screenshot generation failed:", e);
-            st.generatedScreenshots = [];
-            st.screenshotTimestamps = [];
-            renderScreenshots([], i); // Render UI even on failure, allowing manual selection/upload
-        }
-    } else {
-        // Handle no video files found...
-        const shotsHost = getEl("shots-result", i);
-        if (shotsHost) {
-             shotsHost.innerHTML = `<div class="text-muted mt-2">No valid video files found. Cannot generate screenshots.</div>`;
-             renderScreenshots([], i); // Still render toolbar for manual upload if needed
-        }
+      st.screenshotTimestamps = timestamps;
+      st.generatedScreenshots = imgs;
+      st.screenshotStartSec = 0;
+      st.screenshotEndSec = dur;
+      renderScreenshots(imgs, i);
+      st.probeData = await window.mediaTools.probeFile(st.selectedScreenshotSourcePath);
+      const pre = getEl("specs-summary", i);
+      if (pre) {
+        pre.textContent = formatSpecsForDisplay(st.probeData);
+        pre.classList.remove("d-none");
+      }
+    } catch (e) {
+      console.error("Initial screenshot generation failed:", e);
+      st.generatedScreenshots = [];
+      st.screenshotTimestamps = [];
+      renderScreenshots([], i);
     }
+  } else {
+    const shotsHost = getEl("shots-result", i);
+    if (shotsHost) {
+      shotsHost.innerHTML = `<div class="text-muted mt-2">No valid video files found. Cannot generate screenshots.</div>`;
+      renderScreenshots([], i);
+    }
+  }
 
-    if (i === 1) {
-        initTapersSection();
-    }
-    // Show save button if we have *any* dropped file path (even if no video)
-    // Or adjust logic based on whether a valid JSON can be created.
-    if (st.droppedFilePath || files.length > 0) {
-       getEl("save-btn", 1)?.classList.remove("d-none");
-    }
+  if (i === 1) {
+    initTapersSection();
+  }
+
+  if (st.droppedFilePath || files.length > 0) {
+    getEl("save-btn", 1)?.classList.remove("d-none");
+  }
 }
 
 function computeTotalLengthSecFor(i = 1) {
@@ -578,7 +599,6 @@ function updateUploadButtonState(i = 1) {
   btn.disabled = !(st.generatedScreenshots && st.generatedScreenshots.length);
 }
 
-// In renderer.js, replace window.refreshScreenshotForShow
 window.refreshScreenshotForShow = async function (i, oldPath, container) {
   const st = getShowState(i);
   const slot = Number(container?.dataset?.slot ?? -1);
@@ -587,7 +607,6 @@ window.refreshScreenshotForShow = async function (i, oldPath, container) {
     st.userSelectedSlots.delete(slot);
   }
 
-  // Use selected path and duration
   if (!st?.selectedScreenshotSourcePath) {
     alert("No video file selected to refresh screenshots from.");
     return;
@@ -597,14 +616,12 @@ window.refreshScreenshotForShow = async function (i, oldPath, container) {
 
 
   try {
-    // Use target directory based on selected source file
     const targetDir = window.mediaTools.getDirname(sourcePath);
     const oldFilename = oldPath.split(/[/\\]/).pop();
-    const finalPath = window.mediaTools.pathJoin(targetDir, oldFilename); // Reuse filename
+    const finalPath = window.mediaTools.pathJoin(targetDir, oldFilename);
 
-    // Delete old files
     try { await window.mediaTools.deleteFile(oldPath); } catch { }
-    try { await window.mediaTools.deleteFile(finalPath); } catch { } // Delete potential existing final file too
+    try { await window.mediaTools.deleteFile(finalPath); } catch { }
 
     const outDir = await window.mediaTools.getTmpDir();
     let newTempPath = null;
@@ -613,45 +630,41 @@ window.refreshScreenshotForShow = async function (i, oldPath, container) {
     const hasAt = (typeof window.mediaTools.captureScreenshotsAt === "function");
 
     if (hasAt) {
-      // Use the range currently defined by the input fields
       const startStr = (getEl("shots-start", i)?.value || "").trim();
       const endStr = (getEl("shots-end", i)?.value || "").trim();
       let startSec = clamp(hmsToSec(startStr), 0, dur);
       let endSec = clamp(hmsToSec(endStr), 0, dur);
-       if (endSec < startSec || endSec > dur) endSec = dur; // Adjust invalid end
-       if (startSec >= dur) startSec = 0; // Adjust invalid start
+      if (endSec < startSec || endSec > dur) endSec = dur;
+      if (startSec >= dur) startSec = 0;
 
-      // Generate random timestamp within the CURRENT range inputs
       newTimestamp = startSec + (Math.random() * (endSec - startSec));
 
-      const arr = await window.mediaTools.captureScreenshotsAt(sourcePath, [newTimestamp], outDir); // Use selected source
+      const arr = await window.mediaTools.captureScreenshotsAt(sourcePath, [newTimestamp], outDir);
       newTempPath = Array.isArray(arr) ? arr[0] : null;
 
       if (slot !== -1) {
-        st.screenshotTimestamps[slot] = newTimestamp; // Update timestamp in state
+        st.screenshotTimestamps[slot] = newTimestamp;
       }
     } else {
-        throw new Error("captureScreenshotsAt function not found."); // Should not happen if bulk works
+      throw new Error("captureScreenshotsAt function not found.");
     }
 
     if (!newTempPath) throw new Error("Failed to generate new screenshot temp file.");
 
     await window.mediaTools.copyFile(newTempPath, finalPath);
-    try { await window.mediaTools.deleteFile(newTempPath); } catch {} // Clean up temp
+    try { await window.mediaTools.deleteFile(newTempPath); } catch { }
 
-    // Update state array
     if (slot !== -1) {
-        st.generatedScreenshots[slot] = finalPath;
+      st.generatedScreenshots[slot] = finalPath;
     }
 
-    // --- Re-render just this slot ---
     const tsLabel = document.createElement("div");
     tsLabel.style.fontSize = "8px";
     tsLabel.style.marginBottom = "2px";
-    tsLabel.textContent = secToHMS(newTimestamp); // Use the newly calculated timestamp
+    tsLabel.textContent = secToHMS(newTimestamp);
 
     const img = document.createElement("img");
-    img.src = `file://${finalPath}?t=${Date.now()}`; // Use final path
+    img.src = `file://${finalPath}?t=${Date.now()}`;
     img.style.width = "160px";
     img.style.border = "1px solid #ccc";
 
@@ -664,31 +677,25 @@ window.refreshScreenshotForShow = async function (i, oldPath, container) {
     refreshBtn.textContent = "↻";
     refreshBtn.onclick = () => refreshScreenshotForShow(i, finalPath, container);
 
-    // Keep the select button
-     const selectBtn = document.createElement("button");
-     selectBtn.className = "btn btn-outline-primary btn-sm mt-1 ms-1";
-     selectBtn.innerHTML = '<i class="bi bi-upload"></i>';
-     selectBtn.title = "Select single image file";
-     selectBtn.onclick = () => handleSingleFileSelect(i, slot); // Ensure slot is passed correctly
-     selectBtn.disabled = !st.droppedFilePath;
+    const selectBtn = document.createElement("button");
+    selectBtn.className = "btn btn-outline-primary btn-sm mt-1 ms-1";
+    selectBtn.innerHTML = '<i class="bi bi-upload"></i>';
+    selectBtn.title = "Select single image file";
+    selectBtn.onclick = () => handleSingleFileSelect(i, slot);
+    selectBtn.disabled = !st.droppedFilePath;
 
-    // Reset upload state for this path
-    delete st.uploadedScreenshots[oldPath]; // Remove old path key
-    st.uploadedScreenshots[finalPath] = { id: null, idLabel, refreshBtn }; // Add new path key
+    delete st.uploadedScreenshots[oldPath];
+    st.uploadedScreenshots[finalPath] = { id: null, idLabel, refreshBtn };
 
-    container.innerHTML = ""; // Clear the old content
+    container.innerHTML = "";
     container.appendChild(tsLabel);
     container.appendChild(img);
     container.appendChild(refreshBtn);
     container.appendChild(selectBtn);
     container.appendChild(idLabel);
-    // --- End re-render slot ---
 
   } catch (err) {
     alert("Failed to refresh screenshot: " + err.message);
-    // Optionally re-enable refresh button if needed after failure
-    // const failedRefreshBtn = container.querySelector('button.btn-outline-secondary');
-    // if(failedRefreshBtn) failedRefreshBtn.disabled = false;
   }
 };
 
@@ -1452,278 +1459,247 @@ async function handleSingleFileSelect(i, idx) {
   renderScreenshots(st.generatedScreenshots, i);
 }
 
-// In renderer.js, replace the entire renderScreenshots function
 function renderScreenshots(imgPaths, i = 1) {
-    const host = getEl("shots-result", i);
-    if (!host) return;
-    const st = getShowState(i);
-    // Update state ONLY if paths are provided (don't overwrite on error render)
-    if (imgPaths && imgPaths.length > 0) {
-        st.generatedScreenshots = imgPaths;
-    }
-    const prev = st.uploadedScreenshots || {};
-    st.uploadedScreenshots = {}; // Reset upload state on full render
+  const host = getEl("shots-result", i);
+  if (!host) return;
+  const st = getShowState(i);
+  if (imgPaths && imgPaths.length > 0) {
+    st.generatedScreenshots = imgPaths;
+  }
+  const prev = st.uploadedScreenshots || {};
+  st.uploadedScreenshots = {};
 
-    host.innerHTML = ""; // Clear previous UI
-    host.style.display = "block";
+  host.innerHTML = "";
+  host.style.display = "block";
 
-    const toolbar = document.createElement("div");
-    toolbar.className = "shots-toolbar d-flex align-items-center justify-content-center";
-    toolbar.style.gap = "8px";
-    toolbar.style.marginBottom = "6px";
+  const toolbar = document.createElement("div");
+  toolbar.className = "shots-toolbar d-flex align-items-center justify-content-center";
+  toolbar.style.gap = "8px";
+  toolbar.style.marginBottom = "6px";
 
-    // --- NEW: Create Dropdown ---
-    const selectSource = document.createElement("select");
-    selectSource.className = "form-select form-select-sm screenshot-source-select";
-    selectSource.style.width = "auto"; // Adjust width as needed
-    selectSource.style.fontSize = "9px";
-    selectSource.disabled = st.droppedVideoFiles.length === 0; // Disable if no video files
+  const selectSource = document.createElement("select");
+  selectSource.className = "form-select form-select-sm screenshot-source-select";
+  selectSource.style.width = "auto";
+  selectSource.style.fontSize = "9px";
+  selectSource.disabled = st.droppedVideoFiles.length === 0;
 
-    if (st.droppedVideoFiles.length === 0) {
-        const opt = document.createElement("option");
-        opt.textContent = "No video files dropped";
-        selectSource.appendChild(opt);
-    } else {
-        st.droppedVideoFiles.forEach(fileInfo => {
-            const opt = document.createElement("option");
-            opt.value = fileInfo.path;
-            opt.textContent = window.mediaTools.basename(fileInfo.path); // Show filename
-            if (fileInfo.path === st.selectedScreenshotSourcePath) {
-                opt.selected = true;
-            }
-            selectSource.appendChild(opt);
-        });
-    }
+  if (st.droppedVideoFiles.length === 0) {
+    const opt = document.createElement("option");
+    opt.textContent = "No video files dropped";
+    selectSource.appendChild(opt);
+  } else {
+    st.droppedVideoFiles.forEach(fileInfo => {
+      const opt = document.createElement("option");
+      opt.value = fileInfo.path;
+      opt.textContent = window.mediaTools.basename(fileInfo.path);
+      if (fileInfo.path === st.selectedScreenshotSourcePath) {
+        opt.selected = true;
+      }
+      selectSource.appendChild(opt);
+    });
+  }
 
-// Inside renderScreenshots...
-selectSource.addEventListener('change', (event) => {
+  selectSource.addEventListener('change', (event) => {
     const newPath = event.target.value;
     const selectedFileInfo = st.droppedVideoFiles.find(f => f.path === newPath);
     if (selectedFileInfo) {
-        // 1. Update the core state for the selected file
-        st.selectedScreenshotSourcePath = newPath;
-        st.selectedFileDurationSec = selectedFileInfo.duration;
-
-        // 2. **Crucially, reset the start/end time state**
-        st.screenshotStartSec = 0;
-        st.screenshotEndSec = st.selectedFileDurationSec;
-
-        // 3. **Trigger a re-render using the *existing* screenshots**
-        //    This forces the input fields to be rebuilt with the reset times.
-        renderScreenshots(st.generatedScreenshots, i);
+      st.selectedScreenshotSourcePath = newPath;
+      st.selectedFileDurationSec = selectedFileInfo.duration;
+      st.screenshotStartSec = 0;
+      st.screenshotEndSec = st.selectedFileDurationSec;
+      renderScreenshots(st.generatedScreenshots, i);
     }
-});
-    // --- End Dropdown ---
+  });
 
+  const startInput = document.createElement("input");
+  startInput.id = i === 1 ? "shots-start" : `shots-start${uidSuffix(i)}`;
+  startInput.type = "text";
+  startInput.placeholder = "hh:mm:ss";
+  startInput.className = "form-control form-control-sm";
+  startInput.style.width = "90px";
+  startInput.value = secToHMS(st.screenshotStartSec || 0);
 
-    const startInput = document.createElement("input");
-    startInput.id = i === 1 ? "shots-start" : `shots-start${uidSuffix(i)}`;
-    startInput.type = "text";
-    startInput.placeholder = "hh:mm:ss";
-    startInput.className = "form-control form-control-sm";
-    startInput.style.width = "90px";
-    startInput.value = secToHMS(st.screenshotStartSec || 0);
+  const endInput = document.createElement("input");
+  endInput.id = i === 1 ? "shots-end" : `shots-end${uidSuffix(i)}`;
+  endInput.type = "text";
+  endInput.placeholder = "hh:mm:ss";
+  endInput.className = "form-control form-control-sm";
+  endInput.style.width = "90px";
+  endInput.value = secToHMS(st.screenshotEndSec || st.selectedFileDurationSec || 0);
 
-    const endInput = document.createElement("input");
-    endInput.id = i === 1 ? "shots-end" : `shots-end${uidSuffix(i)}`;
-    endInput.type = "text";
-    endInput.placeholder = "hh:mm:ss";
-    endInput.className = "form-control form-control-sm";
-    endInput.style.width = "90px";
-    // Default end time to the selected file's duration
-    endInput.value = secToHMS(st.screenshotEndSec || st.selectedFileDurationSec || 0);
-
-    const refresh4Btn = document.createElement("button");
-    refresh4Btn.className = "btn btn-outline-secondary btn-sm";
-    refresh4Btn.textContent = "↻ 4";
-    refresh4Btn.title = "Refresh 4 screenshots within range";
-    refresh4Btn.onclick = () => regenerateScreenshotsInRange(i);
+  const refresh4Btn = document.createElement("button");
+  refresh4Btn.className = "btn btn-outline-secondary btn-sm";
+  refresh4Btn.textContent = "↻ 4";
+  refresh4Btn.title = "Refresh 4 screenshots within range";
+  refresh4Btn.onclick = () => regenerateScreenshotsInRange(i);
 
 
 
-    const select4Btn = document.createElement("button");
-    select4Btn.className = "btn btn-outline-primary btn-sm";
-    select4Btn.innerHTML = '<i class="bi bi-upload"></i> 4';
-    select4Btn.title = "Select up to 4 image files";
-    select4Btn.onclick = () => handleBulkFileSelect(i);
-    // Disable if no base directory determined yet
-    select4Btn.disabled = !st.droppedFilePath;
+  const select4Btn = document.createElement("button");
+  select4Btn.className = "btn btn-outline-primary btn-sm";
+  select4Btn.innerHTML = '<i class="bi bi-upload"></i> 4';
+  select4Btn.title = "Select up to 4 image files";
+  select4Btn.onclick = () => handleBulkFileSelect(i);
+  select4Btn.disabled = !st.droppedFilePath;
 
-    // Add elements to toolbar
-    toolbar.appendChild(selectSource); // Add dropdown instead of fileLabel
-    toolbar.appendChild(startInput);
-    toolbar.appendChild(endInput);
-    toolbar.appendChild(refresh4Btn);
-    toolbar.appendChild(select4Btn);
-    host.appendChild(toolbar);
+  toolbar.appendChild(selectSource);
+  toolbar.appendChild(startInput);
+  toolbar.appendChild(endInput);
+  toolbar.appendChild(refresh4Btn);
+  toolbar.appendChild(select4Btn);
+  host.appendChild(toolbar);
 
-    // --- Grid for Screenshots (Only if imgPaths exist) ---
-    if (st.generatedScreenshots && st.generatedScreenshots.length > 0) {
-        const grid = document.createElement("div");
-        grid.className = "shots-grid";
-        grid.style.display = "grid";
-        grid.style.gridTemplateColumns = "repeat(2, 160px)";
-        grid.style.gap = "8px";
-        grid.style.justifyContent = "center";
-        host.appendChild(grid);
+  if (st.generatedScreenshots && st.generatedScreenshots.length > 0) {
+    const grid = document.createElement("div");
+    grid.className = "shots-grid";
+    grid.style.display = "grid";
+    grid.style.gridTemplateColumns = "repeat(2, 160px)";
+    grid.style.gap = "8px";
+    grid.style.justifyContent = "center";
+    host.appendChild(grid);
 
-        st.generatedScreenshots.forEach((imgPath, idx) => {
-             if (!imgPath) return; // Skip if somehow a path is missing
-            const wrap = document.createElement("div");
-            wrap.dataset.slot = String(idx);
-            // Ensure timestamp exists for the slot
-            const timestamp = st.screenshotTimestamps ? st.screenshotTimestamps[idx] : 0;
-            const tsLabel = document.createElement("div");
-            tsLabel.style.fontSize = "8px";
-            tsLabel.style.marginBottom = "2px";
-            tsLabel.textContent = st.userSelectedSlots.has(idx) ? "Manually Selected" : secToHMS(timestamp || 0);
+    st.generatedScreenshots.forEach((imgPath, idx) => {
+      if (!imgPath) return;
+      const wrap = document.createElement("div");
+      wrap.dataset.slot = String(idx);
+      const timestamp = st.screenshotTimestamps ? st.screenshotTimestamps[idx] : 0;
+      const tsLabel = document.createElement("div");
+      tsLabel.style.fontSize = "8px";
+      tsLabel.style.marginBottom = "2px";
+      tsLabel.textContent = st.userSelectedSlots.has(idx) ? "Manually Selected" : secToHMS(timestamp || 0);
 
-            const img = document.createElement("img");
-            img.src = `file://${imgPath}?t=${Date.now()}`;
-            img.style.width = "160px";
-            img.style.border = "1px solid #ccc";
+      const img = document.createElement("img");
+      img.src = `file://${imgPath}?t=${Date.now()}`;
+      img.style.width = "160px";
+      img.style.border = "1px solid #ccc";
 
-            const idLabel = document.createElement("div");
-            idLabel.style.fontSize = "8px";
-            idLabel.style.marginTop = "4px";
+      const idLabel = document.createElement("div");
+      idLabel.style.fontSize = "8px";
+      idLabel.style.marginTop = "4px";
 
-            const refreshBtn = document.createElement("button");
-            refreshBtn.className = "btn btn-outline-secondary btn-sm mt-1";
-            refreshBtn.textContent = "↻";
-            refreshBtn.onclick = () => refreshScreenshotForShow(i, imgPath, wrap);
+      const refreshBtn = document.createElement("button");
+      refreshBtn.className = "btn btn-outline-secondary btn-sm mt-1";
+      refreshBtn.textContent = "↻";
+      refreshBtn.onclick = () => refreshScreenshotForShow(i, imgPath, wrap);
 
-            const selectBtn = document.createElement("button");
-            selectBtn.className = "btn btn-outline-primary btn-sm mt-1 ms-1";
-            selectBtn.innerHTML = '<i class="bi bi-upload"></i>';
-             selectBtn.title = "Select single image file";
-            selectBtn.onclick = () => handleSingleFileSelect(i, idx);
-            // Disable if no base directory determined yet
-            selectBtn.disabled = !st.droppedFilePath;
+      const selectBtn = document.createElement("button");
+      selectBtn.className = "btn btn-outline-primary btn-sm mt-1 ms-1";
+      selectBtn.innerHTML = '<i class="bi bi-upload"></i>';
+      selectBtn.title = "Select single image file";
+      selectBtn.onclick = () => handleSingleFileSelect(i, idx);
+      selectBtn.disabled = !st.droppedFilePath;
 
+      const prevRec = prev[imgPath] || {};
+      if (st.userSelectedSlots.has(idx) || prevRec.id) {
+        refreshBtn.disabled = true;
+      } else {
+        refreshBtn.disabled = !st.selectedScreenshotSourcePath;
+      }
 
-            const prevRec = prev[imgPath] || {};
-            if (st.userSelectedSlots.has(idx) || prevRec.id) {
-                refreshBtn.disabled = true;
-            } else {
-                 refreshBtn.disabled = !st.selectedScreenshotSourcePath; // Also disable if no source
-            }
+      st.uploadedScreenshots[imgPath] = { id: prevRec.id || null, idLabel, refreshBtn };
+      if (prevRec.id) idLabel.textContent = prevRec.id;
 
-            st.uploadedScreenshots[imgPath] = { id: prevRec.id || null, idLabel, refreshBtn };
-            if (prevRec.id) idLabel.textContent = prevRec.id;
+      wrap.appendChild(tsLabel);
+      wrap.appendChild(img);
+      wrap.appendChild(refreshBtn);
+      wrap.appendChild(selectBtn);
+      wrap.appendChild(idLabel);
+      grid.appendChild(wrap);
+    });
+  } else if (!st.selectedScreenshotSourcePath) {
+    const noVideoMsg = document.createElement("div");
+    noVideoMsg.className = "text-muted mt-2";
+    noVideoMsg.textContent = "No video files found in drop.";
+    host.appendChild(noVideoMsg);
+  } else {
+    const genFailedMsg = document.createElement("div");
+    genFailedMsg.className = "text-danger mt-2";
+    genFailedMsg.textContent = "Screenshot generation failed. Try refreshing or selecting manually.";
+    host.appendChild(genFailedMsg);
+  }
 
-            wrap.appendChild(tsLabel);
-            wrap.appendChild(img);
-            wrap.appendChild(refreshBtn);
-            wrap.appendChild(selectBtn);
-            wrap.appendChild(idLabel);
-            grid.appendChild(wrap);
-        });
-    } else if (!st.selectedScreenshotSourcePath) {
-         // Show message if no video files were found initially
-         const noVideoMsg = document.createElement("div");
-         noVideoMsg.className = "text-muted mt-2";
-         noVideoMsg.textContent = "No video files found in drop.";
-         host.appendChild(noVideoMsg);
-    } else {
-         // Show message if generation failed but a source exists
-         const genFailedMsg = document.createElement("div");
-         genFailedMsg.className = "text-danger mt-2";
-         genFailedMsg.textContent = "Screenshot generation failed. Try refreshing or selecting manually.";
-         host.appendChild(genFailedMsg);
-    }
-
-    updateUploadButtonState(i); // Update upload-all button state
+  updateUploadButtonState(i);
 }
 
-// In renderer.js, replace regenerateScreenshotsInRange
 async function regenerateScreenshotsInRange(i = 1) {
-    const st = getShowState(i);
-    // Use selected path and duration
-    if (!st?.selectedScreenshotSourcePath) {
-        alert("No video file selected for screenshots.");
-        return;
+  const st = getShowState(i);
+  if (!st?.selectedScreenshotSourcePath) {
+    alert("No video file selected for screenshots.");
+    return;
+  }
+  const sourcePath = st.selectedScreenshotSourcePath;
+  const dur = Number(st.selectedFileDurationSec || 0);
+
+  const startStr = (getEl("shots-start", i)?.value || "").trim();
+  const endStr = (getEl("shots-end", i)?.value || "").trim();
+  let startSec = clamp(hmsToSec(startStr), 0, dur);
+  let endSec = clamp(hmsToSec(endStr), 0, dur);
+  if (endSec < startSec) [startSec, endSec] = [endSec, startSec];
+  if (endSec === startSec || endSec > dur) {
+    endSec = dur;
+    if (startSec >= dur) startSec = 0;
+  }
+  getEl("shots-end", i).value = secToHMS(endSec);
+
+
+  st.screenshotStartSec = startSec;
+  st.screenshotEndSec = endSec;
+
+  let newTempPaths = null;
+  try {
+    const atFunc = window.mediaTools.captureScreenshotsAt;
+    if (typeof atFunc === "function") {
+      const rangeDuration = endSec - startSec;
+      if (rangeDuration <= 0) {
+        console.warn("Invalid range, generating screenshots across full duration.");
+        startSec = 0; endSec = dur;
+      }
+      const steps = [];
+      for (let k = 0; k < 4; k++) {
+        const randomOffset = Math.random() * (endSec - startSec);
+        steps.push(startSec + randomOffset);
+      }
+      steps.sort((a, b) => a - b);
+      st.screenshotTimestamps = steps;
+      newTempPaths = await atFunc(sourcePath, steps);
+    } else {
+      throw new Error("captureScreenshotsAt function not found.");
     }
-    const sourcePath = st.selectedScreenshotSourcePath;
-    const dur = Number(st.selectedFileDurationSec || 0);
+  } catch (e) {
+    console.error("Screenshot generation failed:", e);
+    alert("Failed to generate screenshots in range: " + e.message);
+    st.generatedScreenshots = [];
+    st.screenshotTimestamps = [];
+    renderScreenshots([], i);
+    return;
+  }
 
-    const startStr = (getEl("shots-start", i)?.value || "").trim();
-    const endStr = (getEl("shots-end", i)?.value || "").trim();
-    let startSec = clamp(hmsToSec(startStr), 0, dur);
-    let endSec = clamp(hmsToSec(endStr), 0, dur);
-    if (endSec < startSec) [startSec, endSec] = [endSec, startSec];
-    if (endSec === startSec || endSec > dur ) { // Adjust end if it's invalid or same as start
-        endSec = dur; // Default to full duration if range is bad
-        if (startSec >= dur) startSec = 0; // Reset start if it was also bad
-    }
-     // Ensure end time input reflects reality if we adjusted it
-     getEl("shots-end", i).value = secToHMS(endSec);
+  const targetDir = window.mediaTools.getDirname(sourcePath);
+  const finalPaths = [];
+  const oldScreenshotPaths = [...st.generatedScreenshots];
 
+  for (let idx = 0; idx < newTempPaths.length; idx++) {
+    const newTempPath = newTempPaths[idx];
+    const oldFinalPath = oldScreenshotPaths[idx];
+    const baseFilename = oldFinalPath
+      ? oldFinalPath.split(/[/\\]/).pop()
+      : `regen_${Date.now()}_${idx}.jpg`;
 
-    st.screenshotStartSec = startSec;
-    st.screenshotEndSec = endSec;
+    const finalDestPath = window.mediaTools.pathJoin(targetDir, baseFilename);
 
-    let newTempPaths = null;
-    try {
-        const atFunc = window.mediaTools.captureScreenshotsAt;
-        if (typeof atFunc === "function") {
-            const rangeDuration = endSec - startSec;
-             // Ensure range duration is positive
-             if (rangeDuration <= 0) {
-                 // If range is zero, just take 4 shots spread across the file's duration
-                 console.warn("Invalid range, generating screenshots across full duration.");
-                 startSec = 0; endSec = dur;
-             }
-            const steps = [];
-            for (let k = 0; k < 4; k++) {
-                const randomOffset = Math.random() * (endSec - startSec);
-                steps.push(startSec + randomOffset);
-            }
-            steps.sort((a, b) => a - b);
-            st.screenshotTimestamps = steps; // Store the new random timestamps
-            newTempPaths = await atFunc(sourcePath, steps); // Use selected source path
-        } else {
-            throw new Error("captureScreenshotsAt function not found.");
-        }
-    } catch (e) {
-        console.error("Screenshot generation failed:", e);
-        alert("Failed to generate screenshots in range: " + e.message);
-        // Re-render empty to show error state, keep controls enabled
-        st.generatedScreenshots = [];
-        st.screenshotTimestamps = [];
-        renderScreenshots([], i);
-        return;
-    }
-
-    // Determine target directory based on the selected source file's location
-    const targetDir = window.mediaTools.getDirname(sourcePath);
-    const finalPaths = [];
-    const oldScreenshotPaths = [...st.generatedScreenshots]; // Keep track of old paths
-
-    for (let idx = 0; idx < newTempPaths.length; idx++) {
-        const newTempPath = newTempPaths[idx];
-        // Try to reuse the old filename if possible, otherwise generate new
-        const oldFinalPath = oldScreenshotPaths[idx];
-        const baseFilename = oldFinalPath
-            ? oldFinalPath.split(/[/\\]/).pop()
-            : `regen_${Date.now()}_${idx}.jpg`;
-
-        const finalDestPath = window.mediaTools.pathJoin(targetDir, baseFilename);
-
-        // Delete old physical file if it existed (might be different from temp path)
-        if (oldFinalPath && oldFinalPath !== finalDestPath) { // Avoid deleting if overwriting same name
-             try { await window.mediaTools.deleteFile(oldFinalPath); } catch {}
-        }
-
-        await window.mediaTools.copyFile(newTempPath, finalDestPath);
-        try { await window.mediaTools.deleteFile(newTempPath); } catch {} // Clean up temp
-
-        finalPaths.push(finalDestPath);
-        st.userSelectedSlots.delete(idx); // Regenerated, so remove manual flag
+    if (oldFinalPath && oldFinalPath !== finalDestPath) {
+      try { await window.mediaTools.deleteFile(oldFinalPath); } catch { }
     }
 
-    // Update state and re-render
-    st.generatedScreenshots = finalPaths;
-    renderScreenshots(finalPaths, i);
+    await window.mediaTools.copyFile(newTempPath, finalDestPath);
+    try { await window.mediaTools.deleteFile(newTempPath); } catch { }
+
+    finalPaths.push(finalDestPath);
+    st.userSelectedSlots.delete(idx);
+  }
+
+  st.generatedScreenshots = finalPaths;
+  renderScreenshots(finalPaths, i);
 }
 
 async function saveJson(index = 1) {
@@ -1908,7 +1884,7 @@ async function saveJson(index = 1) {
   const outPath = window.mediaTools.pathJoin(targetDir, filename + '.json');
   const jsonStr = JSON.stringify(finalJson, null, 2);
   await window.mediaTools.writeFile(outPath, jsonStr);
-  
+
   const MIRROR_DIR = "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\src\\data";
   try {
     window.mediaTools.mkdirp(MIRROR_DIR);
@@ -1921,6 +1897,20 @@ async function saveJson(index = 1) {
   await window.appAPI.updateTapersIndex(tapers, filename);
   if (receivedInTrade && traderName) {
     await window.appAPI.updateTradersIndex([traderName], filename);
+  }
+
+  if (typeof window.appAPI?.updateEquipmentIndex === "function") {
+    try {
+      await window.appAPI.updateEquipmentIndex({
+        file: EQUIP_FILE,
+        audioItems: splitEquip(audioEquipment),
+        videoItems: splitEquip(videoEquipment),
+      });
+    } catch (e) {
+      console.warn("Failed to update equipment.json:", e);
+    }
+  } else {
+    console.warn("updateEquipmentIndex not available on window.appAPI");
   }
 
   alert(`✅ Saved to: ${outPath}\n✅ Mirrored to project data folder.`);
@@ -1944,7 +1934,7 @@ async function saveAllJsons() {
 
   for (let i = 0; i < results.length; i++) {
     const me = results[i];
-	if (!me) continue;
+    if (!me) continue;
     const others = names.filter(n => n !== me.filename);
     me.json.relatedShows = others;
 

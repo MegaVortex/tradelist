@@ -27,6 +27,7 @@ contextBridge.exposeInMainWorld("appAPI", {
   updateTapersIndex: (tapers, filename) => ipcRenderer.invoke("update-tapers-index", { tapers, filename }),
   updateTradersIndex: (traders, filename) => ipcRenderer.invoke("update-traders-index", { traders, filename }),
   selectImageFiles: (allowMultiple) => ipcRenderer.invoke("app:select-images", { allowMultiple }),
+  updateEquipmentIndex: (payload) => ipcRenderer.invoke("updateEquipmentIndex", payload),
 });
 
 contextBridge.exposeInMainWorld("setlistAPI", {

@@ -7,6 +7,57 @@ const fs = require("fs");
 const fsp = fs.promises;
 const https = require("https");
 const { google } = require('googleapis');
+const EQUIPMENT_JSON_PATH = "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\helpers\\tl_tool\\lib\\equipment.json";
+
+function ensureDirFor(filePath) {
+  const dir = path.dirname(filePath);
+  return fsp.mkdir(dir, { recursive: true }).catch(() => { });
+}
+
+function normalizeList(arr) {
+  return Array.isArray(arr) ? arr.filter(Boolean).map(s => String(s).trim()).filter(Boolean) : [];
+}
+
+function mergeDedupeCaseInsensitive(existing, incoming) {
+  const out = [...existing];
+  for (const v0 of incoming) {
+    const v = (v0 || "").trim();
+    if (!v) continue;
+    const exists = out.some(x => String(x).toLowerCase() === v.toLowerCase());
+    if (!exists) out.push(v);
+  }
+  return out;
+}
+
+ipcMain.handle("updateEquipmentIndex", async (_evt, payload = {}) => {
+  const {
+    file = EQUIPMENT_JSON_PATH,
+    audioItems = [],
+    videoItems = [],
+  } = payload;
+
+  await ensureDirFor(file);
+
+  let current = { audio: [], video: [] };
+  try {
+    const raw = await fsp.readFile(file, "utf8");
+    const parsed = JSON.parse(raw);
+    current.audio = normalizeList(parsed.audio);
+    current.video = normalizeList(parsed.video);
+  } catch (e) {
+    console.warn("equipment.json read issue (will re-init if needed):", e?.message);
+  }
+
+  const next = {
+    audio: mergeDedupeCaseInsensitive(current.audio, normalizeList(audioItems)),
+    video: mergeDedupeCaseInsensitive(current.video, normalizeList(videoItems)),
+  };
+
+  const out = JSON.stringify(next, null, 2);
+  await fsp.writeFile(file, out, "utf8");
+
+  return next;
+});
 
 function ffmpegGrab(file, tSec, outDir) {
   return new Promise((resolve, reject) => {
