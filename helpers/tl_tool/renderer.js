@@ -24,6 +24,27 @@ function isDirPath(p) {
   }
 }
 
+function wireNotRecordedBehavior(container) {
+  const small = container.querySelector('.d-flex.gap-1:last-child');
+  if (!small) return;
+  const noteSelect = small.querySelector('select');
+  if (!noteSelect) return;
+
+  const clearIfNotRecorded = () => {
+    if ((noteSelect.value || '').toLowerCase() === 'not recorded') {
+      const feat = small.querySelector('input[placeholder="feat"]');
+      const comment = small.querySelector('input[placeholder="comment"]');
+      const cover = small.querySelector('input[placeholder="coverOf"]');
+      if (feat) feat.value = '';
+      if (comment) comment.value = '';
+      if (cover) cover.value = '';
+    }
+  };
+
+  noteSelect.addEventListener('change', clearIfNotRecorded);
+  clearIfNotRecorded();
+}
+
 const BLANK_STRINGS = new Set(["n/a", "na", "und", "undefined", "unknown", "?", "-", ""]);
 
 function cleanStr(v) {
@@ -235,6 +256,7 @@ function createSetlistItemFor(i, data = {}) {
 
   container.appendChild(songLine);
   container.appendChild(smallFields);
+  wireNotRecordedBehavior(container);
 
   const host = getEl('setlist-container', i);
   if (host) host.appendChild(container);
@@ -1144,6 +1166,7 @@ function createSetlistItemFor(i, data = {}) {
 
   container.appendChild(songLine);
   container.appendChild(smallFields);
+  wireNotRecordedBehavior(container);
 
   getEl('setlist-container', i).appendChild(container);
 }
@@ -2017,6 +2040,7 @@ function createSetlistItem(data = {}) {
 
   container.appendChild(songLine);
   container.appendChild(smallFields);
+  wireNotRecordedBehavior(container);
 
   document.getElementById('setlist-container').appendChild(container);
 }
@@ -2058,6 +2082,7 @@ function createExtraItem(data = {}) {
 
   container.appendChild(songLine);
   container.appendChild(smallFields);
+  wireNotRecordedBehavior(container);
 
   document.getElementById('extras-container').appendChild(container);
 }
