@@ -77,8 +77,7 @@ function cloneEditorForShow(index) {
     relCb.checked = true;
     relCb.disabled = true;
   }
-  
-  // purge compilation inline UI from clones (never show on related editors)
+
   clone.querySelector('[id^="compilation-inline"]')?.remove();
   clone.querySelector('.category-compilation-wrap')?.remove();
 
@@ -92,8 +91,7 @@ function cloneEditorForShow(index) {
   h.className = "fw-bold text-center mb-2 text-muted";
   h.textContent = `Show #${index}`;
   (pre?.parentElement || clone).insertBefore(h, pre || clone.firstChild);
-  
-  // lock Show Type on cloned editors
+
   const selClone = clone.querySelector(`#show-type${uidSuffix(index)}`);
   if (selClone) {
     selClone.value = "comp";
@@ -149,10 +147,11 @@ function splitEquip(str) {
   return String(str).split(/[;,|]/).map(s => s.trim()).filter(Boolean);
 }
 
-// === Show Type & Compilation UI helpers ===
 function getShowTypeSelect(i = 1) {
-  // Works with cloning because getEl adds __S# automatically for i>1
-  return getEl("show-type", i);
+  return (
+    getEl("show-type", i) ||
+    getEl("showType", i)
+  );
 }
 
 function isCompOrVA(val) {
@@ -161,13 +160,12 @@ function isCompOrVA(val) {
 }
 
 function ensureCompilationCategoryCheckbox(i = 1, on = false) {
-  if (i !== 1) return; // only main
+  if (i !== 1) return;
 
   const root = getShowRoot(i);
   const anyCat = root.querySelector('input[name="category"]');
   if (!anyCat) return;
 
-  // Find the flex container that holds Video/Audio/Misc pills
   const container = root.querySelector('#cat-misc')?.closest('.d-flex') || anyCat.closest('.d-flex');
   if (!container) return;
 
@@ -184,7 +182,7 @@ function ensureCompilationCategoryCheckbox(i = 1, on = false) {
     cb.name = 'category';
     cb.value = 'compilation';
     cb.id = 'cat-compilation';
-    cb.disabled = true;          // greyed/locked
+    cb.disabled = true;
 
     const label = document.createElement('label');
     label.className = 'form-check-label';
@@ -201,47 +199,50 @@ function ensureCompilationCategoryCheckbox(i = 1, on = false) {
 }
 
 function ensureCompilationNameInline(i = 1, on = false) {
-  if (i !== 1) return; // only main
+  if (i !== 1) return;
 
   const sel = getShowTypeSelect(i);
   if (!sel) return;
 
-  // Row that holds: [ Show Type select ]  [ Compilation name column ]
   let row = sel.closest('.show-type-inline-row');
   if (!row) {
     row = document.createElement('div');
     row.className = 'd-flex align-items-start gap-3 show-type-inline-row';
-    // insert the row where the select currently sits, then move the select into it
     sel.parentElement.insertBefore(row, sel);
     row.appendChild(sel);
   }
 
-let inline = row.querySelector('#compilation-inline');
-if (!inline) {
-  inline = document.createElement('div');
-  inline.id = 'compilation-inline';
-  inline.className = 'd-flex flex-column';   // label above input
+  let inline =
+    row.querySelector('#compilation-inline') ||
+    document.getElementById('compilation-inline');
 
-  const lbl = document.createElement('label');
-  lbl.className = 'form-label fw-bold';      // make it bold
-  lbl.setAttribute('for', 'compilationName');
-  lbl.textContent = 'Compilation name:';
+  if (!inline) {
+    inline = document.createElement('div');
+    inline.id = 'compilation-inline';
+    inline.className = 'd-flex flex-column';
 
-  const inp = document.createElement('input');
-  inp.type = 'text';
-  inp.id = 'compilationName';
-  inp.className = 'form-control form-control-sm';
+    const lbl = document.createElement('label');
+    lbl.className = 'form-label fw-bold';
+    lbl.setAttribute('for', 'compilationName');
+    lbl.textContent = 'Compilation name:';
 
-  inline.appendChild(lbl);
-  inline.appendChild(inp);
-  row.appendChild(inline);
-}
+    const inp = document.createElement('input');
+    inp.type = 'text';
+    inp.id = 'compilationName';
+    inp.className = 'form-control form-control-sm';
+
+    inline.appendChild(lbl);
+    inline.appendChild(inp);
+    row.appendChild(inline);
+  } else if (inline.parentElement !== row) {
+    row.appendChild(inline);
+  }
 
   inline.style.display = on ? '' : 'none';
 }
 
 function applyCompilationUI(i = 1) {
-  if (i !== 1) return; // do not ever show in related editors
+  if (i !== 1) return;
   const sel = getShowTypeSelect(i);
   if (!sel) return;
   const want = isCompOrVA(sel.value);
@@ -306,16 +307,14 @@ function maxYearSafe(arr) {
 }
 
 function lockShowTypeForClone(i) {
-  const sel = getShowTypeSelect(i); // resolves to #show-type__S{i} for clones
+  const sel = getShowTypeSelect(i);
   if (!sel) return;
-  sel.value = "comp";       // force "Compilation"
-  sel.disabled = true;      // lock it
+  sel.value = "comp";
+  sel.disabled = true;
 }
 
 function pickCompilationImages(children) {
-  // children: array of { json, filename, outPath }
   const picks = [];
-  // One random image per child (if available)
   for (const kid of children) {
     const imgs = Array.isArray(kid.json?.images) ? kid.json.images : [];
     if (imgs.length) {
@@ -324,7 +323,6 @@ function pickCompilationImages(children) {
       if (picks.length >= 4) break;
     }
   }
-  // If only 3 images so far, do 1+1+2 (duplicate from the first child with spare images)
   if (picks.length === 3) {
     const donor = children[0]?.json?.images || [];
     if (donor.length) {
@@ -711,7 +709,7 @@ function createSecondaryMediaBlock() {
     row.remove();
     updateTotalLengthUI(1);
   };
- 
+
   const header = document.createElement("div");
   header.className = "d-flex justify-content-between align-items-center mb-1";
   header.appendChild(label);
@@ -1007,8 +1005,7 @@ window.addEventListener("DOMContentLoaded", () => {
   });
 
   saveAllBtn.addEventListener("click", saveAllJsons);
-  
-    // === Show Type -> toggle compilation UI (for main editor) ===
+
   (function wireShowTypeMain() {
     const sel = getShowTypeSelect(1);
     if (!sel) return;
@@ -1126,7 +1123,7 @@ function bindShowEvents(i) {
 
   const save = getEl("save-btn", i);
   if (save) save.addEventListener("click", () => saveJson(i));
-  
+
   wireClonedSecondaryRemoveButtons(i);
 }
 
@@ -1400,7 +1397,7 @@ function createSecondaryMediaBlockGeneric(i) {
     row.remove();
     updateTotalLengthUI(i);
   };
- 
+
   const header = document.createElement("div");
   header.className = "d-flex justify-content-between align-items-center mb-1";
   header.appendChild(label);
@@ -2016,6 +2013,11 @@ async function saveJson(index = 1) {
   }
 
   const { setlist, extras } = exportSetlistAndExtrasFor(index);
+  const categoriesUi = [...root.querySelectorAll('input[name="category"]:checked')]
+    .map(cb => (cb.value || '').toLowerCase());
+  const categoriesForChild = [...new Set(
+    categoriesUi.filter(v => v !== 'compilation')
+  )];
 
   function buildOriginalTitle(json) {
     const band = json.bands.join(", ");
@@ -2078,7 +2080,7 @@ async function saveJson(index = 1) {
     tvChannel: (getEl('tvChannel', index)?.value || "").trim(),
     showName: (getEl('showName', index)?.value || "").trim(),
     source: (getEl('source', index)?.value || "").trim(),
-    category: [...new Set([...root.querySelectorAll('input[name="category"]:checked')].map(cb => cb.value))],
+    category: categoriesForChild,
     master: root.querySelector(`input[name="${(index === 1 ? 'master' : `master${uidSuffix(index)}`)}"]:checked`)?.value === "yes",
     public: root.querySelector(`input[name="${(index === 1 ? 'public' : `public${uidSuffix(index)}`)}"]:checked`)?.value === "yes",
     ownIdentifier: (getEl('ownIdentifier', index)?.value || "").trim(),
@@ -2180,9 +2182,10 @@ async function createCompilationParentFromChildren(children, i = 1) {
   const endYear = maxYearSafe(yearsEnd);
 
   const compName = (getEl("compilationName", 1)?.value || "").trim()
-                 || (first.json?.location?.event || "").trim(); // fallback
+    || (first.json?.location?.event || "").trim();
 
   const categories = Array.from(new Set([...(first.json?.category || []), "compilation"]));
+
   const parentFilename = buildCompilationSlug(band, startYear, endYear, compName, first.json?.category);
   const parentTitle = buildCompilationOriginalTitle(band, startYear, endYear, compName);
   const parentImages = pickCompilationImages(kids);
@@ -2220,13 +2223,16 @@ async function createCompilationParentFromChildren(children, i = 1) {
     extras: []
   };
 
-  // SAVE to data-comp
-  await window.mediaTools.mkdirp(COMP_SAVE_DIR);
-  const outPath = window.mediaTools.pathJoin(COMP_SAVE_DIR, parentFilename + ".json");
+  const baseTargetDir = window.mediaTools.getDirname(first.outPath);
+  await window.mediaTools.mkdirp(baseTargetDir);
+  const outPathPrimary = window.mediaTools.pathJoin(baseTargetDir, parentFilename + ".json");
   const jsonStr = JSON.stringify(parentJson, null, 2);
-  await window.mediaTools.writeFile(outPath, jsonStr);
+  await window.mediaTools.writeFile(outPathPrimary, jsonStr);
+  await window.mediaTools.mkdirp(COMP_SAVE_DIR);
+  const outPathMirror = window.mediaTools.pathJoin(COMP_SAVE_DIR, parentFilename + ".json");
+  await window.mediaTools.writeFile(outPathMirror, jsonStr);
 
-  return { filename: parentFilename, outPath, json: parentJson };
+  return { filename: parentFilename, outPath: outPathPrimary, json: parentJson };
 }
 
 async function saveAllJsons() {
@@ -2240,11 +2246,9 @@ async function saveAllJsons() {
     const r = await saveJson(i);
     results.push(r);
   }
-  
-    // NEW: If Show Type is Compilation, create parent JSON from children
+
   let compParent = null;
-  const showTypeSel = getEl("show-type", 1);
-  const showTypeVal = (showTypeSel?.value || "").toLowerCase();
+  const showTypeVal = (getShowTypeSelect(1)?.value || "").toLowerCase();
   if (showTypeVal === "comp") {
     compParent = await createCompilationParentFromChildren(results, 1);
   }
@@ -2258,7 +2262,6 @@ async function saveAllJsons() {
     const others = names.filter(n => n !== me.filename);
     me.json.relatedShows = others;
 
-    // NEW: link child to compilation parent (if created)
     if (compParent) {
       me.json.childOf = compParent.filename;
     }

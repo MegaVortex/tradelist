@@ -20,7 +20,7 @@ textarea[id^="notes"] {
     justify-content: center;
 }
 
-[id^="shots-result"] > div {
+[id^="shots-result"]>div {
     text-align: center;
 }
 
@@ -80,51 +80,55 @@ pre[id^="specs-summary"] {
     background: #fafafa;
 }
 
-/* Add this to style.css */
 select.screenshot-source-select {
-  max-width: 160px; /* Adjust as needed, limits width */
-  overflow: hidden; /* Hides overflow */
-  text-overflow: ellipsis; /* Adds '...' for long text */
-  white-space: nowrap; /* Prevents wrapping (use if ellipsis preferred) */
+    max-width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
-/* Optional: Style the options too if needed */
 select.screenshot-source-select option {
-    white-space: normal; /* Allow options to wrap */
-    word-wrap: break-word; /* Force break */
+    white-space: normal;
+    word-wrap: break-word;
 }
 
-.show-type-inline-row .form-select.form-select-sm { max-width: 220px; }
-#compilation-inline label { font-size: 10px; }
-
-.show-type-inline-row{
-  display:flex;
-  gap:12px;
-  align-items:flex-start;
+.show-type-inline-row .form-select.form-select-sm {
+    max-width: 220px;
 }
 
-.show-type-inline-row #show-type{
-  flex:1 1 33%;
-  max-width:33%;
-  min-width:0;
-}
-.show-type-inline-row #compilation-inline{
-  flex:2 1 67%;
-  max-width:67%;
-  min-width:0;
+#compilation-inline label {
+    font-size: 10px;
 }
 
-#compilation-inline{
-  margin-top:-24px;               /* or: transform: translateY(-16px); */
+.show-type-inline-row {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
 }
 
-/* Keep a normal gap under the label */
-#compilation-inline .form-label{
-  font-weight:600;
-  margin-bottom:8px;
+.show-type-inline-row #show-type {
+    flex: 1 1 33%;
+    max-width: 33%;
+    min-width: 0;
 }
 
-.category-compilation-wrap{
-  opacity:.65;
-  pointer-events:none;
+.show-type-inline-row #compilation-inline {
+    flex: 2 1 67%;
+    max-width: 67%;
+    min-width: 0;
+}
+
+#compilation-inline {
+    display: none;
+    margin-top: -24px;
+}
+
+#compilation-inline .form-label {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.category-compilation-wrap {
+    opacity: .65;
+    pointer-events: none;
 }
