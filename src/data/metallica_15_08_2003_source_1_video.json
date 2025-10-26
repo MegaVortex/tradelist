@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Metallica - 15.08.2003 - Salzburg - Austria - Salzburgring - FM4 Frequency Festival (Source 1)",
+  "created": 1761508024,
+  "lastUpdated": 1761508024,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "08",
+    "year": "2003"
+  },
+  "endDate": {
+    "day": "15",
+    "month": "08",
+    "year": "2003"
+  },
+  "startDateUnix": 1060905600,
+  "endDateUnix": 1060905600,
+  "location": {
+    "city": "Salzburg",
+    "state": "",
+    "country": "Austria",
+    "venue": "Salzburgring",
+    "event": "FM4 Frequency Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "Norbinho",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "receivedInTrade": false,
+  "trader": "",
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.7,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 138,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MP2",
+        "rateHz": 48000,
+        "bitrateKbps": 224,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "videoEquipment": "",
+      "audioEquipment": "",
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "VCD",
+      "fileFormat": "DVD"
+    }
+  },
+  "images": [
+    {
+      "folder": "2025",
+      "filename": "manual_1761483165664_0.jpg",
+      "externalId": "1u1JFu9KRD1z54M51-gkvpiFSB5NwWGmp"
+    },
+    {
+      "folder": "2025",
+      "filename": "manual_1761483165666_1.jpg",
+      "externalId": "13jHSOMvk9dbV0wqXqxUbxyNg_r8CnkBI"
+    },
+    {
+      "folder": "2025",
+      "filename": "manual_1761483165670_2.jpg",
+      "externalId": "1AD_nfL6iiu6r8VzrdLytg_fW4EAadwbS"
+    },
+    {
+      "folder": "2025",
+      "filename": "manual_1761483165671_3.jpg",
+      "externalId": "1kLeqJ751VNDbA-RiO-Z7r8p-fV9anso7"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "James",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Battery",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [],
+  "relatedShows": [
+    "metallica_22_05_1999_source_1_video",
+    "metallica_08_12_1997_source_3_video",
+    "metallica_05_07_2007_source_6_video"
+  ],
+  "childOf": "metallica_xx_xx_1997_xx_xx_2007_tv_appearances_video_compilation"
+}

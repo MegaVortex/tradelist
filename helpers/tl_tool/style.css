@@ -86,15 +86,45 @@ select.screenshot-source-select {
   overflow: hidden; /* Hides overflow */
   text-overflow: ellipsis; /* Adds '...' for long text */
   white-space: nowrap; /* Prevents wrapping (use if ellipsis preferred) */
-  /* OR, for actual wrapping: */
-  /* white-space: normal; */
-  /* max-width: 200px; /* Still limit width */
-  /* height: auto; /* Allow height to adjust if needed */
-  /* line-height: 1.2; */
 }
 
 /* Optional: Style the options too if needed */
 select.screenshot-source-select option {
     white-space: normal; /* Allow options to wrap */
     word-wrap: break-word; /* Force break */
+}
+
+.show-type-inline-row .form-select.form-select-sm { max-width: 220px; }
+#compilation-inline label { font-size: 10px; }
+
+.show-type-inline-row{
+  display:flex;
+  gap:12px;
+  align-items:flex-start;
+}
+
+.show-type-inline-row #show-type{
+  flex:1 1 33%;
+  max-width:33%;
+  min-width:0;
+}
+.show-type-inline-row #compilation-inline{
+  flex:2 1 67%;
+  max-width:67%;
+  min-width:0;
+}
+
+#compilation-inline{
+  margin-top:-24px;               /* or: transform: translateY(-16px); */
+}
+
+/* Keep a normal gap under the label */
+#compilation-inline .form-label{
+  font-weight:600;
+  margin-bottom:8px;
+}
+
+.category-compilation-wrap{
+  opacity:.65;
+  pointer-events:none;
 }
