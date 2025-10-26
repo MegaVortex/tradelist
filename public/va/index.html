@@ -10791,16 +10791,13 @@
      
        const rows = document.querySelectorAll('#shows-table tbody tr[data-show]');
        rows.forEach(tr => {
-         // Parse the embedded JSON from data-show
          const raw = tr.getAttribute('data-show')
            .replaceAll('&quot;', '"')
            .replaceAll('&#39;', "'")
            .replaceAll('&amp;', '&');
          let show;
          try { show = JSON.parse(raw); } catch { return; }
-     
-         // Page column index: 0..11 => Page is index 10
-         const pageTd = tr.children[10];
+         const pageTd = tr.children[11];
          if (!pageTd) return;
          pageTd.classList.add('page-cell');
      
