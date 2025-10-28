@@ -94,7 +94,8 @@ function cloneEditorForShow(index) {
 
   const selClone = clone.querySelector(`#show-type${uidSuffix(index)}`);
   if (selClone) {
-    selClone.value = "comp";
+    const master = getShowTypeSelect(1);
+    selClone.value = master ? String(master.value || "regular") : "regular";
     selClone.disabled = true;
   }
 
@@ -219,7 +220,7 @@ function ensureCompilationNameInline(i = 1, on = false) {
   if (!inline) {
     inline = document.createElement('div');
     inline.id = 'compilation-inline';
-    inline.className = 'd-flex flex-column';
+    inline.className = 'flex-column';
 
     const lbl = document.createElement('label');
     lbl.className = 'form-label fw-bold';
@@ -238,7 +239,7 @@ function ensureCompilationNameInline(i = 1, on = false) {
     row.appendChild(inline);
   }
 
-  inline.style.display = on ? '' : 'none';
+  inline.style.display = on ? 'flex' : 'none';
 }
 
 function applyCompilationUI(i = 1) {
@@ -309,7 +310,8 @@ function maxYearSafe(arr) {
 function lockShowTypeForClone(i) {
   const sel = getShowTypeSelect(i);
   if (!sel) return;
-  sel.value = "comp";
+  const master = getShowTypeSelect(1);
+  sel.value = master ? String(master.value || "regular") : "regular";
   sel.disabled = true;
 }
 
