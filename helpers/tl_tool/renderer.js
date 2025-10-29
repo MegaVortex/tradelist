@@ -2224,6 +2224,14 @@ async function createCompilationParentFromChildren(children, i = 1) {
     setlist: [],
     extras: []
   };
+  
+  const totalLengthSec = kids.reduce((sum, k) => {
+    const v = k?.json?.specs?.length;
+    const n = Number(v);
+    return sum + (Number.isFinite(n) ? n : 0);
+  }, 0);
+  parentJson.specs = parentJson.specs || {};
+  parentJson.specs.length = totalLengthSec;
 
   const baseTargetDir = window.mediaTools.getDirname(first.outPath);
   await window.mediaTools.mkdirp(baseTargetDir);
