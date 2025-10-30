@@ -25,24 +25,38 @@
       <div class="tapers-wrapper">
          <p class="info-box">ℹ️ Top tapers</p>
          <div class="rules-tapers-block">
-            {% for item in tapersTop10 %}
-            <div class="taper-item">{{ item.emoji }}
-               {{ item.taper }}
-               <strong>{{ item.count }}</strong>
-            </div>
-            {% endfor %}
+           {% for item in tapersTop10 %}
+           <div class="taper-item">
+             <span class="taper-left">
+               {{ item.emoji }}
+               {% if item.website %}
+                 <a class="taper-link" href="{{ item.website }}" target="_blank" rel="noopener">{{ item.name }}</a>
+               {% else %}
+                 {{ item.name }}
+               {% endif %}
+             </span>
+             <span class="taper-right"><strong>{{ item.count }}</strong></span>
+           </div>
+           {% endfor %}
          </div>
       </div>
 
       <div class="tapers-wrapper">
          <p class="info-box">ℹ️ Top traders</p>
          <div class="rules-tapers-block">
-            {% for item in tradersTop10 %}
-            <div class="trader-item">{{ item.emoji }}
-               {{ item.trader }}
-               <strong>{{ item.count }}</strong>
-            </div>
-            {% endfor %}
+           {% for item in tradersTop10 %}
+           <div class="trader-item">
+             <span class="trader-left">
+               {{ item.emoji }}
+               {% if item.website %}
+                 <a class="trader-link" href="{{ item.website }}" target="_blank" rel="noopener">{{ item.name }}</a>
+               {% else %}
+                 {{ item.name }}
+               {% endif %}
+             </span>
+             <span class="trader-right"><strong>{{ item.count }}</strong></span>
+           </div>
+           {% endfor %}
          </div>
       </div>
    </div>

@@ -105,28 +105,44 @@ ipcMain.handle('media:captureRange', async (_e, { file, startSec, endSec, count,
 ipcMain.handle("update-tapers-index", async (event, { tapers, filename }) => {
   const indexPath = "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\src\\tapers\\tapers_index.json";
 
-  let indexData = {};
+  /** Load existing (support old object schema and new array schema) */
+  let list = [];
   try {
     if (fs.existsSync(indexPath)) {
-      const raw = fs.readFileSync(indexPath, "utf-8");
-      if (raw.trim().length > 0) {
-        indexData = JSON.parse(raw);
+      const raw = fs.readFileSync(indexPath, "utf-8").trim();
+      if (raw.length > 0) {
+        const parsed = JSON.parse(raw);
+        if (Array.isArray(parsed)) {
+          list = parsed;
+        } else if (parsed && typeof parsed === "object") {
+          // old schema: { "TaperName": ["show_a", "show_b"], ... }
+          list = Object.keys(parsed).map(name => ({
+            name,
+            website: "",
+            shows: Array.isArray(parsed[name]) ? parsed[name] : []
+          }));
+        }
       }
     }
   } catch (err) {
-    console.warn("⚠ Failed to read existing tapers index:", err.message);
+    console.warn("⚠ Failed to read/parse tapers index:", err.message);
   }
 
-  for (const taper of tapers) {
-    if (!indexData[taper]) indexData[taper] = [];
-    if (!indexData[taper].includes(filename)) {
-      indexData[taper].push(filename);
+  /** Merge: preserve website; only append missing show slugs */
+  for (const name of tapers) {
+    if (!name) continue;
+    let entry = list.find(e => e && e.name === name);
+    if (!entry) {
+      entry = { name, website: "", shows: [] };
+      list.push(entry);
+    }
+    if (!entry.shows.includes(filename)) {
+      entry.shows.push(filename);
     }
   }
 
-  fs.writeFileSync(indexPath, JSON.stringify(indexData, null, 2), "utf-8");
+  fs.writeFileSync(indexPath, JSON.stringify(list, null, 2), "utf-8");
   console.log("✅ tapers_index.json updated successfully");
-
   return true;
 });
 
@@ -136,21 +152,38 @@ ipcMain.handle("update-traders-index", async (event, { traders, filename }) => {
   try {
     fs.mkdirSync(path.dirname(TRADERS_INDEX_PATH), { recursive: true });
 
-    let indexData = {};
+    /** Load existing (support old object schema and new array schema) */
+    let list = [];
     if (fs.existsSync(TRADERS_INDEX_PATH)) {
       const raw = fs.readFileSync(TRADERS_INDEX_PATH, "utf-8").trim();
-      if (raw.length > 0) indexData = JSON.parse(raw);
-    }
-
-    for (const trader of traders) {
-      if (!trader) continue;
-      if (!indexData[trader]) indexData[trader] = [];
-      if (!indexData[trader].includes(filename)) {
-        indexData[trader].push(filename);
+      if (raw.length > 0) {
+        const parsed = JSON.parse(raw);
+        if (Array.isArray(parsed)) {
+          list = parsed;
+        } else if (parsed && typeof parsed === "object") {
+          list = Object.keys(parsed).map(name => ({
+            name,
+            website: "",
+            shows: Array.isArray(parsed[name]) ? parsed[name] : []
+          }));
+        }
       }
     }
 
-    fs.writeFileSync(TRADERS_INDEX_PATH, JSON.stringify(indexData, null, 2), "utf-8");
+    /** Merge: preserve website; only append missing show slugs */
+    for (const name of traders) {
+      if (!name) continue;
+      let entry = list.find(e => e && e.name === name);
+      if (!entry) {
+        entry = { name, website: "", shows: [] };
+        list.push(entry);
+      }
+      if (!entry.shows.includes(filename)) {
+        entry.shows.push(filename);
+      }
+    }
+
+    fs.writeFileSync(TRADERS_INDEX_PATH, JSON.stringify(list, null, 2), "utf-8");
     console.log("✅ traders_index.json updated successfully");
     return true;
   } catch (err) {

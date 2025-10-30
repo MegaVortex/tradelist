@@ -1,20 +1,22 @@
-const fs = require('fs');
-const traders = JSON.parse(fs.readFileSync('./src/traders/traders_index.json', 'utf-8'));
+const fs = require("fs");
+const traders = JSON.parse(
+  fs.readFileSync("./src/traders/traders_index.json", "utf-8")
+);
 
 const medals = ["🥇", "🥈", "🥉"];
-const otherEmoji = "📼";
+const other = "📼";
 
-const top10 = Object.entries(traders)
-    .map(([trader, shows]) => ({
-        trader,
-        count: shows.length
-    }))
-    .sort((a, b) => b.count - a.count)
-    .slice(0, 10)
-    .map((item, index) => ({
-        emoji: index < 3 ? medals[index] : otherEmoji,
-        trader: item.trader,
-        count: item.count
-    }));
+const top10 = traders
+  .map(t => ({
+    name: t.name,
+    website: t.website || "",
+    count: Array.isArray(t.shows) ? t.shows.length : 0
+  }))
+  .sort((a, b) => b.count - a.count)
+  .slice(0, 10)
+  .map((t, i) => ({
+    emoji: i < 3 ? medals[i] : other,
+    ...t
+  }));
 
 module.exports = top10;

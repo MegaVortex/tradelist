@@ -344,6 +344,22 @@ a:hover {
 	white-space: normal;
 }
 
+.taper-left .taper-link {
+  color: inherit;
+  text-decoration: none;
+}
+.taper-left .taper-link:hover { text-decoration: underline; }
+
+.taper-right { font-variant-numeric: tabular-nums; }
+
+.trader-left .trader-link {
+  color: inherit;
+  text-decoration: none;
+}
+.trader-left .trader-link:hover { text-decoration: underline; }
+
+.trader-right { font-variant-numeric: tabular-nums; }
+
 .warning-block {
 	background-color: #f6f8fa;
 	border: 0px solid #d0d7de;

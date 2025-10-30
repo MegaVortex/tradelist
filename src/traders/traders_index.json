@@ -1,66 +1,90 @@
-{
-  "Jederlacht": [
-    "slipknot_08_04_2000_source_2_video",
-    "slipknot_06_06_1999_source_1_video",
-    "godsmack_06_06_1999_source_1_video",
-    "limp_bizkit_17_06_2014_source_1_video",
-    "powerman_5000_17_06_2014_source_1_video",
-    "rob_zombie_17_06_2014_source_1_video",
-    "limp_bizkit_27_08_2016_source_1_video",
-    "limp_bizkit_30_06_2018_source_1_video",
-    "limp_bizkit_03_04_2023_source_1_video"
-  ],
-  "Ingram": [
-    "sonic_youth_04_09_2010_source_1_audio",
-    "sonic_youth_04_06_2005_source_3_video",
-    "sonic_youth_29_03_2009_source_1_video",
-    "sonic_youth_25_04_2008_source_1_video",
-    "sonic_youth_30_09_2006_source_1_video",
-    "sonic_youth_28_07_2007_source_1_video",
-    "sonic_youth_23_08_2007_source_1_video",
-    "sonic_youth_25_08_2007_source_1_video",
-    "sonic_youth_18_06_2007_source_1_video",
-    "sonic_youth_18_06_2007_source_2_video",
-    "sonic_youth_19_06_2007_source_1_video",
-    "sonic_youth_19_06_2007_source_3_video",
-    "sonic_youth_19_06_2007_source_4_video",
-    "sonic_youth_19_06_2007_source_2_video",
-    "sonic_youth_03_07_2005_source_1_video",
-    "sonic_youth_21_08_2005_source_1_video",
-    "sonic_youth_03_06_2005_source_2_video",
-    "sonic_youth_29_08_2007_source_1_video",
-    "sonic_youth_01_09_2007_source_1_video",
-    "sonic_youth_22_04_2009_source_1_video",
-    "mirror_dash_22_04_2009_source_1_video",
-    "kylesa_15_02_2012_source_1_video",
-    "linkin_park_23_06_2011_source_5_video",
-    "system_of_a_down_12_06_2000_source_1_video",
-    "rage_against_the_machine_04_07_1996_source_2_video",
-    "coal_chamber_17_01_1998_source_1_video",
-    "coal_chamber_18_07_1998_source_1_video",
-    "coal_chamber_11_03_1998_source_1_video",
-    "deftones_03_09_2011_source_2_video",
-    "mnemic_06_10_2005_source_1_video",
-    "hatebreed_06_02_2010_source_1_video",
-    "hatebreed_29_07_1998_source_1_video",
-    "deftones_29_07_1998_source_1_video",
-    "madball_12_05_1998_source_1_video",
-    "coal_chamber_23_05_1998_source_4_video"
-  ],
-  "LPMaskMan": [
-    "slipknot_04_02_2020_source_4_video"
-  ],
-  "SeidBereit Trading Crew": [
-    "slipknot_21_12_2024_source_2_video"
-  ],
-  "Max Rumpelstilzchen": [
-    "slipknot_04_02_2002_source_5_video",
-    "slipknot_06_06_2009_source_3_video",
-    "slipknot_05_08_2022_source_3_video",
-    "slipknot_05_07_2013_source_1_video",
-    "slipknot_20_07_2022_source_1_video"
-  ],
-  "KhAoS182": [
-    "papa_roach_03_06_2001_source_1_video"
-  ]
-}
+[
+    {
+        "name": "Jederlacht",
+        "website": "http://jederlacht-bootlegs.com/",
+        "shows": [
+            "slipknot_08_04_2000_source_2_video",
+            "slipknot_06_06_1999_source_1_video",
+            "godsmack_06_06_1999_source_1_video",
+            "limp_bizkit_17_06_2014_source_1_video",
+            "powerman_5000_17_06_2014_source_1_video",
+            "rob_zombie_17_06_2014_source_1_video",
+            "limp_bizkit_27_08_2016_source_1_video",
+            "limp_bizkit_30_06_2018_source_1_video",
+            "limp_bizkit_03_04_2023_source_1_video"
+        ]
+    },
+    {
+        "name": "Ingram",
+        "website": "",
+        "shows": [
+            "sonic_youth_04_09_2010_source_1_audio",
+            "sonic_youth_04_06_2005_source_3_video",
+            "sonic_youth_29_03_2009_source_1_video",
+            "sonic_youth_25_04_2008_source_1_video",
+            "sonic_youth_30_09_2006_source_1_video",
+            "sonic_youth_28_07_2007_source_1_video",
+            "sonic_youth_23_08_2007_source_1_video",
+            "sonic_youth_25_08_2007_source_1_video",
+            "sonic_youth_18_06_2007_source_1_video",
+            "sonic_youth_18_06_2007_source_2_video",
+            "sonic_youth_19_06_2007_source_1_video",
+            "sonic_youth_19_06_2007_source_3_video",
+            "sonic_youth_19_06_2007_source_4_video",
+            "sonic_youth_19_06_2007_source_2_video",
+            "sonic_youth_03_07_2005_source_1_video",
+            "sonic_youth_21_08_2005_source_1_video",
+            "sonic_youth_03_06_2005_source_2_video",
+            "sonic_youth_29_08_2007_source_1_video",
+            "sonic_youth_01_09_2007_source_1_video",
+            "sonic_youth_22_04_2009_source_1_video",
+            "mirror_dash_22_04_2009_source_1_video",
+            "kylesa_15_02_2012_source_1_video",
+            "linkin_park_23_06_2011_source_5_video",
+            "system_of_a_down_12_06_2000_source_1_video",
+            "rage_against_the_machine_04_07_1996_source_2_video",
+            "coal_chamber_17_01_1998_source_1_video",
+            "coal_chamber_18_07_1998_source_1_video",
+            "coal_chamber_11_03_1998_source_1_video",
+            "deftones_03_09_2011_source_2_video",
+            "mnemic_06_10_2005_source_1_video",
+            "hatebreed_06_02_2010_source_1_video",
+            "hatebreed_29_07_1998_source_1_video",
+            "deftones_29_07_1998_source_1_video",
+            "madball_12_05_1998_source_1_video",
+            "coal_chamber_23_05_1998_source_4_video"
+        ]
+    },
+    {
+        "name": "LPMaskMan",
+        "website": "http://xdespisedkidx.bplaced.net/",
+        "shows": [
+            "slipknot_04_02_2020_source_4_video"
+        ]
+    },
+    {
+        "name": "SeidBereit Trading Crew",
+        "website": "",
+        "shows": [
+            "slipknot_21_12_2024_source_2_video"
+        ]
+    },
+    {
+        "name": "Max Rumpelstilzchen",
+        "website": "https://rammstein-trade.ucoz.ru/",
+        "shows": [
+            "slipknot_04_02_2002_source_5_video",
+            "slipknot_06_06_2009_source_3_video",
+            "slipknot_05_08_2022_source_3_video",
+            "slipknot_05_07_2013_source_1_video",
+            "slipknot_20_07_2022_source_1_video"
+        ]
+    },
+    {
+        "name": "KhAoS182",
+        "website": "https://www.khaos182-bootlegs.com/",
+        "shows": [
+            "papa_roach_03_06_2001_source_1_video"
+        ]
+    }
+]
