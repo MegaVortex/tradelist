@@ -83,82 +83,86 @@
          </thead>
          <tbody>
             <tr>
-               <td>
-                  
+               <td class="artists-cell">
+                 
+                   
+                   <div class="media-wrapper media-wrapper-left">
+                     <span>Slipknot</span>
                      
-                     <div class="media-wrapper">
-                        
-                        <span>Slipknot</span>
-                        
-                           <a href="#" class="toggle-media" data-target="bands-">
-                              ▾ +29
-                           </a>
-                        
+                       <button
+                         type="button"
+                         class="count-badge toggle-media"
+                         data-target="bands-toggle"
+                         aria-expanded="false"
+                         title="Show 29 more artists"
+                       >+29</button>
+                     
+                   </div>
+               
+                   
+                     <div id="bands-toggle" class="extra-media" style="display:none;">
+                       
+                         <div>Korn</div>
+                       
+                         <div>Architects</div>
+                       
+                         <div>3 Doors Down</div>
+                       
+                         <div>Europe</div>
+                       
+                         <div>Volbeat</div>
+                       
+                         <div>Down</div>
+                       
+                         <div>Rammstein</div>
+                       
+                         <div>Papa Roach</div>
+                       
+                         <div>Enter Shikari</div>
+                       
+                         <div>Uriah Heep</div>
+                       
+                         <div>Asking Alexandria</div>
+                       
+                         <div>Stone Sour</div>
+                       
+                         <div>Queens Of The Stone Age</div>
+                       
+                         <div>Coal Chamber</div>
+                       
+                         <div>Karnivool</div>
+                       
+                         <div>Mastodon</div>
+                       
+                         <div>Iron Maiden</div>
+                       
+                         <div>Limp Bizkit</div>
+                       
+                         <div>Ghost</div>
+                       
+                         <div>Heaven&#39;s Basement</div>
+                       
+                         <div>Jimmy Eat World</div>
+                       
+                         <div>Alice In Chains</div>
+                       
+                         <div>30 Seconds To Mars</div>
+                       
+                         <div>A Day To Remember</div>
+                       
+                         <div>Motorhead</div>
+                       
+                         <div>Rival Sons</div>
+                       
+                         <div>Parkway Drive</div>
+                       
+                         <div>Bullet For My Valentine</div>
+                       
+                         <div>Five Finger Death Punch</div>
+                       
                      </div>
-                     
-                        <div id="bands-" class="extra-media">
-                           
-                              <div>Korn</div>
-                           
-                              <div>Architects</div>
-                           
-                              <div>3 Doors Down</div>
-                           
-                              <div>Europe</div>
-                           
-                              <div>Volbeat</div>
-                           
-                              <div>Down</div>
-                           
-                              <div>Rammstein</div>
-                           
-                              <div>Papa Roach</div>
-                           
-                              <div>Enter Shikari</div>
-                           
-                              <div>Uriah Heep</div>
-                           
-                              <div>Asking Alexandria</div>
-                           
-                              <div>Stone Sour</div>
-                           
-                              <div>Queens Of The Stone Age</div>
-                           
-                              <div>Coal Chamber</div>
-                           
-                              <div>Karnivool</div>
-                           
-                              <div>Mastodon</div>
-                           
-                              <div>Iron Maiden</div>
-                           
-                              <div>Limp Bizkit</div>
-                           
-                              <div>Ghost</div>
-                           
-                              <div>Heaven&#39;s Basement</div>
-                           
-                              <div>Jimmy Eat World</div>
-                           
-                              <div>Alice In Chains</div>
-                           
-                              <div>30 Seconds To Mars</div>
-                           
-                              <div>A Day To Remember</div>
-                           
-                              <div>Motorhead</div>
-                           
-                              <div>Rival Sons</div>
-                           
-                              <div>Parkway Drive</div>
-                           
-                              <div>Bullet For My Valentine</div>
-                           
-                              <div>Five Finger Death Punch</div>
-                           
-                        </div>
-                     
-                  
+                   
+                 
                </td>
                <td>
                   
@@ -207,7 +211,6 @@
                         
                      
 
-                     <!-- icons stay inside pill-wrap so they line up with Size -->
                      <div class="media-icons-top">
                         
                            
@@ -1029,6 +1032,19 @@
             </tr>
          </tbody>
       </table>
+   
+   
+   
+   
+     <div class="meta-timestamps">
+       
+         <div><span class="label">Created:</span> 05 Jul 2025 07:25 PM</div>
+       
+       
+         <div><span class="label">Updated:</span> 05 Jul 2025 07:25 PM</div>
+       
+     </div>
+   
    </div>
    <div id="json-modal" style="display:none; position:fixed; top:10%; left:10%; width:80%; height:80%; background:#fff; z-index:1000; border: 1px solid #ccc;">
   <div id="json-editor" style="height:90%;"></div>
@@ -1114,8 +1130,18 @@
    <script src="/tradelist/scripts/setlist-toggle.js"></script>
    <script src="/tradelist/scripts/media-extras-toggle.js"></script>
 
+         
+           
+           
+           <div class="meta-timestamps">
+             
+               <div><span class="label">Created:</span><span class="value">05 Jul 2025 07:25 PM</span></div>
+             
+             
+           </div>
+         
       </main>
-      <footer style="padding: 2rem; text-align: center; font-size: 0.75rem; color: #888;">
+	  <footer style="padding: 0.75rem 2rem 1.25rem; text-align: center; font-size: 0.75rem; color: #888;">
          Vortex © 2025
       </footer>
       <script src="/tradelist/scripts/bootstrap.bundle.min.js"></script>

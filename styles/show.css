@@ -506,3 +506,33 @@ img.clickable-thumb {
 	width: 16px;
 	height: 16px;
 }
+
+.meta-timestamps {
+  width: auto;
+  margin: 8px 0 0 4px;
+  align-self: flex-start;
+  place-self: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 6px;
+  line-height: 1.1;
+  font-size: 10px;
+  color: #555;
+  text-align: left;
+}
+
+.meta-timestamps > div {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.meta-timestamps .label {
+  font-weight: 600;
+  color: #333;
+}
+
+.meta-timestamps .value {
+  margin-left: 3px;
+}

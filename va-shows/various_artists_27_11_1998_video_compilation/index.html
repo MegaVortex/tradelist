@@ -88,28 +88,32 @@
          </thead>
          <tbody>
             <tr>
-               <td>
-                  
+               <td class="artists-cell">
+                 
+                   
+                   <div class="media-wrapper media-wrapper-left">
+                     <span>Sepultura</span>
                      
-                     <div class="media-wrapper">
-                        
-                        <span>Sepultura</span>
-                        
-                           <a href="#" class="toggle-media" data-target="bands-">
-                              ▾ +2
-                           </a>
-                        
+                       <button
+                         type="button"
+                         class="count-badge toggle-media"
+                         data-target="bands-toggle"
+                         aria-expanded="false"
+                         title="Show 2 more artists"
+                       >+2</button>
+                     
+                   </div>
+               
+                   
+                     <div id="bands-toggle" class="extra-media" style="display:none;">
+                       
+                         <div>Slayer</div>
+                       
+                         <div>System Of A Down</div>
+                       
                      </div>
-                     
-                        <div id="bands-" class="extra-media">
-                           
-                              <div>Slayer</div>
-                           
-                              <div>System Of A Down</div>
-                           
-                        </div>
-                     
-                  
+                   
+                 
                </td>
                <td>
                   
@@ -158,7 +162,6 @@
                         
                      
 
-                     <!-- icons stay inside pill-wrap so they line up with Size -->
                      <div class="media-icons-top">
                         
                            
@@ -367,6 +370,19 @@
             </tr>
          </tbody>
       </table>
+   
+   
+   
+   
+     <div class="meta-timestamps">
+       
+         <div><span class="label">Created:</span> 05 Jul 2025 07:25 PM</div>
+       
+       
+         <div><span class="label">Updated:</span> 05 Jul 2025 07:25 PM</div>
+       
+     </div>
+   
    </div>
    <div id="json-modal" style="display:none; position:fixed; top:10%; left:10%; width:80%; height:80%; background:#fff; z-index:1000; border: 1px solid #ccc;">
   <div id="json-editor" style="height:90%;"></div>
@@ -452,8 +468,18 @@
    <script src="/tradelist/scripts/setlist-toggle.js"></script>
    <script src="/tradelist/scripts/media-extras-toggle.js"></script>
 
+         
+           
+           
+           <div class="meta-timestamps">
+             
+               <div><span class="label">Created:</span><span class="value">05 Jul 2025 07:25 PM</span></div>
+             
+             
+           </div>
+         
       </main>
-      <footer style="padding: 2rem; text-align: center; font-size: 0.75rem; color: #888;">
+	  <footer style="padding: 0.75rem 2rem 1.25rem; text-align: center; font-size: 0.75rem; color: #888;">
          Vortex © 2025
       </footer>
       <script src="/tradelist/scripts/bootstrap.bundle.min.js"></script>
