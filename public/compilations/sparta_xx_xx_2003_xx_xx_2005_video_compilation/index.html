@@ -87,28 +87,32 @@
          </thead>
          <tbody>
             <tr>
-               <td>
-                  
+               <td class="artists-cell">
+                 
+                   
+                   <div class="media-wrapper media-wrapper-left">
+                     <span>Sparta</span>
                      
-                     <div class="media-wrapper">
-                        
-                        <span>Sparta</span>
-                        
-                           <a href="#" class="toggle-media" data-target="bands-toggle">
-                              ▾ +2
-                           </a>
-                        
+                       <button
+                         type="button"
+                         class="count-badge toggle-media"
+                         data-target="bands-toggle"
+                         aria-expanded="false"
+                         title="Show 2 more artists"
+                       >+2</button>
+                     
+                   </div>
+               
+                   
+                     <div id="bands-toggle" class="extra-media" style="display:none;">
+                       
+                         <div>At The Drive</div>
+                       
+                         <div>The Mars Volta</div>
+                       
                      </div>
-                     
-                        <div id="bands-toggle" class="extra-media" style="display: none;">
-                           
-                              <div>At The Drive</div>
-                           
-                              <div>The Mars Volta</div>
-                           
-                        </div>
-                     
-                  
+                   
+                 
                </td>
                <td>
                   
@@ -750,8 +754,18 @@
    <script src="/tradelist/scripts/setlist-toggle.js"></script>
    <script src="/tradelist/scripts/media-extras-toggle.js"></script>
 
+         
+           
+           
+           <div class="meta-timestamps">
+             
+               <div><span class="label">Created:</span><span class="value">07 Jul 2025 09:35 PM</span></div>
+             
+             
+           </div>
+         
       </main>
-      <footer style="padding: 2rem; text-align: center; font-size: 0.75rem; color: #888;">
+	  <footer style="padding: 0.75rem 2rem 1.25rem; text-align: center; font-size: 0.75rem; color: #888;">
          Vortex © 2025
       </footer>
       <script src="/tradelist/scripts/bootstrap.bundle.min.js"></script>

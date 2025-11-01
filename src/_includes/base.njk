@@ -49,8 +49,20 @@
       </header>
       <main>
          {% block content %}{% endblock %}
+         {% if currentShow and (currentShow.created or currentShow.lastUpdated) %}
+           {% set createdTs = (currentShow.created | toInt) %}
+           {% set updatedTs = (currentShow.lastUpdated | toInt) %}
+           <div class="meta-timestamps">
+             {% if createdTs %}
+               <div><span class="label">Created:</span><span class="value">{{ createdTs | date('dd LLL yyyy hh:mm a') }}</span></div>
+             {% endif %}
+             {% if updatedTs and updatedTs != createdTs %}
+               <div><span class="label">Updated:</span><span class="value">{{ updatedTs | date('dd LLL yyyy hh:mm a') }}</span></div>
+             {% endif %}
+           </div>
+         {% endif %}
       </main>
-      <footer style="padding: 2rem; text-align: center; font-size: 0.75rem; color: #888;">
+	  <footer style="padding: 0.75rem 2rem 1.25rem; text-align: center; font-size: 0.75rem; color: #888;">
          Vortex © 2025
       </footer>
       <script src="{{ '/scripts/bootstrap.bundle.min.js' | url }}"></script>

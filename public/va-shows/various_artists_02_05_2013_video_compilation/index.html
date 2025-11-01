@@ -87,66 +87,70 @@
          </thead>
          <tbody>
             <tr>
-               <td>
-                  
+               <td class="artists-cell">
+                 
+                   
+                   <div class="media-wrapper media-wrapper-left">
+                     <span>Black Label Society</span>
                      
-                     <div class="media-wrapper">
-                        
-                        <span>Black Label Society</span>
-                        
-                           <a href="#" class="toggle-media" data-target="bands-">
-                              ▾ +21
-                           </a>
-                        
+                       <button
+                         type="button"
+                         class="count-badge toggle-media"
+                         data-target="bands-toggle"
+                         aria-expanded="false"
+                         title="Show 21 more artists"
+                       >+21</button>
+                     
+                   </div>
+               
+                   
+                     <div id="bands-toggle" class="extra-media" style="display:none;">
+                       
+                         <div>Down</div>
+                       
+                         <div>Megadeth</div>
+                       
+                         <div>Black Veil Brides</div>
+                       
+                         <div>Marilyn Manson</div>
+                       
+                         <div>Alice Cooper</div>
+                       
+                         <div>Korn</div>
+                       
+                         <div>Anthrax</div>
+                       
+                         <div>Rob Zombie</div>
+                       
+                         <div>The Dillinger Escape Plan</div>
+                       
+                         <div>Slipknot</div>
+                       
+                         <div>Halestorm</div>
+                       
+                         <div>Five Finger Death Punch</div>
+                       
+                         <div>Device</div>
+                       
+                         <div>Tenacious D</div>
+                       
+                         <div>Stone Sour</div>
+                       
+                         <div>Motorhead</div>
+                       
+                         <div>Danzig</div>
+                       
+                         <div>Black Sabbath</div>
+                       
+                         <div>Deftones</div>
+                       
+                         <div>Metallica</div>
+                       
+                         <div>Heaven&#39;s Basement</div>
+                       
                      </div>
-                     
-                        <div id="bands-" class="extra-media">
-                           
-                              <div>Down</div>
-                           
-                              <div>Megadeth</div>
-                           
-                              <div>Black Veil Brides</div>
-                           
-                              <div>Marilyn Manson</div>
-                           
-                              <div>Alice Cooper</div>
-                           
-                              <div>Korn</div>
-                           
-                              <div>Anthrax</div>
-                           
-                              <div>Rob Zombie</div>
-                           
-                              <div>The Dillinger Escape Plan</div>
-                           
-                              <div>Slipknot</div>
-                           
-                              <div>Halestorm</div>
-                           
-                              <div>Five Finger Death Punch</div>
-                           
-                              <div>Device</div>
-                           
-                              <div>Tenacious D</div>
-                           
-                              <div>Stone Sour</div>
-                           
-                              <div>Motorhead</div>
-                           
-                              <div>Danzig</div>
-                           
-                              <div>Black Sabbath</div>
-                           
-                              <div>Deftones</div>
-                           
-                              <div>Metallica</div>
-                           
-                              <div>Heaven&#39;s Basement</div>
-                           
-                        </div>
-                     
-                  
+                   
+                 
                </td>
                <td>
                   
@@ -195,7 +199,6 @@
                         
                      
 
-                     <!-- icons stay inside pill-wrap so they line up with Size -->
                      <div class="media-icons-top">
                         
                            
@@ -841,6 +844,19 @@
             </tr>
          </tbody>
       </table>
+   
+   
+   
+   
+     <div class="meta-timestamps">
+       
+         <div><span class="label">Created:</span> 05 Jul 2025 09:25 PM</div>
+       
+       
+         <div><span class="label">Updated:</span> 05 Jul 2025 09:25 PM</div>
+       
+     </div>
+   
    </div>
    <div id="json-modal" style="display:none; position:fixed; top:10%; left:10%; width:80%; height:80%; background:#fff; z-index:1000; border: 1px solid #ccc;">
   <div id="json-editor" style="height:90%;"></div>
@@ -926,8 +942,18 @@
    <script src="/tradelist/scripts/setlist-toggle.js"></script>
    <script src="/tradelist/scripts/media-extras-toggle.js"></script>
 
+         
+           
+           
+           <div class="meta-timestamps">
+             
+               <div><span class="label">Created:</span><span class="value">05 Jul 2025 09:25 PM</span></div>
+             
+             
+           </div>
+         
       </main>
-      <footer style="padding: 2rem; text-align: center; font-size: 0.75rem; color: #888;">
+	  <footer style="padding: 0.75rem 2rem 1.25rem; text-align: center; font-size: 0.75rem; color: #888;">
          Vortex © 2025
       </footer>
       <script src="/tradelist/scripts/bootstrap.bundle.min.js"></script>
