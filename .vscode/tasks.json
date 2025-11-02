@@ -1,0 +1,91 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Dev Server: Start (node dev-server.js)",
+            "type": "process",
+            "command": "node",
+            "args": [
+                "dev-server.js"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Site: Build (Eleventy Dev Build)",
+            "type": "process",
+            "command": "npm.cmd",
+            "args": [
+                "run",
+                "serve:dev",
+                "build:dev"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Tool: Start Electron (Dev)",
+            "type": "process",
+            "command": "npm.cmd",
+            "args": [
+                "start"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/helpers/tl_tool"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Git: Add, Commit (prompt), Push",
+            "type": "process",
+            "command": "powershell.exe",
+            "args": [
+                "-NoProfile",
+                "-ExecutionPolicy",
+                "Bypass",
+                "-Command",
+                "git add -A; if (git diff --cached --quiet) { Write-Host 'No staged changes, skipping commit' } else { $env:GIT_COMMIT_MSG | git commit -F - }; git push"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "GIT_COMMIT_MSG": "${input:commitMsg}"
+                }
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        }
+    ],
+    "inputs": [
+        {
+            "id": "searchTerm",
+            "type": "promptString",
+            "description": "Search text (ripgrep)"
+        },
+        {
+            "id": "commitMsg",
+            "type": "promptString",
+            "description": "Commit message",
+            "default": "quick commit from VS Code"
+        }
+    ]
+}
