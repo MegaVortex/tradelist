@@ -1264,6 +1264,7 @@ async function runSetlistLookupGeneric(i) {
     getEl("loc-venue", i).value = firstSetlist.venue?.name || "";
     let countryName = firstSetlist.venue?.city?.country?.name || "";
     if (countryName === "United States") countryName = "USA";
+	if (countryName === "Czechia") countryName = "Czech Republic";
     getEl("loc-country", i).value = countryName;
     try {
       const searchUrl = `https://www.setlist.fm/search?query=${encodeURIComponent(band)}+${encodeURIComponent(firstSetlist.venue?.city?.name || city)}+${firstSetlist.eventDate.split("-")[2] || year}`;
