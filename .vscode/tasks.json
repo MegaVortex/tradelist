@@ -18,13 +18,15 @@
             "problemMatcher": []
         },
         {
-            "label": "Site: Build (Eleventy Dev Build)",
+            "label": "Site: Build+Serve (one terminal)",
             "type": "process",
-            "command": "npm.cmd",
+            "command": "powershell.exe",
             "args": [
-                "run",
-                "serve:dev",
-                "build:dev"
+                "-NoProfile",
+                "-ExecutionPolicy",
+                "Bypass",
+                "-Command",
+                "npm run build:dev; npm run serve:dev"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
@@ -32,8 +34,7 @@
             "presentation": {
                 "reveal": "always",
                 "panel": "dedicated"
-            },
-            "problemMatcher": []
+            }
         },
         {
             "label": "Tool: Start Electron (Dev)",
