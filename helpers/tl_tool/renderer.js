@@ -1331,16 +1331,18 @@ function initTapersSection() {
 }
 
 async function runSetlistLookupGeneric(i) {
-  function deUmlaut(s) {
+  function normalizeName(s) {
     if (!s) return s || "";
-    return String(s)
+    let v = String(s)
       .replace(/ä/g, "a")
-      .replace(/Ä/g, "Ae")
+      .replace(/Ä/g, "A")
       .replace(/ö/g, "o")
-      .replace(/Ö/g, "Oe")
+      .replace(/Ö/g, "O")
       .replace(/ü/g, "ue")
       .replace(/Ü/g, "Ue")
       .replace(/ß/g, "ss");
+    v = v.replace(/\bSaint Petersburg\b/gi, "St. Petersburg");
+    return v;
   }
 
   const band = getEl("bandName", i).value.trim();
@@ -1421,7 +1423,7 @@ async function runSetlistLookupGeneric(i) {
       }
     }
 
-    getEl("loc-venue", i).value = deUmlaut(firstSetlist.venue?.name || "");
+    getEl("loc-venue", i).value = normalizeName(firstSetlist.venue?.name || "");
     let countryName = firstSetlist.venue?.city?.country?.name || "";
     if (countryName === "United States") countryName = "USA";
     if (countryName === "Czechia") countryName = "Czech Republic";
@@ -1454,7 +1456,7 @@ async function runSetlistLookupGeneric(i) {
     }
     const apiCity = firstSetlist.venue?.city?.name;
     if (apiCity) {
-      getEl("city", i).value = deUmlaut(apiCity);
+      getEl("city", i).value = normalizeName(apiCity);
     }
     getEl("setlist-response", i).classList.remove("d-none");
     populateSetlistFromAPIFor(i, data);
