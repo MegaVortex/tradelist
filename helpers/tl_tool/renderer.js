@@ -1,14 +1,16 @@
 // renderer.js
-function uidSuffix(i) { return `__S${i}`; }
+function uidSuffix(i) {
+  return `__S${i}`;
+}
 
 function getEl(id, index) {
-  return (index === 1)
+  return index === 1
     ? document.getElementById(id)
     : document.getElementById(id + uidSuffix(index));
 }
 
 function getShowRoot(i) {
-  return (i === 1)
+  return i === 1
     ? document
     : document.querySelector(`[data-show-index="${i}"]`) || document;
 }
@@ -25,27 +27,36 @@ function isDirPath(p) {
 }
 
 function wireNotRecordedBehavior(container) {
-  const small = container.querySelector('.d-flex.gap-1:last-child');
+  const small = container.querySelector(".d-flex.gap-1:last-child");
   if (!small) return;
-  const noteSelect = small.querySelector('select');
+  const noteSelect = small.querySelector("select");
   if (!noteSelect) return;
 
   const clearIfNotRecorded = () => {
-    if ((noteSelect.value || '').toLowerCase() === 'not recorded') {
+    if ((noteSelect.value || "").toLowerCase() === "not recorded") {
       const feat = small.querySelector('input[placeholder="feat"]');
       const comment = small.querySelector('input[placeholder="comment"]');
       const cover = small.querySelector('input[placeholder="coverOf"]');
-      if (feat) feat.value = '';
-      if (comment) comment.value = '';
-      if (cover) cover.value = '';
+      if (feat) feat.value = "";
+      if (comment) comment.value = "";
+      if (cover) cover.value = "";
     }
   };
 
-  noteSelect.addEventListener('change', clearIfNotRecorded);
+  noteSelect.addEventListener("change", clearIfNotRecorded);
   clearIfNotRecorded();
 }
 
-const BLANK_STRINGS = new Set(["n/a", "na", "und", "undefined", "unknown", "?", "-", ""]);
+const BLANK_STRINGS = new Set([
+  "n/a",
+  "na",
+  "und",
+  "undefined",
+  "unknown",
+  "?",
+  "-",
+  "",
+]);
 
 function cleanStr(v) {
   if (v == null) return "";
@@ -65,12 +76,20 @@ function cloneEditorForShow(index) {
   const clone = baseRow.cloneNode(true);
   clone.classList.add("related-show");
   clone.dataset.showIndex = String(index);
-  clone.querySelectorAll("[id]").forEach(el => { el.id = el.id + uidSuffix(index); });
-  clone.querySelectorAll('input[name="master"], input[name="public"], input[name="chapters"], input[name="menu"]')
-    .forEach(inp => { inp.name = inp.name + uidSuffix(index); });
+  clone.querySelectorAll("[id]").forEach((el) => {
+    el.id = el.id + uidSuffix(index);
+  });
+  clone
+    .querySelectorAll(
+      'input[name="master"], input[name="public"], input[name="chapters"], input[name="menu"]'
+    )
+    .forEach((inp) => {
+      inp.name = inp.name + uidSuffix(index);
+    });
 
-  ["related-config", "related-editors", "related-hr", "save-all-row"]
-    .forEach(id => clone.querySelector(`#${id}${uidSuffix(index)}`)?.remove());
+  ["related-config", "related-editors", "related-hr", "save-all-row"].forEach(
+    (id) => clone.querySelector(`#${id}${uidSuffix(index)}`)?.remove()
+  );
 
   const relCb = clone.querySelector(`#hasRelated${uidSuffix(index)}`);
   if (relCb) {
@@ -79,7 +98,7 @@ function cloneEditorForShow(index) {
   }
 
   clone.querySelector('[id^="compilation-inline"]')?.remove();
-  clone.querySelector('.category-compilation-wrap')?.remove();
+  clone.querySelector(".category-compilation-wrap")?.remove();
 
   const shots = clone.querySelector(`#shots-result${uidSuffix(index)}`);
   if (shots) shots.innerHTML = "";
@@ -104,19 +123,48 @@ function cloneEditorForShow(index) {
 
 function cleanFileName(str) {
   const translitMap = {
-    а: 'a', б: 'b', в: 'v', г: 'g', д: 'd', е: 'e', ё: 'e', ж: 'zh', з: 'z', и: 'i',
-    й: 'y', к: 'k', л: 'l', м: 'm', н: 'n', о: 'o', п: 'p', р: 'r', с: 's', т: 't',
-    у: 'u', ф: 'f', х: 'h', ц: 'ts', ч: 'ch', ш: 'sh', щ: 'sch', ъ: '', ы: 'y', ь: '',
-    э: 'e', ю: 'yu', я: 'ya'
+    а: "a",
+    б: "b",
+    в: "v",
+    г: "g",
+    д: "d",
+    е: "e",
+    ё: "e",
+    ж: "zh",
+    з: "z",
+    и: "i",
+    й: "y",
+    к: "k",
+    л: "l",
+    м: "m",
+    н: "n",
+    о: "o",
+    п: "p",
+    р: "r",
+    с: "s",
+    т: "t",
+    у: "u",
+    ф: "f",
+    х: "h",
+    ц: "ts",
+    ч: "ch",
+    ш: "sh",
+    щ: "sch",
+    ъ: "",
+    ы: "y",
+    ь: "",
+    э: "e",
+    ю: "yu",
+    я: "ya",
   };
 
   return str
     .toLowerCase()
-    .split('')
-    .map(c => translitMap[c] || c)
-    .join('')
-    .replace(/[^a-z0-9]+/g, '_')
-    .replace(/^_+|_+$/g, '');
+    .split("")
+    .map((c) => translitMap[c] || c)
+    .join("")
+    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/^_+|_+$/g, "");
 }
 
 window.showState = window.showState || {};
@@ -140,19 +188,21 @@ function getShowState(i) {
   return window.showState[i];
 }
 
-const EQUIP_FILE = "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\helpers\\tl_tool\\lib\\equipment.json";
-const COMP_SAVE_DIR = "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\src\\data-comp";
+const EQUIP_FILE =
+  "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\helpers\\tl_tool\\lib\\equipment.json";
+const COMP_SAVE_DIR =
+  "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\src\\data-comp";
 
 function splitEquip(str) {
   if (!str) return [];
-  return String(str).split(/[;,|]/).map(s => s.trim()).filter(Boolean);
+  return String(str)
+    .split(/[;,|]/)
+    .map((s) => s.trim())
+    .filter(Boolean);
 }
 
 function getShowTypeSelect(i = 1) {
-  return (
-    getEl("show-type", i) ||
-    getEl("showType", i)
-  );
+  return getEl("show-type", i) || getEl("showType", i);
 }
 
 function isCompOrVA(val) {
@@ -167,35 +217,38 @@ function ensureCompilationCategoryCheckbox(i = 1, on = false) {
   const anyCat = root.querySelector('input[name="category"]');
   if (!anyCat) return;
 
-  const container = root.querySelector('#cat-misc')?.closest('.d-flex') || anyCat.closest('.d-flex');
+  const container =
+    root.querySelector("#cat-misc")?.closest(".d-flex") ||
+    anyCat.closest(".d-flex");
   if (!container) return;
 
-  let wrap = root.querySelector('.category-compilation-wrap');
+  let wrap = root.querySelector(".category-compilation-wrap");
   let cb = root.querySelector('input[name="category"][value="compilation"]');
 
   if (!wrap) {
-    wrap = document.createElement('div');
-    wrap.className = 'form-check form-check-inline m-0 category-compilation-wrap';
+    wrap = document.createElement("div");
+    wrap.className =
+      "form-check form-check-inline m-0 category-compilation-wrap";
 
-    cb = document.createElement('input');
-    cb.type = 'checkbox';
-    cb.className = 'form-check-input';
-    cb.name = 'category';
-    cb.value = 'compilation';
-    cb.id = 'cat-compilation';
+    cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.className = "form-check-input";
+    cb.name = "category";
+    cb.value = "compilation";
+    cb.id = "cat-compilation";
     cb.disabled = true;
 
-    const label = document.createElement('label');
-    label.className = 'form-check-label';
-    label.setAttribute('for', 'cat-compilation');
-    label.textContent = 'Compilation';
+    const label = document.createElement("label");
+    label.className = "form-check-label";
+    label.setAttribute("for", "cat-compilation");
+    label.textContent = "Compilation";
 
     wrap.appendChild(cb);
     wrap.appendChild(label);
     container.appendChild(wrap);
   }
 
-  wrap.style.display = on ? '' : 'none';
+  wrap.style.display = on ? "" : "none";
   cb.checked = !!on;
 }
 
@@ -205,32 +258,32 @@ function ensureCompilationNameInline(i = 1, on = false) {
   const sel = getShowTypeSelect(i);
   if (!sel) return;
 
-  let row = sel.closest('.show-type-inline-row');
+  let row = sel.closest(".show-type-inline-row");
   if (!row) {
-    row = document.createElement('div');
-    row.className = 'd-flex align-items-start gap-3 show-type-inline-row';
+    row = document.createElement("div");
+    row.className = "d-flex align-items-start gap-3 show-type-inline-row";
     sel.parentElement.insertBefore(row, sel);
     row.appendChild(sel);
   }
 
   let inline =
-    row.querySelector('#compilation-inline') ||
-    document.getElementById('compilation-inline');
+    row.querySelector("#compilation-inline") ||
+    document.getElementById("compilation-inline");
 
   if (!inline) {
-    inline = document.createElement('div');
-    inline.id = 'compilation-inline';
-    inline.className = 'flex-column';
+    inline = document.createElement("div");
+    inline.id = "compilation-inline";
+    inline.className = "flex-column";
 
-    const lbl = document.createElement('label');
-    lbl.className = 'form-label fw-bold';
-    lbl.setAttribute('for', 'compilationName');
-    lbl.textContent = 'Compilation name:';
+    const lbl = document.createElement("label");
+    lbl.className = "form-label fw-bold";
+    lbl.setAttribute("for", "compilationName");
+    lbl.textContent = "Compilation name:";
 
-    const inp = document.createElement('input');
-    inp.type = 'text';
-    inp.id = 'compilationName';
-    inp.className = 'form-control form-control-sm';
+    const inp = document.createElement("input");
+    inp.type = "text";
+    inp.id = "compilationName";
+    inp.className = "form-control form-control-sm";
 
     inline.appendChild(lbl);
     inline.appendChild(inp);
@@ -239,7 +292,7 @@ function ensureCompilationNameInline(i = 1, on = false) {
     row.appendChild(inline);
   }
 
-  inline.style.display = on ? 'flex' : 'none';
+  inline.style.display = on ? "flex" : "none";
 }
 
 function applyCompilationUI(i = 1) {
@@ -260,7 +313,10 @@ async function safeReadJson(path, fallback) {
     data.video = Array.isArray(data.video) ? data.video : [];
     return data;
   } catch (e) {
-    console.warn("equipment.json exists but could not be read; using fallback.", e);
+    console.warn(
+      "equipment.json exists but could not be read; using fallback.",
+      e
+    );
     return fallback;
   }
 }
@@ -269,16 +325,21 @@ function dedupePush(targetArr, values) {
   for (const v0 of values) {
     const v = (v0 || "").trim();
     if (!v) continue;
-    const exists = targetArr.some(x => String(x).toLowerCase() === v.toLowerCase());
+    const exists = targetArr.some(
+      (x) => String(x).toLowerCase() === v.toLowerCase()
+    );
     if (!exists) targetArr.push(v);
   }
 }
 
-async function appendEquipmentValues({ audioItems = [], videoItems = [] } = {}) {
+async function appendEquipmentValues({
+  audioItems = [],
+  videoItems = [],
+} = {}) {
   try {
     const dir = window.mediaTools.getDirname(EQUIP_FILE);
     await window.mediaTools.mkdirp(dir);
-  } catch { }
+  } catch {}
 
   const current = await safeReadJson(EQUIP_FILE, { audio: [], video: [] });
 
@@ -334,33 +395,49 @@ function pickCompilationImages(children) {
   return picks.slice(0, 4);
 }
 
-function buildCompilationSlug(band, startYear, endYear, showNameOrEvent, categoriesFromFirst) {
+function buildCompilationSlug(
+  band,
+  startYear,
+  endYear,
+  showNameOrEvent,
+  categoriesFromFirst
+) {
   const bandSlug = cleanFileName(band || "unknown");
   const range = `xx_xx_${startYear || "xxxx"}_xx_xx_${endYear || "xxxx"}`;
   const namePart = showNameOrEvent ? `_${cleanFileName(showNameOrEvent)}` : "";
-  const cats = Array.from(new Set([...(categoriesFromFirst || ["video"]), "compilation"]));
+  const cats = Array.from(
+    new Set([...(categoriesFromFirst || ["video"]), "compilation"])
+  );
   const catPart = cats.join("_");
   return `${bandSlug}_${range}${namePart}_${catPart}`;
 }
 
-function buildCompilationOriginalTitle(band, startYear, endYear, showNameOrEvent) {
-  const r = `${band || "Unknown"} - [${startYear || "xxxx"}-${endYear || "xxxx"}]`;
+function buildCompilationOriginalTitle(
+  band,
+  startYear,
+  endYear,
+  showNameOrEvent
+) {
+  const r = `${band || "Unknown"} - [${startYear || "xxxx"}-${
+    endYear || "xxxx"
+  }]`;
   const nm = showNameOrEvent ? ` - ${showNameOrEvent}` : "";
   return `${r}${nm} [Compilation]`;
 }
 
 function buildFilename(json) {
-  const band = cleanFileName(json.bands.join('_')) || 'unknown';
+  const band = cleanFileName(json.bands.join("_")) || "unknown";
 
-  const day = json.startDate.day || 'xx';
-  const month = json.startDate.month || 'xx';
-  const year = json.startDate.year || 'xxxx';
+  const day = json.startDate.day || "xx";
+  const month = json.startDate.month || "xx";
+  const year = json.startDate.year || "xxxx";
 
   const datePart = `${day}_${month}_${year}`;
 
-  const categories = json.category.length > 0 ? json.category.join('_') : 'video';
+  const categories =
+    json.category.length > 0 ? json.category.join("_") : "video";
 
-  let locationExtra = '';
+  let locationExtra = "";
 
   if (!json.startDate.day || !json.startDate.month || !json.startDate.year) {
     const locParts = [
@@ -368,62 +445,67 @@ function buildFilename(json) {
       json.location.state,
       json.location.country,
       json.location.venue,
-      json.location.event
-    ].filter(Boolean).map(cleanFileName);
+      json.location.event,
+    ]
+      .filter(Boolean)
+      .map(cleanFileName);
 
     if (locParts.length > 0) {
-      locationExtra = '_' + locParts.join('_');
+      locationExtra = "_" + locParts.join("_");
     }
   }
 
-  const sourcePart = json.source ? `_${cleanFileName(json.source)}` : '';
+  const sourcePart = json.source ? `_${cleanFileName(json.source)}` : "";
 
   return `${band}_${datePart}${locationExtra}${sourcePart}_${categories}`;
 }
 
 function createSetlistItemFor(i, data = {}) {
-  const container = document.createElement('div');
-  container.className = 'mb-2';
+  const container = document.createElement("div");
+  container.className = "mb-2";
 
-  const songLine = document.createElement('div');
-  songLine.className = 'd-flex gap-1 mb-1';
+  const songLine = document.createElement("div");
+  songLine.className = "d-flex gap-1 mb-1";
 
-  const songInput = document.createElement('input');
-  songInput.type = 'text';
-  songInput.value = data.song || '';
-  songInput.className = 'form-control form-control-sm fw-bold';
+  const songInput = document.createElement("input");
+  songInput.type = "text";
+  songInput.value = data.song || "";
+  songInput.className = "form-control form-control-sm fw-bold";
 
-  const removeBtn = document.createElement('button');
-  removeBtn.type = 'button';
-  removeBtn.className = 'btn btn-outline-danger btn-sm';
-  removeBtn.style.fontSize = '8px';
-  removeBtn.style.padding = '2px 6px';
-  removeBtn.innerHTML = '&times;';
+  const removeBtn = document.createElement("button");
+  removeBtn.type = "button";
+  removeBtn.className = "btn btn-outline-danger btn-sm";
+  removeBtn.style.fontSize = "8px";
+  removeBtn.style.padding = "2px 6px";
+  removeBtn.innerHTML = "&times;";
   removeBtn.onclick = () => container.remove();
 
   songLine.appendChild(songInput);
   songLine.appendChild(removeBtn);
 
-  const smallFields = document.createElement('div');
-  smallFields.className = 'd-flex gap-1';
-  ['feat', 'note', 'comment', 'coverOf'].forEach(key => {
-    if (key === 'note') {
-      const select = document.createElement('select');
-      select.className = 'form-select form-select-sm';
-      ['', 'tape', 'incomplete', 'not recorded'].forEach(v => {
-        const opt = document.createElement('option');
+  const smallFields = document.createElement("div");
+  smallFields.className = "d-flex gap-1";
+  ["feat", "note", "comment", "coverOf"].forEach((key) => {
+    if (key === "note") {
+      const select = document.createElement("select");
+      select.className = "form-select form-select-sm";
+      ["", "tape", "incomplete", "not recorded"].forEach((v) => {
+        const opt = document.createElement("option");
         opt.value = v;
         opt.textContent = v;
         select.appendChild(opt);
       });
-      select.value = (data.note && ['tape', 'incomplete', 'not recorded'].includes(data.note)) ? data.note : '';
+      select.value =
+        data.note && ["tape", "incomplete", "not recorded"].includes(data.note)
+          ? data.note
+          : "";
       smallFields.appendChild(select);
     } else {
-      const input = document.createElement('input');
-      input.type = 'text';
+      const input = document.createElement("input");
+      input.type = "text";
       input.placeholder = key;
-      input.value = data[key] || '';
-      input.className = 'form-control form-control-sm';
+      input.value = data[key] || "";
+      input.className = "form-control form-control-sm";
       smallFields.appendChild(input);
     }
   });
@@ -432,48 +514,48 @@ function createSetlistItemFor(i, data = {}) {
   container.appendChild(smallFields);
   wireNotRecordedBehavior(container);
 
-  const host = getEl('setlist-container', i);
+  const host = getEl("setlist-container", i);
   if (host) host.appendChild(container);
 }
 
 function createExtraItemFor(i, data = {}) {
-  const container = document.createElement('div');
-  container.className = 'mb-2';
+  const container = document.createElement("div");
+  container.className = "mb-2";
 
-  const line = document.createElement('div');
-  line.className = 'd-flex gap-1 mb-1';
+  const line = document.createElement("div");
+  line.className = "d-flex gap-1 mb-1";
 
-  const input = document.createElement('input');
-  input.type = 'text';
-  input.value = data.song || '';
-  input.className = 'form-control form-control-sm fw-bold';
+  const input = document.createElement("input");
+  input.type = "text";
+  input.value = data.song || "";
+  input.className = "form-control form-control-sm fw-bold";
 
-  const removeBtn = document.createElement('button');
-  removeBtn.type = 'button';
-  removeBtn.className = 'btn btn-outline-danger btn-sm';
-  removeBtn.style.fontSize = '8px';
-  removeBtn.style.padding = '2px 6px';
-  removeBtn.innerHTML = '&times;';
+  const removeBtn = document.createElement("button");
+  removeBtn.type = "button";
+  removeBtn.className = "btn btn-outline-danger btn-sm";
+  removeBtn.style.fontSize = "8px";
+  removeBtn.style.padding = "2px 6px";
+  removeBtn.innerHTML = "&times;";
   removeBtn.onclick = () => container.remove();
 
   line.appendChild(input);
   line.appendChild(removeBtn);
 
-  const small = document.createElement('div');
-  small.className = 'd-flex gap-1';
-  ['feat', 'note', 'comment', 'coverOf'].forEach(key => {
-    const f = document.createElement('input');
-    f.type = 'text';
+  const small = document.createElement("div");
+  small.className = "d-flex gap-1";
+  ["feat", "note", "comment", "coverOf"].forEach((key) => {
+    const f = document.createElement("input");
+    f.type = "text";
     f.placeholder = key;
-    f.value = data[key] || '';
-    f.className = 'form-control form-control-sm';
+    f.value = data[key] || "";
+    f.className = "form-control form-control-sm";
     small.appendChild(f);
   });
 
   container.appendChild(line);
   container.appendChild(small);
 
-  const host = getEl('extras-container', i);
+  const host = getEl("extras-container", i);
   if (host) host.appendChild(container);
 }
 
@@ -512,11 +594,15 @@ function wireTapersSection(i = 1) {
 
   addBtn.onclick = () => addTaper();
 
-  const name = (i === 1) ? "master" : `master${uidSuffix(i)}`;
+  const name = i === 1 ? "master" : `master${uidSuffix(i)}`;
   const radios = document.querySelectorAll(`input[name="${name}"]`);
-  const isMaster = Array.from(radios).some(r => r.checked && r.value === "yes");
+  const isMaster = Array.from(radios).some(
+    (r) => r.checked && r.value === "yes"
+  );
 
-  radios.forEach(r => r.addEventListener("change", () => wireTapersSection(i)));
+  radios.forEach((r) =>
+    r.addEventListener("change", () => wireTapersSection(i))
+  );
 
   if (isMaster) addTaper("Vortex");
 }
@@ -567,9 +653,11 @@ async function processFilesForBlock(filesOrPaths, opts) {
   st.generatedScreenshots = [];
   st.screenshotTimestamps = [];
 
-
-  let totalSize = 0, totalDuration = 0;
-  const paths = files.map(f => (typeof f === "string" ? f : f?.path)).filter(Boolean);
+  let totalSize = 0,
+    totalDuration = 0;
+  const paths = files
+    .map((f) => (typeof f === "string" ? f : f?.path))
+    .filter(Boolean);
   if (!paths.length) return;
 
   const videoFilesInfo = [];
@@ -583,7 +671,7 @@ async function processFilesForBlock(filesOrPaths, opts) {
         continue;
       }
       info = await window.mediaTools.probeFile(p);
-      isVideo = info?.streams?.some(s => s.codec_type === "video");
+      isVideo = info?.streams?.some((s) => s.codec_type === "video");
       fileDuration = Math.round(info?.format?.duration || 0);
     } catch (e) {
       console.warn(`Could not probe file, skipping: ${p}`, e);
@@ -615,8 +703,11 @@ async function processFilesForBlock(filesOrPaths, opts) {
   updateTotalLengthUI(i);
 
   if (st.selectedScreenshotSourcePath) {
-    const ext = String(st.selectedScreenshotSourcePath).split(".").pop().toUpperCase();
-    getEl("fileFormat", i).value = (ext === "VOB") ? "DVD" : ext;
+    const ext = String(st.selectedScreenshotSourcePath)
+      .split(".")
+      .pop()
+      .toUpperCase();
+    getEl("fileFormat", i).value = ext === "VOB" ? "DVD" : ext;
   } else {
     getEl("fileFormat", i).value = "";
   }
@@ -628,18 +719,23 @@ async function processFilesForBlock(filesOrPaths, opts) {
       for (let k = 0; k < 4; k++) {
         const safeDuration = dur > 10 ? dur - 10 : dur;
         const offset = dur > 10 ? 5 : 0;
-        timestamps.push(offset + (Math.random() * safeDuration));
+        timestamps.push(offset + Math.random() * safeDuration);
       }
       timestamps.sort((a, b) => a - b);
 
-      const imgs = await window.mediaTools.captureScreenshotsAt(st.selectedScreenshotSourcePath, timestamps);
+      const imgs = await window.mediaTools.captureScreenshotsAt(
+        st.selectedScreenshotSourcePath,
+        timestamps
+      );
 
       st.screenshotTimestamps = timestamps;
       st.generatedScreenshots = imgs;
       st.screenshotStartSec = 0;
       st.screenshotEndSec = dur;
       renderScreenshots(imgs, i);
-      st.probeData = await window.mediaTools.probeFile(st.selectedScreenshotSourcePath);
+      st.probeData = await window.mediaTools.probeFile(
+        st.selectedScreenshotSourcePath
+      );
       const pre = getEl("specs-summary", i);
       if (pre) {
         pre.textContent = formatSpecsForDisplay(st.probeData);
@@ -675,7 +771,7 @@ function computeTotalLengthSecFor(i = 1) {
 
   const extraRoot = getEl("extra-media", i);
   if (extraRoot) {
-    extraRoot.querySelectorAll(".media-row-secondary").forEach(row => {
+    extraRoot.querySelectorAll(".media-row-secondary").forEach((row) => {
       const d = Number(row.dataset.durationSec || 0);
       total += isNaN(d) ? 0 : d;
     });
@@ -824,20 +920,23 @@ window.refreshScreenshotForShow = async function (i, oldPath, container) {
   const sourcePath = st.selectedScreenshotSourcePath;
   const dur = Number(st.selectedFileDurationSec || 0);
 
-
   try {
     const targetDir = window.mediaTools.getDirname(sourcePath);
     const oldFilename = oldPath.split(/[/\\]/).pop();
     const finalPath = window.mediaTools.pathJoin(targetDir, oldFilename);
 
-    try { await window.mediaTools.deleteFile(oldPath); } catch { }
-    try { await window.mediaTools.deleteFile(finalPath); } catch { }
+    try {
+      await window.mediaTools.deleteFile(oldPath);
+    } catch {}
+    try {
+      await window.mediaTools.deleteFile(finalPath);
+    } catch {}
 
     const outDir = await window.mediaTools.getTmpDir();
     let newTempPath = null;
     let newTimestamp = 0;
 
-    const hasAt = (typeof window.mediaTools.captureScreenshotsAt === "function");
+    const hasAt = typeof window.mediaTools.captureScreenshotsAt === "function";
 
     if (hasAt) {
       const startStr = (getEl("shots-start", i)?.value || "").trim();
@@ -847,9 +946,13 @@ window.refreshScreenshotForShow = async function (i, oldPath, container) {
       if (endSec < startSec || endSec > dur) endSec = dur;
       if (startSec >= dur) startSec = 0;
 
-      newTimestamp = startSec + (Math.random() * (endSec - startSec));
+      newTimestamp = startSec + Math.random() * (endSec - startSec);
 
-      const arr = await window.mediaTools.captureScreenshotsAt(sourcePath, [newTimestamp], outDir);
+      const arr = await window.mediaTools.captureScreenshotsAt(
+        sourcePath,
+        [newTimestamp],
+        outDir
+      );
       newTempPath = Array.isArray(arr) ? arr[0] : null;
 
       if (slot !== -1) {
@@ -859,10 +962,13 @@ window.refreshScreenshotForShow = async function (i, oldPath, container) {
       throw new Error("captureScreenshotsAt function not found.");
     }
 
-    if (!newTempPath) throw new Error("Failed to generate new screenshot temp file.");
+    if (!newTempPath)
+      throw new Error("Failed to generate new screenshot temp file.");
 
     await window.mediaTools.copyFile(newTempPath, finalPath);
-    try { await window.mediaTools.deleteFile(newTempPath); } catch { }
+    try {
+      await window.mediaTools.deleteFile(newTempPath);
+    } catch {}
 
     if (slot !== -1) {
       st.generatedScreenshots[slot] = finalPath;
@@ -885,7 +991,8 @@ window.refreshScreenshotForShow = async function (i, oldPath, container) {
     const refreshBtn = document.createElement("button");
     refreshBtn.className = "btn btn-outline-secondary btn-sm mt-1";
     refreshBtn.textContent = "↻";
-    refreshBtn.onclick = () => refreshScreenshotForShow(i, finalPath, container);
+    refreshBtn.onclick = () =>
+      refreshScreenshotForShow(i, finalPath, container);
 
     const selectBtn = document.createElement("button");
     selectBtn.className = "btn btn-outline-primary btn-sm mt-1 ms-1";
@@ -903,7 +1010,6 @@ window.refreshScreenshotForShow = async function (i, oldPath, container) {
     container.appendChild(refreshBtn);
     container.appendChild(selectBtn);
     container.appendChild(idLabel);
-
   } catch (err) {
     alert("Failed to refresh screenshot: " + err.message);
   }
@@ -923,7 +1029,10 @@ async function uploadScreenshots(i = 1) {
       const res = await window.oauthDrive.uploadToDrive(imgPath);
       const driveId = res.id;
 
-      await window.oauthDrive.setPermission(driveId, { role: "reader", type: "anyone" });
+      await window.oauthDrive.setPermission(driveId, {
+        role: "reader",
+        type: "anyone",
+      });
 
       uploaded.id = driveId;
       uploaded.idLabel.textContent = driveId;
@@ -955,8 +1064,8 @@ window.addEventListener("DOMContentLoaded", () => {
   const uploadImagesBtn = document.getElementById("upload-images-btn");
   uploadImagesBtn.addEventListener("click", () => uploadScreenshots(1));
 
-  ["dragover", "drop"].forEach(evt => {
-    document.addEventListener(evt, e => {
+  ["dragover", "drop"].forEach((evt) => {
+    document.addEventListener(evt, (e) => {
       e.preventDefault();
       e.stopPropagation();
     });
@@ -965,7 +1074,9 @@ window.addEventListener("DOMContentLoaded", () => {
   const saveBtn = document.getElementById("save-btn");
   const shotsDiv = document.getElementById("shots-result");
   const specsSummary = document.getElementById("specs-summary");
-  const miscCheckbox = document.querySelector('input[name="category"][value="misc"]');
+  const miscCheckbox = document.querySelector(
+    'input[name="category"][value="misc"]'
+  );
   const countryField = document.getElementById("loc-country");
   const venueField = document.getElementById("loc-venue");
   const setlistResponseDiv = document.getElementById("setlist-response");
@@ -992,10 +1103,12 @@ window.addEventListener("DOMContentLoaded", () => {
     if (!on) {
       relatedEditorsHost.innerHTML = "";
       document
-        .querySelectorAll('.container-fluid > .related-show')
-        .forEach(n => n.remove());
+        .querySelectorAll(".container-fluid > .related-show")
+        .forEach((n) => n.remove());
       if (window.showState) {
-        Object.keys(window.showState).forEach(k => { if (k !== "1") delete window.showState[k]; });
+        Object.keys(window.showState).forEach((k) => {
+          if (k !== "1") delete window.showState[k];
+        });
       }
     } else {
       buildRelatedEditors();
@@ -1048,13 +1161,20 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  document.getElementById("setlist-lookup-btn").addEventListener("click", () => runSetlistLookupGeneric(1));
-  document.getElementById("add-media-btn").addEventListener("click", createSecondaryMediaBlock);
+  document
+    .getElementById("setlist-lookup-btn")
+    .addEventListener("click", () => runSetlistLookupGeneric(1));
+  document
+    .getElementById("add-media-btn")
+    .addEventListener("click", createSecondaryMediaBlock);
   saveBtn.addEventListener("click", () => saveJson(1));
 });
 
 function buildRelatedEditors() {
-  const count = Math.max(1, parseInt(document.getElementById("relatedCount").value || "1", 10));
+  const count = Math.max(
+    1,
+    parseInt(document.getElementById("relatedCount").value || "1", 10)
+  );
 
   const container = document.querySelector(".container-fluid");
   if (!container) return;
@@ -1066,7 +1186,9 @@ function buildRelatedEditors() {
     container.appendChild(anchor);
   }
 
-  container.querySelectorAll(":scope > .related-show").forEach(n => n.remove());
+  container
+    .querySelectorAll(":scope > .related-show")
+    .forEach((n) => n.remove());
 
   const inColHost = document.getElementById("related-editors");
   if (inColHost) inColHost.classList.add("d-none");
@@ -1084,7 +1206,10 @@ function buildRelatedEditors() {
 function bindShowEvents(i) {
   if (i !== 1) lockShowTypeForClone(i);
   const drop = getEl("drop-area", i);
-  drop.addEventListener("dragover", e => { e.preventDefault(); e.stopPropagation(); });
+  drop.addEventListener("dragover", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+  });
   drop.addEventListener("drop", async (e) => {
     e.preventDefault();
     const files = [...e.dataTransfer.files];
@@ -1092,7 +1217,7 @@ function bindShowEvents(i) {
 
     await processFilesForBlock(files, {
       showIndex: i,
-      isPrimary: (i === 1),
+      isPrimary: i === 1,
       rowEl: null,
       sizeInput: getEl("specs-size", i),
       unitSelect: getEl("specs-unit", i),
@@ -1118,10 +1243,12 @@ function bindShowEvents(i) {
   if (upl) upl.addEventListener("click", () => uploadScreenshots(i));
 
   const btnLookup = getEl("setlist-lookup-btn", i);
-  if (btnLookup) btnLookup.addEventListener("click", () => runSetlistLookupFor(i));
+  if (btnLookup)
+    btnLookup.addEventListener("click", () => runSetlistLookupFor(i));
 
   const addMedia = getEl("add-media-btn", i);
-  if (addMedia) addMedia.addEventListener("click", () => createSecondaryMediaBlockFor(i));
+  if (addMedia)
+    addMedia.addEventListener("click", () => createSecondaryMediaBlockFor(i));
 
   const save = getEl("save-btn", i);
   if (save) save.addEventListener("click", () => saveJson(i));
@@ -1130,7 +1257,10 @@ function bindShowEvents(i) {
 }
 
 function qsInShow(i, selector) {
-  const root = (i === 1) ? document : document.querySelector(`[data-show-index="${i}"]`) || document;
+  const root =
+    i === 1
+      ? document
+      : document.querySelector(`[data-show-index="${i}"]`) || document;
   return root.querySelector(selector);
 }
 
@@ -1149,7 +1279,7 @@ function initTapersSection() {
     return;
   }
 
-  taperFields.innerHTML = '';
+  taperFields.innerHTML = "";
 
   function addTaperInput(defaultValue = "") {
     const wrapper = document.createElement("div");
@@ -1184,7 +1314,7 @@ function initTapersSection() {
   const masterRadios = document.querySelectorAll('input[name="master"]');
   let masterChecked = false;
 
-  masterRadios.forEach(radio => {
+  masterRadios.forEach((radio) => {
     if (radio.checked && radio.value === "yes") {
       masterChecked = true;
     }
@@ -1201,30 +1331,53 @@ function initTapersSection() {
 }
 
 async function runSetlistLookupGeneric(i) {
-  const band = getEl('bandName', i).value.trim();
-  const city = getEl('city', i).value.trim();
-  const year = getEl('year', i).value.trim();
+  function deUmlaut(s) {
+    if (!s) return s || "";
+    return String(s)
+      .replace(/ä/g, "a")
+      .replace(/Ä/g, "Ae")
+      .replace(/ö/g, "o")
+      .replace(/Ö/g, "Oe")
+      .replace(/ü/g, "ue")
+      .replace(/Ü/g, "Ue")
+      .replace(/ß/g, "ss");
+  }
+
+  const band = getEl("bandName", i).value.trim();
+  const city = getEl("city", i).value.trim();
+  const year = getEl("year", i).value.trim();
   const apiKey = await window.secrets.getSetlistKey();
   if (!apiKey) {
     alert("Setlist API key missing. Add it to apiKey.json.");
     return;
   }
 
-  const dateInput = getEl('loc-date', i);
+  const dateInput = getEl("loc-date", i);
   const dateValue = dateInput ? dateInput.value.trim() : "";
 
-  let apiUrl = `https://api.setlist.fm/rest/1.0/search/setlists?artistName=${encodeURIComponent(band)}`;
+  let apiUrl = `https://api.setlist.fm/rest/1.0/search/setlists?artistName=${encodeURIComponent(
+    band
+  )}`;
 
   if (dateValue) {
-    const dateParts = dateValue.split('-');
-    if (dateParts.length === 3 && dateParts[0].length === 2 && dateParts[1].length === 2 && dateParts[2].length === 4) {
+    const dateParts = dateValue.split("-");
+    if (
+      dateParts.length === 3 &&
+      dateParts[0].length === 2 &&
+      dateParts[1].length === 2 &&
+      dateParts[2].length === 4
+    ) {
       apiUrl += `&date=${dateValue}`;
       if (city) {
         apiUrl += `&cityName=${encodeURIComponent(city)}`;
       }
     } else {
-      console.warn("Date format from UI incorrect ('dd-MM-yyyy' expected), falling back to city/year search.");
-      alert("Date format must be dd-MM-yyyy. Falling back to city/year search.");
+      console.warn(
+        "Date format from UI incorrect ('dd-MM-yyyy' expected), falling back to city/year search."
+      );
+      alert(
+        "Date format must be dd-MM-yyyy. Falling back to city/year search."
+      );
       if (city) apiUrl += `&cityName=${encodeURIComponent(city)}`;
       if (year) apiUrl += `&year=${year}`;
     }
@@ -1234,10 +1387,17 @@ async function runSetlistLookupGeneric(i) {
   }
 
   try {
-    const result = await window.setlistAPI.lookup({ url: apiUrl, apiKey: apiKey });
+    const result = await window.setlistAPI.lookup({
+      url: apiUrl,
+      apiKey: apiKey,
+    });
 
     if (result.status !== 200) {
-      alert(`Setlist.fm error: ${result.status}\n${result.body || 'No details provided.'}`);
+      alert(
+        `Setlist.fm error: ${result.status}\n${
+          result.body || "No details provided."
+        }`
+      );
       return;
     }
     const data = JSON.parse(result.body);
@@ -1261,20 +1421,29 @@ async function runSetlistLookupGeneric(i) {
       }
     }
 
-    getEl("loc-venue", i).value = firstSetlist.venue?.name || "";
+    getEl("loc-venue", i).value = deUmlaut(firstSetlist.venue?.name || "");
     let countryName = firstSetlist.venue?.city?.country?.name || "";
     if (countryName === "United States") countryName = "USA";
-	if (countryName === "Czechia") countryName = "Czech Republic";
+    if (countryName === "Czechia") countryName = "Czech Republic";
     getEl("loc-country", i).value = countryName;
     try {
-      const searchUrl = `https://www.setlist.fm/search?query=${encodeURIComponent(band)}+${encodeURIComponent(firstSetlist.venue?.city?.name || city)}+${firstSetlist.eventDate.split("-")[2] || year}`;
+      const searchUrl = `https://www.setlist.fm/search?query=${encodeURIComponent(
+        band
+      )}+${encodeURIComponent(firstSetlist.venue?.city?.name || city)}+${
+        firstSetlist.eventDate.split("-")[2] || year
+      }`;
       const response = await fetch(searchUrl);
       const html = await response.text();
-      const match = html.match(/<h2><a .*?title="View this .*? setlist">.*? at (.*?)<\/a><\/h2>/i);
+      const match = html.match(
+        /<h2><a .*?title="View this .*? setlist">.*? at (.*?)<\/a><\/h2>/i
+      );
       window.scrapedEventName = match ? match[1].trim() : "";
       getEl("loc-event", i).value = window.scrapedEventName || "";
     } catch (fetchError) {
-      console.warn("Could not fetch event name from setlist.fm search page.", fetchError);
+      console.warn(
+        "Could not fetch event name from setlist.fm search page.",
+        fetchError
+      );
       getEl("loc-event", i).value = "";
     }
     const allowedCountries = ["United States", "USA", "Canada", "Australia"];
@@ -1282,6 +1451,10 @@ async function runSetlistLookupGeneric(i) {
       getEl("state", i).value = firstSetlist.venue?.city?.stateCode || "";
     } else {
       getEl("state", i).value = "";
+    }
+    const apiCity = firstSetlist.venue?.city?.name;
+    if (apiCity) {
+      getEl("city", i).value = deUmlaut(apiCity);
     }
     getEl("setlist-response", i).classList.remove("d-none");
     populateSetlistFromAPIFor(i, data);
@@ -1292,20 +1465,21 @@ async function runSetlistLookupGeneric(i) {
 }
 
 function populateSetlistFromAPIFor(i, setlistFmData) {
-  const cont = getEl('setlist-container', i);
-  cont.innerHTML = '';
+  const cont = getEl("setlist-container", i);
+  cont.innerHTML = "";
 
-  setlistFmData.setlist[0].sets.set.forEach(setObj => {
-    setObj.song.forEach(songObj => {
+  setlistFmData.setlist[0].sets.set.forEach((setObj) => {
+    setObj.song.forEach((songObj) => {
       const entry = {
         song: songObj.name || "",
         feat: "",
         note: "",
         comment: "",
-        coverOf: ""
+        coverOf: "",
       };
       if (songObj.info) {
-        if (/^\s*with\s+/i.test(songObj.info)) entry.feat = normalizeFeatText(songObj.info);
+        if (/^\s*with\s+/i.test(songObj.info))
+          entry.feat = normalizeFeatText(songObj.info);
         else entry.comment = songObj.info;
       }
       if (songObj.with) entry.feat = normalizeFeatText(songObj.with.name);
@@ -1317,48 +1491,51 @@ function populateSetlistFromAPIFor(i, setlistFmData) {
 }
 
 function createSetlistItemFor(i, data = {}) {
-  const container = document.createElement('div');
-  container.className = 'mb-2';
+  const container = document.createElement("div");
+  container.className = "mb-2";
 
-  const songLine = document.createElement('div');
-  songLine.className = 'd-flex gap-1 mb-1';
+  const songLine = document.createElement("div");
+  songLine.className = "d-flex gap-1 mb-1";
 
-  const songInput = document.createElement('input');
-  songInput.type = 'text';
-  songInput.value = data.song || '';
-  songInput.className = 'form-control form-control-sm fw-bold';
+  const songInput = document.createElement("input");
+  songInput.type = "text";
+  songInput.value = data.song || "";
+  songInput.className = "form-control form-control-sm fw-bold";
 
-  const removeBtn = document.createElement('button');
-  removeBtn.type = 'button';
-  removeBtn.className = 'btn btn-outline-danger btn-sm';
-  removeBtn.style.fontSize = '8px';
-  removeBtn.style.padding = '2px 6px';
-  removeBtn.innerHTML = '&times;';
+  const removeBtn = document.createElement("button");
+  removeBtn.type = "button";
+  removeBtn.className = "btn btn-outline-danger btn-sm";
+  removeBtn.style.fontSize = "8px";
+  removeBtn.style.padding = "2px 6px";
+  removeBtn.innerHTML = "&times;";
   removeBtn.onclick = () => container.remove();
 
   songLine.appendChild(songInput);
   songLine.appendChild(removeBtn);
 
-  const smallFields = document.createElement('div');
-  smallFields.className = 'd-flex gap-1';
-  ['feat', 'note', 'comment', 'coverOf'].forEach(key => {
-    if (key === 'note') {
-      const select = document.createElement('select');
-      select.className = 'form-select form-select-sm';
-      ['', 'tape', 'incomplete', 'not recorded', 'audio only'].forEach(v => {
-        const opt = document.createElement('option');
+  const smallFields = document.createElement("div");
+  smallFields.className = "d-flex gap-1";
+  ["feat", "note", "comment", "coverOf"].forEach((key) => {
+    if (key === "note") {
+      const select = document.createElement("select");
+      select.className = "form-select form-select-sm";
+      ["", "tape", "incomplete", "not recorded", "audio only"].forEach((v) => {
+        const opt = document.createElement("option");
         opt.value = v;
         opt.textContent = v;
         select.appendChild(opt);
       });
-      select.value = (data.note && ['tape', 'incomplete', 'not recorded'].includes(data.note)) ? data.note : '';
+      select.value =
+        data.note && ["tape", "incomplete", "not recorded"].includes(data.note)
+          ? data.note
+          : "";
       smallFields.appendChild(select);
     } else {
-      const input = document.createElement('input');
-      input.type = 'text';
+      const input = document.createElement("input");
+      input.type = "text";
       input.placeholder = key;
-      input.value = data[key] || '';
-      input.className = 'form-control form-control-sm';
+      input.value = data[key] || "";
+      input.className = "form-control form-control-sm";
       smallFields.appendChild(input);
     }
   });
@@ -1367,17 +1544,22 @@ function createSetlistItemFor(i, data = {}) {
   container.appendChild(smallFields);
   wireNotRecordedBehavior(container);
 
-  getEl('setlist-container', i).appendChild(container);
+  getEl("setlist-container", i).appendChild(container);
 }
 
 function wireClonedSecondaryRemoveButtons(i) {
   const root = getShowRoot(i);
-  root.querySelectorAll('.media-row-secondary .media-remove-btn').forEach(btn => {
-    if (btn.dataset.wired === '1') return;
-    btn.dataset.wired = '1';
-    const row = btn.closest('.media-row-secondary');
-    btn.onclick = () => { row.remove(); updateTotalLengthUI(i); };
-  });
+  root
+    .querySelectorAll(".media-row-secondary .media-remove-btn")
+    .forEach((btn) => {
+      if (btn.dataset.wired === "1") return;
+      btn.dataset.wired = "1";
+      const row = btn.closest(".media-row-secondary");
+      btn.onclick = () => {
+        row.remove();
+        updateTotalLengthUI(i);
+      };
+    });
 }
 
 function createSecondaryMediaBlockGeneric(i) {
@@ -1442,7 +1624,10 @@ function createSecondaryMediaBlockGeneric(i) {
   row.appendChild(grid);
   host.appendChild(row);
 
-  drop.addEventListener("dragover", (e) => { e.preventDefault(); e.stopPropagation(); });
+  drop.addEventListener("dragover", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+  });
   drop.addEventListener("drop", async (e) => {
     e.preventDefault();
     const files = [...e.dataTransfer.files];
@@ -1460,7 +1645,10 @@ function createSecondaryMediaBlockGeneric(i) {
 
 function prepareEmptyShow(i) {
   const pre = getEl("specs-summary", i);
-  if (pre) { pre.textContent = ""; pre.classList.add("d-none"); }
+  if (pre) {
+    pre.textContent = "";
+    pre.classList.add("d-none");
+  }
   const len = getEl("total-length", i);
   if (len) len.value = 0;
 }
@@ -1471,20 +1659,31 @@ if (!window.mediaTools) {
 
 function convertLang(code) {
   if (!code || typeof code !== "string") return "";
-  const map = { eng: "en", fre: "fr", ger: "de", ita: "it", spa: "es", por: "pt", rus: "ru", jpn: "ja" };
+  const map = {
+    eng: "en",
+    fre: "fr",
+    ger: "de",
+    ita: "it",
+    spa: "es",
+    por: "pt",
+    rus: "ru",
+    jpn: "ja",
+  };
   const out = map[code.toLowerCase()] || code;
   return out.toLowerCase() === "und" ? "" : out;
 }
 
 function normalizeFeatText(s) {
   if (!s) return "";
-  return String(s).replace(/^\s*with\s+/i, "").trim();
+  return String(s)
+    .replace(/^\s*with\s+/i, "")
+    .trim();
 }
 
 function hmsToSec(str) {
   if (!str) return 0;
   const parts = String(str).trim().split(":").map(Number);
-  if (parts.some(n => Number.isNaN(n))) return 0;
+  if (parts.some((n) => Number.isNaN(n))) return 0;
   if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2];
   if (parts.length === 2) return parts[0] * 60 + parts[1];
   if (parts.length === 1) return parts[0];
@@ -1497,17 +1696,20 @@ function secToHMS(total) {
   const ss = String(s % 60).padStart(2, "0");
   return `${hh}:${mm}:${ss}`;
 }
-function clamp(n, min, max) { return Math.min(max, Math.max(min, n)); }
+function clamp(n, min, max) {
+  return Math.min(max, Math.max(min, n));
+}
 
 function inferTvFormatFromStream(stream) {
   const h = stream.height;
   let fps = "";
   if (stream.avg_frame_rate && stream.avg_frame_rate !== "0/0") {
-    const [a, b] = stream.avg_frame_rate.split('/');
-    fps = (Number(a) / Number(b));
+    const [a, b] = stream.avg_frame_rate.split("/");
+    fps = Number(a) / Number(b);
   }
   if (h === 576 || Math.abs(fps - 25) < 0.5) return "PAL";
-  if (h === 480 || Math.abs(fps - 29.97) < 0.5 || Math.abs(fps - 30) < 0.5) return "NTSC";
+  if (h === 480 || Math.abs(fps - 29.97) < 0.5 || Math.abs(fps - 30) < 0.5)
+    return "NTSC";
   return "";
 }
 
@@ -1518,13 +1720,16 @@ function detectLetterboxed(stream) {
   const h = stream.height;
   const resRatio = w / h;
   const dar = stream.display_aspect_ratio || "";
-  const isDvdFrame = (w === 720 && (h === 480 || h === 576));
+  const isDvdFrame = w === 720 && (h === 480 || h === 576);
 
   if (isDvdFrame && dar.includes("16:9")) {
     return true;
   }
 
-  if (Math.abs(resRatio - 4 / 3) < 0.05 && (dar.includes("16:9") || Math.abs(eval(dar) - 16 / 9) < 0.05)) {
+  if (
+    Math.abs(resRatio - 4 / 3) < 0.05 &&
+    (dar.includes("16:9") || Math.abs(eval(dar) - 16 / 9) < 0.05)
+  ) {
     return true;
   }
 
@@ -1543,7 +1748,7 @@ function pickNiceCodec(stream) {
   let pretty = name;
 
   const map = {
-    "MPEG2VIDEO": "MPEG2"
+    MPEG2VIDEO: "MPEG2",
   };
   if (map[name]) pretty = map[name];
 
@@ -1568,31 +1773,37 @@ function pickBitrateKbps(stream, ff) {
 function parseSpecs(ffprobeData) {
   const specs = {
     video: [],
-    audio: []
+    audio: [],
   };
 
   for (const stream of ffprobeData.streams) {
     if (stream.codec_type === "video") {
       const standard = pickNiceCodec(stream);
-      let alt = cleanStr((stream.codec_tag_string || stream.codec_name || "").toUpperCase());
+      let alt = cleanStr(
+        (stream.codec_tag_string || stream.codec_name || "").toUpperCase()
+      );
 
       if (alt === "MPEG2VIDEO") alt = "MPEG2";
       if (alt === "DVVIDEO") alt = "DV";
       if (alt === "[0][0][0][0]") alt = "";
       if (alt === "[27][0][0][0]") alt = "";
 
-      const codec = (alt && alt !== standard) ? alt : "";
+      const codec = alt && alt !== standard ? alt : "";
 
       specs.video.push({
         tvFormat: cleanStr(inferTvFormatFromStream(stream) || ""),
         ratio: cleanStr(stream.display_aspect_ratio || ""),
-        resolution: cleanStr((stream.width && stream.height) ? `${stream.width}x${stream.height}` : ""),
+        resolution: cleanStr(
+          stream.width && stream.height
+            ? `${stream.width}x${stream.height}`
+            : ""
+        ),
         bitrateType: "",
         bitrateKbps: pickBitrateKbps(stream, ffprobeData),
         fps: cleanStr(computeFps(stream)),
         standard,
         codec,
-        letterboxed: !!detectLetterboxed(stream)
+        letterboxed: !!detectLetterboxed(stream),
       });
     }
 
@@ -1601,15 +1812,17 @@ function parseSpecs(ffprobeData) {
       const normalizedCodec = rawCodec.startsWith("PCM") ? "PCM" : rawCodec;
 
       let kbps = null;
-      if (stream.bit_rate) kbps = cleanNum(Math.round(Number(stream.bit_rate) / 1000));
-      else if (ffprobeData?.format?.bit_rate) kbps = cleanNum(Math.round(Number(ffprobeData.format.bit_rate) / 1000));
+      if (stream.bit_rate)
+        kbps = cleanNum(Math.round(Number(stream.bit_rate) / 1000));
+      else if (ffprobeData?.format?.bit_rate)
+        kbps = cleanNum(Math.round(Number(ffprobeData.format.bit_rate) / 1000));
 
       specs.audio.push({
         language: cleanStr(stream.tags && convertLang(stream.tags.language)),
         codec: normalizedCodec,
         rateHz: cleanNum(stream.sample_rate),
         bitrateKbps: kbps,
-        channels: cleanNum(stream.channels)
+        channels: cleanNum(stream.channels),
       });
     }
   }
@@ -1626,7 +1839,7 @@ function formatSpecsForDisplay(ffprobeData) {
       const resolution = `${stream.width}x${stream.height}`;
       const fps = computeFps(stream);
       const bitrate = pickBitrateKbps(stream, ffprobeData);
-      const br = (bitrate != null) ? `${bitrate}kbps` : "";
+      const br = bitrate != null ? `${bitrate}kbps` : "";
       videoLines.push(`Video: ${codec} ${resolution} ${fps}fps ${br}`);
     }
 
@@ -1637,18 +1850,23 @@ function formatSpecsForDisplay(ffprobeData) {
       const rate = stream.sample_rate ? stream.sample_rate + "Hz" : "";
       const channels =
         stream.channel_layout ||
-        (stream.channels === 1 ? "mono" :
-          stream.channels === 2 ? "stereo" : `${stream.channels}ch`);
+        (stream.channels === 1
+          ? "mono"
+          : stream.channels === 2
+          ? "stereo"
+          : `${stream.channels}ch`);
 
       const brKbps = stream.bit_rate
         ? Math.round(stream.bit_rate / 1000)
-        : (ffprobeData?.format?.bit_rate
-          ? Math.round(Number(ffprobeData.format.bit_rate) / 1000)
-          : null);
+        : ffprobeData?.format?.bit_rate
+        ? Math.round(Number(ffprobeData.format.bit_rate) / 1000)
+        : null;
 
       const bitrate = brKbps != null ? `${brKbps}kbps` : "";
 
-      audioLines.push(`Audio: ${normalizedCodec} ${rate} ${channels} ${bitrate}`);
+      audioLines.push(
+        `Audio: ${normalizedCodec} ${rate} ${channels} ${bitrate}`
+      );
     }
   }
 
@@ -1719,12 +1937,14 @@ function renderScreenshots(imgPaths, i = 1) {
   host.style.display = "block";
 
   const toolbar = document.createElement("div");
-  toolbar.className = "shots-toolbar d-flex align-items-center justify-content-center";
+  toolbar.className =
+    "shots-toolbar d-flex align-items-center justify-content-center";
   toolbar.style.gap = "8px";
   toolbar.style.marginBottom = "6px";
 
   const selectSource = document.createElement("select");
-  selectSource.className = "form-select form-select-sm screenshot-source-select";
+  selectSource.className =
+    "form-select form-select-sm screenshot-source-select";
   selectSource.style.width = "auto";
   selectSource.style.fontSize = "9px";
   selectSource.disabled = st.droppedVideoFiles.length === 0;
@@ -1734,7 +1954,7 @@ function renderScreenshots(imgPaths, i = 1) {
     opt.textContent = "No video files dropped";
     selectSource.appendChild(opt);
   } else {
-    st.droppedVideoFiles.forEach(fileInfo => {
+    st.droppedVideoFiles.forEach((fileInfo) => {
       const opt = document.createElement("option");
       opt.value = fileInfo.path;
       opt.textContent = window.mediaTools.basename(fileInfo.path);
@@ -1745,9 +1965,11 @@ function renderScreenshots(imgPaths, i = 1) {
     });
   }
 
-  selectSource.addEventListener('change', (event) => {
+  selectSource.addEventListener("change", (event) => {
     const newPath = event.target.value;
-    const selectedFileInfo = st.droppedVideoFiles.find(f => f.path === newPath);
+    const selectedFileInfo = st.droppedVideoFiles.find(
+      (f) => f.path === newPath
+    );
     if (selectedFileInfo) {
       st.selectedScreenshotSourcePath = newPath;
       st.selectedFileDurationSec = selectedFileInfo.duration;
@@ -1771,15 +1993,15 @@ function renderScreenshots(imgPaths, i = 1) {
   endInput.placeholder = "hh:mm:ss";
   endInput.className = "form-control form-control-sm";
   endInput.style.width = "90px";
-  endInput.value = secToHMS(st.screenshotEndSec || st.selectedFileDurationSec || 0);
+  endInput.value = secToHMS(
+    st.screenshotEndSec || st.selectedFileDurationSec || 0
+  );
 
   const refresh4Btn = document.createElement("button");
   refresh4Btn.className = "btn btn-outline-secondary btn-sm";
   refresh4Btn.textContent = "↻ 4";
   refresh4Btn.title = "Refresh 4 screenshots within range";
   refresh4Btn.onclick = () => regenerateScreenshotsInRange(i);
-
-
 
   const select4Btn = document.createElement("button");
   select4Btn.className = "btn btn-outline-primary btn-sm";
@@ -1808,11 +2030,15 @@ function renderScreenshots(imgPaths, i = 1) {
       if (!imgPath) return;
       const wrap = document.createElement("div");
       wrap.dataset.slot = String(idx);
-      const timestamp = st.screenshotTimestamps ? st.screenshotTimestamps[idx] : 0;
+      const timestamp = st.screenshotTimestamps
+        ? st.screenshotTimestamps[idx]
+        : 0;
       const tsLabel = document.createElement("div");
       tsLabel.style.fontSize = "8px";
       tsLabel.style.marginBottom = "2px";
-      tsLabel.textContent = st.userSelectedSlots.has(idx) ? "Manually Selected" : secToHMS(timestamp || 0);
+      tsLabel.textContent = st.userSelectedSlots.has(idx)
+        ? "Manually Selected"
+        : secToHMS(timestamp || 0);
 
       const img = document.createElement("img");
       img.src = `file://${imgPath}?t=${Date.now()}`;
@@ -1842,7 +2068,11 @@ function renderScreenshots(imgPaths, i = 1) {
         refreshBtn.disabled = !st.selectedScreenshotSourcePath;
       }
 
-      st.uploadedScreenshots[imgPath] = { id: prevRec.id || null, idLabel, refreshBtn };
+      st.uploadedScreenshots[imgPath] = {
+        id: prevRec.id || null,
+        idLabel,
+        refreshBtn,
+      };
       if (prevRec.id) idLabel.textContent = prevRec.id;
 
       wrap.appendChild(tsLabel);
@@ -1860,7 +2090,8 @@ function renderScreenshots(imgPaths, i = 1) {
   } else {
     const genFailedMsg = document.createElement("div");
     genFailedMsg.className = "text-danger mt-2";
-    genFailedMsg.textContent = "Screenshot generation failed. Try refreshing or selecting manually.";
+    genFailedMsg.textContent =
+      "Screenshot generation failed. Try refreshing or selecting manually.";
     host.appendChild(genFailedMsg);
   }
 
@@ -1887,7 +2118,6 @@ async function regenerateScreenshotsInRange(i = 1) {
   }
   getEl("shots-end", i).value = secToHMS(endSec);
 
-
   st.screenshotStartSec = startSec;
   st.screenshotEndSec = endSec;
 
@@ -1897,8 +2127,11 @@ async function regenerateScreenshotsInRange(i = 1) {
     if (typeof atFunc === "function") {
       const rangeDuration = endSec - startSec;
       if (rangeDuration <= 0) {
-        console.warn("Invalid range, generating screenshots across full duration.");
-        startSec = 0; endSec = dur;
+        console.warn(
+          "Invalid range, generating screenshots across full duration."
+        );
+        startSec = 0;
+        endSec = dur;
       }
       const steps = [];
       for (let k = 0; k < 4; k++) {
@@ -1934,11 +2167,15 @@ async function regenerateScreenshotsInRange(i = 1) {
     const finalDestPath = window.mediaTools.pathJoin(targetDir, baseFilename);
 
     if (oldFinalPath && oldFinalPath !== finalDestPath) {
-      try { await window.mediaTools.deleteFile(oldFinalPath); } catch { }
+      try {
+        await window.mediaTools.deleteFile(oldFinalPath);
+      } catch {}
     }
 
     await window.mediaTools.copyFile(newTempPath, finalDestPath);
-    try { await window.mediaTools.deleteFile(newTempPath); } catch { }
+    try {
+      await window.mediaTools.deleteFile(newTempPath);
+    } catch {}
 
     finalPaths.push(finalDestPath);
     st.userSelectedSlots.delete(idx);
@@ -1952,10 +2189,13 @@ async function saveJson(index = 1) {
   const nowUnix = Math.floor(Date.now() / 1000);
   const rawSetlist = window.setlistData?.setlist?.[0];
   const root = getShowRoot(index);
-  const chaptersName = (index === 1) ? "chapters" : `chapters${uidSuffix(index)}`;
-  const menuName = (index === 1) ? "menu" : `menu${uidSuffix(index)}`;
-  const chaptersVal = root.querySelector(`input[name="${chaptersName}"]:checked`)?.value === "yes";
-  const menuVal = root.querySelector(`input[name="${menuName}"]:checked`)?.value === "yes";
+  const chaptersName = index === 1 ? "chapters" : `chapters${uidSuffix(index)}`;
+  const menuName = index === 1 ? "menu" : `menu${uidSuffix(index)}`;
+  const chaptersVal =
+    root.querySelector(`input[name="${chaptersName}"]:checked`)?.value ===
+    "yes";
+  const menuVal =
+    root.querySelector(`input[name="${menuName}"]:checked`)?.value === "yes";
   const recordingType = getEl("recordingType", index)?.value || "";
   const sourceMediaType = getEl("sourceMediaType", index)?.value?.trim() || "";
   const finalMediaType = getEl("finalMediaType", index)?.value?.trim() || "";
@@ -1997,30 +2237,39 @@ async function saveJson(index = 1) {
     state = (getEl("state", index)?.value || "").trim();
   }
 
-  const locationObj = { city, state, country, venue: venueName, event: eventName };
+  const locationObj = {
+    city,
+    state,
+    country,
+    venue: venueName,
+    event: eventName,
+  };
 
   const st = getShowState(index);
-  const images = Object.entries(st.uploadedScreenshots || {}).map(([path, data]) => ({
-    folder: "2025",
-    filename: path.split(/[/\\]/).pop(),
-    externalId: data.id
-  }));
+  const images = Object.entries(st.uploadedScreenshots || {}).map(
+    ([path, data]) => ({
+      folder: "2025",
+      filename: path.split(/[/\\]/).pop(),
+      externalId: data.id,
+    })
+  );
 
   const tapers = [];
   {
     const taperRoot = getEl("taper-fields", index) || document;
-    taperRoot.querySelectorAll(".taper-input").forEach(input => {
+    taperRoot.querySelectorAll(".taper-input").forEach((input) => {
       const val = input.value.trim();
       if (val) tapers.push(val);
     });
   }
 
   const { setlist, extras } = exportSetlistAndExtrasFor(index);
-  const categoriesUi = [...root.querySelectorAll('input[name="category"]:checked')]
-    .map(cb => (cb.value || '').toLowerCase());
-  const categoriesForChild = [...new Set(
-    categoriesUi.filter(v => v !== 'compilation')
-  )];
+  const categoriesUi = [
+    ...root.querySelectorAll('input[name="category"]:checked'),
+  ].map((cb) => (cb.value || "").toLowerCase());
+  const categoriesForChild = [
+    ...new Set(categoriesUi.filter((v) => v !== "compilation")),
+  ];
 
   function buildOriginalTitle(json) {
     const band = json.bands.join(", ");
@@ -2042,7 +2291,9 @@ async function saveJson(index = 1) {
     const categoryTags = [];
     if (json.category.includes("audio")) categoryTags.push("[AUDIO]");
     if (json.category.includes("misc")) categoryTags.push("[MISC]");
-    const categoryPart = categoryTags.length ? " " + categoryTags.join(" ") : "";
+    const categoryPart = categoryTags.length
+      ? " " + categoryTags.join(" ")
+      : "";
 
     return `${band} - ${datePart}${locationPart}${sourcePart}${categoryPart}`;
   }
@@ -2051,49 +2302,60 @@ async function saveJson(index = 1) {
   media.push({
     type: (getEl("specs-type", index)?.value || "").trim(),
     size: parseFloat(getEl("specs-size", index)?.value || "0") || 0,
-    unit: (getEl("specs-unit", index)?.value || "").trim()
+    unit: (getEl("specs-unit", index)?.value || "").trim(),
   });
 
   const extraMediaRoot = getEl("extra-media", index);
   if (extraMediaRoot) {
-    extraMediaRoot.querySelectorAll(".media-row-secondary").forEach(row => {
+    extraMediaRoot.querySelectorAll(".media-row-secondary").forEach((row) => {
       const sizeInput = row.querySelector(".media-size");
       const unitSelect = row.querySelector(".media-unit");
       const typeInput = row.querySelector(".media-type");
       media.push({
         type: (typeInput?.value || "").trim(),
         size: parseFloat(sizeInput?.value || "0") || 0,
-        unit: (unitSelect?.value || "").trim()
+        unit: (unitSelect?.value || "").trim(),
       });
     });
   }
 
-  const lengthVal = parseInt(getEl("total-length", index)?.value || "0", 10) || 0;
+  const lengthVal =
+    parseInt(getEl("total-length", index)?.value || "0", 10) || 0;
 
   const finalJson = {
     originalTitle: "",
     created: nowUnix,
     lastUpdated: nowUnix,
-    bands: [(getEl('bandName', index)?.value || "").trim()],
+    bands: [(getEl("bandName", index)?.value || "").trim()],
     startDate: { day: startDay, month: startMonth, year: startYear },
     endDate: { day: startDay, month: startMonth, year: startYear },
     startDateUnix: startUnix,
     endDateUnix: startUnix,
     location: locationObj,
-    tvChannel: (getEl('tvChannel', index)?.value || "").trim(),
-    showName: (getEl('showName', index)?.value || "").trim(),
-    source: (getEl('source', index)?.value || "").trim(),
+    tvChannel: (getEl("tvChannel", index)?.value || "").trim(),
+    showName: (getEl("showName", index)?.value || "").trim(),
+    source: (getEl("source", index)?.value || "").trim(),
     category: categoriesForChild,
-    master: root.querySelector(`input[name="${(index === 1 ? 'master' : `master${uidSuffix(index)}`)}"]:checked`)?.value === "yes",
-    public: root.querySelector(`input[name="${(index === 1 ? 'public' : `public${uidSuffix(index)}`)}"]:checked`)?.value === "yes",
-    ownIdentifier: (getEl('ownIdentifier', index)?.value || "").trim(),
+    master:
+      root.querySelector(
+        `input[name="${
+          index === 1 ? "master" : `master${uidSuffix(index)}`
+        }"]:checked`
+      )?.value === "yes",
+    public:
+      root.querySelector(
+        `input[name="${
+          index === 1 ? "public" : `public${uidSuffix(index)}`
+        }"]:checked`
+      )?.value === "yes",
+    ownIdentifier: (getEl("ownIdentifier", index)?.value || "").trim(),
     tradeLabel: (() => {
-      const val = (getEl('tradeLabel', index)?.value || "").trim();
+      const val = (getEl("tradeLabel", index)?.value || "").trim();
       return val === "Regular" ? "" : val;
     })(),
-    authoredBy: (getEl('authoredBy', index)?.value || "").trim(),
-    transferredBy: (getEl('transferredBy', index)?.value || "").trim(),
-    notes: (getEl('notes', index)?.value || "").trim(),
+    authoredBy: (getEl("authoredBy", index)?.value || "").trim(),
+    transferredBy: (getEl("transferredBy", index)?.value || "").trim(),
+    notes: (getEl("notes", index)?.value || "").trim(),
     tapers,
     receivedInTrade,
     trader: receivedInTrade ? traderName : "",
@@ -2110,14 +2372,14 @@ async function saveJson(index = 1) {
         recordingType,
         sourceMediaType,
         finalMediaType,
-        fileFormat
-      }
+        fileFormat,
+      },
     },
     images,
     setlist,
     extras,
     relatedShows: [],
-    childOf: ""
+    childOf: "",
   };
 
   finalJson.originalTitle = buildOriginalTitle(finalJson);
@@ -2125,21 +2387,27 @@ async function saveJson(index = 1) {
   const filename = buildFilename(finalJson);
   const targetDir = st.droppedFilePath
     ? window.mediaTools.getDirname(st.droppedFilePath)
-    : (window.baseDir || "");
+    : window.baseDir || "";
 
   if (!targetDir) {
-    alert("Could not determine target folder to save JSON. Please drop at least one media file first.");
+    alert(
+      "Could not determine target folder to save JSON. Please drop at least one media file first."
+    );
     return;
   }
 
-  const outPath = window.mediaTools.pathJoin(targetDir, filename + '.json');
+  const outPath = window.mediaTools.pathJoin(targetDir, filename + ".json");
   const jsonStr = JSON.stringify(finalJson, null, 2);
   await window.mediaTools.writeFile(outPath, jsonStr);
 
-  const MIRROR_DIR = "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\src\\data";
+  const MIRROR_DIR =
+    "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\src\\data";
   try {
     window.mediaTools.mkdirp(MIRROR_DIR);
-    const mirrorPath = window.mediaTools.pathJoin(MIRROR_DIR, filename + ".json");
+    const mirrorPath = window.mediaTools.pathJoin(
+      MIRROR_DIR,
+      filename + ".json"
+    );
     await window.mediaTools.writeFile(mirrorPath, jsonStr);
   } catch (e) {
     console.error("Failed to write mirror JSON:", e);
@@ -2179,18 +2447,32 @@ async function createCompilationParentFromChildren(children, i = 1) {
   const nowUnix = Math.floor(Date.now() / 1000);
   const band = (first.json?.bands && first.json.bands[0]) || "Unknown";
 
-  const yearsStart = kids.map(k => k.json?.startDate?.year).filter(Boolean);
-  const yearsEnd = kids.map(k => k.json?.endDate?.year).filter(Boolean);
+  const yearsStart = kids.map((k) => k.json?.startDate?.year).filter(Boolean);
+  const yearsEnd = kids.map((k) => k.json?.endDate?.year).filter(Boolean);
   const startYear = minYearSafe(yearsStart);
   const endYear = maxYearSafe(yearsEnd);
 
-  const compName = (getEl("compilationName", 1)?.value || "").trim()
-    || (first.json?.location?.event || "").trim();
+  const compName =
+    (getEl("compilationName", 1)?.value || "").trim() ||
+    (first.json?.location?.event || "").trim();
 
-  const categories = Array.from(new Set([...(first.json?.category || []), "compilation"]));
+  const categories = Array.from(
+    new Set([...(first.json?.category || []), "compilation"])
+  );
 
-  const parentFilename = buildCompilationSlug(band, startYear, endYear, compName, first.json?.category);
-  const parentTitle = buildCompilationOriginalTitle(band, startYear, endYear, compName);
+  const parentFilename = buildCompilationSlug(
+    band,
+    startYear,
+    endYear,
+    compName,
+    first.json?.category
+  );
+  const parentTitle = buildCompilationOriginalTitle(
+    band,
+    startYear,
+    endYear,
+    compName
+  );
   const parentImages = pickCompilationImages(kids);
 
   const parentJson = {
@@ -2215,17 +2497,27 @@ async function createCompilationParentFromChildren(children, i = 1) {
     transferredBy: first.json?.transferredBy || "",
     notes: first.json?.notes || "",
     tapers: [],
-    specs: JSON.parse(JSON.stringify(first.json?.specs || {
-      media: [], chapters: false, menu: false, length: 0, video: [], audio: [], sourceDetail: {}
-    })),
+    specs: JSON.parse(
+      JSON.stringify(
+        first.json?.specs || {
+          media: [],
+          chapters: false,
+          menu: false,
+          length: 0,
+          video: [],
+          audio: [],
+          sourceDetail: {},
+        }
+      )
+    ),
     relatedShows: [],
     childOf: "",
     images: parentImages,
-    parentOf: kids.map(k => k.filename),
+    parentOf: kids.map((k) => k.filename),
     setlist: [],
-    extras: []
+    extras: [],
   };
-  
+
   const totalLengthSec = kids.reduce((sum, k) => {
     const v = k?.json?.specs?.length;
     const n = Number(v);
@@ -2236,20 +2528,30 @@ async function createCompilationParentFromChildren(children, i = 1) {
 
   const baseTargetDir = window.mediaTools.getDirname(first.outPath);
   await window.mediaTools.mkdirp(baseTargetDir);
-  const outPathPrimary = window.mediaTools.pathJoin(baseTargetDir, parentFilename + ".json");
+  const outPathPrimary = window.mediaTools.pathJoin(
+    baseTargetDir,
+    parentFilename + ".json"
+  );
   const jsonStr = JSON.stringify(parentJson, null, 2);
   await window.mediaTools.writeFile(outPathPrimary, jsonStr);
   await window.mediaTools.mkdirp(COMP_SAVE_DIR);
-  const outPathMirror = window.mediaTools.pathJoin(COMP_SAVE_DIR, parentFilename + ".json");
+  const outPathMirror = window.mediaTools.pathJoin(
+    COMP_SAVE_DIR,
+    parentFilename + ".json"
+  );
   await window.mediaTools.writeFile(outPathMirror, jsonStr);
 
-  return { filename: parentFilename, outPath: outPathPrimary, json: parentJson };
+  return {
+    filename: parentFilename,
+    outPath: outPathPrimary,
+    json: parentJson,
+  };
 }
 
 async function saveAllJsons() {
   const hasRelatedEl = document.getElementById("hasRelated");
   const count = hasRelatedEl.checked
-    ? (parseInt(document.getElementById("relatedCount").value || "1", 10) + 1)
+    ? parseInt(document.getElementById("relatedCount").value || "1", 10) + 1
     : 1;
 
   const results = [];
@@ -2264,13 +2566,13 @@ async function saveAllJsons() {
     compParent = await createCompilationParentFromChildren(results, 1);
   }
 
-  const names = results.map(r => r.filename);
+  const names = results.map((r) => r.filename);
   const nameSet = new Set(names);
 
   for (let i = 0; i < results.length; i++) {
     const me = results[i];
     if (!me) continue;
-    const others = names.filter(n => n !== me.filename);
+    const others = names.filter((n) => n !== me.filename);
     me.json.relatedShows = others;
 
     if (compParent) {
@@ -2280,10 +2582,14 @@ async function saveAllJsons() {
     const jsonStr = JSON.stringify(me.json, null, 2);
     await window.mediaTools.writeFile(me.outPath, jsonStr);
 
-    const MIRROR_DIR = "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\src\\data";
+    const MIRROR_DIR =
+      "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\src\\data";
     try {
       window.mediaTools.mkdirp(MIRROR_DIR);
-      const mirrorPath = window.mediaTools.pathJoin(MIRROR_DIR, me.filename + ".json");
+      const mirrorPath = window.mediaTools.pathJoin(
+        MIRROR_DIR,
+        me.filename + ".json"
+      );
       await window.mediaTools.writeFile(mirrorPath, jsonStr);
     } catch (e) {
       console.error("Failed to write mirror JSON (saveAllJsons):", e);
@@ -2307,49 +2613,52 @@ function reindex(containerId) {
 }
 
 function createSetlistItem(data = {}) {
-  const container = document.createElement('div');
-  container.className = 'mb-2';
+  const container = document.createElement("div");
+  container.className = "mb-2";
 
-  const songLine = document.createElement('div');
-  songLine.className = 'd-flex gap-1 mb-1';
+  const songLine = document.createElement("div");
+  songLine.className = "d-flex gap-1 mb-1";
 
-  const songInput = document.createElement('input');
-  songInput.type = 'text';
-  songInput.value = data.song || '';
-  songInput.className = 'form-control form-control-sm fw-bold';
+  const songInput = document.createElement("input");
+  songInput.type = "text";
+  songInput.value = data.song || "";
+  songInput.className = "form-control form-control-sm fw-bold";
 
-  const removeBtn = document.createElement('button');
-  removeBtn.type = 'button';
-  removeBtn.className = 'btn btn-outline-danger btn-sm';
-  removeBtn.style.fontSize = '8px';
-  removeBtn.style.padding = '2px 6px';
-  removeBtn.innerHTML = '&times;';
+  const removeBtn = document.createElement("button");
+  removeBtn.type = "button";
+  removeBtn.className = "btn btn-outline-danger btn-sm";
+  removeBtn.style.fontSize = "8px";
+  removeBtn.style.padding = "2px 6px";
+  removeBtn.innerHTML = "&times;";
   removeBtn.onclick = () => container.remove();
 
   songLine.appendChild(songInput);
   songLine.appendChild(removeBtn);
 
-  const smallFields = document.createElement('div');
-  smallFields.className = 'd-flex gap-1';
+  const smallFields = document.createElement("div");
+  smallFields.className = "d-flex gap-1";
 
-  ['feat', 'note', 'comment', 'coverOf'].forEach(key => {
-    if (key === 'note') {
-      const select = document.createElement('select');
-      select.className = 'form-select form-select-sm';
-      ['', 'tape', 'incomplete', 'not recorded'].forEach(v => {
-        const opt = document.createElement('option');
+  ["feat", "note", "comment", "coverOf"].forEach((key) => {
+    if (key === "note") {
+      const select = document.createElement("select");
+      select.className = "form-select form-select-sm";
+      ["", "tape", "incomplete", "not recorded"].forEach((v) => {
+        const opt = document.createElement("option");
         opt.value = v;
         opt.textContent = v;
         select.appendChild(opt);
       });
-      select.value = (data.note && ['tape', 'incomplete', 'not recorded'].includes(data.note)) ? data.note : '';
+      select.value =
+        data.note && ["tape", "incomplete", "not recorded"].includes(data.note)
+          ? data.note
+          : "";
       smallFields.appendChild(select);
     } else {
-      const input = document.createElement('input');
-      input.type = 'text';
+      const input = document.createElement("input");
+      input.type = "text";
       input.placeholder = key;
-      input.value = data[key] || '';
-      input.className = 'form-control form-control-sm';
+      input.value = data[key] || "";
+      input.className = "form-control form-control-sm";
       smallFields.appendChild(input);
     }
   });
@@ -2358,41 +2667,41 @@ function createSetlistItem(data = {}) {
   container.appendChild(smallFields);
   wireNotRecordedBehavior(container);
 
-  document.getElementById('setlist-container').appendChild(container);
+  document.getElementById("setlist-container").appendChild(container);
 }
 
 function createExtraItem(data = {}) {
-  const container = document.createElement('div');
-  container.className = 'mb-2';
+  const container = document.createElement("div");
+  container.className = "mb-2";
 
-  const songLine = document.createElement('div');
-  songLine.className = 'd-flex gap-1 mb-1';
+  const songLine = document.createElement("div");
+  songLine.className = "d-flex gap-1 mb-1";
 
-  const songInput = document.createElement('input');
-  songInput.type = 'text';
-  songInput.value = data.song || '';
-  songInput.className = 'form-control form-control-sm fw-bold';
+  const songInput = document.createElement("input");
+  songInput.type = "text";
+  songInput.value = data.song || "";
+  songInput.className = "form-control form-control-sm fw-bold";
 
-  const removeBtn = document.createElement('button');
-  removeBtn.type = 'button';
-  removeBtn.className = 'btn btn-outline-danger btn-sm';
-  removeBtn.style.fontSize = '8px';
-  removeBtn.style.padding = '2px 6px';
-  removeBtn.innerHTML = '&times;';
+  const removeBtn = document.createElement("button");
+  removeBtn.type = "button";
+  removeBtn.className = "btn btn-outline-danger btn-sm";
+  removeBtn.style.fontSize = "8px";
+  removeBtn.style.padding = "2px 6px";
+  removeBtn.innerHTML = "&times;";
   removeBtn.onclick = () => container.remove();
 
   songLine.appendChild(songInput);
   songLine.appendChild(removeBtn);
 
-  const smallFields = document.createElement('div');
-  smallFields.className = 'd-flex gap-1';
+  const smallFields = document.createElement("div");
+  smallFields.className = "d-flex gap-1";
 
-  ['feat', 'note', 'comment', 'coverOf'].forEach(key => {
-    const input = document.createElement('input');
-    input.type = 'text';
+  ["feat", "note", "comment", "coverOf"].forEach((key) => {
+    const input = document.createElement("input");
+    input.type = "text";
     input.placeholder = key;
-    input.value = data[key] || '';
-    input.className = 'form-control form-control-sm';
+    input.value = data[key] || "";
+    input.className = "form-control form-control-sm";
     smallFields.appendChild(input);
   });
 
@@ -2400,23 +2709,23 @@ function createExtraItem(data = {}) {
   container.appendChild(smallFields);
   wireNotRecordedBehavior(container);
 
-  document.getElementById('extras-container').appendChild(container);
+  document.getElementById("extras-container").appendChild(container);
 }
 
-document.getElementById('add-setlist-item').onclick = () => createSetlistItem();
-document.getElementById('add-extra-item').onclick = () => createExtraItem();
+document.getElementById("add-setlist-item").onclick = () => createSetlistItem();
+document.getElementById("add-extra-item").onclick = () => createExtraItem();
 
 function populateSetlistFromAPI(setlistFmData) {
-  document.getElementById('setlist-container').innerHTML = '';
+  document.getElementById("setlist-container").innerHTML = "";
 
-  setlistFmData.setlist[0].sets.set.forEach(setObj => {
-    setObj.song.forEach(songObj => {
+  setlistFmData.setlist[0].sets.set.forEach((setObj) => {
+    setObj.song.forEach((songObj) => {
       const entry = {
         song: songObj.name || "",
         feat: "",
         note: "",
         comment: "",
-        coverOf: ""
+        coverOf: "",
       };
 
       if (songObj.info) {
@@ -2446,35 +2755,40 @@ function populateSetlistFromAPI(setlistFmData) {
 
 function exportSetlistAndExtras() {
   const setlist = [];
-  document.querySelectorAll('#setlist-container > div').forEach((el, idx) => {
-    const songInput = el.querySelector('.d-flex input.form-control.fw-bold') || el.querySelector('.d-flex input');
-    const small = el.querySelector('.d-flex.gap-1:last-child');
+  document.querySelectorAll("#setlist-container > div").forEach((el, idx) => {
+    const songInput =
+      el.querySelector(".d-flex input.form-control.fw-bold") ||
+      el.querySelector(".d-flex input");
+    const small = el.querySelector(".d-flex.gap-1:last-child");
     const featInput = small?.querySelector('input[placeholder="feat"]');
-    const noteSelect = small?.querySelector('select');
+    const noteSelect = small?.querySelector("select");
     const noteInputFallback = small?.querySelector('input[placeholder="note"]');
     const commentInput = small?.querySelector('input[placeholder="comment"]');
     const coverInput = small?.querySelector('input[placeholder="coverOf"]');
 
     setlist.push({
       order: idx + 1,
-      song: (songInput?.value || '').trim(),
-      feat: (featInput?.value || '').trim(),
-      note: ((noteSelect?.value ?? '') || (noteInputFallback?.value ?? '')).trim(),
-      comment: (commentInput?.value || '').trim(),
-      coverOf: (coverInput?.value || '').trim()
+      song: (songInput?.value || "").trim(),
+      feat: (featInput?.value || "").trim(),
+      note: (
+        (noteSelect?.value ?? "") ||
+        (noteInputFallback?.value ?? "")
+      ).trim(),
+      comment: (commentInput?.value || "").trim(),
+      coverOf: (coverInput?.value || "").trim(),
     });
   });
 
   const extras = [];
-  document.querySelectorAll('#extras-container > div').forEach((el, idx) => {
-    const inputs = el.querySelectorAll('input');
+  document.querySelectorAll("#extras-container > div").forEach((el, idx) => {
+    const inputs = el.querySelectorAll("input");
     extras.push({
       order: idx + 1,
       song: inputs[0].value.trim(),
       feat: inputs[1].value.trim(),
       note: inputs[2].value.trim(),
       comment: inputs[3].value.trim(),
-      coverOf: inputs[4].value.trim()
+      coverOf: inputs[4].value.trim(),
     });
   });
 
@@ -2482,42 +2796,49 @@ function exportSetlistAndExtras() {
 }
 
 function exportSetlistAndExtrasFor(index = 1) {
-  const setlistCont = getEl('setlist-container', index);
-  const extrasCont = getEl('extras-container', index);
+  const setlistCont = getEl("setlist-container", index);
+  const extrasCont = getEl("extras-container", index);
 
   const setlist = [];
   if (setlistCont) {
-    setlistCont.querySelectorAll(':scope > div').forEach((el, idx) => {
-      const songInput = el.querySelector('.d-flex input.form-control.fw-bold') || el.querySelector('.d-flex input');
-      const small = el.querySelector('.d-flex.gap-1:last-child');
+    setlistCont.querySelectorAll(":scope > div").forEach((el, idx) => {
+      const songInput =
+        el.querySelector(".d-flex input.form-control.fw-bold") ||
+        el.querySelector(".d-flex input");
+      const small = el.querySelector(".d-flex.gap-1:last-child");
       const featInput = small?.querySelector('input[placeholder="feat"]');
-      const noteSelect = small?.querySelector('select');
-      const noteInputFallback = small?.querySelector('input[placeholder="note"]');
+      const noteSelect = small?.querySelector("select");
+      const noteInputFallback = small?.querySelector(
+        'input[placeholder="note"]'
+      );
       const commentInput = small?.querySelector('input[placeholder="comment"]');
       const coverInput = small?.querySelector('input[placeholder="coverOf"]');
 
       setlist.push({
         order: idx + 1,
-        song: (songInput?.value || '').trim(),
-        feat: (featInput?.value || '').trim(),
-        note: ((noteSelect?.value ?? '') || (noteInputFallback?.value ?? '')).trim(),
-        comment: (commentInput?.value || '').trim(),
-        coverOf: (coverInput?.value || '').trim()
+        song: (songInput?.value || "").trim(),
+        feat: (featInput?.value || "").trim(),
+        note: (
+          (noteSelect?.value ?? "") ||
+          (noteInputFallback?.value ?? "")
+        ).trim(),
+        comment: (commentInput?.value || "").trim(),
+        coverOf: (coverInput?.value || "").trim(),
       });
     });
   }
 
   const extras = [];
   if (extrasCont) {
-    extrasCont.querySelectorAll(':scope > div').forEach((el, idx) => {
-      const inputs = el.querySelectorAll('input');
+    extrasCont.querySelectorAll(":scope > div").forEach((el, idx) => {
+      const inputs = el.querySelectorAll("input");
       extras.push({
         order: idx + 1,
-        song: (inputs[0]?.value || '').trim(),
-        feat: (inputs[1]?.value || '').trim(),
-        note: (inputs[2]?.value || '').trim(),
-        comment: (inputs[3]?.value || '').trim(),
-        coverOf: (inputs[4]?.value || '').trim()
+        song: (inputs[0]?.value || "").trim(),
+        feat: (inputs[1]?.value || "").trim(),
+        note: (inputs[2]?.value || "").trim(),
+        comment: (inputs[3]?.value || "").trim(),
+        coverOf: (inputs[4]?.value || "").trim(),
       });
     });
   }
