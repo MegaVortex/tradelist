@@ -13,7 +13,7 @@ try {
 
   data.lastUpdated = Math.floor(Date.now() / 1000);
 
-  const out = JSON.stringify(data, null, 2) + "\n";
+  const out = JSON.stringify(data, null, 2);
   fs.writeFileSync(abs, out, "utf8");
 
   process.stdout.write(`[lastUpdated] ${abs}\n`);

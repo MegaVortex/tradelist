@@ -1,0 +1,280 @@
+{
+  "originalTitle": "Metallica - 26.03.2009 - Glasgow - Scotland - SECC (Source 1)",
+  "created": 1762551178,
+  "lastUpdated": 1762551178,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "03",
+    "year": "2009"
+  },
+  "endDate": {
+    "day": "26",
+    "month": "03",
+    "year": "2009"
+  },
+  "startDateUnix": 1238025600,
+  "endDateUnix": 1238025600,
+  "location": {
+    "city": "Glasgow",
+    "state": "",
+    "country": "Scotland",
+    "venue": "SECC",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "Norbinho",
+  "transferredBy": "",
+  "notes": "Incomplete.",
+  "tapers": [
+    "zooshows"
+  ],
+  "receivedInTrade": false,
+  "trader": "",
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.86,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2942,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MP2",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "MP2",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "videoEquipment": "",
+      "audioEquipment": "",
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "images": [
+    {
+      "folder": "2025",
+      "filename": "shot-1762550757780-3.jpg",
+      "externalId": "19c91BT4onRcwe-yKAgI1HM7cBN3nEbHw"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1762550756330-0.jpg",
+      "externalId": "1VGy6ubCOuD02DAfI7G_A1WYgbAu6kog4"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1762550757525-2.jpg",
+      "externalId": "1_IiF8KhBDvmB6Zf6yfSh2J86zFOvSOKB"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1762550757299-1.jpg",
+      "externalId": "1-HvADTlU2OtY54zVLoH6bcorEcPUK-JL"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Ecstasy of Gold",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "That Was Just Your Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The End of the Line",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "For Whom the Bell Tolls",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Of Wolf and Man",
+      "feat": "",
+      "note": "",
+      "comment": "First time played live in Scotland",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Broken, Beat & Scarred",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "My Apocalypse",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Sad but True",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Turn the Page",
+      "feat": "",
+      "note": "",
+      "comment": "First time played live in Scotland",
+      "coverOf": "Bob Seger"
+    },
+    {
+      "order": 11,
+      "song": "All Nightmare Long",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "The Day That Never Comes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Master of Puppets",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Fight Fire With Fire",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Nothing Else Matters",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 17,
+      "song": "Die, Die My Darling",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 18,
+      "song": "Trapped Under Ice",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 19,
+      "song": "Seek & Destroy",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [],
+  "relatedShows": [],
+  "childOf": ""
+}

@@ -950,7 +950,9 @@
       "metallica_20_08_2008_video",
       "metallica_22_06_2009_source_2_video",
       "metallica_31_01_2009_video",
-      "metallica_03_03_2009_source_1_video"
+      "metallica_03_03_2009_source_1_video",
+      "metallica_25_03_2009_source_2_video",
+      "metallica_26_03_2009_source_1_video"
     ]
   },
   {
@@ -1021,7 +1023,8 @@
       "ac_dc_09_12_1979_video",
       "agnostic_front_18_11_2008_video",
       "terror_10_08_2009_source_1_video",
-      "terror_13_04_2011_source_1_video"
+      "terror_13_04_2011_source_1_video",
+      "metallica_18_01_2009_source_1_video"
     ]
   },
   {
@@ -3999,10 +4002,11 @@
     ]
   },
   {
-    "name": "Livenortheast",
+    "name": "LiveNorthEast",
     "website": "",
     "shows": [
-      "korn_29_01_2011_source_1_video"
+      "korn_29_01_2011_source_1_video",
+      "metallica_18_01_2009_source_2_video"
     ]
   },
   {
@@ -10283,6 +10287,20 @@
     "website": "",
     "shows": [
       "metallica_04_11_2008_source_1_video"
+    ]
+  },
+  {
+    "name": "Matt Dawson",
+    "website": "",
+    "shows": [
+      "metallica_18_12_2008_source_2_video"
+    ]
+  },
+  {
+    "name": "Frantik2k3",
+    "website": "",
+    "shows": [
+      "metallica_18_01_2009_source_3_video"
     ]
   }
 ]
