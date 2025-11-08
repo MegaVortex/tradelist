@@ -1,16 +1,16 @@
 {% extends "base.njk" %}
 {% block title %}Vortex Trade List{% endblock %}
 {% block content %}
-<section style="margin-top: -20px;">
+<section style="margin-top: -20px;" data-testid="rules">
    <div class="focus-wrapper mb-3">
       <div class="warning-block" style="text-align: center;">
          🎭 I no longer collect other bands - <strong>Slipknot shows are my exclusive focus.</strong>
       </div>
    </div>
-   <div class="rules-and-tapers">
-      <div class="rules-wrapper">
+   <div class="rules-and-tapers" data-testid="home-sections">
+      <div class="rules-wrapper" data-testid="rules-wrapper">
          <p class="info-box">ℹ️ Kindly make sure to read the trading rules before reaching out.</p>
-         <div class="rules-tapers-block">
+         <div class="rules-tapers-block" data-testid="rules-list">
             🚫 Bootlegs are fan-made for trading only - <strong>nothing on this website is for sale or download</strong>!<br>
             🎵 Support the band by buying official releases.<br>
             📭 No more mail trades - it was fun, but that era is over.<br>
@@ -22,39 +22,39 @@
          </div>
       </div>
 
-      <div class="tapers-wrapper">
+      <div class="tapers-wrapper" data-testid="tapers-top10">
          <p class="info-box">ℹ️ Top tapers</p>
          <div class="rules-tapers-block">
            {% for item in tapersTop10 %}
-           <div class="taper-item">
+           <div class="taper-item" data-testid="taper-item" data-name="{{ item.name | safe }}">
              <span class="taper-left">
                {{ item.emoji }}
                {% if item.website %}
-                 <a class="taper-link" href="{{ item.website }}" target="_blank" rel="noopener">{{ item.name }}</a>
+                 <a class="taper-link" data-testid="taper-link" href="{{ item.website }}" target="_blank" rel="noopener">{{ item.name }}</a>
                {% else %}
                  {{ item.name }}
                {% endif %}
              </span>
-             <span class="taper-right"><strong>{{ item.count }}</strong></span>
+             <span class="taper-right" data-testid="taper-count"><strong>{{ item.count }}</strong></span>
            </div>
            {% endfor %}
          </div>
       </div>
 
-      <div class="tapers-wrapper">
+      <div class="tapers-wrapper" data-testid="traders-top10">
          <p class="info-box">ℹ️ Top traders</p>
          <div class="rules-tapers-block">
            {% for item in tradersTop10 %}
-           <div class="trader-item">
+           <div class="trader-item" data-testid="trader-item" data-name="{{ item.name | safe }}">
              <span class="trader-left">
                {{ item.emoji }}
                {% if item.website %}
-                 <a class="trader-link" href="{{ item.website }}" target="_blank" rel="noopener">{{ item.name }}</a>
+                 <a class="trader-link" data-testid="trader-link" href="{{ item.website }}" target="_blank" rel="noopener">{{ item.name }}</a>
                {% else %}
                  {{ item.name }}
                {% endif %}
              </span>
-             <span class="trader-right"><strong>{{ item.count }}</strong></span>
+             <span class="trader-right" data-testid="trader-count"><strong>{{ item.count }}</strong></span>
            </div>
            {% endfor %}
          </div>
