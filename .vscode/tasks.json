@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Dev Server: Start (node dev-server.js)",
+            "label": "Dev Server: Start (JSON editor)",
             "type": "process",
             "command": "node",
             "args": [
@@ -18,7 +18,7 @@
             "problemMatcher": []
         },
         {
-            "label": "Site: Build+Serve (one terminal)",
+            "label": "Site: Build+Serve (11ty)",
             "type": "process",
             "command": "powershell.exe",
             "args": [
@@ -37,7 +37,7 @@
             }
         },
         {
-            "label": "Tool: Start Electron (Dev)",
+            "label": "Tool: Start Electron",
             "type": "process",
             "command": "npm.cmd",
             "args": [
@@ -53,7 +53,7 @@
             "problemMatcher": []
         },
         {
-            "label": "Git: Add, Commit (prompt), Push",
+            "label": "Git: Add, Commit, Push",
             "type": "process",
             "command": "powershell.exe",
             "args": [
@@ -72,6 +72,27 @@
             "presentation": {
                 "reveal": "always",
                 "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Playwright: Run & Show Report",
+            "type": "process",
+            "command": "powershell.exe",
+            "args": [
+                "-NoProfile",
+                "-ExecutionPolicy",
+                "Bypass",
+                "-Command",
+                "npx playwright test; $code=$LASTEXITCODE; npx playwright show-report; exit $code"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true
             },
             "problemMatcher": []
         }
