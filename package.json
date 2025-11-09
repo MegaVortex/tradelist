@@ -6,7 +6,11 @@
   "scripts": {
     "build": "eleventy",
     "build:dev": "cross-env ELEVENTY_ENV=dev eleventy",
-    "serve:dev": "cross-env ELEVENTY_ENV=dev eleventy --serve"
+    "serve:dev": "cross-env ELEVENTY_ENV=dev eleventy --serve",
+    "serve:static": "npx -y http-server@14 ./public -p 8080 -c-1"
+    "test:e2e": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:update": "playwright test -u"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +18,8 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.1.0",
     "@playwright/test": "^1.56.1",
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "http-server": "^14.1.1"
   },
   "dependencies": {
     "bootstrap": "^5.3.6",
