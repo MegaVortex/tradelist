@@ -1,0 +1,41 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]: Vortex Trade List
+    - navigation [ref=e5]:
+      - link "Home" [ref=e6] [cursor=pointer]:
+        - /url: /tradelist/
+      - link "Browse Shows" [ref=e7] [cursor=pointer]:
+        - /url: /tradelist/shows/
+      - link "Various Artists" [ref=e8] [cursor=pointer]:
+        - /url: /tradelist/va/
+      - link "Compilations" [ref=e9] [cursor=pointer]:
+        - /url: /tradelist/comp/
+      - link "Updates" [ref=e10] [cursor=pointer]:
+        - /url: /tradelist/updates/
+    - button "🛒 Cart" [ref=e12] [cursor=pointer]
+  - main [ref=e13]:
+    - paragraph [ref=e16]:
+      - text: "🎫 Shows:"
+      - generic [ref=e17]: "0"
+    - table [ref=e18]:
+      - rowgroup [ref=e19]:
+        - row "Artist Date Location Length Size Format Type Source Taper(s) Pics Page 🛒" [ref=e20]:
+          - cell "Artist" [ref=e21]
+          - cell "Date" [ref=e22]
+          - cell "Location" [ref=e23]
+          - cell "Length" [ref=e24]
+          - cell "Size" [ref=e25]
+          - cell "Format" [ref=e26]
+          - cell "Type" [ref=e27]
+          - cell "Source" [ref=e28]
+          - cell "Taper(s)" [ref=e29]
+          - cell "Pics" [ref=e30]
+          - cell "Page" [ref=e31]
+          - cell "🛒" [ref=e32]
+      - rowgroup [ref=e33]:
+        - row "Loading shows…" [ref=e34]:
+          - cell "Loading shows…" [ref=e35]
+```
