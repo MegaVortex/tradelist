@@ -4,26 +4,34 @@ test.describe('Browse Shows — letter bar → band pills', () => {
   test('clicking a letter shows band pills for that bucket', async ({ page }, testInfo) => {
     test.setTimeout(60_000);
 
-    // Capture console & page errors for CI diagnostics
     const logs: string[] = [];
-    page.on('console', (m) => logs.push(`[console:${m.type()}] ${m.text()}`));
-    page.on('pageerror', (e) => logs.push(`[pageerror] ${e.message}`));
+    page.on('console', m => logs.push(`[console:${m.type()}] ${m.text()}`));
+    page.on('pageerror', e => logs.push(`[pageerror] ${e.message}`));
 
     await page.goto('/tradelist/shows/');
 
-    // Wait up to 30s for the letter links that shows-table.js builds
+    // 1) Wait until data is present (your inline script sets window.allShowsData)
+    await page.waitForFunction(
+      () => Array.isArray((window as any).allShowsData) && (window as any).allShowsData.length > 0,
+      { timeout: 30_000 }
+    );
+
+    // 2) Wait until letter bar actually has items: "All" + at least one letter
     await page.waitForFunction(() => {
-      const links = document.querySelectorAll('#letter-bar .nav-link[data-letter]');
-      return links.length >= 0; // return quickly; we'll check the count below
+      return document.querySelectorAll('#letter-bar .nav-link[data-letter]').length > 1;
     }, { timeout: 30_000 });
 
     const letterLinks = page.locator('#letter-bar .nav-link[data-letter]');
     const letterCount = await letterLinks.count();
 
     if (letterCount <= 1) {
-      // We expected: "All" + at least one letter. Gather diagnostics.
-      const html = await page.locator('#letter-bar').evaluate(el => el.outerHTML).catch(() => 'No #letter-bar');
-      const countFromWindow = await page.evaluate(() => (globalThis as any).allShowsData?.length ?? null).catch(() => null);
+      // Use page.evaluate() so it doesn't wait for the element
+      const html = await page.evaluate(() =>
+        document.getElementById('letter-bar')?.outerHTML ?? 'No #letter-bar'
+      );
+      const countFromWindow = await page.evaluate(() =>
+        (window as any).allShowsData?.length ?? null
+      );
 
       await testInfo.attach('letter-bar.html', { body: html, contentType: 'text/html' });
       await testInfo.attach('console.log', { body: logs.join('\n') || '(no console output)', contentType: 'text/plain' });
@@ -32,12 +40,11 @@ test.describe('Browse Shows — letter bar → band pills', () => {
       test.skip(`No letters rendered in CI (letters=${letterCount}). Possible empty allShowsData (len=${countFromWindow}).`);
     }
 
-    // Pick the first real letter (skip "all")
+    // Pick first real letter (skip "all")
     const firstLetterLink = page.locator('#letter-bar .nav-link[data-letter]:not([data-letter="all"])').first();
     const selectedLetter = (await firstLetterLink.getAttribute('data-letter')) || '';
     await firstLetterLink.click();
 
-    // Band pills should appear
     const bandPillsWrap = page.locator('#band-pills');
     await expect(bandPillsWrap).toBeVisible({ timeout: 15_000 });
 
@@ -45,7 +52,6 @@ test.describe('Browse Shows — letter bar → band pills', () => {
     const pillCount = await bandPills.count();
     expect(pillCount).toBeGreaterThanOrEqual(1);
 
-    // Soft check: at least one pill fits the bucket
     const names = await bandPills.allTextContents();
     if (selectedLetter !== '#') {
       const anyMatches = names.some(n => (n?.trim()?.[0] || '').toUpperCase() === selectedLetter.toUpperCase());
