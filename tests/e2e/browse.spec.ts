@@ -10,41 +10,22 @@ test.describe('Browse Shows — letter bar → band pills', () => {
 
     await page.goto('/tradelist/shows/');
 
-    // 1) Wait until data is present (your inline script sets window.allShowsData)
-    await page.waitForFunction(
-      () => Array.isArray((window as any).allShowsData) && (window as any).allShowsData.length > 0,
-      { timeout: 30_000 }
-    );
+    // 1) Wait for the container to render (no JS function)
+    const letterBar = page.locator('#letter-bar');
+    await expect(letterBar).toBeVisible({ timeout: 30_000 });
 
-    // 2) Wait until letter bar actually has items: "All" + at least one letter
-    await page.waitForFunction(() => {
-      return document.querySelectorAll('#letter-bar .nav-link[data-letter]').length > 1;
-    }, { timeout: 30_000 });
-
+    // 2) Wait until it actually has links: "All" + at least one letter
     const letterLinks = page.locator('#letter-bar .nav-link[data-letter]');
-    const letterCount = await letterLinks.count();
-
-    if (letterCount <= 1) {
-      // Use page.evaluate() so it doesn't wait for the element
-      const html = await page.evaluate(() =>
-        document.getElementById('letter-bar')?.outerHTML ?? 'No #letter-bar'
-      );
-      const countFromWindow = await page.evaluate(() =>
-        (window as any).allShowsData?.length ?? null
-      );
-
-      await testInfo.attach('letter-bar.html', { body: html, contentType: 'text/html' });
-      await testInfo.attach('console.log', { body: logs.join('\n') || '(no console output)', contentType: 'text/plain' });
-      await testInfo.attach('window.allShowsData.length.txt', { body: String(countFromWindow), contentType: 'text/plain' });
-
-      test.skip(`No letters rendered in CI (letters=${letterCount}). Possible empty allShowsData (len=${countFromWindow}).`);
-    }
+    await expect.poll(async () => await letterLinks.count(), {
+      timeout: 30_000,
+    }).toBeGreaterThan(1);
 
     // Pick first real letter (skip "all")
     const firstLetterLink = page.locator('#letter-bar .nav-link[data-letter]:not([data-letter="all"])').first();
     const selectedLetter = (await firstLetterLink.getAttribute('data-letter')) || '';
     await firstLetterLink.click();
 
+    // Band pills visible
     const bandPillsWrap = page.locator('#band-pills');
     await expect(bandPillsWrap).toBeVisible({ timeout: 15_000 });
 
