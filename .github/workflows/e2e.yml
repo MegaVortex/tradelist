@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Wait a bit for Pages to propagate
-        run: sleep 300
+        run: sleep 60
 
       - name: Checkout
         uses: actions/checkout@v4
