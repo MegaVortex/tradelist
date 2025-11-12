@@ -1,0 +1,2799 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]: Vortex Trade List
+    - navigation [ref=e5]:
+      - link "Home" [ref=e6] [cursor=pointer]:
+        - /url: /tradelist/
+      - link "Browse Shows" [ref=e7] [cursor=pointer]:
+        - /url: /tradelist/shows/
+      - link "Various Artists" [ref=e8] [cursor=pointer]:
+        - /url: /tradelist/va/
+      - link "Compilations" [ref=e9] [cursor=pointer]:
+        - /url: /tradelist/comp/
+      - link "Updates" [ref=e10] [cursor=pointer]:
+        - /url: /tradelist/updates/
+    - button "🛒 Cart" [ref=e12] [cursor=pointer]
+  - main [ref=e13]:
+    - generic [ref=e14]:
+      - list [ref=e16]:
+        - listitem [ref=e17]:
+          - link "All" [ref=e18] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e19]:
+          - link "#" [active] [ref=e20] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e21]:
+          - link "A" [ref=e22] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e23]:
+          - link "B" [ref=e24] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e25]:
+          - link "C" [ref=e26] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e27]:
+          - link "D" [ref=e28] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e29]:
+          - link "E" [ref=e30] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e31]:
+          - link "F" [ref=e32] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e33]:
+          - link "G" [ref=e34] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e35]:
+          - link "H" [ref=e36] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e37]:
+          - link "I" [ref=e38] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e39]:
+          - link "J" [ref=e40] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e41]:
+          - link "K" [ref=e42] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e43]:
+          - link "L" [ref=e44] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e45]:
+          - link "M" [ref=e46] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e47]:
+          - link "N" [ref=e48] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e49]:
+          - link "O" [ref=e50] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e51]:
+          - link "P" [ref=e52] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e53]:
+          - link "Q" [ref=e54] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e55]:
+          - link "R" [ref=e56] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e57]:
+          - link "S" [ref=e58] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e59]:
+          - link "T" [ref=e60] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e61]:
+          - link "U" [ref=e62] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e63]:
+          - link "V" [ref=e64] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e65]:
+          - link "W" [ref=e66] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e67]:
+          - link "Y" [ref=e68] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e69]:
+          - link "Z" [ref=e70] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e71]:
+        - generic [ref=e72] [cursor=pointer]: "'Weird Al' Yankovic"
+        - generic [ref=e73] [cursor=pointer]: (Hed) Planet Earth
+        - generic [ref=e74] [cursor=pointer]: ...And You Will Know Us By The Trail Of Dead
+        - generic [ref=e75] [cursor=pointer]: 1994!
+        - generic [ref=e76] [cursor=pointer]: 3 Doors Down
+        - generic [ref=e77] [cursor=pointer]: 3 Miles Screams
+        - generic [ref=e78] [cursor=pointer]: 30 Seconds To Mars
+        - generic [ref=e79] [cursor=pointer]: 36 Crazyfists
+        - generic [ref=e80] [cursor=pointer]: 65daysofstatic
+        - generic [ref=e81] [cursor=pointer]: Агата Кристи
+        - generic [ref=e82] [cursor=pointer]: Аквариум
+        - generic [ref=e83] [cursor=pointer]: Алик Южный
+        - generic [ref=e84] [cursor=pointer]: Алиса
+        - generic [ref=e85] [cursor=pointer]: Взрыв Кабачка В Коляске С Поносом
+        - generic [ref=e86] [cursor=pointer]: Вирус
+        - generic [ref=e87] [cursor=pointer]: Вячеслав Бутусов
+        - generic [ref=e88] [cursor=pointer]: Гражданская Оборона
+        - generic [ref=e89] [cursor=pointer]: Дельфин
+        - generic [ref=e90] [cursor=pointer]: Демо
+        - generic [ref=e91] [cursor=pointer]: Егор Летов
+        - generic [ref=e92] [cursor=pointer]: Записки Неизвестного
+        - generic [ref=e93] [cursor=pointer]: Иванушки International
+        - generic [ref=e94] [cursor=pointer]: Игорь Растеряев
+        - generic [ref=e95] [cursor=pointer]: Кай Метов
+        - generic [ref=e96] [cursor=pointer]: Комбинация
+        - generic [ref=e97] [cursor=pointer]: Король И Шут
+        - generic [ref=e98] [cursor=pointer]: Кувалда
+        - generic [ref=e99] [cursor=pointer]: Ленинград
+        - generic [ref=e100] [cursor=pointer]: Океан Ельзи
+        - generic [ref=e101] [cursor=pointer]: Руки Вверх!
+        - generic [ref=e102] [cursor=pointer]: Фиолетовый Пёс
+        - generic [ref=e103] [cursor=pointer]: Чайф
+        - generic [ref=e104] [cursor=pointer]: Чиж & Co.
+        - generic [ref=e105] [cursor=pointer]: Ю-Питер
+    - paragraph [ref=e107]:
+      - text: "🎫 Shows:"
+      - generic [ref=e108]: "129"
+    - table [ref=e109]:
+      - rowgroup [ref=e110]:
+        - row "Artist Date Location Length Size Format Type Source Taper(s) Pics Page 🛒" [ref=e111]:
+          - cell "Artist" [ref=e112]
+          - cell "Date" [ref=e113]
+          - cell "Location" [ref=e114]
+          - cell "Length" [ref=e115]
+          - cell "Size" [ref=e116]
+          - cell "Format" [ref=e117]
+          - cell "Type" [ref=e118]
+          - cell "Source" [ref=e119]
+          - cell "Taper(s)" [ref=e120]
+          - cell "Pics" [ref=e121]
+          - cell "Page" [ref=e122]
+          - cell "🛒" [ref=e123]
+      - rowgroup [ref=e124]:
+        - row "🎸 'Weird Al' Yankovic" [ref=e125]:
+          - cell "🎸 'Weird Al' Yankovic" [ref=e126]
+        - row "'Weird Al' Yankovic 2010-09-01 St. Paul, MN, USA 01:07:07 3.70Gb DVD SD AMT v — MNpyroMN 📷 🎫 ➕ ✏️" [ref=e127]:
+          - cell "'Weird Al' Yankovic" [ref=e128]
+          - cell "2010-09-01" [ref=e129]
+          - cell "St. Paul, MN, USA" [ref=e130]
+          - cell "01:07:07" [ref=e131]
+          - cell "3.70Gb" [ref=e132]:
+            - generic [ref=e134]: 3.70Gb
+          - cell "DVD SD" [ref=e135]:
+            - text: DVD
+            - generic:
+              - generic "720×480": SD
+          - cell "AMT v" [ref=e136]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e137]
+          - cell "MNpyroMN" [ref=e138]:
+            - generic [ref=e140]: MNpyroMN
+          - cell "📷" [ref=e141]:
+            - button "📷" [ref=e142] [cursor=pointer]
+          - cell "🎫" [ref=e143]:
+            - link "🎫" [ref=e144] [cursor=pointer]:
+              - /url: /tradelist/shows/weird_al_yankovic_01_09_2010_video/
+          - cell "➕" [ref=e145]:
+            - button "➕" [ref=e146] [cursor=pointer]
+          - cell "✏️" [ref=e147]:
+            - button "✏️" [ref=e148] [cursor=pointer]
+        - row "'Weird Al' Yankovic — USA 00:44:46 2.99Gb DVD SD PRO m — — 📷 🎫 ➕ ✏️" [ref=e149]:
+          - cell "'Weird Al' Yankovic" [ref=e150]
+          - cell "—" [ref=e151]
+          - cell "USA" [ref=e152]
+          - cell "00:44:46" [ref=e153]
+          - cell "2.99Gb" [ref=e154]:
+            - generic [ref=e156]: 2.99Gb
+          - cell "DVD SD" [ref=e157]:
+            - text: DVD
+            - generic:
+              - generic "720×480": SD
+          - cell "PRO m" [ref=e158]:
+            - text: PRO
+            - generic: m
+          - cell "—" [ref=e159]
+          - cell "—" [ref=e160]
+          - cell "📷" [ref=e161]:
+            - button "📷" [ref=e162] [cursor=pointer]
+          - cell "🎫" [ref=e163]:
+            - link "🎫" [ref=e164] [cursor=pointer]:
+              - /url: /tradelist/shows/weird_al_yankovic_xx_xx_xxxx_usa_bio_channel_tv_documentary_video_misc/
+          - cell "➕" [ref=e165]:
+            - button "➕" [ref=e166] [cursor=pointer]
+          - cell "✏️" [ref=e167]:
+            - button "✏️" [ref=e168] [cursor=pointer]
+        - row "🎸 (Hed) Planet Earth" [ref=e169]:
+          - cell "🎸 (Hed) Planet Earth" [ref=e170]
+        - row "(Hed) Planet Earth 2012-04-03 Moscow, Russia 01:20:07 4.06Gb MKV HD AMT v — psinka 📷 🎫 ➕ ✏️" [ref=e171]:
+          - cell "(Hed) Planet Earth" [ref=e172]
+          - cell "2012-04-03" [ref=e173]
+          - cell "Moscow, Russia" [ref=e174]
+          - cell "01:20:07" [ref=e175]
+          - cell "4.06Gb" [ref=e176]:
+            - generic [ref=e178]: 4.06Gb
+          - cell "MKV HD" [ref=e179]:
+            - text: MKV
+            - generic:
+              - generic "1280×720": HD
+          - cell "AMT v" [ref=e180]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e181]
+          - cell "psinka" [ref=e182]:
+            - generic [ref=e184]: psinka
+          - cell "📷" [ref=e185]:
+            - button "📷" [ref=e186] [cursor=pointer]
+          - cell "🎫" [ref=e187]:
+            - link "🎫" [ref=e188] [cursor=pointer]:
+              - /url: /tradelist/shows/hed_planet_earth_03_04_2012_video/
+          - cell "➕" [ref=e189]:
+            - button "➕" [ref=e190] [cursor=pointer]
+          - cell "✏️" [ref=e191]:
+            - button "✏️" [ref=e192] [cursor=pointer]
+        - row "(Hed) Planet Earth 2010-03-19 Antwerp, Belgium 00:22:21 1.45Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e193]:
+          - cell "(Hed) Planet Earth" [ref=e194]
+          - cell "2010-03-19" [ref=e195]
+          - cell "Antwerp, Belgium" [ref=e196]
+          - cell "00:22:21" [ref=e197]
+          - cell "1.45Gb" [ref=e198]:
+            - generic [ref=e200]: 1.45Gb
+          - cell "DVD SD" [ref=e201]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e202]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e203]
+          - cell "—" [ref=e204]
+          - cell "📷" [ref=e205]:
+            - button "📷" [ref=e206] [cursor=pointer]
+          - cell "🎫" [ref=e207]:
+            - link "🎫" [ref=e208] [cursor=pointer]:
+              - /url: /tradelist/shows/hed_planet_earth_19_03_2010_video/
+          - cell "➕" [ref=e209]:
+            - button "➕" [ref=e210] [cursor=pointer]
+          - cell "✏️" [ref=e211]:
+            - button "✏️" [ref=e212] [cursor=pointer]
+        - row "(Hed) Planet Earth 2001-01-25 Amsterdam, Netherlands 00:43:36 2.83Gb DVD SD PRO v — — 📷 🎫 ➕ ✏️" [ref=e213]:
+          - cell "(Hed) Planet Earth" [ref=e214]
+          - cell "2001-01-25" [ref=e215]
+          - cell "Amsterdam, Netherlands" [ref=e216]
+          - cell "00:43:36" [ref=e217]
+          - cell "2.83Gb" [ref=e218]:
+            - generic [ref=e220]: 2.83Gb
+          - cell "DVD SD" [ref=e221]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "PRO v" [ref=e222]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e223]
+          - cell "—" [ref=e224]
+          - cell "📷" [ref=e225]:
+            - button "📷" [ref=e226] [cursor=pointer]
+          - cell "🎫" [ref=e227]:
+            - link "🎫" [ref=e228] [cursor=pointer]:
+              - /url: /tradelist/shows/hed_planet_earth_25_01_2001_video/
+          - cell "➕" [ref=e229]:
+            - button "➕" [ref=e230] [cursor=pointer]
+          - cell "✏️" [ref=e231]:
+            - button "✏️" [ref=e232] [cursor=pointer]
+        - row "(Hed) Planet Earth 1998-06-04 Cologne, Germany 00:55:12 1.82Gb DVD SD PRO v — — 📷 🎫 ➕ ✏️" [ref=e233]:
+          - cell "(Hed) Planet Earth" [ref=e234]
+          - cell "1998-06-04" [ref=e235]
+          - cell "Cologne, Germany" [ref=e236]
+          - cell "00:55:12" [ref=e237]
+          - cell "1.82Gb" [ref=e238]:
+            - generic [ref=e240]: 1.82Gb
+          - cell "DVD SD" [ref=e241]:
+            - text: DVD
+            - generic:
+              - generic "704×480": SD
+          - cell "PRO v" [ref=e242]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e243]
+          - cell "—" [ref=e244]
+          - cell "📷" [ref=e245]:
+            - button "📷" [ref=e246] [cursor=pointer]
+          - cell "🎫" [ref=e247]:
+            - link "🎫" [ref=e248] [cursor=pointer]:
+              - /url: /tradelist/shows/hed_planet_earth_04_06_1998_video/
+          - cell "➕" [ref=e249]:
+            - button "➕" [ref=e250] [cursor=pointer]
+          - cell "✏️" [ref=e251]:
+            - button "✏️" [ref=e252] [cursor=pointer]
+        - row "(Hed) Planet Earth 1998-01-31 Tempe, AZ, USA 00:55:12 1.82Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e253]:
+          - cell "(Hed) Planet Earth" [ref=e254]
+          - cell "1998-01-31" [ref=e255]
+          - cell "Tempe, AZ, USA" [ref=e256]
+          - cell "00:55:12" [ref=e257]
+          - cell "1.82Gb" [ref=e258]:
+            - generic [ref=e260]: 1.82Gb
+          - cell "DVD SD" [ref=e261]:
+            - text: DVD
+            - generic:
+              - generic "704×480": SD
+          - cell "AMT v" [ref=e262]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e263]
+          - cell "—" [ref=e264]
+          - cell "📷" [ref=e265]:
+            - button "📷" [ref=e266] [cursor=pointer]
+          - cell "🎫" [ref=e267]:
+            - link "🎫" [ref=e268] [cursor=pointer]:
+              - /url: /tradelist/shows/hed_planet_earth_31_01_1998_video/
+          - cell "➕" [ref=e269]:
+            - button "➕" [ref=e270] [cursor=pointer]
+          - cell "✏️" [ref=e271]:
+            - button "✏️" [ref=e272] [cursor=pointer]
+        - row "🎸 ...And You Will Know Us By The Trail Of Dead" [ref=e273]:
+          - cell "🎸 ...And You Will Know Us By The Trail Of Dead" [ref=e274]
+        - row "...And You Will Know Us By The Trail Of Dead 2013-03-23 Bonn, Germany 00:44:08 2.85Gb DVD SD PRO v Source 1 — 📷 🎫 ➕ ✏️" [ref=e275]:
+          - cell "...And You Will Know Us By The Trail Of Dead" [ref=e276]
+          - cell "2013-03-23" [ref=e277]
+          - cell "Bonn, Germany" [ref=e278]
+          - cell "00:44:08" [ref=e279]
+          - cell "2.85Gb" [ref=e280]:
+            - generic [ref=e282]: 2.85Gb
+          - cell "DVD SD" [ref=e283]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "PRO v" [ref=e284]:
+            - text: PRO
+            - generic: v
+          - cell "Source 1" [ref=e285]
+          - cell "—" [ref=e286]
+          - cell "📷" [ref=e287]:
+            - button "📷" [ref=e288] [cursor=pointer]
+          - cell "🎫" [ref=e289]:
+            - link "🎫" [ref=e290] [cursor=pointer]:
+              - /url: /tradelist/shows/and_you_will_know_us_by_the_trail_of_dead_23_03_2013_source_1_video/
+          - cell "➕" [ref=e291]:
+            - button "➕" [ref=e292] [cursor=pointer]
+          - cell "✏️" [ref=e293]:
+            - button "✏️" [ref=e294] [cursor=pointer]
+        - row "...And You Will Know Us By The Trail Of Dead 2013-03-23 Bonn, Germany 01:13:52 4.78Gb MKV HD PRO v Source 2 — 📷 🎫 ➕ ✏️" [ref=e295]:
+          - cell "...And You Will Know Us By The Trail Of Dead" [ref=e296]
+          - cell "2013-03-23" [ref=e297]
+          - cell "Bonn, Germany" [ref=e298]
+          - cell "01:13:52" [ref=e299]
+          - cell "4.78Gb" [ref=e300]:
+            - generic [ref=e302]: 4.78Gb
+          - cell "MKV HD" [ref=e303]:
+            - text: MKV
+            - generic:
+              - generic "1280×720": HD
+          - cell "PRO v" [ref=e304]:
+            - text: PRO
+            - generic: v
+          - cell "Source 2" [ref=e305]
+          - cell "—" [ref=e306]
+          - cell "📷" [ref=e307]:
+            - button "📷" [ref=e308] [cursor=pointer]
+          - cell "🎫" [ref=e309]:
+            - link "🎫" [ref=e310] [cursor=pointer]:
+              - /url: /tradelist/shows/and_you_will_know_us_by_the_trail_of_dead_23_03_2013_source_2_video/
+          - cell "➕" [ref=e311]:
+            - button "➕" [ref=e312] [cursor=pointer]
+          - cell "✏️" [ref=e313]:
+            - button "✏️" [ref=e314] [cursor=pointer]
+        - row "...And You Will Know Us By The Trail Of Dead 2012-03-13 Austin, TX, USA 00:42:50 1.63Gb DVD SD PRO v — — 📷 🎫 ➕ ✏️" [ref=e315]:
+          - cell "...And You Will Know Us By The Trail Of Dead" [ref=e316]
+          - cell "2012-03-13" [ref=e317]
+          - cell "Austin, TX, USA" [ref=e318]
+          - cell "00:42:50" [ref=e319]
+          - cell "1.63Gb" [ref=e320]:
+            - generic [ref=e322]: 1.63Gb
+          - cell "DVD SD" [ref=e323]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "PRO v" [ref=e324]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e325]
+          - cell "—" [ref=e326]
+          - cell "📷" [ref=e327]:
+            - button "📷" [ref=e328] [cursor=pointer]
+          - cell "🎫" [ref=e329]:
+            - link "🎫" [ref=e330] [cursor=pointer]:
+              - /url: /tradelist/shows/and_you_will_know_us_by_the_trail_of_dead_13_03_2012_video/
+          - cell "➕" [ref=e331]:
+            - button "➕" [ref=e332] [cursor=pointer]
+          - cell "✏️" [ref=e333]:
+            - button "✏️" [ref=e334] [cursor=pointer]
+        - row "...And You Will Know Us By The Trail Of Dead 1999-09-03 Austin, TX, USA 01:13:55 3.42Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e335]:
+          - cell "...And You Will Know Us By The Trail Of Dead" [ref=e336]
+          - cell "1999-09-03" [ref=e337]
+          - cell "Austin, TX, USA" [ref=e338]
+          - cell "01:13:55" [ref=e339]
+          - cell "3.42Gb" [ref=e340]:
+            - generic [ref=e342]: 3.42Gb
+          - cell "DVD SD" [ref=e343]:
+            - text: DVD
+            - generic:
+              - generic "720×480": SD
+          - cell "AMT v" [ref=e344]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e345]
+          - cell "—" [ref=e346]
+          - cell "📷" [ref=e347]:
+            - button "📷" [ref=e348] [cursor=pointer]
+          - cell "🎫" [ref=e349]:
+            - link "🎫" [ref=e350] [cursor=pointer]:
+              - /url: /tradelist/shows/and_you_will_know_us_by_the_trail_of_dead_03_09_1999_video/
+          - cell "➕" [ref=e351]:
+            - button "➕" [ref=e352] [cursor=pointer]
+          - cell "✏️" [ref=e353]:
+            - button "✏️" [ref=e354] [cursor=pointer]
+        - row "...And You Will Know Us By The Trail Of Dead 1999-02-12 Austin, TX, USA 01:13:55 3.42Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e355]:
+          - cell "...And You Will Know Us By The Trail Of Dead" [ref=e356]
+          - cell "1999-02-12" [ref=e357]
+          - cell "Austin, TX, USA" [ref=e358]
+          - cell "01:13:55" [ref=e359]
+          - cell "3.42Gb" [ref=e360]:
+            - generic [ref=e362]: 3.42Gb
+          - cell "DVD SD" [ref=e363]:
+            - text: DVD
+            - generic:
+              - generic "720×480": SD
+          - cell "AMT v" [ref=e364]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e365]
+          - cell "—" [ref=e366]
+          - cell "📷" [ref=e367]:
+            - button "📷" [ref=e368] [cursor=pointer]
+          - cell "🎫" [ref=e369]:
+            - link "🎫" [ref=e370] [cursor=pointer]:
+              - /url: /tradelist/shows/and_you_will_know_us_by_the_trail_of_dead_12_02_1999_video/
+          - cell "➕" [ref=e371]:
+            - button "➕" [ref=e372] [cursor=pointer]
+          - cell "✏️" [ref=e373]:
+            - button "✏️" [ref=e374] [cursor=pointer]
+        - row "🎸 1994!" [ref=e375]:
+          - cell "🎸 1994!" [ref=e376]
+        - row "1994! 2011-01-08 Chicago, IL, USA 00:22:04 1.42Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e377]:
+          - cell "1994!" [ref=e378]
+          - cell "2011-01-08" [ref=e379]
+          - cell "Chicago, IL, USA" [ref=e380]
+          - cell "00:22:04" [ref=e381]
+          - cell "1.42Gb" [ref=e382]:
+            - generic [ref=e384]: 1.42Gb
+          - cell "DVD SD" [ref=e385]:
+            - text: DVD
+            - generic:
+              - generic "720×480": SD
+          - cell "AMT v" [ref=e386]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e387]
+          - cell "—" [ref=e388]
+          - cell "📷" [ref=e389]:
+            - button "📷" [ref=e390] [cursor=pointer]
+          - cell "🎫" [ref=e391]:
+            - link "🎫" [ref=e392] [cursor=pointer]:
+              - /url: /tradelist/shows/1994_08_01_2011_video/
+          - cell "➕" [ref=e393]:
+            - button "➕" [ref=e394] [cursor=pointer]
+          - cell "✏️" [ref=e395]:
+            - button "✏️" [ref=e396] [cursor=pointer]
+        - row "1994! 2010-04-09 Cambridge, MA, USA 00:21:35 1.39Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e397]:
+          - cell "1994!" [ref=e398]
+          - cell "2010-04-09" [ref=e399]
+          - cell "Cambridge, MA, USA" [ref=e400]
+          - cell "00:21:35" [ref=e401]
+          - cell "1.39Gb" [ref=e402]:
+            - generic [ref=e404]: 1.39Gb
+          - cell "DVD SD" [ref=e405]:
+            - text: DVD
+            - generic:
+              - generic "720×480": SD
+          - cell "AMT v" [ref=e406]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e407]
+          - cell "—" [ref=e408]
+          - cell "📷" [ref=e409]:
+            - button "📷" [ref=e410] [cursor=pointer]
+          - cell "🎫" [ref=e411]:
+            - link "🎫" [ref=e412] [cursor=pointer]:
+              - /url: /tradelist/shows/1994_09_04_2010_video/
+          - cell "➕" [ref=e413]:
+            - button "➕" [ref=e414] [cursor=pointer]
+          - cell "✏️" [ref=e415]:
+            - button "✏️" [ref=e416] [cursor=pointer]
+        - row "🎸 3 Doors Down" [ref=e417]:
+          - cell "🎸 3 Doors Down" [ref=e418]
+        - row "3 Doors Down 2013-06-14 Donington, England 03:45:11 25.5Gb TS FHD PRO v — — 📷 🎫 ➕ ✏️" [ref=e419]:
+          - cell "3 Doors Down" [ref=e420]
+          - cell "2013-06-14" [ref=e421]
+          - cell "Donington, England" [ref=e422]
+          - cell "03:45:11" [ref=e423]
+          - cell "25.5Gb" [ref=e424]:
+            - generic [ref=e426]: 25.5Gb
+          - cell "TS FHD" [ref=e427]:
+            - text: TS
+            - generic:
+              - generic "1920×1080": FHD
+          - cell "PRO v" [ref=e428]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e429]
+          - cell "—" [ref=e430]
+          - cell "📷" [ref=e431]:
+            - button "📷" [ref=e432] [cursor=pointer]
+          - cell "🎫" [ref=e433]:
+            - link "🎫" [ref=e434] [cursor=pointer]:
+              - /url: /tradelist/shows/3_doors_down_14_06_2013_video/
+          - cell "➕" [ref=e435]:
+            - button "➕" [ref=e436] [cursor=pointer]
+          - cell "✏️" [ref=e437]:
+            - button "✏️" [ref=e438] [cursor=pointer]
+        - row "3 Doors Down 2012-12-11 Broomfield, CO, USA 01:15:47 9.76Gb TS FHD PRO v — — 📷 🎫 ➕ ✏️" [ref=e439]:
+          - cell "3 Doors Down" [ref=e440]
+          - cell "2012-12-11" [ref=e441]
+          - cell "Broomfield, CO, USA" [ref=e442]
+          - cell "01:15:47" [ref=e443]
+          - cell "9.76Gb" [ref=e444]:
+            - generic [ref=e446]: 9.76Gb
+          - cell "TS FHD" [ref=e447]:
+            - text: TS
+            - generic:
+              - generic "1920×1080": FHD
+          - cell "PRO v" [ref=e448]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e449]
+          - cell "—" [ref=e450]
+          - cell "📷" [ref=e451]:
+            - button "📷" [ref=e452] [cursor=pointer]
+          - cell "🎫" [ref=e453]:
+            - link "🎫" [ref=e454] [cursor=pointer]:
+              - /url: /tradelist/shows/3_doors_down_11_12_2012_video/
+          - cell "➕" [ref=e455]:
+            - button "➕" [ref=e456] [cursor=pointer]
+          - cell "✏️" [ref=e457]:
+            - button "✏️" [ref=e458] [cursor=pointer]
+        - row "🎸 3 Miles Screams" [ref=e459]:
+          - cell "🎸 3 Miles Screams" [ref=e460]
+        - row "3 Miles Screams 2005-07-12 Montreal, QC, Canada 00:18:50 3.31Gb DVD SD AMT v — NightpunX 📷 🎫 ➕ ✏️" [ref=e461]:
+          - cell "3 Miles Screams" [ref=e462]
+          - cell "2005-07-12" [ref=e463]
+          - cell "Montreal, QC, Canada" [ref=e464]
+          - cell "00:18:50" [ref=e465]
+          - cell "3.31Gb" [ref=e466]:
+            - generic [ref=e468]: 3.31Gb
+          - cell "DVD SD" [ref=e469]:
+            - text: DVD
+            - generic:
+              - generic "720×480": SD
+          - cell "AMT v" [ref=e470]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e471]
+          - cell "NightpunX" [ref=e472]:
+            - generic [ref=e474]: NightpunX
+          - cell "📷" [ref=e475]:
+            - button "📷" [ref=e476] [cursor=pointer]
+          - cell "🎫" [ref=e477]:
+            - link "🎫" [ref=e478] [cursor=pointer]:
+              - /url: /tradelist/shows/3_miles_screams_12_07_2005_video/
+          - cell "➕" [ref=e479]:
+            - button "➕" [ref=e480] [cursor=pointer]
+          - cell "✏️" [ref=e481]:
+            - button "✏️" [ref=e482] [cursor=pointer]
+        - row "🎸 30 Seconds To Mars" [ref=e483]:
+          - cell "🎸 30 Seconds To Mars" [ref=e484]
+        - row "30 Seconds To Mars 2013-09-14 Rio De Janeiro, Brazil 01:02:50 2.07Gb TS FHD PRO v Source 1 — 📷 🎫 ➕ ✏️" [ref=e485]:
+          - cell "30 Seconds To Mars" [ref=e486]
+          - cell "2013-09-14" [ref=e487]
+          - cell "Rio De Janeiro, Brazil" [ref=e488]
+          - cell "01:02:50" [ref=e489]
+          - cell "2.07Gb" [ref=e490]:
+            - generic [ref=e492]: 2.07Gb
+          - cell "TS FHD" [ref=e493]:
+            - text: TS
+            - generic:
+              - generic "1920×1080": FHD
+          - cell "PRO v" [ref=e494]:
+            - text: PRO
+            - generic: v
+          - cell "Source 1" [ref=e495]
+          - cell "—" [ref=e496]
+          - cell "📷" [ref=e497]:
+            - button "📷" [ref=e498] [cursor=pointer]
+          - cell "🎫" [ref=e499]:
+            - link "🎫" [ref=e500] [cursor=pointer]:
+              - /url: /tradelist/shows/30_seconds_to_mars_14_09_2013_source_1_video/
+          - cell "➕" [ref=e501]:
+            - button "➕" [ref=e502] [cursor=pointer]
+          - cell "✏️" [ref=e503]:
+            - button "✏️" [ref=e504] [cursor=pointer]
+        - row "30 Seconds To Mars 2013-09-14 Rio De Janeiro, Brazil 01:14:15 2.48Gb DVD SD PRO v Source 2 — 📷 🎫 ➕ ✏️" [ref=e505]:
+          - cell "30 Seconds To Mars" [ref=e506]
+          - cell "2013-09-14" [ref=e507]
+          - cell "Rio De Janeiro, Brazil" [ref=e508]
+          - cell "01:14:15" [ref=e509]
+          - cell "2.48Gb" [ref=e510]:
+            - generic [ref=e512]: 2.48Gb
+          - cell "DVD SD" [ref=e513]:
+            - text: DVD
+            - generic:
+              - generic "720×480": SD
+          - cell "PRO v" [ref=e514]:
+            - text: PRO
+            - generic: v
+          - cell "Source 2" [ref=e515]
+          - cell "—" [ref=e516]
+          - cell "📷" [ref=e517]:
+            - button "📷" [ref=e518] [cursor=pointer]
+          - cell "🎫" [ref=e519]:
+            - link "🎫" [ref=e520] [cursor=pointer]:
+              - /url: /tradelist/shows/30_seconds_to_mars_14_09_2013_source_2_video/
+          - cell "➕" [ref=e521]:
+            - button "➕" [ref=e522] [cursor=pointer]
+          - cell "✏️" [ref=e523]:
+            - button "✏️" [ref=e524] [cursor=pointer]
+        - row "30 Seconds To Mars 2013-09-14 Rio De Janeiro, Brazil 01:05:24 2.83Gb TS HD PRO v Source 3 — 📷 🎫 ➕ ✏️" [ref=e525]:
+          - cell "30 Seconds To Mars" [ref=e526]
+          - cell "2013-09-14" [ref=e527]
+          - cell "Rio De Janeiro, Brazil" [ref=e528]
+          - cell "01:05:24" [ref=e529]
+          - cell "2.83Gb" [ref=e530]:
+            - generic [ref=e532]: 2.83Gb
+          - cell "TS HD" [ref=e533]:
+            - text: TS
+            - generic:
+              - generic "1264×720": HD
+          - cell "PRO v" [ref=e534]:
+            - text: PRO
+            - generic: v
+          - cell "Source 3" [ref=e535]
+          - cell "—" [ref=e536]
+          - cell "📷" [ref=e537]:
+            - button "📷" [ref=e538] [cursor=pointer]
+          - cell "🎫" [ref=e539]:
+            - link "🎫" [ref=e540] [cursor=pointer]:
+              - /url: /tradelist/shows/30_seconds_to_mars_14_09_2013_source_3_video/
+          - cell "➕" [ref=e541]:
+            - button "➕" [ref=e542] [cursor=pointer]
+          - cell "✏️" [ref=e543]:
+            - button "✏️" [ref=e544] [cursor=pointer]
+        - row "30 Seconds To Mars 2013-06-16 Donington, England 03:45:11 25.5Gb TS FHD PRO v — — 📷 🎫 ➕ ✏️" [ref=e545]:
+          - cell "30 Seconds To Mars" [ref=e546]
+          - cell "2013-06-16" [ref=e547]
+          - cell "Donington, England" [ref=e548]
+          - cell "03:45:11" [ref=e549]
+          - cell "25.5Gb" [ref=e550]:
+            - generic [ref=e552]: 25.5Gb
+          - cell "TS FHD" [ref=e553]:
+            - text: TS
+            - generic:
+              - generic "1920×1080": FHD
+          - cell "PRO v" [ref=e554]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e555]
+          - cell "—" [ref=e556]
+          - cell "📷" [ref=e557]:
+            - button "📷" [ref=e558] [cursor=pointer]
+          - cell "🎫" [ref=e559]:
+            - link "🎫" [ref=e560] [cursor=pointer]:
+              - /url: /tradelist/shows/30_seconds_to_mars_16_06_2013_video/
+          - cell "➕" [ref=e561]:
+            - button "➕" [ref=e562] [cursor=pointer]
+          - cell "✏️" [ref=e563]:
+            - button "✏️" [ref=e564] [cursor=pointer]
+        - row "30 Seconds To Mars 2013-06-07 Nuerburg, Germany 01:22:55 3.80Gb DVD SD PRO v — — 📷 🎫 ➕ ✏️" [ref=e565]:
+          - cell "30 Seconds To Mars" [ref=e566]
+          - cell "2013-06-07" [ref=e567]
+          - cell "Nuerburg, Germany" [ref=e568]
+          - cell "01:22:55" [ref=e569]
+          - cell "3.80Gb" [ref=e570]:
+            - generic [ref=e572]: 3.80Gb
+          - cell "DVD SD" [ref=e573]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "PRO v" [ref=e574]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e575]
+          - cell "—" [ref=e576]
+          - cell "📷" [ref=e577]:
+            - button "📷" [ref=e578] [cursor=pointer]
+          - cell "🎫" [ref=e579]:
+            - link "🎫" [ref=e580] [cursor=pointer]:
+              - /url: /tradelist/shows/30_seconds_to_mars_07_06_2013_video/
+          - cell "➕" [ref=e581]:
+            - button "➕" [ref=e582] [cursor=pointer]
+          - cell "✏️" [ref=e583]:
+            - button "✏️" [ref=e584] [cursor=pointer]
+        - row "30 Seconds To Mars 2013-05-22 Burbank, CA, USA 00:04:51 145Mb MPG SD PRO v — — 📷 🎫 ➕ ✏️" [ref=e585]:
+          - cell "30 Seconds To Mars" [ref=e586]
+          - cell "2013-05-22" [ref=e587]
+          - cell "Burbank, CA, USA" [ref=e588]
+          - cell "00:04:51" [ref=e589]
+          - cell "145Mb" [ref=e590]:
+            - generic [ref=e592]: 145Mb
+          - cell "MPG SD" [ref=e593]:
+            - text: MPG
+            - generic:
+              - generic "720×576": SD
+          - cell "PRO v" [ref=e594]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e595]
+          - cell "—" [ref=e596]
+          - cell "📷" [ref=e597]:
+            - button "📷" [ref=e598] [cursor=pointer]
+          - cell "🎫" [ref=e599]:
+            - link "🎫" [ref=e600] [cursor=pointer]:
+              - /url: /tradelist/shows/30_seconds_to_mars_22_05_2013_video/
+          - cell "➕" [ref=e601]:
+            - button "➕" [ref=e602] [cursor=pointer]
+          - cell "✏️" [ref=e603]:
+            - button "✏️" [ref=e604] [cursor=pointer]
+        - row "30 Seconds To Mars 2011-07-24 Shah Alam, Malaysia 00:47:53 4.13Gb TS FHD PRO v — — 📷 🎫 ➕ ✏️" [ref=e605]:
+          - cell "30 Seconds To Mars" [ref=e606]
+          - cell "2011-07-24" [ref=e607]
+          - cell "Shah Alam, Malaysia" [ref=e608]
+          - cell "00:47:53" [ref=e609]
+          - cell "4.13Gb" [ref=e610]:
+            - generic [ref=e612]: 4.13Gb
+          - cell "TS FHD" [ref=e613]:
+            - text: TS
+            - generic:
+              - generic "1920×1080": FHD
+          - cell "PRO v" [ref=e614]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e615]
+          - cell "—" [ref=e616]
+          - cell "📷" [ref=e617]:
+            - button "📷" [ref=e618] [cursor=pointer]
+          - cell "🎫" [ref=e619]:
+            - link "🎫" [ref=e620] [cursor=pointer]:
+              - /url: /tradelist/shows/30_seconds_to_mars_24_07_2011_video/
+          - cell "➕" [ref=e621]:
+            - button "➕" [ref=e622] [cursor=pointer]
+          - cell "✏️" [ref=e623]:
+            - button "✏️" [ref=e624] [cursor=pointer]
+        - row "30 Seconds To Mars 2011-05-13 New York, NY, USA 00:22:32 2.30Gb TS FHD PRO v — — 📷 🎫 ➕ ✏️" [ref=e625]:
+          - cell "30 Seconds To Mars" [ref=e626]
+          - cell "2011-05-13" [ref=e627]
+          - cell "New York, NY, USA" [ref=e628]
+          - cell "00:22:32" [ref=e629]
+          - cell "2.30Gb" [ref=e630]:
+            - generic [ref=e632]: 2.30Gb
+          - cell "TS FHD" [ref=e633]:
+            - text: TS
+            - generic:
+              - generic "1920×1080": FHD
+          - cell "PRO v" [ref=e634]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e635]
+          - cell "—" [ref=e636]
+          - cell "📷" [ref=e637]:
+            - button "📷" [ref=e638] [cursor=pointer]
+          - cell "🎫" [ref=e639]:
+            - link "🎫" [ref=e640] [cursor=pointer]:
+              - /url: /tradelist/shows/30_seconds_to_mars_13_05_2011_video/
+          - cell "➕" [ref=e641]:
+            - button "➕" [ref=e642] [cursor=pointer]
+          - cell "✏️" [ref=e643]:
+            - button "✏️" [ref=e644] [cursor=pointer]
+        - row "30 Seconds To Mars 2011-02-18 Burbank, CA, USA 00:04:17 420Mb MPG PRO v — — 📷 🎫 ➕ ✏️" [ref=e645]:
+          - cell "30 Seconds To Mars" [ref=e646]
+          - cell "2011-02-18" [ref=e647]
+          - cell "Burbank, CA, USA" [ref=e648]
+          - cell "00:04:17" [ref=e649]
+          - cell "420Mb" [ref=e650]:
+            - generic [ref=e652]: 420Mb
+          - cell "MPG" [ref=e653]
+          - cell "PRO v" [ref=e654]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e655]
+          - cell "—" [ref=e656]
+          - cell "📷" [ref=e657]:
+            - button "📷" [ref=e658] [cursor=pointer]
+          - cell "🎫" [ref=e659]:
+            - link "🎫" [ref=e660] [cursor=pointer]:
+              - /url: /tradelist/shows/30_seconds_to_mars_18_02_2011_video/
+          - cell "➕" [ref=e661]:
+            - button "➕" [ref=e662] [cursor=pointer]
+          - cell "✏️" [ref=e663]:
+            - button "✏️" [ref=e664] [cursor=pointer]
+        - row "30 Seconds To Mars 2010-06-08 Nuernberg, Germany 00:43:46 5.62Gb TS FHD PRO v — — 📷 🎫 ➕ ✏️" [ref=e665]:
+          - cell "30 Seconds To Mars" [ref=e666]
+          - cell "2010-06-08" [ref=e667]
+          - cell "Nuernberg, Germany" [ref=e668]
+          - cell "00:43:46" [ref=e669]
+          - cell "5.62Gb" [ref=e670]:
+            - generic [ref=e672]: 5.62Gb
+          - cell "TS FHD" [ref=e673]:
+            - text: TS
+            - generic:
+              - generic "1920×1080": FHD
+          - cell "PRO v" [ref=e674]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e675]
+          - cell "—" [ref=e676]
+          - cell "📷" [ref=e677]:
+            - button "📷" [ref=e678] [cursor=pointer]
+          - cell "🎫" [ref=e679]:
+            - link "🎫" [ref=e680] [cursor=pointer]:
+              - /url: /tradelist/shows/30_seconds_to_mars_08_06_2010_video/
+          - cell "➕" [ref=e681]:
+            - button "➕" [ref=e682] [cursor=pointer]
+          - cell "✏️" [ref=e683]:
+            - button "✏️" [ref=e684] [cursor=pointer]
+        - row "30 Seconds To Mars 2006-10-15 Los Angeles, CA, USA 02:09:19 3.81Gb DVD SD PRO v — — 📷 🎫 ➕ ✏️" [ref=e685]:
+          - cell "30 Seconds To Mars" [ref=e686]
+          - cell "2006-10-15" [ref=e687]
+          - cell "Los Angeles, CA, USA" [ref=e688]
+          - cell "02:09:19" [ref=e689]
+          - cell "3.81Gb" [ref=e690]:
+            - generic [ref=e692]: 3.81Gb
+          - cell "DVD SD" [ref=e693]:
+            - text: DVD
+            - generic:
+              - generic "720×480": SD
+          - cell "PRO v" [ref=e694]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e695]
+          - cell "—" [ref=e696]
+          - cell "📷" [ref=e697]:
+            - button "📷" [ref=e698] [cursor=pointer]
+          - cell "🎫" [ref=e699]:
+            - link "🎫" [ref=e700] [cursor=pointer]:
+              - /url: /tradelist/shows/30_seconds_to_mars_15_10_2006_video/
+          - cell "➕" [ref=e701]:
+            - button "➕" [ref=e702] [cursor=pointer]
+          - cell "✏️" [ref=e703]:
+            - button "✏️" [ref=e704] [cursor=pointer]
+        - row "🎸 36 Crazyfists" [ref=e705]:
+          - cell "🎸 36 Crazyfists" [ref=e706]
+        - row "36 Crazyfists 2006-06-11 Castle Donington, England 01:56:56 3.91Gb DVD SD PRO v — — 📷 🎫 ➕ ✏️" [ref=e707]:
+          - cell "36 Crazyfists" [ref=e708]
+          - cell "2006-06-11" [ref=e709]
+          - cell "Castle Donington, England" [ref=e710]
+          - cell "01:56:56" [ref=e711]
+          - cell "3.91Gb" [ref=e712]:
+            - generic [ref=e714]: 3.91Gb
+          - cell "DVD SD" [ref=e715]:
+            - text: DVD
+            - generic:
+              - generic "704×576": SD
+          - cell "PRO v" [ref=e716]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e717]
+          - cell "—" [ref=e718]
+          - cell "📷" [ref=e719]:
+            - button "📷" [ref=e720] [cursor=pointer]
+          - cell "🎫" [ref=e721]:
+            - link "🎫" [ref=e722] [cursor=pointer]:
+              - /url: /tradelist/shows/36_crazyfists_11_06_2006_video/
+          - cell "➕" [ref=e723]:
+            - button "➕" [ref=e724] [cursor=pointer]
+          - cell "✏️" [ref=e725]:
+            - button "✏️" [ref=e726] [cursor=pointer]
+        - row "🎸 65daysofstatic" [ref=e727]:
+          - cell "🎸 65daysofstatic" [ref=e728]
+        - row "65daysofstatic 2011-11-02 Moscow, Russia 01:46:27 3.90Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e729]:
+          - cell "65daysofstatic" [ref=e730]
+          - cell "2011-11-02" [ref=e731]
+          - cell "Moscow, Russia" [ref=e732]
+          - cell "01:46:27" [ref=e733]
+          - cell "3.90Gb" [ref=e734]:
+            - generic [ref=e736]: 3.90Gb
+          - cell "DVD SD" [ref=e737]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e738]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e739]
+          - cell "—" [ref=e740]
+          - cell "📷" [ref=e741]:
+            - button "📷" [ref=e742] [cursor=pointer]
+          - cell "🎫" [ref=e743]:
+            - link "🎫" [ref=e744] [cursor=pointer]:
+              - /url: /tradelist/shows/65daysofstatic_02_11_2011_video/
+          - cell "➕" [ref=e745]:
+            - button "➕" [ref=e746] [cursor=pointer]
+          - cell "✏️" [ref=e747]:
+            - button "✏️" [ref=e748] [cursor=pointer]
+        - row "65daysofstatic 2010-09-26 Ekaterinburg, Russia 01:23:58 4.10Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e749]:
+          - cell "65daysofstatic" [ref=e750]
+          - cell "2010-09-26" [ref=e751]
+          - cell "Ekaterinburg, Russia" [ref=e752]
+          - cell "01:23:58" [ref=e753]
+          - cell "4.10Gb" [ref=e754]:
+            - generic [ref=e756]: 4.10Gb
+          - cell "DVD SD" [ref=e757]:
+            - text: DVD
+            - generic:
+              - generic "720×480": SD
+          - cell "AMT v" [ref=e758]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e759]
+          - cell "—" [ref=e760]
+          - cell "📷" [ref=e761]:
+            - button "📷" [ref=e762] [cursor=pointer]
+          - cell "🎫" [ref=e763]:
+            - link "🎫" [ref=e764] [cursor=pointer]:
+              - /url: /tradelist/shows/65daysofstatic_26_09_2010_video/
+          - cell "➕" [ref=e765]:
+            - button "➕" [ref=e766] [cursor=pointer]
+          - cell "✏️" [ref=e767]:
+            - button "✏️" [ref=e768] [cursor=pointer]
+        - row "65daysofstatic 2010-09-25 Moscow, Russia 01:13:43 4.34Gb DVD SD AMT v — zudwa 📷 🎫 ➕ ✏️" [ref=e769]:
+          - cell "65daysofstatic" [ref=e770]
+          - cell "2010-09-25" [ref=e771]
+          - cell "Moscow, Russia" [ref=e772]
+          - cell "01:13:43" [ref=e773]
+          - cell "4.34Gb" [ref=e774]:
+            - generic [ref=e776]: 4.34Gb
+          - cell "DVD SD" [ref=e777]:
+            - text: DVD
+            - generic:
+              - generic "704×576": SD
+          - cell "AMT v" [ref=e778]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e779]
+          - cell "zudwa" [ref=e780]:
+            - generic [ref=e782]: zudwa
+          - cell "📷" [ref=e783]:
+            - button "📷" [ref=e784] [cursor=pointer]
+          - cell "🎫" [ref=e785]:
+            - link "🎫" [ref=e786] [cursor=pointer]:
+              - /url: /tradelist/shows/65daysofstatic_25_09_2010_video/
+          - cell "➕" [ref=e787]:
+            - button "➕" [ref=e788] [cursor=pointer]
+          - cell "✏️" [ref=e789]:
+            - button "✏️" [ref=e790] [cursor=pointer]
+        - row "65daysofstatic 2010-09-24 St. Petersburg, Russia 01:39:11 3.22Gb +1 DVD SD AMT v Source 1 Denstein 📷 🎫 ➕ ✏️" [ref=e791]:
+          - cell "65daysofstatic" [ref=e792]
+          - cell "2010-09-24" [ref=e793]
+          - cell "St. Petersburg, Russia" [ref=e794]
+          - cell "01:39:11" [ref=e795]
+          - cell "3.22Gb +1" [ref=e796]:
+            - generic [ref=e797]:
+              - generic [ref=e798]: 3.22Gb
+              - button "+1" [ref=e799] [cursor=pointer]
+          - cell "DVD SD" [ref=e800]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e801]:
+            - text: AMT
+            - generic: v
+          - cell "Source 1" [ref=e802]
+          - cell "Denstein" [ref=e803]:
+            - generic [ref=e805]: Denstein
+          - cell "📷" [ref=e806]:
+            - button "📷" [ref=e807] [cursor=pointer]
+          - cell "🎫" [ref=e808]:
+            - link "🎫" [ref=e809] [cursor=pointer]:
+              - /url: /tradelist/shows/65daysofstatic_24_09_2010_source_1_video/
+          - cell "➕" [ref=e810]:
+            - button "➕" [ref=e811] [cursor=pointer]
+          - cell "✏️" [ref=e812]:
+            - button "✏️" [ref=e813] [cursor=pointer]
+        - row "65daysofstatic 2010-09-24 St. Petersburg, Russia 01:31:06 4.13Gb DVD SD AMT v Source 2 Sorgnatt 📷 🎫 ➕ ✏️" [ref=e814]:
+          - cell "65daysofstatic" [ref=e815]
+          - cell "2010-09-24" [ref=e816]
+          - cell "St. Petersburg, Russia" [ref=e817]
+          - cell "01:31:06" [ref=e818]
+          - cell "4.13Gb" [ref=e819]:
+            - generic [ref=e821]: 4.13Gb
+          - cell "DVD SD" [ref=e822]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e823]:
+            - text: AMT
+            - generic: v
+          - cell "Source 2" [ref=e824]
+          - cell "Sorgnatt" [ref=e825]:
+            - generic [ref=e827]: Sorgnatt
+          - cell "📷" [ref=e828]:
+            - button "📷" [ref=e829] [cursor=pointer]
+          - cell "🎫" [ref=e830]:
+            - link "🎫" [ref=e831] [cursor=pointer]:
+              - /url: /tradelist/shows/65daysofstatic_24_09_2010_source_2_video/
+          - cell "➕" [ref=e832]:
+            - button "➕" [ref=e833] [cursor=pointer]
+          - cell "✏️" [ref=e834]:
+            - button "✏️" [ref=e835] [cursor=pointer]
+        - row "65daysofstatic 2010-04-09 Dortmund, Germany 01:26:44 4.35Gb DVD SD AMT v — DaGobert 📷 🎫 ➕ ✏️" [ref=e836]:
+          - cell "65daysofstatic" [ref=e837]
+          - cell "2010-04-09" [ref=e838]
+          - cell "Dortmund, Germany" [ref=e839]
+          - cell "01:26:44" [ref=e840]
+          - cell "4.35Gb" [ref=e841]:
+            - generic [ref=e843]: 4.35Gb
+          - cell "DVD SD" [ref=e844]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e845]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e846]
+          - cell "DaGobert" [ref=e847]:
+            - generic [ref=e849]: DaGobert
+          - cell "📷" [ref=e850]:
+            - button "📷" [ref=e851] [cursor=pointer]
+          - cell "🎫" [ref=e852]:
+            - link "🎫" [ref=e853] [cursor=pointer]:
+              - /url: /tradelist/shows/65daysofstatic_09_04_2010_video/
+          - cell "➕" [ref=e854]:
+            - button "➕" [ref=e855] [cursor=pointer]
+          - cell "✏️" [ref=e856]:
+            - button "✏️" [ref=e857] [cursor=pointer]
+        - row "65daysofstatic 2009-05-30 St. Petersburg, Russia 01:14:14 2.08Gb DVD SD AMT v Source 1 Strah81 📷 🎫 ➕ ✏️" [ref=e858]:
+          - cell "65daysofstatic" [ref=e859]
+          - cell "2009-05-30" [ref=e860]
+          - cell "St. Petersburg, Russia" [ref=e861]
+          - cell "01:14:14" [ref=e862]
+          - cell "2.08Gb" [ref=e863]:
+            - generic [ref=e865]: 2.08Gb
+          - cell "DVD SD" [ref=e866]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e867]:
+            - text: AMT
+            - generic: v
+          - cell "Source 1" [ref=e868]
+          - cell "Strah81" [ref=e869]:
+            - generic [ref=e871]: Strah81
+          - cell "📷" [ref=e872]:
+            - button "📷" [ref=e873] [cursor=pointer]
+          - cell "🎫" [ref=e874]:
+            - link "🎫" [ref=e875] [cursor=pointer]:
+              - /url: /tradelist/shows/65daysofstatic_30_05_2009_source_1_video/
+          - cell "➕" [ref=e876]:
+            - button "➕" [ref=e877] [cursor=pointer]
+          - cell "✏️" [ref=e878]:
+            - button "✏️" [ref=e879] [cursor=pointer]
+        - row "65daysofstatic 2009-05-30 St. Petersburg, Russia 01:25:08 4.13Gb DVD SD AMT v Source 2 Watery 📷 🎫 ➕ ✏️" [ref=e880]:
+          - cell "65daysofstatic" [ref=e881]
+          - cell "2009-05-30" [ref=e882]
+          - cell "St. Petersburg, Russia" [ref=e883]
+          - cell "01:25:08" [ref=e884]
+          - cell "4.13Gb" [ref=e885]:
+            - generic [ref=e887]: 4.13Gb
+          - cell "DVD SD" [ref=e888]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e889]:
+            - text: AMT
+            - generic: v
+          - cell "Source 2" [ref=e890]
+          - cell "Watery" [ref=e891]:
+            - generic [ref=e893]: Watery
+          - cell "📷" [ref=e894]:
+            - button "📷" [ref=e895] [cursor=pointer]
+          - cell "🎫" [ref=e896]:
+            - link "🎫" [ref=e897] [cursor=pointer]:
+              - /url: /tradelist/shows/65daysofstatic_30_05_2009_source_2_video/
+          - cell "➕" [ref=e898]:
+            - button "➕" [ref=e899] [cursor=pointer]
+          - cell "✏️" [ref=e900]:
+            - button "✏️" [ref=e901] [cursor=pointer]
+        - row "65daysofstatic 2009-04-26 London, England 01:00:33 4.18Gb DVD SD AMT v — DaGobert 📷 🎫 ➕ ✏️" [ref=e902]:
+          - cell "65daysofstatic" [ref=e903]
+          - cell "2009-04-26" [ref=e904]
+          - cell "London, England" [ref=e905]
+          - cell "01:00:33" [ref=e906]
+          - cell "4.18Gb" [ref=e907]:
+            - generic [ref=e909]: 4.18Gb
+          - cell "DVD SD" [ref=e910]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e911]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e912]
+          - cell "DaGobert" [ref=e913]:
+            - generic [ref=e915]: DaGobert
+          - cell "📷" [ref=e916]:
+            - button "📷" [ref=e917] [cursor=pointer]
+          - cell "🎫" [ref=e918]:
+            - link "🎫" [ref=e919] [cursor=pointer]:
+              - /url: /tradelist/shows/65daysofstatic_26_04_2009_video/
+          - cell "➕" [ref=e920]:
+            - button "➕" [ref=e921] [cursor=pointer]
+          - cell "✏️" [ref=e922]:
+            - button "✏️" [ref=e923] [cursor=pointer]
+        - row "65daysofstatic 2009-04-25 Southampton, England 01:05:00 4.32Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e924]:
+          - cell "65daysofstatic" [ref=e925]
+          - cell "2009-04-25" [ref=e926]
+          - cell "Southampton, England" [ref=e927]
+          - cell "01:05:00" [ref=e928]
+          - cell "4.32Gb" [ref=e929]:
+            - generic [ref=e931]: 4.32Gb
+          - cell "DVD SD" [ref=e932]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e933]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e934]
+          - cell "—" [ref=e935]
+          - cell "📷" [ref=e936]:
+            - button "📷" [ref=e937] [cursor=pointer]
+          - cell "🎫" [ref=e938]:
+            - link "🎫" [ref=e939] [cursor=pointer]:
+              - /url: /tradelist/shows/65daysofstatic_25_04_2009_video/
+          - cell "➕" [ref=e940]:
+            - button "➕" [ref=e941] [cursor=pointer]
+          - cell "✏️" [ref=e942]:
+            - button "✏️" [ref=e943] [cursor=pointer]
+        - row "65daysofstatic 2009-04-23 Manchester, England 01:02:47 4.24Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e944]:
+          - cell "65daysofstatic" [ref=e945]
+          - cell "2009-04-23" [ref=e946]
+          - cell "Manchester, England" [ref=e947]
+          - cell "01:02:47" [ref=e948]
+          - cell "4.24Gb" [ref=e949]:
+            - generic [ref=e951]: 4.24Gb
+          - cell "DVD SD" [ref=e952]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e953]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e954]
+          - cell "—" [ref=e955]
+          - cell "📷" [ref=e956]:
+            - button "📷" [ref=e957] [cursor=pointer]
+          - cell "🎫" [ref=e958]:
+            - link "🎫" [ref=e959] [cursor=pointer]:
+              - /url: /tradelist/shows/65daysofstatic_23_04_2009_video/
+          - cell "➕" [ref=e960]:
+            - button "➕" [ref=e961] [cursor=pointer]
+          - cell "✏️" [ref=e962]:
+            - button "✏️" [ref=e963] [cursor=pointer]
+        - row "65daysofstatic 2009-04-22 Glasgow, Scotland 00:24:27 5.46Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e964]:
+          - cell "65daysofstatic" [ref=e965]
+          - cell "2009-04-22" [ref=e966]
+          - cell "Glasgow, Scotland" [ref=e967]
+          - cell "00:24:27" [ref=e968]
+          - cell "5.46Gb" [ref=e969]:
+            - generic [ref=e971]: 5.46Gb
+          - cell "DVD SD" [ref=e972]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e973]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e974]
+          - cell "—" [ref=e975]
+          - cell "📷" [ref=e976]:
+            - button "📷" [ref=e977] [cursor=pointer]
+          - cell "🎫" [ref=e978]:
+            - link "🎫" [ref=e979] [cursor=pointer]:
+              - /url: /tradelist/shows/65daysofstatic_22_04_2009_video/
+          - cell "➕" [ref=e980]:
+            - button "➕" [ref=e981] [cursor=pointer]
+          - cell "✏️" [ref=e982]:
+            - button "✏️" [ref=e983] [cursor=pointer]
+        - row "65daysofstatic 2007-08-06 Seattle, WA, USA 00:47:24 1.71Gb MP4 HD AMT v — — 📷 🎫 ➕ ✏️" [ref=e984]:
+          - cell "65daysofstatic" [ref=e985]
+          - cell "2007-08-06" [ref=e986]
+          - cell "Seattle, WA, USA" [ref=e987]
+          - cell "00:47:24" [ref=e988]
+          - cell "1.71Gb" [ref=e989]:
+            - generic [ref=e991]: 1.71Gb
+          - cell "MP4 HD" [ref=e992]:
+            - text: MP4
+            - generic:
+              - generic "1280×720": HD
+          - cell "AMT v" [ref=e993]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e994]
+          - cell "—" [ref=e995]
+          - cell "📷" [ref=e996]:
+            - button "📷" [ref=e997] [cursor=pointer]
+          - cell "🎫" [ref=e998]:
+            - link "🎫" [ref=e999] [cursor=pointer]:
+              - /url: /tradelist/shows/65daysofstatic_06_08_2007_video/
+          - cell "➕" [ref=e1000]:
+            - button "➕" [ref=e1001] [cursor=pointer]
+          - cell "✏️" [ref=e1002]:
+            - button "✏️" [ref=e1003] [cursor=pointer]
+        - row "65daysofstatic 2006-03-10 Brighton, England 01:06:12 2.85Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e1004]:
+          - cell "65daysofstatic" [ref=e1005]
+          - cell "2006-03-10" [ref=e1006]
+          - cell "Brighton, England" [ref=e1007]
+          - cell "01:06:12" [ref=e1008]
+          - cell "2.85Gb" [ref=e1009]:
+            - generic [ref=e1011]: 2.85Gb
+          - cell "DVD SD" [ref=e1012]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e1013]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e1014]
+          - cell "—" [ref=e1015]
+          - cell "📷" [ref=e1016]:
+            - button "📷" [ref=e1017] [cursor=pointer]
+          - cell "🎫" [ref=e1018]:
+            - link "🎫" [ref=e1019] [cursor=pointer]:
+              - /url: /tradelist/shows/65daysofstatic_10_03_2006_video/
+          - cell "➕" [ref=e1020]:
+            - button "➕" [ref=e1021] [cursor=pointer]
+          - cell "✏️" [ref=e1022]:
+            - button "✏️" [ref=e1023] [cursor=pointer]
+        - row "65daysofstatic 2006-03-04 Manchester, England 01:11:37 3.11Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e1024]:
+          - cell "65daysofstatic" [ref=e1025]
+          - cell "2006-03-04" [ref=e1026]
+          - cell "Manchester, England" [ref=e1027]
+          - cell "01:11:37" [ref=e1028]
+          - cell "3.11Gb" [ref=e1029]:
+            - generic [ref=e1031]: 3.11Gb
+          - cell "DVD SD" [ref=e1032]:
+            - text: DVD
+            - generic:
+              - generic "720×480": SD
+          - cell "AMT v" [ref=e1033]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e1034]
+          - cell "—" [ref=e1035]
+          - cell "📷" [ref=e1036]:
+            - button "📷" [ref=e1037] [cursor=pointer]
+          - cell "🎫" [ref=e1038]:
+            - link "🎫" [ref=e1039] [cursor=pointer]:
+              - /url: /tradelist/shows/65daysofstatic_04_03_2006_video/
+          - cell "➕" [ref=e1040]:
+            - button "➕" [ref=e1041] [cursor=pointer]
+          - cell "✏️" [ref=e1042]:
+            - button "✏️" [ref=e1043] [cursor=pointer]
+        - row "🎸 Агата Кристи" [ref=e1044]:
+          - cell "🎸 Агата Кристи" [ref=e1045]
+        - row "Агата Кристи 2009-11-17 Moscow, Russia 01:26:48 3.94Gb DVD SD AMT v — M Vortex 📷 🎫 ➕ ✏️" [ref=e1046]:
+          - cell "Агата Кристи" [ref=e1047]
+          - cell "2009-11-17" [ref=e1048]
+          - cell "Moscow, Russia" [ref=e1049]
+          - cell "01:26:48" [ref=e1050]
+          - cell "3.94Gb" [ref=e1051]:
+            - generic [ref=e1053]: 3.94Gb
+          - cell "DVD SD" [ref=e1054]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e1055]:
+            - text: AMT
+            - generic: v
+          - cell "— M" [ref=e1056]:
+            - text: —
+            - generic [ref=e1057]: M
+          - cell "Vortex" [ref=e1058]:
+            - generic [ref=e1060]: Vortex
+          - cell "📷" [ref=e1061]:
+            - button "📷" [ref=e1062] [cursor=pointer]
+          - cell "🎫" [ref=e1063]:
+            - link "🎫" [ref=e1064] [cursor=pointer]:
+              - /url: /tradelist/shows/agata_kristi_17_11_2009_video/
+          - cell "➕" [ref=e1065]:
+            - button "➕" [ref=e1066] [cursor=pointer]
+          - cell "✏️" [ref=e1067]:
+            - button "✏️" [ref=e1068] [cursor=pointer]
+        - row "Агата Кристи 1993-09-26 Николаев, Украина 00:57:55 1.61Gb AVI HD PRO v — — 📷 🎫 ➕ ✏️" [ref=e1069]:
+          - cell "Агата Кристи" [ref=e1070]
+          - cell "1993-09-26" [ref=e1071]
+          - cell "Николаев, Украина" [ref=e1072]
+          - cell "00:57:55" [ref=e1073]
+          - cell "1.61Gb" [ref=e1074]:
+            - generic [ref=e1076]: 1.61Gb
+          - cell "AVI HD" [ref=e1077]:
+            - text: AVI
+            - generic:
+              - generic "768×576": HD
+          - cell "PRO v" [ref=e1078]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e1079]
+          - cell "—" [ref=e1080]
+          - cell "📷" [ref=e1081]:
+            - button "📷" [ref=e1082] [cursor=pointer]
+          - cell "🎫" [ref=e1083]:
+            - link "🎫" [ref=e1084] [cursor=pointer]:
+              - /url: /tradelist/shows/agata_kristi_26_09_1993_video/
+          - cell "➕" [ref=e1085]:
+            - button "➕" [ref=e1086] [cursor=pointer]
+          - cell "✏️" [ref=e1087]:
+            - button "✏️" [ref=e1088] [cursor=pointer]
+        - row "🎸 Аквариум" [ref=e1089]:
+          - cell "🎸 Аквариум" [ref=e1090]
+        - row "Аквариум 2013-06-08 Petra-Dubrava, Samara 01:30:21 2.39Gb MPG SD PRO v — — 📷 🎫 ➕ ✏️" [ref=e1091]:
+          - cell "Аквариум" [ref=e1092]
+          - cell "2013-06-08" [ref=e1093]
+          - cell "Petra-Dubrava, Samara" [ref=e1094]
+          - cell "01:30:21" [ref=e1095]
+          - cell "2.39Gb" [ref=e1096]:
+            - generic [ref=e1098]: 2.39Gb
+          - cell "MPG SD" [ref=e1099]:
+            - text: MPG
+            - generic:
+              - generic "720×576": SD
+          - cell "PRO v" [ref=e1100]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e1101]
+          - cell "—" [ref=e1102]
+          - cell "📷" [ref=e1103]:
+            - button "📷" [ref=e1104] [cursor=pointer]
+          - cell "🎫" [ref=e1105]:
+            - link "🎫" [ref=e1106] [cursor=pointer]:
+              - /url: /tradelist/shows/akvarium_08_06_2013_video/
+          - cell "➕" [ref=e1107]:
+            - button "➕" [ref=e1108] [cursor=pointer]
+          - cell "✏️" [ref=e1109]:
+            - button "✏️" [ref=e1110] [cursor=pointer]
+        - row "Аквариум 2012-06-11 Petra-Dubrava, Samara 00:06:42 440Mb M2TS FHD AMT v — — 📷 🎫 ➕ ✏️" [ref=e1111]:
+          - cell "Аквариум" [ref=e1112]
+          - cell "2012-06-11" [ref=e1113]
+          - cell "Petra-Dubrava, Samara" [ref=e1114]
+          - cell "00:06:42" [ref=e1115]
+          - cell "440Mb" [ref=e1116]:
+            - generic [ref=e1118]: 440Mb
+          - cell "M2TS FHD" [ref=e1119]:
+            - text: M2TS
+            - generic:
+              - generic "1440×1080": FHD
+          - cell "AMT v" [ref=e1120]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e1121]
+          - cell "—" [ref=e1122]
+          - cell "📷" [ref=e1123]:
+            - button "📷" [ref=e1124] [cursor=pointer]
+          - cell "🎫" [ref=e1125]:
+            - link "🎫" [ref=e1126] [cursor=pointer]:
+              - /url: /tradelist/shows/akvarium_11_06_2012_video/
+          - cell "➕" [ref=e1127]:
+            - button "➕" [ref=e1128] [cursor=pointer]
+          - cell "✏️" [ref=e1129]:
+            - button "✏️" [ref=e1130] [cursor=pointer]
+        - row "🎸 Алик Южный" [ref=e1131]:
+          - cell "🎸 Алик Южный" [ref=e1132]
+        - row "Алик Южный 2010-04-30 Moscow, Russia 01:14:16 3.98Gb DVD SD AMT v — M Vortex 📷 🎫 ➕ ✏️" [ref=e1133]:
+          - cell "Алик Южный" [ref=e1134]
+          - cell "2010-04-30" [ref=e1135]
+          - cell "Moscow, Russia" [ref=e1136]
+          - cell "01:14:16" [ref=e1137]
+          - cell "3.98Gb" [ref=e1138]:
+            - generic [ref=e1140]: 3.98Gb
+          - cell "DVD SD" [ref=e1141]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e1142]:
+            - text: AMT
+            - generic: v
+          - cell "— M" [ref=e1143]:
+            - text: —
+            - generic [ref=e1144]: M
+          - cell "Vortex" [ref=e1145]:
+            - generic [ref=e1147]: Vortex
+          - cell "📷" [ref=e1148]:
+            - button "📷" [ref=e1149] [cursor=pointer]
+          - cell "🎫" [ref=e1150]:
+            - link "🎫" [ref=e1151] [cursor=pointer]:
+              - /url: /tradelist/shows/alik_yuzhnyy_30_04_2010_video/
+          - cell "➕" [ref=e1152]:
+            - button "➕" [ref=e1153] [cursor=pointer]
+          - cell "✏️" [ref=e1154]:
+            - button "✏️" [ref=e1155] [cursor=pointer]
+        - row "Алик Южный 2009-12-25 Moscow, Russia 01:34:53 4.31Gb DVD SD AMT v — M Vortex 📷 🎫 ➕ ✏️" [ref=e1156]:
+          - cell "Алик Южный" [ref=e1157]
+          - cell "2009-12-25" [ref=e1158]
+          - cell "Moscow, Russia" [ref=e1159]
+          - cell "01:34:53" [ref=e1160]
+          - cell "4.31Gb" [ref=e1161]:
+            - generic [ref=e1163]: 4.31Gb
+          - cell "DVD SD" [ref=e1164]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e1165]:
+            - text: AMT
+            - generic: v
+          - cell "— M" [ref=e1166]:
+            - text: —
+            - generic [ref=e1167]: M
+          - cell "Vortex" [ref=e1168]:
+            - generic [ref=e1170]: Vortex
+          - cell "📷" [ref=e1171]:
+            - button "📷" [ref=e1172] [cursor=pointer]
+          - cell "🎫" [ref=e1173]:
+            - link "🎫" [ref=e1174] [cursor=pointer]:
+              - /url: /tradelist/shows/alik_yuzhnyy_25_12_2009_video/
+          - cell "➕" [ref=e1175]:
+            - button "➕" [ref=e1176] [cursor=pointer]
+          - cell "✏️" [ref=e1177]:
+            - button "✏️" [ref=e1178] [cursor=pointer]
+        - row "🎸 Алиса" [ref=e1179]:
+          - cell "🎸 Алиса" [ref=e1180]
+        - row "Алиса 2013-06-08 Petra-Dubrava, Samara 01:30:21 2.39Gb MPG SD PRO v — — 📷 🎫 ➕ ✏️" [ref=e1181]:
+          - cell "Алиса" [ref=e1182]
+          - cell "2013-06-08" [ref=e1183]
+          - cell "Petra-Dubrava, Samara" [ref=e1184]
+          - cell "01:30:21" [ref=e1185]
+          - cell "2.39Gb" [ref=e1186]:
+            - generic [ref=e1188]: 2.39Gb
+          - cell "MPG SD" [ref=e1189]:
+            - text: MPG
+            - generic:
+              - generic "720×576": SD
+          - cell "PRO v" [ref=e1190]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e1191]
+          - cell "—" [ref=e1192]
+          - cell "📷" [ref=e1193]:
+            - button "📷" [ref=e1194] [cursor=pointer]
+          - cell "🎫" [ref=e1195]:
+            - link "🎫" [ref=e1196] [cursor=pointer]:
+              - /url: /tradelist/shows/alisa_08_06_2013_video/
+          - cell "➕" [ref=e1197]:
+            - button "➕" [ref=e1198] [cursor=pointer]
+          - cell "✏️" [ref=e1199]:
+            - button "✏️" [ref=e1200] [cursor=pointer]
+        - row "Алиса 2012-06-11 Petra-Dubrava, Samara 00:34:15 2.06Gb M2TS FHD AMT v — — 📷 🎫 ➕ ✏️" [ref=e1201]:
+          - cell "Алиса" [ref=e1202]
+          - cell "2012-06-11" [ref=e1203]
+          - cell "Petra-Dubrava, Samara" [ref=e1204]
+          - cell "00:34:15" [ref=e1205]
+          - cell "2.06Gb" [ref=e1206]:
+            - generic [ref=e1208]: 2.06Gb
+          - cell "M2TS FHD" [ref=e1209]:
+            - text: M2TS
+            - generic:
+              - generic "1440×1080": FHD
+          - cell "AMT v" [ref=e1210]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e1211]
+          - cell "—" [ref=e1212]
+          - cell "📷" [ref=e1213]:
+            - button "📷" [ref=e1214] [cursor=pointer]
+          - cell "🎫" [ref=e1215]:
+            - link "🎫" [ref=e1216] [cursor=pointer]:
+              - /url: /tradelist/shows/alisa_11_06_2012_video/
+          - cell "➕" [ref=e1217]:
+            - button "➕" [ref=e1218] [cursor=pointer]
+          - cell "✏️" [ref=e1219]:
+            - button "✏️" [ref=e1220] [cursor=pointer]
+        - row "🎸 Взрыв Кабачка В Коляске С Поносом" [ref=e1221]:
+          - cell "🎸 Взрыв Кабачка В Коляске С Поносом" [ref=e1222]
+        - row "Взрыв Кабачка В Коляске С Поносом 2012-01-14 Moscow, Russia 00:33:03 3.00Gb M2TS FHD AMT v — M Vortex 📷 🎫 ➕ ✏️" [ref=e1223]:
+          - cell "Взрыв Кабачка В Коляске С Поносом" [ref=e1224]
+          - cell "2012-01-14" [ref=e1225]
+          - cell "Moscow, Russia" [ref=e1226]
+          - cell "00:33:03" [ref=e1227]
+          - cell "3.00Gb" [ref=e1228]:
+            - generic [ref=e1230]: 3.00Gb
+          - cell "M2TS FHD" [ref=e1231]:
+            - text: M2TS
+            - generic:
+              - generic "1920×1080": FHD
+          - cell "AMT v" [ref=e1232]:
+            - text: AMT
+            - generic: v
+          - cell "— M" [ref=e1233]:
+            - text: —
+            - generic [ref=e1234]: M
+          - cell "Vortex" [ref=e1235]:
+            - generic [ref=e1237]: Vortex
+          - cell "📷" [ref=e1238]:
+            - button "📷" [ref=e1239] [cursor=pointer]
+          - cell "🎫" [ref=e1240]:
+            - link "🎫" [ref=e1241] [cursor=pointer]:
+              - /url: /tradelist/shows/vzryv_kabachka_v_kolyaske_s_ponosom_14_01_2012_video/
+          - cell "➕" [ref=e1242]:
+            - button "➕" [ref=e1243] [cursor=pointer]
+          - cell "✏️" [ref=e1244]:
+            - button "✏️" [ref=e1245] [cursor=pointer]
+        - row "🎸 Вирус" [ref=e1246]:
+          - cell "🎸 Вирус" [ref=e1247]
+        - row "Вирус 2011-03-12 Moscow, Russia 01:48:52 3.49Gb +1 DVD SD AMT v — M Vortex 📷 🎫 ➕ ✏️" [ref=e1248]:
+          - cell "Вирус" [ref=e1249]
+          - cell "2011-03-12" [ref=e1250]
+          - cell "Moscow, Russia" [ref=e1251]
+          - cell "01:48:52" [ref=e1252]
+          - cell "3.49Gb +1" [ref=e1253]:
+            - generic [ref=e1254]:
+              - generic [ref=e1255]: 3.49Gb
+              - button "+1" [ref=e1256] [cursor=pointer]
+          - cell "DVD SD" [ref=e1257]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e1258]:
+            - text: AMT
+            - generic: v
+          - cell "— M" [ref=e1259]:
+            - text: —
+            - generic [ref=e1260]: M
+          - cell "Vortex" [ref=e1261]:
+            - generic [ref=e1263]: Vortex
+          - cell "📷" [ref=e1264]:
+            - button "📷" [ref=e1265] [cursor=pointer]
+          - cell "🎫" [ref=e1266]:
+            - link "🎫" [ref=e1267] [cursor=pointer]:
+              - /url: /tradelist/shows/virus_12_03_2011_video/
+          - cell "➕" [ref=e1268]:
+            - button "➕" [ref=e1269] [cursor=pointer]
+          - cell "✏️" [ref=e1270]:
+            - button "✏️" [ref=e1271] [cursor=pointer]
+        - row "🎸 Вячеслав Бутусов" [ref=e1272]:
+          - cell "🎸 Вячеслав Бутусов" [ref=e1273]
+        - row "Вячеслав Бутусов 2011-10-20 Moscow, Russia 01:33:56 5.79Gb TS FHD PRO v — — 📷 🎫 ➕ ✏️" [ref=e1274]:
+          - cell "Вячеслав Бутусов" [ref=e1275]
+          - cell "2011-10-20" [ref=e1276]
+          - cell "Moscow, Russia" [ref=e1277]
+          - cell "01:33:56" [ref=e1278]
+          - cell "5.79Gb" [ref=e1279]:
+            - generic [ref=e1281]: 5.79Gb
+          - cell "TS FHD" [ref=e1282]:
+            - text: TS
+            - generic:
+              - generic "1920×1080": FHD
+          - cell "PRO v" [ref=e1283]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e1284]
+          - cell "—" [ref=e1285]
+          - cell "📷" [ref=e1286]:
+            - button "📷" [ref=e1287] [cursor=pointer]
+          - cell "🎫" [ref=e1288]:
+            - link "🎫" [ref=e1289] [cursor=pointer]:
+              - /url: /tradelist/shows/vyacheslav_butusov_20_10_2011_video/
+          - cell "➕" [ref=e1290]:
+            - button "➕" [ref=e1291] [cursor=pointer]
+          - cell "✏️" [ref=e1292]:
+            - button "✏️" [ref=e1293] [cursor=pointer]
+        - row "🎸 Гражданская Оборона" [ref=e1294]:
+          - cell "🎸 Гражданская Оборона" [ref=e1295]
+        - row "Гражданская Оборона 2008-02-09 Екатеринбург, Россия 00:25:19 860Mb DVD SD PRO v — — 📷 🎫 ➕ ✏️" [ref=e1296]:
+          - cell "Гражданская Оборона" [ref=e1297]
+          - cell "2008-02-09" [ref=e1298]
+          - cell "Екатеринбург, Россия" [ref=e1299]
+          - cell "00:25:19" [ref=e1300]
+          - cell "860Mb" [ref=e1301]:
+            - generic [ref=e1303]: 860Mb
+          - cell "DVD SD" [ref=e1304]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "PRO v" [ref=e1305]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e1306]
+          - cell "—" [ref=e1307]
+          - cell "📷" [ref=e1308]:
+            - button "📷" [ref=e1309] [cursor=pointer]
+          - cell "🎫" [ref=e1310]:
+            - link "🎫" [ref=e1311] [cursor=pointer]:
+              - /url: /tradelist/shows/grazhdanskaya_oborona_09_02_2008_video/
+          - cell "➕" [ref=e1312]:
+            - button "➕" [ref=e1313] [cursor=pointer]
+          - cell "✏️" [ref=e1314]:
+            - button "✏️" [ref=e1315] [cursor=pointer]
+        - row "Гражданская Оборона 2007-10-05 Днепропетровск, Украина 01:01:43 3.63Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e1316]:
+          - cell "Гражданская Оборона" [ref=e1317]
+          - cell "2007-10-05" [ref=e1318]
+          - cell "Днепропетровск, Украина" [ref=e1319]
+          - cell "01:01:43" [ref=e1320]
+          - cell "3.63Gb" [ref=e1321]:
+            - generic [ref=e1323]: 3.63Gb
+          - cell "DVD SD" [ref=e1324]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e1325]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e1326]
+          - cell "—" [ref=e1327]
+          - cell "📷" [ref=e1328]:
+            - button "📷" [ref=e1329] [cursor=pointer]
+          - cell "🎫" [ref=e1330]:
+            - link "🎫" [ref=e1331] [cursor=pointer]:
+              - /url: /tradelist/shows/grazhdanskaya_oborona_05_10_2007_video/
+          - cell "➕" [ref=e1332]:
+            - button "➕" [ref=e1333] [cursor=pointer]
+          - cell "✏️" [ref=e1334]:
+            - button "✏️" [ref=e1335] [cursor=pointer]
+        - row "Гражданская Оборона 2006-11-28 Хмельницкий, Украина 01:03:01 4.31Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e1336]:
+          - cell "Гражданская Оборона" [ref=e1337]
+          - cell "2006-11-28" [ref=e1338]
+          - cell "Хмельницкий, Украина" [ref=e1339]
+          - cell "01:03:01" [ref=e1340]
+          - cell "4.31Gb" [ref=e1341]:
+            - generic [ref=e1343]: 4.31Gb
+          - cell "DVD SD" [ref=e1344]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e1345]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e1346]
+          - cell "—" [ref=e1347]
+          - cell "📷" [ref=e1348]:
+            - button "📷" [ref=e1349] [cursor=pointer]
+          - cell "🎫" [ref=e1350]:
+            - link "🎫" [ref=e1351] [cursor=pointer]:
+              - /url: /tradelist/shows/grazhdanskaya_oborona_28_11_2006_video/
+          - cell "➕" [ref=e1352]:
+            - button "➕" [ref=e1353] [cursor=pointer]
+          - cell "✏️" [ref=e1354]:
+            - button "✏️" [ref=e1355] [cursor=pointer]
+        - row "Гражданская Оборона 2003-05-06 Киев, Украина 01:00:27 3.09Gb DVD SD PRO v Source 1 — 📷 🎫 ➕ ✏️" [ref=e1356]:
+          - cell "Гражданская Оборона" [ref=e1357]
+          - cell "2003-05-06" [ref=e1358]
+          - cell "Киев, Украина" [ref=e1359]
+          - cell "01:00:27" [ref=e1360]
+          - cell "3.09Gb" [ref=e1361]:
+            - generic [ref=e1363]: 3.09Gb
+          - cell "DVD SD" [ref=e1364]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "PRO v" [ref=e1365]:
+            - text: PRO
+            - generic: v
+          - cell "Source 1" [ref=e1366]
+          - cell "—" [ref=e1367]
+          - cell "📷" [ref=e1368]:
+            - button "📷" [ref=e1369] [cursor=pointer]
+          - cell "🎫" [ref=e1370]:
+            - link "🎫" [ref=e1371] [cursor=pointer]:
+              - /url: /tradelist/shows/grazhdanskaya_oborona_06_05_2003_source_1_video/
+          - cell "➕" [ref=e1372]:
+            - button "➕" [ref=e1373] [cursor=pointer]
+          - cell "✏️" [ref=e1374]:
+            - button "✏️" [ref=e1375] [cursor=pointer]
+        - row "Гражданская Оборона 2003-05-06 Киев, Украина 01:00:59 4.14Gb DVD SD PRO v Source 2 — 📷 🎫 ➕ ✏️" [ref=e1376]:
+          - cell "Гражданская Оборона" [ref=e1377]
+          - cell "2003-05-06" [ref=e1378]
+          - cell "Киев, Украина" [ref=e1379]
+          - cell "01:00:59" [ref=e1380]
+          - cell "4.14Gb" [ref=e1381]:
+            - generic [ref=e1383]: 4.14Gb
+          - cell "DVD SD" [ref=e1384]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "PRO v" [ref=e1385]:
+            - text: PRO
+            - generic: v
+          - cell "Source 2" [ref=e1386]
+          - cell "—" [ref=e1387]
+          - cell "📷" [ref=e1388]:
+            - button "📷" [ref=e1389] [cursor=pointer]
+          - cell "🎫" [ref=e1390]:
+            - link "🎫" [ref=e1391] [cursor=pointer]:
+              - /url: /tradelist/shows/grazhdanskaya_oborona_06_05_2003_source_2_video/
+          - cell "➕" [ref=e1392]:
+            - button "➕" [ref=e1393] [cursor=pointer]
+          - cell "✏️" [ref=e1394]:
+            - button "✏️" [ref=e1395] [cursor=pointer]
+        - row "Гражданская Оборона 2002-03-21 Москва, Россия 01:03:39 2.13Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e1396]:
+          - cell "Гражданская Оборона" [ref=e1397]
+          - cell "2002-03-21" [ref=e1398]
+          - cell "Москва, Россия" [ref=e1399]
+          - cell "01:03:39" [ref=e1400]
+          - cell "2.13Gb" [ref=e1401]:
+            - generic [ref=e1403]: 2.13Gb
+          - cell "DVD SD" [ref=e1404]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e1405]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e1406]
+          - cell "—" [ref=e1407]
+          - cell "📷" [ref=e1408]:
+            - button "📷" [ref=e1409] [cursor=pointer]
+          - cell "🎫" [ref=e1410]:
+            - link "🎫" [ref=e1411] [cursor=pointer]:
+              - /url: /tradelist/shows/grazhdanskaya_oborona_21_03_2002_video/
+          - cell "➕" [ref=e1412]:
+            - button "➕" [ref=e1413] [cursor=pointer]
+          - cell "✏️" [ref=e1414]:
+            - button "✏️" [ref=e1415] [cursor=pointer]
+        - row "Гражданская Оборона 2000-11-15 Курск, Россия 01:05:44 3.01Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e1416]:
+          - cell "Гражданская Оборона" [ref=e1417]
+          - cell "2000-11-15" [ref=e1418]
+          - cell "Курск, Россия" [ref=e1419]
+          - cell "01:05:44" [ref=e1420]
+          - cell "3.01Gb" [ref=e1421]:
+            - generic [ref=e1423]: 3.01Gb
+          - cell "DVD SD" [ref=e1424]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e1425]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e1426]
+          - cell "—" [ref=e1427]
+          - cell "📷" [ref=e1428]:
+            - button "📷" [ref=e1429] [cursor=pointer]
+          - cell "🎫" [ref=e1430]:
+            - link "🎫" [ref=e1431] [cursor=pointer]:
+              - /url: /tradelist/shows/grazhdanskaya_oborona_15_11_2000_video/
+          - cell "➕" [ref=e1432]:
+            - button "➕" [ref=e1433] [cursor=pointer]
+          - cell "✏️" [ref=e1434]:
+            - button "✏️" [ref=e1435] [cursor=pointer]
+        - row "Гражданская Оборона 1994-06-03 Санкт-Петербург, Россия 00:41:05 1.59Gb DVD SD PRO v — — 📷 🎫 ➕ ✏️" [ref=e1436]:
+          - cell "Гражданская Оборона" [ref=e1437]
+          - cell "1994-06-03" [ref=e1438]
+          - cell "Санкт-Петербург, Россия" [ref=e1439]
+          - cell "00:41:05" [ref=e1440]
+          - cell "1.59Gb" [ref=e1441]:
+            - generic [ref=e1443]: 1.59Gb
+          - cell "DVD SD" [ref=e1444]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "PRO v" [ref=e1445]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e1446]
+          - cell "—" [ref=e1447]
+          - cell "📷" [ref=e1448]:
+            - button "📷" [ref=e1449] [cursor=pointer]
+          - cell "🎫" [ref=e1450]:
+            - link "🎫" [ref=e1451] [cursor=pointer]:
+              - /url: /tradelist/shows/grazhdanskaya_oborona_03_06_1994_video/
+          - cell "➕" [ref=e1452]:
+            - button "➕" [ref=e1453] [cursor=pointer]
+          - cell "✏️" [ref=e1454]:
+            - button "✏️" [ref=e1455] [cursor=pointer]
+        - row "Гражданская Оборона 1994-04-15 Луганск, Украина 00:24:02 1.06Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e1456]:
+          - cell "Гражданская Оборона" [ref=e1457]
+          - cell "1994-04-15" [ref=e1458]
+          - cell "Луганск, Украина" [ref=e1459]
+          - cell "00:24:02" [ref=e1460]
+          - cell "1.06Gb" [ref=e1461]:
+            - generic [ref=e1463]: 1.06Gb
+          - cell "DVD SD" [ref=e1464]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e1465]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e1466]
+          - cell "—" [ref=e1467]
+          - cell "📷" [ref=e1468]:
+            - button "📷" [ref=e1469] [cursor=pointer]
+          - cell "🎫" [ref=e1470]:
+            - link "🎫" [ref=e1471] [cursor=pointer]:
+              - /url: /tradelist/shows/grazhdanskaya_oborona_15_04_1994_video/
+          - cell "➕" [ref=e1472]:
+            - button "➕" [ref=e1473] [cursor=pointer]
+          - cell "✏️" [ref=e1474]:
+            - button "✏️" [ref=e1475] [cursor=pointer]
+        - row "🎸 Дельфин" [ref=e1476]:
+          - cell "🎸 Дельфин" [ref=e1477]
+        - row "Дельфин 2012-08-04 Krasnodar, Russia 01:32:52 21.9Gb M2TS FHD AMT v Source 1 — 📷 🎫 ➕ ✏️" [ref=e1478]:
+          - cell "Дельфин" [ref=e1479]
+          - cell "2012-08-04" [ref=e1480]
+          - cell "Krasnodar, Russia" [ref=e1481]
+          - cell "01:32:52" [ref=e1482]
+          - cell "21.9Gb" [ref=e1483]:
+            - generic [ref=e1485]: 21.9Gb
+          - cell "M2TS FHD" [ref=e1486]:
+            - text: M2TS
+            - generic:
+              - generic "1920×1080": FHD
+          - cell "AMT v" [ref=e1487]:
+            - text: AMT
+            - generic: v
+          - cell "Source 1" [ref=e1488]
+          - cell "—" [ref=e1489]
+          - cell "📷" [ref=e1490]:
+            - button "📷" [ref=e1491] [cursor=pointer]
+          - cell "🎫" [ref=e1492]:
+            - link "🎫" [ref=e1493] [cursor=pointer]:
+              - /url: /tradelist/shows/del_fin_04_08_2012_source_1_video/
+          - cell "➕" [ref=e1494]:
+            - button "➕" [ref=e1495] [cursor=pointer]
+          - cell "✏️" [ref=e1496]:
+            - button "✏️" [ref=e1497] [cursor=pointer]
+        - row "Дельфин 2012-08-04 Krasnodar, Russia 02:37:53 4.27Gb MKV HD PRO v Source 2 — 📷 🎫 ➕ ✏️" [ref=e1498]:
+          - cell "Дельфин" [ref=e1499]
+          - cell "2012-08-04" [ref=e1500]
+          - cell "Krasnodar, Russia" [ref=e1501]
+          - cell "02:37:53" [ref=e1502]
+          - cell "4.27Gb" [ref=e1503]:
+            - generic [ref=e1505]: 4.27Gb
+          - cell "MKV HD" [ref=e1506]:
+            - text: MKV
+            - generic:
+              - generic "1024×576": HD
+          - cell "PRO v" [ref=e1507]:
+            - text: PRO
+            - generic: v
+          - cell "Source 2" [ref=e1508]
+          - cell "—" [ref=e1509]
+          - cell "📷" [ref=e1510]:
+            - button "📷" [ref=e1511] [cursor=pointer]
+          - cell "🎫" [ref=e1512]:
+            - link "🎫" [ref=e1513] [cursor=pointer]:
+              - /url: /tradelist/shows/del_fin_04_08_2012_source_2_video/
+          - cell "➕" [ref=e1514]:
+            - button "➕" [ref=e1515] [cursor=pointer]
+          - cell "✏️" [ref=e1516]:
+            - button "✏️" [ref=e1517] [cursor=pointer]
+        - row "Дельфин 2010-04-23 Moscow, Russia 01:24:48 3.85Gb DVD SD AMT v — M Vortex 📷 🎫 ➕ ✏️" [ref=e1518]:
+          - cell "Дельфин" [ref=e1519]
+          - cell "2010-04-23" [ref=e1520]
+          - cell "Moscow, Russia" [ref=e1521]
+          - cell "01:24:48" [ref=e1522]
+          - cell "3.85Gb" [ref=e1523]:
+            - generic [ref=e1525]: 3.85Gb
+          - cell "DVD SD" [ref=e1526]:
+            - text: DVD
+            - generic:
+              - generic "704×576": SD
+          - cell "AMT v" [ref=e1527]:
+            - text: AMT
+            - generic: v
+          - cell "— M" [ref=e1528]:
+            - text: —
+            - generic [ref=e1529]: M
+          - cell "Vortex" [ref=e1530]:
+            - generic [ref=e1532]: Vortex
+          - cell "📷" [ref=e1533]:
+            - button "📷" [ref=e1534] [cursor=pointer]
+          - cell "🎫" [ref=e1535]:
+            - link "🎫" [ref=e1536] [cursor=pointer]:
+              - /url: /tradelist/shows/del_fin_23_04_2010_video/
+          - cell "➕" [ref=e1537]:
+            - button "➕" [ref=e1538] [cursor=pointer]
+          - cell "✏️" [ref=e1539]:
+            - button "✏️" [ref=e1540] [cursor=pointer]
+        - row "🎸 Демо" [ref=e1541]:
+          - cell "🎸 Демо" [ref=e1542]
+        - row "Демо 2011-03-12 Moscow, Russia 01:48:52 3.49Gb +1 DVD SD AMT v — M Vortex 📷 🎫 ➕ ✏️" [ref=e1543]:
+          - cell "Демо" [ref=e1544]
+          - cell "2011-03-12" [ref=e1545]
+          - cell "Moscow, Russia" [ref=e1546]
+          - cell "01:48:52" [ref=e1547]
+          - cell "3.49Gb +1" [ref=e1548]:
+            - generic [ref=e1549]:
+              - generic [ref=e1550]: 3.49Gb
+              - button "+1" [ref=e1551] [cursor=pointer]
+          - cell "DVD SD" [ref=e1552]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e1553]:
+            - text: AMT
+            - generic: v
+          - cell "— M" [ref=e1554]:
+            - text: —
+            - generic [ref=e1555]: M
+          - cell "Vortex" [ref=e1556]:
+            - generic [ref=e1558]: Vortex
+          - cell "📷" [ref=e1559]:
+            - button "📷" [ref=e1560] [cursor=pointer]
+          - cell "🎫" [ref=e1561]:
+            - link "🎫" [ref=e1562] [cursor=pointer]:
+              - /url: /tradelist/shows/demo_12_03_2011_video/
+          - cell "➕" [ref=e1563]:
+            - button "➕" [ref=e1564] [cursor=pointer]
+          - cell "✏️" [ref=e1565]:
+            - button "✏️" [ref=e1566] [cursor=pointer]
+        - row "🎸 Егор Летов" [ref=e1567]:
+          - cell "🎸 Егор Летов" [ref=e1568]
+        - row "Егор Летов 2002-03-20 Москва, Россия 00:22:47 1.54Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e1569]:
+          - cell "Егор Летов" [ref=e1570]
+          - cell "2002-03-20" [ref=e1571]
+          - cell "Москва, Россия" [ref=e1572]
+          - cell "00:22:47" [ref=e1573]
+          - cell "1.54Gb" [ref=e1574]:
+            - generic [ref=e1576]: 1.54Gb
+          - cell "DVD SD" [ref=e1577]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e1578]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e1579]
+          - cell "—" [ref=e1580]
+          - cell "📷" [ref=e1581]:
+            - button "📷" [ref=e1582] [cursor=pointer]
+          - cell "🎫" [ref=e1583]:
+            - link "🎫" [ref=e1584] [cursor=pointer]:
+              - /url: /tradelist/shows/egor_letov_20_03_2002_video/
+          - cell "➕" [ref=e1585]:
+            - button "➕" [ref=e1586] [cursor=pointer]
+          - cell "✏️" [ref=e1587]:
+            - button "✏️" [ref=e1588] [cursor=pointer]
+        - row "Егор Летов 1995-10-29 Челябинск, Россия 01:24:38 2.92Gb DVD SD PRO v — — 📷 🎫 ➕ ✏️" [ref=e1589]:
+          - cell "Егор Летов" [ref=e1590]
+          - cell "1995-10-29" [ref=e1591]
+          - cell "Челябинск, Россия" [ref=e1592]
+          - cell "01:24:38" [ref=e1593]
+          - cell "2.92Gb" [ref=e1594]:
+            - generic [ref=e1596]: 2.92Gb
+          - cell "DVD SD" [ref=e1597]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "PRO v" [ref=e1598]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e1599]
+          - cell "—" [ref=e1600]
+          - cell "📷" [ref=e1601]:
+            - button "📷" [ref=e1602] [cursor=pointer]
+          - cell "🎫" [ref=e1603]:
+            - link "🎫" [ref=e1604] [cursor=pointer]:
+              - /url: /tradelist/shows/egor_letov_29_10_1995_video/
+          - cell "➕" [ref=e1605]:
+            - button "➕" [ref=e1606] [cursor=pointer]
+          - cell "✏️" [ref=e1607]:
+            - button "✏️" [ref=e1608] [cursor=pointer]
+        - row "🎸 Записки Неизвестного" [ref=e1609]:
+          - cell "🎸 Записки Неизвестного" [ref=e1610]
+        - row "Записки Неизвестного 2010-10-24 Moscow, Russia 01:18:14 3.19Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e1611]:
+          - cell "Записки Неизвестного" [ref=e1612]
+          - cell "2010-10-24" [ref=e1613]
+          - cell "Moscow, Russia" [ref=e1614]
+          - cell "01:18:14" [ref=e1615]
+          - cell "3.19Gb" [ref=e1616]:
+            - generic [ref=e1618]: 3.19Gb
+          - cell "DVD SD" [ref=e1619]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e1620]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e1621]
+          - cell "—" [ref=e1622]
+          - cell "📷" [ref=e1623]:
+            - button "📷" [ref=e1624] [cursor=pointer]
+          - cell "🎫" [ref=e1625]:
+            - link "🎫" [ref=e1626] [cursor=pointer]:
+              - /url: /tradelist/shows/zapiski_neizvestnogo_24_10_2010_video/
+          - cell "➕" [ref=e1627]:
+            - button "➕" [ref=e1628] [cursor=pointer]
+          - cell "✏️" [ref=e1629]:
+            - button "✏️" [ref=e1630] [cursor=pointer]
+        - row "🎸 Иванушки International" [ref=e1631]:
+          - cell "🎸 Иванушки International" [ref=e1632]
+        - row "Иванушки International 2011-03-12 Moscow, Russia 01:48:52 3.49Gb +1 DVD SD AMT v — M Vortex 📷 🎫 ➕ ✏️" [ref=e1633]:
+          - cell "Иванушки International" [ref=e1634]
+          - cell "2011-03-12" [ref=e1635]
+          - cell "Moscow, Russia" [ref=e1636]
+          - cell "01:48:52" [ref=e1637]
+          - cell "3.49Gb +1" [ref=e1638]:
+            - generic [ref=e1639]:
+              - generic [ref=e1640]: 3.49Gb
+              - button "+1" [ref=e1641] [cursor=pointer]
+          - cell "DVD SD" [ref=e1642]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e1643]:
+            - text: AMT
+            - generic: v
+          - cell "— M" [ref=e1644]:
+            - text: —
+            - generic [ref=e1645]: M
+          - cell "Vortex" [ref=e1646]:
+            - generic [ref=e1648]: Vortex
+          - cell "📷" [ref=e1649]:
+            - button "📷" [ref=e1650] [cursor=pointer]
+          - cell "🎫" [ref=e1651]:
+            - link "🎫" [ref=e1652] [cursor=pointer]:
+              - /url: /tradelist/shows/ivanushki_international_12_03_2011_video/
+          - cell "➕" [ref=e1653]:
+            - button "➕" [ref=e1654] [cursor=pointer]
+          - cell "✏️" [ref=e1655]:
+            - button "✏️" [ref=e1656] [cursor=pointer]
+        - row "🎸 Игорь Растеряев" [ref=e1657]:
+          - cell "🎸 Игорь Растеряев" [ref=e1658]
+        - row "Игорь Растеряев 2012-06-11 Petra-Dubrava, Samara 00:07:26 461Mb M2TS FHD AMT v — — 📷 🎫 ➕ ✏️" [ref=e1659]:
+          - cell "Игорь Растеряев" [ref=e1660]
+          - cell "2012-06-11" [ref=e1661]
+          - cell "Petra-Dubrava, Samara" [ref=e1662]
+          - cell "00:07:26" [ref=e1663]
+          - cell "461Mb" [ref=e1664]:
+            - generic [ref=e1666]: 461Mb
+          - cell "M2TS FHD" [ref=e1667]:
+            - text: M2TS
+            - generic:
+              - generic "1440×1080": FHD
+          - cell "AMT v" [ref=e1668]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e1669]
+          - cell "—" [ref=e1670]
+          - cell "📷" [ref=e1671]:
+            - button "📷" [ref=e1672] [cursor=pointer]
+          - cell "🎫" [ref=e1673]:
+            - link "🎫" [ref=e1674] [cursor=pointer]:
+              - /url: /tradelist/shows/igor_rasteryaev_11_06_2012_video/
+          - cell "➕" [ref=e1675]:
+            - button "➕" [ref=e1676] [cursor=pointer]
+          - cell "✏️" [ref=e1677]:
+            - button "✏️" [ref=e1678] [cursor=pointer]
+        - row "🎸 Кай Метов" [ref=e1679]:
+          - cell "🎸 Кай Метов" [ref=e1680]
+        - row "Кай Метов 2011-03-12 Moscow, Russia 01:48:52 3.49Gb +1 DVD SD AMT v — M Vortex 📷 🎫 ➕ ✏️" [ref=e1681]:
+          - cell "Кай Метов" [ref=e1682]
+          - cell "2011-03-12" [ref=e1683]
+          - cell "Moscow, Russia" [ref=e1684]
+          - cell "01:48:52" [ref=e1685]
+          - cell "3.49Gb +1" [ref=e1686]:
+            - generic [ref=e1687]:
+              - generic [ref=e1688]: 3.49Gb
+              - button "+1" [ref=e1689] [cursor=pointer]
+          - cell "DVD SD" [ref=e1690]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e1691]:
+            - text: AMT
+            - generic: v
+          - cell "— M" [ref=e1692]:
+            - text: —
+            - generic [ref=e1693]: M
+          - cell "Vortex" [ref=e1694]:
+            - generic [ref=e1696]: Vortex
+          - cell "📷" [ref=e1697]:
+            - button "📷" [ref=e1698] [cursor=pointer]
+          - cell "🎫" [ref=e1699]:
+            - link "🎫" [ref=e1700] [cursor=pointer]:
+              - /url: /tradelist/shows/kay_metov_12_03_2011_video/
+          - cell "➕" [ref=e1701]:
+            - button "➕" [ref=e1702] [cursor=pointer]
+          - cell "✏️" [ref=e1703]:
+            - button "✏️" [ref=e1704] [cursor=pointer]
+        - row "🎸 Комбинация" [ref=e1705]:
+          - cell "🎸 Комбинация" [ref=e1706]
+        - row "Комбинация 2011-03-12 Moscow, Russia 01:48:52 3.49Gb +1 DVD SD AMT v — M Vortex 📷 🎫 ➕ ✏️" [ref=e1707]:
+          - cell "Комбинация" [ref=e1708]
+          - cell "2011-03-12" [ref=e1709]
+          - cell "Moscow, Russia" [ref=e1710]
+          - cell "01:48:52" [ref=e1711]
+          - cell "3.49Gb +1" [ref=e1712]:
+            - generic [ref=e1713]:
+              - generic [ref=e1714]: 3.49Gb
+              - button "+1" [ref=e1715] [cursor=pointer]
+          - cell "DVD SD" [ref=e1716]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e1717]:
+            - text: AMT
+            - generic: v
+          - cell "— M" [ref=e1718]:
+            - text: —
+            - generic [ref=e1719]: M
+          - cell "Vortex" [ref=e1720]:
+            - generic [ref=e1722]: Vortex
+          - cell "📷" [ref=e1723]:
+            - button "📷" [ref=e1724] [cursor=pointer]
+          - cell "🎫" [ref=e1725]:
+            - link "🎫" [ref=e1726] [cursor=pointer]:
+              - /url: /tradelist/shows/kombinatsiya_12_03_2011_video/
+          - cell "➕" [ref=e1727]:
+            - button "➕" [ref=e1728] [cursor=pointer]
+          - cell "✏️" [ref=e1729]:
+            - button "✏️" [ref=e1730] [cursor=pointer]
+        - row "🎸 Король И Шут" [ref=e1731]:
+          - cell "🎸 Король И Шут" [ref=e1732]
+        - row "Король И Шут 2012-06-11 Petra-Dubrava, Samara 00:42:28 4.98Gb M2TS FHD AMT v — — 📷 🎫 ➕ ✏️" [ref=e1733]:
+          - cell "Король И Шут" [ref=e1734]
+          - cell "2012-06-11" [ref=e1735]
+          - cell "Petra-Dubrava, Samara" [ref=e1736]
+          - cell "00:42:28" [ref=e1737]
+          - cell "4.98Gb" [ref=e1738]:
+            - generic [ref=e1740]: 4.98Gb
+          - cell "M2TS FHD" [ref=e1741]:
+            - text: M2TS
+            - generic:
+              - generic "1920×1080": FHD
+          - cell "AMT v" [ref=e1742]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e1743]
+          - cell "—" [ref=e1744]
+          - cell "📷" [ref=e1745]:
+            - button "📷" [ref=e1746] [cursor=pointer]
+          - cell "🎫" [ref=e1747]:
+            - link "🎫" [ref=e1748] [cursor=pointer]:
+              - /url: /tradelist/shows/korol_i_shut_11_06_2012_video/
+          - cell "➕" [ref=e1749]:
+            - button "➕" [ref=e1750] [cursor=pointer]
+          - cell "✏️" [ref=e1751]:
+            - button "✏️" [ref=e1752] [cursor=pointer]
+        - row "🎸 Кувалда" [ref=e1753]:
+          - cell "🎸 Кувалда" [ref=e1754]
+        - row "Кувалда 2012-01-14 Moscow, Russia 00:48:29 4.40Gb M2TS FHD AMT v — — 📷 🎫 ➕ ✏️" [ref=e1755]:
+          - cell "Кувалда" [ref=e1756]
+          - cell "2012-01-14" [ref=e1757]
+          - cell "Moscow, Russia" [ref=e1758]
+          - cell "00:48:29" [ref=e1759]
+          - cell "4.40Gb" [ref=e1760]:
+            - generic [ref=e1762]: 4.40Gb
+          - cell "M2TS FHD" [ref=e1763]:
+            - text: M2TS
+            - generic:
+              - generic "1920×1080": FHD
+          - cell "AMT v" [ref=e1764]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e1765]
+          - cell "—" [ref=e1766]
+          - cell "📷" [ref=e1767]:
+            - button "📷" [ref=e1768] [cursor=pointer]
+          - cell "🎫" [ref=e1769]:
+            - link "🎫" [ref=e1770] [cursor=pointer]:
+              - /url: /tradelist/shows/kuvalda_14_01_2012_video/
+          - cell "➕" [ref=e1771]:
+            - button "➕" [ref=e1772] [cursor=pointer]
+          - cell "✏️" [ref=e1773]:
+            - button "✏️" [ref=e1774] [cursor=pointer]
+        - row "🎸 Ленинград" [ref=e1775]:
+          - cell "🎸 Ленинград" [ref=e1776]
+        - row "Ленинград 2012-08-05 Krasnodar, Russia 02:37:53 4.27Gb MKV HD PRO v — — 📷 🎫 ➕ ✏️" [ref=e1777]:
+          - cell "Ленинград" [ref=e1778]
+          - cell "2012-08-05" [ref=e1779]
+          - cell "Krasnodar, Russia" [ref=e1780]
+          - cell "02:37:53" [ref=e1781]
+          - cell "4.27Gb" [ref=e1782]:
+            - generic [ref=e1784]: 4.27Gb
+          - cell "MKV HD" [ref=e1785]:
+            - text: MKV
+            - generic:
+              - generic "1024×576": HD
+          - cell "PRO v" [ref=e1786]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e1787]
+          - cell "—" [ref=e1788]
+          - cell "📷" [ref=e1789]:
+            - button "📷" [ref=e1790] [cursor=pointer]
+          - cell "🎫" [ref=e1791]:
+            - link "🎫" [ref=e1792] [cursor=pointer]:
+              - /url: /tradelist/shows/leningrad_05_08_2012_video/
+          - cell "➕" [ref=e1793]:
+            - button "➕" [ref=e1794] [cursor=pointer]
+          - cell "✏️" [ref=e1795]:
+            - button "✏️" [ref=e1796] [cursor=pointer]
+        - row "Ленинград 2012-06-11 Petra-Dubrava, Samara 00:36:41 4.31Gb M2TS FHD AMT v Source 1 M Vortex 📷 🎫 ➕ ✏️" [ref=e1797]:
+          - cell "Ленинград" [ref=e1798]
+          - cell "2012-06-11" [ref=e1799]
+          - cell "Petra-Dubrava, Samara" [ref=e1800]
+          - cell "00:36:41" [ref=e1801]
+          - cell "4.31Gb" [ref=e1802]:
+            - generic [ref=e1804]: 4.31Gb
+          - cell "M2TS FHD" [ref=e1805]:
+            - text: M2TS
+            - generic:
+              - generic "1920×1080": FHD
+          - cell "AMT v" [ref=e1806]:
+            - text: AMT
+            - generic: v
+          - cell "Source 1 M" [ref=e1807]:
+            - text: Source 1
+            - generic [ref=e1808]: M
+          - cell "Vortex" [ref=e1809]:
+            - generic [ref=e1811]: Vortex
+          - cell "📷" [ref=e1812]:
+            - button "📷" [ref=e1813] [cursor=pointer]
+          - cell "🎫" [ref=e1814]:
+            - link "🎫" [ref=e1815] [cursor=pointer]:
+              - /url: /tradelist/shows/leningrad_11_06_2012_source_1_video/
+          - cell "➕" [ref=e1816]:
+            - button "➕" [ref=e1817] [cursor=pointer]
+          - cell "✏️" [ref=e1818]:
+            - button "✏️" [ref=e1819] [cursor=pointer]
+        - row "Ленинград 2012-06-11 Petra-Dubrava, Samara 00:02:27 174Mb M2TS FHD AMT v Source 2 — 📷 🎫 ➕ ✏️" [ref=e1820]:
+          - cell "Ленинград" [ref=e1821]
+          - cell "2012-06-11" [ref=e1822]
+          - cell "Petra-Dubrava, Samara" [ref=e1823]
+          - cell "00:02:27" [ref=e1824]
+          - cell "174Mb" [ref=e1825]:
+            - generic [ref=e1827]: 174Mb
+          - cell "M2TS FHD" [ref=e1828]:
+            - text: M2TS
+            - generic:
+              - generic "1440×1080": FHD
+          - cell "AMT v" [ref=e1829]:
+            - text: AMT
+            - generic: v
+          - cell "Source 2" [ref=e1830]
+          - cell "—" [ref=e1831]
+          - cell "📷" [ref=e1832]:
+            - button "📷" [ref=e1833] [cursor=pointer]
+          - cell "🎫" [ref=e1834]:
+            - link "🎫" [ref=e1835] [cursor=pointer]:
+              - /url: /tradelist/shows/leningrad_11_06_2012_source_2_video/
+          - cell "➕" [ref=e1836]:
+            - button "➕" [ref=e1837] [cursor=pointer]
+          - cell "✏️" [ref=e1838]:
+            - button "✏️" [ref=e1839] [cursor=pointer]
+        - row "🎸 Океан Ельзи" [ref=e1840]:
+          - cell "🎸 Океан Ельзи" [ref=e1841]
+        - row "Океан Ельзи 2012-06-11 Petra-Dubrava, Samara 00:31:39 1.68Gb M2TS FHD AMT v — — 📷 🎫 ➕ ✏️" [ref=e1842]:
+          - cell "Океан Ельзи" [ref=e1843]
+          - cell "2012-06-11" [ref=e1844]
+          - cell "Petra-Dubrava, Samara" [ref=e1845]
+          - cell "00:31:39" [ref=e1846]
+          - cell "1.68Gb" [ref=e1847]:
+            - generic [ref=e1849]: 1.68Gb
+          - cell "M2TS FHD" [ref=e1850]:
+            - text: M2TS
+            - generic:
+              - generic "1440×1080": FHD
+          - cell "AMT v" [ref=e1851]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e1852]
+          - cell "—" [ref=e1853]
+          - cell "📷" [ref=e1854]:
+            - button "📷" [ref=e1855] [cursor=pointer]
+          - cell "🎫" [ref=e1856]:
+            - link "🎫" [ref=e1857] [cursor=pointer]:
+              - /url: /tradelist/shows/okean_el_zi_11_06_2012_video/
+          - cell "➕" [ref=e1858]:
+            - button "➕" [ref=e1859] [cursor=pointer]
+          - cell "✏️" [ref=e1860]:
+            - button "✏️" [ref=e1861] [cursor=pointer]
+        - row "🎸 Руки Вверх!" [ref=e1862]:
+          - cell "🎸 Руки Вверх!" [ref=e1863]
+        - row "Руки Вверх! 2011-03-12 Moscow, Russia 01:48:52 3.49Gb +1 DVD SD AMT v — M Vortex 📷 🎫 ➕ ✏️" [ref=e1864]:
+          - cell "Руки Вверх!" [ref=e1865]
+          - cell "2011-03-12" [ref=e1866]
+          - cell "Moscow, Russia" [ref=e1867]
+          - cell "01:48:52" [ref=e1868]
+          - cell "3.49Gb +1" [ref=e1869]:
+            - generic [ref=e1870]:
+              - generic [ref=e1871]: 3.49Gb
+              - button "+1" [ref=e1872] [cursor=pointer]
+          - cell "DVD SD" [ref=e1873]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e1874]:
+            - text: AMT
+            - generic: v
+          - cell "— M" [ref=e1875]:
+            - text: —
+            - generic [ref=e1876]: M
+          - cell "Vortex" [ref=e1877]:
+            - generic [ref=e1879]: Vortex
+          - cell "📷" [ref=e1880]:
+            - button "📷" [ref=e1881] [cursor=pointer]
+          - cell "🎫" [ref=e1882]:
+            - link "🎫" [ref=e1883] [cursor=pointer]:
+              - /url: /tradelist/shows/ruki_vverh_12_03_2011_video/
+          - cell "➕" [ref=e1884]:
+            - button "➕" [ref=e1885] [cursor=pointer]
+          - cell "✏️" [ref=e1886]:
+            - button "✏️" [ref=e1887] [cursor=pointer]
+        - row "🎸 Фиолетовый Пёс" [ref=e1888]:
+          - cell "🎸 Фиолетовый Пёс" [ref=e1889]
+        - row "Фиолетовый Пёс 2010-06-05 Moscow, Russia 01:21:20 4.36Gb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e1890]:
+          - cell "Фиолетовый Пёс" [ref=e1891]
+          - cell "2010-06-05" [ref=e1892]
+          - cell "Moscow, Russia" [ref=e1893]
+          - cell "01:21:20" [ref=e1894]
+          - cell "4.36Gb" [ref=e1895]:
+            - generic [ref=e1897]: 4.36Gb
+          - cell "DVD SD" [ref=e1898]:
+            - text: DVD
+            - generic:
+              - generic "704×576": SD
+          - cell "AMT v" [ref=e1899]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e1900]
+          - cell "—" [ref=e1901]
+          - cell "📷" [ref=e1902]:
+            - button "📷" [ref=e1903] [cursor=pointer]
+          - cell "🎫" [ref=e1904]:
+            - link "🎫" [ref=e1905] [cursor=pointer]:
+              - /url: /tradelist/shows/fioletovyy_pes_05_06_2010_video/
+          - cell "➕" [ref=e1906]:
+            - button "➕" [ref=e1907] [cursor=pointer]
+          - cell "✏️" [ref=e1908]:
+            - button "✏️" [ref=e1909] [cursor=pointer]
+        - row "🎸 Чайф" [ref=e1910]:
+          - cell "🎸 Чайф" [ref=e1911]
+        - row "Чайф 2014-12-22 Москва, Россия 00:08:23 1004Mb M2TS FHD AMT v — M Vortex 📷 🎫 ➕ ✏️" [ref=e1912]:
+          - cell "Чайф" [ref=e1913]
+          - cell "2014-12-22" [ref=e1914]
+          - cell "Москва, Россия" [ref=e1915]
+          - cell "00:08:23" [ref=e1916]
+          - cell "1004Mb" [ref=e1917]:
+            - generic [ref=e1919]: 1004Mb
+          - cell "M2TS FHD" [ref=e1920]:
+            - text: M2TS
+            - generic:
+              - generic "1920×1080": FHD
+          - cell "AMT v" [ref=e1921]:
+            - text: AMT
+            - generic: v
+          - cell "— M" [ref=e1922]:
+            - text: —
+            - generic [ref=e1923]: M
+          - cell "Vortex" [ref=e1924]:
+            - generic [ref=e1926]: Vortex
+          - cell "📷" [ref=e1927]:
+            - button "📷" [ref=e1928] [cursor=pointer]
+          - cell "🎫" [ref=e1929]:
+            - link "🎫" [ref=e1930] [cursor=pointer]:
+              - /url: /tradelist/shows/chayf_22_12_2014_video/
+          - cell "➕" [ref=e1931]:
+            - button "➕" [ref=e1932] [cursor=pointer]
+          - cell "✏️" [ref=e1933]:
+            - button "✏️" [ref=e1934] [cursor=pointer]
+        - row "🎸 Чиж & Co." [ref=e1935]:
+          - cell "🎸 Чиж & Co." [ref=e1936]
+        - row "Чиж & Co. 2013-06-08 Petra-Dubrava, Samara 00:45:37 5.32Gb M2TS FHD AMT v Source 1 M Vortex 📷 🎫 ➕ ✏️" [ref=e1937]:
+          - cell "Чиж & Co." [ref=e1938]
+          - cell "2013-06-08" [ref=e1939]
+          - cell "Petra-Dubrava, Samara" [ref=e1940]
+          - cell "00:45:37" [ref=e1941]
+          - cell "5.32Gb" [ref=e1942]:
+            - generic [ref=e1944]: 5.32Gb
+          - cell "M2TS FHD" [ref=e1945]:
+            - text: M2TS
+            - generic:
+              - generic "1920×1080": FHD
+          - cell "AMT v" [ref=e1946]:
+            - text: AMT
+            - generic: v
+          - cell "Source 1 M" [ref=e1947]:
+            - text: Source 1
+            - generic [ref=e1948]: M
+          - cell "Vortex" [ref=e1949]:
+            - generic [ref=e1951]: Vortex
+          - cell "📷" [ref=e1952]:
+            - button "📷" [ref=e1953] [cursor=pointer]
+          - cell "🎫" [ref=e1954]:
+            - link "🎫" [ref=e1955] [cursor=pointer]:
+              - /url: /tradelist/shows/chizh_co_08_06_2013_source_1_video/
+          - cell "➕" [ref=e1956]:
+            - button "➕" [ref=e1957] [cursor=pointer]
+          - cell "✏️" [ref=e1958]:
+            - button "✏️" [ref=e1959] [cursor=pointer]
+        - row "Чиж & Co. 2013-06-08 Petra-Dubrava, Samara 00:50:12 7.12Gb AVI FHD AMT v Source 2 Sergey-master 📷 🎫 ➕ ✏️" [ref=e1960]:
+          - cell "Чиж & Co." [ref=e1961]
+          - cell "2013-06-08" [ref=e1962]
+          - cell "Petra-Dubrava, Samara" [ref=e1963]
+          - cell "00:50:12" [ref=e1964]
+          - cell "7.12Gb" [ref=e1965]:
+            - generic [ref=e1967]: 7.12Gb
+          - cell "AVI FHD" [ref=e1968]:
+            - text: AVI
+            - generic:
+              - generic "1920×1080": FHD
+          - cell "AMT v" [ref=e1969]:
+            - text: AMT
+            - generic: v
+          - cell "Source 2" [ref=e1970]
+          - cell "Sergey-master" [ref=e1971]:
+            - generic [ref=e1973]: Sergey-master
+          - cell "📷" [ref=e1974]:
+            - button "📷" [ref=e1975] [cursor=pointer]
+          - cell "🎫" [ref=e1976]:
+            - link "🎫" [ref=e1977] [cursor=pointer]:
+              - /url: /tradelist/shows/chizh_co_08_06_2013_source_2_video/
+          - cell "➕" [ref=e1978]:
+            - button "➕" [ref=e1979] [cursor=pointer]
+          - cell "✏️" [ref=e1980]:
+            - button "✏️" [ref=e1981] [cursor=pointer]
+        - row "Чиж & Co. 2013-06-08 Petra-Dubrava, Samara 01:30:21 2.39Gb MPG SD PRO v Source 3 — 📷 🎫 ➕ ✏️" [ref=e1982]:
+          - cell "Чиж & Co." [ref=e1983]
+          - cell "2013-06-08" [ref=e1984]
+          - cell "Petra-Dubrava, Samara" [ref=e1985]
+          - cell "01:30:21" [ref=e1986]
+          - cell "2.39Gb" [ref=e1987]:
+            - generic [ref=e1989]: 2.39Gb
+          - cell "MPG SD" [ref=e1990]:
+            - text: MPG
+            - generic:
+              - generic "720×576": SD
+          - cell "PRO v" [ref=e1991]:
+            - text: PRO
+            - generic: v
+          - cell "Source 3" [ref=e1992]
+          - cell "—" [ref=e1993]
+          - cell "📷" [ref=e1994]:
+            - button "📷" [ref=e1995] [cursor=pointer]
+          - cell "🎫" [ref=e1996]:
+            - link "🎫" [ref=e1997] [cursor=pointer]:
+              - /url: /tradelist/shows/chizh_co_08_06_2013_source_3_video/
+          - cell "➕" [ref=e1998]:
+            - button "➕" [ref=e1999] [cursor=pointer]
+          - cell "✏️" [ref=e2000]:
+            - button "✏️" [ref=e2001] [cursor=pointer]
+        - row "Чиж & Co. 2008-03-20 Москва, Россия 00:04:09 164Mb MPG QVGA AMT v — — 📷 🎫 ➕ ✏️" [ref=e2002]:
+          - cell "Чиж & Co." [ref=e2003]
+          - cell "2008-03-20" [ref=e2004]
+          - cell "Москва, Россия" [ref=e2005]
+          - cell "00:04:09" [ref=e2006]
+          - cell "164Mb" [ref=e2007]:
+            - generic [ref=e2009]: 164Mb
+          - cell "MPG QVGA" [ref=e2010]:
+            - text: MPG
+            - generic:
+              - generic "320×240": QVGA
+          - cell "AMT v" [ref=e2011]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e2012]
+          - cell "—" [ref=e2013]
+          - cell "📷" [ref=e2014]:
+            - button "📷" [ref=e2015] [cursor=pointer]
+          - cell "🎫" [ref=e2016]:
+            - link "🎫" [ref=e2017] [cursor=pointer]:
+              - /url: /tradelist/shows/chizh_co_20_03_2008_video/
+          - cell "➕" [ref=e2018]:
+            - button "➕" [ref=e2019] [cursor=pointer]
+          - cell "✏️" [ref=e2020]:
+            - button "✏️" [ref=e2021] [cursor=pointer]
+        - row "Чиж & Co. 2005-05-09 Россия 00:03:54 51.2Mb DVD nHD PRO v — — 📷 🎫 ➕ ✏️" [ref=e2022]:
+          - cell "Чиж & Co." [ref=e2023]
+          - cell "2005-05-09" [ref=e2024]
+          - cell "Россия" [ref=e2025]
+          - cell "00:03:54" [ref=e2026]
+          - cell "51.2Mb" [ref=e2027]:
+            - generic [ref=e2029]: 51.2Mb
+          - cell "DVD nHD" [ref=e2030]:
+            - text: DVD
+            - generic:
+              - generic "384×288": nHD
+          - cell "PRO v" [ref=e2031]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e2032]
+          - cell "—" [ref=e2033]
+          - cell "📷" [ref=e2034]:
+            - button "📷" [ref=e2035] [cursor=pointer]
+          - cell "🎫" [ref=e2036]:
+            - link "🎫" [ref=e2037] [cursor=pointer]:
+              - /url: /tradelist/shows/chizh_co_09_05_2005_video/
+          - cell "➕" [ref=e2038]:
+            - button "➕" [ref=e2039] [cursor=pointer]
+          - cell "✏️" [ref=e2040]:
+            - button "✏️" [ref=e2041] [cursor=pointer]
+        - row "Чиж & Co. 2004-10-12 Санкт-Петербург, Россия 02:50:45 7.88Gb DVD SD PRO v — — 📷 🎫 ➕ ✏️" [ref=e2042]:
+          - cell "Чиж & Co." [ref=e2043]
+          - cell "2004-10-12" [ref=e2044]
+          - cell "Санкт-Петербург, Россия" [ref=e2045]
+          - cell "02:50:45" [ref=e2046]
+          - cell "7.88Gb" [ref=e2047]:
+            - generic [ref=e2049]: 7.88Gb
+          - cell "DVD SD" [ref=e2050]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "PRO v" [ref=e2051]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e2052]
+          - cell "—" [ref=e2053]
+          - cell "📷" [ref=e2054]:
+            - button "📷" [ref=e2055] [cursor=pointer]
+          - cell "🎫" [ref=e2056]:
+            - link "🎫" [ref=e2057] [cursor=pointer]:
+              - /url: /tradelist/shows/chizh_co_12_10_2004_video/
+          - cell "➕" [ref=e2058]:
+            - button "➕" [ref=e2059] [cursor=pointer]
+          - cell "✏️" [ref=e2060]:
+            - button "✏️" [ref=e2061] [cursor=pointer]
+        - row "Чиж & Co. 2004-03-20 Екатеринбург, Россия 01:02:54 655Mb WMV SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e2062]:
+          - cell "Чиж & Co." [ref=e2063]
+          - cell "2004-03-20" [ref=e2064]
+          - cell "Екатеринбург, Россия" [ref=e2065]
+          - cell "01:02:54" [ref=e2066]
+          - cell "655Mb" [ref=e2067]:
+            - generic [ref=e2069]: 655Mb
+          - cell "WMV SD" [ref=e2070]:
+            - text: WMV
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e2071]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e2072]
+          - cell "—" [ref=e2073]
+          - cell "📷" [ref=e2074]:
+            - button "📷" [ref=e2075] [cursor=pointer]
+          - cell "🎫" [ref=e2076]:
+            - link "🎫" [ref=e2077] [cursor=pointer]:
+              - /url: /tradelist/shows/chizh_co_20_03_2004_video/
+          - cell "➕" [ref=e2078]:
+            - button "➕" [ref=e2079] [cursor=pointer]
+          - cell "✏️" [ref=e2080]:
+            - button "✏️" [ref=e2081] [cursor=pointer]
+        - row "Чиж & Co. 2003-11-26 Москва, Россия 00:04:33 92.2Mb DVD VGA PRO v — — 📷 🎫 ➕ ✏️" [ref=e2082]:
+          - cell "Чиж & Co." [ref=e2083]
+          - cell "2003-11-26" [ref=e2084]
+          - cell "Москва, Россия" [ref=e2085]
+          - cell "00:04:33" [ref=e2086]
+          - cell "92.2Mb" [ref=e2087]:
+            - generic [ref=e2089]: 92.2Mb
+          - cell "DVD VGA" [ref=e2090]:
+            - text: DVD
+            - generic:
+              - generic "576×480": VGA
+          - cell "PRO v" [ref=e2091]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e2092]
+          - cell "—" [ref=e2093]
+          - cell "📷" [ref=e2094]:
+            - button "📷" [ref=e2095] [cursor=pointer]
+          - cell "🎫" [ref=e2096]:
+            - link "🎫" [ref=e2097] [cursor=pointer]:
+              - /url: /tradelist/shows/chizh_co_26_11_2003_video/
+          - cell "➕" [ref=e2098]:
+            - button "➕" [ref=e2099] [cursor=pointer]
+          - cell "✏️" [ref=e2100]:
+            - button "✏️" [ref=e2101] [cursor=pointer]
+        - row "Чиж & Co. 2003-09-27 Москва, Россия 01:10:42 399Mb AVI QVGA AMT v — — 📷 🎫 ➕ ✏️" [ref=e2102]:
+          - cell "Чиж & Co." [ref=e2103]
+          - cell "2003-09-27" [ref=e2104]
+          - cell "Москва, Россия" [ref=e2105]
+          - cell "01:10:42" [ref=e2106]
+          - cell "399Mb" [ref=e2107]:
+            - generic [ref=e2109]: 399Mb
+          - cell "AVI QVGA" [ref=e2110]:
+            - text: AVI
+            - generic:
+              - generic "320×240": QVGA
+          - cell "AMT v" [ref=e2111]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e2112]
+          - cell "—" [ref=e2113]
+          - cell "📷" [ref=e2114]:
+            - button "📷" [ref=e2115] [cursor=pointer]
+          - cell "🎫" [ref=e2116]:
+            - link "🎫" [ref=e2117] [cursor=pointer]:
+              - /url: /tradelist/shows/chizh_co_27_09_2003_video/
+          - cell "➕" [ref=e2118]:
+            - button "➕" [ref=e2119] [cursor=pointer]
+          - cell "✏️" [ref=e2120]:
+            - button "✏️" [ref=e2121] [cursor=pointer]
+        - row "Чиж & Co. 2003-07-05 Москва, Россия 00:04:31 92.2Mb MPG VGA PRO v — — 📷 🎫 ➕ ✏️" [ref=e2122]:
+          - cell "Чиж & Co." [ref=e2123]
+          - cell "2003-07-05" [ref=e2124]
+          - cell "Москва, Россия" [ref=e2125]
+          - cell "00:04:31" [ref=e2126]
+          - cell "92.2Mb" [ref=e2127]:
+            - generic [ref=e2129]: 92.2Mb
+          - cell "MPG VGA" [ref=e2130]:
+            - text: MPG
+            - generic:
+              - generic "576×480": VGA
+          - cell "PRO v" [ref=e2131]:
+            - text: PRO
+            - generic: v
+          - cell "—" [ref=e2132]
+          - cell "—" [ref=e2133]
+          - cell "📷" [ref=e2134]:
+            - button "📷" [ref=e2135] [cursor=pointer]
+          - cell "🎫" [ref=e2136]:
+            - link "🎫" [ref=e2137] [cursor=pointer]:
+              - /url: /tradelist/shows/chizh_co_05_07_2003_video/
+          - cell "➕" [ref=e2138]:
+            - button "➕" [ref=e2139] [cursor=pointer]
+          - cell "✏️" [ref=e2140]:
+            - button "✏️" [ref=e2141] [cursor=pointer]
+        - row "Чиж & Co. 2003-04-28 Оренбург, Россия 00:27:56 655Mb DVD SD AMT v — — 📷 🎫 ➕ ✏️" [ref=e2142]:
+          - cell "Чиж & Co." [ref=e2143]
+          - cell "2003-04-28" [ref=e2144]
+          - cell "Оренбург, Россия" [ref=e2145]
+          - cell "00:27:56" [ref=e2146]
+          - cell "655Mb" [ref=e2147]:
+            - generic [ref=e2149]: 655Mb
+          - cell "DVD SD" [ref=e2150]:
+            - text: DVD
+            - generic:
+              - generic "720×576": SD
+          - cell "AMT v" [ref=e2151]:
+            - text: AMT
+            - generic: v
+          - cell "—" [ref=e2152]
+          - cell "—" [ref=e2153]
+          - cell "📷" [ref=e2154]:
+            - button "📷" [ref=e2155] [cursor=pointer]
+          - cell "🎫" [ref=e2156]:
+            - link "🎫" [ref=e2157] [cursor=pointer]:
+              - /url: /tradelist/shows/chizh_co_28_04_2003_video/
+          - cell "➕" [ref=e2158]:
+            - button "➕" [ref=e2159] [cursor=pointer]
+          - cell "✏️" [ref=e2160]:
+            - button "✏️" [ref=e2161] [cursor=pointer]
+        - row "Чиж & Co. 1998-09-18 Санкт-Петербург, Россия 01:05:32 973Mb AVI VGA PRO v Source 1 — 📷 🎫 ➕ ✏️" [ref=e2162]:
+          - cell "Чиж & Co." [ref=e2163]
+          - cell "1998-09-18" [ref=e2164]
+          - cell "Санкт-Петербург, Россия" [ref=e2165]
+          - cell "01:05:32" [ref=e2166]
+          - cell "973Mb" [ref=e2167]:
+            - generic [ref=e2169]: 973Mb
+          - cell "AVI VGA" [ref=e2170]:
+            - text: AVI
+            - generic:
+              - generic "528×400": VGA
+          - cell "PRO v" [ref=e2171]:
+            - text: PRO
+            - generic: v
+          - cell "Source 1" [ref=e2172]
+          - cell "—" [ref=e2173]
+          - cell "📷" [ref=e2174]:
+            - button "📷" [ref=e2175] [cursor=pointer]
+          - cell "🎫" [ref=e2176]:
+            - link "🎫" [ref=e2177] [cursor=pointer]:
+              - /url: /tradelist/shows/chizh_co_18_09_1998_source_1_video/
+          - cell "➕" [ref=e2178]:
+            - button "➕" [ref=e2179] [cursor=pointer]
+          - cell "✏️" [ref=e2180]:
+            - button "✏️" [ref=e2181] [cursor=pointer]
+        - row "Чиж & Co. 1998-09-18 Санкт-Петербург, Россия 00:36:02 410Mb AVI nHD PRO v Source 2 — 📷 🎫 ➕ ✏️" [ref=e2182]:
+          - cell "Чиж & Co." [ref=e2183]
+          - cell "1998-09-18" [ref=e2184]
+          - cell "Санкт-Петербург, Россия" [ref=e2185]
+          - cell "00:36:02" [ref=e2186]
+          - cell "410Mb" [ref=e2187]:
+            - generic [ref=e2189]: 410Mb
+          - cell "AVI nHD" [ref=e2190]:
+            - text: AVI
+            - generic:
+              - generic "384×288": nHD
+          - cell "PRO v" [ref=e2191]:
+            - text: PRO
+            - generic: v
+          - cell "Source 2" [ref=e2192]
+          - cell "—" [ref=e2193]
+          - cell "📷" [ref=e2194]:
+            - button "📷" [ref=e2195] [cursor=pointer]
+          - cell "🎫" [ref=e2196]:
+            - link "🎫" [ref=e2197] [cursor=pointer]:
+              - /url: /tradelist/shows/chizh_co_18_09_1998_source_2_video/
+          - cell "➕" [ref=e2198]:
+            - button "➕" [ref=e2199] [cursor=pointer]
+          - cell "✏️" [ref=e2200]:
+            - button "✏️" [ref=e2201] [cursor=pointer]
+        - row "Чиж & Co. 1995-09-21 Санкт-Петербург, Россия 00:47:55 788Mb MPG VGA PRO v Source 1 — 📷 🎫 ➕ ✏️" [ref=e2202]:
+          - cell "Чиж & Co." [ref=e2203]
+          - cell "1995-09-21" [ref=e2204]
+          - cell "Санкт-Петербург, Россия" [ref=e2205]
+          - cell "00:47:55" [ref=e2206]
+          - cell "788Mb" [ref=e2207]:
+            - generic [ref=e2209]: 788Mb
+          - cell "MPG VGA" [ref=e2210]:
+            - text: MPG
+            - generic:
+              - generic "576×480": VGA
+          - cell "PRO v" [ref=e2211]:
+            - text: PRO
+            - generic: v
+          - cell "Source 1" [ref=e2212]
+          - cell "—" [ref=e2213]
+          - cell "📷" [ref=e2214]:
+            - button "📷" [ref=e2215] [cursor=pointer]
+          - cell "🎫" [ref=e2216]:
+            - link "🎫" [ref=e2217] [cursor=pointer]:
+              - /url: /tradelist/shows/chizh_co_21_09_1995_source_1_video/
+          - cell "➕" [ref=e2218]:
+            - button "➕" [ref=e2219] [cursor=pointer]
+          - cell "✏️" [ref=e2220]:
+            - button "✏️" [ref=e2221] [cursor=pointer]
+        - row "Чиж & Co. 1995-09-21 Санкт-Петербург, Россия 00:28:48 584Mb MPG VGA PRO v Source 2 — 📷 🎫 ➕ ✏️" [ref=e2222]:
+          - cell "Чиж & Co." [ref=e2223]
+          - cell "1995-09-21" [ref=e2224]
+          - cell "Санкт-Петербург, Россия" [ref=e2225]
+          - cell "00:28:48" [ref=e2226]
+          - cell "584Mb" [ref=e2227]:
+            - generic [ref=e2229]: 584Mb
+          - cell "MPG VGA" [ref=e2230]:
+            - text: MPG
+            - generic:
+              - generic "576×480": VGA
+          - cell "PRO v" [ref=e2231]:
+            - text: PRO
+            - generic: v
+          - cell "Source 2" [ref=e2232]
+          - cell "—" [ref=e2233]
+          - cell "📷" [ref=e2234]:
+            - button "📷" [ref=e2235] [cursor=pointer]
+          - cell "🎫" [ref=e2236]:
+            - link "🎫" [ref=e2237] [cursor=pointer]:
+              - /url: /tradelist/shows/chizh_co_21_09_1995_source_2_video/
+          - cell "➕" [ref=e2238]:
+            - button "➕" [ref=e2239] [cursor=pointer]
+          - cell "✏️" [ref=e2240]:
+            - button "✏️" [ref=e2241] [cursor=pointer]
+        - row "Чиж & Co. 1995-09-21 Санкт-Петербург, Россия 01:18:46 870Mb AVI SD PRO v Source 3 — 📷 🎫 ➕ ✏️" [ref=e2242]:
+          - cell "Чиж & Co." [ref=e2243]
+          - cell "1995-09-21" [ref=e2244]
+          - cell "Санкт-Петербург, Россия" [ref=e2245]
+          - cell "01:18:46" [ref=e2246]
+          - cell "870Mb" [ref=e2247]:
+            - generic [ref=e2249]: 870Mb
+          - cell "AVI SD" [ref=e2250]:
+            - text: AVI
+            - generic:
+              - generic "696×560": SD
+          - cell "PRO v" [ref=e2251]:
+            - text: PRO
+            - generic: v
+          - cell "Source 3" [ref=e2252]
+          - cell "—" [ref=e2253]
+          - cell "📷" [ref=e2254]:
+            - button "📷" [ref=e2255] [cursor=pointer]
+          - cell "🎫" [ref=e2256]:
+            - link "🎫" [ref=e2257] [cursor=pointer]:
+              - /url: /tradelist/shows/chizh_co_21_09_1995_source_3_video/
+          - cell "➕" [ref=e2258]:
+            - button "➕" [ref=e2259] [cursor=pointer]
+          - cell "✏️" [ref=e2260]:
+            - button "✏️" [ref=e2261] [cursor=pointer]
+    - navigation [ref=e2263]:
+      - list [ref=e2264]:
+        - listitem [ref=e2265]:
+          - link "1" [ref=e2266] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e2267]:
+          - link "2" [ref=e2268] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e2269]:
+          - link "→" [ref=e2270] [cursor=pointer]:
+            - /url: "#"
+  - contentinfo [ref=e2271]: Vortex © 2025
+```
