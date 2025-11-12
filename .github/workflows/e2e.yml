@@ -30,7 +30,8 @@ jobs:
 
       - name: Run tests
         run: npm run test:e2e
-        env: PLAYWRIGHT_BASE_URL: 'https://megavortex.github.io/tradelist'
+        env:
+          PLAYWRIGHT_BASE_URL: 'https://megavortex.github.io/tradelist'
 
       - name: Upload HTML report
         if: always()
