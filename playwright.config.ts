@@ -1,6 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
 
 const PREBUILT = !!process.env.PW_PREBUILT;
+const baseURL = process.env.PLAYWRIGHT_BASE_URL || 'http://localhost:8080';
 
 export default defineConfig({
   testDir: './tests',
@@ -8,7 +9,7 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
   reporter: [['list'], ['html']],
   use: {
-    baseURL: 'http://localhost:8080',
+    baseURL: baseURL,
     trace: 'on',
     screenshot: 'on',
     video: 'on'

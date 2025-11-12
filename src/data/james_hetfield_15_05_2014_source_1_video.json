@@ -1,0 +1,146 @@
+{
+  "originalTitle": "James Hetfield - 15.05.2014 - San Francisco - CA - USA - The Fillmore - Acoustic-4-A-Cure (Source 1)",
+  "created": 1762983752,
+  "lastUpdated": 1762983752,
+  "bands": [
+    "James Hetfield"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "05",
+    "year": "2014"
+  },
+  "endDate": {
+    "day": "15",
+    "month": "05",
+    "year": "2014"
+  },
+  "startDateUnix": 1400112000,
+  "endDateUnix": 1400112000,
+  "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "venue": "The Fillmore",
+    "event": "Acoustic-4-A-Cure"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Most likely a YouTube rip.",
+  "tapers": [],
+  "receivedInTrade": false,
+  "trader": "",
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.21,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1286,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": 7758,
+        "fps": "25.00",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "videoEquipment": "",
+      "audioEquipment": "",
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "images": [
+    {
+      "folder": "2025",
+      "filename": "shot-1762983000306-0.jpg",
+      "externalId": "1kISAx43eUqCqqrLaIRo3wSNNrWldlxhb"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1762983000852-1.jpg",
+      "externalId": "1fecKXp5142wrBGwai5R73QWE34GBJ1sW"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1762983001043-2.jpg",
+      "externalId": "1PUjKdU5DF4B1eNoi5G239zYWgtUMGSwT"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1762983001252-3.jpg",
+      "externalId": "1z5fkejzPWME-mGVaxwIB6OJ_c8Tuy7ap"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Nothing Else Matters",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Metallica"
+    },
+    {
+      "order": 2,
+      "song": "In My Life",
+      "feat": "",
+      "note": "",
+      "comment": "Solo live premiere",
+      "coverOf": "The Beatles"
+    },
+    {
+      "order": 3,
+      "song": "Until It Sleeps",
+      "feat": "",
+      "note": "",
+      "comment": "Solo live premiere; first time live since 2008",
+      "coverOf": "Metallica"
+    },
+    {
+      "order": 4,
+      "song": "Turn the Page / Boulevard of Broken Dreams",
+      "feat": "Billie Joe Armstrong",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [],
+  "relatedShows": [
+    "metallica_12_05_2014_source_1_video"
+  ],
+  "childOf": ""
+}
