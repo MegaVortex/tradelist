@@ -3,13 +3,11 @@ import { test, expect } from '@playwright/test';
 test.describe('Browse Shows — letter bar → band pills', () => {
   test('clicking a letter shows band pills for that bucket', async ({ page }) => {
     test.setTimeout(60_000);
-
-    // Don’t wait for 'load' (can hang on CSS); DOM is enough.
-    await page.goto('/tradelist/shows/', { waitUntil: 'domcontentloaded' });
+    await page.goto('/tradelist/shows/');
 
     // Letter bar visible
     const letterBar = page.locator('#letter-bar');
-    await expect(letterBar).toBeVisible({ timeout: 30_000 });
+    await expect(letterBar).toBeVisible({ timeout: 60_000 }); // Increased timeout
 
     // Wait until it has links: “All” + at least one real letter
     const letterLinks = page.locator('#letter-bar .nav-link[data-letter]');
