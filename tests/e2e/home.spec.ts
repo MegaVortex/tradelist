@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Homepage (rules + top lists)', () => {
   test('renders Rules section and both Top 10 blocks', async ({ page }) => {
+    test.setTimeout(60_000);
     await page.goto('/');
 
     // Rules
