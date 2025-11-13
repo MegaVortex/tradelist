@@ -2,7 +2,6 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Traders Top 10 block', () => {
   test('each item has name and count; links (if any) are safe', async ({ page }) => {
-    test.setTimeout(60_000);
     await page.goto('/tradelist/');
 
     const block = page.getByTestId('traders-top10');
