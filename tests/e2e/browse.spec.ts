@@ -98,10 +98,6 @@ test.describe('Browse Shows', () => {
       await expect(page.locator('.year-filter')).toBeVisible({ timeout: 10_000 });
     });
 
-    // ───────────────────────────────
-    // NEW CHECKS before table rows
-    // ───────────────────────────────
-
     await test.step('Table has at least 12 columns', async () => {
       const thCount = await page.locator('#shows-table thead th').count();
       expect(thCount).toBeGreaterThanOrEqual(12);
@@ -124,11 +120,31 @@ test.describe('Browse Shows', () => {
         .toBeGreaterThan(0);
     });
 
-    // Final table rows check
     await test.step('Table shows at least one row', async () => {
       const rows = page.locator('#shows-table-body tr');
       await expect.poll(async () => await rows.count(), { timeout: 15_000 })
         .toBeGreaterThan(0);
+    });
+	
+    await test.step('Type label is a/v/m with correct kind', async () => {
+      const labels = page.getByTestId('type-label');
+    
+      // Wait until at least one label exists
+      await expect.poll(async () => await labels.count(), { timeout: 10_000 })
+        .toBeGreaterThan(0);
+    
+      // Text must be a/v/m
+      for (const t of (await labels.allTextContents())) {
+        expect(t.trim()).toMatch(/^[avm]$/i);
+      }
+    
+      // data-kind must be one of audio|video|misc
+      const allowed = new Set(['audio', 'video', 'misc']);
+      const n = await labels.count();
+      for (let i = 0; i < n; i++) {
+        const kind = await labels.nth(i).getAttribute('data-kind');
+        expect(kind && allowed.has(kind)).toBe(true);
+      }
     });
   });
 });

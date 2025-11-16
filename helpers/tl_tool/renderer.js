@@ -1426,6 +1426,7 @@ async function runSetlistLookupGeneric(i) {
     getEl("loc-venue", i).value = normalizeName(firstSetlist.venue?.name || "");
     let countryName = firstSetlist.venue?.city?.country?.name || "";
     if (countryName === "United States") countryName = "USA";
+    if (countryName === "United Arab Emirates") countryName = "UAE";
     if (countryName === "Czechia") countryName = "Czech Republic";
     getEl("loc-country", i).value = countryName;
     try {
