@@ -98,6 +98,33 @@ test.describe('Browse Shows', () => {
       await expect(page.locator('.year-filter')).toBeVisible({ timeout: 10_000 });
     });
 
+    // ───────────────────────────────
+    // NEW CHECKS before table rows
+    // ───────────────────────────────
+
+    await test.step('Table has at least 12 columns', async () => {
+      const thCount = await page.locator('#shows-table thead th').count();
+      expect(thCount).toBeGreaterThanOrEqual(12);
+    });
+
+    await test.step('At least one valid category label is present', async () => {
+      const categoryLabels = page.locator('.category-label');
+      await expect.poll(async () => await categoryLabels.count(), { timeout: 10_000 })
+        .toBeGreaterThan(0);
+
+      const texts = (await categoryLabels.allTextContents()).map(t => t.trim());
+      const allowed = ['🎥 Video', '🎥 Misc', '🎥 Compilation', '🔊 Audio'];
+      const anyValid = texts.some(t => allowed.includes(t));
+      expect(anyValid).toBe(true);
+    });
+
+    await test.step('At least one year label is present', async () => {
+      const yearLabels = page.locator('.year-label');
+      await expect.poll(async () => await yearLabels.count(), { timeout: 10_000 })
+        .toBeGreaterThan(0);
+    });
+
+    // Final table rows check
     await test.step('Table shows at least one row', async () => {
       const rows = page.locator('#shows-table-body tr');
       await expect.poll(async () => await rows.count(), { timeout: 15_000 })
