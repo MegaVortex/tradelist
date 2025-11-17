@@ -97,6 +97,46 @@ test.describe('Browse Shows', () => {
     await test.step('Year filter becomes visible', async () => {
       await expect(page.locator('.year-filter')).toBeVisible({ timeout: 10_000 });
     });
+	
+    // --- Year dropdown: pick a random year and assert changes ---
+    let showsBeforeYear = await getShowsCount(page);
+    
+    await test.step('Open year dropdown', async () => {
+      await page.locator('#yearFilterBtn').click();
+    });
+    
+    // Wait for menu items to appear
+    const allYearItems = page.locator('#yearMenu .dropdown-item');
+    await expect.poll(async () => await allYearItems.count(), { timeout: 10_000 })
+      .toBeGreaterThan(0);
+    
+    // Exclude the "All years" option; pick from real years
+    const yearItems = allYearItems.filter({ hasText: /^(?!All years$).+/ });
+    const yearCount = await yearItems.count();
+    expect(yearCount).toBeGreaterThan(0);
+    
+    const yearIdx = randIndex(yearCount);
+    const yearToPick = yearItems.nth(yearIdx);
+    const yearText = (await yearToPick.textContent())?.trim() || '';
+    
+    await test.step(`Select random year: ${yearText}`, async () => {
+      await yearToPick.click();
+    });
+    
+    // Button caption should reflect the selection
+    await test.step('Year button reflects selection', async () => {
+      await expect(page.locator('#yearFilterBtn')).toContainText(yearText, { timeout: 10_000 });
+    });
+    
+    // Counter should remain > 0 and typically narrow (<= previous)
+    await test.step('Shows counter reflects year filter', async () => {
+      await expect.poll(async () => await getShowsCount(page), { timeout: 20_000 })
+        .toBeGreaterThan(0);
+      const afterYear = await getShowsCount(page);
+      if (showsBeforeYear > 0) {
+        expect(afterYear).toBeLessThanOrEqual(showsBeforeYear);
+      }
+    });
 
     await test.step('Table has at least 12 columns', async () => {
       const thCount = await page.locator('#shows-table thead th').count();

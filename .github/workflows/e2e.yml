@@ -10,9 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Wait a bit for Pages to propagate
-        run: sleep 60
-
       - name: Checkout
         uses: actions/checkout@v4
 
