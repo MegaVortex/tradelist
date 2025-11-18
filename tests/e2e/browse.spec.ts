@@ -15,6 +15,12 @@ test.describe('Browse Shows', () => {
     await test.step('Open Browse Shows', async () => {
       await page.goto('/tradelist/shows/', { waitUntil: 'domcontentloaded' });
     });
+	
+    await test.step('At least two band labels are present', async () => {
+      const bandLabels = page.locator('.band-label');
+      await expect.poll(async () => await bandLabels.count(), { timeout: 10_000 })
+        .toBeGreaterThan(1);
+    });
 
     const letterBar = page.locator('#letter-bar');
     await test.step('Wait for letter bar to be visible', async () => {
@@ -184,6 +190,15 @@ test.describe('Browse Shows', () => {
       for (let i = 0; i < n; i++) {
         const kind = await labels.nth(i).getAttribute('data-kind');
         expect(kind && allowed.has(kind)).toBe(true);
+		
+        // Extra rule: for video rows, require at least one resolution badge
+        if (kind === 'video') {
+          const resBadges = label.locator(
+            'xpath=ancestor::tr[1]//span[contains(@class,"res-badge")]'
+          );
+          const resCount = await resBadges.count();
+          expect(resCount).toBeGreaterThan(0);
+        }
       }
     });
   });

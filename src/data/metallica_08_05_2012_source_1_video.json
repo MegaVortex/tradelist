@@ -1,7 +1,7 @@
 {
   "originalTitle": "Metallica - 08.05.2012 - Belgrade - Serbia - Usce Park",
   "created": 1704067200,
-  "lastUpdated": 1752181957,
+  "lastUpdated": 1763496651,
   "bands": [
     "Metallica"
   ],
@@ -26,7 +26,7 @@
   },
   "tvChannel": "",
   "showName": "",
-  "source": "",
+  "source": "Source 1",
   "category": [
     "video"
   ],
@@ -110,10 +110,10 @@
   "setlist": [
     {
       "order": 1,
-      "song": "The Ecstasy Of Gold (Ennio Morricone song) (PA)",
+      "song": "The Ecstasy Of Gold",
       "feat": "",
-      "note": "",
-      "comment": "",
+      "note": "tape",
+      "comment": "Ennio Morricone song",
       "coverOf": ""
     },
     {
@@ -288,11 +288,11 @@
     },
     {
       "order": 2,
-      "song": "TV Report &quot;B92&quot;",
+      "song": "TV Report",
       "feat": "",
       "note": "",
       "coverOf": "",
-      "comment": ""
+      "comment": "B92"
     },
     {
       "order": 3,
@@ -304,11 +304,11 @@
     },
     {
       "order": 4,
-      "song": "TV Report &quot;PRVA&quot;",
+      "song": "TV Report",
       "feat": "",
       "note": "",
       "coverOf": "",
-      "comment": ""
+      "comment": "PRVA"
     },
     {
       "order": 5,
