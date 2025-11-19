@@ -1,7 +1,7 @@
 {
-  "originalTitle": "Metallica - 10.11.2010 - Sydney - NSW - Australia - Acer Arena",
-  "created": 1704067200,
-  "lastUpdated": 1752181957,
+  "originalTitle": "Metallica - 10.11.2010 - Sydney - NSW - Australia - Acer Arena (Source 2)",
+  "created": 1763589576,
+  "lastUpdated": 1763589576,
   "bands": [
     "Metallica"
   ],
@@ -10,12 +10,12 @@
     "month": "11",
     "year": "2010"
   },
-  "startDateUnix": 1289347200,
   "endDate": {
     "day": "10",
     "month": "11",
     "year": "2010"
   },
+  "startDateUnix": 1289347200,
   "endDateUnix": 1289347200,
   "location": {
     "city": "Sydney",
@@ -26,90 +26,92 @@
   },
   "tvChannel": "",
   "showName": "",
-  "source": "",
+  "source": "Source 2",
   "category": [
     "video"
   ],
   "master": false,
   "public": true,
-  "ownIdentifier": "HDD#J",
+  "ownIdentifier": "HDD#B",
   "tradeLabel": "",
-  "authoredBy": "",
+  "authoredBy": "Zarko",
   "transferredBy": "",
-  "notes": "",
+  "notes": "Very distant recording. Highly incomplete.",
   "tapers": [
-    "ss666"
+    "Dshibi"
   ],
+  "receivedInTrade": false,
+  "trader": "",
   "specs": {
     "media": [
       {
         "type": "DVD-5",
-        "size": 2.23,
+        "size": 1.49,
         "unit": "Gb"
       }
     ],
     "chapters": true,
-    "menu": false,
-    "length": 7739,
+    "menu": true,
+    "length": 1363,
     "video": [
       {
-        "tvFormat": "PAL",
-        "ratio": "4:3",
-        "resolution": "720x576",
-        "bitrateType": "CBR",
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "",
         "bitrateKbps": null,
-        "fps": "",
-        "standard": "",
+        "fps": "29.97",
+        "standard": "MPEG2",
         "codec": "",
-        "letterboxed": false
+        "letterboxed": true
       }
     ],
     "audio": [
       {
         "language": "",
         "codec": "AC3",
-        "rateHz": null,
-        "bitrateKbps": null,
+        "rateHz": 48000,
+        "bitrateKbps": 224,
         "channels": 2
       }
     ],
     "sourceDetail": {
+      "videoEquipment": "",
+      "audioEquipment": "",
       "recordingType": "AMT",
-      "sourceMediaType": "",
+      "sourceMediaType": "Digicam",
       "finalMediaType": "",
       "fileFormat": "DVD"
     }
   },
-  "relatedShows": [],
-  "childOf": "",
   "images": [
     {
-      "folder": "46",
-      "filename": "99876237.jpg",
-      "externalId": "1rzIze2HZgBENz7IiaPT3MwX-x4zg1deU"
+      "folder": "2025",
+      "filename": "shot-1763589343681-0.jpg",
+      "externalId": "1OWEkVfSBMux3z9N_GqWB8YINEdtTDH_i"
     },
     {
-      "folder": "46",
-      "filename": "49795807.jpg",
-      "externalId": "1s7LCCclyvZfa5KnlVUf7C7T15G-CL6Be"
+      "folder": "2025",
+      "filename": "shot-1763589343897-1.jpg",
+      "externalId": "1jdn2ckIlP_6Fn9H13QPuNHx6MMC8AHs4"
     },
     {
-      "folder": "46",
-      "filename": "44454149.jpg",
-      "externalId": "1_RzvFlax8QPuojxeEDZJGhLjNxnOabwM"
+      "folder": "2025",
+      "filename": "shot-1763589344103-2.jpg",
+      "externalId": "1MyOXP_u3OCz3__SJfRzf-yX1zvqTl-dH"
     },
     {
-      "folder": "46",
-      "filename": "72764601.jpg",
-      "externalId": "1ImYUzXCAx3jH_HghAgQl3wq-F7XYgbAe"
+      "folder": "2025",
+      "filename": "shot-1763589344302-3.jpg",
+      "externalId": "11fizQ9_F7KZyHh1WrDrCieEpfQN_K3I_"
     }
   ],
   "setlist": [
     {
       "order": 1,
-      "song": "The Ecstasy Of Gold",
+      "song": "The Ecstasy of Gold",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
@@ -117,31 +119,31 @@
       "order": 2,
       "song": "That Was Just Your Life",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
     {
       "order": 3,
-      "song": "The End Of The Line",
+      "song": "The End of the Line",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
     {
       "order": 4,
-      "song": "For Whom The Bell Tolls",
+      "song": "For Whom the Bell Tolls",
       "feat": "",
-      "note": "",
+      "note": "incomplete",
       "comment": "",
       "coverOf": ""
     },
     {
       "order": 5,
-      "song": "Through The Never",
+      "song": "Through the Never",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
@@ -157,7 +159,7 @@
       "order": 7,
       "song": "Broken, Beat & Scarred",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
@@ -165,122 +167,102 @@
       "order": 8,
       "song": "Wherever I May Roam",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
     {
       "order": 9,
-      "song": "Sad But True",
+      "song": "Sad but True",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
     {
       "order": 10,
-      "song": "Bass Solo",
+      "song": "The Unforgiven",
       "feat": "",
-      "note": "",
+      "note": "incomplete",
       "comment": "",
       "coverOf": ""
     },
     {
       "order": 11,
-      "song": "The Unforgiven",
+      "song": "...And Justice for All",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
     {
       "order": 12,
-      "song": "...And Justice For All",
+      "song": "The Day That Never Comes",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
     {
       "order": 13,
-      "song": "Guitar Solo",
+      "song": "Master of Puppets",
       "feat": "",
-      "note": "",
+      "note": "incomplete",
       "comment": "",
       "coverOf": ""
     },
     {
       "order": 14,
-      "song": "The Day That Never Comes",
+      "song": "Blackened",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
     {
       "order": 15,
-      "song": "Master Of Puppets",
+      "song": "Nothing Else Matters",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
     {
       "order": 16,
-      "song": "Blackened",
+      "song": "Enter Sandman",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
     {
       "order": 17,
-      "song": "Guitar Solo",
+      "song": "Am I Evil?",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
     {
       "order": 18,
-      "song": "Nothing Else Matters",
+      "song": "Motorbreath",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
     {
       "order": 19,
-      "song": "Enter Sandman",
+      "song": "Seek & Destroy",
       "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 20,
-      "song": "Am I Evil?",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 21,
-      "song": "Motorbreath",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 22,
-      "song": "Seek And Destroy",
-      "feat": "",
-      "note": "",
+      "note": "incomplete",
       "comment": "",
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "relatedShows": [
+    "metallica_24_02_2013_source_1_video"
+  ],
+  "childOf": ""
 }

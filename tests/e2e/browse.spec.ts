@@ -180,17 +180,20 @@ test.describe('Browse Shows', () => {
         .toBeGreaterThan(0);
     
       // Text must be a/v/m
-      for (const t of (await labels.allTextContents())) {
+      const texts = await labels.allTextContents();
+      for (const t of texts) {
         expect(t.trim()).toMatch(/^[avm]$/i);
       }
     
       // data-kind must be one of audio|video|misc
-      const allowed = new Set(['audio', 'video', 'misc']);
+      const allowedKinds = new Set(['audio', 'video', 'misc']);
       const n = await labels.count();
+    
       for (let i = 0; i < n; i++) {
-        const kind = await labels.nth(i).getAttribute('data-kind');
-        expect(kind && allowed.has(kind)).toBe(true);
-		
+        const label = labels.nth(i);                        // 👈 define label here
+        const kind = await label.getAttribute('data-kind');
+        expect(kind && allowedKinds.has(kind)).toBe(true);
+    
         // Extra rule: for video rows, require at least one resolution badge
         if (kind === 'video') {
           const resBadges = label.locator(
@@ -200,6 +203,146 @@ test.describe('Browse Shows', () => {
           expect(resCount).toBeGreaterThan(0);
         }
       }
+    });
+  
+    // Find first camera icon
+    const cameraButton = page
+      .locator('span[role="button"]')
+      .filter({ hasText: '📷' })
+      .first();
+  
+    await test.step('Wait for a pics (📷) icon and open image modal', async () => {
+      await expect.poll(async () => await cameraButton.count(), { timeout: 15_000 })
+        .toBeGreaterThan(0);
+      await cameraButton.click();
+    });
+  
+    const modal = page.locator('#imageModal');
+    const counter = page.locator('#imageCounter');
+    const nextBtn = page.locator('#modalNext');
+    const prevBtn = page.locator('#modalPrev');
+    const closeBtn = page.locator('#modalClose');
+  
+    // Helper to parse "X / Y"
+    const parseCounter = async () => {
+      const text = (await counter.innerText()).trim(); // e.g. "1 / 4"
+      const [curStr, totalStr] = text.split('/').map(s => s.trim());
+      const current = parseInt(curStr, 10);
+      const total = parseInt(totalStr, 10);
+      return { current, total };
+    };
+  
+    await test.step('Wait for modal and initial counter', async () => {
+      await expect(modal).toBeVisible({ timeout: 10_000 });
+      await expect(counter).toBeVisible({ timeout: 10_000 });
+    });
+  
+    await test.step('Navigate with Next until last image', async () => {
+      let { current, total } = await parseCounter();
+      expect(total).toBeGreaterThanOrEqual(1);
+  
+      let safety = 0;
+      while (current < total && safety < 20) {
+        await nextBtn.click();
+        await expect(counter).not.toHaveText(`${current} / ${total}`, { timeout: 5_000 });
+        ({ current, total } = await parseCounter());
+        safety++;
+      }
+  
+      // We should be at the last image
+      const final = await parseCounter();
+      expect(final.current).toBe(final.total);
+    });
+  
+    await test.step('Navigate with Prev back to first image', async () => {
+      let { current, total } = await parseCounter();
+      let safety = 0;
+  
+      while (current > 1 && safety < 20) {
+        await prevBtn.click();
+        await expect(counter).not.toHaveText(`${current} / ${total}`, { timeout: 5_000 });
+        ({ current, total } = await parseCounter());
+        safety++;
+      }
+  
+      const final = await parseCounter();
+      expect(final.current).toBe(1);
+    });
+  
+    await test.step('Close modal', async () => {
+      await closeBtn.click();
+      await expect(modal).toBeHidden({ timeout: 10_000 });
+    });
+
+    const firstCartButton = page.locator('button.add-to-cart').first();
+  
+    await test.step('Wait for first cart button to be rendered', async () => {
+      await expect
+        .poll(async () => await firstCartButton.count(), { timeout: 30_000 })
+        .toBeGreaterThan(0);
+    });
+  
+    // Helper: map element to logical state
+    const getState = async () => {
+      const cls = (await firstCartButton.getAttribute('class')) || '';
+      const text = (await firstCartButton.innerText()).trim();
+      const isAdd =
+        cls.includes('btn-outline-success') || text.includes('➕');
+      const isRemove =
+        cls.includes('btn-outline-danger') || text.includes('❌');
+      return { cls, text, isAdd, isRemove };
+    };
+  
+    const initial = await getState();
+  
+    await test.step('Initial state is either "add" or "remove"', async () => {
+      expect(initial.isAdd || initial.isRemove).toBe(true);
+    });
+  
+    // --- Click once: state should flip ---
+    await test.step('Click cart button (1st time) and wait for state change', async () => {
+      await firstCartButton.click();
+      // move mouse away so hover styles don't confuse us
+      await page.mouse.move(0, 0);
+  
+      await expect
+        .poll(async () => {
+          const s = await getState();
+          // logical state (add/remove) must differ from initial
+          return s.isAdd !== initial.isAdd || s.isRemove !== initial.isRemove;
+        }, { timeout: 10_000 })
+        .toBe(true);
+    });
+  
+    const afterFirstClick = await getState();
+  
+    await test.step('State after first click is opposite of initial', async () => {
+      if (initial.isAdd) {
+        expect(afterFirstClick.isRemove).toBe(true);
+      } else if (initial.isRemove) {
+        expect(afterFirstClick.isAdd).toBe(true);
+      }
+    });
+  
+    // --- Click again: should go back to original logical state ---
+    await test.step('Click cart button (2nd time) and wait for state change back', async () => {
+      await firstCartButton.click();
+      await page.mouse.move(0, 0);
+  
+      await expect
+        .poll(async () => {
+          const s = await getState();
+          // logical state equal to initial again
+          return s.isAdd === initial.isAdd && s.isRemove === initial.isRemove;
+        }, { timeout: 10_000 })
+        .toBe(true);
+    });
+  
+    const afterSecondClick = await getState();
+  
+    await test.step('State after second click matches initial state again', async () => {
+      expect(afterSecondClick.isAdd).toBe(initial.isAdd);
+      expect(afterSecondClick.isRemove).toBe(initial.isRemove);
     });
   });
 });
