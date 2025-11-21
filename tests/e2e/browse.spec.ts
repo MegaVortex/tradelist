@@ -15,6 +15,54 @@ test.describe('Browse Shows', () => {
     await test.step('Open Browse Shows', async () => {
       await page.goto('/tradelist/shows/', { waitUntil: 'domcontentloaded' });
     });
+
+    const pagination = page.locator('#pagination-controls');
+    const pageButtons = pagination.locator('button, a'); // all clickable items inside
+
+    await test.step('Wait for pagination controls to appear', async () => {
+      await expect(pagination).toBeVisible({ timeout: 15_000 });
+      // Wait until we have at least a few clickable items (1, 2, 3, …, arrow)
+      await expect.poll(async () => await pageButtons.count(), { timeout: 20_000 })
+        .toBeGreaterThan(3);
+    });
+
+    await test.step('Go to page 2', async () => {
+      const page2 = pagination.locator('button, a').filter({ hasText: /^2$/ }).first();
+      await expect(page2).toBeVisible();
+      await page2.click();
+    });
+
+    await test.step('Click Next (→) to advance one page', async () => {
+      const nextArrow = pagination.locator('button, a').filter({ hasText: '→' }).first();
+      await expect(nextArrow).toBeVisible();
+      await nextArrow.click();
+    });
+
+    await test.step('Click last page number', async () => {
+      const numericPages = pagination.locator('button, a').filter({ hasText: /^[0-9]+$/ });
+      const count = await numericPages.count();
+      expect(count).toBeGreaterThan(1);
+
+      const lastPage = numericPages.nth(count - 1);
+      await lastPage.click();
+    });
+
+    await test.step('Click one page before the last', async () => {
+      const numericPages = pagination.locator('button, a').filter({ hasText: /^[0-9]+$/ });
+      const count = await numericPages.count();
+      expect(count).toBeGreaterThan(1);
+
+      const prevToLast = numericPages.nth(count - 2);
+      await prevToLast.click();
+    });
+
+    await test.step('Click Back (←) to go one page back', async () => {
+      const prevArrow = pagination.locator('button, a').filter({ hasText: '←' }).first();
+      // some UIs don’t show ← on last page; if it’s hidden, just skip this check
+      if (await prevArrow.count()) {
+        await prevArrow.click();
+      }
+    });
 	
     await test.step('At least two band labels are present', async () => {
       const bandLabels = page.locator('.band-label');

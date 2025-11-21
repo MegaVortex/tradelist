@@ -1,7 +1,7 @@
 {
-  "originalTitle": "Metallica - 19.04.2013 - Abu Dhabi - United Arab Emirates - Du Arena",
-  "created": 1704067200,
-  "lastUpdated": 1752181957,
+  "originalTitle": "Metallica - 19.04.2013 - Abu Dhabi - UAE - Du Arena (Source 3)",
+  "created": 1763668539,
+  "lastUpdated": 1763668539,
   "bands": [
     "Metallica"
   ],
@@ -10,23 +10,23 @@
     "month": "04",
     "year": "2013"
   },
-  "startDateUnix": 1366329600,
   "endDate": {
     "day": "19",
     "month": "04",
     "year": "2013"
   },
+  "startDateUnix": 1366329600,
   "endDateUnix": 1366329600,
   "location": {
     "city": "Abu Dhabi",
     "state": "",
-    "country": "United Arab Emirates",
+    "country": "UAE",
     "venue": "Du Arena",
     "event": ""
   },
   "tvChannel": "",
   "showName": "",
-  "source": "",
+  "source": "Source 3",
   "category": [
     "video"
   ],
@@ -34,93 +34,90 @@
   "public": true,
   "ownIdentifier": "HDD#B",
   "tradeLabel": "",
-  "authoredBy": "",
+  "authoredBy": "Papa Het",
   "transferredBy": "",
-  "notes": "Filmed from the floor with a lot of obstructions and very shaky. The camera is vibrating from the music so you get a lot of video distortion. Definitely filmed with either a digicam or mobile phone. As with all PapaHet releases, this is possibly YouTube sourced.",
+  "notes": "Very distant recording. Highly incomplete.",
   "tapers": [
-    "Irshad Kabir"
+    "Diego Jaramillo"
   ],
+  "receivedInTrade": false,
+  "trader": "",
   "specs": {
     "media": [
       {
         "type": "DVD-5",
-        "size": 2.89,
-        "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 3.08,
+        "size": 2.75,
         "unit": "Gb"
       }
     ],
     "chapters": true,
     "menu": true,
-    "length": 5201,
+    "length": 1110,
     "video": [
       {
-        "tvFormat": "PAL",
+        "tvFormat": "NTSC",
         "ratio": "16:9",
-        "resolution": "720x576",
-        "bitrateType": "VBR",
+        "resolution": "720x480",
+        "bitrateType": "",
         "bitrateKbps": null,
-        "fps": "",
-        "standard": "",
+        "fps": "29.97",
+        "standard": "MPEG2",
         "codec": "",
         "letterboxed": true
       }
     ],
     "audio": [
       {
-        "language": "en",
+        "language": "",
         "codec": "AC3",
-        "rateHz": null,
-        "bitrateKbps": null,
+        "rateHz": 48000,
+        "bitrateKbps": 384,
         "channels": 2
       }
     ],
     "sourceDetail": {
+      "videoEquipment": "",
+      "audioEquipment": "",
       "recordingType": "AMT",
       "sourceMediaType": "Digicam",
       "finalMediaType": "",
       "fileFormat": "DVD"
     }
   },
-  "relatedShows": [],
-  "childOf": "",
   "images": [
     {
-      "folder": "79",
-      "filename": "64884774.jpg",
-      "externalId": "1BcUBemtF4HCghOEbZbci_x2V1ShkZwj-"
+      "folder": "2025",
+      "filename": "shot-1763668032487-2.jpg",
+      "externalId": "1PtyKODHM1K9XXnbJSioyzZ_m3Cgo5MxG"
     },
     {
-      "folder": "79",
-      "filename": "70628674.jpg",
-      "externalId": "15gVjxwkN6qYqgmYMymbm3f9x5-4vRatk"
+      "folder": "2025",
+      "filename": "shot-1763668032656-3.jpg",
+      "externalId": "1B7w0bzA7mEz-ig5sU7Yrgvr_h8-soYlQ"
     },
     {
-      "folder": "79",
-      "filename": "39680956.jpg",
-      "externalId": "16kAC-vc5MphjGF56b0rWnXYmOI3w5mD_"
+      "folder": "2025",
+      "filename": "shot-1763668032134-0.jpg",
+      "externalId": "1TNCexKX-fnB7AJANQ7YdxrDTvlGOoE0G"
     },
     {
-      "folder": "79",
-      "filename": "46974227.jpg",
-      "externalId": "1iwqMOrgj6gf761cCL-qeYf07d3uZF7Y1"
+      "folder": "2025",
+      "filename": "shot-1763668032317-1.jpg",
+      "externalId": "1BPd3od8cW4Xgp6bIUMYuKmtgdiQqKfRK"
     }
   ],
   "setlist": [
     {
       "order": 1,
-      "song": "The Ecstasy Of Gold (Ennio Morricone song) (PA)",
+      "song": "The Ecstasy of Gold",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
     {
       "order": 2,
-      "song": "Hit The Lights",
+      "song": "Hit the Lights",
       "feat": "",
       "note": "",
       "comment": "",
@@ -128,9 +125,9 @@
     },
     {
       "order": 3,
-      "song": "Master Of Puppets",
+      "song": "Master of Puppets",
       "feat": "",
-      "note": "incomplete",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
@@ -138,15 +135,15 @@
       "order": 4,
       "song": "The Shortest Straw",
       "feat": "",
-      "note": "incomplete",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
     {
       "order": 5,
-      "song": "Harvester Of Sorrow",
+      "song": "Harvester of Sorrow",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
@@ -162,7 +159,7 @@
       "order": 7,
       "song": "The Four Horsemen",
       "feat": "",
-      "note": "incomplete",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
@@ -170,13 +167,13 @@
       "order": 8,
       "song": "Broken, Beat & Scarred",
       "feat": "",
-      "note": "incomplete",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
     {
       "order": 9,
-      "song": "Sad But True",
+      "song": "Sad but True",
       "feat": "",
       "note": "",
       "comment": "",
@@ -184,9 +181,9 @@
     },
     {
       "order": 10,
-      "song": "Fade To Black",
+      "song": "Fade to Black",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
@@ -194,7 +191,7 @@
       "order": 11,
       "song": "Orion",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
@@ -202,15 +199,15 @@
       "order": 12,
       "song": "One",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
     {
       "order": 13,
-      "song": "For Whom The Bell Tolls",
+      "song": "For Whom the Bell Tolls",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
@@ -218,7 +215,7 @@
       "order": 14,
       "song": "Battery",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
@@ -226,7 +223,7 @@
       "order": 15,
       "song": "Nothing Else Matters",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
@@ -234,7 +231,7 @@
       "order": 16,
       "song": "Enter Sandman",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
@@ -256,12 +253,39 @@
     },
     {
       "order": 19,
-      "song": "Seek And Destroy",
+      "song": "Seek & Destroy",
       "feat": "",
       "note": "not recorded",
       "comment": "",
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [
+    {
+      "order": 1,
+      "song": "Nothing Else Matters",
+      "feat": "",
+      "note": "",
+      "comment": "2013-04-24",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "One",
+      "feat": "",
+      "note": "",
+      "comment": "2013-04-25",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Fade to Black",
+      "feat": "",
+      "note": "",
+      "comment": "2013-04-27",
+      "coverOf": ""
+    }
+  ],
+  "relatedShows": [],
+  "childOf": ""
 }
