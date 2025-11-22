@@ -1,0 +1,153 @@
+{
+  "originalTitle": "Metallica - 03.05.2013 - San Francisco - CA - USA - AT&T Park (Source 2)",
+  "created": 1763841529,
+  "lastUpdated": 1763841529,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "05",
+    "year": "2013"
+  },
+  "endDate": {
+    "day": "03",
+    "month": "05",
+    "year": "2013"
+  },
+  "startDateUnix": 1367539200,
+  "endDateUnix": 1367539200,
+  "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "venue": "AT&T Park",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "SeBaS",
+  "transferredBy": "",
+  "notes": "Metallica performs national anthem before the Giants' game against the Dodgers. YouTube rip.",
+  "tapers": [],
+  "receivedInTrade": false,
+  "trader": "",
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.36,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 105,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "videoEquipment": "",
+      "audioEquipment": "",
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "images": [
+    {
+      "folder": "2025",
+      "filename": "manual_1763840989099_0.jpg",
+      "externalId": "1AO23GWLBrjfv5JfLB3W7qs4ebpueO_W5"
+    },
+    {
+      "folder": "2025",
+      "filename": "manual_1763840989102_1.jpg",
+      "externalId": "1D0LStr9Ox3JyVQQ8IhPOyM5IBqYUcgZX"
+    },
+    {
+      "folder": "2025",
+      "filename": "manual_1763840989104_2.jpg",
+      "externalId": "1fq9981B4gNIEtHXFGgmCXV_n4j7NywO6"
+    },
+    {
+      "folder": "2025",
+      "filename": "manual_1763840989106_3.jpg",
+      "externalId": "1cUzsQW5uQx1K7Qlubi05sQZ09r_TlXAI"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Star-Spangled Banner",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Sound Check",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Metallica on TV",
+      "feat": "",
+      "note": "",
+      "comment": "SFG Live",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "Kirk",
+      "note": "",
+      "comment": "BAM TV",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Lars Throwing 1st Pitch",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "relatedShows": [],
+  "childOf": ""
+}

@@ -15,6 +15,65 @@ test.describe('Browse Shows', () => {
     await test.step('Open Browse Shows', async () => {
       await page.goto('/tradelist/shows/', { waitUntil: 'domcontentloaded' });
     });
+	
+    await test.step('Selecting 5 shows works, 6th triggers limit dialog', async () => {
+      const cartButtons = page.locator('button.add-to-cart');
+    
+      // Helper: is a given button currently in "add" state and clickable?
+      const isAddState = async (idx: number) => {
+        const btn = cartButtons.nth(idx);
+        if (await btn.count() === 0) return false;
+    
+        const cls = (await btn.getAttribute('class')) || '';
+        const disabledAttr = await btn.getAttribute('disabled');
+    
+        const disabled = cls.includes('disabled') || disabledAttr !== null;
+        const isAdd = cls.includes('btn-outline-success'); // green "add" state
+    
+        return isAdd && !disabled;
+      };
+    
+      // Make sure we actually have some cart buttons
+      const totalButtons = await cartButtons.count();
+      expect(totalButtons).toBeGreaterThan(0);
+    
+      const selectedIndexes: number[] = [];
+    
+      // Click 5 different add-able buttons
+      for (let i = 0; selectedIndexes.length < 5 && i < totalButtons; i++) {
+        if (await isAddState(i)) {
+          await cartButtons.nth(i).click();
+          selectedIndexes.push(i);
+        }
+      }
+    
+      // We expect to have successfully added 5 shows
+      expect(selectedIndexes.length).toBeGreaterThanOrEqual(5);
+    
+      // Now find another button that is still in "add" state (the 6th)
+      let sixthIndex = -1;
+      for (let i = 0; i < totalButtons; i++) {
+        if (selectedIndexes.includes(i)) continue; // skip the 5 we already clicked
+        if (await isAddState(i)) {
+          sixthIndex = i;
+          break;
+        }
+      }
+    
+      expect(sixthIndex).toBeGreaterThanOrEqual(0);
+    
+      // Prepare to capture the alert dialog
+      let dialogMessage = '';
+      page.once('dialog', async (dialog) => {
+        dialogMessage = dialog.message();
+        await dialog.accept(); // close the alert
+      });
+    
+      // This should trigger the "max 5 shows" alert
+      await cartButtons.nth(sixthIndex).click();
+    
+      expect(dialogMessage).toContain('You can only select up to 5 shows');
+    });
 
     const pagination = page.locator('#pagination-controls');
     const pageButtons = pagination.locator('button, a'); // all clickable items inside
