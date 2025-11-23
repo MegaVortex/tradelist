@@ -1,7 +1,7 @@
 {
   "originalTitle": "Slipknot - 08.04.2000 - Montreal - QC - Canada - Metropolis (Source 2)",
   "created": 1757964445,
-  "lastUpdated": 1757964445,
+  "lastUpdated": 1763929807,
   "bands": [
     "Slipknot"
   ],
@@ -33,10 +33,10 @@
   "master": false,
   "public": true,
   "ownIdentifier": "HDD#B",
-  "tradeLabel": "RT",
+  "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "",
+  "notes": "The video was most likely upscaled from the DVD.",
   "tapers": [
     "Wicked Dreams"
   ],
@@ -61,7 +61,7 @@
         "bitrateType": "",
         "bitrateKbps": 28771,
         "fps": "29.97",
-        "standard": "DVVIDEO",
+        "standard": "DV",
         "codec": "DVSD",
         "letterboxed": false
       }
@@ -69,7 +69,7 @@
     "audio": [
       {
         "language": "",
-        "codec": "PCM_S16LE",
+        "codec": "PCM",
         "rateHz": 48000,
         "bitrateKbps": 1536,
         "channels": 2
@@ -77,7 +77,7 @@
     ],
     "sourceDetail": {
       "recordingType": "AMT",
-      "sourceMediaType": "DV",
+      "sourceMediaType": "DVD",
       "finalMediaType": "",
       "fileFormat": "AVI"
     }

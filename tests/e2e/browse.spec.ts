@@ -16,29 +16,28 @@ test.describe('Browse Shows', () => {
       await page.goto('/tradelist/shows/', { waitUntil: 'domcontentloaded' });
     });
 	
+    // runs right after page.goto and BEFORE pagination stuff
+    const cartButtons = page.locator('button.add-to-cart');
+    const selectedIndexes: number[] = [];
+  
+    // helper lives outside so both steps can use it
+    const isAddState = async (idx: number) => {
+      const btn = cartButtons.nth(idx);
+      if (await btn.count() === 0) return false;
+  
+      const cls = (await btn.getAttribute('class')) || '';
+      const disabledAttr = await btn.getAttribute('disabled');
+  
+      const disabled = cls.includes('disabled') || disabledAttr !== null;
+      const isAdd = cls.includes('btn-outline-success'); // green "add" state
+  
+      return isAdd && !disabled;
+    };
+  
     await test.step('Selecting 5 shows works, 6th triggers limit dialog', async () => {
-      const cartButtons = page.locator('button.add-to-cart');
-    
-      // Helper: is a given button currently in "add" state and clickable?
-      const isAddState = async (idx: number) => {
-        const btn = cartButtons.nth(idx);
-        if (await btn.count() === 0) return false;
-    
-        const cls = (await btn.getAttribute('class')) || '';
-        const disabledAttr = await btn.getAttribute('disabled');
-    
-        const disabled = cls.includes('disabled') || disabledAttr !== null;
-        const isAdd = cls.includes('btn-outline-success'); // green "add" state
-    
-        return isAdd && !disabled;
-      };
-    
-      // Make sure we actually have some cart buttons
       const totalButtons = await cartButtons.count();
       expect(totalButtons).toBeGreaterThan(0);
-    
-      const selectedIndexes: number[] = [];
-    
+  
       // Click 5 different add-able buttons
       for (let i = 0; selectedIndexes.length < 5 && i < totalButtons; i++) {
         if (await isAddState(i)) {
@@ -46,33 +45,47 @@ test.describe('Browse Shows', () => {
           selectedIndexes.push(i);
         }
       }
-    
+  
       // We expect to have successfully added 5 shows
       expect(selectedIndexes.length).toBeGreaterThanOrEqual(5);
-    
-      // Now find another button that is still in "add" state (the 6th)
+  
+      // Now find another button still in "add" state (the 6th)
       let sixthIndex = -1;
       for (let i = 0; i < totalButtons; i++) {
-        if (selectedIndexes.includes(i)) continue; // skip the 5 we already clicked
+        if (selectedIndexes.includes(i)) continue;
         if (await isAddState(i)) {
           sixthIndex = i;
           break;
         }
       }
-    
       expect(sixthIndex).toBeGreaterThanOrEqual(0);
-    
-      // Prepare to capture the alert dialog
+  
+      // Capture the alert dialog
       let dialogMessage = '';
       page.once('dialog', async (dialog) => {
         dialogMessage = dialog.message();
-        await dialog.accept(); // close the alert
+        await dialog.accept();
       });
-    
+  
       // This should trigger the "max 5 shows" alert
       await cartButtons.nth(sixthIndex).click();
-    
+  
       expect(dialogMessage).toContain('You can only select up to 5 shows');
+    });
+  
+    await test.step('Free a slot by removing one show from cart', async () => {
+      // take the first of the 5 we just added
+      const indexToClear = selectedIndexes[0];
+      const btn = cartButtons.nth(indexToClear);
+  
+      // click to toggle it back to "add"
+      await btn.click();
+      await page.mouse.move(0, 0); // move cursor away to avoid hover effects
+  
+      // wait until this button is back to green "add" state
+      await expect
+        .poll(async () => await isAddState(indexToClear), { timeout: 10_000 })
+        .toBe(true);
     });
 
     const pagination = page.locator('#pagination-controls');
