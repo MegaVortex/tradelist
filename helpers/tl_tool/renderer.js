@@ -192,6 +192,8 @@ const EQUIP_FILE =
   "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\helpers\\tl_tool\\lib\\equipment.json";
 const COMP_SAVE_DIR =
   "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\src\\data-comp";
+const VA_SAVE_DIR =
+  "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\src\\data-va";
 
 function splitEquip(str) {
   if (!str) return [];
@@ -2449,7 +2451,6 @@ async function createCompilationParentFromChildren(children, i = 1) {
   const first = kids[0];
   const nowUnix = Math.floor(Date.now() / 1000);
   const band = (first.json?.bands && first.json.bands[0]) || "Unknown";
-
   const yearsStart = kids.map((k) => k.json?.startDate?.year).filter(Boolean);
   const yearsEnd = kids.map((k) => k.json?.endDate?.year).filter(Boolean);
   const startYear = minYearSafe(yearsStart);
@@ -2551,6 +2552,140 @@ async function createCompilationParentFromChildren(children, i = 1) {
   };
 }
 
+function buildVaSlug(startUnix, endUnix, startYear, endYear, media) {
+  const bandSlug = "various_artists";
+  const dateSeg = (Number.isFinite(startUnix) && Number.isFinite(endUnix))
+    ? joinDateRange(startUnix, endUnix)
+    : `xx_xx_${startYear || "xxxx"}_xx_xx_${endYear || "xxxx"}`;
+  const mediaSeg = media || "video";
+  return `${bandSlug}_${dateSeg}_${mediaSeg}_compilation`;
+}
+
+function joinDateRange(startUnix, endUnix) {
+  const sd = new Date(startUnix * 1000);
+  const ed = new Date(endUnix * 1000);
+  const pad2 = n => String(n).padStart(2, "0");
+  const s = `${pad2(sd.getDate())}_${pad2(sd.getMonth() + 1)}_${sd.getFullYear()}`;
+  const e = `${pad2(ed.getDate())}_${pad2(ed.getMonth() + 1)}_${ed.getFullYear()}`;
+  return `${s}_${e}`;
+}
+
+async function createVaParentFromChildren(children, i = 1) {
+  const kids = children.filter(Boolean);
+  if (kids.length < 3) {
+    console.warn("VA parent skipped: need at least 3 child shows.");
+    return null;
+  }
+
+  const first = kids[0];
+  const nowUnix = Math.floor(Date.now() / 1000);
+  const band = (first.json?.bands && first.json.bands[0]) || "Unknown";
+  const yearsStart = kids.map(k => k.json?.startDate?.year).filter(Boolean);
+  const yearsEnd   = kids.map(k => k.json?.endDate?.year).filter(Boolean);
+  const startUnixList = kids.map(k => k.json?.startDateUnix).filter(v => Number.isFinite(v));
+  const endUnixList   = kids.map(k => k.json?.endDateUnix).filter(v => Number.isFinite(v));
+  const parentStartUnix = startUnixList.length ? Math.min(...startUnixList) : null;
+  const parentEndUnix   = endUnixList.length   ? Math.max(...endUnixList)   : null;
+  const startYear = minYearSafe(yearsStart);
+  const endYear = maxYearSafe(yearsEnd);
+  const vaName =
+    (getEl("compilationName", 1)?.value || "").trim() ||
+    (first.json?.location?.event || "").trim();
+
+  const categories = Array.from(
+    new Set([...(first.json?.category || []), "compilation"])
+  );
+
+  const parentFilename = buildVaSlug(
+    parentStartUnix,
+    parentEndUnix,
+    startYear,
+    endYear,
+    first.json?.category
+  );
+
+  const pad2 = n => String(n).padStart(2, "0");
+  const fmtDMY = (unix) => {
+    const d = new Date(unix * 1000);
+    return `${pad2(d.getDate())}.${pad2(d.getMonth()+1)}.${d.getFullYear()}`;
+  };
+  const loc = first.json?.location || {};
+  const locStr = [loc.city, loc.country, loc.venue, loc.event].filter(Boolean).join(" - ");
+  const parentTitle = (Number.isFinite(parentStartUnix) && Number.isFinite(parentEndUnix))
+    ? `[VARIOUS ARTISTS] - [${fmtDMY(parentStartUnix)} -- ${fmtDMY(parentEndUnix)}]${locStr ? " - " + locStr : ""}`
+    : `[VARIOUS ARTISTS] - [${startYear || "xxxx"}-${endYear || "xxxx"}]${vaName ? " - " + vaName : ""}`;
+
+  const parentImages = pickCompilationImages(kids);
+
+  const parentJson = {
+    originalTitle: parentTitle,
+    created: nowUnix,
+    lastUpdated: nowUnix,
+    bands: [band],
+    startDate: { day: "", month: "", year: startYear || "" },
+    startDateUnix: Number.isFinite(parentStartUnix) ? parentStartUnix : null,
+    endDate: { day: "", month: "", year: endYear || "" },
+    endDateUnix: Number.isFinite(parentEndUnix) ? parentEndUnix : null,
+    location: { city: "", state: "", country: "", venue: "", event: "" },
+    tvChannel: "",
+    showName: vaName || "",
+    source: "",
+    category: categories,
+    master: first.json?.master || false,
+    public: first.json?.public ?? true,
+    ownIdentifier: first.json?.ownIdentifier || "",
+    tradeLabel: first.json?.tradeLabel || "",
+    authoredBy: first.json?.authoredBy || "",
+    transferredBy: first.json?.transferredBy || "",
+    notes: first.json?.notes || "",
+    tapers: [],
+    specs: JSON.parse(JSON.stringify(
+      first.json?.specs || {
+        media: [],
+        chapters: false,
+        menu: false,
+        length: 0,
+        video: [],
+        audio: [],
+        sourceDetail: {},
+      }
+    )),
+    relatedShows: [],
+    childOf: "",
+    images: parentImages,
+    parentOf: kids.map(k => k.filename),
+    setlist: [],
+    extras: [],
+  };
+
+  const totalLengthSec = kids.reduce((sum, k) => {
+    const v = k?.json?.specs?.length;
+    const n = Number(v);
+    return sum + (Number.isFinite(n) ? n : 0);
+  }, 0);
+  parentJson.specs = parentJson.specs || {};
+  parentJson.specs.length = totalLengthSec;
+
+  const baseTargetDir = window.mediaTools.getDirname(first.outPath);
+  await window.mediaTools.mkdirp(baseTargetDir);
+  const outPathPrimary = window.mediaTools.pathJoin(
+    baseTargetDir,
+    parentFilename + ".json"
+  );
+  const jsonStr = JSON.stringify(parentJson, null, 2);
+  await window.mediaTools.writeFile(outPathPrimary, jsonStr);
+
+  await window.mediaTools.mkdirp(VA_SAVE_DIR);
+  const outPathMirror = window.mediaTools.pathJoin(VA_SAVE_DIR, parentFilename + ".json");
+  await window.mediaTools.writeFile(outPathMirror, jsonStr);
+
+  return {
+    filename: parentFilename,
+    outPath: outPathPrimary,
+    json: parentJson,
+  };
+}
+
 async function saveAllJsons() {
   const hasRelatedEl = document.getElementById("hasRelated");
   const count = hasRelatedEl.checked
@@ -2564,9 +2699,12 @@ async function saveAllJsons() {
   }
 
   let compParent = null;
+  let vaParent = null;
   const showTypeVal = (getShowTypeSelect(1)?.value || "").toLowerCase();
   if (showTypeVal === "comp") {
     compParent = await createCompilationParentFromChildren(results, 1);
+  } else if (showTypeVal === "va") {
+    vaParent = await createVaParentFromChildren(results, 1);
   }
 
   const names = results.map((r) => r.filename);
@@ -2578,8 +2716,9 @@ async function saveAllJsons() {
     const others = names.filter((n) => n !== me.filename);
     me.json.relatedShows = others;
 
-    if (compParent) {
-      me.json.childOf = compParent.filename;
+    const parentRef = compParent || vaParent;
+    if (parentRef) {
+      me.json.childOf = parentRef.filename;
     }
 
     const jsonStr = JSON.stringify(me.json, null, 2);
