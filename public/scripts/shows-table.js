@@ -33,6 +33,15 @@ function smartSize(sizeInMB) {
   return (Math.round(num * 10) / 10).toFixed(1);
 }
 
+function scrollToListTop() {
+  const target =
+    document.getElementById("letter-bar") || document.querySelector("main");
+  const y = target
+    ? target.getBoundingClientRect().top + window.pageYOffset - 8
+    : 0;
+  window.scrollTo({ top: y, behavior: "auto" });
+}
+
 function getTypeLabel(categoryArray) {
   const cat = Array.isArray(categoryArray) ? categoryArray : [categoryArray];
   const catSet = new Set(cat);
@@ -1336,6 +1345,7 @@ function initializeShowFilters(shows) {
     const filtered = filterShows();
     renderPage(filtered, page);
     renderPagination(filtered.length, page);
+	scrollToListTop();
   });
 
   buildLetterBar();

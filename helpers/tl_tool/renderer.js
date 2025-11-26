@@ -1173,7 +1173,7 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 function buildRelatedEditors() {
-  const count = Math.max(
+  const desired = Math.max(
     1,
     parseInt(document.getElementById("relatedCount").value || "1", 10)
   );
@@ -1183,25 +1183,32 @@ function buildRelatedEditors() {
 
   let anchor = document.getElementById("save-all-row");
   if (!anchor) return;
-
-  if (anchor.parentElement !== container) {
-    container.appendChild(anchor);
-  }
-
-  container
-    .querySelectorAll(":scope > .related-show")
-    .forEach((n) => n.remove());
+  if (anchor.parentElement !== container) container.appendChild(anchor);
 
   const inColHost = document.getElementById("related-editors");
   if (inColHost) inColHost.classList.add("d-none");
 
-  for (let i = 2; i <= count + 1; i++) {
-    const block = cloneEditorForShow(i);
-    if (!block) continue;
+  const existingClones = container.querySelectorAll(":scope > .related-show");
+  const existing = existingClones.length;
 
-    container.insertBefore(block, anchor);
-    bindShowEvents(i);
-    prepareEmptyShow(i);
+  if (existing > desired) {
+    for (let idx = existing; idx > desired; idx--) {
+      const showIndex = idx + 1;
+      const node = container.querySelector(`[data-show-index="${showIndex}"]`);
+      if (node) node.remove();
+      if (window.showState) delete window.showState[String(showIndex)];
+    }
+    return;
+  }
+
+  if (existing < desired) {
+    for (let showIndex = existing + 2; showIndex <= desired + 1; showIndex++) {
+      const block = cloneEditorForShow(showIndex);
+      if (!block) continue;
+      container.insertBefore(block, anchor);
+      bindShowEvents(showIndex);
+      prepareEmptyShow(showIndex);
+    }
   }
 }
 
