@@ -960,3 +960,44 @@ body {
 .year-filter .dropdown-item {
 	padding: 4px 10px;
 }
+
+.not-found-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.not-found-inner {
+  text-align: center;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.not-found-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.not-found-text {
+  font-size: 13px;
+  margin-bottom: 16px;
+  color: #555;
+}
+
+.not-found-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.not-found-links a {
+  font-size: 13px;
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.not-found-links a:hover {
+  text-decoration: underline;
+}
