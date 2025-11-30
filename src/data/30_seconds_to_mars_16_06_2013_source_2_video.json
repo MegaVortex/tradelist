@@ -1,0 +1,139 @@
+{
+  "originalTitle": "30 Seconds To Mars - 16.06.2013 - Donington - England - Donington Park - Download Festival (Source 2)",
+  "created": 1764455639,
+  "lastUpdated": 1764455639,
+  "bands": [
+    "30 Seconds To Mars"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "06",
+    "year": "2013"
+  },
+  "endDate": {
+    "day": "16",
+    "month": "06",
+    "year": "2013"
+  },
+  "startDateUnix": 1371340800,
+  "endDateUnix": 1371340800,
+  "location": {
+    "city": "Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": "Download Festival"
+  },
+  "tvChannel": "Palladia",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "receivedInTrade": true,
+  "trader": "Max Rumpelstilzchen",
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 11.58,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 5702,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "HDMV",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "videoEquipment": "",
+      "audioEquipment": "",
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "M2TS"
+    }
+  },
+  "images": [
+    {
+      "folder": "2025",
+      "filename": "manual_1764453489810_0.jpg",
+      "externalId": "1RdBCvj1ezg4p2jAjEAM7d29ENOC2_mQw"
+    },
+    {
+      "folder": "2025",
+      "filename": "manual_1764453489815_1.jpg",
+      "externalId": "1DEIMIEx2UvAkWLCGq1Rx0kDRGDRhMNGj"
+    },
+    {
+      "folder": "2025",
+      "filename": "manual_1764453489817_2.jpg",
+      "externalId": "1DRWsJ8wCdztEhCSlJi7fpS59-ko-8nZI"
+    },
+    {
+      "folder": "2025",
+      "filename": "manual_1764453489821_3.jpg",
+      "externalId": "10DeqXKNzOzUeLaDut2om639tcBDpvFoe"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Do Or Die",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [],
+  "relatedShows": [
+    "iron_maiden_15_06_2013_source_2_video",
+    "queens_of_the_stone_age_15_06_2013_source_2_video",
+    "alice_in_chains_15_06_2013_source_2_video",
+    "motorhead_15_06_2013_source_2_video",
+    "korn_14_06_2013_source_2_video",
+    "jimmy_eat_world_15_06_2013_source_2_video",
+    "europe_14_06_2013_source_2_video",
+    "slipknot_15_06_2013_source_5_video",
+    "rammstein_16_06_2013_source_2_video",
+    "stone_sour_16_06_2013_source_2_video"
+  ],
+  "childOf": "various_artists_14_06_2013_16_06_2013_video_compilation"
+}

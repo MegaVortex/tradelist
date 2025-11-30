@@ -9,6 +9,57 @@ function getEl(id, index) {
     : document.getElementById(id + uidSuffix(index));
 }
 
+function cloneFieldValue(idBase, i) {
+  const src = getEl(idBase, 1);
+  const dst = getEl(idBase, i);
+  if (!src || !dst) return;
+
+  if (dst.tagName === 'SELECT') {
+    dst.value = src.value;
+  } else if (dst.type === 'checkbox' || dst.type === 'radio') {
+    dst.checked = src.checked;
+  } else {
+    dst.value = src.value;
+  }
+  try { dst.dispatchEvent(new Event('change', { bubbles: true })); } catch {}
+}
+
+function cloneSpecsFromMaster(i) {
+  const m = getShowState(1);
+  const s = getShowState(i);
+  if (!m || !s) return;
+  const src = (m.json && m.json.specs) ? m.json.specs : null;
+  s.json = s.json || {};
+  if (src) {
+    s.json.specs = {
+      media: Array.isArray(src.media) ? [...src.media] : [],
+      chapters: !!src.chapters,
+      menu: !!src.menu,
+      length: Number.isFinite(src.length) ? src.length : 0,
+      video: Array.isArray(src.video) ? JSON.parse(JSON.stringify(src.video)) : [],
+      audio: Array.isArray(src.audio) ? JSON.parse(JSON.stringify(src.audio)) : [],
+      sourceDetail: src.sourceDetail ? JSON.parse(JSON.stringify(src.sourceDetail)) : {}
+    };
+  } else {
+    s.json.specs = {
+      media: [],
+      chapters: false,
+      menu: false,
+      length: computeTotalLengthSecFor(1),
+      video: [],
+      audio: [],
+      sourceDetail: {}
+    };
+  }
+  const lenEl = getEl("total-length", i);
+  if (lenEl) lenEl.value = Number(s.json.specs.length || 0);
+  const pre = getEl("specs-summary", i);
+  if (pre && m.probeData) {
+    pre.textContent = formatSpecsForDisplay(m.probeData);
+    pre.classList.remove("d-none");
+  }
+}
+
 function getShowRoot(i) {
   return i === 1
     ? document
@@ -45,6 +96,32 @@ function wireNotRecordedBehavior(container) {
 
   noteSelect.addEventListener("change", clearIfNotRecorded);
   clearIfNotRecorded();
+}
+
+function wireSetlistRemoveButtons(i) {
+  const host = getEl("setlist-container", i);
+  if (!host) return;
+  host.querySelectorAll("button.btn.btn-outline-danger.btn-sm").forEach((btn) => {
+    if (btn.dataset.wired === "1") return;
+    btn.dataset.wired = "1";
+    btn.onclick = () => {
+      const container = btn.closest(".mb-2");
+      if (container) container.remove();
+    };
+  });
+}
+
+function wireExtrasRemoveButtons(i) {
+  const host = getEl("extras-container", i);
+  if (!host) return;
+  host.querySelectorAll("button.btn.btn-outline-danger.btn-sm").forEach((btn) => {
+    if (btn.dataset.wired === "1") return;
+    btn.dataset.wired = "1";
+    btn.onclick = () => {
+      const container = btn.closest(".mb-2");
+      if (container) container.remove();
+    };
+  });
 }
 
 const BLANK_STRINGS = new Set([
@@ -168,6 +245,7 @@ function cleanFileName(str) {
 }
 
 window.showState = window.showState || {};
+window.originDir = window.originDir || null;
 
 function getShowState(i) {
   if (!window.showState[i]) {
@@ -692,6 +770,7 @@ async function processFilesForBlock(filesOrPaths, opts) {
     st.selectedScreenshotSourcePath = videoFilesInfo[0].path;
     st.selectedFileDurationSec = videoFilesInfo[0].duration;
     st.droppedFilePath = window.mediaTools.getDirname(videoFilesInfo[0].path);
+    if (!window.originDir && i === 1) window.originDir = st.droppedFilePath;
   } else {
     st.droppedFilePath = null;
   }
@@ -743,6 +822,13 @@ async function processFilesForBlock(filesOrPaths, opts) {
         pre.textContent = formatSpecsForDisplay(st.probeData);
         pre.classList.remove("d-none");
       }
+      const parsedSpecs = parseSpecs(st.probeData);
+      st.json = st.json || {};
+      st.json.specs = Object.assign(
+        { media: [], chapters: false, menu: false, sourceDetail: {} },
+        parsedSpecs,
+        { length: computeTotalLengthSecFor(i) }
+      );
     } catch (e) {
       console.error("Initial screenshot generation failed:", e);
       st.generatedScreenshots = [];
@@ -1170,6 +1256,7 @@ window.addEventListener("DOMContentLoaded", () => {
     .getElementById("add-media-btn")
     .addEventListener("click", createSecondaryMediaBlock);
   saveBtn.addEventListener("click", () => saveJson(1));
+  renderScreenshots([], 1);
 });
 
 function buildRelatedEditors() {
@@ -1208,6 +1295,11 @@ function buildRelatedEditors() {
       container.insertBefore(block, anchor);
       bindShowEvents(showIndex);
       prepareEmptyShow(showIndex);
+	  cloneSpecsFromMaster(showIndex);
+      cloneFieldValue('recordingType', showIndex);
+      cloneFieldValue('sourceMediaType', showIndex);
+      cloneFieldValue('finalMediaType', showIndex);
+      cloneFieldValue('fileFormat', showIndex);
     }
   }
 }
@@ -1247,6 +1339,9 @@ function bindShowEvents(i) {
   if (addSetBtn) addSetBtn.onclick = () => createSetlistItemFor(i);
   const addExtraBtn = getEl("add-extra-item", i);
   if (addExtraBtn) addExtraBtn.onclick = () => createExtraItemFor(i);
+  
+  wireSetlistRemoveButtons(i);
+  wireExtrasRemoveButtons(i);
 
   const upl = getEl("upload-images-btn", i);
   if (upl) upl.addEventListener("click", () => uploadScreenshots(i));
@@ -1263,6 +1358,7 @@ function bindShowEvents(i) {
   if (save) save.addEventListener("click", () => saveJson(i));
 
   wireClonedSecondaryRemoveButtons(i);
+  renderScreenshots([], i);
 }
 
 function qsInShow(i, selector) {
@@ -1887,15 +1983,15 @@ function formatSpecsForDisplay(ffprobeData) {
 
 async function handleBulkFileSelect(i) {
   const st = getShowState(i);
-  if (!st.droppedFilePath) {
-    alert("Please drop a video file first to set the destination directory.");
-    return;
-  }
 
   const filePaths = await window.appAPI.selectImageFiles(true);
   if (!filePaths.length) return;
 
-  const targetDir = window.mediaTools.getDirname(st.droppedFilePath);
+  let targetDir = st.droppedFilePath || window.originDir || window.mediaTools.getDirname(filePaths[0]);
+
+  if (!st.droppedFilePath) st.droppedFilePath = targetDir;
+  if (!window.originDir && i === 1) window.originDir = targetDir;
+
   const newScreenshotPaths = [...st.generatedScreenshots];
 
   for (let idx = 0; idx < Math.min(filePaths.length, 4); idx++) {
@@ -1915,16 +2011,13 @@ async function handleBulkFileSelect(i) {
 
 async function handleSingleFileSelect(i, idx) {
   const st = getShowState(i);
-  if (!st.droppedFilePath) {
-    alert("Please drop a video file first to set the destination directory.");
-    return;
-  }
-
   const filePaths = await window.appAPI.selectImageFiles(false);
   if (!filePaths.length) return;
 
   const selectedPath = filePaths[0];
-  const targetDir = window.mediaTools.getDirname(st.droppedFilePath);
+  const targetDir = st.droppedFilePath || window.originDir || window.mediaTools.getDirname(selectedPath);
+  if (!st.droppedFilePath) st.droppedFilePath = targetDir;
+  if (!window.originDir && i === 1) window.originDir = targetDir;
   const newFilename = `manual_${Date.now()}_${idx}.jpg`;
   const finalDestPath = window.mediaTools.pathJoin(targetDir, newFilename);
 
@@ -2020,7 +2113,7 @@ function renderScreenshots(imgPaths, i = 1) {
   select4Btn.innerHTML = '<i class="bi bi-upload"></i> 4';
   select4Btn.title = "Select up to 4 image files";
   select4Btn.onclick = () => handleBulkFileSelect(i);
-  select4Btn.disabled = !st.droppedFilePath;
+  select4Btn.disabled = false;
 
   toolbar.appendChild(selectSource);
   toolbar.appendChild(startInput);
@@ -2456,6 +2549,9 @@ async function createCompilationParentFromChildren(children, i = 1) {
   }
 
   const first = kids[0];
+  const uniqueBands = Array.from(new Set(
+    kids.flatMap(k => Array.isArray(k?.json?.bands) ? k.json.bands : [])
+  ));
   const nowUnix = Math.floor(Date.now() / 1000);
   const band = (first.json?.bands && first.json.bands[0]) || "Unknown";
   const yearsStart = kids.map((k) => k.json?.startDate?.year).filter(Boolean);
@@ -2490,7 +2586,7 @@ async function createCompilationParentFromChildren(children, i = 1) {
     originalTitle: parentTitle,
     created: nowUnix,
     lastUpdated: nowUnix,
-    bands: [band],
+    bands: uniqueBands.length ? uniqueBands : [band],
     startDate: { day: "", month: "", year: startYear || "" },
     startDateUnix: null,
     endDate: { day: "", month: "", year: endYear || "" },
@@ -2586,7 +2682,10 @@ async function createVaParentFromChildren(children, i = 1) {
 
   const first = kids[0];
   const nowUnix = Math.floor(Date.now() / 1000);
-  const band = (first.json?.bands && first.json.bands[0]) || "Unknown";
+  const band = "Various Artists";
+  const uniqueBands = Array.from(new Set(
+    kids.flatMap(k => Array.isArray(k?.json?.bands) ? k.json.bands : [])
+  ));
   const yearsStart = kids.map(k => k.json?.startDate?.year).filter(Boolean);
   const yearsEnd   = kids.map(k => k.json?.endDate?.year).filter(Boolean);
   const startUnixList = kids.map(k => k.json?.startDateUnix).filter(v => Number.isFinite(v));
@@ -2628,7 +2727,7 @@ async function createVaParentFromChildren(children, i = 1) {
     originalTitle: parentTitle,
     created: nowUnix,
     lastUpdated: nowUnix,
-    bands: [band],
+    bands: uniqueBands.length ? uniqueBands : [band],
     startDate: { day: "", month: "", year: startYear || "" },
     startDateUnix: Number.isFinite(parentStartUnix) ? parentStartUnix : null,
     endDate: { day: "", month: "", year: endYear || "" },
