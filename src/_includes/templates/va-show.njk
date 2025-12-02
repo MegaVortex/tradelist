@@ -467,19 +467,6 @@
             </tr>
          </tbody>
       </table>
-   {% set createdTs = (created | default(show.created) | default(page.created)) %}
-   {% set updatedTs = (lastUpdated | default(show.lastUpdated) | default(page.lastUpdated)) %}
-   
-   {% if createdTs or updatedTs %}
-     <div class="meta-timestamps">
-       {% if createdTs %}
-         <div><span class="label">Created:</span> {{ createdTs | toInt | date('dd LLL yyyy hh:mm a') }}</div>
-       {% endif %}
-       {% if updatedTs %}
-         <div><span class="label">Updated:</span> {{ updatedTs | toInt | date('dd LLL yyyy hh:mm a') }}</div>
-       {% endif %}
-     </div>
-   {% endif %}
    </div>
    {% include "modals/json-editor-modal.njk" %}
    <script src="{{ '/scripts/json-editor.js' | url }}"></script>

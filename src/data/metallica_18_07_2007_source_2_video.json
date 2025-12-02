@@ -1,7 +1,7 @@
 {
   "originalTitle": "Metallica - 18.07.2007 - Moscow - Russia - Luzhniki Stadium (Source 2)",
   "created": 1704067200,
-  "lastUpdated": 1752181957,
+  "lastUpdated": 1764705801,
   "bands": [
     "Metallica"
   ],
@@ -32,76 +32,78 @@
   ],
   "master": false,
   "public": true,
-  "ownIdentifier": "HDD#O",
+  "ownIdentifier": "HDD#B",
   "tradeLabel": "",
-  "authoredBy": "",
+  "authoredBy": "SkyMaster",
   "transferredBy": "",
-  "notes": "Taped in 720p.",
+  "notes": "",
   "tapers": [
-    "Glow."
+    "Glow"
   ],
   "specs": {
     "media": [
       {
-        "type": "DVD-9",
-        "size": 6.74,
+        "type": "BD-25",
+        "size": 22.4,
         "unit": "Gb"
       }
     ],
     "chapters": true,
     "menu": true,
-    "length": 8162,
+    "length": 8373,
     "video": [
       {
-        "tvFormat": "PAL",
+        "tvFormat": "",
         "ratio": "16:9",
-        "resolution": "720x576",
+        "resolution": "1280x720",
         "bitrateType": "VBR",
         "bitrateKbps": null,
-        "fps": "",
-        "standard": "",
+        "fps": "23.97",
+        "standard": "MPEG2",
         "codec": "",
-        "letterboxed": true
+        "letterboxed": false
       }
     ],
     "audio": [
       {
-        "language": "pl",
-        "codec": "AC3",
-        "rateHz": null,
-        "bitrateKbps": null,
+        "language": "en",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
         "channels": 2
       }
     ],
     "sourceDetail": {
+      "videoEquipment": "Sony HDR HC3E",
+      "audioEquipment": "",
       "recordingType": "AMT",
-      "sourceMediaType": "",
-      "finalMediaType": "",
-      "fileFormat": "DVD"
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
     }
   },
   "relatedShows": [],
   "childOf": "",
   "images": [
     {
-      "folder": "1",
-      "filename": "76107.jpg",
-      "externalId": "1xuxz4E2gSiTOj9Xn7AGRo3Em9R4JPMum"
+      "folder": "2025",
+      "filename": "manual_2025-12-02-20h23m10s578.jpg",
+      "externalId": "1LRAJlMxDK-ABFpAa7Fc_5sa9UdxOtQAM"
     },
     {
-      "folder": "1",
-      "filename": "80690.jpg",
-      "externalId": "1_6rO6e5CjfI8ExuHu8VhEBQ_efT66Ln7"
+      "folder": "2025",
+      "filename": "manual_2025-12-02-20h23m43s832.jpg",
+      "externalId": "1CD2o6LPDmKN_dUM8RpJe4MLO8y5h6Bdw"
     },
     {
-      "folder": "1",
-      "filename": "68260.jpg",
-      "externalId": "1qfdGt6HS9Edhc3WTuPd49Aa-LkkeHepq"
+      "folder": "2025",
+      "filename": "manual_2025-12-02-20h23m35s229.jpg",
+      "externalId": "1WJY1aHA5yxwM1NvIx1t8tsU5wDrOpEhz"
     },
     {
-      "folder": "1",
-      "filename": "95977.jpg",
-      "externalId": "1TVGjbxBcX7750PJCXn-m34nSnAPY2-gB"
+      "folder": "2025",
+      "filename": "manual_2025-12-02-20h23m20s083.jpg",
+      "externalId": "1uxOa5DjOkS89E9GqnsbAYLjU-EBW2kpt"
     }
   ],
   "setlist": [
