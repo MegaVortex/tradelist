@@ -51,8 +51,28 @@
     "chapters": false,
     "menu": false,
     "length": 4972,
-    "video": [],
-    "audio": [],
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "HDMV",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
     "sourceDetail": {
       "videoEquipment": "",
       "audioEquipment": "",
