@@ -13,6 +13,10 @@ module.exports = function(eleventyConfig) {
         return String(value).padEnd(length, padChar);
     });
 	
+	eleventyConfig.addPassthroughCopy({
+      "src/favicon.ico": "favicon.ico"
+    });
+	
     eleventyConfig.addFilter("langName", function(code) {
         if (!code || typeof code !== "string") return "";
         return ISO6391.getName(code) || code;
