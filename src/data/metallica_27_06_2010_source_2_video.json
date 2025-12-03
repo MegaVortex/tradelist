@@ -1,7 +1,7 @@
 {
   "originalTitle": "Metallica - 27.06.2010 - Istanbul - Turkey - Besiktas Inonu Stadium - Sonisphere Festival (Source 2)",
   "created": 1704067200,
-  "lastUpdated": 1752181957,
+  "lastUpdated": 1764791639,
   "bands": [
     "Metallica"
   ],
@@ -32,60 +32,50 @@
   ],
   "master": false,
   "public": true,
-  "ownIdentifier": "HDD#C",
+  "ownIdentifier": "HDD#B",
   "tradeLabel": "",
-  "authoredBy": "",
+  "authoredBy": "Thumraider",
   "transferredBy": "",
-  "notes": "HD Digicam sourced. Filmed from the far left side. Video quality is great, but the filming could be much better and more enjoyable. If the taper would have just stayed zoomed in the entire time it would be a much better show but he keeps zooming back and forth so at times you can't even see the band. A little shaky at times, but nothing bad.",
+  "notes": "Filmed from the far left side. Video quality is great, but the filming could be much better and more enjoyable. If the taper would have just stayed zoomed in the entire time it would be a much better show but he keeps zooming back and forth so at times you can't even see the band. A little shaky at times, but nothing bad.",
   "tapers": [
     "Wizard"
   ],
   "specs": {
     "media": [
       {
-        "type": "DVD-5",
-        "size": 3.12,
-        "unit": "Gb"
-      },
-      {
-        "type": "DVD-5",
-        "size": 2.87,
+        "type": "BD-25",
+        "size": 21.3,
         "unit": "Gb"
       }
     ],
     "chapters": true,
     "menu": true,
-    "length": 5565,
+    "length": 5569,
     "video": [
       {
-        "tvFormat": "NTSC",
+        "tvFormat": "",
         "ratio": "16:9",
-        "resolution": "720x480",
+        "resolution": "1280x720",
         "bitrateType": "VBR",
         "bitrateKbps": null,
-        "fps": "",
-        "standard": "",
+        "fps": "50",
+        "standard": "MPEG2",
         "codec": "",
-        "letterboxed": true
+        "letterboxed": false
       }
     ],
     "audio": [
       {
-        "language": "",
-        "codec": "LPCM",
-        "rateHz": null,
-        "bitrateKbps": null,
-        "channels": 2
-      },
-      {
         "language": "en",
-        "codec": "AC3",
-        "rateHz": null,
-        "bitrateKbps": null,
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
         "channels": 2
       }
     ],
     "sourceDetail": {
+      "videoEquipment": "Panasonic Lumix DMC-ZS3",
+      "audioEquipment": "",
       "recordingType": "AMT",
       "sourceMediaType": "Digicam",
       "finalMediaType": "",
@@ -96,24 +86,24 @@
   "childOf": "",
   "images": [
     {
-      "folder": "33",
-      "filename": "51507933.jpg",
-      "externalId": "1-6Hc6vfnulgpKKMAakGe2YhuEZhle99d"
+      "folder": "2025",
+      "filename": "manual_2025-12-03-20h31m44s111.jpg",
+      "externalId": "1S2z78iVzVRPzn4rd40ZTjFqY_Ewz7U7t"
     },
     {
-      "folder": "33",
-      "filename": "80526773.jpg",
-      "externalId": "1TcXdKpPtD-rp2lyQaoLUOn6yc9RByXx0"
+      "folder": "2025",
+      "filename": "manual_2025-12-03-20h32m36s777.jpg",
+      "externalId": "1xReNPuIS_0Zq82u0Ca937yWL3jh7lRa7"
     },
     {
-      "folder": "33",
-      "filename": "86842560.jpg",
-      "externalId": "1bpiZY_ad3JOWwtjy4shmxLyZlAEGWBjY"
+      "folder": "2025",
+      "filename": "manual_2025-12-03-20h32m17s804.jpg",
+      "externalId": "1KGerMiAhUjkvNA57TLIbaQzwCY6LSyo7"
     },
     {
-      "folder": "33",
-      "filename": "87542206.jpg",
-      "externalId": "1SDEPCeglnyyfu3W2OEdKpJKZXtUI1MB0"
+      "folder": "2025",
+      "filename": "manual_2025-12-03-20h31m49s266.jpg",
+      "externalId": "1_RzglONbg0MqLG_ZivR528pageB4gBHe"
     }
   ],
   "setlist": [
@@ -121,9 +111,9 @@
       "order": 1,
       "song": "The Ecstasy Of Gold",
       "feat": "",
-      "note": "",
+      "note": "tape",
       "comment": "",
-      "coverOf": ""
+      "coverOf": "Ennio Morricone"
     },
     {
       "order": 2,
@@ -263,7 +253,7 @@
     },
     {
       "order": 19,
-      "song": "Seek And Destroy",
+      "song": "Seek and Destroy",
       "feat": "",
       "note": "",
       "comment": "",
