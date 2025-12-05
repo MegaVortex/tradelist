@@ -13,9 +13,16 @@ export async function openCartModal(page: Page): Promise<void> {
 }
 
 export async function closeCartModal(page: Page): Promise<void> {
-  const closeBtn = page.locator('#cartModal button[data-bs-dismiss="modal"]');
-  if (await closeBtn.count()) {
-    await closeBtn.click();
+  const closeTextButton = page
+    .locator('#cartModal button:has-text("Close")')
+    .first();
+
+  if (await closeTextButton.count()) {
+    await closeTextButton.click();
   }
-  await page.locator('#cartModal').waitFor({ state: 'hidden', timeout: 10_000 });
+
+  await page.locator('#cartModal').waitFor({
+    state: 'hidden',
+    timeout: 10_000,
+  });
 }
