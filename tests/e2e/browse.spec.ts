@@ -1,4 +1,5 @@
 import { test, expect } from "@playwright/test";
+import { openCartModal, closeCartModal } from './helpers/ui';
 
 function randIndex(n: number) {
   return Math.floor(Math.random() * n);
@@ -64,6 +65,16 @@ test.describe("Browse Shows", () => {
       await cartButtons.nth(sixthIndex).click();
 
       expect(dialogMessage).toContain("You can only select up to 5 shows");
+    });
+
+    await test.step("Cart button opens and closes cart modal from Browse page", async () => {
+      await openCartModal(page);
+
+      const cartModal = page.locator('#cartModal');
+      await expect(cartModal).toBeVisible();
+
+      await closeCartModal(page);
+      await expect(cartModal).toBeHidden({ timeout: 10_000 });
     });
 
     await test.step("Free a slot by removing one show from cart", async () => {

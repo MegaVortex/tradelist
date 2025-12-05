@@ -1,7 +1,5 @@
 import { test, expect } from '@playwright/test';
-
-function cartStateHelper(button: ReturnType<typeof test['info']> extends never ? any : any) {
-}
+import { openCartModal, closeCartModal } from './helpers/ui';
 
 async function getCartState(btn: import('@playwright/test').Locator) {
   const cls = (await btn.getAttribute('class')) || '';
@@ -16,7 +14,7 @@ async function getCartState(btn: import('@playwright/test').Locator) {
 }
 
 test.describe('Regular show page', () => {
-  test('Regular show page content', async ({ page }) => {
+  test('Regular show page cart → open cart modal → remove from cart', async ({ page }) => {
     await test.step('Open Browse Shows', async () => {
       await page.goto('/tradelist/shows/', { waitUntil: 'domcontentloaded' });
     });
@@ -48,7 +46,10 @@ test.describe('Regular show page', () => {
     });
 
     const cartButton = showPage
-      .locator('button.add-to-cart.btn-outline-success.me-2, button.add-to-cart.btn-outline-danger.me-2')
+      .locator(
+        'button.add-to-cart.btn-outline-success.me-2, ' +
+        'button.add-to-cart.btn-outline-danger.me-2'
+      )
       .first();
 
     await test.step('Wait for cart button on individual page', async () => {
@@ -57,51 +58,63 @@ test.describe('Regular show page', () => {
         .toBeGreaterThan(0);
     });
 
-    const initial = await getCartState(cartButton);
+    let state = await getCartState(cartButton);
 
-    await test.step('Initial state is either "add" or "remove"', async () => {
-      expect(initial.isAdd || initial.isRemove).toBe(true);
-    });
+    await test.step('Ensure cart button starts in "add" state', async () => {
+      if (state.isAdd) return;
 
-    await test.step('Toggle cart state (1st click)', async () => {
-      await cartButton.click();
-      await showPage.mouse.move(0, 0);
+      if (state.isRemove) {
+        await cartButton.click();
+        await showPage.mouse.move(0, 0);
 
-      await expect
-        .poll(async () => {
-          const s = await getCartState(cartButton);
-          return s.isAdd !== initial.isAdd || s.isRemove !== initial.isRemove;
-        }, { timeout: 10_000 })
-        .toBe(true);
-    });
+        await expect
+          .poll(async () => {
+            const s = await getCartState(cartButton);
+            return s.isAdd;
+          }, { timeout: 10_000 })
+          .toBe(true);
 
-    const afterFirst = await getCartState(cartButton);
-
-    await test.step('State after first click is opposite of initial', async () => {
-      if (initial.isAdd) {
-        expect(afterFirst.isRemove).toBe(true);
-      } else if (initial.isRemove) {
-        expect(afterFirst.isAdd).toBe(true);
+        state = await getCartState(cartButton);
+        expect(state.isAdd).toBe(true);
+      } else {
+        throw new Error('Cart button is in neither add nor remove state');
       }
     });
 
-    await test.step('Toggle cart state back (2nd click)', async () => {
+    await test.step('Add show to cart from show page', async () => {
       await cartButton.click();
       await showPage.mouse.move(0, 0);
 
       await expect
         .poll(async () => {
           const s = await getCartState(cartButton);
-          return s.isAdd === initial.isAdd && s.isRemove === initial.isRemove;
+          return s.isRemove;
         }, { timeout: 10_000 })
         .toBe(true);
     });
 
-    const afterSecond = await getCartState(cartButton);
+    await test.step('Open cart modal from show page', async () => {
+      await openCartModal(showPage);
+      const cartModal = showPage.locator('#cartModal');
+      await expect(cartModal).toBeVisible({ timeout: 10_000 });
+    });
 
-    await test.step('Final state matches initial', async () => {
-      expect(afterSecond.isAdd).toBe(initial.isAdd);
-      expect(afterSecond.isRemove).toBe(initial.isRemove);
+    await test.step('Close cart modal', async () => {
+      await closeCartModal(showPage);
+      const cartModal = showPage.locator('#cartModal');
+      await expect(cartModal).toBeHidden({ timeout: 10_000 });
+    });
+
+    await test.step('Remove show from cart on show page', async () => {
+      await cartButton.click();
+      await showPage.mouse.move(0, 0);
+
+      await expect
+        .poll(async () => {
+          const s = await getCartState(cartButton);
+          return s.isAdd;
+        }, { timeout: 10_000 })
+        .toBe(true);
     });
   });
 });
