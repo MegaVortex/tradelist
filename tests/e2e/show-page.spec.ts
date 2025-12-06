@@ -117,27 +117,28 @@ test.describe('Regular show page', () => {
         .toBe(true);
     });
   });
-  test('Regular show page has type labels for category and storage', async ({ page }) => {
+
+  test('Regular show page: Labels, tables', async ({ page }) => {
     await test.step('Open Browse Shows', async () => {
       await page.goto('/tradelist/shows/', { waitUntil: 'domcontentloaded' });
     });
-  
+
     const rows = page.locator('#shows-table-body tr');
     await test.step('Wait for at least one show row', async () => {
       await expect
         .poll(async () => await rows.count(), { timeout: 20_000 })
         .toBeGreaterThan(0);
     });
-  
+
     const ticketLink = page
       .locator('#shows-table-body tr a')
       .filter({ hasText: '🎫' })
       .first();
-  
+
     await test.step('Wait for first ticket (🎫) link', async () => {
       await expect(ticketLink).toBeVisible({ timeout: 10_000 });
     });
-  
+
     let showPage: import('@playwright/test').Page;
     await test.step('Open individual show page in a new tab', async () => {
       const [popup] = await Promise.all([
@@ -147,23 +148,45 @@ test.describe('Regular show page', () => {
       showPage = popup;
       await showPage.waitForLoadState('domcontentloaded');
     });
-  
+
     await test.step('Has a video or audio type label', async () => {
       const categoryLabel = showPage.locator(
         '.type-label-page.video-label-page, .type-label-page.audio-label-page'
       );
-  
+
       await expect
         .poll(async () => await categoryLabel.count(), { timeout: 10_000 })
         .toBeGreaterThan(0);
     });
-  
+
     await test.step('Has HDD storage type label', async () => {
       const hddLabel = showPage.locator('.type-label-page.hdd-page');
-  
+
       await expect
         .poll(async () => await hddLabel.count(), { timeout: 10_000 })
         .toBeGreaterThan(0);
+    });
+
+    const firstTable = showPage
+      .locator('.table-wrapper')
+      .nth(0)
+      .locator('table thead th');
+
+    await test.step('First table has exactly 8 columns', async () => {
+      await expect
+        .poll(async () => await firstTable.count(), { timeout: 10_000 })
+        .toBe(8);
+    });
+
+    const secondTable = showPage
+      .locator('.table-wrapper')
+      .nth(1)
+      .locator('table thead th');
+
+    await test.step('Second table has exactly 3 columns', async () => {
+      await expect
+        .poll(async () => await secondTable.count(), { timeout: 10_000 })
+        .toBe(3);
     });
   });
 });

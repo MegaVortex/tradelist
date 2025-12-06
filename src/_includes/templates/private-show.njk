@@ -565,8 +565,14 @@
                               {% if item.coverOf %}
                                  <span class="info-icon" onclick="toggleFeatInfo(this)" title="Cover">🎵</span>
                                  <span class="feat-popup" style="display: none;">
-                                    <em>{{ item.coverOf }}
-                                       cover</em>
+                                    <em>
+                                       {{ item.coverOf }}
+                                       {% if item.note and item.note | lower == 'tape' %}
+                                          song
+                                       {% else %}
+                                          cover
+                                       {% endif %}
+                                    </em>
                                  </span>
                               {% endif %}
                               {% if item.feat %}
@@ -608,8 +614,14 @@
                                     {% if item.coverOf %}
                                        <span class="info-icon" onclick="toggleFeatInfo(this)" title="Cover">🎵</span>
                                        <span class="feat-popup" style="display: none;">
-                                          <em>{{ item.coverOf }}
-                                             cover</em>
+                                          <em>
+                                             {{ item.coverOf }}
+                                             {% if item.note and item.note | lower == 'tape' %}
+                                                song
+                                             {% else %}
+                                                cover
+                                             {% endif %}
+                                          </em>
                                        </span>
                                     {% endif %}
                                     {% if item.feat %}

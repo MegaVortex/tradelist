@@ -90,31 +90,25 @@
          <tbody>
             <tr>
                <td class="artists-cell">
-                 {% if show.bands and show.bands.length %}
-                   {% set bands = show.bands %}
-                   <div class="media-wrapper media-wrapper-left">
-                     <span>{{ bands[0] }}</span>
-                     {% if bands.length > 1 %}
-                       <button
-                         type="button"
-                         class="count-badge toggle-media"
-                         data-target="bands-toggle"
-                         aria-expanded="false"
-                         title="Show {{ bands.length - 1 }} more artist{{ '' if (bands.length - 1) == 1 else 's' }}"
-                       >+{{ bands.length - 1 }}</button>
-                     {% endif %}
-                   </div>
-               
-                   {% if bands.length > 1 %}
-                     <div id="bands-toggle" class="extra-media" style="display:none;">
-                       {% for medium in bands.slice(1) %}
-                         <div>{{ medium }}</div>
-                       {% endfor %}
+                  {% if show.bands and show.bands.length %}
+                     {% set bands = show.bands %}
+                     <div class="media-wrapper media-wrapper-left">
+                        <span>{{ bands[0] }}</span>
+                        {% if bands.length > 1 %}
+                           <button type="button" class="count-badge toggle-media" data-target="bands-toggle" aria-expanded="false" title="Show {{ bands.length - 1 }} more artist{{ '' if (bands.length - 1) == 1 else 's' }}">+{{ bands.length - 1 }}</button>
+                        {% endif %}
                      </div>
-                   {% endif %}
-                 {% else %}
-                   —
-                 {% endif %}
+
+                     {% if bands.length > 1 %}
+                        <div id="bands-toggle" class="extra-media" style="display:none;">
+                           {% for medium in bands.slice(1) %}
+                              <div>{{ medium }}</div>
+                           {% endfor %}
+                        </div>
+                     {% endif %}
+                  {% else %}
+                     —
+                  {% endif %}
                </td>
                <td>
                   {% if show.startDateUnix %}
