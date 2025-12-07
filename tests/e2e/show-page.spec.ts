@@ -188,5 +188,13 @@ test.describe('Regular show page', () => {
         .poll(async () => await secondTable.count(), { timeout: 10_000 })
         .toBe(3);
     });
+	
+    await test.step('At least one meta-timestamps element is present', async () => {
+      const metaTimestamps = showPage.locator('.meta-timestamps');
+
+      await expect
+        .poll(async () => await metaTimestamps.count(), { timeout: 10_000 })
+        .toBeGreaterThan(0);
+    });
   });
 });
