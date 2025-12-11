@@ -189,11 +189,19 @@ test.describe('Regular show page', () => {
         .toBe(3);
     });
 	
-    await test.step('At least one meta-timestamps element is present', async () => {
+    await test.step('At least one timestamp element is present', async () => {
       const metaTimestamps = showPage.locator('.meta-timestamps');
 
       await expect
         .poll(async () => await metaTimestamps.count(), { timeout: 10_000 })
+        .toBeGreaterThan(0);
+    });
+	
+    await test.step('At least one media icon is present', async () => {
+      const mediaIcons = showPage.locator('.media-icons-top');
+    
+      await expect
+        .poll(async () => await mediaIcons.count(), { timeout: 10_000 })
         .toBeGreaterThan(0);
     });
   });

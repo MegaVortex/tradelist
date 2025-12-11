@@ -1,7 +1,7 @@
 {
   "originalTitle": "The White Stripes - 21.10.2005 - Bologna - Italy - Paladozza",
   "created": 1754767329,
-  "lastUpdated": 1754767329,
+  "lastUpdated": 1765454337,
   "bands": [
     "The White Stripes"
   ],
@@ -21,7 +21,7 @@
     "city": "Bologna",
     "state": "",
     "country": "Italy",
-    "venue": "Paladozza",
+    "venue": "PalaDozza",
     "event": ""
   },
   "tvChannel": "",
@@ -105,9 +105,9 @@
   "setlist": [
     {
       "order": 1,
-      "song": "Intro (who's The Big Baby) (missing)",
+      "song": "Intro",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
@@ -129,7 +129,7 @@
     },
     {
       "order": 4,
-      "song": "I Think I Smell A Rat  &gt; Take A Whiff On Me",
+      "song": "I Think I Smell A Rat",
       "feat": "",
       "note": "incomplete",
       "comment": "",
@@ -137,6 +137,14 @@
     },
     {
       "order": 5,
+      "song": "Take a Whiff on Me",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": "Lead Belly"
+    },
+    {
+      "order": 6,
       "song": "My Doorbell",
       "feat": "",
       "note": "",
@@ -145,7 +153,7 @@
     },
     {
       "order": 6,
-      "song": "Cannon (Intro) &gt; Jolene (Dolly Parton cover)",
+      "song": "Cannon",
       "feat": "",
       "note": "",
       "comment": "",
@@ -153,11 +161,11 @@
     },
     {
       "order": 7,
-      "song": "Cannon",
+      "song": "Jolene",
       "feat": "",
       "note": "",
       "comment": "",
-      "coverOf": ""
+      "coverOf": "Dolly Parton"
     },
     {
       "order": 8,
@@ -169,7 +177,7 @@
     },
     {
       "order": 9,
-      "song": "There's No Home For You Here (Jack played Dead Leaves on guitar and sang TNHFYH) &gt; I Think I Smell A Rat",
+      "song": "There's No Home for You Here",
       "feat": "",
       "note": "",
       "comment": "",
@@ -177,22 +185,38 @@
     },
     {
       "order": 10,
-      "song": "Party Of Special Things To Do",
+      "song": "I Think I Smell a Rat",
       "feat": "",
       "note": "",
       "comment": "",
-      "coverOf": "Captain Beefheart"
+      "coverOf": ""
     },
     {
       "order": 11,
-      "song": "Death Letter  &gt; I'm Finding It Harder To Be A Gentleman (cuts right before end)",
+      "song": "Party of Special Things to Do",
       "feat": "",
       "note": "",
+      "comment": "",
+      "coverOf": "Captain Beefheart & His Magic Band"
+    },
+    {
+      "order": 12,
+      "song": "Death Letter",
+      "feat": "",
+      "note": "incomplete",
       "comment": "",
       "coverOf": "Son House"
     },
     {
-      "order": 12,
+      "order": 13,
+      "song": "I'm Finding It Harder to Be a Gentleman",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": "Son House"
+    },
+    {
+      "order": 14,
       "song": "Hotel Yorba",
       "feat": "",
       "note": "not recorded",
@@ -200,7 +224,7 @@
       "coverOf": ""
     },
     {
-      "order": 13,
+      "order": 15,
       "song": "In The Cold, Cold Night",
       "feat": "",
       "note": "",
@@ -208,7 +232,7 @@
       "coverOf": ""
     },
     {
-      "order": 14,
+      "order": 16,
       "song": "Black Math",
       "feat": "",
       "note": "",
@@ -216,7 +240,7 @@
       "coverOf": ""
     },
     {
-      "order": 15,
+      "order": 17,
       "song": "The Nurse",
       "feat": "",
       "note": "",
@@ -224,15 +248,15 @@
       "coverOf": ""
     },
     {
-      "order": 16,
-      "song": "Forever For Her (Is Over For Me) (missing)",
+      "order": 18,
+      "song": "Forever For Her (Is Over For Me)",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": ""
     },
     {
-      "order": 17,
+      "order": 19,
       "song": "Ball And Biscuit",
       "feat": "",
       "note": "",
@@ -240,7 +264,7 @@
       "coverOf": ""
     },
     {
-      "order": 18,
+      "order": 20,
       "song": "The Hardest Button To Button",
       "feat": "",
       "note": "",
@@ -248,15 +272,15 @@
       "coverOf": ""
     },
     {
-      "order": 19,
-      "song": "Fell In Love With A Girl (slow version)",
+      "order": 21,
+      "song": "Fell In Love With A Girl",
       "feat": "",
       "note": "",
-      "comment": "",
+      "comment": "slow version",
       "coverOf": ""
     },
     {
-      "order": 20,
+      "order": 22,
       "song": "We're Gonna Be Friends",
       "feat": "",
       "note": "",
@@ -264,7 +288,7 @@
       "coverOf": ""
     },
     {
-      "order": 21,
+      "order": 23,
       "song": "Red Rain",
       "feat": "",
       "note": "",
@@ -272,7 +296,7 @@
       "coverOf": ""
     },
     {
-      "order": 22,
+      "order": 24,
       "song": "Seven Nation Army",
       "feat": "",
       "note": "",
@@ -280,10 +304,10 @@
       "coverOf": ""
     },
     {
-      "order": 23,
-      "song": "Boll Weavil  (missing)",
+      "order": 25,
+      "song": "Boll Weavil",
       "feat": "",
-      "note": "",
+      "note": "not recorded",
       "comment": "",
       "coverOf": "Leadbelly"
     }
