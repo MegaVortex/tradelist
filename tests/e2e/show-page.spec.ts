@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { openCartModal, closeCartModal } from './helpers/ui';
+import { openCartModal, closeCartModal } from './helpers/cart-modal';
+import { exerciseImageModal } from './helpers/image-modal';
 
 async function getCartState(btn: import('@playwright/test').Locator) {
   const cls = (await btn.getAttribute('class')) || '';
@@ -118,7 +119,7 @@ test.describe('Regular show page', () => {
     });
   });
 
-  test('Regular show page: Labels, tables', async ({ page }) => {
+  test('Regular show page: Labels, tables, image modal', async ({ page }) => {
     await test.step('Open Browse Shows', async () => {
       await page.goto('/tradelist/shows/', { waitUntil: 'domcontentloaded' });
     });
@@ -203,6 +204,19 @@ test.describe('Regular show page', () => {
       await expect
         .poll(async () => await mediaIcons.count(), { timeout: 10_000 })
         .toBeGreaterThan(0);
+    });
+	
+    await test.step('Open image modal by clicking first thumbnail', async () => {
+      const firstThumb = showPage
+        .locator('img[onclick*="openModal"]')
+        .first();
+    
+      await expect(firstThumb).toBeVisible({ timeout: 10_000 });
+      await firstThumb.click();
+    });
+    
+    await test.step('Exercise image modal navigation (show page)', async () => {
+      await exerciseImageModal(showPage);
     });
   });
 });

@@ -1,5 +1,6 @@
 import { test, expect } from "@playwright/test";
-import { openCartModal, closeCartModal } from './helpers/ui';
+import { openCartModal, closeCartModal } from './helpers/cart-modal';
+import { exerciseImageModal } from './helpers/image-modal';
 
 function randIndex(n: number) {
   return Math.floor(Math.random() * n);
@@ -360,73 +361,18 @@ test.describe("Browse Shows", () => {
 
     const cameraButton = page
       .locator('span[role="button"]')
-      .filter({ hasText: "📷" })
+      .filter({ hasText: '📷' })
       .first();
 
-    await test.step("Wait for a pics (📷) icon and open image modal", async () => {
+    await test.step('Wait for a pics (📷) icon and open image modal', async () => {
       await expect
         .poll(async () => await cameraButton.count(), { timeout: 15_000 })
         .toBeGreaterThan(0);
       await cameraButton.click();
     });
 
-    const modal = page.locator("#imageModal");
-    const counter = page.locator("#imageCounter");
-    const nextBtn = page.locator("#modalNext");
-    const prevBtn = page.locator("#modalPrev");
-    const closeBtn = page.locator("#modalClose");
-
-    const parseCounter = async () => {
-      const text = (await counter.innerText()).trim();
-      const [curStr, totalStr] = text.split("/").map((s) => s.trim());
-      const current = parseInt(curStr, 10);
-      const total = parseInt(totalStr, 10);
-      return { current, total };
-    };
-
-    await test.step("Wait for modal and initial counter", async () => {
-      await expect(modal).toBeVisible({ timeout: 10_000 });
-      await expect(counter).toBeVisible({ timeout: 10_000 });
-    });
-
-    await test.step("Navigate with Next until last image", async () => {
-      let { current, total } = await parseCounter();
-      expect(total).toBeGreaterThanOrEqual(1);
-
-      let safety = 0;
-      while (current < total && safety < 20) {
-        await nextBtn.click();
-        await expect(counter).not.toHaveText(`${current} / ${total}`, {
-          timeout: 5_000,
-        });
-        ({ current, total } = await parseCounter());
-        safety++;
-      }
-
-      const final = await parseCounter();
-      expect(final.current).toBe(final.total);
-    });
-
-    await test.step("Navigate with Prev back to first image", async () => {
-      let { current, total } = await parseCounter();
-      let safety = 0;
-
-      while (current > 1 && safety < 20) {
-        await prevBtn.click();
-        await expect(counter).not.toHaveText(`${current} / ${total}`, {
-          timeout: 5_000,
-        });
-        ({ current, total } = await parseCounter());
-        safety++;
-      }
-
-      const final = await parseCounter();
-      expect(final.current).toBe(1);
-    });
-
-    await test.step("Close modal", async () => {
-      await closeBtn.click();
-      await expect(modal).toBeHidden({ timeout: 10_000 });
+    await test.step('Exercise image modal navigation', async () => {
+      await exerciseImageModal(page);
     });
 
     const firstCartButton = page.locator("button.add-to-cart").first();

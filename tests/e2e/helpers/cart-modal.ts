@@ -1,3 +1,4 @@
+// helpers/cart-modal.ts
 import type { Page, Locator } from '@playwright/test';
 
 export function getCartButton(page: Page): Locator {
