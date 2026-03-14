@@ -1,7 +1,7 @@
 {
-  "originalTitle": "Slipknot - 18.09.1999 - Ashbury Park - NY - USA - Convention Hall (Source 2)",
-  "created": 1704067200,
-  "lastUpdated": 1765138690,
+  "originalTitle": "Slipknot - 18.09.1999 - Ford - NJ - USA - Vintage Vinyl - Instore Signing (Source 2)",
+  "created": 1773524298,
+  "lastUpdated": 1773524298,
   "bands": [
     "Slipknot"
   ],
@@ -10,19 +10,19 @@
     "month": "09",
     "year": "1999"
   },
-  "startDateUnix": 937612800,
   "endDate": {
     "day": "18",
     "month": "09",
     "year": "1999"
   },
+  "startDateUnix": 937612800,
   "endDateUnix": 937612800,
   "location": {
-    "city": "Ashbury Park",
-    "state": "NY",
+    "city": "Ford",
+    "state": "NJ",
     "country": "USA",
-    "venue": "Convention Hall",
-    "event": ""
+    "venue": "Vintage Vinyl",
+    "event": "Instore Signing"
   },
   "tvChannel": "",
   "showName": "",
@@ -32,117 +32,89 @@
   ],
   "master": false,
   "public": true,
-  "ownIdentifier": "HDD#O",
+  "ownIdentifier": "HDD#G",
   "tradeLabel": "",
   "authoredBy": "",
   "transferredBy": "",
-  "notes": "2nd Source.",
+  "notes": "",
   "tapers": [],
+  "receivedInTrade": true,
+  "trader": "Jederlacht",
   "specs": {
     "media": [
       {
         "type": "DVD-5",
-        "size": 1.08,
+        "size": 3.5,
         "unit": "Gb"
       }
     ],
-    "chapters": true,
+    "chapters": false,
     "menu": false,
-    "length": 991,
+    "length": 1002,
     "video": [
       {
         "tvFormat": "NTSC",
         "ratio": "4:3",
         "resolution": "720x480",
-        "bitrateType": "VBR",
-        "bitrateKbps": null,
-        "fps": "",
-        "standard": "",
-        "codec": "",
+        "bitrateType": "",
+        "bitrateKbps": 28772,
+        "fps": "29.97",
+        "standard": "DVVIDEO",
+        "codec": "DVSD",
         "letterboxed": false
       }
     ],
     "audio": [
       {
         "language": "",
-        "codec": "AC3",
-        "rateHz": null,
-        "bitrateKbps": null,
+        "codec": "PCM",
+        "rateHz": 32000,
+        "bitrateKbps": 1024,
         "channels": 2
       }
     ],
     "sourceDetail": {
+      "videoEquipment": "",
+      "audioEquipment": "",
       "recordingType": "AMT",
-      "sourceMediaType": "VHS",
+      "sourceMediaType": "HI8",
       "finalMediaType": "",
-      "fileFormat": "DVD"
+      "fileFormat": "AVI"
     }
   },
-  "relatedShows": [],
-  "childOf": "",
   "images": [
     {
-      "folder": "6",
-      "filename": "92948385.jpg",
-      "externalId": "1ofOmWiD5j_7ZvIkjikIxG_zmtTuis81-"
+      "folder": "2025",
+      "filename": "shot-1773524018119-2.jpg",
+      "externalId": "1_J1VxdBXIeC2szARJLC_W_L6SnMCYyTs"
     },
     {
-      "folder": "6",
-      "filename": "97707339.jpg",
-      "externalId": "1cU4YcsHSl6jmN_7OXIDdeG_uqYVBI2rF"
+      "folder": "2025",
+      "filename": "shot-1773524017202-0.jpg",
+      "externalId": "1wCXedHJF1I1kvPBAEW_3-LA0xDWBSTEA"
     },
     {
-      "folder": "6",
-      "filename": "31232459.jpg",
-      "externalId": "1fHQOpRP1P_PQHy5L7-H1LtVHZCbtMx-P"
+      "folder": "2025",
+      "filename": "shot-1773524017942-1.jpg",
+      "externalId": "17mxOvHxR57s6_-Sw9Nb-gEcHj1orENTw"
     },
     {
-      "folder": "6",
-      "filename": "54081434.jpg",
-      "externalId": "1xHUC2_L3pH1NogZH4SG-d7Y5i0dArcmf"
+      "folder": "2025",
+      "filename": "shot-1773524018333-3.jpg",
+      "externalId": "1gqe1PQAi4NbljmuFmNM3r9dUBl0FCQ9B"
     }
   ],
   "setlist": [
     {
       "order": 1,
-      "song": "Wait and Bleed",
-      "feat": "",
-      "note": "incomplete",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 2,
-      "song": "Surfacing",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 3,
-      "song": "Purity",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 4,
-      "song": "Spit It Out",
-      "feat": "",
-      "note": "",
-      "comment": "",
-      "coverOf": ""
-    },
-    {
-      "order": 5,
-      "song": "Eeyore",
+      "song": "Instore Signing",
       "feat": "",
       "note": "",
       "comment": "",
       "coverOf": ""
     }
   ],
-  "extras": []
+  "extras": [],
+  "relatedShows": [],
+  "childOf": ""
 }

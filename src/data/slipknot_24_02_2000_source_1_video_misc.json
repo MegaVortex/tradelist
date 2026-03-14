@@ -1,0 +1,121 @@
+{
+  "originalTitle": "Slipknot - 24.02.2000 - New York - NY - USA (Source 1) [MISC]",
+  "created": 1773519569,
+  "lastUpdated": 1773519569,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "02",
+    "year": "2000"
+  },
+  "endDate": {
+    "day": "24",
+    "month": "02",
+    "year": "2000"
+  },
+  "startDateUnix": 951350400,
+  "endDateUnix": 951350400,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#G",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "receivedInTrade": true,
+  "trader": "Jederlacht",
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.58,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1015,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "",
+        "bitrateKbps": 28772,
+        "fps": "29.97",
+        "standard": "DVVIDEO",
+        "codec": "DVSD",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "videoEquipment": "",
+      "audioEquipment": "",
+      "recordingType": "AMT",
+      "sourceMediaType": "HI8",
+      "finalMediaType": "",
+      "fileFormat": "AVI"
+    }
+  },
+  "images": [
+    {
+      "folder": "2025",
+      "filename": "shot-1773519119401-0.jpg",
+      "externalId": "1lZu55cYRHelnRS0H9bpUmCDM0X9t7z9h"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1773519119879-1.jpg",
+      "externalId": "1f6FBf8mZF_R3uBcbDlGJKxeQ0IhZJMqj"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1773519120026-2.jpg",
+      "externalId": "16uKM8fDV8BqQI0AJhJc4iVWkhho9CCU9"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1773519120164-3.jpg",
+      "externalId": "19kN8may-xPvBrNKuSwA9vstTYJk6V-2K"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Instore Signing",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [],
+  "relatedShows": [],
+  "childOf": ""
+}
