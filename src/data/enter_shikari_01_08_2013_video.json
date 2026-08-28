@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Enter Shikari - 01.08.2013 - Kostrzyn - Poland - Kostrzyn Nad Odra - Woodstock Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Enter Shikari"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "08",
+    "year": "2013"
+  },
+  "startDateUnix": 1375315200,
+  "endDate": {
+    "day": "01",
+    "month": "08",
+    "year": "2013"
+  },
+  "endDateUnix": 1375315200,
+  "location": {
+    "city": "Kostrzyn",
+    "state": "",
+    "country": "Poland",
+    "venue": "Kostrzyn Nad Odra",
+    "event": "Woodstock Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.51,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2964,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "55",
+      "filename": "91906341.jpg",
+      "externalId": "1JJjR4R1sJJAjScTjFUAPJWgB2MlUyEDo"
+    },
+    {
+      "folder": "55",
+      "filename": "62598347.jpg",
+      "externalId": "19r5nbh57B8N_hap88cOHssr8U2DY9TsJ"
+    },
+    {
+      "folder": "55",
+      "filename": "71083199.jpg",
+      "externalId": "1KV1cXOSNkt9Jv0_KlnYOoheeUEByjnPp"
+    },
+    {
+      "folder": "55",
+      "filename": "63772992.jpg",
+      "externalId": "1-PvhxPky8HHFAbytf8FZVR8B4RGp_F-O"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Sssnakepit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Gandhi Mate, Gandhi",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Juggernauts",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Constellations",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Quelle Surprise",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Paddington Frisk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Mothership",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Zzzonked",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

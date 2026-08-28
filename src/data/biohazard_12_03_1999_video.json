@@ -1,0 +1,198 @@
+{
+  "originalTitle": "Biohazard - 12.03.1999 - Worcester - MA - USA",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Biohazard"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "03",
+    "year": "1999"
+  },
+  "startDateUnix": 921196800,
+  "endDate": {
+    "day": "12",
+    "month": "03",
+    "year": "1999"
+  },
+  "endDateUnix": 921196800,
+  "location": {
+    "city": "Worcester",
+    "state": "MA",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.77,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3616,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "biohazard_05_07_2008_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "10839476.jpg",
+      "externalId": "1HIAqttcEotmYKf924TtRnccDNR2_UQRJ"
+    },
+    {
+      "folder": "6",
+      "filename": "79778256.jpg",
+      "externalId": "1mZWGC8Vf5W0co6SMvw0Djnv5wpUyWpqM"
+    },
+    {
+      "folder": "6",
+      "filename": "34108079.jpg",
+      "externalId": "1exBzB91lztDK6OvPgjuJfhZq-wF45ArE"
+    },
+    {
+      "folder": "6",
+      "filename": "72030054.jpg",
+      "externalId": "1eHIcpkOlXpqCM_0J2Wjl3FXkYlC2pxVW"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Urban Discopline",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Shades Of Grey",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Resist",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "What Makes Us Tick?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Wrong Side Of The Tracks",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Breakdown",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Tales From The Hard Side",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "These Eyes (Have Seen)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Salvation",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Punishment",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Hold My Own",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

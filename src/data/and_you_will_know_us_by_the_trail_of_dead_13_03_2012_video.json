@@ -1,0 +1,164 @@
+{
+  "originalTitle": "...And You Will Know Us By The Trail Of Dead - 13.03.2012 - Austin - TX - USA - Austin Convention Center",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "...And You Will Know Us By The Trail Of Dead"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "03",
+    "year": "2012"
+  },
+  "startDateUnix": 1331596800,
+  "endDate": {
+    "day": "13",
+    "month": "03",
+    "year": "2012"
+  },
+  "endDateUnix": 1331596800,
+  "location": {
+    "city": "Austin",
+    "state": "TX",
+    "country": "USA",
+    "venue": "Austin Convention Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "South by Southwest. Broadcasted by ZDFKultur.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.63,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2570,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "33",
+      "filename": "69902699.jpg",
+      "externalId": "1rlMjY1umDaRAhmcRTFYviLQXBG1xNxrF"
+    },
+    {
+      "folder": "33",
+      "filename": "23242751.jpg",
+      "externalId": "1TYFdzcyNaReT53il94_2QqruCshToGVi"
+    },
+    {
+      "folder": "33",
+      "filename": "83350399.jpg",
+      "externalId": "1cj6QM9Pci9HrTliQksusRc9L7HEApfd9"
+    },
+    {
+      "folder": "33",
+      "filename": "56113262.jpg",
+      "externalId": "1wJm8CIkZxJwsqwIihPQwLgeTKlI8DfV6"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Fake Eyes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Homage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Another Morning Stoner",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Clair De Lune",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Strange News From Another Planet",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Perfect Teenhood",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Interview",
+      "feat": "Jason Reece",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

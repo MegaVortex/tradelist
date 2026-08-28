@@ -1,0 +1,179 @@
+{
+  "originalTitle": "30 Seconds To Mars - 13.05.2011 - New York - NY - USA - Sony Music Studios - MTV Unplugged",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "30 Seconds To Mars"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "05",
+    "year": "2011"
+  },
+  "startDateUnix": 1305244800,
+  "endDate": {
+    "day": "13",
+    "month": "05",
+    "year": "2011"
+  },
+  "endDateUnix": 1305244800,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Sony Music Studios",
+    "event": "MTV Unplugged"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MTV broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1352,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "56142236.jpg",
+      "externalId": "15RKtSe4BhrWOhiSBn-rvqhrhYPTWuwC_"
+    },
+    {
+      "folder": "60",
+      "filename": "63472960.jpg",
+      "externalId": "1EbwqMPYFxuUFl7STTvQAHNOhNMHvvtHB"
+    },
+    {
+      "folder": "60",
+      "filename": "89269138.jpg",
+      "externalId": "1kVBsHjfeiDXMuPdNknjQip-sPDLLqonK"
+    },
+    {
+      "folder": "60",
+      "filename": "82079612.jpg",
+      "externalId": "18m43ZVejkEJ6haiUGmT72DwckgVTiomK"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Hurricane",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Alibi",
+      "feat": "",
+      "note": "not broadcasted",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Kings And Queens",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Closer To The Edge",
+      "feat": "",
+      "note": "not broadcasted",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Night Of The Hunter",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Hallelujah!",
+      "feat": "",
+      "note": "not broadcasted",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Where The Streets Have No Name",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "U2"
+    },
+    {
+      "order": 8,
+      "song": "Message In A Bottle  (not broadcasted)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "The Police"
+    }
+  ],
+  "extras": []
+}

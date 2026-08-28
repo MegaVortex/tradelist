@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Linkin Park - 27.05.2012 - Landgraaf - Netherlands - Megaland - Pinkpop Festival (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "05",
+    "year": "2012"
+  },
+  "startDateUnix": 1338076800,
+  "endDate": {
+    "day": "27",
+    "month": "05",
+    "year": "2012"
+  },
+  "endDateUnix": 1338076800,
+  "location": {
+    "city": "Landgraaf",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Megaland",
+    "event": "Pinkpop Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.78,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1264,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "1440x1080",
+        "bitrateType": "",
+        "bitrateKbps": 12006,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 127,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MP4"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "49",
+      "filename": "21893280.jpg",
+      "externalId": "18KQ2gYKYvzxoCvJsTzweZX4ZkcF7u0UB"
+    },
+    {
+      "folder": "49",
+      "filename": "74937823.jpg",
+      "externalId": "1KlS87lmb_dpzi7QRV298vvPQp-sd65dh"
+    },
+    {
+      "folder": "49",
+      "filename": "17405554.jpg",
+      "externalId": "1hvB56Ln7gIWG4HumN67KaU8GaS1hT3aI"
+    },
+    {
+      "folder": "49",
+      "filename": "33635327.jpg",
+      "externalId": "12HoAGaD5QSejMhm46Fxgt0iSQWjPnda9"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "A Place For My Head",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "With You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Somewhere I Belong",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Lies, Greed, Misery",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Burn It Down",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Bleed It Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Downset - 23.01.1997 - St. Louis - MO - USA - Hi-Pointe",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Downset"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "01",
+    "year": "1997"
+  },
+  "startDateUnix": 853977600,
+  "endDate": {
+    "day": "23",
+    "month": "01",
+    "year": "1997"
+  },
+  "endDateUnix": 853977600,
+  "location": {
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "venue": "Hi-Pointe",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "2 cam mix. YouTube RIP.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 392,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3424,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "650x480",
+        "bitrateType": "",
+        "bitrateKbps": 826,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 44100,
+        "bitrateKbps": 128,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "MP4"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "76",
+      "filename": "19295704.jpg",
+      "externalId": "12GFzNGOaWVl0G4uM_NSMMTRFhJl74iT_"
+    },
+    {
+      "folder": "76",
+      "filename": "23427099.jpg",
+      "externalId": "1PnITUW-QzLArZzHGvVR19xEIxGLjGF-k"
+    },
+    {
+      "folder": "76",
+      "filename": "23361413.jpg",
+      "externalId": "153_nCV5S_1cZZbSVtUTomz4S3DDLh71n"
+    },
+    {
+      "folder": "76",
+      "filename": "82623777.jpg",
+      "externalId": "1-qfAf3r8Lxq_3-86N5JwAGMbKkueU6E4"
+    }
+  ],
+  "setlist": []
+}

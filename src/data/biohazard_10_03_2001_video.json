@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Biohazard - 10.03.2001 - Buenos Aires - Argentina",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Biohazard"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "03",
+    "year": "2001"
+  },
+  "startDateUnix": 984182400,
+  "endDate": {
+    "day": "10",
+    "month": "03",
+    "year": "2001"
+  },
+  "endDateUnix": 984182400,
+  "location": {
+    "city": "Buenos Aires",
+    "state": "",
+    "country": "Argentina",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.03,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2610,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "50657936.jpg",
+      "externalId": "1UGT4r36_aqVemmHMiP2PhH6UeqU2ZfUM"
+    },
+    {
+      "folder": "6",
+      "filename": "11452051.jpg",
+      "externalId": "1mUEDoe1f-y0zXXm2HNc8cFyzssPxT3Ak"
+    },
+    {
+      "folder": "6",
+      "filename": "80959951.jpg",
+      "externalId": "1n_yjF6BcZwVNk1N7DOka-fZPUxxzA-yp"
+    },
+    {
+      "folder": "6",
+      "filename": "50206405.jpg",
+      "externalId": "1ixlwZLVbDS17ae9mS5N6qP4aEbEXEroM"
+    }
+  ],
+  "setlist": []
+}

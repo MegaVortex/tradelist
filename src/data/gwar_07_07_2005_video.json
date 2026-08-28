@@ -1,0 +1,180 @@
+{
+  "originalTitle": "GWAR - 07.07.2005 - Minneapolis - MN - USA - Target Center",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "GWAR"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "07",
+    "year": "2005"
+  },
+  "startDateUnix": 1120694400,
+  "endDate": {
+    "day": "07",
+    "month": "07",
+    "year": "2005"
+  },
+  "endDateUnix": 1120694400,
+  "location": {
+    "city": "Minneapolis",
+    "state": "MN",
+    "country": "USA",
+    "venue": "Target Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.35,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 2106,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "99574924.jpg",
+      "externalId": "1LAq7sP7iBLHaFhLyX5AFbtUwB9XiIqCS"
+    },
+    {
+      "folder": "60",
+      "filename": "85178018.jpg",
+      "externalId": "1-rpI2QrxsOBPzREkPsarwj_PM-tIeIuh"
+    },
+    {
+      "folder": "60",
+      "filename": "07652881.jpg",
+      "externalId": "1Mdr1KJD2eIWtNsBCVOB1-5QCk5MzXzwq"
+    },
+    {
+      "folder": "60",
+      "filename": "41314082.jpg",
+      "externalId": "1l-0XZPa5DQ6AZSFVmPZTzCQZi6cEJUD6"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Nazi Pope",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Horror Of Yig",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Battle-Lust",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Bring Back The Bomb",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Immortal Corrupter",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Crack In The Egg",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Womb With A View",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Maggots",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Sick Of You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

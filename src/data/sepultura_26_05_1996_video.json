@@ -1,0 +1,135 @@
+{
+  "originalTitle": "Sepultura - 26.05.1996 - Hilversum - Netherlands - 2 Meter Sessie",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sepultura"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "05",
+    "year": "1996"
+  },
+  "startDateUnix": 833068800,
+  "endDate": {
+    "day": "26",
+    "month": "05",
+    "year": "1996"
+  },
+  "endDateUnix": 833068800,
+  "location": {
+    "city": "Hilversum",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "2 Meter Sessie",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 939,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 811,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "sepultura_09_12_1996_video",
+    "sepultura_21_11_1996_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "80772199.jpg",
+      "externalId": "193s4_KFBsMPag8eeRGMoE-rSmaCc5ALe"
+    },
+    {
+      "folder": "70",
+      "filename": "60979718.jpg",
+      "externalId": "1uECvc9H4rTja00UiT_gsYZvq7TUOaUtZ"
+    },
+    {
+      "folder": "70",
+      "filename": "77481726.jpg",
+      "externalId": "1eeYsWkHI83qmVSvn3P5g9cEwUSkDSWiV"
+    },
+    {
+      "folder": "70",
+      "filename": "49471562.jpg",
+      "externalId": "1STWG4h7IqU1lX1Wnd-KKQCLIYIR2T7jY"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Ratamahatta / Kaiowas",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Attitude",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

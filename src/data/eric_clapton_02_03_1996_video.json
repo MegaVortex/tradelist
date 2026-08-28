@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Eric Clapton - 02.03.1996 - London - England - Royal Albert Hall",
+  "created": 1753881392,
+  "lastUpdated": 1753881392,
+  "bands": [
+    "Eric Clapton"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "03",
+    "year": "1996"
+  },
+  "startDateUnix": 825724800,
+  "endDate": {
+    "day": "02",
+    "month": "03",
+    "year": "1996"
+  },
+  "endDateUnix": 825724800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Royal Albert Hall",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.96,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6517,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "48968157.jpg",
+      "externalId": "13DNspwTXh98ikQxWRA17EYX-HnNcJYuR"
+    },
+    {
+      "folder": "5",
+      "filename": "56681815.jpg",
+      "externalId": "1KmLnY8wbfCkUS2d5lMYS6LKn8TAUpW70"
+    },
+    {
+      "folder": "5",
+      "filename": "05537827.jpg",
+      "externalId": "1DgD9AIz57JtM71dMYoeAaPxJfXeulKDH"
+    },
+    {
+      "folder": "5",
+      "filename": "73997713.jpg",
+      "externalId": "1salhIXZAmoLsqvWE4mUo1mlvQgvEqFVf"
+    }
+  ],
+  "setlist": []
+}

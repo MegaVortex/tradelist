@@ -1,0 +1,147 @@
+{
+  "originalTitle": "Rammstein - 21.06.2013 - Scheessel - Germany - Eichenring - Hurricane Festival (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "06",
+    "year": "2013"
+  },
+  "startDateUnix": 1371772800,
+  "endDate": {
+    "day": "21",
+    "month": "06",
+    "year": "2013"
+  },
+  "endDateUnix": 1371772800,
+  "location": {
+    "city": "Scheessel",
+    "state": "",
+    "country": "Germany",
+    "venue": "Eichenring",
+    "event": "Hurricane Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Arte HD broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.65,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1086,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 191,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "53",
+      "filename": "23351186.jpg",
+      "externalId": "10d9w6WH1FD58WGER25UWMagFvZbdXJIK"
+    },
+    {
+      "folder": "53",
+      "filename": "33294788.jpg",
+      "externalId": "1POLaued-LZ_eo3dcRivH_UiiNvZJVsxe"
+    },
+    {
+      "folder": "53",
+      "filename": "61694480.jpg",
+      "externalId": "1tjixSlx9cfi9godrGhlfYJElu1gBzB5F"
+    },
+    {
+      "folder": "53",
+      "filename": "99690331.jpg",
+      "externalId": "1F9P7s4R60OZY70-coL9CpLJ2jrx6LNbm"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Mein Teil",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "Christian Flake",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Mein Herz Brennt",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Du Hast",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,125 @@
+{
+  "originalTitle": "Led Zeppelin - 31.01.1969 - New York - NY - USA - Fillmore East",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Led Zeppelin"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "01",
+    "year": "1969"
+  },
+  "startDateUnix": -28944000,
+  "endDate": {
+    "day": "31",
+    "month": "01",
+    "year": "1969"
+  },
+  "endDateUnix": -28944000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Fillmore East",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.36,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 53,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "8mm",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "led_zeppelin_27_03_1969_video",
+    "led_zeppelin_25_05_1969_video_misc",
+    "led_zeppelin_31_08_1969_video",
+    "led_zeppelin_07_04_1970_video",
+    "led_zeppelin_19_07_1970_video",
+    "led_zeppelin_xx_05_1970_hampshire_england_headly_grange_studios_video_misc",
+    "led_zeppelin_23_09_1971_video",
+    "led_zeppelin_27_02_1972_video",
+    "led_zeppelin_31_05_1973_video",
+    "led_zeppelin_02_06_1973_video",
+    "led_zeppelin_27_07_1973_video",
+    "led_zeppelin_28_07_1973_video",
+    "led_zeppelin_03_03_1975_video",
+    "led_zeppelin_xx_03_1975_burbank_ca_usa_nbc_studios_midnight_special_video_misc",
+    "led_zeppelin_17_07_1977_source_4_video",
+    "led_zeppelin_23_07_1977_video",
+    "led_zeppelin_04_08_1979_video",
+    "led_zeppelin_29_06_1980_video"
+  ],
+  "childOf": "Led Zeppelin - '1969-1980 - Rare Footage - Assemblage II'",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "83114887.jpg",
+      "externalId": "1ILKVvJaagy7KSWqSRPnnhPBOK2_aO_wv"
+    },
+    {
+      "folder": "20",
+      "filename": "96578223.jpg",
+      "externalId": "1s7uq8vg53QkHUAndsL3JCIBoe6a-Cu_G"
+    },
+    {
+      "folder": "20",
+      "filename": "97913184.jpg",
+      "externalId": "1q1KY6GaOEVZlKCBDK_hu4e4Md9V-dn-V"
+    },
+    {
+      "folder": "20",
+      "filename": "25120075.jpg",
+      "externalId": "1PcyTatI7r2voCNTCLF-5uT_sYvI0muVW"
+    }
+  ],
+  "setlist": []
+}

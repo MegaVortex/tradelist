@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Def Leppard - 15.06.2012 - New York - NY - USA - Fox News Channel - 'Fox And Friends'",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Def Leppard"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "06",
+    "year": "2012"
+  },
+  "startDateUnix": 1339718400,
+  "endDate": {
+    "day": "15",
+    "month": "06",
+    "year": "2012"
+  },
+  "endDateUnix": 1339718400,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Fox News Channel",
+    "event": "'Fox And Friends'"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1014,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 783,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "59.94",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "37",
+      "filename": "51767324.jpg",
+      "externalId": "1dOo4_2Qzb7f141EZizdGDcWpCo9zCtVX"
+    },
+    {
+      "folder": "37",
+      "filename": "90087310.jpg",
+      "externalId": "1OKnJ1FCP-3wYe227KW5gyu8YBv5nJX5g"
+    },
+    {
+      "folder": "37",
+      "filename": "19774391.jpg",
+      "externalId": "19NZtXrw4U8B0LzFWTqOR-PqMoOp01n3f"
+    },
+    {
+      "folder": "37",
+      "filename": "41800291.jpg",
+      "externalId": "13M_ouN-9jDyWX6gUAabtrG87n8WCsSho"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Hysteria",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "It's All About Believin'",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Rock Of Ages",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Pour Some Sugar On Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,175 @@
+{
+  "originalTitle": "Darkest Hour - 20.10.2003 - Budapest - Hungary - Kultiplex (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Darkest Hour"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "10",
+    "year": "2003"
+  },
+  "startDateUnix": 1066608000,
+  "endDate": {
+    "day": "20",
+    "month": "10",
+    "year": "2003"
+  },
+  "endDateUnix": 1066608000,
+  "location": {
+    "city": "Budapest",
+    "state": "",
+    "country": "Hungary",
+    "venue": "Kultiplex",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.05,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2408,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "darkest_hour_27_01_2002_video",
+    "most_precious_blood_23_02_2004_video"
+  ],
+  "childOf": "various_artists_xx_xx_2002_xx_xx_2004_video_compilation",
+  "images": [
+    {
+      "folder": "12",
+      "filename": "98200989.jpg",
+      "externalId": "1coOtSG4MxykoHbkX8DThLTKtJSnqhHPR"
+    },
+    {
+      "folder": "12",
+      "filename": "19342651.jpg",
+      "externalId": "1S76x1IZFs3d58rF-T-7nUIqvO5kd5gZR"
+    },
+    {
+      "folder": "12",
+      "filename": "22138442.jpg",
+      "externalId": "1kiNTxsK0E66-ZUK9oTwzOVAsypaU6t8h"
+    },
+    {
+      "folder": "12",
+      "filename": "79734846.jpg",
+      "externalId": "1p4_OPOxxYRJuyGK7A61OrY_nZMUUwDXU"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Sadist Nation",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "An Epitaph",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "A Blessing In Tragedy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Marching To The Killing Rhythm",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "With Friends Like These....",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "No Closer Than A Stranger",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Pay Phones And Pills",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "For The Soul Of The Savior",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Slipknot - 11.08.2001 - Holmdel - NJ - USA - PNC Bank Arts Center",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "08",
+    "year": "2001"
+  },
+  "startDateUnix": 997488000,
+  "endDate": {
+    "day": "11",
+    "month": "08",
+    "year": "2001"
+  },
+  "endDateUnix": 997488000,
+  "location": {
+    "city": "Holmdel",
+    "state": "NJ",
+    "country": "USA",
+    "venue": "PNC Bank Arts Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Almost entirely screenshot.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.25,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1208,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "3",
+      "filename": "7476655.jpg",
+      "externalId": "1wQeHgfESrPIc6aUWSrjXZQcdRsBgnTLg"
+    },
+    {
+      "folder": "3",
+      "filename": "3546804.jpg",
+      "externalId": "1uoyw3tSHzeGk9UB1Pi_G_W5uPkQS0rs_"
+    },
+    {
+      "folder": "3",
+      "filename": "2372061.jpg",
+      "externalId": "1xMKMQDf8zRpfg3q_jTZV_V9a4GbHWiN8"
+    },
+    {
+      "folder": "3",
+      "filename": "9700831.jpg",
+      "externalId": "1ZolTlTLFryWx8UyFLyZD7uUpFPhdgqX4"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Liberate",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Eeyore",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Disasterpiece",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Purity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Eyeless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

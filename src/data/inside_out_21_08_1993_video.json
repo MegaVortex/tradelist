@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Inside Out - 21.08.1993 - Fullerton - CA - USA - Club NYC",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Inside Out"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "08",
+    "year": "1993"
+  },
+  "startDateUnix": 745891200,
+  "endDate": {
+    "day": "21",
+    "month": "08",
+    "year": "1993"
+  },
+  "endDateUnix": 745891200,
+  "location": {
+    "city": "Fullerton",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Club NYC",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 399,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 677,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "95786035.jpg",
+      "externalId": "1lWusl49fEBN_yfqVyTLKq9hlBGf6OLtZ"
+    },
+    {
+      "folder": "6",
+      "filename": "24257241.jpg",
+      "externalId": "1mrKkyfmtAu5gUm_9mRULc-QdN4MAPXiV"
+    },
+    {
+      "folder": "6",
+      "filename": "34481882.jpg",
+      "externalId": "1crbhDlzU3fHSTHYFcl552-BLxCGt01i5"
+    },
+    {
+      "folder": "6",
+      "filename": "56508522.jpg",
+      "externalId": "1IYmF4rE2q_bs9lkDiA2xKbErKG2ljY6a"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Burning Fight",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Just Like You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

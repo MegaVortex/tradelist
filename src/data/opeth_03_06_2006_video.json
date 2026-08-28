@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Opeth - 03.06.2006 - Nuerburg - Germany - Nuerburgring - Rock Am Ring",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Opeth"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "06",
+    "year": "2006"
+  },
+  "startDateUnix": 1149292800,
+  "endDate": {
+    "day": "03",
+    "month": "06",
+    "year": "2006"
+  },
+  "endDateUnix": 1149292800,
+  "location": {
+    "city": "Nuerburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Nuerburgring",
+    "event": "Rock Am Ring"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "WDR broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 655,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1135,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "49",
+      "filename": "10030017.jpg",
+      "externalId": "1nbkZcJWNl8QXYyMO3VL4lGpnvMVl5XS2"
+    },
+    {
+      "folder": "49",
+      "filename": "07365696.jpg",
+      "externalId": "1YtExwqgBsjvrAPiYndE-eFhJT2GHSYlP"
+    },
+    {
+      "folder": "49",
+      "filename": "44437049.jpg",
+      "externalId": "1vI8Tro08oBZC8Pfc1QSVA3kjuS_qwuNJ"
+    },
+    {
+      "folder": "49",
+      "filename": "32724589.jpg",
+      "externalId": "1nwvGA0uVH_jfU7OfvbpdxdyE_0HKTDAI"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Grand Conjuration",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Closure",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Deliverance",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

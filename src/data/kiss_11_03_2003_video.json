@@ -1,0 +1,158 @@
+{
+  "originalTitle": "Kiss - 11.03.2003 - Tokyo - Japan - Nippon Budokan",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Kiss"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "03",
+    "year": "2003"
+  },
+  "startDateUnix": 1047340800,
+  "endDate": {
+    "day": "11",
+    "month": "03",
+    "year": "2003"
+  },
+  "endDateUnix": 1047340800,
+  "location": {
+    "city": "Tokyo",
+    "state": "",
+    "country": "Japan",
+    "venue": "Nippon Budokan",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "rozy"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.03,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1873,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "93623507.jpg",
+      "externalId": "1kbRLxbANpOezVpgl8t3_OGd8vqmq0dri"
+    },
+    {
+      "folder": "28",
+      "filename": "35407020.jpg",
+      "externalId": "10Co4yYms-h9EUgrCkqLT80KnIgT1o95o"
+    },
+    {
+      "folder": "28",
+      "filename": "05787238.jpg",
+      "externalId": "1Ell2b5GHDFw71TN1GAotWd2BoP9yHqN_"
+    },
+    {
+      "folder": "28",
+      "filename": "72882937.jpg",
+      "externalId": "1A4jGsvpXoL1aIwnVr2HwjWomjsLt02_S"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Deuce",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Strutter",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Let Me Go, Rock N' Roll",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Shout It Out Loud",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Firehouse",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Lick It Up",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

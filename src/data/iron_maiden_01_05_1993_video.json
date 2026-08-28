@@ -1,0 +1,126 @@
+{
+  "originalTitle": "Iron Maiden - 01.05.1993 - Rome - Italy - Piazza Di Porta San Giovanni - Primo Maggio Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Iron Maiden"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "05",
+    "year": "1993"
+  },
+  "startDateUnix": 736214400,
+  "endDate": {
+    "day": "01",
+    "month": "05",
+    "year": "1993"
+  },
+  "endDateUnix": 736214400,
+  "location": {
+    "city": "Rome",
+    "state": "",
+    "country": "Italy",
+    "venue": "Piazza Di Porta San Giovanni",
+    "event": "Primo Maggio Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 748,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 679,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "iron_maiden_03_06_2000_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "22",
+      "filename": "66196425.jpg",
+      "externalId": "1nP03gDNap0ugs56mMvfYORk95Swt1sqB"
+    },
+    {
+      "folder": "22",
+      "filename": "55164616.jpg",
+      "externalId": "1nnkIhZl4Pr_nLOPnY4kYNxLn2VKJRWo_"
+    },
+    {
+      "folder": "22",
+      "filename": "89431521.jpg",
+      "externalId": "12LP1HymMOJgo9SGXqGvKMBWFuwfCqF-Q"
+    },
+    {
+      "folder": "22",
+      "filename": "33673424.jpg",
+      "externalId": "1Qa_Jmgr1UVFH98OkRjyv0F4qJmqPDIh1"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Trooper",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Fear Of The Dark",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

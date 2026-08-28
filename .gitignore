@@ -1,0 +1,10 @@
+/node_modules
+src/data-private/
+helpers/tl_tool/node_modules
+/public/
+/playwright-report
+/test-results
+cleanup-audit.md
+security-audit.md
+credentials.json
+token.json

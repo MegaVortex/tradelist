@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Radiohead - 23.04.2008 - London - England - Late Show With Conan O'Brien",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Radiohead"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "04",
+    "year": "2008"
+  },
+  "startDateUnix": 1208908800,
+  "endDate": {
+    "day": "23",
+    "month": "04",
+    "year": "2008"
+  },
+  "endDateUnix": 1208908800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Late Show With Conan O'Brien",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 297,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 419,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "0",
+      "filename": "24514.jpg",
+      "externalId": "1zNL42US_StQZyigHjkIsjIkNKz0jKmXp"
+    },
+    {
+      "folder": "0",
+      "filename": "34886.jpg",
+      "externalId": "1mOCEpjlYtGnY-797avZyyOFJuzo_h63a"
+    },
+    {
+      "folder": "0",
+      "filename": "48297.jpg",
+      "externalId": "1BHRZA6MMqtmmB4aKm9YUus7WI8oUkdrZ"
+    },
+    {
+      "folder": "0",
+      "filename": "44870.jpg",
+      "externalId": "1n3bvF1BqIOfzX4GBYk1y9yvgZGPew-Gs"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "House Of Cards",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

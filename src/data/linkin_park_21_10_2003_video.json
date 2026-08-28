@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Linkin Park - 21.10.2003 - Yokohama - Japan - Yokohama Arena",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "10",
+    "year": "2003"
+  },
+  "startDateUnix": 1066694400,
+  "endDate": {
+    "day": "21",
+    "month": "10",
+    "year": "2003"
+  },
+  "endDateUnix": 1066694400,
+  "location": {
+    "city": "Yokohama",
+    "state": "",
+    "country": "Japan",
+    "venue": "Yokohama Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 266,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 247,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "92684528.jpg",
+      "externalId": "169JtbKz836nwVGrl4lNIdD79gEOjKW5D"
+    },
+    {
+      "folder": "29",
+      "filename": "09081981.jpg",
+      "externalId": "15LO4WUrk7_p7EuMhrTJg8JS143F_-WUw"
+    },
+    {
+      "folder": "29",
+      "filename": "61501395.jpg",
+      "externalId": "1JBThVIULpS_MJW2Ilgi3obbV7tMZkLjU"
+    },
+    {
+      "folder": "29",
+      "filename": "93611593.jpg",
+      "externalId": "1TfxYrOhNwHiDXqQYfjDZU80zWm9yT-rI"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Introduction",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Don't Stay",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Somewhere I Belong",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Lying From You",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

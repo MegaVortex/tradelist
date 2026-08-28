@@ -1,0 +1,82 @@
+{
+  "originalTitle": "Judas Priest - 16.11.2011 - Rochester - NY - USA - Main Street Armory [AUDIO]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Judas Priest"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "11",
+    "year": "2011"
+  },
+  "startDateUnix": 1321401600,
+  "endDate": {
+    "day": "16",
+    "month": "11",
+    "year": "2011"
+  },
+  "endDateUnix": 1321401600,
+  "location": {
+    "city": "Rochester",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Main Street Armory",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "audio"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Mic ripped out of a cassette recorder > iPhone 4 with iPro Recorder software > Adobe Audition 1.5 (clip restoration, compression, stereo simulation, EQ) > Izotope Rx (clip restoration again, crackle filtering) > Adobe Audition again (limiting, track splitting, re- EQing) > TLH (SBE fix, flac 8).",
+  "tapers": [
+    "Heywood"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 860,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 8486,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": []
+}

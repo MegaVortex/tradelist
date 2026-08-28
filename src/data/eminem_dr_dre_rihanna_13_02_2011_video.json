@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Eminem & Dr. Dre & Rihanna - 13.02.2011 - Los Angeles - CA - USA - Staples Center - Grammy Awards",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Eminem & Dr. Dre & Rihanna"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "02",
+    "year": "2011"
+  },
+  "startDateUnix": 1297555200,
+  "endDate": {
+    "day": "13",
+    "month": "02",
+    "year": "2011"
+  },
+  "endDateUnix": 1297555200,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Staples Center",
+    "event": "Grammy Awards"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Uncensored \"I Need A Doctor\".",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.5,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 488,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "36",
+      "filename": "16944522.jpg",
+      "externalId": "1uOsxInnDgWsh47K7NryQu31H84HEdOfq"
+    },
+    {
+      "folder": "36",
+      "filename": "42571327.jpg",
+      "externalId": "1nSnTyJa_t_bhX1VN8Wh3vXBerpZdknTA"
+    },
+    {
+      "folder": "36",
+      "filename": "31496439.jpg",
+      "externalId": "1nXYVbPvBuZAmWXoac-x2JLQT4ZZzVdru"
+    },
+    {
+      "folder": "36",
+      "filename": "51029100.jpg",
+      "externalId": "1FrG5XAFdWhhq2R3uDRY5fVCDQREduWat"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Love The Way You Lie (Part II) (with Skylar Grey)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "I Need A Doctor",
+      "feat": "Skylar Grey",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

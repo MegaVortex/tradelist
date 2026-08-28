@@ -1,0 +1,128 @@
+{
+  "originalTitle": "Anthrax - 13.09.2013 - San Bernardino - CA - USA - San Manuel Amphitheater",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Anthrax"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "09",
+    "year": "2013"
+  },
+  "startDateUnix": 1379030400,
+  "endDate": {
+    "day": "13",
+    "month": "09",
+    "year": "2013"
+  },
+  "endDateUnix": 1379030400,
+  "location": {
+    "city": "San Bernardino",
+    "state": "CA",
+    "country": "USA",
+    "venue": "San Manuel Amphitheater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Hellrazor"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 471,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 579,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "testamnet_13_09_2013_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "64",
+      "filename": "40394899.jpg",
+      "externalId": "1JLsA5o_1LzX6BfJAHrsIeihzbB7joCTN"
+    },
+    {
+      "folder": "64",
+      "filename": "43439540.jpg",
+      "externalId": "1cEYihsMFaRk9TuIyZtanCkFjTkYLBNgn"
+    },
+    {
+      "folder": "64",
+      "filename": "59942036.jpg",
+      "externalId": "160uR_EJ4oEhfF7jesOB2Hn6XyUigPb3A"
+    },
+    {
+      "folder": "64",
+      "filename": "59247725.jpg",
+      "externalId": "1nFXqHHfBHP8_Q_Q30eQFP1beye06pVH_"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "I Am The Law",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Antisocial",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Trust"
+    }
+  ],
+  "extras": []
+}

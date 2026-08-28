@@ -1,0 +1,121 @@
+{
+  "originalTitle": "Led Zeppelin - xx.xx.1971 - USA - 'Say To Soul - Led Zeppelin IV - The Story Of A Classic Album' [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Led Zeppelin"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1971"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1971"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "'Say To Soul",
+    "venue": "Led Zeppelin IV",
+    "event": "The Story Of A Classic Album'"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Official DVD - NT.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.2,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 8787,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      },
+      {
+        "language": "",
+        "codec": "DTS",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "80798109.jpg",
+      "externalId": "1ji7BEqLv9XhE6rtsuIGuni9LdmI6q6mn"
+    },
+    {
+      "folder": "20",
+      "filename": "74950291.jpg",
+      "externalId": "19UadDcCiFnfNebcIdTV2oq3_QA9YBH-h"
+    },
+    {
+      "folder": "20",
+      "filename": "97715764.jpg",
+      "externalId": "1eoIkPJVf8qE-pomcWtFX7B0QDbTxS4Sl"
+    },
+    {
+      "folder": "20",
+      "filename": "32404001.jpg",
+      "externalId": "1hRFkUKpSWPMfZfq5zlkDWhHaInw3fmz3"
+    }
+  ],
+  "setlist": []
+}

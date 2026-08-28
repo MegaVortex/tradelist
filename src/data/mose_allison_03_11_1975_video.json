@@ -1,0 +1,166 @@
+{
+  "originalTitle": "Mose Allison - 03.11.1975 - Chicago - IL - USA - PBS Soundstage",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Mose Allison"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "11",
+    "year": "1975"
+  },
+  "startDateUnix": 184204800,
+  "endDate": {
+    "day": "03",
+    "month": "11",
+    "year": "1975"
+  },
+  "endDateUnix": 184204800,
+  "location": {
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "venue": "PBS Soundstage",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.03,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3531,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "tom_waits_03_11_1975_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "62817432.jpg",
+      "externalId": "1Ku6A7NBZidriG4iqG2NlXLTmsqV0_WuX"
+    },
+    {
+      "folder": "27",
+      "filename": "38907412.jpg",
+      "externalId": "1FgNKtlPOoubX20mA53CW5D3x6oL05wKT"
+    },
+    {
+      "folder": "27",
+      "filename": "52747817.jpg",
+      "externalId": "1PO57A4gcZZ7epjjDWrt3WZUhOgQX_pyV"
+    },
+    {
+      "folder": "27",
+      "filename": "74054224.jpg",
+      "externalId": "10RMijCnzu-BDbZWyRDjPvIF9_EUPJrUB"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "If You Goin' To The City",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Everybody Cryin' Mercy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Your Molecular Structure",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Swingin' Machine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "How Much Truth",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Your Mind Is On Vacation",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "I Don't Worry About A Thing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

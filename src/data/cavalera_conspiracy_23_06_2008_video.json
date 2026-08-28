@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Cavalera Conspiracy - 23.06.2008 - Hamburg - Germany - Docks",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Cavalera Conspiracy"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "06",
+    "year": "2008"
+  },
+  "startDateUnix": 1214179200,
+  "endDate": {
+    "day": "23",
+    "month": "06",
+    "year": "2008"
+  },
+  "endDateUnix": 1214179200,
+  "location": {
+    "city": "Hamburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Docks",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.05,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 941,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "11",
+      "filename": "63208807.jpg",
+      "externalId": "14Fhc4Xu7kvfQiNQpS0oGNAC3twMvTKyX"
+    },
+    {
+      "folder": "11",
+      "filename": "85468137.jpg",
+      "externalId": "1dvmyVZwpipfgum7JR90zD7tjEmub1mmg"
+    },
+    {
+      "folder": "11",
+      "filename": "74096444.jpg",
+      "externalId": "1BJFmQWyFYvb1cXQ3ueaLjtDdW-f3W__o"
+    },
+    {
+      "folder": "11",
+      "filename": "86570145.jpg",
+      "externalId": "1cYMGqZL6MaCR0tUkX5bq3XfqTozN7cwk"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Inflikted",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Sanctuary",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Terrorize",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Territory",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

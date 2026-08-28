@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Metallica - 24.06.2009 - Rome - Italy - Palalottomatica (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "06",
+    "year": "2009"
+  },
+  "startDateUnix": 1245801600,
+  "endDate": {
+    "day": "24",
+    "month": "06",
+    "year": "2009"
+  },
+  "endDateUnix": 1245801600,
+  "location": {
+    "city": "Rome",
+    "state": "",
+    "country": "Italy",
+    "venue": "Palalottomatica",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.83,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3060,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "20351802.jpg",
+      "externalId": "1uiBnDyd6WVAF2AhN2N6Txq0HE-jsEyBX"
+    },
+    {
+      "folder": "6",
+      "filename": "40274878.jpg",
+      "externalId": "1ZRszM4Tw7QSXjABM3Moxy5yPghFCP2HS"
+    },
+    {
+      "folder": "6",
+      "filename": "36135779.jpg",
+      "externalId": "1CpuGzEq9HhY_xh8PEj_8NDQiNxCWT8Po"
+    },
+    {
+      "folder": "6",
+      "filename": "95876892.jpg",
+      "externalId": "1dE7QggPRpc9GUJ_hz7zWdzTCjqTyk6S0"
+    }
+  ],
+  "setlist": []
+}

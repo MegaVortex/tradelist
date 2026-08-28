@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Чиж & Co. - 28.04.2003 - Оренбург - Россия - Концертный Зал Филармонии",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Чиж & Co."
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "04",
+    "year": "2003"
+  },
+  "startDateUnix": 1051488000,
+  "endDate": {
+    "day": "28",
+    "month": "04",
+    "year": "2003"
+  },
+  "endDateUnix": 1051488000,
+  "location": {
+    "city": "Оренбург",
+    "state": "",
+    "country": "Россия",
+    "venue": "Концертный Зал Филармонии",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 655,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1676,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "68671145.jpg",
+      "externalId": "1PRbvzLFUsIqUv3vVpf1v6D7_oIAZoM8t"
+    },
+    {
+      "folder": "19",
+      "filename": "88745038.jpg",
+      "externalId": "1IZ-LUqU8pwfCU4NXXY9GcT90UWr0lU9C"
+    },
+    {
+      "folder": "19",
+      "filename": "17079092.jpg",
+      "externalId": "18oLha7m1F5nmTkRuuNLjotOUufZn_bf6"
+    },
+    {
+      "folder": "19",
+      "filename": "90604388.jpg",
+      "externalId": "1L0UqYqBsYlirAXoa2mcHD4TfsvT6fXH4"
+    }
+  ],
+  "setlist": []
+}

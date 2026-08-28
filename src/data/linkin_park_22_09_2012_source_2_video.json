@@ -1,0 +1,118 @@
+{
+  "originalTitle": "Linkin Park - 22.09.2012 - Las Vegas - NV - USA - MGM Grand Garden Arena - iHeartRadio Music Festival (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "09",
+    "year": "2012"
+  },
+  "startDateUnix": 1348272000,
+  "endDate": {
+    "day": "22",
+    "month": "09",
+    "year": "2012"
+  },
+  "endDateUnix": 1348272000,
+  "location": {
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "venue": "MGM Grand Garden Arena",
+    "event": "iHeartRadio Music Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.01,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 242,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [
+    "linkin_park_22_09_2012_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "42",
+      "filename": "11048804.jpg",
+      "externalId": "1zYnhiJv8HkNH6F4_wlDiD538KTJGr0Oe"
+    },
+    {
+      "folder": "42",
+      "filename": "69913480.jpg",
+      "externalId": "1NWD_bGwMlICrYSoUUHPdFJA995GW26Ff"
+    },
+    {
+      "folder": "42",
+      "filename": "38489339.jpg",
+      "externalId": "10TYcGFTILiN83k6cjBeLi1a6smV_Bm1I"
+    },
+    {
+      "folder": "42",
+      "filename": "15955448.jpg",
+      "externalId": "1PKZcjJCtC-fNWDA5bQv-jxGTwDO1AhCq"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Burn It Down",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

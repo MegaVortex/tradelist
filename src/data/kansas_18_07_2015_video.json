@@ -1,0 +1,228 @@
+{
+  "originalTitle": "Kansas - 18.07.2015 - Sycamore Township - OH - USA - Bechtold Park",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Kansas"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "07",
+    "year": "2015"
+  },
+  "startDateUnix": 1437177600,
+  "endDate": {
+    "day": "18",
+    "month": "07",
+    "year": "2015"
+  },
+  "endDateUnix": 1437177600,
+  "location": {
+    "city": "Sycamore Township",
+    "state": "OH",
+    "country": "USA",
+    "venue": "Bechtold Park",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 14.5,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4679,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "71",
+      "filename": "48515118.jpg",
+      "externalId": "11OCh1ow40jdOQAWXQ_6yEl6evoy4rYeI"
+    },
+    {
+      "folder": "71",
+      "filename": "18941516.jpg",
+      "externalId": "1D44QxkFlBbX6I1YGTHD8ds6lbeamV5rr"
+    },
+    {
+      "folder": "71",
+      "filename": "74831787.jpg",
+      "externalId": "16lLRABnWLAb-GBDQOSAqNzOhrQCEZGaL"
+    },
+    {
+      "folder": "71",
+      "filename": "70138844.jpg",
+      "externalId": "1gRtlVDRLlDWE02Ff-j9hCAtguu2ou1JE"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "People Of The South Wind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Point Of Know Return",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "What's On My Mind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Play The Game Tonight",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Keyboard Solo / The Wall",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Reason To Be",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Dust In The Wind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Miracles Out Of Nowhere",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Opus Insert",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Hold On",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Belexes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Portrait (He Knew)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Sparks Of The Tempest",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Fight Fire With Fire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Carry On Wayward Son",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

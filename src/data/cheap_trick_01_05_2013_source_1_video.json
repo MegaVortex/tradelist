@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Cheap Trick - 01.05.2013 - Burbank - CA - USA - NBC Studios - Jay Leno Show (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Cheap Trick"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "05",
+    "year": "2013"
+  },
+  "startDateUnix": 1367366400,
+  "endDate": {
+    "day": "01",
+    "month": "05",
+    "year": "2013"
+  },
+  "endDateUnix": 1367366400,
+  "location": {
+    "city": "Burbank",
+    "state": "CA",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Jay Leno Show",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 543,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 266,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "45",
+      "filename": "32999133.jpg",
+      "externalId": "1w5v3SVcwIY2xf7_LDwW6OKsiY416tY6D"
+    },
+    {
+      "folder": "45",
+      "filename": "89624813.jpg",
+      "externalId": "1xXpD9vZUpWCVd7u7WTAqux-byKge0MdU"
+    },
+    {
+      "folder": "45",
+      "filename": "69895418.jpg",
+      "externalId": "1jcH0riqwG-_9bkWBczgHhXtgUfRxWV-L"
+    },
+    {
+      "folder": "45",
+      "filename": "70921634.jpg",
+      "externalId": "1YuO2JuS49pTeUq0tzemq031aVsEbNqAA"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Surrender",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

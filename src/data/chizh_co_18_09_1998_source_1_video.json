@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Чиж & Co. - 18.09.1998 - Санкт-Петербург - Россия - Студия РТР - 'Музыкальный Ринг' (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Чиж & Co."
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "09",
+    "year": "1998"
+  },
+  "startDateUnix": 906076800,
+  "endDate": {
+    "day": "18",
+    "month": "09",
+    "year": "1998"
+  },
+  "endDateUnix": 906076800,
+  "location": {
+    "city": "Санкт-Петербург",
+    "state": "",
+    "country": "Россия",
+    "venue": "Студия РТР",
+    "event": "'Музыкальный Ринг'"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Якобы прямой эфир с голосованием зрителей. На самом деле программа была записана, но за несколько дней до предполагаемого эфира умер клавишник Поющих Гитар Григорий Клеймиц, и передача была показана в незапланированное время.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 973,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3932,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "528x400",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "DivX",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "VCD",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "86523974.jpg",
+      "externalId": "1lPfDE1IjMnaAQa67IWYqE5uGDrSQIm3_"
+    },
+    {
+      "folder": "19",
+      "filename": "40531807.jpg",
+      "externalId": "1d8_0jRaOYd7N-n3NllhohvSjZvdycV48"
+    },
+    {
+      "folder": "19",
+      "filename": "20491278.jpg",
+      "externalId": "12IgoObTEk2kjXSUZ7Ut8xWqTHjovePZV"
+    },
+    {
+      "folder": "19",
+      "filename": "36508141.jpg",
+      "externalId": "1EKlIsZWOSprNWFTUHH8pVANIWg1jk0aW"
+    }
+  ],
+  "setlist": []
+}

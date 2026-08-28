@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Papa Roach - 05.06.2009 - Nuerburg - Germany - Nuerburgring - Rock Am Ring (Source 1)",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Papa Roach"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "06",
+    "year": "2009"
+  },
+  "startDateUnix": 1244160000,
+  "endDate": {
+    "day": "05",
+    "month": "06",
+    "year": "2009"
+  },
+  "endDateUnix": 1244160000,
+  "location": {
+    "city": "Nuerburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Nuerburgring",
+    "event": "Rock Am Ring"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.09,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1181,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "64229358.jpg",
+      "externalId": "1jlCFBGQ3xWOpXQBRuJgFoz_neuCs7JRQ"
+    },
+    {
+      "folder": "5",
+      "filename": "86660720.jpg",
+      "externalId": "1xExT93mS_X65Wuv4yB2DUdIGE8alH7BN"
+    },
+    {
+      "folder": "5",
+      "filename": "07325968.jpg",
+      "externalId": "100NdBpcTQNAFNNIccYJ9lXgWhcR0J9HV"
+    },
+    {
+      "folder": "5",
+      "filename": "37718295.jpg",
+      "externalId": "1lORIUOqx3xVMAMAYSevX64q5T9mdXSPF"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "To Be Loved",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Lifeline",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Scars",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "I Almost Told You That I Loved You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Last Resort",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

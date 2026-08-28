@@ -1,0 +1,109 @@
+{
+  "originalTitle": "Fear Factory - 07.05.2001 - TMF [X]tra Special [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Fear Factory"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "05",
+    "year": "2001"
+  },
+  "startDateUnix": 989193600,
+  "endDate": {
+    "day": "07",
+    "month": "05",
+    "year": "2001"
+  },
+  "endDateUnix": 989193600,
+  "location": {
+    "city": "TMF [X]tra Special",
+    "state": "",
+    "country": "",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.79,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2465,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "fear_factory_03_05_1997_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "35",
+      "filename": "27970404.jpg",
+      "externalId": "16UXsNSu5Lj1qF5-Cgo8Gjdf0OMytWtn-"
+    },
+    {
+      "folder": "35",
+      "filename": "30862166.jpg",
+      "externalId": "1nP18qjzPx6ptK2tx0asX8UWxmqVEHzJg"
+    },
+    {
+      "folder": "35",
+      "filename": "21471210.jpg",
+      "externalId": "1qzMgAjahPJymSZd8mS0aK3-cGkpMpOOG"
+    },
+    {
+      "folder": "35",
+      "filename": "65819627.jpg",
+      "externalId": "1gizFhwToDnUOQUGf3kj64tGJCaTPQmA2"
+    }
+  ],
+  "setlist": []
+}

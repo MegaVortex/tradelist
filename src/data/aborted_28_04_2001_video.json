@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Aborted - 28.04.2001 - Lorain - OH - USA - Flying Machine",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Aborted"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "04",
+    "year": "2001"
+  },
+  "startDateUnix": 988416000,
+  "endDate": {
+    "day": "28",
+    "month": "04",
+    "year": "2001"
+  },
+  "endDateUnix": 988416000,
+  "location": {
+    "city": "Lorain",
+    "state": "OH",
+    "country": "USA",
+    "venue": "Flying Machine",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.87,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1988,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "79442807.jpg",
+      "externalId": "1k2EdtZcThcRs8hI8Gt4khZWEvL5mI9dB"
+    },
+    {
+      "folder": "5",
+      "filename": "07519412.jpg",
+      "externalId": "1Wqs_mJFSEzrrEdfYnt_rYHxIuL3OWfnE"
+    },
+    {
+      "folder": "5",
+      "filename": "52108206.jpg",
+      "externalId": "18KIPpAihkqxKQAUK69J_fLMAxtg4hDaz"
+    },
+    {
+      "folder": "5",
+      "filename": "88228645.jpg",
+      "externalId": "1OQ3Eeiew01FUeIZ3Vh9q41a6lx4yY5MJ"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,220 @@
+{
+  "originalTitle": "Limp Bizkit - 21.06.2015 - Clisson - France - Val De Moine - Hellfest (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "06",
+    "year": "2015"
+  },
+  "startDateUnix": 1434844800,
+  "endDate": {
+    "day": "21",
+    "month": "06",
+    "year": "2015"
+  },
+  "endDateUnix": 1434844800,
+  "location": {
+    "city": "Clisson",
+    "state": "",
+    "country": "France",
+    "venue": "Val De Moine",
+    "event": "Hellfest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.2,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 4284,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "HD",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "65",
+      "filename": "24237797.jpg",
+      "externalId": "1Za5_zcVxptA6Ga9i5nSuntZghXKho5ac"
+    },
+    {
+      "folder": "65",
+      "filename": "21455125.jpg",
+      "externalId": "1n7C6Hauj-LFoh4KLBG3UbbJ8PC3IwoFj"
+    },
+    {
+      "folder": "65",
+      "filename": "86846426.jpg",
+      "externalId": "1LTptSSNHbhoj3hJz9WnI008bwd5LpnfK"
+    },
+    {
+      "folder": "65",
+      "filename": "47504582.jpg",
+      "externalId": "1UXtX61qq2NAjVfk-Dp0PELIy3l3lUfak"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Full Nelson",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Thieves",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Ministry"
+    },
+    {
+      "order": 3,
+      "song": "Hot Dog",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Rollin' (Air Raid Vehicle)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Gold Cobra",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Covers Medley",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "My Generation",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Livin' It Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Back Porch Remix",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Re-Arranged",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Killing In The Name",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Rage Against The Machine"
+    },
+    {
+      "order": 12,
+      "song": "My Way",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Break Stuff",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Take A Look Around",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

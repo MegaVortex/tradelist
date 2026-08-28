@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Limp Bizkit - 04.07.2009 - Werchter - Belgium - Rock Werchter Festival",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "07",
+    "year": "2009"
+  },
+  "startDateUnix": 1246665600,
+  "endDate": {
+    "day": "04",
+    "month": "07",
+    "year": "2009"
+  },
+  "endDateUnix": 1246665600,
+  "location": {
+    "city": "Werchter",
+    "state": "",
+    "country": "Belgium",
+    "venue": "",
+    "event": "Rock Werchter Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Low quality.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1004,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 863,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "3",
+      "filename": "3897262.jpg",
+      "externalId": "1Af-qScM0hnrDlMriwPj1wJU7dw9a5WGG"
+    },
+    {
+      "folder": "3",
+      "filename": "5885938.jpg",
+      "externalId": "1V2Hq4i9jKBULZYLADOmGN59ak8Du0CTP"
+    },
+    {
+      "folder": "3",
+      "filename": "6048114.jpg",
+      "externalId": "1YnPTHK_WwiqFqij1_R0nWMYsf2EBs2z7"
+    },
+    {
+      "folder": "3",
+      "filename": "2039436.jpg",
+      "externalId": "1aEMBwRIERL3cuIa99suynA6hasXF0_yw"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "My Generation",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Living It Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Show Me What You Got",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

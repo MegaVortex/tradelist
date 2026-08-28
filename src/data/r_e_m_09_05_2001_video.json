@@ -1,0 +1,164 @@
+{
+  "originalTitle": "R.E.M. - 09.05.2001 - Madrid - Spain - Lo Mas 40 TV Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "R.E.M."
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "05",
+    "year": "2001"
+  },
+  "startDateUnix": 989366400,
+  "endDate": {
+    "day": "09",
+    "month": "05",
+    "year": "2001"
+  },
+  "endDateUnix": 989366400,
+  "location": {
+    "city": "Madrid",
+    "state": "",
+    "country": "Spain",
+    "venue": "Lo Mas 40 TV Show",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.07,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1773,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "49546469.jpg",
+      "externalId": "14Lq-JU3udqRMjveyJfCB60nk8DuKx2nc"
+    },
+    {
+      "folder": "28",
+      "filename": "34107723.jpg",
+      "externalId": "1JFATGabcmDmIJWBtKuoSgzOEaG3I74I2"
+    },
+    {
+      "folder": "28",
+      "filename": "32261476.jpg",
+      "externalId": "1liTj5Aqg5L02zwcRJTzeRo3B1i8RBP1q"
+    },
+    {
+      "folder": "28",
+      "filename": "87259588.jpg",
+      "externalId": "1AWHGImF4Zi18ulEk1Lc8CV3lPqGBEFqe"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Imitation Of Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Great Beyond",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Reno",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Losing My Religion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "I've Been High",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "She Just Wants To Be",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Cuyahoga",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

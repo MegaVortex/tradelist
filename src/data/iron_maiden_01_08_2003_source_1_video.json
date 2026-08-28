@@ -1,0 +1,216 @@
+{
+  "originalTitle": "Iron Maiden - 01.08.2003 - Quebec City - QC - Canada - Colisee Pepsi (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Iron Maiden"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "08",
+    "year": "2003"
+  },
+  "startDateUnix": 1059696000,
+  "endDate": {
+    "day": "01",
+    "month": "08",
+    "year": "2003"
+  },
+  "endDateUnix": 1059696000,
+  "location": {
+    "city": "Quebec City",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "Colisee Pepsi",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "2 cam mix. Audio",
+  "tapers": [
+    "LiQuiDz"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 6.71,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5958,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "dio_01_08_2003_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "72",
+      "filename": "87429284.jpg",
+      "externalId": "185AMi4JKAWxXmZGeFUpaxfAK2utMKSEE"
+    },
+    {
+      "folder": "72",
+      "filename": "69502929.jpg",
+      "externalId": "1hfbJosJRjExx3hQC2wAtPWbqbAq_v7qO"
+    },
+    {
+      "folder": "72",
+      "filename": "70697028.jpg",
+      "externalId": "14vb1utgC5hdCUzNZoFRLh7Ou_4vc-3-k"
+    },
+    {
+      "folder": "72",
+      "filename": "06334138.jpg",
+      "externalId": "1l2hGhTv-R7NEQ1NPEs_ewF0K3VZruCR0"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Number Of The Beast",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Trooper",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Die With Your Boots On",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Revelations",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Hallowed Be Thy Name",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Wildest Dreams",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "The Clansman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "The Clairvoyant",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Heaven Can Wait",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Fear Of The Dark",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Iron Maiden",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "2 Minutes To Midnight",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Run To The Hills",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

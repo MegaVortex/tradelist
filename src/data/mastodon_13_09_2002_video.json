@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Mastodon - 13.09.2002 - Rochester - NY - USA - Penny Arcade",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Mastodon"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "09",
+    "year": "2002"
+  },
+  "startDateUnix": 1031875200,
+  "endDate": {
+    "day": "13",
+    "month": "09",
+    "year": "2002"
+  },
+  "endDateUnix": 1031875200,
+  "location": {
+    "city": "Rochester",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Penny Arcade",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1937,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "36",
+      "filename": "48922260.jpg",
+      "externalId": "1928TnjzvKtkoQMIshpUn-DFmYGQAIaJi"
+    },
+    {
+      "folder": "36",
+      "filename": "47818993.jpg",
+      "externalId": "1dNR1Ea3_dtqrxPq9_YH8UtFZIeSFqRKh"
+    },
+    {
+      "folder": "36",
+      "filename": "96395555.jpg",
+      "externalId": "1q3kTRRfzol4EFPHaV7UXTwspPosY2ULl"
+    },
+    {
+      "folder": "36",
+      "filename": "14131101.jpg",
+      "externalId": "1KFRxXug8PbZJqN_6BqQ8xLA4oYPW8aOT"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Workhorse",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Crusher Destroyer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Trampled You For This",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Thank You For This",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "We Built This Come Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Ol'e Nessie",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "March Of The Fire Ants",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Where Strides The Behemoth",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

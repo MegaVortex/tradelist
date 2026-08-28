@@ -1,0 +1,145 @@
+{
+  "originalTitle": "The Mars Volta - 08.11.2001 - Tempe - AZ - USA - Nita's Hideaway",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Mars Volta"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "11",
+    "year": "2001"
+  },
+  "startDateUnix": 1005177600,
+  "endDate": {
+    "day": "08",
+    "month": "11",
+    "year": "2001"
+  },
+  "endDateUnix": 1005177600,
+  "location": {
+    "city": "Tempe",
+    "state": "AZ",
+    "country": "USA",
+    "venue": "Nita's Hideaway",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 236,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 983,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "352x240",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "VCD",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "the_mars_volta_02_10_2002_video",
+    "the_mars_volta_03_10_2002_video",
+    "the_mars_volta_01_11_2001_video",
+    "the_mars_volta_31_03_2002_source_2_video"
+  ],
+  "childOf": "the_mars_volta_xx_xx_2001_xx_xx_2002_vcd_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "7",
+      "filename": "06940025.jpg",
+      "externalId": "1BV26Wzv_lL6CfSgUCFebNGYhRj6h5_IO"
+    },
+    {
+      "folder": "7",
+      "filename": "60824700.jpg",
+      "externalId": "16BgHUQKf4siOU4nrhNGOJsqEYvnn-sFj"
+    },
+    {
+      "folder": "7",
+      "filename": "98038080.jpg",
+      "externalId": "1b9XN5tEVRg0mbFWuH5pujIiGVJSwcjN1"
+    },
+    {
+      "folder": "7",
+      "filename": "24536826.jpg",
+      "externalId": "18AVFu87wwTrq9YYGvQiC2SdU3LSRQ--5"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Caught In The Sun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Cut That City",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Concertina",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Roulette Dares (The Haunt Of)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,103 @@
+{
+  "originalTitle": "Guns N' Roses - 17.12.1987 - St. Paul - MN - USA - Roy Wilkins Auditorium [AUDIO]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Guns N' Roses"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "12",
+    "year": "1987"
+  },
+  "startDateUnix": 566697600,
+  "endDate": {
+    "day": "17",
+    "month": "12",
+    "year": "1987"
+  },
+  "endDateUnix": 566697600,
+  "location": {
+    "city": "St. Paul",
+    "state": "MN",
+    "country": "USA",
+    "venue": "Roy Wilkins Auditorium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "audio"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Silver CD > EAC wav > TLH FLAC 8.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 379,
+        "unit": "Mb"
+      },
+      {
+        "type": "CD",
+        "size": 307,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 663,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "My Michelle",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Night Train",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

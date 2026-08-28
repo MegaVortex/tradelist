@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Radiohead - 03.10.2011 - New York - NY - USA - NBC Studios - Jimmy Fallon Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Radiohead"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "10",
+    "year": "2011"
+  },
+  "startDateUnix": 1317600000,
+  "endDate": {
+    "day": "03",
+    "month": "10",
+    "year": "2011"
+  },
+  "endDateUnix": 1317600000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Jimmy Fallon Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 379,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 305,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "68600634.jpg",
+      "externalId": "1WwMrKHt2cxwwZlCDb61NdgY1i38bWGS_"
+    },
+    {
+      "folder": "27",
+      "filename": "53286263.jpg",
+      "externalId": "1l0xaD9Bw1wY_kObEIf4z_n7rxNBS1g58"
+    },
+    {
+      "folder": "27",
+      "filename": "52192805.jpg",
+      "externalId": "1Z2k4jKXMuechId8B5uZsAcQN-fXQWNnT"
+    },
+    {
+      "folder": "27",
+      "filename": "65785375.jpg",
+      "externalId": "1O4kCF6R5ec03sfJZVdXjUX_6YJ6tcJ_t"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Give Up The Ghost",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Depeche Mode - 17.10.2009 - Buenos Aires - Argentina - Club Ciudad - Personal Fest",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Depeche Mode"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "10",
+    "year": "2009"
+  },
+  "startDateUnix": 1255737600,
+  "endDate": {
+    "day": "17",
+    "month": "10",
+    "year": "2009"
+  },
+  "endDateUnix": 1255737600,
+  "location": {
+    "city": "Buenos Aires",
+    "state": "",
+    "country": "Argentina",
+    "venue": "Club Ciudad",
+    "event": "Personal Fest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.21,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2110,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "352x288",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "VCD",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "50",
+      "filename": "58039980.jpg",
+      "externalId": "1IrwqmgulpJrrfHiwhdxhVpOhvVgrx2L0"
+    },
+    {
+      "folder": "50",
+      "filename": "45291851.jpg",
+      "externalId": "1gd2x5cdn3FaqVG-Wd9DF6rewTd8ouSU4"
+    },
+    {
+      "folder": "50",
+      "filename": "87673217.jpg",
+      "externalId": "1CfoRKORU0dRMrg9fC8QDIIDBg1nseq4f"
+    },
+    {
+      "folder": "50",
+      "filename": "43510899.jpg",
+      "externalId": "11nUccBnGPw8FWkQrBvb_QMFemsGzsO1I"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "In Chains",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Wrong",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Hole To Feed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Walking In My Shoes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "It's No Good",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "A Question Of Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Queens Of The Stone Age - 26.06.2011 - Pilton - England - Worthy Farm - Glastonbury Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "06",
+    "year": "2011"
+  },
+  "startDateUnix": 1309046400,
+  "endDate": {
+    "day": "26",
+    "month": "06",
+    "year": "2011"
+  },
+  "endDateUnix": 1309046400,
+  "location": {
+    "city": "Pilton",
+    "state": "",
+    "country": "England",
+    "venue": "Worthy Farm",
+    "event": "Glastonbury Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.41,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2799,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "12680736.jpg",
+      "externalId": "10mU8tDrXaNZhnf_KkXlnI51BsnlGzZSg"
+    },
+    {
+      "folder": "28",
+      "filename": "10517083.jpg",
+      "externalId": "1gxKVj59bcmPzhhDEuJ1erqreWlEIhY7u"
+    },
+    {
+      "folder": "28",
+      "filename": "37160745.jpg",
+      "externalId": "11Yd84rmNLHw9JMbQMB0k98Vk_rw7tujt"
+    },
+    {
+      "folder": "28",
+      "filename": "08051218.jpg",
+      "externalId": "1HMWuY6jvp6d0YEmieon3DdFReOQ2GlNZ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Feel Good Hit Of The Summer (BBCi broadcast)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Lost Art Of Keeping A Secret (BBCi broadcast)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Burn The Witch (BBCi broadcast)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Make It Wit Chu (BBCi broadcast)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Little Sister (BBC3 broadcast)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "3's And 7's (BBC3 broadcast)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "First It Giveth (BBC3 broadcast)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Go With The Flow (BBC3 broadcast)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "No One Knows (BBC2 broadcast)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "A Song For The Dead (BBC2 broadcast)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

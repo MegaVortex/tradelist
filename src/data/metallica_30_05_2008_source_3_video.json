@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Metallica - 30.05.2008 - Landgraaf - Netherlands - Megaland Landgraaf - Pinkpop Festival (Source 3)",
+  "created": 1753881392,
+  "lastUpdated": 1753881392,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "05",
+    "year": "2008"
+  },
+  "startDateUnix": 1212105600,
+  "endDate": {
+    "day": "30",
+    "month": "05",
+    "year": "2008"
+  },
+  "endDateUnix": 1212105600,
+  "location": {
+    "city": "Landgraaf",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Megaland Landgraaf",
+    "event": "Pinkpop Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.34,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4854,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "23866323.jpg",
+      "externalId": "1KXAMlcSL1_BX5t57GueMe1pdat8nWiaK"
+    },
+    {
+      "folder": "27",
+      "filename": "01059508.jpg",
+      "externalId": "1hHJpi5kVRWPlTDJF5cHRnLUjehnpADDO"
+    },
+    {
+      "folder": "27",
+      "filename": "69473891.jpg",
+      "externalId": "1Ifyl_06kmIbbVrvTIkbS7eIyuwTCA6FG"
+    },
+    {
+      "folder": "27",
+      "filename": "95616271.jpg",
+      "externalId": "1FimKdz4-JsLfhC0K5Z5kR80aR3Kj7vxQ"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,164 @@
+{
+  "originalTitle": "HORSE The Band - 18.08.2006 - Los Angeles - CA - USA - Rec Center Studio",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "HORSE The Band"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "08",
+    "year": "2006"
+  },
+  "startDateUnix": 1155859200,
+  "endDate": {
+    "day": "18",
+    "month": "08",
+    "year": "2006"
+  },
+  "endDateUnix": 1155859200,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Rec Center Studio",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.4,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2118,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "22",
+      "filename": "64790610.jpg",
+      "externalId": "1GyMqPeYTPGLNTyVzOHJ1h1bK3CGcLcj8"
+    },
+    {
+      "folder": "22",
+      "filename": "67931235.jpg",
+      "externalId": "1YPRZcllMgn5fLvBcZuar4XxNm5VEVISL"
+    },
+    {
+      "folder": "22",
+      "filename": "65742179.jpg",
+      "externalId": "1x1TDxslitdnRreBbJk_TFjvkF6NjKNHL"
+    },
+    {
+      "folder": "22",
+      "filename": "27950390.jpg",
+      "externalId": "1qvjx4G-tc7E9QIv0Phzw0ak8zxTbj69F"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Birdo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "A Million Exploding Suns",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Anti-Pizza",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Black Hole",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Lord Gold Throneroom",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Cutsman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Bunnies",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

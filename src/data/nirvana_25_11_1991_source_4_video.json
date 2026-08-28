@@ -1,0 +1,171 @@
+{
+  "originalTitle": "Nirvana - 25.11.1991 - Amsterdam - Netherlands - Paradiso (Source 4)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "11",
+    "year": "1991"
+  },
+  "startDateUnix": 691027200,
+  "endDate": {
+    "day": "25",
+    "month": "11",
+    "year": "1991"
+  },
+  "endDateUnix": 691027200,
+  "location": {
+    "city": "Amsterdam",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Paradiso",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 4",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "PRO#4.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.24,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2064,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "35126007.jpg",
+      "externalId": "1p5D4wZOOU2iDpjQNdv2Oaspi2axXIhe6"
+    },
+    {
+      "folder": "80",
+      "filename": "87987167.jpg",
+      "externalId": "1vXUJt1UQP2jheB161f9HCmjDhI2cyV4K"
+    },
+    {
+      "folder": "80",
+      "filename": "94518688.jpg",
+      "externalId": "1sIj7OZ9Ubns4rx6G85lkcUyUGXOYOvhP"
+    },
+    {
+      "folder": "80",
+      "filename": "11298034.jpg",
+      "externalId": "1sd0uDYiT4gJiiY0F_V_BxpCjwLEAjrNv"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Lithium",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Breed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Polly",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Smells Like Teen Spirit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Love Buzz",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Shocking Blue"
+    },
+    {
+      "order": 7,
+      "song": "Territorial Pissings",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

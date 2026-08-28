@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Biohazard - 12.05.1991 - Den Bosch - Netherlands - Willem II",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Biohazard"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "05",
+    "year": "1991"
+  },
+  "startDateUnix": 674006400,
+  "endDate": {
+    "day": "12",
+    "month": "05",
+    "year": "1991"
+  },
+  "endDateUnix": 674006400,
+  "location": {
+    "city": "Den Bosch",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Willem II",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Multicam mix.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.72,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2945,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "00785603.jpg",
+      "externalId": "110ZjboajrrWbBzULtUP6rZUUOi1zidma"
+    },
+    {
+      "folder": "6",
+      "filename": "07521585.jpg",
+      "externalId": "1aCVlfLgWr6-9OEHlvxk8qmYYQR5bQhEf"
+    },
+    {
+      "folder": "6",
+      "filename": "82155752.jpg",
+      "externalId": "1R9k4cD0Gao8Nil-8hB7cL7uavMBV9bRV"
+    },
+    {
+      "folder": "6",
+      "filename": "94904519.jpg",
+      "externalId": "1YH4nvL1h6_Lut4rty9YgXLFJIUO4ZWcU"
+    }
+  ],
+  "setlist": []
+}

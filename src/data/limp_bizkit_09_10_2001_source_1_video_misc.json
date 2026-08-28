@@ -1,0 +1,123 @@
+{
+  "originalTitle": "Limp Bizkit - 09.10.2001 - Los Angeles - CA - USA - MTV2 Show (Source 1) [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "10",
+    "year": "2001"
+  },
+  "startDateUnix": 1002585600,
+  "endDate": {
+    "day": "09",
+    "month": "10",
+    "year": "2001"
+  },
+  "endDateUnix": 1002585600,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "MTV2 Show",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 113,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 162,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_05_09_1995_video_misc",
+    "korn_xx_05_1997_australia_australian_tv_video_misc",
+    "korn_28_02_1996_source_2_video",
+    "korn_xx_xx_1995_los_angeles_ca_usa_muchmusic_tv_video_misc",
+    "limp_bizkit_09_10_2001_source_2_video_misc"
+  ],
+  "childOf": "korn_xx_xx_xxxx_misc_8_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "16",
+      "filename": "07470758.jpg",
+      "externalId": "1IWvTNsyo7n-jSWJJGjLkNoZsksaOuotL"
+    },
+    {
+      "folder": "16",
+      "filename": "59260053.jpg",
+      "externalId": "10pPmhgacQGGfieI2dki0mcPmkNJD5KMG"
+    },
+    {
+      "folder": "16",
+      "filename": "48956389.jpg",
+      "externalId": "1CBxVCW21H33YB67RRXfGwinGoPlogC7A"
+    },
+    {
+      "folder": "16",
+      "filename": "89677087.jpg",
+      "externalId": "17nICSukcN0ZcbIFtcKs3bYwYMTEm6jTA"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview  + TV Report",
+      "feat": "Fred Durst",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

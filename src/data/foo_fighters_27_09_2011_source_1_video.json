@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Foo Fighters - 27.09.2011 - New York - NY - USA - NBC Studios - Jimmy Fallon Show (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "09",
+    "year": "2011"
+  },
+  "startDateUnix": 1317081600,
+  "endDate": {
+    "day": "27",
+    "month": "09",
+    "year": "2011"
+  },
+  "endDateUnix": 1317081600,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Jimmy Fallon Show",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 420,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 275,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "02285413.jpg",
+      "externalId": "1E21VL3nq2kS4eWWCDM-EeUkQ57FjPx7j"
+    },
+    {
+      "folder": "24",
+      "filename": "42519558.jpg",
+      "externalId": "1dOKZyYa3bq3QMH-nXj6sjNtTDh_Gscq3"
+    },
+    {
+      "folder": "24",
+      "filename": "37080791.jpg",
+      "externalId": "1i9Ax8sl5DDZ1EkwnxHNDaJ0_Q8yRPKM7"
+    },
+    {
+      "folder": "24",
+      "filename": "13609569.jpg",
+      "externalId": "1PC5QdT1Uzam5wRIY3mHqgLYC7s_jyLsC"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "In The Flesh",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

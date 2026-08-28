@@ -1,0 +1,204 @@
+{
+  "originalTitle": "Judas Priest - 31.03.2006 - London - England - Royal Albert Hall",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Judas Priest"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "03",
+    "year": "2006"
+  },
+  "startDateUnix": 1143763200,
+  "endDate": {
+    "day": "31",
+    "month": "03",
+    "year": "2006"
+  },
+  "endDateUnix": 1143763200,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Royal Albert Hall",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "2 cam mix.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.24,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3599,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "76",
+      "filename": "21431427.jpg",
+      "externalId": "1SGXfgdExUJy9zLrU0efxT7CLE-Cy0NBK"
+    },
+    {
+      "folder": "76",
+      "filename": "47481075.jpg",
+      "externalId": "1gewc6FqGZhwGHjacisyXYzgCFET20ryC"
+    },
+    {
+      "folder": "76",
+      "filename": "61862375.jpg",
+      "externalId": "1lpPtmPDIPr7wzR93Vpk0qw44QxFgRL5F"
+    },
+    {
+      "folder": "76",
+      "filename": "95582392.jpg",
+      "externalId": "1l7JWZX2rmkFTyzc6kXaF2ktJjzy7Q4PD"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Hellion",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Electric Eye",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Metal Gods",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Heading Out To The Highway",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Judas Rising",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Green Manalishi",
+      "feat": "The Two Prong Crown",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Diamonds & Rust",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Joan Baez"
+    },
+    {
+      "order": 8,
+      "song": "Turbo Lover",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Breaking The Law",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Hell Bent For Leather",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Living After Midnight",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Take On The World",
+      "feat": "Ian Gillan",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

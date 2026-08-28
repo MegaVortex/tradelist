@@ -1,0 +1,118 @@
+{
+  "originalTitle": "Queens Of The Stone Age - 25.03.2005 - New York - NY - USA - NBC Studios - Conan O'Brien Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "03",
+    "year": "2005"
+  },
+  "startDateUnix": 1111708800,
+  "endDate": {
+    "day": "25",
+    "month": "03",
+    "year": "2005"
+  },
+  "endDateUnix": 1111708800,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Conan O'Brien Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 247,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 231,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "queens_of_the_stone_age_21_03_2005_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "68",
+      "filename": "96149086.jpg",
+      "externalId": "1F1zp6Y4WDC7idK4r1NHxvIq1LGZPWNyb"
+    },
+    {
+      "folder": "68",
+      "filename": "60796503.jpg",
+      "externalId": "1w3l7cj12OvO1IyG9CSCTo1wysMH76qVC"
+    },
+    {
+      "folder": "68",
+      "filename": "02128047.jpg",
+      "externalId": "1rkrlECQSyOGKHxaixUAyEdDVitgTFlgb"
+    },
+    {
+      "folder": "68",
+      "filename": "07417131.jpg",
+      "externalId": "1mdIhNHw5ON682aoXRfEB8J2D8VgZlQcB"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Burn The Witch",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

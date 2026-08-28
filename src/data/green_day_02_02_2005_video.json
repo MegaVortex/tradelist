@@ -1,0 +1,133 @@
+{
+  "originalTitle": "Green Day - 02.02.2005 - London - England - BBC Studios - Top Of The Pops",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Green Day"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "02",
+    "year": "2005"
+  },
+  "startDateUnix": 1107302400,
+  "endDate": {
+    "day": "02",
+    "month": "02",
+    "year": "2005"
+  },
+  "endDateUnix": 1107302400,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Top Of The Pops",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.57,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 6861,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "green_day_21_09_2004_video",
+    "green_day_06_02_2005_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "81",
+      "filename": "77649301.jpg",
+      "externalId": "1A8XBSm6QNjwt0aqjpetvvUJHmUa6eHy_"
+    },
+    {
+      "folder": "81",
+      "filename": "56779443.jpg",
+      "externalId": "1O3LGmKT_GlMYoHpOaRp3GaDheJRVmkMy"
+    },
+    {
+      "folder": "81",
+      "filename": "38070165.jpg",
+      "externalId": "1s_57IfZymDh0Sq-6d7R34ZsXbHpiDHaK"
+    },
+    {
+      "folder": "81",
+      "filename": "63088097.jpg",
+      "externalId": "1NSueTlaKdCCF6xkKdGHpfMqYZR17xCxV"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Holiday",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

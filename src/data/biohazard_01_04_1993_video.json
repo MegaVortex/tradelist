@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Biohazard - 01.04.1993 - Raleigh - NC - USA",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Biohazard"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "04",
+    "year": "1993"
+  },
+  "startDateUnix": 733622400,
+  "endDate": {
+    "day": "01",
+    "month": "04",
+    "year": "1993"
+  },
+  "endDateUnix": 733622400,
+  "location": {
+    "city": "Raleigh",
+    "state": "NC",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.72,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3090,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "16",
+      "filename": "12219215.jpg",
+      "externalId": "18EjnfmYfidv4n_Bj1__O0X-56c04j40u"
+    },
+    {
+      "folder": "16",
+      "filename": "23717284.jpg",
+      "externalId": "1kGqQnj3LZzdjlodoTKo055Jz6BFcxPTK"
+    },
+    {
+      "folder": "16",
+      "filename": "07243578.jpg",
+      "externalId": "10PTudZq3KQ9Ah3q69ElRjlsMHGniLKjM"
+    },
+    {
+      "folder": "16",
+      "filename": "66921650.jpg",
+      "externalId": "1zm5dD7P2LBnj6YkhbCTca264BlebxqDS"
+    }
+  ],
+  "setlist": []
+}

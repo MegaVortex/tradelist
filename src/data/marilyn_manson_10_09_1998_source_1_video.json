@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Marilyn Manson - 10.09.1998 - Los Angeles - CA - USA - Gibson Ampitheather - MTV Music Awards (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "09",
+    "year": "1998"
+  },
+  "startDateUnix": 905385600,
+  "endDate": {
+    "day": "10",
+    "month": "09",
+    "year": "1998"
+  },
+  "endDateUnix": 905385600,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Gibson Ampitheather",
+    "event": "MTV Music Awards"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 266,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 351,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "44",
+      "filename": "22164803.jpg",
+      "externalId": "19Wa2m9OTHKDtv1lGL2KbCtbs_4sCOXpU"
+    },
+    {
+      "folder": "44",
+      "filename": "31034455.jpg",
+      "externalId": "1L_0CjoUtZxDb6pGL1Knp33PdFd7KGScO"
+    },
+    {
+      "folder": "44",
+      "filename": "28748372.jpg",
+      "externalId": "1IGZ7vGO5l-YiXbOaVw4XcenPT0frJ3NA"
+    },
+    {
+      "folder": "44",
+      "filename": "01237066.jpg",
+      "externalId": "1bnZS3VeORNnb2P1mxkxJqilel1hbeSEY"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Dope Show",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

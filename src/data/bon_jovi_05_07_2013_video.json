@@ -1,0 +1,152 @@
+{
+  "originalTitle": "Bon Jovi - 05.07.2013 - London - England - Hyde Park - British Summer Time",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "07",
+    "year": "2013"
+  },
+  "startDateUnix": 1372982400,
+  "endDate": {
+    "day": "05",
+    "month": "07",
+    "year": "2013"
+  },
+  "endDateUnix": 1372982400,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Hyde Park",
+    "event": "British Summer Time"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.85,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2062,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": 384,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": {
+      "language": "",
+      "codec": "",
+      "bitrateKbps": null,
+      "channels": null
+    },
+    "sourceDetail": {
+      "type": "",
+      "extra": "",
+      "medium": ""
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "50",
+      "filename": "96103308.jpg",
+      "externalId": "1edEGAJjxNp5fEigPvNj-ofRptRuA2CnW"
+    },
+    {
+      "folder": "50",
+      "filename": "12144931.jpg",
+      "externalId": "1Ps35qL_sMSn8wRjIxtW4qjiL1z5AOuLl"
+    },
+    {
+      "folder": "50",
+      "filename": "98288689.jpg",
+      "externalId": "1e13ohqG-8HOKEuxqC52gJ7D-w6BPdHfJ"
+    },
+    {
+      "folder": "50",
+      "filename": "90452253.jpg",
+      "externalId": "1pWgymOoBS3NYth4wPO-CGa1SAXzJRo9W"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "That's What The Water Made Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "What About Now",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Someday I'll Be Saturday Night",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Bad Medicine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Wanted Dead Or Alive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Livin' On A Prayer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

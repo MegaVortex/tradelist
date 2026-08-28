@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Sinaloa - 08.08.2010 - Allston - MA - USA - The Butcher Shoppe",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sinaloa"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "08",
+    "year": "2010"
+  },
+  "startDateUnix": 1281225600,
+  "endDate": {
+    "day": "08",
+    "month": "08",
+    "year": "2010"
+  },
+  "endDateUnix": 1281225600,
+  "location": {
+    "city": "Allston",
+    "state": "MA",
+    "country": "USA",
+    "venue": "The Butcher Shoppe",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "dyinghorse release.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.73,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1676,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "34",
+      "filename": "74058935.jpg",
+      "externalId": "1L9bzigjbizISobUfWa2Xn6MU93f-wFy5"
+    },
+    {
+      "folder": "34",
+      "filename": "00821068.jpg",
+      "externalId": "1rWYOeQl-hPHUkxclidUXN6gVoBS2ogYJ"
+    },
+    {
+      "folder": "34",
+      "filename": "48451787.jpg",
+      "externalId": "1Q3MstohI2y0fvyNosodtpyVhoGS013Gp"
+    },
+    {
+      "folder": "34",
+      "filename": "85618910.jpg",
+      "externalId": "19e9UHuHY25Xjfq7-MIzB0IcRsg-9ituQ"
+    }
+  ],
+  "setlist": []
+}

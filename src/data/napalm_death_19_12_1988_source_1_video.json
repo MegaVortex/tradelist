@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Napalm Death - 19.12.1988 - Burladingen - Germany - Juz (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Napalm Death"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "12",
+    "year": "1988"
+  },
+  "startDateUnix": 598492800,
+  "endDate": {
+    "day": "19",
+    "month": "12",
+    "year": "1988"
+  },
+  "endDateUnix": 598492800,
+  "location": {
+    "city": "Burladingen",
+    "state": "",
+    "country": "Germany",
+    "venue": "Juz",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.64,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 6181,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "napalm_death_07_06_1989_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "47",
+      "filename": "99425354.jpg",
+      "externalId": "1YNUHaq-_YceD_jclIEFqKSSoHQfK40Nr"
+    },
+    {
+      "folder": "47",
+      "filename": "77175966.jpg",
+      "externalId": "1G4rgdKV4KojPlqjvdDrjUb7Qs6TTVx_-"
+    },
+    {
+      "folder": "47",
+      "filename": "61392709.jpg",
+      "externalId": "1SQJBYbOWf12yD1f14B9K2jcxvfFn0dG_"
+    },
+    {
+      "folder": "47",
+      "filename": "72388345.jpg",
+      "externalId": "1tF32cncoHHA7A_WTmNjJTZkymQOgEkus"
+    }
+  ],
+  "setlist": []
+}

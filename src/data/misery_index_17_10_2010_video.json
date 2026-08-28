@@ -1,0 +1,110 @@
+{
+  "originalTitle": "Misery Index - 17.10.2010 - Sherbrooke - QC - Canada - Saloon Bar",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Misery Index"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "10",
+    "year": "2010"
+  },
+  "startDateUnix": 1287273600,
+  "endDate": {
+    "day": "17",
+    "month": "10",
+    "year": "2010"
+  },
+  "endDateUnix": 1287273600,
+  "location": {
+    "city": "Sherbrooke",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "Saloon Bar",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Pouel"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.75,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2785,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "a_liars_truth_17_10_2010_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "16",
+      "filename": "12640064.jpg",
+      "externalId": "1X29k5qyF-kUQHGXGi0RLb0diCD-A97Vj"
+    },
+    {
+      "folder": "16",
+      "filename": "09638734.jpg",
+      "externalId": "1pMu2eCo3kKWEjvaikayi8WW70NiAzyai"
+    },
+    {
+      "folder": "16",
+      "filename": "83093006.jpg",
+      "externalId": "1HEtPqt52yxyy8FcBgd_HLh6nUzxLFOKc"
+    },
+    {
+      "folder": "16",
+      "filename": "35271176.jpg",
+      "externalId": "1p8HwRv3IM7mdj7Hn4qlFUcoZJhoZ-_zJ"
+    }
+  ],
+  "setlist": []
+}

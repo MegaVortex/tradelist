@@ -1,0 +1,157 @@
+{
+  "originalTitle": "Metallica - 23.09.2013 - New York - NY - USA - SiriusXM Studios - Howard Stern Show (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "09",
+    "year": "2013"
+  },
+  "startDateUnix": 1379894400,
+  "endDate": {
+    "day": "23",
+    "month": "09",
+    "year": "2013"
+  },
+  "endDateUnix": 1379894400,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "SiriusXM Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Howard Stern Show",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.14,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5355,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "78",
+      "filename": "59999334.jpg",
+      "externalId": "1wEPhbZNaokuT5Vo6FF3EVKFjAD00dOm0"
+    },
+    {
+      "folder": "78",
+      "filename": "97706741.jpg",
+      "externalId": "1ZExWx2PscUecjurvP0bLF_98NXJX3mOB"
+    },
+    {
+      "folder": "78",
+      "filename": "62042641.jpg",
+      "externalId": "12OfidEcNnkPGQw_YhiVYpbSYdNmR0TY_"
+    },
+    {
+      "folder": "78",
+      "filename": "30315346.jpg",
+      "externalId": "1AU-DcDL_7Zpn8Alq-roI35A0qgGzzwyp"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Nothing Else Matters",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Soundcheck",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 2,
+      "song": "Behind The Scenes",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

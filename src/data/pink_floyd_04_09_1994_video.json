@@ -1,0 +1,204 @@
+{
+  "originalTitle": "Pink Floyd - 04.09.1994 - Rotterdam - Netherlands - Stadion Feyenoord",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Pink Floyd"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "09",
+    "year": "1994"
+  },
+  "startDateUnix": 778636800,
+  "endDate": {
+    "day": "04",
+    "month": "09",
+    "year": "1994"
+  },
+  "endDateUnix": 778636800,
+  "location": {
+    "city": "Rotterdam",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Stadion Feyenoord",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "2 cam mix.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.11,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 3.41,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 9958,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "pink_floyd_03_09_1994_video",
+    "pink_floyd_05_09_1994_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "22",
+      "filename": "94032150.jpg",
+      "externalId": "1uaqHXV13ylQxpnzdznFwP84lAQQJ4B2t"
+    },
+    {
+      "folder": "22",
+      "filename": "16795287.jpg",
+      "externalId": "16QGV6O9Xjmij0UNi2QMxmnxDt2PH_BNw"
+    },
+    {
+      "folder": "22",
+      "filename": "77189038.jpg",
+      "externalId": "1mpFha8PFyuI6ahzSZSmlibEOox78425t"
+    },
+    {
+      "folder": "22",
+      "filename": "57470852.jpg",
+      "externalId": "1GC-Ifxk467fIHf62KUpI216zjBZFFcmr"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Speak To Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Breathe",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "On The Run",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Breathe (Reprise)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Great Gig In The Sky",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Money",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Us And Them",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Any Colour You Like",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Brain Damage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Eclipse",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

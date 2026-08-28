@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Soulfly - 16.08.2002 - Poughkeepsie - NY - USA - Mid Hudson Civic Center",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Soulfly"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "08",
+    "year": "2002"
+  },
+  "startDateUnix": 1029456000,
+  "endDate": {
+    "day": "16",
+    "month": "08",
+    "year": "2002"
+  },
+  "endDateUnix": 1029456000,
+  "location": {
+    "city": "Poughkeepsie",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Mid Hudson Civic Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.47,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2527,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "39543662.jpg",
+      "externalId": "1wVu0Dv63EGAXqAnadMtxvIvapvxahF8R"
+    },
+    {
+      "folder": "29",
+      "filename": "46824497.jpg",
+      "externalId": "1o4C_X6qo3t5LFCyVuY44O9LtdulHd_Eu"
+    },
+    {
+      "folder": "29",
+      "filename": "21788029.jpg",
+      "externalId": "1o5WSOUvvoD9efgt3_kH6kUJQkcXqeRzD"
+    },
+    {
+      "folder": "29",
+      "filename": "26797546.jpg",
+      "externalId": "1kTQ6yIn_opTDMa3ZWQAl2do7pJgeZGPt"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,116 @@
+{
+  "originalTitle": "The Offspring - 25.06.2012 - Hollywood - Los Angeles - CA - USA - Bud Light Outdoor Stage - Jimmy Kimmel Show (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Offspring"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "06",
+    "year": "2012"
+  },
+  "startDateUnix": 1340582400,
+  "endDate": {
+    "day": "25",
+    "month": "06",
+    "year": "2012"
+  },
+  "endDateUnix": 1340582400,
+  "location": {
+    "city": "Hollywood",
+    "state": "",
+    "country": "Los Angeles",
+    "venue": "CA",
+    "event": "USA - Bud Light Outdoor Stage"
+  },
+  "tvChannel": "",
+  "showName": "Jimmy Kimmel Show",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 256,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 247,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "46",
+      "filename": "39736887.jpg",
+      "externalId": "1Q6JcPyYqBmQGW8849u322uEvR2sMj5py"
+    },
+    {
+      "folder": "46",
+      "filename": "93842579.jpg",
+      "externalId": "19TVnJqERJenozXaqKP0egVX6WYwG0Zju"
+    },
+    {
+      "folder": "46",
+      "filename": "65380572.jpg",
+      "externalId": "1YYetuYNysBt-YEWUho0gXceY4Y4edr8Z"
+    },
+    {
+      "folder": "46",
+      "filename": "43057034.jpg",
+      "externalId": "1FtpolbYl_9sws4OROlNTOBecTw73iQeh"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Days Go By",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

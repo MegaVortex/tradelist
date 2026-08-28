@@ -1,0 +1,220 @@
+{
+  "originalTitle": "Bon Jovi - 20.07.2011 - Athens - Greece - OAKA Stadium (Source 1)",
+  "created": 1754761564,
+  "lastUpdated": 1754761564,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "07",
+    "year": "2011"
+  },
+  "startDateUnix": 1311120000,
+  "endDate": {
+    "day": "20",
+    "month": "07",
+    "year": "2011"
+  },
+  "endDateUnix": 1311120000,
+  "location": {
+    "city": "Athens",
+    "state": "",
+    "country": "Greece",
+    "venue": "OAKA Stadium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Shitty digicam 4 cam mix.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.79,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 9630,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "58948499.jpg",
+      "externalId": "1Dru7bubDZP3gIo8IqpCgKhbnW5367w1i"
+    },
+    {
+      "folder": "27",
+      "filename": "00807325.jpg",
+      "externalId": "1p8eWqr0oh6P7iZsd3WXKGLotXXESNpww"
+    },
+    {
+      "folder": "27",
+      "filename": "60562608.jpg",
+      "externalId": "1hHuYwteK7Wl0b2ibf-AsGU_FHvJ-VT3W"
+    },
+    {
+      "folder": "27",
+      "filename": "41016865.jpg",
+      "externalId": "1HvdDdRqe6RteDsmmoemw_oJUqQIbPZPX"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Always",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Bad Medicine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Pretty Woman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Shout",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Bed Of Roses",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Blaze Of Glory",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Have A Nice Day",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "In These Arms",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "It's My Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Keep The Faith",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Livin' On A Prayer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Wanted Dead Or Alive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "We Got It Goin' On",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "You Give Love A Bad Name",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

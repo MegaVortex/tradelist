@@ -1,0 +1,249 @@
+{
+  "originalTitle": "Pink Floyd - 08.08.1988 - Manchester - England - Manchester City Football Ground",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Pink Floyd"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "08",
+    "year": "1988"
+  },
+  "startDateUnix": 587001600,
+  "endDate": {
+    "day": "08",
+    "month": "08",
+    "year": "1988"
+  },
+  "endDateUnix": 587001600,
+  "location": {
+    "city": "Manchester",
+    "state": "",
+    "country": "England",
+    "venue": "Manchester City Football Ground",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.86,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 4.06,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 7324,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 3
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "32",
+      "filename": "43687805.jpg",
+      "externalId": "101dwYg0spWK0HCh1psQgNXMqgw-shdM7"
+    },
+    {
+      "folder": "32",
+      "filename": "74471873.jpg",
+      "externalId": "1Dy6T_RGgwVaOBeOuq60CVf52WFNwxu3L"
+    },
+    {
+      "folder": "32",
+      "filename": "25878593.jpg",
+      "externalId": "14l_Dzuvi5VTtEWHRuvBEFrv0wSrPMPzo"
+    },
+    {
+      "folder": "32",
+      "filename": "16698129.jpg",
+      "externalId": "1f5fKL5SYf2vZGpcbMbSHI8ag0ohjsi-B"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Shine On You Crazy Diamond (Parts I-V)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Signs Of Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Learning To Fly",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Yet Another Movie",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Sorrow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Dogs Of War",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "On The Turning Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "One Of These Days",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "On The Run",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "The Great Gig In The Sky",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Wish You Were Here",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Welcome To The Machine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Us And Them",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Money",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "Another Brick In The Wall Part II",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 17,
+      "song": "Comfortably Numb",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

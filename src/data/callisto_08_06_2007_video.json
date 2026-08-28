@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Callisto - 08.06.2007 - Turku - Finland - Klubi",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Callisto"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "06",
+    "year": "2007"
+  },
+  "startDateUnix": 1181260800,
+  "endDate": {
+    "day": "08",
+    "month": "06",
+    "year": "2007"
+  },
+  "endDateUnix": 1181260800,
+  "location": {
+    "city": "Turku",
+    "state": "",
+    "country": "Finland",
+    "venue": "Klubi",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.04,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3061,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "12",
+      "filename": "39657885.jpg",
+      "externalId": "18e6xcsOFe9DWVMNqIHkExKKm63FWY0FL"
+    },
+    {
+      "folder": "12",
+      "filename": "30255478.jpg",
+      "externalId": "1gUjsaNBRRtMQBKzBNJ1OgpVlRlN60Dvg"
+    },
+    {
+      "folder": "12",
+      "filename": "55544419.jpg",
+      "externalId": "1p0WonNcPSxOtgNbvK5hML7yzP5jInT8g"
+    },
+    {
+      "folder": "12",
+      "filename": "10051610.jpg",
+      "externalId": "1VlSnmyWTSRNA0AFTvqqzrFHf9ctMfILY"
+    }
+  ],
+  "setlist": []
+}

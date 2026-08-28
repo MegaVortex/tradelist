@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Black Sabbath - 04.09.1975 - Santa Monica - CA - USA - Santa Monica Civic Center (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Black Sabbath"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "09",
+    "year": "1975"
+  },
+  "startDateUnix": 179020800,
+  "endDate": {
+    "day": "04",
+    "month": "09",
+    "year": "1975"
+  },
+  "endDateUnix": 179020800,
+  "location": {
+    "city": "Santa Monica",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Santa Monica Civic Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Don Kirschner's Rock Concert.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.61,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1636,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "7",
+      "filename": "36006122.jpg",
+      "externalId": "1dHiA1DsGaiUdMxTl9V1zxTd7pX0DyUeL"
+    },
+    {
+      "folder": "7",
+      "filename": "61867975.jpg",
+      "externalId": "1F9TUNTGn1vgCW3n-DLtYkMXb83zczDiZ"
+    },
+    {
+      "folder": "7",
+      "filename": "13644753.jpg",
+      "externalId": "1T5aVhHVlc7TbNPhrMpiDjLRYkeyU99bJ"
+    },
+    {
+      "folder": "7",
+      "filename": "91186896.jpg",
+      "externalId": "1bmoo3VLD9zg2kDIwzpc0lemNaE9SzHqP"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "TV Announcer - French TV Musique Show (Interesting if you understand French)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Don Kirschner's intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Killing Yourself To Live",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Hole In The Sky",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Snowblind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "War Pigs",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Paranoid",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

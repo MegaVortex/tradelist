@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Hatebreed - 19.02.1995 - Middletown - NY - USA - Sportland",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Hatebreed"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "02",
+    "year": "1995"
+  },
+  "startDateUnix": 793152000,
+  "endDate": {
+    "day": "19",
+    "month": "02",
+    "year": "1995"
+  },
+  "endDateUnix": 793152000,
+  "location": {
+    "city": "Middletown",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Sportland",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.12,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2501,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "40246923.jpg",
+      "externalId": "12EGubvFF-p49daJvFqKRfVQq_pw_K86B"
+    },
+    {
+      "folder": "19",
+      "filename": "63710592.jpg",
+      "externalId": "12E8KHJuxOtU8pLZNsheJF9GkXCczV3I3"
+    },
+    {
+      "folder": "19",
+      "filename": "37685615.jpg",
+      "externalId": "1GLDflaWa39m8atFhxWoGjHbtR5ki3wp5"
+    },
+    {
+      "folder": "19",
+      "filename": "57390744.jpg",
+      "externalId": "1Zg7zW70_DlkGIf7vb_0nF6i2QCwObeoZ"
+    }
+  ],
+  "setlist": []
+}

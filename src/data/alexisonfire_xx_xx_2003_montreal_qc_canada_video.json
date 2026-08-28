@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Alexisonfire - xx.xx.2003 - Montreal - QC - Canada",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Alexisonfire"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "2003"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2003"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Montreal",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 87.04,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 537,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "320x240",
+        "bitrateType": "",
+        "bitrateKbps": 1150,
+        "fps": "29.97",
+        "standard": "MPEG1",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "MPG"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "2",
+      "filename": "13425.jpg",
+      "externalId": "1uN3KMvrjaJ2kwLQ1_1CAYWKOuWn8TMRa"
+    },
+    {
+      "folder": "2",
+      "filename": "59490.jpg",
+      "externalId": "1Jwy-igZjc2fd8oVe555Rk6_0Drm-8Q3y"
+    },
+    {
+      "folder": "2",
+      "filename": "73543.jpg",
+      "externalId": "1jxluI18A9t6Q8vRuLxGt7Ae-zmN0l7S8"
+    },
+    {
+      "folder": "2",
+      "filename": "50042.jpg",
+      "externalId": "1VL3QUNiq3wqaP8IozY61tLZWQ_NABLSV"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Where No One Knows",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "A Dagger Through The Heart Of St. Angeles",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

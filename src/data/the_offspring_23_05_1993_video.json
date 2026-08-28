@@ -1,0 +1,188 @@
+{
+  "originalTitle": "The Offspring - 23.05.1993 - Rapid City - SD - USA - Days Inn",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Offspring"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "05",
+    "year": "1993"
+  },
+  "startDateUnix": 738115200,
+  "endDate": {
+    "day": "23",
+    "month": "05",
+    "year": "1993"
+  },
+  "endDateUnix": 738115200,
+  "location": {
+    "city": "Rapid City",
+    "state": "SD",
+    "country": "USA",
+    "venue": "Days Inn",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.09,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1958,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "74",
+      "filename": "40690228.jpg",
+      "externalId": "14IAxgYH8JT2nai3NvrCbC9_v0s1KXf_W"
+    },
+    {
+      "folder": "74",
+      "filename": "06755591.jpg",
+      "externalId": "19I_Jwjs7g49IA352Mp2Nz3STiLOU_fQw"
+    },
+    {
+      "folder": "74",
+      "filename": "43204024.jpg",
+      "externalId": "1e6VrIYP_T5I62HjEK2luJ814tKK47-8w"
+    },
+    {
+      "folder": "74",
+      "filename": "80474532.jpg",
+      "externalId": "1uKApgGMvsQB1ttMpArRx51978Q2pSiES"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Get It Right",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "We Are One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Elders",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Forever And A Day",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Kick Him When He's Down",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Out On Patrol",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Nothing From Something",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Beheaded",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Jennifer Lost The War",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Burn It Up",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

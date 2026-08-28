@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Motorhead - 19.06.2015 - Clisson - France - Val De Moine - Hellfest",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Motorhead"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "06",
+    "year": "2015"
+  },
+  "startDateUnix": 1434672000,
+  "endDate": {
+    "day": "19",
+    "month": "06",
+    "year": "2015"
+  },
+  "endDateUnix": 1434672000,
+  "location": {
+    "city": "Clisson",
+    "state": "",
+    "country": "France",
+    "venue": "Val De Moine",
+    "event": "Hellfest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 343,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1083,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 6,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "HD",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "75",
+      "filename": "22794528.jpg",
+      "externalId": "156YmvYknuxi-pXNOe9_SAorHsTJ9Lk0e"
+    },
+    {
+      "folder": "75",
+      "filename": "06649909.jpg",
+      "externalId": "1SNVE5Y1znv673QX--tpYKVsZxTNzS53A"
+    },
+    {
+      "folder": "75",
+      "filename": "55783759.jpg",
+      "externalId": "1ZvpIRSGf7hpI0W63Vl35rKMPhTq6UWkW"
+    },
+    {
+      "folder": "75",
+      "filename": "96022385.jpg",
+      "externalId": "1ifNHF-y2eBQyoS5CCtuQMyMsD3_9Sk50"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Chase Is Better Than The Catch",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Ace Of Spades",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Overkill",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

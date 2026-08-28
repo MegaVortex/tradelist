@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Motley Crue - 11.09.1997 - Cleveland - OH - USA [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Motley Crue"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "09",
+    "year": "1997"
+  },
+  "startDateUnix": 873936000,
+  "endDate": {
+    "day": "11",
+    "month": "09",
+    "year": "1997"
+  },
+  "endDateUnix": 873936000,
+  "location": {
+    "city": "Cleveland",
+    "state": "OH",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.67,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1498,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "51",
+      "filename": "05994037.jpg",
+      "externalId": "1Xh25GA6zFqjw0IQrFNCQiAr3P8JWvz6Z"
+    },
+    {
+      "folder": "51",
+      "filename": "47437235.jpg",
+      "externalId": "1Gjjz-Rx9lgyZcT_hEIJRNJMCrfdU3P7N"
+    },
+    {
+      "folder": "51",
+      "filename": "30751021.jpg",
+      "externalId": "1MQmjtGrKoRjlEcBZioxG8mYNn0KeFG-q"
+    },
+    {
+      "folder": "51",
+      "filename": "57701509.jpg",
+      "externalId": "1YbVwGwi3p34dtEnWPa5NcAkcvcZCAWxw"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Press Conference",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

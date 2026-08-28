@@ -1,0 +1,171 @@
+{
+  "originalTitle": "Korn - 22.06.2013 - Clisson - France - Val De Moine - Hellfest (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "06",
+    "year": "2013"
+  },
+  "startDateUnix": 1371859200,
+  "endDate": {
+    "day": "22",
+    "month": "06",
+    "year": "2013"
+  },
+  "endDateUnix": 1371859200,
+  "location": {
+    "city": "Clisson",
+    "state": "",
+    "country": "France",
+    "venue": "Val De Moine",
+    "event": "Hellfest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.58,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2461,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "1440x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 68,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 61,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "53",
+      "filename": "87813843.jpg",
+      "externalId": "1zpuRX1GH2cN2uDvpDRDudNAWhfg2k7hV"
+    },
+    {
+      "folder": "53",
+      "filename": "15515088.jpg",
+      "externalId": "1fJyw28yUx0p2NHics7Y5iF8Rzu8ICoYw"
+    },
+    {
+      "folder": "53",
+      "filename": "09610784.jpg",
+      "externalId": "1r-Q9dZI15cSNtRDh6PTHVaGRR3lZH26n"
+    },
+    {
+      "folder": "53",
+      "filename": "65016036.jpg",
+      "externalId": "1n-ZhluDJQGVLQR1I-pxxhJFGhePy5s44"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Blind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Falling Away From Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Dead Bodies Everywhere",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Narcissistic Cannibal",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Shoots And Ladders / Somebody Someone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Here To Stay",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Freak On A Leash",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Bon Jovi - 04.12.2010 - Wellington - New Zealand - Westpac Stadium (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "12",
+    "year": "2010"
+  },
+  "startDateUnix": 1291420800,
+  "endDate": {
+    "day": "04",
+    "month": "12",
+    "year": "2010"
+  },
+  "endDateUnix": 1291420800,
+  "location": {
+    "city": "Wellington",
+    "state": "",
+    "country": "New Zealand",
+    "venue": "Westpac Stadium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.67,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2887,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "13",
+      "filename": "29698868.jpg",
+      "externalId": "1dnC2yuEFBhQbB2esSOzVIRQpbiabmvUx"
+    },
+    {
+      "folder": "13",
+      "filename": "39218229.jpg",
+      "externalId": "10xQV4rYdQUsgU9aIu9rw9Ti_21PtjBki"
+    },
+    {
+      "folder": "13",
+      "filename": "91619123.jpg",
+      "externalId": "1IJOKSW9a0qU2P5HGw0_oc56RS2erfbZ3"
+    },
+    {
+      "folder": "13",
+      "filename": "51711501.jpg",
+      "externalId": "1PjmoLpB2pz471Nw2XGu-zYddx7I_fXY5"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Bad Medicine (partial, ends before Pretty Woman interlude)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Lay Your Hands On Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "I'll Be There For You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Raise Your Hands",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Runaway",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Keep The Faith",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Wanted Dead Or Alive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Livin' On A Prayer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

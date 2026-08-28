@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Rage Against The Machine - 08.03.1992 - San Luis Obispo - CA - USA",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rage Against The Machine"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "03",
+    "year": "1992"
+  },
+  "startDateUnix": 700012800,
+  "endDate": {
+    "day": "08",
+    "month": "03",
+    "year": "1992"
+  },
+  "endDateUnix": 700012800,
+  "location": {
+    "city": "San Luis Obispo",
+    "state": "CA",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.73,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2356,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "1",
+      "filename": "96484.jpg",
+      "externalId": "1FAXr1fuMgwhU1oFq2YdG7VCbJlU_b2bn"
+    },
+    {
+      "folder": "1",
+      "filename": "16525.jpg",
+      "externalId": "1D8Mr5PKuoWpPmG8Y3nOn5qIVobT_jnPg"
+    },
+    {
+      "folder": "1",
+      "filename": "56679.jpg",
+      "externalId": "1mumMJ7yeqGyntUT1sMqHhElHb4Utbfg5"
+    },
+    {
+      "folder": "1",
+      "filename": "70652.jpg",
+      "externalId": "1h3v_7HF-mpciCNQgBKMQhZdi2uUVTJSl"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Bombtrack",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Bullet In The Head",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Take The Power Back",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Clear The Lane",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Killing In The Name",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Know Your Enemy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Freedom",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

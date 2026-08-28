@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Garbage - 25.10.1996 - Champaign - IL - USA - Assembly Hall",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Garbage"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "10",
+    "year": "1996"
+  },
+  "startDateUnix": 846201600,
+  "endDate": {
+    "day": "25",
+    "month": "10",
+    "year": "1996"
+  },
+  "endDateUnix": 846201600,
+  "location": {
+    "city": "Champaign",
+    "state": "IL",
+    "country": "USA",
+    "venue": "Assembly Hall",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.42,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2136,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "72",
+      "filename": "33399716.jpg",
+      "externalId": "1vcECED24vZexbLcBvC4dDsO2mzpIPWxY"
+    },
+    {
+      "folder": "72",
+      "filename": "78919438.jpg",
+      "externalId": "154J4ajWn45M0Xl5lmvxYkggLRwgklYt3"
+    },
+    {
+      "folder": "72",
+      "filename": "48376893.jpg",
+      "externalId": "1sCwBuhfRRtv9W9HZkp8xa9AsT5pOingB"
+    },
+    {
+      "folder": "72",
+      "filename": "41491527.jpg",
+      "externalId": "18YnPTI7HEeJHXyvgClBQY-xTthggDBBD"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Queer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Fix Me Now",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Not My Idea",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "My Lover's Box",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Milk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Stupid Girl",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Only Happy When It Rains",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Vow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

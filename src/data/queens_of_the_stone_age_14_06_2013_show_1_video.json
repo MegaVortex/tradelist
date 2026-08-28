@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Queens Of The Stone Age - 14.06.2013 - Landgraaf - Netherlands - Megaland - Pinkpop Festival (Show 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "06",
+    "year": "2013"
+  },
+  "startDateUnix": 1371168000,
+  "endDate": {
+    "day": "14",
+    "month": "06",
+    "year": "2013"
+  },
+  "endDateUnix": 1371168000,
+  "location": {
+    "city": "Landgraaf",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Megaland",
+    "event": "Pinkpop Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Short acoustic set in some cabin at Pinkpop Festival for Dutch TV.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 524,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 892,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "68",
+      "filename": "60451128.jpg",
+      "externalId": "1TbxSap1blPcz2lTGHqCIq0AemFgpHRus"
+    },
+    {
+      "folder": "68",
+      "filename": "61344631.jpg",
+      "externalId": "1qC0Kn471bc9FzpmNLJl1LS5NKVeHvMKU"
+    },
+    {
+      "folder": "68",
+      "filename": "95623273.jpg",
+      "externalId": "1G5WHDjfFCIkrzx2oOjAXN0WmwwG1tbmy"
+    },
+    {
+      "folder": "68",
+      "filename": "31999104.jpg",
+      "externalId": "1CKFkuBLbIi-GgiYUELynLg8nMUEI8qRd"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "I Sat By The Ocean",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "My God Is The Sun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Go With The Flow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

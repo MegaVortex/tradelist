@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Dio - 14.01.1984 - Hollywood - CA - USA - Rock Palace (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Dio"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "01",
+    "year": "1984"
+  },
+  "startDateUnix": 442886400,
+  "endDate": {
+    "day": "14",
+    "month": "01",
+    "year": "1984"
+  },
+  "endDateUnix": 442886400,
+  "location": {
+    "city": "Hollywood",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Rock Palace",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.28,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1147,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "15755540.jpg",
+      "externalId": "1bOEbNlIVuGN-pLVPZaPNqVmC2__er5q4"
+    },
+    {
+      "folder": "60",
+      "filename": "70708099.jpg",
+      "externalId": "1BJ_dBGuGryrY3dLODezBDp6Yo2wT4p5k"
+    },
+    {
+      "folder": "60",
+      "filename": "21540501.jpg",
+      "externalId": "1hTfigCfgMFDEuQpj60ROzqZWfzWKQYqw"
+    },
+    {
+      "folder": "60",
+      "filename": "09989058.jpg",
+      "externalId": "1Tdd9t2WJO5D9U0QhYmxeXJv6gM4DWqHz"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Stan Up And Shout",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Straight Through The Heart",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Rainbow In The Dark",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Man On The Silver Mountain",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Rainbow"
+    }
+  ],
+  "extras": []
+}

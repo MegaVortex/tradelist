@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Bloodhound Gang - 14.08.2004 - Rothenburg Ob Der Tauber - Germany - Eiswiese - Taubertal Festival (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bloodhound Gang"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "08",
+    "year": "2004"
+  },
+  "startDateUnix": 1092441600,
+  "endDate": {
+    "day": "14",
+    "month": "08",
+    "year": "2004"
+  },
+  "endDateUnix": 1092441600,
+  "location": {
+    "city": "Rothenburg Ob Der Tauber",
+    "state": "",
+    "country": "Germany",
+    "venue": "Eiswiese",
+    "event": "Taubertal Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 492,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 943,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "85260259.jpg",
+      "externalId": "1pVBJkVZRejYQZHHrID7hLAcCOSICJRAA"
+    },
+    {
+      "folder": "80",
+      "filename": "80707651.jpg",
+      "externalId": "1oP6T7iN0gYUOJ5Kf_xeTw1YM8bfJK-v-"
+    },
+    {
+      "folder": "80",
+      "filename": "45453087.jpg",
+      "externalId": "1W1jqENRyvi76zuemwFXXntuye_mQOKSF"
+    },
+    {
+      "folder": "80",
+      "filename": "29757688.jpg",
+      "externalId": "1cdc664Oqy6yty_ekpUn2DRG2_GU9diF-"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Along Comes Mary",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Bad Touch",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Fire Water Burn",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

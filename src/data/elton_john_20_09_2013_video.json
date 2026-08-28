@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Elton John - 20.09.2013 - Las Vegas - NV - USA - MGM Grand Garden Arena - iHeartRadio Music Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Elton John"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "09",
+    "year": "2013"
+  },
+  "startDateUnix": 1379635200,
+  "endDate": {
+    "day": "20",
+    "month": "09",
+    "year": "2013"
+  },
+  "endDateUnix": 1379635200,
+  "location": {
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "venue": "MGM Grand Garden Arena",
+    "event": "iHeartRadio Music Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.29,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 820,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "59.94",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "68825005.jpg",
+      "externalId": "1NgL40E64cJiFoop0l_G1uKAJQtV9IF9v"
+    },
+    {
+      "folder": "73",
+      "filename": "29274467.jpg",
+      "externalId": "1_JsqRgEfSLFz5tlh4u9oSffbapDa42Kq"
+    },
+    {
+      "folder": "73",
+      "filename": "89745220.jpg",
+      "externalId": "1BX2x1FJWel31FJDfKaa_0WPaZKXo-p2F"
+    },
+    {
+      "folder": "73",
+      "filename": "84194940.jpg",
+      "externalId": "1F9Drd7Z3x26BEQlKTTwaIvZpn3OqIHls"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Tiny Dancer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Home Again",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

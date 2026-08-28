@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Guano Apes - 05.06.2009 - Nuerburg - Germany - Zeppelinfeld - Rock Im Park",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Guano Apes"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "06",
+    "year": "2009"
+  },
+  "startDateUnix": 1244160000,
+  "endDate": {
+    "day": "05",
+    "month": "06",
+    "year": "2009"
+  },
+  "endDateUnix": 1244160000,
+  "location": {
+    "city": "Nuerburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Zeppelinfeld",
+    "event": "Rock Im Park"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete. Shitty digicam source. Screenshot is the most interesting part in it.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 492,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 423,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "9",
+      "filename": "93278564.jpg",
+      "externalId": "13DhE20swWCnOCp8x8t_esfFZmNtqcnhe"
+    },
+    {
+      "folder": "9",
+      "filename": "58064928.jpg",
+      "externalId": "1kNDBbhfivvUeW7eG3qWBKAg2N_pDY-PS"
+    },
+    {
+      "folder": "9",
+      "filename": "90629590.jpg",
+      "externalId": "1a8PGHcfCAa2wTAIdcN8j7StQAkQab4N2"
+    },
+    {
+      "folder": "9",
+      "filename": "06598358.jpg",
+      "externalId": "1_QoMGP4v6i6Ebl3t6BQcrhTBTjBCA9Lv"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Open Your Eyes",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Diokhan",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Schratch The Pitch",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Lords Of The Boards",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,125 @@
+{
+  "originalTitle": "Kiss - xx.xx.1993 - USA - MTV Studios - Headbangers Ball [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Kiss"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1993"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1993"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "MTV Studios",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "Headbangers Ball",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.89,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 3.97,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 7062,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "kiss_02_10_1992_video",
+    "kiss_13_07_1994_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "40",
+      "filename": "57795277.jpg",
+      "externalId": "1lJlvicISknpYtaGwuYN3neFJ3PXbIDT0"
+    },
+    {
+      "folder": "40",
+      "filename": "66488982.jpg",
+      "externalId": "1LJ18mg6n1LZGOclm2z6Tgc03PP1q1Q_u"
+    },
+    {
+      "folder": "40",
+      "filename": "51039045.jpg",
+      "externalId": "18iB2yfXweDIld8Y9Ce96ZqN6dGRex1Bp"
+    },
+    {
+      "folder": "40",
+      "filename": "96091829.jpg",
+      "externalId": "1MlHI7Y6AvZUY0Rp59AJ86wh9nmsx0HXR"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Paul Stanley and Gene Simmons",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,129 @@
+{
+  "originalTitle": "Sonic Youth - 21.08.2005 - Weston-Under-Lizard - England - Weston Park - V Festival (Source 1)",
+  "created": 1759692106,
+  "lastUpdated": 1759692106,
+  "bands": [
+    "Sonic Youth"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "08",
+    "year": "2005"
+  },
+  "endDate": {
+    "day": "21",
+    "month": "08",
+    "year": "2005"
+  },
+  "startDateUnix": 1124582400,
+  "endDateUnix": 1124582400,
+  "location": {
+    "city": "Weston-Under-Lizard",
+    "state": "",
+    "country": "England",
+    "venue": "Weston Park",
+    "event": "V Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "receivedInTrade": true,
+  "trader": "Ingram",
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 302,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 699,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MP2",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "images": [
+    {
+      "folder": "2025",
+      "filename": "shot-1759689360718-1.jpg",
+      "externalId": "1YRfMT96qn1dvHivjAm0mQbs5LjKYx321"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1759689360875-2.jpg",
+      "externalId": "1DgQq-UyOERtU1fliWyjs8QbENQeKmEBN"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1759689361022-3.jpg",
+      "externalId": "1YdjjpJtwtNmvkcpC4EpUWLMqQFqiOqWv"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1759689360546-0.jpg",
+      "externalId": "1RlFKh4d12Oi9Gvaz2fBGLJvRAYc_Pur-"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "I Love You Golden Blue",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Stones",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [],
+  "relatedShows": [
+    "sonic_youth_03_07_2005_source_1_video",
+    "sonic_youth_03_06_2005_source_2_video"
+  ],
+  "childOf": ""
+}

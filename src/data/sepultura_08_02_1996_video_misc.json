@@ -1,0 +1,120 @@
+{
+  "originalTitle": "Sepultura - 08.02.1996 - Stockholm - Sweden - Gino [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sepultura"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "02",
+    "year": "1996"
+  },
+  "startDateUnix": 823737600,
+  "endDate": {
+    "day": "08",
+    "month": "02",
+    "year": "1996"
+  },
+  "endDateUnix": 823737600,
+  "location": {
+    "city": "Stockholm",
+    "state": "",
+    "country": "Sweden",
+    "venue": "Gino",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "TV2 broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.46,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1472,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "sepultura_09_02_1996_video",
+    "sepultura_08_02_1996_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "40753963.jpg",
+      "externalId": "140_Z_-c8Y5OL9OMwTNFCI_SRTSwRT8ub"
+    },
+    {
+      "folder": "70",
+      "filename": "09404947.jpg",
+      "externalId": "1328rgFXMbStGgm8A47cuNRLRn67Jm-CQ"
+    },
+    {
+      "folder": "70",
+      "filename": "65317858.jpg",
+      "externalId": "1ucXNkldoITQxNV6h16sOog4K5LRVcmBH"
+    },
+    {
+      "folder": "70",
+      "filename": "57806942.jpg",
+      "externalId": "1gSots4Hd7KsB3X-FCtvOOkb6oC02F-KD"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

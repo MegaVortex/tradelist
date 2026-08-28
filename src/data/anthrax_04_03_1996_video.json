@@ -1,0 +1,142 @@
+{
+  "originalTitle": "Anthrax - 04.03.1996 - Warsaw - Poland - Klub Stodola",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Anthrax"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "03",
+    "year": "1996"
+  },
+  "startDateUnix": 825897600,
+  "endDate": {
+    "day": "04",
+    "month": "03",
+    "year": "1996"
+  },
+  "endDateUnix": 825897600,
+  "location": {
+    "city": "Warsaw",
+    "state": "",
+    "country": "Poland",
+    "venue": "Klub Stodola",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.99,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3495,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "anthrax_07_02_1996_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "25",
+      "filename": "37481615.jpg",
+      "externalId": "1k96PaiOvwCt0lbD1U5z3ueRqvlYC0LPo"
+    },
+    {
+      "folder": "25",
+      "filename": "30349005.jpg",
+      "externalId": "1RUj30EZEY8DLAXCWllWwbD2aFJ8scUGM"
+    },
+    {
+      "folder": "25",
+      "filename": "94142754.jpg",
+      "externalId": "1nvd_B5-_D744qAcFTBFCQyQJlRAGYr2u"
+    },
+    {
+      "folder": "25",
+      "filename": "38179647.jpg",
+      "externalId": "1BLbUwCZgdKLph8l71DdecevvsXQYM-fv"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Random Act Of Sensless Violence",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Fueled",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Got The Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Caught In A Mosh",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

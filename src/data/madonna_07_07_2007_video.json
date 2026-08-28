@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Madonna - 07.07.2007 - London - England - Wembley Stadium - Live Earth",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Madonna"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "07",
+    "year": "2007"
+  },
+  "startDateUnix": 1183766400,
+  "endDate": {
+    "day": "07",
+    "month": "07",
+    "year": "2007"
+  },
+  "endDateUnix": 1183766400,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Wembley Stadium",
+    "event": "Live Earth"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.14,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1575,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "1440x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "81058060.jpg",
+      "externalId": "16aXZN0YXI4kjp75lDU0jZwSjRHDdGqJL"
+    },
+    {
+      "folder": "26",
+      "filename": "81797853.jpg",
+      "externalId": "1CORBhljJL9LnGQO57-WfeyfR5tSiuH1v"
+    },
+    {
+      "folder": "26",
+      "filename": "21183972.jpg",
+      "externalId": "1S-nS_VXdZBGxG4l4Bd3VTnzCf7HQCb6O"
+    },
+    {
+      "folder": "26",
+      "filename": "97531888.jpg",
+      "externalId": "1dUrSpXaLU-NjrGj4vKVnHQeIis-qErX_"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Hey You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Ray Of Light",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "La Isla Bonita",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Hung Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Limp Bizkit - 12.06.2009 - Donington - England - Donington Park - Download Festival (Source 1)",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "06",
+    "year": "2009"
+  },
+  "startDateUnix": 1244764800,
+  "endDate": {
+    "day": "12",
+    "month": "06",
+    "year": "2009"
+  },
+  "endDateUnix": 1244764800,
+  "location": {
+    "city": "Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": "Download Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 236,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 226,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "59.94",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "00934372.jpg",
+      "externalId": "1RL3NPLIHzcGpYNOZqCRGbvOuG7MPaDVX"
+    },
+    {
+      "folder": "5",
+      "filename": "75760964.jpg",
+      "externalId": "1lLw5xNzkH36bWTzEctiVM7iZR6wVqqhb"
+    },
+    {
+      "folder": "5",
+      "filename": "37967687.jpg",
+      "externalId": "1bv_-PmRdt1KRp1PnxsPEwWAOnFTyLjUz"
+    },
+    {
+      "folder": "5",
+      "filename": "03268404.jpg",
+      "externalId": "1p2kmu04nfg2XPh7DRZq0o4OH-7BmwaCs"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Break Stuff",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,119 @@
+{
+  "originalTitle": "Slipknot - 26.01.2002 - Essen - Germany (Source 2) [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "01",
+    "year": "2002"
+  },
+  "startDateUnix": 1012003200,
+  "endDate": {
+    "day": "26",
+    "month": "01",
+    "year": "2002"
+  },
+  "endDateUnix": 1012003200,
+  "location": {
+    "city": "Essen",
+    "state": "",
+    "country": "Germany",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 290,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 254,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "slipknot_03_06_2000_source_3_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "72",
+      "filename": "68220425.jpg",
+      "externalId": "1WuUAxO3xyCdw__5DweEaaF1nMMMBXkU7"
+    },
+    {
+      "folder": "72",
+      "filename": "26972526.jpg",
+      "externalId": "1Tt2lj54yOzY4Pgj2GMfMsPUT56LjlkNb"
+    },
+    {
+      "folder": "72",
+      "filename": "55755153.jpg",
+      "externalId": "1IP4CwevcwjKBzejfiT5XbmnyGTtoRy75"
+    },
+    {
+      "folder": "72",
+      "filename": "29520637.jpg",
+      "externalId": "1ybI8UUPm0QL5qnAYDkYqfL1GEhU_H3aT"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

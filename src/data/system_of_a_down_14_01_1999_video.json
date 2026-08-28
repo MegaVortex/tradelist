@@ -1,0 +1,188 @@
+{
+  "originalTitle": "System Of A Down - 14.01.1999 - Houston - TX - USA - Numbers",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "System Of A Down"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "01",
+    "year": "1999"
+  },
+  "startDateUnix": 916272000,
+  "endDate": {
+    "day": "14",
+    "month": "01",
+    "year": "1999"
+  },
+  "endDateUnix": 916272000,
+  "location": {
+    "city": "Houston",
+    "state": "TX",
+    "country": "USA",
+    "venue": "Numbers",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Blown up and distorted audio.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.54,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2232,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "48983826.jpg",
+      "externalId": "1T4HOwbLyQgBqVM4Nn4nmutkOeR1YC0Bw"
+    },
+    {
+      "folder": "20",
+      "filename": "10205434.jpg",
+      "externalId": "18qudXtg2NB4A1ZVps0jFvw08XuwkDVzn"
+    },
+    {
+      "folder": "20",
+      "filename": "88293125.jpg",
+      "externalId": "1SKbV5O2-dW_wCiRPEunq2mj0y5bHrKlz"
+    },
+    {
+      "folder": "20",
+      "filename": "83157863.jpg",
+      "externalId": "1gwP3Rg2GxSLeAGphCiCpo83n-CpONMpO"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "DDevil",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Know",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "X",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Suggestions",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Suite-Pee",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Mind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Spiders",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Marmalade",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Sugar",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Peephole",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

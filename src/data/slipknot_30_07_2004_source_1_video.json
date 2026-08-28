@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Slipknot - 30.07.2004 - Los Angeles - CA - USA - ABC Studios - Jimmy Kimmel Show (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "07",
+    "year": "2004"
+  },
+  "startDateUnix": 1091145600,
+  "endDate": {
+    "day": "30",
+    "month": "07",
+    "year": "2004"
+  },
+  "endDateUnix": 1091145600,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "ABC Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jimmy Kimmel Show",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 379,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 516,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "3",
+      "filename": "8449024.jpg",
+      "externalId": "1-tcpG_4ILZlA-PH3bJoG5si-O6YliOLD"
+    },
+    {
+      "folder": "3",
+      "filename": "3282870.jpg",
+      "externalId": "1smnu9_V6bj0ODxoCwCjV8E-thNCXw-C3"
+    },
+    {
+      "folder": "3",
+      "filename": "3236841.jpg",
+      "externalId": "1DERhr80VJg-BAX4agMlxU45MMfc6Z3d4"
+    },
+    {
+      "folder": "3",
+      "filename": "6759781.jpg",
+      "externalId": "1rxWPivtBhxfcl5FdUp-i4bKOWYFwTNE1"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Duality",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Blister Exists",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

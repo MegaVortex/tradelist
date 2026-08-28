@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Unsane - 05.10.1994 - Tempe - AZ - USA - Boston's",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Unsane"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "10",
+    "year": "1994"
+  },
+  "startDateUnix": 781315200,
+  "endDate": {
+    "day": "05",
+    "month": "10",
+    "year": "1994"
+  },
+  "endDateUnix": 781315200,
+  "location": {
+    "city": "Tempe",
+    "state": "AZ",
+    "country": "USA",
+    "venue": "Boston's",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.18,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2738,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "40815366.jpg",
+      "externalId": "1aTDK0C59qxJwWemU1IZmXhdbeI2WjbJ6"
+    },
+    {
+      "folder": "69",
+      "filename": "20884287.jpg",
+      "externalId": "1cb1f4G7QW8LgW4Iu0vmQcepzb1G0yhgn"
+    },
+    {
+      "folder": "69",
+      "filename": "80830093.jpg",
+      "externalId": "1u3zWXATwOEhEn9ddntrP3Xo1DbsC6wgW"
+    },
+    {
+      "folder": "69",
+      "filename": "80595065.jpg",
+      "externalId": "1vRuvmM9HX73eGyE0HMt9V09Y8uA5o5F5"
+    }
+  ],
+  "setlist": []
+}

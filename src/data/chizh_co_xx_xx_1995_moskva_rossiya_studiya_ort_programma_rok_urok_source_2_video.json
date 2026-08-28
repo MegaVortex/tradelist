@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Чиж & Co. - xx.xx.1995 - Москва - Россия - Студия ОРТ - Программа 'Рок Урок' (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Чиж & Co."
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1995"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1995"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Москва",
+    "state": "",
+    "country": "Россия",
+    "venue": "Студия ОРТ",
+    "event": "Программа 'Рок Урок'"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 46.08,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 473,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "320x240",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "Xvid",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 22050,
+        "bitrateKbps": 64,
+        "channels": 1
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "VCD",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "42036933.jpg",
+      "externalId": "1rwqliN9DYS0h27HQI2Y1OkwAPhpfjqX5"
+    },
+    {
+      "folder": "19",
+      "filename": "59355253.jpg",
+      "externalId": "18qxl1xerABzodfWeZ0db6n5gzVq7wca5"
+    },
+    {
+      "folder": "19",
+      "filename": "49875818.jpg",
+      "externalId": "1dTZ9RWNF7U6dAiL6V5TNEKYWOiWRLqPK"
+    },
+    {
+      "folder": "19",
+      "filename": "94998995.jpg",
+      "externalId": "1j1prXORqV_TtH1-bG_SBaXpNNrDDSPMM"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "О.К.",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Она Не Вышла Замуж",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

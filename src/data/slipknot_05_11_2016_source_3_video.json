@@ -1,0 +1,118 @@
+{
+  "originalTitle": "Slipknot - 05.11.2016 - Chiba - Japan - Makuhari Messe - Knotfest (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "11",
+    "year": "2016"
+  },
+  "startDateUnix": 1478304000,
+  "endDate": {
+    "day": "05",
+    "month": "11",
+    "year": "2016"
+  },
+  "endDateUnix": 1478304000,
+  "location": {
+    "city": "Chiba",
+    "state": "",
+    "country": "Japan",
+    "venue": "Makuhari Messe",
+    "event": "Knotfest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.02,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1576,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "",
+        "bitrateKbps": 9800,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 224,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "MPG"
+    }
+  },
+  "relatedShows": [
+    "slipknot_06_11_2016_source_3_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "82",
+      "filename": "84068952.jpg",
+      "externalId": "1E9apH2Xlnnhny_GYC4jiVhHZqlJepVod"
+    },
+    {
+      "folder": "82",
+      "filename": "05212985.jpg",
+      "externalId": "1oFqM0TPU69BBnAcYwa4KYINpZeRvIHSP"
+    },
+    {
+      "folder": "82",
+      "filename": "41891989.jpg",
+      "externalId": "1IXa9OCzhIVwu_kQ8PWXIu8im0nyUSA6-"
+    },
+    {
+      "folder": "82",
+      "filename": "72710584.jpg",
+      "externalId": "1xaoyCEgVEZ2bqYIbIDWYQ0Pwuuj48Xh0"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Negative One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

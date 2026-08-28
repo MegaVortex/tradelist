@@ -1,0 +1,196 @@
+{
+  "originalTitle": "Ghost - 19.09.2013 - Rio De Janeiro - Brazil - Cidade Do Rock - Rock In Rio",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Ghost"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "09",
+    "year": "2013"
+  },
+  "startDateUnix": 1379548800,
+  "endDate": {
+    "day": "19",
+    "month": "09",
+    "year": "2013"
+  },
+  "endDateUnix": 1379548800,
+  "location": {
+    "city": "Rio De Janeiro",
+    "state": "",
+    "country": "Brazil",
+    "venue": "Cidade Do Rock",
+    "event": "Rock In Rio"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.37,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3313,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "69184389.jpg",
+      "externalId": "188jMF8kcFlbrroX-cq9csr9_BJHigJS7"
+    },
+    {
+      "folder": "73",
+      "filename": "66732772.jpg",
+      "externalId": "1AM0vilXV86CESvw8W0czGEIn4cOnVf9j"
+    },
+    {
+      "folder": "73",
+      "filename": "81829921.jpg",
+      "externalId": "1EDawOblkH0gQB-ncO6nJW30geBEDMdDv"
+    },
+    {
+      "folder": "73",
+      "filename": "03298581.jpg",
+      "externalId": "1NtYF6aHJHSgCRZOrHc0KXp3snqq8m6tv"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Infestissumam",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Per Aspera Ad Inferi",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Con Clavi Con Dio",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Prime Mover",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Secular Haze",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Stand By Him",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Genesis",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Year Zero",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Ritual",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Ghuleh/Zombie Queen",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Monstrance Clock",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,121 @@
+{
+  "originalTitle": "Motorhead - 06.05.1981 - Toronto - ON - Canada - Record Peddler [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Motorhead"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "05",
+    "year": "1981"
+  },
+  "startDateUnix": 357955200,
+  "endDate": {
+    "day": "06",
+    "month": "05",
+    "year": "1981"
+  },
+  "endDateUnix": 357955200,
+  "location": {
+    "city": "Toronto",
+    "state": "ON",
+    "country": "Canada",
+    "venue": "Record Peddler",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 371,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 328,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "motorhead_xx_xx_1981_ace_of_spades_promotional_video_misc",
+    "motorhead_26_05_1981_video_misc",
+    "motorhead_xx_11_1981_sweden_svt_studios_video_misc"
+  ],
+  "childOf": "motorhead_xx_xx_xxxx_misc_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "75",
+      "filename": "57399722.jpg",
+      "externalId": "1vGQoQ2kk7gGLcHWdmJSAxqDVSLXlr7ln"
+    },
+    {
+      "folder": "75",
+      "filename": "08440159.jpg",
+      "externalId": "1huFzIcQHk8jb4EmebVVcaCvhHAylJ-JL"
+    },
+    {
+      "folder": "75",
+      "filename": "22659898.jpg",
+      "externalId": "1VvaEZ0lzTog8QJU63RBQXi0_lPve8VLH"
+    },
+    {
+      "folder": "75",
+      "filename": "67448564.jpg",
+      "externalId": "1M1hGZG9QD2i_J3OX_mOLTtZCXhXk-T_p"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

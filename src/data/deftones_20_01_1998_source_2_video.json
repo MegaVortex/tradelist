@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Deftones - 20.01.1998 - London - England - Astoria - NME Awards (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Deftones"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "01",
+    "year": "1998"
+  },
+  "startDateUnix": 885254400,
+  "endDate": {
+    "day": "20",
+    "month": "01",
+    "year": "1998"
+  },
+  "endDateUnix": 885254400,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Astoria",
+    "event": "NME Awards"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 133,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 251,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "63",
+      "filename": "84774249.jpg",
+      "externalId": "1QHcWGI49XMiAv8aKZHF8UzkEHV_cnzT5"
+    },
+    {
+      "folder": "63",
+      "filename": "07425171.jpg",
+      "externalId": "1nT5r0n7l-daUsBJbX4XbGRTtsGPw7Y4H"
+    },
+    {
+      "folder": "63",
+      "filename": "23962690.jpg",
+      "externalId": "17EeRzT3Yr8uKmOH0vOr_MJuzDtJGabox"
+    },
+    {
+      "folder": "63",
+      "filename": "55458244.jpg",
+      "externalId": "1aZYn27ddLPUHz_xcsf5zntTMhphg5HbO"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "My Own Summer (Shove It)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

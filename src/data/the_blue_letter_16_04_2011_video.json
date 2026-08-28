@@ -1,0 +1,106 @@
+{
+  "originalTitle": "The Blue Letter - 16.04.2011 - Allston - MA - USA - Wacky Kastle",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Blue Letter"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "04",
+    "year": "2011"
+  },
+  "startDateUnix": 1302912000,
+  "endDate": {
+    "day": "16",
+    "month": "04",
+    "year": "2011"
+  },
+  "endDateUnix": 1302912000,
+  "location": {
+    "city": "Allston",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Wacky Kastle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "dyinghorse release.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.4,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2239,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "34",
+      "filename": "08352654.jpg",
+      "externalId": "1IYDuoOy9x_wzPeRtehNgXZCxrQsg457M"
+    },
+    {
+      "folder": "34",
+      "filename": "77825000.jpg",
+      "externalId": "1NUGvoQ1nlymygiaAsAKeLDIhquJwyyvM"
+    },
+    {
+      "folder": "34",
+      "filename": "44357585.jpg",
+      "externalId": "1k7qEpf_eok48dK_AW9uz3SyDUMkvUcCE"
+    },
+    {
+      "folder": "34",
+      "filename": "53817688.jpg",
+      "externalId": "1D4e2h0tMRX2wMg56Yw1OKTiwxbCMM-xi"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,126 @@
+{
+  "originalTitle": "Bon Jovi - 07.09.1995 - New York - NY - USA - Times Square - Video Music Awards (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "09",
+    "year": "1995"
+  },
+  "startDateUnix": 810432000,
+  "endDate": {
+    "day": "07",
+    "month": "09",
+    "year": "1995"
+  },
+  "endDateUnix": 810432000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Times Square",
+    "event": "Video Music Awards"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Taped from the TV screen.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 266,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 352,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "bon_jovi_07_09_1995_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "60863235.jpg",
+      "externalId": "1QuP7VA6kCsNh6peQrUAHntQn96ulVvUG"
+    },
+    {
+      "folder": "27",
+      "filename": "87855602.jpg",
+      "externalId": "1hOgwWu8by26bvjBGvyj22RyQYzVzo1eq"
+    },
+    {
+      "folder": "27",
+      "filename": "77312203.jpg",
+      "externalId": "1b3VPw6W7JVIPMO1-Yr-aMncHWhYEfSzz"
+    },
+    {
+      "folder": "27",
+      "filename": "16809090.jpg",
+      "externalId": "1mbJiiLzRwRC0MWcOSoQAswq_UDtwjzbP"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Helter Skelter",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Something For The Pain",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

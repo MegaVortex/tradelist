@@ -1,0 +1,171 @@
+{
+  "originalTitle": "Tom Waits - 05.12.1978 - Austin - TX - USA - Austin City Limits - 'Romeo Bleeding' (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Tom Waits"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "12",
+    "year": "1978"
+  },
+  "startDateUnix": 281664000,
+  "endDate": {
+    "day": "05",
+    "month": "12",
+    "year": "1978"
+  },
+  "endDateUnix": 281664000,
+  "location": {
+    "city": "Austin",
+    "state": "TX",
+    "country": "USA",
+    "venue": "Austin City Limits",
+    "event": "'Romeo Bleeding'"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.45,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3155,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      },
+      {
+        "language": "en",
+        "codec": "DTS",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 5
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "12",
+      "filename": "81451380.jpg",
+      "externalId": "1EUqR95lbmwQtycOA6BuURFX533rjS6UC"
+    },
+    {
+      "folder": "12",
+      "filename": "02575251.jpg",
+      "externalId": "15Fsl6oQgfvAhWbOHdUFXCjkr-QOIdTkl"
+    },
+    {
+      "folder": "12",
+      "filename": "63008048.jpg",
+      "externalId": "1K59kJ8mvOv1-7b1E-IhquxyxFIHSKSmH"
+    },
+    {
+      "folder": "12",
+      "filename": "64516865.jpg",
+      "externalId": "1WzO-4G24SA-nabRQYsPaDEyjnt5_Y1gE"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Summertime / Burma-Shave",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Annie's Back In Town / I Wish I Was In New Orleans / Ain't Gonna Rain",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "A Sweet Little Bullet From A Pretty Blue Gun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "On The Nickel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Romeo Is Bleeding",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Silent Night / Christmas Card From A Hooker In Minneapolis",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Small Change / Hey, Big Spender / Small Change (reprise)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

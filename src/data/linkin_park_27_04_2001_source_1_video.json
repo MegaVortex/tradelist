@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Linkin Park - 27.04.2001 - Miami - FL - USA - Bayfront Park Amphitheatre (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "04",
+    "year": "2001"
+  },
+  "startDateUnix": 988329600,
+  "endDate": {
+    "day": "27",
+    "month": "04",
+    "year": "2001"
+  },
+  "endDateUnix": 988329600,
+  "location": {
+    "city": "Miami",
+    "state": "FL",
+    "country": "USA",
+    "venue": "Bayfront Park Amphitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Low Gen. Zeta's Bonzai Show.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 819,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1472,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "29124810.jpg",
+      "externalId": "1JH29DEwLdAR2mzi96rOq4B-Is3JnklJY"
+    },
+    {
+      "folder": "29",
+      "filename": "23621059.jpg",
+      "externalId": "1XIYKQVPvShVounHbAdY6IUFBIiWDuLVT"
+    },
+    {
+      "folder": "29",
+      "filename": "96869353.jpg",
+      "externalId": "1J1WW_a0zacc9QFrHsWWYPFckirwXbfvC"
+    },
+    {
+      "folder": "29",
+      "filename": "54308754.jpg",
+      "externalId": "18Aes-CHPySqAAclBhgbcIC5JVJJBfHz4"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "With You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Runaway",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Papercut",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "By Myself",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Points Of Authority",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Crawling",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "One Step Closer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

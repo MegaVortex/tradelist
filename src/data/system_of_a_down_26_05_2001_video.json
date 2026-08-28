@@ -1,0 +1,210 @@
+{
+  "originalTitle": "System Of A Down - 26.05.2001 - Foxborough - MA - USA - Foxboro Stadium - WBCN River Rave",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "System Of A Down"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "05",
+    "year": "2001"
+  },
+  "startDateUnix": 990835200,
+  "endDate": {
+    "day": "26",
+    "month": "05",
+    "year": "2001"
+  },
+  "endDateUnix": 990835200,
+  "location": {
+    "city": "Foxborough",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Foxboro Stadium",
+    "event": "WBCN River Rave"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.87,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1662,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "55",
+      "filename": "69299046.jpg",
+      "externalId": "1eJ6-E62iHg-GWgp0TKIxwEnmcmxl4UoU"
+    },
+    {
+      "folder": "55",
+      "filename": "78275419.jpg",
+      "externalId": "1vrhHCPNfKfvtP7Ok0GdKmHyrZ5G88Oox"
+    },
+    {
+      "folder": "55",
+      "filename": "67119155.jpg",
+      "externalId": "1OnbXNPrPlncySGYliCJSoY4DWBk_eXER"
+    },
+    {
+      "folder": "55",
+      "filename": "57327306.jpg",
+      "externalId": "1eZ_T6EBzWlJ8YqdgJtqXZ8R_WtkRNxKc"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Sugar",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Know",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Deer Dance",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Suggestions",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Psycho",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Soil",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Coming Home",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Scorpions"
+    },
+    {
+      "order": 8,
+      "song": "Toxicity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "War?",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Bounce",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Suite-Pee",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

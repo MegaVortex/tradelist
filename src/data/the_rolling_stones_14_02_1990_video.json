@@ -1,0 +1,124 @@
+{
+  "originalTitle": "The Rolling Stones - 14.02.1990 - New York - NY - USA - NBC - Today Show",
+  "created": 1756934569,
+  "lastUpdated": 1756934569,
+  "bands": [
+    "The Rolling Stones"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "02",
+    "year": "1990"
+  },
+  "startDateUnix": 634953600,
+  "endDate": {
+    "day": "14",
+    "month": "02",
+    "year": "1990"
+  },
+  "endDateUnix": 634953600,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Today Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.2,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1088,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "33957877.jpg",
+      "externalId": "1JxoOhiTSvTbrbKenfAeMKP0hLmamZHdO"
+    },
+    {
+      "folder": "6",
+      "filename": "60232681.jpg",
+      "externalId": "1l2RUPpvxAyHlN3Ivar-PojxxhYYjHA_R"
+    },
+    {
+      "folder": "6",
+      "filename": "75685648.jpg",
+      "externalId": "1WYYzs9wDhhqTN8y6alTI6EWGKUGm2hie"
+    },
+    {
+      "folder": "6",
+      "filename": "45917355.jpg",
+      "externalId": "1PjIh-lMX2OGR6xnw5U8AEo-R79zLD11X"
+    }
+  ],
+  "setlist": [
+      {
+          "order": 1,
+          "song": "Interview",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      },
+      {
+          "order": 2,
+          "song": "Live Footage",
+          "feat": "",
+          "note": "",
+          "comment": "",
+          "coverOf": ""
+      }
+  ],
+  "extras": []
+}

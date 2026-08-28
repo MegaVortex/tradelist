@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Down - 23.06.2013 - Clisson - France - Val De Moine - Hellfest",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Down"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "06",
+    "year": "2013"
+  },
+  "startDateUnix": 1371945600,
+  "endDate": {
+    "day": "23",
+    "month": "06",
+    "year": "2013"
+  },
+  "endDateUnix": 1371945600,
+  "location": {
+    "city": "Clisson",
+    "state": "",
+    "country": "France",
+    "venue": "Val De Moine",
+    "event": "Hellfest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.97,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2855,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "67",
+      "filename": "46919827.jpg",
+      "externalId": "1grya8oGvNn_xBDEHvlUhqJYIhSwmt1Yk"
+    },
+    {
+      "folder": "67",
+      "filename": "01454867.jpg",
+      "externalId": "1EU9sRcedRGLnbqR-b6TmFxJoohP-5D53"
+    },
+    {
+      "folder": "67",
+      "filename": "95761441.jpg",
+      "externalId": "1lwNV8bqPkIn81IcyjBo_7eUgRDUcexwn"
+    },
+    {
+      "folder": "67",
+      "filename": "93157081.jpg",
+      "externalId": "1Bdb8zFKOtfnmx1fthPUN8rl3CsKDfDQJ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Rehab",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Swan Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Sisterfucker (Part I) (Eyehategod cover)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Blank",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Eyehategod"
+    },
+    {
+      "order": 5,
+      "song": "High Rate Extinction",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Crowbar"
+    },
+    {
+      "order": 6,
+      "song": "Conquering",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Crowbar"
+    },
+    {
+      "order": 7,
+      "song": "Clean My Wounds  (with Jason Newsted)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Corrosion Of Conformity"
+    },
+    {
+      "order": 8,
+      "song": "Albatross",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Corrosion Of Conformity"
+    },
+    {
+      "order": 9,
+      "song": "Bridge Of Sighs",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Robin Trower"
+    },
+    {
+      "order": 10,
+      "song": "Walk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Pantera"
+    }
+  ],
+  "extras": []
+}

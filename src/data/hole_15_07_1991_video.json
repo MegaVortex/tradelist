@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Hole - 15.07.1991 - New York - NY - USA - CBGB's",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Hole"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "07",
+    "year": "1991"
+  },
+  "startDateUnix": 679536000,
+  "endDate": {
+    "day": "15",
+    "month": "07",
+    "year": "1991"
+  },
+  "endDateUnix": 679536000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "CBGB's",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.68,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1509,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "30",
+      "filename": "96074450.jpg",
+      "externalId": "1bXNQDUO-iFt40asvCkHSf64JEHfGPz3p"
+    },
+    {
+      "folder": "30",
+      "filename": "61415540.jpg",
+      "externalId": "1MfGW0h0GQUJVfDYfSP3LX1fhyChr3cRy"
+    },
+    {
+      "folder": "30",
+      "filename": "48621526.jpg",
+      "externalId": "1bM8WlSeMfATpc0Mtfn-wMIWPAQPOcDOk"
+    },
+    {
+      "folder": "30",
+      "filename": "91989845.jpg",
+      "externalId": "1Na_FAvy-vwVRZAmypEm9QbKi60qZO7ng"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Pretty On The Inside",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Garbadge Man",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Berry",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Mrs. Jones",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Teenage Whore",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Babydoll",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Dicknail",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

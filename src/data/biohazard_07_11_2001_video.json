@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Biohazard - 07.11.2001 - Montreal - QC - Canada",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Biohazard"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "11",
+    "year": "2001"
+  },
+  "startDateUnix": 1005091200,
+  "endDate": {
+    "day": "07",
+    "month": "11",
+    "year": "2001"
+  },
+  "endDateUnix": 1005091200,
+  "location": {
+    "city": "Montreal",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.36,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4068,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "92463806.jpg",
+      "externalId": "1f6ZftEsZfHAXJ_QEmisQSP3us9PVqoJT"
+    },
+    {
+      "folder": "6",
+      "filename": "89000720.jpg",
+      "externalId": "1a5KIaj2M3leIA6RwT2BnB3G2nV35Ym3r"
+    },
+    {
+      "folder": "6",
+      "filename": "36622126.jpg",
+      "externalId": "1jA8vKidZ_emU2NQ8GeABjTwbJSHnnPos"
+    },
+    {
+      "folder": "6",
+      "filename": "98701240.jpg",
+      "externalId": "1Phs_dG2HI3wlxB4eTtOo9fwg8KzR7kIS"
+    }
+  ],
+  "setlist": []
+}

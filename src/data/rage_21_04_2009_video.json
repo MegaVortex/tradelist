@@ -1,0 +1,109 @@
+{
+  "originalTitle": "Rage - 21.04.2009 - Moscow - Russia - B1 Maximum",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Rage"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "04",
+    "year": "2009"
+  },
+  "startDateUnix": 1240272000,
+  "endDate": {
+    "day": "21",
+    "month": "04",
+    "year": "2009"
+  },
+  "endDateUnix": 1240272000,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "B1 Maximum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "RT",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Taper got caught right after 1st minute.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 113,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 98,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "4",
+      "filename": "60650127.jpg",
+      "externalId": "1liBSCZXHmXAUbHLPBJvsfcAnadxi5n8Q"
+    },
+    {
+      "folder": "4",
+      "filename": "89189814.jpg",
+      "externalId": "1Dfj1dOMQx81AyI2vNsxjJ3SGSOdwNvZ6"
+    },
+    {
+      "folder": "4",
+      "filename": "71284185.jpg",
+      "externalId": "1yzsNXZY9uG54nFFWe6u7DQXMAqVwIKz-"
+    },
+    {
+      "folder": "4",
+      "filename": "83191257.jpg",
+      "externalId": "1Oj73ZCeGTU7Eu7EzR_bGDzZMVeBKQUr1"
+    }
+  ],
+  "setlist": [],
+  "fileSlug": "rage_21_04_2009_video",
+  "isRegular": true,
+  "permalink": "/shows/rage_21_04_2009_video/"
+}

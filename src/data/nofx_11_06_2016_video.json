@@ -1,0 +1,138 @@
+{
+  "originalTitle": "NOFX - 11.06.2016 - Castle Donington - England - Donington Park - Download Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "NOFX"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "06",
+    "year": "2016"
+  },
+  "startDateUnix": 1465603200,
+  "endDate": {
+    "day": "11",
+    "month": "06",
+    "year": "2016"
+  },
+  "endDateUnix": 1465603200,
+  "location": {
+    "city": "Castle Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": "Download Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 24.2,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 16514,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 479,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [
+    "rammstein_10_06_2016_video",
+    "korn_10_06_2016_video",
+    "deftones_11_06_2016_video",
+    "skillet_10_06_2016_video",
+    "alien_ant_farm_10_06_2016_video",
+    "killswitch_engage_10_06_2016_video",
+    "rival_sons_11_06_2016_video",
+    "iron_maiden_12_06_2016_video",
+    "skindred_11_06_2016_video",
+    "billy_talent_12_06_2016_video",
+    "disturbed_12_06_2016_video",
+    "nightwish_12_06_2016_video",
+    "halestorm_12_06_2016_video"
+  ],
+  "childOf": "various_artists_10_06_2016_12_06_2016_video_compilation",
+  "images": [
+    {
+      "folder": "67",
+      "filename": "13137947.jpg",
+      "externalId": "18xik3Dl34QcIYLW33f47oIFAHG0qbb32"
+    },
+    {
+      "folder": "67",
+      "filename": "64679691.jpg",
+      "externalId": "1MwHCEq-RbGuDGW-y41A-A72oT_qjgfL7"
+    },
+    {
+      "folder": "67",
+      "filename": "05854712.jpg",
+      "externalId": "1buMJJC9oTjzNnodHUgR-sIPixqdDhTxV"
+    },
+    {
+      "folder": "67",
+      "filename": "74826597.jpg",
+      "externalId": "1cl_g-UfdVLjUMbIQ0nUv9VF2NeT2tBOM"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Linoleum",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Eat The Meek",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

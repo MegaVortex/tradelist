@@ -1,0 +1,121 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - [01.08.2012 -- 05.08.2012] - Krasnodar - Russia - Posyolok Yantar - Kubana Festival",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Sum 41",
+    "Дельфин",
+    "Enter Shikari",
+    "Pendulum",
+    "Korn",
+    "Ленинград",
+    "The Offspring"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "08",
+    "year": "2012"
+  },
+  "startDateUnix": 1343779200,
+  "endDate": {
+    "day": "05",
+    "month": "08",
+    "year": "2012"
+  },
+  "endDateUnix": 1344124800,
+  "location": {
+    "city": "Krasnodar",
+    "state": "",
+    "country": "Russia",
+    "venue": "Posyolok Yantar",
+    "event": "Kubana Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.27,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 9473,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1024x576",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "78",
+      "filename": "96967419.jpg",
+      "externalId": "1-aa57Iz_wgRGSextniB4FvQM4RmazbCe"
+    },
+    {
+      "folder": "78",
+      "filename": "82756086.jpg",
+      "externalId": "1LPjpKy77DnlTYNsvB4Nn7anu9np-4_nF"
+    },
+    {
+      "folder": "78",
+      "filename": "96239748.jpg",
+      "externalId": "18DRwxSGaFHmxSxFLxULSlDZ-zxNFHS9w"
+    },
+    {
+      "folder": "78",
+      "filename": "29342287.jpg",
+      "externalId": "14axABmuB-sYMKNE8OshTMezBP1qshit8"
+    }
+  ],
+  "parentOf": [
+    "sum_41_02_08_2012_video",
+    "del_fin_04_08_2012_source_2_video",
+    "enter_shikari_03_08_2012_source_2_video",
+    "pendulum_02_08_2012_video",
+    "korn_03_08_2012_video",
+    "leningrad_05_08_2012_video",
+    "the_offspring_05_08_2012_source_2_video"
+  ]
+}

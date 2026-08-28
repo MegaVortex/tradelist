@@ -1,0 +1,158 @@
+{
+  "originalTitle": "Iron Maiden - 20.05.1988 - Toronto - ON - Canada - CNE Grandstand",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Iron Maiden"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "05",
+    "year": "1988"
+  },
+  "startDateUnix": 580089600,
+  "endDate": {
+    "day": "20",
+    "month": "05",
+    "year": "1988"
+  },
+  "endDateUnix": 580089600,
+  "location": {
+    "city": "Toronto",
+    "state": "ON",
+    "country": "Canada",
+    "venue": "CNE Grandstand",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Upgrade. Hambone Production.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.35,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4199,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "iron_maiden_17_05_1988_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "72",
+      "filename": "11203985.jpg",
+      "externalId": "1zjb9prM0QWEtSOEprPgLAJLjyKHyGB62"
+    },
+    {
+      "folder": "72",
+      "filename": "99932641.jpg",
+      "externalId": "1gdfPYGOQyPFMSGw5Z9oFc7ZmOdl_I0iA"
+    },
+    {
+      "folder": "72",
+      "filename": "56516966.jpg",
+      "externalId": "1tO4CBVWofvPGfW2gNgv5vzwlVniX6H4J"
+    },
+    {
+      "folder": "72",
+      "filename": "35635859.jpg",
+      "externalId": "113DI8r1W0k4nT46B45EP9hZBp-0JnsyF"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Infinite Dreams",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Can I Play With Madness",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Seventh Son Of A Seventh Son",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Run To The Hills",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "2 Minutes To Midnight",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Running Free",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

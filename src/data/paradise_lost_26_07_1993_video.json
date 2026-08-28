@@ -1,0 +1,158 @@
+{
+  "originalTitle": "Paradise Lost - 26.07.1993 - Tampa - FL - USA - Ritz Theatre",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Paradise Lost"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "07",
+    "year": "1993"
+  },
+  "startDateUnix": 743644800,
+  "endDate": {
+    "day": "26",
+    "month": "07",
+    "year": "1993"
+  },
+  "endDateUnix": 743644800,
+  "location": {
+    "city": "Tampa",
+    "state": "FL",
+    "country": "USA",
+    "venue": "Ritz Theatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.98,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2562,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "paradise_lost_05_07_1991_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "76",
+      "filename": "38751075.jpg",
+      "externalId": "1-5IXk1A9v9kIbXsVqHzdEnXijdm84FG2"
+    },
+    {
+      "folder": "76",
+      "filename": "93739349.jpg",
+      "externalId": "131tslLFHOvusw3IB3cQ4bpLE2srkkTtJ"
+    },
+    {
+      "folder": "76",
+      "filename": "65979729.jpg",
+      "externalId": "1mewtCy5q6jvaJz5grMHe3Y-NLnvJywSn"
+    },
+    {
+      "folder": "76",
+      "filename": "98642201.jpg",
+      "externalId": "1zxptbcNPTjrZsK5m_hzqP7z5LyLDaRRG"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Gothic",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Word Made Flesh",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Mortals Watch The Day",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Forging Sympathy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "As I Die",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Eternal",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

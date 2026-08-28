@@ -1,0 +1,126 @@
+{
+  "originalTitle": "Slipknot - xx.04.2000 - Toronto - ON - Canada - Much Music Loud [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "04",
+    "year": "2000"
+  },
+  "endDate": {
+    "day": "07",
+    "month": "04",
+    "year": "2000"
+  },
+  "startDateUnix": 955065600,
+  "endDateUnix": 955065600,
+  "location": {
+    "city": "Toronto",
+    "state": "ON",
+    "country": "Canada",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "Much Music",
+  "showName": "Much Music Loud",
+  "source": "Source 1",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.67,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3596,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "82",
+      "filename": "35681761.jpg",
+      "externalId": "1pnowYc3_S5VrKVfdLiLpteEEup6D1I0h"
+    },
+    {
+      "folder": "82",
+      "filename": "45601517.jpg",
+      "externalId": "1lDJn5a-fnmehluq6o82HKJDdxSAVpO50"
+    },
+    {
+      "folder": "82",
+      "filename": "66737785.jpg",
+      "externalId": "14Xwr54DTqnx--bCVVFdhbqzw-MuBomET"
+    },
+    {
+      "folder": "82",
+      "filename": "02793410.jpg",
+      "externalId": "1yy46wQJCDP0GtNlNrhbyUr4v3m8IzEVW"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Joey and Clown",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Music Videos",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

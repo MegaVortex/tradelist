@@ -1,0 +1,82 @@
+{
+  "originalTitle": "Slayer - 27.09.2013 - Buenos Aires - Argentina - Estadio River Plate (Source 2) [AUDIO]",
+  "created": 1754979729,
+  "lastUpdated": 1754979729,
+  "bands": [
+    "Slayer"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "09",
+    "year": "2013"
+  },
+  "startDateUnix": 1380240000,
+  "endDate": {
+    "day": "27",
+    "month": "09",
+    "year": "2013"
+  },
+  "endDateUnix": 1380240000,
+  "location": {
+    "city": "Buenos Aires",
+    "state": "",
+    "country": "Argentina",
+    "venue": "Estadio River Plate",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "audio"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Sony PCM-M10 (internal mics) > 4GB internal memory > Wav [44kHz-16bit] > USB cable > PC > original wav = 581 MB (609.628.160 bytes) > Audacity (Leveler) > wav splitter = Sound Forge Audio Studio 9.0 > Trader's Little Helper > FLAC 8.",
+  "tapers": [
+    "Thrash"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 317,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3388,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "FLAC",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": []
+}

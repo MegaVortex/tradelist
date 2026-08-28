@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Slipknot - 13.08.2005 - Tokyo - Japan - Chiba Marine Stadium - Summer Sonic Festival (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "08",
+    "year": "2005"
+  },
+  "startDateUnix": 1123891200,
+  "endDate": {
+    "day": "13",
+    "month": "08",
+    "year": "2005"
+  },
+  "endDateUnix": 1123891200,
+  "location": {
+    "city": "Tokyo",
+    "state": "",
+    "country": "Japan",
+    "venue": "Chiba Marine Stadium",
+    "event": "Summer Sonic Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 502,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 564,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "84095546.jpg",
+      "externalId": "1yUJJfB0b-3mtMdGOx3rr5-eqAtDY9GP2"
+    },
+    {
+      "folder": "24",
+      "filename": "34811093.jpg",
+      "externalId": "18ojh-y7PGpCTaMAKytlCXR43wSfoxieI"
+    },
+    {
+      "folder": "24",
+      "filename": "22644024.jpg",
+      "externalId": "1JwzP9JY7KeNWbnQ4CtzM_jbATpCn-fK_"
+    },
+    {
+      "folder": "24",
+      "filename": "90243177.jpg",
+      "externalId": "1yOVpwZbu1fvKf6_jlPhFMOSejU-3p25V"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Blister Exists",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Duality",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

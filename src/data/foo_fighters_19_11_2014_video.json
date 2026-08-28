@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Foo Fighters - 19.11.2014 - Burbank - CA - USA - Warner Bros. Studios - Ellen Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "11",
+    "year": "2014"
+  },
+  "startDateUnix": 1416355200,
+  "endDate": {
+    "day": "19",
+    "month": "11",
+    "year": "2014"
+  },
+  "endDateUnix": 1416355200,
+  "location": {
+    "city": "Burbank",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Warner Bros. Studios",
+    "event": "Ellen Show"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.2,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 743,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "67",
+      "filename": "39778899.jpg",
+      "externalId": "1y-1YBCaVUUIV-ABiJZsSJkGd-SF-XNpF"
+    },
+    {
+      "folder": "67",
+      "filename": "54043046.jpg",
+      "externalId": "1wumgr_X9X8xSKLu1e8WG5UYLt4jlpnmw"
+    },
+    {
+      "folder": "67",
+      "filename": "30860339.jpg",
+      "externalId": "1jvisWo-VObqYV0ozvd9MT2fQVGCoB9ak"
+    },
+    {
+      "folder": "67",
+      "filename": "70551457.jpg",
+      "externalId": "17A7C6lNX0wAZ8j8Kx85daUTf72L8C5E_"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Dave Grohl",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "In The Clear",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

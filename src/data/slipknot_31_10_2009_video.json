@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Slipknot - 31.10.2009 - Las Vegas - NV - USA - The Pearl - The Palms Casino",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "10",
+    "year": "2009"
+  },
+  "startDateUnix": 1256947200,
+  "endDate": {
+    "day": "31",
+    "month": "10",
+    "year": "2009"
+  },
+  "endDateUnix": 1256947200,
+  "location": {
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "venue": "The Pearl",
+    "event": "The Palms Casino"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Close to the stage.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.14,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1685,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "ru",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "48628274.jpg",
+      "externalId": "1-L5-WmqCYITYfohdlWHDmPSn5Foe4oKs"
+    },
+    {
+      "folder": "15",
+      "filename": "62109939.jpg",
+      "externalId": "1y5Qr0hxGM1g7FIHA6uJkg6mbYbLM6hdJ"
+    },
+    {
+      "folder": "15",
+      "filename": "71296058.jpg",
+      "externalId": "1RjJFJmDzSPkxw4dago33oVc2xBMlef2G"
+    },
+    {
+      "folder": "15",
+      "filename": "95070009.jpg",
+      "externalId": "1f0yAGYJOxha-g8cOPlRqQB18IA-mCdIm"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Duality",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "People = Shit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Snuff",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Surfacing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Spit It Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

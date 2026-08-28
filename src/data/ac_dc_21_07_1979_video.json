@@ -1,0 +1,172 @@
+{
+  "originalTitle": "AC-DC - 21.07.1979 - Oakland - CA - USA - Oakland Coliseum",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "AC/DC"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "07",
+    "year": "1979"
+  },
+  "startDateUnix": 301363200,
+  "endDate": {
+    "day": "21",
+    "month": "07",
+    "year": "1979"
+  },
+  "endDateUnix": 301363200,
+  "location": {
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Oakland Coliseum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.42,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3071,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "42",
+      "filename": "02474243.jpg",
+      "externalId": "1OuuRtiXiz3Lt_vKGsL9OFY4hQXhKjJ2r"
+    },
+    {
+      "folder": "42",
+      "filename": "98344210.jpg",
+      "externalId": "16quZRXAmUI5tQq-wWMiMXcR5CuTjonQT"
+    },
+    {
+      "folder": "42",
+      "filename": "08232897.jpg",
+      "externalId": "16UejFG_fgwITnXej3C0guabU6yEal8iP"
+    },
+    {
+      "folder": "42",
+      "filename": "94760569.jpg",
+      "externalId": "180t0lQaBzy1cHCzQ3-ZgofqfF3PLy274"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Live Wire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Problem Child",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Sin City",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Highway To Hell",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Bad Boy Boogie",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Jack",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Rocker",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Dog Eat Dog",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

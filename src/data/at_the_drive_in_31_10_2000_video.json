@@ -1,0 +1,118 @@
+{
+  "originalTitle": "At The Drive-In - 31.10.2000 - New York - NY - USA - TV Studio - Conan O'Brien Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "At The Drive-In"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "10",
+    "year": "2000"
+  },
+  "startDateUnix": 972950400,
+  "endDate": {
+    "day": "31",
+    "month": "10",
+    "year": "2000"
+  },
+  "endDateUnix": 972950400,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "TV Studio",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Conan O'Brien Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Low picture quality.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 215,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 234,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "at_the_drive_in_09_03_1999_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "7",
+      "filename": "36564414.jpg",
+      "externalId": "1GigQIzHZtdwj_P1eqjk2fDsJwTX7LSkq"
+    },
+    {
+      "folder": "7",
+      "filename": "05230476.jpg",
+      "externalId": "1B82_oTzy5W9MOPmRnsGoiW84Bw9QyeTh"
+    },
+    {
+      "folder": "7",
+      "filename": "74875252.jpg",
+      "externalId": "1Mh2T39KBrnqDrD9cwbWEIgKGiZ-cKNWX"
+    },
+    {
+      "folder": "7",
+      "filename": "81991611.jpg",
+      "externalId": "1Bj8w4z2RHhItTe40YKyTLKnxlj8ev3Af"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "One Armed Scissor",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

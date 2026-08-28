@@ -1,0 +1,212 @@
+{
+  "originalTitle": "Guano Apes - 24.07.2009 - Degen - Switzerland - Open Air Lumnezia",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Guano Apes"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "07",
+    "year": "2009"
+  },
+  "startDateUnix": 1248393600,
+  "endDate": {
+    "day": "24",
+    "month": "07",
+    "year": "2009"
+  },
+  "endDateUnix": 1248393600,
+  "location": {
+    "city": "Degen",
+    "state": "",
+    "country": "Switzerland",
+    "venue": "Open Air Lumnezia",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "SF2 broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.11,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3190,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 3
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "45",
+      "filename": "06261959.jpg",
+      "externalId": "1FrXiOa86YLXAZjIkqhdYTw9tQ-N3yufx"
+    },
+    {
+      "folder": "45",
+      "filename": "61201207.jpg",
+      "externalId": "10w9zDsXrIISaeDoOSeLzELtpsrRNy3N9"
+    },
+    {
+      "folder": "45",
+      "filename": "67784410.jpg",
+      "externalId": "1oKKGqNbRAq5RCyog7I5_deA3hvCVZ8NW"
+    },
+    {
+      "folder": "45",
+      "filename": "48884348.jpg",
+      "externalId": "1K54oOBVV_F-B_2qVl9yiq6LhFA5PqGwb"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Money & Milk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Pretty In Scarlet",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Never Born",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Hives Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Dick",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Scratch The Pitch",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Underwear",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Break The Line",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Sorry",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Sing That Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Big In Japan",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Alphaville"
+    },
+    {
+      "order": 12,
+      "song": "All I Wanna Do",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Lords Of The Boards",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

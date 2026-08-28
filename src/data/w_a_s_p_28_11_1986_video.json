@@ -1,0 +1,174 @@
+{
+  "originalTitle": "W.A.S.P. - 28.11.1986 - Brussels - Belgium - Forest National",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "W.A.S.P."
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "11",
+    "year": "1986"
+  },
+  "startDateUnix": 533520000,
+  "endDate": {
+    "day": "28",
+    "month": "11",
+    "year": "1986"
+  },
+  "endDateUnix": 533520000,
+  "location": {
+    "city": "Brussels",
+    "state": "",
+    "country": "Belgium",
+    "venue": "Forest National",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.17,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1949,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "w_a_s_p_27_10_1986_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "97362640.jpg",
+      "externalId": "1n2bQR-nPgGHPmtbd_Kh2riu1aJcFRFWi"
+    },
+    {
+      "folder": "29",
+      "filename": "17406522.jpg",
+      "externalId": "1YUGknQ4ocy_UE1hVtmZw7LlsjsoPm_us"
+    },
+    {
+      "folder": "29",
+      "filename": "32031302.jpg",
+      "externalId": "1f-0DawZI4dWWKaDc3Wb3QX5ZfDxfgmwh"
+    },
+    {
+      "folder": "29",
+      "filename": "77161244.jpg",
+      "externalId": "1O5HQ6n3PxwLxGj0-2XwyRPw-2G4AkFSq"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Inside The Electric Circus",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "I Don't Need No Doctor",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "9.5.-N.A.S.T.Y.",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Animal",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Wild Child",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Sex Drive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "I Wanna Be Somebody",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Blind In Texas",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

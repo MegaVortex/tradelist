@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Bon Jovi - 07.07.2007 - East Rutherford - NJ - USA - Giants Stadium - Live Earth",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "07",
+    "year": "2007"
+  },
+  "startDateUnix": 1183766400,
+  "endDate": {
+    "day": "07",
+    "month": "07",
+    "year": "2007"
+  },
+  "endDateUnix": 1183766400,
+  "location": {
+    "city": "East Rutherford",
+    "state": "NJ",
+    "country": "USA",
+    "venue": "Giants Stadium",
+    "event": "Live Earth"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.78,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 895,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "1440x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "74505055.jpg",
+      "externalId": "18mZzFYHxhuDXqWT_8uS7Es2jmb0p_bq-"
+    },
+    {
+      "folder": "26",
+      "filename": "12030628.jpg",
+      "externalId": "101zHLUBqUqwe9kd4IqMQ81AjdvTVsB9o"
+    },
+    {
+      "folder": "26",
+      "filename": "28975778.jpg",
+      "externalId": "1mGYJM52M4ZvPn0Lwl5zztl1LKFcKS3Re"
+    },
+    {
+      "folder": "26",
+      "filename": "46337690.jpg",
+      "externalId": "1kVgVygMPU5ehZsEUg_aqCknSdWb0AYJn"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "It's My Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wanted Dead Or Alive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Livin On A Prayer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,122 @@
+{
+  "originalTitle": "Elton John - 31.03.2000 - New York - NY - USA - ABC Studios - Barbara Walters Show [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Elton John"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "03",
+    "year": "2000"
+  },
+  "startDateUnix": 954460800,
+  "endDate": {
+    "day": "31",
+    "month": "03",
+    "year": "2000"
+  },
+  "endDateUnix": 954460800,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "ABC Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Barbara Walters Show",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 5.84,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5132,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "elton_john_21_03_1994_video_misc",
+    "elton_john_07_11_1977_video_misc",
+    "elton_john_20_02_2004_video",
+    "elton_john_12_03_2004_video_misc"
+  ],
+  "childOf": "elton_john_xx_xx_xxxx_misc_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "04004388.jpg",
+      "externalId": "1hwmnbJ5ISW9FnY-nq1hkm_6uvyC75lzh"
+    },
+    {
+      "folder": "73",
+      "filename": "93241754.jpg",
+      "externalId": "1osP3i3gOuj0gnOiVhZX2kee9t4SNKTXY"
+    },
+    {
+      "folder": "73",
+      "filename": "25506439.jpg",
+      "externalId": "1hwUYg_qFdZGOK4DRD_SLsArU1nCil_-U"
+    },
+    {
+      "folder": "73",
+      "filename": "02390301.jpg",
+      "externalId": "1uZSAIDUd6BY9Vgi83hjVZYqh693supW6"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

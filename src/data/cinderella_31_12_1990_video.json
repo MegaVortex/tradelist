@@ -1,0 +1,119 @@
+{
+  "originalTitle": "Cinderella - 31.12.1990 - Tokyo - Japan - Dome",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Cinderella"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "12",
+    "year": "1990"
+  },
+  "startDateUnix": 662601600,
+  "endDate": {
+    "day": "31",
+    "month": "12",
+    "year": "1990"
+  },
+  "endDateUnix": 662601600,
+  "location": {
+    "city": "Tokyo",
+    "state": "",
+    "country": "Japan",
+    "venue": "Dome",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.44,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3080,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "bon_jovi_31_12_1990_video",
+    "skid_row_31_12_1990_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "11359245.jpg",
+      "externalId": "1Gbo5qCIiXGRWyovT4CYxMKeBKyrn3RVu"
+    },
+    {
+      "folder": "15",
+      "filename": "80277844.jpg",
+      "externalId": "1u9hcu1pt-up3VKIo3l3A2bz7Xg_ZHIyT"
+    },
+    {
+      "folder": "15",
+      "filename": "69539862.jpg",
+      "externalId": "16LG-mfjD-VEkrrNCp2tIXuZ24mEsnsNi"
+    },
+    {
+      "folder": "15",
+      "filename": "25812952.jpg",
+      "externalId": "1O1jHaIzF8K_5SDti3Gx8YLmRftaM1WmM"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Shelter Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

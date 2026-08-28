@@ -1,0 +1,174 @@
+{
+  "originalTitle": "Russian Circles - 15.04.2012 - Moscow - Russia - Gogol",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Russian Circles"
+  ],
+  "startDate": {
+    "day": "15",
+    "month": "04",
+    "year": "2012"
+  },
+  "startDateUnix": 1334448000,
+  "endDate": {
+    "day": "15",
+    "month": "04",
+    "year": "2012"
+  },
+  "endDateUnix": 1334448000,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Gogol",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": true,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "I came late that's why the first song wasn't recorded. Recording is not great at all.",
+  "tapers": [
+    "Vortex"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 7.03,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3665,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "35",
+      "filename": "02010679.jpg",
+      "externalId": "1tcow4iWcgeEQ18rSPtB-o3DFG5qfAZ53"
+    },
+    {
+      "folder": "35",
+      "filename": "44056619.jpg",
+      "externalId": "1wYQT3fAd9S7kVSlNqQCZfNhSgUNSxBy2"
+    },
+    {
+      "folder": "35",
+      "filename": "93074738.jpg",
+      "externalId": "115NZFUAPJiPWgfEjYOlhyySI6VBQq7gM"
+    },
+    {
+      "folder": "35",
+      "filename": "29225555.jpg",
+      "externalId": "1h2AIxGWvXKuHf_Ma-cX-CH_ktWGy_eCL"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Harper Lewis",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Carpe",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "309",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Geneva",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Batu",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Youngblood",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Mladek",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Death Rides A Horse",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

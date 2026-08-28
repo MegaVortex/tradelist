@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Black Sabbath - 06.04.1974 - Ontario - CA - USA - Ontario Motor Speedway - California Jam Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Black Sabbath"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "04",
+    "year": "1974"
+  },
+  "startDateUnix": 134438400,
+  "endDate": {
+    "day": "06",
+    "month": "04",
+    "year": "1974"
+  },
+  "endDateUnix": 134438400,
+  "location": {
+    "city": "Ontario",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Ontario Motor Speedway",
+    "event": "California Jam Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.29,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1129,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "03094565.jpg",
+      "externalId": "1xu-EC3FTtNoT-L6xyTkvG5PsKsHmBxtA"
+    },
+    {
+      "folder": "29",
+      "filename": "25204117.jpg",
+      "externalId": "19rwWHSX5CYrtoz7NxMYmrthyZceh2QCM"
+    },
+    {
+      "folder": "29",
+      "filename": "02341797.jpg",
+      "externalId": "113-K3hAYmTrqh0PAV7SmWYacgps5kv_U"
+    },
+    {
+      "folder": "29",
+      "filename": "49397160.jpg",
+      "externalId": "1c68ZPHA1pBwTJBIihT8Pov4R1Rz_UBLB"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "War Pigs",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Killing Yourself To Live",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Paranoid",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

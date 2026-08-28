@@ -1,0 +1,168 @@
+{
+  "originalTitle": "Metallica - 12.06.1999 - Athens - Greece - Georgios Kamaras Stadium (Source 1)",
+  "created": 1761392074,
+  "lastUpdated": 1761392074,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "06",
+    "year": "1999"
+  },
+  "endDate": {
+    "day": "12",
+    "month": "06",
+    "year": "1999"
+  },
+  "startDateUnix": 929145600,
+  "endDateUnix": 929145600,
+  "location": {
+    "city": "Athens",
+    "state": "",
+    "country": "Greece",
+    "venue": "Georgios Kamaras Stadium",
+    "event": ""
+  },
+  "tvChannel": "ET3",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "Zarko",
+  "transferredBy": "",
+  "notes": "Incomplete.",
+  "tapers": [],
+  "receivedInTrade": false,
+  "trader": "",
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 721,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 722,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MP2",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "videoEquipment": "",
+      "audioEquipment": "",
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "images": [
+    {
+      "folder": "2025",
+      "filename": "shot-1761391482629-2.jpg",
+      "externalId": "1o9mjd7WmEswQpfmsZNL4yJ5fHDmNLagZ"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1761391482117-0.jpg",
+      "externalId": "1tlXNn9w1kM4LtIJAXmKB2TbB-cGEn3O-"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1761391482466-1.jpg",
+      "externalId": "11BBvyUwUsI3O1jlySA54C2eu2jPv84a1"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1761391482797-3.jpg",
+      "externalId": "1jLEWkrgjN2CI1YyxUsoReeWA-_kc8Fhn"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "James",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "Lars",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Ecstasy of Gold",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": "Ennio Morricone"
+    },
+    {
+      "order": 4,
+      "song": "So What",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": "Anti-Nowhere League"
+    },
+    {
+      "order": 5,
+      "song": "Master of Puppets",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Of Wolf and Man",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Enter Sandman",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [],
+  "relatedShows": [],
+  "childOf": ""
+}

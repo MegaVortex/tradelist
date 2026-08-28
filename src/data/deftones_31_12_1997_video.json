@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Deftones - 31.12.1997 - Oakland - CA - USA - Kaiser Arena",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Deftones"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "12",
+    "year": "1997"
+  },
+  "startDateUnix": 883526400,
+  "endDate": {
+    "day": "31",
+    "month": "12",
+    "year": "1997"
+  },
+  "endDateUnix": 883526400,
+  "location": {
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Kaiser Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.38,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2691,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "64261687.jpg",
+      "externalId": "18PcMM9X8gkO3_VayAgEQTq4oN9sMM1CP"
+    },
+    {
+      "folder": "28",
+      "filename": "67894090.jpg",
+      "externalId": "1Hhg-F3MSspy_rwo8QBCuvGnUldqn8Kc1"
+    },
+    {
+      "folder": "28",
+      "filename": "96118328.jpg",
+      "externalId": "1TEo5Jg28CDJ5-pPA5-ju-HQbwj-fqFDb"
+    },
+    {
+      "folder": "28",
+      "filename": "88312207.jpg",
+      "externalId": "1wl6QBZjs4bmuI-m8ys8ojS9vsjSI7f1E"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "My Own Summer (Shove It)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Root",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Bored",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Around The Fur",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "MX",
+      "feat": "Annalynn Cunningham",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "7 Words",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Teething",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Be Quiet And Drive (Far Away)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Headup",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Engine No.9 / South Of Heaven  / Wicked",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Slayer"
+    }
+  ],
+  "extras": []
+}

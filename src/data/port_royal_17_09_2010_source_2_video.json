@@ -1,0 +1,174 @@
+{
+  "originalTitle": "Port-Royal - 17.09.2010 - Ryazan - Russia - Dom Kultury (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Port-Royal"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "09",
+    "year": "2010"
+  },
+  "startDateUnix": 1284681600,
+  "endDate": {
+    "day": "17",
+    "month": "09",
+    "year": "2010"
+  },
+  "endDateUnix": 1284681600,
+  "location": {
+    "city": "Ryazan",
+    "state": "",
+    "country": "Russia",
+    "venue": "Dom Kultury",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete. A little bit dark.",
+  "tapers": [
+    "Ingram"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.9,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4361,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "12",
+      "filename": "47973642.jpg",
+      "externalId": "1Z9QgRzXoCXCVM_BphiM6ObBuSZc94kVa"
+    },
+    {
+      "folder": "12",
+      "filename": "18753911.jpg",
+      "externalId": "1p-XNiQK7HKWBnGpDIHSKtv2W7VCmQjFj"
+    },
+    {
+      "folder": "12",
+      "filename": "36096196.jpg",
+      "externalId": "1M-KYBG6tNPT0IdVnR9yAZPs0g4ZHCe38"
+    },
+    {
+      "folder": "12",
+      "filename": "12387040.jpg",
+      "externalId": "1W956Mp8vhgYcXSnKk5cWrtDsD7O8Dhas"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Susy: Blue East Fading",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Anna Ustinova",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Photoshopped Prince",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Balding Generation (Losing Hair As We Lose Hope) (Jatun Mix + Ambidextrous 1992 & 1985 Mix + Original Version)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Zobione pt. 2",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Richard Sorge",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Putin vs. Valery",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Sovraesposte",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

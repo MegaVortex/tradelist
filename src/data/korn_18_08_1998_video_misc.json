@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Korn - 18.08.1998 - Los Angeles - CA - USA - Tower Records - MTV News [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "08",
+    "year": "1998"
+  },
+  "startDateUnix": 903398400,
+  "endDate": {
+    "day": "18",
+    "month": "08",
+    "year": "1998"
+  },
+  "endDateUnix": 903398400,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Tower Records",
+    "event": "MTV News"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 174,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 148,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "13862231.jpg",
+      "externalId": "1vwX19jKxJ1Am4Jh7p2C1I9fdkY20JZ-R"
+    },
+    {
+      "folder": "14",
+      "filename": "79595592.jpg",
+      "externalId": "1LGwdrA3k9_eQBkBtq3tXPt27viHE55IO"
+    },
+    {
+      "folder": "14",
+      "filename": "29014057.jpg",
+      "externalId": "1baCgiKB3O74tt4jYER4HlVc-qrTFYB9M"
+    },
+    {
+      "folder": "14",
+      "filename": "16001475.jpg",
+      "externalId": "1w3GDM9ap-HnvFwaQUNGdh8PiD3_RhusJ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,127 @@
+{
+  "originalTitle": "Foo Fighters - 18.08.2007 - Chelmsford - England - Hylands Park - V Festival (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "08",
+    "year": "2007"
+  },
+  "startDateUnix": 1187395200,
+  "endDate": {
+    "day": "18",
+    "month": "08",
+    "year": "2007"
+  },
+  "endDateUnix": 1187395200,
+  "location": {
+    "city": "Chelmsford",
+    "state": "",
+    "country": "England",
+    "venue": "Hylands Park",
+    "event": "V Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "PRO#1b.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 420,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 566,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "foo_fighters_18_08_2007_source_1_video",
+    "foo_fighters_18_08_2007_source_3_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "00589871.jpg",
+      "externalId": "15260Y34C-O5jVdD-KfoxobV7kOZ4xcvZ"
+    },
+    {
+      "folder": "27",
+      "filename": "99477873.jpg",
+      "externalId": "1Vjua2vxW8GpN87R4x1vYlhnYc7biyh3c"
+    },
+    {
+      "folder": "27",
+      "filename": "32594022.jpg",
+      "externalId": "10AtGT9DYphdoiwRfK_6HN9ylxeClKYkU"
+    },
+    {
+      "folder": "27",
+      "filename": "84006008.jpg",
+      "externalId": "1vzJ7rwdkgFROzIen7LHyvLQ4KHozJte-"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Pretender",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "All My Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

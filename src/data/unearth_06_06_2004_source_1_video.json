@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Unearth - 06.06.2004 - Montreal - QC - Canada - L'X (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Unearth"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "06",
+    "year": "2004"
+  },
+  "startDateUnix": 1086480000,
+  "endDate": {
+    "day": "06",
+    "month": "06",
+    "year": "2004"
+  },
+  "endDateUnix": 1086480000,
+  "location": {
+    "city": "Montreal",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "L'X",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "NightpunX"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.7,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2910,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "CBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "39422313.jpg",
+      "externalId": "1h-Zoq_-d9azKK8Z6HIk4cpcpMUGD7p-6"
+    },
+    {
+      "folder": "6",
+      "filename": "48738475.jpg",
+      "externalId": "1qCjA4iBXudz_EZQwLx_mXLnNJvw0sruC"
+    },
+    {
+      "folder": "6",
+      "filename": "09112514.jpg",
+      "externalId": "1yMM5LcRL88ikL_3icBDkDlvegT4_YhA5"
+    },
+    {
+      "folder": "6",
+      "filename": "57988023.jpg",
+      "externalId": "1jravNepoaH-48xuyEPnSuoKpvqu2XAX6"
+    }
+  ],
+  "setlist": []
+}

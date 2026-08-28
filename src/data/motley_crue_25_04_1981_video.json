@@ -1,0 +1,150 @@
+{
+  "originalTitle": "Motley Crue - 25.04.1981 - Hollywood - CA - USA - The Starwood",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Motley Crue"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "04",
+    "year": "1981"
+  },
+  "startDateUnix": 357004800,
+  "endDate": {
+    "day": "25",
+    "month": "04",
+    "year": "1981"
+  },
+  "endDateUnix": 357004800,
+  "location": {
+    "city": "Hollywood",
+    "state": "CA",
+    "country": "USA",
+    "venue": "The Starwood",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.52,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2668,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "motley_crue_24_04_1981_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "51",
+      "filename": "64161680.jpg",
+      "externalId": "1w-hfno0ZyYZ_MQbIyWXNhx8xXSPbFmnf"
+    },
+    {
+      "folder": "51",
+      "filename": "98927373.jpg",
+      "externalId": "1nMl8XsSleNSMjv5AylsrVTzoJXXP5VcL"
+    },
+    {
+      "folder": "51",
+      "filename": "96935525.jpg",
+      "externalId": "1eCPLTWIpiJIOkeon5rPdvIJh_itFezLD"
+    },
+    {
+      "folder": "51",
+      "filename": "39679041.jpg",
+      "externalId": "1rfJH1QKwqzLN0DkV3fY7hxRJ6AVBh9ve"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Nobody Knows What It's Like To Be Lonely",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Tonight",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Guitar Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Stick To Your Guns",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Public Enemy #1",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

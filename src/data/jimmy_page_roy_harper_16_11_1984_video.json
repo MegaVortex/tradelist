@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Jimmy Page & Roy Harper - 16.11.1984 - Lake District National Park - England - Scafell Pike",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Jimmy Page & Roy Harper"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "11",
+    "year": "1984"
+  },
+  "startDateUnix": 469411200,
+  "endDate": {
+    "day": "16",
+    "month": "11",
+    "year": "1984"
+  },
+  "endDateUnix": 469411200,
+  "location": {
+    "city": "Lake District National Park",
+    "state": "",
+    "country": "England",
+    "venue": "Scafell Pike",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 932,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 906,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "49",
+      "filename": "15468270.jpg",
+      "externalId": "1m4C7mA9z9G0jiELhlofZT4JIUYa_9JVI"
+    },
+    {
+      "folder": "49",
+      "filename": "95456316.jpg",
+      "externalId": "1bTM3MiynFBOIKYuQ5cAFXI4jE_NNQI3i"
+    },
+    {
+      "folder": "49",
+      "filename": "78084057.jpg",
+      "externalId": "1Ijv4hzCVAbHTfPaZlUqtsb93CrZjrche"
+    },
+    {
+      "folder": "49",
+      "filename": "92619680.jpg",
+      "externalId": "1NKruXIrd0ZcrH3mI70EBPi9k_rWTOpBA"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Same Old Rock",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Hangman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

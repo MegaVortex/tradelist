@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Coal Chamber - 01.11.1997 - Boston - MA - USA",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Coal Chamber"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "11",
+    "year": "1997"
+  },
+  "startDateUnix": 878342400,
+  "endDate": {
+    "day": "01",
+    "month": "11",
+    "year": "1997"
+  },
+  "endDateUnix": 878342400,
+  "location": {
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 338,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 690,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "39",
+      "filename": "68546868.jpg",
+      "externalId": "1bcZhyt_MoSWLQsb3d4DDFwcW44tOnnG4"
+    },
+    {
+      "folder": "39",
+      "filename": "95778855.jpg",
+      "externalId": "1Fnq2bWaLs7MHIPhZq8P-b5ZEry7oZ5Ed"
+    },
+    {
+      "folder": "39",
+      "filename": "85462715.jpg",
+      "externalId": "1pobj4kEn-RFjAq-JTYKFVAK3g5tisIrz"
+    },
+    {
+      "folder": "39",
+      "filename": "59331342.jpg",
+      "externalId": "1Oi356oHa9AlsB0YPK3zzHSwlSJKvRM8Q"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Big Truck",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Oddity",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Bradley",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Sway",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

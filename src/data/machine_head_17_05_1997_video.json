@@ -1,0 +1,120 @@
+{
+  "originalTitle": "Machine Head - 17.05.1997 - Eindhoven - Netherlands - Vliegbasis Welschap - Dynamo Open Air",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Machine Head"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "05",
+    "year": "1997"
+  },
+  "startDateUnix": 863827200,
+  "endDate": {
+    "day": "17",
+    "month": "05",
+    "year": "1997"
+  },
+  "endDateUnix": 863827200,
+  "location": {
+    "city": "Eindhoven",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Vliegbasis Welschap",
+    "event": "Dynamo Open Air"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 174,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 277,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "machine_head_04_06_1995_video",
+    "various_artists_xx_xx_xxxx_video",
+    "upon_a_burning_body_span_br_p_li_upon_a_burning_body_22_10_2012_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "42",
+      "filename": "10708299.jpg",
+      "externalId": "1mOh6pHGqYb8kYmD-WCtIMpMbDKaBc8fs"
+    },
+    {
+      "folder": "42",
+      "filename": "12160133.jpg",
+      "externalId": "18Ji1zezrNPiufQoOdqyML2kii42qSbGU"
+    },
+    {
+      "folder": "42",
+      "filename": "78611750.jpg",
+      "externalId": "1zGYfeboBFuyVVmkk9H4LK3GreYsVMVGX"
+    },
+    {
+      "folder": "42",
+      "filename": "48792659.jpg",
+      "externalId": "12Llt3MeltqjCbuYRe7jF6CZ4e7BLVkPn"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Davidian",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

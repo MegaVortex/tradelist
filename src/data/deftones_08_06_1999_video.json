@@ -1,0 +1,166 @@
+{
+  "originalTitle": "Deftones - 08.06.1999 - Holmdel - NJ - USA - PNC Bank Arts Center - Ozzfest",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Deftones"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "06",
+    "year": "1999"
+  },
+  "startDateUnix": 928800000,
+  "endDate": {
+    "day": "08",
+    "month": "06",
+    "year": "1999"
+  },
+  "endDateUnix": 928800000,
+  "location": {
+    "city": "Holmdel",
+    "state": "NJ",
+    "country": "USA",
+    "venue": "PNC Bank Arts Center",
+    "event": "Ozzfest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.21,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4548,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "deftones_22_07_1999_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "64",
+      "filename": "89545424.jpg",
+      "externalId": "1vujcBw8hETQvnY6kKTweXELuBG4m9mAp"
+    },
+    {
+      "folder": "64",
+      "filename": "48666893.jpg",
+      "externalId": "1vdHA33uAsTa-E6wUVtQXmKb9nxlb0VIc"
+    },
+    {
+      "folder": "64",
+      "filename": "91289162.jpg",
+      "externalId": "1b8Dg9Ua_dvO1joTUy1Cgh8TurgSfQ5RC"
+    },
+    {
+      "folder": "64",
+      "filename": "80437000.jpg",
+      "externalId": "1PT35FSl6-ZIdzTlsgvXe7n6Tmi1dqx7P"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Nosebleed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Bored",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Korea (demo)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "To Have And To Hold",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Depeche Mode"
+    },
+    {
+      "order": 5,
+      "song": "7 Words",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Around The Fur",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Pink Maggit (demo)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

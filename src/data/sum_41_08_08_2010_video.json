@@ -1,0 +1,150 @@
+{
+  "originalTitle": "Sum 41 - 08.08.2010 - Tokyo - Japan - Chiba Marine Stadium - Summer Sonic Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sum 41"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "08",
+    "year": "2010"
+  },
+  "startDateUnix": 1281225600,
+  "endDate": {
+    "day": "08",
+    "month": "08",
+    "year": "2010"
+  },
+  "endDateUnix": 1281225600,
+  "location": {
+    "city": "Tokyo",
+    "state": "",
+    "country": "Japan",
+    "venue": "Chiba Marine Stadium",
+    "event": "Summer Sonic Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Summer Sonic highlights.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.23,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1065,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "nickelback_08_08_2010_video"
+  ],
+  "childOf": "various_artists_07_08_2010_08_08_2010_video_compilation",
+  "images": [
+    {
+      "folder": "10",
+      "filename": "79402263.jpg",
+      "externalId": "1vnHCLSR4S4qadpB6Da-na1raSvKBLN0D"
+    },
+    {
+      "folder": "10",
+      "filename": "70359282.jpg",
+      "externalId": "1wN2uMpBeUJ8eheoJA9mSs6sTmgB7MC9V"
+    },
+    {
+      "folder": "10",
+      "filename": "33857497.jpg",
+      "externalId": "1cduX0JQ3tf42UCfsF5OBa_Ff7M8wKxI0"
+    },
+    {
+      "folder": "10",
+      "filename": "19690820.jpg",
+      "externalId": "1DU816OL4fg2ps4fc31Sz82JlzATm9riN"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Opening",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Hell Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "We're All To Blame",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Over My Head (Better Off Dead)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Motivation",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Depeche Mode - 12.02.1988 - Stockholm - Sweden - Ice Stadium (Source 2) [AUDIO]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Depeche Mode"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "02",
+    "year": "1988"
+  },
+  "startDateUnix": 571622400,
+  "endDate": {
+    "day": "12",
+    "month": "02",
+    "year": "1988"
+  },
+  "endDateUnix": 571622400,
+  "location": {
+    "city": "Stockholm",
+    "state": "",
+    "country": "Sweden",
+    "venue": "Ice Stadium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "audio"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Soundcheck. Cassette (unknown gen) > unknown transfer > slowed down 4.5%, normalized to -1.0dB, any DC offset removed, tracks split using Audacity 1.3.13 beta > FLAC level 8.",
+  "tapers": [
+    "S S."
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 61.44,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 977,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Behind The Wheel (soundcheck)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Strangelove (soundcheck)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Behind The Wheel (soundcheck)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Pipeline (soundcheck)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

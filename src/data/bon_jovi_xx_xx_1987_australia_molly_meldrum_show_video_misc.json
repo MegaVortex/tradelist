@@ -1,0 +1,125 @@
+{
+  "originalTitle": "Bon Jovi - xx.xx.1987 - Australia - Molly Meldrum Show [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1987"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1987"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Australia",
+    "state": "",
+    "country": "",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Molly Meldrum Show",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1004,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1812,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "bon_jovi_xx_xx_1988_sayerville_nj_usa_video_misc",
+    "bon_jovi_xx_xx_1988_nj_usa_mtv_notes_video_misc",
+    "bon_jovi_xx_xx_1989_usa_mtv_news_video_misc",
+    "bon_jovi_xx_xx_1987_usa_guest_vj_video_misc",
+    "bon_jovi_xx_xx_1987_usa_mtv_special_video_misc",
+    "bon_jovi_xx_xx_1992_usa_past_present_future_video_misc",
+    "bon_jovi_xx_xx_1987_usa_rock_against_drugs_video_misc"
+  ],
+  "childOf": "bon_jovi_xx_xx_xxxx_misc_1_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "77",
+      "filename": "34686466.jpg",
+      "externalId": "1HWVfADXhdr_iBlr5kN_7AVPK3HhSdMVk"
+    },
+    {
+      "folder": "77",
+      "filename": "93785927.jpg",
+      "externalId": "1LOnN8rApFQrrvYPCWzSgOHa-uhLa4oQN"
+    },
+    {
+      "folder": "77",
+      "filename": "10389042.jpg",
+      "externalId": "1OPUvVtv6MdAML9lXjmQ2iRfELBWkhmsD"
+    },
+    {
+      "folder": "77",
+      "filename": "03895993.jpg",
+      "externalId": "1sCyyPSS9vuJ8FCz7ES18gctR8QQcwVrB"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

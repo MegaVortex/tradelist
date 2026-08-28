@@ -1,0 +1,195 @@
+{
+  "originalTitle": "Pearl Jam - 23.08.1991 - Seattle - WA - USA - Mural Amphitheater",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Pearl Jam"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "08",
+    "year": "1991"
+  },
+  "startDateUnix": 682905600,
+  "endDate": {
+    "day": "23",
+    "month": "08",
+    "year": "1991"
+  },
+  "endDateUnix": 682905600,
+  "location": {
+    "city": "Seattle",
+    "state": "WA",
+    "country": "USA",
+    "venue": "Mural Amphitheater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.67,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2836,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "31208174.jpg",
+      "externalId": "1aYsRSxT8rfkwB-MO68GAcuvYiLLcHqJx"
+    },
+    {
+      "folder": "29",
+      "filename": "64286491.jpg",
+      "externalId": "1V9hEV7XPzMtYszacXGeLCqvrRbs-1ZNR"
+    },
+    {
+      "folder": "29",
+      "filename": "89129422.jpg",
+      "externalId": "1MVDRfkOWpyqnYRUjbn6Vm2Stj-Ey6DQG"
+    },
+    {
+      "folder": "29",
+      "filename": "47068352.jpg",
+      "externalId": "1umQ4tcXBCePVdZv8ldCJKRgGOfNC2Z_u"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Once",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "State Of Love And Trust",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Even Flow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Garden",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Alive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Black",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Deep",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Why Go",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Porch",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Breath",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

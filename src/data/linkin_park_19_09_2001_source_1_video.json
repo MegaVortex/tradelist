@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Linkin Park - 19.09.2001 - Milan - Italy - Rolling Stone Arena (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "09",
+    "year": "2001"
+  },
+  "startDateUnix": 1000857600,
+  "endDate": {
+    "day": "19",
+    "month": "09",
+    "year": "2001"
+  },
+  "endDateUnix": 1000857600,
+  "location": {
+    "city": "Milan",
+    "state": "",
+    "country": "Italy",
+    "venue": "Rolling Stone Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MTV Japan broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.32,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1293,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "48",
+      "filename": "53816928.jpg",
+      "externalId": "1w6oKxHXjUvGuTJOkDsR0KwS8gsikOqLd"
+    },
+    {
+      "folder": "48",
+      "filename": "95188531.jpg",
+      "externalId": "1YJsAgUjReDigFz06VvSCiJYhAUwHATNO"
+    },
+    {
+      "folder": "48",
+      "filename": "31231038.jpg",
+      "externalId": "1BBAwOEEOiClngvPE9TgE_ZHDkYpL-ZLe"
+    },
+    {
+      "folder": "48",
+      "filename": "96182657.jpg",
+      "externalId": "1r9KJ-Z-2mVOvrCAhL9yAqWwWaYbSEOMJ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "With You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Papercut",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Crawling",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "In The End",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "By Myself",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "One Step Closer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

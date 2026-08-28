@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Linkin Park - 21.08.2003 - London - England - Royal Lancaster Hotel - Kerrang Awards",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "08",
+    "year": "2003"
+  },
+  "startDateUnix": 1061424000,
+  "endDate": {
+    "day": "21",
+    "month": "08",
+    "year": "2003"
+  },
+  "endDateUnix": 1061424000,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Royal Lancaster Hotel",
+    "event": "Kerrang Awards"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 174,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 285,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "30",
+      "filename": "31521820.jpg",
+      "externalId": "1B7MwYv-Vvf1Lv_NXiv3_kUvBY8ucb7LV"
+    },
+    {
+      "folder": "30",
+      "filename": "13206337.jpg",
+      "externalId": "1VzDWyuorP_UrmtwJnxrpbGlouCkxA4z4"
+    },
+    {
+      "folder": "30",
+      "filename": "62982331.jpg",
+      "externalId": "1kmY5nxikGAhkFu__9MYJOygdKe92yz8I"
+    },
+    {
+      "folder": "30",
+      "filename": "35062573.jpg",
+      "externalId": "1OQpZUBmrFMLg1cs4joj0k8aChv2iSgmD"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Faint",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Awarded",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

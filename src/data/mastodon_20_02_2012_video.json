@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Mastodon - 20.02.2012 - Los Angeles - CA - USA - Wiltern Theater - Carson Daly Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Mastodon"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "02",
+    "year": "2012"
+  },
+  "startDateUnix": 1329696000,
+  "endDate": {
+    "day": "20",
+    "month": "02",
+    "year": "2012"
+  },
+  "endDateUnix": 1329696000,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Wiltern Theater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Carson Daly Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 174,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 394,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "M4V"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "32",
+      "filename": "71966831.jpg",
+      "externalId": "1w35WmMBDhyDD7pTA1vF0Afqoe0mIMtb_"
+    },
+    {
+      "folder": "32",
+      "filename": "74107320.jpg",
+      "externalId": "1hzW4KiaWneaczRRLIOE85geDjrncK5JQ"
+    },
+    {
+      "folder": "32",
+      "filename": "97816888.jpg",
+      "externalId": "1V1GlEdPSv-HHeTjhAxncm8p4e0GyD6jP"
+    },
+    {
+      "folder": "32",
+      "filename": "46126207.jpg",
+      "externalId": "1racdW5yUxeG08kW2XgRDORy5CX8Evq-9"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Black Tongue",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Curl Of The Burl",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,29 @@
+---
+permalink: /404.html
+eleventyExcludeFromCollections: true
+---
+
+{% extends "base.njk" %}
+
+{% block title %}Page Not Found · Vortex Trade List{% endblock %}
+
+{% block content %}
+<div class="not-found-page">
+  <div class="not-found-inner">
+    <p class="not-found-text">
+      The bootleg you are looking for doesn't exist (or got lost in a bad trade).
+    </p>
+
+    <img
+      src="{{ '/assets/images/404.jpg' | url }}"
+      class="not-found-image"
+    >
+
+    <p class="not-found-links">
+      <a href="{{ '/' | url }}">🏠 Back to Home</a>
+      &nbsp;·&nbsp;
+      <a href="{{ '/shows/' | url }}">🎵 Browse Shows</a>
+    </p>
+  </div>
+</div>
+{% endblock %}

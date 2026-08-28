@@ -1,0 +1,174 @@
+{
+  "originalTitle": "Megadeth - 21.06.1997 - Kauhajoki - Finland - Nummijarvi - Nummirock",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Megadeth"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "06",
+    "year": "1997"
+  },
+  "startDateUnix": 866851200,
+  "endDate": {
+    "day": "21",
+    "month": "06",
+    "year": "1997"
+  },
+  "endDateUnix": 866851200,
+  "location": {
+    "city": "Kauhajoki",
+    "state": "",
+    "country": "Finland",
+    "venue": "Nummijarvi",
+    "event": "Nummirock"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Live footage goes during interviews.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.62,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1436,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "megadeth_13_06_1997_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "89016821.jpg",
+      "externalId": "1o1cXnyBvxFWebqeMuT-iwUPauKkMxNxF"
+    },
+    {
+      "folder": "18",
+      "filename": "19926586.jpg",
+      "externalId": "1f7vseeKfzXuitkrZ7LzF4kOZZFMMwMAZ"
+    },
+    {
+      "folder": "18",
+      "filename": "53637888.jpg",
+      "externalId": "12IjiKKHaa1Wi3yJ_URnowM0K17o5deI6"
+    },
+    {
+      "folder": "18",
+      "filename": "45720347.jpg",
+      "externalId": "18m5z9fetN6VsLijoGexvZfrmCLcbLtJK"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Arrival To Helsinki (MISC)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "At The Hotel (MISC)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Visiting Cafe Moscow (MISC)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Meeting Leningrad Cowboys (MISC)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Dinner",
+      "feat": "Dave",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Walking The Streets (MISC)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Kitchen (MISC)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Skin O'My Teeth",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

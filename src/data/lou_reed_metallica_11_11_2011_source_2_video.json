@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Lou Reed & Metallica - 11.11.2011 - Cologne - Germany - WDR Studios (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Lou Reed & Metallica"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "11",
+    "year": "2011"
+  },
+  "startDateUnix": 1320969600,
+  "endDate": {
+    "day": "11",
+    "month": "11",
+    "year": "2011"
+  },
+  "endDateUnix": 1320969600,
+  "location": {
+    "city": "Cologne",
+    "state": "",
+    "country": "Germany",
+    "venue": "WDR Studios",
+    "event": ""
+  },
+  "tvChannel": "WDR",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "WDR broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.64,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3374,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "38",
+      "filename": "78836295.jpg",
+      "externalId": "1sz-RuHBeu_t78vZseXeQl8RaTwlFuQGG"
+    },
+    {
+      "folder": "38",
+      "filename": "37004808.jpg",
+      "externalId": "1je4GGY9s9YZgF8rBcuVk84_ze6aI12an"
+    },
+    {
+      "folder": "38",
+      "filename": "45118298.jpg",
+      "externalId": "1JqS-MevT0bnk1gJMFkX3sv4lLJEQpiTK"
+    },
+    {
+      "folder": "38",
+      "filename": "36904785.jpg",
+      "externalId": "1YgBC5XzZ6oUdUXvxS2113Z54MCjW3zEW"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Iced Honey",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The View",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Mistress Dread",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Dragon",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Junior Dad",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "White Light/White Heat",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

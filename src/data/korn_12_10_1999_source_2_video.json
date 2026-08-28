@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Korn - 12.10.1999 - Kansas City - MO - USA - Kemper Arena (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "10",
+    "year": "1999"
+  },
+  "startDateUnix": 939686400,
+  "endDate": {
+    "day": "12",
+    "month": "10",
+    "year": "1999"
+  },
+  "endDateUnix": 939686400,
+  "location": {
+    "city": "Kansas City",
+    "state": "MO",
+    "country": "USA",
+    "venue": "Kemper Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete. Better picture quality than the first source. MuchMusic TV broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 573,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 519,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "352x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "57034392.jpg",
+      "externalId": "1bwlL4Ua1qkbrh0Bg0t47I5sfpDZ0MxHS"
+    },
+    {
+      "folder": "14",
+      "filename": "66114684.jpg",
+      "externalId": "1Hacx8DJ8R3xbtt16JsobPSZ7GQts1fxZ"
+    },
+    {
+      "folder": "14",
+      "filename": "13723557.jpg",
+      "externalId": "1j8vMws0a044_y0nj6t3JAniVZiydZMiH"
+    },
+    {
+      "folder": "14",
+      "filename": "91384301.jpg",
+      "externalId": "19u2YnN_-2DGR6HihERIXbM6ai_MnQwLt"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Short Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Got The Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Falling Away From Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

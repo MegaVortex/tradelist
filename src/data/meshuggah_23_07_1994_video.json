@@ -1,0 +1,151 @@
+{
+  "originalTitle": "Meshuggah - 23.07.1994 - Sala - Sweden - Stora Torget",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Meshuggah"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "07",
+    "year": "1994"
+  },
+  "startDateUnix": 774921600,
+  "endDate": {
+    "day": "23",
+    "month": "07",
+    "year": "1994"
+  },
+  "endDateUnix": 774921600,
+  "location": {
+    "city": "Sala",
+    "state": "",
+    "country": "Sweden",
+    "venue": "Stora Torget",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.88,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 6419,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "meshuggah_15_07_1994_video",
+    "meshuggah_22_07_1994_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "66",
+      "filename": "95159525.jpg",
+      "externalId": "1wOT9CHvtK_8pdeYGZeEQQlK-bcXa_bDQ"
+    },
+    {
+      "folder": "66",
+      "filename": "64776152.jpg",
+      "externalId": "1InfcjPmlBMW9M5BxaOddf8sS4_mXfDoy"
+    },
+    {
+      "folder": "66",
+      "filename": "23700038.jpg",
+      "externalId": "1mrnOu_MZ-eGKrhS8zi8qpjciBaZ3b48W"
+    },
+    {
+      "folder": "66",
+      "filename": "25793198.jpg",
+      "externalId": "1pgOW_B4hXzZYOoF0Vjl-YSUDU99xtD6e"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Gods Of Rapture",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Sickening",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Humiliative",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Ritual",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Vanished",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

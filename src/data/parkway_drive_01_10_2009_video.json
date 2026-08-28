@@ -1,0 +1,182 @@
+{
+  "originalTitle": "Parkway Drive - 01.10.2009 - Des Moines - IA - USA - Val Air Ballroom",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Parkway Drive"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "10",
+    "year": "2009"
+  },
+  "startDateUnix": 1254355200,
+  "endDate": {
+    "day": "01",
+    "month": "10",
+    "year": "2009"
+  },
+  "endDateUnix": 1254355200,
+  "location": {
+    "city": "Des Moines",
+    "state": "IA",
+    "country": "USA",
+    "venue": "Val Air Ballroom",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Even13flow"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.23,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3698,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "10",
+      "filename": "41876983.jpg",
+      "externalId": "1zgBkESop_PLw5xZzlhCDipKuTXQdv7ni"
+    },
+    {
+      "folder": "10",
+      "filename": "32651312.jpg",
+      "externalId": "1SUUZm8OEEt1kp_s-UPvKQ4BCfJq3EjTS"
+    },
+    {
+      "folder": "10",
+      "filename": "35856417.jpg",
+      "externalId": "1a8_hdVFTksW0lSNXZXI2-ZI1Lv9R6Ffo"
+    },
+    {
+      "folder": "10",
+      "filename": "50581054.jpg",
+      "externalId": "1c2SfCc10991bEPDWr7oM44hG06XRidjg"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Boneyards",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Idols And Anchors",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Guns For Show, Knives For A Pro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Carrion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Sirens' Song",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Unrest (New Song)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Dead Man's Chest",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Romance Is Dead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

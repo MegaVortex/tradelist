@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Chuck Berry - 02.11.1972 - Hampstead - NY - USA - Hofstra Playhouse - Hofstra University",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Chuck Berry"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "11",
+    "year": "1972"
+  },
+  "startDateUnix": 89510400,
+  "endDate": {
+    "day": "02",
+    "month": "11",
+    "year": "1972"
+  },
+  "endDateUnix": 89510400,
+  "location": {
+    "city": "Hampstead",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Hofstra Playhouse",
+    "event": "Hofstra University"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 963,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 859,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "20239315.jpg",
+      "externalId": "1GXJsMsGxpj19iG3BT0i1y2-yAGl28Siu"
+    },
+    {
+      "folder": "18",
+      "filename": "63170208.jpg",
+      "externalId": "1GdwUsX3txHKJEmC6r-1Vamj_uuoISWXx"
+    },
+    {
+      "folder": "18",
+      "filename": "34040473.jpg",
+      "externalId": "10v-dx9WmlzOppMNMtabEzmUvjs3Lkn1W"
+    },
+    {
+      "folder": "18",
+      "filename": "67091861.jpg",
+      "externalId": "1EHe7MXVyCHhSawRPr55gF0HCmuzr6YGL"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Roll Over Beethoven",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Johnny B. Goode",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "My Ding A Ling",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

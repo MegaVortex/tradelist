@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Slipknot - 16.08.2005 - Singapore - Singapore - Fort Canning Park",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "08",
+    "year": "2005"
+  },
+  "startDateUnix": 1124150400,
+  "endDate": {
+    "day": "16",
+    "month": "08",
+    "year": "2005"
+  },
+  "endDateUnix": 1124150400,
+  "location": {
+    "city": "Singapore",
+    "state": "",
+    "country": "Singapore",
+    "venue": "Fort Canning Park",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Cell phone source.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 24.4,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 103,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "320x240",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "15.00",
+        "standard": "MJPG",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 11025,
+        "bitrateKbps": 44,
+        "channels": 1
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "2",
+      "filename": "80862.jpg",
+      "externalId": "1FryM5QFfXZvocwlWmmtYFsPxbRN1tt4I"
+    },
+    {
+      "folder": "2",
+      "filename": "00902.jpg",
+      "externalId": "1brbCqipLLWFrKv-ShJzESNw8ir5tNgIV"
+    },
+    {
+      "folder": "2",
+      "filename": "40639.jpg",
+      "externalId": "1KpE9QAilGaNBfyUJ0heb7a77oy5CQINz"
+    },
+    {
+      "folder": "2",
+      "filename": "93901.jpg",
+      "externalId": "1bmJfQShJWloJkVsC7xOIePMVpeFGD-Q-"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Eyeless",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Heretic Anthem",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

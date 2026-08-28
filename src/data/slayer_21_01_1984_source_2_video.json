@@ -1,0 +1,166 @@
+{
+  "originalTitle": "Slayer - 21.01.1984 - Hollywood - CA - USA - Roxy Club (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slayer"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "01",
+    "year": "1984"
+  },
+  "startDateUnix": 443491200,
+  "endDate": {
+    "day": "21",
+    "month": "01",
+    "year": "1984"
+  },
+  "endDateUnix": 443491200,
+  "location": {
+    "city": "Hollywood",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Roxy Club",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Original version.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.91,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1733,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "slayer_21_01_1984_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "55",
+      "filename": "81973489.jpg",
+      "externalId": "11arBNDmpi-EibR0C5keMY2J-Bi7AldYW"
+    },
+    {
+      "folder": "55",
+      "filename": "59510683.jpg",
+      "externalId": "1G7LGG7cDD7nkJ9ctf93InDeQJRyGtScr"
+    },
+    {
+      "folder": "55",
+      "filename": "12431144.jpg",
+      "externalId": "1lgsJPC0pVmrGe-m8Aa3SitMgZquk5mzA"
+    },
+    {
+      "folder": "55",
+      "filename": "33309216.jpg",
+      "externalId": "1kbHroCLl1ZltP6FNNlxvcB0dqr8ex3zM"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Black Magic",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Crionics",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Evil Has No Boundaries",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Die By The Sword",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Final Command",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Antichrist",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Fight Till Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

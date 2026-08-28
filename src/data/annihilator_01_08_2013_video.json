@@ -1,0 +1,203 @@
+{
+  "originalTitle": "Annihilator - 01.08.2013 - Wacken - Germany - Hauptstrasse - Wacken Open Air",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Annihilator"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "08",
+    "year": "2013"
+  },
+  "startDateUnix": 1375315200,
+  "endDate": {
+    "day": "01",
+    "month": "08",
+    "year": "2013"
+  },
+  "endDateUnix": 1375315200,
+  "location": {
+    "city": "Wacken",
+    "state": "",
+    "country": "Germany",
+    "venue": "Hauptstrasse",
+    "event": "Wacken Open Air"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 5.76,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3480,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "66",
+      "filename": "89938935.jpg",
+      "externalId": "10iRQ3RX15fxuTjJfiATyZC9ehwsLOmvp"
+    },
+    {
+      "folder": "66",
+      "filename": "60551183.jpg",
+      "externalId": "13RJjR7FLcPeq00EVjqXHGRHF0pAtt8r4"
+    },
+    {
+      "folder": "66",
+      "filename": "70843693.jpg",
+      "externalId": "1rs53JEgSwR-PXjUCZDUk8ncw0UPwF1_u"
+    },
+    {
+      "folder": "66",
+      "filename": "48328846.jpg",
+      "externalId": "1Fynx8B3S9nORh9LtfW8frjAp-nTjS8T7"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Smear Campaign",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "King Of The Kill",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "No Way Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Clown Parade",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Set The World On Fire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Welcome To Your Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "I Am In Command",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "No Zone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Fiasco",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Alison Hell",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

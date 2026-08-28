@@ -1,0 +1,111 @@
+{
+  "originalTitle": "Eric Clapton - 02.04.1990 - New York - NY - Madison Square Garden",
+  "created": 1753881392,
+  "lastUpdated": 1753881392,
+  "bands": [
+    "Eric Clapton"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "04",
+    "year": "1990"
+  },
+  "startDateUnix": 639014400,
+  "endDate": {
+    "day": "02",
+    "month": "04",
+    "year": "1990"
+  },
+  "endDateUnix": 639014400,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "Madison Square Garden",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.29,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 4.27,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 7953,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "3",
+      "filename": "50626.jpg",
+      "externalId": "1LjrE7SQZExYJJc4cQag5skEUqh2_jayD"
+    },
+    {
+      "folder": "3",
+      "filename": "98778.jpg",
+      "externalId": "1vNKJbqb6SyGO9cVFIoynHv195_UkqTWX"
+    },
+    {
+      "folder": "3",
+      "filename": "32774.jpg",
+      "externalId": "1E-yU8PLEwtJeJayXrZqG74hRU35pWznh"
+    },
+    {
+      "folder": "3",
+      "filename": "99477.jpg",
+      "externalId": "1__jJmtDyOVQAxA3mQgn1Jh-sI3qQ9NBL"
+    }
+  ],
+  "setlist": []
+}

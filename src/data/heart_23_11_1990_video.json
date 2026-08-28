@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Heart - 23.11.1990 - Toronto - ON - Canada - Maple Leaf Gardens",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Heart"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "11",
+    "year": "1990"
+  },
+  "startDateUnix": 659318400,
+  "endDate": {
+    "day": "23",
+    "month": "11",
+    "year": "1990"
+  },
+  "endDateUnix": 659318400,
+  "location": {
+    "city": "Toronto",
+    "state": "ON",
+    "country": "Canada",
+    "venue": "Maple Leaf Gardens",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3614,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "cheap_trick_23_11_1990_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "47",
+      "filename": "83227668.jpg",
+      "externalId": "1RjEwzhgraEx5P5IlUvvRrNs_CfI6zGxS"
+    },
+    {
+      "folder": "47",
+      "filename": "04973997.jpg",
+      "externalId": "1YK36t2R3yhr2fVVgojPGMm3chv_gaNyP"
+    },
+    {
+      "folder": "47",
+      "filename": "83253682.jpg",
+      "externalId": "15zyzRoVThgZPOhjy3IynPOMe2d1zBDry"
+    },
+    {
+      "folder": "47",
+      "filename": "37516502.jpg",
+      "externalId": "1UvXiKgZ8UknC_kbQu_MXP-QtA4XcoOVx"
+    }
+  ],
+  "setlist": []
+}

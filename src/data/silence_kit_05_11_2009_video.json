@@ -1,0 +1,110 @@
+{
+  "originalTitle": "Silence Kit - 05.11.2009 - Moscow - Russia - MSPRKT",
+  "created": 1753881392,
+  "lastUpdated": 1753881392,
+  "bands": [
+    "Silence Kit"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "11",
+    "year": "2009"
+  },
+  "startDateUnix": 1257379200,
+  "endDate": {
+    "day": "05",
+    "month": "11",
+    "year": "2009"
+  },
+  "endDateUnix": 1257379200,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "MSPRKT",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Ingram"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.28,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3671,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "shibo_span_05_11_2009_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "10",
+      "filename": "82962922.jpg",
+      "externalId": "1fCG4rE20I1Kq11eBVRU2vknjCdekGrrK"
+    },
+    {
+      "folder": "10",
+      "filename": "29659486.jpg",
+      "externalId": "1KCD3A6uMYNv1IxKIdE14eNHNiU2Z_v09"
+    },
+    {
+      "folder": "10",
+      "filename": "97908464.jpg",
+      "externalId": "1C2VIFhUPZyz7Hcs43G9kLmOTib1-30-B"
+    },
+    {
+      "folder": "10",
+      "filename": "67719488.jpg",
+      "externalId": "10jG0M-HCxk_p8grEgTqw47qrMEw7pZAw"
+    }
+  ],
+  "setlist": []
+}

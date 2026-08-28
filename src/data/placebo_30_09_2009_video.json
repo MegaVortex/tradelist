@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Placebo - 30.09.2009 - Mexico City - Mexico - Palacio De Los Deportes",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Placebo"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "09",
+    "year": "2009"
+  },
+  "startDateUnix": 1254268800,
+  "endDate": {
+    "day": "30",
+    "month": "09",
+    "year": "2009"
+  },
+  "endDateUnix": 1254268800,
+  "location": {
+    "city": "Mexico City",
+    "state": "",
+    "country": "Mexico",
+    "venue": "Palacio De Los Deportes",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.69,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1309,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "39",
+      "filename": "58409172.jpg",
+      "externalId": "1OEbgcr4azu9fl7Ur_cBoi97iNoYFvbh4"
+    },
+    {
+      "folder": "39",
+      "filename": "81332210.jpg",
+      "externalId": "15uERRNKcvk_MKr4E7Ib_vrGJ7eFiVWjN"
+    },
+    {
+      "folder": "39",
+      "filename": "85521849.jpg",
+      "externalId": "15aABDUcFPCXO0J6V0-qSeDPfL9ZWZmIr"
+    },
+    {
+      "folder": "39",
+      "filename": "03429260.jpg",
+      "externalId": "1uEJaeaSmTz1pIEgVlNUqtZVFsV6ua4gb"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Ashtray Heart",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Every You, Every Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Special Needs",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Never-Ending Why",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Song To Say Goodbye",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

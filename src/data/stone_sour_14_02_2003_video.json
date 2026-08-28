@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Stone Sour - 14.02.2003 - Milan - Italy - Rock TV",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Stone Sour"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "02",
+    "year": "2003"
+  },
+  "startDateUnix": 1045180800,
+  "endDate": {
+    "day": "14",
+    "month": "02",
+    "year": "2003"
+  },
+  "endDateUnix": 1045180800,
+  "location": {
+    "city": "Milan",
+    "state": "",
+    "country": "Italy",
+    "venue": "Rock TV",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 195,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 515,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "CBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "4",
+      "filename": "2465980.jpg",
+      "externalId": "1EBxcQeViet8mE8EsI6dLdVsS-vt4Ud1w"
+    },
+    {
+      "folder": "4",
+      "filename": "8778827.jpg",
+      "externalId": "1z5VVXzG28l5cjLwPxeKlKNFIEes4CdOl"
+    },
+    {
+      "folder": "4",
+      "filename": "8765480.jpg",
+      "externalId": "1BOaHbrOORtTcBLoGOT7dXz4aM4-JMs2P"
+    },
+    {
+      "folder": "4",
+      "filename": "9278413.jpg",
+      "externalId": "1KKnIpwRo9m9SzeHJTuG8aVWpkwIg4QOz"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Bother",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Orchids",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

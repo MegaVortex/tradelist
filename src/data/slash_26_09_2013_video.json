@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Slash - 26.09.2013 - Burbank - CA - USA - Warner Bros. Studio - Conan O'Brien Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slash"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "09",
+    "year": "2013"
+  },
+  "startDateUnix": 1380153600,
+  "endDate": {
+    "day": "26",
+    "month": "09",
+    "year": "2013"
+  },
+  "endDateUnix": 1380153600,
+  "location": {
+    "city": "Burbank",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Warner Bros. Studio",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Conan O'Brien Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 287,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 830,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "61",
+      "filename": "52409728.jpg",
+      "externalId": "1dJ1ijgTFF4EJJj-yPvqFpiWuEvTlIFfJ"
+    },
+    {
+      "folder": "61",
+      "filename": "68976791.jpg",
+      "externalId": "1RTXTN_qboyuyD5swkujvKozw1SiWIPFm"
+    },
+    {
+      "folder": "61",
+      "filename": "76894694.jpg",
+      "externalId": "1A5aS5Tt0yMM7W3SnMZn1axYLM_Dvh_ZW"
+    },
+    {
+      "folder": "61",
+      "filename": "31715194.jpg",
+      "externalId": "16tgsdvRSWCsmb523yVmXv2w48pvTZSif"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Nothing Left To Fear",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

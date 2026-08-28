@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Bon Jovi - 11.10.2002 - New York - NY - USA - Rockefeller Plaza - Today Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "10",
+    "year": "2002"
+  },
+  "startDateUnix": 1034294400,
+  "endDate": {
+    "day": "11",
+    "month": "10",
+    "year": "2002"
+  },
+  "endDateUnix": 1034294400,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Rockefeller Plaza",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Today Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.35,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1287,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "76",
+      "filename": "37462666.jpg",
+      "externalId": "1I0nbJs2YMNRHcYnSjpwqdf9UffyFmyPm"
+    },
+    {
+      "folder": "76",
+      "filename": "51483669.jpg",
+      "externalId": "1hpXj5-JFIbzv9RAbfiTY7ksDKVsMsG2V"
+    },
+    {
+      "folder": "76",
+      "filename": "32925675.jpg",
+      "externalId": "1Kh9traXvDuY-85iaaEcj_31h7PMi6Ox0"
+    },
+    {
+      "folder": "76",
+      "filename": "49575821.jpg",
+      "externalId": "1c_n_Kdv3Os43Wclo7j91iaE9HqbYXl_o"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Everyday",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "You Give Love A Bad Name",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "It's My Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

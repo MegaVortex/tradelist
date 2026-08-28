@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Neaera - 01.07.2006 - Munster - Germany - Am Hawerkamp - Vainstream Rockfest",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Neaera"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "07",
+    "year": "2006"
+  },
+  "startDateUnix": 1151712000,
+  "endDate": {
+    "day": "01",
+    "month": "07",
+    "year": "2006"
+  },
+  "endDateUnix": 1151712000,
+  "location": {
+    "city": "Munster",
+    "state": "",
+    "country": "Germany",
+    "venue": "Am Hawerkamp",
+    "event": "Vainstream Rockfest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.5,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2131,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "86105003.jpg",
+      "externalId": "1UuyglJL0VouIZ9jZuZMwxIr23Wb2EGXf"
+    },
+    {
+      "folder": "80",
+      "filename": "27034746.jpg",
+      "externalId": "1uSNk8emzKSNgbxB4QwzgzaflQw1jQE-E"
+    },
+    {
+      "folder": "80",
+      "filename": "38065364.jpg",
+      "externalId": "1tylIAUwnAyyikQtsLGC46g4v7lPpzVut"
+    },
+    {
+      "folder": "80",
+      "filename": "36285945.jpg",
+      "externalId": "1hwXWnnV3KEIYxwmVjWXC7zee4-zdapuP"
+    }
+  ],
+  "setlist": []
+}

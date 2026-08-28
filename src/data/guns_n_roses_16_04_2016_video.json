@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Guns N' Roses - 16.04.2016 - Indio - CA - USA - Empire Polo Club",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Guns N' Roses"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "04",
+    "year": "2016"
+  },
+  "startDateUnix": 1460764800,
+  "endDate": {
+    "day": "16",
+    "month": "04",
+    "year": "2016"
+  },
+  "endDateUnix": 1460764800,
+  "location": {
+    "city": "Indio",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Empire Polo Club",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 538,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 926,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "30",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 117,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "72",
+      "filename": "47955292.jpg",
+      "externalId": "17OzUooXMvUwJf5BJLJKUMGOb-eiJ3EL_"
+    },
+    {
+      "folder": "72",
+      "filename": "61519672.jpg",
+      "externalId": "1fI0XjqcYANsYxoakVAWSd1TRIGF0WiZD"
+    },
+    {
+      "folder": "72",
+      "filename": "90391900.jpg",
+      "externalId": "1RrPIM17lvD9f30RNYcvtALzs6CMjralr"
+    },
+    {
+      "folder": "72",
+      "filename": "53362871.jpg",
+      "externalId": "1vZOxizlYkMY-XCl9vnUwlWM1gqIP7Od_"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Welcome To The Jungle",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "November Rain",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

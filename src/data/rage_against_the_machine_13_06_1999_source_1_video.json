@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Rage Against The Machine - 13.06.1999 - East Troy - WI - USA - Alpine Valley Music Theatre (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rage Against The Machine"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "06",
+    "year": "1999"
+  },
+  "startDateUnix": 929232000,
+  "endDate": {
+    "day": "13",
+    "month": "06",
+    "year": "1999"
+  },
+  "endDateUnix": 929232000,
+  "location": {
+    "city": "East Troy",
+    "state": "WI",
+    "country": "USA",
+    "venue": "Alpine Valley Music Theatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Tibetan Freedom Concert.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 430,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 753,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "30032006.jpg",
+      "externalId": "1_Gws0LGu-im8SECCS7S0GkbyRPc1ayCJ"
+    },
+    {
+      "folder": "26",
+      "filename": "40500483.jpg",
+      "externalId": "10-QvvNd6g_YWX6sb31R7ODl9ikVaTjis"
+    },
+    {
+      "folder": "26",
+      "filename": "63835785.jpg",
+      "externalId": "1ljF3sjpKKjMWzwUxV70ctofOgfgJgSR-"
+    },
+    {
+      "folder": "26",
+      "filename": "79364774.jpg",
+      "externalId": "1ZwLd8Z9Qil7L4nWAKgjFfROkfyaRkLVB"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Vietnow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "No Shelter",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Bulls On Parade",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

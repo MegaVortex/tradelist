@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Slipknot - 29.09.2005 - Buenos Aires - Argentina - Estadio Obras Sanitarias (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "29",
+    "month": "09",
+    "year": "2005"
+  },
+  "startDateUnix": 1127952000,
+  "endDate": {
+    "day": "29",
+    "month": "09",
+    "year": "2005"
+  },
+  "endDateUnix": 1127952000,
+  "location": {
+    "city": "Buenos Aires",
+    "state": "",
+    "country": "Argentina",
+    "venue": "Estadio Obras Sanitarias",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Digicam sourced.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 205,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 267,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 1
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "VCD",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "68",
+      "filename": "08398984.jpg",
+      "externalId": "1prpyt60ss3y0bjfig8cCCSsfuMS-8KAp"
+    },
+    {
+      "folder": "68",
+      "filename": "12945397.jpg",
+      "externalId": "1Zcxv2MGQVCMWgKZaRF116vNe3QloJLOm"
+    },
+    {
+      "folder": "68",
+      "filename": "92895293.jpg",
+      "externalId": "1110voHL-H7TtIpS_FOJO9pk-AuKrMyOf"
+    },
+    {
+      "folder": "68",
+      "filename": "92490282.jpg",
+      "externalId": "1NaLm1hgwf6hqSBOCg9gDIj40rBewuLZG"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Before I Forget",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Left Behind",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Duality",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Get This",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

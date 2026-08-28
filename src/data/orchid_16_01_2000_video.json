@@ -1,0 +1,113 @@
+{
+  "originalTitle": "Orchid - 16.01.2000 - Philadelphia - PA - USA - Killtime",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Orchid"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "01",
+    "year": "2000"
+  },
+  "startDateUnix": 947980800,
+  "endDate": {
+    "day": "16",
+    "month": "01",
+    "year": "2000"
+  },
+  "endDateUnix": 947980800,
+  "location": {
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "venue": "Killtime",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1004,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1343,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "pig_destroyer_16_07_1999_video",
+    "ultimate_warriors_04_02_2000_video",
+    "neil_perry_04_02_2000_video",
+    "a_life_once_lost_04_02_2000_video",
+    "joshua_fit_for_battle_04_02_2000_video",
+    "pa_usa_xx_xx_xxxx_video"
+  ],
+  "childOf": "various_artists_xx_xx_1999_xx_xx_2000_video_compilation",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "46918114.jpg",
+      "externalId": "1ggaveHg7X9zJg5qAKIm7pvCPKfsFC3u_"
+    },
+    {
+      "folder": "28",
+      "filename": "00408425.jpg",
+      "externalId": "1pmfFwCWQddaqLbNH0Dfy5RwZDEcFL9q0"
+    },
+    {
+      "folder": "28",
+      "filename": "33902275.jpg",
+      "externalId": "1Z0orGVvA8jOQuHY68SShJE5De_Yuarwu"
+    },
+    {
+      "folder": "28",
+      "filename": "36168466.jpg",
+      "externalId": "15F6ZFBgmVMmprIRo8edkb-wx5E94b_1Z"
+    }
+  ],
+  "setlist": []
+}

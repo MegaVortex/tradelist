@@ -1,0 +1,220 @@
+{
+  "originalTitle": "W.A.S.P. - 03.11.1992 - Milan - Italy - Palasesto",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "W.A.S.P."
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "11",
+    "year": "1992"
+  },
+  "startDateUnix": 720748800,
+  "endDate": {
+    "day": "03",
+    "month": "11",
+    "year": "1992"
+  },
+  "endDateUnix": 720748800,
+  "location": {
+    "city": "Milan",
+    "state": "",
+    "country": "Italy",
+    "venue": "Palasesto",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.59,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4525,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "76",
+      "filename": "68914803.jpg",
+      "externalId": "1Mn6sMilYkhUwLFuf3Me344l07MKmNWzT"
+    },
+    {
+      "folder": "76",
+      "filename": "18326265.jpg",
+      "externalId": "1SqhGuCu1V4C0j_hs3uLVfcKrm9y0ypE5"
+    },
+    {
+      "folder": "76",
+      "filename": "45180943.jpg",
+      "externalId": "1NtJJOWZHr6N_82QBsVjBLcRnYPBRZ4IO"
+    },
+    {
+      "folder": "76",
+      "filename": "44355905.jpg",
+      "externalId": "1dTKC1p1ZblWmW8bD7ex8wNkzG4vWS1cm"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Titanic Overture",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Invisible Boy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Real Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "The Who"
+    },
+    {
+      "order": 4,
+      "song": "L.O.V.E. Machine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Chainsaw Charlie (Murders In The New Morgue)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Wild Child",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "The Idol",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "The Headless Children",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "The Great Misconceptions Of Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Hellion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "On Your Knees",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "I Don't Need No Doctor",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Nickolas Ashford"
+    },
+    {
+      "order": 13,
+      "song": "I Wanna Be Somebody",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Blind In Texas",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

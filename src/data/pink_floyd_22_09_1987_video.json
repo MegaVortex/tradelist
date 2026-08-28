@@ -1,0 +1,143 @@
+{
+  "originalTitle": "Pink Floyd - 22.09.1987 - Toronto - ON - Canada - CNE Stadium",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Pink Floyd"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "09",
+    "year": "1987"
+  },
+  "startDateUnix": 559267200,
+  "endDate": {
+    "day": "22",
+    "month": "09",
+    "year": "1987"
+  },
+  "endDateUnix": 559267200,
+  "location": {
+    "city": "Toronto",
+    "state": "ON",
+    "country": "Canada",
+    "venue": "CNE Stadium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6648,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "pink_floyd_21_09_1987_video",
+    "pink_floyd_23_09_1987_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "82788792.jpg",
+      "externalId": "1vmDY-gls7UOlEPUg-x33g0q9Z9iracd7"
+    },
+    {
+      "folder": "26",
+      "filename": "54638163.jpg",
+      "externalId": "15MQUfu6hgE4FNyZOCXn5pJo-5eKx6KdM"
+    },
+    {
+      "folder": "26",
+      "filename": "38041697.jpg",
+      "externalId": "1hsPz70eIfg4hgPQKefmg1DymblwFg-Y3"
+    },
+    {
+      "folder": "26",
+      "filename": "42718678.jpg",
+      "externalId": "1_-8gMhNQf7lhP7MkV9wVyCdJysyIHksf"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Another Brick In The Wall (Part 2) (partial)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Comfortably Numb",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "One Slip",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Run Like Hell (partial)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,188 @@
+{
+  "originalTitle": "ZZ Top - 28.05.1982 - Dortmund - Germany - Westfalenhalle",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "ZZ Top"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "05",
+    "year": "1982"
+  },
+  "startDateUnix": 391392000,
+  "endDate": {
+    "day": "28",
+    "month": "05",
+    "year": "1982"
+  },
+  "endDateUnix": 391392000,
+  "location": {
+    "city": "Dortmund",
+    "state": "",
+    "country": "Germany",
+    "venue": "Westfalenhalle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.37,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2372,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "78",
+      "filename": "31972408.jpg",
+      "externalId": "1DI6jLdEU_W8WbByyyLeGKd_VjxpmjsG1"
+    },
+    {
+      "folder": "78",
+      "filename": "28501545.jpg",
+      "externalId": "1eDgv9cH7n5nRc1QDj7UyEEHX67xtICc8"
+    },
+    {
+      "folder": "78",
+      "filename": "96666775.jpg",
+      "externalId": "10APKQHaoyJSn_I1BsiN5iD9DyKFsZNaW"
+    },
+    {
+      "folder": "78",
+      "filename": "71843764.jpg",
+      "externalId": "1gK0Ge3AW6lBYG6XB8gIqm_oLydLSkpiL"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Groovy Little Hippie Pad",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "I Thank You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Sam & Dave"
+    },
+    {
+      "order": 3,
+      "song": "Waitin' For The Bus",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Jesus Just Left Chicago",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "I'm Bad, I'm Nationwide",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Ten Foot Pole",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "I Love The Woman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Freddie King"
+    },
+    {
+      "order": 8,
+      "song": "I Believe I'll Dust My Broom",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Robert Johnson"
+    },
+    {
+      "order": 9,
+      "song": "La Grange",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Tush",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

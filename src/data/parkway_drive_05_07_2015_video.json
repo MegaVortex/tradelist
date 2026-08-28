@@ -1,0 +1,196 @@
+{
+  "originalTitle": "Parkway Drive - 05.07.2015 - Belfort - France - Presqu'ile De Malsaucy - Eurockeennes",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Parkway Drive"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "07",
+    "year": "2015"
+  },
+  "startDateUnix": 1436054400,
+  "endDate": {
+    "day": "05",
+    "month": "07",
+    "year": "2015"
+  },
+  "endDateUnix": 1436054400,
+  "location": {
+    "city": "Belfort",
+    "state": "",
+    "country": "France",
+    "venue": "Presqu'ile De Malsaucy",
+    "event": "Eurockeennes"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 860,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3251,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "HD",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "66",
+      "filename": "71010244.jpg",
+      "externalId": "14Ay-8fJnCW9VgLqke7d3zoHutZpXhQla"
+    },
+    {
+      "folder": "66",
+      "filename": "09588157.jpg",
+      "externalId": "1xy8oama98lRpglGAfX71TSg_YFa_oNzC"
+    },
+    {
+      "folder": "66",
+      "filename": "25843293.jpg",
+      "externalId": "1BZ1nk-Kr1Zo0A9ZYQmhOoAFeKwAiHrtR"
+    },
+    {
+      "folder": "66",
+      "filename": "51810742.jpg",
+      "externalId": "1qajExxXNbWaeYhOi-w3NW_w638s9jNa3"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Wild Eyes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Carrion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Karma",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Dark Days",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Deliver Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Sleepwalker",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Vice Grip",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Idols And Anchors",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Bulls On Parade",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Rage Against The Machine"
+    },
+    {
+      "order": 10,
+      "song": "Swing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Home Is For The Heartless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

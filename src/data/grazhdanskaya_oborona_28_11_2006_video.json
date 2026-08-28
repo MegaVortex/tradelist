@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Гражданская Оборона - 28.11.2006 - Хмельницкий - Украина - Областная Филармония",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Гражданская Оборона"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "11",
+    "year": "2006"
+  },
+  "startDateUnix": 1164672000,
+  "endDate": {
+    "day": "28",
+    "month": "11",
+    "year": "2006"
+  },
+  "endDateUnix": 1164672000,
+  "location": {
+    "city": "Хмельницкий",
+    "state": "",
+    "country": "Украина",
+    "venue": "Областная Филармония",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "2 cam mix.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.31,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3781,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "ru",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "10",
+      "filename": "99070645.jpg",
+      "externalId": "1DLpoHoO3XgnHU-EK8DNmFRSUXQY7qyZ0"
+    },
+    {
+      "folder": "10",
+      "filename": "98060233.jpg",
+      "externalId": "1YA7eJAOWRhmwYB1DoqfxZfAR0ib96tXt"
+    },
+    {
+      "folder": "10",
+      "filename": "03468157.jpg",
+      "externalId": "1bpXBn5DllKXnJ53NEgfpbVb8ukzLP-1-"
+    },
+    {
+      "folder": "10",
+      "filename": "43983987.jpg",
+      "externalId": "1XuwXoW6_b2JCMHUNhpwH0TD4FA3TGpx3"
+    }
+  ],
+  "setlist": []
+}

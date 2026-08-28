@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Slipknot - 27.09.2005 - Santiago - Chilie - Velodromo (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "09",
+    "year": "2005"
+  },
+  "startDateUnix": 1127779200,
+  "endDate": {
+    "day": "27",
+    "month": "09",
+    "year": "2005"
+  },
+  "endDateUnix": 1127779200,
+  "location": {
+    "city": "Santiago",
+    "state": "",
+    "country": "Chilie",
+    "venue": "Velodromo",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 49.6,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 397,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "640x480",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "Xvid",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 32000,
+        "bitrateKbps": 512,
+        "channels": 1
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "2",
+      "filename": "81164.jpg",
+      "externalId": "1N-2ocZHMDt_v3EH_BQ979o2OWJYaJIfc"
+    },
+    {
+      "folder": "2",
+      "filename": "57036.jpg",
+      "externalId": "1Givj5110aXMdiTrzyxdhPUgh136h2zgG"
+    },
+    {
+      "folder": "2",
+      "filename": "50518.jpg",
+      "externalId": "15tZMnFIjAZUbow4jQTLlj_y-Qaj4SG10"
+    },
+    {
+      "folder": "2",
+      "filename": "74320.jpg",
+      "externalId": "1lLtptHWkUzC3iTcOliSPIId20AZyI1hJ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Surfacing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

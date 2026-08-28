@@ -1,0 +1,142 @@
+{
+  "originalTitle": "Rage Against The Machine - 24.06.1994 - Glastonbury - England - Worthy Farm - Glastonbury Festival (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rage Against The Machine"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "06",
+    "year": "1994"
+  },
+  "startDateUnix": 772416000,
+  "endDate": {
+    "day": "24",
+    "month": "06",
+    "year": "1994"
+  },
+  "endDateUnix": 772416000,
+  "location": {
+    "city": "Glastonbury",
+    "state": "",
+    "country": "England",
+    "venue": "Worthy Farm",
+    "event": "Glastonbury Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.37,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2109,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "rage_against_the_machine_27_08_1993_video",
+    "rage_against_the_machine_13_07_1992_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "95939701.jpg",
+      "externalId": "1kslwH5Ssc36HhsoIRbxu4hPLMKC1-QvL"
+    },
+    {
+      "folder": "20",
+      "filename": "85347053.jpg",
+      "externalId": "1ej3WCW6UmbNlvHhTTKsNFwmHrM2GW7G_"
+    },
+    {
+      "folder": "20",
+      "filename": "76841866.jpg",
+      "externalId": "1Fq3g-CBgihlVEei2nj73xTSWUBduITQd"
+    },
+    {
+      "folder": "20",
+      "filename": "32164510.jpg",
+      "externalId": "1GWXOh5t7ya6vZ3Dc6LELbkMZKQZwdt8y"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Know Your Enemy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Bullet In The Head",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Freedom",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Hatebreed - 01.04.1998 - Montreal - QC - Canada - Le Medley",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Hatebreed"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "04",
+    "year": "1998"
+  },
+  "startDateUnix": 891388800,
+  "endDate": {
+    "day": "01",
+    "month": "04",
+    "year": "1998"
+  },
+  "endDateUnix": 891388800,
+  "location": {
+    "city": "Montreal",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "Le Medley",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.66,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1475,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "34496335.jpg",
+      "externalId": "1utlkoVugFu7qHqHdM5zcE0TG4PtXmztu"
+    },
+    {
+      "folder": "19",
+      "filename": "88002587.jpg",
+      "externalId": "1A7trpg3wmCmK68aAsypxRYFojHv8enMP"
+    },
+    {
+      "folder": "19",
+      "filename": "48830731.jpg",
+      "externalId": "1yC_QSPcg9HPw4OqTiYv62UQ2rFf2WlRT"
+    },
+    {
+      "folder": "19",
+      "filename": "81831188.jpg",
+      "externalId": "1zPgs6sqJsIG6-YPihSbBEsoHJLAz_v7z"
+    }
+  ],
+  "setlist": []
+}

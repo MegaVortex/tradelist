@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Dio - 23.11.1997 - Buenos Aires - Argentina - Estadio Obras Sanitarias - Masters Of Metal Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Dio"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "11",
+    "year": "1997"
+  },
+  "startDateUnix": 880243200,
+  "endDate": {
+    "day": "23",
+    "month": "11",
+    "year": "1997"
+  },
+  "endDateUnix": 880243200,
+  "location": {
+    "city": "Buenos Aires",
+    "state": "",
+    "country": "Argentina",
+    "venue": "Estadio Obras Sanitarias",
+    "event": "Masters Of Metal Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 594,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 789,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "41230086.jpg",
+      "externalId": "1b3KaczEw6lRSR_RyPGFY8C1FhRRAPZXT"
+    },
+    {
+      "folder": "60",
+      "filename": "16187358.jpg",
+      "externalId": "1idqWy2zeGyNYhvRzNH22S3LjoLoGJO9-"
+    },
+    {
+      "folder": "60",
+      "filename": "09544034.jpg",
+      "externalId": "1tv6EkANquR2TFVihbh_w0uYfUg34UWcC"
+    },
+    {
+      "folder": "60",
+      "filename": "73001538.jpg",
+      "externalId": "1WaSmfPnT-Jpgdr2usb5wuaJ4w0ydWwBL"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Stand Up And Shout",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Straight Through The Heart",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Don't Talk To Strangers",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

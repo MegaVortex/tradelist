@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Aborted - 11.04.2005 - Montreal - QC - Canada - Medely",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Aborted"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "04",
+    "year": "2005"
+  },
+  "startDateUnix": 1113177600,
+  "endDate": {
+    "day": "11",
+    "month": "04",
+    "year": "2005"
+  },
+  "endDateUnix": 1113177600,
+  "location": {
+    "city": "Montreal",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "Medely",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Extremely fast zooming.",
+  "tapers": [
+    "Bobby G."
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.91,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2406,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "10",
+      "filename": "31464957.jpg",
+      "externalId": "1GL5Kq6xgTMsZyR7HguTneHy3d3So8XZc"
+    },
+    {
+      "folder": "10",
+      "filename": "93631740.jpg",
+      "externalId": "1ZK9yIk1TUHYPjF3wTvf01xFUUjlIIC9H"
+    },
+    {
+      "folder": "10",
+      "filename": "23794021.jpg",
+      "externalId": "1qp9GmNmocU4mFbnZ98oHrfLvzeF370AV"
+    },
+    {
+      "folder": "10",
+      "filename": "71209962.jpg",
+      "externalId": "1IYTE3km7IUIVkGoMPSgMJ9gl64elRPK1"
+    }
+  ],
+  "setlist": []
+}

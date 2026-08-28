@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Megadeth - 05.12.1990 - Auburn Hills - MI - USA - Palace Of Auburn Hills (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Megadeth"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "12",
+    "year": "1990"
+  },
+  "startDateUnix": 660355200,
+  "endDate": {
+    "day": "05",
+    "month": "12",
+    "year": "1990"
+  },
+  "endDateUnix": 660355200,
+  "location": {
+    "city": "Auburn Hills",
+    "state": "MI",
+    "country": "USA",
+    "venue": "Palace Of Auburn Hills",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.02,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2718,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "10378496.jpg",
+      "externalId": "1fsZYk69xlqLnQv0T7jawSj7jOz69BQLu"
+    },
+    {
+      "folder": "18",
+      "filename": "90539130.jpg",
+      "externalId": "1C27O2hZc4cJmeJ6jbGjkY57iB8Y1aJzr"
+    },
+    {
+      "folder": "18",
+      "filename": "09420040.jpg",
+      "externalId": "1KyvaYeNurgJtrV7NvnE7yBwHCjcWQ1bQ"
+    },
+    {
+      "folder": "18",
+      "filename": "59879961.jpg",
+      "externalId": "1tU_KttP5OjvFUU-3O1RDKu74xOGLnWaW"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Shut Up, Be Happy (Intro)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wake Up Dead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Hook In Mouth",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Hanger 18",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "The Conjuring",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "In My Darkest Hour",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Take No Prisoners",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Holy Wars",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Peace Sells",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Anarchy In The UK",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

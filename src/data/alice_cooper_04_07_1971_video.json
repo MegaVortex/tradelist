@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Alice Cooper - 04.07.1971 - Asbury Park - NJ - USA - Sunshine Inn",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Alice Cooper"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "07",
+    "year": "1971"
+  },
+  "startDateUnix": 47433600,
+  "endDate": {
+    "day": "04",
+    "month": "07",
+    "year": "1971"
+  },
+  "endDateUnix": 47433600,
+  "location": {
+    "city": "Asbury Park",
+    "state": "NJ",
+    "country": "USA",
+    "venue": "Sunshine Inn",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Black-and-white cloured.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.17,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1922,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "03914783.jpg",
+      "externalId": "1HM10sRIbNRi_UXMPAATuXsIt3lqy0Xt2"
+    },
+    {
+      "folder": "14",
+      "filename": "57727844.jpg",
+      "externalId": "1lvkgRI2B3zzzTj0T4Gc43I9nDp2iwZsV"
+    },
+    {
+      "folder": "14",
+      "filename": "47949317.jpg",
+      "externalId": "1jS48ytaXnwzCdPa_S9i7Q1WVn6wWV4hj"
+    },
+    {
+      "folder": "14",
+      "filename": "66221276.jpg",
+      "externalId": "1MckBwvHaDrMXFJQ-oYU2RekjgbGZIbPA"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Sun Arise",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Caught In A Dream",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "I'm Eighteen",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Is It My Body?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Second Coming",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Ballad Of Dwight Fry",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Black Juju",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

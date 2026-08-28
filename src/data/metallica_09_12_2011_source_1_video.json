@@ -1,0 +1,205 @@
+{
+  "originalTitle": "Metallica - 09.12.2011 - San Francisco - CA - USA - The Fillmore (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "12",
+    "year": "2011"
+  },
+  "startDateUnix": 1323388800,
+  "endDate": {
+    "day": "09",
+    "month": "12",
+    "year": "2011"
+  },
+  "endDateUnix": 1323388800,
+  "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "venue": "The Fillmore",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "These DVDs are created using clips from Youtube. Quality is pretty good (90% of clips used were HD). Edited all in multi-angle and the result is very good. Only the rarely-live-played songs were edited and those with other artists. Menus are animated and there is an extra video... 30th Anniversary. Multicam mix. \"Hell And Back\" is a previously unreleased song from \"Death Magnetic\" sessions.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 7.33,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-9",
+        "size": 7.26,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 13656,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_07_12_2011_video",
+    "metallica_05_12_2011_source_1_video",
+    "metallica_10_12_2011_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "30",
+      "filename": "13699861.jpg",
+      "externalId": "16Y3I7ftJ0Ldt44bYGYdFf71lw8hea25Q"
+    },
+    {
+      "folder": "30",
+      "filename": "95735170.jpg",
+      "externalId": "1tHhGf2vgAgUMRY9d2TOYGUFvBCCQsqUq"
+    },
+    {
+      "folder": "30",
+      "filename": "36571986.jpg",
+      "externalId": "1_s_kN0ZUqJKBUGSyy0KQUQTNA2VHBD7g"
+    },
+    {
+      "folder": "30",
+      "filename": "36073884.jpg",
+      "externalId": "10w5Oz0tFXa9L798QWg0t4wiyfOn60Zot"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Outlaw Torn",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "I Disappear",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Tuesday's Gone  (with Gary Rossington, Pepper Keenan, Jerry Cantrell, and Jim Martin)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Lynyrd Skynyrd"
+    },
+    {
+      "order": 4,
+      "song": "Last Caress  (with Glenn Danzig) / Green Hell  (with Glenn Danzig)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Misfits"
+    },
+    {
+      "order": 5,
+      "song": "Die, Die My Darling  (with Glenn Danzig)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Misfits"
+    },
+    {
+      "order": 6,
+      "song": "Suicide & Redemption",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Rapid Fire  (with Rob Halford)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Judas Priest"
+    },
+    {
+      "order": 8,
+      "song": "So What?!  (with Animal)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Anti-Nowhere League"
+    },
+    {
+      "order": 9,
+      "song": "Nothing Else Matters",
+      "feat": "Jerry Cantrell",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Hell And Back",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Fight Fire With Fire",
+      "feat": "Jason Newsted",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

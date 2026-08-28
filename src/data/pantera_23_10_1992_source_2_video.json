@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Pantera - 23.10.1992 - Duesseldorf - Germany - Phillipshalle (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Pantera"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "10",
+    "year": "1992"
+  },
+  "startDateUnix": 719798400,
+  "endDate": {
+    "day": "23",
+    "month": "10",
+    "year": "1992"
+  },
+  "endDateUnix": 719798400,
+  "location": {
+    "city": "Duesseldorf",
+    "state": "",
+    "country": "Germany",
+    "venue": "Phillipshalle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.56,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 4415,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "63",
+      "filename": "84888266.jpg",
+      "externalId": "1RKTqO05U7C3zuu2t-kIVpBdzTpqFEA2k"
+    },
+    {
+      "folder": "63",
+      "filename": "64577246.jpg",
+      "externalId": "1gK1Qmt6MuxvzpIeotE7BEsbhl_46MaFy"
+    },
+    {
+      "folder": "63",
+      "filename": "84532928.jpg",
+      "externalId": "1ArhwkRvjLUqQ7dWuMSrDbKvd4VQoE77v"
+    },
+    {
+      "folder": "63",
+      "filename": "34123210.jpg",
+      "externalId": "1fKzIN2ojTuRu7BUxma1-zx5rg5CkgyTI"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "A New Level",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Walk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Mouth For War",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Domination",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "This Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Fucking Hostile",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Primal Concrete Sledge",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Cowboys From Hell",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

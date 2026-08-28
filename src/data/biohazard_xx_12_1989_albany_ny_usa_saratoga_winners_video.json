@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Biohazard - xx.12.1989 - Albany - NY - USA - Saratoga Winners",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Biohazard"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "12",
+    "year": "1989"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "12",
+    "year": "1989"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Albany",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Saratoga Winners",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.55,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 6260,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "biohazard_16_02_1990_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "30",
+      "filename": "77538732.jpg",
+      "externalId": "1Qvdr9TG1gHg7N1vhhlj4-23U2tOSjFbZ"
+    },
+    {
+      "folder": "30",
+      "filename": "87314975.jpg",
+      "externalId": "1WlZViacqRnBsQA-VA0eDCuZbKJGr2bQu"
+    },
+    {
+      "folder": "30",
+      "filename": "47450065.jpg",
+      "externalId": "1gOIT-2nCK6treWpt9LULXP7GkylcR8Vd"
+    },
+    {
+      "folder": "30",
+      "filename": "00268990.jpg",
+      "externalId": "1H8mHZ3F2DDp4JbRipCPFEl46Qf-e_qrD"
+    }
+  ],
+  "setlist": []
+}

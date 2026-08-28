@@ -1,0 +1,147 @@
+{
+  "originalTitle": "Lamb Of God - 05.07.2015 - Lobnitz - Germany - Flugplatz Roitzschjora - With Full Force",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Lamb Of God"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "07",
+    "year": "2015"
+  },
+  "startDateUnix": 1436054400,
+  "endDate": {
+    "day": "05",
+    "month": "07",
+    "year": "2015"
+  },
+  "endDateUnix": 1436054400,
+  "location": {
+    "city": "Lobnitz",
+    "state": "",
+    "country": "Germany",
+    "venue": "Flugplatz Roitzschjora",
+    "event": "With Full Force"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 901,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 900,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 1
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "62",
+      "filename": "06850995.jpg",
+      "externalId": "1aQZtuhPSb-Uzx1lAONx44a5wF0WV6QCZ"
+    },
+    {
+      "folder": "62",
+      "filename": "00834049.jpg",
+      "externalId": "1st_c-r2ibZFMVRM7ZRRtj0DWMBak8dxA"
+    },
+    {
+      "folder": "62",
+      "filename": "00257065.jpg",
+      "externalId": "1ZEkFg0cvuhO9Yux8rtDUD-jEty8LcE33"
+    },
+    {
+      "folder": "62",
+      "filename": "67102519.jpg",
+      "externalId": "1Yr-Ty8grcpBfQwPpQqnp7Qk5cwS2aj7t"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Randy",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "512",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Still Echoes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Redneck",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

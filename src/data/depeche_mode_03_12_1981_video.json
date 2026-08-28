@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Depeche Mode - 03.12.1981 - Chichester - England - TVS Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Depeche Mode"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "12",
+    "year": "1981"
+  },
+  "startDateUnix": 376185600,
+  "endDate": {
+    "day": "03",
+    "month": "12",
+    "year": "1981"
+  },
+  "endDateUnix": 376185600,
+  "location": {
+    "city": "Chichester",
+    "state": "",
+    "country": "England",
+    "venue": "TVS Show",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Last gig with Vince Clarke.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 768,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1442,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "90882005.jpg",
+      "externalId": "1cL4QTHxDe1fp4VjI7XAJoYoXWVByd7Ht"
+    },
+    {
+      "folder": "20",
+      "filename": "89582577.jpg",
+      "externalId": "1y-ABoAV-_eCMbY9-k0ANUYiFzFE4Q1Ap"
+    },
+    {
+      "folder": "20",
+      "filename": "30553818.jpg",
+      "externalId": "19fB-DvfK53GWXGfFJFPQKd0Rl3bi7JU4"
+    },
+    {
+      "folder": "20",
+      "filename": "40944021.jpg",
+      "externalId": "1HsNi0q9qhCv6Ted1DMEhUjnXIkvsvALU"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Photographic",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "New Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Puppets",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "I Sometimes Wish I Was Dead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Tora! Tora! Tora!",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Just Can't Get Enough",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Boys Say Go!",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "What's Your Name?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

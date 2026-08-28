@@ -1,0 +1,345 @@
+---
+permalink: "/comp/"
+---
+{% extends "base.njk" %}
+{% block title %}Compilations{% endblock %}
+{% block content %}
+<div class="table-wrapper">
+   <div id="letter-bar" class="letter-bar"></div>
+   <div id="band-pills" class="d-flex flex-wrap gap-2 justify-content-center my-2" style="display:none;"></div>
+</div>
+   <div class="table-wrapper">
+      <div id="letter-bar" class="letter-bar"></div>
+      <div id="band-pills" class="d-flex flex-wrap gap-2 justify-content-center my-2" style="display:none;"></div>
+   </div>
+   <div class="filters-row">
+     <p id="show-count" class="show-counter">🎫 Shows:
+       <span id="show-count-number">{{ allShowData.publicCompilationShows | length }}</span>
+     </p>
+   </div>
+<table id="shows-table">
+   <thead>
+      <tr>
+         <th>Artists</th>
+         <th>Start Date</th>
+         <th>End Date</th>
+         <th>Title</th>
+         <th>Length</th>
+         <th>Size</th>
+         <th>Format</th>
+         <th>Type</th>
+         <th>Source</th>
+         <th>Taper(s)</th>
+         <th>Pics</th>
+         <th>Page</th>
+         <th>🛒</th>
+         {% if environment == "dev" %}
+            <th>Edit</th>
+         {% endif %}
+      </tr>
+   </thead>
+   <tbody>
+      {% for show in allShowData.publicCompilationShows %}
+      <tr class="paginated-show" data-band="{{ show.bands | join('|||') }}" data-title="{{ show.showName | escape }}" data-show="{{ show | dump | escape }}">
+         <td class="artist-cell">
+           {% if show.bands and show.bands.length %}
+             {% set bands = show.bands %}
+         
+             <div class="media-wrapper media-wrapper-left">
+               <span>{{ bands[0] }}</span>
+         
+               {% if bands.length > 1 %}
+                 <button
+                   type="button"
+                   class="count-badge toggle-media"
+                   data-target="bands-{{ loop.index0 }}"
+                   aria-expanded="false"
+                   title="Show {{ bands.length - 1 }} more artist{{ '' if (bands.length - 1) == 1 else 's' }}"
+                 >+{{ bands.length - 1 }}</button>
+               {% endif %}
+             </div>
+         
+             {% if bands.length > 1 %}
+               <div id="bands-{{ loop.index0 }}" class="extra-media">
+                 {% for name in bands.slice(1) %}
+                   <div>{{ name }}</div>
+                 {% endfor %}
+               </div>
+             {% endif %}
+           {% else %}
+             —
+           {% endif %}
+         </td>
+         <td>
+            {% if show.startDateUnix %}
+            {{ show.startDateUnix | date("yyyy-MM-dd") }}
+            {% elif show.startDate %}
+            {% set sd = show.startDate %}
+            {% set day = sd.day | toInt %}
+            {% set month = sd.month | toInt %}
+            {% set year = sd.year | toInt %}
+            {% if day and month and year %}
+            {{ year }}-{{ month | padStart(2) }}-{{ day | padStart(2) }}
+            {% elif month and year %}
+            {{ year }}-{{ month | padStart(2) }}
+            {% elif year %}
+            {{ year }}
+            {% else %}
+            —
+            {% endif %}
+            {% else %}
+            —
+            {% endif %}
+         </td>
+         <td>
+            {% if show.endDateUnix %}
+            {{ show.endDateUnix | date("yyyy-MM-dd") }}
+            {% elif show.endDate %}
+            {% set ed = show.endDate %}
+            {% set day = ed.day | toInt %}
+            {% set month = ed.month | toInt %}
+            {% set year = ed.year | toInt %}
+            {% if day and month and year %}
+            {{ year }}-{{ month | padStart(2) }}-{{ day | padStart(2) }}
+            {% elif month and year %}
+            {{ year }}-{{ month | padStart(2) }}
+            {% elif year %}
+            {{ year }}
+            {% else %}
+            —
+            {% endif %}
+            {% else %}
+            —
+            {% endif %}
+         </td>
+         <td>
+            {% if show.location.event and show.showName %}
+            {{ show.location.event }}<br>{{ show.showName }}
+            {% elif show.location.event %}
+            {{ show.location.event }}
+            {% elif show.showName %}
+            {{ show.showName }}
+            {% else %}
+            —
+            {% endif %}
+         </td>
+         <td>
+            {% if show.specs and show.specs.length %}
+            {{ show.specs.length | formatTime }}
+            {% else %}
+            —
+            {% endif %}
+         </td>
+         <td class="size-cell">
+           {% if show.specs and show.specs.media and show.specs.media.length %}
+             {% set media = show.specs.media %}
+             {% set main = media[0] %}
+         
+             <div class="media-wrapper">
+               <span>{{ main.size | smartSize }}{{ main.unit }}</span>
+         
+               {% if media.length > 1 %}
+                 <button
+                   type="button"
+                   class="count-badge toggle-media"
+                   data-target="media-{{ loop.index0 }}"
+                   aria-expanded="false"
+                   title="Show {{ media.length - 1 }} more size{{ '' if (media.length - 1) == 1 else 's' }}"
+                 >
+                   +{{ media.length - 1 }}
+                 </button>
+               {% endif %}
+             </div>
+         
+             {% if media.length > 1 %}
+               <div id="media-{{ loop.index0 }}" class="extra-media">
+                 {% for medium in media.slice(1) %}
+                   <div>{{ medium.size | smartSize }}{{ medium.unit }}</div>
+                 {% endfor %}
+               </div>
+             {% endif %}
+           {% else %}
+             —
+           {% endif %}
+         </td>
+         <td class="format-cell">
+            <span class="format-value-other">{{ show.specs.sourceDetail.fileFormat if show.specs and show.specs.sourceDetail else "—" }}</span>
+         </td>
+         <td class="type-cell">
+            {% if show.specs and show.specs.sourceDetail %}
+            {{ show.specs.sourceDetail.recordingType or "—" }}
+            {% if show.category == "audio" %}
+            <span class="type-label audio-label">a</span>
+            {% elif "misc" in show.category %}
+            <span class="type-label misc-label">m</span>
+            {% elif "video" in show.category %}
+            <span class="type-label video-label">v</span>
+            {% endif %}
+            {% else %}
+            —
+            {% endif %}
+         </td>
+         <td class="type-cell">
+            {{ show.source or "—" }}
+            {% if show.fileSlug and 'show_1' in show.fileSlug %}
+            <span class="show-label">1</span>
+            {% elif show.fileSlug and 'show_2' in show.fileSlug %}
+            <span class="show-label">2</span>
+            {% endif %}
+            {% if show.master == true or (show.tapers and show.tapers.length == 1 and show.tapers[0] == "Vortex") %}
+            <span class="trade-label master">M</span>
+            {% endif %}
+         </td>
+         <td class="taper-cell">
+           {% if show.tapers and show.tapers.length %}
+             {% set tapers = show.tapers %}
+             <div class="media-wrapper">
+               <span>{{ tapers[0] }}</span>
+         
+               {% if tapers.length > 1 %}
+                 <button
+                   type="button"
+                   class="count-badge toggle-media"
+                   data-target="tapers-{{ loop.index0 }}"
+                   aria-expanded="false"
+                   title="Show {{ tapers.length - 1 }} more taper{{ '' if (tapers.length - 1) == 1 else 's' }}"
+                 >+{{ tapers.length - 1 }}</button>
+               {% endif %}
+             </div>
+         
+             {% if tapers.length > 1 %}
+               <div id="tapers-{{ loop.index0 }}" class="extra-media">
+                 {% for t in tapers.slice(1) %}
+                   <div>{{ t }}</div>
+                 {% endfor %}
+               </div>
+             {% endif %}
+           {% else %}
+             —
+           {% endif %}
+         
+           {% if show.tradeLabel == 'RT' %}
+             <span class="trade-label red">RT</span>
+           {% elif show.tradeLabel == 'NT' %}
+             <span class="trade-label blue">NT</span>
+           {% endif %}
+         </td>
+         <td>
+            {% if show.images and show.images.length %}
+            {% set firstImg = show.images[0] %}
+            <span
+               role="button"
+               title="View images"
+               style="cursor: pointer; font-size: 15px;"
+               onclick='openModal("{{ firstImg.externalId }}", {{ show.images | dump | safe }})'
+               >📷</span>
+            {% else %}
+            —
+            {% endif %}
+         </td>
+         <td class="page-cell">
+            <a href="{{ show.permalink | url }}" target="_blank" rel="noopener noreferrer" title="View info" style="font-size: 1.20em;">🎫</a>
+         </td>
+			<td>
+				{% if show.tradeLabel == 'NT' %}
+					<button
+						class="btn btn-sm btn-outline-secondary disabled"
+						style="font-size: 0.6rem; padding: 2px 6px;"
+						disabled
+						title="Not available for trade"
+						>➕</button>
+				{% else %}
+					<button
+						class="btn btn-sm btn-outline-success add-to-cart"
+						style="font-size: 0.6rem; padding: 2px 6px;"
+						data-id="{{ show.fileSlug }}"
+						data-json="{{ show | dump | urlencode }}"
+						title="Add to trade cart"
+						>➕</button>
+				{% endif %}
+			</td>
+            {% if environment == "dev" %}
+               <td>
+                  <button
+				  onclick="openJsonEditor('{{ show.fileSlug }}', 'compilation')"
+				  class="btn btn-sm btn-outline-secondary"
+				  style="font-size: 0.6rem; padding: 2px 6px;"
+				  >✏️</button>
+               </td>
+            {% endif %}
+      </tr>
+      {% endfor %}
+	  <script src="{{ '/scripts/comp-shows-filter.js' | url }}"></script>
+   </tbody>
+</table>
+{% include "modals/json-editor-modal.njk" %}
+<script src="{{ '/scripts/json-editor.js' | url }}"></script>
+<div id="pagination-controls" class="my-3"></div>
+<script src="{{ '/scripts/hammer.min.js' | url }}"></script>
+{% include "modals/cart-modal.njk" %}
+{% include "modals/image-modal.njk" %}
+   <script src="{{ '/scripts/video-quality-label.js' | url }}"></script>
+   <script>
+      (function () {
+         const rows = document.querySelectorAll('#shows-table tbody tr[data-show]');
+         rows.forEach(tr => {
+            const raw = tr
+               .getAttribute('data-show')
+               .replaceAll('&quot;', '"')
+               .replaceAll('&#39;', "'")
+               .replaceAll('&amp;', '&');
+            let show;
+            try {
+               show = JSON.parse(raw);
+            } catch  {
+               return;
+            }
+            const td = tr.children[6];
+            if (!td) 
+               return;
+            td
+               .classList
+               .add('format-cell');
+            const valEl = td.querySelector('.format-value-other');
+            const current = valEl
+               ? valEl.innerHTML
+               : (td.textContent || '—');
+            td.innerHTML = `<span class="format-value-other">${current}</span>${buildResolutionBadges(show)}`;
+         });
+      })();
+   </script>
+   <script>
+     (function () {
+       const TWO_WEEKS_SEC = 14 * 24 * 60 * 60;
+       const nowSec = Math.floor(Date.now() / 1000);
+     
+       const rows = document.querySelectorAll('#shows-table tbody tr[data-show]');
+       rows.forEach(tr => {
+         const raw = tr.getAttribute('data-show')
+           .replaceAll('&quot;', '"')
+           .replaceAll('&#39;', "'")
+           .replaceAll('&amp;', '&');
+         let show;
+         try { show = JSON.parse(raw); } catch { return; }
+         const pageTd = tr.children[11];
+         if (!pageTd) return;
+         pageTd.classList.add('page-cell');
+     
+         const created = Number(show?.created);
+         const isNew = Number.isFinite(created) && (nowSec - created) <= TWO_WEEKS_SEC;
+     
+         if (isNew) {
+           pageTd.insertAdjacentHTML('beforeend', '<span class="new-label">NEW</span>');
+         }
+       });
+     })();
+   </script>
+<script src="{{ '/scripts/comp-shows-table.js' | url }}"></script>
+<script src="{{ '/scripts/cart.js' | url }}"></script>
+<script src="{{ '/scripts/image-modal-viewer.js' | url }}"></script>
+<script src="{{ '/scripts/media-extras-toggle.js' | url }}"></script>
+<script>
+   window.allShowsData = {{ allShowData.publicCompilationShows | dump | safe }};
+</script>
+</div>
+{% endblock %}

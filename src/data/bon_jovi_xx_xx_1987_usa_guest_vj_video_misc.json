@@ -1,0 +1,125 @@
+{
+  "originalTitle": "Bon Jovi - xx.xx.1987 - USA - 'Guest VJ' [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1987"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1987"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "USA",
+    "state": "",
+    "country": "'Guest VJ'",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 276,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 512,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "bon_jovi_xx_xx_1988_sayerville_nj_usa_video_misc",
+    "bon_jovi_xx_xx_1988_nj_usa_mtv_notes_video_misc",
+    "bon_jovi_xx_xx_1989_usa_mtv_news_video_misc",
+    "bon_jovi_xx_xx_1987_australia_molly_meldrum_show_video_misc",
+    "bon_jovi_xx_xx_1987_usa_mtv_special_video_misc",
+    "bon_jovi_xx_xx_1992_usa_past_present_future_video_misc",
+    "bon_jovi_xx_xx_1987_usa_rock_against_drugs_video_misc"
+  ],
+  "childOf": "bon_jovi_xx_xx_xxxx_misc_1_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "77",
+      "filename": "06790827.jpg",
+      "externalId": "19UeJOOhmR7iuOwmR5aU2yGF9zBXrOocf"
+    },
+    {
+      "folder": "77",
+      "filename": "40358742.jpg",
+      "externalId": "1IkunueUp3mIeNKUoDRc26olJOBCM-pJE"
+    },
+    {
+      "folder": "77",
+      "filename": "37471426.jpg",
+      "externalId": "1lWh3983WRfTugFktXwlZYqyfo_YA-tuY"
+    },
+    {
+      "folder": "77",
+      "filename": "64549417.jpg",
+      "externalId": "1M52H_25N1o7yVvlztHqejlv7EJ5xKXvZ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

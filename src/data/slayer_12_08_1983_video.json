@@ -1,0 +1,182 @@
+{
+  "originalTitle": "Slayer - 12.08.1983 - Anaheim - CA - USA - Woodstock",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slayer"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "08",
+    "year": "1983"
+  },
+  "startDateUnix": 429494400,
+  "endDate": {
+    "day": "12",
+    "month": "08",
+    "year": "1983"
+  },
+  "endDateUnix": 429494400,
+  "location": {
+    "city": "Anaheim",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Woodstock",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Authored, mixed and remastered by Demolition.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.52,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2256,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "slayer_27_08_1983_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "55",
+      "filename": "93815925.jpg",
+      "externalId": "1OSyojX8Ra1K-lBILXDin_j6lmCW31G0V"
+    },
+    {
+      "folder": "55",
+      "filename": "42879278.jpg",
+      "externalId": "1vFba5Hef-nSdfAGr17bx_BlopDHP3UFF"
+    },
+    {
+      "folder": "55",
+      "filename": "60425532.jpg",
+      "externalId": "1plIlBRs7pEOrRyNlUfbZZJf2oQIH-HJs"
+    },
+    {
+      "folder": "55",
+      "filename": "25077656.jpg",
+      "externalId": "1cJwzLxs5KriKg7u8yQiJxKXgo3c5zXI0"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Evil Has No Boundaries",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Crionics",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Show No Mercy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Antichrist",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Black Magic",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Die By Sworld",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Tormentor",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "The High Priestless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Agressive Perfector",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

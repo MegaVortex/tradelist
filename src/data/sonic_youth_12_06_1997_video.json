@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Sonic Youth - 12.06.1997 - New York - NY - USA - West 54th St. Studios",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sonic Youth"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "06",
+    "year": "1997"
+  },
+  "startDateUnix": 866073600,
+  "endDate": {
+    "day": "12",
+    "month": "06",
+    "year": "1997"
+  },
+  "endDateUnix": 866073600,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "West 54th St. Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "PBS sessions.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.97,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1747,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "82",
+      "filename": "83306881.jpg",
+      "externalId": "1JP0a4nE2uaILH_6QaOMcbVrf2ePFBm57"
+    },
+    {
+      "folder": "82",
+      "filename": "70562585.jpg",
+      "externalId": "131EYRQcDGCqQTzFo8DB_RSxhHMq3MDMp"
+    },
+    {
+      "folder": "82",
+      "filename": "25177055.jpg",
+      "externalId": "19DUTRKDg2iTl34OhzW3oTGA6ATH_aWCD"
+    },
+    {
+      "folder": "82",
+      "filename": "78670396.jpg",
+      "externalId": "1lNIozBwYgirDLJwfSWRPhomsLub_FK6u"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Anagrama",
+      "feat": "",
+      "note": "not broadcasted",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Ineffable Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Wildflower Soul",
+      "feat": "",
+      "note": "not broadcasted",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Stil",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Female Mechanic Now On Duty",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Hits Of Sunshine (For Allen Ginsberg) (not broadcasted)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

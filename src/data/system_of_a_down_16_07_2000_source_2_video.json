@@ -1,0 +1,109 @@
+{
+  "originalTitle": "System Of A Down - 16.07.2000 - Phoenix - AZ - USA - Desert Sky Pavilion (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "System Of A Down"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "07",
+    "year": "2000"
+  },
+  "startDateUnix": 963705600,
+  "endDate": {
+    "day": "16",
+    "month": "07",
+    "year": "2000"
+  },
+  "endDateUnix": 963705600,
+  "location": {
+    "city": "Phoenix",
+    "state": "AZ",
+    "country": "USA",
+    "venue": "Desert Sky Pavilion",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.76,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1607,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "system_of_a_down_11_04_1999_source_1_video",
+    "system_of_a_down_18_01_1999_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "26499301.jpg",
+      "externalId": "1aHt8dONcDdXv7X5sL8Ipzu4SXx6p138c"
+    },
+    {
+      "folder": "6",
+      "filename": "17074938.jpg",
+      "externalId": "1aq9XcCnPMC9RYf6kD8rZvmnxD6wbLwI_"
+    },
+    {
+      "folder": "6",
+      "filename": "84305539.jpg",
+      "externalId": "1CJiixMVJmUmTTWQxM7TK3suJqi_GdTED"
+    },
+    {
+      "folder": "6",
+      "filename": "51063622.jpg",
+      "externalId": "1broyOmbml0PmkR2KaW1-gyn78oaRdRg8"
+    }
+  ],
+  "setlist": []
+}

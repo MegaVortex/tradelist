@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Foo Fighters - 30.05.2004 - Lisbon - Portugal - Bela Vista Park - Rock In Rio (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "05",
+    "year": "2004"
+  },
+  "startDateUnix": 1085875200,
+  "endDate": {
+    "day": "30",
+    "month": "05",
+    "year": "2004"
+  },
+  "endDateUnix": 1085875200,
+  "location": {
+    "city": "Lisbon",
+    "state": "",
+    "country": "Portugal",
+    "venue": "Bela Vista Park",
+    "event": "Rock In Rio"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "PRO#1b.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.35,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1164,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "1920x1088",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 5
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "26930659.jpg",
+      "externalId": "1LSycNOH9sBLaqOsKRCOW8j3xEvjLXLHi"
+    },
+    {
+      "folder": "26",
+      "filename": "93578202.jpg",
+      "externalId": "1fek3axHeUOejz0lxSNvb09lURw4UuW4Y"
+    },
+    {
+      "folder": "26",
+      "filename": "37660790.jpg",
+      "externalId": "1iMOzq47kD-_Pj1UZGtbFucyRFtT2c-SB"
+    },
+    {
+      "folder": "26",
+      "filename": "93400545.jpg",
+      "externalId": "1va4FjMw2zJYHwLd_XDjxgThAhonl2al0"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "All My Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Stacked Actors",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Everlong",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

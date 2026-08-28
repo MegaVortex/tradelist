@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Stone Temple Pilots - 12.08.1999 - Las Vegas - NV - USA - House Of Blues",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Stone Temple Pilots"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "08",
+    "year": "1999"
+  },
+  "startDateUnix": 934416000,
+  "endDate": {
+    "day": "12",
+    "month": "08",
+    "year": "1999"
+  },
+  "endDateUnix": 934416000,
+  "location": {
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "venue": "House Of Blues",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.55,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2537,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "82457295.jpg",
+      "externalId": "1vAx4uQux-sCRwAWcshToJY_R4ZlTXUbQ"
+    },
+    {
+      "folder": "18",
+      "filename": "49651159.jpg",
+      "externalId": "11k5MMwSo9yuBeZaGOk1UfWl8xI8j4Wic"
+    },
+    {
+      "folder": "18",
+      "filename": "31416196.jpg",
+      "externalId": "1JBuVefEIX7luBA91nLIolcSOXeurQQGE"
+    },
+    {
+      "folder": "18",
+      "filename": "52418695.jpg",
+      "externalId": "1W4QNTl45tsnJpy_IckqaMRWpo8upyyB0"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Crackerman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Vasoline",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Wicked Garden",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Interstate Lovesong",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Down",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Plush",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Trippin On A Hole",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Unglued",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Dead And Bloated",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Sex Type Thing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Limp Bizkit - 04.02.1998 - Tokyo - Japan - Air West Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "02",
+    "year": "1998"
+  },
+  "startDateUnix": 886550400,
+  "endDate": {
+    "day": "04",
+    "month": "02",
+    "year": "1998"
+  },
+  "endDateUnix": 886550400,
+  "location": {
+    "city": "Tokyo",
+    "state": "",
+    "country": "Japan",
+    "venue": "",
+    "event": "Air West Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.55,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2172,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "11",
+      "filename": "04545108.jpg",
+      "externalId": "1ijqoKvh5Xgvti23wytYRK4V2VOJHyiqj"
+    },
+    {
+      "folder": "11",
+      "filename": "63292518.jpg",
+      "externalId": "1aPW4ih8C04NMm1tdv-CqycyI3nregQ_t"
+    },
+    {
+      "folder": "11",
+      "filename": "67418979.jpg",
+      "externalId": "1RD43YZMPWcltEVYjR5V3NHg-8hl0ltmU"
+    },
+    {
+      "folder": "11",
+      "filename": "50669437.jpg",
+      "externalId": "1b7_cGWJbq_AauGT8ITpRvMcEfY9sZREs"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Stuck",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Pollution",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "I Would For You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Counterfeit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Faith",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

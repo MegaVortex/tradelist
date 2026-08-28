@@ -1,0 +1,166 @@
+{
+  "originalTitle": "Bon Jovi - 05.09.2002 - New York - NY - USA - Times Square (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "09",
+    "year": "2002"
+  },
+  "startDateUnix": 1031184000,
+  "endDate": {
+    "day": "05",
+    "month": "09",
+    "year": "2002"
+  },
+  "endDateUnix": 1031184000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Times Square",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1014,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1746,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "bon_jovi_05_09_2002_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "23",
+      "filename": "76785307.jpg",
+      "externalId": "14nS564-iPQ_CqkkKq3t2D09G01lagGEO"
+    },
+    {
+      "folder": "23",
+      "filename": "57762226.jpg",
+      "externalId": "1JJPhq_ACfBXGx7qy6llLJZFD1nl1tsqD"
+    },
+    {
+      "folder": "23",
+      "filename": "61701232.jpg",
+      "externalId": "1G0wP2uiG2cM7FoPyTfczi_gRmfbnjlGV"
+    },
+    {
+      "folder": "23",
+      "filename": "44154229.jpg",
+      "externalId": "1V1Pdt0eOfn7XU7JpxfeynsaoLnDL-oMD"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "It's My Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Livin' On A Prayer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "You Give Love A Bad Name",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Everyday",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Undivided",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "America The Beautiful",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Interviews",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

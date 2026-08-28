@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Mudvayne - 24.02.2006 - Bakersfield - CA - USA - Rabobank Arena",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Mudvayne"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "02",
+    "year": "2006"
+  },
+  "startDateUnix": 1140739200,
+  "endDate": {
+    "day": "24",
+    "month": "02",
+    "year": "2006"
+  },
+  "endDateUnix": 1140739200,
+  "location": {
+    "city": "Bakersfield",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Rabobank Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.77,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2345,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "10",
+      "filename": "09511830.jpg",
+      "externalId": "1Srx2Q61rQeULn9nzXar2ydoxpKNZ6fu_"
+    },
+    {
+      "folder": "10",
+      "filename": "02097470.jpg",
+      "externalId": "1cYt3NsfS-FV0SmOL_axOiEPKRPwLxBgk"
+    },
+    {
+      "folder": "10",
+      "filename": "45966992.jpg",
+      "externalId": "1SEoNQo8m6Lz7n5giSYxzwtTXMn4tMcGi"
+    },
+    {
+      "folder": "10",
+      "filename": "16298050.jpg",
+      "externalId": "1dtZwKsSM2LBM1tI_nj5UwT515s16GU3u"
+    }
+  ],
+  "setlist": []
+}

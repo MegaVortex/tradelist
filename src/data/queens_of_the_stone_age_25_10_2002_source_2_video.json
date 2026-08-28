@@ -1,0 +1,135 @@
+{
+  "originalTitle": "Queens Of The Stone Age - 25.10.2002 - London - England - BBC Television Centre - Jools Holland Show (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "10",
+    "year": "2002"
+  },
+  "startDateUnix": 1035504000,
+  "endDate": {
+    "day": "25",
+    "month": "10",
+    "year": "2002"
+  },
+  "endDateUnix": 1035504000,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Television Centre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jools Holland Show",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Broadcasted on october 26th.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.35,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4441,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "queens_of_the_stone_age_27_11_1998_video",
+    "queens_of_the_stone_age_08_06_2003_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "32",
+      "filename": "69818507.jpg",
+      "externalId": "1L-H6rBZxVKKpCWWktYS3bfKfw0QzbNAG"
+    },
+    {
+      "folder": "32",
+      "filename": "85596055.jpg",
+      "externalId": "1H32SfdTdRxdnRBae55vYXEM0z3VWE6q7"
+    },
+    {
+      "folder": "32",
+      "filename": "58286938.jpg",
+      "externalId": "1uoN5_QsoJrluZPMq8byIEWEq2lmN_Kl-"
+    },
+    {
+      "folder": "32",
+      "filename": "42301360.jpg",
+      "externalId": "112m0deNdGks2fjBt5ADoOIRhPE76V1dC"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "No One Knows",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "You Think I Ain't Worth A Dollar, But I Feel Like A Millionaire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Lost Art Of Keeping A Secret",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

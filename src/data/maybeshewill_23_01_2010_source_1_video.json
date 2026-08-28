@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Maybeshewill - 23.01.2010 - St. Petersburg - Russia - Tantcy (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Maybeshewill"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "01",
+    "year": "2010"
+  },
+  "startDateUnix": 1264204800,
+  "endDate": {
+    "day": "23",
+    "month": "01",
+    "year": "2010"
+  },
+  "endDateUnix": 1264204800,
+  "location": {
+    "city": "St. Petersburg",
+    "state": "",
+    "country": "Russia",
+    "venue": "Tantcy",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "AMT#1.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.06,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 3418,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "57076289.jpg",
+      "externalId": "1AarKCLt0R0WxyZd1GMHVjsywZwLclHSx"
+    },
+    {
+      "folder": "70",
+      "filename": "26507665.jpg",
+      "externalId": "12Oiv4uWoEs2ySLUEHi0uGsmoyzr70W3X"
+    },
+    {
+      "folder": "70",
+      "filename": "78111612.jpg",
+      "externalId": "156S-kGkQ4n13inKP8w0AxjCiyxBE0MIW"
+    },
+    {
+      "folder": "70",
+      "filename": "37308067.jpg",
+      "externalId": "1CtMVxRMnJuUG6S_-Q3WTFALlJCUmQ8At"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,167 @@
+{
+  "originalTitle": "Poison The Well - 07.01.2001 - New York - NY - USA - CBGB's",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Poison The Well"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "01",
+    "year": "2001"
+  },
+  "startDateUnix": 978825600,
+  "endDate": {
+    "day": "07",
+    "month": "01",
+    "year": "2001"
+  },
+  "endDateUnix": 978825600,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "CBGB's",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.19,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1654,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "poison_the_well_28_07_2001_video",
+    "poison_the_well_16_04_2002_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "22",
+      "filename": "93524206.jpg",
+      "externalId": "1qaxroeKSabenCy6L9CnNk8xzWALLlEyg"
+    },
+    {
+      "folder": "22",
+      "filename": "06320260.jpg",
+      "externalId": "1C_JkXBiGKdcJpvy9mqqqk7cwNVDyKWmv"
+    },
+    {
+      "folder": "22",
+      "filename": "50914656.jpg",
+      "externalId": "1p2MLzDe-UePsnOW6TX6WPTvvn-3D6sfi"
+    },
+    {
+      "folder": "22",
+      "filename": "65406066.jpg",
+      "externalId": "1GZJfnK06t4ETta-ygiXvQfquRasBHx-G"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Slice Paper Wrists",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "12-23-93",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Sticks And Stones Never Made Sense",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "A Wish For Wings That Work",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Nerdy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "My Mirror No Longer Reflects",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Artist's Rendering Of Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

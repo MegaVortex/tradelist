@@ -1,0 +1,197 @@
+{
+  "originalTitle": "The Who - 21.07.1989 - East Troy - WI - USA - Alpine Valley",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Who"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "07",
+    "year": "1989"
+  },
+  "startDateUnix": 616982400,
+  "endDate": {
+    "day": "21",
+    "month": "07",
+    "year": "1989"
+  },
+  "endDateUnix": 616982400,
+  "location": {
+    "city": "East Troy",
+    "state": "WI",
+    "country": "USA",
+    "venue": "Alpine Valley",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "A Gold Hawk Production.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.41,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1828,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "39",
+      "filename": "19273978.jpg",
+      "externalId": "1lLyoKZoJsKlxIFydqgwvxbLh6XSTbC1k"
+    },
+    {
+      "folder": "39",
+      "filename": "86388663.jpg",
+      "externalId": "1klBFipeeARDfFrFRiDSbwahvxIKvQHNE"
+    },
+    {
+      "folder": "39",
+      "filename": "97005394.jpg",
+      "externalId": "1CwahDI_gFsZShee7BFnwIgrIKFqT7lK8"
+    },
+    {
+      "folder": "39",
+      "filename": "82579332.jpg",
+      "externalId": "1Lthixy2fuRtuNupbgxBvdk5RpElzqiPa"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Overture",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "It's A Boy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "1921",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Amazing Journey",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Sparks",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Acid Queen",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Pinball Wizard",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "We're Not Gonna Take It",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "News Report - 22.06.1989 - Glens Falls Opening Night Show Reports",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 2,
+      "song": "MTV's The Week In Rock - xx.06.1989 - Glens Falls Show Report",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    },
+    {
+      "order": 2,
+      "song": "MTV's The Week In Rock - xx.06.1989 - Glens Falls Show Report",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

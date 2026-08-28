@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Lamb Of God - 06.05.2001 - Montreal - QC - Canada - Le Spectrum",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Lamb Of God"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "05",
+    "year": "2001"
+  },
+  "startDateUnix": 989107200,
+  "endDate": {
+    "day": "06",
+    "month": "05",
+    "year": "2001"
+  },
+  "endDateUnix": 989107200,
+  "location": {
+    "city": "Montreal",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "Le Spectrum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.05,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1840,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "71",
+      "filename": "82050769.jpg",
+      "externalId": "1ysuCGI9aS6_PSZmUcCon6QIBslsEostN"
+    },
+    {
+      "folder": "71",
+      "filename": "27342532.jpg",
+      "externalId": "1LG0rHML4vFsgCkXAS3lnP1aywwfHvNv_"
+    },
+    {
+      "folder": "71",
+      "filename": "62307225.jpg",
+      "externalId": "1rMw_1xSTejAnJpoPVXklud2CUK24o4UB"
+    },
+    {
+      "folder": "71",
+      "filename": "39295731.jpg",
+      "externalId": "1R45P7WoHEMR6_dfrzJguFXYUEFJU3Fvb"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "In The Absence Of The Sacred",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "A Warning",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Black Label",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Letter To The Unborn",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "The Black Dahlia",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Terror And Hubris In The House Of Frank Pollard",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "The Subtle Arts Of Murder And Persuasion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

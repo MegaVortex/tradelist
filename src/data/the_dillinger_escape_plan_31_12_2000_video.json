@@ -1,0 +1,111 @@
+{
+  "originalTitle": "The Dillinger Escape Plan - 31.12.2000 - San Francisco - CA - USA",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Dillinger Escape Plan"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "12",
+    "year": "2000"
+  },
+  "startDateUnix": 978220800,
+  "endDate": {
+    "day": "31",
+    "month": "12",
+    "year": "2000"
+  },
+  "endDateUnix": 978220800,
+  "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.25,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2219,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "the_dillinger_escape_plan_19_07_1999_video",
+    "the_dillinger_escape_plan_12_02_2000_video",
+    "the_dillinger_escape_plan_30_10_1999_video",
+    "the_dillinger_escape_plan_08_04_2000_source_1_video"
+  ],
+  "childOf": "the_dillinger_escape_plan_xx_xx_1999_xx_xx_2000_part_2_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "17574816.jpg",
+      "externalId": "1buQQO6J3mV_q3cmD-OTwQSQkOTGBTRh2"
+    },
+    {
+      "folder": "24",
+      "filename": "32802655.jpg",
+      "externalId": "1eMTt6yzEDOVY1L7t8Y0d9Y1LR_2BmMVO"
+    },
+    {
+      "folder": "24",
+      "filename": "37523730.jpg",
+      "externalId": "1zdNYXc_SZIw310Nxe-kLcLqz2j50r9oU"
+    },
+    {
+      "folder": "24",
+      "filename": "98101919.jpg",
+      "externalId": "1dlw_GLsblTrjwrdqFpyxhdEwGdYEVlEd"
+    }
+  ],
+  "setlist": []
+}

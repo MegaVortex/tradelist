@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Korn - 25.02.1996 - Oakland - CA - USA - Oakland Coliseum (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "02",
+    "year": "1996"
+  },
+  "startDateUnix": 825206400,
+  "endDate": {
+    "day": "25",
+    "month": "02",
+    "year": "1996"
+  },
+  "endDateUnix": 825206400,
+  "location": {
+    "city": "Oakland",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Oakland Coliseum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Include interview.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.16,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1050,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "13",
+      "filename": "78078755.jpg",
+      "externalId": "1XEXZ37HBGeNfIqSEORJpd47TcpImneYl"
+    },
+    {
+      "folder": "13",
+      "filename": "71324906.jpg",
+      "externalId": "18UbLVWLLvqBjPz1-9U3iULT_es3xGZzl"
+    },
+    {
+      "folder": "13",
+      "filename": "72014076.jpg",
+      "externalId": "1oCw9bzLrQcrSK8KthPyWQWjV6yAjtByk"
+    },
+    {
+      "folder": "13",
+      "filename": "46094841.jpg",
+      "externalId": "1pGYJuxs7RdjEvhvcm0EPzhJ7ewWPvexx"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Blind",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Ball Tongue",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Faget",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

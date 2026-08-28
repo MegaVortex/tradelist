@@ -1,0 +1,198 @@
+{
+  "originalTitle": "Linkin Park - 02.11.2001 - Sunrise - FL - USA - National Car Rental Center",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "11",
+    "year": "2001"
+  },
+  "startDateUnix": 1004659200,
+  "endDate": {
+    "day": "02",
+    "month": "11",
+    "year": "2001"
+  },
+  "endDateUnix": 1004659200,
+  "location": {
+    "city": "Sunrise",
+    "state": "FL",
+    "country": "USA",
+    "venue": "National Car Rental Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.77,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3614,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "staind_02_11_2001_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "45",
+      "filename": "52142255.jpg",
+      "externalId": "1Xy824h2eKJ_rjrARcBImxWZYH4H-q7Yq"
+    },
+    {
+      "folder": "45",
+      "filename": "29491845.jpg",
+      "externalId": "1PkOjpRrCE-WkfoMmTp3PUqu-R_xFROgn"
+    },
+    {
+      "folder": "45",
+      "filename": "49971489.jpg",
+      "externalId": "10OdgIDuFcqIS1ukhzlHY-hnwCKmm42ME"
+    },
+    {
+      "folder": "45",
+      "filename": "48028497.jpg",
+      "externalId": "1SUyi4nY5VMsuBOzHjz7NdSIR034sqhEg"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "With You",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Runaway",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Papercut",
+      "feat": "",
+      "note": "not recorded",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "By Myself",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Points Of Authority",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Step Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Pushing Me Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "In The End",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "A Place For My Head",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Crawling",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "One Step Closer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

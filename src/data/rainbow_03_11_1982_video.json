@@ -1,0 +1,228 @@
+{
+  "originalTitle": "Rainbow - 03.11.1982 - Helsinki - Finland - Jaahalli",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rainbow"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "11",
+    "year": "1982"
+  },
+  "startDateUnix": 405129600,
+  "endDate": {
+    "day": "03",
+    "month": "11",
+    "year": "1982"
+  },
+  "endDateUnix": 405129600,
+  "location": {
+    "city": "Helsinki",
+    "state": "",
+    "country": "Finland",
+    "venue": "Jaahalli",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.11,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 4900,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "71",
+      "filename": "60841633.jpg",
+      "externalId": "1S-PnrdQUbcWGcPYYPmOa8T3VWnXzLQKe"
+    },
+    {
+      "folder": "71",
+      "filename": "01648041.jpg",
+      "externalId": "1uLFqn9PuPD3yTtqFAY0OCUy0mEhRoxgr"
+    },
+    {
+      "folder": "71",
+      "filename": "20436261.jpg",
+      "externalId": "1aD-T2FHtPYuCopb8Ek2qjjuQvz9ICXAK"
+    },
+    {
+      "folder": "71",
+      "filename": "55342007.jpg",
+      "externalId": "1xRTAVetBSKH7o3216hV6E1wNgl-hly6S"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Over The Rainbow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Harold Arlen"
+    },
+    {
+      "order": 2,
+      "song": "Spotlight Kid",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "MISS Mistreated",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "I Surrender",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Russ Ballard"
+    },
+    {
+      "order": 5,
+      "song": "Can't Happen Here",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Tearin' Out My Heart",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Blues",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "All Night Long",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Stone Cold",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Power",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Difficult To Cure",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Long Live Rock 'N' Roll",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Maybe Next Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Since You Been Gone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Russ Ballard"
+    },
+    {
+      "order": 15,
+      "song": "Smoke On The Water",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Deep Purple"
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,128 @@
+{
+  "originalTitle": "Dio - 01.08.2003 - Quebec City - QC - Canada - Colisee Pepsi (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Dio"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "08",
+    "year": "2003"
+  },
+  "startDateUnix": 1059696000,
+  "endDate": {
+    "day": "01",
+    "month": "08",
+    "year": "2003"
+  },
+  "endDateUnix": 1059696000,
+  "location": {
+    "city": "Quebec City",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "Colisee Pepsi",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Audio",
+  "tapers": [
+    "LiQuiDz"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 6.71,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5958,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "iron_maiden_01_08_2003_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "72",
+      "filename": "99227036.jpg",
+      "externalId": "1Bk0z6pidFBDjDkIkDtT5BHRY0XGtDH0L"
+    },
+    {
+      "folder": "72",
+      "filename": "64487266.jpg",
+      "externalId": "1FLrrZq3MP8wmfl9mBR3t-iDkPByKqXbd"
+    },
+    {
+      "folder": "72",
+      "filename": "78503293.jpg",
+      "externalId": "1vYk_X7hrK6qrAVjbqIRbP0Xsf5mcKN8c"
+    },
+    {
+      "folder": "72",
+      "filename": "27683140.jpg",
+      "externalId": "1zz89EShzBH6u7T6Izz07miwkStUQGVMR"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Stand Up And Shout",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Dream Evil",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Sonic Youth - 25.08.1991 - Hasselt - Belgium - Domein Kiewit - Pukkelpop Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sonic Youth"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "08",
+    "year": "1991"
+  },
+  "startDateUnix": 683078400,
+  "endDate": {
+    "day": "25",
+    "month": "08",
+    "year": "1991"
+  },
+  "endDateUnix": 683078400,
+  "location": {
+    "city": "Hasselt",
+    "state": "",
+    "country": "Belgium",
+    "venue": "Domein Kiewit",
+    "event": "Pukkelpop Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "FOS",
+  "notes": "AMT#1.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.07,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1852,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "81",
+      "filename": "05759191.jpg",
+      "externalId": "1G2I_CY4gJljH7nG4CzGZMJSaH-ZRfRgO"
+    },
+    {
+      "folder": "81",
+      "filename": "77841891.jpg",
+      "externalId": "1WQfp9qsVdhYLGJrI2I44UeOFPccqK_4J"
+    },
+    {
+      "folder": "81",
+      "filename": "63940107.jpg",
+      "externalId": "1DKeplR_jhGXCmYWKUlKkjgDLoivFF-Ky"
+    },
+    {
+      "folder": "81",
+      "filename": "63328754.jpg",
+      "externalId": "1Nqh5dEGx4I65J7_FQRftnxQPevbYmrME"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Schizophrenia",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "White Kross",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Brother James",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Teen Age Riot",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Eric's Trip",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Flower",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Dirty Boots",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Chapel Hill",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "I Love Her All The Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

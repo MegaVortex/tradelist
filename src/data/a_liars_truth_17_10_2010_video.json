@@ -1,0 +1,110 @@
+{
+  "originalTitle": "A Liars Truth - 17.10.2010 - Sherbrooke - QC - Canada - Saloon Bar",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "A Liars Truth"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "10",
+    "year": "2010"
+  },
+  "startDateUnix": 1287273600,
+  "endDate": {
+    "day": "17",
+    "month": "10",
+    "year": "2010"
+  },
+  "endDateUnix": 1287273600,
+  "location": {
+    "city": "Sherbrooke",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "Saloon Bar",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Pouel"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.75,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1235,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "misery_index_17_10_2010_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "16",
+      "filename": "10795340.jpg",
+      "externalId": "1y8NBPGy__QpWiVKx3AYncgsuc0LGmIPH"
+    },
+    {
+      "folder": "16",
+      "filename": "58521116.jpg",
+      "externalId": "1SVoboDTG35v7dr2WocYTstiNUZ-M55hi"
+    },
+    {
+      "folder": "16",
+      "filename": "18697694.jpg",
+      "externalId": "138HVnwQBUMVcmai01ve49KJlJQaDb_Ba"
+    },
+    {
+      "folder": "16",
+      "filename": "06201287.jpg",
+      "externalId": "162p9POKQGQklfyiDHCOGPlHmzHLwJnM1"
+    }
+  ],
+  "setlist": []
+}

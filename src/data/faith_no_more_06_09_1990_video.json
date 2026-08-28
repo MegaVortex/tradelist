@@ -1,0 +1,131 @@
+{
+  "originalTitle": "Faith No More - 06.09.1990 - Los Angeles - CA - USA - Universal Amphitheatre - MTV Video Music Awards",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Faith No More"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "09",
+    "year": "1990"
+  },
+  "startDateUnix": 652579200,
+  "endDate": {
+    "day": "06",
+    "month": "09",
+    "year": "1990"
+  },
+  "endDateUnix": 652579200,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Universal Amphitheatre",
+    "event": "MTV Video Music Awards"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MTV broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.53,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 5947,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "faith_no_more_xx_01_1991_rio_de_janiero_brazil_hard_n_heavy_video_magazine_video_misc",
+    "faith_no_more_xx_xx_1992_usa_making_of_a_small_victory_video_misc",
+    "faith_no_more_xx_05_1992_prague_czech_republic_headbangers_ball_video_misc",
+    "faith_no_more_xx_xx_1992_helsinki_finland_jaahalli_video_misc",
+    "faith_no_more_xx_xx_1992_postmodern_mtv_video_misc",
+    "faith_no_more_29_05_1993_video",
+    "faith_no_more_04_07_1993_video_misc",
+    "faith_no_more_xx_09_1993_usa_making_of_another_body_murdered_video_misc",
+    "faith_no_more_xx_xx_1995_usa_headbangers_ball_video_misc",
+    "faith_no_more_xx_xx_1995_england_in_bed_with_video_misc",
+    "faith_no_more_xx_03_1995_video",
+    "faith_no_more_14_03_1995_video",
+    "faith_no_more_xx_xx_1995_usa_the_end_video_misc",
+    "faith_no_more_05_03_1995_video"
+  ],
+  "childOf": "faith_no_more_xx_xx_xxxx_misc_1_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "44",
+      "filename": "34089882.jpg",
+      "externalId": "1gMS0NrW8U1NWJ6GI5WME3BSI1rk6Ps6_"
+    },
+    {
+      "folder": "44",
+      "filename": "65652857.jpg",
+      "externalId": "1Gpv0rE77QfwxQcnv74JDVE0lVgAqDBfG"
+    },
+    {
+      "folder": "44",
+      "filename": "24205636.jpg",
+      "externalId": "1AHQvt2yNEbevcGVhAaJZt43dltytxjAR"
+    },
+    {
+      "folder": "44",
+      "filename": "39471800.jpg",
+      "externalId": "1htwQbzMNILYRwnoPkzDMboGViOLuFq-D"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Epic",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

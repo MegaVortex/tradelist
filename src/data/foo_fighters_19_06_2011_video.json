@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Foo Fighters - 19.06.2011 - Scheessel - Germany - Eichenring - Hurricane Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "06",
+    "year": "2011"
+  },
+  "startDateUnix": 1308441600,
+  "endDate": {
+    "day": "19",
+    "month": "06",
+    "year": "2011"
+  },
+  "endDateUnix": 1308441600,
+  "location": {
+    "city": "Scheessel",
+    "state": "",
+    "country": "Germany",
+    "venue": "Eichenring",
+    "event": "Hurricane Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 809,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 826,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "25",
+      "filename": "35936155.jpg",
+      "externalId": "1ex3pVjgpB8_3v4A5t7lopmsR0RGfomde"
+    },
+    {
+      "folder": "25",
+      "filename": "05424337.jpg",
+      "externalId": "19082aVN4qRmNH7uP7_iynm6LgJDSsGcN"
+    },
+    {
+      "folder": "25",
+      "filename": "30479041.jpg",
+      "externalId": "1IZYmXvgsWQWlbVPfw-i5UMMKxtjPD-5I"
+    },
+    {
+      "folder": "25",
+      "filename": "94808649.jpg",
+      "externalId": "1FAFPB2udGRPC7n-mTTMqbAud7pJUfeNf"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Pretender",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Walk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Wheels",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

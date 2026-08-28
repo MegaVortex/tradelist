@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Red Hot Chili Peppers - 22.10.1991 - Milwaukee - WI - USA - Central Park Eagles Ballroom",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Red Hot Chili Peppers"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "10",
+    "year": "1991"
+  },
+  "startDateUnix": 688089600,
+  "endDate": {
+    "day": "22",
+    "month": "10",
+    "year": "1991"
+  },
+  "endDateUnix": 688089600,
+  "location": {
+    "city": "Milwaukee",
+    "state": "WI",
+    "country": "USA",
+    "venue": "Central Park Eagles Ballroom",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Very bad VHS convertion.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.29,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1903,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "1",
+      "filename": "34991.jpg",
+      "externalId": "1RjcjCTa2DSDOVxiQSqh_QEhtEJnNCeO_"
+    },
+    {
+      "folder": "1",
+      "filename": "95382.jpg",
+      "externalId": "1ZBuPa0_q1MkN3t5swqGHG68YRpbCv4-V"
+    },
+    {
+      "folder": "1",
+      "filename": "23496.jpg",
+      "externalId": "1Jld1Gfx0FGZuWcNBPNXhk-liSPFgcSDL"
+    },
+    {
+      "folder": "1",
+      "filename": "03249.jpg",
+      "externalId": "1L8YWEAvupNMQ_uVfdoPGScQLKFSY6P-I"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Love Trilogy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Organic Anti-Beat Box Band",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "No Head No Backstage Pass",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Suck My Kiss",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Blackeyed Blonde",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Funky Crime",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Give It Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Nobody Weird Like Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "If You Have To Ask",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

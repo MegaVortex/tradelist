@@ -1,0 +1,132 @@
+{
+  "originalTitle": "B.B. King - 17.07.1998 - Pori - Finland - Workshop - Jazz Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "B.B. King"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "07",
+    "year": "1998"
+  },
+  "startDateUnix": 900633600,
+  "endDate": {
+    "day": "17",
+    "month": "07",
+    "year": "1998"
+  },
+  "endDateUnix": 900633600,
+  "location": {
+    "city": "Pori",
+    "state": "",
+    "country": "Finland",
+    "venue": "Workshop",
+    "event": "Jazz Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "ARD broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 5340,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "72495205.jpg",
+      "externalId": "1AwEjOo3gKNh_IgGhHfa16aiixfz2KZDi"
+    },
+    {
+      "folder": "73",
+      "filename": "64316534.jpg",
+      "externalId": "1FpuKH2n5siRKOmfmrLWQyq_5DYz5qQhe"
+    },
+    {
+      "folder": "73",
+      "filename": "29139894.jpg",
+      "externalId": "16zMQ7qUUKybyvPEocM3oWcnNN1Ey5oY1"
+    },
+    {
+      "folder": "73",
+      "filename": "09875621.jpg",
+      "externalId": "1zcWRVraLFZpI1xIikM4VS5TSmgOUjRyU"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Woke Up This Morning (My Baby She Was Gone) (B.B. King & His Orchestra song)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Night Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Willie Nelson"
+    }
+  ],
+  "extras": []
+}

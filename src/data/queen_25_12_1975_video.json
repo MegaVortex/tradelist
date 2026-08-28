@@ -1,0 +1,204 @@
+{
+  "originalTitle": "Queen - 25.12.1975 - London - England - Hammersmith Odeon",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queen"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "12",
+    "year": "1975"
+  },
+  "startDateUnix": 188697600,
+  "endDate": {
+    "day": "25",
+    "month": "12",
+    "year": "1975"
+  },
+  "endDateUnix": 188697600,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Hammersmith Odeon",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.56,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2776,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "34",
+      "filename": "66813741.jpg",
+      "externalId": "1KHRH1zqr41Vo4jBa3HPhMbKgt92XgzP1"
+    },
+    {
+      "folder": "34",
+      "filename": "40040428.jpg",
+      "externalId": "1OIVn70w0Ntbfx1OP4MsnNzBENBj3sWNc"
+    },
+    {
+      "folder": "34",
+      "filename": "22686400.jpg",
+      "externalId": "1fubjfZmiJGg0LqhCAgft51R3znOCBz05"
+    },
+    {
+      "folder": "34",
+      "filename": "80698980.jpg",
+      "externalId": "1Vo_jWj8Tijp-U00-rWYTldDkjkFQX4gY"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Now I'm Here",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Ogre Battle",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Bohemian Rhapsody",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Killer Queen",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "March Of The Black",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Brighton Rock",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Keep Yourself Alive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Liar",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "In The Lap Of The Gods",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Seven Seas Of Rhye",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "See What A Fool I've Been",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "God Save The Queen",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

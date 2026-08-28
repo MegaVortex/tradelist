@@ -1,0 +1,212 @@
+{
+  "originalTitle": "Foo Fighters - 18.04.1998 - Lake Tahoe - CA - USA - Lake Tahoe Ski Resort",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "04",
+    "year": "1998"
+  },
+  "startDateUnix": 892857600,
+  "endDate": {
+    "day": "18",
+    "month": "04",
+    "year": "1998"
+  },
+  "endDateUnix": 892857600,
+  "location": {
+    "city": "Lake Tahoe",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Lake Tahoe Ski Resort",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "AMT#1. Boarding Against Breast Cancer Benefit Show. This show took place at the base of snow covered mountain and the taper shot the video from a gradient towards the back, slightly left of stage. The shaky for the first couple of minutes but quickly steadies and for the most part shots of the stage are clear and steady.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.89,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2916,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "13862248.jpg",
+      "externalId": "1IfDM6kzmXRaFBFzKiUmcSW6XqhGnQPaS"
+    },
+    {
+      "folder": "20",
+      "filename": "94965534.jpg",
+      "externalId": "1-4bG-JcHJt3N-gr7sEGBFBllLcKA8bqY"
+    },
+    {
+      "folder": "20",
+      "filename": "07242199.jpg",
+      "externalId": "1fQz_kMTO58bXcufTH7RBZ5aNMOmUKa_0"
+    },
+    {
+      "folder": "20",
+      "filename": "73414651.jpg",
+      "externalId": "15RIpvgqIMzbsWoeEXak7S0Qjts7m2I8B"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Gas Chamber",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wattershed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "My Poor Brain",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "For All The Cows",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Hey, Johnny Park!",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Alone + Easy Target",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Monkey Wrench",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "See You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "My Hero",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Enough Space",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Everlong",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "This Is A Call",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "I'll Stick Around",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

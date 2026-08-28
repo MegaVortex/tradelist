@@ -1,0 +1,110 @@
+{
+  "originalTitle": "Equal Minds Theory - 09.01.2009 - St. Petersburg - Russia - Orlandina",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Equal Minds Theory"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "01",
+    "year": "2009"
+  },
+  "startDateUnix": 1231459200,
+  "endDate": {
+    "day": "09",
+    "month": "01",
+    "year": "2009"
+  },
+  "endDateUnix": 1231459200,
+  "location": {
+    "city": "St. Petersburg",
+    "state": "",
+    "country": "Russia",
+    "venue": "Orlandina",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "NoTrust"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.9,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3812,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "psyopus_09_01_2009_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "12",
+      "filename": "76230234.jpg",
+      "externalId": "1W5yZJRXvueeCF8575YAOcH-0Vog05s_-"
+    },
+    {
+      "folder": "12",
+      "filename": "92427476.jpg",
+      "externalId": "1l1S-4QeqciDdkLZotg_Up7WZ_3OPl0Xr"
+    },
+    {
+      "folder": "12",
+      "filename": "57479483.jpg",
+      "externalId": "1o0m__mXTQcQr3wuTjzfKjdyazD5DRNfx"
+    },
+    {
+      "folder": "12",
+      "filename": "06104708.jpg",
+      "externalId": "15MEJKlkH2KTaGw21M0ro3gzAzTLmpeWo"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,196 @@
+{
+  "originalTitle": "Nirvana - 23.01.1993 - Rio De Janeiro - Brazil - Praca Da Apoteose (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "01",
+    "year": "1993"
+  },
+  "startDateUnix": 727747200,
+  "endDate": {
+    "day": "23",
+    "month": "01",
+    "year": "1993"
+  },
+  "endDateUnix": 727747200,
+  "location": {
+    "city": "Rio De Janeiro",
+    "state": "",
+    "country": "Brazil",
+    "venue": "Praca Da Apoteose",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "PRO#3. Incomplete multi camera PRO-shot video, with soundboard audio, broadcast on Brazilian TV. Much better quality than PRO#1 and PRO#2a, but less complete than both these videos. Includes only 'In Bloom', 'Come As You Are' (cuts off), Lounge Act (clip), 'Lithium' (cut), 'Polly', 'About A Girl', 'Smells Like Teen Spirit', 'On A Plain' (cuts in), 'Negative Creep', 'Been A Son', 'Blew', 'Heart-Shaped Box' and 'Scentless Aprentice'.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.59,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3287,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "12",
+      "filename": "88609755.jpg",
+      "externalId": "1YP1EEBz7EtUps73svxkSkXossrooGALw"
+    },
+    {
+      "folder": "12",
+      "filename": "59681730.jpg",
+      "externalId": "1LUwdqiVINQyVKRHaG_Mc6k4o_f3_iFrZ"
+    },
+    {
+      "folder": "12",
+      "filename": "00831713.jpg",
+      "externalId": "1bt_KZdeD54PxP6OpszvG4FHJeHK0TKIT"
+    },
+    {
+      "folder": "12",
+      "filename": "74971430.jpg",
+      "externalId": "1cIb2h3mxC4ik746ny4vqDTV1Ibb6RdLa"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "In Bloom",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Come As You Are",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Polly",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "About A Girl",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Smells Like Teen Spirit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "On A Plain",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Negative Creep",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Been A Son",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Blew",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Heart-Shaped Box",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Scentless Apprentice",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

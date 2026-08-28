@@ -1,0 +1,166 @@
+{
+  "originalTitle": "Anthrax - 05.07.2000 - Salt Lake City - UT - USA - E-Center",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Anthrax"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "07",
+    "year": "2000"
+  },
+  "startDateUnix": 962755200,
+  "endDate": {
+    "day": "05",
+    "month": "07",
+    "year": "2000"
+  },
+  "endDateUnix": 962755200,
+  "location": {
+    "city": "Salt Lake City",
+    "state": "UT",
+    "country": "USA",
+    "venue": "E-Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.62,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 4625,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "anthrax_05_10_1998_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "76688472.jpg",
+      "externalId": "12gmzWuh8_hhEFsJ8071JkhfEUJVoR300"
+    },
+    {
+      "folder": "18",
+      "filename": "36339521.jpg",
+      "externalId": "1_RxqRA_o0cKzPcpjUGQayrBnX4mwpdL2"
+    },
+    {
+      "folder": "18",
+      "filename": "89134067.jpg",
+      "externalId": "17tKW2jtnthb0o5IM8A2xZ-1WgOdlreqc"
+    },
+    {
+      "folder": "18",
+      "filename": "76733833.jpg",
+      "externalId": "1qbhhiMTUQbaONqEkGEbinPv_TOl7QC4v"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Among The Living",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Inside Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Room For One More",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Antisocial",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Caught In A Mosh",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Only",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Bring The Noise",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

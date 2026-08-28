@@ -1,0 +1,228 @@
+{
+  "originalTitle": "Green Day - 20.04.2002 - Irvine - CA - USA - Verizon Wireless Ampitheatre",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Green Day"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "04",
+    "year": "2002"
+  },
+  "startDateUnix": 1019260800,
+  "endDate": {
+    "day": "20",
+    "month": "04",
+    "year": "2002"
+  },
+  "endDateUnix": 1019260800,
+  "location": {
+    "city": "Irvine",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Verizon Wireless Ampitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.83,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 3701,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "81",
+      "filename": "66973622.jpg",
+      "externalId": "1giKWCxjfHkBVrPeYE9O1FdyVWpckhGXK"
+    },
+    {
+      "folder": "81",
+      "filename": "11999001.jpg",
+      "externalId": "17EZLbqujn5PI_Dxq4XlnlvBsIKuPmOuC"
+    },
+    {
+      "folder": "81",
+      "filename": "60158955.jpg",
+      "externalId": "14BmiyqaSqY4Th7vUQIazQxOM7iCeCIkf"
+    },
+    {
+      "folder": "81",
+      "filename": "18011622.jpg",
+      "externalId": "1QPPYGYTPvuu8ol5R8Y-_hFcbJMaznzLv"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Longview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Welcome To Paradise",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Hitchin' A Ride",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Brain Stew",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Jaded",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Disappearing Boy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Knowledge",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Operation Ivy"
+    },
+    {
+      "order": 8,
+      "song": "Basket Case",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "She",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "King For A Day",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Shout",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "The Isley Brothers"
+    },
+    {
+      "order": 12,
+      "song": "Waiting",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Minority",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "When I Come Around",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Good Riddance (Time Of Your Life)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,172 @@
+{
+  "originalTitle": "(Hed) Planet Earth - 25.01.2001 - Amsterdam - Netherlands - Paradiso",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "(Hed) Planet Earth"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "01",
+    "year": "2001"
+  },
+  "startDateUnix": 980380800,
+  "endDate": {
+    "day": "25",
+    "month": "01",
+    "year": "2001"
+  },
+  "endDateUnix": 980380800,
+  "location": {
+    "city": "Amsterdam",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Paradiso",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.83,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2616,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "59247125.jpg",
+      "externalId": "1GvsgmC70cStpt0HMONrQPkdzgSblHYsE"
+    },
+    {
+      "folder": "80",
+      "filename": "06347417.jpg",
+      "externalId": "1WHNuit3d4xdzo1MmMlFUsmAtOxXIvpWA"
+    },
+    {
+      "folder": "80",
+      "filename": "85020173.jpg",
+      "externalId": "1TGXUzkAAJG3DLtImIfOwromNVaNHXSpX"
+    },
+    {
+      "folder": "80",
+      "filename": "24657125.jpg",
+      "externalId": "1dTGRQVa15mZ3r503py8ASCB_H3B3xc3-"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Killing Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Serpent Boy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Swan Dive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Stevie",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Jesus (Of Nazareth)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "I Got You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Bartender",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "P.O.S.",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

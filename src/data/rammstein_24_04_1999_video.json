@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Rammstein - 24.04.1999 - Mexico City - Mexico - Foro Sol",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "04",
+    "year": "1999"
+  },
+  "startDateUnix": 924912000,
+  "endDate": {
+    "day": "24",
+    "month": "04",
+    "year": "1999"
+  },
+  "endDateUnix": 924912000,
+  "location": {
+    "city": "Mexico City",
+    "state": "",
+    "country": "Mexico",
+    "venue": "Foro Sol",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 51.2,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 205,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "480x480",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 224,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "VCD",
+      "fileFormat": "MPG"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "55",
+      "filename": "47654629.jpg",
+      "externalId": "1I2ZXE0WuOIN5tIIF_ZLb7myVRZQwtwOp"
+    },
+    {
+      "folder": "55",
+      "filename": "51645125.jpg",
+      "externalId": "1yRBrlBBdnHONlHzb0HMmhC6RpgzREcZK"
+    },
+    {
+      "folder": "55",
+      "filename": "60309594.jpg",
+      "externalId": "18Ol-hyfJCj1Y3eDdTd6I5t60q-AUmNB4"
+    },
+    {
+      "folder": "55",
+      "filename": "08191847.jpg",
+      "externalId": "1rnyeytLxm2QPuOi99XXAdZsl_4evpSaq"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Asche Zu Asche",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

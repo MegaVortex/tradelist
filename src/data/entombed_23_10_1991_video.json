@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Entombed - 23.10.1991 - San Antonio - TX - USA - San Antonio Event Center",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Entombed"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "10",
+    "year": "1991"
+  },
+  "startDateUnix": 688176000,
+  "endDate": {
+    "day": "23",
+    "month": "10",
+    "year": "1991"
+  },
+  "endDateUnix": 688176000,
+  "location": {
+    "city": "San Antonio",
+    "state": "TX",
+    "country": "USA",
+    "venue": "San Antonio Event Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.48,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2310,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "63",
+      "filename": "26822435.jpg",
+      "externalId": "1uV5Hu8uz4o5JnRZTIG6yfdCysyL0fbTB"
+    },
+    {
+      "folder": "63",
+      "filename": "57110773.jpg",
+      "externalId": "1sL1wk5yTINwpKQGXTNjVZJ0FFYIsLH2b"
+    },
+    {
+      "folder": "63",
+      "filename": "50819274.jpg",
+      "externalId": "1UkSDha_7drGode3yg7utjfaNhKLUySfy"
+    },
+    {
+      "folder": "63",
+      "filename": "33867328.jpg",
+      "externalId": "189kk7g06OyGEOu-zdKdPLvVcYFIav7AC"
+    }
+  ],
+  "setlist": []
+}

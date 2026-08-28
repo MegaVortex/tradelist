@@ -1,0 +1,125 @@
+{
+  "originalTitle": "Bon Jovi - xx.xx.1988 - Sayerville - NJ - USA [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1988"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1988"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Sayerville",
+    "state": "NJ",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Childhood home giveaway to MTV contest winner.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.39,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2557,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "bon_jovi_xx_xx_1988_nj_usa_mtv_notes_video_misc",
+    "bon_jovi_xx_xx_1989_usa_mtv_news_video_misc",
+    "bon_jovi_xx_xx_1987_usa_guest_vj_video_misc",
+    "bon_jovi_xx_xx_1987_australia_molly_meldrum_show_video_misc",
+    "bon_jovi_xx_xx_1987_usa_mtv_special_video_misc",
+    "bon_jovi_xx_xx_1992_usa_past_present_future_video_misc",
+    "bon_jovi_xx_xx_1987_usa_rock_against_drugs_video_misc"
+  ],
+  "childOf": "bon_jovi_xx_xx_xxxx_misc_1_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "77",
+      "filename": "36805299.jpg",
+      "externalId": "1jiUJMjRHLoID-9cHpvQKv7dudO6N8rtZ"
+    },
+    {
+      "folder": "77",
+      "filename": "45973282.jpg",
+      "externalId": "1ulGv88zvBWZeLQqMD93EFxP0A_FOyzkR"
+    },
+    {
+      "folder": "77",
+      "filename": "60261525.jpg",
+      "externalId": "1AzhpnaDBJdkHrBcyIpbRzw6HegkgiyyY"
+    },
+    {
+      "folder": "77",
+      "filename": "55627471.jpg",
+      "externalId": "1rYUfRud8J2GuAJM4xrHwJHos5ObrhmR6"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

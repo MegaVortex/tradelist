@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Life And Limb - 23.03.2011 - Allston - MA - USA - Wacky Kastle",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Life And Limb"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "03",
+    "year": "2011"
+  },
+  "startDateUnix": 1300838400,
+  "endDate": {
+    "day": "23",
+    "month": "03",
+    "year": "2011"
+  },
+  "endDateUnix": 1300838400,
+  "location": {
+    "city": "Allston",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Wacky Kastle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "dyinghorse release.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.54,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1433,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "34",
+      "filename": "36202819.jpg",
+      "externalId": "1ezO96ooiWXGbPn5crkt05Wg5Yd_s4ooa"
+    },
+    {
+      "folder": "34",
+      "filename": "57444415.jpg",
+      "externalId": "1kqAughetPg9tX7lYdfx3AARGiw5cv7Cj"
+    },
+    {
+      "folder": "34",
+      "filename": "51506350.jpg",
+      "externalId": "1XxF7D3EkJDm3M2NeUPH0thoS1iDoJOwQ"
+    },
+    {
+      "folder": "34",
+      "filename": "73282918.jpg",
+      "externalId": "1H-9DqjTjCLRy85YT4NMU6vptXWY7Be3d"
+    }
+  ],
+  "setlist": []
+}

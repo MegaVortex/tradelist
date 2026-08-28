@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Radiohead - 18.09.2000 - Paris - France - Canal+ Studios - Nulle Part Ailleurs",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Radiohead"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "09",
+    "year": "2000"
+  },
+  "startDateUnix": 969235200,
+  "endDate": {
+    "day": "18",
+    "month": "09",
+    "year": "2000"
+  },
+  "endDateUnix": 969235200,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "Canal+ Studios",
+    "event": "Nulle Part Ailleurs"
+  },
+  "tvChannel": "Canal+",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 502,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 499,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "60573029.jpg",
+      "externalId": "1Qaw6DQQ1PbmJSgAR87DJE7Lqe_s6XOyw"
+    },
+    {
+      "folder": "15",
+      "filename": "52026240.jpg",
+      "externalId": "1FySsg3CXYQ9VRRdwkYuUbiQ3uDWvR4DA"
+    },
+    {
+      "folder": "15",
+      "filename": "80705669.jpg",
+      "externalId": "17qzvT5rKhL8T0Iox2KveyXEtPZMrp1qm"
+    },
+    {
+      "folder": "15",
+      "filename": "38831157.jpg",
+      "externalId": "1wC6ksg59wrSIhVGTdV9ixq2BcL43olph"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Morning Bell",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Idioteque",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

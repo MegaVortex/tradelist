@@ -1,0 +1,158 @@
+{
+  "originalTitle": "Rage Against The Machine - 13.07.1992 - Newhall - CA - USA - Castaic Lake",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rage Against The Machine"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "07",
+    "year": "1992"
+  },
+  "startDateUnix": 710985600,
+  "endDate": {
+    "day": "13",
+    "month": "07",
+    "year": "1992"
+  },
+  "endDateUnix": 710985600,
+  "location": {
+    "city": "Newhall",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Castaic Lake",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.37,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2109,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "rage_against_the_machine_27_08_1993_video",
+    "rage_against_the_machine_24_06_1994_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "97423836.jpg",
+      "externalId": "1oFsAJooTPoLQ96Qy4z05yPRtZ2GGD54E"
+    },
+    {
+      "folder": "20",
+      "filename": "00106193.jpg",
+      "externalId": "1R9GbECotYjl16TNet9chRL7DgIatfRkq"
+    },
+    {
+      "folder": "20",
+      "filename": "08636921.jpg",
+      "externalId": "1m_JLALUFM4KihRxmh4DnjVlpWgh5G4LT"
+    },
+    {
+      "folder": "20",
+      "filename": "14987978.jpg",
+      "externalId": "1-_afA7AJA6Q7XidTvyf_HMATuUdUI0th"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Bombtrack",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Bullet In Your Head",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Fistful Of Steel",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Killing In The Name",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Wake Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

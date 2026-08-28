@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Biohazard - 28.05.1993 - Essen - Germany - Grugahalle (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Biohazard"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "05",
+    "year": "1993"
+  },
+  "startDateUnix": 738547200,
+  "endDate": {
+    "day": "28",
+    "month": "05",
+    "year": "1993"
+  },
+  "endDateUnix": 738547200,
+  "location": {
+    "city": "Essen",
+    "state": "",
+    "country": "Germany",
+    "venue": "Grugahalle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.57,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2308,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "76483345.jpg",
+      "externalId": "1IVEmd0gpoBXbypaM_qcaZMBkamEBslEt"
+    },
+    {
+      "folder": "69",
+      "filename": "81173202.jpg",
+      "externalId": "1pk5cj9y98YuN6tDn4MU0e3sUyCT1CU1h"
+    },
+    {
+      "folder": "69",
+      "filename": "49676999.jpg",
+      "externalId": "195hgA3McW3qg47ddO28Q7yZYmoJDwY4Z"
+    },
+    {
+      "folder": "69",
+      "filename": "93119515.jpg",
+      "externalId": "1u7oUUe_ajZk_jhblYRAOzsT3VctJHEvD"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Victory",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Chamber Spins Three",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Business",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Black And White And Red All Over",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Shades Of Grey",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Wrong Side Of The Tracks",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Punishment",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Hold My Own",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

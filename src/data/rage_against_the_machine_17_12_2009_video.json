@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Rage Against The Machine - 17.12.2009 - Los Angeles - CA - USA - Studio",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rage Against The Machine"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "12",
+    "year": "2009"
+  },
+  "startDateUnix": 1261008000,
+  "endDate": {
+    "day": "17",
+    "month": "12",
+    "year": "2009"
+  },
+  "endDateUnix": 1261008000,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Studio",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 532,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 556,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "76719576.jpg",
+      "externalId": "1uxH4qAFR1Rm39PV-HptKCTKUxxFo3kq3"
+    },
+    {
+      "folder": "69",
+      "filename": "10584723.jpg",
+      "externalId": "1g8QRQ6K6MHAKay0xwTrvgCstuqAzeSXc"
+    },
+    {
+      "folder": "69",
+      "filename": "33337112.jpg",
+      "externalId": "17FjpAEro_0XwSWFkfL2Ydzd6V-X9Zm2l"
+    },
+    {
+      "folder": "69",
+      "filename": "50276503.jpg",
+      "externalId": "1UrLA1b48ed5-CVI5d0vJ4mWEHWzNgxYA"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Killing In The Name",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

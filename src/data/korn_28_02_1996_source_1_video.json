@@ -1,0 +1,127 @@
+{
+  "originalTitle": "Korn - 28.02.1996 - Bakersfield - CA - USA - El Tejon Theatre - ABC Live In Concert (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "02",
+    "year": "1996"
+  },
+  "startDateUnix": 825465600,
+  "endDate": {
+    "day": "28",
+    "month": "02",
+    "year": "1996"
+  },
+  "endDateUnix": 825465600,
+  "location": {
+    "city": "Bakersfield",
+    "state": "CA",
+    "country": "USA",
+    "venue": "El Tejon Theatre",
+    "event": "ABC Live In Concert"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Bad video quality.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 113,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 154,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_xx_xx_1995_carbondale_il_usa_mtv_studios_mtv_latin_spc_tv_video_misc",
+    "korn_14_11_1998_video",
+    "korn_14_03_1999_video_misc",
+    "korn_xx_xx_2000_loud_times_video_misc",
+    "korn_09_08_2003_video_misc",
+    "korn_31_01_2004_source_2_video",
+    "korn_20_04_2006_video",
+    "korn_xx_02_2007_usa_tv_guide_video_misc",
+    "korn_01_03_2007_source_2_video",
+    "korn_30_03_2007_source_1_video"
+  ],
+  "childOf": "korn_xx_xx_xxxx_misc_2_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "26981073.jpg",
+      "externalId": "14HkQJ5Lf-NPWLVAPiQsuw3h4fLg3EnKU"
+    },
+    {
+      "folder": "14",
+      "filename": "26487428.jpg",
+      "externalId": "13YIvIcVj3_0uo9fFrdFuA7hqHwlZ62xs"
+    },
+    {
+      "folder": "14",
+      "filename": "91357563.jpg",
+      "externalId": "1d3QxEkxHdLJrZ7jffJaJB9AV995uGfVX"
+    },
+    {
+      "folder": "14",
+      "filename": "56501068.jpg",
+      "externalId": "1C4huzNB2b2siHIbcKFuDbXWzU1sJXEdE"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Blind",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Carcass - 23.01.1994 - Porto - Portugal - Pavilhao Infante De Sagres",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Carcass"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "01",
+    "year": "1994"
+  },
+  "startDateUnix": 759283200,
+  "endDate": {
+    "day": "23",
+    "month": "01",
+    "year": "1994"
+  },
+  "endDateUnix": 759283200,
+  "location": {
+    "city": "Porto",
+    "state": "",
+    "country": "Portugal",
+    "venue": "Pavilhao Infante De Sagres",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.03,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 7294,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "31",
+      "filename": "25492528.jpg",
+      "externalId": "1rV4kvhO4jIrIEhLKIv4Q2GS9SjduYUyG"
+    },
+    {
+      "folder": "31",
+      "filename": "93934981.jpg",
+      "externalId": "1clyY4LhyYjaOXcqmDCdpOWYKUmYmKTZX"
+    },
+    {
+      "folder": "31",
+      "filename": "28440020.jpg",
+      "externalId": "15_x6HwZpxc7XiKVsJ0EJrzUBNRTMvc-K"
+    },
+    {
+      "folder": "31",
+      "filename": "29424673.jpg",
+      "externalId": "1mQZ2Mvuq7he2FtLWC-ZL7bqr7nUGuRWn"
+    }
+  ],
+  "setlist": []
+}

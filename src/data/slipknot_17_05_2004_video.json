@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Slipknot - 17.05.2004 - Burbank - CA - USA - Jay Leno Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "05",
+    "year": "2004"
+  },
+  "startDateUnix": 1084752000,
+  "endDate": {
+    "day": "17",
+    "month": "05",
+    "year": "2004"
+  },
+  "endDateUnix": 1084752000,
+  "location": {
+    "city": "Burbank",
+    "state": "CA",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jay Leno Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 205,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 262,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 1
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "3",
+      "filename": "s9642820.png.jpg",
+      "externalId": "1m3GCOHxjh0PAZKXpgwK9c0bHqxY6tsj3"
+    },
+    {
+      "folder": "3",
+      "filename": "s2140488.png.jpg",
+      "externalId": "130-KrN1jm-SCmVEVgM1iLcZSb4zFRLb8"
+    },
+    {
+      "folder": "3",
+      "filename": "s0464729.png.jpg",
+      "externalId": "1Dz16s4ti8hmweatKK0M-f_xXN2r_L_TR"
+    },
+    {
+      "folder": "3",
+      "filename": "s3142287.png.jpg",
+      "externalId": "1J0HAlpO9SEbF4--GVO3Te6-7pdmMoKEq"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Duality",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

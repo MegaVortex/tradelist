@@ -1,0 +1,125 @@
+{
+  "originalTitle": "Linkin Park - 14.12.2008 - France - 'Virgin 17 Special' [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "12",
+    "year": "2008"
+  },
+  "startDateUnix": 1229212800,
+  "endDate": {
+    "day": "14",
+    "month": "12",
+    "year": "2008"
+  },
+  "endDateUnix": 1229212800,
+  "location": {
+    "city": "France",
+    "state": "",
+    "country": "'Virgin 17 Special'",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Virgin 17 TV broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 758,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1502,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "fr",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "48",
+      "filename": "07114400.jpg",
+      "externalId": "1jWhtW6It7b6q2z-68Ton3LLIdz0qvX-l"
+    },
+    {
+      "folder": "48",
+      "filename": "71113482.jpg",
+      "externalId": "1NF4f4Cng2DVN3VcedtgPJFkvf2e3IFB5"
+    },
+    {
+      "folder": "48",
+      "filename": "62835622.jpg",
+      "externalId": "1pj01GX-Ab5H_4bb0NSHoMxAckItvr539"
+    },
+    {
+      "folder": "48",
+      "filename": "29255294.jpg",
+      "externalId": "1NhupM46dS2Me5db0bMLcq4bdmuD6Fd4l"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interviews",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Live Footage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Queens Of The Stone Age - 19.12.2002 - New York - NY - USA - NBC Studios - Carson Daly Show (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "12",
+    "year": "2002"
+  },
+  "startDateUnix": 1040256000,
+  "endDate": {
+    "day": "19",
+    "month": "12",
+    "year": "2002"
+  },
+  "endDateUnix": 1040256000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Carson Daly Show",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 304,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 390,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "94560438.jpg",
+      "externalId": "1ef83BLocQRzJe3oTuGExmUeN7EJw2Twu"
+    },
+    {
+      "folder": "70",
+      "filename": "10262221.jpg",
+      "externalId": "1RkgF0ALHesOW1cH2qFXhAGvNaik4isWt"
+    },
+    {
+      "folder": "70",
+      "filename": "93681944.jpg",
+      "externalId": "1WGN2diY74Uf61olU2Gn6KUHYKIgOSCAM"
+    },
+    {
+      "folder": "70",
+      "filename": "56536713.jpg",
+      "externalId": "1pa4U54hvagQw4ph7m4OxWFQ-_mng0BLb"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "No One Knows",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Go With The Flow",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

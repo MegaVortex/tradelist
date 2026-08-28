@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Zann - 30.03.2009 - St. Petersburg - Russia - Zoccolo",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Zann"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "03",
+    "year": "2009"
+  },
+  "startDateUnix": 1238371200,
+  "endDate": {
+    "day": "30",
+    "month": "03",
+    "year": "2009"
+  },
+  "endDateUnix": 1238371200,
+  "location": {
+    "city": "St. Petersburg",
+    "state": "",
+    "country": "Russia",
+    "venue": "Zoccolo",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.29,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2174,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "12",
+      "filename": "36174116.jpg",
+      "externalId": "1fb35qPWsH3Hc96JW85hmDIGmKp08tTJn"
+    },
+    {
+      "folder": "12",
+      "filename": "22066386.jpg",
+      "externalId": "1sI_A5z-PSWg-PFN4t_6BNNxG-1mt8UKv"
+    },
+    {
+      "folder": "12",
+      "filename": "10662573.jpg",
+      "externalId": "1d_pMvsziyhn_zPUjiMLrXT8eOkYS3MHW"
+    },
+    {
+      "folder": "12",
+      "filename": "79607892.jpg",
+      "externalId": "1yWYZZMzRTRGkI57VrDnUlLn3zxrxVUn_"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Slipknot - 31.05.2004 - Chorzow - Poland - Stadion Slaski",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "05",
+    "year": "2004"
+  },
+  "startDateUnix": 1085961600,
+  "endDate": {
+    "day": "31",
+    "month": "05",
+    "year": "2004"
+  },
+  "endDateUnix": 1085961600,
+  "location": {
+    "city": "Chorzow",
+    "state": "",
+    "country": "Poland",
+    "venue": "Stadion Slaski",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Cell phone.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 8.58,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 93,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "640x480",
+        "bitrateType": "",
+        "bitrateKbps": 693,
+        "fps": "25.00",
+        "standard": "WMV9",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 64,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "WMV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "2",
+      "filename": "29685.jpg",
+      "externalId": "1nVYY_SHvSy1dTsMZ8vcVK_x7YvJghK7c"
+    },
+    {
+      "folder": "2",
+      "filename": "94473.jpg",
+      "externalId": "1svCZOQgTHVTguMnYzw_3dptFpwpCKvK0"
+    },
+    {
+      "folder": "2",
+      "filename": "03354.jpg",
+      "externalId": "1ho99rpJegnbcsjTfgtOrtBoT-9EtrPr6"
+    },
+    {
+      "folder": "2",
+      "filename": "46181.jpg",
+      "externalId": "1Ef24ure0GMclK9p93W6eXd7J9D-OVGVU"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Blister Exists",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Mogwai - 19.08.1997 - Edinburgh - Scotland - Jaffa Cake [AUDIO]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Mogwai"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "08",
+    "year": "1997"
+  },
+  "startDateUnix": 871948800,
+  "endDate": {
+    "day": "19",
+    "month": "08",
+    "year": "1997"
+  },
+  "endDateUnix": 871948800,
+  "location": {
+    "city": "Edinburgh",
+    "state": "",
+    "country": "Scotland",
+    "venue": "Jaffa Cake",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "audio"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "EAC extract > Audacity (see below) > CDWave (tracking) > TLH (flac, checksum).",
+  "tapers": [
+    "SMcH"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 259,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2803,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "FLAC",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Radar Maker",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Katrien",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Summer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Honey",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Spacemen 3"
+    },
+    {
+      "order": 5,
+      "song": "A Place For Parks",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Like Herod",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "New Paths To Helicon, Pt. 1",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Mogwai Fear Satan",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

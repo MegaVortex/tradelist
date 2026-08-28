@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Black Sabbath - 22.06.1992 - Sao Paulo - Brazil - Maksoud Plaza [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Black Sabbath"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "06",
+    "year": "1992"
+  },
+  "startDateUnix": 709171200,
+  "endDate": {
+    "day": "22",
+    "month": "06",
+    "year": "1992"
+  },
+  "endDateUnix": 709171200,
+  "location": {
+    "city": "Sao Paulo",
+    "state": "",
+    "country": "Brazil",
+    "venue": "Maksoud Plaza",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.09,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1846,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "37",
+      "filename": "67084165.jpg",
+      "externalId": "1RizLSAu-UrjdemPpnq2gd6p5IiIYO5uJ"
+    },
+    {
+      "folder": "37",
+      "filename": "53543067.jpg",
+      "externalId": "1yLuA-WrCPzMD2cMqUFDck9P4fG-GB9q2"
+    },
+    {
+      "folder": "37",
+      "filename": "12643484.jpg",
+      "externalId": "1E8Qey7AtjlgG-AmFoZjxDEUCOazHkXal"
+    },
+    {
+      "folder": "37",
+      "filename": "22568650.jpg",
+      "externalId": "1ivyZieUkkHVAU1y4BxCGs59hSY8WbMAU"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Press Conference",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

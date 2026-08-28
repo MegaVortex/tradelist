@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Korn - 17.08.1996 - Donington - England - Download Festival",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "08",
+    "year": "1996"
+  },
+  "startDateUnix": 840240000,
+  "endDate": {
+    "day": "17",
+    "month": "08",
+    "year": "1996"
+  },
+  "endDateUnix": 840240000,
+  "location": {
+    "city": "Donington",
+    "state": "",
+    "country": "England",
+    "venue": "",
+    "event": "Download Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 993,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 876,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "4",
+      "filename": "1107427.jpg",
+      "externalId": "1WdM1CmZdhyl6PNOP6_EJ_i51MilQag4X"
+    },
+    {
+      "folder": "4",
+      "filename": "6786450.jpg",
+      "externalId": "1aE7f-H501Kv6h23QWTU-USAL4Pj1sJxL"
+    },
+    {
+      "folder": "4",
+      "filename": "5934796.jpg",
+      "externalId": "1RMsfCYxBjKXbWlp6U3HdS_GLAZXl1LkY"
+    },
+    {
+      "folder": "4",
+      "filename": "5628938.jpg",
+      "externalId": "1ntqtfjw4-P4AgiKfku69OX1DHbEr2iaX"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Divine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Shoots And Ladders",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

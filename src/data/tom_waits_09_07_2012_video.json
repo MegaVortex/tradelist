@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Tom Waits - 09.07.2012 - New York - NY - USA - Ed Sullivan Theater - David Letterman Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Tom Waits"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "07",
+    "year": "2012"
+  },
+  "startDateUnix": 1341792000,
+  "endDate": {
+    "day": "09",
+    "month": "07",
+    "year": "2012"
+  },
+  "endDateUnix": 1341792000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Ed Sullivan Theater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "David Letterman Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.4,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 722,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "38",
+      "filename": "14831824.jpg",
+      "externalId": "1S5aIh9wNokgWVytlQOP5dHAtXCb3saAA"
+    },
+    {
+      "folder": "38",
+      "filename": "94938142.jpg",
+      "externalId": "1vzx6Y2MficB54gKRjJzDuw5a0TMpE307"
+    },
+    {
+      "folder": "38",
+      "filename": "67158704.jpg",
+      "externalId": "1YtJ4adehD60yj_Ystgf7rTOLjwulEsfi"
+    },
+    {
+      "folder": "38",
+      "filename": "73433038.jpg",
+      "externalId": "1Ighx457yL9SOnlS2eZgQs3YeUSUWLzsY"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Chicago",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

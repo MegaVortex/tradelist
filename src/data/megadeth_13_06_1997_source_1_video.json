@@ -1,0 +1,150 @@
+{
+  "originalTitle": "Megadeth - 13.06.1997 - Phoenix - AZ - USA - Mesa Amphitheatre (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Megadeth"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "06",
+    "year": "1997"
+  },
+  "startDateUnix": 866160000,
+  "endDate": {
+    "day": "13",
+    "month": "06",
+    "year": "1997"
+  },
+  "endDateUnix": 866160000,
+  "location": {
+    "city": "Phoenix",
+    "state": "AZ",
+    "country": "USA",
+    "venue": "Mesa Amphitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.65,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1462,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "megadeth_21_06_1997_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "46750118.jpg",
+      "externalId": "1ZBMGRLepf0BHjko8namz8dmhLgyVwJfa"
+    },
+    {
+      "folder": "18",
+      "filename": "58784170.jpg",
+      "externalId": "18ERCQ96fdnoAtBXFLfz9PHOoOsYQzZol"
+    },
+    {
+      "folder": "18",
+      "filename": "82561028.jpg",
+      "externalId": "11xH62qdcewTbNKen-ZEGY6NOPH49SPgj"
+    },
+    {
+      "folder": "18",
+      "filename": "76341035.jpg",
+      "externalId": "1W_bpBJUnD-BAVbcMi53qrWnjQpU6kZ-6"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Holy Wars... The Punishment Due",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Reckoning Day",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Peace Sells",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Angry Again",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Foreclosure Of A Dream",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

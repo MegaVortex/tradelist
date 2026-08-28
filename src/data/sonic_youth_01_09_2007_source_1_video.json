@@ -1,0 +1,122 @@
+{
+  "originalTitle": "Sonic Youth - 01.09.2007 - London - England - Roundhouse (Source 1)",
+  "created": 1759697268,
+  "lastUpdated": 1759697268,
+  "bands": [
+    "Sonic Youth"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "09",
+    "year": "2007"
+  },
+  "endDate": {
+    "day": "01",
+    "month": "09",
+    "year": "2007"
+  },
+  "startDateUnix": 1188604800,
+  "endDateUnix": 1188604800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Roundhouse",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "Toni Villard",
+  "transferredBy": "",
+  "notes": "Highly incomplete. Audio recorded by Tristan Ruellan.",
+  "tapers": [
+    "Stephen Lee"
+  ],
+  "receivedInTrade": true,
+  "trader": "Ingram",
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.01,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 2268,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 1536,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "images": [
+    {
+      "folder": "2025",
+      "filename": "shot-1759696542098-0.jpg",
+      "externalId": "1_q6jizq8fPXKUWhv8Jdkj1IDFV0SFqII"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1759696542600-3.jpg",
+      "externalId": "15HAcYhT8yPCJvc5CdJda8lb_sAbNLnKf"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1759696542454-2.jpg",
+      "externalId": "1aicOzWoSb1uB0HrqBpMfobgViM6RCApO"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1759696542300-1.jpg",
+      "externalId": "1Cay40vZM1wjXanrY9-P5k3nbxU4qoLO4"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Expressway to Yr Skull",
+      "feat": "Chris Corsano",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [],
+  "relatedShows": [
+    "sonic_youth_29_08_2007_source_1_video"
+  ],
+  "childOf": ""
+}

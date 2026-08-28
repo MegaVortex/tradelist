@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Bon Jovi - 07.09.1994 - London - England - Covent Garden",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "09",
+    "year": "1994"
+  },
+  "startDateUnix": 778896000,
+  "endDate": {
+    "day": "07",
+    "month": "09",
+    "year": "1994"
+  },
+  "endDateUnix": 778896000,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Covent Garden",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Acoustic set.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.49,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1400,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "76",
+      "filename": "90108693.jpg",
+      "externalId": "1_Vb7mdPWtwDZBtrl_GF1xTZ-p9sheHIT"
+    },
+    {
+      "folder": "76",
+      "filename": "01807547.jpg",
+      "externalId": "1oKno2CEZOZj67v7ARx6KzLRj_TZebpFs"
+    },
+    {
+      "folder": "76",
+      "filename": "10446290.jpg",
+      "externalId": "1YU_VBDseoJvS5j_SUjh2M1TgfRukHsJZ"
+    },
+    {
+      "folder": "76",
+      "filename": "20493016.jpg",
+      "externalId": "1X629Ir7P4j2cDc7xFOOxOK3l91UDHWom"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "I'll Sleep When I'm Dead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Livin' On A Prayer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Someday I'll Be Saturday Night",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Wanted Dead Or Alive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Bridge Over Troubled Water",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Simon & Garfunkel"
+    }
+  ],
+  "extras": []
+}

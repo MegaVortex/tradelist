@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Mushroomhead - 22.08.2001 - Boynton Beach - FL - USA - The Orbit",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Mushroomhead"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "08",
+    "year": "2001"
+  },
+  "startDateUnix": 998438400,
+  "endDate": {
+    "day": "22",
+    "month": "08",
+    "year": "2001"
+  },
+  "endDateUnix": 998438400,
+  "location": {
+    "city": "Boynton Beach",
+    "state": "FL",
+    "country": "USA",
+    "venue": "The Orbit",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.26,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2097,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "7",
+      "filename": "95544113.jpg",
+      "externalId": "1UVwQDp8uqliZw18NNlZ4LvygwrjLC27K"
+    },
+    {
+      "folder": "7",
+      "filename": "15080936.jpg",
+      "externalId": "1uCtWuy6UtTwu843NhnS7x6vqz-GIAslR"
+    },
+    {
+      "folder": "7",
+      "filename": "20914998.jpg",
+      "externalId": "1yJgjGSRruIOxzasjJ63z7OmVJD7naGsN"
+    },
+    {
+      "folder": "7",
+      "filename": "23458865.jpg",
+      "externalId": "1V7Dg4bEEDQ0UWDymgu3XpVJZ4SX52-8f"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Bwormp",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Before I Die",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "These Filthy Hands",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Xeroxed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Solitare Unraveling",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Empty Spaces",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Born Of Desire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

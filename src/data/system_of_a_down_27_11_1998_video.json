@@ -1,0 +1,135 @@
+{
+  "originalTitle": "System Of A Down - 27.11.1998 - London - England - Astoria",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "System Of A Down"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "11",
+    "year": "1998"
+  },
+  "startDateUnix": 912124800,
+  "endDate": {
+    "day": "27",
+    "month": "11",
+    "year": "1998"
+  },
+  "endDateUnix": 912124800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Astoria",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.27,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4353,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "sepultura_27_11_1998_source_1_video",
+    "slayer_27_11_1998_video"
+  ],
+  "childOf": "various_artists_27_11_1998_video_compilation",
+  "images": [
+    {
+      "folder": "16",
+      "filename": "28466063.jpg",
+      "externalId": "1hFQoVcuvGUrEIWoVetRPf9pC2knxZ6uU"
+    },
+    {
+      "folder": "16",
+      "filename": "36030296.jpg",
+      "externalId": "1pNt4p3CzqaZxNhe1a_X2KZY618q8e2O0"
+    },
+    {
+      "folder": "16",
+      "filename": "54391686.jpg",
+      "externalId": "1HbDZ43JQsZ5bepd1E5iads0rIh7SFNMk"
+    },
+    {
+      "folder": "16",
+      "filename": "18387466.jpg",
+      "externalId": "1Gov_ilLo2hd67Ia0DoOK_vxRu0aUylnx"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "X",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "Serj",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

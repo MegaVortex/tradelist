@@ -1,0 +1,159 @@
+{
+  "originalTitle": "Machine Head - 17.05.2009 - Cologne - Germany - Lanxess Arena (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Machine Head"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "05",
+    "year": "2009"
+  },
+  "startDateUnix": 1242518400,
+  "endDate": {
+    "day": "17",
+    "month": "05",
+    "year": "2009"
+  },
+  "endDateUnix": 1242518400,
+  "location": {
+    "city": "Cologne",
+    "state": "",
+    "country": "Germany",
+    "venue": "Lanxess Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "2 cam mix.",
+  "tapers": [
+    "Franticfreak",
+    "Bakersfield"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.21,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3106,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "65",
+      "filename": "18514745.jpg",
+      "externalId": "1DP5Pfi570XOWwLd-YoU2lshyrpfmpv8T"
+    },
+    {
+      "folder": "65",
+      "filename": "06109962.jpg",
+      "externalId": "1p2KYbwEqYPrYU2GGFhAmxouPnfwFb4m-"
+    },
+    {
+      "folder": "65",
+      "filename": "61382112.jpg",
+      "externalId": "1kuInrfci7mt7ygUJszYQk9K68MifqCXt"
+    },
+    {
+      "folder": "65",
+      "filename": "93627575.jpg",
+      "externalId": "1f9pCJ2FudA1cw4CGXjeD82bIkjxLsebb"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Imperium",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Ten Ton Hammer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Aesthetics Of Hate",
+      "feat": "James Hetfield",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Hallowed By Thy Name",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Iron Maiden"
+    },
+    {
+      "order": 5,
+      "song": "Halo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Davidian",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

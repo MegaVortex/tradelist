@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Danzig - 03.06.1995 - Nuerburg - Germany - Nuerburgring - Rock Am Ring (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Danzig"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "06",
+    "year": "1995"
+  },
+  "startDateUnix": 802137600,
+  "endDate": {
+    "day": "03",
+    "month": "06",
+    "year": "1995"
+  },
+  "endDateUnix": 802137600,
+  "location": {
+    "city": "Nuerburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Nuerburgring",
+    "event": "Rock Am Ring"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 287,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 389,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "75",
+      "filename": "74127885.jpg",
+      "externalId": "1WEtfR34_W_7scmvEvVracycH41dc9irN"
+    },
+    {
+      "folder": "75",
+      "filename": "12599089.jpg",
+      "externalId": "1drt-HuENNuvEd-hVj03n6tkQVcgAqT1g"
+    },
+    {
+      "folder": "75",
+      "filename": "51394270.jpg",
+      "externalId": "13nCP4B9H-jhToOXKDGQTsbMFbO_fT1Kj"
+    },
+    {
+      "folder": "75",
+      "filename": "93539324.jpg",
+      "externalId": "1vw-w6oNjxKzkhxA_Mh3wPbu_laNHaNL4"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Mother",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Going Down To Die",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

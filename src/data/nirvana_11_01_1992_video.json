@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Nirvana - 11.01.1992 - New York - NY - USA - NBC Studios - Saturday Night Live",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "01",
+    "year": "1992"
+  },
+  "startDateUnix": 695088000,
+  "endDate": {
+    "day": "11",
+    "month": "01",
+    "year": "1992"
+  },
+  "endDateUnix": 695088000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": "Saturday Night Live"
+  },
+  "tvChannel": "NBC",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "PRO#1. The original broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 614,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 669,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "13911536.jpg",
+      "externalId": "1bHXSltoex6ln3oDGHqWAx7m6CqIdTB7F"
+    },
+    {
+      "folder": "80",
+      "filename": "70603430.jpg",
+      "externalId": "1wSxNKGr3u_GdtfUToj1GPkUHKFaDpDFG"
+    },
+    {
+      "folder": "80",
+      "filename": "80031472.jpg",
+      "externalId": "1rrBDmapUTOzUPbl6x0bmKL0wl6JdaFpG"
+    },
+    {
+      "folder": "80",
+      "filename": "84006807.jpg",
+      "externalId": "1IKIxDdDmszXkg-mSiXHFYf8jHbUXmtuh"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Smells Like Teen Spirit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Territorial Pissings",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Outro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

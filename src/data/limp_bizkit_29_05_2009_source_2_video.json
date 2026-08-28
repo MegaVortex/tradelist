@@ -1,0 +1,158 @@
+{
+  "originalTitle": "Limp Bizkit - 29.05.2009 - Moscow - Russia - Zeleniy Teatr (Source 2)",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "29",
+    "month": "05",
+    "year": "2009"
+  },
+  "startDateUnix": 1243555200,
+  "endDate": {
+    "day": "29",
+    "month": "05",
+    "year": "2009"
+  },
+  "endDateUnix": 1243555200,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Zeleniy Teatr",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete.",
+  "tapers": [
+    "verbludozis"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.09,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1561,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "3",
+      "filename": "2773214.jpg",
+      "externalId": "1ua2yyWZpUSV6hL9VZTBvSZZL1y2-rEU0"
+    },
+    {
+      "folder": "3",
+      "filename": "1227298.jpg",
+      "externalId": "10nyQX4KseyJvVNOn4O_ZhlZfKOdS8zNw"
+    },
+    {
+      "folder": "3",
+      "filename": "6893557.jpg",
+      "externalId": "1NJ9MFuYb2YrVvtBjMKnIE5tdXBA4-aeS"
+    },
+    {
+      "folder": "3",
+      "filename": "2581152.jpg",
+      "externalId": "1ovZBbj7ZuA4tm2XLkYUM0v3SgWiUZnCW"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Break Stuff",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Boiler",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Just Like This",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "N 2 Gether Now (feat. Seryoga)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Counterfeit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Rollin` (Air Raid Assault Vehicle)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Ampere - 04.11.2011 - Cambridge - MA - USA - Democracy Center",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Ampere"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "11",
+    "year": "2011"
+  },
+  "startDateUnix": 1320364800,
+  "endDate": {
+    "day": "04",
+    "month": "11",
+    "year": "2011"
+  },
+  "endDateUnix": 1320364800,
+  "location": {
+    "city": "Cambridge",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Democracy Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "dyinghorse release.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 727,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 960,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "33",
+      "filename": "17360763.jpg",
+      "externalId": "132nJE15-IXFcwNO1bWFn0mHUdvCqd5EW"
+    },
+    {
+      "folder": "33",
+      "filename": "49063587.jpg",
+      "externalId": "1Dy5wYZfqpTg5neP1TjNdu5JRqfOFzFcg"
+    },
+    {
+      "folder": "33",
+      "filename": "04513645.jpg",
+      "externalId": "1CB8Xf1PxQaH6M5a05Ygd5HIMsh_X_I4t"
+    },
+    {
+      "folder": "33",
+      "filename": "02205406.jpg",
+      "externalId": "1L85Er8bz1_U8oprt4PGskW-hu3tLXeSL"
+    }
+  ],
+  "setlist": []
+}

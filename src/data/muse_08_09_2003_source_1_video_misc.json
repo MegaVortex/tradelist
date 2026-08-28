@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Muse - 08.09.2003 - London - England - MTV Studios - Gonzo (Source 1) [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Muse"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "09",
+    "year": "2003"
+  },
+  "startDateUnix": 1062979200,
+  "endDate": {
+    "day": "08",
+    "month": "09",
+    "year": "2003"
+  },
+  "endDateUnix": 1062979200,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "MTV Studios",
+    "event": "Gonzo"
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.02,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4143,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "en",
+        "codec": "DTS",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "33",
+      "filename": "17828610.jpg",
+      "externalId": "1s9mmvfNJUHQnfzQ3XyO12af-rbC-qNKd"
+    },
+    {
+      "folder": "33",
+      "filename": "72916388.jpg",
+      "externalId": "184SNLcWBdTwdm1-THV0hbxrENGxfy8iC"
+    },
+    {
+      "folder": "33",
+      "filename": "22528843.jpg",
+      "externalId": "11SmYnymvHrb7TJqPHSFZHh_u6vffuZwq"
+    },
+    {
+      "folder": "33",
+      "filename": "63552569.jpg",
+      "externalId": "1akiBsJ6tdaCV-Y2l5-q0zDwmBIsIbjy-"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

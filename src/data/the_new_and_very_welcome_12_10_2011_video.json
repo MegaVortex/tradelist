@@ -1,0 +1,106 @@
+{
+  "originalTitle": "The New And Very Welcome - 12.10.2011 - Allston - MA - USA - Wacky Kastle",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The New And Very Welcome"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "10",
+    "year": "2011"
+  },
+  "startDateUnix": 1318377600,
+  "endDate": {
+    "day": "12",
+    "month": "10",
+    "year": "2011"
+  },
+  "endDateUnix": 1318377600,
+  "location": {
+    "city": "Allston",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Wacky Kastle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "dyinghorse release.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.16,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1084,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "34",
+      "filename": "93977887.jpg",
+      "externalId": "1OTZG6rjmoZ9o4i1dZqt7hafBHYQLZHL_"
+    },
+    {
+      "folder": "34",
+      "filename": "45050349.jpg",
+      "externalId": "12EjWwI8EhMetm7iTFF97_F-4vIIeao09"
+    },
+    {
+      "folder": "34",
+      "filename": "44528874.jpg",
+      "externalId": "1ZngL34eI73gFVtB2dMyzAUNOb5apGG4C"
+    },
+    {
+      "folder": "34",
+      "filename": "49535315.jpg",
+      "externalId": "1eqME06j-GJoPPTrul6mO96KoTvUc_GxX"
+    }
+  ],
+  "setlist": []
+}

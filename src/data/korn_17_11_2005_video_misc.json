@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Korn - 17.11.2005 - New York - NY - USA - Fuse TV Studios - Daily Download [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "11",
+    "year": "2005"
+  },
+  "startDateUnix": 1132185600,
+  "endDate": {
+    "day": "17",
+    "month": "11",
+    "year": "2005"
+  },
+  "endDateUnix": 1132185600,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Fuse TV Studios",
+    "event": "Daily Download"
+  },
+  "tvChannel": "Fuse TV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 922,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 820,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "23760937.jpg",
+      "externalId": "1MAbCHAfnk4TvdGr8H4yeFHTJm6DSuA8H"
+    },
+    {
+      "folder": "14",
+      "filename": "82877519.jpg",
+      "externalId": "1XUlYcQaG_lRLEx0gZRmpKCeJgXp8bZBo"
+    },
+    {
+      "folder": "14",
+      "filename": "58180949.jpg",
+      "externalId": "1jANQNk9xGIE4ZGAdz3u8vzHQdAPGuhP1"
+    },
+    {
+      "folder": "14",
+      "filename": "04657413.jpg",
+      "externalId": "11bHB545SP1gYdB37Q0YZrGODReKibukL"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,186 @@
+{
+  "originalTitle": "Anthrax - 05.09.1993 - Irvine - CA - USA - Meadows Amphitheatre [AUDIO]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Anthrax"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "09",
+    "year": "1993"
+  },
+  "startDateUnix": 747187200,
+  "endDate": {
+    "day": "05",
+    "month": "09",
+    "year": "1993"
+  },
+  "endDateUnix": 747187200,
+  "location": {
+    "city": "Irvine",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Meadows Amphitheatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "audio"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete FM broadcast. FM broadcast > Maxell CD's II-60 > Onkyo USB Digital Audio Processor SE-U55 > WAV > WaveZ ver. 1.64 (wave file spiltter) > FLAC (8).",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 398,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3544,
+    "video": {
+      "format": "",
+      "ratio": "",
+      "resolution": "",
+      "bitrateType": "",
+      "bitrateKbps": null,
+      "letterboxed": false
+    },
+    "audio": [
+      {
+        "language": "",
+        "codec": "FLAC",
+        "rateHz": 44100,
+        "bitrateKbps": 1411,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "FLAC"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Potters Field",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Got The Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Joe Jackson"
+    },
+    {
+      "order": 4,
+      "song": "Room For One More",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Black Lodge",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Antisocial",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Trust"
+    },
+    {
+      "order": 7,
+      "song": "Hy Pro Glo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "In My World",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Only",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Thieves  (with Al Jourgensen)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Ministry"
+    },
+    {
+      "order": 11,
+      "song": "Supernaut",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Black Sabbath"
+    },
+    {
+      "order": 12,
+      "song": "So What'cha Want",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Beastie Boys"
+    },
+    {
+      "order": 13,
+      "song": "Bring The Noise",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Public Enemy"
+    }
+  ],
+  "extras": []
+}

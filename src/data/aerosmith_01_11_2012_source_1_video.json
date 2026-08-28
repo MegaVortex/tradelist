@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Aerosmith - 01.11.2012 - New York - NY - USA - Ed Sullivan Theatre - David Letterman Show (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Aerosmith"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "11",
+    "year": "2012"
+  },
+  "startDateUnix": 1351728000,
+  "endDate": {
+    "day": "01",
+    "month": "11",
+    "year": "2012"
+  },
+  "endDateUnix": 1351728000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Ed Sullivan Theatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "David Letterman Show",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 481,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 825,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "47",
+      "filename": "07925337.jpg",
+      "externalId": "1jvvZaF5d1CPPsjCnKMAZ0AcXcXl8YEpm"
+    },
+    {
+      "folder": "47",
+      "filename": "53439040.jpg",
+      "externalId": "1_1SfL9C6qolMuwauyMe5s7z6EAkJpI0-"
+    },
+    {
+      "folder": "47",
+      "filename": "94740018.jpg",
+      "externalId": "1HtCWKS8lzObuk_M3Nae5bRsFFXjsv6a-"
+    },
+    {
+      "folder": "47",
+      "filename": "79554064.jpg",
+      "externalId": "14nK1CA40G9mNIpfXsSMmHfeXOdz06OEI"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Lover Alot",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

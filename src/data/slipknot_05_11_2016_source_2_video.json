@@ -1,0 +1,126 @@
+{
+  "originalTitle": "Slipknot - 05.11.2016 - Chiba - Japan - Makuhari Messe - Knotfest (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "11",
+    "year": "2016"
+  },
+  "startDateUnix": 1478304000,
+  "endDate": {
+    "day": "05",
+    "month": "11",
+    "year": "2016"
+  },
+  "endDateUnix": 1478304000,
+  "location": {
+    "city": "Chiba",
+    "state": "",
+    "country": "Japan",
+    "venue": "Makuhari Messe",
+    "event": "Knotfest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 770,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1840,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": 3377,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 44100,
+        "bitrateKbps": 127,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "YouTube RIP",
+      "finalMediaType": "HD",
+      "fileFormat": "MP4"
+    }
+  },
+  "relatedShows": [
+    "slipknot_06_11_2016_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "82",
+      "filename": "66666373.jpg",
+      "externalId": "1khBOfi90g7j4RLi4eY4923_rGY7YBsOJ"
+    },
+    {
+      "folder": "82",
+      "filename": "54551281.jpg",
+      "externalId": "1TOXI139vR1pH045hlI7UQo_9oJskiGxV"
+    },
+    {
+      "folder": "82",
+      "filename": "03158276.jpg",
+      "externalId": "1pfk26a8kAREmqcr-4zXFY_7i1Lcfer8P"
+    },
+    {
+      "folder": "82",
+      "filename": "41844337.jpg",
+      "externalId": "1tH-bVdsV8jD8_1HQSGWGwkWBJLIYkTuH"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Negative One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Psychosocial",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

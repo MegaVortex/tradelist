@@ -1,0 +1,125 @@
+{
+  "originalTitle": "Linkin Park - 20.06.2008 - Venezia - Italy - Parco San Giuliano Di Mestre - Heineken Jammin' Festival [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "06",
+    "year": "2008"
+  },
+  "startDateUnix": 1213920000,
+  "endDate": {
+    "day": "20",
+    "month": "06",
+    "year": "2008"
+  },
+  "endDateUnix": 1213920000,
+  "location": {
+    "city": "Venezia",
+    "state": "",
+    "country": "Italy",
+    "venue": "Parco San Giuliano Di Mestre",
+    "event": "Heineken Jammin' Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MTV special.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 225,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 258,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "49",
+      "filename": "34994494.jpg",
+      "externalId": "185ORXt0YbMeyQ2Q9MIVXNg1jyMbnYZHe"
+    },
+    {
+      "folder": "49",
+      "filename": "58843870.jpg",
+      "externalId": "1jM-XRQE1F7zG5mNQYvwysfPdoaI2m8ay"
+    },
+    {
+      "folder": "49",
+      "filename": "39245113.jpg",
+      "externalId": "1kMCltYRYRAiQ18PLxEJWsiYrI-kM2-3C"
+    },
+    {
+      "folder": "49",
+      "filename": "97645066.jpg",
+      "externalId": "1KlPCYIaIhZKSQTikDjW-2pAT1ejnoyIo"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Chester and Phoenix",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Live Footage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

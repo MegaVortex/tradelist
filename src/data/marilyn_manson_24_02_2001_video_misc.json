@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Marilyn Manson - 24.02.2001 - Moscow - Russia - MTV News Block [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "02",
+    "year": "2001"
+  },
+  "startDateUnix": 982972800,
+  "endDate": {
+    "day": "24",
+    "month": "02",
+    "year": "2001"
+  },
+  "endDateUnix": 982972800,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "MTV News Block",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MTV broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 338,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 410,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "62",
+      "filename": "21032649.jpg",
+      "externalId": "1gAfTIPKBR5CQ3TnXDuOe5yUux7owusXH"
+    },
+    {
+      "folder": "62",
+      "filename": "71806169.jpg",
+      "externalId": "1VX3W384qKRlcgjX7QBjNFv6QbKynB_RT"
+    },
+    {
+      "folder": "62",
+      "filename": "26333334.jpg",
+      "externalId": "1C8SpcnXWlLQ3yE5l3v0SLUz097YEL6hF"
+    },
+    {
+      "folder": "62",
+      "filename": "21009431.jpg",
+      "externalId": "1vwVcFMRq2yzGLvqRS3EsOBihLk1qppew"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

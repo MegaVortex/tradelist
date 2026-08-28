@@ -1,0 +1,143 @@
+{
+  "originalTitle": "Jimi Hendrix - 09.09.1969 - New York - NY - USA - ABC Studios - Dick Cavett Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Jimi Hendrix"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "09",
+    "year": "1969"
+  },
+  "startDateUnix": -9849600,
+  "endDate": {
+    "day": "09",
+    "month": "09",
+    "year": "1969"
+  },
+  "endDateUnix": -9849600,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "ABC Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Dick Cavett Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 881,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1144,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "jimi_hendrix_07_07_1969_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "01780558.jpg",
+      "externalId": "10xweEnZIYv1_jrOtXhZZ24i1j96YH5Aa"
+    },
+    {
+      "folder": "24",
+      "filename": "85471630.jpg",
+      "externalId": "1D6QIgoxJO7HAG4hveA8VodMtPFVjctN8"
+    },
+    {
+      "folder": "24",
+      "filename": "78634203.jpg",
+      "externalId": "1pX0aNcrGuOOe_vWf_qZKif5qNWHsB1N5"
+    },
+    {
+      "folder": "24",
+      "filename": "20141108.jpg",
+      "externalId": "1wKeojfBwm7D8HuSzyWMqLHgxiJxJawOz"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Izabella",
+      "feat": "Gypsy Sun & Rainbows",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Machine Gun",
+      "feat": "Gypsy Sun & Rainbows",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [
+    {
+      "order": 1,
+      "song": "Behind-The-Scenes Documentary",
+      "feat": "",
+      "note": "",
+      "coverOf": "",
+      "comment": ""
+    }
+  ]
+}

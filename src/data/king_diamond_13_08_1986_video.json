@@ -1,0 +1,108 @@
+{
+  "originalTitle": "King Diamond - 13.08.1986 - Sacramento - CA - USA - El Dorado Saloon",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "King Diamond"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "08",
+    "year": "1986"
+  },
+  "startDateUnix": 524275200,
+  "endDate": {
+    "day": "13",
+    "month": "08",
+    "year": "1986"
+  },
+  "endDateUnix": 524275200,
+  "location": {
+    "city": "Sacramento",
+    "state": "CA",
+    "country": "USA",
+    "venue": "El Dorado Saloon",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 276,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 262,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "megadeth_13_08_1986_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "49",
+      "filename": "56699933.jpg",
+      "externalId": "1jNaAhepie_bkpwZExyX6vuayMTdKF1hs"
+    },
+    {
+      "folder": "49",
+      "filename": "90935568.jpg",
+      "externalId": "1lgqiPQucxgfTlTW3orXFI-b3JfTkua4p"
+    },
+    {
+      "folder": "49",
+      "filename": "50803528.jpg",
+      "externalId": "1-WqMpizXwn_XXRFP_YGgaNyVpQ0gn-VV"
+    },
+    {
+      "folder": "49",
+      "filename": "43837677.jpg",
+      "externalId": "16xhzwoaLLX5fOm24GsSubrxO-LRvBXbJ"
+    }
+  ],
+  "setlist": []
+}

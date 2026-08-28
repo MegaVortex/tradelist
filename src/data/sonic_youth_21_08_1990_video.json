@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Sonic Youth - 21.08.1990 - San Francisco - CA - USA - Tower Records",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sonic Youth"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "08",
+    "year": "1990"
+  },
+  "startDateUnix": 651196800,
+  "endDate": {
+    "day": "21",
+    "month": "08",
+    "year": "1990"
+  },
+  "endDateUnix": 651196800,
+  "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Tower Records",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.96,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 4049,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "91676453.jpg",
+      "externalId": "16gFLLi91bbsCLo-pD3dKvNNQpTQJsNE3"
+    },
+    {
+      "folder": "24",
+      "filename": "88983761.jpg",
+      "externalId": "1Vi_0lOj-1FPA5TYWrQY2HrC1YkjsogMw"
+    },
+    {
+      "folder": "24",
+      "filename": "20788167.jpg",
+      "externalId": "1A_NkR0gf7mS-aCS9ssFqE3Gw1H54LmAu"
+    },
+    {
+      "folder": "24",
+      "filename": "77905530.jpg",
+      "externalId": "118bmFqp4fsA3HMjQm89WiGsfxhcpMUBl"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Tom Violence",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "White Cross",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Mary Christ",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Kool Thing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Disappearer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Death Valley '69",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "The Bedroom",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Aerosmith - 01.11.2012 - New York - NY - USA - Ed Sullivan Theater - David Letterman Show (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Aerosmith"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "11",
+    "year": "2012"
+  },
+  "startDateUnix": 1351728000,
+  "endDate": {
+    "day": "01",
+    "month": "11",
+    "year": "2012"
+  },
+  "endDateUnix": 1351728000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Ed Sullivan Theater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "David Letterman Show",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.32,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 937,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "55",
+      "filename": "74722826.jpg",
+      "externalId": "1xWHYtIUIlFCJ3jKy1AYtG1GuEcCMnRnk"
+    },
+    {
+      "folder": "55",
+      "filename": "32513099.jpg",
+      "externalId": "1hf4W8bGY1m7pIwzx7pyHkzMZq93qAWVy"
+    },
+    {
+      "folder": "55",
+      "filename": "29048155.jpg",
+      "externalId": "1lwQBk_e6Y_O7Po2tCb9cw9QEmN5EZ63c"
+    },
+    {
+      "folder": "55",
+      "filename": "48421348.jpg",
+      "externalId": "1DCG5yfTx6DzJkYyhnCCWSZ0SQAs92VmP"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Joe Perry and Steven Tyler",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Lover Alot",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

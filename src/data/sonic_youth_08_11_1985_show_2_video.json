@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Sonic Youth - 08.11.1985 - Brighton - England - Brighton Beach",
+  "created": 1753904008,
+  "lastUpdated": 1753904008,
+  "bands": [
+    "Sonic Youth"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "11",
+    "year": "1985"
+  },
+  "startDateUnix": 500256000,
+  "endDate": {
+    "day": "08",
+    "month": "11",
+    "year": "1985"
+  },
+  "endDateUnix": 500256000,
+  "location": {
+    "city": "Brighton",
+    "state": "",
+    "country": "England",
+    "venue": "Brighton Beach",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Outdoor set.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.78,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3335,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "81",
+      "filename": "42660099.jpg",
+      "externalId": "1652e1ng35WrcwVwZllx-1wtzBgk8V97i"
+    },
+    {
+      "folder": "81",
+      "filename": "46176984.jpg",
+      "externalId": "1z7zBf4dJ4HzGt0mF49GIIk2Mugw5n0C6"
+    },
+    {
+      "folder": "81",
+      "filename": "08017195.jpg",
+      "externalId": "1xbwc_KiLCUQHjm5Tk67fTX19Ih2igEIN"
+    },
+    {
+      "folder": "81",
+      "filename": "57870503.jpg",
+      "externalId": "1WngE3VTOs_mJa35JKNYwpcG8a1pOoPwv"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Instrumental Jam",
+      "feat": "",
+      "note": "tape",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The World Looks Red",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Brother James",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Inhuman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Making The Nature Scene",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

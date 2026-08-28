@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Evergreen Terrace - 12.07.2005 - Montreal - QC - Canada - El Salon",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Evergreen Terrace"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "07",
+    "year": "2005"
+  },
+  "startDateUnix": 1121126400,
+  "endDate": {
+    "day": "12",
+    "month": "07",
+    "year": "2005"
+  },
+  "endDateUnix": 1121126400,
+  "location": {
+    "city": "Montreal",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "El Salon",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.56,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1653,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "fr",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "45456310.jpg",
+      "externalId": "1stmIGrTqeFR_Cnxm3IL30CjqRdXynQ0M"
+    },
+    {
+      "folder": "29",
+      "filename": "63046020.jpg",
+      "externalId": "1rPj3uZmU83IHbcJFsqfKbkgTjigY9aIZ"
+    },
+    {
+      "folder": "29",
+      "filename": "00960803.jpg",
+      "externalId": "1KBkHklvs5D6ADbROIOwAaSwxe9iH2KRn"
+    },
+    {
+      "folder": "29",
+      "filename": "82518179.jpg",
+      "externalId": "1xXAlMJlE3A0x07jzn6WPKnah7iES6vil"
+    }
+  ],
+  "setlist": []
+}

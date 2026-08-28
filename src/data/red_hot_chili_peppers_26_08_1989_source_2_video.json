@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Red Hot Chili Peppers - 26.08.1989 - Amsterdam - Netherlands - Dam Square - UITmarkt Festival (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Red Hot Chili Peppers"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "08",
+    "year": "1989"
+  },
+  "startDateUnix": 620092800,
+  "endDate": {
+    "day": "26",
+    "month": "08",
+    "year": "1989"
+  },
+  "endDateUnix": 620092800,
+  "location": {
+    "city": "Amsterdam",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Dam Square",
+    "event": "UITmarkt Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 573,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 497,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "8",
+      "filename": "23650209.jpg",
+      "externalId": "1VZQb0fdVD81KF6-WjUj-ojZCNdo3n8Xc"
+    },
+    {
+      "folder": "8",
+      "filename": "73434288.jpg",
+      "externalId": "1pM3Xz6oQ9Q3HIgDx2ZMpncO9zTvGT6UO"
+    },
+    {
+      "folder": "8",
+      "filename": "42800926.jpg",
+      "externalId": "1bpQ95csJUR5yERLJE0j3vvRrN_7dFe7_"
+    },
+    {
+      "folder": "8",
+      "filename": "47666647.jpg",
+      "externalId": "1bhXOY8u6TpsYKuyz2u3trwmaouUYD1MU"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Ball & Chain",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Backwoods",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Castles Made Of Sand",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Interviews",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

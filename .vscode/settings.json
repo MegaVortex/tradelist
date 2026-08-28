@@ -1,0 +1,12 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".*\\.json$",
+                "cmd": "node \"${workspaceFolder}/scripts/update-last-updated.cjs\" \"${file}\"",
+                "isAsync": false
+            }
+        ]
+    },
+	"editor.formatOnSave": false
+}

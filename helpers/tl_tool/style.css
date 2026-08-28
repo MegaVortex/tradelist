@@ -1,0 +1,134 @@
+body {
+    font-size: 10px;
+}
+
+input.form-control-sm,
+select.form-control-sm,
+select.form-select-sm {
+    font-size: 9px !important;
+    height: 22px !important;
+}
+
+textarea[id^="notes"] {
+    font-size: 9px;
+}
+
+[id^="shots-result"] {
+    display: grid;
+    grid-template-columns: repeat(2, 160px);
+    gap: 8px;
+    justify-content: center;
+}
+
+[id^="shots-result"]>div {
+    text-align: center;
+}
+
+[id^="shots-result"] img {
+    width: 160px;
+    border: 1px solid #ccc;
+}
+
+[id^="drop-area"] {
+    background: #f8f9fa;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+pre[id^="specs-summary"] {
+    background: #f8f8f8;
+    padding: 6px;
+    border: 1px solid #ccc;
+    font-size: 9px;
+}
+
+.song-line {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 2px;
+}
+
+.song-line input {
+    flex: 1;
+    font-size: 9px !important;
+    height: 20px !important;
+    font-weight: bold;
+}
+
+.small-fields {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 6px;
+}
+
+.small-fields input {
+    flex: 1;
+    font-size: 9px !important;
+    height: 20px !important;
+}
+
+.remove-btn {
+    font-size: 8px;
+    padding: 2px 6px;
+    margin-left: 4px;
+}
+
+.media-block {
+    border: 1px dashed #ccc;
+    padding: 6px;
+    border-radius: 4px;
+    background: #fafafa;
+}
+
+select.screenshot-source-select {
+    max-width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+select.screenshot-source-select option {
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.show-type-inline-row .form-select.form-select-sm {
+    max-width: 220px;
+}
+
+#compilation-inline label {
+    font-size: 10px;
+}
+
+.show-type-inline-row {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.show-type-inline-row #show-type {
+    flex: 1 1 33%;
+    max-width: 33%;
+    min-width: 0;
+}
+
+.show-type-inline-row #compilation-inline {
+    flex: 2 1 67%;
+    max-width: 67%;
+    min-width: 0;
+}
+
+#compilation-inline {
+    display: none;
+    margin-top: -24px;
+}
+
+#compilation-inline .form-label {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.category-compilation-wrap {
+    opacity: .65;
+    pointer-events: none;
+}

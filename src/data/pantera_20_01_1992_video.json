@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Pantera - 20.01.1992 - Orlando - FL - USA - Sports Center",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Pantera"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "01",
+    "year": "1992"
+  },
+  "startDateUnix": 695865600,
+  "endDate": {
+    "day": "20",
+    "month": "01",
+    "year": "1992"
+  },
+  "endDateUnix": 695865600,
+  "location": {
+    "city": "Orlando",
+    "state": "FL",
+    "country": "USA",
+    "venue": "Sports Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Damage Inc. version.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.79,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2706,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "63",
+      "filename": "77528559.jpg",
+      "externalId": "1GohkhUkeis8-VpmPtUSZsJgABJxa4kpz"
+    },
+    {
+      "folder": "63",
+      "filename": "04098646.jpg",
+      "externalId": "1lcU0KOQREcL9lhwdPNhFxFK5hWhng21u"
+    },
+    {
+      "folder": "63",
+      "filename": "27045605.jpg",
+      "externalId": "15AElRVRHthNDxfK-emDlpIMVPKpQT8Sg"
+    },
+    {
+      "folder": "63",
+      "filename": "69541917.jpg",
+      "externalId": "1iyeWUZ7qcClC1Lngw7l9NuX7mJEjGCRJ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Heresy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Mouth For War",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Domination / Hollow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Fucking Hostile",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Primal Concrete Sledge",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Cemetery Gates",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Cowboys From Hell",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

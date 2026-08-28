@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Jonathan Davis - 01.12.2007 - Denver - CO - USA - Ogden Theatre",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Jonathan Davis"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "12",
+    "year": "2007"
+  },
+  "startDateUnix": 1196467200,
+  "endDate": {
+    "day": "01",
+    "month": "12",
+    "year": "2007"
+  },
+  "endDateUnix": 1196467200,
+  "location": {
+    "city": "Denver",
+    "state": "CO",
+    "country": "USA",
+    "venue": "Ogden Theatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete. No zoom.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 573,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 589,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "13",
+      "filename": "75304396.jpg",
+      "externalId": "1ZQhOq_eVtGfxnRxwHTZD88UTLFmRG-li"
+    },
+    {
+      "folder": "13",
+      "filename": "54060164.jpg",
+      "externalId": "1Hnt8hrQujYsCKumDlrv2NzqgIOBazWq2"
+    },
+    {
+      "folder": "13",
+      "filename": "56974622.jpg",
+      "externalId": "1yZJ6hvu5UM7ckigUxPug05yZTBAWtrCt"
+    },
+    {
+      "folder": "13",
+      "filename": "80890278.jpg",
+      "externalId": "1ZqcKpKVa_ZnpG4FtgJv5NJxLtVCior_E"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "4 U",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Hey Daddy",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Love On The Rocks",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Blue Monday",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,119 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - [04.07.2012 -- 07.07.2012] - Istanbul - Turkey - Parkorman - Tuborg Goldfest",
+  "created": 1751743559,
+  "lastUpdated": 1751743559,
+  "bands": [
+    "Lacuna Coil",
+    "Guns N Roses",
+    "Dio Disciples",
+    "In Flames",
+    "Within Temptation",
+    "Evanescence"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "07",
+    "year": "2012"
+  },
+  "startDateUnix": 1341360000,
+  "endDate": {
+    "day": "07",
+    "month": "07",
+    "year": "2012"
+  },
+  "endDateUnix": 1341619200,
+  "location": {
+    "city": "Istanbul",
+    "state": "",
+    "country": "Turkey",
+    "venue": "Parkorman",
+    "event": "Tuborg Goldfest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.53,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4732,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "64",
+      "filename": "49681042.jpg",
+      "externalId": "1A51p2aftG1SZmfzMl2w1lmfeT1ja3gDX"
+    },
+    {
+      "folder": "64",
+      "filename": "56609809.jpg",
+      "externalId": "1VfZGbFpXAJlaYhK5rD8St5HVad8QTB06"
+    },
+    {
+      "folder": "64",
+      "filename": "48143289.jpg",
+      "externalId": "1CJHoV18fNcILLhFzCB8JQgbW7Thvmv1z"
+    },
+    {
+      "folder": "64",
+      "filename": "92040046.jpg",
+      "externalId": "1sUNprrSu_ZsVRBcXNOWp4xQNWGPBP3ST"
+    }
+  ],
+  "parentOf": [
+    "lacuna_coil_06_07_2012_video",
+    "guns_n_roses_06_07_2012_video",
+    "dio_disciples_07_07_2012_video",
+    "in_flames_07_07_2012_video",
+    "within_temptation_07_07_2012_video",
+    "evanescence_04_07_2012_video"
+  ]
+}

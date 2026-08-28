@@ -1,0 +1,109 @@
+{
+  "originalTitle": "Glassjaw - 27.09.2000 - St. Louis - MO - USA - Creepy Crawl",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Glassjaw"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "09",
+    "year": "2000"
+  },
+  "startDateUnix": 970012800,
+  "endDate": {
+    "day": "27",
+    "month": "09",
+    "year": "2000"
+  },
+  "endDateUnix": 970012800,
+  "location": {
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "USA",
+    "venue": "Creepy Crawl",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.34,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2411,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "glassjaw_01_05_2002_video",
+    "glassjaw_02_05_2002_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "76979213.jpg",
+      "externalId": "1khWz8Av5YiCLEkvmpfDGZtWPeAxSHuo0"
+    },
+    {
+      "folder": "6",
+      "filename": "86822245.jpg",
+      "externalId": "1Cb0GZ1t_WZqc0uQ-hy9HTB6weQdfUpvl"
+    },
+    {
+      "folder": "6",
+      "filename": "96664639.jpg",
+      "externalId": "1EapYGYtFgApPrONK4nXYiHhU_1nIKkEN"
+    },
+    {
+      "folder": "6",
+      "filename": "97879762.jpg",
+      "externalId": "1YkrUjMN3ZDr9MOEjfWYfPj4Q-kRidq7c"
+    }
+  ],
+  "setlist": []
+}

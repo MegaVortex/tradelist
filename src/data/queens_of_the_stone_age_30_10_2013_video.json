@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Queens Of The Stone Age - 30.10.2013 - New York - NY - USA - Warner Bros. Studio - Conan O'Brien Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "10",
+    "year": "2013"
+  },
+  "startDateUnix": 1383091200,
+  "endDate": {
+    "day": "30",
+    "month": "10",
+    "year": "2013"
+  },
+  "endDateUnix": 1383091200,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Warner Bros. Studio",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Conan O'Brien Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 75.2,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 247,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "MPG"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "53185723.jpg",
+      "externalId": "1V4c6KAAGBxmiU3QALxRG5OIQLwfnN1X1"
+    },
+    {
+      "folder": "70",
+      "filename": "73750020.jpg",
+      "externalId": "1YjKHyQL5p9Qjg2fQYGeCNCt49U-r_5dM"
+    },
+    {
+      "folder": "70",
+      "filename": "99753800.jpg",
+      "externalId": "18lYS80j6wZ45ZxT4MDeYwa6rKpsptJRe"
+    },
+    {
+      "folder": "70",
+      "filename": "38776260.jpg",
+      "externalId": "1397DOMZ9-MzMk2DvnnJbGjcg1F8KIyqC"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Vampyr Of Time And Memory",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

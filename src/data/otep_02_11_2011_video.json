@@ -1,0 +1,150 @@
+{
+  "originalTitle": "Otep - 02.11.2011 - West Hollywood - CA - USA - The Key Club",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Otep"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "11",
+    "year": "2011"
+  },
+  "startDateUnix": 1320192000,
+  "endDate": {
+    "day": "02",
+    "month": "11",
+    "year": "2011"
+  },
+  "endDateUnix": 1320192000,
+  "location": {
+    "city": "West Hollywood",
+    "state": "CA",
+    "country": "USA",
+    "venue": "The Key Club",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Hellrazor"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.95,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1765,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "52283966.jpg",
+      "externalId": "1T6W-l4yipi7P5AMbq3sCnVZ0gLapYYrD"
+    },
+    {
+      "folder": "26",
+      "filename": "30012539.jpg",
+      "externalId": "18vHxt6eZvT-yJM88vom41VFpNmFWbZfi"
+    },
+    {
+      "folder": "26",
+      "filename": "29746845.jpg",
+      "externalId": "17VjlMFcHsfvdX-zUJeSQiziunqkUC4Aa"
+    },
+    {
+      "folder": "26",
+      "filename": "01881898.jpg",
+      "externalId": "1VSpqlj0-kGLJ1OjhaA10sR94GFobD38R"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Eet The Children",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Battle Ready",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Fists Fall",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "My Confession",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Breed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

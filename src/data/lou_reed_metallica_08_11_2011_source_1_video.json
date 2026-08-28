@@ -1,0 +1,135 @@
+{
+  "originalTitle": "Lou Reed & Metallica - 08.11.2011 - London - England - BBC Television Centre - Jools Holland Show (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Lou Reed & Metallica"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "11",
+    "year": "2011"
+  },
+  "startDateUnix": 1320710400,
+  "endDate": {
+    "day": "08",
+    "month": "11",
+    "year": "2011"
+  },
+  "endDateUnix": 1320710400,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "BBC Television Centre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jools Holland Show",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 727,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 737,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "lou_reed_metallica_11_11_2011_source_1_video",
+    "lou_reed_metallica_13_11_2011_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "31123521.jpg",
+      "externalId": "1DnulQe0uqRj0CaqvlTgj_pY3frA_6sAh"
+    },
+    {
+      "folder": "28",
+      "filename": "19542873.jpg",
+      "externalId": "1sw5Bc5KV6xsDGCphuBuNKIyD1J4SkTRB"
+    },
+    {
+      "folder": "28",
+      "filename": "95879204.jpg",
+      "externalId": "10nGhIA9U5UjszQLU1XnRcEj3owSMzpQ2"
+    },
+    {
+      "folder": "28",
+      "filename": "59700389.jpg",
+      "externalId": "1nH0UBb_mWDDOlkYgu9EwXyyQEm3AoZGu"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Iced Honey",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "White Light/White Heat",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

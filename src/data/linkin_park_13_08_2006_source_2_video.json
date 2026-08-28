@@ -1,0 +1,142 @@
+{
+  "originalTitle": "Linkin Park - 13.08.2006 - Chiba - Japan - Chiba Marine Stadium - Summer Sonic Festival (Source 2)",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "08",
+    "year": "2006"
+  },
+  "startDateUnix": 1155427200,
+  "endDate": {
+    "day": "13",
+    "month": "08",
+    "year": "2006"
+  },
+  "endDateUnix": 1155427200,
+  "location": {
+    "city": "Chiba",
+    "state": "",
+    "country": "Japan",
+    "venue": "Chiba Marine Stadium",
+    "event": "Summer Sonic Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.58,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1844,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "linkin_park_13_08_2006_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "3",
+      "filename": "7927555.jpg",
+      "externalId": "1XCE35NE7U3nYSwQ7AOs3gpWpCp1bsQmD"
+    },
+    {
+      "folder": "3",
+      "filename": "4009228.jpg",
+      "externalId": "1ueNJuUjOuTCNPaTYLZezD-5Owmhv5GZR"
+    },
+    {
+      "folder": "3",
+      "filename": "8031827.jpg",
+      "externalId": "1hdk5dUenEUmyWvh0_Zx-TyQ1lf2LtGEi"
+    },
+    {
+      "folder": "3",
+      "filename": "1272900.jpg",
+      "externalId": "1_cR1kl6OSVjmX66JhuKpwmgEz1865rOj"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Numb",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Faint",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Pushing Me Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Breaking The Habit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

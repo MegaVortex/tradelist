@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Rammstein - 26.01.2001 - Sydney - Australia - Olympic Park - Big Day Out (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "01",
+    "year": "2001"
+  },
+  "startDateUnix": 980467200,
+  "endDate": {
+    "day": "26",
+    "month": "01",
+    "year": "2001"
+  },
+  "endDateUnix": 980467200,
+  "location": {
+    "city": "Sydney",
+    "state": "",
+    "country": "Australia",
+    "venue": "Olympic Park",
+    "event": "Big Day Out"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 225,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1374,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "352x288",
+        "bitrateType": "",
+        "bitrateKbps": 1150,
+        "fps": "25",
+        "standard": "MPEG1",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 224,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "MPG"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "55",
+      "filename": "14254086.jpg",
+      "externalId": "1NWLMyQQ9o2u-W_3kORCQmn0L9EdniVWg"
+    },
+    {
+      "folder": "55",
+      "filename": "15296436.jpg",
+      "externalId": "1aKzFOlG36Zvcd8Kn-dilLwFFu4hvP_si"
+    },
+    {
+      "folder": "55",
+      "filename": "40622333.jpg",
+      "externalId": "14c_iAn8UXskMvuW-r-IIwWhd9xiWt3RC"
+    },
+    {
+      "folder": "55",
+      "filename": "30268885.jpg",
+      "externalId": "1TkplWnmX0wbXSHeKymjIStNV-epVZnJv"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Rammstein",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Bestrafe Mich",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Heirate Mich",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Du Hast",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Links 2-3-4",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

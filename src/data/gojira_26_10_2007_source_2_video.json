@@ -1,0 +1,160 @@
+{
+  "originalTitle": "Gojira - 26.10.2007 - Tempe - AZ - USA - The Marquee Theatre (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Gojira"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "10",
+    "year": "2007"
+  },
+  "startDateUnix": 1193356800,
+  "endDate": {
+    "day": "26",
+    "month": "10",
+    "year": "2007"
+  },
+  "endDateUnix": 1193356800,
+  "location": {
+    "city": "Tempe",
+    "state": "AZ",
+    "country": "USA",
+    "venue": "The Marquee Theatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "3 cam mix. Yahoo! Serious.",
+  "tapers": [
+    "Kelly O&#39;Brien",
+    "Derrell Stanfield",
+    "Duke Debebic"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.1,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1924,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "1440x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "44",
+      "filename": "71542206.jpg",
+      "externalId": "1orHu5exmP6Xz1Zjjd4bPM2-bE7kvmb8Y"
+    },
+    {
+      "folder": "44",
+      "filename": "63242310.jpg",
+      "externalId": "1qbC1kTL9pt1ZNGTZ5j5uSxkn-luCOinN"
+    },
+    {
+      "folder": "44",
+      "filename": "20550922.jpg",
+      "externalId": "1aF7iQtfhYfGcwLCxPRlJqVC5cd6iiWg4"
+    },
+    {
+      "folder": "44",
+      "filename": "39458334.jpg",
+      "externalId": "1jbfE689yeypylsYgMrCuB41aZzwsEsT7"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Ocean Planet",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Backbone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Remembrance",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Clone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Flying Whales",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Heaviest Matter Of The Universe",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

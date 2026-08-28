@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Avril Lavigne - 01.11.2007 - Munich - Germany - Olympiahalle - MTV Europe Awards",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Avril Lavigne"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "11",
+    "year": "2007"
+  },
+  "startDateUnix": 1193875200,
+  "endDate": {
+    "day": "01",
+    "month": "11",
+    "year": "2007"
+  },
+  "endDateUnix": 1193875200,
+  "location": {
+    "city": "Munich",
+    "state": "",
+    "country": "Germany",
+    "venue": "Olympiahalle",
+    "event": "MTV Europe Awards"
+  },
+  "tvChannel": "MTV Europe",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1014,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 215,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "38",
+      "filename": "57115605.jpg",
+      "externalId": "1brDw-j6Y87_fYaBykGo1HICW2hheJDCZ"
+    },
+    {
+      "folder": "38",
+      "filename": "27211321.jpg",
+      "externalId": "1mxFWEN5qsRFF9QgHVbnrqfhzjukUgXI0"
+    },
+    {
+      "folder": "38",
+      "filename": "12350465.jpg",
+      "externalId": "1di6XkiLjEXs3APb6oDUJ-4ycbuQ8mEI_"
+    },
+    {
+      "folder": "38",
+      "filename": "99112583.jpg",
+      "externalId": "1AoVX2QM0m8yVMvwhMDXfVjU4EKNlThro"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Hot",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

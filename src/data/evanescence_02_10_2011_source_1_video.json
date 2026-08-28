@@ -1,0 +1,168 @@
+{
+  "originalTitle": "Evanescence - 02.10.2011 - Rio De Janeiro - Brazil - Cidade Do Rock - Rock In Rio (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Evanescence"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "10",
+    "year": "2011"
+  },
+  "startDateUnix": 1317513600,
+  "endDate": {
+    "day": "02",
+    "month": "10",
+    "year": "2011"
+  },
+  "endDateUnix": 1317513600,
+  "location": {
+    "city": "Rio De Janeiro",
+    "state": "",
+    "country": "Brazil",
+    "venue": "Cidade Do Rock",
+    "event": "Rock In Rio"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 8.62,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 17519,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [
+    "system_of_a_down_02_10_2011_source_1_video",
+    "guns_n_roses_02_10_2011_source_2_video",
+    "various_artists_02_10_2011_video"
+  ],
+  "childOf": "various_artists_02_10_2011_video_compilation",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "78523771.jpg",
+      "externalId": "1M-QBQQVEiSQbRqow8mH93eCFmrGv9bxm"
+    },
+    {
+      "folder": "24",
+      "filename": "08240105.jpg",
+      "externalId": "158DbOl0xY7hH7FsXEQkOBfApCYHbsIAv"
+    },
+    {
+      "folder": "24",
+      "filename": "98710696.jpg",
+      "externalId": "1KckBUKiAnX28Qro080J2ih3zul9RxaKL"
+    },
+    {
+      "folder": "24",
+      "filename": "98914255.jpg",
+      "externalId": "1jI8ykEU5dGoteC10DeRULpsvcE8b9nyA"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "What You Want",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Going Under",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "My Immortal",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "The Change",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Call Me When You're Sober",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Bring Me To Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Weight Of The World",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

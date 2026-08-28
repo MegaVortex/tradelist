@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Avenged Sevenfold - 12.08.2006 - Tokyo - Japan - Makuhari Messe - Summer Sonic",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Avenged Sevenfold"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "08",
+    "year": "2006"
+  },
+  "startDateUnix": 1155340800,
+  "endDate": {
+    "day": "12",
+    "month": "08",
+    "year": "2006"
+  },
+  "endDateUnix": 1155340800,
+  "location": {
+    "city": "Tokyo",
+    "state": "",
+    "country": "Japan",
+    "venue": "Makuhari Messe",
+    "event": "Summer Sonic"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 768,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 678,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "84123247.jpg",
+      "externalId": "1WZjz0xPZ30rKJydcCV5xQsQ5QiIeXL1F"
+    },
+    {
+      "folder": "19",
+      "filename": "04280508.jpg",
+      "externalId": "1EmsTwCw31bQhls8zV8I0w8qLMCNlItI1"
+    },
+    {
+      "folder": "19",
+      "filename": "22665152.jpg",
+      "externalId": "1Hz6UPlcH7ebP4r3juAcmkjPUHo9cTo6D"
+    },
+    {
+      "folder": "19",
+      "filename": "57070895.jpg",
+      "externalId": "149wb0EgzsCNhfPVmNRUOS-OQb2Z1SI9S"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Unholy Confessions",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Bat Country",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

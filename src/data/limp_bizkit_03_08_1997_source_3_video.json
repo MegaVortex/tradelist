@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Limp Bizkit - 03.08.1997 - Orlando - FL - USA - Tsunami Complex (Source 3)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "08",
+    "year": "1997"
+  },
+  "startDateUnix": 870566400,
+  "endDate": {
+    "day": "03",
+    "month": "08",
+    "year": "1997"
+  },
+  "endDateUnix": 870566400,
+  "location": {
+    "city": "Orlando",
+    "state": "FL",
+    "country": "USA",
+    "venue": "Tsunami Complex",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Center angle.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.96,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1708,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "63",
+      "filename": "32461269.jpg",
+      "externalId": "1jXQE9IGs0U6hA0GqvOTxcocIL6kkS9hB"
+    },
+    {
+      "folder": "63",
+      "filename": "50589112.jpg",
+      "externalId": "1my-UmaMqCj8MU9O7fN58TK6vTJDn1GEL"
+    },
+    {
+      "folder": "63",
+      "filename": "65425254.jpg",
+      "externalId": "10R_iGIfaRY9Jinae2myD3DJQvb5B4PCM"
+    },
+    {
+      "folder": "63",
+      "filename": "98794659.jpg",
+      "externalId": "1tbhgNVyYeB7Z-idav1ann0hf6Gp5K44D"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Pollution",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Counterfeit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Nobody Loves Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Faith",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Stuck",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

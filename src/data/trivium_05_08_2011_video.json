@@ -1,0 +1,174 @@
+{
+  "originalTitle": "Trivium - 05.08.2011 - Wacken - Germany - Wacken Open Air",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Trivium"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "08",
+    "year": "2011"
+  },
+  "startDateUnix": 1312502400,
+  "endDate": {
+    "day": "05",
+    "month": "08",
+    "year": "2011"
+  },
+  "endDateUnix": 1312502400,
+  "location": {
+    "city": "Wacken",
+    "state": "",
+    "country": "Germany",
+    "venue": "Wacken Open Air",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.33,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3375,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "de",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "motorhead_06_08_2011_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "22",
+      "filename": "43043620.jpg",
+      "externalId": "1y7XraZLmJB5Rf7hyWqSL7FhRytnX4N_o"
+    },
+    {
+      "folder": "22",
+      "filename": "01052991.jpg",
+      "externalId": "1GjGDcp-L8VrzuUPbIAsU0J_3XuoQa4Mv"
+    },
+    {
+      "folder": "22",
+      "filename": "17948443.jpg",
+      "externalId": "1BenCBGkThrAqWEadLErbbwQBopdFziHE"
+    },
+    {
+      "folder": "22",
+      "filename": "05260664.jpg",
+      "externalId": "1DWtK6xB_FDvv82mA30wXkK7l0iuycuYw"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "In Waves",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Black",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Built To Fall",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Dusk Dismantled",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Down From The Sky",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Throes Of Perdition",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

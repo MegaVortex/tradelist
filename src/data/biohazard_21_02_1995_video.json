@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Biohazard - 21.02.1995 - Quebec City - QC - Canada",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Biohazard"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "02",
+    "year": "1995"
+  },
+  "startDateUnix": 793324800,
+  "endDate": {
+    "day": "21",
+    "month": "02",
+    "year": "1995"
+  },
+  "endDateUnix": 793324800,
+  "location": {
+    "city": "Quebec City",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.73,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2580,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "4",
+      "filename": "33948374.jpg",
+      "externalId": "1ijJrKR7xPY1HM_Qg4xuE6eJxm8WDsVwN"
+    },
+    {
+      "folder": "4",
+      "filename": "53528376.jpg",
+      "externalId": "1WuQIB1UD2ycBo36pMErfE3Cpbc-B9fmn"
+    },
+    {
+      "folder": "4",
+      "filename": "95353334.jpg",
+      "externalId": "1_zHXSSeQizcsMF6WmCMPPPfgiVH-wQEu"
+    },
+    {
+      "folder": "4",
+      "filename": "13886192.jpg",
+      "externalId": "1yribva3AEP5xTmMACFjTQppa8b7kOQTz"
+    }
+  ],
+  "setlist": []
+}

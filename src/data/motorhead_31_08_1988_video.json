@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Motorhead - 31.08.1988 - Lausanne - Switzerland - Chalet-A-Gobet - Hotpoint Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Motorhead"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "08",
+    "year": "1988"
+  },
+  "startDateUnix": 588988800,
+  "endDate": {
+    "day": "31",
+    "month": "08",
+    "year": "1988"
+  },
+  "endDateUnix": 588988800,
+  "location": {
+    "city": "Lausanne",
+    "state": "",
+    "country": "Switzerland",
+    "venue": "Chalet-A-Gobet",
+    "event": "Hotpoint Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete. SBD audio.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.07,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2953,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "75",
+      "filename": "82747381.jpg",
+      "externalId": "1ROdE8l10Zw0P5Tz2ZOprZ44sigaZl5DO"
+    },
+    {
+      "folder": "75",
+      "filename": "40265492.jpg",
+      "externalId": "1Co5raSGjwCMf74P4Z5DtWE1gd0XWnMqL"
+    },
+    {
+      "folder": "75",
+      "filename": "46936729.jpg",
+      "externalId": "1gbFoKCylHjm0NTPSj9GWRWE8tYXEY_fq"
+    },
+    {
+      "folder": "75",
+      "filename": "59571002.jpg",
+      "externalId": "1bH3AOfnf-YEnxjh23-rHdpy-V1h5tnEX"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Built For Speed",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Deaf Forever",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Just 'Cos You Got The Power",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "No Class",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Orgasmatron",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Stone Deaf In The U.S.A.",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Killed By Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Overkill",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Despised Icon - 23.07.2005 - Laval - QC - Canada - Recreatheque",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Despised Icon"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "07",
+    "year": "2005"
+  },
+  "startDateUnix": 1122076800,
+  "endDate": {
+    "day": "23",
+    "month": "07",
+    "year": "2005"
+  },
+  "endDateUnix": 1122076800,
+  "location": {
+    "city": "Laval",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "Recreatheque",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Taper is changing his position from time to time.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.07,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1259,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "35",
+      "filename": "17002725.jpg",
+      "externalId": "1FofTVGoVrrffaBz2taMDAJZo2zkLlhaA"
+    },
+    {
+      "folder": "35",
+      "filename": "15406063.jpg",
+      "externalId": "1mJASAvQuWJu6jg_y3kg-DBE3QfjMn1aR"
+    },
+    {
+      "folder": "35",
+      "filename": "39979239.jpg",
+      "externalId": "11TWRzQl1mS0YtyAdWwh7QmdyGtSCeQXq"
+    },
+    {
+      "folder": "35",
+      "filename": "10882510.jpg",
+      "externalId": "13hpZJNhgOyCohkTwmWaXWMnWIqyEzMYy"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Sepultura - 07.10.1989 - Fagersta - Sweden - Rockborgen",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sepultura"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "10",
+    "year": "1989"
+  },
+  "startDateUnix": 623721600,
+  "endDate": {
+    "day": "07",
+    "month": "10",
+    "year": "1989"
+  },
+  "endDateUnix": 623721600,
+  "location": {
+    "city": "Fagersta",
+    "state": "",
+    "country": "Sweden",
+    "venue": "Rockborgen",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2700,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "02527647.jpg",
+      "externalId": "1sUKZS3iTQLs-MLR1m-6KYIoD9RZbDWDA"
+    },
+    {
+      "folder": "15",
+      "filename": "52664147.jpg",
+      "externalId": "1uWJ4Sliy16SKE8sETwvR1S1RibZYMrjw"
+    },
+    {
+      "folder": "15",
+      "filename": "02454345.jpg",
+      "externalId": "1NaJxvRcc9JHEZJt88p-_-FQjcbGag9EQ"
+    },
+    {
+      "folder": "15",
+      "filename": "57662054.jpg",
+      "externalId": "1bTenKQo2bfqrQiLdCqRZ8R5w3sqygDF6"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Primitive Future",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Inner Self",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Escape To The Void",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Sarcastic Existence",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Slaves Of Pain",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Troops Of Doom",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Lobotomy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Rest In Pain",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Beneath The Remains",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

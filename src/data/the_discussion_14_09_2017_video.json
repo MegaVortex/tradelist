@@ -1,0 +1,108 @@
+{
+  "originalTitle": "The Discussion - 14.09.2017 - Vienna - Austria - Das Bach",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Discussion"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "09",
+    "year": "2017"
+  },
+  "startDateUnix": 1505347200,
+  "endDate": {
+    "day": "14",
+    "month": "09",
+    "year": "2017"
+  },
+  "endDateUnix": 1505347200,
+  "location": {
+    "city": "Vienna",
+    "state": "",
+    "country": "Austria",
+    "venue": "Das Bach",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": true,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Highly incomplete.",
+  "tapers": [
+    "Vortex"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 9.02,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1278,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "3840x2160",
+        "bitrateType": "",
+        "bitrateKbps": 60407,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 253,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "4K",
+      "finalMediaType": "",
+      "fileFormat": "MP4"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "65",
+      "filename": "58638500.jpg",
+      "externalId": "1oA2ia_SJ1vwo5OgoDafLDDp0eXGDbRER"
+    },
+    {
+      "folder": "65",
+      "filename": "03579220.jpg",
+      "externalId": "1Djnz8yDyq4l2bPbbLyIZGj0UWOn2l2p4"
+    },
+    {
+      "folder": "65",
+      "filename": "32930477.jpg",
+      "externalId": "1jL8_sh7x53KCDaPXIEO0RImN25FH03cN"
+    },
+    {
+      "folder": "65",
+      "filename": "33577786.jpg",
+      "externalId": "1BQD3F_aPR_uVBbk9SkpBGZYYF_kJxnFJ"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Slipknot - 10.06.2009 - Ostrava - Czech Republic - Cez Arena (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "06",
+    "year": "2009"
+  },
+  "startDateUnix": 1244592000,
+  "endDate": {
+    "day": "10",
+    "month": "06",
+    "year": "2009"
+  },
+  "endDateUnix": 1244592000,
+  "location": {
+    "city": "Ostrava",
+    "state": "",
+    "country": "Czech Republic",
+    "venue": "Cez Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Great digicam shot! Awesome picture and audio quality. Incomplete.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 655,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 776,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "12650715.jpg",
+      "externalId": "1KbL3_2kYVsIt20yU2I70g3KcTD6NzEKD"
+    },
+    {
+      "folder": "5",
+      "filename": "07025633.jpg",
+      "externalId": "1cRBDHqxoCDmdO1dscNQTRGo8UTn1VxP_"
+    },
+    {
+      "folder": "5",
+      "filename": "99807657.jpg",
+      "externalId": "1DwgDpsp2gIJV2tp8n_giDtj62cweKRFi"
+    },
+    {
+      "folder": "5",
+      "filename": "85690950.jpg",
+      "externalId": "1u27__6QwqPRWG1tkF6KogZ2qdWs-lF1I"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Dead Memories",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Psychosocial",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Duality",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

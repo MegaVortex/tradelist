@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Converge - 27.12.2001 - Clifton Park - NY - USA - Northern Lights (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Converge"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "12",
+    "year": "2001"
+  },
+  "startDateUnix": 1009411200,
+  "endDate": {
+    "day": "27",
+    "month": "12",
+    "year": "2001"
+  },
+  "endDateUnix": 1009411200,
+  "location": {
+    "city": "Clifton Park",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Northern Lights",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 963,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1572,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "11",
+      "filename": "58881615.jpg",
+      "externalId": "19ydu_5ucKi1zZafh_ofUfZIqTYxr4KM8"
+    },
+    {
+      "folder": "11",
+      "filename": "96759518.jpg",
+      "externalId": "1HRynB_wksgBhC2Y5iOBZoJc4jgqoCBRd"
+    },
+    {
+      "folder": "11",
+      "filename": "06625251.jpg",
+      "externalId": "1-ZMbKEaNxyl1DEfuc81XWRjlrKpk9M3Y"
+    },
+    {
+      "folder": "11",
+      "filename": "91825491.jpg",
+      "externalId": "1Bn0haI6-eshbvBtEOmRtKez18kYoFWFM"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Saddest Day",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Concubine",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Locust Reign  / This Is Mine / The Broken Vow",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Bitter And Then Some / Conduit",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Pantera - 20.12.1996 - Chicago - IL - USA",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Pantera"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "12",
+    "year": "1996"
+  },
+  "startDateUnix": 851040000,
+  "endDate": {
+    "day": "20",
+    "month": "12",
+    "year": "1996"
+  },
+  "endDateUnix": 851040000,
+  "location": {
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1014,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1821,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "pantera_15_11_1997_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "50",
+      "filename": "88851048.jpg",
+      "externalId": "1c80z5ZBn5UahHLyX_7gvzXge7GPY3VwC"
+    },
+    {
+      "folder": "50",
+      "filename": "47768250.jpg",
+      "externalId": "1um_jsT1Ka5wDLnDg6BajSwRrArgNuhtQ"
+    },
+    {
+      "folder": "50",
+      "filename": "78881214.jpg",
+      "externalId": "1eaM-YEdDVsimejQkoYKzo04pK1Hhf26g"
+    },
+    {
+      "folder": "50",
+      "filename": "69190464.jpg",
+      "externalId": "1NzaaB7k2a-nDy_kMOife8GbriwdK5poO"
+    }
+  ],
+  "setlist": []
+}

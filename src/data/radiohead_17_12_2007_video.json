@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Radiohead - 17.12.2007 - Oxford - England - Oxfordshire Studio",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Radiohead"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "12",
+    "year": "2007"
+  },
+  "startDateUnix": 1197849600,
+  "endDate": {
+    "day": "17",
+    "month": "12",
+    "year": "2007"
+  },
+  "endDateUnix": 1197849600,
+  "location": {
+    "city": "Oxford",
+    "state": "",
+    "country": "England",
+    "venue": "Oxfordshire Studio",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Scotch Mist.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.39,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3130,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "88533958.jpg",
+      "externalId": "1WGJRH-OmTUgg1hCwPmrLybfPqfnqGCxT"
+    },
+    {
+      "folder": "70",
+      "filename": "45277441.jpg",
+      "externalId": "1kV1TwWBoMyJnd_uJs-j_qRkyTfyUVafK"
+    },
+    {
+      "folder": "70",
+      "filename": "53418623.jpg",
+      "externalId": "15kdOCkMSeKtmdDCCzjbLztXoCEL9B8iU"
+    },
+    {
+      "folder": "70",
+      "filename": "31767523.jpg",
+      "externalId": "1mun7IJyHF22QAs4Vc4lasxOrQC0koM14"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Weird Fishes/Arpeggi",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Bodysnatchers",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Jigsaw Falling Into Place",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "15 Step",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Videotape",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Reckoner",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "House Of Cards",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "All I Need",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

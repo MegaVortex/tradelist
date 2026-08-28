@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Metallica - 13.03.2006 - New York - NY - USA - Waldorf Astoria",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "03",
+    "year": "2006"
+  },
+  "startDateUnix": 1142208000,
+  "endDate": {
+    "day": "13",
+    "month": "03",
+    "year": "2006"
+  },
+  "endDateUnix": 1142208000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Waldorf Astoria",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 686,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1196,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "81",
+      "filename": "56744424.jpg",
+      "externalId": "1oMaOe_JgHp0iniHuPc9GqBq4jeKMCVaC"
+    },
+    {
+      "folder": "81",
+      "filename": "77921272.jpg",
+      "externalId": "1fig0b9CiJm3qF0uBaJFSB7qB9FYP-ixK"
+    },
+    {
+      "folder": "81",
+      "filename": "50716339.jpg",
+      "externalId": "1JqV0WmklGqML0GxizSM8H5SfPYVwv9Ze"
+    },
+    {
+      "folder": "81",
+      "filename": "17944795.jpg",
+      "externalId": "1oHFKxk4tkRun9jAdWwdCOeMAd4-tMjTD"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Hole In The Sky",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Black Sabbath"
+    },
+    {
+      "order": 2,
+      "song": "Iron Man",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Black Sabbath"
+    }
+  ],
+  "extras": []
+}

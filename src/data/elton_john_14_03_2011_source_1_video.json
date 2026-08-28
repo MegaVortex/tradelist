@@ -1,0 +1,110 @@
+{
+  "originalTitle": "Elton John - 14.03.2011 - New York - NY - USA - The Waldorf Astoria - Rock And Roll Hall Of Fame (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Elton John"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "03",
+    "year": "2011"
+  },
+  "startDateUnix": 1300060800,
+  "endDate": {
+    "day": "14",
+    "month": "03",
+    "year": "2011"
+  },
+  "endDateUnix": 1300060800,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "The Waldorf Astoria",
+    "event": "Rock And Roll Hall Of Fame"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.89,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5103,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "alice_cooper_span_14_03_2011_source_1_video",
+    "tom_waits_14_03_2011_source_1_video",
+    "various_artists_14_03_2011_source_1_video"
+  ],
+  "childOf": "[VARIOUS ARTISTS] - 14.03.2011 - New York - NY - USA - The Waldorf Astoria - Rock And Roll Hall Of Fame",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "35129924.jpg",
+      "externalId": "1yVD78ilWW2k1ZFsnDgAN5RSos4DiLAu8"
+    },
+    {
+      "folder": "19",
+      "filename": "46118674.jpg",
+      "externalId": "170lNC9cKNB2-ac3e_Ej870m_KAn-HrJt"
+    },
+    {
+      "folder": "19",
+      "filename": "03451068.jpg",
+      "externalId": "12F4Q9p-JV0Day6SG77gYKF7u3tE8T5og"
+    },
+    {
+      "folder": "19",
+      "filename": "77677654.jpg",
+      "externalId": "19JyjXCmRh74yW5XFj6-BK3mNcteZ0jdD"
+    }
+  ],
+  "setlist": []
+}

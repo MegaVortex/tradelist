@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Gwen Stefani - 04.04.2016 - New York - NY - USA - ABC Studios - Good Morning America",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Gwen Stefani"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "04",
+    "year": "2016"
+  },
+  "startDateUnix": 1459728000,
+  "endDate": {
+    "day": "04",
+    "month": "04",
+    "year": "2016"
+  },
+  "endDateUnix": 1459728000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "ABC Studios",
+    "event": "Good Morning America"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "ABC broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 739,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 528,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "59.94",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 5
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "20490023.jpg",
+      "externalId": "1RfJjvhrHVFGkP_qZqAcC2YkIwog6NtXh"
+    },
+    {
+      "folder": "73",
+      "filename": "96266346.jpg",
+      "externalId": "1rgMFXgB7K6EkTk24jLQPr-VjA7eieB3A"
+    },
+    {
+      "folder": "73",
+      "filename": "33678071.jpg",
+      "externalId": "1UvCGXfP5HpgcL928M6-5a7oyGYScb6ti"
+    },
+    {
+      "folder": "73",
+      "filename": "24021167.jpg",
+      "externalId": "1oZ4SB8D96qL01Zvv_0TnboPhpt6zcJl1"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Make Me Like You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

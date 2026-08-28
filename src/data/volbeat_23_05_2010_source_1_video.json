@@ -1,0 +1,136 @@
+{
+  "originalTitle": "Volbeat - 23.05.2010 - Lyon - France - Halle Tony Garnier (Source 1)",
+  "created": 1759264746,
+  "lastUpdated": 1759264746,
+  "bands": [
+    "Volbeat"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "05",
+    "year": "2010"
+  },
+  "endDate": {
+    "day": "23",
+    "month": "05",
+    "year": "2010"
+  },
+  "startDateUnix": 1274572800,
+  "endDateUnix": 1274572800,
+  "location": {
+    "city": "Lyon",
+    "state": "",
+    "country": "France",
+    "venue": "Halle Tony Garnier",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "Philippe Barbosa",
+  "transferredBy": "",
+  "notes": "Looks very pixelated for some reason, possibly YouTube sourced or a very bad conversion. The filming itself is great though.",
+  "tapers": [],
+  "receivedInTrade": false,
+  "trader": "",
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 425,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 765,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MP2",
+        "rateHz": 48000,
+        "bitrateKbps": 224,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "images": [
+    {
+      "folder": "2025",
+      "filename": "shot-1759264545545-0.jpg",
+      "externalId": "1aPsvl5DWfxot1pX9Lsv7Yc_CLlfVQif9"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1759264545860-2.jpg",
+      "externalId": "1bkWGvqUosI2ti0LDvod6RoL5MOEY-1mK"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1759264546014-3.jpg",
+      "externalId": "1CX6HgWff_YZjqD38Bn_orl8qKpr4F_lF"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1759264545706-1.jpg",
+      "externalId": "1zYud4CssyD0GPicOHYr0UarhHP8gP5EW"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Sad Man's Tongue",
+      "feat": "",
+      "note": "",
+      "comment": "dedicated to DIO",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "I Only Want to Be With You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Dusty Springfield"
+    },
+    {
+      "order": 3,
+      "song": "Still Counting",
+      "feat": "",
+      "note": "",
+      "comment": "Raining Blood Outro",
+      "coverOf": ""
+    }
+  ],
+  "extras": [],
+  "relatedShows": [
+    "metallica_23_05_2010_source_2_video"
+  ],
+  "childOf": ""
+}

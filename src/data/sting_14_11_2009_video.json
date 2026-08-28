@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Sting - 14.11.2009 - Milan - Italy - RAI 3 TV Studios - Fabio Fazio Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sting"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "11",
+    "year": "2009"
+  },
+  "startDateUnix": 1258156800,
+  "endDate": {
+    "day": "14",
+    "month": "11",
+    "year": "2009"
+  },
+  "endDateUnix": 1258156800,
+  "location": {
+    "city": "Milan",
+    "state": "",
+    "country": "Italy",
+    "venue": "RAI 3 TV Studios",
+    "event": ""
+  },
+  "tvChannel": "RAI 3 TV",
+  "showName": "Fabio Fazio Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Sting hosted by Fabio Fazio performs live a mini-show with four songs taken from his last album \"If On A Winter's Night\", with a pretty long interview. There is the italian talkover translation during the interview.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.93,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2571,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "9",
+      "filename": "72406312.jpg",
+      "externalId": "16qZ_gw62PQRWI-b80JWtIL1ilK1j-lhz"
+    },
+    {
+      "folder": "9",
+      "filename": "67777773.jpg",
+      "externalId": "1Gp3JpEVut1CilnobML9Mcr88YE5eHslC"
+    },
+    {
+      "folder": "9",
+      "filename": "20997005.jpg",
+      "externalId": "1GQ2H8PuzcXyshdg3zvIYkd5XM0aqyOg0"
+    },
+    {
+      "folder": "9",
+      "filename": "75344420.jpg",
+      "externalId": "1nKorZD4qnmhOGvTfLmfdBfhseQnPGgam"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Gabriel's Message",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The snow It Melts The Soonest",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Christmas At Sea",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Soul Cake",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

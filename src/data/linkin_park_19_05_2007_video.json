@@ -1,0 +1,244 @@
+{
+  "originalTitle": "Linkin Park - 19.05.2007 - Irvine - CA - USA - Verizon Wireless Amphitheatre - KROQ Weenie Roast",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "05",
+    "year": "2007"
+  },
+  "startDateUnix": 1179532800,
+  "endDate": {
+    "day": "19",
+    "month": "05",
+    "year": "2007"
+  },
+  "endDateUnix": 1179532800,
+  "location": {
+    "city": "Irvine",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Verizon Wireless Amphitheatre",
+    "event": "KROQ Weenie Roast"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 205,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 4256,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "400x300",
+        "bitrateType": "",
+        "bitrateKbps": 355,
+        "fps": "29.97",
+        "standard": "WMV9",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 48,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "VCD",
+      "fileFormat": "ASF"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "48",
+      "filename": "54532950.jpg",
+      "externalId": "1Cf3t1m6FZXqcsrjFzCDmS3k3ENs3yS2D"
+    },
+    {
+      "folder": "48",
+      "filename": "92313853.jpg",
+      "externalId": "1ACu-Y_L4OcH8dv3c3ZI39g9SLUaNu8aY"
+    },
+    {
+      "folder": "48",
+      "filename": "49891524.jpg",
+      "externalId": "1ysldhWoZOA82fzFmmO-7b93umm_0brot"
+    },
+    {
+      "folder": "48",
+      "filename": "59277928.jpg",
+      "externalId": "1gAwHSzQC3Gl63d6SbMDzXMFRmYTVqMCg"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "One Step Closer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Lying From You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Somewhere I Belong",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "No More Sorrow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Given Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Papercut",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Points Of Authority",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Don't Stay",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "From The Inside",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Numb",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Pushing Me Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Breaking The Habit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "What I've Done",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Crawling",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "In The End",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 16,
+      "song": "Bleed It Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 17,
+      "song": "Faint",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

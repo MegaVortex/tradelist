@@ -1,0 +1,212 @@
+{
+  "originalTitle": "Code Orange - 14.03.2020 - McKees Rocks - PA - USA - Roxian Theatre (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Code Orange"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "03",
+    "year": "2020"
+  },
+  "startDateUnix": 1584144000,
+  "endDate": {
+    "day": "14",
+    "month": "03",
+    "year": "2020"
+  },
+  "endDateUnix": 1584144000,
+  "location": {
+    "city": "McKees Rocks",
+    "state": "PA",
+    "country": "USA",
+    "venue": "Roxian Theatre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "'Underneath' album release show, performed in an empty venue. Livestreamed on Twitch.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.22,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3301,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "58.824",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 44100,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "HD",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "54720925.jpg",
+      "externalId": "1tdS0ePXSyxfpXGfjccpN-2VK5LErS01K"
+    },
+    {
+      "folder": "73",
+      "filename": "96047759.jpg",
+      "externalId": "1fJ7gDyAzyTZVFpW_K8Qr-svJXvUrSCyP"
+    },
+    {
+      "folder": "73",
+      "filename": "60616739.jpg",
+      "externalId": "16KnR6Y9n9PuVlOmVOB0hQDJvTiijIMVN"
+    },
+    {
+      "folder": "73",
+      "filename": "40211083.jpg",
+      "externalId": "1arbt8tGPiZtaDVI_HViH5Q0l8Xag0P9C"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Swallowing The Rabbit Whole",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "In Fear",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Spy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Bleeding In The Blur",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Who I Am",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Hunt",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Last Ones Left",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "My World",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Cold.Metal.Place",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Sulfur Surrounding",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "I Am King",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Forever",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Underneath",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

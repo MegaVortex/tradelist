@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Sting - 26.12.2010 - Moscow - Russia - 1st Channel Studios - Vladimir Pozner Show [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sting"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "12",
+    "year": "2010"
+  },
+  "startDateUnix": 1293321600,
+  "endDate": {
+    "day": "26",
+    "month": "12",
+    "year": "2010"
+  },
+  "endDateUnix": 1293321600,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "1st Channel Studios",
+    "event": "Vladimir Pozner Show"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.63,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3117,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "21",
+      "filename": "95257685.jpg",
+      "externalId": "1jFH92zyhq48HUgwBa2s_2Eqawgb6KIuy"
+    },
+    {
+      "folder": "21",
+      "filename": "95054300.jpg",
+      "externalId": "110g2-d1OMqv_8g7r7XPQAEl7vVz46dCm"
+    },
+    {
+      "folder": "21",
+      "filename": "08545577.jpg",
+      "externalId": "1yWDxM9OAnFFoUgA81KB4xUlvs8pAlzxL"
+    },
+    {
+      "folder": "21",
+      "filename": "13596329.jpg",
+      "externalId": "1avM8iEqjSbc0bhJuwzLKchpXmPlTVnGH"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

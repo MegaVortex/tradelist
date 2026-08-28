@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Nirvana - 24.10.1991 - San Diego - CA - USA - Off The Record",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "10",
+    "year": "1991"
+  },
+  "startDateUnix": 688262400,
+  "endDate": {
+    "day": "24",
+    "month": "10",
+    "year": "1991"
+  },
+  "endDateUnix": 688262400,
+  "location": {
+    "city": "San Diego",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Off The Record",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "Kris Sproul",
+  "notes": "AMT#1. This was supposed to be an acoustic show, with instruments supplied by the record store, but since they didn't have any left-handed guitars, the band ended up using their own instruments and playing an electric set.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.72,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1527,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "13",
+      "filename": "06818131.jpg",
+      "externalId": "1086HoceRClEoxqQ4NhkuBfIRSRO0OTcn"
+    },
+    {
+      "folder": "13",
+      "filename": "58118574.jpg",
+      "externalId": "1gQ0FxkdE-I9n5bbYX16cQcytfb5M5nma"
+    },
+    {
+      "folder": "13",
+      "filename": "03507822.jpg",
+      "externalId": "10_mYhn3ZtcutZQt8csDEAHd7Q22JruNC"
+    },
+    {
+      "folder": "13",
+      "filename": "11701779.jpg",
+      "externalId": "1aBeOOtSSFLMh1BE-ybCbm-QgsDwribsF"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Dumb",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Here She Comes Now",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "About A Girl",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Polly",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "On A Plain",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Been A Son",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "[autograph signing]",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

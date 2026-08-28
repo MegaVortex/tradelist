@@ -1,0 +1,228 @@
+{
+  "originalTitle": "W.A.S.P. - 07.11.2004 - Antwerp - Belgium - Hof Ter Loo",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "W.A.S.P."
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "11",
+    "year": "2004"
+  },
+  "startDateUnix": 1099785600,
+  "endDate": {
+    "day": "07",
+    "month": "11",
+    "year": "2004"
+  },
+  "endDateUnix": 1099785600,
+  "location": {
+    "city": "Antwerp",
+    "state": "",
+    "country": "Belgium",
+    "venue": "Hof Ter Loo",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.33,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4568,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "30",
+      "filename": "84883281.jpg",
+      "externalId": "1KlfLYnvVLo-IXmd0_yHm0fka_pMgo1zA"
+    },
+    {
+      "folder": "30",
+      "filename": "36285250.jpg",
+      "externalId": "1zuVt5y1UIV5BVruBvLzQsqh-DaRCgCRK"
+    },
+    {
+      "folder": "30",
+      "filename": "71991129.jpg",
+      "externalId": "1ZfhZ8rPAxpYcFxtKqFGPU7IbSwCeonCX"
+    },
+    {
+      "folder": "30",
+      "filename": "66017471.jpg",
+      "externalId": "1KKcHvbB_poY-nt-Q9wR3zbxPy6dU4YB9"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Drive By",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Helldorado",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Inside The Electric Circus",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Hate to Love Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "L.O.V.E. Machine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Wild Child",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Animal (Fuck Like A Beast)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Come Back To Black",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "The Headless Children",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "The Idol",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Kill Your Pretty Face",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "The Real Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "I Wanna Be Somebody",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "The Raging Storm",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 15,
+      "song": "Blind In Texas",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

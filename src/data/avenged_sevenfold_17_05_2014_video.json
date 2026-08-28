@@ -1,0 +1,226 @@
+{
+  "originalTitle": "Avenged Sevenfold - 17.05.2014 - Columbus - OH - USA - Crew Stadium - Rock On The Range",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Avenged Sevenfold"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "05",
+    "year": "2014"
+  },
+  "startDateUnix": 1400284800,
+  "endDate": {
+    "day": "17",
+    "month": "05",
+    "year": "2014"
+  },
+  "endDateUnix": 1400284800,
+  "location": {
+    "city": "Columbus",
+    "state": "OH",
+    "country": "USA",
+    "venue": "Crew Stadium",
+    "event": "Rock On The Range"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "5 cam mix.",
+  "tapers": [
+    "TripKore",
+    "mnfilmer",
+    "Chris",
+    "BLiND",
+    "jfuller"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 16.8,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5454,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "59.94",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "65",
+      "filename": "47997836.jpg",
+      "externalId": "1vMrOgCJYR1qr4NAbZ_wFcKov8Dy1tVFd"
+    },
+    {
+      "folder": "65",
+      "filename": "98502380.jpg",
+      "externalId": "1rAmjZU2iOLcCg_fvZ334KfkVUTNO-4Co"
+    },
+    {
+      "folder": "65",
+      "filename": "38969221.jpg",
+      "externalId": "11xv1JGQVfRIjgL_6W_bsG0PVtmLk7kn1"
+    },
+    {
+      "folder": "65",
+      "filename": "10572471.jpg",
+      "externalId": "1TXijY_OtZ6FojV6-xWmdiiZE3ItN2zCj"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Shepherd Of Fire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Critical Acclaim",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Bat Country",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Hail To The King",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Doing Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Buried Alive",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Seize The Day",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Nightmare",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Burn It Down",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Guitar Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Afterlife",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "This Means War",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Almost Easy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 14,
+      "song": "Unholy Confessions",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

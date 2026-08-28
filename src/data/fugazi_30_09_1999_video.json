@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Fugazi - 30.09.1999 - Rome - Italy - C.S.O.A. Forte Prenestino",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Fugazi"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "09",
+    "year": "1999"
+  },
+  "startDateUnix": 938649600,
+  "endDate": {
+    "day": "30",
+    "month": "09",
+    "year": "1999"
+  },
+  "endDateUnix": 938649600,
+  "location": {
+    "city": "Rome",
+    "state": "",
+    "country": "Italy",
+    "venue": "C.S.O.A. Forte Prenestino",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.34,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 4463,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "1",
+      "filename": "19035.jpg",
+      "externalId": "1YI-Hh8BfJvFJ1aO4_ZWacTZTzsucLE6e"
+    },
+    {
+      "folder": "1",
+      "filename": "18000.jpg",
+      "externalId": "1kQW5TSa3OW1F5LnJaqy5d74dnZ-RGPaa"
+    },
+    {
+      "folder": "1",
+      "filename": "88635.jpg",
+      "externalId": "1lCMlXoavT0JWYvbnku196JXyLkafJk8H"
+    },
+    {
+      "folder": "1",
+      "filename": "09314.jpg",
+      "externalId": "1W7ZGmRb1uPYZ2iI7DmUVzQjF8sDy1lRS"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Queens Of The Stone Age - 14.05.2013 - Maidstone - England - BBC TV Centre - Jools Holland Show (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "05",
+    "year": "2013"
+  },
+  "startDateUnix": 1368489600,
+  "endDate": {
+    "day": "14",
+    "month": "05",
+    "year": "2013"
+  },
+  "endDateUnix": 1368489600,
+  "location": {
+    "city": "Maidstone",
+    "state": "",
+    "country": "England",
+    "venue": "BBC TV Centre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jools Holland Show",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 724,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 484,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "04049264.jpg",
+      "externalId": "17wCOLQUiRjbiMKVs6iruqkAvyyj0DQtl"
+    },
+    {
+      "folder": "70",
+      "filename": "70865895.jpg",
+      "externalId": "1YstDwTx1r1wZyWf8XYVpAWuGpFUHHvyO"
+    },
+    {
+      "folder": "70",
+      "filename": "72061852.jpg",
+      "externalId": "1nE-KsWtLOKiC9LHUp3jpxl8GcbD-ogwn"
+    },
+    {
+      "folder": "70",
+      "filename": "19442876.jpg",
+      "externalId": "1UDrr-BIc6aV8e4SaHCEjxUDMbnIdDoxs"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "I Sat By The Ocean",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "My God Is The Sun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

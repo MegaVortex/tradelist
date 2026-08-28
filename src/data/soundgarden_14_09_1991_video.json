@@ -1,0 +1,204 @@
+{
+  "originalTitle": "Soundgarden - 14.09.1991 - Olympia - WA - USA - Capitol Theater",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Soundgarden"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "09",
+    "year": "1991"
+  },
+  "startDateUnix": 684806400,
+  "endDate": {
+    "day": "14",
+    "month": "09",
+    "year": "1991"
+  },
+  "endDateUnix": 684806400,
+  "location": {
+    "city": "Olympia",
+    "state": "WA",
+    "country": "USA",
+    "venue": "Capitol Theater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "Kris Sproul",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.32,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3829,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "22",
+      "filename": "78037738.jpg",
+      "externalId": "1Ip9EEojXhWGFyiN2ZVVFwbk0cGLEykpE"
+    },
+    {
+      "folder": "22",
+      "filename": "51889541.jpg",
+      "externalId": "1fbdRG-x7AzBvgH9FPHUbIeXpsIywfmfE"
+    },
+    {
+      "folder": "22",
+      "filename": "28057284.jpg",
+      "externalId": "1T8fBtcR3VrU8zA4mit2dYamrqxxqn92k"
+    },
+    {
+      "folder": "22",
+      "filename": "81109478.jpg",
+      "externalId": "1S6rc3d2x7yLs2Nh6LjWf5Yxgn6YMV76i"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Searching With My Good Eye Closed",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Outshined",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Birth Ritual",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "New Damage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Jesus Christ Pose",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Face Pollution",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Gun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Big Dumb Sex",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Rusty Cage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Hands All Over",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Room A Thousand Years Wide",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Slaves & Bulldozers",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

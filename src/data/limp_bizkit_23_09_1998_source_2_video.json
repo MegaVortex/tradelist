@@ -1,0 +1,180 @@
+{
+  "originalTitle": "Limp Bizkit - 23.09.1998 - Worcester - MA - USA - The Centrum (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "09",
+    "year": "1998"
+  },
+  "startDateUnix": 906508800,
+  "endDate": {
+    "day": "23",
+    "month": "09",
+    "year": "1998"
+  },
+  "endDateUnix": 906508800,
+  "location": {
+    "city": "Worcester",
+    "state": "MA",
+    "country": "USA",
+    "venue": "The Centrum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Left angle.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.69,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2705,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "63",
+      "filename": "96518627.jpg",
+      "externalId": "1Lu7UnfuyvCCM965TxY3_coAQBvLX-n2v"
+    },
+    {
+      "folder": "63",
+      "filename": "41949439.jpg",
+      "externalId": "1f1CE3CEoRn75IWowuviuHkbReR4wj7J8"
+    },
+    {
+      "folder": "63",
+      "filename": "29824669.jpg",
+      "externalId": "1mS4aPjyw0RiH5YCYs56jIb0YSeh6XsNU"
+    },
+    {
+      "folder": "63",
+      "filename": "73478665.jpg",
+      "externalId": "1GbPomDlPvNGwKzJCuC5WJ5n2CJO4i_-D"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Cambodia",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Pollution",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Counterfeit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Thieves",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Ministry"
+    },
+    {
+      "order": 5,
+      "song": "Nobody Loves Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Stuck",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Leech",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Faith",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "George Michael"
+    },
+    {
+      "order": 9,
+      "song": "Jump Around",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "House Of Pain"
+    }
+  ],
+  "extras": []
+}

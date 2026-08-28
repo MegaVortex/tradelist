@@ -1,0 +1,150 @@
+{
+  "originalTitle": "Slayer - 20.05.2010 - Hollywood - Los Angeles - CA - USA - Bud Light Outdoor Stage - Jimmy Kimmel Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slayer"
+  ],
+  "startDate": {
+    "day": "20",
+    "month": "05",
+    "year": "2010"
+  },
+  "startDateUnix": 1274313600,
+  "endDate": {
+    "day": "20",
+    "month": "05",
+    "year": "2010"
+  },
+  "endDateUnix": 1274313600,
+  "location": {
+    "city": "Hollywood",
+    "state": "",
+    "country": "Los Angeles",
+    "venue": "CA",
+    "event": "USA - Bud Light Outdoor Stage"
+  },
+  "tvChannel": "",
+  "showName": "Jimmy Kimmel Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Hellrazor"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.28,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1898,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "43",
+      "filename": "74704077.jpg",
+      "externalId": "1MPZP-hKuiYk0q6YOB8CB9KBTXZL--tMP"
+    },
+    {
+      "folder": "43",
+      "filename": "62592693.jpg",
+      "externalId": "13koYbw0VxOut8bTa3S0xp4z-Uk77KlGU"
+    },
+    {
+      "folder": "43",
+      "filename": "97044802.jpg",
+      "externalId": "1ezpZWuU8H87XQvHPlbLXxvhwMdE6csp9"
+    },
+    {
+      "folder": "43",
+      "filename": "74688497.jpg",
+      "externalId": "10h-JIPzuKzGhBY3WIAEhfrOeHwEl-qf3"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Hate Worldwide",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "World Painted Blood",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "War Ensemble",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Blood Red",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Spirit In Black",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

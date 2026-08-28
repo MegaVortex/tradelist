@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Mudvayne - 21.07.2001 - Camden - NJ - USA - Tweeter Center - Ozzfest",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Mudvayne"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "07",
+    "year": "2001"
+  },
+  "startDateUnix": 995673600,
+  "endDate": {
+    "day": "21",
+    "month": "07",
+    "year": "2001"
+  },
+  "endDateUnix": 995673600,
+  "location": {
+    "city": "Camden",
+    "state": "NJ",
+    "country": "USA",
+    "venue": "Tweeter Center",
+    "event": "Ozzfest"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.94,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1712,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "71716323.jpg",
+      "externalId": "1qKYQ8ZnwOnuLfktOj4VqVVVLpPQbVu11"
+    },
+    {
+      "folder": "5",
+      "filename": "72040469.jpg",
+      "externalId": "1U6vs2D-QRUoVJlT0DpPL6Ed9wKZMahPC"
+    },
+    {
+      "folder": "5",
+      "filename": "80011316.jpg",
+      "externalId": "1bVFsYPkZQnFJe95ukGHhQRCbyKJc5nFK"
+    },
+    {
+      "folder": "5",
+      "filename": "79186865.jpg",
+      "externalId": "1_SujT4SJtxuq1QYU71-HL0D8hndtsaYA"
+    }
+  ],
+  "setlist": []
+}

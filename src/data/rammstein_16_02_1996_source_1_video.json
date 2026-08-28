@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Rammstein - 16.02.1996 - Riesa - Germany - Kulturzentrum Stadthalle Stern (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "02",
+    "year": "1996"
+  },
+  "startDateUnix": 824428800,
+  "endDate": {
+    "day": "16",
+    "month": "02",
+    "year": "1996"
+  },
+  "endDateUnix": 824428800,
+  "location": {
+    "city": "Riesa",
+    "state": "",
+    "country": "Germany",
+    "venue": "Kulturzentrum Stadthalle Stern",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 358,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 395,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "ru",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "53",
+      "filename": "36864193.jpg",
+      "externalId": "1No0QWmD1qN-aUKG-FUAOxIZyRH6AsxjB"
+    },
+    {
+      "folder": "53",
+      "filename": "92795540.jpg",
+      "externalId": "1dyFdNLOEMuO6NOHB-APoyNN7t9Woe8eM"
+    },
+    {
+      "folder": "53",
+      "filename": "36229806.jpg",
+      "externalId": "1uQtgdkRy7277bZQfSE5FBcYTUWAEbuT0"
+    },
+    {
+      "folder": "53",
+      "filename": "89276310.jpg",
+      "externalId": "1qlftzifPVoikQtHQ0qEDsaIlm0Qa0UhZ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Rammstein",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Herzeleid",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

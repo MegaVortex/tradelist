@@ -1,0 +1,118 @@
+{
+  "originalTitle": "Dio - [1984-2001] - Live Anthology [Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Dio"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1984"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2001"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "",
+    "state": "",
+    "country": "",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Live Anthology",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.18,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 7696,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "60",
+      "filename": "12366121.jpg",
+      "externalId": "1ceU58Bjsq9EdD0ILRwY76KERtzoddknO"
+    },
+    {
+      "folder": "60",
+      "filename": "44394836.jpg",
+      "externalId": "1QXvlvZ0KaEyrKU0V3KQD-R39ZK3N7DBI"
+    },
+    {
+      "folder": "60",
+      "filename": "47909382.jpg",
+      "externalId": "1LE4Kp8TBMyE7khWXEtkEGj_LmctqZgMm"
+    },
+    {
+      "folder": "60",
+      "filename": "09072294.jpg",
+      "externalId": "1-noDsOe20Eizh75JFn-pCKt6VnmDVqjL"
+    }
+  ],
+  "parentOf": [
+    "dio_14_01_1984_source_1_video",
+    "dio_11_06_1984_video",
+    "dio_04_04_1986_video",
+    "dio_05_02_1988_video",
+    "dio_15_11_1997_source_1_video",
+    "dio_31_03_2001_source_2_video"
+  ],
+  "setlist": [],
+  "fileSlug": "dio_xx_xx_1984_xx_xx_2001_live_anthology_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/dio_xx_xx_1984_xx_xx_2001_live_anthology_video_compilation/"
+}

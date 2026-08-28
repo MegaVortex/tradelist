@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Bloodhound Gang - 03.06.2006 - Nuerburg - Germany - Nuerburgring - Rock Am Ring (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bloodhound Gang"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "06",
+    "year": "2006"
+  },
+  "startDateUnix": 1149292800,
+  "endDate": {
+    "day": "03",
+    "month": "06",
+    "year": "2006"
+  },
+  "endDateUnix": 1149292800,
+  "location": {
+    "city": "Nuerburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Nuerburgring",
+    "event": "Rock Am Ring"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.34,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1790,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "28",
+      "filename": "67633812.jpg",
+      "externalId": "1qsZPYI5MFNdpfrmWkdTJHcgQBDTX15Uo"
+    },
+    {
+      "folder": "28",
+      "filename": "79316743.jpg",
+      "externalId": "1Oo1e3YE1iB2_fr1RwH77DHk5caaIZ0Zx"
+    },
+    {
+      "folder": "28",
+      "filename": "60824037.jpg",
+      "externalId": "1BaGQ0m_1Dv326YTQ8LZvSVLhZZzjQjaX"
+    },
+    {
+      "folder": "28",
+      "filename": "24046552.jpg",
+      "externalId": "1T9JLGj5NegztslbJBrKUPZkpNNfODt4q"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Balls Out",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Along Comes Mary",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Fire Water Burn",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "No Hard Feelings",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "I Wish I Was Queer So I Could Get Chicks",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Uhn Tiss Uhn Tiss Uhn Tiss",
+      "feat": "",
+      "note": "not broadcasted",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "The Ballad Of Chasey Lain",
+      "feat": "",
+      "note": "not broadcasted",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Foxtrot Uniform Charlie Kilo",
+      "feat": "",
+      "note": "not broadcasted",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Three Point One Four",
+      "feat": "",
+      "note": "not broadcasted",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "The Bad Touch",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,180 @@
+{
+  "originalTitle": "System Of A Down - 16.07.2000 - Phoenix - AZ - USA - Desert Sky Pavilion (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "System Of A Down"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "07",
+    "year": "2000"
+  },
+  "startDateUnix": 963705600,
+  "endDate": {
+    "day": "16",
+    "month": "07",
+    "year": "2000"
+  },
+  "endDateUnix": 963705600,
+  "location": {
+    "city": "Phoenix",
+    "state": "AZ",
+    "country": "USA",
+    "venue": "Desert Sky Pavilion",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.77,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1570,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "6",
+      "filename": "37672144.jpg",
+      "externalId": "1t_t8S-5qZXGbPOFZC7TGms7Z4eWOvSMa"
+    },
+    {
+      "folder": "6",
+      "filename": "63229681.jpg",
+      "externalId": "1IYUbDmSo-0aZ55XrrVN6gksPaK86ILQf"
+    },
+    {
+      "folder": "6",
+      "filename": "80902165.jpg",
+      "externalId": "1hvcx3gnpAeBuOmxXBOVe4Dn5dkaMqMc6"
+    },
+    {
+      "folder": "6",
+      "filename": "01541302.jpg",
+      "externalId": "1frwr5VRzenl785cGBvLyT5KV-vo77Esp"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Know",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Suite-Pee",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Suggestions",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Spiders",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "DDevil",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Soil",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Goodbye Blue Sky",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Pink Floyd"
+    },
+    {
+      "order": 8,
+      "song": "War?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Sugar",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Metallica - 26.08.1995 - Castle Donington - England - Donington Park - Monsters Of Rock (Source 13)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "08",
+    "year": "1995"
+  },
+  "startDateUnix": 809395200,
+  "endDate": {
+    "day": "26",
+    "month": "08",
+    "year": "1995"
+  },
+  "endDateUnix": 809395200,
+  "location": {
+    "city": "Castle Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": "Monsters Of Rock"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 13",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.25,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-5",
+        "size": 2.99,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6373,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_06_06_2004_video_misc",
+    "metallica_06_06_2004_source_3_video",
+    "metallica_06_06_2004_source_4_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "81",
+      "filename": "34131238.jpg",
+      "externalId": "1K50Cq8oRZY44h3AZ_xbkRZdidXktFyXF"
+    },
+    {
+      "folder": "81",
+      "filename": "28940464.jpg",
+      "externalId": "1jYPlq4GDnXQe8vDc8cl4jWFv3tLYj8eM"
+    },
+    {
+      "folder": "81",
+      "filename": "25139515.jpg",
+      "externalId": "1fHBBuXIDBB_90PqXaoHC2-mmxmdKB6oB"
+    },
+    {
+      "folder": "81",
+      "filename": "63420486.jpg",
+      "externalId": "134BzM0vkQcX_d8b3xTs9gilKFyB-lG4w"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "2x4",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Ride The Lightning / No Remorse / Hit The Lights / The Four Horsemen / Phantom Lord / Fight Fire With Fire",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Slipknot - 02.07.2004 - Lobnitz - Germany - Flugplatz Roitzschjora - With Full Force Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "07",
+    "year": "2004"
+  },
+  "startDateUnix": 1088726400,
+  "endDate": {
+    "day": "02",
+    "month": "07",
+    "year": "2004"
+  },
+  "endDateUnix": 1088726400,
+  "location": {
+    "city": "Lobnitz",
+    "state": "",
+    "country": "Germany",
+    "venue": "Flugplatz Roitzschjora",
+    "event": "With Full Force Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MTV2 broadcast. Black-and-white coloured.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 635,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 559,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "31",
+      "filename": "73722822.jpg",
+      "externalId": "1bVSA3zcQCKgyAQMN46M9OCMJ_ZZGPeRc"
+    },
+    {
+      "folder": "31",
+      "filename": "99238501.jpg",
+      "externalId": "1vlyIRraPE0wwtyRj1yACxw0C_Dan426h"
+    },
+    {
+      "folder": "31",
+      "filename": "72101631.jpg",
+      "externalId": "1yjEiP_x7xeHjzs8tg9L7S2G36rHDGOWC"
+    },
+    {
+      "folder": "31",
+      "filename": "74983142.jpg",
+      "externalId": "1jwcb1ALSKKv73n4dhrwXIVMtKbxHJB7b"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Eyeless",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Blister Exists",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

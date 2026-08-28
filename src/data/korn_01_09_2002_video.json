@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Korn - 01.09.2002 - Reggio Emilia - Italy - Campovolo - Independence Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "09",
+    "year": "2002"
+  },
+  "startDateUnix": 1030838400,
+  "endDate": {
+    "day": "01",
+    "month": "09",
+    "year": "2002"
+  },
+  "endDateUnix": 1030838400,
+  "location": {
+    "city": "Reggio Emilia",
+    "state": "",
+    "country": "Italy",
+    "venue": "Campovolo",
+    "event": "Independence Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Video quality is pretty bad.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 276,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 281,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "korn_xx_xx_2002_issy_les_moulineaux_france_arte_tv_studios_video_misc",
+    "korn_14_03_2002_video",
+    "korn_21_02_1997_video",
+    "korn_23_10_2003_source_2_video",
+    "korn_12_06_2004_source_2_video",
+    "korn_25_05_2006_video",
+    "korn_22_09_2005_source_2_video"
+  ],
+  "childOf": "korn_xx_xx_xxxx_misc_1_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "14",
+      "filename": "53857402.jpg",
+      "externalId": "1OPeyweFO0QV2mpgRoC8jx-J0ypt3ZOMj"
+    },
+    {
+      "folder": "14",
+      "filename": "85558647.jpg",
+      "externalId": "1Ybd5xg6y8FPBHv1D1xrnXJwidXwgdMyW"
+    },
+    {
+      "folder": "14",
+      "filename": "88351548.jpg",
+      "externalId": "1nfq1QPqBJXaGUNOcQMPMSgze1Q5Ajs7P"
+    },
+    {
+      "folder": "14",
+      "filename": "85464692.jpg",
+      "externalId": "1qHfRCIRExRY0HW91H-1iwhZEEiPrz09L"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Here To Stay",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "Jonathan Davis",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Twist",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

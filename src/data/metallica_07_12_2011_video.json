@@ -1,0 +1,189 @@
+{
+  "originalTitle": "Metallica - 07.12.2011 - San Francisco - CA - USA - The Fillmore",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "12",
+    "year": "2011"
+  },
+  "startDateUnix": 1323216000,
+  "endDate": {
+    "day": "07",
+    "month": "12",
+    "year": "2011"
+  },
+  "endDateUnix": 1323216000,
+  "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "venue": "The Fillmore",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "These DVDs are created using clips from Youtube. Quality is pretty good (90% of clips used were HD). Edited all in multi-angle and the result is very good. Only the rarely-live-played songs were edited and those with other artists. Menus are animated and there is an extra video... 30th Anniversary. Multicam mix. \"Just A Bullet Away\" is a previously unreleased song from \"Death Magnetic\" sessions. \"To Live Is To Die\" premiere.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 7.33,
+        "unit": "Gb"
+      },
+      {
+        "type": "DVD-9",
+        "size": 7.26,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 13656,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "metallica_05_12_2011_source_1_video",
+    "metallica_09_12_2011_source_1_video",
+    "metallica_10_12_2011_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "30",
+      "filename": "30989424.jpg",
+      "externalId": "12pficwskfOM8vDghyoqje0z0AzC0PBs9"
+    },
+    {
+      "folder": "30",
+      "filename": "88081410.jpg",
+      "externalId": "1l6vPm3OlSFyRkH47XH8AFu6uvL_Y5h-7"
+    },
+    {
+      "folder": "30",
+      "filename": "44723682.jpg",
+      "externalId": "1ec2cLAqx9Ff7cKZ6xu9dV-Eg5QoVoAYI"
+    },
+    {
+      "folder": "30",
+      "filename": "31101182.jpg",
+      "externalId": "18IwUMKo21Ajejz7_fibs9P-2f2Q2xY6w"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Killing Time  (with Ray Haller)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Sweet Savage"
+    },
+    {
+      "order": 2,
+      "song": "Mercyful Fate Medley  (with Hank Shermann, Michael Denner, Timi Hansen and King Diamond)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Mercyful Fate"
+    },
+    {
+      "order": 3,
+      "song": "The Memory Remains",
+      "feat": "Marianne Faithful",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Just A Bullet Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "The Four Horsemen",
+      "feat": "John Bush",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Creeping Death",
+      "feat": "Jason Newsted",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Wasting My Hate",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Bleeding Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "To Live Is To Die",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

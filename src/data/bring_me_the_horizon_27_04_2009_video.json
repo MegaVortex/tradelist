@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Bring Me The Horizon - 27.04.2009 - Ekaterinburg - Russia - Tele-Club",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Bring Me The Horizon"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "04",
+    "year": "2009"
+  },
+  "startDateUnix": 1240790400,
+  "endDate": {
+    "day": "27",
+    "month": "04",
+    "year": "2009"
+  },
+  "endDateUnix": 1240790400,
+  "location": {
+    "city": "Ekaterinburg",
+    "state": "",
+    "country": "Russia",
+    "venue": "Tele-Club",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 123,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 355,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "720x432",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "43040287.jpg",
+      "externalId": "1qs7YbXr_oStVhCtAveR68aETGDr9YUGM"
+    },
+    {
+      "folder": "5",
+      "filename": "90945389.jpg",
+      "externalId": "1HDwFQYjpE4VBezOkR5AEALnGkNLXtnjl"
+    },
+    {
+      "folder": "5",
+      "filename": "53460888.jpg",
+      "externalId": "1s2vLj1z0gFBYGn7MopDs80-fAzBm70Qd"
+    },
+    {
+      "folder": "5",
+      "filename": "11495111.jpg",
+      "externalId": "1E572l2mQQROBW7t9m3VoZkWh0_SbbESD"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Chelsea Smile",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

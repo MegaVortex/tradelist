@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Electron: Main",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/tool",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "start"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Site: Debug Build Script",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/site/scripts/pull-directus.js",
+      "cwd": "${workspaceFolder}/site",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}

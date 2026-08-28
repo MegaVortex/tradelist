@@ -1,0 +1,109 @@
+{
+  "originalTitle": "Chimaira - 09.02.2008 - Columbus - OH - USA - Newport Music Hall",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Chimaira"
+  ],
+  "startDate": {
+    "day": "09",
+    "month": "02",
+    "year": "2008"
+  },
+  "startDateUnix": 1202515200,
+  "endDate": {
+    "day": "09",
+    "month": "02",
+    "year": "2008"
+  },
+  "endDateUnix": 1202515200,
+  "location": {
+    "city": "Columbus",
+    "state": "OH",
+    "country": "USA",
+    "venue": "Newport Music Hall",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Low picture quality.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.2,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2161,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "divine_heresy_09_02_2008_video",
+    "all_that_remains_09_02_2008_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "38",
+      "filename": "98462785.jpg",
+      "externalId": "1iHX-iaw-JErdI5Tsh0G9ew_KMTfjQEVU"
+    },
+    {
+      "folder": "38",
+      "filename": "83728176.jpg",
+      "externalId": "1-wgU-kcM5hCi2LJmFxT4t8YZoDEudSNq"
+    },
+    {
+      "folder": "38",
+      "filename": "88468390.jpg",
+      "externalId": "1Q-rAycxJYJzPXVZr2bFK_rJrVoC99hCO"
+    },
+    {
+      "folder": "38",
+      "filename": "41955976.jpg",
+      "externalId": "1qTpGcrB4nyZpzPBq0VdETAtVvcLdThrD"
+    }
+  ],
+  "setlist": []
+}

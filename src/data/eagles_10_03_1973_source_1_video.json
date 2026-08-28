@@ -1,0 +1,204 @@
+{
+  "originalTitle": "Eagles - 10.03.1973 - Voorburg - Netherlands - Sporthal De Vliegermolen (Source 1)",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Eagles"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "03",
+    "year": "1973"
+  },
+  "startDateUnix": 100569600,
+  "endDate": {
+    "day": "10",
+    "month": "03",
+    "year": "1973"
+  },
+  "endDateUnix": 100569600,
+  "location": {
+    "city": "Voorburg",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "Sporthal De Vliegermolen",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Timecode.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.97,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3123,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "46522741.jpg",
+      "externalId": "1MeX4IrfML09JtLpp-iQrUzzr4odl_eJ1"
+    },
+    {
+      "folder": "5",
+      "filename": "93837405.jpg",
+      "externalId": "1FYRGn81nCGBHl-hmMpeegwyxC4Er2BC2"
+    },
+    {
+      "folder": "5",
+      "filename": "22250367.jpg",
+      "externalId": "1OoRbdUT3olhaEU6uc-OLPld015pdFZtU"
+    },
+    {
+      "folder": "5",
+      "filename": "81084462.jpg",
+      "externalId": "1SAFKazukuHBRrj9_otBtNhQLXugeCd6f"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Acapella Intro (from the folk song Come All Ye Fair And Tender Ladies)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Take It Easy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Tequila Sunrise",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Saturday Night",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Peaceful Easy Feeling",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "How Long",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "A Certain Kind Of Fool",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Outlaw Man",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Out Of Control",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Witchy Woman",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Keep On Tryin'",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Early Bird",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Blur - 30.04.2015 - New York - NY - USA - NBC Studios - Jimmy Fallon Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Blur"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "04",
+    "year": "2015"
+  },
+  "startDateUnix": 1430352000,
+  "endDate": {
+    "day": "30",
+    "month": "04",
+    "year": "2015"
+  },
+  "endDateUnix": 1430352000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Jimmy Fallon Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 95,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 205,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "71",
+      "filename": "27517492.jpg",
+      "externalId": "1HM7KOL4Y68DUkftA9DR3bDeIwBYEZvb1"
+    },
+    {
+      "folder": "71",
+      "filename": "75753890.jpg",
+      "externalId": "1QKQHtnuBfY5IuLi91zo8z4NVgcYxzNZi"
+    },
+    {
+      "folder": "71",
+      "filename": "27729598.jpg",
+      "externalId": "1gkXFqFHNNC8LNiiAtRDhZGaGZuLjX0Ct"
+    },
+    {
+      "folder": "71",
+      "filename": "94357252.jpg",
+      "externalId": "1xwXiceIN23MYHxb7T0VckQoAdkOgKdM3"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Ong Ong",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

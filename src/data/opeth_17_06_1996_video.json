@@ -1,0 +1,134 @@
+{
+  "originalTitle": "Opeth - 17.06.1996 - Manchester - England - The Witchwood",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Opeth"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "06",
+    "year": "1996"
+  },
+  "startDateUnix": 834969600,
+  "endDate": {
+    "day": "17",
+    "month": "06",
+    "year": "1996"
+  },
+  "endDateUnix": 834969600,
+  "location": {
+    "city": "Manchester",
+    "state": "",
+    "country": "England",
+    "venue": "The Witchwood",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.44,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5347,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "opeth_19_06_1996_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "46",
+      "filename": "07239708.jpg",
+      "externalId": "10D2fQFgJKTAv6NiBJg-wuWIwwrF1rJN2"
+    },
+    {
+      "folder": "46",
+      "filename": "55428671.jpg",
+      "externalId": "1Ps7-WxRGw7IKm1T3s6XXt2czJxIcjhkM"
+    },
+    {
+      "folder": "46",
+      "filename": "65754572.jpg",
+      "externalId": "1wCmkEQdNwiup7-xNzgtiLrhsxnbY5ogQ"
+    },
+    {
+      "folder": "46",
+      "filename": "25159889.jpg",
+      "externalId": "169yUuzVVrSOianc8t3wB932DB7DN2D5f"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "In Mist She Was Standing",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Advent",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Forest Of October",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

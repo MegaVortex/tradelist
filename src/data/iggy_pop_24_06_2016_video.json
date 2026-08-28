@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Iggy Pop - 24.06.2016 - London - England - Comedy Central Studios - Graham Norton Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Iggy Pop"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "06",
+    "year": "2016"
+  },
+  "startDateUnix": 1466726400,
+  "endDate": {
+    "day": "24",
+    "month": "06",
+    "year": "2016"
+  },
+  "endDateUnix": 1466726400,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Comedy Central Studios",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Graham Norton Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 454,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 600,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "69",
+      "filename": "03120318.jpg",
+      "externalId": "1Kr_KerkdRfS4zzyomIBaeB-hEwf-HHJx"
+    },
+    {
+      "folder": "69",
+      "filename": "90909641.jpg",
+      "externalId": "1QPq8LFozjswE_k9KsONr-YOqIGdbVFzB"
+    },
+    {
+      "folder": "69",
+      "filename": "00516917.jpg",
+      "externalId": "1SZz5xvhxtn9UpoVQNcds3CicGOaaFn9L"
+    },
+    {
+      "folder": "69",
+      "filename": "12164090.jpg",
+      "externalId": "1usyknDwZtWbwmHveWgxUXVXIIYnXXNX8"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Iggy Pop and Josh Homme",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Sunday",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

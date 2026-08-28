@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Elton John - [1999-2002] - TV Appearances [Compilation]",
+  "created": 1751916934,
+  "lastUpdated": 1751916934,
+  "bands": [
+    "Elton John"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1999"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "2002"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "",
+    "state": "",
+    "country": "",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "TV Appearances",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 6.91,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 6048,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "23420725.jpg",
+      "externalId": "16T11sDwzlRJzBFhtgq_WZCPJpybdpsUq"
+    },
+    {
+      "folder": "73",
+      "filename": "43901929.jpg",
+      "externalId": "12xzpvVlFQAQAwz1h0Vfu4hMRyWgXZobM"
+    },
+    {
+      "folder": "73",
+      "filename": "89859817.jpg",
+      "externalId": "1f8CsXTfSCEba2Nv6Xyxxpr25Vg8tjdKc"
+    },
+    {
+      "folder": "73",
+      "filename": "30708854.jpg",
+      "externalId": "1B-G2IgN19EsKYOuCM2I8UEkxSTwOQDBI"
+    }
+  ],
+  "parentOf": [
+    "elton_john_31_03_2000_video",
+    "elton_john_14_03_2000_video_misc",
+    "elton_john_26_03_1999_video",
+    "elton_john_18_11_2002_video"
+  ],
+  "setlist": [],
+  "fileSlug": "elton_john_xx_xx_1999_xx_xx_2002_video_compilation",
+  "isCompilation": true,
+  "permalink": "/compilations/elton_john_xx_xx_1999_xx_xx_2002_video_compilation/"
+}

@@ -1,0 +1,158 @@
+{
+  "originalTitle": "Machine Head - 04.06.2004 - Nuerburg - Germany - Nuerburgring - Rock Am Ring",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Machine Head"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "06",
+    "year": "2004"
+  },
+  "startDateUnix": 1086307200,
+  "endDate": {
+    "day": "04",
+    "month": "06",
+    "year": "2004"
+  },
+  "endDateUnix": 1086307200,
+  "location": {
+    "city": "Nuerburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Nuerburgring",
+    "event": "Rock Am Ring"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.54,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 6137,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "slipknot_11_06_2000_source_4_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "44",
+      "filename": "36618151.jpg",
+      "externalId": "193S4GxBTHqW8XLEWm7vGz7Gyl0ecPIvx"
+    },
+    {
+      "folder": "44",
+      "filename": "74354436.jpg",
+      "externalId": "1UzFIkI8K0gX--cqcSSBzE9tV-NDEEF-r"
+    },
+    {
+      "folder": "44",
+      "filename": "66735301.jpg",
+      "externalId": "1pXh28rUQAp0yDGAuE1Q3nBuKyzBDzAFq"
+    },
+    {
+      "folder": "44",
+      "filename": "73635014.jpg",
+      "externalId": "12nWlfBxPmF3NR5CB18BDbUGbpIfCVTDC"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Imperium",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Take My Scars",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Blood, The Sweat, The Tears",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Ten Ton Hammer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Descend The Shades Of Night",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Davidian",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

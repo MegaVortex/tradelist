@@ -1,0 +1,150 @@
+{
+  "originalTitle": "No Doubt - 06.01.1990 - Riverside - CA - USA - Spankys",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "No Doubt"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "01",
+    "year": "1990"
+  },
+  "startDateUnix": 631584000,
+  "endDate": {
+    "day": "06",
+    "month": "01",
+    "year": "1990"
+  },
+  "endDateUnix": 631584000,
+  "location": {
+    "city": "Riverside",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Spankys",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.18,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 5516,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "no_doubt_24_06_1992_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "24",
+      "filename": "35341464.jpg",
+      "externalId": "1QUi6orX2vKv_qVhf2LrPq2rHFyuNYsdx"
+    },
+    {
+      "folder": "24",
+      "filename": "16795123.jpg",
+      "externalId": "1yLYSqnCy1CXAycMX2nPYQDughHISpVb2"
+    },
+    {
+      "folder": "24",
+      "filename": "12127909.jpg",
+      "externalId": "1WyZQhNB5tfKj2iBawMegrovgtcwT0-9z"
+    },
+    {
+      "folder": "24",
+      "filename": "08184629.jpg",
+      "externalId": "1oBMuoHFvCecrjg6dXXqkFS8UqhKLp9eT"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Trapped In A Box",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Get On The Ball",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Let'S Get Back Together",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Sinking",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "El Matador",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

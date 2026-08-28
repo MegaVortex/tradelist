@@ -1,0 +1,137 @@
+{
+  "originalTitle": "[VARIOUS ARTISTS] - [08.07.2011 -- 10.07.2011] - Knebworth - England - Knebworth House - Sonisphere Festival",
+  "created": 1764623321,
+  "lastUpdated": 1764623321,
+  "bands": [
+    "Slipknot",
+    "Opeth",
+    "House Of Pain",
+    "Sum 41",
+    "Cavalera Conspiracy",
+    "Bad Religion",
+    "In Flames",
+    "Motorhead",
+    "Biffy Clyro",
+    "Diamond Head",
+    "Anthrax",
+    "Megadeth",
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "07",
+    "year": "2011"
+  },
+  "startDateUnix": 1310083200,
+  "endDate": {
+    "day": "10",
+    "month": "07",
+    "year": "2011"
+  },
+  "endDateUnix": 1310256000,
+  "location": {
+    "city": "Knebworth",
+    "state": "",
+    "country": "England",
+    "venue": "Knebworth Park",
+    "event": "Sonisphere Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 10.17,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 64636,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "HDMV",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "videoEquipment": "",
+      "audioEquipment": "",
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "2025",
+      "filename": "manual_1764616207135_1.jpg",
+      "externalId": "1am5aYcpgv_51bnSgEfYS3bUJmyx2DWjZ"
+    },
+    {
+      "folder": "2025",
+      "filename": "manual_1764616816760_0.jpg",
+      "externalId": "1wHv4wTE75I6Z55L2-O-swW5bFcK8dFXL"
+    },
+    {
+      "folder": "2025",
+      "filename": "manual_1764617461042_0.jpg",
+      "externalId": "1IHiuDZLB7_t8r56oYteHZl6uloVkqPjd"
+    },
+    {
+      "folder": "2025",
+      "filename": "manual_1764617627554_1.jpg",
+      "externalId": "17Wc9uJ1mhSG2tSDslvitYf6S0RSiZh2K"
+    }
+  ],
+  "parentOf": [
+    "slipknot_10_07_2011_source_7_video",
+    "opeth_10_07_2011_source_3_video",
+    "house_of_pain_09_07_2011_source_2_video",
+    "sum_41_10_07_2011_source_2_video",
+    "cavalera_conspiracy_09_07_2011_source_2_video",
+    "bad_religion_10_07_2011_source_1_video",
+    "in_flames_10_07_2011_source_1_video",
+    "motorhead_10_07_2011_source_2_video",
+    "biffy_clyro_09_07_2011_source_1_video",
+    "diamond_head_08_07_2011_source_2_video",
+    "anthrax_08_07_2011_source_1_video",
+    "megadeth_08_07_2011_source_2_video",
+    "metallica_08_07_2011_source_5_video"
+  ],
+  "setlist": [],
+  "extras": []
+}

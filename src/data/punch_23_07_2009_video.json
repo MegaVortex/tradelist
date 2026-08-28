@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Punch - 23.07.2009 - Allston - MA - USA - Wadzilla Mansion",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Punch"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "07",
+    "year": "2009"
+  },
+  "startDateUnix": 1248307200,
+  "endDate": {
+    "day": "23",
+    "month": "07",
+    "year": "2009"
+  },
+  "endDateUnix": 1248307200,
+  "location": {
+    "city": "Allston",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Wadzilla Mansion",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "dyinghorse release.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.39,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1300,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "34",
+      "filename": "04988141.jpg",
+      "externalId": "1Qj6cE2C4CXFY7YWC7V8t5uItR5h9gFY1"
+    },
+    {
+      "folder": "34",
+      "filename": "13572312.jpg",
+      "externalId": "1TJuWg6BdKNQWF5iByA9gEow-mSXYX2d_"
+    },
+    {
+      "folder": "34",
+      "filename": "70524694.jpg",
+      "externalId": "1RW7YARJW1tqWgq3j65cViJIndRq0hH9p"
+    },
+    {
+      "folder": "34",
+      "filename": "84817940.jpg",
+      "externalId": "12zUNZKb-O8Tb_tEvUr2Qr1mbiIr4IuiA"
+    }
+  ],
+  "setlist": []
+}

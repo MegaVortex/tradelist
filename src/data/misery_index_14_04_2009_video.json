@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Misery Index - 14.04.2009 - Washington - DC - USA - Rock And Roll Hotel",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Misery Index"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "04",
+    "year": "2009"
+  },
+  "startDateUnix": 1239667200,
+  "endDate": {
+    "day": "14",
+    "month": "04",
+    "year": "2009"
+  },
+  "endDateUnix": 1239667200,
+  "location": {
+    "city": "Washington",
+    "state": "DC",
+    "country": "USA",
+    "venue": "Rock And Roll Hotel",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.83,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2522,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "8",
+      "filename": "77646189.jpg",
+      "externalId": "1s1ZeDvWeY-Hdr7Mu-csDDZSAkMzxwFzO"
+    },
+    {
+      "folder": "8",
+      "filename": "38442966.jpg",
+      "externalId": "1LdQ42JDvHpCbSsLohF8NbhTiVp5utNrS"
+    },
+    {
+      "folder": "8",
+      "filename": "10064464.jpg",
+      "externalId": "1OSuzeT0ffCO_InXeAiJom-KF2I1DPLwa"
+    },
+    {
+      "folder": "8",
+      "filename": "34829492.jpg",
+      "externalId": "1Ukkz5SVXn46KOli8jjMdd5FvDSGaVxMv"
+    }
+  ],
+  "setlist": []
+}

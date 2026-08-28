@@ -1,0 +1,166 @@
+{
+  "originalTitle": "Saetia - 06.07.2025 - Berlin - Germany - SO36",
+  "created": 1753388186,
+  "lastUpdated": 1753388186,
+  "bands": [
+    "Saetia"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "07",
+    "year": "2025"
+  },
+  "endDate": {
+    "day": "06",
+    "month": "07",
+    "year": "2025"
+  },
+  "startDateUnix": 1751760000,
+  "endDateUnix": 1751760000,
+  "location": {
+    "city": "Berlin",
+    "state": "",
+    "country": "Germany",
+    "venue": "SO36",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": true,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "RT",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Highly incomplete. Only half of the show was recorded.",
+  "tapers": [
+    "Vortex"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 13.45,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1903,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "3840x2160",
+        "bitrateType": "",
+        "bitrateKbps": 60458,
+        "fps": "25.00",
+        "standard": "H264",
+        "codec": "AVC1",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 253,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "MP4"
+    }
+  },
+  "images": [
+    {
+      "folder": "2025",
+      "filename": "shot-1753387737264-2.jpg",
+      "externalId": "11TNkAzRTb9yfi26Z-ghMgq0YMXlZulY0"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1753387738101-3.jpg",
+      "externalId": "1OJ1weXs3Blt9CRWX9iQfoOmLCTi7yAlU"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1753387735219-0.jpg",
+      "externalId": "1ejJCu0Np48XRyuN7p2NuIm00roeedxvo"
+    },
+    {
+      "folder": "2025",
+      "filename": "shot-1753387736086-1.jpg",
+      "externalId": "1v8_KEGgMfLC8NWCESpBklwKupm6_oqHs"
+    }
+  ],
+  "setlist": [
+    {
+      "song": "From the Firmament",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "song": "An Open Letter",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "song": "Notres Langues Nous Trompes",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "song": "Closed Hands",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "song": "Tendrils",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "song": "Ariadne's Thread",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "song": "The Sweetness and the Light",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "song": "Some Natures Catch No Plagues",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": [],
+  "relatedShows": [],
+  "childOf": ""
+}

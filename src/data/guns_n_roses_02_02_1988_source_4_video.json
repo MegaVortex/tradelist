@@ -1,0 +1,203 @@
+{
+  "originalTitle": "Guns N' Roses - 02.02.1988 - New York - NY - USA - The Ritz (Source 4)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Guns N' Roses"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "02",
+    "year": "1988"
+  },
+  "startDateUnix": 570758400,
+  "endDate": {
+    "day": "02",
+    "month": "02",
+    "year": "1988"
+  },
+  "endDateUnix": 570758400,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "The Ritz",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 4",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.39,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4039,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "72",
+      "filename": "87842749.jpg",
+      "externalId": "1-j49XOxK9xUef0s52CcLmiXEuDCKnI6F"
+    },
+    {
+      "folder": "72",
+      "filename": "81598586.jpg",
+      "externalId": "12DCiXQAz3Gd-kDzqb-XpQSr4jX-im0XV"
+    },
+    {
+      "folder": "72",
+      "filename": "55547823.jpg",
+      "externalId": "1_yY72m6nkWHROfzmB925D22IV0pP7MKm"
+    },
+    {
+      "folder": "72",
+      "filename": "41659999.jpg",
+      "externalId": "11TjN2rT1TOoNPbf0C1gE9gKmxqGEqJ1E"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "It's So Easy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Mr. Brownstone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Out Ta Get Me",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Sweet Child O' Mine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "My Michelle",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Knockin' On Heaven's Door",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Bob Dylan"
+    },
+    {
+      "order": 7,
+      "song": "Welcome To The Jungle",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Nightrain",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Paradise City",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Mama Kin",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Aerosmith"
+    },
+    {
+      "order": 11,
+      "song": "Rocket Queen",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

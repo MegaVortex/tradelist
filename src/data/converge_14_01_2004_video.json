@@ -1,0 +1,109 @@
+{
+  "originalTitle": "Converge - 14.01.2004 - Reykjavik - Iceland - DNO",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Converge"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "01",
+    "year": "2004"
+  },
+  "startDateUnix": 1074038400,
+  "endDate": {
+    "day": "14",
+    "month": "01",
+    "year": "2004"
+  },
+  "endDateUnix": 1074038400,
+  "location": {
+    "city": "Reykjavik",
+    "state": "",
+    "country": "Iceland",
+    "venue": "DNO",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "5 cam mix.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.96,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 3358,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "converge_25_01_2004_video",
+    "converge_25_03_2004_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "43",
+      "filename": "30418544.jpg",
+      "externalId": "1rHJaDO1Tv5PyP3B7yA5uYb97R3ksTDGD"
+    },
+    {
+      "folder": "43",
+      "filename": "53666686.jpg",
+      "externalId": "1e_1fVjcAl61iB-Zr8HDcAQ9PDwyFRTnx"
+    },
+    {
+      "folder": "43",
+      "filename": "26134857.jpg",
+      "externalId": "1rJPyi4h0wKJ0tkiheLHIv2_hZ_M6Jghr"
+    },
+    {
+      "folder": "43",
+      "filename": "09962264.jpg",
+      "externalId": "1yOT4tFmZHt_MOvnRSyNVWYxsbm1BNqVW"
+    }
+  ],
+  "setlist": []
+}

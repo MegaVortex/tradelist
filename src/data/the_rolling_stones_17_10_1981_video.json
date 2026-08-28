@@ -1,0 +1,111 @@
+{
+  "originalTitle": "The Rolling Stones - 17.10.1981 - San Francisco - CA - USA - Candlestick Park",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Rolling Stones"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "10",
+    "year": "1981"
+  },
+  "startDateUnix": 372124800,
+  "endDate": {
+    "day": "17",
+    "month": "10",
+    "year": "1981"
+  },
+  "endDateUnix": 372124800,
+  "location": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Candlestick Park",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.06,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5794,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "the_rolling_stones_27_09_1981_video",
+    "the_rolling_stones_01_10_1981_video",
+    "the_rolling_stones_07_10_1981_video",
+    "the_rolling_stones_25_09_1981_video"
+  ],
+  "childOf": "The Rolling Stones - Early Years Part I",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "10486611.jpg",
+      "externalId": "10eva6SvKxfUlWO6vR7p6WzLsq53D9Z_G"
+    },
+    {
+      "folder": "27",
+      "filename": "06507837.jpg",
+      "externalId": "1iDn-6NSCe_o2RsbtUF9_Ebj7Zkto-0eu"
+    },
+    {
+      "folder": "27",
+      "filename": "40445485.jpg",
+      "externalId": "1IOGdWGupVpziu-kOwObRbcTRY2N3gCVQ"
+    },
+    {
+      "folder": "27",
+      "filename": "21956946.jpg",
+      "externalId": "1clRNGe4u6LgI3BBFkga0aWakJGtDxpQk"
+    }
+  ],
+  "setlist": []
+}

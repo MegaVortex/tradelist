@@ -1,0 +1,116 @@
+{
+  "originalTitle": "The Mars Volta - 08.02.2005 - Tokyo - Japan - Ebisu Liquid Room",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Mars Volta"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "02",
+    "year": "2005"
+  },
+  "startDateUnix": 1107820800,
+  "endDate": {
+    "day": "08",
+    "month": "02",
+    "year": "2005"
+  },
+  "endDateUnix": 1107820800,
+  "location": {
+    "city": "Tokyo",
+    "state": "",
+    "country": "Japan",
+    "venue": "Ebisu Liquid Room",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 256,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 450,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "16",
+      "filename": "16380428.jpg",
+      "externalId": "1omhEvZjxNwPyNmsCQAyLZHALKj7m8KpI"
+    },
+    {
+      "folder": "16",
+      "filename": "28778077.jpg",
+      "externalId": "1wDKI-lykV32xQqK9m48IsuEKohLTDBBl"
+    },
+    {
+      "folder": "16",
+      "filename": "96166645.jpg",
+      "externalId": "1XmwpU5aRHwWnYJjk2bspSDrDkCxVf5Y7"
+    },
+    {
+      "folder": "16",
+      "filename": "13500770.jpg",
+      "externalId": "1zQsbWAT9x8SaI0SZFqdPhcyMlz5K55M3"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Take The Veil Cerpin Taxt",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

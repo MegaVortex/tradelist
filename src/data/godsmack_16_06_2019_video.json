@@ -1,0 +1,136 @@
+{
+  "originalTitle": "Godsmack - 16.06.2019 - Donington - England - Donington Park - Download Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Godsmack"
+  ],
+  "startDate": {
+    "day": "16",
+    "month": "06",
+    "year": "2019"
+  },
+  "startDateUnix": 1560643200,
+  "endDate": {
+    "day": "16",
+    "month": "06",
+    "year": "2019"
+  },
+  "endDateUnix": 1560643200,
+  "location": {
+    "city": "Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": "Download Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-50",
+        "size": 25.4,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 17372,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 209,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [
+    "halestorm_14_06_2019_video",
+    "lamb_of_god_16_06_2019_video",
+    "whitesnake_14_06_2019_video",
+    "three_days_grace_14_06_2019_video",
+    "slash_14_06_2019_video",
+    "skid_row_14_06_2019_video",
+    "skindred_15_06_2019_video",
+    "smashing_pumpkins_16_06_2019_video",
+    "eagles_of_death_metal_14_06_2019_video",
+    "underoath_16_06_2019_video",
+    "slipknot_15_06_2019_source_2_video",
+    "trivium_15_06_2019_video",
+    "slayer_16_06_2019_video",
+    "anthrax_16_06_2019_video",
+    "def_leppard_14_06_2019_video",
+    "stone_temple_pilots_15_06_2019_video",
+    "behemoth_15_06_2019_video",
+    "rob_zombie_14_06_2019_video",
+    "opeth_14_06_2019_video"
+  ],
+  "childOf": "various_artists_14_06_2019_16_06_2019_video_compilation",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "41833580.jpg",
+      "externalId": "1T8rUB8JhRgwIbbKShq556fhIiFHSH2KK"
+    },
+    {
+      "folder": "73",
+      "filename": "30496557.jpg",
+      "externalId": "1LWjKeQ469s4AJH2mM7RacevVi0PgB_AM"
+    },
+    {
+      "folder": "73",
+      "filename": "22019451.jpg",
+      "externalId": "1p8cekhjWCUueO71ZYubZAxpc4J_F7fi5"
+    },
+    {
+      "folder": "73",
+      "filename": "66898035.jpg",
+      "externalId": "1EX2nq1tbkxiFlayb-4n0Mp8oCnBfiHnx"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "I Stand Alone",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Sinaloa - 26.03.2011 - Allston - MA - USA - O'Brien's",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sinaloa"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "03",
+    "year": "2011"
+  },
+  "startDateUnix": 1301097600,
+  "endDate": {
+    "day": "26",
+    "month": "03",
+    "year": "2011"
+  },
+  "endDateUnix": 1301097600,
+  "location": {
+    "city": "Allston",
+    "state": "MA",
+    "country": "USA",
+    "venue": "O'Brien's",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "dyinghorse release.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.74,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1618,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "34",
+      "filename": "50980987.jpg",
+      "externalId": "15p9vqOVbX6MgDwy2pf4VHMUkIwn1eIoy"
+    },
+    {
+      "folder": "34",
+      "filename": "67959921.jpg",
+      "externalId": "1rj5TpOBIGyZH6rbcoZ3Xx53U0E0IlfTu"
+    },
+    {
+      "folder": "34",
+      "filename": "30107260.jpg",
+      "externalId": "1WjCZ-6ln_wXipWnL85eqO9iQZQC_n1vp"
+    },
+    {
+      "folder": "34",
+      "filename": "22178709.jpg",
+      "externalId": "1eV6pPAfpLh65Vb6g3O6qg4syFaqB26mY"
+    }
+  ],
+  "setlist": []
+}

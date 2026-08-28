@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Avril Lavigne - 06.05.2007 - Melbourne - Australia - Crown Towers - Palladium Ballroom - Logie Awards",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Avril Lavigne"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "05",
+    "year": "2007"
+  },
+  "startDateUnix": 1178409600,
+  "endDate": {
+    "day": "06",
+    "month": "05",
+    "year": "2007"
+  },
+  "endDateUnix": 1178409600,
+  "location": {
+    "city": "Melbourne",
+    "state": "",
+    "country": "Australia",
+    "venue": "Crown Towers",
+    "event": "Palladium Ballroom - Logie Awards"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 461,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 255,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "1440x1080",
+        "bitrateType": "",
+        "bitrateKbps": 14500,
+        "fps": "25.00",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MPG"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "25",
+      "filename": "07594634.jpg",
+      "externalId": "1P5RJDSTMS2TVEhMhKrznFzz9bF9zPcjU"
+    },
+    {
+      "folder": "25",
+      "filename": "55400754.jpg",
+      "externalId": "1bBlXhOBlgbgmXPJdqY_uV7jj9aj0yQVV"
+    },
+    {
+      "folder": "25",
+      "filename": "85975578.jpg",
+      "externalId": "16VplNvMGUvAnQ3coIX4vMAZnJCc_EHla"
+    },
+    {
+      "folder": "25",
+      "filename": "67718249.jpg",
+      "externalId": "1ZL1FB1WqEeTdEKnGnalfFpXkOdH-8qpw"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Girlfriend",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

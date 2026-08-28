@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Motorhead - 14.03.1988 - Athens - Greece - Sports Arena",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Motorhead"
+  ],
+  "startDate": {
+    "day": "14",
+    "month": "03",
+    "year": "1988"
+  },
+  "startDateUnix": 574300800,
+  "endDate": {
+    "day": "14",
+    "month": "03",
+    "year": "1988"
+  },
+  "endDateUnix": 574300800,
+  "location": {
+    "city": "Athens",
+    "state": "",
+    "country": "Greece",
+    "venue": "Sports Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Black-and-white coloured, low picture quality.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 932,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1194,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "22",
+      "filename": "97966313.jpg",
+      "externalId": "1HAlYCDFmBwNiFR-N3ndPIN72CsCuG6ml"
+    },
+    {
+      "folder": "22",
+      "filename": "81343943.jpg",
+      "externalId": "1DI6wiDWqndRR6tA8p9G2KsYE5rhzrxfJ"
+    },
+    {
+      "folder": "22",
+      "filename": "64815121.jpg",
+      "externalId": "11W81VjtH643JiwLLM95mJPVG7rtw3Cox"
+    },
+    {
+      "folder": "22",
+      "filename": "24262101.jpg",
+      "externalId": "1y-9T0ft2YOf98783CqadHl_fkRgjLenh"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Dr. Rock",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Metropolis",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "No Class",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Just 'Cos You Got The Power",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Stone Deaf In The USA",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

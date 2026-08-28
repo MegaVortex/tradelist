@@ -1,0 +1,180 @@
+{
+  "originalTitle": "W.A.S.P. - 13.12.2009 - Bilbao - Spain - Rock Star Live",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "W.A.S.P."
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "12",
+    "year": "2009"
+  },
+  "startDateUnix": 1260662400,
+  "endDate": {
+    "day": "13",
+    "month": "12",
+    "year": "2009"
+  },
+  "endDateUnix": 1260662400,
+  "location": {
+    "city": "Bilbao",
+    "state": "",
+    "country": "Spain",
+    "venue": "Rock Star Live",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.23,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3076,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "17",
+      "filename": "18357949.jpg",
+      "externalId": "146pyixU3auhATsI0TU5YOt4TZEBeXdz-"
+    },
+    {
+      "folder": "17",
+      "filename": "23983860.jpg",
+      "externalId": "1K3am67WMYLHSAdYNo9aT8jhSoi50uctA"
+    },
+    {
+      "folder": "17",
+      "filename": "67104564.jpg",
+      "externalId": "1lzo47k0WGhIYnrUs4RPXrOBdl-6S8IaQ"
+    },
+    {
+      "folder": "17",
+      "filename": "95042295.jpg",
+      "externalId": "1Ox56AeuRB6n0nIP-GboVn2IIjwjXGfjZ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "L.O.V.E. Machine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Crazy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Babylon's Burning",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Wild Child",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Arena Of Pleasure",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Chainsaw Charlie",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Take Me Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "I Wanna Be Somebody",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Blind In Texas",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

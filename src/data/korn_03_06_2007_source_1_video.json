@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Korn - 03.06.2007 - Nuerburg - Germany - Nuerburgring - Rock Am Ring (Source 1)",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Korn"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "06",
+    "year": "2007"
+  },
+  "startDateUnix": 1180828800,
+  "endDate": {
+    "day": "03",
+    "month": "06",
+    "year": "2007"
+  },
+  "endDateUnix": 1180828800,
+  "location": {
+    "city": "Nuerburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Nuerburgring",
+    "event": "Rock Am Ring"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Screenshot.",
+  "tapers": [
+    "Bakersfield"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.19,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1744,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "50488695.jpg",
+      "externalId": "1HqpOr2lxAZE9kn6Dd-A8UOxXl47-7mmx"
+    },
+    {
+      "folder": "5",
+      "filename": "64402907.jpg",
+      "externalId": "1CLkRwLXrLq0resDNPhYsFZWuK25Pvn4t"
+    },
+    {
+      "folder": "5",
+      "filename": "85050755.jpg",
+      "externalId": "1Zp5zEqSEeHM2oO6qSxHOOsk-gQqKwGUd"
+    },
+    {
+      "folder": "5",
+      "filename": "05172414.jpg",
+      "externalId": "1N05iuWkQ1retOgZF6ususXKoRdQ53bGx"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,196 @@
+{
+  "originalTitle": "Europe - 11.08.2010 - Zofingen - Switzerland - Heiternplatz - Magic Night",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Europe"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "08",
+    "year": "2010"
+  },
+  "startDateUnix": 1281484800,
+  "endDate": {
+    "day": "11",
+    "month": "08",
+    "year": "2010"
+  },
+  "endDateUnix": 1281484800,
+  "location": {
+    "city": "Zofingen",
+    "state": "",
+    "country": "Switzerland",
+    "venue": "Heiternplatz",
+    "event": "Magic Night"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.72,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 3478,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "de",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "71",
+      "filename": "44798964.jpg",
+      "externalId": "1_FjWsuE8tzmrdGdFGcYi0zL8j-m_Ib74"
+    },
+    {
+      "folder": "71",
+      "filename": "50134531.jpg",
+      "externalId": "1GBd5_GKLz_qIgKlzr2ALtUVwv_1-b7IS"
+    },
+    {
+      "folder": "71",
+      "filename": "04433677.jpg",
+      "externalId": "1b3Ut24xqdcapjEKEdf4Z-fUqGtQWjE4J"
+    },
+    {
+      "folder": "71",
+      "filename": "12710157.jpg",
+      "externalId": "1goAJyuCEW5ZOYfJyBqYqkZ5wYlZ9dLM8"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Love Is Not The Enemy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Superstitious",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "No Stone Unturned",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Carrie",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Let The Good Times Rock",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "New Love In Town",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Start From The Dark",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Cherokee",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Rock The Night",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "The Beast",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "The Final Countdown",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Blink-182 - 28.01.2000 - Melbourne - VIC - Australia - RAS Showgrounds - Big Day Out",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Blink-182"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "01",
+    "year": "2000"
+  },
+  "startDateUnix": 949017600,
+  "endDate": {
+    "day": "28",
+    "month": "01",
+    "year": "2000"
+  },
+  "endDateUnix": 949017600,
+  "location": {
+    "city": "Melbourne",
+    "state": "VIC",
+    "country": "Australia",
+    "venue": "RAS Showgrounds",
+    "event": "Big Day Out"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 625,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 686,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "50",
+      "filename": "40711599.jpg",
+      "externalId": "1Xa9L55fFntIY6bKdZ430e3a_v7FpuZ7z"
+    },
+    {
+      "folder": "50",
+      "filename": "20295093.jpg",
+      "externalId": "1RGWa6CQt2KtSffDPbKANA0YajFq8ukjP"
+    },
+    {
+      "folder": "50",
+      "filename": "19868451.jpg",
+      "externalId": "1jw4jHDVypshgHe-1mQpzF_nHW3edNwN2"
+    },
+    {
+      "folder": "50",
+      "filename": "08934299.jpg",
+      "externalId": "1zUECDrXKhoUv8_93g76ZMEGXysMaXtFh"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "What's My Age Again",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "All The Small Things",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Dammit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

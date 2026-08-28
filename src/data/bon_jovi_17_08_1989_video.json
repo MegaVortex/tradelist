@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Bon Jovi - 17.08.1989 - London - England - Piccadilly Circus - Tower Records",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Bon Jovi"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "08",
+    "year": "1989"
+  },
+  "startDateUnix": 619315200,
+  "endDate": {
+    "day": "17",
+    "month": "08",
+    "year": "1989"
+  },
+  "endDateUnix": 619315200,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Piccadilly Circus",
+    "event": "Tower Records"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.13,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 1970,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "36556513.jpg",
+      "externalId": "1NG3zoqXqfnFFZTycAdxE5g6g-v_6YSD1"
+    },
+    {
+      "folder": "15",
+      "filename": "17330540.jpg",
+      "externalId": "1pXRFYdQhbF0LWKECLYHJ1lMEIAoWTNig"
+    },
+    {
+      "folder": "15",
+      "filename": "17168934.jpg",
+      "externalId": "1X8cVhOZqSzXPgrxy8mzmh6ofHC0tg8Yb"
+    },
+    {
+      "folder": "15",
+      "filename": "19585500.jpg",
+      "externalId": "1LOEFeNNkx5kZIgH4gJUbVx4ObaWdkDKQ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Band Signing Records",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Jon And Richie Talking",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Ride Cowboy Ride (acoustic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Wanted Dead Or Alive (acoustic)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

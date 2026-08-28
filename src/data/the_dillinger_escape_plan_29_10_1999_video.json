@@ -1,0 +1,110 @@
+{
+  "originalTitle": "The Dillinger Escape Plan - 29.10.1999 - Brunswick - NJ - USA",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Dillinger Escape Plan"
+  ],
+  "startDate": {
+    "day": "29",
+    "month": "10",
+    "year": "1999"
+  },
+  "startDateUnix": 941155200,
+  "endDate": {
+    "day": "29",
+    "month": "10",
+    "year": "1999"
+  },
+  "endDateUnix": 941155200,
+  "location": {
+    "city": "Brunswick",
+    "state": "NJ",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.04,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1651,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "the_dillinger_escape_plan_16_10_1999_video",
+    "the_dillinger_escape_plan_20_09_1999_video",
+    "the_dillinger_escape_plan_08_04_2000_source_2_video"
+  ],
+  "childOf": "the_dillinger_escape_plan_xx_xx_1999_xx_xx_2000_part_1_compilation_video_compilation",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "50024118.jpg",
+      "externalId": "1icuObTBwQYJ2KgH6LpPsIED6c2ceJHz7"
+    },
+    {
+      "folder": "29",
+      "filename": "71368113.jpg",
+      "externalId": "1N9hKAaeayqoe3YoaTPry2Lm72vl9yTEf"
+    },
+    {
+      "folder": "29",
+      "filename": "69487649.jpg",
+      "externalId": "1PXqOzMX-MAejr78tiT1nOyNeMiOp98zI"
+    },
+    {
+      "folder": "29",
+      "filename": "48647737.jpg",
+      "externalId": "1Aq5v6uv89He_1Ja3R_s27NDFGipVcJZQ"
+    }
+  ],
+  "setlist": []
+}

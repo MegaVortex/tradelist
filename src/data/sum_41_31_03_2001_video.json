@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Sum 41 - 31.03.2001 - Boston - MA - USA",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Sum 41"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "03",
+    "year": "2001"
+  },
+  "startDateUnix": 985996800,
+  "endDate": {
+    "day": "31",
+    "month": "03",
+    "year": "2001"
+  },
+  "endDateUnix": 985996800,
+  "location": {
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.94,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1981,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "31",
+      "filename": "19472349.jpg",
+      "externalId": "1NyvEyrEyMNarKuwL5QFHtP2DgkDYjpXN"
+    },
+    {
+      "folder": "31",
+      "filename": "82876602.jpg",
+      "externalId": "1caPouuLv_w1yx4ouzJ1P5DIg38vNe4Wn"
+    },
+    {
+      "folder": "31",
+      "filename": "65145683.jpg",
+      "externalId": "1P_VAbPMtonrITNS9--AFazrW7vcB1MUi"
+    },
+    {
+      "folder": "31",
+      "filename": "59837612.jpg",
+      "externalId": "1n04ZYNT8rWd8G1whH8rD9oUXr0e6c3ao"
+    }
+  ],
+  "setlist": []
+}

@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Red Hot Chili Peppers - 23.05.1988 - Landgraaf - Netherlands - Pinkpop Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Red Hot Chili Peppers"
+  ],
+  "startDate": {
+    "day": "23",
+    "month": "05",
+    "year": "1988"
+  },
+  "startDateUnix": 580348800,
+  "endDate": {
+    "day": "23",
+    "month": "05",
+    "year": "1988"
+  },
+  "endDateUnix": 580348800,
+  "location": {
+    "city": "Landgraaf",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "",
+    "event": "Pinkpop Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.16,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1015,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "23",
+      "filename": "95368253.jpg",
+      "externalId": "1Xa2qWTAaswbdicOam3sHB-opkYpH2jqI"
+    },
+    {
+      "folder": "23",
+      "filename": "74389766.jpg",
+      "externalId": "1vpbAJOw8yxacaLUp6_BWc1yMPTxQU1xm"
+    },
+    {
+      "folder": "23",
+      "filename": "92386516.jpg",
+      "externalId": "1TAZaaq02P9G71P5s-ZDvgSPZVs-kpaTs"
+    },
+    {
+      "folder": "23",
+      "filename": "70705991.jpg",
+      "externalId": "1bZ7nVt_BkxNWGuh8sx2FHKNh9sBEUkJ_"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Green Heaven",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Fight Like A Brave",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Mommy Where's Daddy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "No Chump Love Sucker",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

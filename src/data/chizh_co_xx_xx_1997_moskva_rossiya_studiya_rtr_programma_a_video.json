@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Чиж & Co. - xx.xx.1997 - Москва - Россия - Студия РТР - Программа 'А'",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Чиж & Co."
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1997"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1997"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Москва",
+    "state": "",
+    "country": "Россия",
+    "venue": "Студия РТР",
+    "event": "Программа 'А'"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 512,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3001,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "352x288",
+        "bitrateType": "",
+        "bitrateKbps": 1150,
+        "fps": "25.00",
+        "standard": "MPEG1",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 224,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "VCD",
+      "fileFormat": "MPG"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "94108498.jpg",
+      "externalId": "1XS4OeDWqwe8f1u2XEVTszeg_POrZy1dT"
+    },
+    {
+      "folder": "19",
+      "filename": "06651707.jpg",
+      "externalId": "1dHJN-bieiMpEzJ3ZxeBNuPP4_NK7yzdH"
+    },
+    {
+      "folder": "19",
+      "filename": "57341518.jpg",
+      "externalId": "1CqrSXvm90zRNB1vXxDvJTxU2lxJyteIV"
+    },
+    {
+      "folder": "19",
+      "filename": "75805735.jpg",
+      "externalId": "1dL_3J8HUYb7fl_zHFL33N_JN85tcaOU_"
+    }
+  ],
+  "setlist": []
+}

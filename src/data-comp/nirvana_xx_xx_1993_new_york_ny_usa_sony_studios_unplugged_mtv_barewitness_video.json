@@ -1,0 +1,197 @@
+{
+  "originalTitle": "Nirvana - xx.xx.1993 - New York - NY - USA - Sony Studios - Unplugged - MTV BAREwitness",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1993"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1993"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Sony Studios",
+    "event": ""
+  },
+  "tvChannel": "MTV",
+  "showName": "Unplugged - MTV BAREwitness",
+  "source": "",
+  "category": [
+    "video",
+	"compilation"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Unplugged footage.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.07,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1257,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "1",
+      "filename": "04253.jpg",
+      "externalId": "1ZEtbao8BKfpCxdRY1hgqyRwT-yByOMHc"
+    },
+    {
+      "folder": "1",
+      "filename": "12979.jpg",
+      "externalId": "13-cVgpN8Kx3LiHn4oDxokEkC8qukGJU6"
+    },
+    {
+      "folder": "1",
+      "filename": "68280.jpg",
+      "externalId": "1ZChX8UkRFW9zPkDZN5gOk-mYhEq7xPG0"
+    },
+    {
+      "folder": "1",
+      "filename": "41259.jpg",
+      "externalId": "117MswvL9sfufR5mlJBx-RPgM9T4sWVav"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Fans and backstage people",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "Krist",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "All Apologies",
+      "feat": "",
+      "note": "clip",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Rehearsal Clips",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Pennyroyal Tea",
+      "feat": "",
+      "note": "clip",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Come As You Are",
+      "feat": "",
+      "note": "clip",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "The Man Who Sold The World",
+      "feat": "",
+      "note": "clip",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Lake Of Fire",
+      "feat": "",
+      "note": "clip",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Jesus Wants Me For A Sunbeam",
+      "feat": "",
+      "note": "clip",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Where Did You Sleep Last Night",
+      "feat": "",
+      "note": "clip",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Something In The Way",
+      "feat": "",
+      "note": "clip",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

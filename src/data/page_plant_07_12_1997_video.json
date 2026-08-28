@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Page & Plant - 07.12.1997 - London - England - Cafe De Paris",
+  "created": 1753881392,
+  "lastUpdated": 1753881392,
+  "bands": [
+    "Page & Plant"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "12",
+    "year": "1997"
+  },
+  "startDateUnix": 881452800,
+  "endDate": {
+    "day": "07",
+    "month": "12",
+    "year": "1997"
+  },
+  "endDateUnix": 881452800,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "Cafe De Paris",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.41,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1427,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "10",
+      "filename": "93211607.jpg",
+      "externalId": "1xTM7er36TKV-lCR0LsYuASfYerYaMdG0"
+    },
+    {
+      "folder": "10",
+      "filename": "82032201.jpg",
+      "externalId": "1Ui7Q_814SLRFZeYS49Xf5bZ3eLJ4H9lO"
+    },
+    {
+      "folder": "10",
+      "filename": "83513540.jpg",
+      "externalId": "1h5TdkvowREoNJOIAWtSSoP_KO0U7whj7"
+    },
+    {
+      "folder": "10",
+      "filename": "17541359.jpg",
+      "externalId": "1ohd9HT_i12xZJ9e2D2BOHSTqNSF31FvZ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Introduction (Pat Cash)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Ramble On",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Move It",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Over The Hills And Far Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Thank You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Crossroads",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

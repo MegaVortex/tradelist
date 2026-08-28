@@ -1,0 +1,134 @@
+{
+  "originalTitle": "Iron Maiden - 26.09.1999 - Madrid - Spain - La Cubierta Bullring (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Iron Maiden"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "09",
+    "year": "1999"
+  },
+  "startDateUnix": 938304000,
+  "endDate": {
+    "day": "26",
+    "month": "09",
+    "year": "1999"
+  },
+  "endDateUnix": 938304000,
+  "location": {
+    "city": "Madrid",
+    "state": "",
+    "country": "Spain",
+    "venue": "La Cubierta Bullring",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 5.08,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 6640,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "iron_maiden_26_09_1999_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "52",
+      "filename": "45092680.jpg",
+      "externalId": "18pjSIfNo-2cH_I33pBmD5HCVmw1d-xVf"
+    },
+    {
+      "folder": "52",
+      "filename": "98462769.jpg",
+      "externalId": "1buwuBT0QweYpHF3nf4gW1yXxASflOaz0"
+    },
+    {
+      "folder": "52",
+      "filename": "28843507.jpg",
+      "externalId": "1Y4doH7HCyqeBBuMdzp9pv86G5AQkKfwx"
+    },
+    {
+      "folder": "52",
+      "filename": "70775180.jpg",
+      "externalId": "1d-v05WsXdvH9I1Sm7RaKRj7LU3dpbZVe"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro / Aces High",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wrathchild",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "The Trooper",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

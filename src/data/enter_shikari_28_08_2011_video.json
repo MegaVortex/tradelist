@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Enter Shikari - 28.08.2011 - Reading - England - Little John's Farm - Reading Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Enter Shikari"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "08",
+    "year": "2011"
+  },
+  "startDateUnix": 1314489600,
+  "endDate": {
+    "day": "28",
+    "month": "08",
+    "year": "2011"
+  },
+  "endDateUnix": 1314489600,
+  "location": {
+    "city": "Reading",
+    "state": "",
+    "country": "England",
+    "venue": "Little John's Farm",
+    "event": "Reading Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.09,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1723,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "36156765.jpg",
+      "externalId": "1SeCLX2KSMuw3Cel8MwmPE7kXg_lvvZ6A"
+    },
+    {
+      "folder": "29",
+      "filename": "39163560.jpg",
+      "externalId": "1l0am3ekemyxTI4t6ralcLvlSnMdvvaR5"
+    },
+    {
+      "folder": "29",
+      "filename": "45229385.jpg",
+      "externalId": "1PX_pwdDNIsYFL6XbX8MkFqBlYSIH646R"
+    },
+    {
+      "folder": "29",
+      "filename": "40932020.jpg",
+      "externalId": "1FJC6Nm4CrAsbAk1uARS2rszPIFoWslsL"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Destabilise",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Mothership",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Sorry You're Not A Winner",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Juggernauts",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "OK, Time For Plan B",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

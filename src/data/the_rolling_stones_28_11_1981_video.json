@@ -1,0 +1,113 @@
+{
+  "originalTitle": "The Rolling Stones - 28.11.1981 - Syracuse - NY - USA - Carrier Dome",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "The Rolling Stones"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "11",
+    "year": "1981"
+  },
+  "startDateUnix": 375753600,
+  "endDate": {
+    "day": "28",
+    "month": "11",
+    "year": "1981"
+  },
+  "endDateUnix": 375753600,
+  "location": {
+    "city": "Syracuse",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Carrier Dome",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Upgraded audio from DAC's release \"Echoes of old applause\".",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.97,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4219,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "the_rolling_stones_24_10_1981_video",
+    "the_rolling_stones_01_11_1981_video",
+    "the_rolling_stones_12_11_1981_video",
+    "the_rolling_stones_20_11_1981_video",
+    "the_rolling_stones_18_10_1981_video",
+    "the_rolling_stones_30_11_1981_video"
+  ],
+  "childOf": "The Rolling Stones - Early Years Part II",
+  "images": [
+    {
+      "folder": "27",
+      "filename": "01402482.jpg",
+      "externalId": "1uJMGgyLl_7AxRw4cTeNP0aM4JOBwoc9o"
+    },
+    {
+      "folder": "27",
+      "filename": "59711102.jpg",
+      "externalId": "14zwiqpyC22EOcT68ThHFPJE4u3a3e3G_"
+    },
+    {
+      "folder": "27",
+      "filename": "60076586.jpg",
+      "externalId": "12sJt_xRvXlU7Fg4bhI4dUYTAeRiy-q-d"
+    },
+    {
+      "folder": "27",
+      "filename": "04576277.jpg",
+      "externalId": "1Bctvsas_adA-WlrnHb4KyNKdfO6cuyfr"
+    }
+  ],
+  "setlist": []
+}

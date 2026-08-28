@@ -1,0 +1,135 @@
+{
+  "originalTitle": "Linkin Park - 12.07.2003 - Philadelphia - PA - USA - Veteran's Stadium [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "07",
+    "year": "2003"
+  },
+  "startDateUnix": 1057968000,
+  "endDate": {
+    "day": "12",
+    "month": "07",
+    "year": "2003"
+  },
+  "endDateUnix": 1057968000,
+  "location": {
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "venue": "Veteran's Stadium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MTV broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.35,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1226,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "linkin_park_10_01_2001_video_misc"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "48",
+      "filename": "51505994.jpg",
+      "externalId": "153D6Glz6WaPJGxA_bQabJuuocftOGwCs"
+    },
+    {
+      "folder": "48",
+      "filename": "67764428.jpg",
+      "externalId": "15Yr9BuP44QyNY_GiKPB_rFWoqMmXF6Pb"
+    },
+    {
+      "folder": "48",
+      "filename": "61846801.jpg",
+      "externalId": "1WvxUnRilmfv6Oa2cxvOG4-dOlqMH75Wu"
+    },
+    {
+      "folder": "48",
+      "filename": "98421852.jpg",
+      "externalId": "1_s86aDF7zn_AECG5MQwwepn-GjqFZHgh"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Live Footage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

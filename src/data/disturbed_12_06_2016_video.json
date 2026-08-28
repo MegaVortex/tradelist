@@ -1,0 +1,138 @@
+{
+  "originalTitle": "Disturbed - 12.06.2016 - Castle Donington - England - Donington Park - Download Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Disturbed"
+  ],
+  "startDate": {
+    "day": "12",
+    "month": "06",
+    "year": "2016"
+  },
+  "startDateUnix": 1465689600,
+  "endDate": {
+    "day": "12",
+    "month": "06",
+    "year": "2016"
+  },
+  "endDateUnix": 1465689600,
+  "location": {
+    "city": "Castle Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": "Download Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 24.2,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 16514,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 479,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [
+    "rammstein_10_06_2016_video",
+    "korn_10_06_2016_video",
+    "deftones_11_06_2016_video",
+    "skillet_10_06_2016_video",
+    "alien_ant_farm_10_06_2016_video",
+    "killswitch_engage_10_06_2016_video",
+    "nofx_11_06_2016_video",
+    "rival_sons_11_06_2016_video",
+    "iron_maiden_12_06_2016_video",
+    "skindred_11_06_2016_video",
+    "billy_talent_12_06_2016_video",
+    "nightwish_12_06_2016_video",
+    "halestorm_12_06_2016_video"
+  ],
+  "childOf": "various_artists_10_06_2016_12_06_2016_video_compilation",
+  "images": [
+    {
+      "folder": "67",
+      "filename": "09210893.jpg",
+      "externalId": "1cwXOeCGbh-Mx1Bd6iHPgCZ6qXNFvplpW"
+    },
+    {
+      "folder": "67",
+      "filename": "48656719.jpg",
+      "externalId": "1PEKwTx2FXHbU__2rlnnErdFE9IO3eV65"
+    },
+    {
+      "folder": "67",
+      "filename": "96987900.jpg",
+      "externalId": "1kwsqpYLSsC7OEYr7ztXBCfdV3dx0uRW7"
+    },
+    {
+      "folder": "67",
+      "filename": "16646491.jpg",
+      "externalId": "1acKd7pcOLOuTnfoDZ27rpHgaWs-y16Wh"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Vengeful One",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Sound Of Silence",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

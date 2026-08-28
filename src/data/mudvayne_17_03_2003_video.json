@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Mudvayne - 17.03.2003 - Cincinnati - OH - USA - Bogart's",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Mudvayne"
+  ],
+  "startDate": {
+    "day": "17",
+    "month": "03",
+    "year": "2003"
+  },
+  "startDateUnix": 1047859200,
+  "endDate": {
+    "day": "17",
+    "month": "03",
+    "year": "2003"
+  },
+  "endDateUnix": 1047859200,
+  "location": {
+    "city": "Cincinnati",
+    "state": "OH",
+    "country": "USA",
+    "venue": "Bogart's",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.26,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 5204,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "18433872.jpg",
+      "externalId": "11AX_eUUhSHiFghfoxvNPPUwhwthvLMEF"
+    },
+    {
+      "folder": "5",
+      "filename": "55624039.jpg",
+      "externalId": "1Ix-Z9RW21AwztnsfJ-bSWkmkf1yTvvHT"
+    },
+    {
+      "folder": "5",
+      "filename": "11113151.jpg",
+      "externalId": "1cfPrieCV1ghsdI9G8dCWrJ9RNVxQtg8M"
+    },
+    {
+      "folder": "5",
+      "filename": "38107087.jpg",
+      "externalId": "1O09vwTgzUZc8cz2Nflc-pcgsx03I26lc"
+    }
+  ],
+  "setlist": []
+}

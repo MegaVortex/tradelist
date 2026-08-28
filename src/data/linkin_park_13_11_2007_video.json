@@ -1,0 +1,158 @@
+{
+  "originalTitle": "Linkin Park - 13.11.2007 - Singapore - Singapore - Singapore Indoor Stadium",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "11",
+    "year": "2007"
+  },
+  "startDateUnix": 1194912000,
+  "endDate": {
+    "day": "13",
+    "month": "11",
+    "year": "2007"
+  },
+  "endDateUnix": 1194912000,
+  "location": {
+    "city": "Singapore",
+    "state": "",
+    "country": "Singapore",
+    "venue": "Singapore Indoor Stadium",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "SBD audio. Highly incomplete.",
+  "tapers": [
+    "decoratedgun"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 901,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1359,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "Digicam",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "48",
+      "filename": "59760953.jpg",
+      "externalId": "15GuRTmgJvpr9yVRxKaazMkzIXe6rYruX"
+    },
+    {
+      "folder": "48",
+      "filename": "25626072.jpg",
+      "externalId": "1_QdYQ_BaGKwAf1m53kyQ8noOWnSPNXpo"
+    },
+    {
+      "folder": "48",
+      "filename": "49664904.jpg",
+      "externalId": "1Xywjx1_CrSbtrOK2SCxyXoBNk6869ypS"
+    },
+    {
+      "folder": "48",
+      "filename": "25590749.jpg",
+      "externalId": "1G6ch4Z-QWwDmhF7Ix4ftzoRsDeO52csP"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Given Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "In Pieces",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Shadow Of The Day",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Pushing Me Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Breaking The Habit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Little Things Give You Away",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

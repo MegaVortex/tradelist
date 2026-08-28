@@ -1,0 +1,167 @@
+{
+  "originalTitle": "Motley Crue - 24.06.1997 - New York - NY - USA - Ed Sullivan Theater - David Letterman Show (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Motley Crue"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "06",
+    "year": "1997"
+  },
+  "startDateUnix": 867110400,
+  "endDate": {
+    "day": "24",
+    "month": "06",
+    "year": "1997"
+  },
+  "endDateUnix": 867110400,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Ed Sullivan Theater",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "David Letterman Show",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.19,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3439,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "motley_crue_24_06_1997_source_2_video",
+    "motley_crue_18_07_1997_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "32",
+      "filename": "23106820.jpg",
+      "externalId": "11yI59BWbNbjcwTF82Vq1sHJfVqQBb0HJ"
+    },
+    {
+      "folder": "32",
+      "filename": "67994378.jpg",
+      "externalId": "1tLDMz8IfWPSfl7dkMo-4quGMCzW03B6B"
+    },
+    {
+      "folder": "32",
+      "filename": "13543284.jpg",
+      "externalId": "1zSaRrGXj_D5ZduX4LD10rIK5geiPZVxi"
+    },
+    {
+      "folder": "32",
+      "filename": "52757989.jpg",
+      "externalId": "1iJrByGw5Kuokv9HqXgUwstqif1sXiXO0"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Afraid",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Dr.Feelgood",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Generation Swine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Shout At The Devil",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Wildside",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Find Myself",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Kickstart My Heart",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

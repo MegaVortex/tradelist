@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Pearl Jam - 24.10.2013 - New York - NY - USA - NBC Studios - Jimmy Fallon Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Pearl Jam"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "10",
+    "year": "2013"
+  },
+  "startDateUnix": 1382572800,
+  "endDate": {
+    "day": "24",
+    "month": "10",
+    "year": "2013"
+  },
+  "endDateUnix": 1382572800,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": ""
+  },
+  "tvChannel": "NBC",
+  "showName": "Jimmy Fallon Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.59,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1157,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 384,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "74",
+      "filename": "80553420.jpg",
+      "externalId": "1mEHVZscV5CX0skUd3kzvWwGZ4twRFMtJ"
+    },
+    {
+      "folder": "74",
+      "filename": "22831304.jpg",
+      "externalId": "1Bh8vQIiOpdYCPLTPXiNRR6wWKvzWFQDg"
+    },
+    {
+      "folder": "74",
+      "filename": "71623694.jpg",
+      "externalId": "1J9zN77rb2pPoPIVB3XW4GzkpyoyZKZnR"
+    },
+    {
+      "folder": "74",
+      "filename": "55878957.jpg",
+      "externalId": "1_ewHZfHBE290QELdTqa1T-v9OAUvNUxR"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Sirens",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Lightning Bolt",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

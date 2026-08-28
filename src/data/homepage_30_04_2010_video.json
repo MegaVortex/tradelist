@@ -1,0 +1,111 @@
+{
+  "originalTitle": "Homepage - 30.04.2010 - Moscow - Russia - Aktoviy Zal",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Homepage"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "04",
+    "year": "2010"
+  },
+  "startDateUnix": 1272585600,
+  "endDate": {
+    "day": "30",
+    "month": "04",
+    "year": "2010"
+  },
+  "endDateUnix": 1272585600,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Aktoviy Zal",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": true,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Vortex"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.98,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4456,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "words_30_04_2010_video",
+    "alik_yuzhnyy_30_04_2010_video"
+  ],
+  "childOf": "various_artists_30_04_2010_video_compilation",
+  "images": [
+    {
+      "folder": "8",
+      "filename": "87228950.jpg",
+      "externalId": "1Xz9hU6m4tm8wGf1QxhJ4Pp9NIiYi_Xqy"
+    },
+    {
+      "folder": "8",
+      "filename": "24693045.jpg",
+      "externalId": "1uL5sLct2kyhSAK713ud-D6c9kxVeMnSM"
+    },
+    {
+      "folder": "8",
+      "filename": "48493918.jpg",
+      "externalId": "1JQJvy9_MisZr-0ChVN6nc_GUKFWCb19t"
+    },
+    {
+      "folder": "8",
+      "filename": "79124777.jpg",
+      "externalId": "1CQYpJUsvn0I4xOteU5WprAfogVXYu0C3"
+    }
+  ],
+  "setlist": []
+}

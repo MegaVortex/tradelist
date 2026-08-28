@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Kiss - 27.02.2010 - Erfurt - Germany - Messe Erfurt - 'Wetten, dass..'",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Kiss"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "02",
+    "year": "2010"
+  },
+  "startDateUnix": 1267228800,
+  "endDate": {
+    "day": "27",
+    "month": "02",
+    "year": "2010"
+  },
+  "endDateUnix": 1267228800,
+  "location": {
+    "city": "Erfurt",
+    "state": "",
+    "country": "Germany",
+    "venue": "Messe Erfurt",
+    "event": "'Wetten, dass..'"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Captured by Homie8.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 492,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 311,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "50.00",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "7",
+      "filename": "48707275.jpg",
+      "externalId": "1aWQyV0PMYYO0u-oHxOCY_wgl-2IcMTG8"
+    },
+    {
+      "folder": "7",
+      "filename": "03039000.jpg",
+      "externalId": "1MzcAbiMK3zbINVazGg_PxVJdfqoIZB1V"
+    },
+    {
+      "folder": "7",
+      "filename": "92578617.jpg",
+      "externalId": "11SG5YeLVuR1X3hl0ULduDluaoNLEf3a1"
+    },
+    {
+      "folder": "7",
+      "filename": "86938421.jpg",
+      "externalId": "1pQREGITgoyDW_kV-5JDMnebVLIQFEBKD"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Say Yeah >",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "I Was Made for Loving You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 1,
+      "song": "Say Yeah &gt;",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

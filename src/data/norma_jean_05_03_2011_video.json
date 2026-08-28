@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Norma Jean - 05.03.2011 - Sacramento - CA - USA - Ace Of Spades",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Norma Jean"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "03",
+    "year": "2011"
+  },
+  "startDateUnix": 1299283200,
+  "endDate": {
+    "day": "05",
+    "month": "03",
+    "year": "2011"
+  },
+  "endDateUnix": 1299283200,
+  "location": {
+    "city": "Sacramento",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Ace Of Spades",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Amazing 2 cam mix.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.98,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 3442,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "norma_jean_07_11_2008_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "20",
+      "filename": "45619624.jpg",
+      "externalId": "1eUeosToRuTO0H8pK9nws6E6P6ekWK8sO"
+    },
+    {
+      "folder": "20",
+      "filename": "25757892.jpg",
+      "externalId": "1-Frv16spKw0KFE3HTu_YUrxbwnJ2wR44"
+    },
+    {
+      "folder": "20",
+      "filename": "97344624.jpg",
+      "externalId": "1ZwYLB1aX7GrxniUGwzXtGCGptrKfy0JZ"
+    },
+    {
+      "folder": "20",
+      "filename": "95600743.jpg",
+      "externalId": "1-pkmak1IzGKkCV4M1dsf8ypt2gjuhcOz"
+    }
+  ],
+  "setlist": []
+}

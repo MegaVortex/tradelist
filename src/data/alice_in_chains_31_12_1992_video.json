@@ -1,0 +1,135 @@
+{
+  "originalTitle": "Alice In Chains - 31.12.1992 - New York - NY - USA - Roseland Ballroom",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Alice In Chains"
+  ],
+  "startDate": {
+    "day": "31",
+    "month": "12",
+    "year": "1992"
+  },
+  "startDateUnix": 725760000,
+  "endDate": {
+    "day": "31",
+    "month": "12",
+    "year": "1992"
+  },
+  "endDateUnix": 725760000,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Roseland Ballroom",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MTV New Year's Eve.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.11,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1096,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "alice_in_chains_02_02_1993_video",
+    "alice_in_chains_xx_xx_2002_usa_mtv_news_video_misc"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "75",
+      "filename": "88583371.jpg",
+      "externalId": "1gpBk6lTDzR9PUh93D1zVHVKF8kbhq1E9"
+    },
+    {
+      "folder": "75",
+      "filename": "09620029.jpg",
+      "externalId": "1navw3EkmDJjViDZgGuyiOb4-QoSZDUEa"
+    },
+    {
+      "folder": "75",
+      "filename": "13149489.jpg",
+      "externalId": "1CunrG_myW4PtmQ7Y-WltxG7UEvOAM5SN"
+    },
+    {
+      "folder": "75",
+      "filename": "70342921.jpg",
+      "externalId": "1BvDgCi7KzHbjwlddQ5m0IBUc0mN1OENp"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Would?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Angry Chair",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Them Bones",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

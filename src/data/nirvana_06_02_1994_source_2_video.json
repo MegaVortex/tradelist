@@ -1,0 +1,118 @@
+{
+  "originalTitle": "Nirvana - 06.02.1994 - Cascais - Portugal - Pavilhao Dramatico De Cascais (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Nirvana"
+  ],
+  "startDate": {
+    "day": "06",
+    "month": "02",
+    "year": "1994"
+  },
+  "startDateUnix": 760492800,
+  "endDate": {
+    "day": "06",
+    "month": "02",
+    "year": "1994"
+  },
+  "endDateUnix": 760492800,
+  "location": {
+    "city": "Cascais",
+    "state": "",
+    "country": "Portugal",
+    "venue": "Pavilhao Dramatico De Cascais",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "PRO#1b. SIC TV broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 328,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 292,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "nirvana_06_02_1994_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "31",
+      "filename": "09705938.jpg",
+      "externalId": "1wrzlAaN-M42XVvrrO4QHR4P7-KtrQ8Fv"
+    },
+    {
+      "folder": "31",
+      "filename": "76634196.jpg",
+      "externalId": "1In8W3bg4iv4MukguJsbhoGsOEZIyVbl6"
+    },
+    {
+      "folder": "31",
+      "filename": "80535039.jpg",
+      "externalId": "1I16s08G4WUxpK7UZ6rJ-0qf0HNolhFZ6"
+    },
+    {
+      "folder": "31",
+      "filename": "27551051.jpg",
+      "externalId": "1Y3nF6zwKvaHnVJ6xvGl29o9ABBinc2Vk"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Smells Like Teen Spirit",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

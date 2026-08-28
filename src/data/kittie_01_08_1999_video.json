@@ -1,0 +1,172 @@
+{
+  "originalTitle": "Kittie - 01.08.1999 - Grand Rapids - MI - USA - City Limits",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Kittie"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "08",
+    "year": "1999"
+  },
+  "startDateUnix": 933465600,
+  "endDate": {
+    "day": "01",
+    "month": "08",
+    "year": "1999"
+  },
+  "endDateUnix": 933465600,
+  "location": {
+    "city": "Grand Rapids",
+    "state": "MI",
+    "country": "USA",
+    "venue": "City Limits",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.95,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1781,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "12",
+      "filename": "57292082.jpg",
+      "externalId": "12xjwJbCQnROToOV9E-58qXVvQS4co6X3"
+    },
+    {
+      "folder": "12",
+      "filename": "60376647.jpg",
+      "externalId": "124OIRCEmqEJNOGKOBlFaTdgAYNHm7mwg"
+    },
+    {
+      "folder": "12",
+      "filename": "73577162.jpg",
+      "externalId": "1JJ_iJIpfTgEO16LIKPGvOBsdE8nIO2VU"
+    },
+    {
+      "folder": "12",
+      "filename": "29665169.jpg",
+      "externalId": "1W3Ka8v1oDmwYkODQGcLfZk6GZ_GVHwS7"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Spit",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Brackish",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Suck",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Paperdoll",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Charlotte",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Do You Think I'm A Whore?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Johnny",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Choke",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

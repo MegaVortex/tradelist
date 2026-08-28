@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Veloz - 11.04.2011 - Allston - MA - USA - Wacky Kastle",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Veloz"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "04",
+    "year": "2011"
+  },
+  "startDateUnix": 1302480000,
+  "endDate": {
+    "day": "11",
+    "month": "04",
+    "year": "2011"
+  },
+  "endDateUnix": 1302480000,
+  "location": {
+    "city": "Allston",
+    "state": "MA",
+    "country": "USA",
+    "venue": "Wacky Kastle",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "dyinghorse release.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 840,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 766,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "35",
+      "filename": "91990669.jpg",
+      "externalId": "11PFEZrmqHiz6cKLNgbF4joPIRMvcndqs"
+    },
+    {
+      "folder": "35",
+      "filename": "13532604.jpg",
+      "externalId": "1xUdqZsL9aDODrijvUjbPR6Wtex_cnEbw"
+    },
+    {
+      "folder": "35",
+      "filename": "77844409.jpg",
+      "externalId": "1cL13nOaKmt38aN8xBEi3ahmSgKVtTX0u"
+    },
+    {
+      "folder": "35",
+      "filename": "34519248.jpg",
+      "externalId": "1EXbPSISEVqB4b72MoT59LsPOkA5OmdyG"
+    }
+  ],
+  "setlist": []
+}

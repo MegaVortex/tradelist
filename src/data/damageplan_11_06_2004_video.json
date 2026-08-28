@@ -1,0 +1,164 @@
+{
+  "originalTitle": "Damageplan - 11.06.2004 - Moncton - NB - Canada - Coliseum",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Damageplan"
+  ],
+  "startDate": {
+    "day": "11",
+    "month": "06",
+    "year": "2004"
+  },
+  "startDateUnix": 1086912000,
+  "endDate": {
+    "day": "11",
+    "month": "06",
+    "year": "2004"
+  },
+  "endDateUnix": 1086912000,
+  "location": {
+    "city": "Moncton",
+    "state": "NB",
+    "country": "Canada",
+    "venue": "Coliseum",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.74,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2282,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "68",
+      "filename": "22347346.jpg",
+      "externalId": "13wfIwGXA9kQCQ-dFJgCOYzp2GCcTnEgX"
+    },
+    {
+      "folder": "68",
+      "filename": "62084125.jpg",
+      "externalId": "1ymeNU_bVfjPyte4pTbB-FB0-5hp-rVa2"
+    },
+    {
+      "folder": "68",
+      "filename": "37968002.jpg",
+      "externalId": "1Fq-pZ8gwp3dh0ntRPyoLzDnPEVKxcGGz"
+    },
+    {
+      "folder": "68",
+      "filename": "44586035.jpg",
+      "externalId": "1_XB6KvlAL7hvBeABNBkZZOIF4YhK4A4Y"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Crawl",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Explode",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Fuck You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "New Found Power",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Guitar Solo",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Walk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Pantera"
+    },
+    {
+      "order": 7,
+      "song": "A New Level",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Pantera"
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Queens Of The Stone Age - 08.05.2013 - Antwerp - Belgium - Club 69 Zuiderpershuis",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Queens Of The Stone Age"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "05",
+    "year": "2013"
+  },
+  "startDateUnix": 1367971200,
+  "endDate": {
+    "day": "08",
+    "month": "05",
+    "year": "2013"
+  },
+  "endDateUnix": 1367971200,
+  "location": {
+    "city": "Antwerp",
+    "state": "",
+    "country": "Belgium",
+    "venue": "Club 69 Zuiderpershuis",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 399,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 693,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "70",
+      "filename": "72226238.jpg",
+      "externalId": "1UInQK8qeKkuC9M1zWZsJqSPDMqv0mg6S"
+    },
+    {
+      "folder": "70",
+      "filename": "62584776.jpg",
+      "externalId": "1ubvZYoyN5rVxxYADoKnNlvB-0aL0Epet"
+    },
+    {
+      "folder": "70",
+      "filename": "94523390.jpg",
+      "externalId": "1XUiIP1FX9Oqo4IuhZ6uSvvXLlWU0c5At"
+    },
+    {
+      "folder": "70",
+      "filename": "62546812.jpg",
+      "externalId": "1e1eu8fMzcZbN37NSckJeu0T55T9cS5qY"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Josh Homme and Troy Van Leeuwen",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "My God Is The Sun",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

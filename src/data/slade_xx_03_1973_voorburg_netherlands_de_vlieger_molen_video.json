@@ -1,0 +1,108 @@
+{
+  "originalTitle": "Slade - xx.03.1973 - Voorburg - Netherlands - De Vlieger Molen",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slade"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "03",
+    "year": "1973"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "03",
+    "year": "1973"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Voorburg",
+    "state": "",
+    "country": "Netherlands",
+    "venue": "De Vlieger Molen",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Probably VCD sourced.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.64,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 620,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "slade_01_07_1973_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "18",
+      "filename": "82165890.jpg",
+      "externalId": "1WItOS5Zde7VLEBZZN-q8wxoxaXVE19Tt"
+    },
+    {
+      "folder": "18",
+      "filename": "57035174.jpg",
+      "externalId": "1NTPzBCOfR-JpRBHqFv5HPvrUFAANplA-"
+    },
+    {
+      "folder": "18",
+      "filename": "61867810.jpg",
+      "externalId": "14yMil5Hmogx3xKd0C6AEoxN32sOPoE9U"
+    },
+    {
+      "folder": "18",
+      "filename": "08253201.jpg",
+      "externalId": "1MRjWuBpxdH2tve2GFZtnN93Lm4YnHFQl"
+    }
+  ],
+  "setlist": []
+}

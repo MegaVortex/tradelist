@@ -1,0 +1,137 @@
+{
+  "originalTitle": "Longing For Down - 18.04.2009 - Moscow - Russia - Plan B Club (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Longing For Down"
+  ],
+  "startDate": {
+    "day": "18",
+    "month": "04",
+    "year": "2009"
+  },
+  "startDateUnix": 1240012800,
+  "endDate": {
+    "day": "18",
+    "month": "04",
+    "year": "2009"
+  },
+  "endDateUnix": 1240012800,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Plan B Club",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Awesome shot! 5 cam mix.",
+  "tapers": [
+    "Vortex",
+    "Sorgnatt",
+    "EvilDead",
+    "Toki"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.84,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2464,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "12",
+      "filename": "01866405.jpg",
+      "externalId": "1EXhURIm0FZ3A64DUHVz0Kx7wfKCtxfuC"
+    },
+    {
+      "folder": "12",
+      "filename": "24848738.jpg",
+      "externalId": "18QEIkTcbDtFl83WufIVowOlmDI2nNazF"
+    },
+    {
+      "folder": "12",
+      "filename": "76860575.jpg",
+      "externalId": "1X6n9XcW8NvKriyeNlvqRqIYWHL_Gl3EQ"
+    },
+    {
+      "folder": "12",
+      "filename": "03465551.jpg",
+      "externalId": "16jPdLTy5r5C9t1iQgVTyH_BIZralMqLe"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The End Of Laughter",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Our Symbolic Burial",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Once Supreme",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

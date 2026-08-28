@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Pixies - 30.01.2014 - Washington - DC - USA - Tiny Desk",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Pixies"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "01",
+    "year": "2014"
+  },
+  "startDateUnix": 1391040000,
+  "endDate": {
+    "day": "30",
+    "month": "01",
+    "year": "2014"
+  },
+  "endDateUnix": 1391040000,
+  "location": {
+    "city": "Washington",
+    "state": "DC",
+    "country": "USA",
+    "venue": "Tiny Desk",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Acoustic performance.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 351,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 822,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "23.975",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 44100,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "WebStream",
+      "finalMediaType": "HD",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "73",
+      "filename": "69905070.jpg",
+      "externalId": "1AAKEBTT_6bAwGv_Exo30H3GJ0uDXAFXM"
+    },
+    {
+      "folder": "73",
+      "filename": "77549630.jpg",
+      "externalId": "1UvngsDIIAIDi4llWHesJkxg1lLxzxfTb"
+    },
+    {
+      "folder": "73",
+      "filename": "62050015.jpg",
+      "externalId": "10-ZnicIwmT8WFqQqRM3IIv52uE9Q48AP"
+    },
+    {
+      "folder": "73",
+      "filename": "18550036.jpg",
+      "externalId": "1B0rWzehZlBZqueZOJp_2srmzKdxyquaG"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Greens And Blues",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Silver Snail",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Monkey Gone To Heaven",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

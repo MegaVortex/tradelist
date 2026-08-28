@@ -1,0 +1,166 @@
+{
+  "originalTitle": "Rammstein - 04.12.2011 - Duesseldorf - Germany - ISS Dome",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rammstein"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "12",
+    "year": "2011"
+  },
+  "startDateUnix": 1322956800,
+  "endDate": {
+    "day": "04",
+    "month": "12",
+    "year": "2011"
+  },
+  "endDateUnix": 1322956800,
+  "location": {
+    "city": "Duesseldorf",
+    "state": "",
+    "country": "Germany",
+    "venue": "ISS Dome",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete.",
+  "tapers": [
+    "LO3B3R"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 4.75,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1815,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 256,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MTS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "53",
+      "filename": "10486698.jpg",
+      "externalId": "1lAsYTGeecWnPJr7cAZNN8hzQZPE4MFYm"
+    },
+    {
+      "folder": "53",
+      "filename": "53564640.jpg",
+      "externalId": "1IUgb0Mw_ApkHATcGmCZ4AK4BC73Osx5u"
+    },
+    {
+      "folder": "53",
+      "filename": "26663175.jpg",
+      "externalId": "1L9HNqLsl3B3nPzS92Urp9fZTTn6TYvTt"
+    },
+    {
+      "folder": "53",
+      "filename": "67615936.jpg",
+      "externalId": "1oKMsQzmLEdnE5VYA_akENPDDxUnHh_Nw"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Feuer Frei!",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Mein Teil",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Haifisch",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Buck Dich",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Ohne Dich",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Pussy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

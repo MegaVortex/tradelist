@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Hatebreed - 10.12.1998 - Indianapolis - IN - USA",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Hatebreed"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "12",
+    "year": "1998"
+  },
+  "startDateUnix": 913248000,
+  "endDate": {
+    "day": "10",
+    "month": "12",
+    "year": "1998"
+  },
+  "endDateUnix": 913248000,
+  "location": {
+    "city": "Indianapolis",
+    "state": "IN",
+    "country": "USA",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.36,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2101,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "30",
+      "filename": "76543609.jpg",
+      "externalId": "1UOa-V-l6eT-etyqgIvuhWZO-8BRj8LCE"
+    },
+    {
+      "folder": "30",
+      "filename": "34520602.jpg",
+      "externalId": "1oa4AYhj1VDvX64Zo-I4CVPJL1kogDM9d"
+    },
+    {
+      "folder": "30",
+      "filename": "32858941.jpg",
+      "externalId": "1lAvoiaMhqBIZ-tx-mKs2ItV8iV4NJCgj"
+    },
+    {
+      "folder": "30",
+      "filename": "25336952.jpg",
+      "externalId": "1uQo3mYy1QwxR511BuaBmq2RD5-dHoaOg"
+    }
+  ],
+  "setlist": []
+}

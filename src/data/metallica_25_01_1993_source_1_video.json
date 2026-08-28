@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Metallica - 25.01.1993 - Los Angeles - CA - USA - Shrine Auditorium - American Music Awards (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "25",
+    "month": "01",
+    "year": "1993"
+  },
+  "startDateUnix": 727920000,
+  "endDate": {
+    "day": "25",
+    "month": "01",
+    "year": "1993"
+  },
+  "endDateUnix": 727920000,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Shrine Auditorium",
+    "event": "American Music Awards"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 737,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1302,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "89742128.jpg",
+      "externalId": "1cMIQO9Oy973Z2SkV2lxup1TBk8HfseqK"
+    },
+    {
+      "folder": "26",
+      "filename": "07104748.jpg",
+      "externalId": "1WaVHNsFE7kxlhtLlW7pRQ8alwDm__TYd"
+    },
+    {
+      "folder": "26",
+      "filename": "61804295.jpg",
+      "externalId": "1p2_HID6Pz0uaSwcZoax4JXBs11dySSBX"
+    },
+    {
+      "folder": "26",
+      "filename": "86290488.jpg",
+      "externalId": "1J9PO7e0ODoTPj-rLJ58aBQ-RQbDlmFdL"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Speech",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Wherever I May Roam",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

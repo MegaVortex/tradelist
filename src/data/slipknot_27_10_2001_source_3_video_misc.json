@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Slipknot - 27.10.2001 - Peoria - IL - USA - Civic Center (Source 3) [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Slipknot"
+  ],
+  "startDate": {
+    "day": "27",
+    "month": "10",
+    "year": "2001"
+  },
+  "startDateUnix": 1004140800,
+  "endDate": {
+    "day": "27",
+    "month": "10",
+    "year": "2001"
+  },
+  "endDateUnix": 1004140800,
+  "location": {
+    "city": "Peoria",
+    "state": "IL",
+    "country": "USA",
+    "venue": "Civic Center",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "NT",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "MXF clean feed.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "BD-25",
+        "size": 12.9,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1775,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "4:3",
+        "resolution": "720x608",
+        "bitrateType": "",
+        "bitrateKbps": 50000,
+        "fps": "25",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "PCM",
+        "rateHz": 48000,
+        "bitrateKbps": 3072,
+        "channels": 4
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "MXF"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "82",
+      "filename": "18756338.jpg",
+      "externalId": "1LWQYlFUnCx66MTrZWLv6ipq1gs5Zka0x"
+    },
+    {
+      "folder": "82",
+      "filename": "16638767.jpg",
+      "externalId": "1Ffc6IFI6Rn5XJfL64p8qkxbcXZw7qD_3"
+    },
+    {
+      "folder": "82",
+      "filename": "83807701.jpg",
+      "externalId": "1waxvdBKO94sSNEduHIaBuOBcSnsV4hN8"
+    },
+    {
+      "folder": "82",
+      "filename": "43611229.jpg",
+      "externalId": "1KehpJxEYu1F2OimpSaiA4_vQtFxNSJ0F"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Paul and Joey",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

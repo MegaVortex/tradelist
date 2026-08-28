@@ -1,0 +1,124 @@
+{
+  "originalTitle": "Metallica - 08.12.1997 - Las Vegas - NV - USA - MGM Grand Garden Arena - Billboard Music Awards (Source 3)",
+  "created": 1761508029,
+  "lastUpdated": 1761508029,
+  "bands": [
+    "Metallica"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "12",
+    "year": "1997"
+  },
+  "endDate": {
+    "day": "08",
+    "month": "12",
+    "year": "1997"
+  },
+  "startDateUnix": 881539200,
+  "endDateUnix": 881539200,
+  "location": {
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "USA",
+    "venue": "MGM Grand Garden Arena",
+    "event": "Billboard Music Awards"
+  },
+  "tvChannel": "Fox",
+  "showName": "",
+  "source": "Source 3",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "Norbinho",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "receivedInTrade": false,
+  "trader": "",
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.7,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 320,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25.00",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MP2",
+        "rateHz": 48000,
+        "bitrateKbps": 224,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "videoEquipment": "",
+      "audioEquipment": "",
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "images": [
+    {
+      "folder": "2025",
+      "filename": "manual_1761507710930_0.jpg",
+      "externalId": "1uq-TIRxNICgPkSTIPiT-ekUdHhLDAlTC"
+    },
+    {
+      "folder": "2025",
+      "filename": "manual_1761507710933_1.jpg",
+      "externalId": "1yLzDoBpPQLe3RijDekCW9WnamcwnHRQz"
+    },
+    {
+      "folder": "2025",
+      "filename": "manual_1761507710935_2.jpg",
+      "externalId": "1i7TtCNahbNTBozweMd3kmwQHl4wlLnB4"
+    },
+    {
+      "folder": "2025",
+      "filename": "manual_1761507710937_3.jpg",
+      "externalId": "1GOEHosV7WAB8MSzb0_Ww9bF-s6-UHJGn"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Unforgiven II",
+      "feat": "",
+      "note": "",
+      "comment": "Live Debut; shortened",
+      "coverOf": ""
+    }
+  ],
+  "extras": [],
+  "relatedShows": [
+    "metallica_15_08_2003_source_1_video",
+    "metallica_22_05_1999_source_1_video",
+    "metallica_05_07_2007_source_6_video"
+  ],
+  "childOf": "metallica_xx_xx_1997_xx_xx_2007_tv_appearances_video_compilation"
+}

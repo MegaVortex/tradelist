@@ -1,0 +1,196 @@
+{
+  "originalTitle": "B.B. King - 05.10.1982 - Austin - TX - USA - Austin City Limits (Source 1)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "B.B. King"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "10",
+    "year": "1982"
+  },
+  "startDateUnix": 402624000,
+  "endDate": {
+    "day": "05",
+    "month": "10",
+    "year": "1982"
+  },
+  "endDateUnix": 402624000,
+  "location": {
+    "city": "Austin",
+    "state": "TX",
+    "country": "USA",
+    "venue": "Austin City Limits",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Originally broadcasted in 1983.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.84,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2903,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "26",
+      "filename": "50300325.jpg",
+      "externalId": "1tTzCX6Bgfl6KGOg12rIRv4OXGjyAQMTT"
+    },
+    {
+      "folder": "26",
+      "filename": "12569002.jpg",
+      "externalId": "1eqDiDTwGEGH5jUc8Smral7Otz2GTu3ZJ"
+    },
+    {
+      "folder": "26",
+      "filename": "97248821.jpg",
+      "externalId": "1AqZk7pkBCp6Ek67Ww9O4DpSKDx6YFiZl"
+    },
+    {
+      "folder": "26",
+      "filename": "10434366.jpg",
+      "externalId": "1Z85VyDZ-32GWQhcfoVq5ut3zCMwfe9d2"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Everyday I Have The Blues",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Aaron 'Pinetop' Sparks"
+    },
+    {
+      "order": 2,
+      "song": "Night Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Willie Nelson"
+    },
+    {
+      "order": 3,
+      "song": "Everybody I Know Sings The Blues",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Since I Met You Baby",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Ivory Joe Hunter"
+    },
+    {
+      "order": 5,
+      "song": "Love Me Tender",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Elvis Presley"
+    },
+    {
+      "order": 6,
+      "song": "I Got Some Outside Help (I Don't Really Need)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "When It All Comes Down (I'll Still Be Around)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "One Of Those Nights",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "You And Me, Me And You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Guess Who",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "The Thrill Is Gone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": "Roy Hawkins"
+    }
+  ],
+  "extras": []
+}

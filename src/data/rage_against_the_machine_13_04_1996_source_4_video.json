@@ -1,0 +1,119 @@
+{
+  "originalTitle": "Rage Against The Machine - 13.04.1996 - New York - NY - USA - NBC Studios - Saturday Night Live (Source 4)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Rage Against The Machine"
+  ],
+  "startDate": {
+    "day": "13",
+    "month": "04",
+    "year": "1996"
+  },
+  "startDateUnix": 829353600,
+  "endDate": {
+    "day": "13",
+    "month": "04",
+    "year": "1996"
+  },
+  "endDateUnix": 829353600,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "NBC Studios",
+    "event": "Saturday Night Live"
+  },
+  "tvChannel": "NBC",
+  "showName": "",
+  "source": "Source 4",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#B",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 525,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 471,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "rage_against_the_machine_03_12_1999_source_2_video",
+    "rage_against_the_machine_02_11_1999_source_4_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "80",
+      "filename": "39293787.jpg",
+      "externalId": "1G-T4VraraQADO3YLctVu4WTbdfAPua-k"
+    },
+    {
+      "folder": "80",
+      "filename": "46465883.jpg",
+      "externalId": "1IXQ2hPWZ7-qecMM4_IybOuVIWVk6y5X5"
+    },
+    {
+      "folder": "80",
+      "filename": "61052935.jpg",
+      "externalId": "1O7Vne6VB-m1X3UNfkZ3v5zD3l9Ts4P1F"
+    },
+    {
+      "folder": "80",
+      "filename": "96663299.jpg",
+      "externalId": "1R9BVbn7O1-174aH6iYkO3WA7-Pa9ecZQ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Bulls On Parade",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

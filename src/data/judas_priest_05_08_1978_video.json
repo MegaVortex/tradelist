@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Judas Priest - 05.08.1978 - Osaka - Japan - Festival Hall",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Judas Priest"
+  ],
+  "startDate": {
+    "day": "05",
+    "month": "08",
+    "year": "1978"
+  },
+  "startDateUnix": 271123200,
+  "endDate": {
+    "day": "05",
+    "month": "08",
+    "year": "1978"
+  },
+  "endDateUnix": 271123200,
+  "location": {
+    "city": "Osaka",
+    "state": "",
+    "country": "Japan",
+    "venue": "",
+    "event": "Festival Hall"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#C",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.38,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2149,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "9",
+      "filename": "37373109.jpg",
+      "externalId": "1aeTAAvMTFNOzs8imNbV-_NpxCL981jnj"
+    },
+    {
+      "folder": "9",
+      "filename": "79845221.jpg",
+      "externalId": "1UEjfbLTV5bwhRlz6CF9K6rJ58WU_HrZa"
+    },
+    {
+      "folder": "9",
+      "filename": "12458533.jpg",
+      "externalId": "1v372mC62NVYHULoO4xP3Mi9i7VC8iKMt"
+    },
+    {
+      "folder": "9",
+      "filename": "55289080.jpg",
+      "externalId": "13JvMdunDUNM9F9gyMWRDja-mv7KinBR9"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Exciter",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "White Heat, Red Hot",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Diamonds And Rust",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Beyond The Realms Of Death",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Starbreaker",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

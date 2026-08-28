@@ -1,0 +1,136 @@
+{
+  "originalTitle": "Moonspell - 04.06.2004 - Lisbon - Portugal - Parque Bella Vista - Rock In Rio",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Moonspell"
+  ],
+  "startDate": {
+    "day": "04",
+    "month": "06",
+    "year": "2004"
+  },
+  "startDateUnix": 1086307200,
+  "endDate": {
+    "day": "04",
+    "month": "06",
+    "year": "2004"
+  },
+  "endDateUnix": 1086307200,
+  "location": {
+    "city": "Lisbon",
+    "state": "",
+    "country": "Portugal",
+    "venue": "Parque Bella Vista",
+    "event": "Rock In Rio"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.7,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 4378,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": 6821,
+        "fps": "25",
+        "standard": "Xvid",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": 448,
+        "channels": 5
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "AVI"
+    }
+  },
+  "relatedShows": [
+    "metallica_04_06_2004_source_2_video",
+    "sepultura_04_06_2004_video",
+    "slipknot_04_06_2004_source_1_video"
+  ],
+  "childOf": "various_artists_04_06_2004_video_compilation",
+  "images": [
+    {
+      "folder": "3",
+      "filename": "4643116.jpg",
+      "externalId": "1lKcWRO_npFniCDKyeHG9QsfUP8rc50Sr"
+    },
+    {
+      "folder": "3",
+      "filename": "9660343.jpg",
+      "externalId": "10auNTRVCF1rfUFunvE95GPImMxu9KNpo"
+    },
+    {
+      "folder": "3",
+      "filename": "5107472.jpg",
+      "externalId": "1BYOvNHz9odgul3G46pSBY8EEvq9hOfFD"
+    },
+    {
+      "folder": "3",
+      "filename": "2091013.jpg",
+      "externalId": "1FLlIDzSbln42IdeCxuVDFho-D9jg5ZQQ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "The Southern Deathstyle",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Everything Invaded",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Opium",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

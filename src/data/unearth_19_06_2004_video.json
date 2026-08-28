@@ -1,0 +1,113 @@
+{
+  "originalTitle": "Unearth - 19.06.2004 - London - England - The Barfly Club",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Unearth"
+  ],
+  "startDate": {
+    "day": "19",
+    "month": "06",
+    "year": "2004"
+  },
+  "startDateUnix": 1087603200,
+  "endDate": {
+    "day": "19",
+    "month": "06",
+    "year": "2004"
+  },
+  "endDateUnix": 1087603200,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "The Barfly Club",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Probably VCD sourced. On the same disc - \"Unearth - 06.06.2004 - Montreal - QC - Canada - L'X (Source 2)\".",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.33,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2274,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      },
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "13",
+      "filename": "40879189.jpg",
+      "externalId": "1KyefXhKMSQ9EXXvn4ygtbUpYDWecWh8B"
+    },
+    {
+      "folder": "13",
+      "filename": "35454162.jpg",
+      "externalId": "1haFNMVmOc-uBVlbbBmhwu26CdOzhoZMj"
+    },
+    {
+      "folder": "13",
+      "filename": "77757869.jpg",
+      "externalId": "1kCyzUHxU0g4XthFLBdiI1OMxNgGw0Y39"
+    },
+    {
+      "folder": "13",
+      "filename": "00131360.jpg",
+      "externalId": "17sScjf4M7d-bbmXw-M9WKu_i2HSIniuQ"
+    }
+  ],
+  "setlist": []
+}

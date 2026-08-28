@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Caliban - 30.01.2009 - Porto - Portugal - Teatro Sa Da Bandeiral (Source 1)",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Caliban"
+  ],
+  "startDate": {
+    "day": "30",
+    "month": "01",
+    "year": "2009"
+  },
+  "startDateUnix": 1233273600,
+  "endDate": {
+    "day": "30",
+    "month": "01",
+    "year": "2009"
+  },
+  "endDateUnix": 1233273600,
+  "location": {
+    "city": "Porto",
+    "state": "",
+    "country": "Portugal",
+    "venue": "Teatro Sa Da Bandeiral",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 1",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.3,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1577,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "5",
+      "filename": "58642585.jpg",
+      "externalId": "1RaQSZD9hepNlo3fr-1FJYEJDAMivogZu"
+    },
+    {
+      "folder": "5",
+      "filename": "27898595.jpg",
+      "externalId": "1v4UePG_fVvb2jlslqIDbuaLwvbm2upmx"
+    },
+    {
+      "folder": "5",
+      "filename": "56279295.jpg",
+      "externalId": "19RhczmCNwJlcQqVQkLWjj52mOCjDAIPS"
+    },
+    {
+      "folder": "5",
+      "filename": "27990817.jpg",
+      "externalId": "179Fj_v-oGOyvyBCUhX-Wa8cYqmL_PWMF"
+    }
+  ],
+  "setlist": []
+}

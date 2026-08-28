@@ -1,0 +1,156 @@
+{
+  "originalTitle": "White Zombie - 26.08.1995 - Donington - England - Donington Park - Monsters Of Rock",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "White Zombie"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "08",
+    "year": "1995"
+  },
+  "startDateUnix": 809395200,
+  "endDate": {
+    "day": "26",
+    "month": "08",
+    "year": "1995"
+  },
+  "endDateUnix": 809395200,
+  "location": {
+    "city": "Donington",
+    "state": "",
+    "country": "England",
+    "venue": "Donington Park",
+    "event": "Monsters Of Rock"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.31,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 2017,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "35",
+      "filename": "73183564.jpg",
+      "externalId": "1sjiCF08ZirCweo49qZBzFqznU3wkhtsF"
+    },
+    {
+      "folder": "35",
+      "filename": "58646851.jpg",
+      "externalId": "1kjrYRmeqD-OK0KHr203lA9ZSdwNm2rQK"
+    },
+    {
+      "folder": "35",
+      "filename": "87307985.jpg",
+      "externalId": "1t99Qu9x2WK0mgCld4PJY1fVapHgTDgqQ"
+    },
+    {
+      "folder": "35",
+      "filename": "93324682.jpg",
+      "externalId": "13i9wryJXxY0GpQSQOJ0I1zlMLjR101LG"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Electric Head Part 1: The Agony",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Super-Charger Heaven",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Real Solution #9",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "More Human Than Human",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Electric Head Part 2: The Ecstasy",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Thunder Kiss 65",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

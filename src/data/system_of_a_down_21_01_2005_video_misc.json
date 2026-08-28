@@ -1,0 +1,119 @@
+{
+  "originalTitle": "System Of A Down - 21.01.2005 - Auckland - New Zealand - Ericsson Stadium - Big Day Out [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "System Of A Down"
+  ],
+  "startDate": {
+    "day": "21",
+    "month": "01",
+    "year": "2005"
+  },
+  "startDateUnix": 1106265600,
+  "endDate": {
+    "day": "21",
+    "month": "01",
+    "year": "2005"
+  },
+  "endDateUnix": 1106265600,
+  "location": {
+    "city": "Auckland",
+    "state": "",
+    "country": "New Zealand",
+    "venue": "Ericsson Stadium",
+    "event": "Big Day Out"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.97,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 4333,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "system_of_a_down_21_01_2005_source_2_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "63",
+      "filename": "84017496.jpg",
+      "externalId": "1VjTcDgjHScjHFCTxDQIGhs4aLTHFxdsY"
+    },
+    {
+      "folder": "63",
+      "filename": "12173106.jpg",
+      "externalId": "1Lv2sYdB2tlHkajNqFUT_AiIzJNyLFo79"
+    },
+    {
+      "folder": "63",
+      "filename": "66546147.jpg",
+      "externalId": "1AEPEDZYNLtVjCcdNvwuz2bPXOajNUZNb"
+    },
+    {
+      "folder": "63",
+      "filename": "67770000.jpg",
+      "externalId": "1vlcAfGWFw0IHPM8FlSfwwl7KFdZThyMc"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Serj and John",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

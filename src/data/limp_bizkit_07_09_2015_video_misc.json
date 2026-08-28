@@ -1,0 +1,117 @@
+{
+  "originalTitle": "Limp Bizkit - 07.09.2015 - Moscow - Russia - Ostankino Television Centre - Ivan Urgant Show [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Limp Bizkit"
+  ],
+  "startDate": {
+    "day": "07",
+    "month": "09",
+    "year": "2015"
+  },
+  "startDateUnix": 1441584000,
+  "endDate": {
+    "day": "07",
+    "month": "09",
+    "year": "2015"
+  },
+  "endDateUnix": 1441584000,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Ostankino Television Centre",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Ivan Urgant Show",
+  "source": "",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Late Night with Ivan Urgant. Episode#502.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.78,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1823,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "25",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 48000,
+        "bitrateKbps": 192,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MKV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "61",
+      "filename": "19384293.jpg",
+      "externalId": "1bw_1fYr0xcMUCnAvsmoKzAWFs0fBywx2"
+    },
+    {
+      "folder": "61",
+      "filename": "24481092.jpg",
+      "externalId": "1ewMs1cpGzqAstnIq5dzKCRfKILwV7fLw"
+    },
+    {
+      "folder": "61",
+      "filename": "58524258.jpg",
+      "externalId": "1dxFK_iLoWMDBSZoM78wwJy2wWhsbVOvc"
+    },
+    {
+      "folder": "61",
+      "filename": "28839210.jpg",
+      "externalId": "1zzQpL4oCSL1RaywcEWZE7wkjLN9MGGcQ"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "Fred Durst",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

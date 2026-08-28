@@ -1,0 +1,212 @@
+{
+  "originalTitle": "DevilDriver - 08.10.2006 - Santiago - Chile - Teatro Novedades",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "DevilDriver"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "10",
+    "year": "2006"
+  },
+  "startDateUnix": 1160265600,
+  "endDate": {
+    "day": "08",
+    "month": "10",
+    "year": "2006"
+  },
+  "endDateUnix": 1160265600,
+  "location": {
+    "city": "Santiago",
+    "state": "",
+    "country": "Chile",
+    "venue": "Teatro Novedades",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 3486,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "66",
+      "filename": "99105257.jpg",
+      "externalId": "1U5Q6oqL9kvBs3-QnS9_n5lcq5lasqy-X"
+    },
+    {
+      "folder": "66",
+      "filename": "28395223.jpg",
+      "externalId": "1dnNm8mJBKMtBdRMdbpkLHbKsGyMfOdzc"
+    },
+    {
+      "folder": "66",
+      "filename": "63430186.jpg",
+      "externalId": "1icfk348thhx-e10UtTF4qm7wj3SdiIiF"
+    },
+    {
+      "folder": "66",
+      "filename": "26556253.jpg",
+      "externalId": "1bXM0MHIO2nzNMa2uGI_H7GT29R4Yq0AA"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "End Of The Line",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Nothing's Wrong?",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Cry For Me Sky (Eulogy Of The Scorned)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Bear Witness Unto",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Grinfucked",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "The Mountain",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "I Could Care Less",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Ripped Apart",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Hold Back The Day",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Sin & Sacrifice",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 11,
+      "song": "Meet The Wretched",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 12,
+      "song": "Swinging The Dead",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 13,
+      "song": "Before The Hangman's Noose",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

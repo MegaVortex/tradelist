@@ -1,0 +1,140 @@
+{
+  "originalTitle": "A Perfect Circle - 10.11.2010 - Hollywood - Los Angeles - CA - USA - Club Avalon",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "A Perfect Circle"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "11",
+    "year": "2010"
+  },
+  "startDateUnix": 1289347200,
+  "endDate": {
+    "day": "10",
+    "month": "11",
+    "year": "2010"
+  },
+  "endDateUnix": 1289347200,
+  "location": {
+    "city": "Hollywood",
+    "state": "",
+    "country": "Los Angeles",
+    "venue": "CA",
+    "event": "USA - Club Avalon"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.75,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 989,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1280x720",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "59.94",
+        "standard": "MPEG4",
+        "codec": "H264",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "MTS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "19",
+      "filename": "92416736.jpg",
+      "externalId": "1aM-v0pswR964WLyA-86T_3SP4DJTkGCd"
+    },
+    {
+      "folder": "19",
+      "filename": "81007707.jpg",
+      "externalId": "1FKzYsFiDlNtLgl7xiqavk8Rp4urht4zt"
+    },
+    {
+      "folder": "19",
+      "filename": "59381003.jpg",
+      "externalId": "1BMmR5O0VCNMzBfYvld9vNN6IFS7BekR-"
+    },
+    {
+      "folder": "19",
+      "filename": "08039470.jpg",
+      "externalId": "1y60pEwF6lCCEjwEPZ5GPHZLFNhpU-IeC"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Annihilation",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Imagine",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Peace Love And Understanding",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Whats Going On",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

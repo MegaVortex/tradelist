@@ -1,0 +1,188 @@
+{
+  "originalTitle": "Garbage - 22.11.2002 - Long Beach - CA - USA - Long Beach Arena",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Garbage"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "11",
+    "year": "2002"
+  },
+  "startDateUnix": 1037923200,
+  "endDate": {
+    "day": "22",
+    "month": "11",
+    "year": "2002"
+  },
+  "endDateUnix": 1037923200,
+  "location": {
+    "city": "Long Beach",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Long Beach Arena",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 2.88,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2700,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "704x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "72",
+      "filename": "10600285.jpg",
+      "externalId": "1uCKPTgn9t3pcwJoB37gCXZCB40K5e6bl"
+    },
+    {
+      "folder": "72",
+      "filename": "42438701.jpg",
+      "externalId": "1kJ7UgMSxpQX5VxFd2oKjGSNqv1ODLsSE"
+    },
+    {
+      "folder": "72",
+      "filename": "28974166.jpg",
+      "externalId": "1Z-ykDJynFfaKCrjJ_GzKIKmRrUUooBE4"
+    },
+    {
+      "folder": "72",
+      "filename": "76988162.jpg",
+      "externalId": "1Y1JErg-PkNVX_AbMC1DgL9EnQrqCDW2S"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Supervixen",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "I Think I'm Paranoid",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Shut Your Mouth",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Stupid Girl",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Milk",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "Push It",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Cherry Lips (Go Baby Go!)",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "#1 Crush",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "When I Grow Up",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 10,
+      "song": "Vow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

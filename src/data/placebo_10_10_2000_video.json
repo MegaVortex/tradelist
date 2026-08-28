@@ -1,0 +1,132 @@
+{
+  "originalTitle": "Placebo - 10.10.2000 - Paris - France - Canal+ Studios - Nulle Part Ailleurs",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Placebo"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "10",
+    "year": "2000"
+  },
+  "startDateUnix": 971136000,
+  "endDate": {
+    "day": "10",
+    "month": "10",
+    "year": "2000"
+  },
+  "endDateUnix": 971136000,
+  "location": {
+    "city": "Paris",
+    "state": "",
+    "country": "France",
+    "venue": "Canal+ Studios",
+    "event": "Nulle Part Ailleurs"
+  },
+  "tvChannel": "Canal+",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 768,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 768,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "15",
+      "filename": "30139637.jpg",
+      "externalId": "1HOIG9udkf81Ykbw3ULaoRNxXYhcHU1Lv"
+    },
+    {
+      "folder": "15",
+      "filename": "80226477.jpg",
+      "externalId": "1eDE1fdrwVn7imgaC4zzyyzawbDqux3jy"
+    },
+    {
+      "folder": "15",
+      "filename": "22801106.jpg",
+      "externalId": "1NTUvi-Y_5GxC2lSWPwGzidgQDjQG9XQ_"
+    },
+    {
+      "folder": "15",
+      "filename": "48202285.jpg",
+      "externalId": "1256VORTLf0285eL9hFXwgFXAZohEBd-u"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Slave To The Wage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Special K",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Taste In Men",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

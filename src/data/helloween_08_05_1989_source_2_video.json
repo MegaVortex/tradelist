@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Helloween - 08.05.1989 - Troy - NY - USA - RPI Fieldhouse (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Helloween"
+  ],
+  "startDate": {
+    "day": "08",
+    "month": "05",
+    "year": "1989"
+  },
+  "startDateUnix": 610588800,
+  "endDate": {
+    "day": "08",
+    "month": "05",
+    "year": "1989"
+  },
+  "endDateUnix": 610588800,
+  "location": {
+    "city": "Troy",
+    "state": "NY",
+    "country": "USA",
+    "venue": "RPI Fieldhouse",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Upgrade.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.27,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 2278,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "16",
+      "filename": "93049800.jpg",
+      "externalId": "1lvZ8anqdbNFaBMQZOqmGAhqdEvLJTX6X"
+    },
+    {
+      "folder": "16",
+      "filename": "94154783.jpg",
+      "externalId": "1E6mrgujZWmgt4e0HA-W1i-i9Qp9iwLZ5"
+    },
+    {
+      "folder": "16",
+      "filename": "36619066.jpg",
+      "externalId": "1UbAwaoUfUIlXCn7ZwgfTn5kuMo39tXw1"
+    },
+    {
+      "folder": "16",
+      "filename": "01668799.jpg",
+      "externalId": "1skrWmn34GfqyF1vNCWfcW67JLSpqJ9XR"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro & Eagle Fly Free",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "A Little Time",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Rise And Fall",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Future World",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Halloween",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "How Many Tears",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

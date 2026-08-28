@@ -1,0 +1,140 @@
+{
+  "originalTitle": "Lamb Of God - 01.06.2012 - Nuerburg - Germany - Nuerburgring - Rock Am Ring",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Lamb Of God"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "06",
+    "year": "2012"
+  },
+  "startDateUnix": 1338508800,
+  "endDate": {
+    "day": "01",
+    "month": "06",
+    "year": "2012"
+  },
+  "endDateUnix": 1338508800,
+  "location": {
+    "city": "Nuerburg",
+    "state": "",
+    "country": "Germany",
+    "venue": "Nuerburgring",
+    "event": "Rock Am Ring"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 870,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1041,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "16:9",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "37",
+      "filename": "51102088.jpg",
+      "externalId": "14CTKf1tSpoJmK0AjqOUH7e4kLrLgrgLo"
+    },
+    {
+      "folder": "37",
+      "filename": "75396222.jpg",
+      "externalId": "1-0USOeRkhSuLSEq-HGWAAGazOpRcdcki"
+    },
+    {
+      "folder": "37",
+      "filename": "03435395.jpg",
+      "externalId": "1zxe6ZyUXJscF6g76muhq0sTuN_pCMX6e"
+    },
+    {
+      "folder": "37",
+      "filename": "08320971.jpg",
+      "externalId": "1dsFdU1k6At05Da-32_WCn_QoIxcti2zf"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Something To Die For",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Laid To Rest",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Redneck",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Black Label",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

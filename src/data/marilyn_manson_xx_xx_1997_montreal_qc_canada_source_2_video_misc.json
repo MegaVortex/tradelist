@@ -1,0 +1,136 @@
+{
+  "originalTitle": "Marilyn Manson - xx.xx.1997 - Montreal - QC - Canada (Source 2) [MISC]",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Marilyn Manson"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1997"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1997"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Montreal",
+    "state": "QC",
+    "country": "Canada",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video",
+    "misc"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#J",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "FAX episode, MuchMusic TV broadcast. 2nd part of interview.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 430,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 435,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "fr",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "marilyn_manson_xx_xx_1997_montreal_qc_canada_source_1_video_misc",
+    "marilyn_manson_02_08_1997_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "62",
+      "filename": "72787199.jpg",
+      "externalId": "1JmrtFO8AtI__NJmBPkHiNxQRPoCVlB2n"
+    },
+    {
+      "folder": "62",
+      "filename": "54826512.jpg",
+      "externalId": "1wo0-kLVDBnQDa1IYFdut3WAIH1XkBvtk"
+    },
+    {
+      "folder": "62",
+      "filename": "24647693.jpg",
+      "externalId": "18S8SFtxXdn6o5Xx-EBBjq5gGDo2_j-DH"
+    },
+    {
+      "folder": "62",
+      "filename": "83261702.jpg",
+      "externalId": "1eI_6Ttlw-0m0FR1kuXJy-w_GhY00MYH6"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Interview",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "TV Report",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Live Footage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

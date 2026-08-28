@@ -1,0 +1,109 @@
+{
+  "originalTitle": "Записки Неизвестного - 24.10.2010 - Moscow - Russia - Aktoviy Zal",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Записки Неизвестного"
+  ],
+  "startDate": {
+    "day": "24",
+    "month": "10",
+    "year": "2010"
+  },
+  "startDateUnix": 1287878400,
+  "endDate": {
+    "day": "24",
+    "month": "10",
+    "year": "2010"
+  },
+  "endDateUnix": 1287878400,
+  "location": {
+    "city": "Moscow",
+    "state": "",
+    "country": "Russia",
+    "venue": "Aktoviy Zal",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 3.19,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 4694,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "argument_5_45_24_10_2010_video",
+    "nonna_mordukova_24_10_2010_video"
+  ],
+  "childOf": "various_artists_24_10_2010_video_compilation",
+  "images": [
+    {
+      "folder": "13",
+      "filename": "28999963.jpg",
+      "externalId": "1-6emwppAAg1bP6CUEJCCHmSE6Y4EeYJy"
+    },
+    {
+      "folder": "13",
+      "filename": "83044219.jpg",
+      "externalId": "1eMVGm20leVbVsJaKbUG0R1X5dynSGqAi"
+    },
+    {
+      "folder": "13",
+      "filename": "12476589.jpg",
+      "externalId": "1Kr0nIgyY5Lt3razJ2HpnR7MbDbh5yz6H"
+    },
+    {
+      "folder": "13",
+      "filename": "94015930.jpg",
+      "externalId": "1OlbVh3hlnLdrmgiT52fzGk8ytNKROxGO"
+    }
+  ],
+  "setlist": []
+}

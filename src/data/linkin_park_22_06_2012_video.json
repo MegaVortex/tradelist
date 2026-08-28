@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Linkin Park - 22.06.2012 - Tokyo - Japan - Asahi Studios - 'Music Station'",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "22",
+    "month": "06",
+    "year": "2012"
+  },
+  "startDateUnix": 1340323200,
+  "endDate": {
+    "day": "22",
+    "month": "06",
+    "year": "2012"
+  },
+  "endDateUnix": 1340323200,
+  "location": {
+    "city": "Tokyo",
+    "state": "",
+    "country": "Japan",
+    "venue": "Asahi Studios",
+    "event": "'Music Station'"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 461,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 267,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "16:9",
+        "resolution": "1440x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPEG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AAC",
+        "rateHz": 48000,
+        "bitrateKbps": 257,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "",
+      "fileFormat": "TS"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "48",
+      "filename": "11441951.jpg",
+      "externalId": "1nbVpuBonFNiSdWKGdPNaBJa9zDPVi7lE"
+    },
+    {
+      "folder": "48",
+      "filename": "15895973.jpg",
+      "externalId": "1suJkil7kWGRv0rft9W3aIAjqr-vwbc1q"
+    },
+    {
+      "folder": "48",
+      "filename": "93206762.jpg",
+      "externalId": "17IgETEYct21zaldnsj4ROW-5-1trZqmL"
+    },
+    {
+      "folder": "48",
+      "filename": "99565705.jpg",
+      "externalId": "1Hyy3aoeKD1VfJYNDb-EgDQ-y2xiS-EMp"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Burn It Down",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

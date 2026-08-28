@@ -1,0 +1,142 @@
+{
+  "originalTitle": "Evanescence - 03.08.2006 - Los Angeles - CA - USA - AOL Sessions",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Evanescence"
+  ],
+  "startDate": {
+    "day": "03",
+    "month": "08",
+    "year": "2006"
+  },
+  "startDateUnix": 1154563200,
+  "endDate": {
+    "day": "03",
+    "month": "08",
+    "year": "2006"
+  },
+  "endDateUnix": 1154563200,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "AOL Sessions",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Acoustic show. VCD sourced.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 410,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 922,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "352x480",
+        "bitrateType": "CBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "evanescence_15_04_2003_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "38",
+      "filename": "43109975.jpg",
+      "externalId": "1ynFHHVryl7nKOZrxF6YzBWOApKZGM-yw"
+    },
+    {
+      "folder": "38",
+      "filename": "54196376.jpg",
+      "externalId": "1t7wK-lKRM-WdnX0YV3sFI7I43DuIhtDU"
+    },
+    {
+      "folder": "38",
+      "filename": "56152042.jpg",
+      "externalId": "1BskdmlqD9B7OJ-b-s_jTcMBATzexnXGL"
+    },
+    {
+      "folder": "38",
+      "filename": "92598806.jpg",
+      "externalId": "1hcxZ_9GscOdqt3U05KbujkCZ-ZyvugJU"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Intro",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Call Me When You're Sober",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "All That I'm Living For",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Lithium",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

@@ -1,0 +1,106 @@
+{
+  "originalTitle": "Aborted - xx.xx.1999 - Gent - Belgium - Frontline",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Aborted"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "",
+    "year": "1999"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "",
+    "year": "1999"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "Gent",
+    "state": "",
+    "country": "Belgium",
+    "venue": "Frontline",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.36,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2178,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "720x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "en",
+        "codec": "MPEG1",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "7",
+      "filename": "62160227.jpg",
+      "externalId": "1wI-8knD_5KIGx0UY8UjG0TKncikTSpvZ"
+    },
+    {
+      "folder": "7",
+      "filename": "61777362.jpg",
+      "externalId": "1pMJzv65LwGj3126WTKvp5P1e69bs-_lC"
+    },
+    {
+      "folder": "7",
+      "filename": "55027165.jpg",
+      "externalId": "15tuDH2RvNltaPVQnCtJXkU_Q8U3NIRO2"
+    },
+    {
+      "folder": "7",
+      "filename": "86130305.jpg",
+      "externalId": "1XJICFzkuX2dXhxKESufP96UQN6Jcnlqr"
+    }
+  ],
+  "setlist": []
+}

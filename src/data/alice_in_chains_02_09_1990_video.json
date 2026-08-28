@@ -1,0 +1,148 @@
+{
+  "originalTitle": "Alice In Chains - 02.09.1990 - Seattle - WA - USA - Seattle Center - Bumbershoot Festival",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Alice In Chains"
+  ],
+  "startDate": {
+    "day": "02",
+    "month": "09",
+    "year": "1990"
+  },
+  "startDateUnix": 652233600,
+  "endDate": {
+    "day": "02",
+    "month": "09",
+    "year": "1990"
+  },
+  "endDateUnix": 652233600,
+  "location": {
+    "city": "Seattle",
+    "state": "WA",
+    "country": "USA",
+    "venue": "Seattle Center",
+    "event": "Bumbershoot Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1014,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": true,
+    "menu": false,
+    "length": 1198,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "35",
+      "filename": "93785336.jpg",
+      "externalId": "1h0GBTdriNy6SwVKlav0q9F_Bl1B4pWoh"
+    },
+    {
+      "folder": "35",
+      "filename": "26966286.jpg",
+      "externalId": "1LTHu91BPIVVwZXc6HcDCAXsSa86WwQup"
+    },
+    {
+      "folder": "35",
+      "filename": "56373822.jpg",
+      "externalId": "1BZ1xFlG7sR2WkHR7Py5vho5cYBlFOiyp"
+    },
+    {
+      "folder": "35",
+      "filename": "00136353.jpg",
+      "externalId": "1NVre-k2wZ0HzwdgXmx_B9C_0Y5DyEtrl"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "It Ain't Like That",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Man In The Box",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Sea Of Sorrow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Put You Down",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Confusion",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

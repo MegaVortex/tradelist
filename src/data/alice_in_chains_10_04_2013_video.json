@@ -1,0 +1,150 @@
+{
+  "originalTitle": "Alice In Chains - 10.04.2013 - Los Angeles - CA - USA - Bud Light Outdoor Stage - Jimmy Kimmel Show",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Alice In Chains"
+  ],
+  "startDate": {
+    "day": "10",
+    "month": "04",
+    "year": "2013"
+  },
+  "startDateUnix": 1365552000,
+  "endDate": {
+    "day": "10",
+    "month": "04",
+    "year": "2013"
+  },
+  "endDateUnix": 1365552000,
+  "location": {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "venue": "Bud Light Outdoor Stage",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "Jimmy Kimmel Show",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [
+    "Hellrazor"
+  ],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 1.47,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 1647,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "16:9",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": true
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "46",
+      "filename": "49938038.jpg",
+      "externalId": "1GFUyK3KMk-C_1yYznj6z6U1y5Xt4MOLa"
+    },
+    {
+      "folder": "46",
+      "filename": "07278371.jpg",
+      "externalId": "19OI3pxqPo4uo2cvi89bZjljlMgZ7mcnI"
+    },
+    {
+      "folder": "46",
+      "filename": "39316586.jpg",
+      "externalId": "1Pl7a0FcBBNOw8eplbDrw2ur3xIqKXjGO"
+    },
+    {
+      "folder": "46",
+      "filename": "31054508.jpg",
+      "externalId": "10wMO_fMpNCQHTYY2G0A7nn9w5pIiW5A-"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Stone",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "Man In The Box",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Hollow",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Your Decision",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Them Bones",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

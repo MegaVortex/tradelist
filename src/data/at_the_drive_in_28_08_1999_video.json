@@ -1,0 +1,108 @@
+{
+  "originalTitle": "At The Drive-In - 28.08.1999 - San Diego - CA - USA - The Che Cafe",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "At The Drive-In"
+  ],
+  "startDate": {
+    "day": "28",
+    "month": "08",
+    "year": "1999"
+  },
+  "startDateUnix": 935798400,
+  "endDate": {
+    "day": "28",
+    "month": "08",
+    "year": "1999"
+  },
+  "endDateUnix": 935798400,
+  "location": {
+    "city": "San Diego",
+    "state": "CA",
+    "country": "USA",
+    "venue": "The Che Cafe",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 4.31,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2404,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VMS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "at_the_drive_in_01_11_1999_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "2",
+      "filename": "33372.jpg",
+      "externalId": "1OfQiwgp3o5xNg5zBQhP6XBvEUint02Xp"
+    },
+    {
+      "folder": "2",
+      "filename": "02987.jpg",
+      "externalId": "1zyDVyzYGaVdvDO-vJ-dlTuTsI30PZ06O"
+    },
+    {
+      "folder": "2",
+      "filename": "32153.jpg",
+      "externalId": "1LPzltUw1q6_a_9Z8KYy0JQTUDSj29ZVt"
+    },
+    {
+      "folder": "2",
+      "filename": "36099.jpg",
+      "externalId": "1sqIqhbpmTG_Rtt9-v1k2Zrkgbb7oF30Z"
+    }
+  ],
+  "setlist": []
+}

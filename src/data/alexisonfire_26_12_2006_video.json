@@ -1,0 +1,116 @@
+{
+  "originalTitle": "Alexisonfire - 26.12.2006 - Toronto - ON - Canada - The Opera House",
+  "created": 1754767329,
+  "lastUpdated": 1754767329,
+  "bands": [
+    "Alexisonfire"
+  ],
+  "startDate": {
+    "day": "26",
+    "month": "12",
+    "year": "2006"
+  },
+  "startDateUnix": 1167091200,
+  "endDate": {
+    "day": "26",
+    "month": "12",
+    "year": "2006"
+  },
+  "endDateUnix": 1167091200,
+  "location": {
+    "city": "Toronto",
+    "state": "ON",
+    "country": "Canada",
+    "venue": "The Opera House",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#D",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Bad video and audio quality.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 20.48,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 239,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "320x240",
+        "bitrateType": "",
+        "bitrateKbps": 448,
+        "fps": "30.00",
+        "standard": "WMV9",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "",
+        "rateHz": 44100,
+        "bitrateKbps": 64,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "AMT",
+      "sourceMediaType": "VCD",
+      "finalMediaType": "",
+      "fileFormat": "WMV"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "2",
+      "filename": "11398.jpg",
+      "externalId": "1Mzw_Bx7X8rRBlnYsPHrjCIUPnXIdj4La"
+    },
+    {
+      "folder": "2",
+      "filename": "00276.jpg",
+      "externalId": "1kifYaZEIgpbojmzyeVmRALcu_afKKzg0"
+    },
+    {
+      "folder": "2",
+      "filename": "57127.jpg",
+      "externalId": "1aRUqB0zAvavDliRc8mELikosJBeQDt0U"
+    },
+    {
+      "folder": "2",
+      "filename": "84771.jpg",
+      "externalId": "1XcA-E_XfwTHcEtmagrhOSBkH3KzyFWEU"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Accidents",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

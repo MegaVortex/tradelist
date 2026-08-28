@@ -1,0 +1,126 @@
+{
+  "originalTitle": "Whitesnake - xx.10.1997 - London - England",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Whitesnake"
+  ],
+  "startDate": {
+    "day": "",
+    "month": "10",
+    "year": "1997"
+  },
+  "startDateUnix": null,
+  "endDate": {
+    "day": "",
+    "month": "10",
+    "year": "1997"
+  },
+  "endDateUnix": null,
+  "location": {
+    "city": "London",
+    "state": "",
+    "country": "England",
+    "venue": "",
+    "event": ""
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#A",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "Incomplete.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "CD",
+        "size": 253,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": true,
+    "length": 466,
+    "video": [
+      {
+        "tvFormat": "PAL",
+        "ratio": "4:3",
+        "resolution": "704x576",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [
+    "whitesnake_18_04_1997_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "76",
+      "filename": "01166191.jpg",
+      "externalId": "15MCTYXrhakLLwA0pcyZKyAhuaQFZ7Zui"
+    },
+    {
+      "folder": "76",
+      "filename": "62274832.jpg",
+      "externalId": "1n1yNA8h4SPKg1QsndPiuB5TG8CTJnLlh"
+    },
+    {
+      "folder": "76",
+      "filename": "50319641.jpg",
+      "externalId": "1IbYLHUDdQn-b6PYv0bzjLaR6HNyarN4O"
+    },
+    {
+      "folder": "76",
+      "filename": "96334884.jpg",
+      "externalId": "1d6XVb5-hGz7OIZyZ_wW7zmVh5NjMLwnU"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Too Many Tears",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "The Deeper The Love",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

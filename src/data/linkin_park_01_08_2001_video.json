@@ -1,0 +1,156 @@
+{
+  "originalTitle": "Linkin Park - 01.08.2001 - Cleveland - OH - USA - One Key Plaza - Rock And Roll Hall Of Fame",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Linkin Park"
+  ],
+  "startDate": {
+    "day": "01",
+    "month": "08",
+    "year": "2001"
+  },
+  "startDateUnix": 996624000,
+  "endDate": {
+    "day": "01",
+    "month": "08",
+    "year": "2001"
+  },
+  "endDateUnix": 996624000,
+  "location": {
+    "city": "Cleveland",
+    "state": "OH",
+    "country": "USA",
+    "venue": "One Key Plaza",
+    "event": "Rock And Roll Hall Of Fame"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#O",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-5",
+        "size": 891,
+        "unit": "Mb"
+      }
+    ],
+    "chapters": false,
+    "menu": false,
+    "length": 1267,
+    "video": [
+      {
+        "tvFormat": "NTSC",
+        "ratio": "4:3",
+        "resolution": "720x480",
+        "bitrateType": "VBR",
+        "bitrateKbps": null,
+        "fps": "",
+        "standard": "",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "LPCM",
+        "rateHz": null,
+        "bitrateKbps": null,
+        "channels": 2
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "VHS",
+      "finalMediaType": "",
+      "fileFormat": "DVD"
+    }
+  },
+  "relatedShows": [],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "29",
+      "filename": "21666917.jpg",
+      "externalId": "1bJzt0b6pS0k2ERK47eK-vV51rtazq4pD"
+    },
+    {
+      "folder": "29",
+      "filename": "24091979.jpg",
+      "externalId": "1XGvbO-go1QyLCp6iytVOLLltDYhfKFgL"
+    },
+    {
+      "folder": "29",
+      "filename": "46717456.jpg",
+      "externalId": "18K6WGLi4QrX5ldms8NIv78rDy1OFMM51"
+    },
+    {
+      "folder": "29",
+      "filename": "41180875.jpg",
+      "externalId": "1t1cbP2chz4yWxIcMZPrugpRKmDPVbABX"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "With You",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "High Voltage",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "Crawling",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "In The End",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Forgotten",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "One Step Closer",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}

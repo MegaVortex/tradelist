@@ -1,0 +1,182 @@
+{
+  "originalTitle": "Foo Fighters - 29.09.2012 - New York - NY - USA - Central Park - Global Citizen Festival (Source 2)",
+  "created": 1704067200,
+  "lastUpdated": 1752181957,
+  "bands": [
+    "Foo Fighters"
+  ],
+  "startDate": {
+    "day": "29",
+    "month": "09",
+    "year": "2012"
+  },
+  "startDateUnix": 1348876800,
+  "endDate": {
+    "day": "29",
+    "month": "09",
+    "year": "2012"
+  },
+  "endDateUnix": 1348876800,
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "venue": "Central Park",
+    "event": "Global Citizen Festival"
+  },
+  "tvChannel": "",
+  "showName": "",
+  "source": "Source 2",
+  "category": [
+    "video"
+  ],
+  "master": false,
+  "public": true,
+  "ownIdentifier": "HDD#F",
+  "tradeLabel": "",
+  "authoredBy": "",
+  "transferredBy": "",
+  "notes": "FuseHD broadcast.",
+  "tapers": [],
+  "specs": {
+    "media": [
+      {
+        "type": "DVD-9",
+        "size": 5.4,
+        "unit": "Gb"
+      }
+    ],
+    "chapters": true,
+    "menu": true,
+    "length": 2225,
+    "video": [
+      {
+        "tvFormat": "",
+        "ratio": "",
+        "resolution": "1920x1080",
+        "bitrateType": "",
+        "bitrateKbps": null,
+        "fps": "29.97",
+        "standard": "MPG2",
+        "codec": "",
+        "letterboxed": false
+      }
+    ],
+    "audio": [
+      {
+        "language": "",
+        "codec": "AC3",
+        "rateHz": 48000,
+        "bitrateKbps": null,
+        "channels": 6
+      }
+    ],
+    "sourceDetail": {
+      "recordingType": "PRO",
+      "sourceMediaType": "HD",
+      "finalMediaType": "BD",
+      "fileFormat": "M2TS"
+    }
+  },
+  "relatedShows": [
+    "foo_fighters_29_09_2012_source_1_video"
+  ],
+  "childOf": "",
+  "images": [
+    {
+      "folder": "43",
+      "filename": "64125609.jpg",
+      "externalId": "1uN0VaTa8stnxufocjLp6bXIuBAvLFWZC"
+    },
+    {
+      "folder": "43",
+      "filename": "20388785.jpg",
+      "externalId": "1UrqHh7CEOXkfjVxsI3jHagLOa11SBDz8"
+    },
+    {
+      "folder": "43",
+      "filename": "93125029.jpg",
+      "externalId": "1uV7rRKkmMaqP7aJA7OhPTa1R75hnFQq9"
+    },
+    {
+      "folder": "43",
+      "filename": "35376950.jpg",
+      "externalId": "1D7Q-9Fgb_GI2H6MQ77qYaZkQna_1dXJe"
+    }
+  ],
+  "setlist": [
+    {
+      "order": 1,
+      "song": "Times Like These",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 2,
+      "song": "All My Life",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 3,
+      "song": "My Hero",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 4,
+      "song": "Learn To Fly",
+      "feat": "",
+      "note": "not broadcasted",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 5,
+      "song": "Arlandria",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 6,
+      "song": "These Days",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 7,
+      "song": "Walk",
+      "feat": "",
+      "note": "not broadcasted",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 8,
+      "song": "Best Of You",
+      "feat": "",
+      "note": "incomplete",
+      "comment": "",
+      "coverOf": ""
+    },
+    {
+      "order": 9,
+      "song": "Everlong",
+      "feat": "",
+      "note": "",
+      "comment": "",
+      "coverOf": ""
+    }
+  ],
+  "extras": []
+}
