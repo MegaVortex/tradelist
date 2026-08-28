@@ -66,12 +66,9 @@ function getShowRoot(i) {
     : document.querySelector(`[data-show-index="${i}"]`) || document;
 }
 
-function isDirPath(p) {
+async function isDirPath(p) {
   try {
-    const st = window.mediaTools.statSync(p);
-    if (!st) return false;
-    if (typeof st.isDirectory === "function") return !!st.isDirectory();
-    return !!st.isDirectory;
+    return await window.mediaTools.isDirectory(p);
   } catch {
     return false;
   }
@@ -266,13 +263,6 @@ function getShowState(i) {
   return window.showState[i];
 }
 
-const EQUIP_FILE =
-  "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\helpers\\tl_tool\\lib\\equipment.json";
-const COMP_SAVE_DIR =
-  "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\src\\data-comp";
-const VA_SAVE_DIR =
-  "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\src\\data-va";
-
 function splitEquip(str) {
   if (!str) return [];
   return String(str)
@@ -382,52 +372,6 @@ function applyCompilationUI(i = 1) {
   const want = isCompOrVA(sel.value);
   ensureCompilationCategoryCheckbox(i, want);
   ensureCompilationNameInline(i, want);
-}
-
-async function safeReadJson(path, fallback) {
-  try {
-    const raw = await window.mediaTools.readFile(path, "utf-8");
-    const data = JSON.parse(raw);
-    if (!data || typeof data !== "object") return fallback;
-    data.audio = Array.isArray(data.audio) ? data.audio : [];
-    data.video = Array.isArray(data.video) ? data.video : [];
-    return data;
-  } catch (e) {
-    console.warn(
-      "equipment.json exists but could not be read; using fallback.",
-      e
-    );
-    return fallback;
-  }
-}
-
-function dedupePush(targetArr, values) {
-  for (const v0 of values) {
-    const v = (v0 || "").trim();
-    if (!v) continue;
-    const exists = targetArr.some(
-      (x) => String(x).toLowerCase() === v.toLowerCase()
-    );
-    if (!exists) targetArr.push(v);
-  }
-}
-
-async function appendEquipmentValues({
-  audioItems = [],
-  videoItems = [],
-} = {}) {
-  try {
-    const dir = window.mediaTools.getDirname(EQUIP_FILE);
-    await window.mediaTools.mkdirp(dir);
-  } catch {}
-
-  const current = await safeReadJson(EQUIP_FILE, { audio: [], video: [] });
-
-  dedupePush(current.audio, audioItems);
-  dedupePush(current.video, videoItems);
-
-  const out = JSON.stringify(current, null, 2);
-  await window.mediaTools.writeFile(EQUIP_FILE, out);
 }
 
 function minYearSafe(arr) {
@@ -735,12 +679,15 @@ async function processFilesForBlock(filesOrPaths, opts) {
 
   let totalSize = 0,
     totalDuration = 0;
-  const paths = files
-    .map((f) => {
-      if (typeof f === "string") return f;
-      return window.mediaTools.getPathForFile(f);
-    })
-    .filter(Boolean);
+  const paths = (
+    await Promise.all(
+      files.map((file) =>
+        typeof file === "string"
+          ? file
+          : window.mediaTools.getPathForFile(file),
+      ),
+    )
+  ).filter(Boolean);
   if (!paths.length) return;
 
   const videoFilesInfo = [];
@@ -749,7 +696,7 @@ async function processFilesForBlock(filesOrPaths, opts) {
     let isVideo = false;
     let fileDuration = 0;
     try {
-      if (isDirPath(p)) {
+      if (await isDirPath(p)) {
         console.log(`Skipping directory: ${p}`);
         continue;
       }
@@ -1117,13 +1064,8 @@ async function uploadScreenshots(i = 1) {
       const uploaded = st.uploadedScreenshots[imgPath];
       if (uploaded.id) continue;
 
-      const res = await window.oauthDrive.uploadToDrive(imgPath);
+      const res = await window.oauthDrive.uploadScreenshot(imgPath);
       const driveId = res.id;
-
-      await window.oauthDrive.setPermission(driveId, {
-        role: "reader",
-        type: "anyone",
-      });
 
       uploaded.id = driveId;
       uploaded.idLabel.textContent = driveId;
@@ -1139,16 +1081,7 @@ async function uploadScreenshots(i = 1) {
 }
 
 async function loginToDrive() {
-  const authUrl = await window.oauthDrive.getAuthUrl();
-
-  return new Promise((resolve, reject) => {
-    window.oauthDrive.onAuthCode(async (code) => {
-      await window.oauthDrive.setAuthCode(code);
-      resolve();
-    });
-
-    window.oauthDrive.openAuthWindow(authUrl);
-  });
+  await window.oauthDrive.authenticate();
 }
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -1456,50 +1389,22 @@ async function runSetlistLookupGeneric(i) {
   const band = getEl("bandName", i).value.trim();
   const city = getEl("city", i).value.trim();
   const year = getEl("year", i).value.trim();
-  const apiKey = await window.secrets.getSetlistKey();
-  if (!apiKey) {
-    alert("Setlist API key missing. Add it to apiKey.json.");
-    return;
-  }
 
   const dateInput = getEl("loc-date", i);
   const dateValue = dateInput ? dateInput.value.trim() : "";
-
-  let apiUrl = `https://api.setlist.fm/rest/1.0/search/setlists?artistName=${encodeURIComponent(
-    band
-  )}`;
-
-  if (dateValue) {
-    const dateParts = dateValue.split("-");
-    if (
-      dateParts.length === 3 &&
-      dateParts[0].length === 2 &&
-      dateParts[1].length === 2 &&
-      dateParts[2].length === 4
-    ) {
-      apiUrl += `&date=${dateValue}`;
-      if (city) {
-        apiUrl += `&cityName=${encodeURIComponent(city)}`;
-      }
-    } else {
-      console.warn(
-        "Date format from UI incorrect ('dd-MM-yyyy' expected), falling back to city/year search."
-      );
-      alert(
-        "Date format must be dd-MM-yyyy. Falling back to city/year search."
-      );
-      if (city) apiUrl += `&cityName=${encodeURIComponent(city)}`;
-      if (year) apiUrl += `&year=${year}`;
-    }
-  } else {
-    if (city) apiUrl += `&cityName=${encodeURIComponent(city)}`;
-    if (year) apiUrl += `&year=${year}`;
+  const lookupDate = /^\d{2}-\d{2}-\d{4}$/.test(dateValue)
+    ? dateValue
+    : "";
+  if (dateValue && !lookupDate) {
+    alert("Date format must be dd-MM-yyyy. Falling back to city/year search.");
   }
 
   try {
     const result = await window.setlistAPI.lookup({
-      url: apiUrl,
-      apiKey: apiKey,
+      band,
+      city,
+      year,
+      date: lookupDate,
     });
 
     if (result.status !== 200) {
@@ -1537,26 +1442,8 @@ async function runSetlistLookupGeneric(i) {
     if (countryName === "United Arab Emirates") countryName = "UAE";
     if (countryName === "Czechia") countryName = "Czech Republic";
     getEl("loc-country", i).value = countryName;
-    try {
-      const searchUrl = `https://www.setlist.fm/search?query=${encodeURIComponent(
-        band
-      )}+${encodeURIComponent(firstSetlist.venue?.city?.name || city)}+${
-        firstSetlist.eventDate.split("-")[2] || year
-      }`;
-      const response = await fetch(searchUrl);
-      const html = await response.text();
-      const match = html.match(
-        /<h2><a .*?title="View this .*? setlist">.*? at (.*?)<\/a><\/h2>/i
-      );
-      window.scrapedEventName = match ? match[1].trim() : "";
-      getEl("loc-event", i).value = window.scrapedEventName || "";
-    } catch (fetchError) {
-      console.warn(
-        "Could not fetch event name from setlist.fm search page.",
-        fetchError
-      );
-      getEl("loc-event", i).value = "";
-    }
+    window.scrapedEventName = result.eventName || "";
+    getEl("loc-event", i).value = window.scrapedEventName;
     const allowedCountries = ["United States", "USA", "Canada", "Australia"];
     if (allowedCountries.includes(countryName)) {
       getEl("state", i).value = firstSetlist.venue?.city?.stateCode || "";
@@ -1990,15 +1877,17 @@ async function handleBulkFileSelect(i) {
   const filePaths = await window.appAPI.selectImageFiles(true);
   if (!filePaths.length) return;
 
-  let targetDir = st.droppedFilePath || window.originDir || window.mediaTools.getDirname(filePaths[0]);
-
-  if (!st.droppedFilePath) st.droppedFilePath = targetDir;
-  if (!window.originDir && i === 1) window.originDir = targetDir;
+  const targetDir = st.droppedFilePath || window.originDir || "";
 
   const newScreenshotPaths = [...st.generatedScreenshots];
 
   for (let idx = 0; idx < Math.min(filePaths.length, 4); idx++) {
     const selectedPath = filePaths[idx];
+    if (!targetDir) {
+      newScreenshotPaths[idx] = selectedPath;
+      st.userSelectedSlots.add(idx);
+      continue;
+    }
     const newFilename = `manual_${Date.now()}_${idx}.jpg`;
     const finalDestPath = window.mediaTools.pathJoin(targetDir, newFilename);
 
@@ -2018,9 +1907,13 @@ async function handleSingleFileSelect(i, idx) {
   if (!filePaths.length) return;
 
   const selectedPath = filePaths[0];
-  const targetDir = st.droppedFilePath || window.originDir || window.mediaTools.getDirname(selectedPath);
-  if (!st.droppedFilePath) st.droppedFilePath = targetDir;
-  if (!window.originDir && i === 1) window.originDir = targetDir;
+  const targetDir = st.droppedFilePath || window.originDir || "";
+  if (!targetDir) {
+    st.generatedScreenshots[idx] = selectedPath;
+    st.userSelectedSlots.add(idx);
+    renderScreenshots(st.generatedScreenshots, i);
+    return;
+  }
   const newFilename = `manual_${Date.now()}_${idx}.jpg`;
   const finalDestPath = window.mediaTools.pathJoin(targetDir, newFilename);
 
@@ -2493,9 +2386,7 @@ async function saveJson(index = 1) {
   finalJson.originalTitle = buildOriginalTitle(finalJson);
 
   const filename = buildFilename(finalJson);
-  const targetDir = st.droppedFilePath
-    ? window.mediaTools.getDirname(st.droppedFilePath)
-    : window.baseDir || "";
+  const targetDir = st.droppedFilePath || window.baseDir || "";
 
   if (!targetDir) {
     alert(
@@ -2506,17 +2397,14 @@ async function saveJson(index = 1) {
 
   const outPath = window.mediaTools.pathJoin(targetDir, filename + ".json");
   const jsonStr = JSON.stringify(finalJson, null, 2);
-  await window.mediaTools.writeFile(outPath, jsonStr);
+  await window.mediaTools.writeJson(outPath, jsonStr);
 
-  const MIRROR_DIR =
-    "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\src\\data";
   try {
-    window.mediaTools.mkdirp(MIRROR_DIR);
-    const mirrorPath = window.mediaTools.pathJoin(
-      MIRROR_DIR,
-      filename + ".json"
+    await window.appAPI.writeMirrorJson(
+      "regular",
+      filename + ".json",
+      jsonStr,
     );
-    await window.mediaTools.writeFile(mirrorPath, jsonStr);
   } catch (e) {
     console.error("Failed to write mirror JSON:", e);
   }
@@ -2529,7 +2417,6 @@ async function saveJson(index = 1) {
   if (typeof window.appAPI?.updateEquipmentIndex === "function") {
     try {
       await window.appAPI.updateEquipmentIndex({
-        file: EQUIP_FILE,
         audioItems: splitEquip(audioEquipment),
         videoItems: splitEquip(videoEquipment),
       });
@@ -2637,19 +2524,17 @@ async function createCompilationParentFromChildren(children, i = 1) {
   parentJson.specs.length = totalLengthSec;
 
   const baseTargetDir = window.mediaTools.getDirname(first.outPath);
-  await window.mediaTools.mkdirp(baseTargetDir);
   const outPathPrimary = window.mediaTools.pathJoin(
     baseTargetDir,
     parentFilename + ".json"
   );
   const jsonStr = JSON.stringify(parentJson, null, 2);
-  await window.mediaTools.writeFile(outPathPrimary, jsonStr);
-  await window.mediaTools.mkdirp(COMP_SAVE_DIR);
-  const outPathMirror = window.mediaTools.pathJoin(
-    COMP_SAVE_DIR,
-    parentFilename + ".json"
+  await window.mediaTools.writeJson(outPathPrimary, jsonStr);
+  await window.appAPI.writeMirrorJson(
+    "compilation",
+    parentFilename + ".json",
+    jsonStr,
   );
-  await window.mediaTools.writeFile(outPathMirror, jsonStr);
 
   return {
     filename: parentFilename,
@@ -2776,17 +2661,14 @@ async function createVaParentFromChildren(children, i = 1) {
   parentJson.specs.length = totalLengthSec;
 
   const baseTargetDir = window.mediaTools.getDirname(first.outPath);
-  await window.mediaTools.mkdirp(baseTargetDir);
   const outPathPrimary = window.mediaTools.pathJoin(
     baseTargetDir,
     parentFilename + ".json"
   );
   const jsonStr = JSON.stringify(parentJson, null, 2);
-  await window.mediaTools.writeFile(outPathPrimary, jsonStr);
+  await window.mediaTools.writeJson(outPathPrimary, jsonStr);
 
-  await window.mediaTools.mkdirp(VA_SAVE_DIR);
-  const outPathMirror = window.mediaTools.pathJoin(VA_SAVE_DIR, parentFilename + ".json");
-  await window.mediaTools.writeFile(outPathMirror, jsonStr);
+  await window.appAPI.writeMirrorJson("va", parentFilename + ".json", jsonStr);
 
   return {
     filename: parentFilename,
@@ -2831,17 +2713,14 @@ async function saveAllJsons() {
     }
 
     const jsonStr = JSON.stringify(me.json, null, 2);
-    await window.mediaTools.writeFile(me.outPath, jsonStr);
+    await window.mediaTools.writeJson(me.outPath, jsonStr);
 
-    const MIRROR_DIR =
-      "C:\\Users\\ovech\\Documents\\new_trade_list\\tl_web\\src\\data";
     try {
-      window.mediaTools.mkdirp(MIRROR_DIR);
-      const mirrorPath = window.mediaTools.pathJoin(
-        MIRROR_DIR,
-        me.filename + ".json"
+      await window.appAPI.writeMirrorJson(
+        "regular",
+        me.filename + ".json",
+        jsonStr,
       );
-      await window.mediaTools.writeFile(mirrorPath, jsonStr);
     } catch (e) {
       console.error("Failed to write mirror JSON (saveAllJsons):", e);
     }

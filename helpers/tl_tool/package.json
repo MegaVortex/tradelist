@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "test:security": "node --test tests/security.spec.cjs"
   },
   "dependencies": {
     "bootstrap": "^5.3.7",
