@@ -22,6 +22,9 @@ jobs:
       - name: Fix Eleventy CLI permissions
         run: chmod +x ./node_modules/.bin/eleventy
 
+      - name: Run save-server security tests
+        run: npm run test:security
+
       - name: Build site
         run: npm run build
 

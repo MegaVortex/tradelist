@@ -15,9 +15,17 @@ try {
         -FilePath "cmd.exe" `
         -ArgumentList $arguments `
         -WorkingDirectory $repositoryRoot `
-        -NoNewWindow
+        -WindowStyle Hidden
 
-    Write-Host "Eleventy should be running. Check the console for the local URL."
+    Write-Host "Starting the local JSON save server..."
+    $saveServerArguments = "/c", "npm run save-server"
+    Start-Process `
+        -FilePath "cmd.exe" `
+        -ArgumentList $saveServerArguments `
+        -WorkingDirectory $repositoryRoot `
+        -WindowStyle Hidden
+
+    Write-Host "Eleventy and the JSON save server should now be running."
 } finally {
     Pop-Location
 }

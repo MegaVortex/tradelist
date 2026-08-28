@@ -4,6 +4,8 @@ let currentlyEditing = {
   type: null,
 };
 
+const JSON_SAVE_API = "http://127.0.0.1:3042";
+
 function openJsonEditor(dataOrSlug, showType) {
   let showData;
 
@@ -41,30 +43,39 @@ function closeJsonEditor() {
   currentlyEditing = { slug: null, type: null };
 }
 
-function saveJson() {
-  const updatedData = editor.get();
-
-  fetch("http://localhost:3042/api/save-json", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      slug: currentlyEditing.slug,
-      data: updatedData,
-      type: currentlyEditing.type,
-    }),
-  })
-    .then((res) => res.json())
-    .then((result) => {
-      if (result.success) {
-        alert("JSON saved successfully.");
-        closeJsonEditor();
-      } else {
-        alert("Failed to save: " + (result.error || "Unknown error"));
-      }
-    })
-    .catch((err) => {
-      alert("Error saving JSON: " + err.message);
+async function saveJson() {
+  try {
+    const updatedData = editor.get();
+    const sessionResponse = await fetch(`${JSON_SAVE_API}/api/session`, {
+      cache: "no-store",
     });
+
+    if (!sessionResponse.ok) {
+      throw new Error("Could not establish a local save session");
+    }
+
+    const { token } = await sessionResponse.json();
+    const saveResponse = await fetch(`${JSON_SAVE_API}/api/save-json`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "X-TL-Dev-Token": token,
+      },
+      body: JSON.stringify({
+        slug: currentlyEditing.slug,
+        data: updatedData,
+        type: currentlyEditing.type,
+      }),
+    });
+    const result = await saveResponse.json();
+
+    if (!saveResponse.ok || !result.success) {
+      throw new Error(result.error || "Unknown error");
+    }
+
+    alert("JSON saved successfully.");
+    closeJsonEditor();
+  } catch (err) {
+    alert("Error saving JSON: " + err.message);
+  }
 }

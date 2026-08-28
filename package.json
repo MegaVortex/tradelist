@@ -8,9 +8,11 @@
     "build": "npm run clean:public && eleventy && npm run check:production-output",
     "build:dev": "npm run clean:public && cross-env ELEVENTY_ENV=dev eleventy",
     "check:production-output": "node scripts/check-production-output.cjs",
+    "save-server": "node dev-server.js",
     "serve:dev": "cross-env ELEVENTY_ENV=dev eleventy --serve",
     "serve:static": "npx -y http-server@14 ./public -p 8080 -c-1",
     "test:e2e": "playwright test",
+    "test:security": "node --test tests/node/dev-server-security.spec.cjs",
     "test:ui": "playwright test --ui",
     "test:update": "playwright test -u"
   },
