@@ -10,9 +10,9 @@
     "test:security": "node --test tests/security.spec.cjs tests/media-tools.spec.cjs"
   },
   "dependencies": {
-    "bootstrap": "^5.3.7",
+    "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",
-    "googleapis": "^153.0.0"
+    "googleapis": "^176.0.0"
   },
   "devDependencies": {
     "electron": "44.0.0"

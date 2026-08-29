@@ -20,8 +20,8 @@ export default defineConfig({
   webServer: PREBUILT
     ? [
         {
-          command: 'npx http-server ./public -p 8080 -c-1',
-          url: 'http://localhost:8080',
+          command: 'npm run serve:test',
+          url: 'http://127.0.0.1:8080/tradelist/',
           reuseExistingServer: true
         }
       ]
@@ -32,8 +32,8 @@ export default defineConfig({
           timeout: 1800_000
         },
         {
-          command: 'npx http-server ./public -p 8080 -c-1',
-          url: 'http://localhost:8080',
+          command: 'npm run serve:test',
+          url: 'http://127.0.0.1:8080/tradelist/',
           reuseExistingServer: !process.env.CI
         }
       ]

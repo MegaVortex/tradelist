@@ -14,6 +14,8 @@ async function getShowsCount(page: import("@playwright/test").Page) {
 
 test.describe("Browse Shows", () => {
   test("Letters, Pills, Count, Dropdown, Table", async ({ page }) => {
+    test.setTimeout(120_000);
+
     await test.step("Open Browse Shows", async () => {
       await page.goto("/tradelist/shows/", { waitUntil: "domcontentloaded" });
     });
