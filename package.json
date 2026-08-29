@@ -14,7 +14,7 @@
     "serve:static": "npx -y http-server@14 ./public -p 8080 -c-1",
     "serve:test": "node scripts/serve-production-test.cjs",
     "test:e2e": "playwright test",
-    "test:security": "node --test tests/node/dependency-security.spec.cjs tests/node/dev-server-security.spec.cjs tests/node/generated-xss-security.spec.cjs && npm --prefix helpers/tl_tool run test:security",
+    "test:security": "node --test tests/node/dependency-security.spec.cjs tests/node/dev-server-security.spec.cjs tests/node/generated-xss-security.spec.cjs tests/node/workflow-security.spec.cjs && npm --prefix helpers/tl_tool run test:security",
     "test:ui": "playwright test --ui",
     "test:update": "playwright test -u"
   },
