@@ -6,10 +6,9 @@ const path = require("path");
 const { pathToFileURL } = require("url");
 
 const { app, BrowserWindow, dialog, ipcMain } = require("electron");
-const ffmpeg = require("fluent-ffmpeg");
-const ffmpegPath = require("ffmpeg-static");
-const ffprobePath = require("ffprobe-static").path;
 const { google } = require("googleapis");
+
+const { captureScreenshot, probeFile } = require("./lib/media-tools");
 
 const {
   PathAuthorizer,
@@ -21,9 +20,6 @@ const {
   validateSetlistLookup,
   validateStringList,
 } = require("./lib/security");
-
-ffmpeg.setFfmpegPath(ffmpegPath);
-ffmpeg.setFfprobePath(ffprobePath);
 
 const PROJECT_DIR = path.resolve(__dirname, "..", "..");
 const PRIVATE_CONFIG_DIR = path.dirname(PROJECT_DIR);
@@ -136,27 +132,6 @@ async function requireWritableDestination(targetPath) {
   }
 
   return destination;
-}
-
-function probeFile(filePath) {
-  return new Promise((resolve, reject) => {
-    ffmpeg.ffprobe(filePath, (error, metadata) =>
-      error ? reject(error) : resolve(metadata),
-    );
-  });
-}
-
-function captureScreenshot(filePath, timestamp, outputPath) {
-  return new Promise((resolve, reject) => {
-    ffmpeg(filePath)
-      .seekInput(timestamp)
-      .frames(1)
-      .outputOptions(["-vf scale=1024:576", "-q:v 4", "-an"])
-      .output(outputPath)
-      .on("end", () => resolve(outputPath))
-      .on("error", reject)
-      .run();
-  });
 }
 
 async function writeJsonFile(destination, content) {
