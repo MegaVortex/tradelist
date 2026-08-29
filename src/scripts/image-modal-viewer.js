@@ -80,11 +80,19 @@ function prevImage() {
 document.addEventListener('DOMContentLoaded', () => {
     const nextBtn = document.getElementById('modalNext');
     const prevBtn = document.getElementById('modalPrev');
-    const closeBtn = document.querySelector('#imageModal .close');
+    const closeBtn = document.getElementById('modalClose');
 
-    if (nextBtn) nextBtn.onclick = nextImage;
-    if (prevBtn) prevBtn.onclick = prevImage;
-    if (closeBtn) closeBtn.onclick = closeModal;
+    if (nextBtn) nextBtn.addEventListener('click', nextImage);
+    if (prevBtn) prevBtn.addEventListener('click', prevImage);
+    if (closeBtn) closeBtn.addEventListener('click', closeModal);
+
+    [nextBtn, prevBtn, closeBtn].filter(Boolean).forEach((button) => {
+        button.addEventListener('keydown', (event) => {
+            if (event.key !== 'Enter' && event.key !== ' ') return;
+            event.preventDefault();
+            button.click();
+        });
+    });
 
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') closeModal();

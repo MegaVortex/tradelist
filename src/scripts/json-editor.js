@@ -79,3 +79,8 @@ async function saveJson() {
     alert("Error saving JSON: " + err.message);
   }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("json-editor-save")?.addEventListener("click", saveJson);
+  document.getElementById("json-editor-close")?.addEventListener("click", closeJsonEditor);
+});

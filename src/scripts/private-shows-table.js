@@ -1,3 +1,6 @@
+(function () {
+"use strict";
+
 function insertGroupLabels() {
     const tbody = document.querySelector("#shows-table tbody");
     if (!tbody) return;
@@ -14,9 +17,9 @@ function insertGroupLabels() {
             const labelRow = document.createElement("tr");
             labelRow.classList.add("band-label-row");
             labelRow.setAttribute("data-label", "true");
-            labelRow.innerHTML = `
+            window.tlSecurity.setHTML(labelRow, `
                 <td colspan="12" class="band-label">🎸 ${bandAttr}</td>
-            `;
+            `);
             tbody.insertBefore(labelRow, row);
         }
     });
@@ -119,3 +122,5 @@ function buildResolutionBadges(show) {
     </div>
   `;
 }
+
+})();

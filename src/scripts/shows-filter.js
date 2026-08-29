@@ -52,7 +52,7 @@ function initializeShowFilters(shows) {
             `;
         });
 
-        tbody.innerHTML = rowsHtml;
+        window.tlSecurity.setHTML(tbody, rowsHtml);
         markAlreadyAdded();
         insertGroupLabels();
     }
@@ -71,7 +71,7 @@ function initializeShowFilters(shows) {
 
         if (page < totalPages) html += `<li class="page-item"><a class="page-link" href="#" data-page="${page + 1}">→</a></li>`;
         html += '</ul></nav>';
-        paginationControls.innerHTML = html;
+        paginationControls.innerHTML = window.tlSecurity.sanitizeHTML(html);
     }
 
     function updateDisplay() {
@@ -106,7 +106,7 @@ function initializeShowFilters(shows) {
 
         const sortedLetters = Array.from(letters).sort();
         const barHTML = sortedLetters.map(l => `<li class="nav-item"><a class="nav-link" href="#" data-letter="${l}">${l}</a></li>`).join('');
-        letterBar.innerHTML = `<ul class="nav nav-pills"><li class="nav-item"><a class="nav-link active" href="#" data-letter="all">All</a></li>${barHTML}</ul>`;
+        letterBar.innerHTML = window.tlSecurity.sanitizeHTML(`<ul class="nav nav-pills"><li class="nav-item"><a class="nav-link active" href="#" data-letter="all">All</a></li>${barHTML}</ul>`);
 
         letterBar.addEventListener('click', e => {
             if (e.target.tagName !== 'A') return;
@@ -142,7 +142,7 @@ function initializeShowFilters(shows) {
             return;
         }
 
-        bandPillsContainer.innerHTML = sortedBands.map(band => `<span class="band-pill" data-band="${band}">${band}</span>`).join("");
+        bandPillsContainer.innerHTML = window.tlSecurity.sanitizeHTML(sortedBands.map(band => `<span class="band-pill" data-band="${band}">${band}</span>`).join(""));
         bandPillsContainer.style.display = 'flex';
 
         bandPillsContainer.querySelectorAll(".band-pill").forEach(pill => {

@@ -29,7 +29,7 @@
          <span class="type-label-page video-misc-label-page">misc</span>
       {% endif %}
       {% if compilation.notes and compilation.notes | trim != '' %}
-         <span class="note-block" onclick="maybeExpand(this)">
+         <span class="note-block" role="button" tabindex="0">
             <strong>Note:</strong>
             {{ compilation.notes }}
          </span>
@@ -40,7 +40,7 @@
    </div>
    {% if compilation.tvChannel or(compilation.tapers and compilation.tapers | join("") | trim != '')or compilation.authoredBy or compilation.transferredBy %}
       <div class="type-cell-page">
-         <span class="credits-block" title="Credits" onclick="maybeExpand(this)">
+         <span class="credits-block" title="Credits" role="button" tabindex="0">
             {% if compilation.tapers and compilation.tapers.length > 0 and compilation.tapers | join("") | trim != '' %}
                <strong>
                   {% if compilation.tapers.length == 1 %}Taper:{% else %}Tapers:{% endif %}
@@ -443,14 +443,14 @@
                         <div style="display: flex;">
                            {% for i in[0, 1] %}
                               {% if compilation.images[i] %}
-                                 <img src="https://drive.google.com/thumbnail?id={{ compilation.images[i].externalId }}&sz=w256" width="256" height="128" style="display: block; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; object-fit: cover; cursor: pointer;" onclick='openModal("{{ compilation.images[i].externalId }}", {{ compilation.images | dump | safe }})'>
+                                 <img class="image-modal-trigger" src="https://drive.google.com/thumbnail?id={{ compilation.images[i].externalId }}&sz=w256" width="256" height="128" style="display: block; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; object-fit: cover; cursor: pointer;" data-show-id="{{ compilation.fileSlug }}" data-image-id="{{ compilation.images[i].externalId }}" role="button" tabindex="0">
                               {% endif %}
                            {% endfor %}
                         </div>
                         <div style="display: flex;">
                            {% for i in[2, 3] %}
                               {% if compilation.images[i] %}
-                                 <img src="https://drive.google.com/thumbnail?id={{ compilation.images[i].externalId }}&sz=w256" width="256" height="128" style="display: block; border-right: 1px solid #ccc; object-fit: cover; cursor: pointer;" onclick='openModal("{{ compilation.images[i].externalId }}", {{ compilation.images | dump | safe }})'>
+                                 <img class="image-modal-trigger" src="https://drive.google.com/thumbnail?id={{ compilation.images[i].externalId }}&sz=w256" width="256" height="128" style="display: block; border-right: 1px solid #ccc; object-fit: cover; cursor: pointer;" data-show-id="{{ compilation.fileSlug }}" data-image-id="{{ compilation.images[i].externalId }}" role="button" tabindex="0">
                               {% endif %}
                            {% endfor %}
                         </div>
@@ -530,7 +530,7 @@
                                  <span class="setlist-note-label">{{ item.note }}</span>
                               {% endif %}
                               {% if item.coverOf %}
-                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Cover">🎵</span>
+                                 <span class="info-icon" role="button" tabindex="0" title="Cover">🎵</span>
                                  <span class="feat-popup" style="display: none;">
                                     <em>
                                        {{ item.coverOf }}
@@ -543,14 +543,14 @@
                                  </span>
                               {% endif %}
                               {% if item.feat %}
-                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                 <span class="info-icon" role="button" tabindex="0" title="Feature">👨‍👨</span>
                                  <span class="feat-popup" style="display: none;">
                                     <em>feat.
                                        {{ item.feat }}</em>
                                  </span>
                               {% endif %}
                               {% if item.comment %}
-                                 <span class="info-icon" onclick="toggleFeatInfo(this)" title="Comment">💬</span>
+                                 <span class="info-icon" role="button" tabindex="0" title="Comment">💬</span>
                                  <span class="feat-popup" style="display: none;">
                                     <em>{{ item.comment }}</em>
                                  </span>
@@ -579,7 +579,7 @@
                                        <span class="setlist-note-label">{{ item.note }}</span>
                                     {% endif %}
                                     {% if item.coverOf %}
-                                       <span class="info-icon" onclick="toggleFeatInfo(this)" title="Cover">🎵</span>
+                                       <span class="info-icon" role="button" tabindex="0" title="Cover">🎵</span>
                                        <span class="feat-popup" style="display: none;">
                                           <em>
                                              {{ item.coverOf }}
@@ -592,14 +592,14 @@
                                        </span>
                                     {% endif %}
                                     {% if item.feat %}
-                                       <span class="info-icon" onclick="toggleFeatInfo(this)" title="Feature">👨‍👨</span>
+                                       <span class="info-icon" role="button" tabindex="0" title="Feature">👨‍👨</span>
                                        <span class="feat-popup" style="display: none;">
                                           <em>feat.
                                              {{ item.feat }}</em>
                                        </span>
                                     {% endif %}
                                     {% if item.comment %}
-                                       <span class="info-icon" onclick="toggleFeatInfo(this)" title="Comment">💬</span>
+                                       <span class="info-icon" role="button" tabindex="0" title="Comment">💬</span>
                                        <span class="feat-popup" style="display: none;">
                                           <em>{{ item.comment }}</em>
                                        </span>

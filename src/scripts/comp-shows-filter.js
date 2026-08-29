@@ -19,7 +19,7 @@ function markAlreadyAdded() {
     document.querySelectorAll('.add-to-cart').forEach(btn => {
         const id = btn.dataset.id;
         if (cart[id]) {
-            btn.innerHTML = '✅';
+            btn.textContent = '✅';
             btn.classList.remove('btn-outline-success');
             btn.classList.add('btn-success');
         }
@@ -94,9 +94,9 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        bandPillsContainer.innerHTML = sortedBands.map(band =>
+        bandPillsContainer.innerHTML = window.tlSecurity.sanitizeHTML(sortedBands.map(band =>
             `<span class="band-pill" data-band="${band}">${band}</span>`
-        ).join("");
+        ).join(""));
 
         bandPillsContainer.style.display = 'flex';
 
@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <a class="nav-link" href="#" data-letter="${l}">${l}</a>
         </li>`
     ).join('');
-    letterBar.innerHTML = `<ul class="nav nav-pills">${barHTML}</ul>`;
+    letterBar.innerHTML = window.tlSecurity.sanitizeHTML(`<ul class="nav nav-pills">${barHTML}</ul>`);
 
     letterBar.addEventListener('click', e => {
         if (e.target.tagName !== 'A') return;
@@ -234,7 +234,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             html += '</ul></nav>';
-            controls.innerHTML = html;
+            controls.innerHTML = window.tlSecurity.sanitizeHTML(html);
 
             controls.querySelectorAll('[data-page]').forEach(btn => {
                 btn.addEventListener('click', e => {

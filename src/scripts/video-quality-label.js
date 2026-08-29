@@ -95,3 +95,22 @@ function buildResolutionBadges(show) {
     </div>
   `;
 }
+
+function appendResolutionBadges(container, show) {
+    const res = extractResolution(show);
+    if (!res || !container) return;
+
+    const { w, h } = res;
+    const cls = classifyResolution(w, h);
+    const labels = document.createElement('div');
+    labels.className = 'format-labels';
+
+    const badge = document.createElement('span');
+    badge.className = 'badge rounded-pill res-badge';
+    badge.style.backgroundColor = cls.color;
+    badge.title = `${w}×${h}`;
+    badge.textContent = cls.name;
+
+    labels.appendChild(badge);
+    container.appendChild(labels);
+}

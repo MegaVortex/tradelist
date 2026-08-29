@@ -62,9 +62,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 const labelRow = document.createElement('tr');
                 labelRow.classList.add('band-label-row');
                 labelRow.setAttribute('data-label', 'true');
-                labelRow.innerHTML = `
+                window.tlSecurity.setHTML(labelRow, `
                 <td colspan="12" class="band-label">🎸 ${bandAttr}</td>
-            `;
+            `);
                 tbody.insertBefore(labelRow, row);
             }
         });
@@ -103,9 +103,9 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        bandPillsContainer.innerHTML = sortedBands.map(band =>
+        bandPillsContainer.innerHTML = window.tlSecurity.sanitizeHTML(sortedBands.map(band =>
             `<span class="band-pill" data-band="${band}">${band}</span>`
-        ).join("");
+        ).join(""));
 
         bandPillsContainer.style.display = 'flex';
 
@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <a class="nav-link" href="#" data-letter="${l}">${l}</a>
         </li>`
     ).join('');
-    letterBar.innerHTML = `<ul class="nav nav-pills">${barHTML}</ul>`;
+    letterBar.innerHTML = window.tlSecurity.sanitizeHTML(`<ul class="nav nav-pills">${barHTML}</ul>`);
 
     letterBar.addEventListener('click', e => {
         if (e.target.tagName !== 'A') return;
@@ -243,7 +243,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             html += '</ul></nav>';
-            controls.innerHTML = html;
+            controls.innerHTML = window.tlSecurity.sanitizeHTML(html);
 
             controls.querySelectorAll('[data-page]').forEach(btn => {
                 btn.addEventListener('click', e => {

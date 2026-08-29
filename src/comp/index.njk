@@ -17,7 +17,7 @@ permalink: "/comp/"
        <span id="show-count-number">{{ allShowData.publicCompilationShows | length }}</span>
      </p>
    </div>
-<table id="shows-table">
+<table id="shows-table" data-format-column="6" data-page-column="11">
    <thead>
       <tr>
          <th>Artists</th>
@@ -40,7 +40,7 @@ permalink: "/comp/"
    </thead>
    <tbody>
       {% for show in allShowData.publicCompilationShows %}
-      <tr class="paginated-show" data-band="{{ show.bands | join('|||') }}" data-title="{{ show.showName | escape }}" data-show="{{ show | dump | escape }}">
+      <tr class="paginated-show" data-band="{{ show.bands | join('|||') }}" data-title="{{ show.showName }}" data-show-id="{{ show.fileSlug }}">
          <td class="artist-cell">
            {% if show.bands and show.bands.length %}
              {% set bands = show.bands %}
@@ -231,7 +231,10 @@ permalink: "/comp/"
                role="button"
                title="View images"
                style="cursor: pointer; font-size: 15px;"
-               onclick='openModal("{{ firstImg.externalId }}", {{ show.images | dump | safe }})'
+               class="image-modal-trigger"
+               data-show-id="{{ show.fileSlug }}"
+               data-image-id="{{ firstImg.externalId }}"
+               tabindex="0"
                >📷</span>
             {% else %}
             —
@@ -253,7 +256,6 @@ permalink: "/comp/"
 						class="btn btn-sm btn-outline-success add-to-cart"
 						style="font-size: 0.6rem; padding: 2px 6px;"
 						data-id="{{ show.fileSlug }}"
-						data-json="{{ show | dump | urlencode }}"
 						title="Add to trade cart"
 						>➕</button>
 				{% endif %}
@@ -261,8 +263,9 @@ permalink: "/comp/"
             {% if environment == "dev" %}
                <td>
                   <button
-				  onclick="openJsonEditor('{{ show.fileSlug }}', 'compilation')"
-				  class="btn btn-sm btn-outline-secondary"
+				  class="btn btn-sm btn-outline-secondary json-editor-trigger"
+				  data-show-id="{{ show.fileSlug }}"
+				  data-show-type="compilation"
 				  style="font-size: 0.6rem; padding: 2px 6px;"
 				  >✏️</button>
                </td>
@@ -277,69 +280,14 @@ permalink: "/comp/"
 <div id="pagination-controls" class="my-3"></div>
 <script src="{{ '/scripts/hammer.min.js' | url }}"></script>
 {% include "modals/cart-modal.njk" %}
-{% include "modals/image-modal.njk" %}
+   {% include "modals/image-modal.njk" %}
    <script src="{{ '/scripts/video-quality-label.js' | url }}"></script>
-   <script>
-      (function () {
-         const rows = document.querySelectorAll('#shows-table tbody tr[data-show]');
-         rows.forEach(tr => {
-            const raw = tr
-               .getAttribute('data-show')
-               .replaceAll('&quot;', '"')
-               .replaceAll('&#39;', "'")
-               .replaceAll('&amp;', '&');
-            let show;
-            try {
-               show = JSON.parse(raw);
-            } catch  {
-               return;
-            }
-            const td = tr.children[6];
-            if (!td) 
-               return;
-            td
-               .classList
-               .add('format-cell');
-            const valEl = td.querySelector('.format-value-other');
-            const current = valEl
-               ? valEl.innerHTML
-               : (td.textContent || '—');
-            td.innerHTML = `<span class="format-value-other">${current}</span>${buildResolutionBadges(show)}`;
-         });
-      })();
-   </script>
-   <script>
-     (function () {
-       const TWO_WEEKS_SEC = 14 * 24 * 60 * 60;
-       const nowSec = Math.floor(Date.now() / 1000);
-     
-       const rows = document.querySelectorAll('#shows-table tbody tr[data-show]');
-       rows.forEach(tr => {
-         const raw = tr.getAttribute('data-show')
-           .replaceAll('&quot;', '"')
-           .replaceAll('&#39;', "'")
-           .replaceAll('&amp;', '&');
-         let show;
-         try { show = JSON.parse(raw); } catch { return; }
-         const pageTd = tr.children[11];
-         if (!pageTd) return;
-         pageTd.classList.add('page-cell');
-     
-         const created = Number(show?.created);
-         const isNew = Number.isFinite(created) && (nowSec - created) <= TWO_WEEKS_SEC;
-     
-         if (isNew) {
-           pageTd.insertAdjacentHTML('beforeend', '<span class="new-label">NEW</span>');
-         }
-       });
-     })();
-   </script>
+   <script type="application/json" id="all-shows-data">{{ allShowData.publicCompilationShows | jsonScript | safe }}</script>
+   <script src="{{ '/scripts/page-data.js' | url }}"></script>
+   <script src="{{ '/scripts/static-show-table.js' | url }}"></script>
 <script src="{{ '/scripts/comp-shows-table.js' | url }}"></script>
 <script src="{{ '/scripts/cart.js' | url }}"></script>
 <script src="{{ '/scripts/image-modal-viewer.js' | url }}"></script>
 <script src="{{ '/scripts/media-extras-toggle.js' | url }}"></script>
-<script>
-   window.allShowsData = {{ allShowData.publicCompilationShows | dump | safe }};
-</script>
 </div>
 {% endblock %}

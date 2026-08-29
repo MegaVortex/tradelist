@@ -69,7 +69,7 @@ function renderCartTable() {
         return (Math.round(num * 10) / 10).toFixed(1);
     }
 
-    tbody.innerHTML = cart.map((show, index) => {
+    window.tlSecurity.setHTML(tbody, cart.map((show, index) => {
         const formattedStartDate = (() => {
             if (typeof show.startDateUnix === 'number' && show.startDateUnix !== null) {
                 const date = new Date(show.startDateUnix * 1000);
@@ -154,20 +154,20 @@ function renderCartTable() {
               <td>${formattedLocation}</td>
               <td>${sourceCellContent}</td>
               <td>${tapersCellContent}</td>
-              <td><button class="btn btn-sm btn-danger" style="font-size: 0.6rem; padding: 2px 6px;" onclick="removeFromCart('${show.fileSlug}')">✖</button></td>
+              <td><button class="btn btn-sm btn-danger remove-from-cart" style="font-size: 0.6rem; padding: 2px 6px;" data-id="${show.fileSlug}">✖</button></td>
             </tr>
         `;
-    }).join('');
+    }).join(''));
 
     document.querySelectorAll('.add-to-cart').forEach(btn => {
         const fileSlug = btn.dataset.id;
         const exists = cart.some(s => s.fileSlug === fileSlug);
         if (exists) {
-            btn.innerHTML = '❌';
+            btn.textContent = '❌';
             btn.classList.remove('btn-outline-success');
             btn.classList.add('btn-outline-danger');
         } else {
-            btn.innerHTML = '➕';
+            btn.textContent = '➕';
             btn.classList.remove('btn-outline-danger');
             btn.classList.add('btn-outline-success');
         }
@@ -189,36 +189,43 @@ document.addEventListener('DOMContentLoaded', () => {
     updateCartCount();
 });
 
-document.querySelectorAll('.add-to-cart').forEach(btn => {
-    btn.addEventListener('click', function () {
-        const showData = decodeURIComponent(this.dataset.json);
-        const show = JSON.parse(showData);
-        const fileSlug = show.fileSlug;
+document.addEventListener('click', (event) => {
+    const removeButton = event.target.closest('.remove-from-cart');
+    if (removeButton) {
+        removeFromCart(removeButton.dataset.id);
+        return;
+    }
 
-        let cart = getCart();
-        const exists = cart.some(s => s.fileSlug === fileSlug);
+    const btn = event.target.closest('.add-to-cart');
+    if (!btn || btn.disabled) return;
 
-        if (!exists && cart.length >= 5) {
-            alert('You can only select up to 5 shows for a trade request.');
-            return;
-        }
+    const show = window.tlSecurity.findShow(btn.dataset.id);
+    if (!show) return;
+    const fileSlug = show.fileSlug;
 
-        if (exists) {
-            cart = cart.filter(s => s.fileSlug !== fileSlug);
-            btn.innerHTML = '➕';
-            btn.classList.remove('btn-outline-danger');
-            btn.classList.add('btn-outline-success');
-        } else {
-            cart.push(show);
-            btn.innerHTML = '❌';
-            btn.classList.remove('btn-outline-success');
-            btn.classList.add('btn-outline-danger');
-        }
+    let cart = getCart();
+    const exists = cart.some(s => s.fileSlug === fileSlug);
 
-        setCart(cart);
-        updateCartCount();
-        renderCartTable();
-    });
+    if (!exists && cart.length >= 5) {
+        alert('You can only select up to 5 shows for a trade request.');
+        return;
+    }
+
+    if (exists) {
+        cart = cart.filter(s => s.fileSlug !== fileSlug);
+        btn.textContent = '➕';
+        btn.classList.remove('btn-outline-danger');
+        btn.classList.add('btn-outline-success');
+    } else {
+        cart.push(show);
+        btn.textContent = '❌';
+        btn.classList.remove('btn-outline-success');
+        btn.classList.add('btn-outline-danger');
+    }
+
+    setCart(cart);
+    updateCartCount();
+    renderCartTable();
 });
 
 document.getElementById('send-cart').addEventListener('click', async () => {

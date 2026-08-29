@@ -4,11 +4,17 @@ const {
     DateTime
 } = require("luxon");
 const ISO6391 = require("iso-639-1");
+const { serializeJsonForHtml } = require("./lib/web-security.cjs");
 
 const isDevelopment = process.env.ELEVENTY_ENV === "dev";
 
 module.exports = function(eleventyConfig) {
 	eleventyConfig.addGlobalData("environment", isDevelopment ? "dev" : "prod");
+	eleventyConfig.setNunjucksEnvironmentOptions({ autoescape: true });
+
+    // JSON embedded in a non-executable <script type="application/json"> block
+    // must still neutralize the HTML parser's closing-script sequence.
+    eleventyConfig.addFilter("jsonScript", serializeJsonForHtml);
 
     // Private pages are a local-development feature only. Ignoring both entry
     // templates prevents production builds from emitting even an empty private
@@ -17,6 +23,8 @@ module.exports = function(eleventyConfig) {
         eleventyConfig.ignores.add("src/private/index.njk");
         eleventyConfig.ignores.add("src/templates/private-show-page.njk");
     }
+    eleventyConfig.ignores.add("src/templates/browse.njk");
+    eleventyConfig.ignores.add("src/templates/shows.njk");
 	
 	eleventyConfig.addPassthroughCopy({
       "src/favicon.ico": "favicon.ico"
@@ -39,6 +47,15 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy({
       'node_modules/bootstrap/dist/css/bootstrap.min.css': 'styles/bootstrap.min.css'
+    });
+
+    eleventyConfig.addPassthroughCopy({
+      'node_modules/dompurify/dist/purify.min.js': 'scripts/purify.min.js'
+    });
+
+    eleventyConfig.addPassthroughCopy({
+      'node_modules/jsoneditor/dist': 'vendor/jsoneditor',
+      'node_modules/bootstrap-icons/font': 'vendor/bootstrap-icons'
     });
 
     eleventyConfig.addFilter("date", (timestamp, format = "yyyy-MM-dd") => {
@@ -197,7 +214,8 @@ module.exports = function(eleventyConfig) {
             publicVaShows,
             publicCompilationShows,
 			privateShowsOnly,
-			privateRegularShows,
+            privateRegularShows,
+            recentShows,
             updatesPageData,
             showsBySlug
         };

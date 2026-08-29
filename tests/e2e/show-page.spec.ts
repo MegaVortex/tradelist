@@ -117,6 +117,8 @@ test.describe('Regular show page', () => {
         }, { timeout: 10_000 })
         .toBe(true);
     });
+
+    await showPage.close();
   });
 
   test('Regular show page: Labels, tables, image modal', async ({ page }) => {
@@ -208,7 +210,7 @@ test.describe('Regular show page', () => {
 	
     await test.step('Open image modal by clicking first thumbnail', async () => {
       const firstThumb = showPage
-        .locator('img[onclick*="openModal"]')
+        .locator('img.image-modal-trigger')
         .first();
     
       await expect(firstThumb).toBeVisible({ timeout: 10_000 });
@@ -218,5 +220,7 @@ test.describe('Regular show page', () => {
     await test.step('Exercise image modal navigation (show page)', async () => {
       await exerciseImageModal(showPage);
     });
+
+    await showPage.close();
   });
 });

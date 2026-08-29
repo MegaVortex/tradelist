@@ -14,7 +14,7 @@ function insertGroupLabels() {
         const label = document.createElement('tr');
         label.className = 'band-label-row';
         label.setAttribute('data-label', 'true');
-        label.innerHTML = `<td colspan="13" class="band-label">🎸 ${band}</td>`;
+        window.tlSecurity.setHTML(label, `<td colspan="13" class="band-label">🎸 ${band}</td>`);
         tbody.insertBefore(label, row);
       }
     }
@@ -93,7 +93,7 @@ function insertGroupLabels() {
     const catLabelRow = document.createElement('tr');
     catLabelRow.setAttribute('data-label', 'true');
     catLabelRow.className = 'category-label-row';
-    catLabelRow.innerHTML = `<td colspan="13" class="category-label">${emojiFor[key]}</td>`;
+    window.tlSecurity.setHTML(catLabelRow, `<td colspan="13" class="category-label">${emojiFor[key]}</td>`);
     tbody.appendChild(catLabelRow);
 
     const sortedYears = Object.keys(catGroup).sort((a, b) => a.localeCompare(b));
@@ -102,7 +102,7 @@ function insertGroupLabels() {
       const yearLabelRow = document.createElement('tr');
       yearLabelRow.setAttribute('data-label', 'true');
       yearLabelRow.className = 'year-label-row';
-      yearLabelRow.innerHTML = `<td colspan="13" class="year-label">📅 ${year}</td>`;
+      window.tlSecurity.setHTML(yearLabelRow, `<td colspan="13" class="year-label">📅 ${year}</td>`);
       tbody.appendChild(yearLabelRow);
 
       for (const row of catGroup[year]) {

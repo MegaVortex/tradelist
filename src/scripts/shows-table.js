@@ -200,7 +200,7 @@ function renderInitialShows(shows) {
     tr.classList.add("paginated-show");
     tr.dataset.band = (show.bands || []).join("|||");
 
-    tr.innerHTML = `
+    window.tlSecurity.setHTML(tr, `
     <td>${(show.bands || []).join(", ") || "—"}</td>
     <td>${
       show.startDateUnix
@@ -325,9 +325,7 @@ function renderInitialShows(shows) {
     </td>
     <td>${
       show.images?.length
-        ? `<span role="button" style="cursor: pointer; font-size: 15px;" onclick='openModal("${
-            show.images[0].externalId
-          }", ${JSON.stringify(show.images)})'>📷</span>`
+        ? `<span class="image-modal-trigger" role="button" tabindex="0" style="cursor: pointer; font-size: 15px;" data-show-id="${show.fileSlug}" data-image-id="${show.images[0].externalId}">📷</span>`
         : "—"
     }</td>
     <td class="page-cell">
@@ -341,16 +339,14 @@ function renderInitialShows(shows) {
         ? `<button class="btn btn-sm btn-outline-secondary disabled" style="font-size: 0.6rem; padding: 2px 6px;" disabled title="Not available for trade" data-id="${show.fileSlug}">➕</button>`
         : `<button class="btn btn-sm btn-outline-success add-to-cart" style="font-size: 0.6rem; padding: 2px 6px;" data-id="${
             show.fileSlug
-          }" data-json='${encodeURIComponent(
-            JSON.stringify(show)
-          )}' title="Add to trade cart">➕</button>`
+          }" title="Add to trade cart">➕</button>`
     }</td>
     ${
       environment === "dev"
-        ? `<td><button onclick="openJsonEditor('${show.fileSlug}', 'regular')" class="btn btn-sm btn-outline-secondary" style="font-size: 0.6rem; padding: 2px 6px;">✏️</button></td>`
+        ? `<td><button class="btn btn-sm btn-outline-secondary json-editor-trigger" data-show-id="${show.fileSlug}" data-show-type="regular" style="font-size: 0.6rem; padding: 2px 6px;">✏️</button></td>`
         : ""
     }
-`;
+`);
 
     tbody.appendChild(tr);
   }
@@ -362,7 +358,7 @@ function prepareTableRows(shows) {
     tr.classList.add("paginated-show");
     tr.dataset.band = (show.bands || []).join("|||");
 
-    tr.innerHTML = `
+    window.tlSecurity.setHTML(tr, `
     <td>${(show.bands || []).join(", ") || "—"}</td>
     <td>${
       show.startDateUnix
@@ -487,9 +483,7 @@ function prepareTableRows(shows) {
     </td>
     <td>${
       show.images?.length
-        ? `<span role="button" style="cursor: pointer; font-size: 15px;" onclick='openModal("${
-            show.images[0].externalId
-          }", ${JSON.stringify(show.images)})'>📷</span>`
+        ? `<span class="image-modal-trigger" role="button" tabindex="0" style="cursor: pointer; font-size: 15px;" data-show-id="${show.fileSlug}" data-image-id="${show.images[0].externalId}">📷</span>`
         : "—"
     }</td>
     <td class="page-cell">
@@ -503,16 +497,14 @@ function prepareTableRows(shows) {
         ? `<button class="btn btn-sm btn-outline-secondary disabled" style="font-size: 0.6rem; padding: 2px 6px;" disabled title="Not available for trade" data-id="${show.fileSlug}">➕</button>`
         : `<button class="btn btn-sm btn-outline-success add-to-cart" style="font-size: 0.6rem; padding: 2px 6px;" data-id="${
             show.fileSlug
-          }" data-json='${encodeURIComponent(
-            JSON.stringify(show)
-          )}' title="Add to trade cart">➕</button>`
+          }" title="Add to trade cart">➕</button>`
     }</td>
     ${
       environment === "dev"
-        ? `<td><button onclick="openJsonEditor('${show.fileSlug}', 'regular')" class="btn btn-sm btn-outline-secondary" style="font-size: 0.6rem; padding: 2px 6px;">✏️</button></td>`
+        ? `<td><button class="btn btn-sm btn-outline-secondary json-editor-trigger" data-show-id="${show.fileSlug}" data-show-type="regular" style="font-size: 0.6rem; padding: 2px 6px;">✏️</button></td>`
         : ""
     }
-`;
+`);
 
     return tr;
   });
@@ -578,7 +570,7 @@ function insertGroupLabels(selectedBands) {
         const label = document.createElement("tr");
         label.className = "band-label-row";
         label.setAttribute("data-label", "true");
-        label.innerHTML = `<td colspan="13" class="band-label">🎸 ${band}</td>`;
+        window.tlSecurity.setHTML(label, `<td colspan="13" class="band-label">🎸 ${band}</td>`);
         tbody.insertBefore(label, row);
       }
     }
@@ -665,7 +657,7 @@ function insertGroupLabels(selectedBands) {
     const catLabelRow = document.createElement("tr");
     catLabelRow.setAttribute("data-label", "true");
     catLabelRow.className = "category-label-row";
-    catLabelRow.innerHTML = `<td colspan="13" class="category-label">${emojiFor[key]}</td>`;
+    window.tlSecurity.setHTML(catLabelRow, `<td colspan="13" class="category-label">${emojiFor[key]}</td>`);
     tbody.appendChild(catLabelRow);
 
     const sortedYears = Object.keys(catGroup).sort();
@@ -674,7 +666,7 @@ function insertGroupLabels(selectedBands) {
       const yearLabelRow = document.createElement("tr");
       yearLabelRow.setAttribute("data-label", "true");
       yearLabelRow.className = "year-label-row";
-      yearLabelRow.innerHTML = `<td colspan="13" class="year-label">📅 ${year}</td>`;
+      window.tlSecurity.setHTML(yearLabelRow, `<td colspan="13" class="year-label">📅 ${year}</td>`);
       tbody.appendChild(yearLabelRow);
 
       for (const row of catGroup[year]) {
@@ -779,7 +771,7 @@ function initializeShowFilters(shows) {
       )
       .join("");
 
-    menu.innerHTML = html;
+    menu.innerHTML = window.tlSecurity.sanitizeHTML(html);
 
     menu.querySelectorAll(".dropdown-item").forEach((a) => {
       a.addEventListener("click", (e) => {
@@ -820,7 +812,7 @@ function initializeShowFilters(shows) {
       const tr = document.createElement("tr");
       tr.classList.add("paginated-show");
       tr.dataset.band = (show.bands || []).join("|||");
-      tr.innerHTML = `
+      window.tlSecurity.setHTML(tr, `
     <td>${(show.bands || []).join(", ") || "—"}</td>
     <td>${
       show.startDateUnix
@@ -945,9 +937,7 @@ function initializeShowFilters(shows) {
     </td>
     <td>${
       show.images?.length
-        ? `<span role="button" style="cursor: pointer; font-size: 15px;" onclick='openModal("${
-            show.images[0].externalId
-          }", ${JSON.stringify(show.images)})'>📷</span>`
+        ? `<span class="image-modal-trigger" role="button" tabindex="0" style="cursor: pointer; font-size: 15px;" data-show-id="${show.fileSlug}" data-image-id="${show.images[0].externalId}">📷</span>`
         : "—"
     }</td>
     <td class="page-cell">
@@ -961,16 +951,14 @@ function initializeShowFilters(shows) {
         ? `<button class="btn btn-sm btn-outline-secondary disabled" style="font-size: 0.6rem; padding: 2px 6px;" disabled title="Not available for trade" data-id="${show.fileSlug}">➕</button>`
         : `<button class="btn btn-sm btn-outline-success add-to-cart" style="font-size: 0.6rem; padding: 2px 6px;" data-id="${
             show.fileSlug
-          }" data-json='${encodeURIComponent(
-            JSON.stringify(show)
-          )}' title="Add to trade cart">➕</button>`
+          }" title="Add to trade cart">➕</button>`
     }</td>
     ${
       environment === "dev"
-        ? `<td><button onclick="openJsonEditor('${show.fileSlug}', 'regular')" class="btn btn-sm btn-outline-secondary" style="font-size: 0.6rem; padding: 2px 6px;">✏️</button></td>`
+        ? `<td><button class="btn btn-sm btn-outline-secondary json-editor-trigger" data-show-id="${show.fileSlug}" data-show-type="regular" style="font-size: 0.6rem; padding: 2px 6px;">✏️</button></td>`
         : ""
     }
-`;
+`);
 
       return tr;
     });
@@ -1017,7 +1005,7 @@ function initializeShowFilters(shows) {
     }
 
     html += "</ul></nav>";
-    paginationControls.innerHTML = html;
+    paginationControls.innerHTML = window.tlSecurity.sanitizeHTML(html);
   }
 
   function filterShows() {
@@ -1201,7 +1189,7 @@ function initializeShowFilters(shows) {
     });
 
     const sorted = [...letters].sort();
-    letterBar.innerHTML = `<ul class="nav nav-pills">
+    letterBar.innerHTML = window.tlSecurity.sanitizeHTML(`<ul class="nav nav-pills">
             <li class="nav-item"><a class="nav-link active" href="#" data-letter="all">All</a></li>
             ${sorted
               .map(
@@ -1209,7 +1197,7 @@ function initializeShowFilters(shows) {
                   `<li class="nav-item"><a class="nav-link" href="#" data-letter="${l}">${l}</a></li>`
               )
               .join("")}
-        </ul>`;
+        </ul>`);
 
     letterBar.addEventListener("click", (e) => {
       if (e.target.tagName !== "A") return;
@@ -1299,14 +1287,14 @@ function initializeShowFilters(shows) {
 
     const sortedBands = [...Object.keys(bandCounts)].sort();
 
-    container.innerHTML = sortedBands
+    container.innerHTML = window.tlSecurity.sanitizeHTML(sortedBands
       .map((b) => {
         const count = bandCounts[b];
         const bg = getBandPillColor(count);
 
         return `<span class="band-pill" data-band="${b}" style="background-color: ${bg};">${b}</span>`;
       })
-      .join("");
+      .join(""));
 
     container.style.display = "flex";
 
@@ -1361,35 +1349,16 @@ function attachCartHandlers() {
     function updateButton() {
       const cart = getCart();
       if (cart.some((s) => s.fileSlug === id)) {
-        btn.innerHTML = "❌";
+        btn.textContent = "❌";
         btn.classList.remove("btn-outline-success");
         btn.classList.add("btn-outline-danger");
       } else {
-        btn.innerHTML = "➕";
+        btn.textContent = "➕";
         btn.classList.remove("btn-outline-danger");
         btn.classList.add("btn-outline-success");
       }
     }
 
     updateButton();
-
-    btn.onclick = () => {
-      const show = window.allShowsData.find((s) => s.fileSlug === id);
-      if (!show) return;
-
-      const cart = getCart();
-      const exists = cart.some((s) => s.fileSlug === id);
-
-      if (exists) {
-        const newCart = cart.filter((s) => s.fileSlug !== id);
-        setCart(newCart);
-      } else {
-        addToCart(show);
-      }
-
-      updateButton();
-      renderCartTable();
-      updateCartCount();
-    };
   });
 }
