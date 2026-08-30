@@ -1718,16 +1718,16 @@ function detectLetterboxed(stream) {
   const h = stream.height;
   const resRatio = w / h;
   const dar = stream.display_aspect_ratio || "";
+  const displayRatio = window.aspectRatio.parseAspectRatio(dar);
+  const isWidescreen =
+    displayRatio !== null && Math.abs(displayRatio - 16 / 9) < 0.05;
   const isDvdFrame = w === 720 && (h === 480 || h === 576);
 
-  if (isDvdFrame && dar.includes("16:9")) {
+  if (isDvdFrame && isWidescreen) {
     return true;
   }
 
-  if (
-    Math.abs(resRatio - 4 / 3) < 0.05 &&
-    (dar.includes("16:9") || Math.abs(eval(dar) - 16 / 9) < 0.05)
-  ) {
+  if (Math.abs(resRatio - 4 / 3) < 0.05 && isWidescreen) {
     return true;
   }
 

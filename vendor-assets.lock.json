@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "bootstrap": {
+      "integrity": "sha512-HP1SZDqaLDPwsNiqRqi5NcP0SSXciX2s9E+RyqJIIqGo+vJeN5AJVM98CXmW/Wux0nQ5L7jeWUdplCEf0Ee+tg==",
+      "version": "5.3.8"
+    },
+    "bootstrap-icons": {
+      "integrity": "sha512-ijombt4v6bv5CLeXvRWKy7CuM3TRTuPEuGaGKvTV5cz65rQSY8RQ2JcHt6b90cBBAC7s8fsf2EkQDldzCoXUjw==",
+      "version": "1.13.1"
+    },
+    "dompurify": {
+      "integrity": "sha512-dVoH9z+MY+C9IilgGCk3YfFqjLi3fChm2OiKJMzh6axrJ5qwxqWaZamgmHrpv22CN/KdbZJuGEGgfQoL00LTdg==",
+      "version": "3.4.14"
+    },
+    "jsoneditor": {
+      "integrity": "sha512-fVZ0NMt+zm4rqTKBv2x7zPdLeaRyKo1EjJkaR1QjK4gEM1rMwICILYSW1OPxSc1qqyAoDaA/eeNrluKoxOocCA==",
+      "version": "9.10.5"
+    }
+  },
+  "files": [
+    {
+      "destination": "vendor/bootstrap-icons/bootstrap-icons.css",
+      "package": "bootstrap-icons",
+      "sha256": "004322721c8557331759bc6ddaacbb689b0f0715d688aec82bd056d2d5b5cc3b",
+      "source": "node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    },
+    {
+      "destination": "vendor/bootstrap-icons/bootstrap-icons.json",
+      "package": "bootstrap-icons",
+      "sha256": "1c9de1e3aaaa1bba5967bac7eada79475082dd86b4a41955e58d3c2569b23cf0",
+      "source": "node_modules/bootstrap-icons/font/bootstrap-icons.json"
+    },
+    {
+      "destination": "vendor/bootstrap-icons/bootstrap-icons.min.css",
+      "package": "bootstrap-icons",
+      "sha256": "a5d6387a32ca3baec4d02336b5b3edab50c9dd518355576a011ea3dd9c1d884e",
+      "source": "node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
+    },
+    {
+      "destination": "vendor/bootstrap-icons/bootstrap-icons.scss",
+      "package": "bootstrap-icons",
+      "sha256": "5a5e3e24ee6cb8af019090835db523e8f9e3d60bb2eacf26740490b6a45d0fbf",
+      "source": "node_modules/bootstrap-icons/font/bootstrap-icons.scss"
+    },
+    {
+      "destination": "vendor/bootstrap-icons/fonts/bootstrap-icons.woff",
+      "package": "bootstrap-icons",
+      "sha256": "f55513b7b591cb84a3b87ff0e34ea24d4831d6fedc22e54b911ca64b5b544a15",
+      "source": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff"
+    },
+    {
+      "destination": "vendor/bootstrap-icons/fonts/bootstrap-icons.woff2",
+      "package": "bootstrap-icons",
+      "sha256": "6c75710364a1ca5604267716f6d28997b26319fdb078cf11e0b42ab66ff2ea61",
+      "source": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
+    },
+    {
+      "destination": "styles/bootstrap.min.css",
+      "package": "bootstrap",
+      "sha256": "d85327d99c7a3ee1f9b5d0500d1370acea3ad2db39c163c2f51f232baedbdede",
+      "source": "node_modules/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "destination": "scripts/bootstrap.bundle.min.js",
+      "package": "bootstrap",
+      "sha256": "e4fd49181388c48ec5040bd3fe66f57c29c8e67fcd8502b3354b96ec7ab47cc7",
+      "source": "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "destination": "scripts/purify.min.js",
+      "package": "dompurify",
+      "sha256": "c2f26ea4fc0d88141c9aa430eb515ac86fce59418ceebd85fa475b87a8d6c3e6",
+      "source": "node_modules/dompurify/dist/purify.min.js"
+    },
+    {
+      "destination": "vendor/jsoneditor/img/jsoneditor-icons.svg",
+      "package": "jsoneditor",
+      "sha256": "45c98bf0ee865dac9104d0bf659253b9d9c7ba2dd43e45f55544855750cfd01e",
+      "source": "node_modules/jsoneditor/dist/img/jsoneditor-icons.svg"
+    },
+    {
+      "destination": "vendor/jsoneditor/jsoneditor-minimalist.js",
+      "package": "jsoneditor",
+      "sha256": "124734c748c0e97f2f96759e757bc14c9b84fdd972e14d9f682e593a71a10221",
+      "source": "node_modules/jsoneditor/dist/jsoneditor-minimalist.js"
+    },
+    {
+      "destination": "vendor/jsoneditor/jsoneditor-minimalist.map",
+      "package": "jsoneditor",
+      "sha256": "52c08001ef10e68f15af254fd88ce0c8088b3fa6f3bbc47302fa5bee6258fa05",
+      "source": "node_modules/jsoneditor/dist/jsoneditor-minimalist.map"
+    },
+    {
+      "destination": "vendor/jsoneditor/jsoneditor-minimalist.min.js",
+      "package": "jsoneditor",
+      "sha256": "d067030aacba3611dfc468bb891b181b923a15ffa3d595f4bd76bef18d4b9d57",
+      "source": "node_modules/jsoneditor/dist/jsoneditor-minimalist.min.js"
+    },
+    {
+      "destination": "vendor/jsoneditor/jsoneditor.css",
+      "package": "jsoneditor",
+      "sha256": "5a6a2f374b0b30803f7fdb54c6d56cf246738768b86c0288afebb149160ab057",
+      "source": "node_modules/jsoneditor/dist/jsoneditor.css"
+    },
+    {
+      "destination": "vendor/jsoneditor/jsoneditor.js",
+      "package": "jsoneditor",
+      "sha256": "e2e435fc4c8c2b73d3c506de25a4c45ddbc0525d9b508ad0c7ded129fbc39f6f",
+      "source": "node_modules/jsoneditor/dist/jsoneditor.js"
+    },
+    {
+      "destination": "vendor/jsoneditor/jsoneditor.map",
+      "package": "jsoneditor",
+      "sha256": "1099fddd57b9db1e8ee5216c409aa92e9b90a1045d638c6348a7ddaa10f0dbf8",
+      "source": "node_modules/jsoneditor/dist/jsoneditor.map"
+    },
+    {
+      "destination": "vendor/jsoneditor/jsoneditor.min.css",
+      "package": "jsoneditor",
+      "sha256": "e15d39dc77408d08c47ff55b73cb9373d9d795f7b5cc4772be726b0b28b5f5ed",
+      "source": "node_modules/jsoneditor/dist/jsoneditor.min.css"
+    },
+    {
+      "destination": "vendor/jsoneditor/jsoneditor.min.js",
+      "package": "jsoneditor",
+      "sha256": "e8c0497c8cd7d7b18be181b45196fe33d6e6d8f0b70f85e0e39b9831a36ac35c",
+      "source": "node_modules/jsoneditor/dist/jsoneditor.min.js"
+    },
+    {
+      "destination": "vendor/jsoneditor/which files do I need.md",
+      "package": "jsoneditor",
+      "sha256": "ecfcf487f10004f18692ef93c0b9904805b7e78f74346fc19656c4090c135aa0",
+      "source": "node_modules/jsoneditor/dist/which files do I need.md"
+    }
+  ]
+}

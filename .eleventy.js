@@ -5,6 +5,7 @@ const {
 } = require("luxon");
 const ISO6391 = require("iso-639-1");
 const { serializeJsonForHtml } = require("./lib/web-security.cjs");
+const vendorAssets = require("./config/vendor-assets.cjs");
 
 const isDevelopment = process.env.ELEVENTY_ENV === "dev";
 
@@ -41,22 +42,11 @@ module.exports = function(eleventyConfig) {
       "src/assets/images": "assets/images"
     });
 
-    eleventyConfig.addPassthroughCopy({
-      'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js': 'scripts/bootstrap.bundle.min.js'
-    });
-
-    eleventyConfig.addPassthroughCopy({
-      'node_modules/bootstrap/dist/css/bootstrap.min.css': 'styles/bootstrap.min.css'
-    });
-
-    eleventyConfig.addPassthroughCopy({
-      'node_modules/dompurify/dist/purify.min.js': 'scripts/purify.min.js'
-    });
-
-    eleventyConfig.addPassthroughCopy({
-      'node_modules/jsoneditor/dist': 'vendor/jsoneditor',
-      'node_modules/bootstrap-icons/font': 'vendor/bootstrap-icons'
-    });
+    eleventyConfig.addPassthroughCopy(
+      Object.fromEntries(
+        vendorAssets.map(({ source, destination }) => [source, destination]),
+      ),
+    );
 
     eleventyConfig.addFilter("date", (timestamp, format = "yyyy-MM-dd") => {
         if (timestamp === null || typeof timestamp === 'undefined') return '';

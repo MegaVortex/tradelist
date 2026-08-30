@@ -6,15 +6,17 @@
   "scripts": {
     "audit:security": "npm audit --audit-level=moderate && npm --prefix helpers/tl_tool audit --audit-level=moderate",
     "clean:public": "node scripts/clean-public.cjs",
-    "build": "npm run clean:public && eleventy && npm run check:production-output",
+    "build": "npm run check:vendor-integrity && npm run clean:public && eleventy && npm run check:production-output",
     "build:dev": "npm run clean:public && cross-env ELEVENTY_ENV=dev eleventy",
     "check:production-output": "node scripts/check-production-output.cjs",
     "save-server": "node dev-server.js",
     "serve:dev": "cross-env ELEVENTY_ENV=dev eleventy --serve",
-    "serve:static": "npx -y http-server@14 ./public -p 8080 -c-1",
+    "serve:static": "http-server ./public -a 127.0.0.1 -p 8080 -c-1",
     "serve:test": "node scripts/serve-production-test.cjs",
     "test:e2e": "playwright test",
-    "test:security": "node --test tests/node/dependency-security.spec.cjs tests/node/dev-server-security.spec.cjs tests/node/generated-xss-security.spec.cjs tests/node/workflow-security.spec.cjs && npm --prefix helpers/tl_tool run test:security",
+    "check:vendor-integrity": "node scripts/check-vendor-integrity.cjs",
+    "update:vendor-integrity": "node scripts/check-vendor-integrity.cjs --update",
+    "test:security": "npm run check:vendor-integrity && node --test tests/node/dependency-security.spec.cjs tests/node/dev-server-security.spec.cjs tests/node/generated-xss-security.spec.cjs tests/node/supply-chain-security.spec.cjs tests/node/workflow-security.spec.cjs && npm --prefix helpers/tl_tool run test:security",
     "test:ui": "playwright test --ui",
     "test:update": "playwright test -u"
   },
@@ -25,16 +27,16 @@
     "@11ty/eleventy": "^3.1.6",
     "@playwright/test": "^1.62.1",
     "cross-env": "^7.0.3",
-    "http-server": "^14.1.1"
+    "http-server": "14.1.1"
   },
   "dependencies": {
-    "bootstrap": "^5.3.8",
-    "bootstrap-icons": "^1.13.1",
-    "dompurify": "^3.4.14",
+    "bootstrap": "5.3.8",
+    "bootstrap-icons": "1.13.1",
+    "dompurify": "3.4.14",
     "express": "^5.2.1",
     "glightbox": "^3.3.1",
     "iso-639-1": "^3.1.6",
-    "jsoneditor": "^9.10.5",
+    "jsoneditor": "9.10.5",
     "luxon": "^3.7.2",
     "photoswipe": "^5.4.4"
   }

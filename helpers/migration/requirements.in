@@ -1,0 +1,4 @@
+# Direct dependencies used by pictureUploader.py. The resolved, hash-locked
+# environment is committed in requirements.txt.
+google-api-python-client==2.199.0
+google-auth-oauthlib==1.4.1

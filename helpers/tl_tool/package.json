@@ -7,7 +7,7 @@
     "install:media-tools": "node scripts/install-media-tools.cjs",
     "check:media-tools": "node scripts/check-media-tools.cjs",
     "start": "electron .",
-    "test:security": "node --test tests/security.spec.cjs tests/media-tools.spec.cjs"
+    "test:security": "node --test tests/security.spec.cjs tests/media-tools.spec.cjs tests/aspect-ratio.spec.cjs"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
